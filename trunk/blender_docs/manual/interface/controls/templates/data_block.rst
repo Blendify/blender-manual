@@ -4,14 +4,17 @@
 Data-Block Menu
 ***************
 
-A set of menu buttons used to link :doc:`/data_system/data_blocks` to each other.
-Data-blocks are items like meshes, objects, materials, textures, and so on.
-If data-blocks are linked the data will be updated across all of the users when edited.
+.. warning::
+   :doc:`/data_system/data_blocks` are an advanced topic. Beginners may skip this section.
 
-.. figure:: /images/interface_controls_templates_data-block_data-block.jpg
+A set of menu buttons used to link :doc:`/data_system/data_blocks` to
+each other. If data-blocks are linked the data will be updated across
+all of the :term:`data users <Data User>` when edited.
+
+.. figure:: /images/interface_controls_templates_data-block_data-block.png
    :align: right
 
-   The Data-Block menu with a search input.
+   A Data-block menu with a search input field.
 
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.
@@ -26,10 +29,11 @@ Name
    Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
    If a name is already assigned, Blender will add a digit to the name like ".001".
 User count
-   Displays the number of users of the data. Clicking on it will make it a single-user copy,
+   Displays the number of :term:`data users <Data User>` of the data.
+   Clicking on user count button will make it a single-user copy,
    with it linked only to the active object/object's data.
 Fake User ``F``
-   Keeps the data-block saved in the blend-file, even if it has no real users.
+   Keeps the data-block saved in the blend-file, even if it has no :term:`Real User`.
 New/Add ``+``
    Creates a new data-block or duplicates the current data-block and applies it.
 Open file
@@ -67,10 +71,15 @@ Data ID
 
 .. figure:: /images/interface_controls_templates_data-block_data-id.png
 
-   The Data ID.
+   Pop-up menu showing Object Data IDs in the Properties Editor.
 
-A Data ID is a text field with an icon on the left, which opens a gray pop-up.
-It is used to reference data-blocks selected by their name.
+Data ID is a unique name for an object. Data ID is used to refer to
+objects, and therefore Blender does not allow any two objects of same
+type to have same ID (same name). If Data ID is already in use, Blender will
+automatically append a number to the end to prevent ID collision (for
+example "Cube.001").
+
+Menus showing Data IDs can show following elements:
 
 Type
    The icon on the left specifies the accepted data-block type.
@@ -92,7 +101,12 @@ Sub IDs
 -------
 
 .. figure:: /images/interface_controls_templates_data-block_subids.png
+	    
+   Example of Vertex Group IDs in Object Data tab in Properties Editor.
 
+Related types of IDs can be listed to specify their properties and
+relations to an object, depending on object types. Examples:
+   
 Vertex Group
    If the selected object in the *Name* field is a mesh or a lattice,
    an additional field is displayed where a vertex group can be selected.
