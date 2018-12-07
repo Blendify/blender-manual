@@ -4,9 +4,6 @@
 Data-Block Menu
 ***************
 
-.. warning::
-   :doc:`/data_system/data_blocks` are an advanced topic. Beginners may skip this section.
-
 A set of menu buttons used to link :doc:`/data_system/data_blocks` to
 each other. If data-blocks are linked the data will be updated across
 all of the :term:`data users <Data User>` when edited.
@@ -75,9 +72,9 @@ Data ID
 
 Data ID is a unique name for an object. Data ID is used to refer to
 objects, and therefore Blender does not allow any two objects of same
-type to have same ID (same name). If Data ID is already in use, Blender will
-automatically append a number to the end to prevent ID collision (for
-example "Cube.001").
+type to have same ID (same name). If Data ID is already in use,
+Blender will automatically append a number to the end to prevent ID collision
+(for example "Cube.001").
 
 Menus showing Data IDs can show following elements:
 
@@ -101,12 +98,12 @@ Sub IDs
 -------
 
 .. figure:: /images/interface_controls_templates_data-block_subids.png
-	    
+
    Example of Vertex Group IDs in Object Data tab in Properties Editor.
 
 Related types of IDs can be listed to specify their properties and
 relations to an object, depending on object types. Examples:
-   
+
 Vertex Group
    If the selected object in the *Name* field is a mesh or a lattice,
    an additional field is displayed where a vertex group can be selected.

@@ -10,7 +10,7 @@ List Views
 
 .. figure:: /images/interface_controls_templates_list-presets_view-filter.png
    :align: right
-	   
+
    List view with expanded Filtering Options panel.
 
 This control is useful to manage lists of items.

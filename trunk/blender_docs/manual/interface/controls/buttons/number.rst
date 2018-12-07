@@ -1,5 +1,5 @@
 ********************
-Numeric input fields
+Numeric Input Fields
 ********************
 
 .. figure:: /images/interface_controls_buttons_number_number-button.png
@@ -19,11 +19,14 @@ The value can be edited in several ways:
 Incremental Steps
    To change the value in unit steps, click :kbd:`LMB` on the small triangles
    (only available on first field type).
-   You can can also hold :kbd:`Ctrl` and scroll the mouse wheel
+   You can also hold :kbd:`Ctrl` and scroll the mouse wheel
    up or down while hovering over the field.
 Dragging
    To change the value with mouse, hold down :kbd:`LMB` and drag to left or right.
-.. TODO, this is not currently working: Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
+
+   .. TODO, this is not currently working: Hold :kbd:`Ctrl` to snap to the discrete steps
+      while dragging or :kbd:`Shift` for precision input.
+
 Keyboard Input
    Press :kbd:`LMB` or :kbd:`Return` to enter value by typing it with keyboard.
 
@@ -44,8 +47,8 @@ Multi-Value Editing
    Multi-value editing.
 
 You can edit multiple numeric fields at once by pressing down
-:kbd:`LMB` on the first field, and then drag vertically over the
-fields you want to edit. Finally you can either drag left or right to
+:kbd:`LMB` on the first field, and then drag vertically over
+the fields you want to edit. Finally you can either drag left or right to
 adjust value with mouse, or release the :kbd:`LMB` and type in a value.
 
 
