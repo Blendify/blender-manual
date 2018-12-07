@@ -108,41 +108,38 @@ Generating the Set of Files for the Target Language
 
 #. From the ``blender_docs`` directory to generate a set of files for ``fr`` language::
 
-      make gettext
-      sphinx-intl update -p build/locale -l fr
+         make gettext
+         sphinx-intl update -p build/locale -l fr
 
-    These files are still in English only, with all ``msgstr`` entries blank.
+   These files are still in English only, with all ``msgstr`` entries blank.
 
 #. Submit new set of files to the central repository::
 
-      cd locale
-      svn add fr
-      svn commit --username <your username> -m "Initial commit language set of files for French"
+         cd locale
+         svn add fr
+         svn commit --username <your username> -m "Initial commit language set of files for French"
+
 
 #. You don't need all other languages being there, so remove the locale directory for the time being::
 
-      rm -fr locale
+         rm -fr locale
 
    We will download this new set of language as guided in the next section.
 
 .. note::
 
-   - It is recommended you make two environment variables for these directories, in the ``.bashrc``::
+      - It is recommended you make two environment variables for these directories, in the ``.bashrc``::
 
-		  export BLENDER_MAN_EN=$HOME/<directory to make file directory above>/blender_docs
-		  export BLENDER_MAN_FR=$BLENDER_MAN_EN/locale
+            export BLENDER_MAN_EN=$HOME/<directory to make file directory above>/blender_docs
+            export BLENDER_MAN_FR=$BLENDER_MAN_EN/locale
 
-	  To make it more convenient for changing or scripting batch/shell commands
-	  for the process of translation and reviewing results.
+      to make it more convenient for changing or scripting batch/shell commands
+      for the process of translation and reviewing results.
 
-   - Newly generated files will contain some placeholders for authors and revision dates etc.
-     If you find the job of replacing them repetitive, make use of the script ``change_placeholders.sh``
-     in the subdirectory ``~/blender_docs/toos_maintenance``, make a copy of that to your local ``bin`` directory and
-     replace all values that were mentioned in the file with your specific details,
-     then after each change to a file, you would do following commands::
+      - Newly generated files will contain some placeholders for authors and revision dates etc. If you find the job of replacing them repetitive, make use  of the script ``change_placeholders.sh`` in the subdirectory ``~/blender_docs/toos_maintenance``, make a copy of that to your local ``bin`` directory and replace all values that were mentioned in the file with your specific details, then after each change to a file, you would do following commands::
 
-        $HOME/bin/change_placeholders.sh $BLENDER_MAN_FR
-        make -d --trace -w -B -e SPHINXOPTS="-D language='fr'" 2>&1
+            $HOME/bin/change_placeholders.sh $BLENDER_MAN_FR
+            make -d --trace -w -B -e SPHINXOPTS="-D language='fr'" 2>&1
 
-      To update the file with the your personal details, revision date and time,
+      to update the file with the your personal details, revision date and time,
       plus generating the html files for your language, which you can view using your Internet browser.
