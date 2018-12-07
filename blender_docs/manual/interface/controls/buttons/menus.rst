@@ -68,17 +68,16 @@ Pop-Up Menus
    The Transform Orientations pop-up menu.
 
 Like Select Menus, pop-up menus also include down arrow on the right
-side of menu button. However, pop-up menus allow more content to be
-shown, such as title, list options, buttons, sliders etc. Pop-up menus
+side of menu button. However, pop-up menus allow more content to be shown,
+such as title, list options, buttons, sliders etc. Pop-up menus
 allow grouping of controls into a menu, which is automatically hidden
-when mouse pointer leaves menu boundaries (including a margin). Pop-up
-menus are ideal for controls and operations that the user does not
+when mouse pointer leaves menu boundaries (including a margin).
+Pop-up menus are ideal for controls and operations that the user does not
 need very often.
 
 If pop-up menu content is too large to fit on the screen, small menu
-scrolling indicator triangle appears on bottom or top of
-menu. Scrolling is done by moving the mouse below or above the
-scrolling indicator.
+scrolling indicator triangle appears on bottom or top of menu.
+Scrolling is done by moving the mouse below or above the scrolling indicator.
 
 Mouse selection
    :kbd:`LMB` on the desired item.
@@ -120,8 +119,8 @@ All
    Include all combinations.
 Reset All/Single to Default Value(s)
    Replaces the current value by the default (keyboard shortcut :kbd:`Backspace`).
-.. Unset
-.. TODO
+Unset
+   TODO.
 Copy Data Path
    Copies the Python property Data path, relative to the data-block.
    Useful for Python scripting.
@@ -138,7 +137,7 @@ Change Shortcut
 Remove Shortcut
    Unlinks the existing shortcut.
 Online Manual
-   Opens an on-line page of Blender Manual in a web browser.
+   Opens an online page of Blender Manual in a web browser.
 Online Python Reference
    Context-sensitive access to
    the `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__.
@@ -161,9 +160,9 @@ Edit Translation
 Specials Menu
 =============
 
-The Specials pop-up menu contains a context-sensitive list of
-operators.  It is opened by :kbd:`W` in most editors giving quick
-access to tools sensitive to the editor's mode.
+The Specials pop-up menu contains a context-sensitive list of operators.
+It is opened by :kbd:`W` in most editors giving quick access to tools
+sensitive to the editor's mode.
 
 
 .. _bpy.types.UIPieMenu:
@@ -182,7 +181,7 @@ Interaction
 -----------
 
 The pie menu is spawned by a key press,
-such as :kbd:`CTRL+Tab` for the 3D View Editor mode Pie menu.
+such as :kbd:`Ctrl-Tab` for the 3D View Editor mode Pie menu.
 
 .. tip::
 

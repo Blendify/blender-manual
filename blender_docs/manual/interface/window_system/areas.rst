@@ -5,15 +5,15 @@
 Areas
 *****
 
-The application window is divided up into a number of rectangular
-areas. Areas reserve screen space for
-:doc:`/editors/index`, such as 3D Viewport, or an Outliner. Area
-boundary is indicated by rounded (beveled) corners.
+The application window is divided up into a number of rectangular areas.
+Areas reserve screen space for :doc:`/editors/index`, such as 3D Viewport, or an Outliner.
+Area boundary is indicated by rounded (beveled) corners.
 
 .. figure:: /images/interface_window-system_areas_borders.png
 
    Area boundaries are indicated by rounded corners (yellow highlights).
-	    
+
+
 Resizing
 ========
 
@@ -22,6 +22,7 @@ Resizing
 You can resize areas by dragging their borders with :kbd:`LMB`.
 Move your mouse cursor over the border between two areas,
 so that the cursor changes to a double-headed arrow, and then click and drag.
+
 
 Splitting and Joining
 =====================
@@ -36,7 +37,7 @@ inward will *split* the area. You define the split direction by
 dragging either horizontally or vertically.
 
 .. figure:: /images/interface_window-system_areas_join.png
-	    
+
    The Properties Editor is being joined to the Outliner.
 
 Dragging from area corner outward will *join* two areas. The area that
@@ -47,9 +48,9 @@ releasing the mouse, the operation will be aborted.
 
 .. note::
 
-   Areas to be joined must be the same size (width or height) in the
-   direction you wish to join, otherwise nothing will happen. This is
-   so that the combined area remains a rectangle.
+   Areas to be joined must be the same size (width or height)
+   in the direction you wish to join, otherwise nothing will happen.
+   This is so that the combined area remains a rectangle.
 
 
 Area Options

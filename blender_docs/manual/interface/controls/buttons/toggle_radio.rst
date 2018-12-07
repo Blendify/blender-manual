@@ -10,13 +10,13 @@ Check Boxes & Toggle Buttons
 
    Check boxes and Toggle buttons.
 
-These controls are used to activate or deactivate options. Use
-:kbd:`LMB` to change their state. A tick is shown on check boxes when
+These controls are used to activate or deactivate options.
+Use :kbd:`LMB` to change their state. A tick is shown on check boxes when
 the option is activated. Active status on toggle buttons is indicated
 either by color on the icon background, or a change in icon graphics.
 
 .. tip::
-   
+
    To change many values at once on or off, you can press down
    :kbd:`LMB` and drag over multiple buttons. This works for check
    boxes, toggles and to select a radio button value.
