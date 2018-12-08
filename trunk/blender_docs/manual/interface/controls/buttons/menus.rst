@@ -1,5 +1,3 @@
-.. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
-
 .. _bpy.types.Menu:
 
 *****
@@ -30,7 +28,7 @@ Collapsing Menus
 
 Sometimes it's helpful to gain some extra horizontal space in the header by collapsing menus.
 This can be accessed from the header context menu,
-click :kbd:`RMB` on the header and select Collapse Menus.
+click :kbd:`RMB` on the header and select *Collapse Menus*.
 
 .. list-table::
 
@@ -57,6 +55,7 @@ the right side of the button. The menu options are shown with
 :kbd:`LMB` click on the button. The selected option is then shown as
 active on the menu button.
 
+
 .. _bpy.types.UIPopupMenu:
 
 Pop-Up Menus
@@ -67,13 +66,12 @@ Pop-Up Menus
 
    The Transform Orientations pop-up menu.
 
+Pop-up menus are overlays.
 Like Select Menus, pop-up menus also include down arrow on the right
 side of menu button. However, pop-up menus allow more content to be shown,
-such as title, list options, buttons, sliders etc. Pop-up menus
-allow grouping of controls into a menu, which is automatically hidden
+such as title, list options, buttons, sliders, etc.
+Pop-up menus group controls into a menu, which is automatically hidden
 when mouse pointer leaves menu boundaries (including a margin).
-Pop-up menus are ideal for controls and operations that the user does not
-need very often.
 
 If pop-up menu content is too large to fit on the screen, small menu
 scrolling indicator triangle appears on bottom or top of menu.
@@ -171,6 +169,8 @@ Pie Menus
 =========
 
 A pie menu is a menu whose items are spread radially around the mouse.
+Pie menus have to be activated in the User Preferences through
+:menuselection:`Add-ons --> UI --> Pie Menus Official/ 3D Viewport Pie Menus`.
 
 .. figure:: /images/interface_controls_buttons_menus_pie-menu.png
 
@@ -181,7 +181,7 @@ Interaction
 -----------
 
 The pie menu is spawned by a key press,
-such as :kbd:`Ctrl-Tab` for the 3D View Editor mode Pie menu.
+which are listed in the add-on's documentation.
 
 .. tip::
 
