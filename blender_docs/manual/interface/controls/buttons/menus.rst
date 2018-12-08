@@ -1,3 +1,5 @@
+.. |specials-button| image:: /images/interface_controls_buttons_menus_specials.png
+
 .. _bpy.types.Menu:
 
 *****
@@ -159,8 +161,8 @@ Specials Menu
 =============
 
 The Specials pop-up menu contains a context-sensitive list of operators.
-It is opened by :kbd:`W` in most editors giving quick access to tools
-sensitive to the editor's mode.
+It is opened by a button with a down arrow on dark background |specials-button| or
+:kbd:`W` in most editors giving quick access to tools sensitive to the editor's mode.
 
 
 .. _bpy.types.UIPieMenu:
