@@ -70,6 +70,7 @@ Data ID
 
    Pop-up menu showing Object Data IDs in the Properties Editor.
 
+A Data ID is a text field with an icon on the left, which opens a pop-up.
 Data ID is a unique name for an object. Data ID is used to refer to
 objects, and therefore Blender does not allow any two objects of same
 type to have same ID (same name). If Data ID is already in use,

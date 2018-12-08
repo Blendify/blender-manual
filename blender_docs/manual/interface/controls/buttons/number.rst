@@ -7,11 +7,11 @@ Numeric Input Fields
 
    Numeric input fields.
 
-Numeric input fields (text boxes with numerical data) store values and units.
+Numeric input fields store values and units.
 
-First type of numeric input field shows triangles pointing left (◂) and
-right (▸) on the sides of the field when mouse pointer is on top of
-the field. Second field type includes a colored bar in the background
+First type of numeric input field shows triangles pointing left (◂) and right (▸)
+on the sides of the field when mouse pointer is on top of the field.
+Second field type sliders have a colored bar in the background
 to illustrate value over a range, e.g. percentage values.
 
 The value can be edited in several ways:
@@ -19,8 +19,7 @@ The value can be edited in several ways:
 Incremental Steps
    To change the value in unit steps, click :kbd:`LMB` on the small triangles
    (only available on first field type).
-   You can also hold :kbd:`Ctrl` and scroll the mouse wheel
-   up or down while hovering over the field.
+   You can also use :kbd:`Ctrl-Wheel` while hovering over the field to edit the value.
 Dragging
    To change the value with mouse, hold down :kbd:`LMB` and drag to left or right.
 
@@ -55,10 +54,9 @@ adjust value with mouse, or release the :kbd:`LMB` and type in a value.
 Value Limits
 ============
 
-Most numerical values are restricted by "soft limit" and "hard limit"
-value ranges. Changing value by dragging with mouse is restricted to
-"soft limit" value range. Input via keyboard can allow use of wider
-value range, but never wider than "hard limit".
+Most numerical values are restricted by "soft limit" and "hard limit" value ranges.
+Changing value by dragging with mouse is restricted to "soft limit" value range.
+Input via keyboard can allow use of wider value range, but never wider than "hard limit".
 
 
 Expressions
