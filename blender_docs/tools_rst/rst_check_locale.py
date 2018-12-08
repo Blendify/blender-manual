@@ -5,7 +5,7 @@
 # and printout the 'svn rm --force <filename>', so they can be captured to a file and run at
 # user's pleasure. This script assumes the existence of 'addons' directory under the locale/ path.
 # Last-Updater: Hoang Duy Tran <hoangduytran1960@googlemail.com>
-# Last-Updated: 2018-11-22 15:12+0000
+# Last-Updated: 2018-12-08 21:33+0000
 
 """
 This tool checks for unused locale files,
@@ -14,133 +14,160 @@ printing out the command to remove them (if any).
 
 import os
 import sys
+import re
 
-# -----------------------------------------------------------------------------
-# ListPathEvent
-# This is the base body of file listing event handler, based on the java's ActionEvent pattern.
-# It only holds mainly the data passing in by the listPath function
-#   1. dirpath : current path of a file
-#   2. dirnames : all the directory names under the dirpath
-#   3. filenames : only the filename part under the dirpath
-# 3 parts must be combined in order to form the whole absolute path to a filename
-#
 class ListPathEvent:
+    """
+        This is the base body of file listing event handler, based on the java's ActionEvent pattern.
+        It only holds mainly the data passing in by the listPath function
+            1. dirpath : current path of a file
+            2. dirnames : all the directory names under the dirpath
+            3. filenames : only the filename part under the dirpath
+    """
     def __init__(self):
-        self.dirpath = None
-        self.dirnames = None
-        self.filenames = None
+        """
+        Initialise the class, setting all variables to None
+        """
+        self.dirpath : str = None
+        self.dirnames : list = None
+        self.filenames : list = None
+        self.root_path : str = None
 
-    def __repr__(self):
-        l=[]
-        if (self.dirpath):
-            for dir_path in self.dirpath:
-                l.append(dir_path)
-
-        if (self.dirnames):
-            for dir_name in self.dirnames:
-                l.append(dir_name)
-
-        if (self.filenames):
-            for file_name in self.filenames:
-                l.append(file_name)
-        return "".join(l)
-
-    def setVars(self, dirpath, dirnames, filenames):
+    def setVars(self, root_path, dirpath : str, dirnames : list, filenames : list):
+        """
+        :param dirpath: see above
+        :param dirnames: see above
+        :param filenames: see above
+        :return: None
+        """
         self.dirpath = dirpath
         self.dirnames = dirnames
         self.filenames = filenames
+        self.root_path = root_path
 
     def run(self):
+        """
+        Any inherited instance must implement this routine
+        to extract a desired result out of the data provided in
+        provided variables
+        :return: None
+        """
         pass
 
 
-# -----------------------------------------------------------------------------
-# findParentDir
-# An instance of implementation of the ListPathEvent
-# Search for a directory name and return the parent directory of search_path
-# Calling it by x = findParentDir(".svn")
-# get result by x.result
-# return the part BEFORE the ".svn", ie. <locale_dir> (ROOT_DIR/locale/fr)
-#
 class findParentDir(ListPathEvent):
-
-    def __init__(self, search_path):
-        self.search_path = search_path
-        self.result = None
+    """
+    An instance of implementation of the ListPathEvent
+    Search for a directory name and return the parent directory of search_path
+    Calling it by x = findParentDir(".svn")
+    get result by x.result
+    return the part BEFORE the ".svn", ie. <locale_dir> (ROOT_DIR/locale/fr)
+    """
+    def __init__(self, search_path : str):
+        """
+        Initialise the class
+        :param search_path: The path to be searched in the dirnames provided
+        """
+        self.search_path : str = search_path
+        self.result : str = None
+        self.lock_result : bool = False
 
     def run(self):
-        valid = ((self.dirnames != None) and (self.search_path in self.dirnames))
-        if (valid):
+        valid : bool = ((self.dirnames != None) and (self.search_path in self.dirnames))
+        if (valid and (not self.lock_result)):
             self.result = self.dirpath+os.sep
-            #print("self.result: {}, dirnames: {}".format(self.result, self.dirnames))
-            return
+            self.lock_result = True
 
 
-# -----------------------------------------------------------------------------
-# findFileByExtension
-# An instance of implementation of the ListPathEvent
-# Find all files with matching extenion
-# Calling it by x = findFileByExtension("rst")
-# return the list of all files matching the provided extension
-#
 class findFileByExtension(ListPathEvent):
+    """
+    An instance of implementation of the ListPathEvent
+    Find all files with matching extenion input
+    Calling it by x = findFileByExtension("rst")
+    return the list of all files matching the provided extension
+    """
 
-    def __init__(self, search_extension):
-        self.search_extension = search_extension
-        self.result = []
+    def __init__(self, search_extension : str):
+        """
+        Initialise the class with the search_extension
+        :param search_extension:
+        """
+        self.search_extension : str = search_extension
+        self.result : list = []
 
     def run(self):
         for filename in self.filenames:
-            ext = os.path.splitext(filename)[1]
-            is_valid = ext.lower().endswith(self.search_extension)
+            ext : str = os.path.splitext(filename)[1]
+            is_valid : bool = ext.lower().endswith(self.search_extension)
             if (is_valid):
-                entry=os.path.join(self.dirpath, filename)
+                entry : str =os.path.join(self.dirpath, filename)
                 self.result.append(entry)
-                #print("entry:{}".format(entry))
 
-# -----------------------------------------------------------------------------
-# findFileByExtensionRelative
-# An instance of implementation of the ListPathEvent
-# Find all files with matching extenion
-# Calling it by x = findFileByExtension("rst")
-# return the list of all files matching the provided extension, with relative paths
-#
 class findFileByExtensionRelative(ListPathEvent):
+    """
+    An instance of implementation of the ListPathEvent
+    Find all files with matching extenion
+    Calling it by x = findFileByExtension("rst")
+    return the list of all files matching the provided extension, with relative paths
+    """
 
-    def __init__(self, root_dir, search_extension):
-        self.search_extension = search_extension
-        self.root_dir = root_dir
-        self.result = []
+    def __init__(self, search_extension : str):
+        """
+        Initialise the class, setting all variables to input parameters
+
+        :param root_dir: The directory where
+        :param search_extension:
+        """
+        self.search_extension : str = search_extension
+        self.result : list = []
 
     def run(self):
-        excluded_len = len(self.root_dir)
+        excluded_len : int = len(self.root_path)
         for filename in self.filenames:
-            ext = os.path.splitext(filename)[1]
-            valid = ext.lower().endswith(self.search_extension)
+            ext : str = os.path.splitext(filename)[1]
+            valid : bool = ext.lower().endswith(self.search_extension)
             if (valid):
-                entry=os.path.join(self.dirpath, filename)
-                rel_path = entry[excluded_len:]
+                entry : str =os.path.join(self.dirpath, filename)
+                rel_path : str = entry[excluded_len:]
                 self.result.append(rel_path)
 
-# -----------------------------------------------------------------------------
-# findFileByName
-# An instance of implementation of the ListPathEvent
-# Find all files with the same name in all subdirectories
-# Calling it by x = findFileByName("index.po")
-# Get result by x.result
-# return the list of all matching the provided name in all subdirectories
-#
 class findFileByName(ListPathEvent):
+    """
+    An instance of implementation of the ListPathEvent
+    Find all files with the same name in all subdirectories
+    Calling it by x = findFileByName("index.po")
+    Get result by x.result
+    return the list of all matching the provided name in all subdirectories
 
-    def __init__(self, search_name):
-        self.search_name = search_name
-        self.result = []
+    """
+
+    def __init__(self, search_name : str):
+        """
+        Initialise the class, setting all variables to input parameters
+
+        :param search_name: The filename to be searched
+        """
+        self.search_name : str = search_name
+        self.result : list = []
+
+        # is_found : bool = (filename.lower() == self.search_name.lower())
+        self.p: Pattern = re.compile(self.search_name)
 
     def run(self):
+        """
+        This part could be improved using regular expression if there is a need, as:
+
+        p : Pattern = re.compile(search_name)
+        m : Match = p.match(filename)
+        is_found : bool = (m != None)
+
+        :return: None
+        """
         for filename in self.filenames:
-            is_found = (filename.lower() == self.search_name.lower())
+            m: Match = self.p.match(filename)
+            is_found: bool = (m != None)
             if (is_found):
-                entry=os.path.join(self.dirpath, filename)
+                entry : str = os.path.join(self.dirpath, filename)
                 self.result.append(entry)
 
 
@@ -162,47 +189,66 @@ SVN=".svn"
 REMOVAL_SCRIPT_NAME="remove_po_files{}".format(SHELL_EXT)
 REMOVAL_SCRIPT_PATH=os.path.join(HOME_DIR, REMOVAL_SCRIPT_NAME)
 
-#print("REMOVAL_SCRIPT_PATH {}".format(REMOVAL_SCRIPT_PATH))
-#exit(1)
 #Use this to find the parent path to the directory where '.po' files reside
 #This is potentially made the code goes wrong if the 'addons' directory is changed to something else
 PO_FIND_DIR="addons"
 #print("CURRENT_DIR: {}\nROOT_DIR: {}\nRST_DIR: {}\nLOCALE_DIR: {}".format(CURRENT_DIR, ROOT_DIR, RST_DIR, LOCALE_DIR))
 
-# -----------------------------------------------------------------------------
-# print_title
-# Print out a string to the standard output,
-# with uppercase and double underline matching the length of input string
-#
 def print_title(title, underline="="):
+    """
+    Print out a string to the standard output,
+    with uppercase and double underline matching the length of input string
+
+    :param title: The string tile
+    :param underline: The character for underlinning line
+    :return: None
+    """
     print(f"\n{title.upper()}\n{len(title) * underline}")
 
 
-# -----------------------------------------------------------------------------
-# Common Utilities
-# base function to list path based on the condition and actions defined in the run routine of the callback function
-# remember the callback function must be an instance of ListPathEvent, so your function must inherit that
-def listPath(path, callback):
+def listPath(path : str, callback : object):
+    """
+    Base function to list path based on the condition and actions defined in the run routine of the callback function
+    remember the callback function must be an instance of ListPathEvent, so your function must inherit that
+
+    :param path: The path to be listed
+    :param callback: The callback function which will be executed under os.walk(path)
+    :return: None
+    """
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath.startswith(DOT):
             continue
 
-        valid_function = ((not callback is None) and (isinstance(callback, ListPathEvent)))
+        valid_function : bool = ((not callback is None) and (isinstance(callback, ListPathEvent)))
         if (valid_function):
-            callback.setVars(dirpath, dirnames, filenames)
+            callback.setVars(path, dirpath, dirnames, filenames)
             callback.run()
 
 
-# -----------------------------------------------------------------------------
-# changeExtension
-# swap the existing extension with a new one
-def changeExtension(entry, to_ext):
-    r_index = entry.rfind(DOT)
-    new_entry = entry[:r_index]+to_ext
+def changeExtension(entry : str, to_ext : str):
+    """
+    Change a filename with an extension to another, if a file extension exists. If not,
+    the new extension WON'T be attached.
+    :param entry: The filename entry expecting to have an extension
+    :param to_ext: The extension to change to
+    :return: A filename with new extension if the file already has an extension
+    """
+    new_entry = entry
+    r_index : int = entry.rfind(DOT)
+    has_dot : boot = (r_index >= 0)
+    if (has_dot):
+        new_entry = entry[:r_index]+to_ext
     return new_entry
 
 
-def writeFile(file_name, text):
+def writeFile(file_name : str, text : str):
+    """
+    Write the text content to a file with the name provided
+
+    :param file_name: the name of the file to be written to (included path)
+    :param text: The text with content to be written
+    :return: None
+    """
     try:
         with open(file_name, "w+") as f:
             f.write(text)
@@ -211,12 +257,17 @@ def writeFile(file_name, text):
         print("Error: " + str(e))
         exit(1)
 
-def writeExecutableShellScript(executable_entry_list, exec_directory):
-    text_for_entries = os.linesep.join(executable_entry_list)
-    cd_exec_dir_text = "cd {}{}".format(exec_directory, os.linesep)
-    cd_return_dir = "cd {}{}".format(ROOT_DIR, os.linesep)
-    writing_text = "{} Run this script to remove spurious PO files that should no longer be there.{}{}{}{}{}".\
-        format(COMMENT_FLAG, os.linesep, cd_exec_dir_text, text_for_entries, os.linesep, cd_return_dir)
+def writeExecutableShellScript(executable_entry_list : list, exec_directory : str):
+    """
+    Write a shell script that can be executed from shell/command line environment.
+    :param executable_entry_list: The list of commands including parameters to be executed
+    :param exec_directory: The directory where the above commands are to be executed from
+    :return: None
+    """
+    text_for_entries : str = os.linesep.join(executable_entry_list)
+    cd_exec_dir_text : str = "cd {}{}".format(exec_directory, os.linesep)
+    writing_text : str = "{} Run this script to remove spurious PO files that should no longer be there.{}{}{}{}".\
+        format(COMMENT_FLAG, os.linesep, cd_exec_dir_text, text_for_entries, os.linesep)
     writeFile(REMOVAL_SCRIPT_PATH, writing_text)
 
 
@@ -224,7 +275,12 @@ def writeExecutableShellScript(executable_entry_list, exec_directory):
 # Locale Checks
 def warn_locale():
     """
-    Check for stale PO files.
+    Check for stale of PO files to see if the corresponding RST entry exists.
+    If not, list non-exist entries into a file and instruct users to execute that script file
+    to remove unwanted entries.
+
+    If no entries are found (ie. for every PO files there exists a corresponding RST entry) then
+    NO message and no script file are produced.
     """
     find_by_dir=findParentDir(SVN)
     listPath(LOCALE_DIR, find_by_dir)
@@ -236,12 +292,20 @@ def warn_locale():
     listPath(locale_dir, find_by_dir)
     po_dir = find_by_dir.result
 
+    """
+    Example how to use findFileByName using regular expression, listing out all index.po files
+    
+    f_name = findFileByName("ind.*\.po")
+    listPath(po_dir, f_name)
+    result = f_name.result
+    print("result:{}".format(result))    
+    """
+
     len_local_dir = len(locale_dir)
     po_dir_patch_part = po_dir[len_local_dir:]
 
-
-    find_po_files = findFileByExtensionRelative(po_dir, PO)
-    listPath(LOCALE_DIR, find_po_files)
+    find_po_files = findFileByExtensionRelative(PO)
+    listPath(po_dir, find_po_files)
     po_file_list = sorted(find_po_files.result)
 
     unfound_unique_po_list=[]
