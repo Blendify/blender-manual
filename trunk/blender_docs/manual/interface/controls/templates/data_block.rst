@@ -11,7 +11,7 @@ all of the :term:`data users <Data User>` when edited.
 .. figure:: /images/interface_controls_templates_data-block_data-block.png
    :align: right
 
-   A Data-block menu with a search input field.
+   A Data-block menu with a search field.
 
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.
@@ -68,7 +68,7 @@ Data ID
 
 .. figure:: /images/interface_controls_templates_data-block_data-id.png
 
-   Pop-up menu showing Object Data IDs in the Properties Editor.
+   A Data ID field.
 
 A Data ID is a text field with an icon on the left, which opens a pop-up.
 Data ID is a unique name for an object. Data ID is used to refer to
