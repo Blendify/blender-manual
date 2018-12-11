@@ -6,8 +6,8 @@
 Adding a Language
 *****************
 
-Generate a New Set of Files for a Target Language
-=================================================
+Preparations
+------------
 
 If the language you want to translate has not been started by someone else already and
 you wish to create a set of new files for the desired language, say 'fr' (French),
@@ -20,10 +20,6 @@ This will give you a foundation environment for:
 - Perform 'make' command to turn translated texts in 'po' files into html files for testing locally.
 - Update changes in English texts which have been added by other contributors.
 
-Creating a New Set of Translation Files for a Target Language
--------------------------------------------------------------
-
-In this section, we will be examining the process to create a new set of files for a target language.
 Below examples shows the process to create a new set of files for French, language code ``fr``, on Linux platform.
 Other platforms might vary slightly but should mainly the same.
 
