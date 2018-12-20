@@ -129,7 +129,32 @@ class findFileByExtensionRelative(ListPathEvent):
             if (valid):
                 entry : str =os.path.join(self.dirpath, filename)
                 rel_path : str = entry[excluded_len:]
+                if (rel_path.startswith(os.sep)):
+                    rel_path = rel_path[1:]
                 self.result.append(rel_path)
+
+class findDirRelative(ListPathEvent):
+    """
+    An instance of implementation of the ListPathEvent
+    Find all dỉrectories from a given root
+    return the list of all directory under the root with relative paths
+    """
+
+    def __init__(self):
+        """
+        Initialise the class, setting all variables to input parameters
+        """
+        self.result : list = []
+
+    def run(self):
+        excluded_len : int = len(self.root_path)
+        for dir_name in self.dirnames:
+            full_path = os.path.join(self.dirpath, dir_name)
+            rel_path : str = full_path[excluded_len:]
+            if (rel_path.startswith(os.sep)):
+                rel_path = rel_path[1:]
+            self.result.append(rel_path)
+
 
 class findFileByName(ListPathEvent):
     """
@@ -186,6 +211,7 @@ DOT="."
 PO=".po"
 RST=".rst"
 SVN=".svn"
+LC_MSG="LC_MESSAGES"
 REMOVAL_SCRIPT_NAME="remove_po_files{}".format(SHELL_EXT)
 REMOVAL_SCRIPT_PATH=os.path.join(HOME_DIR, REMOVAL_SCRIPT_NAME)
 
@@ -271,16 +297,57 @@ def writeExecutableShellScript(executable_entry_list : list, exec_directory : st
     writeFile(REMOVAL_SCRIPT_PATH, writing_text)
 
 
+def findOrphanedFiles(po_dir:str, locale_dir:str) -> list:
+
+    len_local_dir = len(locale_dir)
+    po_dir_patch_part = po_dir[len_local_dir:]
+
+    find_po_files = findFileByExtensionRelative(PO)
+    listPath(po_dir, find_po_files)
+    po_file_list = sorted(find_po_files.result)
+
+    unfound_unique_po_list=[]
+    for po_file in po_file_list:
+        rst_file = changeExtension(po_file, RST)
+        rst_entry = os.path.join(RST_DIR, rst_file)
+        is_file_existed = os.path.exists(rst_entry)
+        if (not is_file_existed):
+            po_unfound_entry = "svn rm --force {}".format(os.path.join(po_dir_patch_part, po_file))
+            if (not po_unfound_entry in unfound_unique_po_list):
+                unfound_unique_po_list.append(po_unfound_entry)
+    return unfound_unique_po_list
+
+def findOrphanedDir(po_dir:str, locale_dir:str) -> list:
+
+    len_local_dir = len(locale_dir)
+    po_dir_patch_part = po_dir[len_local_dir:]
+
+    find_po_dir_list = findDirRelative()
+    listPath(po_dir, find_po_dir_list)
+    po_dir_list = sorted(find_po_dir_list.result)
+
+    unfound_unique_po_list=[]
+    for po_dir in po_dir_list:
+        rst_entry = os.path.join(RST_DIR, po_dir)
+        is_file_existed = os.path.exists(rst_entry)
+        if (not is_file_existed):
+            po_unfound_entry = "svn rm --force {}".format(os.path.join(po_dir_patch_part, po_dir))
+            if (not po_unfound_entry in unfound_unique_po_list):
+                unfound_unique_po_list.append(po_unfound_entry)
+    return unfound_unique_po_list
+
 # -----------------------------------------------------------------------------
 # Locale Checks
 def warn_locale():
     """
     Check for stale of PO files to see if the corresponding RST entry exists.
     If not, list non-exist entries into a file and instruct users to execute that script file
-    to remove unwanted entries.
+    to remove unwanted entries.    
 
     If no entries are found (ie. for every PO files there exists a corresponding RST entry) then
     NO message and no script file are produced.
+    
+    Do the same for directories only as well.
     """
     find_by_dir=findParentDir(SVN)
     listPath(LOCALE_DIR, find_by_dir)
@@ -292,31 +359,11 @@ def warn_locale():
     listPath(locale_dir, find_by_dir)
     po_dir = find_by_dir.result
 
-    """
-    Example how to use findFileByName using regular expression, listing out all index.po files
-    
-    f_name = findFileByName("ind.*\.po")
-    listPath(po_dir, f_name)
-    result = f_name.result
-    print("result:{}".format(result))    
-    """
 
-    len_local_dir = len(locale_dir)
-    po_dir_patch_part = po_dir[len_local_dir:]
+    orphaned_file_list = findOrphanedFiles(po_dir, locale_dir)
+    orphaned_dir_list = findOrphanedDir(po_dir, locale_dir)
 
-    find_po_files = findFileByExtensionRelative(PO)
-    listPath(po_dir, find_po_files)
-    po_file_list = sorted(find_po_files.result)
-
-    unfound_unique_po_list=[]
-    for po_file in po_file_list:
-        rst_file = changeExtension(po_file, ".rst")
-        rst_entry = os.path.join(RST_DIR, rst_file)
-        is_file_existed = os.path.exists(rst_entry)
-        if (not is_file_existed):
-            po_unfound_entry = "svn rm --force {}".format(os.path.join(po_dir_patch_part, po_file))
-            if (not po_unfound_entry in unfound_unique_po_list):
-                unfound_unique_po_list.append(po_unfound_entry)
+    unfound_unique_po_list = orphaned_file_list + orphaned_dir_list
 
     if (len(unfound_unique_po_list) > 0):
         print_title("Found SVN entries should no longer exists and can be removed:")
