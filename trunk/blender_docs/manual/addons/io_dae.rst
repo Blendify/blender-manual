@@ -5,7 +5,7 @@ Collada
 
 :Name: Collada format
 :Location: :menuselection:`File --> Import/Export --> Collada (.dae)`
-:Version: 1.6.68
+:Version: OpenCollada 1.6.68
 :Blender: 2.80
 :Category: Import-Export
 :Authors: Gaia Clary
@@ -45,7 +45,15 @@ Find Bone Chains
    Find best matching Bone chains and make sure that children are connected to their parent
 Auto Connect
    Connect bones to their parent if they are the only child of their parent
+Minimum chain Length
+   Minimum number of bones in a parent/child hierarchy needed to identify a chain. Used for auto connect and find boine chains
+Keep Bind Info
+   Add 2 custom properties to each bone containing:
 
+   * rest_mat: an array of 16 values representing the restpose matrix at time of import
+   * bind_mat: an array of 16 values representing the bindpose matrix at time of import
+
+   Note: The bind_mat is identical to the rest_mat if the Armature is imported with its Restpose.
 
 Export
 ------
@@ -89,11 +97,15 @@ Anim
 Include Animations
    Export Animation data
 Export format
-   - Samples: Create sample frames with Sample Rate (see below)
-   - Curves: Keep aanimation curves intact (experimental, does not work with Sheer)
+
+   * Samples: Create sample frames with Sample Rate (see below)
+   * Curves: Keep aanimation curves intact (experimental, does not work with Sheer)
+
 Transformation Type
-   - Matrix: Export Transformations as baked matrices
-   - TransRotLoc: Export Transformations as separate curves for Translation, Rotation and Scale
+
+   * Matrix: Export Transformations as baked matrices
+   * TransRotLoc: Export Transformations as separate curves for Translation, Rotation and Scale
+
 Keep Smooth curves
    Also export Curve Handles (only works when the animated object parent inverse matrix is unity)
 Sampling Rate
@@ -117,9 +129,16 @@ Use Blender Profile
 Sort by Object Name
    Make sure the exported objects are exported in Sort order of their Names
 Keep Bind Info
-   If a bone contains the special custom property bind_mat (16 float values of a 4*4 Matrix)
-   the bind_mat is exported instead of the bone's restpose matrix (Needed when handling
-   rigs that where originally made with a biond pose (which Blender does not support)
+   Each bone can have two custom properties:
+
+   * rest_mat: an array of 16 values representing the restpose matrix at time of import
+   * bind_mat: an array of 16 values representing the bindpose matrix at time of import
+
+   If the bind_mat is defined then use that matrix as bindmatrix of the bone
+   If the rest_mat is defined then use that matrix as the restmatrix of the bone
+   This correspondents with the same custom properties from the Collada Importer.
+   Bind_mat and rest_mat are needed when handling rigs that where originally made 
+   with a bind pose (which Blender does not support)
 Limit Precision
    Take care to use at max 5 digits after the comma. good for debugging when you want to compare values
 
