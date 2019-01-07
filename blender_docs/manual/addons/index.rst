@@ -12,6 +12,7 @@ Import Export
 
    io_3ds.rst
    io_bvh.rst
+   io_dae.rst
    io_fbx.rst
    io_obj.rst
    io_ply.rst
