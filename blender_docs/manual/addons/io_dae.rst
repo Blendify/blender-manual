@@ -1,7 +1,7 @@
 
-************
+*******
 Collada
-************
+*******
 
 :Name: Collada format
 :Location: :menuselection:`File --> Import/Export --> Collada (.dae)`
@@ -18,11 +18,13 @@ This format is mainly use for interchanging character animations between applica
 and is supported by applications such as Cinema4D, Maya, Autodesk 3ds Max, Wings3D and
 engines such as Unity3D, Unreal Engine 3/UDK and Unreal Engine 4.
 
-The exporter can bake mesh modifiers and animation into the Collada export so the final result looks the same as in Blender.
+The exporter can bake mesh modifiers and animation into the Collada export
+so the final result looks the same as in Blender.
 
 .. note::
 
-   - This module is still in development
+   This module is still in development.
+
 
 Properties
 ==========
@@ -33,27 +35,30 @@ Import
 Main
 ^^^^
 
-import Units
-   Use Unit information from the Asset node in the Collada file. Use Blender units if not enabled
+Import Units
+   Use unit information from the Asset node in the Collada file. Use Blender units if not enabled.
+
 
 Armatures
 ^^^^^^^^^
 
 Fix Leaf Bones
-   Try to find a reasonable location for the bone tails of leaf nodes
+   Try to find a reasonable location for the bone tails of leaf nodes.
 Find Bone Chains
-   Find best matching Bone chains and make sure that children are connected to their parent
+   Find best matching bone chains and make sure that children are connected to their parent.
 Auto Connect
-   Connect bones to their parent if they are the only child of their parent
-Minimum chain Length
-   Minimum number of bones in a parent/child hierarchy needed to identify a chain. Used for auto connect and find boine chains
+   Connect bones to their parent if they are the only child of their parent.
+Minimum Chain Length
+   Minimum number of bones in a parent/child hierarchy needed to identify it as a chain.
+   Used for auto connect and to find bone chains.
 Keep Bind Info
-   Add 2 custom properties to each bone containing:
+   Add two custom properties to each bone containing:
 
-   * rest_mat: an array of 16 values representing the restpose matrix at time of import
-   * bind_mat: an array of 16 values representing the bindpose matrix at time of import
+   - rest_mat: An array of 16 values representing the rest-pose matrix at time of import.
+   - bind_mat: An array of 16 values representing the bind-pose matrix at time of import.
 
-   Note: The bind_mat is identical to the rest_mat if the Armature is imported with its Restpose.
+   Note that, the ``bind_mat`` is identical to the ``rest_mat`` if the armature is imported with its rest pose.
+
 
 Export
 ------
@@ -64,83 +69,87 @@ Main
 Selection Only
    Only export the selected objects. Otherwise export all objects in the scene.
 Include Children
-   Include Children of selected objects even if not selected
+   Include children of selected objects even if not selected.
 Include Armatures
-   Include Armatures for rigged Objects even if the armatrure is not selected
+   Include armatures for rigged objects even if the armature is not selected.
 Include Shape Keys
-   Export Shape key data (caution, this creates very large output files if many shape keys are defined)
+   Export shape key data (caution, this creates very large output files if many shape keys are defined).
 Only Selected UV Map
-   Export active UV Map when enabled, otherwise export all UV Maps
+   Export the active UV map when enabled, otherwise export all UV maps.
 Copy
-   Copy textures to same folder where the .dae file is exported, otherwise create links to the image files
-Geom
-^^^^
+   Copy textures to same folder where the dae-file is exported to, otherwise create links to the image files.
+
+
+Geometry
+^^^^^^^^
 
 Apply Modifiers
    When enabled, the mesh will be from the output of the modifiers applied to the mesh.
 Triangulate
-   Triangulate meshes before exporting (use when target engine supports only tris)
+   Triangulate meshes before exporting (use this option when the target engine supports only tris).
 
 
-Arm
-^^^
+Armature
+^^^^^^^^
 
-Deform Bones only
-   restrict armature to its deform bones
-Export to SL/OPenSim
-   Prepare the Rig for the SL target engine (to be specified)
+Deform Bones Only
+   Restrict armature to its deform bones.
+Export to SL/OpenSim
+   Prepare the rig for the :abbr:`SL (Second Life)` target engine (to be specified).
 
 
-Anim
-^^^^
+Animation
+^^^^^^^^^
 
 Include Animations
-   Export Animation data
+   Export Animation data.
 Export format
 
-   * Samples: Create sample frames with Sample Rate (see below)
-   * Curves: Keep aanimation curves intact (experimental, does not work with Sheer)
+   - Samples: Create sample frames with the specified *Sample Rate* (see below).
+   - Curves: Keep animation curves intact (experimental, does not work with *Sheer*).
 
 Transformation Type
 
-   * Matrix: Export Transformations as baked matrices
-   * TransRotLoc: Export Transformations as separate curves for Translation, Rotation and Scale
+   - Matrix: Export transformations as baked matrices.
+   - TransRotLoc: Export transformations as separate curves for translation, rotation and scale.
 
 Keep Smooth curves
-   Also export Curve Handles (only works when the animated object parent inverse matrix is unity)
+   Also export curve handles (only works when the animated object parent-inverse matrix is unity).
 Sampling Rate
-   Distance between 2 sample keyframes (1 means: Every frame is keyed)
+   Distance between two sample keyframes (1 means: every frame is keyed).
 Keep Keyframes
-   Make sure that the keyframes are always exported even if they are between 2 sample frames
-All keyed Curves
-   Also export flat curves (with all ikey values identical or only one key defined)
-Include all Actions
+   Make sure that the keyframes are always exported even if they are between two sample frames.
+All Keyed Curves
+   Also export flat curves (with all key values identical or only one key defined).
+Include All Actions
    Export all actions compatible with the selected armatures
    start/end times which are derived from the keyframe range of each action.
    When disabled only the currently assigned action is exported.
+
 
 Extra
 ^^^^^
 
 Use Object Instances
-   Define an Object only once and use references (not supported on all target engines)
+   Define an object only once and use it as a reference (not supported on all target engines).
 Use Blender Profile
-   Export extra information to allow more precise backimport into Blender
+   Export extra information to allow a more precise import back into Blender.
 Sort by Object Name
-   Make sure the exported objects are exported in Sort order of their Names
+   Make sure the exported objects are exported in sort order of their names.
 Keep Bind Info
    Each bone can have two custom properties:
 
-   * rest_mat: an array of 16 values representing the restpose matrix at time of import
-   * bind_mat: an array of 16 values representing the bindpose matrix at time of import
+   - rest_mat: An array of 16 values representing the rest-pose matrix at time of import.
+   - bind_mat: An array of 16 values representing the bind-pose matrix at time of import.
 
-   If the bind_mat is defined then use that matrix as bindmatrix of the bone
-   If the rest_mat is defined then use that matrix as the restmatrix of the bone
-   This correspondents with the same custom properties from the Collada Importer.
-   Bind_mat and rest_mat are needed when handling rigs that where originally made 
-   with a bind pose (which Blender does not support)
+   If the ``bind_mat`` is defined then use that matrix as bind matrix of the bone.
+   If the ``rest_mat`` is defined then use that matrix as the rest matrix of the bone.
+   This corresponds with the same custom properties from the Collada Importer.
+   ``Bind_mat`` and ``rest_mat`` are needed when handling rigs that where originally made
+   with a bind pose (which Blender does not support).
 Limit Precision
-   Take care to use at max 5 digits after the comma. good for debugging when you want to compare values
+   Take care to use at max five digits after the comma. This is good for debugging when you want to compare values.
+
 
 Compatibility
 =============
@@ -156,8 +165,8 @@ Export
 
 TODO
 
+
 Missing
 -------
 
 TODO
-
