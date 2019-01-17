@@ -103,20 +103,18 @@ Animation
 
 Include Animations
    Export Animation data.
-Export format
-
+Export Format
    - Samples: Create sample frames with the specified *Sample Rate* (see below).
    - Curves: Keep animation curves intact (experimental, does not work with *Sheer*).
 
 Transformation Type
-
    - Matrix: Export transformations as baked matrices.
    - TransRotLoc: Export transformations as separate curves for translation, rotation and scale.
 
-Keep Smooth curves
+Keep Smooth Curves
    Also export curve handles (only works when the animated object parent-inverse matrix is unity).
 Sampling Rate
-   Distance between two sample keyframes (1 means: every frame is keyed).
+   Distance between two sample keyframes (1 means every frame is keyed).
 Keep Keyframes
    Make sure that the keyframes are always exported even if they are between two sample frames.
 All Keyed Curves
