@@ -78,15 +78,16 @@ function removeCommentedLineInSingleFile()
 	fi
 }
 
+
 #Replace and report changes based on the differences of sha256sums before and after
 function replaceAndReport()
 {
-	change_file="$1"
+	changed_file="$1"
 	pattern="$2"
 	value="$3"
-	shasum_before=$(sha256sum $changed_file)
+	shasum_before=$(sha256sum $changed_file |  awk '{ print $1 }')
 	sed -i "s|${pattern}|${value}|g" $changed_file
-	shasum_after=$(sha256sum $changed_file)
+	shasum_after=$(sha256sum $changed_file |  awk '{ print $1 }')
 	if [ "$shasum_before" != "$shasum_after" ]; then
 		echo "Replaced: $pattern => $value"
 	fi
