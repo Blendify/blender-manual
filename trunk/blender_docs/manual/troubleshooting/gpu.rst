@@ -23,7 +23,7 @@ Windows
 On Windows drivers are provided by the graphics card manufacturer (Intel, AMD and NVIDIA).
 Windows update automatically installs graphics drivers,
 or your computer manufacturer may provide its own version of the graphics drivers.
-However these are not always the latest version, or may have been corrupted in some way.
+However these are not always the latest version or may have been corrupted in some way.
 
 To ensure you have the latest version, go to the graphics card manufacturer's website and
 download the latest drivers from there. It can help to uninstall the previous drivers first and
@@ -39,34 +39,34 @@ Some distributions provide multiple packages for multiple drivers versions,
 giving you the choice to install newer versions.
 
 For NVIDIA there are open source (Nouveau) and closed source (by NVIDIA) graphics drivers.
-Blender functions best with the closed source drivers, as they are more optimized and complete.
-Linux graphics drivers can be downloaded from NVIDIA's website, however in most cases,
+Blender functions best with the closed source drivers as they are more optimized and complete.
+Linux graphics drivers can be downloaded from NVIDIA's website, however in most cases
 the ones from your Linux distribution are fine and make things easier.
 Manually downloading drivers is mostly useful to get the very latest version,
 for example for a GPU that was only recently released.
 
 For AMD the drivers are open source, except for the OpenCL support which is available as part of Pro drivers.
-Installing packages through your Linux distribution is usually best,
-though AMD also provides graphics drivers for download on their website if you need the latest version.
+Installing packages through your Linux distribution is usually best.
+AMD also provides graphics drivers for download on their website if you need the latest version.
 
 
 macOS
 -----
 
 On macOS graphics drivers are built into the operating system and
-the only way to get newer drivers is to upgrade the macOS as a whole to the latest version.
+the only way to get newer drivers is to upgrade macOS as a whole to the latest version.
 
 
 Laptops
 =======
 
-Laptops often have two GPUs, for power saving purposes.
+Laptops often have two GPUs for power saving purposes.
 One slower onboard GPU (typically Intel) and one faster dedicated GPU for better performance (AMD or NVIDIA).
 
-For best performance the dedicated GPU should be for Blender.
+For best performance the dedicated GPU should be used for Blender.
 Which GPU to use for which application can be configured in your graphics driver settings.
 
-If there is a graphics glitch specific to the onboard GPU, using the dedicated GPU can also help avoid that.
+If there is a graphics glitch specific to the onboard GPU, then using the dedicated GPU can also help avoid that.
 
 
 Common Problems
