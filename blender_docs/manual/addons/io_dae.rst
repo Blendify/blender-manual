@@ -105,7 +105,7 @@ Include Animations
    Export Animation data.
 Export Format
    - Samples: Create sample frames with the specified *Sample Rate* (see below).
-   - Curves: Keep animation curves intact (experimental, does not work with *Sheer*).
+   - Curves: Keep animation curves intact (experimental, does not work with *Shear*).
 
 Transformation Type
    - Matrix: Export transformations as baked matrices.
