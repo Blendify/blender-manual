@@ -6,12 +6,12 @@ Blender's History
 In 1988, Ton Roosendaal co-founded the Dutch animation studio NeoGeo. NeoGeo quickly became
 the largest 3D animation studio in the Netherlands and one of the leading animation houses in Europe.
 NeoGeo created award-winning productions (European Corporate Video Awards 1993 and 1995)
-for large corporate clients such as multinational electronics company Philips.
-Within NeoGeo Ton was responsible for both art direction and internal software development.
-After careful deliberation Ton decided that the current in-house 3D tool set for NeoGeo was
+for large corporate clients such as the multinational electronics company Philips.
+Within NeoGeo, Ton was responsible for both art direction and internal software development.
+After careful deliberation, Ton decided that the current in-house 3D tool set for NeoGeo was
 too old and cumbersome to maintain, and needed to be rewritten from scratch.
 In 1995 this rewrite began and was destined to become the 3D software creation we all know as Blender.
-As NeoGeo continued to refine and improve Blender it became apparent to Ton
+As NeoGeo continued to refine and improve Blender, it became apparent to Ton
 that Blender could be used as a tool for other artists outside of NeoGeo.
 
 In 1998, Ton decided to found a new company called Not a Number (NaN)
@@ -30,7 +30,7 @@ venture capitalists. This large inflow of cash enabled NaN to rapidly expand its
 Soon NaN boasted as many as fifty employees working around the world trying to improve and promote Blender.
 In the summer of 2000, Blender 2.0 was released.
 This version of Blender added the integration of a game engine to the 3D application.
-By the end of 2000, the number of users registered on the NaN website surpassed 250,000.
+By the end of 2000, the number of users registered on the NaN website exceeded 250,000.
 
 Unfortunately, NaN's ambitions and opportunities did not match the company's capabilities and
 the market realities of the time. This over-extension resulted in restarting NaN with new
@@ -43,10 +43,10 @@ The shutdown also included discontinuing the development of Blender.
 Although there were clearly shortcomings in the then current version of Blender,
 such as a complex internal software architecture,
 unfinished features and a non-standard way of providing the GUI, the enthusiastic support from
-the user community and customers who had purchased Blender Publisher in the past meant that
+the user community and customers who had purchased Blender Publisher in the past, meant that
 Ton could not justify leaving Blender to fade into insignificance.
 Since restarting a company with a sufficiently large team of developers was not feasible,
-Ton Roosendaal founded the non-profit organization Blender Foundation in March 2002.
+Ton Roosendaal founded the non-profit organization, Blender Foundation, in March 2002.
 
 The Blender Foundation's primary goal was to find a way to continue developing and
 promoting Blender as a community-based `open source <https://opensource.org/>`__ project.
@@ -59,7 +59,7 @@ a fundraising campaign was launched to "Free Blender".
 To everyone's surprise and delight the campaign reached the €100,000 goal in only seven short weeks.
 On Sunday, October 13, 2002, Blender was released to the world
 under the terms of the `GNU GPL <https://www.gnu.org/copyleft/gpl>`__.
-Blender development continues to this day driven by a team of dedicated volunteers
+Blender development continues to this day, driven by a team of dedicated volunteers
 from around the world led by Blender's original creator, Ton Roosendaal.
 
 
@@ -140,14 +140,13 @@ Version/Revision Milestones
    provide hair and fur, a new particle system, enhanced image browsing, cloth, a seamless
    and non-intrusive physics cache, rendering improvements in reflections, AO, and render baking, a mesh deform
    modifier for muscles and such, better animation support via armature tools and drawing, skinning,
-   constraints and a colorful Action Editor, and much more. It was the release following
-   `Project Peach <https://peach.blender.org/>`__.
+   constraints and a colorful Action Editor, and much more. It contained the results of `Project Peach <https://peach.blender.org/>`__.
 `2.47 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.47>`__ -- August 2008:
    Bugfix release.
 `2.48 <http://archive.blender.org/development/release-logs/blender-248/index.html>`__ -- October 2008:
    The Apricot release, cool GLSL shaders, lights and GE improvements, snap, sky simulator, shrinkwrap
    modifier, and Python editing improvements.
-   This was the release following `Project Apricot <https://apricot.blender.org/>`__.
+   This contained the results `Project Apricot <https://apricot.blender.org/>`__.
 `2.49 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.49>`__ -- June 2009:
    Node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements,
    JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python
@@ -161,7 +160,7 @@ Version/Revision Milestones
    This series released four `pre-version <https://archive.blender.org/development/release-logs/blender-256-beta>`__
    (from Alpha 0 in November 2009 to Beta in July 2010) and
    three stable versions (from 2.57 - April 2011 to 2.59 - August 2011).
-   It is one of the most important development projects, with a total refactor of the software with new functions,
+   It was one of the most important development projects, with a total refactor of the software with new functions,
    redesign of the internal window manager and event/tool/data handling system, and new Python API.
    The final version of this project was Blender 2.59 in August 2011.
 
@@ -174,25 +173,25 @@ Version/Revision Milestones
 .. rubric:: Blender 2.6x to 2.7x -- Improvements & Stabilizing
 
 `2.60 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.60>`__ -- October 2011:
-   Internationalization of the UI, improvements in animation system and the GE,
+   Internationalization of the UI, improvements in the animation system and the GE,
    vertex weight groups modifiers, 3D audio and video, and bug fixes.
 `2.61 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.61>`__ -- December 2011:
-   The Cycles renderer was added in trunk, the camera tracker was added, dynamic paint for modifying textures
+   The Cycles renderer was added to the trunk, the camera tracker was added, dynamic paint for modifying textures
    with mesh contact/approximation, the Ocean modifier to simulate ocean and foam, new add-ons, bug fixes,
    and more extensions added for the Python API.
 `2.62 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.62>`__ -- February 2012:
    The `Carve library <https://code.google.com/archive/p/carve/>`__ was added to improve boolean operations,
    support for object tracking was added, the Remesh modifier was added, many improvements in the GE,
-   matrices and vectors in the Python API were improved, new add-ons, and many bug fixes.
+   matrices and vectors in the Python API were improved, plus new add-ons, and many bug fixes.
 `2.63 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.63>`__ -- April 2012:
-   Bmesh was merged to trunk with full support for n-sided polygons, sculpt hiding, a panoramic camera
+   Bmesh was merged with the trunk, with full support for n-sided polygons, sculpt hiding, a panoramic camera
    for Cycles, mirror ball environment textures and float precision textures, render layer mask layers,
-   ambient occlusion and viewport display of background images and render layers,
-   new import and export add-ons were added, and 150 bug fixes.
+   ambient occlusion and viewport display of background images and render layers.
+   New import and export add-ons were added, and 150 bug fixes.
 `2.64 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.64>`__ -- October 2012:
-   Mask editor, improved motion tracker, OpenColorIO, Cycles improvements, Sequencer improvements,
+   A mask editor was added, along with an improved motion tracker, OpenColorIO, Cycles improvements, Sequencer improvements,
    better mesh tools (Inset and Bevel were improved), new keying nodes, sculpt masking, Collada improvements,
-   new skin modifier, new compositing nodes back end, and many bugs were fixed.
+   a new skin modifier, a new compositing nodes back end, and the fixing of many bugs.
 `2.65 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.65>`__ -- December 2012:
    Fire and smoke improvements, anisotropic shader for Cycles, modifier improvements,
    the Bevel tool now includes rounding, new add-ons, and over 200 bug fixes.
@@ -218,8 +217,8 @@ Version/Revision Milestones
    Cycles gets basic volumetric support on the CPU, more improvements to the motion tracker, two new modeling
    modifiers, some UI consistency improvements, and more than 560 bug fixes.
 `2.71 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.71>`__ -- June 2014:
-   Deformation motion blur and fire/smoke support is added to Cycles, UI pop-ups are now draggable,
-   performance optimizations for sculpting mode, new interpolation types for animation, many improvements
+   Deformation motion blur and fire/smoke support is added to Cycles, UI pop-ups are now draggable.
+   There are performance optimizations for sculpting mode, new interpolation types for animation, many improvements
    to the GE, and over 400 bug fixes.
 `2.72 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.72>`__ -- October 2014:
    Cycles gets volume and SSS support on the GPU, pie menus are added and tooltips greatly improved,
@@ -251,8 +250,8 @@ Version/Revision Milestones
 
 .. rubric:: Blender 2.8
 
-Blender 2.8 is the next phase in Blender's development seeking to bring an improved viewport
-and a better workflow allowing artist to use Blender faster and easier. Currently, Blender 2.8
-is still in development and will probably be released in late 2018 however. You can find out more
+Blender 2.8 is the next phase in Blender's development, seeking to bring an improved viewport
+and a better workflow, allowing artists to use Blender faster and easier. Currently, Blender 2.8
+is in its beta phase of development, and will probably be released in 2019. You can find out more
 information by visiting the 2.8 webpage on `blender.org <https://www.blender.org/2.8/>`__ or you can
 download test builds that can be found on `Blender's test build website <https://builder.blender.org/download/>`__.
