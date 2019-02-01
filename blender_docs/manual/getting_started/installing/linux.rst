@@ -32,7 +32,7 @@ Download the Linux version for your architecture and uncompress the file to the 
 Blender can now be launched by double-clicking the executable.
 
 For ease of access, you can configure your system by adding a menu entry or shortcut for Blender.
-You may also associate ¨.blend¨ files with Blender so that when selected from the File browser,
+You may also associate blend-files with Blender so that when selected from the File browser,
 they will automatically open in Blender.
 These settings are typically found in conjunction with the Window Manager settings. (KDE, Gnome, Unity).
 
@@ -42,8 +42,8 @@ Running from the Terminal
 
 To run Blender from the terminal without needing to be in the executable directory,
 add the name of the folder into which Blender was extracted, to the ``PATH`` environment variable.
-This is achieved by adding the following line to your ``~/.bashrc`` or ``~/.profile`` 
-file to point the path to the directory in which the Blender's binary is located:
+This is achieved by adding the following line to your ``~/.bashrc`` or ``~/.profile`` file
+to point the path to the directory in which the Blender's binary is located:
 
 .. code-block:: sh
 
@@ -59,12 +59,10 @@ file to point the path to the directory in which the Blender's binary is located
 Avoiding Alt+Mouse Conflict
 ===========================
 
-Many Window Managers default to :kbd:`Alt-LMB` (ALT-leftmost-mouse-button) for moving windows,
+Many Window Managers default to :kbd:`Alt-LMB` for moving windows,
 which is a shortcut that Blender uses to simulate a three button mouse.
 You can either have this feature disabled :menuselection:`User Preferences --> Input --> Emulate 3 Button Mouse`
-or you can change the Window Manager settings to use the *Meta* key instead (also called *Super* or *Windows key*).
-
-This is achieved as follows:
+or you can change the Window Manager settings to use the *Meta* key instead (also called *Super* or *Windows key*):
 
 - **KDE**: :menuselection:`System Settings --> Window Management --> Window Behavior --> Window Actions`,
   Switch from 'Alt' to 'Meta' key.

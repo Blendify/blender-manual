@@ -85,7 +85,7 @@ Using Blender 2.79 or earlier is the only option then.
 Crash on Startup
 ----------------
 
-Try running Blender from the :doc:`command line </render/workflows/command_line>`,
+Try running Blender from the :doc:`command line </advanced/command_line/index>`,
 to see if any helpful error messages are printed.
 
 On Windows, graphics drivers can sometimes get corrupted.
