@@ -43,9 +43,11 @@ Key Features
   :doc:`Texturing </editors/uv_image/uv/overview>`,
   :doc:`Rigging </rigging/introduction>`,
   and many types of :doc:`Simulations </physics/introduction>`.
-- It is cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).
+- It is cross platform, with an OpenGL GUI that is uniform on all major platforms
+  (and customizable with Python scripts).
 - It has a high-quality 3D architecture, enabling fast and efficient creation workflow.
-- It boasts excellent community support from `forums <http://blenderartists.org/forum/>`__ and :ref:`IRC <irc-channels>`.
+- It boasts excellent community support from `forums <http://blenderartists.org/forum/>`__ and
+  :ref:`IRC <irc-channels>`.
 - It has a small executable, which is optionally portable.
 
 You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
