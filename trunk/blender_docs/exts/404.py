@@ -55,8 +55,8 @@ def html_page_context(app, pagename, templatename, context, doctree):
        only prune and collapse.
     """
     if templatename == "404.html":
-        global LANG
-        LANG = context['language']
+        global LANGUAGE
+        LANGUAGE = context['language']
 
         # more cannot be replaced because the html builder adds "_static"
         for k in ("css_files", "script_files"):
