@@ -57,12 +57,12 @@ If the vector is created with only two vertices at the *same* XYZ location
 (which will not give Blender a vector value for height), this will create a normal "Spin".
 
 Having at least one vector line,
-you can add other closed support profiles that will follow this vector during the extrusions (See `Limitations`_).
+you can add other closed support profiles that will follow this vector during the extrusions (see `Limitations`_).
 The direction of the extrusions is calculated by two determinant factors,
 the point of view in Global Space and the position of the cursor in the 3D View using Global coordinates.
-The profile and the vector must be fully selected in *Edit Mode* before you click the *Screw Button*
+The profile and the vector must be fully selected in *Edit Mode* before you click the *Screw* button
 (see `Limitations`_).
-When you have the vector for the open profile and the other closed profiles selected, click the *Screw* Button.
+When you have the vector for the open profile and the other closed profiles selected, click the *Screw* button.
 
 
 Limitations
@@ -140,7 +140,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 The basic location of the cursor at the point of view (using Global coordinates)
 will determine around which axis the selection is extruded and spun at first
-(See Fig. :ref:`fig-mesh-screw-transform-panel`).
+(see Fig. :ref:`fig-mesh-screw-transform-panel`).
 Blender will copy the cursor location coordinates to
 the values present in the *Center* values of the *Screw* interactive Panel.
 Depending on the Global View position, Blender will automatically add a value of 1 to one of the Axis Vectors,
