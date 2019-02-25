@@ -9,8 +9,9 @@ Normalize Node
 
    Normalize Node.
 
-Normalizing a vector scales its magnitude, or length, to a value of 1,
-but keeps its direction intact.
+Find the minimum and maximum values of a single channel.
+Then map every pixel to a value between 0 and 1.
+This is mostly useful for the z-buffer.
 
 
 Inputs
