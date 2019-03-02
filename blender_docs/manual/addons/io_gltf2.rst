@@ -383,8 +383,6 @@ Properties
 Import Properties
 -----------------
 
-Log Level
-   Set level of log to display.
 Pack Images
    Pack all images into the blend-file.
 Shading
