@@ -41,7 +41,7 @@ Viewing the Local Manual
 ========================
 
 Once the docs have been built, all the HTML files can be found inside ``C:\blender_docs\build\html``.
-Try opening ``\build\html\contents.html`` in your web browser and read the manual.
+Try opening ``\build\html\index.html`` in your web browser and read the manual.
 
 
 ------------------------
