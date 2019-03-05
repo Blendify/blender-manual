@@ -17,7 +17,7 @@ Here are keys which aren't used and aren't likely to be used in the future.
 F-Keys (F5..F10)
    These F-Keys (including modifier combination)
    have been intentionally kept free for users to bind their own keys to.
-OS-Key *(also known as Windows-Key, Cmds or Super)*
+OS-Key (also known as the ``Windows-Key``, ``Cmd`` or ``Super``)
    Blender doesn't use this key for any bindings.
 
    *macOS* is an exception, where a few macOS shortcuts are bound to Cmd (cut/copy/paste/preferences).
@@ -97,7 +97,7 @@ There are many properties you might want to bind a keys with.
 To avoid having to define operators for each property,
 there are generic operators for this purpose:
 
-Operators for adjusting properties begin with ``wm.context_*``.
+Operators for adjusting properties begin with ``wm.context_``.
 
 Some of these include:
 
