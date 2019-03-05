@@ -91,7 +91,7 @@ Base Color
 ^^^^^^^^^^
 
 The glTF base color is determined by looking for a Base Color input on a Principled BSDF node.
-If the input is disconnected, the input's default color (the color button next to the disconnected input)
+If the input is unconnected, the input's default color (the color button next to the unconnected socket)
 is used as the Base Color for the glTF material.
 
 If an Image Texture node is found to be connected to the Base Color input,
@@ -101,7 +101,7 @@ that image will be used as the glTF base color.
 Metallic and Roughness
 ^^^^^^^^^^^^^^^^^^^^^^
 
-These values are read from the Principled BSDF node. If both of these inputs are disconnected,
+These values are read from the Principled BSDF node. If both of these inputs are unconnected,
 the node will display sliders to control their respective values between 0.0 and 1.0,
 and these values will be copied into the glTF.
 
@@ -197,7 +197,7 @@ In Blender, this is a per-mesh setting, but in glTF, it is a per-material settin
 Blend Modes
 ^^^^^^^^^^^
 
-The Base Color input value can optionally supply alpha values.
+The Base Color input can optionally supply alpha values.
 How these values are treated by glTF depends on the selected blend mode.
 
 With the Eevee rendering engine selected, each material has a Blend Mode on

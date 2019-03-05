@@ -25,7 +25,7 @@ these can be enabled in the User Preferences through the use of :doc:`Add-ons </
 
 
    Use :abbr:`glTF (Graphics Library Transmission Format)`
-      If you intend to export rich materials for :abbr:`PBR (Physically Based Rendering)`
+      if you intend to export rich materials for :abbr:`PBR (Physically Based Rendering)`
       or need the file to be in ready-to-render form for a wide variety of clients and viewers.
       See the :doc:`glTF Import/Export Instructions </addons/io_gltf2>`.
    Use :abbr:`STL (STereoLithography)`
