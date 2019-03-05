@@ -42,11 +42,11 @@ Toggle a setting using with tap, drag to open a pie menu showing all options rel
 Click/Tweak
 ^^^^^^^^^^^
 
-Unlike click/drag, this only works for the mouse cursor,
-but has the advantage that tweak events are directional.
+Unlike click/drag, this only works for the mouse buttons,
+but has the advantage that tweak events can be directional.
 
 To use this, events in this keymap must use *Click* instead of *Press*,
-then you can bind *Tweak* actions to the mouse cursor.
+then you can bind *Tweak* actions to the mouse buttons.
 
 This is used in the default keymap in the 3D Viewport,
 :kbd:`Alt-MMB` draging in different directions rotates the view.
