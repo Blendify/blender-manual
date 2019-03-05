@@ -16,7 +16,7 @@ Here are keys which aren't used and aren't likely to be used in the future.
 
 F-Keys (F5..F10)
    These F-Keys (including modifier combination)
-   have been intentionally kept free for users to bind their own krys to.
+   have been intentionally kept free for users to bind their own keys to.
 OS-Key *(also known as Windows-Key, Cmds or Super)*
    Blender doesn't use this key for any bindings.
 
@@ -45,11 +45,11 @@ Click/Tweak
 Unlike click/drag, this only works for the mouse buttons,
 but has the advantage that tweak events can be directional.
 
-To use this, events in this keymap must use *Click* instead of *Press*,
+To use this, events in this key-map must use *Click* instead of *Press*,
 then you can bind *Tweak* actions to the mouse buttons.
 
-This is used in the default keymap in the 3D Viewport,
-:kbd:`Alt-MMB` draging in different directions rotates the view.
+This is used in the default key-map in the 3D Viewport,
+:kbd:`Alt-MMB` dragging in different directions rotates the view.
 
 
 Common Operations
@@ -62,7 +62,7 @@ Key Bindings for Pop-ups
 ------------------------
 
 Menus and panels can be assigned key shortcuts,
-even if they're only accessible from submenus elsewhere.
+even if they're only accessible from sub-menus elsewhere.
 
 Open a Popup Menu (``wm.call_menu``)
    Open any menu on key press.
@@ -78,15 +78,15 @@ Menu Identifier
 To find the ``name`` of a menu,
 enable the preference :menuselection:`Interface --> Display --> Python Tooltips`.
 
-Then hover the cursor over the menu item, for submenus you will need to use the back arrow
-to prevent the submenu from opening and gaining focus.
+Then hover the cursor over the menu item, for sub-menus you will need to use the back arrow
+to prevent the sub-menu from opening and gaining focus.
 
 
 Panel Identifier
 ^^^^^^^^^^^^^^^^
 
 Currently there is no way to find a panel identifier,
-besides looking into the Pyhton source code, search for the panel title,
+besides looking into the Python source code, search for the panel title,
 the identifier will use the convention ``{CATEGORY}_PT_{name}``.
 
 
@@ -111,7 +111,7 @@ Some of these include:
 
 See `bpy.ops.wm <https://docs.blender.org/api/current/bpy.ops.wm.html>`__ for a complete list.
 
-Each of these operators has a ``data_path`` setting to refrence the property to change.
+Each of these operators has a ``data_path`` setting to reference the property to change.
 
 To find the ``data_path`` basic Python knowledge is needed.
 
