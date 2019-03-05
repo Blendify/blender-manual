@@ -10,7 +10,7 @@ Keys
 Available Keys
 --------------
 
-When customizing keymsps its useful to use keys which wont conflict with Blender's default keymap.
+When customizing keymaps its useful to use keys which won't conflict with Blender's default keymap.
 
 Here are keys which aren't used and aren't likely to be used in the future.
 
