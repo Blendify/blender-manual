@@ -1,8 +1,11 @@
 {%- extends "!layout.html" %}
 {%- set title = _('Not Found (404)') %}
 {%- set ROOT = "https://docs.blender.org/manual/" %}
-{%- block extrahead %}
+{%- block htmltitle %}
+	{{ super() }}
 	<base href="{{ ROOT + language + '/dev/' }}">
+{% endblock %}
+{%- block extrahead %}
 	<style>
 		.search404 {
 			margin: 15px 0;
