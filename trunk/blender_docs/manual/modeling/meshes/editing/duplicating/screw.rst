@@ -214,7 +214,7 @@ The Spring Example
    placing the cursor at (0, 0, 0) typing directly into the Cursor 3D Location.
 #. Add a circle using shortcut :kbd:`Shift-A` :menuselection:`--> Mesh --> Circle`.
 #. Rotate this circle using the shortcut :kbd:`R X 9 0` and :kbd:`Return`.
-#. Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
+#. Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*.
 #. Grab and move this circle three Blender Units on the X axis to the left;
    you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and grabbing while using shortcut :kbd:`Ctrl`
@@ -360,7 +360,7 @@ will assembly perfectly with each other.
    click with :kbd:`LMB` on *File* --
    it is in the header of the Info editor (at the top left side), and choose *Save as*.
    You can name it e.g. "screw hardware example.blend".
-#. Press shortcut :kbd:`A` twice to de-select and select all vertices again.
+#. Press the shortcut :kbd:`A` twice to de-select and select all vertices again.
 #. Now press Screw.
 #. Change Steps and Turns as you like.
    Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
@@ -418,7 +418,7 @@ but also its starting angle. It means that Blender will connect the vertices wit
 in a way that they follow a continuous cycle along the extruded generated profile.
 
 In this example, you will learn how to create a simple Screw Tip
-(like the ones use for wood; as shown in the example at the beginning of this page).
+(like the ones used for wood; as shown in the example at the beginning of this page).
 To make this new example as short as possible, it will recycle the last example (again).
 
 #. Open Blender and click on *File* located in the header of the Info editor again;
