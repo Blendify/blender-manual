@@ -83,8 +83,8 @@ MIP Map
 
    MIP Map Gaussian filter
       Used in conjunction with mip-mapping, it enables the mip-map to be made smaller based on color similarities.
-      In the :doc:`Game Engine </game_engine/index>`, you want your textures,
-      especially your mip-map textures, to be as small as possible to increase rendering speed and frame rate.
+      In game engines, you want your textures, especially your mip-map textures,
+      to be as small as possible to increase rendering speed and frame rate.
 
 Interpolation
    This option interpolates the pixels of an image.
