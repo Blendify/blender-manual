@@ -55,7 +55,7 @@ This can be done by:
 
 #. Create two texture slots in the texture list, and set them to the same texture data-block.
 #. Add two *Output* nodes to the node tree,
-   and type new names into their *Name* text-boxes: e.g. "Diffuse" for one and "Normal" for the other.
+   and type new names into their *Name* text fields: e.g. "Diffuse" for one and "Normal" for the other.
 #. Underneath the texture list view in the texture panel, a selector with the names of the outputs is shown.
    For each entry in the texture list, select the desired output by changing the menu entry
    (e.g. set one to *Diffuse* and the other to *Normal*).

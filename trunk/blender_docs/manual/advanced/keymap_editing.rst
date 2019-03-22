@@ -6,7 +6,6 @@ Keymap Customization
 Keys
 ====
 
-
 Available Keys
 --------------
 
@@ -14,13 +13,13 @@ When customizing keymaps its useful to use keys which won't conflict with Blende
 
 Here are keys which aren't used and aren't likely to be used in the future.
 
-F-Keys (F5..F10)
+F-Keys (:kbd:`F5` - :kbd:`F10`)
    These F-Keys (including modifier combination)
    have been intentionally kept free for users to bind their own keys to.
-OS-Key (also known as the ``Windows-Key``, ``Cmd`` or ``Super``)
+:kbd:`OS-Key` (also known as the ``Windows-Key``, ``Cmd`` or ``Super``)
    Blender doesn't use this key for any bindings.
 
-   *macOS* is an exception, where a few macOS shortcuts are bound to Cmd (cut/copy/paste/preferences).
+   *macOS* is an exception, where a few macOS shortcuts are bound to :kbd:`Cmd` (cut/copy/paste/preferences).
 Modifier Double Click
    Binding modifier keys as primary keys is supported,
    to avoid conflicts with regular usage you can bind them to double click.
@@ -35,8 +34,8 @@ Click/Drag
 It's possible to configure a single key to perform multiple operations
 using *Click* event instead of *Press*, Then you may bind *Drag* to a separate action.
 
-This is useful for mixing actions where one uses a drag event, eg:
-Toggle a setting using with tap, drag to open a pie menu showing all options related to the setting.
+This is useful for mixing actions where one uses a drag event, e.g:
+Toggle a setting using with tab, drag to open a pie menu showing all options related to the setting.
 
 
 Click/Tweak
@@ -58,18 +57,18 @@ Common Operations
 This section lists useful generic operations which can be used.
 
 
-Key Bindings for Pop-ups
+Key Bindings for Pop-Ups
 ------------------------
 
 Menus and panels can be assigned key shortcuts,
 even if they're only accessible from sub-menus elsewhere.
 
-Open a Popup Menu (``wm.call_menu``)
+Open a Pop-up Menu (``wm.call_menu``)
    Open any menu on key press.
 Open a Pie Menu (``wm.call_menu_pie``)
-   Open any pie-menu on key press.
+   Open any pie menu on key press.
 Open a Panel (``wm.call_panel``)
-   Open a popup panel (also known as a popover).
+   Open a pop-up panel (also known as a pop-over).
 
 
 Menu Identifier
@@ -102,10 +101,10 @@ Operators for adjusting properties begin with ``wm.context_``.
 Some of these include:
 
 - ``wm.context_toggle`` toggle a boolean property.
-- ``wm.context_cycle_enum`` cycle an enum property forwards or backwards.
-- ``wm.context_menu_enum`` show a popup menu for an enum property.
+- ``wm.context_cycle_enum`` cycle an :abbr:`enum (enumeration)` property forwards or backwards.
+- ``wm.context_menu_enum`` show a pop-up menu for an enum property.
 - ``wm.context_pie_enum`` show a pie menu for an enum property.
-- ``wm.context_scale_float`` scale a number *(use for increasing / decreasing brush size for eg)*.
+- ``wm.context_scale_float`` scale a number (use for increasing / decreasing brush size for example).
 - ``wm.context_toggle_enum`` toggle between two options of an enum.
 - ``wm.context_modal_mouse`` moving the cursor to interactively change a value.
 
@@ -115,7 +114,7 @@ Each of these operators has a ``data_path`` setting to reference the property to
 
 To find the ``data_path`` basic Python knowledge is needed.
 
-For example, you can use the Python console to access a boolean property you wish to map to a key::
+For example, you can use the Python Console to access a boolean property you wish to map to a key::
 
    bpy.context.object.show_name
 
@@ -126,4 +125,4 @@ See `bpy.context <https://docs.blender.org/api/current/bpy.context.html>`__
 for other context attributes.
 
 The Python API documentation can be used to find properties
-or you may use the Python consoles auto-complete to inspect available properties.
+or you may use the Python Console's auto-complete to inspect available properties.
