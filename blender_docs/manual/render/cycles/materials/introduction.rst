@@ -116,9 +116,8 @@ You must choose which method you are going to use for each particular object in 
 #. Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
    these are not materials at all, but they are included here because they affect the appearance of your objects.
    These include :ref:`Vertex Painting <painting-vertex-index>`,
-   :doc:`Wire Rendering </render/blender_render/materials/special_effects/wire>`,
-   :doc:`Volume Rendering </render/blender_render/materials/special_effects/volume>`,
-   and :doc:`Halo Rendering </render/blender_render/materials/special_effects/halo>`.
+   :doc:`Volume Rendering </render/cycles/materials/volume>`, and
+   :doc:`Wire Rendering </render/cycles/nodes/types/input/wireframe>`.
 
 The exact effect of Material settings can be affected by a number of system settings.
 First and foremost is the renderer used:

@@ -35,8 +35,7 @@ Their movement can be affected by many things, including:
 
 Particles may be rendered as:
 
-- :doc:`Halos </render/blender_render/materials/special_effects/halo>`
-  (for Flames, Smoke, Clouds).
+- :ref:`Halos <particle-halo>` (for Flames, Smoke, Clouds).
 - Meshes which in turn may be animated (e.g. fish, bees, ...).
   In these cases, each particle "carries" another object.
 - :doc:`Strands </render/cycles/settings/objects/hair>`
