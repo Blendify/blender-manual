@@ -68,8 +68,7 @@ Then you are back to how that material's
 This chapter attempts to address the above,
 including how lights can work together in rigs to light your scene.
 In this chapter we will analyze the different types of light in Blender and their behavior;
-we will discuss their strong and weak points. We will also describe many lighting rigs,
-including the ever-popular three-point light method.
+we will discuss their strong and weak points.
 
 
 Lighting in the Workflow
