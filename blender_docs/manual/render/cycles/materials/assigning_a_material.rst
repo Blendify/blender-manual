@@ -50,9 +50,9 @@ This action has a series of effects:
 #. Brings up additional buttons in the immediate panel.
 #. Adds the new material to the Available Materials list.
 #. Adds the new material to the Object Material Slots list for the active object (or its object data -- see below).
-#. Brings up a :doc:`preview </render/blender_render/materials/properties/preview>` of the new material.
+#. Brings up a :doc:`preview </render/cycles/materials/preview>` of the new material.
 #. Provides you with a range of panels allowing you to select
-   the :doc:`properties </render/blender_render/materials/properties/introduction>` of the new material.
+   the :doc:`material settings </render/cycles/materials/settings>` of the new material.
 
 
 New Material Panel Buttons
@@ -155,8 +155,7 @@ you use the Material Slots options in the Materials header panel.
 The workflow for applying a second material to some faces of an object covered by a base
 material is as follows:
 
-#. In Object Mode, apply the base material to the whole object
-   (as shown in :doc:`Assigning a material </render/blender_render/materials/assigning_a_material>`).
+#. In Object Mode, apply the base material to the whole object.
 #. Create/select the second material (the whole object will change to this new material).
 #. In the Active Material box, re-select the base material.
 #. Go to Edit Mode and Face Select (a new box appears above the Active Material box with Assign/Select/Deselect).

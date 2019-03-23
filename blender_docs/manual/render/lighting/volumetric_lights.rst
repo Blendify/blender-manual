@@ -37,6 +37,6 @@ of the *Sun* lamp as volumetric as well).
 
 .. seealso::
 
-   - :doc:`Mist </render/blender_render/world/mist>`
+   - :ref:`Mist <render-cycles-integrator-world-mist>`
    - :doc:`Smoke </physics/smoke/index>`
    - :doc:`Volumetric Materials </render/blender_render/materials/special_effects/volume>`
