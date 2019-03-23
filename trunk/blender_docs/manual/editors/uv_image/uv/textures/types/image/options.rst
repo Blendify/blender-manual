@@ -6,7 +6,7 @@ Options
 Settings
 ========
 
-In the *Image* panel we tell Blender which source file to use.
+In the *Settings* panel you define which source file to use.
 
 Image
    The Image :ref:`ui-data-block`. For the options see :doc:`/editors/uv_image/image/image_settings`.
@@ -14,12 +14,6 @@ Image
 
 Alpha
 =====
-
-In the *Image Sampling* panel we can control how the information is retrieved from the image.
-
-.. figure:: /images/render_blender-render_textures_types_image_options_image-sampling-panel.png
-
-   Image Sampling panel.
 
 Alpha
    Options related to transparency.
@@ -104,6 +98,12 @@ Crop Minimum / Crop Maximum
 
 Sampling
 ========
+
+In the *Sampling* panel you can control how the information is retrieved from the image.
+
+.. figure:: /images/render_blender-render_textures_types_image_options_image-sampling-panel.png
+
+   Image Sampling panel.
 
 Interpolation
    This option interpolates the pixels of an image.

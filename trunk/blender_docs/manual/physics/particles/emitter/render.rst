@@ -45,10 +45,14 @@ When set to *None*, particles are not rendered.
 This is useful if you are using the particles to duplicate objects.
 
 
+.. _particle-halo:
+
 Halo
 ----
 
-Halo particles are rendered as :doc:`Halo Type Materials </render/blender_render/materials/special_effects/halo>`.
+Halo are rendered as glowing dots or a little clouds of light.
+Although they are not really lights because they do not cast light into the scene like a lamp.
+They are called *Halos* because you can see them, but they do not have any substance.
 
 Trail Count
    Set the number of trail particles. When greater than 1, additional options appear.
