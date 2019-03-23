@@ -13,7 +13,7 @@ own, without mapping.
 
 Preview
    Choose to display only the flat texture,
-   only the material :doc:`/render/blender_render/materials/properties/preview`, or both side-by-side.
+   only the material :doc:`/render/cycles/materials/preview`, or both side-by-side.
 
    Texture, Material/World, Both
 Show Alpha
