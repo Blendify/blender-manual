@@ -6,7 +6,7 @@ Options
 Settings
 ========
 
-In the *Settings* panel you define which source file to use.
+In the *Settings* panel you can define which source file to use.
 
 Image
    The Image :ref:`ui-data-block`. For the options see :doc:`/editors/uv_image/image/image_settings`.
@@ -23,7 +23,7 @@ Alpha
       Where the alpha value in the image is less than 1.0,
       the object will be partially transparent and things behind it will be visible.
       Works with files like PNG and TGA that can save transparency information.
-      The *Use Alpha* in the `Image`_ panel must be enabled.
+      The *Use Alpha* in the `Settings`_ panel must be enabled.
 
    Calculate
       Calculate an alpha based on the RGB values of the Image.
