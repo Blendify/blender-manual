@@ -42,7 +42,7 @@ In Blender, the elements under your control which affect lighting are:
 The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting),
 buffer shadows (which approximate shadows being cast by objects), ray tracing
 (which traces the path of photons from a light source). Also,
-within Blender you can use :doc:`Indirect lighting </render/blender_render/world/indirect_lighting>`.
+within Blender you can use :doc:`Indirect lighting </render/eevee/indirect_lighting>`.
 Ray tracing, ambient occlusion, and indirect lighting are computationally intensive processes.
 Blender can perform much faster rendering with its internal scan line renderer,
 which is a very good scan line renderer indeed.
@@ -62,8 +62,7 @@ The main things under your control are the:
 - Position of the light and its direction.
 - Settings for the light, including energy and falloff.
 
-Then you are back to how that material's
-:doc:`shader </render/blender_render/materials/properties/diffuse_shaders>` reacts to the light.
+Then you are back to how that material's shader reacts to the light.
 
 This chapter attempts to address the above,
 including how lights can work together in rigs to light your scene.

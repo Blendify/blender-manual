@@ -22,6 +22,8 @@ However, they do have *Object* and *Editing* setting panels available
 which are displayed when a camera is the selected (active!) object.
 
 
+.. _camera-lens-type:
+
 Lens
 ====
 
