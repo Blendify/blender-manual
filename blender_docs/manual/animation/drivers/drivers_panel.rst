@@ -48,7 +48,8 @@ Type
 Expression
    Scripted Expression.
    Here you can add variables, real numbers, math operators, math functions, Python properties, driver functions.
-   See Driver Expression below for some examples.
+   See Driver Expression below for some examples. For good performance it is best to use the
+   :ref:`simple expression <driver-simple-expressions>` subset as much as possible.
 Use Self
    This allows for drivers to references their own data using the variable ``self``.
    Useful for objects, bones, to avoid having to create a variable pointing to its self.

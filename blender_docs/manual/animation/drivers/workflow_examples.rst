@@ -37,6 +37,30 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 
 When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left to right.
 
+.. _driver-simple-expressions:
+
+Simple Expressions
+==================
+
+Blender can evaluate a useful subset of Python driver expressions directly, which
+significantly improves performance, especially on multicore systems. To take
+advantage of this, the driver expression must only use the following features:
+
+Variable Names
+   Use only ASCII characters.
+Literals
+   Floating point and decimal integer.
+Constants
+   pi, True, False
+Operators
+   +, -, \*, /, ==, !=, <, <=, >, >=, and, or, not, ternary if
+Functions
+   min, max, radians, degrees,
+   abs, fabs, floor, ceil, trunc, int,
+   sin, cos, tan, asin, acos, atan, atan2,
+   exp, log, sqrt, pow, fmod
+
+Simple expressions are evaluated even when Python script execution is disabled.
 
 Examples
 ========
