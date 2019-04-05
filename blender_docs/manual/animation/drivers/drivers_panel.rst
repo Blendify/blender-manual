@@ -38,25 +38,55 @@ Type
    Sum Values
       Uses the sum of the referenced Driver Variables.
    Scripted Expression
-      Uses a Scripted Expression. See Expression.
-      You must write a Python expression which performs your own calculations on the Driver Variables.
+      Uses a Scripted Expression. See `Expression`_.
+      You can write a Python expression which performs your own calculations on the Driver Variables.
    Minimum Value
       Uses the lowest value from the referenced Driver Variables.
    Maximum Value
       Uses the highest value from the referenced Driver Variables.
 
-Expression
-   Scripted Expression.
-   Here you can add variables, real numbers, math operators, math functions, Python properties, driver functions.
-   See Driver Expression below for some examples. For good performance it is best to use the
-   :ref:`simple expression <driver-simple-expressions>` subset as much as possible.
-Use Self
-   This allows for drivers to references their own data using the variable ``self``.
-   Useful for objects, bones, to avoid having to create a variable pointing to its self.
 Show Debug Info
    Shows the *Driver Value*.
 Driver Value
    The output value of the driver script.
+
+
+Expression
+----------
+
+Expression
+   Here you can add variables, real numbers, math operators, math functions, Python properties, driver functions.
+   See Driver Expression below for some examples. For an improved performance it is best to use
+   the `Simple Expressions`_ subset as much as possible.
+Use Self
+   This allows for drivers to references their own data using the variable ``self``.
+   Useful for objects, bones, to avoid having to create a variable pointing to its self.
+
+
+Simple Expressions
+^^^^^^^^^^^^^^^^^^
+
+Blender can evaluate a useful subset of Python driver expressions directly,
+which significantly improves performance, especially on multi-core systems.
+To take advantage of this, the driver expression must only use the following features:
+
+Variable Names
+   Use only ASCII characters.
+Literals
+   Floating point and decimal integer.
+Constants
+   ``pi``, ``True``, ``False``
+Operators
+   ``+``, ``-``, ``*``, ``/``,
+   ``==``, ``!=``, ``<``, ``<=``, ``>``, ``>=``,
+   ``and``, ``or``, ``not``, conditional operator/ ternary if
+Functions
+   ``min``, ``max``, ``radians``, ``degrees``,
+   ``abs``, ``fabs``, ``floor``, ``ceil``, ``trunc``, ``int``,
+   ``sin``, ``cos``, ``tan``, ``asin``, ``acos``, ``atan``, ``atan2``,
+   ``exp``, ``log``, ``sqrt``, ``pow``, ``fmod``
+
+Simple expressions are evaluated even when Python script execution is disabled.
 
 
 Driver Variables

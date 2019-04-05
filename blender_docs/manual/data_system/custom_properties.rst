@@ -41,13 +41,13 @@ Property Name
    The name of the custom property.
 Property Value
    This does two things: first it sets the current value of the custom property, and
-   second, it defines the data type of the property. For example, custom properties
-   can either be of type: Integers, Floats, or Booleans.
+   second, it defines the data type of the property.
+   For example, custom properties can either be of type: Integers, Floats, or Booleans.
    See the table below for a list of examples for each:
 
    :Integers: 1, 2, 3, 4...
    :Floats: 3.141, 5.0, 6.125,
-   :Booleans: True, False
+   :Booleans: ``True``, ``False``
 
    .. note::
 
@@ -61,7 +61,7 @@ Default Value
 
    .. warning::
 
-      More importantly, however, default values are used as the basis of :ref:`NLA blending <nla-blend-modes>`,
+      Default values are used as the basis of :ref:`NLA blending <nla-blend-modes>`,
       and a nonsensical default (e.g. 0 for a property used for scaling) on a property intended for
       being keyframed is likely to cause issues.
 Min
@@ -77,7 +77,8 @@ Use Soft Limits
    Soft Max
       The maximum value for the soft limit.
 Is Statically Overridable
-   Specifies if the property can be overridden via the Static Overrides system (incurs performance overhead).
+   Specifies if the property can be overridden via the Static Overrides system
+   (with an additional performance overhead).
 Tooltip
    Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
 

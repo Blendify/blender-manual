@@ -37,28 +37,27 @@ Action Extrapolation
 .. _nla-blend-modes:
 
 Action Blending
-   Affects how the property values directly produced by the strip are combined with the
-   result of evaluating the stack below. The bottom-most strip is blended on top of the
-   default values of the properties.
+   Affects how the property values directly produced by the strip are combined with
+   the result of evaluating the stack below. The bottom-most strip is blended on top of
+   the default values of the properties.
 
    Replace
       The top strip is linearly blended in with the accumulated result according to influence,
-      completely overwriting it if influence is 100%.
+      completely overwriting it if influence is set to 100%.
    Multiply, Subtract, Add
-      The result of the strip is multiplied, subtracted, or added to the accumulated
-      results, and then blended in according to influence.
+      The result of the strip is multiplied, subtracted, or added to the accumulated results,
+      and then blended in according to influence.
 
       :math:`result = mix(previous, previous (+-*) value, influence)`
    Combine
-      Depending on the type of each property, one of the following methods is automatically
-      chosen:
+      Depending on the type of each property, one of the following methods is automatically chosen:
 
       Axis/Angle Rotation
          :math:`result = previous + value * influence`
 
          This results in averaging the axis and adding the amount of rotation.
       Quaternion Rotation
-         Quaternion math is applied to all 4 channels of the property at once:
+         Quaternion math is applied to all four channels of the property at once:
 
          :math:`result = {previous} \times {value} ^ {influence}`
       Proportional (Scale)
@@ -66,7 +65,7 @@ Action Blending
       Others
          :math:`result = previous + (value - default) * {influence}`
 
-      This allows naturally layering actions that can also be used standalone.
+      This allows layering actions that can also be used as a standalone.
       Properties keyframed at their default values remain at default.
 
 Action Influence
