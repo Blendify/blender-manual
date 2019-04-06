@@ -74,6 +74,8 @@ Variable Names
    Use only ASCII characters.
 Literals
    Floating point and decimal integer.
+Globals
+   ``frame``
 Constants
    ``pi``, ``True``, ``False``
 Operators
@@ -87,6 +89,8 @@ Functions
    ``exp``, ``log``, ``sqrt``, ``pow``, ``fmod``
 
 Simple expressions are evaluated even when Python script execution is disabled.
+
+When an expression outside of this subset is used, Blender displays a *"Slow Python expression"* warning.
 
 
 Driver Variables
