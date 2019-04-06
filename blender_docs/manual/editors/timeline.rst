@@ -105,7 +105,7 @@ Pop-Overs
 Playback Pop-Over
 ^^^^^^^^^^^^^^^^^
 
-The *Playbackr* pop-over contains options controlling animation playback.
+The *Playback* pop-over contains options controlling animation playback.
 
 Synchronize Playback
    .. figure:: /images/editors_timeline_red-fps.png
