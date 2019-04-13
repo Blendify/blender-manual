@@ -76,8 +76,9 @@ Custom Parallax
    :Panel:     :menuselection:`Object Data --> Custom Parallax`
 
 By default, the influence volume is also the parallax volume.
-The parallax volume is a volume on which is projected the recorded lighting. It should roughly fit it surrounding area.
-In some cases it may be better to adjust the parallax volume without touching the influence parameters.
+The parallax volume is a volume on which is projected the recorded lighting.
+It should roughly fit it surrounding area. In some cases it may be better to
+adjust the parallax volume without touching the influence parameters.
 In this case, just enable the *Custom Parallax* and
 change the shape and distance of the parallax volume independently.
 
