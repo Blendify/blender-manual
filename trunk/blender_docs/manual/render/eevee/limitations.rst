@@ -101,7 +101,7 @@ Shader Nodes
 
 - All BSDF are using approximations to achieve realtime performance
   so there will always be small differences between Cycles and Eevee.
-- Some utility nodes are not yet compatible with Eevee (i.e. Sky Texture node).
+- Some utility nodes are not yet compatible with Eevee (e.g. Sky Texture node).
 
 .. seealso::
 
