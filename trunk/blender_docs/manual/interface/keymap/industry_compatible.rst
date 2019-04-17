@@ -15,4 +15,4 @@ this page shows common keys used in the industry compatible keymap.
    * - :kbd:`Tab`
      - Search tools.
    * - :kbd:`Shift-Tab`
-     - Quick favourites.
+     - Quick access (favorites).
