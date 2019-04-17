@@ -18,26 +18,26 @@ this page shows common keys used in Blender's default keymap.
    * - :kbd:`Tab`
      - Edit-mode toggle.
    * - :kbd:`Ctrl-Tab`
-     - Mode switching pie menu (toggles pose mode for armatures).
+     - Mode switching pie menu (toggles Pose Mode for armatures).
    * - :kbd:`F1`
      - Help *(context sensitive)*.
    * - :kbd:`F2`
      - Rename active item.
    * - :kbd:`F3`
-     - Search *(Cmd-f on macOS)*.
+     - Search *(``Cmd-F`` on macOS)*.
    * - :kbd:`F4`
      - File context menu.
-   * - :kbd:`F5..F10`
+   * - :kbd:`F5` - :kbd:`F10`
      - *Reserved for user actions.*
-   * - :kbd:`1..3`
+   * - :kbd:`1` - :kbd:`3`
      - Edit mesh vertex/edge/face toggle
        (:kbd:`Shift` extends, :kbd:`Ctrl` expands).
    * - :kbd:`A`
-     - Select All.
+     - Select all.
    * - :kbd:`Alt-A`
-     - Select None.
+     - Select none.
    * - Double tap :kbd:`A`
-     - Select Toggle.
+     - Select toggle.
    * - :kbd:`Ctrl-Shift-Space`
      - Playback animation (reverse).
    * - :kbd:`Ctrl-Space`
@@ -45,13 +45,13 @@ this page shows common keys used in Blender's default keymap.
    * - :kbd:`Ctrl-Alt-Space`
      - Toggle Fullscreen Area
    * - :kbd:`Ctrl-PageUp/Down`
-     - Next/Previous workspace.
+     - Next/previous Workspace.
    * - :kbd:`AccentGrave`
-     - 3D view pie menu.
+     - 3D View pie menu.
    * - :kbd:`Ctrl-AccentGrave`
      - Toggle manipulator.
    * - :kbd:`Shift-AccentGrave`
-     - Walk/Fly-mode.
+     - Walk/Fly Mode.
    * - :kbd:`Space`
      - User configurable.
 

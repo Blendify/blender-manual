@@ -22,7 +22,7 @@ Method
    Select the shadow map type. It changes how shadows are stored and filtered.
 
    :abbr:`ESM (Exponential Shadow Mapping)`
-      They are fast to filter but suffer from light leaking near the occluder.
+      They are fast to filter but light leaking may occur near a occluder.
       This can be minimized by increasing the *Exponent* parameter.
       Another issue is the artifacts present at depth discontinuity.
       Unfortunately, there is no workaround for this issue and the only way
@@ -30,7 +30,7 @@ Method
 
    :abbr:`VSM (Variance Shadow Mapping)`
       Filters nicely and gives smooth shadow map appearance across the whole shadow range.
-      However it suffers from visible grainy artifacts when using low bit depth.
+      However grainy artifacts will be visible when using a low bit depth.
       It is also prone to light leaking when two occluders overlap.
       In this case the shadows can be overdarkened to reduce the leak,
       by using the *Bleed Bias* parameter.

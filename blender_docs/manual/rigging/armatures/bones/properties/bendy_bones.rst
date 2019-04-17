@@ -185,7 +185,7 @@ Custom Handle
    For types other than *Automatic*, a bone to use as handle has to be manually selected.
    Switching to a custom handle type without selecting a bone can be used to effectively disable the handle.
 
-   It is legal for two bones to refer to each other as handles -- this in fact happens naturally
+   It is valid for two bones to refer to each other as handles -- this correlation is applied
    in connected chains with *Automatic* handles.
 
 .. tip:: Keying Set
