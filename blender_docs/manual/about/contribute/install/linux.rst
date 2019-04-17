@@ -59,7 +59,7 @@ Setting up the Build Environment
 
 .. note::
 
-   Every now and then you may want to make sure your lib dependencies are up to date using::
+   Every now and then you may want to make sure your dependencies are up to date using::
 
       sudo pip install -r requirements.txt --upgrade
 
