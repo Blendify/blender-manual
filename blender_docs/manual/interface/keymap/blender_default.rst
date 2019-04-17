@@ -9,7 +9,6 @@ Summary
 While this isn't a comprehensive list,
 this page shows common keys used in Blender's default keymap.
 
-
 .. list-table::
    :widths: 10 90
 
@@ -32,17 +31,17 @@ this page shows common keys used in Blender's default keymap.
    * - :kbd:`A`
      - Select All.
    * - :kbd:`Alt-A`
-     - Select None
+     - Select None.
    * - :kbd:`DoubleClick-A`
-     - Select Toggle
+     - Select Toggle.
    * - :kbd:`Ctrl-Shift-Space`
      - Playback animation (reverse).
    * - :kbd:`Ctrl-Space`
-     - Toggle Maximize Area
+     - Toggle Maximize Area.
    * - :kbd:`Ctrl-Alt-Space`
      - Toggle Fullscreen Area
    * - :kbd:`Ctrl-PageUp/Down`
-     - Next/Prev workspace
+     - Next/Previous workspace.
    * - :kbd:`AccentGrave`
      - 3D view pie menu.
    * - :kbd:`Ctrl-AccentGrave`
@@ -50,10 +49,10 @@ this page shows common keys used in Blender's default keymap.
    * - :kbd:`Shift-AccentGrave`
      - Fly-mode.
    * - :kbd:`Shift-N`
-     - Recalculate Normals/Curve-Handles
+     - Recalculate Normals/Curve-Handles.
    * - :kbd:`Space`
      - User configurable.
 
        :Play: Toggle animation playback.
-       :Tools: Tool switching with hotkeys (`Shift-Space` for play).
-       :Search: Search for actions (`Shift-Space` for play).
+       :Tools: Tool switching with hotkeys (:kbd:`Shift-Space` for play).
+       :Search: Search for actions (:kbd:`Shift-Space` for play).
