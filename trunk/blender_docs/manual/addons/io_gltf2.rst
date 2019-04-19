@@ -283,6 +283,7 @@ are supported:
 - ``KHR_materials_pbrSpecularGlossiness``
 - ``KHR_lights_punctual``
 - ``KHR_materials_unlit``
+- ``KHR_texture_transform``
 
 
 .. rubric:: Export
