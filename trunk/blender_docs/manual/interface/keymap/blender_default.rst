@@ -12,15 +12,25 @@ this page shows common keys used in Blender's default keymap.
 .. Even though this is not intended to be comprehensive,
    it could be expanded.
 
+
+Global Keys
+-----------
+
 .. list-table::
    :widths: 10 90
 
-   * - :kbd:`Tab`
-     - Edit-mode toggle.
-   * - :kbd:`Ctrl-Tab`
-     - Mode switching pie menu (toggles Pose Mode for armatures).
-   * - :kbd:`Q`
-     - Quick access (favorites).
+   * - :kbd:`Ctrl-O`
+     - Open file.
+   * - :kbd:`Ctrl-S`
+     - Save file.
+   * - :kbd:`Ctrl-N`
+     - New file.
+   * - :kbd:`Ctrl-Z`
+     - Undo.
+   * - :kbd:`Ctrl-Shift-Z`
+     - Redo.
+   * - :kbd:`Ctrl-Q`
+     - Quit.
    * - :kbd:`F1`
      - Help *(context sensitive)*.
    * - :kbd:`F2`
@@ -37,34 +47,66 @@ this page shows common keys used in Blender's default keymap.
      - Show render window.
    * - :kbd:`F12`
      - Render the current frame.
-   * - :kbd:`1` - :kbd:`3`
-     - Edit mesh vertex/edge/face toggle (:kbd:`Shift` extends, :kbd:`Ctrl` expands).
-   * - :kbd:`A`
-     - Select all.
-   * - :kbd:`Alt-A`
-     - Select none.
-   * - Double tap :kbd:`A`
-     - Select toggle.
-   * - :kbd:`Ctrl-Shift-Space`
-     - Playback animation (reverse).
+   * - :kbd:`Q`
+     - Quick access (favorites).
    * - :kbd:`Ctrl-Space`
      - Toggle Maximize Area.
    * - :kbd:`Ctrl-Alt-Space`
      - Toggle Fullscreen Area
    * - :kbd:`Ctrl-PageUp/Down`
      - Next/previous Workspace.
-   * - :kbd:`AccentGrave`
-     - 3D View pie menu.
-   * - :kbd:`Ctrl-AccentGrave`
-     - Toggle manipulator.
-   * - :kbd:`Shift-AccentGrave`
-     - Walk/Fly Mode.
    * - :kbd:`Space`
      - User configurable.
 
        :Play: Toggle animation playback.
        :Tools: Tool switching with hotkeys (:kbd:`Shift-Space` for play).
        :Search: Search for actions (:kbd:`Shift-Space` for play).
+   * - :kbd:`Ctrl-Shift-Space`
+     - Playback animation (reverse).
+
+
+Common Editor Keys
+------------------
+
+These keys are shared across editors such as the 3D-viewport, UV and graph editor.
+
+.. list-table::
+   :widths: 10 90
+
+   * - :kbd:`A`
+     - Select all.
+   * - :kbd:`Alt-A`
+     - Select none.
+   * - :kbd:`Ctrl-I`
+     - Invert selection.
+   * - :kbd:`H`
+     - Hide selection.
+   * - :kbd:`Alt-H`
+     - Reveal hidden items.
+   * - :kbd:`T`
+     - Toggle tool-bar.
+   * - :kbd:`N`
+     - Toggle side-bar.
+
+
+3D Viewport Keys
+----------------
+
+.. list-table::
+   :widths: 10 90
+
+   * - :kbd:`Tab`
+     - Edit-mode toggle.
+   * - :kbd:`Ctrl-Tab`
+     - Mode switching pie menu (toggles Pose Mode for armatures).
+   * - :kbd:`1` - :kbd:`3`
+     - Edit mesh vertex/edge/face toggle (:kbd:`Shift` extends, :kbd:`Ctrl` expands).
+   * - :kbd:`AccentGrave`
+     - 3D View navigation pie menu.
+   * - :kbd:`Ctrl-AccentGrave`
+     - Toggle manipulator.
+   * - :kbd:`Shift-AccentGrave`
+     - Walk/Fly Mode.
 
 
 Platform Spesific Keys
