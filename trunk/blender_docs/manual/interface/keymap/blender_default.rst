@@ -19,19 +19,26 @@ this page shows common keys used in Blender's default keymap.
      - Edit-mode toggle.
    * - :kbd:`Ctrl-Tab`
      - Mode switching pie menu (toggles Pose Mode for armatures).
+   * - :kbd:`Q`
+     - Quick access (favorites).
    * - :kbd:`F1`
      - Help *(context sensitive)*.
    * - :kbd:`F2`
      - Rename active item.
    * - :kbd:`F3`
-     - Search *(``Cmd-F`` on macOS)*.
+     - Operator search.
    * - :kbd:`F4`
      - File context menu.
-   * - :kbd:`F5` - :kbd:`F10`
+   * - :kbd:`F5` - :kbd:`F8`
      - *Reserved for user actions.*
+   * - :kbd:`F9`
+     - Adjust last operation.
+   * - :kbd:`F11`
+     - Show render window.
+   * - :kbd:`F12`
+     - Render the current frame.
    * - :kbd:`1` - :kbd:`3`
-     - Edit mesh vertex/edge/face toggle
-       (:kbd:`Shift` extends, :kbd:`Ctrl` expands).
+     - Edit mesh vertex/edge/face toggle (:kbd:`Shift` extends, :kbd:`Ctrl` expands).
    * - :kbd:`A`
      - Select all.
    * - :kbd:`Alt-A`
@@ -58,3 +65,23 @@ this page shows common keys used in Blender's default keymap.
        :Play: Toggle animation playback.
        :Tools: Tool switching with hotkeys (:kbd:`Shift-Space` for play).
        :Search: Search for actions (:kbd:`Shift-Space` for play).
+
+
+Platform Spesific Keys
+======================
+
+macOS
+-----
+
+.. list-table::
+   :widths: 10 90
+
+   * - :kbd:`Cmd-F`
+     - Operator search.
+   * - :kbd:`Cmd-Comma`
+     - User Preferences.
+
+.. note::
+
+   Actions such as copy/paste, undo/redo
+   support using :kbd:`Cmd` as well as :kbd:`Ctrl`.
