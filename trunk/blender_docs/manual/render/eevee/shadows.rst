@@ -142,6 +142,11 @@ Each cascade covers a different portion of the view frustum.
 Do note that cascade shadow maps are always updated because they are view dependent.
 This means they have a high performance impact.
 
+.. note::
+
+   In orthographic view the cascades cover the whole depth range of the camera with an evenly distrubuted
+   shadow precision. 
+
 Count
    Number of cascades to use. More cascade means better precision but slower update.
 
