@@ -68,6 +68,13 @@ Action Blending
       This allows layering actions that can also be used as a standalone.
       Properties keyframed at their default values remain at default.
 
+      .. note::
+        Since this blending mode is based on using quaternion multiplication
+        for Quaternion Rotation properties, it always drives all four channels
+        during playback, and Insert Single Keyframe is forced to insert all four
+        keys. Other types of channels can still be keyed individually.
+
+
 Action Influence
    Amount the active Action contributes to the result of the NLA stack.
 
