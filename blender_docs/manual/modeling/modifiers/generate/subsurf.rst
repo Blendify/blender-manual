@@ -90,33 +90,6 @@ Options
    Optimal Display
       When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
       (only draws the edges of the original geometry).
-   Opensubdiv
-      See the `OpenSubdiv`_ section.
-
-
-OpenSubdiv
-==========
-
-When *OpenSubdiv* is enabled, the modifier evaluation will happen on a compute device.
-To enable OpenSubdiv you must first choose the fastest compute device
-in the :ref:`User Preferences <prefs-system-opensubdiv>`.
-Most of the time the best performance will be achieved when using *GLSL*.
-As a result performance of the modifier will be much higher which is great for animations.
-
-.. seealso::
-
-   To find more on OpenSubdiv read
-   the `Release Notes <https://wiki.blender.org/wiki/Reference/Release_Notes/2.76/OpenSubdiv>`__.
-
-
-Improving Performance
----------------------
-
-In order to utilize maximum performance form OpenSubdiv the following things are required:
-
-- The modifier must be last in the :ref:`modifier stack <modifier-stack>`.
-- There should be no modifiers prior to the which changes mesh topology across the time.
-- Other objects should not use geometry of OpenSubdiv mesh
 
 
 Control
@@ -172,12 +145,6 @@ When using high levels of subdivision with a graphics card that has a low total 
 of VRAM, some parts of the geometry will disappear visually. Your mesh will actually be intact,
 because the render is generated using your Object Data,
 (even though it cannot be shown by your graphics card).
-
-.. tip::
-
-   To improve performance in the viewport try enabling `OpenSubdiv`_
-   or if you are using the Cycles Renderer consider using
-   :ref:`Adaptive Subdivision <render-cycles-settings-object-subdivision>`.
 
 
 Keyboard Shortcuts

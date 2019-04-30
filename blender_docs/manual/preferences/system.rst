@@ -109,30 +109,6 @@ OpenCL
    If the system has a compatible AMD OpenCL device, it will show up an option for rendering with Cycles.
 
 
-.. _prefs-system-opensubdiv:
-
-OpenSubdiv Compute
-==================
-
-The options here will set the compute device used by OpenSubdiv for
-the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
-
-None
-   Disables any OpenSubdiv compute devices, makes sure legacy subdivision method is used.
-   Use this option when OpenSubdiv causes any bugs or regressions.
-CPU
-   Single threaded CPU implementation.
-   It is mainly useful in cases when GPU compute is possible and threaded CPU option causes artifacts
-   (it is unlikely to happen, but still possible).
-OpenMP
-   Multi-threaded CPU implementation. Use it for maximum performance in cases when GPU compute is not available.
-GLSL Transform Feedback
-   Uses GPU to perform calculations, has minimal requirements to video card and driver.
-GLSL Compute
-   Uses GPU to perform calculations, supposed to be more efficient than *Transform Feedback*
-   but also has higher requirements to video card and driver.
-
-
 OpenGL
 ======
 
@@ -145,16 +121,6 @@ GPU Mipmap Generation
    Generate mip-maps on the GPU instead of the CPU.
 16 Bit Float Textures
    Enables the use of 16 Bit per component Texture Images (floating point images).
-Selection
-   Selection method to use for selecting.
-
-   Automatic
-      Automatically chooses the best setting depending on your OS, GPU, and drivers.
-   OpenGL Select
-      Legacy OpenGL selection method for legacy hardware.
-   OpenGL Occlusion Queries
-      More optimized OpenGL selection method.
-      Use this method if you are using an `OpenSubdiv Compute`_ compute device.
 
 OpenGL Depth Picking
    This option uses an alternative method of picking which uses depth information to select the front-most elements.
@@ -166,29 +132,6 @@ Anisotropic Filtering
    This improves the quality of how textures are drawn at the cost of performance.
    Available Options are: *Off* (No Filtering), *2x*, *4x*, *8x*, and *16x*.
 
-
-.. _prefs-system-window-draw:
-
-Window Draw Method
-==================
-
-Window Draw Method
-   Specifies the Window Draw Method used to display Blender Window(s).
-
-   Automatic
-      Automatically set based on graphics card and driver.
-   Triple Buffer
-      Use a third buffer for minimal redraws at the cost of more memory.
-      If you have a capable GPU, this is the best and faster method of redraw.
-   Overlap
-      Redraw all overlapping regions. Minimal memory usage, but more redraws.
-      Recommended for some graphics cards and drivers combinations.
-   Overlap Flip
-      Redraw all overlapping regions. Minimal memory usage, but more redraws (for graphics drivers that do flipping).
-      Recommended for some graphic cards and drivers combinations.
-   Full
-      Do a full redraw each time. Only use for reference, or when all else fails.
-      Useful for certain cards with bad to no OpenGL acceleration at all.
 
 .. _prefs-system-multi-sampling:
 

@@ -30,11 +30,10 @@ CUDA
 
 Nvidia :abbr:`CUDA (Compute Unified Device Architecture)`
 is supported for GPU rendering with *Nvidia* graphics cards.
-We support graphics cards starting from GTX 6xx (computing capability from 3.0 to 6.1).
+We support graphics cards with compute capability 3.0 and higher. See the
+`list of NVIDIA graphics cards with compute capabilities <https://developer.nvidia.com/cuda-gpus>`__.
 
 Cycles requires recent Nvidia drivers to be installed, on all operating systems.
-
-`List of CUDA cards with shader model <https://developer.nvidia.com/cuda-gpus>`__.
 
 
 OpenCL
