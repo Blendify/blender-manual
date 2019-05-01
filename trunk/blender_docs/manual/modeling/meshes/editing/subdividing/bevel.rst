@@ -149,7 +149,9 @@ Harden Normals :kbd:`H`
 
 Face Strength Mode
    Set *Face Strength* on the faces involved in the bevel, according to the mode specified here.
-   This can be used in conjunction with a following Weight Normals Modifier (with the 'Face Influence' option checked). Options:
+   This can be used in conjunction with a 
+   :doc:`Weight Normals Modifier </modeling/modifiers/modify/weighted_normal>`
+   (with the 'Face Influence' option checked). Options:
 
    None
       Don't set face strength.
