@@ -14,6 +14,7 @@
    lighting/index.rst
    eevee/index.rst
    cycles/index.rst
+   workbench/index.rst
    output/index.rst
    post_process/index.rst
    freestyle/index.rst
