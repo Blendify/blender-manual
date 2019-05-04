@@ -21,14 +21,14 @@ are used by the Workbench Engine.
 
 
 Shadow
-    When the **Shadow** in the :doc:`options` is enabled this object will 
-    cast a shadow.
+   When the **Shadow** in the :doc:`options` is enabled this object will
+   cast a shadow.
 In Front
-    When checked the object will be rendered in front of the other objects in
-    the scene.
+   When checked the object will be rendered in front of the other objects in
+   the scene.
 Color
-    The color to render the object in when object color needs to be rendered.
-    The alpha channel of the object can render the object transparent.
+   The color to render the object in when object color needs to be rendered.
+   The alpha channel of the object can render the object transparent.
 
 
 .. _properties-material-viewport-display:
@@ -46,14 +46,14 @@ are used by the Workbench Engine.
 
 
 Color
-    The color when rendering the material.
-    The alpha channel of the material can render the material transparent.
+   The color when rendering the material.
+   The alpha channel of the material can render the material transparent.
 Metallic
-    Changes the amount of specular lighting. This is only visible when the
-    `Specular Lighting` in the :doc:`options` is enabled.
+   Changes the amount of specular lighting. This is only visible when the
+   **Specular Lighting** in the :doc:`options` is enabled.
 Roughness
-    Changes the amount of roughness of the specular lighting. This is only 
-    visible when the `Specular Lighting` in the :doc:`options` is enabled.
+   Changes the amount of roughness of the specular lighting. This is only
+   visible when the **Specular Lighting** in the :doc:`options` is enabled.
 
 
 .. _properties-world-viewport-display:
@@ -71,5 +71,5 @@ are used by the Workbench Engine.
 
 
 Color
-    The color of the background of the world. This color will be rendered
-    in the background of the scene. 
+   The color of the background of the world. This color will be rendered
+   in the background of the scene.
