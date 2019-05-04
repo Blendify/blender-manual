@@ -2,7 +2,7 @@
 Options
 *******
 
-Shading options can be set in the 
+Shading options can be set in the
 :menuselection:`Properties --> Render --> Options`
 
 Backface Culling
@@ -16,8 +16,8 @@ Shadow
    Renders a sharp shadow in the scene.
 
    Darkness
-      How dark should the shadow be rendered. This slider can be 
-      adjusted between 0 (shadow not visible) and 1 (shadow is 
+      How dark should the shadow be rendered. This slider can be
+      adjusted between 0 (shadow not visible) and 1 (shadow is
       black).
 
    Light Direction
@@ -30,27 +30,27 @@ Shadow
 
    Shadow Focus
       Controls the falloff near the edge of the shadow.
-   
+
 Cavity
    Highlight ridges and valleys in the scene geometry.
 
    Type
-      Method how to calculate the cavity. The `World`
-      method is more precise but is slower to calculate.
-      The `Screen` method is fast but does not take the
+      Method how to calculate the cavity.
+      The **World** method is more precise but is slower to calculate.
+      The **Screen** method is fast but does not take the
       size of the ridges and valleys into account.
-      `Both` will use both methods.
+      **Both** will use both methods.
 
    Ridge
       Control the visibility of ridges
-   
+
    Valley
       Control the visibility of valleys
 
 Depth of Field
    Use the Depth of Field settings of the active camera in the viewport.
    Only visible when looking through the camera.
-   
+
    The settings are located on `Properties -> Camera -> Depth of Field`
    Panel.
 
