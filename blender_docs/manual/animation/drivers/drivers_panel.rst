@@ -144,6 +144,10 @@ Variable Type
          This option is for armatures.
       Type
          For example, X Location, X Rotation, X Scale.
+
+         The *Average Scale* option retrieves the combined scale value, computed as the
+         cubic root of the total change in volume. Unlike *X/Y/Z Scale*, this value can
+         be negative if the object is flipped by negative scaling.
       Space
          World Space, Transform Space, Local Space.
 
