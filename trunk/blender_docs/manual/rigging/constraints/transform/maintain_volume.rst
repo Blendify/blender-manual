@@ -19,6 +19,18 @@ Free
    The free-scaling axis of the object.
 
    X, Y, Z
+Mode
+   Specifies how the constraint handles scaling of the non-free axes.
+
+   Strict
+      This mode overrides non-free axis scaling to strictly maintain the specified volume.
+      Only the ratio between the scale of the non-free axes is passed through.
+   Uniform
+      This mode maintains the volume as specified only when the pre-constraint scaling is
+      uniform. Deviations from uniform scaling on non-free axes are passed through.
+   Single Axis
+      This mode maintains the volume only when the object is scaled just on its free axis.
+      Any additional non-free axis scaling is passed through.
 Volume
    The bone's rest volume.
 Space
