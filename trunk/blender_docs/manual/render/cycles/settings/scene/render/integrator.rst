@@ -26,7 +26,7 @@ Sampling
 Sample Method
    There are two integrator modes that can be used: *Path Tracing* and *Branched Path Tracing*.
 Square Samples
-   Square the amount samples.
+   Square the amount of samples.
 Seed
    Seed value for integrator to get different noise patterns.
 
@@ -163,7 +163,7 @@ Bounces
 Max Bounces
    Maximum number of light bounces. For best quality, this should be set to the maximum.
    However, in practice, it may be good to set it to lower values for faster rendering.
-   Setting it to maximum 0 bounces results in direct lighting only.
+   A value of 0 bounces results in direct lighting only.
 Min Bounces
    Minimum number of light bounces for each path,
    after which the integrator uses Russian Roulette to terminate paths that contribute less to the image.

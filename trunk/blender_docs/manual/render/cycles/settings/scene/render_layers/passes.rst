@@ -116,7 +116,7 @@ Cryptomatte is a standard to efficiently create mattes for compositing.
 Cycles outputs the required render passes, which can then be used in the Blender compositor
 or another compositor with Cryptomatte support to create masks for specified objects.
 
-Unlike the Material and Object Index passes the objects to isolate are selected in compositing,
+Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,
 and mattes will be anti-aliased and take into account effects like motion blur and transparency.
 
 Object
@@ -137,7 +137,7 @@ Typical Workflow
 
 #. Enable Cryptomatte Object render pass in the Passes panel, and render.
 #. In the compositing nodes, create a Cryptomatte node and
-   link the Render Layer matching Image and Crypto passes to it.
+   link the Render Layer matching Image and Cryptomatte passes to it.
 #. Attach a Viewer node to the Pick output of the Cryptomatte node.
 #. Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
 #. Use the Matte output of the Cryptomatte node to get the alpha mask.
