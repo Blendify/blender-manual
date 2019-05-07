@@ -21,6 +21,13 @@ connected bones and a curve to constrain these bones to:
   that should be influenced by the curve.
 - Finally, set *Target* to the curve that should control the curve.
 
+.. note::
+   The IK constraints are special in that they modify multiple bones. For this reason,
+   they ignore their position in the stack and always run after all other constraints
+   on the affected bones. To apply constraints after IK, it is necessary to first copy
+   the final transformation to a new bone chain, e.g. using
+   :doc:`Copy Transforms </rigging/constraints/transform/copy_transforms>`.
+
 
 Options
 =======
