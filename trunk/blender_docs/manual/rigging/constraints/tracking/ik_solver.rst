@@ -12,6 +12,13 @@ and press :kbd:`Shift-I`.
 This constraint is fully documented in
 the :ref:`Inverse Kinematics <bone-constraints-inverse-kinematics>` page, part of the rigging chapter.
 
+.. note::
+   The IK constraints are special in that they modify multiple bones. For this reason,
+   they ignore their position in the stack and always run after all other constraints
+   on the affected bones. To apply constraints after IK, it is necessary to first copy
+   the final transformation to a new bone chain, e.g. using
+   :doc:`Copy Transforms </rigging/constraints/transform/copy_transforms>`.
+
 
 Options
 =======
