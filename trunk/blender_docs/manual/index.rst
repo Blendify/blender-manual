@@ -15,10 +15,11 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
    release. This is work in progress. Various sections of this manual
    have not been updated, or they are updated only partially.
 
+.. see T64071 for why we don't use ':download:'
 .. only:: builder_html
 
-   - This site can be downloaded for offline use:
-     :download:`Download the full manual (zipped HTML files) <blender_manual.zip>`
+   - This site can be used offline:
+     `Download the full manual (zipped HTML files) <blender_manual.zip>`__.
    - :doc:`/about/whats_new`
 
 
