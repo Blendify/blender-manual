@@ -77,7 +77,10 @@ XZ Scale Mode
    Inverse Scale
       Scale of the X and Z axes is the inverse of the Y scale.
    Volume Preservation
-      Similar to the :ref:`Stretch to <constraints-stretch-to-volume-preservation>` constraint.
+      Similar to the :ref:`Stretch To <constraints-stretch-to-volume-preservation>` constraint.
+Use Original Scale
+   Specifies that *Inverse Scale* or *Volume Preservation* should be applied on top of the
+   original scaling of the bones, like in the Stretch To constraint.
 
 .. seealso::
 
