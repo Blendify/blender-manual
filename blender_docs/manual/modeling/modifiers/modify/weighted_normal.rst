@@ -1,8 +1,8 @@
-. _bpy.types.WeightedNormalModifier:
+.. _bpy.types.WeightedNormalModifier:
 
-********************************
+************************
 Weighted Normal Modifier
-********************************
+************************
 
 This modifier changes the custom normals of a mesh, using various methods that can be
 specified using options.
@@ -32,14 +32,14 @@ Weighting Mode
       Weight according to the angle each face makes at the vertex. This is the method blender
       uses by default when combining normals at a vertex.
 
-    Face Area and Angle
-       Weights are obtained by multiplying the face area and corner angle.
- 
- Weight
-    Determines how strongly the weights are biased according to the face areas and/or corner angles.
-    A value of 50 means all faces are weighted equally.
-    More than 50 means faces with higher area or angles are given even more weight.
-    Less than 50 means faces with higher area or angles are given lesser weights.
+   Face Area and Angle
+      Weights are obtained by multiplying the face area and corner angle.
+
+Weight
+   Determines how strongly the weights are biased according to the face areas and/or corner angles.
+   A value of 50 means all faces are weighted equally.
+   More than 50 means faces with higher area or angles are given even more weight.
+   Less than 50 means faces with higher area or angles are given lesser weights.
 
 Threshold
    A weight-rounding threshold: if two angles or areas differ by less than the threshold

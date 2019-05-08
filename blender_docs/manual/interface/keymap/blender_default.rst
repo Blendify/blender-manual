@@ -68,7 +68,7 @@ Global Keys
 Common Editor Keys
 ------------------
 
-These keys are shared across editors such as the 3D-viewport, UV and graph editor.
+These keys are shared across editors such as the 3D Viewport, UV and Graph editor.
 
 .. list-table::
    :widths: 10 90
@@ -84,9 +84,9 @@ These keys are shared across editors such as the 3D-viewport, UV and graph edito
    * - :kbd:`Alt-H`
      - Reveal hidden items.
    * - :kbd:`T`
-     - Toggle tool-bar.
+     - Toggle Toolbar.
    * - :kbd:`N`
-     - Toggle side-bar.
+     - Toggle Sidebar.
 
 
 3D Viewport Keys
@@ -109,7 +109,7 @@ These keys are shared across editors such as the 3D-viewport, UV and graph edito
      - Walk/Fly Mode.
 
 
-Platform Spesific Keys
+Platform Specific Keys
 ======================
 
 macOS

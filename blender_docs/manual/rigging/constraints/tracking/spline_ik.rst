@@ -22,11 +22,12 @@ connected bones and a curve to constrain these bones to:
 - Finally, set *Target* to the curve that should control the curve.
 
 .. note::
-   The IK constraints are special in that they modify multiple bones. For this reason,
-   they ignore their position in the stack and always run after all other constraints
-   on the affected bones. To apply constraints after IK, it is necessary to first copy
-   the final transformation to a new bone chain, e.g. using
-   :doc:`Copy Transforms </rigging/constraints/transform/copy_transforms>`.
+
+   The IK constraints are special in that they modify multiple bones.
+   For this reason, they ignore their position in the stack and always run after
+   all other constraints on the affected bones. To apply constraints after IK,
+   it is necessary to first copy the final transformation to a new bone chain,
+   e.g. using :doc:`Copy Transforms </rigging/constraints/transform/copy_transforms>`.
 
 
 Options
@@ -79,8 +80,8 @@ XZ Scale Mode
    Volume Preservation
       Similar to the :ref:`Stretch To <constraints-stretch-to-volume-preservation>` constraint.
 Use Original Scale
-   Specifies that *Inverse Scale* or *Volume Preservation* should be applied on top of the
-   original scaling of the bones, like in the Stretch To constraint.
+   Specifies that *Inverse Scale* or *Volume Preservation* should be applied on top of
+   the original scaling of the bones, like in the Stretch To constraint.
 
 .. seealso::
 

@@ -29,7 +29,7 @@ Shading
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:     :menuselection:`Object --> Shade Smooth / Shade Flat`
+   :Menu:      :menuselection:`Object --> Shade Smooth / Shade Flat`
 
 .. admonition:: Reference
    :class: refbox

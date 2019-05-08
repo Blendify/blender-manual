@@ -24,7 +24,7 @@ Multiple Importance Sample
    This can be done by disabling the *Multiple Importance Sample* option.
    This is especially useful on large objects that emit little light compared to other light sources.
 
-   This option will only have an influence if the material contains an emission node; 
+   This option will only have an influence if the material contains an emission node;
    otherwise it will be automatically disabled.
 
 Transparent Shadows

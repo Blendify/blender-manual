@@ -11,9 +11,8 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 
 .. warning::
 
-   Blender Manual is being updated in preparation for 2.80
-   release. This is work in progress. Various sections of this manual
-   have not been updated, or they are updated only partially.
+   Blender Manual is being updated in preparation for 2.80 release. This is work in progress.
+   Various sections of this manual have not been updated, or they are updated only partially.
 
 .. see T64071 for why we don't use ':download:'
 .. only:: builder_html

@@ -113,8 +113,8 @@ different surface components and will take all lights into account for shading i
 
 This makes each sample slower, but will reduce noise,
 especially in scenes dominated by direct or one-bounce lighting.
-To get the same number of diffuse samples as in the path tracing integrator, note that e.g.
-250 path tracing samples = 10 AA samples x 25 diffuse samples.
+To get the same number of diffuse samples as in the path tracing integrator,
+note that e.g. 250 path tracing samples = 10 AA samples x 25 diffuse samples.
 The Sampling panel shows this total number of samples.
 
 AA Render Samples
