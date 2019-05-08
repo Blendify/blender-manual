@@ -24,7 +24,7 @@ General
      - Quick access (favorites)
    * - :kbd:`Ctrl/⌘-D`
      - Duplicate
-   * - :kbd:`p`
+   * - :kbd:`P`
      - Set Parent
    * - :kbd:`Return`
      - Rename
@@ -50,6 +50,30 @@ Viewport
      - Frame Selected
    * - :kbd:`A`
      - Frame All
+
+Selection
+
+.. list-table::
+   :widths: 20 80
+
+   * - :kbd:`Left Click`
+     - Select
+   * - :kbd:`Ctrl/⌘-A`
+     - Select All
+   * - :kbd:`Ctrl/⌘-Shift-A`
+     - Deselect All
+   * - :kbd:`Ctrl/⌘-I`
+     - Select Inverse
+   * - :kbd:`Arrow up`
+     - Select More
+   * - :kbd:`Arrow down`
+     - Select Less
+   * - :kbd:`Double Click`
+     - Select Loop
+   * - :kbd:`Alt-Double Click`
+     - Select Ring
+   * - :kbd:`]`
+     - Select Linked
 
 Tools
 
@@ -79,31 +103,6 @@ Edit Mode Tools
    * - :kbd:`C`
      - Cursor Tool
 
-
-Selection
-
-.. list-table::
-   :widths: 20 80
-
-   * - :kbd:`Left Click`
-     - Select
-   * - :kbd:`Ctrl/⌘-A`
-     - Select All
-   * - :kbd:`Ctrl/⌘-Shift-A`
-     - Deselect All
-   * - :kbd:`Ctrl/⌘-I`
-     - Select Inverse
-   * - :kbd:`Arrow up`
-     - Select More
-   * - :kbd:`Arrow down`
-     - Select Less
-   * - :kbd:`Double Click`
-     - Select Loop
-   * - :kbd:`Alt-Double Click`
-     - Select Ring
-   * - :kbd:`]`
-     - Select Linked
-
 Animation
 
 .. list-table::
@@ -112,7 +111,9 @@ Animation
    * - :kbd:`Space`
      - Play/Pause
    * - :kbd:`S`
-     - Set Keyframe
+     - Set Location + Rotation + Scale keyframe
+   * - :kbd:`Shift-S`
+     - Insert Keyframe menu
    * - :kbd:`Shift-W`
      - Set Location Key
    * - :kbd:`Shift-E`
