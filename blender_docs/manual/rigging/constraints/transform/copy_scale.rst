@@ -29,15 +29,23 @@ Target
 X, Y, Z
    These buttons control along which axes the scale is constrained.
 
+Power
+   Allows raising the copied scale to the specified arbitrary power.
+
 Offset
    When enabled, this control allows the owner to be scaled (using its current transform properties),
    relatively to its target's scale.
 
 Additive
-   Scale is a multiplicative quantity, so the *Offset* option by default multiplies
-   the owner scale by the target scale. With this option enabled it instead adds them.
+   Uses addition instead of multiplication in the implementation of the *Offset* option.
 
 Space
    Standard conversion between spaces.
+
+.. note::
+   Since scale is a multiplicative quantity, it should be combined using multiplication,
+   and split into fractions or inverted via power. Thus the use of *Power* is more
+   mathematically correct than *Influence*, which uses linear interpolation. The
+   use of the *Additive* option is also not recommended.
 
 .. vimeo:: 171077617
