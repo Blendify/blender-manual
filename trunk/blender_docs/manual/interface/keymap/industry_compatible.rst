@@ -51,7 +51,6 @@ Viewport
    * - :kbd:`A`
      - Frame All
 
-
 Tools
 
 .. list-table::
@@ -65,7 +64,6 @@ Tools
      - Annotate
    * - :kbd:`C`
      - Cursor Tool
-
 
 Edit Mode Tools
 
@@ -105,7 +103,6 @@ Selection
      - Select Ring
    * - :kbd:`]`
      - Select Linked
-
 
 Animation
 
