@@ -94,14 +94,17 @@ Edit Mode Tools
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`W, E, R`
+   * - :kbd:`Ctrl/⌘-E`
      - Extrude
-   * - :kbd:`Q`
-     - Box Select
-   * - :kbd:`D`
-     - Annotate
-   * - :kbd:`C`
-     - Cursor Tool
+   * - :kbd:`Ctrl/⌘-B`
+     - Bevel
+   * - :kbd:`I`
+     - Inset
+   * - :kbd:`K`
+     - Knife
+   * - :kbd:`Alt-C`
+     - Loop Cut
+
 
 Animation
 
