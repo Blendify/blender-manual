@@ -144,11 +144,11 @@ This means they have a high performance impact.
 
 .. note::
 
-   In orthographic view the cascades cover the whole depth range of the camera with an evenly distrubuted
-   shadow precision. 
+   In orthographic view the cascades cover the whole depth range of the camera
+   with an evenly distributed shadow precision.
 
 Count
-   Number of cascades to use. More cascade means better precision but slower update.
+   Number of cascades to use. More cascades means better precision but slower a update rate.
 
 Fade
    Fade transition area between two cascades.

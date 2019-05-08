@@ -1,12 +1,12 @@
+
 *******
 Options
 *******
 
-Shading options can be set in the
-:menuselection:`Properties --> Render --> Options`
+Shading options can be set in the :menuselection:`Properties --> Render --> Options`.
 
 Backface Culling
-   Use backface culling to hide backsides of faces
+   Use backface culling to hide backsides of faces.
 
 X-Ray
    Render the scene transparent. With the slider you can control how
@@ -17,16 +17,13 @@ Shadow
 
    Darkness
       How dark should the shadow be rendered. This slider can be
-      adjusted between 0 (shadow not visible) and 1 (shadow is
-      black).
+      adjusted between 0 (shadow not visible) and 1 (shadow is black).
 
    Light Direction
-      Control the direction of the light source that casts the
-      shadows.
+      Control the direction of the light source that casts the shadows.
 
    Shadow Shift
-      Controls the Shadow termination angle. It can be used to limit
-      self shadowing artifacts.
+      Controls the Shadow termination angle. It can be used to limit self shadowing artifacts.
 
    Shadow Focus
       Controls the falloff near the edge of the shadow.
@@ -36,29 +33,30 @@ Cavity
 
    Type
       Method how to calculate the cavity.
-      The **World** method is more precise but is slower to calculate.
-      The **Screen** method is fast but does not take the
-      size of the ridges and valleys into account.
-      **Both** will use both methods.
+
+      World
+         The World method is more precise but is slower to calculate.
+      Screen
+         The Screen method is fast but does not take the size of the ridges and valleys into account.
+      Both
+         Both will use both methods.
 
    Ridge
-      Control the visibility of ridges
+      Control the visibility of ridges.
 
    Valley
-      Control the visibility of valleys
+      Control the visibility of valleys.
 
 Depth of Field
    Use the Depth of Field settings of the active camera in the viewport.
    Only visible when looking through the camera.
 
-   The settings are located on `Properties -> Camera -> Depth of Field`
-   Panel.
+   The settings are located on :menuselection:`Properties --> Camera --> Depth of Field` Panel.
 
 Outline
-   Render the outline of objects in the viewport. The color of the outline
-   can be adjusted.
+   Render the outline of objects in the viewport. The color of the outline can be adjusted.
 
 Specular Highlighting
-   Render specular highlights
+   Render specular highlights.
 
-   .. note:: Only available when Lighting is set to `Studio lighting`.
+   .. note:: Only available when Lighting is set to *Studio* lighting.

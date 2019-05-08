@@ -1,10 +1,11 @@
+
 ****************
 Viewport Display
 ****************
 
-The Workbench engine does not work with shader trees. On various locations
-there is a **Viewport Display** panel where settings can be adjusted that the
-Workbench engine uses.
+The Workbench engine does not work with shader trees. In various tabs of the Properties editor
+are Viewport Display panel where settings can be adjusted that the Workbench engine uses.
+
 
 .. _properties-object-viewport-display:
 
@@ -19,9 +20,8 @@ are used by the Workbench Engine.
 
    :Panel:     :menuselection:`Object --> Viewport Display`
 
-
 Shadow
-   When the **Shadow** in the :doc:`options` is enabled this object will
+   When the *Shadow* in the :doc:`options` is enabled this object will
    cast a shadow.
 In Front
    When checked the object will be rendered in front of the other objects in
@@ -44,16 +44,15 @@ are used by the Workbench Engine.
 
    :Panel:     :menuselection:`Material --> Viewport Display`
 
-
 Color
    The color when rendering the material.
    The alpha channel of the material can render the material transparent.
 Metallic
-   Changes the amount of specular lighting. This is only visible when the
-   **Specular Lighting** in the :doc:`options` is enabled.
+   Changes the amount of specular lighting. This is only available when
+   *Specular Lighting* in the :doc:`/render/workbench/options` is enabled.
 Roughness
-   Changes the amount of roughness of the specular lighting. This is only
-   visible when the **Specular Lighting** in the :doc:`options` is enabled.
+   Changes the amount of roughness for specular lighting. This is only available when
+   *Specular Lighting* in the :doc:`/render/workbench/options` is enabled.
 
 
 .. _properties-world-viewport-display:
@@ -68,7 +67,6 @@ are used by the Workbench Engine.
    :class: refbox
 
    :Panel:     :menuselection:`World --> Viewport Display`
-
 
 Color
    The color of the background of the world. This color will be rendered

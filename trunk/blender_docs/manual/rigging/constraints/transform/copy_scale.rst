@@ -43,9 +43,10 @@ Space
    Standard conversion between spaces.
 
 .. note::
+
    Since scale is a multiplicative quantity, it should be combined using multiplication,
-   and split into fractions or inverted via power. Thus the use of *Power* is more
-   mathematically correct than *Influence*, which uses linear interpolation. The
-   use of the *Additive* option is also not recommended.
+   and split into fractions or inverted via power. Thus the use of *Power* is
+   more mathematically correct than *Influence*, which uses linear interpolation.
+   The use of the *Additive* option is also not recommended.
 
 .. vimeo:: 171077617

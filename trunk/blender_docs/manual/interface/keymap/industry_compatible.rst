@@ -6,7 +6,7 @@ Industry Compatible Keymap
 Summary
 =======
 
-While this isn't a comprehensive list,
+While this is not a comprehensive list,
 this page shows common keys used in the industry compatible keymap.
 
 General
@@ -123,7 +123,3 @@ Animation
      - Set Rotation Key
    * - :kbd:`Shift_R`
      - Set Scale Key
-
-
-
-

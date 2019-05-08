@@ -77,8 +77,8 @@ Possible Solutions:
 OpenGL Depth Picking (User Preferences)
    See :menuselection:`User Preferences --> Viewport --> Selection`.
 
-   This option is enabled by default, disabling it may give better performance at the
-   cost of selection accuracy.
+   This option is enabled by default, disabling it may give better performance at
+   the cost of selection accuracy.
 Upgrade Graphics Driver
    In some cases, slow selection is resolved by using updated drivers.
    *It is generally good to use recent drivers when using 3D software.*

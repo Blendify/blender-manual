@@ -51,6 +51,7 @@ to parent objects, the *Child Objects* can only have one *Parent Object*.
 If a *Child Object* already has a *Parent Object* and you give it another parent then
 Blender will remove the previous parent relationship.
 
+
 Parent Inverse
 --------------
 
@@ -65,6 +66,7 @@ evaluated in the parent's coordinate system. This is the better choice for CAD p
 for example.
 
 The matrix can also be cleared after parenting by using :ref:`Clear Parent Inverse <bpy.ops.object.parent_clear>`.
+
 
 Parent Types
 ------------

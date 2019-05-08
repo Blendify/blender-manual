@@ -91,7 +91,7 @@ Amount Type :kbd:`M`
       The percentage of the length of adjacent edges that the new edges slide.
 
    For vertex-only bevels, the Offset and Depth types measure from the original vertex,
-   and the Width type measures from a new vertex to the center of the new face (as half the amount).
+   and the Width type is measured from a new vertex to the center of the new face (as half the amount).
 
 Segments :kbd:`S`
    The number of segments in the bevel can be defined by
@@ -111,8 +111,7 @@ Profile :kbd:`P`
    This is a number between 0 and 1 that controls the shape of the profile (side view of a beveled edge).
    The default value, 0.5, gives a circular arc (if the faces meet at right angles).
    Values less than that give a flatter profile, with 0.25 being exactly flat,
-   and values less than that giving a concave bevel.
-   Values more than 0.5 give a more convex profile.
+   and values less than that giving a concave bevel. Values more than 0.5 give a more convex profile.
    Similarly as *Segments* it can be set with mouse movements and numeric input after toggling :kbd:`P`.
 
 Vertex Only :kbd:`V`
@@ -142,8 +141,9 @@ Material
 Harden Normals :kbd:`H`
    When enabled, the per-vertex face normals of the bevel faces are adjusted to match the surrounding faces,
    and the normals of the surrounding faces are not affected --
-   so the effect is to keep the surrounding faces flat (if they were before), with the bevel faces shading smoothly into them.
-   For this to work, custom split normals need to be enabled, which requires Auto Smooth to be enabled
+   so the effect is to keep the surrounding faces flat (if they were before),
+   with the bevel faces shading smoothly into them. For this to work,
+   custom split normals need to be enabled, which requires Auto Smooth to be enabled
    (see :doc:`Normals </modeling/meshes/editing/normals>`).
    As a convenience, that option will be enabled for you if it is not already when you enable Harden Normals here.
 
@@ -151,27 +151,31 @@ Face Strength Mode
    Set *Face Strength* on the faces involved in the bevel, according to the mode specified here.
    This can be used in conjunction with a 
    :doc:`Weight Normals Modifier </modeling/modifiers/modify/weighted_normal>`
-   (with the 'Face Influence' option checked). Options:
+   (with the 'Face Influence' option checked).
 
    None
-      Don't set face strength.
+      Do not set face strength.
    New
-      Set the face strength of new faces along edges to Medium, and the face strength of new faces at vertices to Weak.
+      Set the face strength of new faces along edges to *Medium*,
+      and the face strength of new faces at vertices to *Weak*.
    Affected
-      In addition to those set for the New case, also set the faces adjacent to new faces to have strength Strong.
+      In addition to those set for the *New* case,
+      also set the faces adjacent to new faces to have strength *Strong*.
    All
-      In addition to those set for the Affected case, also set all the rest of the faces of the model to have strength Strong.
+      In addition to those set for the *Affected* option,
+      also set all the rest of the faces of the model to have strength *Strong*.
 
 Outer Miter :kbd:`O`
-   An *miter* is formed when two beveled edges meet at an angle. On the side where the angle is greater than 180 degrees,
-   if any, it is called an *outer miter*. This option specifies the pattern that Blender uses at an outer miter.
+   A *miter* is formed when two beveled edges meet at an angle.
+   On the side where the angle is greater than 180 degrees, if any, it is called an *outer miter*.
+   This option specifies the pattern that Blender uses at an outer miter.
 
    Sharp
       Edges meet at a sharp point, with no extra vertices introduced on the edges.
    Patch
-      Edges meet at a sharp point but in addition, two extra vertices are introduced near the
-      point so that the edges and faces at the vertex may be less pinched together than
-      what occurs in the Sharp case.
+      Edges meet at a sharp point but in addition, two extra vertices are introduced near the point
+      so that the edges and faces at the vertex may be less pinched together than
+      what occurs in the *Sharp* case.
       The *Spread* parameter controls how far the new vertices are from the meeting point.
    Arc
       Two vertices are introduced near the meeting point, and a curved arc joins them together.
@@ -179,12 +183,12 @@ Outer Miter :kbd:`O`
       The *Profile* parameter controls the shape of the arc.
 
 Inner Miter :kbd:`I`
-   An *inner miter* is formed when the angle between two beveled edges is less than 180 degrees.
+   An *Inner Miter* is formed when the angle between two beveled edges is less than 180 degrees.
    This option specifies the pattern Blender uses at an inner miter.
-   The options are the same as for Outer Miter, except that Patch makes no sense and is therefore omitted.
+   The options are the same as for Outer Miter, except that *Patch* makes no sense and is therefore omitted.
 
 Spread
-   The value used to spread extra vertices apart for Outer and Inner Miters.
+   The value used to spread extra vertices apart for *Outer* and *Inner Miters*.
 
 
 Examples
