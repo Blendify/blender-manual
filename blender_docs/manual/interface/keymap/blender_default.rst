@@ -115,15 +115,11 @@ Platform Specific Keys
 macOS
 -----
 
+:kbd:`Cmd` can be used instead of :kbd:`Ctrl` on macOS
+for all but a few exceptions which conflict with the operating system.
+
 .. list-table::
    :widths: 10 90
 
-   * - :kbd:`Cmd-F`
-     - Operator search.
    * - :kbd:`Cmd-Comma`
      - User Preferences.
-
-.. note::
-
-   Actions such as copy/paste, undo/redo
-   support using :kbd:`Cmd` as well as :kbd:`Ctrl`.
