@@ -125,7 +125,7 @@ Synchronize Playback
       (Audio/Video Synchronization). Sync to audio clock, dropping frames if playback is slow.
 Audio Scrubbing
    If your animation has sound, this option plays bits of the sound wave
-   while you move the time cursor with :kbd:`LMB` or keyboard arrows (like a moving playhead).
+   while you move the playhead with :kbd:`LMB` or keyboard arrows (like a moving playhead).
 Mute Audio
    Mute the sound from Sequence Editors.
 Subframes
@@ -217,14 +217,14 @@ View Menu
 The *View Menu* controls what you see, and what it looks like.
 
 Show Seconds :kbd:`Ctrl-T`
-   Whether to show the time in the X axis and the *Time Cursor* as
+   Whether to show the time in the X axis and the *Playhead* as
    frames (based on the FPS) or as seconds.
 Lock Time to Other Windows
    It synchronizes the horizontal panning and scale of the current editor
    with the other editors (Graph, Dope Sheet, NLA) when this option is set.
    That way you always have these editors showing an identical part of the time you work on.
 Show Frame Number Indicator
-   This will draw the current frame or seconds on the *Time Cursor*.
+   This will draw the current frame or seconds on the *Playhead*.
 Only Keyframes from Selected Channels
    For *Armatures*, this will draw the object keyframes,
    and the keyframes for the active and selected pose bones.
@@ -241,7 +241,7 @@ Cache
 View All :kbd:`Home`
    Maximize the area based on the Animation Range.
 View Frame :kbd:`Numpad0`
-   Centers the Timeline to the Time cursor.
+   Centers the Timeline to the Playhead.
 
 .. removed in 2.8
 
@@ -297,13 +297,13 @@ End Frame
    The end frame of the animation/playback range.
 Current Frame :kbd:`Alt-Wheel`
    The current frame of the animation/playback range.
-   Also the position of the *Time Cursor*.
+   Also the position of the *Playhead*.
 
 
 Player Control
 ^^^^^^^^^^^^^^
 
-These buttons are used to set, play, rewind, the *Time Cursor*.
+These buttons are used to set, play, rewind, the *Playhead*.
 
 .. figure:: /images/editors_timeline_player-controls.png
    :align: right
