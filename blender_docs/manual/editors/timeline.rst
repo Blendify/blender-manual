@@ -13,7 +13,7 @@
 Timeline Editor
 ***************
 
-The *Timeline* editor, identified by a clock icon, is used for viewing keyframes, scrubbing the playhead and animation controls.
+The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes, scrubbing the playhead and includes transport controls.
 
 .. figure:: /images/editors_timeline_interface.png
 
@@ -23,7 +23,7 @@ The *Timeline* is one of an animator's most useful tools as it can give a broad 
 The Timeline can communicate the current frame, either in frames or in seconds,
 where the keyframes are of the active object, the start and end frames of your animation, markers, etc.
 
-The *Timeline* has *Player Controls*, to play, pause the animation,
+The *Timeline* has *Transport Controls*, to play, pause the animation,
 and to skip through parts of the scene.
 
 It also has some tools for *Keyframes*, *Keying Sets*, and *Markers*.
@@ -275,7 +275,7 @@ The Timeline header controls.
 
    Timeline header controls.
 
-   \1. Range Control, 2. Frame Control, 3. Player Control,
+   \1. Range Control, 2. Frame Control, 3. Transport Control,
    \4. Synchronize Playback, 5. Keyframe Control.
 
 
@@ -300,7 +300,7 @@ Current Frame :kbd:`Alt-Wheel`
    Also the position of the *Playhead*.
 
 
-Player Control
+Transport Controls
 ^^^^^^^^^^^^^^
 
 These buttons are used to set, play, rewind, the *Playhead*.
@@ -308,7 +308,7 @@ These buttons are used to set, play, rewind, the *Playhead*.
 .. figure:: /images/editors_timeline_player-controls.png
    :align: right
 
-   Player controls.
+   Transport controls.
 
 Jump to start (|first|) :kbd:`Shift-Ctrl-Down`, :kbd:`Shift-Left`
    This sets the cursor to the start of frame range.
