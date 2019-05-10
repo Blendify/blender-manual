@@ -19,14 +19,11 @@ The *Timeline* editor, identified by a clock icon, is used for manipulating keyf
 
    The Timeline.
 
-The *Timeline* is one of an animator's most useful tools as it can give a broad overview of a scene's animation.
-The Timeline can communicate the current frame, either in frames or in seconds,
-where the keyframes are of the active object, the start and end frames of your animation, markers, etc.
+The *Timeline* gives the user a broad overview of a scene's animation, by showing the current frame, the keyframes of the active object, the start and end frames of your animation and any markers set by the user.
 
-The *Timeline* has *Transport Controls*, to play, pause the animation,
-and to skip through parts of the scene.
+The *Timeline* includes *Transport Controls*, to play, pause, and skip through animation sequence.
 
-It also has some tools for *Keyframes*, *Keying Sets*, and *Markers*.
+It also has some tools for manipulating *Keyframes*, *Keying Sets*, and *Markers*.
 
 
 Main View
@@ -35,7 +32,7 @@ Main View
 The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
-
+s
    Timeline main view.
 
 
@@ -71,8 +68,7 @@ Frame Range
 ------------------------
 
 By default, the *Frame Range* (Frame Start 1 to Frame End 250)
-is a lighter shade of gray. The start and end frame can be set to the *Playhead*
-by pressing :kbd:`S` or :kbd:`E`.
+is a lighter shade of gray. You can change the frame range in the top right of the Timeline header, or in the Output Properties.
 
 
 Keyframes
