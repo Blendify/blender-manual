@@ -67,14 +67,17 @@ or you can jump to the beginning or end frame by pressing :kbd:`Shift-Left` or :
 Frame Range
 ------------------------
 
-By default, the *Frame Range* (Frame Start 1 to Frame End 250)
-is a lighter shade of gray. You can change the frame range in the top right of the Timeline header, or in the Output Properties.
+By default, the *Frame Range* is set to start at frame 1 and end at frame 250.
+You can change the frame range in the top right of the Timeline header, or in the Output Properties.
 
 
 Keyframes
 ---------
 
-For the active and selected objects, keyframes are displayed as a yellow dots, depending on the keyframe type.
+For the active and selected objects, keyframes are displayed as a yellow diamonds.
+
+You can click to select one at a time, or select several by holding shift, or by dragging a box around the keyframes.
+You can then move and scale them using :kbd:`G` and :kbd:`S`
 
 *Only Selected Channels* can be enabled. :menuselection:`Timeline --> View --> Only Selected Channels`.
 For *Armatures*, this will display the object keyframes,
@@ -89,7 +92,7 @@ See the :doc:`Markers page </animation/markers>` for more information.
 Header
 ======
 
-Pop-Overs
+Popovers
 ---------
 
 .. _timeline-playback:
@@ -155,7 +158,7 @@ Clip Editors
 Keying Popover
 ^^^^^^^^^^^^^^^
 
-The *Keying* pop-over contains options that affect keyframe insertion.
+The *Keying* popover contains options that affect keyframe insertion.
 
 Active Keying Set
    .. figure:: /images/editors_timeline_keying-sets.png
