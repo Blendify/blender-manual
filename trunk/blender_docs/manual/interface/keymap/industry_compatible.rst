@@ -42,10 +42,14 @@ Viewport
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`Alt + LMB, MMB, RMB`
-     - Navigation
+   * - :kbd:`Alt + LMB`
+     - Orbit View
+   * - :kbd:`Alt + MMB`
+     - Pan View
+   * - :kbd:`Alt + RMB`
+     - Zoom View
    * - :kbd:`F1-F4`
-     - Viewpoints
+     - Front/Side/Top/Camera Viewpoints
    * - :kbd:`F`
      - Frame Selected
    * - :kbd:`A`
