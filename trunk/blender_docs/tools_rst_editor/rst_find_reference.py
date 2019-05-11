@@ -48,7 +48,7 @@ def find_rst_root(test, files=("index.rst", "index.txt", "contents.rst", "conten
     return test_found
 
 
-re_find_references = re.compile(r"(^\s*\.\.\s+_)([a-zA-Z0-9_\-]+):", re.MULTILINE)
+re_find_references = re.compile(r"(^[ \t]*\.\.\s+_)([a-zA-Z0-9_\-]+):", re.MULTILINE)
 def find_references(fn, data, find_ref):
     """
     Use to find instances of the :ref: role.
@@ -110,17 +110,21 @@ def main(argv=None):
 
     # rst_root = find_vcs_root(args.path)
     rst_path = args.path or os.getcwd()
-    if os.path.isdir(args.path):
-        rst_cwd = args.path
+    if os.path.isdir(rst_path):
+        rst_cwd = rst_path
     else:
-        rst_cwd = os.path.dirname()
+        rst_cwd = os.path.dirname(rst_path)
     rst_cwd = os.path.abspath(rst_cwd)
     rst_root = find_rst_root(rst_cwd)
     if not rst_root:
         return
 
-    re_role_match = r":([a-zA-Z0-9_]+):`[^<]*<([^>]+)>`"
-    match = re.match(re_role_match, args.find)
+    re_role_match_brackets = r":([a-zA-Z0-9_]+):`[^<]*<([^>]+)>`"
+    re_role_match = r":([a-zA-Z0-9_]+):`([^`]+)`"
+    match = re.match(re_role_match_brackets, args.find)
+    if match is None:
+        match = re.match(re_role_match, args.find)
+
     if match is None:
         print("Could not match:", re_role_match, file=sys.stderr)
         sys.exit(1)
@@ -147,7 +151,7 @@ def main(argv=None):
     elif role_id == "doc":
         if role_data.startswith("/"):
             # Absolute path.
-            fn_noext = os.path.join(rst_root, role_data)
+            fn_noext = os.path.join(rst_root, role_data[1:])
         else:
             # Relative path.
             fn_noext = os.path.join(rst_cwd, role_data)
