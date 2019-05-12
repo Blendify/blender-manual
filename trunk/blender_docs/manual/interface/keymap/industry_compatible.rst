@@ -9,82 +9,86 @@ Summary
 While this is not a comprehensive list,
 this page shows common keys used in the industry compatible keymap.
 
-General
+
+.. rubric:: General
 
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`1-9 Number row`
+   * - :kbd:`1` - :kbd:`9`
      - Mode/Element switching
-   * - :kbd:`Right Click`
+   * - :kbd:`RMB`
      - Context menu
    * - :kbd:`Tab`
      - Operator Search.
    * - :kbd:`Shift-Tab`
      - Quick access (favorites)
-   * - :kbd:`Ctrl/⌘-D`
+   * - :kbd:`Ctrl-D` / :kbd:`Cmd-D`
      - Duplicate
    * - :kbd:`P`
      - Set Parent
    * - :kbd:`Return`
      - Rename
-   * - :kbd:`Ctrl/⌘-Return`
+   * - :kbd:`Ctrl-Return` / :kbd:`Cmd-Return`
      - Render
    * - :kbd:`B`
      - Proportional Editing / Soft Selection
-   * - :kbd:`Ctrl/⌘-[`
+   * - :kbd:`Ctrl-[` / :kbd:`Cmd-[`
      - Toggle Toolbar
-   * - :kbd:`Ctrl/⌘-]`
+   * - :kbd:`Ctrl-]` / :kbd:`Cmd-]`
      - Toggle Sidebar
 
-Viewport
+
+.. rubric:: Viewport
 
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`Alt + LMB`
+   * - :kbd:`Alt-LMB`
      - Orbit View
-   * - :kbd:`Alt + MMB`
+   * - :kbd:`Alt-MMB`
      - Pan View
-   * - :kbd:`Alt + RMB`
+   * - :kbd:`Alt-RMB`
      - Zoom View
-   * - :kbd:`F1-F4`
+   * - :kbd:`F1` - :kbd:`F4`
      - Front/Side/Top/Camera Viewpoints
    * - :kbd:`F`
      - Frame Selected
    * - :kbd:`A`
      - Frame All
 
-Selection
+
+.. rubric:: Selection
 
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`Left Click`
+   * - :kbd:`LMB`
      - Select
-   * - :kbd:`Ctrl/⌘-A`
+   * - :kbd:`Ctrl-A` / :kbd:`Cmd-A`
      - Select All
-   * - :kbd:`Ctrl/⌘-Shift-A`
+   * - :kbd:`Shift-Ctrl-A` / :kbd:`Shift-Cmd-A`
      - Deselect All
-   * - :kbd:`Ctrl/⌘-I`
+   * - :kbd:`Ctrl-I` / :kbd:`Cmd-I`
      - Select Inverse
-   * - :kbd:`Arrow up`
+   * - :kbd:`Up`
      - Select More
-   * - :kbd:`Arrow down`
+   * - :kbd:`Down`
      - Select Less
-   * - :kbd:`Double Click`
+   * - Double :kbd:`LMB`
      - Select Loop
-   * - :kbd:`Alt-Double Click`
+   * - Double :kbd:`Alt-LMB`
      - Select Ring
    * - :kbd:`]`
      - Select Linked
 
-Tools
+
+.. rubric:: Tools
 
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`W, E, R`
+   * - :kbd:`W`, :kbd:`E`, :kbd:`R`
      - Transform Tools
    * - :kbd:`Q`
      - Box Select
@@ -93,14 +97,15 @@ Tools
    * - :kbd:`C`
      - Cursor Tool
 
-Edit Mode Tools
+
+.. rubric:: Edit Mode Tools
 
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`Ctrl/⌘-E`
+   * - :kbd:`Ctrl-E` / :kbd:`Cmd-E`
      - Extrude
-   * - :kbd:`Ctrl/⌘-B`
+   * - :kbd:`Ctrl-B` / :kbd:`Cmd-B`
      - Bevel
    * - :kbd:`I`
      - Inset
@@ -110,12 +115,12 @@ Edit Mode Tools
      - Loop Cut
 
 
-Animation
+.. rubric:: Animation
 
 .. list-table::
    :widths: 20 80
 
-   * - :kbd:`Space`
+   * - :kbd:`Spacebar`
      - Play/Pause
    * - :kbd:`S`
      - Set Location + Rotation + Scale keyframe
@@ -125,5 +130,5 @@ Animation
      - Set Location Key
    * - :kbd:`Shift-E`
      - Set Rotation Key
-   * - :kbd:`Shift_R`
+   * - :kbd:`Shift-R`
      - Set Scale Key

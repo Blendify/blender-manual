@@ -2,7 +2,7 @@
 # Apache License, Version 2.0
 
 """
-Utility that takes a referenace and returns a file:line:column.
+Utility that takes a reference and returns a file:line:column.
 
 Useful for editors/IDE's to be able to jump to the reference under the cursor.
 

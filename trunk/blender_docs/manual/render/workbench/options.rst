@@ -3,7 +3,7 @@
 Options
 *******
 
-Shading options can be set in the :menuselection:`Properties --> Render --> Options`.
+Shading options can be set in the :menuselection:`Properties --> Render --> Options` panel.
 
 Backface Culling
    Use backface culling to hide backsides of faces.
@@ -16,11 +16,11 @@ Shadow
    Renders a sharp shadow in the scene.
 
    Darkness
-      How dark should the shadow be rendered. This slider can be
-      adjusted between 0 (shadow not visible) and 1 (shadow is black).
+      Defines how dark the shadow should be rendered. This slider can be adjusted
+      between 0 (shadow not visible) and 1 (shadow is black).
 
    Light Direction
-      Control the direction of the light source that casts the shadows.
+      Controls the direction of the light source that casts the shadows.
 
    Shadow Shift
       Controls the Shadow termination angle. It can be used to limit self shadowing artifacts.
@@ -51,7 +51,7 @@ Depth of Field
    Use the Depth of Field settings of the active camera in the viewport.
    Only visible when looking through the camera.
 
-   The settings are located on :menuselection:`Properties --> Camera --> Depth of Field` Panel.
+   The settings are located on :menuselection:`Properties --> Camera --> Depth of Field` panel.
 
 Outline
    Render the outline of objects in the viewport. The color of the outline can be adjusted.

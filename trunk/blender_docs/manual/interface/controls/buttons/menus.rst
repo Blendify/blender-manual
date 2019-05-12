@@ -131,7 +131,7 @@ Assign Shortcut
    Lets you define a keyboard or mouse shortcut for an operation.
    To define the shortcut you must first move the mouse cursor over the button that pops up,
    and when "Press a key" appears you must press and/or click the desired shortcut.
-   Press :kbd:`ESC` to cancel.
+   Press :kbd:`Esc` to cancel.
 Change Shortcut
    Lets you redefine the shortcut.
 Remove Shortcut

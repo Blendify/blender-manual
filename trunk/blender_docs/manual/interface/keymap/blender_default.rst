@@ -27,7 +27,7 @@ Global Keys
      - New file.
    * - :kbd:`Ctrl-Z`
      - Undo.
-   * - :kbd:`Ctrl-Shift-Z`
+   * - :kbd:`Shift-Ctrl-Z`
      - Redo.
    * - :kbd:`Ctrl-Q`
      - Quit.
@@ -49,19 +49,19 @@ Global Keys
      - Render the current frame.
    * - :kbd:`Q`
      - Quick access (favorites).
-   * - :kbd:`Ctrl-Space`
+   * - :kbd:`Ctrl-Spacebar`
      - Toggle Maximize Area.
-   * - :kbd:`Ctrl-Alt-Space`
+   * - :kbd:`Ctrl-Alt-Spacebar`
      - Toggle Fullscreen Area
-   * - :kbd:`Ctrl-PageUp/Down`
+   * - :kbd:`Ctrl-PageUp` / :kbd:`Ctrl-PageDown`
      - Next/previous Workspace.
-   * - :kbd:`Space`
+   * - :kbd:`Spacebar`
      - User configurable.
 
        :Play: Toggle animation playback.
-       :Tools: Tool switching with hotkeys (:kbd:`Shift-Space` for play).
-       :Search: Search for actions (:kbd:`Shift-Space` for play).
-   * - :kbd:`Ctrl-Shift-Space`
+       :Tools: Tool switching with hotkeys (:kbd:`Shift-Spacebar` for play).
+       :Search: Search for actions (:kbd:`Shift-Spacebar` for play).
+   * - :kbd:`Shift-Ctrl-Spacebar`
      - Playback animation (reverse).
 
 
@@ -115,7 +115,7 @@ Platform Specific Keys
 macOS
 -----
 
-:kbd:`Cmd` can be used instead of :kbd:`Ctrl` on macOS
+The :kbd:`Cmd` key is assigned instead of :kbd:`Ctrl` on macOS
 for all but a few exceptions which conflict with the operating system.
 
 .. list-table::

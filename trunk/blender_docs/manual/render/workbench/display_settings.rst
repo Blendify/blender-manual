@@ -12,7 +12,7 @@ are Viewport Display panel where settings can be adjusted that the Workbench eng
 Object
 ======
 
-The viewport display panel in the Object Properties has several settings that
+The Viewport Display panel in the Object Properties has several settings that
 are used by the Workbench Engine.
 
 .. admonition:: Reference
@@ -21,11 +21,10 @@ are used by the Workbench Engine.
    :Panel:     :menuselection:`Object --> Viewport Display`
 
 Shadow
-   When the *Shadow* in the :doc:`options` is enabled this object will
-   cast a shadow.
+   When the *Shadow* in the :doc:`/render/workbench/options` is enabled
+   this object will cast a shadow.
 In Front
-   When checked the object will be rendered in front of the other objects in
-   the scene.
+   When checked the object will be rendered in front of the other objects in the scene.
 Color
    The color to render the object in when object color needs to be rendered.
    The alpha channel of the object can render the object transparent.
@@ -36,7 +35,7 @@ Color
 Material
 ========
 
-The viewport display panel in the Material Properties has several settings that
+The Viewport Display panel in the Material Properties has several settings that
 are used by the Workbench Engine.
 
 .. admonition:: Reference
@@ -60,7 +59,7 @@ Roughness
 World
 =====
 
-The viewport display panel in the World Properties has several settings that
+The Viewport Display panel in the World Properties has several settings that
 are used by the Workbench Engine.
 
 .. admonition:: Reference
@@ -69,5 +68,5 @@ are used by the Workbench Engine.
    :Panel:     :menuselection:`World --> Viewport Display`
 
 Color
-   The color of the background of the world. This color will be rendered
+   The color of the world background. This color will be rendered
    in the background of the scene.

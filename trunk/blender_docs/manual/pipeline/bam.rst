@@ -38,7 +38,7 @@ Once Python 3 and pip3 are available, BAM can be installed via command line by t
    pip3 install blender-bam
 
 After a successful installation, the ``bam`` command will be available.
-By typing it and pressing :kbd:`Enter`, all the available subcommands will be displayed.
+By typing it and pressing :kbd:`Return`, all the available subcommands will be displayed.
 
 
 bam pack

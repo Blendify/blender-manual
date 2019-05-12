@@ -73,7 +73,7 @@ The angle of rotation will be displayed in the footer of the 3D View editor.
 Trackball Rotation
 ------------------
 
-A free rotation mode. Press :kbd:`R-R` to enable Trackball rotation.
+A free rotation mode. Press :kbd:`R R` to enable Trackball rotation.
 
 
 .. _bpy.ops.transform.resize:
