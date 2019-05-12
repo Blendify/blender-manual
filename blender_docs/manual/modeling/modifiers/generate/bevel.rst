@@ -68,10 +68,10 @@ Mark Seams
 Mark Sharp
    Similar to Mark Seams, but for sharp edges.
 Harden Normals
-   When enabled, the per-vertex face normals of the bevel faces are adjusted to match the surrounding faces,
-   and the normals of the surrounding faces are not affected --
-   so the effect is to keep the surrounding faces flat (if they were before),
-   with the bevel faces shading smoothly into them. For this to work,
+   When enabled, the per-vertex face normals of the bevel faces are adjusted to
+   match the surrounding faces, and the normals of the surrounding faces are not affected.
+   This will keep the surrounding faces flat (if they were before),
+   with the bevel faces shading smoothly into them. For this effect to work,
    custom split normals need to be enabled, which requires Auto Smooth to be enabled
    (see :doc:`Normals </modeling/meshes/editing/normals>`).
 
@@ -115,7 +115,7 @@ Set Face Strength Mode
    Set *Face Strength* on the faces involved in the bevel, according to the mode specified here.
    This can be used in conjunction with a following
    :doc:`Weight Normals Modifier </modeling/modifiers/modify/weighted_normal>`
-   (with the 'Face Influence' option checked). Options:
+   (with the *Face Influence* option checked).
 
    None
       Do not set face strength.
@@ -141,12 +141,12 @@ Miter Patterns
       Edges meet at a sharp point but in addition, two extra vertices are introduced near the point
       so that the edges and faces at the vertex may be less pinched together than
       what occurs in the Sharp case.
-      The *Spread* parameter controls how far the new vertices are from the meeting point.
+      The *Spread* slider controls how far the new vertices are from the meeting point.
       (This pattern does makes no sense for inner miters, so behaves like Arc for them.)
    Arc
       Two vertices are introduced near the meeting point, and a curved arc joins them together.
-      The *Spread* parameter controls how far the new vertices are from the meeting point.
-      The *Profile* parameter controls the shape of the arc.
+      The *Spread* slider controls how far the new vertices are from the meeting point.
+      The *Profile* slider controls the shape of the arc.
 
 Spread
    The value used to spread extra vertices apart for *Outer* and *Inner Miters*.

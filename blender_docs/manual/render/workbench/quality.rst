@@ -4,7 +4,6 @@ Render Quality
 **************
 
 The quality of the renders can be adjusted by changing the anti-aliasing method.
-The Workbench engine has several anti-aliasing methods it can be used.
 A different one can be selected for Viewport rendering and for final rendering.
 
 .. admonition:: Reference
@@ -13,7 +12,7 @@ A different one can be selected for Viewport rendering and for final rendering.
    :Panel:     :menuselection:`Render --> Sampling`
 
 No Anti-Aliasing
-   In this method no anti-aliasing will be rendered.
+   With this option selected no anti-aliasing will be applied.
 
 Single Pass Anti-Aliasing
    Scene will be rendered with an anti-aliasing post processing pass.
@@ -26,11 +25,11 @@ Multi Sample
 
    .. tip::
 
-      Multi Samples Anti-Aliasing is very good at hair rendering.
+      Multi Samples Anti-Aliasing is well suited for hair rendering.
 
    *Progressive Viewport Rendering*
 
-   When rendering in the 3D Viewport one sample is rendered at a time.
+   When rendering in the 3D Viewport, one sample is rendered at a time.
    When nothing changes to the scene or viewport the next sample will be rendered.
 
    In the 3D Viewport the quality that is set can be limited by

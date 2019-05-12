@@ -70,9 +70,9 @@ Action Blending
 
       .. note::
 
-         Since this blending mode is based on using quaternion multiplication
-         for Quaternion Rotation properties, it always drives all four channels during playback,
-         and Insert Single Keyframe is forced to insert all four keys.
+         Since this blending mode is based on using quaternion multiplication to calculate
+         the Quaternion Rotation properties, it always drives all four channels during playback,
+         and *Insert Single Keyframe* is forced to insert all four keys.
          Other types of channels can still be keyed individually.
 
 Action Influence

@@ -13,17 +13,20 @@
 Timeline Editor
 ***************
 
-The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes, scrubbing the playhead and includes transport controls.
+The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes,
+scrubbing the playhead and it includes transport controls.
 
 .. figure:: /images/editors_timeline_interface.png
 
    The Timeline.
 
-The *Timeline* gives the user a broad overview of a scene's animation, by showing the current frame, the keyframes of the active object, the start and end frames of your animation and any markers set by the user.
+The *Timeline* gives the user a broad overview of a scene's animation,
+by showing the current frame, the keyframes of the active object,
+the start and end frames of your animation and any markers set by the user.
 
-The *Timeline* includes *Transport Controls*, to play, pause, and skip through animation sequence.
+The *Timeline* includes *Transport Controls*, to play, pause, and skip through an animation sequence.
 
-It also has some tools for manipulating *Keyframes*, *Keying Sets*, and *Markers*.
+It also has tools for manipulating *Keyframes*, *Keying Sets*, and *Markers*.
 
 
 Main View
@@ -32,7 +35,7 @@ Main View
 The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
-s
+
    Timeline main view.
 
 
@@ -49,7 +52,7 @@ You can also use the scrollbars, located at the bottom or the right of the edito
 
 
 Playhead
------------
+--------
 
 The *Playhead* is the blue vertical line with the current frame number at the top.
 
@@ -57,15 +60,15 @@ The *Playhead* is the blue vertical line with the current frame number at the to
 
    Playhead.
 
-The *playhead* can be set or moved to a new position by pressing or
-holding :kbd:`LMB` in scrubbing area at the top of the timeline
+The *Playhead* can be set or moved to a new position by pressing or
+holding :kbd:`LMB` in scrubbing area at the top of the timeline.
 
-The *playhead* can be moved in increments by pressing :kbd:`Left` or :kbd:`Right`,
+The *Playhead* can be moved in increments by pressing :kbd:`Left` or :kbd:`Right`,
 or you can jump to the beginning or end frame by pressing :kbd:`Shift-Left` or :kbd:`Shift-Right`.
 
 
 Frame Range
-------------------------
+-----------
 
 By default, the *Frame Range* is set to start at frame 1 and end at frame 250.
 You can change the frame range in the top right of the Timeline header, or in the Output Properties.
@@ -74,9 +77,9 @@ You can change the frame range in the top right of the Timeline header, or in th
 Keyframes
 ---------
 
-For the active and selected objects, keyframes are displayed as a yellow diamonds.
+For the active and selected objects, keyframes are displayed as yellow diamonds.
 
-You can click to select one at a time, or select several by holding shift, or by dragging a box around the keyframes.
+You can click to select one at a time, or select several by holding :kbd:`Shift`, or by dragging a box around the keyframes.
 You can then move and scale them using :kbd:`G` and :kbd:`S`
 
 *Only Selected Channels* can be enabled. :menuselection:`Timeline --> View --> Only Selected Channels`.
@@ -93,14 +96,14 @@ Header
 ======
 
 Popovers
----------
+--------
 
 .. _timeline-playback:
 
 Playback Popover
-^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
-The *Playback* popover contains options controlling animation playback.
+The *Playback* popover contains options controlling the animation playback.
 
 Synchronize Playback
    .. figure:: /images/editors_timeline_red-fps.png
@@ -156,7 +159,7 @@ Clip Editors
 .. _timeline-keying:
 
 Keying Popover
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 The *Keying* popover contains options that affect keyframe insertion.
 
@@ -282,7 +285,7 @@ Range Control
 ^^^^^^^^^^^^^
 
 Preview Range (clock icon)
-   This is an temporary frame range used for previewing a smaller part of the full range.
+   This is a temporary frame range used for previewing a smaller part of the full range.
    The preview range only affects the viewport, not the rendered output.
    See :ref:`graph-preview-range`.
 
@@ -300,7 +303,7 @@ Current Frame :kbd:`Alt-Wheel`
 
 
 Transport Controls
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 
 These buttons are used to set, play, rewind, the *Playhead*.
 

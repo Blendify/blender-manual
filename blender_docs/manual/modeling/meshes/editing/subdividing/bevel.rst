@@ -139,19 +139,19 @@ Material
    Otherwise, the number is the slot index of the material to use for all newly created faces.
 
 Harden Normals :kbd:`H`
-   When enabled, the per-vertex face normals of the bevel faces are adjusted to match the surrounding faces,
-   and the normals of the surrounding faces are not affected --
-   so the effect is to keep the surrounding faces flat (if they were before),
-   with the bevel faces shading smoothly into them. For this to work,
+   When enabled, the per-vertex face normals of the bevel faces are adjusted to
+   match the surrounding faces, and the normals of the surrounding faces are not affected.
+   This will keep the surrounding faces flat (if they were before),
+   with the bevel faces shading smoothly into them. For this effect to work,
    custom split normals need to be enabled, which requires Auto Smooth to be enabled
    (see :doc:`Normals </modeling/meshes/editing/normals>`).
    As a convenience, that option will be enabled for you if it is not already when you enable Harden Normals here.
 
 Face Strength Mode
-   Set *Face Strength* on the faces involved in the bevel, according to the mode specified here.
+   Set *Face Strength* on the faces involved in the bevel, according to the specified mode.
    This can be used in conjunction with a 
    :doc:`Weight Normals Modifier </modeling/modifiers/modify/weighted_normal>`
-   (with the 'Face Influence' option checked).
+   (with the *Face Influence* option checked).
 
    None
       Do not set face strength.
@@ -176,11 +176,11 @@ Outer Miter :kbd:`O`
       Edges meet at a sharp point but in addition, two extra vertices are introduced near the point
       so that the edges and faces at the vertex may be less pinched together than
       what occurs in the *Sharp* case.
-      The *Spread* parameter controls how far the new vertices are from the meeting point.
+      The *Spread* slider controls how far the new vertices are from the meeting point.
    Arc
       Two vertices are introduced near the meeting point, and a curved arc joins them together.
-      The *Spread* parameter controls how far the new vertices are from the meeting point.
-      The *Profile* parameter controls the shape of the arc.
+      The *Spread* slider controls how far the new vertices are from the meeting point.
+      The *Profile* slider controls the shape of the arc.
 
 Inner Miter :kbd:`I`
    An *Inner Miter* is formed when the angle between two beveled edges is less than 180 degrees.
