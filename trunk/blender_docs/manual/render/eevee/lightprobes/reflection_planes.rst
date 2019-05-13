@@ -51,7 +51,8 @@ Falloff
    Also defines how much shading normals needs to be aligned with the plane to receive reflections.
 
 Clipping Offset
-   Define how much below the plane the near clip is when capturing the scene. Increasing this can fix reflection contact problems.
+   Define how much below the plane the near clip is when capturing the scene.
+   Increasing this can fix reflection contact problems.
 
 Visibility Collection
    Sometimes, it is useful to limit which objects appear in the light probe's captured lighting.

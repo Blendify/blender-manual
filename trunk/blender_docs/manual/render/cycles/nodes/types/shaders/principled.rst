@@ -47,7 +47,8 @@ Subsurface Color
    Subsurface scattering base color.
 Metallic
    Blends between a non-metallic and metallic material model.
-   A value of 1.0 gives a fully specular reflection tinted with the base color, without diffuse reflection or transmission.
+   A value of 1.0 gives a fully specular reflection tinted with the base color,
+   without diffuse reflection or transmission.
    At 0.0 the material consists of a diffuse or transmissive base layer, with a specular reflection layer on top.
 Specular
    Amount of dielectric specular reflection. Specifies facing (along normal)

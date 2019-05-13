@@ -279,5 +279,5 @@ Child Particles
 
 .. seealso::
 
-   There are also renderer specific *Simplify* settings for 
+   There are also renderer specific *Simplify* settings for
    :ref:`Cycles <render-cycles-settings-scene-simplify>`.

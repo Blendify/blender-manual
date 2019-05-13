@@ -88,8 +88,9 @@ Bump
    It is recommended to use normal mapping instead.
 
    .. tip::
-   
-      If you absolutely need to render using Bump nodes, render at twice the target resolution and downscale the final output.
+
+      If you absolutely need to render using Bump nodes,
+      render at twice the target resolution and downscale the final output.
 
 Volumes Objects
    Object volume shaders will affect the whole bounding box of the object.
@@ -113,10 +114,11 @@ Memory Management
 
 As of now Eevee uses OpenGL, and
 :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` Memory management is done by the OpenGL driver.
-In theory, only the needed textures and meshes (now referred as "the resources") for a single draw call (i.e. one object)
-needs to fit into the GPU memory.
+In theory, only the needed textures and meshes (now referred as "the resources") for a single draw call
+(i.e. one object) needs to fit into the GPU memory.
 
-So if the scene is really heavy, the driver will swap things in and out to make sure all objects are rendered correctly.
+So if the scene is really heavy,
+the driver will swap things in and out to make sure all objects are rendered correctly.
 
 In practice, using too much GPU memory can make the GPU driver crash, freeze, or kill the application.
 So be careful of what you ask.
