@@ -27,4 +27,4 @@ Energy and Color
 Shadow
 ======
 
-.. todo 2.8 link to eevee/cycles settings 
+.. todo 2.8 link to eevee/cycles settings

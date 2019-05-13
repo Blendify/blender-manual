@@ -9,7 +9,7 @@ World
 
    Lighting with an HDR image.
 
-   
+
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient color, and special effects such as mist,
 but a very common use of a *World* is to shade a background color.
@@ -112,14 +112,14 @@ Mist Pass
    :Panel:     :menuselection:`World --> Mist Pass`
 
 .. figure:: /images/render_blender-render_world_mist_example1.jpg
-   
+
    Mist example (`blend-file <https://wiki.blender.org/wiki/File:25-Manual-World-Mist-Example1.blend>`__).
 
 Mist can greatly enhance the illusion of depth in your rendering. To create mist,
 Blender makes objects farther away more transparent (decreasing their Alpha value)
 so that they mix more of the background color with the object color. With Mist enabled
 the further the object is away from the camera the less its alpha value will be.
-   
+
 Shown when the Mist pass is enabled. Mist values will range from 0.0 - 1.0 and
 are available from the Render Layers node.
 
@@ -143,7 +143,7 @@ Falloff
 .. tip::
 
    A visualization can be activated in the :menuselection:`Camera --> Display` panel.
-   
+
 .. tip::
 
    Because *Mist* works by adjusting transparency,

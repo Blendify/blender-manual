@@ -79,7 +79,8 @@ Keyframes
 
 For the active and selected objects, keyframes are displayed as yellow diamonds.
 
-You can click to select one at a time, or select several by holding :kbd:`Shift`, or by dragging a box around the keyframes.
+You can click to select one at a time, or select several by holding :kbd:`Shift`,
+or by dragging a box around the keyframes.
 You can then move and scale them using :kbd:`G` and :kbd:`S`
 
 *Only Selected Channels* can be enabled. :menuselection:`Timeline --> View --> Only Selected Channels`.
@@ -357,4 +358,3 @@ Auto Keyframe
 
       Note that *Auto Keyframe* only works for transform properties (objects and bones),
       in the 3D Views (i.e. you can't use it e.g. to animate the colors of a material in the Properties editor...).
-
