@@ -32,5 +32,4 @@ Subsurface Translucency
 The Subsurface Translucency option needs to be enabled in order to make the light go through an object
 (like simulating a human ear lit from behind).
 
-- This option does only work if *Subsurface Scattering* is enabled.
-- This option only works with shadowed light and does not work with indirect lighting.
+This option only works with shadowed light and does not work with indirect lighting.
