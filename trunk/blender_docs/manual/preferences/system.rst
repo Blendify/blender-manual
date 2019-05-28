@@ -119,8 +119,6 @@ Mipmaps
    Scale textures for 3D View using :term:`mip-map` filtering. This increases display quality, but uses more memory.
 GPU Mipmap Generation
    Generate mip-maps on the GPU instead of the CPU.
-16 Bit Float Textures
-   Enables the use of 16 Bit per component Texture Images (floating point images).
 
 OpenGL Depth Picking
    This option uses an alternative method of picking which uses depth information to select the front-most elements.
