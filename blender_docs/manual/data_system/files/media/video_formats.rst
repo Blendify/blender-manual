@@ -40,9 +40,6 @@ AVI Jpeg
    Jpeg compression is also the one used in the DV format used in digital camcorders.
 AVI Raw
    Audio-Video Interlaced (AVI) uncompressed frames.
-Frameserver
-   Blender puts out frames upon request as part of a render farm.
-   The port number is specified in the :ref:`User Preferences <preferences-system-general-frame-server-port>`.
 H.264
    Encodes movies with the H.264 codec.
 MPEG
