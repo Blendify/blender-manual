@@ -30,6 +30,12 @@ Console Scrollback
 Sound
 =====
 
+These settings control how sound behaves during live playback
+within Blender and are only available with *SDL* or *OpenAL*.
+To control these settings for exporting sound see the
+:ref:`Encoding Panel <render-output-video-encoding-panel>`
+and :ref:`Audio Panel <data-scenes-audio>`.
+
 Audio Device
    Sets the audio engine to use to process and output audio.
 
@@ -41,16 +47,6 @@ Audio Device
    OpenAL
       Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by *Speaker Objects*.
-
-
-Sound Options
--------------
-
-These settings control how sound behaves during live playback
-within Blender and are only available with *SDL* or *OpenAL*.
-To control these settings for exporting sound see the
-:ref:`Encoding Panel <render-output-video-encoding-panel>`
-and :ref:`Audio Panel <data-scenes-audio>`.
 
 Channels
    Sets the audio channel count. Available options are:
@@ -67,20 +63,6 @@ Sample Format
    Sets the audio sample format. Available options are:
    *32 bit float*, *8 bit Unsigned*, *16 Bits Signed*, *24 Bits Signed*,
    *32 Bits Signed*, *32 Bits Float*, and *64 Bits Float*.
-
-
-.. _prefs-system-screencast:
-
-Screencast
-==========
-
-These settings are used to control the frame rate for recording a :ref:`Screencast <info-screencast>`.
-
-FPS
-   The frame rate for screencast playback.
-Wait Timer
-   Time in milliseconds between each frame recorded for screencast.
-
 
 Compute Device
 ==============
