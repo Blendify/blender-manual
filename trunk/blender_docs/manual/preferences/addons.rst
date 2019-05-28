@@ -1,5 +1,7 @@
 .. _bpy.types.Addon:
 .. _bpy.ops.wm.addon:
+.. _bpy.types.WindowManager.addon:
+.. _bpy.ops.preferences.addon:
 
 *******
 Add-ons
