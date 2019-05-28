@@ -20,15 +20,6 @@ to find a supported value or just let Blender correct it.
 General
 =======
 
-.. _preferences-system-general-frame-server-port:
-
-Frame Server Port
-   TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
-   Used when working with distributed rendering.
-   Avoid changing this port value unless it is conflicting with already
-   existing service ports used by your Operating System and/or other software.
-   Always consult your operating system documentation and services or
-   consult your system administrator before changing this value.
 Console Scrollback
    The number of lines, buffered in memory of the console window.
    Useful for debugging purposes and command-line rendering.
