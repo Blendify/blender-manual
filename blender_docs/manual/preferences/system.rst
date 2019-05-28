@@ -173,15 +173,16 @@ Collection Rate
    Number of seconds between each run of the GL texture garbage collector.
    Minimum: *0*, Maximum: *3600*.
 
-Image Draw Method
+Image Display Method
    Method to draw images as the following options are supported:
 
+   Automatic
+      Automatically uses *GLSL* which runs on the GPU for performance but falls back to
+      the CPU for large images which might be slow when loaded with the GPU.
    2D Texture
       Uses CPU for display transform and draws images as a 2D texture.
    GLSL
       Fastest method using GLSL for display transform and draws images as a 2D texture.
-   Draw Pixels
-      Uses CPU for display transform and draws images as a 2D texture.
 
 
 Sequencer/Clip Editor
