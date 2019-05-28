@@ -78,7 +78,7 @@ you should set up your lighting before assigning materials to your meshes.
 Since the material shaders react to light, without proper lighting,
 the material shaders will not look right, and you will end up fighting the shaders,
 when it is really the bad lighting that is causing you grief.
-All of the example images in this section do not use any material setting at all on the ball,
+All of the example images in this section do not use any material setting at all on the sphere,
 cube or background.
 
 

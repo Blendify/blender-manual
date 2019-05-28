@@ -1,8 +1,8 @@
 .. _bpy.types.UserPreferencesFilePaths:
 
-****
-File
-****
+**********
+File Paths
+**********
 
 The *File* tab in *User Preferences* allows you to configure auto-save preferences and set default file paths for
 blend-files, rendered images, and more.
