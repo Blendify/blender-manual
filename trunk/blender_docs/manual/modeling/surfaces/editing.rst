@@ -160,7 +160,6 @@ The corresponding surface's outer edges will join together to form a "closed" su
 .. note:: Inner and Outer
 
    Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded.
-   (There does not seem to be any "double sided" shading option for surfaces...).
    When you close a surface in one or two directions, you might get an entirely black object! In this case,
    just `Switch Direction`_ of your surface...
 

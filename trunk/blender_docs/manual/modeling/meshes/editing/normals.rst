@@ -120,9 +120,6 @@ Auto Smooth
    Angle
       Angle number button.
 
-Double Sided
-   Lighting with positive normals on back-faces of the mesh in the viewport (OpenGL).
-
 
 Example
 -------
