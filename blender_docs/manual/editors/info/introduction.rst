@@ -83,8 +83,6 @@ Engine
 Render/Baking progress
    A progress bar and a cancel button are shown while rendering or baking.
    Hovering over them shows a time estimate.
-Capture Stop
-   A button shown while :ref:`screen casting <info-screencast>` to stop the recording.
 Report Message
    Label for an operator to display results or warnings. It disappears after a short time.
    By clicking with :kbd:`LMB` on the icon on the left side, the full report is copied into a new text data-block,
