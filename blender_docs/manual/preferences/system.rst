@@ -138,11 +138,6 @@ Anisotropic Filtering
 Multi-Sampling
    This enables :term:`FSAA` for smoother drawing, at the expense of some performance.
 
-   .. note::
-
-      This is known to cause selection issues on some configurations,
-      see: :ref:`troubleshooting-3dview-invalid-selection`.
-
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D View.
    It means that the *Tool Shelf* and *Properties regions*,
