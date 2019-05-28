@@ -156,10 +156,6 @@ Save Preview Images
 Auto Save
 =========
 
-Keep Session
-   Automatically loads the ``quit.blend`` file after re-starting Blender.
-   This file is always saved on quit, regardless of this option.
-   See :ref:`Recover Last Session <troubleshooting-file-recovery>`.
 Auto Save Temporary Files
    Enables :doc:`Auto Save </troubleshooting/recover>`.
    Tells Blender to *automatically* save a backup copy of your work-in-progress files to the :ref:`temp-dir`.
