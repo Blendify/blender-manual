@@ -15,15 +15,10 @@ Group
    This creates an instance of the group with the transformation of the object.
    Group duplicators can be animated using actions,
    or can get a :ref:`Proxy <object-proxy>`.
-Frames
-   For animated objects, this creates an instance on every frame.
-   As you will see on this topic's subpage,
-   this is also a *very* powerful technique for arranging objects and for modeling them.
 
 .. toctree::
    :maxdepth: 2
 
-   dupliframes.rst
    dupliverts.rst
    duplifaces.rst
    dupligroup.rst
