@@ -268,18 +268,18 @@ The *Weld* tool will move selected UVs to their average position.
 
 .. _bpy.ops.uv.remove_doubles:
 
-Remove Doubles UV
-=================
+Merge UVs by Distance
+=====================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      View mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Remove Doubles UV`
-   :Menu:      :menuselection:`UVs --> Weld/Align --> Remove Doubles UV`,
-               :menuselection:`Specials --> Remove Doubles UV`
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Merge UVs by Distance`
+   :Menu:      :menuselection:`UVs --> Weld/Align -->  Merge UVs by Distance`,
+               :menuselection:`Specials -->  Merge UVs by Distance`
 
-The *Remove Doubles UV* tool will merge selected UVs within the specified *Margin*.
+The *Merge UVs by Distance* tool will merge selected UVs within the specified *Margin*.
 
 
 .. _bpy.ops.uv.align:
