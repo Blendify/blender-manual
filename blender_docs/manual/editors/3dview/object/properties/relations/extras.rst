@@ -11,7 +11,6 @@ Relations Extras
 Tracking Axes
    TODO.
 
-   Applies to *DupliFrame* when parent *Follow* is enabled.
    Applies to *DupliVerts* when *Rotation* is enabled.
 
    Axis
