@@ -17,7 +17,7 @@ Playback FPS
 Gizmo size
    Diameter of the manipulator.
 Look Dev Sphere Size
-   TODO 2.8.
+   Diameter of the Look Dev sphere overlay.
 3D Viewport Axis
    TODO 2.8.
 
