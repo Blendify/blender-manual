@@ -76,7 +76,9 @@ Release Confirms
 Drag Threshold
    The number of pixels that a User Interface element has to be moved before it is recognized by Blender.
 Motion Threshold
-   TODO 2.8.
+   The number of pixels the cursor must move before the movement is registered.
+   This is helpful for tablet pens that are a lot more difficult to keep still
+   and using this could help reduce stuttering of the cursor position.
 Double Click Speed
    The time in ms for a double-click to be recognized.
 
