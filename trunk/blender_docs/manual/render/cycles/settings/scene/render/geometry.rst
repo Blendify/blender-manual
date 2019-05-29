@@ -100,6 +100,3 @@ Shape
 
    Ribbons
       Are flat planes following the strand direction facing the camera.
-Min Pixels
-   Strands that are further away will be made wider, which is compensated with transparency to keep the look similar.
-   This effect is only applied for camera rays. It works best with ribbon primitives.
