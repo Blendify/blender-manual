@@ -3,8 +3,18 @@
 Animation
 *********
 
+The *Animations* tab lets you manage settings related to :doc:`Animation </animation/index>`.
+This includes how editors look and also some different tools properties.
+
+.. figure:: /images/preferences_addons_tab.png
+
+   Blender Preferences Animation tab.
+
+
 Timeline
 ========
+
+These settings control things in the :doc:`Timeline </editors/timeline>`.
 
 Allow Negative Frame
    Time Cursor can be set to negative frames with mouse or keyboard.
@@ -27,8 +37,11 @@ Zoom To Frame Type
       The number of animation keyframes defined in the *Zoom Keyframes* field will be shown around the cursor.
 
 
-KeyFrames
+Keyframes
 =========
+
+These settings control :doc:`Keyframes </animation/keyframes/index>`
+which are the building blocks for animations.
 
 Visual Keying
    When an object is using constraints, the object property value does not actually change.
@@ -47,9 +60,16 @@ Show Auto Keying Warning
 Only Insert Available
    This will only add keyframes to channel F-Curves that already exist.
 
+.. seealso::
+
+   Learn more about :ref:`Auto-Keyframing <animation-editors-timeline-autokeyframe>`.
+
 
 F-Curves
 ========
+
+These settings control how :doc:`F-Curves </editors/graph_editor/fcurves/index>`
+look and their default behavior.
 
 F-Curve Visibility
    Opacity that unselected :doc:`F-Curves </editors/graph_editor/fcurves/index>`
