@@ -7,7 +7,7 @@
 Add-ons
 *******
 
-The Add-ons tab lets you manage secondary scripts, called "Add-ons" that extends Blender's functionality.
+The *Add-ons* tab lets you manage secondary scripts, called "Add-ons" that extends Blender's functionality.
 In this tab you can search, install, enable and disable Add-ons.
 
 .. figure:: /images/preferences_addons_tab.png
