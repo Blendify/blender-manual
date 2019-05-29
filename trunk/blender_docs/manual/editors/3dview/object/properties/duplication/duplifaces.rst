@@ -113,7 +113,7 @@ Duplicate the face and move the duplicate where you want it.
 Repeat this process until you have enough faces.
 Since it is common for these faces to butt up against one another,
 your geometry will have lots of duplicate vertices.
-Use the Remove Doubles button in the Tools panel.
+Use the *Merge by Distance* button in the Tools panel.
 
 
 .. rubric:: Demo Video
