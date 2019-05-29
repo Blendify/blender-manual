@@ -93,9 +93,9 @@ Tablet
 Tablet API
    TODO 2.8.
 Max Threshold
-   TODO 2.8.
+   Amount of pressure required to achieve full intensity.
 Softness
-   TODO 2.8.
+   Controls how the softness of the low pressure responses respond using a gamma curve.
 
 
 NDOF
