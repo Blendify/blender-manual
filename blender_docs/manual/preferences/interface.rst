@@ -53,8 +53,12 @@ Color Picker Type
 Header Position
    TODO 2.8.
 Factor Display Type
-   TODO 2.8.
+   How factor value types are displayed in the user interface.
 
+   Factor
+      Values are displayed as float numbers.
+   Percentage
+      Values are displayed as percentages.
 
 2D Viewports
 ============
