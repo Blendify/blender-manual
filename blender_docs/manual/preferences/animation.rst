@@ -23,7 +23,7 @@ Minimum Grid Spacing
    The minimum number of pixels between grid lines.
 Time Code Style
    Format of Time Codes displayed when not displaying timing in terms of frames.
-   The format uses '+' as separator for sub-second frame numbers,
+   The format uses '+' as a separator for sub-second frame numbers,
    with left and right truncation of the timecode as necessary.
 Zoom To Frame Type
    Defines what time range (around the cursor) will be displayed
@@ -49,6 +49,7 @@ Visual Keying
    with a value based on the visual transformation from the constraint.
 Only Insert Needed
    This will only insert keyframes if the value of the property is different.
+
 
 Auto-Keyframing
 ---------------

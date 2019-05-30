@@ -8,6 +8,7 @@ Studio Lights
 
 TODO 2.8.
 
+
 .. _bpy.types.UserSolidLight:
 
 Editor
@@ -20,7 +21,7 @@ used to illuminate 3D View scenes, which will not display in renders.
 
 The Lamp icons allow the user to enable or disable OpenGL lamps.
 At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
-The lamps are equal, their difference is their positioning and colors.
+The lamps are equal, except for their position and color.
 You can control the direction of the lamps, as well as their diffuse and specular colors.
 
 Light
@@ -40,10 +41,12 @@ Light
 Ambient Color
    TODO 2.8.
 
+
 MatCaps
 =======
 
 TODO 2.8.
+
 
 LookDev HDRIs
 =============

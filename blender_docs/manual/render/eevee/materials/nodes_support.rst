@@ -64,7 +64,7 @@ Glossy BSDF
 Subsurface Scattering
    Random Walk sampling is not supported. Per color channel Radius is specified by the default socket value.
    Any link plugged into this socket gets ignored.
-   If Separate Albedo is off Texture Blur will be treated as always 1.0.
+   If *Separate Albedo* is off Texture Blur will be treated as always 1.0.
    Texture Blur is not accurate for any value other than 0.0 and 1.0.
 
 Transparent BSDF

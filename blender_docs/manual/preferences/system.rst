@@ -57,15 +57,15 @@ Global Undo
    :doc:`Read more about Undo and Redo options </interface/undo_redo>`.
 
 Sequencer Cache Limit
-   Upper limit of the Sequencer's memory cache (megabytes).
-   For optimum Clip editor and Sequencer performance, high values are recommended.
+   Upper limit of the Sequencer's memory cache (in megabytes).
+   For an optimal Clip editor and Sequencer performance, high values are recommended.
 Console Scrollback Lines
    The number of lines, buffered in memory of the console window.
    Useful for debugging purposes and command-line rendering.
 
 Texture Time Out
    Time since last access of a GL texture in seconds, after which it is freed.
-   Set to 0 to keep textures allocated.
+   Set this to 0 to keep textures allocated.
 Garbage Collection Rate
    Number of seconds between each run of the GL texture garbage collector.
 
@@ -82,8 +82,8 @@ Sound
 
 These settings control how sound behaves during live playback
 within Blender and are only available with *SDL* or *OpenAL*.
-To control these settings for exporting sound see the
-:ref:`Encoding Panel <render-output-video-encoding-panel>`
+To control these settings for exporting sound
+see the :ref:`Encoding Panel <render-output-video-encoding-panel>`
 and :ref:`Audio Panel <data-scenes-audio>`.
 
 Audio Device

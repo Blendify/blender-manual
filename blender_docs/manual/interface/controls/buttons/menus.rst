@@ -51,11 +51,10 @@ Select Menus
 
    The 3D Viewport Mode Select menu.
 
-The Select menu (short selector) lets you choose between a set of
-options. Select menu appears as a icon and/or text with down arrow on
-the right side of the button. The menu options are shown with
-:kbd:`LMB` click on the button. The selected option is then shown as
-active on the menu button.
+The Select menu (short selector) lets you choose between a set of options.
+Select menu appears as an icon and/or text with down arrow on the right side of the button.
+The menu options are shown with :kbd:`LMB` click on the button.
+The selected option is then shown as active on the menu button.
 
 
 .. _bpy.types.UIPopupMenu:

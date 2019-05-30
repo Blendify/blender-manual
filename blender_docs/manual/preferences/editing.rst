@@ -8,6 +8,7 @@ These preferences control how several tools will interact with your input.
 
 .. figure:: /images/preferences_editing_tab.png
 
+
 Objects
 =======
 
@@ -25,7 +26,7 @@ Link Materials To
 
       Example for a mesh.
 
-    A material may be linked in two different ways:
+   A material may be linked in two different ways:
 
    Object Data
       Any created material will be created as part of the Object Data data-block.
@@ -47,6 +48,7 @@ Align To
       New object align with view coordinates.
 Enter Edit Mode
    If selected, Edit Mode is automatically activated when you create a new object.
+
 
 .. _prefs-editing-duplicate-data:
 

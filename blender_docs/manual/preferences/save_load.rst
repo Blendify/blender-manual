@@ -4,6 +4,9 @@
 Save & Load
 ***********
 
+Blend Files
+===========
+
 Relative Paths
    By default, external files use a :doc:`relative path </data_system/files/relative_paths>`.
 Compress File
@@ -15,10 +18,10 @@ Compress File
 
    This option may slow down Blender when you quit,
    or under normal operation when Blender is saving your backup files.
-   Using this option traces processor time for file size.
+   Using this option trades processor time for file size.
 Load UI
    Default setting is to load the Window layout
-   (the :doc:`workspaces </interface/window_system/workspaces>`) of the saved file.
+   (the :doc:`Workspaces </interface/window_system/workspaces>`) of the saved file.
    This can be changed individually when loading a file from
    the *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
 
@@ -35,14 +38,15 @@ Save Prompt
 Save Versions
    Number of versions created for the same file (for backup).
 
-   This option tells Blender to keep the indicated number of saved versions
-   of your file in your current working directory when you manually save a file.
+   This option tells Blender to keep the indicated number of saved versions of
+   your file in your current working directory when you manually save a file.
    These files will have the extension: ``.blend1``, ``.blend2``, etc.,
    with the number increasing to the number of versions you specify. Older files will be named with a higher number.
    e.g. With the default setting of 2, you will have three versions of your file: ``*.blend`` (your last save),
    ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
 Recent Files
    Number of files displayed in :menuselection:`File --> Open Recent`.
+
 
 .. _prefs-auto-save:
 

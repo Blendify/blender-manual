@@ -58,11 +58,11 @@ The add-on functionality should be immediately available.
 3rd Party Add-ons
 -----------------
 
-There are hundreds of add-ons that are not distributed with Blender and are developer
-by others. To add them to the list of other add-ons they must be installed into Blender
+There are hundreds of add-ons that are not distributed with Blender and are developer by others.
+To add them to the list of other add-ons they must be installed into Blender.
 
-To install these use the *Install...* button and use the
-file browser select the ``.zip`` or ``.py`` add-on file.
+To install these use the *Install...* button and
+use the File Browser to select the ``.zip`` or ``.py`` add-on file.
 
 Now the add-on will be installed, however not automatically enabled.
 The search field will be set to the add-on's name (to avoid having to look for it),

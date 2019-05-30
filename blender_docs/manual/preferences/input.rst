@@ -14,8 +14,8 @@ Keyboard
 ========
 
 Emulate Numpad
-   The Numpad keys are used quite often in Blender and are not the same keys as the regular
-   number keys. If you have a keyboard without a Numpad (e.g. on a laptop),
+   The Numpad keys are used quite often in Blender and are not assigned to the same action as
+   the regular number keys. If you have a keyboard without a Numpad (e.g. on a laptop),
    you can tell Blender to treat the standard number keys as Numpad keys, just check *Emulate Numpad*.
 Default to Advanced Numeric Input
    TODO 2.8.

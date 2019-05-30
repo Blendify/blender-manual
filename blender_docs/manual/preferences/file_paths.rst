@@ -6,13 +6,14 @@ File Paths
 **********
 
 The *File* tab in *User Preferences* allows you to configure auto-save preferences
-and set default file paths for blend-files, rendered images, and more
+and set default file paths for blend-files, rendered images, and more.
 
 Locations for various external files can be set for the following options:
 
 .. figure:: /images/preferences_file_tab.png
 
    Preferences File Paths tab.
+
 
 Data
 ====
@@ -37,8 +38,8 @@ By setting a user script path in the preferences an additional directory is look
 This can be used to store certain scripts/templates/presets independently of
 the currently used Blender Version.
 
-Inside the specified folder, specific subfolders have to be created to tell Blender what to look
-for where. This folder structure has to mirror the structure of the scripts folder found in
+Inside the specified folder, specific subfolders have to be created to tell Blender what to
+look for and where. This folder structure has to mirror the structure of the scripts folder found in
 the installation directory of Blender:
 
 - scripts
