@@ -51,11 +51,21 @@ Volumetrics
 - Volumetric lighting does not respect the Lights shapes. They are treated as point lights
 
 
+Subsurface Scattering
+=====================
+
+- Only one BSSSDF can produce screen space subsurface scattering.
+- The chosen BSSSDF is currently arbitrarily chosen.
+- A maximum of 254 different surfaces can use subsurface scattering.
+- Only scalling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
+- Input radiance from each surfaces are not isolated during the blurring, leading to light leaking from surface to surface.
+
+
 Screen Space Reflections
 ========================
 
 - Only one glossy BSDF can emit screen space reflections.
-- The chosen BSDF is currently arbitrary chosen.
+- The chosen BSDF is currently arbitrarily chosen.
 - Screen Space Reflections will reflect transparent objects and objects using Screen Space Refraction
   but without accurate positioning due to the one layer depth buffer.
 
