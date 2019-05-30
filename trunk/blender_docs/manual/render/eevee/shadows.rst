@@ -22,7 +22,7 @@ Method
    Select the shadow map type. It changes how shadows are stored and filtered.
 
    :abbr:`ESM (Exponential Shadow Mapping)`
-      They are fast to filter but light leaking may occur near a occluder.
+      They are fast to filter but light leaking may occur near an occluder.
       This can be minimized by increasing the *Exponent* parameter.
       Another issue is the artifacts present at depth discontinuity.
       Unfortunately, there is no workaround for this issue and the only way
@@ -148,7 +148,7 @@ This means they have a high performance impact.
    with an evenly distributed shadow precision.
 
 Count
-   Number of cascades to use. More cascades means better precision but slower a update rate.
+   Number of cascades to use. More cascades means better precision but a lower update rate.
 
 Fade
    Fade transition area between two cascades.

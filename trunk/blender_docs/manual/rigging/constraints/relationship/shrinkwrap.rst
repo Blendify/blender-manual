@@ -67,7 +67,7 @@ Face Culling
    (respectively the "back side") of the target's faces. The "side" of a face is determined
    by its normal (front being the side "from where" the normal "originates").
 
-   Off,  Front, Back
+   Off, Front, Back
 
 Project Opposite
    In addition to the selected projection axis, project in the opposite direction and

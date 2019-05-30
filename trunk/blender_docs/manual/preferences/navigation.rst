@@ -66,7 +66,7 @@ Zoom Method
    Continue
       The *Continue* zooming option allows you to control the speed
       (and not the value) of zooming by moving away from the initial click point with :kbd:`Ctrl-MMB`.
-      Moving up from the initial click-point or to the right will zoom out,
+      Moving up from the initial click point or to the right will zoom out,
       moving down or to the left will zoom in. The further away you move,
       the faster the zoom movement will be.
       The directions can be altered by the *Vertical* and *Horizontal* radio buttons and
@@ -106,6 +106,7 @@ View Navigation
 Camera Parent Lock
    When the camera is locked to the view and in fly mode, transform the parent rather than the camera.
 
+
 Walk
 ----
 
@@ -119,6 +120,7 @@ Walk Speed
    Base speed for walking and flying.
 Speed Factor
    The multiplication factor for the speed boost.
+
 
 Gravity
 -------

@@ -4,12 +4,12 @@ Render Quality
 **************
 
 The quality of the renders can be adjusted by changing the anti-aliasing method.
-A different one can be selected for the 3D Viewport, Viewport rendering and for
-final rendering.
+A different one can be selected for the 3D Viewport, Viewport rendering and
+for final rendering.
 
-The setting for the 3D Viewport is a user preference to specify the
-anti-aliasing method that runs best on the system that is used. The setting for
-viewport rendering and final rendering is saved with the scene.
+The setting for the 3D Viewport is a user preference to specify the anti-aliasing method
+that runs best on the system that is used. The setting for viewport rendering
+and final rendering is saved with the scene.
 
 .. admonition:: Reference
    :class: refbox
@@ -26,8 +26,9 @@ Single Pass Anti-Aliasing
 Multi Sample
    Scene will be rendered multiple times with a slight offset.
    The anti-aliasing will be gathered from the multiple renders.
-   The number of samples are predefine so it uses the best distribution of the
-   samples. Choices are: 5, 8, 11, 16 and 32 samples.
+   The number of samples are predefine so it uses the best distribution of the samples.
+
+   5, 8, 11, 16, 32
 
    .. tip::
 

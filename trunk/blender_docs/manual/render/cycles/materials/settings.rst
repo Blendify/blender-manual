@@ -24,7 +24,7 @@ Multiple Importance Sample
    This can be done by disabling the *Multiple Importance Sample* option.
    This is especially useful on large objects that emit little light compared to other light sources.
 
-   This option will only has an influence if the material contains an emission node; otherwise it will be disabled.
+   This option will only have an influence if the material contains an emission node; otherwise it will be disabled.
 
 Transparent Shadows
    Use transparent shadows if it contains a :doc:`Transparent BSDF </render/cycles/nodes/types/shaders/transparent>`,

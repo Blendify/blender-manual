@@ -70,6 +70,8 @@ In this chapter we will analyze the different types of light in Blender and thei
 we will discuss their strong and weak points.
 
 
+.. todo fix wording
+
 Lighting in the Workflow
 ========================
 

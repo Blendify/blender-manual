@@ -9,7 +9,6 @@ World
 
    Lighting with an HDR image.
 
-
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient color, and special effects such as mist,
 but a very common use of a *World* is to shade a background color.

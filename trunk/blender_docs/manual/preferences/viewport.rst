@@ -17,7 +17,7 @@ Playback FPS
 Gizmo size
    Diameter of the manipulator.
 Look Dev Sphere Size
-   Diameter of the Look Dev sphere overlay.
+   Diameter of the LookDev sphere overlay.
 3D Viewport Axis
    TODO 2.8.
 
@@ -27,11 +27,11 @@ Look Dev Sphere Size
 Quality
 =======
 
-Viewport Anit-aliasing
+Viewport Anti-aliasing
    TODO 2.8.
 Multisampling
    This enables :term:`FSAA` for smoother drawing, at the expense of some performance.
-Grease Pencil Mulitsampling
+Grease Pencil Multisampling
    TODO.
 Edit-Mode Smooth Wires
    TODO 2.8.
@@ -50,7 +50,7 @@ Anisotropic Filtering
    This improves the quality of how textures are drawn at the cost of performance.
 Clip Alpha
    Clip alpha below this threshold in the 3D View.
-   Note that the default is set to a low value to prevent issues on some GPU's.
+   Note that, the default is set to a low value to prevent issues on some GPU's.
 Image Display Method
    Method to draw images as the following options are supported:
 

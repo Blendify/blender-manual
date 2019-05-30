@@ -60,6 +60,7 @@ Factor Display Type
    Percentage
       Values are displayed as percentages.
 
+
 2D Viewports
 ============
 
@@ -119,6 +120,7 @@ Select this to have the menu open by placing the mouse pointer over the entry in
       Time delay in 1/10 second before a menu opens (*Open on Mouse Over* needs to be enabled).
    Sub Level
       Same as above for sub menus (for example: :menuselection:`File --> Open Recent`).
+
 
 .. _prefs-pie-menu:
 

@@ -85,7 +85,7 @@ Shape
    Disk
       The shape of the lamp can be represented as a disk and changed with the *Size* property.
    Ellipse
-      The shape of the lamp can be represented as a ellipse and changed with the X and Y values.
+      The shape of the lamp can be represented as an ellipse and changed with the X and Y values.
 
 
 Sun Lamp

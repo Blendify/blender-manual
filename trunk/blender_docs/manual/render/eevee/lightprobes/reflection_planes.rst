@@ -55,7 +55,7 @@ Clipping Offset
    Increasing this can fix reflection contact problems.
 
 Visibility Collection
-   Sometimes, it is useful to limit which objects appear in the light probe's captured lighting.
+   In some cases, it is useful to limit which objects appear in the light probe's captured lighting.
    For instance, an object that is too close to a capture point might be better excluded.
    This is what the visibility collection does.
    Only objects that are in this collection will be visible when this probe will capture the scene.

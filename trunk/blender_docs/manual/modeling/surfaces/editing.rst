@@ -214,7 +214,7 @@ Selected
    The selection must abide by the following rules:
 
    - Whole rows, and only whole rows must be selected.
-   - Only rows along the same axis must be selected (i.e. you cannot delete both U  and V rows at the same time).
+   - Only rows along the same axis must be selected (i.e. you cannot delete both U and V rows at the same time).
 
    Also remember that NURBS order cannot be higher than its number of control points in a given axis,
    so it might decrease when you delete some control points...

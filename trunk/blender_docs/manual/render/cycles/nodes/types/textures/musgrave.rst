@@ -53,8 +53,8 @@ Type
    Originally, the algorithms for generating procedural terrain.
 
    fBM (fractal Brownian Motion)
-      Produces a unnatural homogeneous and isotropic result.
-      Uses a additive cascade, the values are simply added together.
+      Produces an unnatural homogeneous and isotropic result.
+      Uses an additive cascade, the values are simply added together.
    Multifractal
       The result is more uneven (varies with location), more similar to a real terrain.
       Uses a multiplicative cascade.

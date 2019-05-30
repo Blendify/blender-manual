@@ -27,7 +27,7 @@ Distance, Energy and Color
 Shadows
 =======
 
-.. todo 2.8 link to eevee/cycles settings
+.. todo 2.8 link to Eevee/Cycles settings
 
 
 Spot Shape
