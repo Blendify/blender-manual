@@ -33,3 +33,14 @@ The Subsurface Translucency option needs to be enabled in order to make the ligh
 (like simulating a human ear lit from behind).
 
 This option only works with shadowed light and does not work with indirect lighting.
+
+
+Limitations
+===========
+
+- Only one BSSSDF can produce screen space subsurface scattering.
+- The chosen BSSSDF is currently arbitrarily chosen.
+- A maximum of 254 different surfaces can use subsurface scattering.
+- Only scalling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
+- Input radiance from each surfaces are not isolated during the blurring, leading to light leaking from surface to surface.
+
