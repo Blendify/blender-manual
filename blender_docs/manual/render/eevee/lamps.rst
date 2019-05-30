@@ -30,10 +30,11 @@ Specular
 Size (or Radius)
    Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
 
-Custom Limit
-
+Custom Distance
    If enabled uses *Distance* as the custom attenuation distance instead of global light threshold.
-   The *Distance* specifies where light influence will be set to 0.
+
+   Distance
+      Specifies where light influence will be set to 0.
 
    .. seealso::
 

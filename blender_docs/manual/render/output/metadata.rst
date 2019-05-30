@@ -44,6 +44,8 @@ Scene
    Includes the name of the active scene.
 Memory
    Includes the peak memory usage.
+Hostname
+   Includes the rendering machine's `hostname <https://en.wikipedia.org/wiki/Hostname>`__
 Note
    Includes a custom note.
 
