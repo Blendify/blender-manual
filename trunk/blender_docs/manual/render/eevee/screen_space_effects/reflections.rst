@@ -42,12 +42,4 @@ Edge Fading
 Clamp
    Clamp the reflected color intensity to remove noise and fireflies.
 
-
-Limitations
-===========
-
-- Only one glossy BSDF can emit screen space reflections.
-- The chosen BSDF is currently arbitrarily chosen.
-- Only one refraction event is correctly modeled.
-- Screen Space Reflections will reflect transparent object
-  but without accurate positioning due to the one layer depth buffer.
+.. seealso:: :ref:`Limitations <eevee-limitations-reflections>`.

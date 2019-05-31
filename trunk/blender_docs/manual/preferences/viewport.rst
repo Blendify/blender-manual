@@ -10,7 +10,7 @@ Object Info
    Display the active Object name and frame number at the bottom left of the 3D View.
 View Name
    Display the name and type of the current view in the top left corner of the 3D View.
-   For example: *User Perspective* or *Top Orthographic*.
+   For example: "User Perspective" or "Top Orthographic".
 Playback FPS
    Show the frames per second screen refresh rate while an animation is played back.
    It appears in the viewport corner, displaying red if the frame rate set cannot be reached
@@ -55,7 +55,7 @@ Image Display Method
    Method to draw images as the following options are supported:
 
    Automatic
-      Automatically uses *GLSL* which runs on the GPU for performance but falls back to
+      Automatically use *GLSL* which runs on the GPU for performance but falls back to
       the CPU for large images which might be slow when loaded with the GPU.
    2D Texture
       Uses CPU for display transform and draws images as a 2D texture.

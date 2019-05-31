@@ -19,7 +19,7 @@ Finding Add-ons
 ===============
 
 Searching
-   Blender comes with some useful Add-ons already, ready to be enabled.
+   Blender comes with some pre-installed Add-ons already, ready to be enabled.
    But you can also add your own, or any interesting ones you find on the web.
 Supported Level
    Blender's add-ons are split into two groups depending on who writes/supports them:
@@ -58,7 +58,7 @@ The add-on functionality should be immediately available.
 3rd Party Add-ons
 -----------------
 
-There are hundreds of add-ons that are not distributed with Blender and are developer by others.
+There are hundreds of add-ons that are not distributed with Blender and are developed by others.
 To add them to the list of other add-ons they must be installed into Blender.
 
 To install these use the *Install...* button and

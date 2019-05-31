@@ -162,10 +162,4 @@ Max Distance
 Distribution
    Puts more resolution towards the near clip plane. Only works in perspective view.
 
-
-Limitations
-===========
-
-- Shadows are not supported on light instances (dupli objects, group instancing).
-- Only 128 active lights can be supported by Eevee in a scene.
-- Only 8 Shadowed sun lights can be supported at the same time.
+.. seealso:: :ref:`Limitations <eevee-limitations-shadows>`.

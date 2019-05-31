@@ -40,48 +40,71 @@ Indirect Lighting
   All specular lighting is turned off during baking.
 
 
+.. _eevee-limitations-shadows:
+
+Shadows
+=======
+
+- Shadows are not supported on light instances (dupli objects, group instancing).
+- Only 128 active lights can be supported by Eevee in a scene.
+- Only 8 Shadowed sun lights can be supported at the same time.
+
+
+.. _eevee-limitations-volumetrics:
+
 Volumetrics
 ===========
 
 - Only single scattering is supported.
-- Volumetrics are rendered only for the Camera "Rays". They don't appear in reflections/refractions and probes.
+- Volumetrics are rendered only for the camera "rays". They don't appear in reflections/refractions and probes.
 - Volumetrics don't receive light from Irradiance Volumes but does receive world's diffuse lighting.
 - Volumetric shadowing does only work on other volumetrics. They won't cast shadows on solid objects in the scene.
 - Volumetric shadowing does only work for volumes inside the view frustum.
-- Volumetric lighting does not respect the Lights shapes. They are treated as point lights
+- Volumetric lighting does not respect the lights shapes. They are treated as point lights.
 
 
-Subsurface Scattering
-=====================
+Screen Space Effects
+====================
 
-- Only one BSSSDF can produce screen space subsurface scattering.
-- The chosen BSSSDF is currently arbitrarily chosen.
-- A maximum of 254 different surfaces can use subsurface scattering.
-- Only scalling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
-- Input radiance from each surfaces are not isolated during the blurring, leading to light leaking from surface to surface.
+.. _eevee-limitations-ao:
 
+Ambient Occlusion
+-----------------
+
+- Objects are treated as infinitely thick, producing overshadowing if the *Distance* is really large.
+
+
+.. _eevee-limitations-reflections:
 
 Screen Space Reflections
-========================
+------------------------
 
 - Only one glossy BSDF can emit screen space reflections.
-- The chosen BSDF is currently arbitrarily chosen.
+- The evaluated BSDF is currently arbitrarily chosen.
 - Screen Space Reflections will reflect transparent objects and objects using Screen Space Refraction
   but without accurate positioning due to the one layer depth buffer.
 
 
 Screen Space Refraction
-=======================
+-----------------------
 
 - Only one refraction event is correctly modeled.
 - Only opaque and alpha hashed materials can be refracted.
 
 
-Ambient Occlusion
-=================
+.. _eevee-limitations-sss:
 
-- Objects are treated as infinitely thick, producing overshadowing if the Distance is really large.
+Subsurface Scattering
+---------------------
 
+- Only one BSSSDF can produce screen space subsurface scattering.
+- The evaluated BSSSDF is currently arbitrarily chosen.
+- A maximum of 254 different surfaces can use subsurface scattering.
+- Only scalling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
+- Input radiance from each surfaces are not isolated during the blurring, leading to light leaking from surface to surface.
+
+
+.. _eevee-limitations-materials:
 
 Materials
 =========
@@ -91,6 +114,7 @@ Refraction
    but using the refracted view direction instead of the reflected view direction.
    Only the first refraction event is modeled correctly.
    An approximation of the second refraction event can be used for relatively thin objects using Refraction Depth.
+   Using Screen Space refraction will refract what is visible in.
 
 Bump
    As of now, bump mapping is supported using OpenGL derivatives which are the same for each block of 2x2 pixels.
