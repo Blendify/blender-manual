@@ -16,7 +16,7 @@ Keyboard
 Emulate Numpad
    The Numpad keys are used quite often in Blender and are not assigned to the same action as
    the regular number keys. If you have a keyboard without a Numpad (e.g. on a laptop),
-   you can tell Blender to treat the standard number keys as Numpad keys, just check *Emulate Numpad*.
+   you can tell Blender to treat the standard number keys as Numpad keys by checking *Emulate Numpad*.
 Default to Advanced Numeric Input
    TODO 2.8.
 
@@ -76,9 +76,9 @@ Release Confirms
 Drag Threshold
    The number of pixels that a User Interface element has to be moved before it is recognized by Blender.
 Motion Threshold
-   The number of pixels the cursor must move before the movement is registered.
+   The number of pixels the cursor must be moved before the movement is registered.
    This is helpful for tablet pens that are a lot more difficult to keep still
-   and using this could help reduce stuttering of the cursor position.
+   then this could help to reduce stuttering of the cursor position.
 Double Click Speed
    The time in ms for a double-click to be recognized.
 
@@ -95,7 +95,7 @@ Tablet API
 Max Threshold
    Amount of pressure required to achieve full intensity.
 Softness
-   Controls how the softness of the low pressure responses respond using a gamma curve.
+   Controls how the softness of the low pressure response onset using a gamma curve.
 
 
 NDOF

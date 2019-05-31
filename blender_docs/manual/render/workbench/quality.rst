@@ -8,8 +8,8 @@ A different one can be selected for the 3D Viewport, Viewport rendering and
 for final rendering.
 
 The setting for the 3D Viewport is a user preference to specify the anti-aliasing method
-that runs best on the system that is used. The setting for viewport rendering
-and final rendering is saved with the scene.
+that runs best on the used system. The setting for viewport rendering
+and final rendering is saved per scene.
 
 .. admonition:: Reference
    :class: refbox
@@ -32,11 +32,10 @@ Multi Sample
 
    .. tip::
 
-      Multi Samples Anti-Aliasing is well suited for rendering small details
-      like hair rendering.
+      Multi Samples Anti-Aliasing is well suited for rendering small details like hair.
 
    *Progressive Viewport Rendering*
 
-   For the 3D Viewport, one sample is rendered at a time. When nothing changes
+   For the 3D Viewport, one sample is rendered at a time. When there are no changes
    to the scene or viewport the next sample will be rendered.
 

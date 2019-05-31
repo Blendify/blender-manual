@@ -23,12 +23,12 @@ in a new window. To open the *Preferences* editor go to :menuselection:`Edit -->
 Save User Settings
 ==================
 
-Once you have set your preferences, you will can either manually save them,
-or just close the window and they will automatically save themselves.
+Once you have set your preferences, you can either manually save them,
+or just close the window and they will be saved automatically.
 
 To manually save the preferences, from the preferences window open the small menu
 in the bottom left and select *Save Current State*. There are two other options
-related to saving the preferences.
+related to saving the preferences:
 
 Revert to Saved
    Undoes any unsaved modifications to preferences back to the previous saved state.

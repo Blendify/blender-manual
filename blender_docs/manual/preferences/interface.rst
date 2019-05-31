@@ -81,13 +81,13 @@ Hotspot
 Translation
 ===========
 
-Blender supports a wide range of languages,
-enabling this checkbox will enable Blender to support International Fonts.
-International fonts can be loaded for the User Interface and used instead of Blender default bundled font.
+Blender supports a wide range of languages, enabling this checkbox will enable Blender to
+support International Fonts. International fonts can be loaded for the User Interface and
+used instead of the font bundled with Blender by default.
 
 This will also enable options for translating the User Interface
-through a list of languages and Tips for Blender tools which appear
-whenever the user hovers a mouse over Blender tools.
+through a list of languages and tips for Blender tools which appear
+whenever the mouse pointer hovers over a tool button.
 
 Blender supports I18N for internationalization.
 For more Information on how to load International fonts,
@@ -99,13 +99,13 @@ Text Rendering
 
 Anti-aliasing
    Enable interface text anti-aliasing.
-   When disabled, texts are drawn using text straight render (filling only absolute pixels).
+   When disabled, texts are drawn using straight text rendering (filling only absolute pixels).
 Hinting
    TODO 2.8.
 Interface Font
    Replacement for the default user interface font.
 Mono-space Font
-   Same as above for the mono-space font.
+   Same as above but for the mono-space font.
 
 
 Menus

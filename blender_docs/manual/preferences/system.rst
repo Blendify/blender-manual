@@ -80,7 +80,7 @@ Garbage Collection Rate
 Sound
 =====
 
-These settings control how sound behaves during live playback
+This panel contains the sound settings for live playback
 within Blender and are only available with *SDL* or *OpenAL*.
 To control these settings for exporting sound
 see the :ref:`Encoding Panel <render-output-video-encoding-panel>`

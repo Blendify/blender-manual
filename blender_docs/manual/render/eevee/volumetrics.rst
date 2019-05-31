@@ -53,13 +53,4 @@ This is a very expensive option and have limitations (link).
 Shadow Samples
    Number of samples to compute volumetric shadowing.
 
-
-Limitations
-===========
-
-- Only single scattering is supported.
-- Volumetrics are rendered only for the camera "rays". They don't appear in reflections/refractions and probes.
-- Volumetrics don't receive Light from light grids but does receive from the world probe.
-- Volumetric shadowing does only work on other volumetrics.
-- Volumetric shadowing does only work for volumes inside the view frustum.
-- Volumetric lighting does not respect the lights shapes. They are treated as point lights.
+.. seealso:: :ref:`Limitations <eevee-limitations-volumetrics>`.

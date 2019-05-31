@@ -37,8 +37,4 @@ Bounce Approximation
    It only takes into account the surface color and not its surroundings.
    This is not applied to the ambient occlusion pass.
 
-
-Limitations
-===========
-
-- Objects are treated as infinitely thick, producing overshadowing if the *Distance* is really large.
+.. seealso:: :ref:`Limitations <eevee-limitations-ao>`.
