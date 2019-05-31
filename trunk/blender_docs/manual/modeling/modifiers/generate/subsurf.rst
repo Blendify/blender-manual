@@ -52,7 +52,7 @@ Type
 Subdivisions
    Recursively adds more geometry. For details on polygon counts, see the `Performance Considerations`_ section.
 
-   View
+   Viewport
       The number of subdivision levels shown in the 3D View.
    Render
       The number of subdivision levels shown in renders.
