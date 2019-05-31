@@ -17,13 +17,13 @@ The *Metadata* panel includes options for writing metadata into render output.
 Stamp Output
    Add metadata as text to the render.
 
+   Font Size
+      Set the size of the text.
    Stamp Text Color
       Set the color and alpha of the stamp text.
    Stamp Background
       Set the color and alpha of the color behind the text.
-   Font Size
-      Set the size of the text.
-   Draw Labels
+   Include Labels
       Draws the labels before the metadata text. For example,
       "Camera" in front of the camera name, etc.
 

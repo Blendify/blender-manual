@@ -28,6 +28,12 @@ File
 
 See :doc:`/editors/info/file` menu.
 
+Edit
+^^^^
+
+Preferences
+   Opens the :doc:`Blender Preferences </preferences/introduction>` in a new window.
+
 
 Render
 ^^^^^^

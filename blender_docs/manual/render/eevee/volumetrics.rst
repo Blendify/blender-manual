@@ -13,7 +13,7 @@ Object volumes have some limitations (link).
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Render --> Volumetrics`
+   :Panel:     :menuselection:`Properties --> Render --> Volumetrics`
 
 Start
    Start distance of the volumetric effect.

@@ -51,7 +51,7 @@ Disk Cache
    in a folder named ``blendcache_[filename]`` alongside the blend-file.
    (The blend-file must be saved first.)
 
-   Use Lib Path
+   Use Library Path
       Share the disk cache when the physics object is
       :doc:`linked </data_system/linked_libraries>` into another blend-file.
 

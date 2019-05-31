@@ -32,8 +32,8 @@ Recovering Auto Saves
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`File --> Recover Last Session`
-   :Menu:      :menuselection:`File --> Recover Auto Save...`
+   :Menu:      :menuselection:`File --> Recover --> Last Session`
+   :Menu:      :menuselection:`File --> Recover --> Auto Save...`
 
 
 Recover Last Session
