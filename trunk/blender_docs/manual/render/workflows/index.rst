@@ -9,4 +9,3 @@
 
    animations.rst
    command_line.rst
-   multiview/index.rst

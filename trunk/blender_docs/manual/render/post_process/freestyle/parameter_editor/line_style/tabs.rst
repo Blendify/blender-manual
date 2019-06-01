@@ -229,7 +229,7 @@ Texture
 
 Use Nodes/Textures
    In Cycles textures are defined by means of
-   shader :doc:`nodes </render/freestyle/parameter_editor/line_style/nodes/index>`.
+   shader :doc:`nodes </render/post_process/freestyle/parameter_editor/line_style/nodes/index>`.
 Spacing Along Stroke
    Allows to set the "pace" of textures mapped along the length of strokes.
 Go to LineStyle Textures
