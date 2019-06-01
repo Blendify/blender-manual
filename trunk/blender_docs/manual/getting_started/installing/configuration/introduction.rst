@@ -50,4 +50,4 @@ This would not happen by accident,
 and most users leave this option on to automatically run scripts often used in advanced rigs
 (such as "Rigify" that controls the skeleton of a human rig).
 
-See :doc:`File Preferences </preferences/file>` for details.
+See :doc:`File Preferences </preferences/file_paths>` for details.
