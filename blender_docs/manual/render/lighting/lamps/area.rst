@@ -43,8 +43,17 @@ The shape of the area light can be set to *Square* or *Rectangle*.
 
           Rectangle options.
 
-Square / Rectangular
-   Emit light from either a square or a rectangular area.
+Shape
+   Shape of the lamp.
+
+   Rectangle
+      The shape of the lamp can be represented as a rectangle and changed with the "X" and "Y" values.
+   Square
+      The shape of the lamp can be represented as a square and changed with the *Size* property.
+   Disk
+      The shape of the lamp can be represented as a disk and changed with the *Size* property.
+   Ellipse
+      The shape of the lamp can be represented as an ellipse and changed with the X and Y values.
 Size / Size X / Size Y
    Dimensions for the *Square* or *Rectangle*.
 

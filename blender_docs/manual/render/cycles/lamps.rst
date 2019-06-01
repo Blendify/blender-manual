@@ -23,7 +23,6 @@ Common Settings
 
 Type
    Currently *Point*, *Spot*, *Area* and *Sun* lamps are supported.
-   *Hemi* lamps are not supported, and will be rendered as sun lamps.
 Size
    Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
 Samples
@@ -67,14 +66,6 @@ Area Lamp
 ---------
 
 Area lamps emit light from a square or rectangular area with a Lambertian distribution.
-
-Shape
-   Shape of the lamp.
-
-   Rectangle
-      The shape of the lamp can be represented as a rectangle and changed with the "X" and "Y" values.
-   Square
-      The shape of the lamp can be represented as a square and changed with the *Size* property.
 
 
 .. _render-cycles-lamps-area-portals:

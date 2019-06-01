@@ -57,7 +57,7 @@ Only after the above global influences have been considered,
 do you start adding light from lamps in your scene.
 The main things under your control are the:
 
-- Type of light used (*Sun*, *Spot*, *Lamp*, *Hemi*, etc.).
+- Type of light used (*Sun*, *Spot*, *Area*, *Point*).
 - Color of the light.
 - Position of the light and its direction.
 - Settings for the light, including energy and falloff.

@@ -36,26 +36,5 @@ Distance
    Certain settings and lamp falloff types affect how the *Distance* is interpreted,
    meaning that it will not always react the same.
 
-   The *Sun* and *Hemi* Lamps are another class of Lamps which uses a constant falloff.
+   The *Sun* lamp is another class of Lamps which uses a constant falloff.
    Those lamps do not have a *Distance* parameter, and are often called "Base Lighting Lamps".
-
-
-.. _bi-lamp-influence:
-
-Influence
----------
-
-Every lamp has a set of switches that control which objects receive its light,
-and how it interacts with materials.
-
-Negative
-   Let the lamp cast negative light.
-   The light produced by the lamp is *subtracted* from the irradiance on the surfaces it hits,
-   which darkens these surfaces instead of brightening them.
-This Layer Only
-   The Lamp only illuminates objects on the same layer the lamp is on.
-   Causes the lamp to only light objects on the same layer.
-Specular
-   The Lamp creates specular highlights.
-Diffuse
-   The Lamp affects diffuse shading.
