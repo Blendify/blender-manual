@@ -63,7 +63,7 @@ Here are external links containing a lot of good information to start learning h
   First video in a series of video tutorials.
 - `Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
   A quickstart guide for people who already have some familiarity with Python and Blender.
-- `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
+- `Examples thread < https://blenderartists.org/t/scripting-examples-for-2-5-update-mar-26th-2010/456132>`__
   A forum thread containing many short working script examples.
 - `Introduction to Python
   <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__
