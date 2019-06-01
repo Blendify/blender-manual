@@ -26,8 +26,8 @@ pressing down :kbd:`LMB` on the button will reveal a pop-up
 :doc:`menu </interface/controls/buttons/menus>`.
 
 
-Text Fields & Search Fields
-===========================
+Text & Search Fields
+====================
 
 .. figure:: /images/interface_controls_buttons_buttons_text-search.png
    :align: right
