@@ -134,7 +134,7 @@ Onion-skinning, also known as ghosting, helps an animator by displaying the neig
 Onion Skinning
    Checkbox to enable onion skinning.
 Always Show (camera icon)
-   If enabled ghosts are displayed when scrubbing the view, playing back animation and/or in the OpenGL renders.
+   If enabled ghosts are displayed when scrubbing the view, playing back animation and/or in the viewport render.
    There are two use cases where this is quite handy:
 
    - For creating a cheap motion-blur effect, especially when the before/after values are also animated.

@@ -86,9 +86,6 @@ Proportional Edit
 Snap
    Controls the :doc:`snapping tools </editors/3dview/object/editing/transform/control/snap>`
    that help with transforming and modeling objects.
-OpenGL Render
-   The Render Buttons render an OpenGL version of the 3D View.
-   See the :doc:`OpenGL Rendering </render/opengl>` page for more information.
 
 
 Tool Shelf

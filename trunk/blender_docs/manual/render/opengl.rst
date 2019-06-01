@@ -1,9 +1,9 @@
 
-*************
-OpenGL Render
-*************
+***************
+Viewport Render
+***************
 
-OpenGL rendering uses the 3D View's drawing for quick *preview* renders.
+Viewport rendering uses the 3D View's drawing for quick *preview* renders.
 
 This allows you to inspect your animatic
 (for object movements, alternate angles, etc.).
@@ -11,9 +11,9 @@ This allows you to inspect your animatic
 This can also be used to preview your animations --
 in the event your scene is too complex for your system to play back in real-time in the 3D View.
 
-You can use OpenGL to render both images and animations.
+You can use *Viewport Render* to render both images and animations.
 
-Below is a comparison between the OpenGL render and a final render using
+Below is a comparison between the Viewport render and a final render using
 the Cycles Renderer.
 
 .. list-table:: Model by © 2016 pokedstudio.com
@@ -21,20 +21,24 @@ the Cycles Renderer.
    * - .. figure:: /images/render_opengl_example-opengl-render.jpg
           :width: 320px
 
-          OpenGL render.
+          Viewport render.
 
      - .. figure:: /images/render_opengl_example-cycles-render.jpg
           :width: 320px
 
           Full render.
 
+.. todo 2.8 replace this text with overlays
+
 .. tip:: Showing Only Rendered Objects
 
    To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/properties/panels>`.
 
-   While this option is not specific to OpenGL rendering, it's often useful to enable,
+   While this option is not specific to Viewport rendering, it's often useful to enable,
    since it removes data such as rigs and empties that can be a distraction.
 
+
+.. todo 2.8
 
 Settings
 ========
@@ -43,11 +47,11 @@ Settings
    :class: refbox
 
    :Editor:    Info Editor
-   :Menu:      :menuselection:`Render --> OpenGL Render Options`
+   :Menu:      :menuselection:`Render --> Viewport Render Options`
 
-For the most part, *OpenGL Render* uses the viewport settings,
+For the most part, *Viewport Render* uses the viewport settings,
 Sampling and Alpha Transparency Mode options can be set by
-the :menuselection:`Render --> OpenGL Render Options` from the Info Editor header.
+the :menuselection:`Render --> Viewport Render Options` from the Info Editor header.
 Additionally, some render settings are used too:
 
 - Render Dimensions
@@ -58,54 +62,15 @@ Additionally, some render settings are used too:
 Rendering
 =========
 
-Activating OpenGL render from the menu will render from the active camera.
-
-You can also render any viewport, from the header of the *3D View*,
-using the small button showing a *Camera*.
-
-.. figure:: /images/render_opengl_view-port-render-buttons.png
-
-   OpenGL Render buttons.
+Activating *Viewport Render* will render from the current active view.
+This means that if you are not in an active camera view then a virtual
+camera is used to match the current perspective.
+To get an image from the camera point of view,
+enter the active camera view with :kbd:`NumpadZero`.
 
 As with a normal render, you can abort it with :kbd:`Esc`.
 
 Render a Still Image
-   Click on the small button showing a *camera* in the header of the 3D View.
-
-   Or from the menu: :menuselection:`Render --> OpenGL Render Image`
-   from the header of the *Info Editor*
+   To render a still image use :menuselection:`3D Viewport --> View --> Viewport Render Image`.
 Render an Animation
-   Click on the small button showing a *slate* in the header of the 3D View.
-
-   Or from the menu: :menuselection:`Render --> OpenGL Render Animation`
-   from the header of the *Info Editor*
-Render from the Sequencer
-   Click on the small button showing a *slate* in the header of *Sequencer* preview region.
-
-   Using scene strips in the Sequencer you can edit together scenes to quickly render an entire sequence of shots.
-
-   This can be activated using the render icons in the Sequencer's playback header.
-
-
-Known Limitations
-=================
-
-OpenGL Anti-Aliasing Support
-----------------------------
-
-Some graphics cards do not support this feature
-(known as the frame-buffer multi-sample OpenGL extensions).
-
-In this case rendering works but no anti-aliasing is performed.
-
-Enabling *Full Sample*, can be used to workaround this limit,
-because it does not rely on hardware multi-sample support.
-
-.. hint::
-
-   Exact extensions needed, as listed in output from :ref:`help-system-info` (OpenGL section):
-
-   - ``GL_ARB_texture_multisample``
-   - ``GL_EXT_framebuffer_blit``
-   - ``GL_EXT_framebuffer_multisample_blit_scaled``
-   - ``GL_EXT_framebuffer_multisample``
+   to render an animation use :menuselection:`3D Viewport --> View --> Viewport Render Animation`.

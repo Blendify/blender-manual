@@ -88,10 +88,10 @@ Be aware that some modes require a fullscreen editor to work.
    Window menu, stereo 3D operator.
 
 
-OpenGL Preview
-==============
+Viewport Preview
+================
 
-Before rendering your scene, you can save an OpenGL preview of the animation for testing in the final display.
+Before rendering your scene, you can save an Viewport Preview of the animation for testing in the final display.
 In the Render Output panel you can choose the output *Views Format*.
 
 The options include individual files per view, top-bottom, anaglyph among others.
@@ -110,7 +110,7 @@ In the UV/Image Editor you can inspect the individual views and the stereo resul
 Image Formats
 =============
 
-Your final animation can be saved in more robust formats than the ones used by the OpenGL render preview.
+Your final animation can be saved in more robust formats.
 In this example we saved as cross-eyed side-by-side stereo 3D.
 
 .. figure:: /images/render_workflows_multiview_usage_render-sidebyside.png

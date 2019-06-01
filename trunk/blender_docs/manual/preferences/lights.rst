@@ -14,23 +14,23 @@ TODO 2.8.
 Editor
 ------
 
-*Solid OpenGL Lights* are used to light the 3D View,
+*Studio Lights* are used to light the 3D View,
 mostly during *Solid view*. Lighting is constant and position "world" based.
-There are three virtual light sources, also called OpenGL auxiliary lamps,
-used to illuminate 3D View scenes, which will not display in renders.
+There are four virtual light sources, used to illuminate 3D View scenes,
+which will not display in renders.
 
-The Lamp icons allow the user to enable or disable OpenGL lamps.
-At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
-The lamps are equal, except for their position and color.
-You can control the direction of the lamps, as well as their diffuse and specular colors.
+The Lamp icons allow the user to enable or disable individual lights.
+At least one of the four Lamps must remain enabled for the 3D View.
+The lights are equal, except for their position and color.
+You can control the direction of the lights, as well as their diffuse and specular colors.
 
 Light
    Use Light
-      Toggles the specific lamp.
+      Toggles the specific light.
    Diffuse
-      This is the constant color of the lamp.
+      This is the constant color of the light.
    Specular
-      This is the highlight color of the lamp.
+      This is the highlight color of the light.
    Smooth
       TODO 2.8.
    Direction

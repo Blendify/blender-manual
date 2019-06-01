@@ -24,7 +24,7 @@ When you unwrap a face to a UV texture in the UV/Image Editor, each face of the 
 automatically assigned *four UV coordinates:* These coordinates define the way an image or
 a texture is mapped onto the face. These are 2D coordinates, which is why they are called UV,
 to distinguish them from XYZ coordinates.
-These coordinates can be used for rendering or for real-time OpenGL display as well.
+These coordinates can be used for rendering or for real-time viewport display as well.
 
 Every face in Blender can have a link to a different image.
 The UV coordinates define how this image is mapped onto the face.

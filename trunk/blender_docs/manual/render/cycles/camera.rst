@@ -101,8 +101,8 @@ Panoramic
 ^^^^^^^^^
 
 Cycles supports Equirectangular and Fisheye panoramic cameras.
-Note that these cannot be displayed with OpenGL rendering in the viewport;
-they will only work for rendering.
+Note that these cannot be displayed non rendered modes in the viewport,
+i.e. *Solid* mode; they will only work for the final render.
 
 
 Equirectangular
@@ -181,13 +181,17 @@ Clip Start and End
    Any objects outside this range still influence the image indirectly,
    as further light bounces are not clipped.
 
-For OpenGL display, setting clipping distances to limited values
-is important to ensure sufficient rasterization precision.
-Ray tracing renders do not suffer from this issue so much,
-and as such more extreme values can safely be set.
+.. tip::
 
-When *Limits* in the *Display* panel is enabled,
-the clip bounds will be visible as two yellow connected dots on the camera line of sight.
+   For viewport rendering, setting clipping distances to limited values
+   is important to ensure sufficient rasterization precision.
+   Ray tracing renders do not suffer from this issue so much,
+   and as such more extreme values can safely be set.
+
+.. tip::
+
+   When *Limits* in the *Display* panel is enabled,
+   the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
 .. seealso::
 
@@ -256,8 +260,7 @@ High Quality
    representation of *depth of field*. This allows the viewport depth of field
    to be closely represented to that of the render and render preview depth of field.
 F-Stop
-   Viewport depth of field aperture measured in F-Stops. Smaller numbers will
-   cause more blur in the viewport, OpenGL renders, and Sequencer.
+   Viewport depth of field aperture measured in F-Stops; smaller numbers will cause more blur
 Blades
    The number of polygonal sides to give blurred objects in the viewport.
    The minimum number of blades needed to enable the bokeh effect is 3 (triangle).

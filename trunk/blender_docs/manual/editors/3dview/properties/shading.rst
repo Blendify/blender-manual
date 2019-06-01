@@ -37,8 +37,8 @@ Rendered
    An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
 
 Except for *Rendered*, these shading modes are not dependent on light sources in the scene.
-Instead they use a simple default lighting adjusted by the *Solid OpenGL Lights*
-controls on the *System* tab of the :doc:`User Preferences </preferences/system>` editor.
+Instead they use a simple default lighting adjusted by the *Studio Lights*
+controls in the *Lights* tab of the :doc:`Preferences </preferences/system>`.
 
 The viewport shading controls the appearance of all objects in a scene,
 but this can be overridden for individual objects using the *Display panel* in their *Object Properties*.
