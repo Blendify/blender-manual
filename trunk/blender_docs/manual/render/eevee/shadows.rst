@@ -66,7 +66,7 @@ Light Threshold
 
    .. seealso::
 
-      :doc:`Custom Limit </render/eevee/lamps>`.
+      :doc:`Custom Limit </render/eevee/lighting>`.
 
 .. note::
 

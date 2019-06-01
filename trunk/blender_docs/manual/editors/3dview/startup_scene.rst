@@ -29,7 +29,7 @@ Cube
 Lamp
    The circle with a thin line to the bottom is a light source illuminating the cube.
    Lights in: :doc:`General Settings </render/lighting/index>`,
-   :doc:`Cycles </render/cycles/lamps>`.
+   :doc:`Cycles </render/cycles/lighting>`.
 
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.

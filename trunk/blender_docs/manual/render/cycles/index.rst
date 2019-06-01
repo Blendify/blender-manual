@@ -11,7 +11,7 @@
 
    introduction.rst
    materials/index.rst
-   lamps.rst
+   lighting.rst
    world.rst
    nodes/index.rst
    camera.rst

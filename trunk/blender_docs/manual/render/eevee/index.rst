@@ -10,7 +10,7 @@
    introduction.rst
    materials/index.rst
    world.rst
-   lamps.rst
+   lighting.rst
    shadows.rst
    volumetrics.rst
    screen_space_effects/index.rst

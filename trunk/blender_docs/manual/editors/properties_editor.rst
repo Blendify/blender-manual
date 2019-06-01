@@ -80,7 +80,7 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 - :doc:`Speaker </render/audio/speaker>`
 - Camera: :doc:`Cycles </render/cycles/camera>`
 - Lamp: :doc:`General settings </render/lighting/lamp_panel>`,
-  :doc:`Cycles </render/cycles/lamps>`
+  :doc:`Cycles </render/cycles/lighting>`
 
 ..
 
