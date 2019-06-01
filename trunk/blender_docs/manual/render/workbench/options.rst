@@ -3,7 +3,10 @@
 Options
 *******
 
-Shading options can be set in the :menuselection:`Properties --> Render --> Options` panel.
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Properties --> Render --> Options` panel.
 
 Backface Culling
    Use backface culling to hide backsides of faces.

@@ -39,7 +39,7 @@ Show/Hide
    :Mode:      All Modes
    :Menu:      :menuselection:`Object --> Show/Hide`
 
-Show Hidden :kbd:`Alt-H`
+Show Hidden Objects :kbd:`Alt-H`
    Reveals all hidden objects.
 Hide Selected :kbd:`H`
    Hides all selected objects.

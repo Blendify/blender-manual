@@ -239,9 +239,9 @@ Square
 Show/Hide
 =========
 
-Hide :kbd:`H`
-   Hide selected curves.
+Hide Selected Curves :kbd:`H`
+   Hides the selected curves.
 Hide Unselected :kbd:`Shift-H`
    Show only the selected curve (and hide everything else).
-Show Hidden :kbd:`Alt-H`
+Reveal Curves :kbd:`Alt-H`
    Show all previous hidden curves.

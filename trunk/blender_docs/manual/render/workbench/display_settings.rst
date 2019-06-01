@@ -18,7 +18,7 @@ are used by the Workbench Engine.
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Object --> Viewport Display`
+   :Panel:     :menuselection:`Properties --> Object --> Viewport Display`
 
 Shadow
    When the *Shadow* in the :doc:`/render/workbench/options` is enabled
@@ -41,7 +41,7 @@ are used by the Workbench Engine.
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Material --> Viewport Display`
+   :Panel:     :menuselection:`Properties --> Material --> Viewport Display`
 
 Color
    The color when rendering the material.
@@ -65,7 +65,7 @@ are used by the Workbench Engine.
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`World --> Viewport Display`
+   :Panel:     :menuselection:`Properties --> World --> Viewport Display`
 
 Color
    The color of the world background. This color will be rendered

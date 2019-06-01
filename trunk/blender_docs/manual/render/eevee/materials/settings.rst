@@ -6,7 +6,13 @@ Material Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Material --> Options`
+   :Panel:     :menuselection:`Properties --> Material --> Options`
+
+
+Backface Culling
+================
+
+Backface Culling hides the back side of faces in the final render.
 
 
 Blend Mode
@@ -47,7 +53,7 @@ Alpha Blending
 
 
 Sorting Problem
-===============
+---------------
 
 When writing to the color buffer using transparent blend modes,
 the order in which the color blending happens is important as it can change the final output color.
@@ -141,3 +147,11 @@ This is why a human ear lit from behind appears red on the front side.
 That is what this effect mimics. This translucency approximation does only work
 with lamps that have shadow maps and only on Subsurface BSDFs (not the Translucency BSDFs).
 It does not work with indirect lighting. The soft parameter of the shadow maps also affects this effect.
+
+
+Pass Index
+==========
+
+Index number for the *Material Index* :doc:`render pass </render/cycles/settings/scene/render_layers/passes>`.
+This can be used to give a mask to a material and then be read with
+the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
