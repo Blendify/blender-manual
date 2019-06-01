@@ -71,7 +71,6 @@ Tools and modes in the 3D View header are (left to right):
 - Limit Selection to Visible
 - Proportional editing
 - Snap
-- OpenGL render
 
 You can switch between the Object and Edit Modes with :kbd:`Tab`.
 You can change to any mode by selecting the desired *Mode* in the menu in the 3D View header.

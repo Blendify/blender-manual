@@ -109,14 +109,14 @@ Subsurface Scattering
 Materials
 =========
 
-Refraction
+Refractions
    Refraction is faked by sampling the same reflection probe used by the Glossy BSDFs,
    but using the refracted view direction instead of the reflected view direction.
    Only the first refraction event is modeled correctly.
    An approximation of the second refraction event can be used for relatively thin objects using Refraction Depth.
    Using Screen Space refraction will refract what is visible in.
 
-Bump
+Bump Mapping
    As of now, bump mapping is supported using OpenGL derivatives which are the same for each block of 2x2 pixels.
    This means the bump output value will appear pixelated.
    It is recommended to use normal mapping instead.
@@ -146,8 +146,8 @@ Shader Nodes
 Memory Management
 =================
 
-As of now Eevee uses OpenGL, and
-:abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` Memory management is done by the OpenGL driver.
+In Eevee, :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)`
+Memory management is done by the GPU driver.
 In theory, only the needed textures and meshes (now referred as "the resources") for a single draw call
 (i.e. one object) needs to fit into the GPU memory.
 
@@ -164,7 +164,7 @@ if the GPU will render them successfully.
 CPU Rendering
 =============
 
-Being an OpenGL engine, Eevee only uses the power of
+Being an rasterization engine, Eevee only uses the power of
 the :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` to render.
 There is no plan to support :abbr:`CPU (Central Processing Unit)` (software) rendering as it would be very inefficient.
 CPU power is still needed to handle high complexity scene as the geometry

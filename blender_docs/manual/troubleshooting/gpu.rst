@@ -98,7 +98,7 @@ Poor Performance
 
 - Update your graphics drivers (see above).
 - On laptops, make sure you are using a dedicated GPU (see above).
-- Try lowering quality settings in :menuselection:`Preferences --> System --> OpenGL`.
+- Try lowering quality settings in :menuselection:`Preferences --> System --> Memory & Limits`.
 - Try undoing settings in your graphics drivers, if you made any changes there.
 
 

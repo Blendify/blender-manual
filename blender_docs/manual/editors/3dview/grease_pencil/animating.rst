@@ -29,7 +29,7 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 Compositing
 ===========
 
-The Grease pencil layers create a pass inside :doc:`OpenGL </render/opengl>` render result.
+The Grease pencil layers create a pass inside :doc:`Viewport Rendering </render/opengl>` render result.
 This result can be exported to ``EXR multilayer`` and used in composition.
 
 ToDo add.
