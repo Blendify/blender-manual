@@ -12,8 +12,8 @@ This is in direct contrast to point-like artificial lights which produce sharp b
 
 .. seealso::
 
-   - :doc:`EEVEE Lighting </render/eevee/lamps>`
-   - :doc:`Cycles Lighting </render/cycles/lamps>`
+   - :doc:`EEVEE Lighting </render/eevee/lighting>`
+   - :doc:`Cycles Lighting </render/cycles/lighting>`
    - :doc:`Workbench Lighting </render/workbench/lighting>`
 
 
