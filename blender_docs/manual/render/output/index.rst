@@ -9,5 +9,6 @@
    render_panel.rst
    output.rst
    video.rst
+   audio/index.rst
    metadata.rst
    animation_player.rst

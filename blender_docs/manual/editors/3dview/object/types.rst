@@ -45,7 +45,7 @@ Empty
    :doc:`Empties </modeling/empties>` are null objects that are simple visual transform nodes that do not render.
    They are useful for controlling the position or movement of other objects.
 Speaker
-   :doc:`Speaker </render/audio/speaker>` brings a source of sound to the scene.
+   :doc:`Speaker </render/output/audio/speaker>` brings a source of sound to the scene.
 Camera
    This is the virtual camera that is used to determine what appears in the render.
    See Cameras in :doc:`Cycles </render/cycles/camera>`.

@@ -12,7 +12,7 @@ Line Set
 
 A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
-:doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
+:doc:`line style </render/post_process/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
 

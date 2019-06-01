@@ -19,9 +19,9 @@ Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:
 
    Parameter Editor Mode
-      The user-friendly :doc:`parameter editor </render/freestyle/parameter_editor/index>`.
+      The user-friendly :doc:`parameter editor </render/post_process/freestyle/parameter_editor/index>`.
    Python Scripting Mode
-      Powerful but complex :doc:`Python scripting </render/freestyle/python>`.
+      Powerful but complex :doc:`Python scripting </render/post_process/freestyle/python>`.
 
 View Map Cache
    An option to reuse a previously computed view map for subsequent rendering.

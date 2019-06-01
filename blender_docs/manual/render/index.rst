@@ -8,15 +8,21 @@
 ##########
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    introduction.rst
    lighting/index.rst
+   output/index.rst
+   post_process/index.rst
+   workflows/index.rst
+
+
+Render Engines
+==============
+
+.. toctree::
+   :maxdepth: 1
+
    eevee/index.rst
    cycles/index.rst
    workbench/index.rst
-   output/index.rst
-   post_process/index.rst
-   freestyle/index.rst
-   workflows/index.rst
-   audio/index.rst
