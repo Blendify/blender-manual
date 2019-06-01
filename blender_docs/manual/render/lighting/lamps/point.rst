@@ -1,10 +1,11 @@
-.. _bpy.types.PointLamp:
+.. _bpy.types.PointLight:
 
 *****
 Point
 *****
 
 .. figure:: /images/render_blender-render_lighting_lamps_point_viewport.png
+   :align: right
    :width: 260px
 
    Point lamp.
@@ -20,16 +21,16 @@ Light intensity/energy decays based on (among other variables)
 distance from the *Point* lamp to the object. In other words,
 surfaces that are further away are rendered darker.
 
+.. seealso::
+
+   - :doc:`EEVEE Lighting </render/eevee/lamps>`
+   - :doc:`Cycles Lighting </render/cycles/lamps>`
+   - :doc:`Workbench Lighting </render/workbench/lighting>`
+
 
 Lamp Options
 ============
 
-Distance, Energy and Color
+Color, Power, Radius
    These settings are common to most types of lamps, and are described in
    :doc:`Light Properties </render/lighting/lamp_panel>`.
-
-
-Shadows
-=======
-
-.. todo 2.8 link to Eevee/Cycles settings

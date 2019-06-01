@@ -26,15 +26,7 @@ Type
    :doc:`Types of lamps </render/lighting/index>` share all or some of the options listed here:
 Color
    The color of the light source's illumination.
-Energy
-   The intensity of the light source's illumination from (0.0 to 10.0).
-Distance
-   The *Distance* number button indicates the number of Blender Units (BU)
-   at which the intensity of the current light source will be half of its intensity.
-   Objects less than the number of BU away from the lamp will get more light,
-   while objects further away will receive less light.
-   Certain settings and lamp falloff types affect how the *Distance* is interpreted,
-   meaning that it will not always react the same.
-
-   The *Sun* lamp is another class of Lamps which uses a constant falloff.
-   Those lamps do not have a *Distance* parameter, and are often called "Base Lighting Lamps".
+Power/Strength
+   Each light type has its own way to control the intensity of the light.
+Radius/Size/Angle
+   Each light type has some way to control the physical size of the virtual light.
