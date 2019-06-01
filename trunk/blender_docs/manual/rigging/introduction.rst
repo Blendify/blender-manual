@@ -41,4 +41,4 @@ Examples
    The content of this chapter is simply a reference to how rigging is accomplished in Blender.
    It should be paired with additional resources such as Nathan Vegdahl's excellent (and free!)
    introduction to the fundamental concepts of character rigging,
-   `Humane Rigging <https://www.youtube.com/playlist?list=PL3wFcRXImVPOQpi-wi7uriXBkykXVUntv>`__.
+   `Humane Rigging <https://www.youtube.com/playlist?list=PLE211C8C41F1AFBAB>`__.
