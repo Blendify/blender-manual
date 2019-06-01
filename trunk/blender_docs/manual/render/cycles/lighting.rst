@@ -1,30 +1,22 @@
 
-*****
-Lamps
-*****
+********
+Lighting
+********
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Lamp --> Lamp`
+   :Panel:     :menuselection:`Properties --> Lamp`
 
 Next to lighting from the background and any object with an emission shader,
 lamps are another way to add light into the scene.
 The difference is that they are not directly visible in the rendered image,
 and can be more easily managed as objects of their own type.
 
-.. tip::
 
-   Point, Spot, and Area Lamps also have texture coordinates.
+Common Light Settings
+=====================
 
-
-Common Settings
-===============
-
-Type
-   Currently *Point*, *Spot*, *Area* and *Sun* lamps are supported.
-Size
-   Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
 Samples
    For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
    Point lamps might need only one sample, while area lamps typically need more.
@@ -48,7 +40,11 @@ Point Lamp
 
 Point lamps emit light equally in all directions.
 By setting the *Size* larger than zero, they become spherical lamps,
-which give softer shadows and shading. The strength of point lamps is specified in Watts.
+which give softer shadows and shading.
+
+.. seealso::
+
+   :doc:`Point Lights </render/lighting/types/point>`.
 
 
 Spot Lamp
@@ -56,8 +52,10 @@ Spot Lamp
 
 Spot lamps emit light in a particular direction, inside a cone.
 By setting the *Size* larger than zero, they can cast softer shadows and shading.
-The size parameter defines the size of the cone,
-while the blend parameter can soften the edges of the cone.
+
+.. seealso::
+
+   :doc:`Spot Lights </render/lighting/types/spot>`.
 
 
 .. _render-cycles-lamps-area:
@@ -65,7 +63,11 @@ while the blend parameter can soften the edges of the cone.
 Area Lamp
 ---------
 
-Area lamps emit light from a square or rectangular area with a Lambertian distribution.
+Area lamps emit light from a rectangular or elliptic area.
+
+.. seealso::
+
+   :doc:`Area Lights </render/lighting/types/area>`.
 
 
 .. _render-cycles-lamps-area-portals:
@@ -98,3 +100,7 @@ and will not result in any distance falloff.
 
 Because they are not located inside the scene, their strength uses different units,
 and should typically be set to lower values than other lights.
+
+.. seealso::
+
+   :doc:`Sun Lights </render/lighting/types/sun>`.

@@ -23,10 +23,18 @@ Lamp
 ====
 
 Type
-   :doc:`Types of lamps </render/lighting/index>` share all or some of the options listed here:
+   Defines the physical light shape. There are several
+   :doc:`Types of lights </render/lighting/index>`
+   they all share all or some of the options listed below.
 Color
    The color of the light source's illumination.
 Power/Strength
    Each light type has its own way to control the intensity of the light.
+
+   .. note::
+
+      While this value can be negative, it will break the rules for conservation of energy
+      and will break the render engines physically real based rendering PBR.
 Radius/Size/Angle
-   Each light type has some way to control the physical size of the virtual light.
+   Each light type has some way to control the physical size of the virtual light;
+   increasing this will result in softer shadows and shading.
