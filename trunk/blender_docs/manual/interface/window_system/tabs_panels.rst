@@ -6,19 +6,25 @@ Tabs & Panels
 Tabs
 ====
 
-.. figure:: /images/interface_window-system_tabs-panels_tabs_horizontal.png
-   :align: center
-
-   Horizontal Tab header in the Top Bar.
-
 .. figure:: /images/interface_window-system_tabs-panels_tabs.png
-   :align: center
+   :align: right
+   :width: 200px
+   :figwidth: 200px
 
    Vertical Tab header shows tab icons in the Properties Editor.
 
 Tabs are used to control overlapping sections in the user interface.
 Contents of only one Tab is visible at a time.
 Tabs are listed in *Tab header*, which can be vertical or horizontal.
+
+.. figure:: /images/interface_window-system_tabs-panels_tabs_horizontal.png
+   :align: center
+
+   Horizontal Tab header in the Top Bar.
+
+.. container:: lead
+
+   .. clear
 
 
 Switching/Cycling
@@ -31,10 +37,6 @@ You can also cycle through tabs with :kbd:`Ctrl-Tab` and
 :kbd:`Shift-Ctrl-Tab`, or press down :kbd:`LMB` and move mouse over
 tab header icons.
 
-.. container:: lead
-
-   .. clear
-
 
 .. _ui-panels:
 .. _bpy.types.Panel:
@@ -43,7 +45,8 @@ Panels
 ======
 
 .. figure:: /images/interface_window-system_tabs-panels_panels.png
-   :align: center
+   :align: right
+   :width: 200px
 
 Panels in Properties Editor. Panel headers are highlighted in
 red and sub-panel header in yellow.
