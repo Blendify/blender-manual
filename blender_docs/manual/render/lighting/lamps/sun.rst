@@ -22,6 +22,10 @@ Lamp Options
 Energy and Color
    These settings are common to most types of lamps, and are described in
    :doc:`Light Properties </render/lighting/lamp_panel>`.
+Angle
+   The size of the sun lamp according to its
+   `angular diameter <https://en.wikipedia.org/wiki/Angular_diameter#Use_in_astronomy>`__
+    as seen from earth.
 
 
 Shadow
