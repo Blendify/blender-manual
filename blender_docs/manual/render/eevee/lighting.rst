@@ -47,7 +47,7 @@ which give softer shadows (TODO 2.8 link soft shadows) and shading.
 
 .. seealso::
 
-   :doc:`Point Lights </render/lighting/types/point>`.
+   :doc:`Point Lights </render/lighting/lamps/point>`.
 
 
 Spot Lamp
@@ -62,7 +62,7 @@ By setting the *Size* larger than zero, they can cast softer shadows (TODO 2.8 l
 
 .. seealso::
 
-   :doc:`Spot Lights </render/lighting/types/spot>`.
+   :doc:`Spot Lights </render/lighting/lamps/spot>`.
 
 
 Area Lamp
@@ -72,7 +72,7 @@ Area lamps emit light from a rectangular or elliptic area.
 
 .. seealso::
 
-   :doc:`Area Lights </render/lighting/types/area>`.
+   :doc:`Area Lights </render/lighting/lamps/area>`.
 
 
 Sun Lamp
@@ -89,4 +89,4 @@ and should typically be set to lower values than other lights.
 
 .. seealso::
 
-   :doc:`Sun Lights </render/lighting/types/sun>`.
+   :doc:`Sun Lights </render/lighting/lamps/sun>`.

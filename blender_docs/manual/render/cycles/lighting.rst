@@ -44,7 +44,7 @@ which give softer shadows and shading.
 
 .. seealso::
 
-   :doc:`Point Lights </render/lighting/types/point>`.
+   :doc:`Point Lights </render/lighting/lamps/point>`.
 
 
 Spot Lamp
@@ -55,7 +55,7 @@ By setting the *Size* larger than zero, they can cast softer shadows and shading
 
 .. seealso::
 
-   :doc:`Spot Lights </render/lighting/types/spot>`.
+   :doc:`Spot Lights </render/lighting/lamps/spot>`.
 
 
 .. _render-cycles-lamps-area:
@@ -67,7 +67,7 @@ Area lamps emit light from a rectangular or elliptic area.
 
 .. seealso::
 
-   :doc:`Area Lights </render/lighting/types/area>`.
+   :doc:`Area Lights </render/lighting/lamps/area>`.
 
 
 .. _render-cycles-lamps-area-portals:
@@ -103,4 +103,4 @@ and should typically be set to lower values than other lights.
 
 .. seealso::
 
-   :doc:`Sun Lights </render/lighting/types/sun>`.
+   :doc:`Sun Lights </render/lighting/lamps/sun>`.

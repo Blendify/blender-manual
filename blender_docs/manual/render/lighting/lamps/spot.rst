@@ -11,7 +11,7 @@ in a given direction.
 
    - :doc:`EEVEE Lighting </render/eevee/lighting>`
    - :doc:`Cycles Lighting </render/cycles/lighting>`
-   - :doc:`Workbench Lighting </render/workbench/lighting
+   - :doc:`Workbench Lighting </render/workbench/lighting>`
 
 
 Lamp Options

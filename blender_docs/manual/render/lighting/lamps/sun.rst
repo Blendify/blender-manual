@@ -19,7 +19,7 @@ plus a dashed line indicating the direction of the light.
 
    - :doc:`EEVEE Lighting </render/eevee/lighting>`
    - :doc:`Cycles Lighting </render/cycles/lighting>`
-   - :doc:`Workbench Lighting </render/workbench/lighting
+   - :doc:`Workbench Lighting </render/workbench/lighting>`
 
 
 Lamp Options
@@ -31,4 +31,4 @@ Color, Strength
 Angle
    The size of the sun lamp according to its
    `angular diameter <https://en.wikipedia.org/wiki/Angular_diameter#Use_in_astronomy>`__
-    as seen from earth.
+   as seen from earth.
