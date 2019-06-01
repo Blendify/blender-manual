@@ -9,7 +9,7 @@ The lighting conditions that will be used can be set in the Lighting panel.
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Render --> Lighting`
+   :Panel:     :menuselection:`Properties --> Render --> Lighting`
 
 Flat
    Do not calculate any lighting. The base color of the scene will be rendered.
@@ -21,4 +21,4 @@ Studio
 MatCap
    Use a material capture to light the objects in the scene.
    Custom MatCaps can be loaded in the preferences.
-   The MatCaps can be flipped horizontally.
+   Note, the MatCaps can be flipped horizontally.
