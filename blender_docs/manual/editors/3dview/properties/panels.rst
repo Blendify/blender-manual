@@ -14,7 +14,7 @@ Only Render
    The :doc:`3D manipulator widget </editors/3dview/object/editing/transform/control/manipulators>`
    has to be toggled separately.
 
-   This can be useful for a preview and for :doc:`viewport rendering </render/opengl>`.
+   This can be useful for a preview and for :doc:`viewport rendering </editors/3dview/viewport_render>`.
 
    .. note::
 
