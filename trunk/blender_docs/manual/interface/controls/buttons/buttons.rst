@@ -34,7 +34,7 @@ Text & Search Fields
 
    Search field.
 
-Text fields show a rounded rectangluar border, and optionally an icon and/or text inside the border.
+Text fields show a rounded rectangular border, and optionally an icon and/or text inside the border.
 Text fields store text strings, and provide the means to edit text
 by :doc:`standard text editing shortcuts </interface/common_shortcuts>`.
 
