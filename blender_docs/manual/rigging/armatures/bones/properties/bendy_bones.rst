@@ -130,9 +130,9 @@ Inherit End Roll
 Scale
 -----
 
-Scale In, Out
-   Scaling factor that adjusts the thickness of each segment for X and Z axes only, i.e. length is not affected.
-   Similar to *Roll* it is interpolated per segment.
+Scale In X/Y, Scale Out X/Y
+   Scaling factor that adjusts the thickness of each segment for the X and Y axes only,
+   i.e. length (Z axis) is not affected. Similar to *Roll* it is interpolated per segment.
 
 
 Easing
