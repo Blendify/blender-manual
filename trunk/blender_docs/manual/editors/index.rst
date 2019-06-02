@@ -29,6 +29,8 @@ General
    3dview/index.rst
    uv_image/index.rst
    node_editor/index.rst
+   Texture Node Editor <uv_image/uv/textures/nodes/index.rst>
+   Compositor <../compositing/index.rst>
    vse/index.rst
    movie_clip_editor/index.rst
 
@@ -42,6 +44,7 @@ Animation
    dope_sheet/index.rst
    timeline.rst
    graph_editor/index.rst
+   ../animation/drivers/index.rst
    nla/index.rst
 
 
@@ -65,12 +68,4 @@ Data
    outliner.rst
    properties_editor.rst
    file_browser/index.rst
-
-
-Other
-=====
-
-.. toctree::
-   :maxdepth: 1
-
-   file_browser/index.rst
+   ../preferences/index.rst
