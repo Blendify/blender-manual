@@ -58,8 +58,12 @@ Advanced Options
 
 *Sphere Radius* affects the calculation of curvatures for *Ridge*,
 *Valley* and *Suggestive Contour* edge type selection in a line set.
+The curvature at each vertex is computed by averaging the shape of
+the surface within the specified radius. Increasing the value reduces
+noise and detail.
 
 Kr Derivative Epsilon
-   It provides you with control over the output of *Suggestive Contour* and *Silhouette*
-   edge type selection (further information in
+   Controls the threshold on the minimum rate of change of curvature used to filter the output
+   of the *Suggestive Contour* edge type selection. Increasing the value reduces the amount of
+   rendered lines, starting from smoother areas of the object (further information in
    `this pdf <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
