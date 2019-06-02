@@ -9,9 +9,9 @@
 .. _bpy.types.SpaceTimeline:
 .. _bpy.ops.time:
 
-***************
-Timeline Editor
-***************
+********
+Timeline
+********
 
 The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes,
 scrubbing the playhead and it includes transport controls.
