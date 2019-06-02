@@ -52,7 +52,7 @@ The process of unwrapping your model is done within Edit Mode in the 3D View edi
 This process creates one or more UV Islands in the :ref:`UV/Image Editor <editors-uv-image-index>`.
 
 To begin, choose the *UV Editing* :doc:`workspace </interface/window_system/workspaces>`
-from the selection list at the top of your screen in the User Preferences header.
+from the selection list at the top of your screen in the Preferences header.
 This sets one of the areas to show you the UV/Image Editor,
 and the other area to the 3D View.
 

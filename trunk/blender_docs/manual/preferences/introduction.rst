@@ -5,7 +5,7 @@ Introduction
 
 This chapter explains how to change Blender's default configuration with the *Preferences* editor.
 
-The Blender *User Preferences* editor contains settings to control how Blender behaves.
+The Blender *Preferences* editor contains settings to control how Blender behaves.
 At the left of the editor, the available options are grouped into tabs.
 
 .. figure:: /images/preferences_interface_tab.png

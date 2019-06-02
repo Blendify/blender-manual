@@ -44,7 +44,7 @@ Eyedropper
 Types
 =====
 
-The default color picker type can be selected in the User Preferences,
+The default color picker type can be selected in the Preferences,
 see: :doc:`System </preferences/system>`.
 
 Circle

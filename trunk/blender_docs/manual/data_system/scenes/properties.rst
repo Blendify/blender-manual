@@ -222,7 +222,7 @@ These settings, along with the settings found in the
 change how sound is exported while rendering.
 
 To control how sounds plays back from within Blender, see the audio settings
-in the :ref:`User Preferences <prefs-system-sound>`.
+in the :ref:`Preferences <prefs-system-sound>`.
 
 Channels
    Sets the audio channel count. Available options are:

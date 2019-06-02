@@ -123,7 +123,7 @@ Most of these tools are also available as shortcuts
 :kbd:`W`, the *Edge* menu :kbd:`Ctrl-E`, and *Face* menu :kbd:`Ctrl-F`.
 The properties of each tool are displayed in the operator panel at the bottom of the *Tool Shelf*.
 
-Even more mesh editing tools can be enabled in the :menuselection:`User Preferences --> Add-ons`.
+Even more mesh editing tools can be enabled in the :menuselection:`Preferences --> Add-ons`.
 
 
 Properties Region

@@ -38,7 +38,7 @@ Save a Copy
    but will keep the old one open in the UV/Image editor.
 Edit Externally
    Using the *Edit Externally* tool Blender will open an external image editor,
-   as specified in the *User Preferences* and load in the image to be edited.
+   as specified in the *Preferences* and load in the image to be edited.
 Invert
    Invert Image Colors
       Invert the colors of an image.

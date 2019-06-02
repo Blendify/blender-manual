@@ -44,7 +44,7 @@ Show/Hide Render View :kbd:`F11`
    Shows (or hides) the editor where the last render was performed.
 Play Rendered Animation :kbd:`Ctrl-F11`
    Plays the last rendered animation using the internal :doc:`/render/output/animation_player` or
-   an external video player, which has to be defined in the File tab of the User Preferences.
+   an external video player, which has to be defined in the File tab of the Preferences.
 
 
 Window

@@ -157,7 +157,7 @@ Recent
 ------
 
 This is a list of recently accessed folders. You can control how many folders appear in this
-list by going to the *File* tab of the :doc:`User Preferences </preferences/file_paths>`,
+list by going to the *File* tab of the :doc:`Preferences </preferences/file_paths>`,
 in the *Recent Files* number button.
 
 

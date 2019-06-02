@@ -84,7 +84,7 @@ Refresh
    #. Save the preferences and restart Blender for it to recognize the new add-on location.
 
    Now when you install add-ons you can select the *Target Path* when installing 3rd party scripts.
-   Blender will copy newly installed add-ons under the directory selected in your User Preferences.
+   Blender will copy newly installed add-ons under the directory selected in your Preferences.
 
 
 Add-on Information

@@ -122,4 +122,4 @@ for all but a few exceptions which conflict with the operating system.
    :widths: 10 90
 
    * - :kbd:`Cmd-Comma`
-     - User Preferences.
+     - Preferences.

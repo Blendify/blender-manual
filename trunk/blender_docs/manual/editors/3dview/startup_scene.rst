@@ -51,7 +51,7 @@ Grid Floor
 Overlays
 ========
 
-The visibility and settings of the overlays can be set in the :doc:`User Preferences </preferences/interface>`.
+The visibility and settings of the overlays can be set in the :doc:`Preferences </preferences/interface>`.
 
 View Name
    If the viewport camera is not aligned, the view is named "User" plus

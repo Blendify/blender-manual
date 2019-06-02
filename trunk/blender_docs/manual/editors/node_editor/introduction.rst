@@ -87,7 +87,7 @@ Auto-offset is enabled by default, but it can be disabled from the Node editor h
 You can toggle the offset direction while you are moving the node by pressing :kbd:`T`.
 
 The offset margin can be changed using the *Auto-offset Margin*
-setting in the editing section of the User Preferences.
+setting in the editing section of the Preferences.
 
 .. seealso:: Example Video:
 
