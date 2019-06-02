@@ -64,12 +64,12 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
    (`File:EdgeType.zip <https://wiki.blender.org/wiki/File:EdgeType.zip>`__ by LightBWK).
 
 Silhouette
-   Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
+   Draws silhouettes around your closed objects by rendering lines where the surface normal transitions between
+   pointing toward and away from the camera. It is often good for organic objects (like Suzanne & Sphere),
    and bad for sharp edges, like a box. It cannot render open mesh objects like open cylinders and flat planes.
-   The output is affected by the *Kr Derivative Epsilon* view map setting.
 
 Crease
-   Shows only edges whose adjacent faces form an angle greater than the defined view map's *Crease Angle*.
+   Shows only edges whose adjacent faces form an angle sharper than the defined view map's *Crease Angle*.
 
    .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-crease.png
       :width: 600px
@@ -78,18 +78,17 @@ Crease
       (`the blend-file <https://wiki.blender.org/wiki/File:CreaseAngle.zip>`__).
 
 Border
-   Border is for open/unclosed edge meshes; an open cylinder has an open edge at the top and bottom,
-   and a plane is open all around. Suzanne's eye socket is an open edge. All open edges will have lines rendered.
-   This depends on the mesh structure.
+   Border shows open mesh edges, i.e. edges that belong to only one face. An open cylinder has open edges at the
+   top and bottom, and a plane is open all around. Suzanne's eye socket is an open edge.
 
 Edge Marks
    Renders marked edges. See `Edge Marks`_ for details.
 
 Contour
-   Draws the outer edges and inner open border.
+   Draws lines around each object, separating it from other objects behind it, or the scene background.
 
 External Contour
-   Draws the contour lines, but only on the outer edges.
+   Draws lines around all objects, separating them from the scene background, but not each other.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-contour.png
    :width: 600px
@@ -97,7 +96,7 @@ External Contour
    Left pair: Contour; Right pair: External Contour.
 
 Suggestive Contour
-   Draws some lines which would form the contour of the mesh if the viewport was shifted.
+   Draws some lines which would form the *Silhouette* of the mesh if the view point was shifted.
    Depends on your view map settings for *Kr Derivative Epsilon* and *Sphere Radius*
    (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
    <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
@@ -106,7 +105,8 @@ Material Boundary
    Draws lines where two materials meet on the same object.
 
 Ridge & Valley
-   Draws ridges and valleys. Depends on your *Sphere Radius* view map settings.
+   Draws lines marking crests of ridges and valleys, i.e. places where the surface curvature is at
+   its minimum or maximum. Depends on your *Sphere Radius* view map settings.
 
 
 Edge Marks
