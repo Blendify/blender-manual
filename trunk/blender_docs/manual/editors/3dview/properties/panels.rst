@@ -85,11 +85,21 @@ Lock Camera to View
 
 .. _3dview-view-clip:
 
-Clip Start and Clip End
-   Adjust the minimum and maximum distances range to be visible for the viewport camera.
+Clip Start/End
+   Adjust the minimum and maximum distances range to limit the visible range to the area
+   between two planes that are orthogonal to the viewing direction of the viewport camera.
    Objects outside the range will not be shown.
 
    .. note::
+
+      The definition of the two planes depends on the kind of view:
+
+      **Perspective view:** The planes with distance of <Start> and <End> from viewport camera.
+
+      **Orthographic view:** The planes with distance of -<End> and +<End> from the focus point,
+      in this case the *Start* is ignored.
+
+   .. warning::
 
       A large clipping range will allow you to see both near and far objects,
       but reduces the depth precision resulting in artifacts.
