@@ -29,7 +29,7 @@ The artist will use this as a transparent layer in their paint program as a guid
 The example below shows Blender in the background, and the Gimp working on the texture, ​
 using the saved layout as a guide. Note that ``targa`` format supports the Alpha channel,
 so you can paint transparent areas of the mesh. For using images as textures, see the page on
-:doc:`Image Textures </editors/uv_image/uv/textures/types/image/index>`.
+:doc:`Image Textures </editors/uv/textures/types/image/index>`.
 
 .. list-table::
 

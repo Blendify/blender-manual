@@ -25,7 +25,7 @@ However, different faces of the object may use different materials (see :ref:`bi
 
 In Blender, materials can (optionally) have associated textures.
 Textures *describe* the substance: e.g. *polished* brass,
-*dirty* glass or *embroidered* linen. The :doc:`Textures </editors/uv_image/uv/textures/index>`
+*dirty* glass or *embroidered* linen. The :doc:`Textures </editors/uv/textures/index>`
 chapter describes how to add textures to materials.
 
 

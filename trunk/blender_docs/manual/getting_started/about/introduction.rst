@@ -40,7 +40,7 @@ Key Features
   :doc:`Video Editing </editors/vse/index>`,
   :doc:`VFX </editors/movie_clip_editor/index>`,
   :doc:`Compositing </compositing/introduction>`,
-  :doc:`Texturing </editors/uv_image/uv/overview>`,
+  :doc:`Texturing </editors/uv/overview>`,
   :doc:`Rigging </rigging/introduction>`,
   and many types of :doc:`Simulations </physics/introduction>`.
 - It is cross platform, with an OpenGL GUI that is uniform on all major platforms
