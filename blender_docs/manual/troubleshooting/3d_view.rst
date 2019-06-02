@@ -74,8 +74,8 @@ This becomes especially problematic on dense geometry.
 
 Possible Solutions:
 
-OpenGL Depth Picking (User Preferences)
-   See :menuselection:`User Preferences --> Viewport --> Selection`.
+OpenGL Depth Picking (Preferences)
+   See :menuselection:`Preferences --> Viewport --> Selection`.
 
    This option is enabled by default, disabling it may give better performance at
    the cost of selection accuracy.

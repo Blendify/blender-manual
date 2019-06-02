@@ -16,7 +16,7 @@ This startup scene can be replaced by your own customized setup.
 
 To change the startup scene, make all of the desired changes to the current scene or
 current file and :menuselection:`File --> Save Startup File`.
-Saving the ``startup.blend`` still stores user preferences in the file.
+Saving the ``startup.blend`` still stores Preferences in the file.
 Only if a ``userpref.blend`` exists, it will use the preferences from that file.
 
 If you want to go back to the original startup file

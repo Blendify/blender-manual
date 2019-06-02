@@ -14,7 +14,7 @@ to find a supported value or just let Blender correct it.
 
 .. figure:: /images/preferences_system_tab.png
 
-   User Preferences System tab.
+   Preferences System tab.
 
 
 Cycles Render Device

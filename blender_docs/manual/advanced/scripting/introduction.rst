@@ -77,7 +77,7 @@ Add-ons
 -------
 
 Add-ons are scripts you can enable to gain extra functionality within Blender,
-they can be enabled from the User Preferences.
+they can be enabled from the Preferences.
 
 Outside of the Blender executable,
 there are literally hundreds of add-ons written by many people:
@@ -113,13 +113,13 @@ All scripts are loaded from the ``scripts`` folder of
 the :doc:`local, system and user paths </getting_started/installing/configuration/directories>`.
 
 You can setup an additional search path for scripts in
-:ref:`prefs-file-paths` :menuselection:`User Preferences --> File Paths`.
+:ref:`prefs-file-paths` :menuselection:`Preferences --> File Paths`.
 
 
 Installation
 ^^^^^^^^^^^^
 
-Add-ons are conveniently installed through Blender in the :doc:`User Preferences </preferences/addons>`.
+Add-ons are conveniently installed through Blender in the :doc:`Preferences </preferences/addons>`.
 Click the :menuselection:`Install from File...` button and select the ``.py`` or ``.zip`` file.
 
 To manually install scripts or add-ons, place them in the ``add-ons``, ``modules``, ``presets``,

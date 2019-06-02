@@ -39,7 +39,7 @@ Mouse Button Emulation
 ^^^^^^^^^^^^^^^^^^^^^^
 
 If you do not have a 3 button mouse,
-you will need to emulate it by checking the option in the :doc:`User Preferences </preferences/input>`.
+you will need to emulate it by checking the option in the :doc:`Preferences </preferences/input>`.
 
 The following table shows the combinations used:
 
@@ -68,7 +68,7 @@ however, removes quick access to layer visibility).
 
 .. seealso::
 
-   Read more about *Numpad Emulation* in the :doc:`User Preferences </preferences/input>`.
+   Read more about *Numpad Emulation* in the :doc:`Preferences </preferences/input>`.
 
 
 Non-English Keyboards
@@ -80,7 +80,7 @@ your computer to the UK or US layout as long as you work with Blender.
 .. note::
 
    You can also change the default keymap and
-   default hotkeys from the :doc:`User Preferences </preferences/input>`,
+   default hotkeys from the :doc:`Preferences </preferences/input>`,
    however, this manual assumes you are using the default keymap.
 
 

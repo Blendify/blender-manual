@@ -327,7 +327,7 @@ This page lists definitions for terms used in Blender and this manual.
       A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
       Also known as *Multisampling*.
 
-      This can be enabled in the :ref:`User Preferences <prefs-system-multi-sampling>`.
+      This can be enabled in the :ref:`Preferences <prefs-system-multi-sampling>`.
       On many graphics cards, this can also be enabled in the driver options.
 
    Gamma

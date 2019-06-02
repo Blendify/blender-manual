@@ -10,7 +10,7 @@ Outliner
    The Outliner editor.
 
 The *Outliner* is a list that organizes data in the blend-file.
-i.e. the scene data and also the User Preferences.
+i.e. the scene data and also the Preferences.
 
 
 .. rubric:: Usage
@@ -181,8 +181,8 @@ Blender File
    Lists all data in the current blend-file.
 Data-Blocks
    Lists every :doc:`data-block </data_system/data_blocks>` along with any properties that they might have.
-User Preferences
-   Lists options that can be found in the :doc:`User Preferences </preferences/index>`
+Preferences
+   Lists options that can be found in the :doc:`Preferences </preferences/index>`
    along with some other settings.
 Orphan Data
    Lists :doc:`data-blocks </data_system/data_blocks>`

@@ -14,7 +14,7 @@ that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
    Multi-view drawing requires capable graphics card and drivers with *Triple Buffer* support.
    If the *Automatic* mode does not work,
-   set the *Window Draw Method* in the :doc:`System User Preferences </preferences/system>`.
+   set the *Window Draw Method* in the :doc:`System Preferences </preferences/system>`.
 
 
 Introduction

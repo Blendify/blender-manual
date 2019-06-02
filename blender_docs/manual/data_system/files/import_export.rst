@@ -16,7 +16,7 @@ Luckily, Blender offers a wide range of file formats (e.g. OBJ, FBX, 3DS, PLY, S
 that can be used to import and export.
 
 Popular formats are enabled by default, other formats are also supported and distributed with Blender,
-these can be enabled in the User Preferences through the use of :doc:`Add-ons </preferences/addons>`.
+these can be enabled in the Preferences through the use of :doc:`Add-ons </preferences/addons>`.
 
 .. hint::
 

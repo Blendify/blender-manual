@@ -20,7 +20,7 @@ which supports rendering on AMD graphics cards.
 Configuration
 =============
 
-To enable GPU rendering, go into the User Preferences, and under the System tab,
+To enable GPU rendering, go into the Preferences, and under the System tab,
 select the Compute Device(s) to use. Next, for each scene,
 you can configure to use CPU or GPU rendering in the Render properties.
 
@@ -88,7 +88,7 @@ but this will not be added soon.
 Can multiple GPUs be used for rendering?
 ----------------------------------------
 
-Yes, go to :menuselection:`User Preferences --> System --> Compute Device Panel`, and configure it as you desire.
+Yes, go to :menuselection:`Preferences --> System --> Compute Device Panel`, and configure it as you desire.
 
 
 Would multiple GPUs increase available memory?

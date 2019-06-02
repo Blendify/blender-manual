@@ -39,7 +39,7 @@ or use :kbd:`Numpad4` and :kbd:`Numpad6` (or :kbd:`Ctrl-Alt-Wheel`)
 to rotate the scene around the global Z axis from your current point of view.
 Finally :kbd:`Numpad9` switches to the opposite side of the view.
 
-Alternatively, if the *Emulate 3 button mouse* option is select in the *User Preferences*
+Alternatively, if the *Emulate 3 button mouse* option is select in the *Preferences*
 you can press and hold :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's area.
 
 .. note:: Hotkeys
