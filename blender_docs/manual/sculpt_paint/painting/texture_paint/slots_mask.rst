@@ -54,7 +54,7 @@ Painting Mode
 
 Save All Images
    Repack (or save if external file) all edited images.
-   Same as in the :doc:`UV/Image Editor </editors/uv_image/image/introduction>`.
+   Same as in the :doc:`UV/Image Editor </editors/image/introduction>`.
 
 
 Mask
