@@ -32,7 +32,7 @@ Information Region
    Branch
       Optional branch ID.
 Interactive Region
-   The interactive region is the bottom half of the splash screen and provides how to get a project started
+   The interactive region is the bottom half of the splash screen and provides how to get a project started.
 
    New File
       Options for starting a new project, based on predefined application templates.
