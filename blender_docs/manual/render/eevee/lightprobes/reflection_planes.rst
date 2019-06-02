@@ -27,11 +27,11 @@ Placement
 =========
 
 If Backface Culling is not enabled, snapping the Reflection Plane to the planar surface
-will effectively capture the underneath of the surface.
+will effectively capture the underside of the surface.
 
-Manually moving the Reflection Plane above the surface enough for it to not appear in the capture.
-Alternatively you can put the floor object inside a collection and
-use this collection as Visibility Collection (inverted) inside the Reflection Plane's probe settings.
+You can manually move the Reflection Plane above the surface enough for it to not appear in the capture.
+Alternatively you can put a floor object inside a collection and
+use this collection as a Visibility Collection (inverted) inside the Reflection Plane's probe settings.
 
 .. admonition:: Reference
    :class: refbox
@@ -41,7 +41,7 @@ use this collection as Visibility Collection (inverted) inside the Reflection Pl
 Distance
    A probe object only influences the lighting of nearby surfaces.
    This influence zone is defined by the Distance parameter and object scaling.
-   It is a bit different, depending on the probe type.
+   The influence distance varies is a bit, depending on the probe type.
 
    For Reflection Planes the influence distance is the distance from the plane.
    Only surfaces whose normals are aligned with the Reflection Plane will receive the captured reflection.
@@ -65,7 +65,7 @@ Visibility Collection
    .. note::
 
       This is only a filtering option.
-      This means that if an object is not visible at render time it won't be visible in during the probe render.
+      That means that if an object is not visible at render time it won't be visible during the probe render.
 
 
 Viewport Display

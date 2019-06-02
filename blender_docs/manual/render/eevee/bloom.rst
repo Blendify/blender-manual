@@ -5,7 +5,7 @@ Bloom
 
 Bloom is a post-process effect that diffuses very bright pixels. This mimics what happens inside a real camera.
 
-This allows to have a better sense of what the actual intensities of the pixels are.
+This allows a better sense of what the actual intensities of the pixels are.
 
 
 Settings

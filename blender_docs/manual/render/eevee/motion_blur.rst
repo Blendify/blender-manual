@@ -9,7 +9,7 @@ The motion blur is really basic and just blurs the render results based on pixel
 
 .. note::
 
-   Object motion blur and deformation motion blur is still not supported. Only camera motion blur is supported.
+   Object motion blur and deformation motion blur are still not supported. Only camera motion blur is supported.
 
 .. note::
 

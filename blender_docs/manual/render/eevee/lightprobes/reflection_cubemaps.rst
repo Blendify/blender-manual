@@ -3,22 +3,22 @@
 Reflection Cubemaps
 *******************
 
-Specular Indirect Lighting is stored into an array of cubemaps. These are defined by the Reflection Cubemap objects.
+Specular Indirect Lighting is stored in an array of cubemaps. These are defined by the Reflection Cubemap objects.
 They specify where to sample the scene's lighting and where to apply it.
 
 .. seealso::
 
    :doc:`Indirect Lighting </render/eevee/indirect_lighting>`.
 
-*Screen Space Reflection* are much more precise than reflection cubemaps.
-If enabled, they are applied in priority and we only use cubemaps as fall back if a ray misses.
+*Screen Space Reflections* are much more precise than reflection cubemaps.
+If enabled, they have priority and cubemaps are used as a fall back if a ray misses.
 
 If *Ambient Occlusion* is enabled, it will be applied in a physically plausible manner to specular indirect lighting.
 
 .. note::
 
    The cube probes are encoded into tetrahedral maps. Some distortions may occur on the negative Z hemisphere.
-   Those are more visible on higher roughness values.
+   Those are more visible with higher roughness values.
 
 
 Blending
@@ -38,7 +38,7 @@ or if the indirect lighting has not been baked, the world's cubemap will be used
 Distance
    A probe object only influences the lighting of nearby surfaces.
    This influence zone is defined by the Distance parameter and object scaling.
-   It is a bit different, depending on the probe type.
+   The influence distance varies is a bit, depending on the probe type.
 
    For Reflection Cubemaps the influence volume can either be a box or a sphere centered on the probe's origin.
 
@@ -48,7 +48,7 @@ Falloff
 Intensity
    Intensity factor of the recorded lighting.
    Making this parameter anything other than 1.0 is not physically correct.
-   Use it for tweaking or artistic purpose.
+   Use it for tweaking or artistic purposes.
 
 Clipping
    Define the near and far clip distances when capturing the scene.
@@ -64,7 +64,7 @@ Visibility Collection
    .. note::
 
       This is only a filtering option.
-      This means that if an object is not visible at render time it won't be visible in during the probe render.
+      That means if an object is not visible at render time it won't be visible during the probe render.
 
 
 Custom Parallax

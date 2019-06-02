@@ -23,7 +23,7 @@ Depending on the blend mode the final color will be different.
 
 .. note::
 
-   Additive, Multiplicative and Alpha Blending are considered "Transparent" blend mode.
+   Additive, Multiplicative and Alpha Blending are considered "Transparent" blend modes.
    This has implications regarding screen space effects.
 
 Opaque
@@ -75,17 +75,17 @@ In this case you can disable the *Show Backside* option.
 
 Show Backside
    If enabled all transparent fragments will be rendered.
-   If disabled, only the frontmost surface fragments will be render.
-   Disable this option to ensure correct appearance of transparent from any point of view.
+   If disabled, only the frontmost surface fragments will be rendered.
+   Disable this option to ensure correct appearance of transparency from any point of view.
 
 
 Transparent Shadow
 ==================
 
-Type of shadows used for this transparent surface.
+Type of shadows used for a transparent surface.
 Eevee does not support colored shadow maps.
 
-Half transparent shadows can be produced by using hashed transparent shadows and larger Soft value on shadow map.
+Half transparent shadows can be produced by using hashed transparent shadows and a larger Soft value on the shadow map.
 
 .. note::
 
@@ -124,27 +124,27 @@ If this option is disabled or if the Screen Space Refraction raytrace fails,
 the refracted ray will use the color of the nearest probe.
 
 Screen Space Refraction
-   Enable screen space refraction.
+   Enables screen space refraction.
 
 Refraction Depth
-   If Refraction Depth is not 0.0, all refraction BSDFs in the shader will act as
-   if the object would be a thin slab of the refraction material with this thickness.
+   If Refraction Depth is not 0.0, all refraction BSDFs in the shader will act as if
+   the object is a thin slab of the refraction material having this thickness.
    This will model a second refraction event that will double the absorption color and
    start the refraction ray after this second event.
 
-   This option greatly increase the quality of thin glass objects.
+   This option greatly increases the quality of thin glass objects.
 
 
 Subsurface Translucency
 =======================
 
 Eevee's Subsurface Scattering algorithm works by blurring the irradiance in screen space.
-This means that if no visible part of the surface is lit, the effect disappear.
+This means that if no visible part of the surface is lit, the effect disappears.
 
 However, true Subsurface Scattering goes beneath the surface and can travel a lot of distance.
 This is why a human ear lit from behind appears red on the front side.
 
-That is what this effect mimics. This translucency approximation does only work
+That is what this effect mimics. This translucency approximation only works
 with lamps that have shadow maps and only on Subsurface BSDFs (not the Translucency BSDFs).
 It does not work with indirect lighting. The soft parameter of the shadow maps also affects this effect.
 

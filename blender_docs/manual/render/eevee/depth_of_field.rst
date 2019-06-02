@@ -25,5 +25,5 @@ Max Size
 
    .. note::
 
-      Because of performance reason, the viewport can exhibit color artifacts when using large bokeh sizes.
+      Because of performance considerations, the viewport can exhibit color artifacts when using large bokeh sizes.
       These artifacts are not present in the final render.
