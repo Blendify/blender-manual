@@ -37,23 +37,23 @@ Other Nodes Support
 If something is not listed here, it is supported.
 
 
-Shaders Nodes
+Shader Nodes
 -------------
 
 In the general case, shader nodes should behave more or less like in Cycles.
-So be sure to checkout Cycles manual for that.
+So be sure to check out the Cycles section of this manual for that.
 
 .. seealso::
 
    :doc:`Material </render/cycles/nodes/types/shaders/index>`.
 
-Although most BSDFs are supported, most of them are approximations and are not feature complete.
+Although most BSDFs are supported, many of them are approximations and are not feature complete.
 
 Diffuse BSDF
    Roughness is not supported. Only Lambertian diffusion is supported.
 
 Emission
-   It is treated as indirect lighting and will only show up in :abbr:`SSR (Screen Space Reflection)`\ s and Probes.
+   Treated as indirect lighting and will only show up in :abbr:`SSR (Screen Space Reflection)`\ s and Probes.
 
 Glass / Refraction BSDF
    Does not refract lamps. Does not support Beckmann and GGX Multiscatter distribution. See limitation of Refraction.
@@ -82,11 +82,11 @@ Volume Absorption
    See volume Limitation.
 
 Volume Scatter
-   The anisotropy parameter will be mixed and average for all overlapping volumetric objects,
+   The anisotropy parameter will be mixed and averaged for all overlapping volumetric objects,
    which is not physically correct and differs from Cycles. Also see Volume Limitation.
 
 Principled Volume
-   Same as Volume Scatter. Also see volume Limitation.
+   Same as Volume Scatter. Also see Volume Limitation.
 
 Holdout
    Not supported.
@@ -111,7 +111,7 @@ Input Nodes
 -----------
 
 Ambient Occlusion
-   All parameters will have no effects except for Normal and Color.
+   All parameters will have no effects except Normal and Color.
    This is because the AO is computed before evaluating this node and it uses the scene settings for that.
 
 Camera Data
@@ -138,7 +138,7 @@ Layer Weight
    Everything is compatible.
 
 Light Path
-   Eevee has no real concept of Rays. But in order to ease the workflow between Cycles and Eevee,
+   Eevee has no real concept of rays. But in order to ease the workflow between Cycles and Eevee
    some of the outputs are supported in particular cases.
    This node makes it possible to tweak indirect lighting in the shader.
 
@@ -153,7 +153,7 @@ Light Path
    - *Is Reflection*: Not supported. Same as Is Glossy.
    - *Is Transmission*: Not supported. Same as Is Glossy.
    - *Ray Length*: Not supported. Defaults to 1.0.
-   - *Ray Depth*: Indicate the current bounce when baking the light cache.
+   - *Ray Depth*: Indicates the current bounce when baking the light cache.
    - *Diffuse Depth*: Same as Ray Depth but only when baking diffuse light.
    - *Glossy Depth*: Same as Ray Depth but only when baking specular light.
    - *Transparent Depth*: Not supported. Defaults to 0.
@@ -162,7 +162,7 @@ Light Path
    .. note::
 
       Is Glossy does not work with Screen Space Reflections/Refractions
-      but does work with reflection planes (when used with SSR or not).
+      but does work with reflection planes (whether used with SSR or not).
 
 Object Info
    Everything is compatible.
@@ -174,7 +174,7 @@ Tangent
    Everything is compatible.
 
 Texture Coordinate
-   From Dupli and coordinate from custom Object is not supported.
+   From Dupli and coordinate from Custom Object is not supported.
 
 UV Map
    From Dupli is not supported.
@@ -205,8 +205,8 @@ Image Texture
    Smart Interpolation always uses Cubic interpolation.
    Artifact present using Tube or Sphere projection with linear interpolation.
    This is due to hardware mip-mapping and Anisotropic filtering.
-   This kind of artifacts will be also visible if the texture coordinates provided are not continuous.
-   Using Box projection with *Extend type* set to Clip or Extend is not supported. It will always use Repeat instead.
+   This kind of artifact will be also visible if the texture coordinates provided are not continuous.
+   Using Box projection with *Extend type* set to Clip or Extend is not supported. Instead, it will always use Repeat.
 
 Material Output
    Displacement output behavior is broken compared to Cycles.

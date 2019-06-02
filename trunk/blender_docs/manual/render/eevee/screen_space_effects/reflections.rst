@@ -18,7 +18,7 @@ Subsurface scattering, volumetrics, screen space reflections, screen space refra
    :Panel:     :menuselection:`Render --> Screen Space Reflections`
 
 Refractions
-   Screen space refractions work the same way as screen space reflections and use same parameters.
+   Screen space refractions work the same way as screen space reflections and use the same parameters.
    But they are not enabled by default on all surfaces.
    Enabling it will have a small performance cost.
    You need to enable them in :menuselection:`Material Properties --> Options`.

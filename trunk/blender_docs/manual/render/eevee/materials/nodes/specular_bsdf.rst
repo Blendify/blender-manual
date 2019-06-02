@@ -6,13 +6,13 @@ Specular BSDF
 *************
 
 The *Specular* :abbr:`BSDF (Bidirectional scattering distribution function)`
-that combines multiple layers into a single easy to use node.
+combines multiple layers into a single easy to use node.
 
 It is similar to the :doc:`Principled BSDF </render/cycles/nodes/types/shaders/principled>` node
 but uses the *specular* workflow instead of the metallic.
-It has much less parameters and supports less features. Both might be merged into one node in the future.
+It has far fewer parameters and supports less features. Both might be merged into one node in the future.
 
-The specular workflow works by specifying the facing (along normal) reflection color.
+The specular workflow functions by specifying the facing (along normal) reflection color.
 The result may not be physically plausible because there is no energy conservation.
 
 
@@ -49,7 +49,7 @@ Emissive Color
    Color of the emitted light. This light is added to the BSDF result.
 
 Transparency
-   Transparency factor. It is the inverse of the alpha channel (1 - alpha) you can find in an image.
+   Transparency factor. This is the inverse of the alpha channel (1 - alpha) you find in an image.
    Use an Invert node to convert alpha to transparency.
    This will only have an effect if the material uses a blend mode other than opaque.
 

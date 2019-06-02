@@ -35,9 +35,9 @@ Light Probes
 Indirect Lighting
 =================
 
-- Volumetrics don't receive light from Irradiance Volumes but does receive world's diffuse lighting.
+- Volumetrics don't receive light from Irradiance Volumes but do receive world's diffuse lighting.
 - Eevee does not support "specular to diffuse" light bounces nor "specular to specular" light bounces.
-  All specular lighting is turned off during baking.
+- All specular lighting is turned off during baking.
 
 
 .. _eevee-limitations-shadows:
@@ -126,7 +126,7 @@ Bump Mapping
       If you absolutely need to render using Bump nodes,
       render at twice the target resolution and downscale the final output.
 
-Volumes Objects
+Volume Objects
    Object volume shaders will affect the whole bounding box of the object.
    The shape of the volume must be adjusted using procedural texturing inside the shader.
 
@@ -134,7 +134,7 @@ Volumes Objects
 Shader Nodes
 ============
 
-- All BSDF are using approximations to achieve realtime performance
+- All BSDF's are using approximations to achieve realtime performance
   so there will always be small differences between Cycles and Eevee.
 - Some utility nodes are not yet compatible with Eevee (e.g. Sky Texture node).
 
@@ -167,14 +167,14 @@ CPU Rendering
 Being an rasterization engine, Eevee only uses the power of
 the :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` to render.
 There is no plan to support :abbr:`CPU (Central Processing Unit)` (software) rendering as it would be very inefficient.
-CPU power is still needed to handle high complexity scene as the geometry
-is still being prepared by the CPU before rendering each frame.
+CPU power is still needed to handle high scene complexity as the geometry
+must be prepared by the CPU before rendering each frame.
 
 
 Multiple GPU Support
 ====================
 
-There is currently no support for multiple :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` system.
+There is currently no support for multiple :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` systems.
 
 
 Headless Rendering

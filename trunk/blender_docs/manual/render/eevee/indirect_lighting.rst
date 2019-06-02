@@ -40,28 +40,28 @@ Indirect Lighting
    :Panel:     :menuselection:`Render --> Indirect Lighting`
 
 Auto Bake
-   Enabling this option will trigger baking when a probe is changed. Useful when positioning probes objects.
+   Enabling this option will trigger baking when a probe is changed; useful when positioning probes objects.
 
-Diffuse Bounce
-   Number of bounce to compute when baking the diffuse irradiance.
+Diffuse Bounces
+   Number of bounces to compute when baking the diffuse irradiance.
 
 Cubemap Size
    Size of the reflection cubemaps.
 
 Diffuse Occlusion Size
-   Each irradiance sample also store a shadow map that is used to minimize indirect light leaking.
-   This parameter define the size of this shadow map.
+   Each irradiance sample also stores a shadow map that is used to minimize indirect light leaking.
+   This parameter defines the size of this shadow map.
 
 Irradiance Smoothing
-   Smoother irradiance interpolation but introduce light bleeding.
+   Smooths irradiance interpolation but introduces light bleeding.
    The irradiance visibility term can make the lighting not interpolate smoothly on some surfaces.
-   This relax the weights so that the interpolation.
+   This setting relaxes the weight of that interpolation.
 
 Clamp Glossy
-   Clamp pixel intensity to reduce noise inside glossy reflections from reflection cubemaps (0 to disabled).
+   Clamp pixel intensity to reduce noise inside glossy reflections from reflection cubemaps (0 is disabled).
 
 Filter Quality
-   Take more samples during cubemap filtering to remove artifacts. For now, only have effect on cubemaps
+   Takes more samples during cubemap filtering to remove artifacts. For now, only has an effect on cubemaps.
 
 Cubemap Display
    Display the Reflection Cubemaps present in the cache directly in the 3D View.
@@ -72,4 +72,4 @@ Irradiance Display
 .. note::
 
    Cache data display only works in the viewport and
-   only if the viewport uses the world lighting in lookdev mode of in rendered mode.
+   only if the viewport uses world lighting in lookdev mode or is in render preview mode.

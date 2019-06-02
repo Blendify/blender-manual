@@ -3,17 +3,17 @@
 Irradiance Volumes
 ******************
 
-Diffuse indirect lighting is stored into volumetric arrays.
-These arrays are defined by the user using Irradiance Volumes objects.
-They give control on how arrays are placed in the world as well as their resolution.
+Diffuse indirect lighting is stored in volumetric arrays.
+These arrays are defined by the user using Irradiance Volume objects.
+They control how arrays are placed in the world as well as their resolution.
 
-Lighting is computed at the dots positions visible when the Irradiance Volume object is selected.
+Lighting is computed at the dot positions visible when the Irradiance Volume object is selected.
 
 .. seealso::
    :doc:`Indirect Lighting </render/eevee/indirect_lighting>`.
 
 If Ambient Occlusion is enabled, it will be applied onto diffuse indirect lighting.
-If both Ambient Occlusion and "Bent Normals" are enabled,
+If both Ambient Occlusion and "Bent Normals" are enabled
 the indirect lighting will be sampled from the least occluded direction and appear more correct.
 
 .. admonition:: Reference
@@ -24,7 +24,7 @@ the indirect lighting will be sampled from the least occluded direction and appe
 Distance
    A probe object only influences the lighting of nearby surfaces.
    This influence zone is defined by the Distance parameter and object scaling.
-   It is a bit different, depending on the probe type.
+   The influence distance varies is a bit, depending on the probe type.
 
    For Irradiance Volumes, the influence inside the volume is always 100%.
    The influence decays only outside of the volume until
@@ -35,7 +35,7 @@ Falloff
 
 Intensity
    Intensity factor of the recorded lighting.
-   Making this parameter anything other than 1.0 is not physically correct. Use it for tweaking or artistic purpose.
+   Making this parameter anything other than 1.0 is not physically correct. Use it for tweaking or artistic purposes.
 
 Resolution
    Spatial resolution for Irradiance Volumes is determined per probe.
@@ -43,7 +43,7 @@ Resolution
    One irradiance sample will be computed for each cell in this grid.
 
 Clipping
-   Define the near and far clip distances when capturing the scene.
+   Defines the near and far clip distances when capturing the scene.
 
    .. warning::
 
@@ -53,14 +53,14 @@ Visibility Collection
    In some cases, it is useful to limit which objects appear in the light probe's captured lighting.
    For instance, an object that is too close to a capture point might be better excluded.
    This is what the visibility collection does.
-   Only objects that are in this collection will be visible when this probes will capture the scene.
+   Only objects that are in this collection will be visible when this probes captures the scene.
 
-   There is also an option to invert this behavior and effectively hide the objects inside this collection.
+   There is also an option to invert this behavior and effectively hide the objects in this collection.
 
    .. note::
 
-      This is only a filtering option. This means that if an object is not visible at render time
-      it won't be visible in during the probe render.
+      This is only a filtering option. That means that if an object is not visible at render time
+      it won't be visible during the probe render.
 
 
 Visibility
@@ -69,17 +69,17 @@ Visibility
 For every grid point a small Variance Shadow Map is rendered.
 This visibility cubemap is used to reduce light leaking behind occluders.
 You can tweak the size of this map inside the render settings and
-tweak the bias and blur factors per Grid inside the Probe Properties tab.
+tweak the bias and blur factors per grid inside the Probe Properties tab.
 
    Bias
-      Reduce self shadowing.
+      Reduces self-shadowing.
 
    Bleed Bias
-      Increase the "contrast" of the depth test result.
+      Increases the "contrast" of the depth test result.
 
    Blur
       Amount of blur to apply when filtering the visibility shadow map.
-      Does not increase runtime cost, has a small effect on baking time.
+      Does not increase runtime cost but has a small effect on baking time.
 
 
 Blending
@@ -95,8 +95,8 @@ the world's diffuse lighting will be used to shade it.
 
 .. tip::
 
-   - When lighting indoor environment, try to align grids with the room shape.
-   - Try not to put too much resolution in empty areas or areas with low amount of lighting variation.
+   - When lighting indoor environments, try to align grids with the room shape.
+   - Try not to put too much resolution in empty areas or areas with a low amount of lighting variation.
    - You can fix bad samples by adding a smaller grid near the problematic area.
 
 

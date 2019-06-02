@@ -74,7 +74,7 @@ Light Threshold
 
 .. tip::
 
-   A 512px cubemap is 6 x 512 x 512 pixels in it.
+   A 512 px cubemap has 6 x 512 x 512 pixels in it.
    Tweaking the *Size* parameters can have a big impact on memory consumption and performance.
 
 
@@ -91,7 +91,7 @@ Clip
 
 Soft
    Size of the filter applied to the shadow map.
-   This filter size is independent from the shadow map resolution.
+   This filter size is independent of the shadow map resolution.
    Higher filter size can have a big impact on performance.
    There is a maximum cap to filter size (in pixels) that depends on shadow resolution.
 
@@ -108,10 +108,10 @@ Bleed Bias
 Contact Shadows
 ---------------
 
-This type of shadows exists to fix light leaking caused by Bias or shadow map undersampling.
-They uses the depth buffer to find occluders (just like Screen Space Reflections).
-However, exactly like Screen Space Reflections, they suffer from the same limitations:
-unknown object thickness, effect disappearing at screen edges.
+This type of shadow exists to fix light leaking caused by bias or shadow map undersampling.
+It uses the depth buffer to find occluders (just like Screen Space Reflections).
+However, just like Screen Space Reflections it suffers from the same limitations,
+namely, unknown object thickness and effect disappearing at screen edges.
 
 .. tip::
 
@@ -122,13 +122,14 @@ Distance
    World space distance in which to search for screen space occluder.
 
 Softness
-   Control how soft the contact shadows will be. Contact shadow blurring does not match light's physical size.
+   Controls how soft the contact shadows will be.
+   Contact shadow blurring does not match a light's physical size.
 
 Bias
-   Bias applied to the ray tracing to reduce self shadowing artifacts.
+   Bias applied to the ray tracing to reduce self-shadowing artifacts.
 
 Thickness
-   Pixel thickness used to detect occlusion. Treat any potential occluder to be this thick.
+   Pixel thickness used to detect occlusion, treating any potential occluder as this thick.
 
 
 .. _eevee-cascaded-shadow-map:
@@ -155,7 +156,7 @@ Fade
    Higher values means less overall resolution because cascades need to overlap.
 
 Max Distance
-   Distance away from the view origin (or camera origin if in camera view) to cover with the cascade.
+   Distance away from the view origin (or camera origin if in camera view) to cover by the cascade.
    If the view far clip distance is lower than Max Distance, the lowest of the two will be used.
    Only works in perspective view.
 
