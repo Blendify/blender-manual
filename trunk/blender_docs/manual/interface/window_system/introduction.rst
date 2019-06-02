@@ -71,7 +71,7 @@ with buttons, controls and widgets placed within them.
 
    The 3D View editor.
 
-   Header (green), Main region (yellow), Tool bar (blue),
+   Header (green), Main region (yellow), Toolbar (blue),
    Side bar (red) and Operator panel (pink).
 
 

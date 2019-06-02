@@ -14,15 +14,15 @@ Blender uses a variety of different menus for accessing options and tools.
 Header Menus
 ============
 
-.. figure:: /images/interface_controls_buttons_menus_menu-button.png
-   :align: center
-
-   View menu in the Header of 3D Viewport.
-
 Most :ref:`headers <ui-region-header>` exhibit a set of menus, located immediately next
 to the first *Editor Type* selector.
 Header menus are used to configure the editor and access tools.
 All Menu entries show the relevant shortcut keys, if any.
+
+.. figure:: /images/interface_controls_buttons_menus_menu-button.png
+   :align: center
+
+   View menu in the Header of 3D Viewport.
 
 
 Collapsing Menus
@@ -47,7 +47,9 @@ Select Menus
 ============
 
 .. figure:: /images/interface_controls_buttons_menus_select-menu.png
-   :align: center
+   :align: right
+   :width: 200px
+   :figwidth: 200px
 
    The 3D Viewport Mode Select menu.
 
@@ -55,6 +57,10 @@ The Select menu (short selector) lets you choose between a set of options.
 Select menu appears as an icon and/or text with down arrow on the right side of the button.
 The menu options are shown with :kbd:`LMB` click on the button.
 The selected option is then shown as active on the menu button.
+
+.. container:: lead
+
+   .. clear
 
 
 .. _bpy.types.UIPopupMenu:
@@ -64,6 +70,8 @@ Pop-Up Menus
 
 .. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
+   :width: 200px
+   :figwidth: 200px
 
    The Transform Orientations pop-up menu.
 

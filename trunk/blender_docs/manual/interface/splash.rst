@@ -5,7 +5,7 @@ Splash Screen
 *************
 
 When starting Blender, the splash screen appears in the center of the window.
-It contains help options under link and the recently open blend-files.
+It contains options create new projects or open recently open blend-files.
 A more detailed description can be found below.
 
 .. figure:: /images/interface_splash_current.png
@@ -17,8 +17,7 @@ To close the splash screen and start a new project,
 click anywhere outside the splash screen (but inside the Blender Window) or press :kbd:`Esc`.
 The splash screen will disappear revealing the default screen.
 
-To reopen the splash click on the Blender icon in the :doc:`Info Editor </editors/info/index>`
-header or select :menuselection:`Info Editor --> Help --> Splash Screen`.
+To reopen the splash click on the Blender icon in the Topbar and select :guilabel:`Splash Screen`.
 
 Information Region
    The upper part of the splash screen contains the splash image with a lot of key information overlaid.
