@@ -5,11 +5,6 @@
   Editors
 ###########
 
-.. figure:: /images/editors_index_menu.png
-   :align: center
-
-   The Editor Type selector.
-
 Blender provides a number of different editors for displaying and modifying different aspects of data.
 
 The *Editor Type* selector, the first button at the left side of a header,
@@ -18,6 +13,11 @@ Every area in Blender may contain any type of editor
 and it is also possible to open the same type multiple times.
 
 See :doc:`User Interface </interface/index>` for documentation on the general interface.
+
+.. figure:: /images/editors_index_menu.png
+   :align: center
+
+   The Editor Type selector.
 
 
 General
