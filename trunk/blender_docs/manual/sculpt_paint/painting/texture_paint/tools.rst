@@ -3,7 +3,7 @@
 Tools
 *****
 
-Tools located in the *Tools* tab of the *Tool Shelf* in the 3D View or UV/Image Editor.
+Tools located in the *Tools* tab of the *Tool Shelf* in the 3D View or Image Editor.
 
 
 Brush
@@ -15,7 +15,7 @@ Brush
    Brush settings.
 
 With this panel, you can create many brushes, each with unique settings (such as color and width).
-In the UV/Image Editor this panel is called *Paint*.
+In the Image Editor this panel is called *Paint*.
 
 
 Brush Types
@@ -177,7 +177,7 @@ Blend
 
    .. tip::
 
-      In order to see the effects of the Erase and Add Alpha mix modes in the UV/Image Editor,
+      In order to see the effects of the Erase and Add Alpha mix modes in the Image Editor,
       you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button.
       Transparent (no alpha) areas will then show a checkered background.
 
@@ -196,7 +196,7 @@ Tilling
 =======
 
 Wraps the stroke to the other side of the image as your brush moves off the opposite side of the canvas.
-Very handy for making seamless textures. (In the *UV/Image Editor* only.)
+Very handy for making seamless textures. (In the *Image Editor* only.)
 
    X
       left/right

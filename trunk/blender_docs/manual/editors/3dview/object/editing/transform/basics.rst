@@ -21,7 +21,7 @@ Translation means changing location of objects.
 It also lets you translate any elements that make up the object within the 3D space of the active 3D View.
 
 Grab/Move works similarly here as it does
-in the Node Editor, Graph Editor, UV/Image Editor, Sequencer, etc.
+in the Node Editor, Graph Editor, UV Editor, Sequencer, etc.
 
 Pressing :kbd:`G` activates "Grab/Move" transformation mode.
 The selected object or element then moves freely according to the mouse pointer's location and camera.

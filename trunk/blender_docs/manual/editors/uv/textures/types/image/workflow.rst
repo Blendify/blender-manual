@@ -10,8 +10,8 @@ The process consists of the following steps:
 #. Create one or more Materials for the Mesh.
 #. Create one or more images for each UV layout and aspect of the texture. Either:
    - Paint directly on the mesh using Texture Paint in the 3D View,
-   - Load and/or edit an image in the UV/Image Editor, or
-   - Bake the existing materials into an image for the UV/Image Editor.
+   - Load and/or edit an image in the Image Editor, or
+   - Bake the existing materials into an image for the Image Editor.
 #. Apply those images as UV textures to the mesh to affect one or more aspects of the mesh.
    This is done by using one or more of the numerous Map To options. For example:
    - Map to Color to affect the diffuse coloring of the mesh,
@@ -24,7 +24,7 @@ Using Images and Materials
 ==========================
 
 To use an image as the color and alpha (transparency) of the texture, you can create an image
-in an external paint program and tell the UV/Image Editor to Open that file as the texture,
+in an external paint program and tell the UV Editor to Open that file as the texture,
 or you can create a New image and save it as the texture.
 
 If you want to start off by creating an image using an external paint program,

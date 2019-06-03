@@ -8,23 +8,23 @@ Sooner or later, you may want to use an image texture on your model.
 If you are using an external application, you need to know where on the mesh you are painting.
 You may also need to test your UV mapping with a test image.
 This section covers how to export an outline of your UV map,
-and how to load images into the UV/Image editor.
+and how to load images into the UV editor.
 
 
 Applying Textures to UVs
 ========================
 
-The UV/Image Editor allows you to map textures directly to the mesh faces.
+The UV Editor allows you to map textures directly to the mesh faces.
 The 3D View editor shows you the object being textured.
-If you set this editor into Textured viewport shading,
-you will immediately see any changes made in the UV/Image and this editor, and vice versa.
+If you set the 3D View into Textured viewport shading,
+you will immediately see any changes made in the UV Editor, and vice versa.
 This is because no real rendering is taking place; it is all just viewport shading.
 If you were to apply an image to UVs then render, the texture would not show up by default.
 
 To render an image however, you must:
 
-- Create a Material for the object, and
-- tell Blender to use the UV textures on faces when rendering.
+- Create a Material for the object.
+- Tell Blender to use the UV textures on faces when rendering.
 
 To create a Material, you have to click *Add New* Material in the Shading context.
 

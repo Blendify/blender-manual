@@ -17,7 +17,7 @@ Slots
 The combination of images associated with UV maps is called "slots".
 
 Selecting a *Paint Slots* or *Canvas Image*
-will also display the corresponding image in *UV/Image Editors*.
+will also display the corresponding image in the *Image Editor*.
 
 Painting Mode
    The slot system includes two painting modes:
@@ -54,7 +54,7 @@ Painting Mode
 
 Save All Images
    Repack (or save if external file) all edited images.
-   Same as in the :doc:`UV/Image Editor </editors/image/introduction>`.
+   Same as in the :doc:`Image Editor </editors/image/introduction>`.
 
 
 Mask

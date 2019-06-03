@@ -16,7 +16,7 @@ Mapping Types
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    UV/Image
+   :Editor:    UV Editor
    :Mode:      View mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Unwrap`
    :Menu:      :menuselection:`UVs --> Unwrap`
@@ -51,9 +51,9 @@ it is now time to unwrap them.
 In the 3D View, select :menuselection:`Mesh --> UV Unwrap --> Unwrap` or
 :kbd:`U` and select Unwrap.
 
-You can also do this from the UV/Image Editor with :menuselection:`UVs --> Unwrap` or :kbd:`E`.
+You can also do this from the UV Editor with :menuselection:`UVs --> Unwrap` or :kbd:`E`.
 This method will unwrap all of the faces and reset previous work.
-The UVs menu will appear in the UV/Image Editor after unwrapping has been performed once.
+The UVs menu will appear in the UV Editor after unwrapping has been performed once.
 
 This tool unwraps the faces of the object to provide
 the "best fit" scenario based on how the faces are connected and will fit within the image,
@@ -214,7 +214,7 @@ Cube Projection
 
 Cube Projection maps the mesh onto the faces of a cube, which is then unfolded.
 It projects the mesh onto six separate planes, creating six UV islands.
-In the UV/Image editor, these will appear overlapped, but can be moved.
+In the UV editor, these will appear overlapped, but can be moved.
 See :doc:`Editing UVs </editors/uv/editing/layout>`.
 
 

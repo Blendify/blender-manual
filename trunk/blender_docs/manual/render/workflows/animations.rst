@@ -123,7 +123,7 @@ Frame Sequence Workflow
 #. Click the *Animation* render button and Blender will render out the Sequence editor output into your movie.
 
 Why go through all this hassle? Well, first of all, if you render out single frames, you can
-stop the render at any time by pressing :kbd:`Esc` in the render window or UV/Image editor.
+stop the render at any time by pressing :kbd:`Esc` in the render window or Image editor.
 You will not lose the frames you have already rendered,
 since they have been written out to individual files.
 You can always adjust the range you want to continue from where you left off.
