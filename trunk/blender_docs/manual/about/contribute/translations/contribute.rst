@@ -75,7 +75,7 @@ Now you can build the manual with the translation applied
 
          make -e SPHINXOPTS="-D language='fr'"
 
-   .. group-tab:: Mac OSX
+   .. group-tab:: macOS
 
       ::
 
