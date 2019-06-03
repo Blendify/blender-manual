@@ -14,7 +14,7 @@ It will then restart the player with the new data.
 .. tip::
 
    An external player can also be used instead of the one included in Blender.
-   To do this, select it in the :doc:`Preferences </preferences/file_paths_paths>`.
+   To do this, select it in the :doc:`Preferences </preferences/file_paths>`.
 
 
 Shortcuts

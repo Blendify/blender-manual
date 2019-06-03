@@ -5,7 +5,7 @@ Splash Screen
 *************
 
 When starting Blender, the splash screen appears in the center of the window.
-It contains options create new projects or open recently open blend-files.
+It contains options create new projects or open recently opened blend-files.
 A more detailed description can be found below.
 
 .. figure:: /images/interface_splash_current.png
@@ -17,7 +17,7 @@ To close the splash screen and start a new project,
 click anywhere outside the splash screen (but inside the Blender Window) or press :kbd:`Esc`.
 The splash screen will disappear revealing the default screen.
 
-To reopen the splash click on the Blender icon in the Topbar and select :guilabel:`Splash Screen`.
+To reopen the splash click on the Blender icon in the Top bar and select :guilabel:`Splash Screen`.
 
 Information Region
    The upper part of the splash screen contains the splash image with a lot of key information overlaid.
@@ -72,20 +72,20 @@ Shortcuts
       Read more about this keymap :doc:`here </interface/keymap/industry_compatible>`
 
 Select With
-    Controls which mouse button, either right or left, is used to select items in Blender.
+   Controls which mouse button, either right or left, is used to select items in Blender.
 Spacebar
-    Controls the action of :kbd:`Spacebar`.
-    These and other shortcuts can be modified in the :doc:`keymap preferences </preferences/keymap>`.
+   Controls the action of :kbd:`Spacebar`.
+   These and other shortcuts can be modified in the :doc:`keymap preferences </preferences/keymap>`.
 
-    Play
-       Starts playing through the :doc:`timeline </editors/timeline>`,
-       this option is good for animation or video editing work.
-    Tools
-       Opens the toolbar underneath the cursor to quickly change the active tool.
-       This option is good for if doing a lot of modeling or rigging work.
-    Search
-       Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
-       This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
+   Play
+      Starts playing through the :doc:`Timeline </editors/timeline>`,
+      this option is good for animation or video editing work.
+   Tools
+      Opens the toolbar underneath the cursor to quickly change the active tool.
+      This option is good for if doing a lot of modeling or rigging work.
+   Search
+      Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
+      This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 Theme
    Choose between a light or dark theme for Blender.
    Themes can be customized more in the :doc:`Preferences </preferences/themes>`

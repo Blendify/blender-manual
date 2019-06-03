@@ -19,11 +19,11 @@ It can be used as simple model of e.g. a light bulb.
 
 Light intensity/energy decays based on (among other variables)
 distance from the *Point* lamp to the object. In other words,
-surfaces that are further away are rendered darker.
+surfaces that are further away will be rendered darker.
 
 .. seealso::
 
-   - :doc:`EEVEE Lighting </render/eevee/lighting>`
+   - :doc:`Eevee Lighting </render/eevee/lighting>`
    - :doc:`Cycles Lighting </render/cycles/lighting>`
    - :doc:`Workbench Lighting </render/workbench/lighting>`
 

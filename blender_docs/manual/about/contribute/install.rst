@@ -100,7 +100,8 @@ Setting up the Build Environment
 
            cd C:\blender_docs
 
-      - Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
+      - Inside that folder is a file called ``requirements.txt`` which contains a list of
+        all the dependencies you need.
         Install all the dependencies using Python's ``pip`` command::
 
            pip install -r requirements.txt
@@ -118,8 +119,9 @@ Setting up the Build Environment
 
            cd ~/blender_docs
 
-      - Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
-        To install these dependencies, we can use the ``pip`` command::
+      - Inside that folder is a file called ``requirements.txt`` which contains a list of
+        all the dependencies you need.
+        To install these dependencies, you can use the ``pip`` command::
 
            sudo pip install -r requirements.txt
 
@@ -136,8 +138,9 @@ Setting up the Build Environment
 
            cd ~/blender_docs
 
-      - Inside that folder is a file called ``requirements.txt`` which contains a list of all the dependencies we need.
-        To install these dependencies, we can use the ``pip3`` command::
+      - Inside that folder is a file called ``requirements.txt`` which contains a list
+        of all the dependencies you need.
+        To install these dependencies, you can use the ``pip3`` command::
 
            sudo pip3 install -r requirements.txt
 

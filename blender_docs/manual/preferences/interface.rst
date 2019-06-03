@@ -129,8 +129,8 @@ Pie Menus
 
 Animation Timeout
    Length of animation when opening Pie Menus.
-Tap Key Timeout
-   Keystrokes held longer than this will dismiss menu on release (in 1/100ths of sec).
+Tab Key Timeout
+   Keystrokes held longer than this will dismiss the menu on release (in 1/100ths of a second).
 Recenter Timeout
    The window system tries to keep the pie menu within the window borders.
    Pie menus will use the initial mouse position as center for this amount of time, measured in 1/100ths of a second.

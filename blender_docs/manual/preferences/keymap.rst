@@ -13,25 +13,25 @@ Preferences
 ===========
 
 Select With
-    Controls which mouse button, either right or left, is used to select items in Blender.
-    If *Left* is selected the :kbd:`RMB` will be a context sensitive menu,
-    if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
+   Controls which mouse button, either right or left, is used to select items in Blender.
+   If *Left* is selected the :kbd:`RMB` will be a context sensitive menu,
+   if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
 
 Select All Toggles
    TODO 2.8.
 Spacebar Action
-    Controls the action of :kbd:`Spacebar`.
-    These and other shortcuts can be modified in the :doc:`keymap preferences </preferences/keymap>`.
+   Controls the action of :kbd:`Spacebar`.
+   These and other shortcuts can be modified in the :doc:`keymap preferences </preferences/keymap>`.
 
-    Play
-       Starts playing through the :doc:`timeline </editors/timeline>`,
-       this option is good for animation or video editing work.
-    Tools
-       Opens the toolbar underneath the cursor to quickly change the active tool.
-       This option is good for if doing a lot of modeling or rigging work.
-    Search
-       Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
-       This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
+   Play
+      Starts playing through the :doc:`Timeline </editors/timeline>`,
+      this option is good for animation or video editing work.
+   Tools
+      Opens the Toolbar underneath the cursor to quickly change the active tool.
+      This option is good for if doing a lot of modeling or rigging work.
+   Search
+      Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
+      This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 
 3D View
 -------
@@ -60,10 +60,11 @@ ID Name
    Todo.
 Event
    Type
+      Todo.
    Value
       Todo.
    Modifier
-       Todo
+      Todo.
 Map Type
    Keyboard
       Only hotkey or combo hotkey :kbd:`E`, :kbd:`Shift-E`.

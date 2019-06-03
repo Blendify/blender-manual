@@ -10,6 +10,7 @@ They control how arrays are placed in the world as well as their resolution.
 Lighting is computed at the dot positions visible when the Irradiance Volume object is selected.
 
 .. seealso::
+
    :doc:`Indirect Lighting </render/eevee/indirect_lighting>`.
 
 If Ambient Occlusion is enabled, it will be applied onto diffuse indirect lighting.

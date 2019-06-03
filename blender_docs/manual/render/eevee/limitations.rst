@@ -100,8 +100,9 @@ Subsurface Scattering
 - Only one BSSSDF can produce screen space subsurface scattering.
 - The evaluated BSSSDF is currently arbitrarily chosen.
 - A maximum of 254 different surfaces can use subsurface scattering.
-- Only scalling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
-- Input radiance from each surfaces are not isolated during the blurring, leading to light leaking from surface to surface.
+- Only scaling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
+- Input radiance from each surfaces are not isolated during the blurring,
+  leading to light leaking from surface to surface.
 
 
 .. _eevee-limitations-materials:
@@ -166,15 +167,16 @@ CPU Rendering
 
 Being an rasterization engine, Eevee only uses the power of
 the :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` to render.
-There is no plan to support :abbr:`CPU (Central Processing Unit)` (software) rendering as it would be very inefficient.
-CPU power is still needed to handle high scene complexity as the geometry
-must be prepared by the CPU before rendering each frame.
+There is no plan to support :abbr:`CPU (Central Processing Unit)` (software) rendering
+as it would be very inefficient. CPU power is still needed to handle high scene complexity
+as the geometry must be prepared by the CPU before rendering each frame.
 
 
 Multiple GPU Support
 ====================
 
-There is currently no support for multiple :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` systems.
+There is currently no support for
+multiple :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` systems.
 
 
 Headless Rendering

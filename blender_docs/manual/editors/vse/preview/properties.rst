@@ -16,7 +16,7 @@ It allows you to control how the images of :doc:`Scene Strips </editors/vse/sequ
 are displayed in the preview.
 
 Preview Shading
-   Method for rendering viewport renders.
+   Method for rendering the viewport.
    See the 3D View's :ref:`view3d-viewport-shading` options.
 Override Scene Settings
    TODO 2.8.

@@ -9,11 +9,11 @@ An area is subdivided into regions.
 .. figure:: /images/interface_window-system_regions_3d-view.png
    :align: center
 
-   The regions of the 3D View editor showing the Side bar and the
-   Operator panel after adding a Cube.
+   The regions of the 3D View editor showing the Sidebar and
+   the Operator panel after adding a Cube.
 
    Header (green), Main region (yellow), Toolbar (blue),
-   Side bar (red) and Operator panel (pink).
+   Sidebar (red) and Operator panel (pink).
 
 
 Main Region
