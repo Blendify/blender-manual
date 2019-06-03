@@ -27,9 +27,10 @@ General
    :maxdepth: 1
 
    3dview/index.rst
-   uv_image/index.rst
+   uv/index.rst
+   image/index.rst
    node_editor/index.rst
-   Texture Node Editor <uv_image/uv/textures/nodes/index.rst>
+   Texture Node Editor <uv/textures/nodes/index.rst>
    Compositor <../compositing/index.rst>
    vse/index.rst
    movie_clip_editor/index.rst

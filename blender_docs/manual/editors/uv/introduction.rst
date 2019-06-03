@@ -20,11 +20,11 @@ Header
 
 View
    Tools for controlling how the content is displayed in the editor.
-   See :doc:`/editors/uv_image/navigating`.
+   See :doc:`/editors/uv/navigating`.
 Select
    Tools for :doc:`Selecting UVs </editors/uv/editing/layout>`.
 Image
-   This contains options for :doc:`/editors/uv_image/image/index`.
+   This contains options for :doc:`/editors/image/index`.
 UVs
    Contains tools for :doc:`Unwrapping Meshes </editors/uv/editing/unwrapping/index>`
    and :doc:`Editing UVs </editors/uv/editing/layout>`.
@@ -57,10 +57,10 @@ Header
 The header contains several menus and options for working with UVs.
 
 Select
-   Tools for :doc:`Selecting UVs </editors/uv_image/uv/selecting>`.
+   Tools for :doc:`Selecting UVs </editors/uv/selecting>`.
 UVs
-   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv/overview>`
-   and :doc:`Editing UVs </editors/uv_image/uv/editing/layout>`.
+   Contains tools for :doc:`Unwrapping Meshes </editors/uv/overview>`
+   and :doc:`Editing UVs </editors/uv/editing/layout>`.
 
 Pivot Point Selector
    Similar to working with Pivot Points in the 3D View.
@@ -95,4 +95,4 @@ UV Vertex Panel
    UV Vertex panel.
 
 UV Vertex
-   Transform Properties :doc:`Selecting UVs </editors/uv_image/uv/editing/layout>`.
+   Transform Properties :doc:`Selecting UVs </editors/uv/editing/layout>`.
