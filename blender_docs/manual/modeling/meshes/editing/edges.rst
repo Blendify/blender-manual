@@ -45,7 +45,7 @@ Mark Seam and Clear Seam
    :Menu:      :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam`
 
 Seams are a way to create separations, "islands", in UV maps.
-See the :ref:`UV Mapping section <editors-uv-image-index>` for more details.
+See the :ref:`UV Mapping section <editors-uv-index >` for more details.
 These operators set or unset this flag for selected edges.
 
 
