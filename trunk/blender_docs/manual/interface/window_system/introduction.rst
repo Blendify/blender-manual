@@ -48,7 +48,7 @@ This workspace contains the following :doc:`/editors/index`:
 - Properties editor on bottom right.
 - Timeline on bottom left.
 
-.. todo 2.8 figure:: /images/interface_window-system_introduction_layout-workspace.png
+   .. TODO2.8: /images/interface_window-system_introduction_layout-workspace.png
 
    Blender's Layout Workspace with four editors.
 

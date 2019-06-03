@@ -70,7 +70,7 @@ Selection Mask, Alpha
    See `Further Options`_.
 
 
-.. (todo <2.8 move) to a better place
+.. TODO2.8 Move to a better place.
 
 Menu
 ----

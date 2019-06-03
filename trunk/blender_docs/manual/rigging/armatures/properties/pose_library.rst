@@ -45,7 +45,7 @@ Pose Libraries
       Moves the pose up/down in the list.
 
 
-.. (todo <2.8 move) to pose editing
+.. TODO2.8 Move to pose editing.
 
 Menu
 ====

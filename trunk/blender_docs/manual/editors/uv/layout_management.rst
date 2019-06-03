@@ -34,7 +34,7 @@ by creating new UV maps. This can be done by clicking the *Add* button next to U
 (in *Object Data* tab in the Properties Editor) and unwrapping a different part of the mesh.
 UV maps always include the whole mesh.
 
-.. (todo <2.8 add) continue image clipping
+.. TODO2.8 add: Continue image clipping.
 
 
 .. _uv-maps-panel:

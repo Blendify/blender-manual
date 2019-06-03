@@ -1,4 +1,4 @@
-.. todo 2.8: cleanup, remove BI
+.. TODO2.8: cleanup, remove BI
 
 ************
 Introduction
