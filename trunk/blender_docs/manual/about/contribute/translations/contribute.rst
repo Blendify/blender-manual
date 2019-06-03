@@ -65,33 +65,21 @@ however, any PO editor will do.
 
 Building with Translations
 ==========================
-Now you can build the manual with the translation applied
-
-.. tabs::
-
-   .. group-tab:: Linux
-
-      ::
-
-         make -e SPHINXOPTS="-D language='fr'"
-
-   .. group-tab:: macOS
-
-      ::
-
-         make -e SPHINXOPTS="-D language='fr'"
-
-   .. group-tab:: Windows
-
-      ::
-
-         sphinx-build -b html -D language=fr ./manual ./build/html
 
 .. note::
 
    This is optional, translations are automatically built online, e.g:
    https://docs.blender.org/manual/fr/dev/
 
+Now you can build the manual with the translation applied::
+
+   make -e SPHINXOPTS="-D language='fr'"
+
+If you are on MS-Windows and do not have ``make``, run::
+
+   sphinx-build -b html -D language=fr ./manual ./build/html
+
+Now you will have a build of the manual with translations applied.
 
 
 Editing Translation Files
