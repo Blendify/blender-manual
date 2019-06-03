@@ -1,5 +1,3 @@
-.. |texture-button| image:: /images/editors_node-editor_introduction_icons-texture.png
-   :width: 1.1em
 
 ************
 Introduction
@@ -27,8 +25,7 @@ and even inside other textures.
 Using Texture Nodes
 ===================
 
-To use texture nodes with the current texture, open the :doc:`Node Editor </editors/node_editor/index>`
-and set it to *Texture* mode by clicking the texture icon (|texture-button|) in its header.
+To use texture nodes with the current texture, open the *Texture Editor*
 
 To start adding nodes, a material has to be to selected.
 A new texture can be created by either clicking the *New* button in the Node editor,
@@ -42,7 +39,7 @@ Compare to other types of node contexts, which are limited to one active Output 
 See the next section for details.
 
 For instructions on how to add, remove and manipulate the nodes in the tree,
-see the :doc:`Node Editor </editors/node_editor/index>` reference.
+see the :doc:`Nodes </interface/controls/nodes/index>` reference.
 
 
 Using Multiple Outputs

@@ -20,19 +20,12 @@ Viewport Shading
 
 Shading refers to the way objects are drawn and lit in the 3D View.
 
-Bounding Box
-   Only shows rectangular boxes that outline an object's size and shape.
 Wireframe
    Objects appear as a mesh of lines representing the edges of faces and surfaces.
 Solid
    The default drawing mode using solid colored surfaces and simple lighting.
-Textured
-   Shows meshes with an image applied using the mesh's active UV map.
-   For Cycles materials, the image is the last one selected
-   in the :doc:`Node Editor </editors/node_editor/index>`.
-   For other render engines, the UV map's applied face texture will be shown.
-Material
-   A fast approximation of the applied material.
+LookDev
+   TODO28.
 Rendered
    An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
 

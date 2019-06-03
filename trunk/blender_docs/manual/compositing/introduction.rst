@@ -30,10 +30,7 @@ optionally merge it with other images, and finally, save it.
 Getting Started
 ===============
 
-Access the :doc:`Node Editor </editors/node_editor/index>` and
-enable *Composite Nodes* by clicking on the *Image* icon.
-
-To activate nodes for compositing, click the *Use Nodes* checkbox
+Access the *Compositor* and activate nodes for compositing by clicking the *Use Nodes* checkbox
 (see :doc:`/compositing/properties`).
 
 .. note::
@@ -47,7 +44,8 @@ to your heart's content (or physical memory constraints, whichever comes first).
 
 .. note::
 
-   Nodes and node concepts are explained in more detail in the :doc:`Node Editor </editors/node_editor/index>`.
+   Nodes and node concepts are explained in more detail in the
+   :doc:`Nodes </interface/controls/nodes/index>` reference.
 
 
 Examples
