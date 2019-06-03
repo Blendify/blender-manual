@@ -152,3 +152,12 @@ Read Render Layers :kbd:`Ctrl-R`
    This can be used to save RAM while rendering because the render layers do not have to be saved in RAM.
    This can also be used to recover some information from a failed render.
    For this to work, :ref:`Save Buffers <render_properties_save-buffers>` must be enabled.
+
+
+Additional Tools
+================
+
+Copy Nodes
+   This button allows you copy selected nodes to the clipboard.
+Paste Nodes
+   This button allows you paste nodes from the clipboard to the active node tree.
