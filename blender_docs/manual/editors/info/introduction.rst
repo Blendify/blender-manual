@@ -32,7 +32,7 @@ Edit
 ^^^^
 
 Preferences
-   Opens the :doc:`Blender Preferences </preferences/introduction>` in a new window.
+   Opens the :doc:`Blender Preferences </editors/preferences/introduction>` in a new window.
 
 
 Render

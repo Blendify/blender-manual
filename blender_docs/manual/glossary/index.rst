@@ -465,7 +465,7 @@ This page lists definitions for terms used in Blender and this manual.
       The mip-mapping calculations are made by CPUs, but modern graphic processors
       can be selected for this task and are way faster.
 
-      See the mip-map option present in the :doc:`System Preferences </preferences/system>`.
+      See the mip-map option present in the :doc:`System Preferences </editors/preferences/system>`.
 
    MIS
    Multiple Importance Sampling

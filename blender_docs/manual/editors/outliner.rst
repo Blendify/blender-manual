@@ -182,7 +182,7 @@ Blender File
 Data-Blocks
    Lists every :doc:`data-block </data_system/data_blocks>` along with any properties that they might have.
 Preferences
-   Lists options that can be found in the :doc:`Preferences </preferences/index>`
+   Lists options that can be found in the :doc:`Preferences </editors/preferences/index>`
    along with some other settings.
 Orphan Data
    Lists :doc:`data-blocks </data_system/data_blocks>`

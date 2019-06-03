@@ -10,7 +10,7 @@ See :doc:`Pivot Points </editors/3dview/object/editing/transform/control/pivot_p
 
 The color of the origin is set by the :ref:`animation-state-colors` and
 in light blue to denote library linkage on both the source and the linked object.
-The size can be changed in the :doc:`Interface tab </preferences/interface>` of the Preferences.
+The size can be changed in the :doc:`Interface tab </editors/preferences/interface>` of the Preferences.
 
 
 .. _bpy.ops.object.origin_set:

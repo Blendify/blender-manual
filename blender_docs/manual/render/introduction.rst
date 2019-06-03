@@ -53,4 +53,4 @@ Blender includes two renderers by default:
 - :doc:`Cycles </render/cycles/index>`
 
 More renderers from third-party developers can also be added using
-:doc:`Add-ons </preferences/addons>`.
+:doc:`Add-ons </editors/preferences/addons>`.

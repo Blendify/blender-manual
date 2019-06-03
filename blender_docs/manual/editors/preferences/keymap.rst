@@ -21,7 +21,7 @@ Select All Toggles
    TODO 2.8.
 Spacebar Action
    Controls the action of :kbd:`Spacebar`.
-   These and other shortcuts can be modified in the :doc:`keymap preferences </preferences/keymap>`.
+   These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
 
    Play
       Starts playing through the :doc:`Timeline </editors/timeline>`,
