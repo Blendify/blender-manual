@@ -15,4 +15,3 @@
    assigning_a_texture.rst
    properties/index.rst
    types/index.rst
-   nodes/index.rst

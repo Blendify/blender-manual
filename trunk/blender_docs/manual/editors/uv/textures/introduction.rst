@@ -12,7 +12,7 @@ but texture mapping is also used to sculpt, paint and deform objects.
 
 .. seealso::
 
-   Texture processing for :doc:`Combined Textures </editors/uv/textures/nodes/introduction>`
+   Texture processing for :doc:`Combined Textures </editors/texture_node/introduction>`
    in the Compositor.
 
 
@@ -62,4 +62,4 @@ Blender allows you to achieve this in many ways.
 You can use "a stack of texture layers" as described
 in :doc:`this section </editors/uv/textures/texture_panel>`,
 or you can also use arbitrarily complex networks of "texture nodes"
-as discussed :doc:`here </editors/uv/textures/nodes/introduction>`.
+as discussed :doc:`here </editors/texture_node/introduction>`.
