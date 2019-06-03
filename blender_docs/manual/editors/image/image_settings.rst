@@ -4,6 +4,57 @@
 Image Settings
 **************
 
+Image Menu
+==========
+
+New Image
+   Creates a new :ref:`image-generated` Image.
+Open Image
+   Load image from a file.
+Read Render Layers
+   Read all the current scene's render layers from cache, as needed.
+   This can be used to save RAM while rendering because the render layers do not have to be saved in RAM.
+   This can also be used to recover some information from a fail render.
+   For this to work, :ref:`Save Buffers <render_properties_save-buffers>` must be enabled.
+Save All Images
+   Repack (or save if external file) all edited images.
+Replace Image
+   Replaces the current image, while preserving the link to UV maps,
+   with a selected file.
+Reload Image
+   Reloading the image from an external file.
+Save Image
+   Save the image, if the image is already a file :kbd:`Alt-S`.
+Save As Image
+   Save the (rendered) image in a separate file :kbd:`F3` or
+   you want to save it under a different name.
+Save a Copy
+   Using *Save as Copy* will save the file to a specified name,
+   but will keep the old one open in the UV/Image editor.
+Edit Externally
+   Using the *Edit Externally* tool Blender will open an external image editor,
+   as specified in the *Preferences* and load in the image to be edited.
+Invert
+   Invert Image Colors
+      Invert the colors of an image.
+   Invert Channel
+      Red, Green, Blue, Alpha
+Pack
+   Pack Image
+      Packs the external image file into the blend-file.
+      See :ref:`pack-unpack-data`.
+   Pack As PNG
+      Packs the image into the blend-file as lossless PNG.
+      It is available as an option in the Operator panel
+      or if the image was modified inside Blender and changes are not saved to the drive.
+
+.. important::
+
+   Rendered images had to be saved externally or packed.
+
+Image Panel
+===========
+
 .. figure:: /images/editors_uv-image_image_image-settings_movie-image-panel.png
    :align: right
 
@@ -17,19 +68,19 @@ Image
 
 
 Source
-======
+------
 
 See about supported :doc:`/data_system/files/media/image_formats`.
 
 
 Single Image
-------------
+^^^^^^^^^^^^
 
 Still image or a single frame.
 
 
 Image Sequence
---------------
+^^^^^^^^^^^^^^
 
 Each frame is stored in a separate file.
 How to :ref:`image-formats-open-sequence`.
@@ -41,7 +92,7 @@ Further options
 
 
 Movie
------
+^^^^^
 
 Frames packed into a container.
 
@@ -70,11 +121,9 @@ Cyclic
 .. _image-generated:
 
 Generated
----------
+^^^^^^^^^
 
-Image generated in Blender or preloaded.
-
-.. (TODO) preloaded? ^^^
+Image generated in Blender.
 
 .. list-table::
 
@@ -105,7 +154,7 @@ Type
 
 
 Common Options
-==============
+--------------
 
 File
    Use for replacing or packing files.
@@ -123,8 +172,6 @@ Color Space
 
    XYZ
       XYZ space.
-   VD16
-      The simple video conversion from a gamma 2.2 sRGB space.
    sRGB
       Standard RGB display space.
    Raw
@@ -135,14 +182,13 @@ Color Space
       ACES linear space.
    Linear
       Linear 709 (full range). Blender native linear space.
+   Filmic Log
+      Todo.
 View as Render
    Applies :doc:`color transform </render/post_process/color_management>` when displaying this image on the screen.
 Use Multi-View
    See :doc:`Multi-View </render/post_process/multiview/index>`.
-Use Alpha
-   Determines whether the alpha channel of the image is used.
+Alpha
+   :term:`Alpha Channel`.
 
-   Alpha Mode
-      :term:`Alpha Channel`.
-
-      Straight, Premultiplied
+    Straight, Premultiplied
