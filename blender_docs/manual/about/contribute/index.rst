@@ -29,8 +29,8 @@ The following guides lead you through the process.
 .. toctree::
    :maxdepth: 1
 
-   install.rst
-   build.rst
+   install/index.rst
+   build/index.rst
    editing.rst
    patch_commit.rst
 
