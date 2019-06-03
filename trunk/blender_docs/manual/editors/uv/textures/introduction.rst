@@ -5,9 +5,9 @@ Introduction
 
 In CGI, texture mapping is a method to add detail to surfaces by projecting images and
 patterns onto those surfaces.
-The projected images and patterns can be set to affect not only color, but also specularity,
-reflection, transparency, and even fake 3-dimensional depth. Most often,
-the images and patterns are projected during render time,
+The projected images and patterns can be set to affect not only color,
+but also specularity, reflection, transparency, and even fake three-dimensional depth.
+Most often, the images and patterns are projected during render time,
 but texture mapping is also used to sculpt, paint and deform objects.
 
 .. seealso::

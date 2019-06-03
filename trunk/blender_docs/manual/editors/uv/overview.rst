@@ -91,8 +91,8 @@ each point on the object will have corresponding U and V coordinates.
 Advantages of UVs
 =================
 
-While procedural textures (described in the previous chapters) are useful-they never repeat
-themselves and always "fit" 3D objects-they are not sufficient for more complex or natural objects.
+While procedural textures (described in the previous chapters) are useful -- they never repeat
+themselves and always "fit" 3D objects -- they are not sufficient for more complex or natural objects.
 For instance, the skin on a human head will never look quite right when procedurally generated.
 Wrinkles on a human head, or scratches on a car do not occur in random places,
 but depend on the shape of the model and its usage. Manually-painted images,

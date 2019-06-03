@@ -191,4 +191,4 @@ Use Multi-View
 Alpha
    :term:`Alpha Channel`.
 
-    Straight, Premultiplied
+   Straight, Premultiplied

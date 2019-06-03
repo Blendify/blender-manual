@@ -18,7 +18,7 @@ Save Copy
    Choose a file to save the blend-file to, but return to editing the original file upon completion.
    This can be used to save backups of the current working state without modifying the original file.
 
-.. note::
+.. warning::
 
    If a file with the same given name already exists,
    the text field will turn red as a warning that the file will be overwritten.

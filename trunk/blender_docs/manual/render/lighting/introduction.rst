@@ -17,7 +17,7 @@ The color of an object and the lighting of your scene is affected by:
 - Your ability to see different colors (partial color blindness is common).
 - The medium in which you are viewing the image (e.g. an LCD panel versus printed glossy paper).
 - The quality of the image (e.g. a ``jpeg`` at 0.4 compression versus 1.0).
-- The environment in which you are viewing the image
+- The environment in which you are viewing the image.
 - Your brain's perception of the color and intensity relative to
   those objects around it and the world background color,
   which can be changed using color manipulation techniques using Blender

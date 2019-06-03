@@ -3,7 +3,7 @@
 Introduction
 ************
 
-The Image Editor is where you can view/edit 2D assets like images/textures.
+The Image Editor is where you can view/edit 2D assets like images or textures.
 
 .. figure:: /images/editors_uv-image_introduction_main.png
 
@@ -84,6 +84,6 @@ Sidebar Region
 Tool
    Todo.
 Image
-   Tools for working with images see :doc:`/editors/image/image_settings`
+   Tools for working with images see :doc:`/editors/image/image_settings`.
 View Tab
    Controls display options see :doc:`/editors/image/view_tab`.

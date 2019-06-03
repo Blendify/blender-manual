@@ -34,7 +34,7 @@ Power/Strength
    .. note::
 
       While this value can be negative, it will break the rules for conservation of energy
-      and will break the render engines physically real based rendering PBR.
+      and will no longer be physically based (PBR).
 Radius/Size/Angle
    Each light type has some way to control the physical size of the virtual light;
    increasing this will result in softer shadows and shading.

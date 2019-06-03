@@ -129,7 +129,7 @@ MIP Map
    :term:`Mip-maps <mip-map>` are precalculated, smaller, filtered textures for a certain size.
    A series of pictures is generated, each half the size of the former one.
    This optimizes the filtering process. By default, this option is enabled and speeds up rendering.
-   When this option is OFF,
+   When this option is off,
    you generally get a sharper image, but this can significantly increase calculation time if the filter dimension
    (see below) becomes large. Without mip-maps you may get varying pictures from slightly different camera angles,
    when the textures become very small. This would be noticeable in an animation.
@@ -156,14 +156,14 @@ Filter
       EWA (Elliptical Weighted Average)
          One of the most efficient direct
          convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.
-         For each texel, EWA samples, weights, and accumulates texels within an elliptical
-         footprint and then divides the result by the sum of the weights.
+         For each texel, EWA samples, weights, and accumulates texels within an elliptical footprint
+         and then divides the result by the sum of the weights.
 
          Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower.
       FELINE (Fast Elliptical Lines)
-         Uses several isotropic probes at several points along a line in texture space to produce an anisotropic
-         filter to reduce aliasing artifacts without considerably increasing rendering time.
+         Uses several isotropic probes at several points along a line in texture space to produce
+         an anisotropic filter to reduce aliasing artifacts without considerably increasing rendering time.
 
          Probes
             Number of probes to use. An integer between 1 and 256.

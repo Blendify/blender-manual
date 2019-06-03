@@ -19,7 +19,7 @@ Then save your changes, and back in Blender, use the :menuselection:`Image --> O
 to load it as your UV image for the mesh in Edit Mode for the desired (and active) UV map.
 
 As a way of communicating to an artist who is painting your UV Texture for you,
-Blender has a tool called *UV Layout*, :menuselection:`UV Editor --> UVs --> Export UV Layout`)
+Blender has a tool called *UV Layout* (:menuselection:`UV Editor --> UVs --> Export UV Layout`)
 that saves an image as a ``Targa`` (``.tga``), ``EPS``, or ``SVG`` format for the object you have selected.
 
 The image will be lines defining the UV edges that are within the image area of the UV mapping area.

@@ -29,8 +29,9 @@ To use texture nodes with the current texture, open the *Texture Node Editor*
 
 To start adding nodes, a material has to be to selected.
 A new texture can be created by either clicking the *New* button in the Texture Node editor,
-or the *New* button in the texture panel. Once a texture is selected, it can be
-toggled to a function as a regular texture or a node texture by clicking the *Use Nodes* option in the Texture Node Editor.
+or the *New* button in the texture panel. Once a texture is selected,
+it can be toggled to a function as a regular texture or a node texture by
+clicking the *Use Nodes* option in the Texture Node Editor.
 
 The default node setup will appear: a red-and-white checkerboard node
 connected to an *Output* named "Default". For *texture* nodes,

@@ -38,8 +38,8 @@ Modes
       :doc:`/editors/movie_clip_editor/masking/index`.
 
 
-Sidebar region
-=================
+Sidebar Region
+==============
 
 Grease Pencil
    See the :doc:`Grease Pencil </editors/3dview/grease_pencil/index>` docs.
@@ -83,8 +83,8 @@ Auto Update Other Affected Windows
    Update other affected windows automatically to reflect changes during interactive operations e.g. transforms.
 
 
-Sidebar region
-=================
+Sidebar Region
+==============
 
 UV Vertex Panel
 ---------------

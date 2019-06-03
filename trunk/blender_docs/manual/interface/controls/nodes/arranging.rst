@@ -27,7 +27,7 @@ Snap Target
 
 .. _editors-nodes-usage-auto-offset:
 
-Auto-offset
+Auto-Offset
 ===========
 
 When you drop a node with at least one input and one output socket onto an existing connection between two nodes,

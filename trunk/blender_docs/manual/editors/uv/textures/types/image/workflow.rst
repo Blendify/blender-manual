@@ -102,7 +102,7 @@ If you do, each image will line up with the one below it,
 and they will layer on top of one another like the examples shown to the right. To do this,
 just create one UV texture (map) as described in this section. Then,
 create material image textures as described in the procedural materials section.
-Instead of mapping to Original Coordinates (OrCo), map to UV.
+Instead of mapping to Original Coordinates, map to UV.
 
 Use that map name repeatedly in the :menuselection:`Material --> Textures --> Map Input`
 panel by selecting *UV* and typing the name in the text field. In the example to the right,

@@ -117,8 +117,8 @@ the Smart Mapper mapped all of the faces of a cube to a neat arrangement of thre
 three sides on the bottom, for all six sides of the cube to fit squarely,
 just like the faces of the cube.
 
-For more complex mechanical objects, this tool can very quickly and easily create a very
-logical and straightforward UV layout for you.
+For more complex mechanical objects, this tool can very quickly and easily create
+a very logical and straightforward UV layout for you.
 
 
 Options

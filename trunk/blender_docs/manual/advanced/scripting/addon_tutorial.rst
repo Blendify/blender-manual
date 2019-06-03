@@ -201,7 +201,7 @@ restrictions that apply to Python modules and end with a ``.py`` extension.
 
 Once the file is on disk, you can install it as you would for an add-on downloaded online.
 
-Open the :menuselection:`Preferences --> Add-ons --> Install Add-on...`` and select the file.
+Open the :menuselection:`Preferences --> Add-ons --> Install Add-on...` and select the file.
 
 Now the add-on will be listed and you can enable it by pressing the checkbox,
 if you want it to be enabled on restart, press *Save as Default*.

@@ -42,8 +42,8 @@ Proportional Edit
    See :doc:`Proportional Edit </editors/3dview/object/editing/transform/control/proportional_edit>`.
 
 
-Sidebar region
-=================
+Sidebar Region
+==============
 
 Footage Settings
    See :doc:`/editors/image/image_settings`.

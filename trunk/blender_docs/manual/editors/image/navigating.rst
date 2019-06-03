@@ -10,7 +10,7 @@ Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to 
 
 
 Gizmos
-------
+======
 
 Todo 2.8.
 

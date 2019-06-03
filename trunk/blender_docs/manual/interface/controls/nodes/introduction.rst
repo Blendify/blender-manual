@@ -12,7 +12,7 @@ In the list below it shows a list of different types of node trees and where eac
 
    Example of a node editor.
 
-.. _node-tree-types:
+.. _tab-node-tree-types:
 
 .. list-table::
    :header-rows: 1
@@ -35,6 +35,7 @@ In the list below it shows a list of different types of node trees and where eac
        in the :doc:`UV editor </editors/texture_node/introduction>` docs.
 
 After choosing what node context you want to use, you have to enable nodes with the *Use Nodes* button.
+
 
 Editor Interface
 ================
@@ -70,7 +71,7 @@ Toolbar
 -------
 
 The *Toolbar* is a context-sensitive region, natively containing tools for the Grease Pencil
-and buttons for adding nodes. The Tool Shelf is organized using tabs.
+and buttons for adding nodes. The Toolbar is organized using tabs.
 
 
 Sidebar

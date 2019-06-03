@@ -54,8 +54,8 @@ The *Toolbar* (on the left side of editor area) contains the tool settings.
 
 .. tip::
 
-   Expand the Toolbar to show icons on two columns instead of
-   one. Expand Toolbar more to show icons with titles.
+   Expand the Toolbar to show icons on two columns instead of one.
+   Expand the Toolbar even more to show icons with titles.
 
 
 Operator Panel

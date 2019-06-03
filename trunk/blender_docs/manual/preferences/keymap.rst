@@ -7,7 +7,7 @@ Keymap
 Keymap Presets
    A list of predefined keymaps.
 Import/Export
-   See `Import/Export Key Configuration`_
+   See `Import/Export Key Configuration`_.
 
 Preferences
 ===========
@@ -33,6 +33,7 @@ Spacebar Action
       Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
       This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 
+
 3D View
 -------
 
@@ -47,6 +48,7 @@ The Keymap editor lets you change the default Hotkeys. You can change keymaps fo
 .. figure:: /images/preferences_input_keymap-editor.png
 
    Keymap editor.
+
 
 .. rubric:: Usage
 
