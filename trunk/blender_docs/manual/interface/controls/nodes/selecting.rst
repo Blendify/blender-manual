@@ -19,7 +19,7 @@ Select Linked To
    :kbd:`Shift-L`
 Select Grouped :kbd:`Shift-G`
    Selects similar nodes to the active node
-   by their :doc:`properties </editors/node_editor/nodes/properties>`.
+   by their :doc:`properties </interface/controls/nodes/properties>`.
 
    Type
       The node type. e.g. all Math nodes.
