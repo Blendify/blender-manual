@@ -31,7 +31,7 @@ General
    uv/index.rst
    shader_editor/index.rst
    Compositor <../compositing/index.rst>
-   Texture Node Editor <uv/textures/nodes/index.rst>
+   texture_node/index.rst>
    vse/index.rst
    movie_clip_editor/index.rst
 
