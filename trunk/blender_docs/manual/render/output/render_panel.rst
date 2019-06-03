@@ -15,7 +15,7 @@ Animation :kbd:`Ctrl-F12`
    See :doc:`Rendering Animations </render/workflows/animations>` for more detail.
 Audio
    Mixes all the audio found in a scene and saves into one file.
-   See :doc:`/render/audio/introduction`.
+   See :doc:`/render/output/audio/introduction`.
 
 By default the biggest area is replaced with the UV/Image Editor and the render appears.
 

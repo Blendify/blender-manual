@@ -66,7 +66,7 @@ for more information.
 Preview
 =======
 
-To view your changes, build the manual :doc:`as instructed </about/contribute/build/index>`.
+To view your changes, build the manual :doc:`as instructed </about/contribute/build>`.
 Keep in mind that you can also build only the chapter you just edited to view it quickly.
 Open the generated ``.html`` files inside the ``build/html`` folder using your web browser,
 or refresh the page if you have it open already.

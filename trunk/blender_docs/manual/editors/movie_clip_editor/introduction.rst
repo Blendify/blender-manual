@@ -46,7 +46,7 @@ Properties Region
 =================
 
 Footage Settings
-   See :doc:`/editors/uv_image/image/image_settings`.
+   See :doc:`/editors/image/image_settings`.
 
 
 Main View

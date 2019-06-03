@@ -65,7 +65,7 @@ Image
    :ref:`Data-block menu <ui-data-block>` used for selecting images.
    When an image has been loaded or created in the UV/Image editor,
    the Image panel appears in the *Properties region*.
-   See :doc:`/editors/uv_image/image/image_settings`.
+   See :doc:`/editors/image/image_settings`.
 
    - Render Result
    - Viewer Node
@@ -136,11 +136,11 @@ Header
 
 View
    Tools for controlling how the content is displayed in the editor.
-   See :doc:`/editors/uv_image/navigating`.
+   See :doc:`/editors/image/navigating`.
 Select
    Tools for :doc:`Selecting UVs </editors/uv/editing/layout>`.
 Image
-   This contains options for :doc:`/editors/uv_image/image/index`.
+   This contains options for :doc:`/editors/image/index`.
 UVs
    Contains tools for :doc:`Unwrapping Meshes </editors/uv/editing/unwrapping/index>`
    and :doc:`Editing UVs </editors/uv/editing/layout>`.
