@@ -1,4 +1,4 @@
-.. _editors-image-index:
+.. _editors-uv-index:
 
 #############
   UV Editor

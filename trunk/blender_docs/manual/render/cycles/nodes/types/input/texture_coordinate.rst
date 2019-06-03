@@ -60,7 +60,7 @@ Normal
    the rotation of the lamp into account.
 UV
    UV texture coordinates from the active render UV map.
-   See :ref:`UV Mapping <editors-uv-image-index>` for more information.
+   See :ref:`UV Mapping <editors-uv-index >` for more information.
 
    .. note::
 
