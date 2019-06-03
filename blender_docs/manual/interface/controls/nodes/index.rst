@@ -11,6 +11,7 @@
    introduction.rst
    parts.rst
    selecting.rst
+   arranging.rst
    editing.rst
    properties.rst
    groups.rst
