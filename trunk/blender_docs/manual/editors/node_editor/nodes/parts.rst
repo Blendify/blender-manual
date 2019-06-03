@@ -17,7 +17,7 @@ Title
 =====
 
 The *Title* shows the name/type of the node.
-It can be overridden by changing the value of Label in the *Node* section of the *Properties Region* :kbd:`N`.
+It can be overridden by changing the value of Label in the *Node* section of the *Sidebar region* :kbd:`N`.
 On the left side of the title is the *collapse toggle*
 which can be used to collapse the node this can also be done with :kbd:`H`.
 

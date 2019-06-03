@@ -12,7 +12,7 @@ Transform Orientations
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Panel:     :menuselection:`Properties region --> Transform Orientations`
+   :Panel:     :menuselection:`Sidebar region --> Transform Orientations`
    :Hotkey:    :kbd:`Alt-Spacebar`
 
 *Transform Orientations* affect the behavior of
@@ -115,7 +115,7 @@ Custom Orientations
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Panel:     :menuselection:`Properties region --> Transform Orientations`
+   :Panel:     :menuselection:`Sidebar region --> Transform Orientations`
    :Hotkey:    :kbd:`Ctrl-Alt-Spacebar`
 
 You can define custom transform orientations, using object or mesh elements. Custom transform
@@ -127,7 +127,7 @@ use the *Normal* orientation of the selection.
 
    Transform Orientations panel.
 
-The *Transform Orientations* panel, found in the Properties region,
+The *Transform Orientations* panel, found in the Sidebar region,
 can be used to manage transform orientations: selecting the active orientation,
 adding ("+" icon), deleting ("X" icon) and rename custom orientations.
 
@@ -140,7 +140,7 @@ Create Orientation
 ^^^^^^^^^^^^^^^^^^
 
 To create a custom orientation, select the object or mesh element(s) and press :kbd:`Ctrl-Alt-Spacebar`,
-or click the "+" button on the *Transform Orientations* panel in the Properties region.
+or click the "+" button on the *Transform Orientations* panel in the Sidebar region.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom-name.png
 

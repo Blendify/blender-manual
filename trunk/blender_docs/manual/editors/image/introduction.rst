@@ -19,7 +19,7 @@ View
 Image
    :ref:`Data-block menu <ui-data-block>` used for selecting images.
    When an image has been loaded or created in the Image editor,
-   the Image panel appears in the *Properties region*.
+   the Image panel appears in the *Sidebar region*.
    See :doc:`/editors/image/image_settings`.
 
       - Render Result

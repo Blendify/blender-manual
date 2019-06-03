@@ -42,7 +42,7 @@ Transform Panel
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Properties region --> Transform`
+   :Panel:     :menuselection:`Sidebar region --> Transform`
 
 When nothing is selected, the panel is empty.
 When more than one vertex is selected, the median values are edited
@@ -349,7 +349,7 @@ Set Goal Weight
 This sets the :doc:`Soft Body Goal Weight </modeling/curves/properties/introduction>`
 of selected control points. The precise value can be adjusted in the Operator Panel.
 To adjust the *Mean Weight* (average) of selected control points use
-:menuselection:`Properties region --> Transform --> Mean Weight`.
+:menuselection:`Sidebar region --> Transform --> Mean Weight`.
 
 
 Smooth

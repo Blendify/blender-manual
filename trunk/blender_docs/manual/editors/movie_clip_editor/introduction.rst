@@ -42,7 +42,7 @@ Proportional Edit
    See :doc:`Proportional Edit </editors/3dview/object/editing/transform/control/proportional_edit>`.
 
 
-Properties Region
+Sidebar region
 =================
 
 Footage Settings

@@ -67,7 +67,7 @@ Before fine-tuning the camera parameters,
 you can set the convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
-You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
+You can toggle this and other display settings in the Stereoscopy panel of the 3D Views Sidebar region.
 In the following image, the camera's frustum volumes are also visible.
 
 .. figure:: /images/render_workflows_multiview_usage_stereo-preview.png
@@ -235,7 +235,7 @@ Pivot
 Viewport Stereo 3D
 ==================
 
-When you enable 'Views' in the Render Layer panel, a new area is available in the 3D View properties region.
+When you enable 'Views' in the Render Layer panel, a new area is available in the 3D View Sidebar region.
 In this panel you can pick whether to see the stereo 3D in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 

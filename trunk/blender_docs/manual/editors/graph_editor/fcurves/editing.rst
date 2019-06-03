@@ -17,7 +17,7 @@ And of course you can lock the transformation along the X axis (time frame) or
 Y axis (value) by pressing :kbd:`X` or :kbd:`Y` during transformation.
 
 For precise control of the keyframe position and value,
-you can set values in the *Active Keyframe* of the Properties Region.
+you can set values in the *Active Keyframe* of the Sidebar region.
 
 
 Insert Keyframe
