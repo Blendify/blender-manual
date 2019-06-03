@@ -53,8 +53,7 @@ When you select an Object type, it will be placed in your scene at the cursor.
 Many other data types, cameras, curves, and materials for example,
 must be linked to an object before they become visible.
 
-Newly added Group types are available in :menuselection:`Add --> Group Instances` in 3D View,
-or for Node Tree groups, the same menu in the Node Editor.
+Newly added Group types are available in :menuselection:`Add --> Collection Instance` in 3D View..
 
 Look in the Outliner, with display mode set to *blend-file*, to see all your linked and appended data-blocks.
 :kbd:`Ctrl-LMB` on a file name allows you to redirect a link to another file.

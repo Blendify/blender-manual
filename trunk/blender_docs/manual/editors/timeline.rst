@@ -150,9 +150,9 @@ Property Editors
 Image Editors
    The Image editor in Mask mode.
 Sequencer Editors
-   While playing, updates the Video Sequence Editor.
+   While playing, updates the Video Sequencer.
 Node Editors
-   While playing, updates the Node properties for the Node Editor.
+   While playing, updates the Node properties for the node editors.
 Clip Editors
    While playing, updates the Movie Clip Editor.
 

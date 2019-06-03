@@ -59,7 +59,7 @@ Painting & UV Editing
 
 For texture paint mode,
 the image that is painted on is taken from the active image texture node.
-This can be selected in the Node editor or the texture properties,
+This can be selected in the Texture Node editor or the texture properties,
 and it is indicated as blue in the material properties.
 
 For UV mapping, the active UV map as specified in the mesh properties is used.

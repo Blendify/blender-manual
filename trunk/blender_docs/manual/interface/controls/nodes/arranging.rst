@@ -7,11 +7,11 @@ Snapping
 ========
 
 Snap
-   Toggle snap mode for node in the Node Editor.
+   Toggle snapping mode for moving nodes around.
 Snap Node Element Selector
    This selector provide the following node elements for snap:
 
-   :Grid: (default) Snap to grid of the Node Editor.
+   :Grid: Snap to grid background.
    :Node X: Snap to left/right node border.
    :Node Y: Snap to top/bottom node border.
    :Node X/Y: Snap to any node border.
@@ -37,7 +37,7 @@ for the new node.
 
 .. figure:: /images/editors_node-editor_introduction_auto-offset.png
 
-Auto-offset is enabled by default, but it can be disabled from the Node editor header.
+Auto-offset is enabled by default, but it can be disabled from the editor's header.
 
 You can toggle the offset direction while you are moving the node by pressing :kbd:`T`.
 
@@ -46,4 +46,4 @@ setting in the editing section of the Preferences.
 
 .. seealso:: Example Video:
 
-   `Auto-Offset. A workflow enhancement for Blender's node editor <https://vimeo.com/135125839>`__.
+   `Auto-Offset. A workflow enhancement for Blender's node editors <https://vimeo.com/135125839>`__.
