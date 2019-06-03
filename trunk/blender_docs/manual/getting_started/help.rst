@@ -140,7 +140,7 @@ Python
 Directories
    Paths used for scripts, data files, presets and temporary files.
 
-   Those directories are configured using the :doc:`Preferences </preferences/file_paths>` Editor.
+   Those directories are configured using the :doc:`Preferences </editors/preferences/file_paths>` Editor.
 OpenGL
    This section shows the OpenGL version, the name of the manufacturer,
    and lists the capabilities of your hardware and driver.

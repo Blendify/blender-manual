@@ -31,7 +31,7 @@ Rendered
 
 Except for *Rendered*, these shading modes are not dependent on light sources in the scene.
 Instead they use a simple default lighting adjusted by the *Studio Lights*
-controls in the *Lights* tab of the :doc:`Preferences </preferences/system>`.
+controls in the *Lights* tab of the :doc:`Preferences </editors/preferences/system>`.
 
 The viewport shading controls the appearance of all objects in a scene,
 but this can be overridden for individual objects using the *Display panel* in their *Object Properties*.

@@ -5,7 +5,7 @@ Introduction
 
 Here are some preferences that you may wish to set initially.
 The full list and explanation of the Preferences are documented in the section
-:doc:`Preferences </preferences/index>`.
+:doc:`Preferences </editors/preferences/index>`.
 
 
 Language
@@ -27,7 +27,7 @@ If you have a compact keyboard without a separate number pad, enable
 If you do not have a middle mouse button, you can enable
 :menuselection:`Preferences --> Emulate 3 Button Mouse`.
 
-See :doc:`Input Preferences </preferences/input>` for details.
+See :doc:`Input Preferences </editors/preferences/input>` for details.
 
 
 File and Paths
@@ -50,4 +50,4 @@ This would not happen by accident,
 and most users leave this option on to automatically run scripts often used in advanced rigs
 (such as "Rigify" that controls the skeleton of a human rig).
 
-See :doc:`File Preferences </preferences/file_paths>` for details.
+See :doc:`File Preferences </editors/preferences/file_paths>` for details.

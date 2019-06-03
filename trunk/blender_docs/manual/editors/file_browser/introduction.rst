@@ -116,7 +116,7 @@ Confirm
    The main button to Open Directory/File or Save (As) :kbd:`Return` or
    double-click with :kbd:`LMB` on the entry confirms with that file or data-block.
 
-   - :kbd:`Shift-LMB` -- Open the file externally (selected in :doc:`/preferences/file_paths`).
+   - :kbd:`Shift-LMB` -- Open the file externally (selected in :ref:`prefs-file-paths`).
    - :kbd:`Alt-LMB` -- Open the directory externally (using the system's file manager).
 Cancel
    Cancels the Open or Save file selection and closes the File Browser :kbd:`Esc` or
@@ -157,7 +157,7 @@ Recent
 ------
 
 This is a list of recently accessed folders. You can control how many folders appear in this
-list by going to the *File* tab of the :doc:`Preferences </preferences/file_paths>`,
+list by going to the *File* tab of the :doc:`Preferences </editors/preferences/file_paths>`,
 in the *Recent Files* number button.
 
 

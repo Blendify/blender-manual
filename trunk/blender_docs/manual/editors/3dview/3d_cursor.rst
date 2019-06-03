@@ -28,7 +28,7 @@ any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpa
 That way you can control the positioning along two axes in one view and determine depth in the second view.
 
 By default the depth of the geometry under the cursor is used,
-this can be disabled using the *Cursor Depth* toggle in the :doc:`Preferences </preferences/interface>`.
+this can be disabled using the *Cursor Depth* toggle in the :doc:`Preferences </editors/preferences/interface>`.
 
 .. seealso::
 

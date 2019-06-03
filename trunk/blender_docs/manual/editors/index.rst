@@ -69,4 +69,4 @@ Data
    outliner.rst
    properties_editor.rst
    file_browser/index.rst
-   ../preferences/index.rst
+   preferences/index.rst

@@ -105,4 +105,4 @@ Blender allows for most of its interface color settings to be changed to suit th
 If you find that the colors you see on screen do not match those mentioned
 in the Manual then it could be that your default theme has been altered.
 Creating a new theme or selecting/altering a pre-existing one can be done by selecting
-the :doc:`Preferences </preferences/index>` editor and clicking on the *Themes* tab.
+the :doc:`Preferences </editors/preferences/index>` editor and clicking on the *Themes* tab.

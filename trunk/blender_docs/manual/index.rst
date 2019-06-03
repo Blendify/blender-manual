@@ -121,14 +121,6 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_preferences.jpg
-            :target: preferences/index.html
-
-         :doc:`/preferences/index`
-            Blender's settings.
-
-      .. container:: descr
-
          .. figure:: /images/index_advanced.jpg
             :target: advanced/index.html
 
@@ -171,7 +163,6 @@ Sections
       physics/index.rst
       render/index.rst
       compositing/index.rst
-      preferences/index.rst
       advanced/index.rst
       addons/index.rst
       pipeline/index.rst

@@ -54,10 +54,10 @@ is replaced with a couple initial preferences to configure how you interact insi
 
 .. note::
 
-   These options can always be changed later in the :doc:`Preferences </preferences/index>`
+   These options can always be changed later in the :doc:`Preferences </editors/preferences/index>`
 
 Shortcuts
-   Presets for the default :doc:`keymap </preferences/keymap>` for Blender.
+   Presets for the default :doc:`keymap </editors/preferences/keymap>` for Blender.
    Note that this manual assumes that you use the "Blender" keymap.
 
    Blender
@@ -75,7 +75,7 @@ Select With
    Controls which mouse button, either right or left, is used to select items in Blender.
 Spacebar
    Controls the action of :kbd:`Spacebar`.
-   These and other shortcuts can be modified in the :doc:`keymap preferences </preferences/keymap>`.
+   These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
 
    Play
       Starts playing through the :doc:`Timeline </editors/timeline>`,
@@ -88,4 +88,4 @@ Spacebar
       This option is good for someone who is new to Blender and is unfamiliar with its menus and shortcuts.
 Theme
    Choose between a light or dark theme for Blender.
-   Themes can be customized more in the :doc:`Preferences </preferences/themes>`
+   Themes can be customized more in the :doc:`Preferences </editors/preferences/themes>`
