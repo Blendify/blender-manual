@@ -1,14 +1,14 @@
 .. _editors-image-index:
 
-###################
-  UV/Image Editor
-###################
+################
+  Image Editor
+################
 
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
    navigating.rst
-   display_panel.rst
+   view_tab.rst
    scopes.rst
    image_settings.rst
