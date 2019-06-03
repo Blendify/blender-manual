@@ -39,7 +39,7 @@ UV
    You can almost think of UV coordinates as a mapping that works on a 2D plane with its own local coordinate system
    to the plane on which it is operating on.
    This mapping is especially useful when using 2D images as textures,
-   as seen in :ref:`UV Mapping <editors-uv-index >`.
+   as seen in :ref:`UV Mapping <editors-uv-index>`.
    You can use multiple textures with one set of UV coordinates.
 
    UV Map
