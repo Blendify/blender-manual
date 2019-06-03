@@ -279,7 +279,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |none|
      - | Collections of re-usable nodes.
-       | Used in the Node Editor.
+       | Used in the node editors.
    * - Object
      - |tick|
      - |none|

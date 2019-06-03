@@ -3,14 +3,14 @@
 Introduction
 ************
 
-The *Node Editor* is used to work with node-based workflows.
-The node tree type can be changed using the buttons in the Node editor header.
-However, here we will only give an overview of what the *Node Editor* is.
+The different node editors are used to work with node-based workflows.
+Each node editor type has there own specific purpose, so,
+here we will only give an overview of what the generic node editor is.
 In the list below it shows a list of different types of node trees and where each is documented.
 
 .. figure:: /images/editors_node-editor_introduction_example.jpg
 
-   The Node Editor.
+   Example of a node editor.
 
 .. _node-tree-types:
 
@@ -46,7 +46,7 @@ The *Header* contains various menus, buttons and options, partially based on the
 
 .. figure:: /images/editors_node-editor_introduction_header.png
 
-   Common Node editor header options.
+   Common node editor header options.
 
 View
    This menu changes your view of the editor.
@@ -76,7 +76,7 @@ and buttons for adding nodes. The Tool Shelf is organized using tabs.
 Sidebar
 -------
 
-The *Sidebar* region contains properties for the current selected node as well as Node editor specific settings.
+The *Sidebar* region contains properties for the current selected node as well as node editor specific settings.
 
 
 Navigating
@@ -105,7 +105,7 @@ Adding Nodes
    :Menu:      :menuselection:`Add`
    :Hotkey:    :kbd:`Shift-A`
 
-Nodes are added in two ways to the Node editor:
+Nodes are added in two ways to the node editors:
 
 #. By using the Tool Shelf which has buttons for adding nodes, organized with tabs.
 #. By using the :menuselection:`Add` menu :kbd:`Shift-A`.

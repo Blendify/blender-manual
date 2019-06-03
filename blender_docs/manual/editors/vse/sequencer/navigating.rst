@@ -82,7 +82,7 @@ Blender has no real way of being notified from your operating system.
 Backdrop
 --------
 
-Displays the current frame in the background of the main view like in the Node editor.
+Displays the current frame in the background of the main view like in the Compositor.
 
 
 Main View

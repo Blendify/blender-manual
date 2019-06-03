@@ -44,7 +44,7 @@ Make Group
    :Menu:      :menuselection:`Group --> Make Group`
    :Hotkey:    :kbd:`Ctrl-G`
 
-To create a node group, in the Node editor, select the nodes you want to include, then
+To create a node group, select the nodes you want to include, then
 press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`.
 A node group will have a green title bar. All of the selected nodes will now be contained within the node group.
 Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
@@ -54,7 +54,7 @@ When appending node groups from one blend-file to another,
 Blender does not make a distinction between material node groups or composite node groups,
 so it is recommended to use some naming convention that will allow you to easily distinguish between the two types.
 
-.. tip:: What **not** to include in your groups (all modes of Node editors)
+.. tip:: What **not** to include in node groups:
 
    Remember that the essential idea is that a group should be an easily-reusable,
    self-contained software component. Material node groups should **not** include:
@@ -187,7 +187,7 @@ Appending Node Groups
    :Mode:      All Modes
    :Menu:      :menuselection:`File --> Link/Append`
 
-Once you have appended a Node Tree to your blend-file, you can make use of it in the Node editor by
+Once you have appended a Node Tree to your blend-file, you can make use of it in a node editor by
 pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then selecting the appended group.
 The "control panel" of the Group include the individual controls for the grouped nodes.
 You can change them by working with the Group node like any other node.
