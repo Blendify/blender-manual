@@ -73,7 +73,7 @@ In the Image Editor, you paint on a flat canvas that is wrapped around the mesh 
 Any changes made in the Image Editor show up immediately in the 3D View, and vice versa.
 
 A full complement of brushes and colors can be selected from
-the Properties region in the Image Editor.
+the Sidebar region in the Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
 you must explicitly do so by :menuselection:`Image Editor --> Image --> Save`.

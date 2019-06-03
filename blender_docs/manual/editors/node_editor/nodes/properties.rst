@@ -3,7 +3,7 @@
 Properties
 **********
 
-In the properties region.
+In the Sidebar region.
 
 
 Node Panel

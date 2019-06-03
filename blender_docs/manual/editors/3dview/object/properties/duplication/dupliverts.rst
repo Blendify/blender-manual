@@ -131,7 +131,7 @@ in the :menuselection:`Object --> Relations extras` panel change the :menuselect
 
    The axes of an object can be made visible in the :menuselection:`Object --> Display` panel.
    To display the vertex normals of the parent mesh, enter *Edit Mode* and
-   enable this visualization in the :menuselection:`Properties region --> Mesh Display` panel
+   enable this visualization in the :menuselection:`Sidebar region --> Mesh Display` panel
    where you can also resize the displayed normals as necessary.
 
 

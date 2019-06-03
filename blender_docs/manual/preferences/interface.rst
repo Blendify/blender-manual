@@ -38,7 +38,7 @@ Editors
 
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D View.
-   It means that the *Tool Shelf* and *Properties regions*,
+   It means that the *Tool Shelf* and *Sidebar regions*,
    will be drawn overlapping the 3D View editor.
 
    If you have a capable graphics card and drivers with *Triple Buffer* support,

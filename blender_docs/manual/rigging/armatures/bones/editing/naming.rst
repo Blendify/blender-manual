@@ -8,7 +8,7 @@ Naming
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Properties region --> Item`,
+   :Panel:     :menuselection:`Sidebar region --> Item`,
                :menuselection:`Bones tab --> Bones panel`
 
 You can rename your bones, either using the *name* field of the *Item*

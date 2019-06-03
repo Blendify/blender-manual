@@ -31,7 +31,7 @@ here they are the bone's own axes (when you lock to a local axis,
 by pressing the relevant key twice, the constraint is applied along the selected bone's local axis,
 not the armature object's axis).
 
-Finally, you can edit in the *Transform* panel in the Properties region
+Finally, you can edit in the *Transform* panel in the Sidebar region
 the positions and radius of both joints of the active selected bone,
 as well as its :ref:`roll rotation <armature-bone-roll>`.
 

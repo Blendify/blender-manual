@@ -359,7 +359,7 @@ Pivot Point
    :Header:    :menuselection:`Pivot Point`
 
 The UV Editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
-clicking in the UV editor. You can also manually adjust its position in the Properties region.
+clicking in the UV editor. You can also manually adjust its position in the Sidebar region.
 The range by default is from 0 to 256 starting from the lower left corner.
 By enabling *Normalized* under *Coordinates*, the range changes from 0 to 1.
 

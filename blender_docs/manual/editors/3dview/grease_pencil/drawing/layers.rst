@@ -7,7 +7,7 @@ Layers
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Properties region --> Grease Pencil Layers`
+   :Panel:     :menuselection:`Sidebar region --> Grease Pencil Layers`
 
 Grease Pencil sketches are organized in layers,
 much like the image layers in the GIMP or Photoshop\ :sup:`®`.
@@ -18,7 +18,7 @@ meaningful way (e.g. "blocking notes", "director's comments on blocking", or "gu
 For this reason, all the strokes on a layer (not just those made after a particular change)
 are affected by that layer's color, opacity, and stroke thickness settings.
 
-Layers are managed in the *Grease Pencil Panel* of the *Properties region* :kbd:`N` shown here.
+Layers are managed in the *Grease Pencil Panel* of the *Sidebar region* :kbd:`N` shown here.
 
 .. figure:: /images/interface_grease-pencil_drawing_layers_list.png
 

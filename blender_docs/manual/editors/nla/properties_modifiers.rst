@@ -6,7 +6,7 @@ Properties & Modifiers
 Properties
 ==========
 
-Strip properties can be accessed via the NLA Properties region.
+Strip properties can be accessed via the NLA Sidebar region.
 
 
 Animation Data
@@ -15,7 +15,7 @@ Animation Data
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties region --> Animations --> Animation Data`
+   :Panel:     :menuselection:`Sidebar region --> Animations --> Animation Data`
 
 .. figure:: /images/editors_nla_properties-modifiers_animation-data-panel.png
 
@@ -85,7 +85,7 @@ Active Track
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties region --> Animations --> Active Track`
+   :Panel:     :menuselection:`Sidebar region --> Animations --> Active Track`
 
 Name
    Name of the track which the strip currently belongs to.
@@ -130,7 +130,7 @@ Action Clip
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties region --> Animations --> Active Clip`
+   :Panel:     :menuselection:`Sidebar region --> Animations --> Active Clip`
 
 .. figure:: /images/editors_nla_properties-modifiers_action-clip-panel.png
 
@@ -164,7 +164,7 @@ Evaluation
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties region --> Animations --> Evaluation`
+   :Panel:     :menuselection:`Sidebar region --> Animations --> Evaluation`
 
 .. figure:: /images/editors_nla_properties-modifiers_evaluation-panel.png
 
@@ -190,7 +190,7 @@ Modifiers
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties region --> Modifiers --> Modifiers`
+   :Panel:     :menuselection:`Sidebar region --> Modifiers --> Modifiers`
 
 Like its counterparts in graph and video editing,
 Modifiers can stack different combinations of effects for strips.

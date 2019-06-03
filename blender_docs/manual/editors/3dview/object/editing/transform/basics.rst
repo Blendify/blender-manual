@@ -119,7 +119,7 @@ There are multiple ways to transform an element which include:
 - The :doc:`3D Transform Manipulator </editors/3dview/object/editing/transform/control/manipulators>`
   widget.
 - The :doc:`Transform panel </editors/3dview/object/properties/transforms>`
-  in the Properties region or the Object tab.
+  in the Sidebar region or the Object tab.
 
 
 Confirm and Cancel

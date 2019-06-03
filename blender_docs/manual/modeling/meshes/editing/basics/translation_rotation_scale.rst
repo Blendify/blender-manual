@@ -38,7 +38,7 @@ Transform Panel
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Properties region --> Transform`
+   :Panel:     :menuselection:`Sidebar region --> Transform`
 
 When nothing is selected, the panel is empty.
 When more than one vertex is selected, the median values is edited

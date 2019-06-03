@@ -111,10 +111,10 @@ For more information on specific tools available, see:
 - :ref:`painting-texture-index`
 
 
-Properties Region
+Sidebar region
 =================
 
-The Properties Region contains properties of the active object and selected objects (such as their locations),
+The Sidebar region contains properties of the active object and selected objects (such as their locations),
 as well as properties of the editor itself:
 
 - :doc:`Transform </editors/3dview/object/editing/transform/introduction>`

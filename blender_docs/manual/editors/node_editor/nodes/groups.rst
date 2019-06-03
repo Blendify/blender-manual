@@ -118,7 +118,7 @@ Panel
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Properties region --> Interface`
+   :Panel:     :menuselection:`Sidebar region --> Interface`
 
 .. figure:: /images/editors_node-editor_nodes_groups_interface-panel.png
    :align: right

@@ -38,7 +38,7 @@ Modes
       :doc:`/editors/movie_clip_editor/masking/index`.
 
 
-Properties Region
+Sidebar region
 =================
 
 Grease Pencil
@@ -83,7 +83,7 @@ Auto Update Other Affected Windows
    Update other affected windows automatically to reflect changes during interactive operations e.g. transforms.
 
 
-Properties Region
+Sidebar region
 =================
 
 UV Vertex Panel

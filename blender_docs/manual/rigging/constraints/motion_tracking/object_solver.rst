@@ -19,7 +19,7 @@ Can be used to add a mesh to video for example.
    Located at :menuselection:`Movie Clip Editor --> Tool Shelf --> Solve --> Solve Camera Motion`
 
    If it says *Solve Camera Motion* instead of *Solve Object Motion* then go into
-   the :menuselection:`Movie Clip Editor --> Properties region --> Objects`
+   the :menuselection:`Movie Clip Editor --> Sidebar region --> Objects`
    and switch it from the camera, to an object.
 
 

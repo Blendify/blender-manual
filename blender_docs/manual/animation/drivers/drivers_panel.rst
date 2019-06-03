@@ -8,7 +8,7 @@ Drivers Panel
 
    :Editor:    Graph editor
    :Mode:      Drivers
-   :Panel:     :menuselection:`Properties region --> Drivers --> Drivers`
+   :Panel:     :menuselection:`Sidebar region --> Drivers --> Drivers`
 
 .. figure:: /images/animation_drivers_drivers-panel_panel.png
    :align: right

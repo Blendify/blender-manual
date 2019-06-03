@@ -128,7 +128,7 @@ The *Tool Shelf* is a context-sensitive region, natively containing tools for th
 and buttons for adding nodes. The Tool Shelf is organized using tabs.
 
 
-Properties Region
+Sidebar region
 -----------------
 
-The *Properties Region* contains properties for the current selected node as well as Node editor specific settings.
+The *Sidebar region* contains properties for the current selected node as well as Node editor specific settings.

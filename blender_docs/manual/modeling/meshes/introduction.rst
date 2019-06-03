@@ -126,16 +126,16 @@ The properties of each tool are displayed in the operator panel at the bottom of
 Even more mesh editing tools can be enabled in the :menuselection:`Preferences --> Add-ons`.
 
 
-Properties Region
+Sidebar region
 =================
 
 .. figure:: /images/modeling_meshes_introduction_properties-region.png
 
-   The Properties region in edit mode.
+   The Sidebar region in edit mode.
 
-Open/close the *Properties region* using :kbd:`N`.
+Open/close the *Sidebar region* using :kbd:`N`.
 
-In the *Properties region*,
+In the *Sidebar region*,
 panels directly related to mesh editing are the *Transform* panel,
 where numeric values can be entered, and the *Mesh Display* panel,
 where for example normals and numeric values for distances, angles,

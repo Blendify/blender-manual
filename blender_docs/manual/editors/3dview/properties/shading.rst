@@ -69,14 +69,14 @@ Shading Panel
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties region --> Shading`
+   :Panel:     :menuselection:`Sidebar region --> Shading`
 
 .. figure:: /images/editors_3dview_properties_shading_panel.png
    :align: right
 
    3D View Shading panel.
 
-The shading panel in the Properties Region provides additional control over the way objects in the 3D View appear.
+The shading panel in the Sidebar region provides additional control over the way objects in the 3D View appear.
 
 Textured Solid
    Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
