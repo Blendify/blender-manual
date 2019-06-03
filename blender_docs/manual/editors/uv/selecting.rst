@@ -31,8 +31,8 @@ More/Less :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
    Expands/Contracts the selection to/from the adjacent elements of the selection type.
 Select Split :kbd:`Y`
    Cuts apart the selected UVs from the map. Only those UVs which belong to
-   fully selected faces remain selected. As the name implies, this is particularly useful
-   to unlink faces and move them elsewhere. The hotkey is analogous to the mesh Split tool.
+   fully selected faces remain selected. As the name implies, this is particularly useful to
+   unlink faces and move them elsewhere. The hotkey is analogous to the mesh Split tool.
 
 
 Header

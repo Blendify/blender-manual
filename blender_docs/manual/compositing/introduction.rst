@@ -44,8 +44,8 @@ to your heart's content (or physical memory constraints, whichever comes first).
 
 .. note::
 
-   Nodes and node concepts are explained in more detail in the
-   :doc:`Nodes </interface/controls/nodes/index>` reference.
+   Nodes and node concepts are explained in more detail
+   in the :doc:`Nodes </interface/controls/nodes/index>` reference.
 
 
 Examples

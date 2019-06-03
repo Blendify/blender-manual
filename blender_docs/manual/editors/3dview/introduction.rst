@@ -111,7 +111,7 @@ For more information on specific tools available, see:
 - :ref:`painting-texture-index`
 
 
-Sidebar region
+Sidebar Region
 =================
 
 The Sidebar region contains properties of the active object and selected objects (such as their locations),

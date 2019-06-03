@@ -126,8 +126,8 @@ The properties of each tool are displayed in the operator panel at the bottom of
 Even more mesh editing tools can be enabled in the :menuselection:`Preferences --> Add-ons`.
 
 
-Sidebar region
-=================
+Sidebar Region
+==============
 
 .. figure:: /images/modeling_meshes_introduction_properties-region.png
 

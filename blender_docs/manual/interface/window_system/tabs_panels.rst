@@ -48,8 +48,9 @@ Panels
    :align: right
    :width: 200px
 
-Panels in Properties Editor. Panel headers are highlighted in
-red and sub-panel header in yellow.
+   Panels in Properties Editor.
+   
+   Panel headers are highlighted in red and sub-panel header in yellow.
 
 The smallest organizational unit in the user interface is a panel.
 *Panel header* is always visible, and it shows the title for the panel.

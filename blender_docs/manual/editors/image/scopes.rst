@@ -48,7 +48,7 @@ Waveform Mode
 Vectorscope
 ===========
 
-.. (TODO add) description of a Vectorscope maybe this should go in the glossary?.
+.. (TODO add) description of a Vectorscope maybe this should go in the glossary?
 
 Vectorscope Opacity
    Opacity of the points.

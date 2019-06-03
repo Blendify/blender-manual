@@ -72,4 +72,4 @@ Irradiance Display
 .. note::
 
    Cache data display only works in the viewport and
-   only if the viewport uses world lighting in lookdev mode or is in render preview mode.
+   only if the viewport uses world lighting in LookDev mode or is in Render Preview mode.

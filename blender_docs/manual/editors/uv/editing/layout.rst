@@ -4,8 +4,8 @@
 Layout
 ******
 
-After unwrap, you will likely need to arrange the UV maps into something that can be logically
-textured or painted. Your goals for editing are:
+After unwrap, you will likely need to arrange the UV maps into something
+that can be logically textured or painted. Your goals for editing are:
 
 - Stitch some pieces (UV maps) back together.
 - Minimize wasted space in the image.
@@ -276,8 +276,8 @@ Merge UVs by Distance
 
    :Mode:      View mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> Merge UVs by Distance`
-   :Menu:      :menuselection:`UVs --> Weld/Align -->  Merge UVs by Distance`,
-               :menuselection:`Specials -->  Merge UVs by Distance`
+   :Menu:      :menuselection:`UVs --> Weld/Align --> Merge UVs by Distance`,
+               :menuselection:`Specials --> Merge UVs by Distance`
 
 The *Merge UVs by Distance* tool will merge selected UVs within the specified *Margin*.
 

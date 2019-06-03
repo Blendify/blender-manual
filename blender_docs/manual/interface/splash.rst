@@ -79,13 +79,13 @@ Spacebar
 
    Play
       Starts playing through the :doc:`Timeline </editors/timeline>`,
-      this option is good for animation or video editing work.
+      this option is good for animation or video editing.
    Tools
       Opens the toolbar underneath the cursor to quickly change the active tool.
-      This option is good for if doing a lot of modeling or rigging work.
+      This option is good for if doing a lot of modeling or rigging.
    Search
       Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
-      This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
+      This option is good for someone who is new to Blender and is unfamiliar with its menus and shortcuts.
 Theme
    Choose between a light or dark theme for Blender.
    Themes can be customized more in the :doc:`Preferences </preferences/themes>`

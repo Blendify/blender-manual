@@ -257,8 +257,8 @@ Create Snapshot (ghost icon)
    Creates a picture with the current shape of the curves.
 
 
-Sidebar region
-=================
+Sidebar Region
+==============
 
 The panels in the *Sidebar region*.
 

@@ -15,7 +15,7 @@ Revert
    Reopens the current file to its last saved version.
 Recover
    Recover Last Session
-      This will load a blend-file Blender automatically saves just before exiting.
+      This will load a blend-file that Blender automatically saves just before exiting.
       So this option enables you to :doc:`recover </troubleshooting/recover>`
       your last work session, e.g. if you closed Blender by accident.
    Recover Auto Save
@@ -29,10 +29,10 @@ Save Copy
    :doc:`Saves </data_system/files/save>` a copy of the current file.
 Defaults
    Save User Settings :kbd:`Ctrl-U`
-      Saves the current scene and preferences to :doc:`startup.blend </data_system/files/startup_file>`.
+      Saves the current scene and preferences to the :doc:`startup.blend </data_system/files/startup_file>` file.
    Load Factory Settings
       Restores the default startup file as :ref:`factory settings <factory-settings>` and saves the changes.
-   Load Factory Settings
+   Load Factory Settings (Temporary)
       Restores the default startup file as :ref:`factory settings <factory-settings>` but does not save the changes.
 Link
    Links data from an external blend-file (library) to the current scene.

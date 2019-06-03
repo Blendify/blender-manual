@@ -1,4 +1,4 @@
-.... _bpy.types.PointDensityTexture:
+.. _bpy.types.PointDensityTexture:
 
 *********************
 Point Density Texture

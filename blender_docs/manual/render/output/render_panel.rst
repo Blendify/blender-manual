@@ -28,8 +28,8 @@ or press :kbd:`Esc`.
 Display
 =======
 
-Renders are displayed in the Image Editor. You can set the way this is displayed to several
-different options in the Display menu:
+Renders are displayed in the Image Editor. You can set the way this is displayed to
+several different options in the Display menu:
 
 Display
    Keep UI

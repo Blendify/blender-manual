@@ -79,14 +79,14 @@ Principled BSDF
    Anisotropy is not supported. Transmission Roughness is not supported. The Sheen layer is a crude approximation.
 
 Volume Absorption
-   See volume Limitation.
+   See :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
 
 Volume Scatter
    The anisotropy parameter will be mixed and averaged for all overlapping volumetric objects,
-   which is not physically correct and differs from Cycles. Also see Volume Limitation.
+   which is not physically correct and differs from Cycles. Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
 
 Principled Volume
-   Same as Volume Scatter. Also see Volume Limitation.
+   Same as Volume Scatter. Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
 
 Holdout
    Not supported.

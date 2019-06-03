@@ -7,7 +7,7 @@ Node Parts
 **********
 
 All nodes in Blender are based off of a similar construction.
-This applies to :ref:`any type of node <node-tree-types>`.
+This applies to :ref:`any type of node <tab-node-tree-types>`.
 These parts include the Title, Sockets, Preview and more.
 
 .. figure:: /images/editors_node-editor_nodes_parts_overview.png

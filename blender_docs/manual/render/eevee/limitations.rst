@@ -97,8 +97,8 @@ Screen Space Refraction
 Subsurface Scattering
 ---------------------
 
-- Only one BSSSDF can produce screen space subsurface scattering.
-- The evaluated BSSSDF is currently arbitrarily chosen.
+- Only one BSSRDF can produce screen space subsurface scattering.
+- The evaluated BSSRDF is currently arbitrarily chosen.
 - A maximum of 254 different surfaces can use subsurface scattering.
 - Only scaling is adjustable per pixel. Individual RGB radii are adjustable in the socket default value.
 - Input radiance from each surfaces are not isolated during the blurring,
