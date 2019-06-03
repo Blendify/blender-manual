@@ -40,9 +40,9 @@ Header
 
 Sync Selection
    Turning on the *Sync Selection* button causes selection of components
-   in the 3D View to sync with their corresponding elements in the UV/Image editor.
-   If off only the selected faces are displayed in the UV/Image editor.
-   These two modes have very different results when transforming components in the UV/Image editor.
+   in the 3D View to sync with their corresponding elements in the UV editor.
+   If off only the selected faces are displayed in the UV editor.
+   These two modes have very different results when transforming components in the UV editor.
 
 
 Selection Modes

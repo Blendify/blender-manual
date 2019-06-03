@@ -30,7 +30,7 @@ Save As Image
    you want to save it under a different name.
 Save a Copy
    Using *Save as Copy* will save the file to a specified name,
-   but will keep the old one open in the UV/Image editor.
+   but will keep the old one open in the Image editor.
 Edit Externally
    Using the *Edit Externally* tool Blender will open an external image editor,
    as specified in the *Preferences* and load in the image to be edited.

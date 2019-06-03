@@ -7,7 +7,7 @@ The Image Editor is where you can view/edit 2D assets like images/textures.
 
 .. figure:: /images/editors_uv-image_introduction_main.png
 
-   UV/Image Editor with a UV map and a test grid texture.
+   Image Editor with a test grid texture.
 
 
 Header
@@ -16,11 +16,11 @@ Header
 View
    Tools for controlling how the content is displayed in the editor.
    See :doc:`/editors/image/navigating`.
-   Image
-      :ref:`Data-block menu <ui-data-block>` used for selecting images.
-      When an image has been loaded or created in the UV/Image editor,
-      the Image panel appears in the *Properties region*.
-      See :doc:`/editors/image/image_settings`.
+Image
+   :ref:`Data-block menu <ui-data-block>` used for selecting images.
+   When an image has been loaded or created in the Image editor,
+   the Image panel appears in the *Properties region*.
+   See :doc:`/editors/image/image_settings`.
 
       - Render Result
       - Viewer Node
@@ -42,7 +42,7 @@ several new menu items become available.
 Slot
    You can save successive renders into the render buffer by selecting a new slot before rendering.
    If an image has been rendered to a slot, it can be viewed by selecting that slot.
-   Empty slots appear as blank grids in the UV/Image editor.
+   Empty slots appear as blank grids in the Image editor.
    Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards and backwards through saved renders.
    The *Slot Name* field in the *Display Panel* allows you to rename a slot.
 Render Layer
@@ -76,12 +76,6 @@ Main View
 
 When :kbd:`LMB` dragging mouse the color under the cursor is shown in the footer as well the cursor position and
 the color values in the RGBA, HSV and Luminance :term:`color space`.
-
-The Image Editor is where you can view/edit 2D assets like images/textures.
-
-.. figure:: /images/editors_uv-image_introduction_main.png
-
-   UV/Image Editor with a UV map and a test grid texture.
 
 
 Sidebar Region

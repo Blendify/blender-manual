@@ -123,7 +123,7 @@ View
 Cursor
    New strokes are drawn in 3D space, with position determined by the 3D cursor
    and the view rotation at the time of drawing. *Cursor* is available as an option
-   in the *UV/Image Editor* but it functions identically to the *View* option. *(3D View only)*
+   in the *Image Editor* but it functions identically to the *View* option. *(3D View only)*
 
    Lock axis
       Lock projection to a specified axis.

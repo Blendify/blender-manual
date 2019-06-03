@@ -230,7 +230,7 @@ Snap
    :Menu:      :menuselection:`UVs --> Snap`
    :Hotkey:    :kbd:`Shift-S`
 
-Snapping in the UV/image editor is similar to
+Snapping in the UV Editor is similar to
 :doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
 For the snap to pixel options to work an image has to be loaded.
 
@@ -358,8 +358,8 @@ Pivot Point
    :Mode:      View mode
    :Header:    :menuselection:`Pivot Point`
 
-The UV/Image editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
-clicking in the UV/Image editor. You can also manually adjust its position in the Properties region.
+The UV Editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
+clicking in the UV editor. You can also manually adjust its position in the Properties region.
 The range by default is from 0 to 256 starting from the lower left corner.
 By enabling *Normalized* under *Coordinates*, the range changes from 0 to 1.
 

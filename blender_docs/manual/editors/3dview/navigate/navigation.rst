@@ -8,7 +8,7 @@ Navigating in the 3D space is done with the use of both mouse movement and keybo
 To be able to work in the three-dimensional space that Blender uses,
 you must be able to change your viewpoint as well as the viewing direction of the scene.
 While we will describe the *3D View* editor, most of the other editors have similar functions.
-For example, it is possible to translate and zoom in the UV/Image editor.
+For example, it is possible to translate and zoom in the Image editor.
 
 .. tip:: Mouse Buttons and Numpad
 

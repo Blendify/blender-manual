@@ -47,7 +47,7 @@ UV Maps Panel
    The UV Maps panel in the Mesh tab.
 
 In the Mesh tab the UV maps panel contains a :ref:`ui-list-view` that lists the UV maps created for this mesh.
-The selected map is displayed in the UV/Image Editor.
+The selected map is displayed in the UV Editor.
 
 Active Render
    Click the camera icon to enable that UV texture for rendering.

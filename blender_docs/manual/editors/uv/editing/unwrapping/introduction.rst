@@ -20,7 +20,7 @@ Each face in the UV map corresponds to a mesh face.
 
 Each face of a mesh can have many UV textures.
 Each UV texture can have an individual image assigned to it.
-When you unwrap a face to a UV texture in the UV/Image Editor, each face of the mesh is
+When you unwrap a face to a UV texture in the UV Editor, each face of the mesh is
 automatically assigned *four UV coordinates:* These coordinates define the way an image or
 a texture is mapped onto the face. These are 2D coordinates, which is why they are called UV,
 to distinguish them from XYZ coordinates.
@@ -49,12 +49,11 @@ Getting Started
 By default, meshes are not created with UVs. First you must map the faces, then
 you can :doc:`edit them </editors/uv/editing/layout>`.
 The process of unwrapping your model is done within Edit Mode in the 3D View editor.
-This process creates one or more UV Islands in the :ref:`UV/Image Editor <editors-uv-index>`.
+This process creates one or more UV Islands in the :ref:`UV Editor <editors-uv-index>`.
 
 To begin, choose the *UV Editing* :doc:`workspace </interface/window_system/workspaces>`
 from the selection list at the top of your screen in the Preferences header.
-This sets one of the areas to show you the UV/Image Editor,
-and the other area to the 3D View.
+This sets one of the areas to show you the UV Editor, and the other area to the 3D View.
 
 Enter *Edit Mode*, as all unwrapping is done in Edit Mode.
 You can be in vertex, face, or edge selection mode.
@@ -75,5 +74,5 @@ The process is:
 #. Adjust the unwrap settings.
 #. Add a test image to see if there will be any distortion.
    See :doc:`Applying Images to UVs </editors/uv/editing/applying_image>`.
-#. Adjust UVs in the UV/Image editor.
+#. Adjust UVs in the UV editor.
    See :doc:`Editing UVs </editors/uv/editing/layout>`.

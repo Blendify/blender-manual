@@ -54,7 +54,7 @@ Marking Seams
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    UV/Image
+   :Editor:    UV Editor
    :Mode:      View mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
    :Menu:      :menuselection:`UVs --> Mark/Clear Seam`
@@ -69,7 +69,7 @@ To take an edge out of a seam, select it, :kbd:`Ctrl-E` and *Clear Seam*.
 
 In the example to the right, the back-most edge of the cylinder was selected as the seam
 (to hide the seam), and the default unwrap calculation was used.
-In the UV/Image Editor, you can see that all the faces are nicely unwrapped,
+In the UV Editor, you can see that all the faces are nicely unwrapped,
 just as if you cut the seam with a scissors and spread out the fabric.
 
 When marking seams, you can use the :menuselection:`Select --> Linked Faces`

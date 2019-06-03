@@ -27,7 +27,7 @@ When the box is reassembled, a certain UV location on the paper is transferred t
 location on the box. This is what the computer does with a 2D image in wrapping it around a 3D object.
 
 During the UV unwrapping process, you tell Blender exactly how to map the faces of your object (in this case, a box)
-to a flat image in the UV/Image Editor. You have complete freedom in how to do this.
+to a flat image in the UV Editor. You have complete freedom in how to do this.
 (Continuing our previous example, imagine that, having initially laid the box flat on the tabletop,
 you now cut it into smaller pieces, somehow stretch and/or shrink those pieces,
 and then arrange them in some way upon a photograph that is also lying on that tabletop).

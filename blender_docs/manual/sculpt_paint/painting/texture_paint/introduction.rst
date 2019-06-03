@@ -1,4 +1,4 @@
-.. This is for 3D View painting, 2D image painting belongs in the UV/Image editor section.
+.. This is for 3D View painting, 2D image painting belongs in the Image editor section.
 
 ************
 Introduction
@@ -9,17 +9,17 @@ that is used to color the surface of a mesh.
 The UV texture is mapped to the mesh through one or more UV maps.
 There are three ways to establish the image used by the UV texture:
 
-#. Paint a flat image in the UV/Image Editor onto the currently selected UV texture,
+#. Paint a flat image in the Image Editor onto the currently selected UV texture,
    using its UV map to transfer the colors to the faces of the mesh.
 #. Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV texture
    (see :ref:`Projection Painting <painting-texture-index>`).
 #. Use any image editing program to create an image.
-   In the UV/Image Editor, select the UV texture and load the image.
+   In the Image Editor, select the UV texture and load the image.
    Blender will then use that texture's UV map to transfer the colors to the faces of the mesh.
 
 Blender features a built-in paint mode called *Texture Paint* which is designed specifically to
 help you edit your UV textures and images quickly and
-easily in either the UV/Image or the 3D View Editor.
+easily in either the Image or the 3D View Editor.
 Since a UV texture is just a special-purpose image,
 you can also use any external paint program. For example,
 GIMP is a full-featured image manipulation program that is also open-source.
@@ -32,7 +32,7 @@ GIMP is a full-featured image manipulation program that is also open-source.
 Since a mesh can have layers of UV textures, there may be many images that color the mesh.
 However, each UV texture only has one image.
 
-*Texture Paint* works in both a 3D View and the UV/Image Editor.
+*Texture Paint* works in both a 3D View and the Image Editor.
 In the 3D View in Texture Paint Mode, you paint directly on the mesh by
 :ref:`projecting onto the UVs <painting-texture-index>`.
 
@@ -56,7 +56,7 @@ you can modify the image using the Texture Paint Mode:
 
 - In the 3D View, select Texture Paint Mode from the mode selector in the header,
   and you can paint directly onto the mesh.
-- In the UV/Image Editor, switch the mode from View to Paint (shown to the right).
+- In the Image Editor, switch the mode from View to Paint (shown to the right).
 
 .. note:: Square Power of Two
 
@@ -69,16 +69,14 @@ Once you enable Texture Painting, your mouse becomes a brush. To work with the U
 As soon as you enable Texture Painting or switch to Texture Paint Mode,
 brush settings become available in the Tool Shelf.
 
-In the UV/Image Editor,
-you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
-Any changes made in the UV/Image Editor show up immediately in the 3D View,
-and vice versa.
+In the Image Editor, you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
+Any changes made in the Image Editor show up immediately in the 3D View, and vice versa.
 
 A full complement of brushes and colors can be selected from
-the Properties region in the UV/Image Editor.
+the Properties region in the Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
-you must explicitly do so by :menuselection:`Image --> Save` in the UV/Image Editor.
+you must explicitly do so by :menuselection:`Image Editor --> Image --> Save`.
 
 
 Missing Data
@@ -104,7 +102,7 @@ is mapped to some aspect of a texture via a texture channel using UV as a map in
 you can see the effects of your painting in the context of your scene as you paint.
 
 To do this, set up side-by-side areas, one area in 3D View set to *Texture* shading option,
-and in the second area the UV/Image Editor loaded with your image.
+and in the second area the Image Editor loaded with your image.
 Position the 3D View to show the object that is UV-mapped to the loaded image.
 In the image to the right, the texture being painted is mapped to the "Normal" attribute,
 and is called "bump mapping",
@@ -143,7 +141,7 @@ If you use an external program to edit your UV texture, you must:
 #. Load the image or create a new one.
 #. Change the image.
 #. And re-save it within that program.
-#. Back in Blender, you reload the image in the UV/Image Editor.
+#. Back in Blender, you reload the image in the Image Editor.
 
 You want to use an external program if you have teams of people using different programs that
 are developing the UV textures,
