@@ -1,4 +1,4 @@
-.. (todo <2.8 add) spin, split tool; control point: recalc normals, set curve radius = Shrink/Fatten
+.. (TODO2.8 add) spin, split tool; control point: recalc normals, set curve radius = Shrink/Fatten.
 
 ************
 Introduction

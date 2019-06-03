@@ -431,9 +431,7 @@ Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-screen).
 Camera Operations
 =================
 
-.. warning::
-
-   todo 2.8: move this to somewhere better
+.. TODO2.8: move this to a more appropriate location.
 
 Changing the Active Camera
 --------------------------

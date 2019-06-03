@@ -149,7 +149,7 @@ Data-Block Types
    ::
    (TODO add) links to related docs for each type.
 
-.. image source: Scene tab --> Active keying set panel --> ID-block (sound replaced)
+.. Image source Scene tab --> Active keying set panel --> ID-block (sound replaced).
 
 .. figure:: /images/data-system_data-blocks_id-types.png
    :align: right

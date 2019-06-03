@@ -10,7 +10,7 @@ Render
 
 The Render Panel controls how particles appear when they are rendered.
 
-.. (TODO <2.8 ADD) warning::
+.. TODO2.8 Add warning.
 
    Cycles support only Object and Group render types. (T48467)
 

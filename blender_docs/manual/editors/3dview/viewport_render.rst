@@ -28,7 +28,7 @@ the Cycles Renderer.
 
           Full render.
 
-.. todo 2.8 replace this text with overlays
+.. TODO2.8 Replace this text with overlays.
 
 .. tip:: Showing Only Rendered Objects
 
@@ -38,7 +38,7 @@ the Cycles Renderer.
    since it removes data such as rigs and empties that can be a distraction.
 
 
-.. todo 2.8
+.. TODO2.8
 
 Settings
 ========

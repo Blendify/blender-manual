@@ -18,7 +18,7 @@ Texture Context
    Material/Lamp
       Material type is described in the following section.
 
-      .. todo 2.79: texture coordinates for lamps: rB1272ee4
+      .. TODO2.79: texture coordinates for lights: rB1272ee4
    Brush
       Brush textures are applied in :doc:`/sculpt_paint/index`.
 

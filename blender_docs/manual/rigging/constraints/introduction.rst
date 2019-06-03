@@ -57,7 +57,7 @@ Start simply. Get to know a single constraint inside and out.
 also has an animation example. Take the time to understand every fundamental concept behind it,
 and the other constraints will make far more sense.
 
-.. (TODO <2.8 add), the 4x4 transform matrix vs. the transform panel
+.. TODO2.8 Add the 4x4 transform matrix vs. the transform panel.
 
    Also note that constraints internally work using 4x4 transformation matrices only.
    When you use settings for specific rotation or scaling constraining,
@@ -65,4 +65,4 @@ and the other constraints will make far more sense.
    not from settings in a *Bone* or *Object*. Especially for combining
    rotations with non-uniform or negative scaling this can lead to unpredictable behavior.
 
-.. (TODO <2.8 add), the blue dashed line
+.. TODO2.8 Add the blue dashed line.

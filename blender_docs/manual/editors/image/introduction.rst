@@ -66,7 +66,7 @@ Alpha
    Displays the Alpha channel a grayscale image. White areas are opaque, black areas have an alpha of 0.
 Z-Buffer
    Display the depth from the camera, from Clip Start to Clip End,
-  as specified in the :doc:`Camera settings </render/cycles/camera>`.
+   as specified in the :doc:`Camera settings </render/cycles/camera>`.
 Red, Green, Blue
    Single Color Channel visualized as a grayscale image.
 
