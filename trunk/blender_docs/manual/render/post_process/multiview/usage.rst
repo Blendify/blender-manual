@@ -91,7 +91,7 @@ Be aware that some modes require a fullscreen editor to work.
 Viewport Preview
 ================
 
-Before rendering your scene, you can save an Viewport Preview of the animation for testing in the final display.
+Before rendering your scene, you can save a Viewport Preview of the animation for testing in the final display.
 In the Render Output panel you can choose the output *Views Format*.
 
 The options include individual files per view, top-bottom, anaglyph among others.
@@ -146,7 +146,7 @@ Display Mode
 
 Anaglyph
    Render two differently filtered colored images for each eye.
-   Anaglyph glasses are required. We support Red-Cyan, Green-Magenta and Yellow-Blue glasses.
+   Anaglyph glasses are required. We support red-cyan, green-magenta and yellow-blue glasses.
 Interlace
    Render two images for each eye into one interlaced image.
    A 3D-ready monitor is required. We support Row, Column and Checkerboard Interleaved.

@@ -32,13 +32,13 @@ Examples
 
 - An armature is often used with a modifier to deform a mesh for character animation.
 - A camera rig can be used instead of animating the camera object directly to simulate real-world camera rigs
-  *(with a boom arm, mounted on a rotating pedestal for example, effects such as camera jitter can be added too).*
+  (with a boom arm, mounted on a rotating pedestal for example, effects such as camera jitter can be added too).
 
 .. TODO more examples?
 
 .. seealso::
 
    The content of this chapter is simply a reference to how rigging is accomplished in Blender.
-   It should be paired with additional resources such as Nathan Vegdahl's excellent (and free!)
-   introduction to the fundamental concepts of character rigging,
+   It should be paired with additional resources such as Nathan Vegdahl's excellent introduction to
+   the fundamental concepts of character rigging,
    `Humane Rigging <https://www.youtube.com/playlist?list=PLE211C8C41F1AFBAB>`__.

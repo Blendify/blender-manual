@@ -9,7 +9,7 @@ in a given direction.
 
 .. seealso::
 
-   - :doc:`EEVEE Lighting </render/eevee/lighting>`
+   - :doc:`Eevee Lighting </render/eevee/lighting>`
    - :doc:`Cycles Lighting </render/cycles/lighting>`
    - :doc:`Workbench Lighting </render/workbench/lighting>`
 

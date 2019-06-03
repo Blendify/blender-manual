@@ -206,7 +206,8 @@ Image Texture
    Artifact present using Tube or Sphere projection with linear interpolation.
    This is due to hardware mip-mapping and Anisotropic filtering.
    This kind of artifact will be also visible if the texture coordinates provided are not continuous.
-   Using Box projection with *Extend type* set to Clip or Extend is not supported. Instead, it will always use Repeat.
+   Using Box projection with *Extend type* set to Clip or Extend is not supported.
+   Instead, it will always use Repeat.
 
 Material Output
    Displacement output behavior is broken compared to Cycles.

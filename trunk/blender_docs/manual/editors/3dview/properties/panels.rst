@@ -94,10 +94,10 @@ Clip Start/End
 
       The definition of the two planes depends on the kind of view:
 
-      **Perspective view:** The planes with distance of <Start> and <End> from viewport camera.
+      - Perspective view: The planes with distance of start and end from viewport camera.
 
-      **Orthographic view:** The planes with distance of -<End> and +<End> from the focus point,
-      in this case the *Start* is ignored.
+      - Orthographic view: The planes with distance of negative end and positive end from the focus point,
+        in this case the *Start* is ignored.
 
    .. warning::
 

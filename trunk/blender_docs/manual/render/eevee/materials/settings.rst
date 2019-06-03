@@ -75,7 +75,7 @@ In this case you can disable the *Show Backside* option.
 
 Show Backside
    If enabled all transparent fragments will be rendered.
-   If disabled, only the frontmost surface fragments will be rendered.
+   If disabled, only the front-most surface fragments will be rendered.
    Disable this option to ensure correct appearance of transparency from any point of view.
 
 
@@ -85,7 +85,8 @@ Transparent Shadow
 Type of shadows used for a transparent surface.
 Eevee does not support colored shadow maps.
 
-Half transparent shadows can be produced by using hashed transparent shadows and a larger Soft value on the shadow map.
+Half transparent shadows can be produced by using hashed transparent shadows and
+a larger Soft value on the shadow map.
 
 .. note::
 

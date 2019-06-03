@@ -260,7 +260,7 @@ High Quality
    representation of *depth of field*. This allows the viewport depth of field
    to be closely represented to that of the render and render preview depth of field.
 F-Stop
-   Viewport depth of field aperture measured in F-Stops; smaller numbers will cause more blur
+   Viewport depth of field aperture measured in f-stops; smaller numbers will cause more blur
 Blades
    The number of polygonal sides to give blurred objects in the viewport.
    The minimum number of blades needed to enable the bokeh effect is 3 (triangle).

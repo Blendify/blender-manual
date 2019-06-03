@@ -4,9 +4,9 @@ Geometry
 ********
 
 These modifiers have no mix nor influence settings,
-as they always completely apply to the strokes' geometry (like object modifiers do). They take
-the resulting two-dimensional strokes from the Freestyle line set and displace or deform them
-in various ways.
+as they always completely apply to the strokes' geometry (like object modifiers do).
+They take the resulting two-dimensional strokes from the Freestyle line set and
+displace or deform them in various ways.
 
 As with other modifier stacks in Blender, they are applied from top to bottom.
 
@@ -22,8 +22,8 @@ It has two sets of independent options/effects:
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-offset.png
 
 Start and End
-   These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D)
-   normal at those points. The effect is blended over the whole stroke, if you for example,
+   These two options add the given amount of offset to the start (or end) point of the stroke,
+   along the (2D) normal at those points. The effect is blended over the whole stroke, if you for example,
    set only *Start* to 50, the start of the stroke is offset 50 pixels along its normal,
    the middle of the stroke, 25 pixels along its own normal, and the end point is not moved.
 X and Y
@@ -52,8 +52,8 @@ Stroke Point Parameter
    The *Stroke Point Parameter* factor controls where along the stroke the pivot point is
    (start point if set to 0.0; end point if set to 1.0).
 Absolute 2D Point
-   The *Pivot X* and *Pivot Y* allows you to define the position of the pivot point in the final
-   render (from the bottom left corner).
+   The *Pivot X* and *Pivot Y* allows you to define the position of the pivot point in the final render
+   (from the bottom left corner).
 
    .. important::
 
@@ -149,8 +149,8 @@ Offset
    Offset the start and end points along the original stroke, before generating the new straight one.
 
 This modifier will produce reasonable results when strokes are short enough,
-because shorter strokes are more likely to be well approximated by straight lines. Therefore,
-it is recommended to use this modifier together with one of the splitting options
+because shorter strokes are more likely to be well approximated by straight lines.
+Therefore, it is recommended to use this modifier together with one of the splitting options
 (by 2D angle or by 2D length) from the *Strokes* panel.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_guiding-lines-example.png
@@ -194,8 +194,8 @@ Perlin Noise 2D
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_perlin-noise-2d.png
 
-The *Perlin Noise 2D* modifier adds one-dimensional Perlin noise to the stroke. The modifier generates noisy
-displacements using 2D coordinates of stroke vertices as the input of the noise generator.
+The *Perlin Noise 2D* modifier adds one-dimensional Perlin noise to the stroke. The modifier generates
+noisy displacements using 2D coordinates of stroke vertices as the input of the noise generator.
 
 Its settings are exactly the same as the *Perlin Noise 1D* modifier.
 

@@ -45,7 +45,7 @@ The building process is different for each operating system, instructions have b
 
          open build/html/index.html
 
-      ..rubric:: Building a Single Chapter
+      .. rubric:: Building a Single Chapter
 
       If you are working on a specific chapter of the manual, you can build it quickly using::
 
@@ -69,7 +69,7 @@ The building process is different for each operating system, instructions have b
 
          xdg-open build/html/index.html
 
-      ..rubric:: Building a Single Chapter
+      .. rubric:: Building a Single Chapter
 
       If you are working on a specific chapter of the manual, you can build it quickly using::
 

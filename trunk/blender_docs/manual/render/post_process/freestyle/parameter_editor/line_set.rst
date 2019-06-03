@@ -78,8 +78,8 @@ Crease
       (`the blend-file <https://wiki.blender.org/wiki/File:CreaseAngle.zip>`__).
 
 Border
-   Border shows open mesh edges, i.e. edges that belong to only one face. An open cylinder has open edges at the
-   top and bottom, and a plane is open all around. Suzanne's eye socket is an open edge.
+   Border shows open mesh edges, i.e. edges that belong to only one face. An open cylinder has open edges at
+   the top and bottom, and a plane is open all around. Suzanne's eye socket is an open edge.
 
 Edge Marks
    Renders marked edges. See `Edge Marks`_ for details.

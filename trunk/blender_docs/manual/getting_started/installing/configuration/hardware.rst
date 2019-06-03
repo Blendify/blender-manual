@@ -27,7 +27,7 @@ Input Devices
 Blender supports various types of input devices:
 
 - Keyboard (recommended: keyboard with numeric keypad, English layout works best)
-- Mouse (recommended: 3 button mouse with scroll wheel)
+- Mouse (recommended: three button mouse with scroll wheel)
 - NDOF Devices (also known as *3D Mouse*)
 - Graphic Tablets
 

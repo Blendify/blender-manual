@@ -77,6 +77,7 @@ External Data
 
          Recovered files might need to be reloaded. You can do that one by one, or
          you can save the blend-file and reload it again, so that all external files are reloaded at once.
+
 Import
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs. See :doc:`Import/Export </data_system/files/import_export>`.

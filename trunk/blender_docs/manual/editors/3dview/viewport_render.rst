@@ -63,8 +63,8 @@ Rendering
 =========
 
 Activating *Viewport Render* will render from the current active view.
-This means that if you are not in an active camera view then a virtual
-camera is used to match the current perspective.
+This means that if you are not in an active camera view then
+a virtual camera is used to match the current perspective.
 To get an image from the camera point of view,
 enter the active camera view with :kbd:`NumpadZero`.
 
