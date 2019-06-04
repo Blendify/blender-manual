@@ -13,7 +13,6 @@
    materials/index.rst
    lighting.rst
    world.rst
-   nodes/index.rst
    features.rst
    settings/index.rst
    gpu_rendering.rst

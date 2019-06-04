@@ -12,6 +12,7 @@
 
    introduction.rst
    engines/index.rst
+   shaders/index.rst
    lighting/index.rst
    camera.rst
    output/index.rst

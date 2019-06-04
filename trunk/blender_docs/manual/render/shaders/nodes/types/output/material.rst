@@ -24,9 +24,9 @@ Volume
 
       The types of volume shaders are:
 
-      - :doc:`Emission </render/engines/cycles/nodes/types/shaders/emission>` shader.
-      - :doc:`Volume Absorption </render/engines/cycles/nodes/types/shaders/volume_absorption>` shader.
-      - :doc:`Volume Scatter </render/engines/cycles/nodes/types/shaders/volume_scatter>` shader.
+      - :doc:`Emission </render/shaders/nodes/types/shaders/emission>` shader.
+      - :doc:`Volume Absorption </render/shaders/nodes/types/shaders/volume_absorption>` shader.
+      - :doc:`Volume Scatter </render/shaders/nodes/types/shaders/volume_scatter>` shader.
 
 Displacement
    Used to create bump mapping or actual subdivided :doc:`Displacement </render/engines/cycles/materials/displacement>`.

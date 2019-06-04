@@ -8,7 +8,7 @@ This page lists major changes and additions to the manual.
 The `Blender release notes <https://www.blender.org/features/releases/>`__
 are located on the website and in the Wiki.
 
-- :doc:`Principled Hair Node </render/engines/cycles/nodes/types/shaders/hair_principled>`
+- :doc:`Principled Hair Node </render/shaders/nodes/types/shaders/hair_principled>`
   (`rBM4368 <https://developer.blender.org/rBM4368>`__, Jul 17).
 - :doc:`Add-ons section </addons/index>`
   (`rBM4324 <https://developer.blender.org/rBM4324>`__, Jun 27).
@@ -20,7 +20,7 @@ are located on the website and in the Wiki.
   (`rBM3559 <https://developer.blender.org/rBM3559>`__, May 23).
 - :doc:`Shadow Catcher </render/engines/cycles/settings/objects/object_data>`
   (`rBM3548 <https://developer.blender.org/rBM3548>`__, May 22).
-- :doc:`Principled Node </render/engines/cycles/nodes/types/shaders/principled>`
+- :doc:`Principled Node </render/shaders/nodes/types/shaders/principled>`
   (`rBM3527 <https://developer.blender.org/rBM3527>`__, May 19).
 - The new Version Switch is located at the bottom of the navigation (beta language switch only).
   Please `report a bug

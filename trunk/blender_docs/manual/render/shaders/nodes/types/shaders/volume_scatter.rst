@@ -11,7 +11,7 @@ Volume Scatter
 
 The *Volume Scatter* node allows light to be scattered as it passes through the volume.
 Typical usage would be to add fog to a scene. It can also be used with
-the :doc:`Volume Absorption </render/engines/cycles/nodes/types/shaders/volume_absorption>`
+the :doc:`Volume Absorption </render/shaders/nodes/types/shaders/volume_absorption>`
 node to create smoke.
 
 
@@ -31,8 +31,8 @@ Properties
 
 Volume
    The Volume Shader output must be plugged into the *Volume Input*
-   of the :doc:`Material </render/engines/cycles/nodes/types/output/material>`
-   or :doc:`World </render/engines/cycles/nodes/types/output/world>` output node.
+   of the :doc:`Material </render/shaders/nodes/types/output/material>`
+   or :doc:`World </render/shaders/nodes/types/output/world>` output node.
 
 
 Examples

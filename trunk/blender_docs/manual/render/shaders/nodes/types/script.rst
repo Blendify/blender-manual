@@ -5,5 +5,5 @@
 Script Node
 ***********
 
-.. include:: /render/engines/cycles/nodes/osl.rst
+.. include:: /render/shaders/nodes/osl.rst
    :start-line: 21

@@ -31,7 +31,7 @@ Properties
 
 Component
    There are two components that can be used to control the look of the hair.
-   Usually you are going to want each of these and use a :doc:`Mix Node </render/engines/cycles/nodes/types/shaders/mix>`.
+   Usually you are going to want each of these and use a :doc:`Mix Node </render/shaders/nodes/types/shaders/mix>`.
 
    Reflection
       The light that bounces off the surface of the hair.

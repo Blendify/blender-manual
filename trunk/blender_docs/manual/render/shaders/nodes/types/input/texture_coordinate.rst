@@ -65,7 +65,7 @@ UV
    .. note::
 
       In order to select UV map other than the active map you must use
-      the :doc:`UV Map node </render/engines/cycles/nodes/types/input/uv_map>`.
+      the :doc:`UV Map node </render/shaders/nodes/types/input/uv_map>`.
 Object
    Uses an object as a source for coordinates. Often used with an *Empty*,
    this is an easy way to place a small image at a given point on the object.
