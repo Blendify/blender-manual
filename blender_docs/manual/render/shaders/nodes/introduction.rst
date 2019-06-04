@@ -34,7 +34,7 @@ for direct lighting or global illumination.
 
 .. seealso::
 
-   :doc:`Shaders </render/engines/cycles/nodes/types/shaders/index>`
+   :doc:`Shaders </render/shaders/nodes/types/shaders/index>`
 
 
 Textures
@@ -55,7 +55,7 @@ and these can be edited in the texture properties.
 
 .. seealso::
 
-   :doc:`Textures </render/engines/cycles/nodes/types/textures/index>`
+   :doc:`Textures </render/shaders/nodes/types/textures/index>`
 
 
 More
@@ -64,9 +64,9 @@ More
 Nodes for geometric data, texture coordinates,
 layering shaders and non-physically-based tricks can be found in:
 
-- :doc:`Vector Nodes </render/engines/cycles/nodes/types/vector/index>`
-- :doc:`Color Nodes </render/engines/cycles/nodes/types/color/index>`
-- :doc:`Converter Nodes </render/engines/cycles/nodes/types/converter/index>`
+- :doc:`Vector Nodes </render/shaders/nodes/types/vector/index>`
+- :doc:`Color Nodes </render/shaders/nodes/types/color/index>`
+- :doc:`Converter Nodes </render/shaders/nodes/types/converter/index>`
 
 
 Open Shading Language
@@ -76,4 +76,4 @@ Custom nodes can be written using the Open Shading Language.
 
 .. seealso::
 
-   :doc:`Open Shading Language </render/engines/cycles/nodes/osl>`
+   :doc:`Open Shading Language </render/shaders/nodes/osl>`

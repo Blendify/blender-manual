@@ -81,7 +81,7 @@ they become bigger and less intense, making them easier to find and less noisy.
 This will not give the same exact result,
 but often it's close enough when viewed through a diffuse or soft glossy reflection.
 Below is an example of using :ref:`Glossy Filter <render-cycles-integrator-filter-glossy>`
-and :doc:`Light Falloff </render/engines/cycles/nodes/types/color/light_falloff>`.
+and :doc:`Light Falloff </render/shaders/nodes/types/color/light_falloff>`.
 
 .. list-table::
 
@@ -196,7 +196,7 @@ This is a typical recipe for fireflies.
 
           Soft Falloff.
 
-To reduce this problem, the :doc:`Light Falloff </render/engines/cycles/nodes/types/color/light_falloff>`
+To reduce this problem, the :doc:`Light Falloff </render/shaders/nodes/types/color/light_falloff>`
 node has a *Smooth factor*, that can be used to reduce the maximum intensity
 a light can contribute to nearby surfaces. The images above show default falloff and smooth value 1.0.
 

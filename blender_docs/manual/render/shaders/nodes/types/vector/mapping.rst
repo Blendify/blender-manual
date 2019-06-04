@@ -24,7 +24,7 @@ Inputs
 
 Vector
    Vector to be transformed, usually this is input from
-   a :doc:`Texture Coordinate node </render/engines/cycles/nodes/types/input/texture_coordinate>`.
+   a :doc:`Texture Coordinate node </render/shaders/nodes/types/input/texture_coordinate>`.
 
 
 Properties
@@ -62,7 +62,7 @@ Outputs
 
 Vector
    Transformed vector, usually gets connected to some sort of
-   :doc:`Texture node </render/engines/cycles/nodes/types/textures/index>`.
+   :doc:`Texture node </render/shaders/nodes/types/textures/index>`.
 
 
 Examples
