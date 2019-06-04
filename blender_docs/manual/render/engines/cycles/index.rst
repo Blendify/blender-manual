@@ -14,7 +14,6 @@
    lighting.rst
    world.rst
    nodes/index.rst
-   camera.rst
    features.rst
    settings/index.rst
    gpu_rendering.rst

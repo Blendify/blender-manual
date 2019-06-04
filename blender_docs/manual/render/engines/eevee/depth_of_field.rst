@@ -5,7 +5,7 @@ Depth of Field
 
 Depth of field is done as a post-process in Eevee.
 
-The depth of field effect is using the same :doc:`camera </render/engines/cycles/camera>` settings as Cycles.
+The depth of field effect is using the same :doc:`camera </render/camera>` settings as Cycles.
 
 .. note::
 
