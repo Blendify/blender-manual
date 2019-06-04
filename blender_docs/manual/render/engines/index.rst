@@ -7,6 +7,7 @@
 .. toctree::
    :maxdepth: 1
 
-   eevee/index.rst
    cycles/index.rst
+   eevee/index.rst
+   freestyle/index.rst
    workbench/index.rst

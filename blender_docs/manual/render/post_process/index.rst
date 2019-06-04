@@ -12,4 +12,3 @@ but rather composited on top of the image.
 
    layers.rst
    panel.rst
-   freestyle/index.rst
