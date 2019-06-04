@@ -11,4 +11,3 @@ but rather composited on top of the image.
    :maxdepth: 2
 
    layers.rst
-   panel.rst
