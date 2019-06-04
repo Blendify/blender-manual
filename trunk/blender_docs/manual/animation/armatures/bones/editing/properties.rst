@@ -29,13 +29,13 @@ Multiply Vertex Group by Envelope
    (also :kbd:`Shift-W` :menuselection:`--> (Multiply Vertex Group by Envelope, ...)`).
 
    These settings control how the bone influences its geometry, along with the bones' joints radius.
-   This will be detailed in the :doc:`skinning part </animation/rigging/armatures/skinning/index>`.
+   This will be detailed in the :doc:`skinning part </animation/armatures/skinning/index>`.
 Inherit Rotation
    These settings affect the behavior of children bones while transforming their parent in *Pose Mode*,
-   so this will be detailed in the :doc:`posing part </animation/rigging/armatures/posing/index>`!
+   so this will be detailed in the :doc:`posing part </animation/armatures/posing/index>`!
 Inherit Scale
    ToDo <2.62.
 Lock
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit Mode*;
-   see :doc:`previous page </animation/rigging/armatures/bones/editing/bones>`.
+   see :doc:`previous page </animation/armatures/bones/editing/bones>`.

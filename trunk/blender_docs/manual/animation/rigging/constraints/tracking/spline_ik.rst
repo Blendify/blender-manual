@@ -86,6 +86,6 @@ Use Original Scale
 .. seealso::
 
    This subject is seen in-depth in the
-   :doc:`Armature Posing section </animation/rigging/armatures/posing/bone_constraints/inverse_kinematics/spline_ik>`.
+   :doc:`Armature Posing section </animation/armatures/posing/bone_constraints/inverse_kinematics/spline_ik>`.
 
 .. vimeo:: 171282278

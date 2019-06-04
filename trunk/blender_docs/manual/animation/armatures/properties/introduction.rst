@@ -42,7 +42,7 @@ Inverse Kinematics
 
    The Inverse Kinematics panel.
 
-Defines the type of :doc:`IK solver </animation/rigging/armatures/posing/bone_constraints/inverse_kinematics/introduction>`
+Defines the type of :doc:`IK solver </animation/armatures/posing/bone_constraints/inverse_kinematics/introduction>`
 used in your animation.
 
 

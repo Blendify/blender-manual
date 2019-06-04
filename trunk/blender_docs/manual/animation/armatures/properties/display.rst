@@ -67,7 +67,7 @@ Stick bone
 
 B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
-   see the :doc:`/animation/rigging/armatures/bones/properties/bendy_bones` for details.
+   see the :doc:`/animation/armatures/bones/properties/bendy_bones` for details.
 
    .. list-table::
 
@@ -111,7 +111,7 @@ Names
    When enabled, the name of each bone is drawn.
 Colors
    This is only relevant for *Pose Mode*,
-   and is described in detail :doc:`there </animation/rigging/armatures/properties/bone_groups>`.
+   and is described in detail :doc:`there </animation/armatures/properties/bone_groups>`.
 Axes
    When enabled, the (local) axes of each bone are drawn (only relevant for *Edit Mode* and *Pose Mode*).
 X-Ray
@@ -122,6 +122,6 @@ X-Ray
 Shapes
    When enabled, the default standard bone shape is replaced,
    in *Object Mode* and *Pose Mode*, by the shape of a chosen object
-   (see :doc:`Shaped Bones </animation/rigging/armatures/bones/properties/display>` for details).
+   (see :doc:`Shaped Bones </animation/armatures/bones/properties/display>` for details).
 Delay Refresh
    When enabled, the bone does not deform its children when manipulating the bone in pose mode.

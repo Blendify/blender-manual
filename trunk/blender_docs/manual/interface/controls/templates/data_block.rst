@@ -122,5 +122,5 @@ Bone
       while a value of one will point at the Tail/Tip of a Bone.
 
       Use B-Bone Shape
-         When the bone is a :doc:`/animation/rigging/armatures/bones/properties/bendy_bones`,
+         When the bone is a :doc:`/animation/armatures/bones/properties/bendy_bones`,
          click on this button to make the point follow the curvature of the B-Spline between head and tail.

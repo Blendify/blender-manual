@@ -3,7 +3,7 @@
 Selecting
 *********
 
-Selection in *Pose Mode* is very similar to the one in :doc:`Edit Mode </animation/rigging/armatures/bones/selecting>`,
+Selection in *Pose Mode* is very similar to the one in :doc:`Edit Mode </animation/armatures/bones/selecting>`,
 with a few specificities:
 
 You can only select *whole bones* in *Pose Mode*, not roots/tips...

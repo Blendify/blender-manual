@@ -4,7 +4,7 @@ Introduction
 ************
 
 Bones are the base elements of armatures.
-The visualization of bones can be set in the Armatures :doc:`/animation/rigging/armatures/properties/display`.
+The visualization of bones can be set in the Armatures :doc:`/animation/armatures/properties/display`.
 
 .. (wip) are rigid.
 

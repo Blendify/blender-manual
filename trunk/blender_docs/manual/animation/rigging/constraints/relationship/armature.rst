@@ -44,7 +44,7 @@ Normalize Weights
 .. note::
 
    Unlike the modifier, the constraint does not take
-   the :doc:`Deform </animation/rigging/armatures/bones/properties/deform>` checkbox
+   the :doc:`Deform </animation/armatures/bones/properties/deform>` checkbox
    of bones into account, and can use any bone as target.
 
 

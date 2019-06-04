@@ -64,7 +64,7 @@ To assign a custom shape to a bone, you have to:
    - Even if any type of object seems to be accepted by the *Object* field (meshes, curves, even metas...),
      only meshes really work. All other types just make the bone invisible; nothing is drawn...
    - The center of the shape object will be at the *root of the bone*
-     (see the :doc:`bone page </animation/rigging/armatures/bones/index>` for root/tip).
+     (see the :doc:`bone page </animation/armatures/bones/index>` for root/tip).
    - The object properties of the shape are ignored
      (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object Mode*,
      you will still have a cube-shaped bone...).

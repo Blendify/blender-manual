@@ -7,7 +7,7 @@ You can select and edit bones of armatures in *Edit Mode* and in *Pose Mode*.
 Here, we will see how to select bones in *Edit Mode*.
 Selecting bones in *Pose Mode* is similar to selecting in *Edit Mode*
 with a few specific differences that will be detailed in
-the :doc:`posing part </animation/rigging/armatures/posing/selecting>`.
+the :doc:`posing part </animation/armatures/posing/selecting>`.
 
 Similar to :doc:`vertex/edge selection </modeling/meshes/selecting/introduction>` in meshes,
 there are two ways to select whole bones in *Edit Mode*:

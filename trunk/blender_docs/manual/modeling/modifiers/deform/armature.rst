@@ -12,7 +12,7 @@ that object can be deformed accurately so that geometry does not have to be anim
 
 .. seealso::
 
-   For more details on armatures usage, see the :doc:`armature section </animation/rigging/armatures/index>`.
+   For more details on armatures usage, see the :doc:`armature section </animation/armatures/index>`.
 
 
 Options
