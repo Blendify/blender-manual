@@ -8,4 +8,3 @@
    :maxdepth: 2
 
    animations.rst
-   command_line.rst
