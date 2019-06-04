@@ -11,8 +11,8 @@
    introduction.rst
    keyframes/index.rst
    armatures/index.rst
+   lattice.rst
    constraints/index.rst
-   rigging/index.rst
    actions.rst
    drivers/index.rst
    markers.rst
