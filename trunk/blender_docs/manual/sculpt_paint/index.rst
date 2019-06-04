@@ -9,9 +9,7 @@
    :maxdepth: 2
 
    introduction.rst
-   brush.rst
-   texture_tex_mask.rst
-   stroke_curve.rst
+   brush/index.rst
 
 
 Modes
