@@ -21,7 +21,7 @@ Animation is typically achieved with the use of :doc:`keyframes </animation/keyf
 
 .. seealso:: Related Sections
 
-   The :doc:`Rigging section </rigging/index>`, :doc:`Physical Simulation </physics/introduction>`
+   The :doc:`Rigging section </animation/rigging/index>`, :doc:`Physical Simulation </physics/introduction>`
    and :doc:`Motion Tracking </editors/movie_clip_editor/index>`.
 
 

@@ -29,7 +29,7 @@ are located on the website and in the Wiki.
   (`rBM3490 <https://developer.blender.org/rBM3490>`__, Apr. 5).
 - :doc:`Application Templates </advanced/app_templates>`
   (`rBM3462 <https://developer.blender.org/rBM3462>`__, Mar. 25).
-- :doc:`Bendy Bones </rigging/armatures/bones/properties/bendy_bones>`
+- :doc:`Bendy Bones </animation/rigging/armatures/bones/properties/bendy_bones>`
   (`rBM3215 <https://developer.blender.org/rBM3215>`__, Jan. 28).
 - :doc:`Grease Pencil update </editors/3dview/grease_pencil/index>`
   (`rBM3188 <https://developer.blender.org/rBM3188>`__, Jan. 20).

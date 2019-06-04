@@ -91,14 +91,6 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_rigging.jpg
-            :target: rigging/index.html
-
-         :doc:`/rigging/index`
-            Overview of armatures, pose mode and constraints.
-
-      .. container:: descr
-
          .. figure:: /images/index_animation.jpg
             :target: animation/index.html
 
@@ -169,7 +161,6 @@ Sections
       data_system/index.rst
       modeling/index.rst
       sculpt_paint/index.rst
-      rigging/index.rst
       animation/index.rst
       physics/index.rst
       render/index.rst

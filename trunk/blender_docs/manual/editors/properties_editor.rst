@@ -56,7 +56,7 @@ These tabs are used to add features, and to change properties for the Active Obj
 The Object Data tabs shown depend on what type of object was selected last (the Active Object).
 
 - :doc:`Object </scene_layout/object/properties/index>`
-- :doc:`/rigging/constraints/index`
+- :doc:`/animation/rigging/constraints/index`
 - :doc:`/modeling/modifiers/index`
 
 ..
@@ -70,10 +70,10 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 
 ..
 
-- :doc:`Armature </rigging/armatures/properties/index>`
-- :doc:`Bones </rigging/armatures/bones/properties/index>`
-- :doc:`Bone Constraints </rigging/armatures/posing/bone_constraints/introduction>`
-- :doc:`Lattice </rigging/lattice>`
+- :doc:`Armature </animation/rigging/armatures/properties/index>`
+- :doc:`Bones </animation/rigging/armatures/bones/properties/index>`
+- :doc:`Bone Constraints </animation/rigging/armatures/posing/bone_constraints/introduction>`
+- :doc:`Lattice </animation/rigging/lattice>`
 
 ..
 
