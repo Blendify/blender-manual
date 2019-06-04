@@ -123,7 +123,7 @@ Bone Envelopes
    determine which bones are actually necessary to evaluate the modifier.
    Removing empty vertex groups helps to reduce dependencies, and can be essential
    if the mesh is used during evaluation of other bones in the same armature,
-   e.g. as the target of a :doc:`Shrinkwrap </animation/rigging/constraints/relationship/shrinkwrap>` constraint.
+   e.g. as the target of a :doc:`Shrinkwrap </animation/constraints/relationship/shrinkwrap>` constraint.
 
 
 Multi Modifier

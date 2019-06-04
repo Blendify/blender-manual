@@ -89,7 +89,7 @@ Notes
 - When the linked action affects some location properties,
   the owner's existing location is added to the result of evaluating this constraint
   (exactly as when the *Offset* button of
-  the :doc:`Copy Location constraint </animation/rigging/constraints/transform/copy_location>` is enabled...).
+  the :doc:`Copy Location constraint </animation/constraints/transform/copy_location>` is enabled...).
 - When the linked action affects some scale properties,
   the owner's existing scale is multiplied with the result of evaluating this constraint.
 - When the linked action affects some rotation properties,

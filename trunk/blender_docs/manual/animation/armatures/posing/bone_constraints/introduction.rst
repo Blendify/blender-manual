@@ -30,4 +30,4 @@ So you should apply a *Limit Rotation* constraint to the forearm bone
 (as the elbow movement is the result of rotating the forearm bone around its root).
 
 Using bones in constraints, either as owners or as targets, is discussed in detail
-in the :doc:`constraints pages </animation/rigging/constraints/index>`.
+in the :doc:`constraints pages </animation/constraints/index>`.

@@ -115,6 +115,6 @@ An influence of 1.0 will have the full effect.
 
 Values between (0.0 and 1.0) will have a partial effect, but be careful. These partial effects can
 be difficult to control,
-especially as the :doc:`constraint stack </animation/rigging/constraints/interface/stack>` grows in complexity.
+especially as the :doc:`constraint stack </animation/constraints/interface/stack>` grows in complexity.
 
 The influence value is animatable, allowing constraints to be turned off, or partially on as needed.

@@ -5,9 +5,9 @@ Introduction
 
 Constraints are a way to control an object's properties
 (e.g. its location, rotation, scale), using either plain static values
-(like the :doc:`"limit" ones </animation/rigging/constraints/transform/limit_location>`),
+(like the :doc:`"limit" ones </animation/constraints/transform/limit_location>`),
 or another object, called "target"
-(like e.g. the :doc:`"copy" ones </animation/rigging/constraints/transform/copy_location>`).
+(like e.g. the :doc:`"copy" ones </animation/constraints/transform/copy_location>`).
 
 Even though constraints are useful in static projects,
 their main usage is obviously in animation.
@@ -53,7 +53,7 @@ But be careful not to rush in too quickly, piling up constraint upon constraint
 until you lose all sense of how they interact with each other.
 
 Start simply. Get to know a single constraint inside and out.
-:doc:`/animation/rigging/constraints/transform/copy_location` is a good first constraint to explore it
+:doc:`/animation/constraints/transform/copy_location` is a good first constraint to explore it
 also has an animation example. Take the time to understand every fundamental concept behind it,
 and the other constraints will make far more sense.
 

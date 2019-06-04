@@ -94,7 +94,7 @@ Space
    - When mapping transform properties to location (i.e. *Location*, *Destination* button is enabled),
      the owner's existing location is added to the result of evaluating this constraint
      (exactly like when the *Offset* button of
-     the :doc:`Copy Location constraint </animation/rigging/constraints/transform/copy_location>` is enabled...).
+     the :doc:`Copy Location constraint </animation/constraints/transform/copy_location>` is enabled...).
    - Conversely, when mapping transform properties to rotation or scale,
      the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
    - When using the rotation transform properties of the target as input,

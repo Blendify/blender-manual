@@ -45,7 +45,7 @@ The movement of the owner along the target curve/path may be controlled in two d
   (its value will control the position of the owner along the path).
 
 *Follow Path* is another constraint that works well with
-the :doc:`Locked Track one </animation/rigging/constraints/tracking/locked_track>`.
+the :doc:`Locked Track one </animation/constraints/tracking/locked_track>`.
 One example is a flying camera on a path. To control the camera's roll angle,
 you can use a *Locked Track* and a target object to specify the up direction, as the camera flies along the path.
 
@@ -54,7 +54,7 @@ you can use a *Locked Track* and a target object to specify the up direction, as
    Do not confuse these two constraints. Both of them constraint the location of their owner along a curve,
    but *Follow Path* is an "animation-only" constraint,
    inasmuch as the position of the owner along the curve is determined by the time (i.e. current frame),
-   whereas the :doc:`Clamp To </animation/rigging/constraints/tracking/clamp_to>` *constraint* determines the position of its
+   whereas the :doc:`Clamp To </animation/constraints/tracking/clamp_to>` *constraint* determines the position of its
    owner along the curve using one of its location properties' values.
 
 .. note::
@@ -99,7 +99,7 @@ Follow Curve
    Up
       The axis of the object that has to be aligned (as much as possible) with the world Z axis.
       In fact, with this option activated, the behavior of the owner shares some properties with
-      the one caused by a :doc:`Locked Track constraint </animation/rigging/constraints/tracking/locked_track>`,
+      the one caused by a :doc:`Locked Track constraint </animation/constraints/tracking/locked_track>`,
       with the path as "axle", and the world Z axis as "magnet".
 
 .. vimeo:: 171554266
