@@ -231,7 +231,7 @@ Snap
    :Hotkey:    :kbd:`Shift-S`
 
 Snapping in the UV Editor is similar to
-:doc:`Snapping in 3D </editors/3dview/object/editing/transform/control/snap>`.
+:doc:`Snapping in 3D </scene_layout/object/editing/transform/control/snap>`.
 For the snap to pixel options to work an image has to be loaded.
 
 Selected to Pixels
@@ -316,7 +316,7 @@ Proportional Editing
    :Hotkey:    :kbd:`O`
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
-See :doc:`Proportional Editing in 3D </editors/3dview/object/editing/transform/control/proportional_edit>`
+See :doc:`Proportional Editing in 3D </scene_layout/object/editing/transform/control/proportional_edit>`
 for a full reference.
 
 

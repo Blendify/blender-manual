@@ -110,7 +110,7 @@ Parent
    The strokes of the layer will follow parent transformations.
 
    Type
-      Type of :doc:`parent relation </editors/3dview/object/properties/relations/parents>`.
+      Type of :doc:`parent relation </scene_layout/object/properties/relations/parents>`.
 
       Object, Armature, Bone
 

@@ -50,8 +50,8 @@ When rendering, Blender only renders the selected layers.
 If all your lights are on a layer that is *not selected*,
 you will not see anything in your render except for objects lit by ambient lighting.
 
-:doc:`Groups </editors/3dview/object/properties/relations/groups>` and
-:doc:`Parents </editors/3dview/object/properties/relations/parents>`
+:doc:`Groups </scene_layout/object/properties/relations/groups>` and
+:doc:`Parents </scene_layout/object/properties/relations/parents>`
 are other ways to logically group related sets of objects.
 
 

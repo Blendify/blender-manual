@@ -32,7 +32,7 @@ this can be disabled using the *Cursor Depth* toggle in the :doc:`Preferences </
 
 .. seealso::
 
-   The :doc:`Snap Menu </editors/3dview/object/editing/transform/control/snap>`
+   The :doc:`Snap Menu </scene_layout/object/editing/transform/control/snap>`
    which allows the cursor placement relative to scene objects.
 
 
@@ -57,5 +57,5 @@ Usage
 =====
 
 The 3D Cursor is used as the origin for any added object, can be used and moved with
-the :doc:`snap tool </editors/3dview/object/editing/transform/control/snap>`, and is an option for
-the :doc:`pivot point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
+the :doc:`snap tool </scene_layout/object/editing/transform/control/snap>`, and is an option for
+the :doc:`pivot point </scene_layout/object/editing/transform/control/pivot_point/index>`.

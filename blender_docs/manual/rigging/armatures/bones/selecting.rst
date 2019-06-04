@@ -27,7 +27,7 @@ the bone visualization chosen.
 Selecting Bone Joints
 =====================
 
-To select bones' joints you have the :doc:`standard selection </editors/3dview/object/selecting/index>` methods.
+To select bones' joints you have the :doc:`standard selection </scene_layout/object/selecting/index>` methods.
 
 
 Inverse Selection

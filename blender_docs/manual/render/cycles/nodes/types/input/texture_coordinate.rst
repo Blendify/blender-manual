@@ -36,14 +36,14 @@ From Dupli
 
       From left to right: Sphere with a UV-mapped texture.
       Small spheres duplicated to the faces of the textured sphere using
-      :doc:`duplifaces </editors/3dview/object/properties/duplication/duplifaces>`.
+      :doc:`duplifaces </scene_layout/object/properties/duplication/duplifaces>`.
       Small spheres with *From Dupli* enabled, using the UV map of the large sphere.
 
    .. note::
 
       *From Dupli* only works with the UV output when the dupli object is instanced from faces,
       either with :doc:`particles </physics/particles/introduction>` or
-      :doc:`duplifaces </editors/3dview/object/properties/duplication/duplifaces>`.
+      :doc:`duplifaces </scene_layout/object/properties/duplication/duplifaces>`.
 
 
 Outputs

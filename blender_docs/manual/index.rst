@@ -57,6 +57,16 @@ Sections
 
       .. container:: descr
 
+         .. TODO28: image
+
+         .. figure:: /images/index_data.jpg
+            :target: scene_layout/index.html
+
+         :doc:`/scene_layout/index`
+            Scene and object management.
+
+      .. container:: descr
+
          .. figure:: /images/index_data.jpg
             :target: data_system/index.html
 
@@ -155,6 +165,7 @@ Sections
       getting_started/index.rst
       interface/index.rst
       editors/index.rst
+      scene_layout/index.rst
       data_system/index.rst
       modeling/index.rst
       sculpt_paint/index.rst

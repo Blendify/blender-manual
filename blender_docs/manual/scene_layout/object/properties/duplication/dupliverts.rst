@@ -15,7 +15,7 @@ at the location of every vertex of the parent object.
 
 .. note::
 
-   The relative :doc:`Object Origin </editors/3dview/object/origin>` position
+   The relative :doc:`Object Origin </scene_layout/object/origin>` position
    of the parent and child objects determines offset duplicated geometry from parent vertex.
 
 Rotation
@@ -169,4 +169,4 @@ make sure they are all selected and go to :menuselection:`Object --> Join`, :kbd
 
 .. seealso::
 
-   Other duplication methods are listed :doc:`here </editors/3dview/object/editing/duplication>`.
+   Other duplication methods are listed :doc:`here </scene_layout/object/editing/duplication>`.
