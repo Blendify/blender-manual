@@ -58,13 +58,13 @@ Falloff Angle
 Texture
 =======
 
-See :doc:`/sculpt_paint/texture_tex_mask`.
+See :doc:`/sculpt_paint/brush/texture`.
 
 
 Stroke & Curve
 ==============
 
-See :doc:`/sculpt_paint/stroke_curve`.
+See :doc:`/sculpt_paint/brush/stroke_curve`.
 
 
 Symmetry
