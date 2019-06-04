@@ -16,3 +16,4 @@
    output/index.rst
    post_process/index.rst
    workflows/index.rst
+   command_line.rst
