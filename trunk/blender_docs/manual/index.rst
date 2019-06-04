@@ -57,9 +57,7 @@ Sections
 
       .. container:: descr
 
-         .. TODO28: image
-
-         .. figure:: /images/index_data.jpg
+         .. figure:: /images/index_scene.jpg
             :target: scene_layout/index.html
 
          :doc:`/scene_layout/index`
