@@ -48,7 +48,7 @@ Speaker
    :doc:`Speaker </render/output/audio/speaker>` brings a source of sound to the scene.
 Camera
    This is the virtual camera that is used to determine what appears in the render.
-   See Cameras in :doc:`Cycles </render/engines/cycles/camera>`.
+   See Cameras in :doc:`Cycles </render/camera>`.
 Lamp
    These are used to place light sources in the scene.
    See Lamps in :doc:`General Settings </render/lighting/index>`,

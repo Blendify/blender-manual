@@ -13,6 +13,7 @@
    introduction.rst
    engines/index.rst
    lighting/index.rst
+   camera.rst
    output/index.rst
    post_process/index.rst
    command_line.rst
