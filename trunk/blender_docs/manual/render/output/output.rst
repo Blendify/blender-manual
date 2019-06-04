@@ -50,10 +50,10 @@ Border
       Crops the rendered image to the size of the render border,
       instead of rendering a transparent background around it.
 Frame Range
-   Set the *Start* and *End* frames for :doc:`Rendering Animations </render/workflows/animations>`.
+   Set the *Start* and *End* frames for :doc:`Rendering Animations </render/output/animation>`.
    *Step* controls the number of frames to advance by for each frame in the timeline.
 Frame Rate
-   For an :doc:`Animation </render/workflows/animations>`
+   For an :doc:`Animation </render/output/animation>`
    the frame rate is how many frames will be displayed per second.
 Time Remapping
    Use to remap the length of an animation.

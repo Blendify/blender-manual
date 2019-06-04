@@ -12,4 +12,5 @@
    audio/index.rst
    metadata.rst
    multiview/index.rst
+   animation.rst
    animation_player.rst

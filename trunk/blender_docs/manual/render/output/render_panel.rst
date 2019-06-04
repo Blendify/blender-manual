@@ -12,7 +12,7 @@ Render :kbd:`F12`
    Starts rendering a still image of the current frame.
 Animation :kbd:`Ctrl-F12`
    Starts rendering an animation.
-   See :doc:`Rendering Animations </render/workflows/animations>` for more detail.
+   See :doc:`Rendering Animations </render/output/animation>` for more detail.
 Audio
    Mixes all the audio found in a scene and saves into one file.
    See :doc:`/render/output/audio/introduction`.
