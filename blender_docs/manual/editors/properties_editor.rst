@@ -70,9 +70,9 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 
 ..
 
-- :doc:`Armature </animation/rigging/armatures/properties/index>`
-- :doc:`Bones </animation/rigging/armatures/bones/properties/index>`
-- :doc:`Bone Constraints </animation/rigging/armatures/posing/bone_constraints/introduction>`
+- :doc:`Armature </animation/armatures/properties/index>`
+- :doc:`Bones </animation/armatures/bones/properties/index>`
+- :doc:`Bone Constraints </animation/armatures/posing/bone_constraints/introduction>`
 - :doc:`Lattice </animation/rigging/lattice>`
 
 ..

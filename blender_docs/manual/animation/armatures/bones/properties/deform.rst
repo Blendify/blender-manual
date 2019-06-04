@@ -50,7 +50,7 @@ shown in the *Envelope* visualization:
 
 .. seealso::
 
-   The :doc:`editing pages </animation/rigging/armatures/bones/editing/transform>` for how to edit these properties.
+   The :doc:`editing pages </animation/armatures/bones/editing/transform>` for how to edit these properties.
 
 Distance
    The Distance defines a volume which is the range within the bone

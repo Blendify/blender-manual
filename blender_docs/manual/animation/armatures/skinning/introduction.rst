@@ -4,7 +4,7 @@
 Introduction
 ************
 
-We have seen in :doc:`previous pages </animation/rigging/armatures/index>` how to design an armature,
+We have seen in :doc:`previous pages </animation/armatures/index>` how to design an armature,
 create chains of bones, etc.
 Now, having a good rig is not the final goal, unless you want to produce a "Dance Macabre" animation,
 you will likely want to put some flesh on your skeletons!
@@ -21,7 +21,7 @@ In Blender, you have two main skinning types:
    then, when you transform the bones in *Pose Mode*, their "children" objects are also transformed,
    exactly as with a standard parent/children relationship...
    The "children" are **never** deformed when using this method.
-#. You can :doc:`Use the Armature Modifier on entire Mesh </animation/rigging/armatures/skinning/parenting>`,
+#. You can :doc:`Use the Armature Modifier on entire Mesh </animation/armatures/skinning/parenting>`,
    and then, some parts of this object to some bones inside this armature.
    This is the more complex and powerful method,
    and the only way to really deform the geometry of the object,

@@ -10,5 +10,4 @@
    introduction.rst
 
    constraints/index.rst
-   armatures/index.rst
    lattice.rst

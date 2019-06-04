@@ -179,4 +179,4 @@ called *inverse kinematics* (IK), which allows you to pose a whole chain just by
 .. note::
 
    This feature is somewhat extended/completed by
-   the :doc:`pose library </animation/rigging/armatures/properties/pose_library>` tool.
+   the :doc:`pose library </animation/armatures/properties/pose_library>` tool.

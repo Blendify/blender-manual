@@ -4,7 +4,7 @@
 Introduction
 ************
 
-Once an armature is :doc:`skinned </animation/rigging/armatures/skinning/index>` by the needed object(s),
+Once an armature is :doc:`skinned </animation/armatures/skinning/index>` by the needed object(s),
 you need a way to configure the armature into positions known as poses.
 Basically, by transforming the bones, you deform or transform the skinned object(s).
 However, you will notice that you cannot do this in *Edit Mode* --
@@ -45,5 +45,5 @@ There are six different color codes, ordered here by precedence
 
 .. note::
 
-   When :doc:`/animation/rigging/armatures/properties/bone_groups` colors are enabled,
+   When :doc:`/animation/armatures/properties/bone_groups` colors are enabled,
    the state colors will be overridden.

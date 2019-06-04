@@ -82,7 +82,7 @@ Modes might affect many things in Blender:
      - *None* [1]_
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
    * - .. figure:: /images/editors_3dview_modes_icons-pose-mode.png
-     - :doc:`Pose Mode </animation/rigging/armatures/posing/index>`
+     - :doc:`Pose Mode </animation/armatures/posing/index>`
      - :kbd:`Ctrl-Tab` [2]_
      - An armature only mode, dedicated to armature posing.
    * - .. figure:: /images/editors_3dview_modes_icons-grease-pencil.png

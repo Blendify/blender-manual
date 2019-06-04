@@ -36,7 +36,7 @@ Text
    :doc:`Text objects </modeling/texts/introduction>`
    create a two-dimensional representation of a string of characters.
 Armature
-   :doc:`Armatures </animation/rigging/armatures/index>` are used for :doc:`rigging </animation/rigging/introduction>`
+   :doc:`Armatures </animation/armatures/index>` are used for :doc:`rigging </animation/rigging/introduction>`
    3D models in order to make them poseable and animateable.
 Lattice
    :doc:`Lattices </animation/rigging/lattice>` are non-renderable wireframes, commonly used for taking additional control

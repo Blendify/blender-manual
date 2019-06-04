@@ -27,7 +27,7 @@ make it easy for a hand to grip the hilt of a sword and the sword to swing with 
 
 Constraints, in Blender, work with :term:`Objects <Object>` and :term:`Bones <Bone>`.
 Read about using constraints in rigging
-in the :doc:`Armature chapter </animation/rigging/armatures/posing/bone_constraints/index>`.
+in the :doc:`Armature chapter </animation/armatures/posing/bone_constraints/index>`.
 
 .. figure:: /images/rigging_constraints_introduction_tab-object.png
 

@@ -9,6 +9,7 @@
    :maxdepth: 2
 
    introduction.rst
+   armatures/index.rst
    rigging/index.rst
    keyframes/index.rst
    actions.rst

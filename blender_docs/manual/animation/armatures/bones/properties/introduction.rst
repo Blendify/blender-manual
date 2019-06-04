@@ -76,7 +76,7 @@ Inverse Kinematics
    The Inverse Kinematics panel.
 
 This panel controls the way a bone or set of bones behave when linked in
-an :doc:`inverse kinematic </animation/rigging/armatures/posing/bone_constraints/inverse_kinematics/introduction>` chain.
+an :doc:`inverse kinematic </animation/armatures/posing/bone_constraints/inverse_kinematics/introduction>` chain.
 
 
 Custom Properties

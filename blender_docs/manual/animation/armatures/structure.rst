@@ -48,7 +48,7 @@ The bone at the beginning of a chain is called its *root bone*,
 and the last bone of a chain is the *tip bone*
 (do not confuse them with similar names of bones' joints!).
 
-Chains of bones are a particularly important topic in :doc:`posing </animation/rigging/armatures/posing/index>`
+Chains of bones are a particularly important topic in :doc:`posing </animation/armatures/posing/index>`
 (especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques).
 You create/edit them in *Edit Mode*, but except in case of connected bones,
 their relationships have no effect on bone transformations in this mode
