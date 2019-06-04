@@ -4,7 +4,7 @@
 Data-Block Menu
 ***************
 
-A set of menu buttons used to link :doc:`/data_system/data_blocks` to
+A set of menu buttons used to link :doc:`/files/data_blocks` to
 each other. If data-blocks are linked the data will be updated across
 all of the :term:`data users <Data User>` when edited.
 
@@ -46,7 +46,7 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 
 .. seealso::
 
-   Data-blocks are discussed farther in the :doc:`Data System chapter </data_system/data_blocks>`.
+   Data-blocks are discussed farther in the :doc:`Data System chapter </files/data_blocks>`.
 
 
 Preview

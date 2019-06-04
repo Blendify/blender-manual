@@ -89,7 +89,7 @@ Offset
 .. seealso:: Appending or Linking Groups
 
    To append a group from another blend-file,
-   consult :doc:`this page </data_system/linked_libraries>`.
+   consult :doc:`this page </files/linked_libraries>`.
    In summary, :menuselection:`File --> Link/Append Link` Select a blend-file and then the group.
 
 .. tip:: Selecting Groups

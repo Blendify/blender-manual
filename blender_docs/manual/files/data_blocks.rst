@@ -30,7 +30,7 @@ Some common characteristics:
 - They can be added/removed/edited/duplicated.
 - They can be linked between files (only enabled for a limited set of data-blocks).
 - They can have their own animation data.
-- They can have :doc:`Custom Properties </data_system/custom_properties>`.
+- They can have :doc:`Custom Properties </files/custom_properties>`.
 
 When doing more complex projects, managing data-blocks becomes more important,
 especially when inter-linking blend-files.
@@ -87,7 +87,7 @@ Examples where sharing data is common:
 
 You can also share data-blocks between files, see:
 
-- :doc:`linked libraries </data_system/linked_libraries>`.
+- :doc:`linked libraries </files/linked_libraries>`.
 
 
 .. _data-system-datablock-make-single-user:
