@@ -16,7 +16,7 @@ Brush
 =====
 
 Brush
-   The :doc:`brush presets </sculpt_paint/brush>` data-block menu.
+   The :doc:`brush presets </sculpt_paint/brush/settings>` data-block menu.
 Color
    The color of the brush. See :ref:`ui-color-picker`.
 
