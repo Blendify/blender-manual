@@ -70,7 +70,7 @@ Image
 Source
 ------
 
-See about supported :doc:`/data_system/files/media/image_formats`.
+See about supported :doc:`/files/files/media/image_formats`.
 
 
 Single Image

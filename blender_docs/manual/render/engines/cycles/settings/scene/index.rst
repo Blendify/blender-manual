@@ -8,4 +8,3 @@
 
    introduction.rst
    render/index.rst
-   render_layers/index.rst
