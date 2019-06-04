@@ -20,7 +20,7 @@ To add a constraint click on the *Add Object Constraint* menu in the Constraints
 .. figure:: /images/rigging_constraints_interface_adding-removing_add-menu.png
 
 To remove a constraint click on the "X" button
-in the :doc:`header </animation/rigging/constraints/interface/header>`.
+in the :doc:`header </animation/constraints/interface/header>`.
 
 
 Menu
@@ -94,9 +94,9 @@ Track
 These tools add a tracking constraint :kbd:`Ctrl-T` to the selected objects;
 the target object of the constraint will be the active object, which won't have a constraint added.
 
-- :doc:`Damped Track Constraint </animation/rigging/constraints/tracking/damped_track>`
-- :doc:`Track To Constraint </animation/rigging/constraints/tracking/track_to>`
-- :doc:`Lock Track Constraint </animation/rigging/constraints/tracking/locked_track>`
+- :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`
+- :doc:`Track To Constraint </animation/constraints/tracking/track_to>`
+- :doc:`Lock Track Constraint </animation/constraints/tracking/locked_track>`
 
 Clear Track :kbd:`Alt-T`
    Removes all Damped Track, Track To and Lock Track Constraints from the selected objects.

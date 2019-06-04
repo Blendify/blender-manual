@@ -47,7 +47,7 @@ Limit X, Y, Z
 
    - If a min value is higher than its corresponding max value,
      the constraint behaves as if it had the same value as the max one.
-   - Unlike the :doc:`Limit Location constraint </animation/rigging/constraints/transform/limit_location>`,
+   - Unlike the :doc:`Limit Location constraint </animation/constraints/transform/limit_location>`,
      you cannot enable separately lower or upper limits...
 
 For Transform

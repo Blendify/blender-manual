@@ -55,8 +55,8 @@ IK is mostly done with bone constraints.
 They work by the same method but offer more choices and settings.
 Please refer to these pages for detail about the settings for the constraints:
 
-- :doc:`IK Solver </animation/rigging/constraints/tracking/ik_solver>`
-- :doc:`Spline IK </animation/rigging/constraints/tracking/spline_ik>`
+- :doc:`IK Solver </animation/constraints/tracking/ik_solver>`
+- :doc:`Spline IK </animation/constraints/tracking/spline_ik>`
 
 
 Armature IK Panel

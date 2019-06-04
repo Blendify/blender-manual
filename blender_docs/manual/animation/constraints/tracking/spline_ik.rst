@@ -27,7 +27,7 @@ connected bones and a curve to constrain these bones to:
    For this reason, they ignore their position in the stack and always run after
    all other constraints on the affected bones. To apply constraints after IK,
    it is necessary to first copy the final transformation to a new bone chain,
-   e.g. using :doc:`Copy Transforms </animation/rigging/constraints/transform/copy_transforms>`.
+   e.g. using :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`.
 
 
 Options

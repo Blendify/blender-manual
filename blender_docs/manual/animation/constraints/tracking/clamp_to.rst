@@ -5,7 +5,7 @@ Clamp To Constraint
 *******************
 
 The *Clamp To* constraint clamps an object to a curve. The *Clamp To* constraint is very similar
-to the :doc:`Follow Path </animation/rigging/constraints/relationship/follow_path>` constraint,
+to the :doc:`Follow Path </animation/constraints/relationship/follow_path>` constraint,
 but instead of using the evaluation time of the target curve, *Clamp To*
 will get the actual location properties of its owner
 (those shown in the *Transform* panel),
@@ -16,7 +16,7 @@ it is easier to see what your owner will be doing; since you are working in the 
 it will just be a lot more precise than sliding keys around on an F-Curve and
 playing the animation over and over.
 
-A downside is that unlike in the :doc:`Follow Path constraint </animation/rigging/constraints/relationship/follow_path>`,
+A downside is that unlike in the :doc:`Follow Path constraint </animation/constraints/relationship/follow_path>`,
 *Clamp To* does not have any option to track your owner's rotation (pitch, roll, yaw)
 to the banking of the targeted curve, but you do not always need rotation on,
 so in cases like this it's usually a lot handier to fire up a *Clamp To*,

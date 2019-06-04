@@ -14,7 +14,7 @@ This is the preferred tracking constraint,
 as it has a more easily controlled constraining mechanism.
 
 This constraint shares a close relationship to
-the :doc:`Inverse Kinematics constraint </animation/rigging/constraints/tracking/ik_solver>` in some ways.
+the :doc:`Inverse Kinematics constraint </animation/constraints/tracking/ik_solver>` in some ways.
 
 .. tip:: Billboard tracking
 

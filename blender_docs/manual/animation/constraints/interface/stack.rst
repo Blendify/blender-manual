@@ -16,4 +16,4 @@ Changing the order of the constraints can change the behavior of the entire stac
    and ending with the final "Transformation" constraint.
 
 To change the order of a constraint use the up/down arrows
-in the :doc:`header </animation/rigging/constraints/interface/header>`.
+in the :doc:`header </animation/constraints/interface/header>`.

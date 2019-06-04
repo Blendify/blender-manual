@@ -9,9 +9,10 @@
    :maxdepth: 2
 
    introduction.rst
-   armatures/index.rst
-   rigging/index.rst
    keyframes/index.rst
+   armatures/index.rst
+   constraints/index.rst
+   rigging/index.rst
    actions.rst
    drivers/index.rst
    markers.rst

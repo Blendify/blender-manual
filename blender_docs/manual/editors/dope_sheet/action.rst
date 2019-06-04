@@ -18,7 +18,7 @@ and *Pose* (for armatures, one per animated bone) F-Curve data-blocks,
 and hence an action can have several of these channels.
 
 ..
-   :doc:`Action constraint </animation/rigging/constraints/relationship/action>` or
+   :doc:`Action constraint </animation/constraints/relationship/action>` or
    the :doc:`pose libraries </animation/armatures/properties/pose_library>`
 
 .. figure:: /images/editors_dope-sheet_action_editor.png

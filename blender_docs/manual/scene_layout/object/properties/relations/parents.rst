@@ -88,7 +88,7 @@ or activates a parent property i.e. *Follow Path*.
 - :doc:`Armature Deform </animation/armatures/skinning/parenting>`
 - :doc:`Curve Deform </modeling/modifiers/deform/curve>`
 - :ref:`Follow Path <curve-path-animation>`
-- :doc:`Path Constraint </animation/rigging/constraints/relationship/follow_path>`
+- :doc:`Path Constraint </animation/constraints/relationship/follow_path>`
 - :doc:`Lattice Deform </modeling/modifiers/deform/lattice>`
 
 

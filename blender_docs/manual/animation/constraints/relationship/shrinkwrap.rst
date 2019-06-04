@@ -138,6 +138,6 @@ local axis of the object to the smooth normal of the target at the selected
 point. The axis is selected via radio buttons.
 
 The alignment is performed via smallest rotation, like in
-:doc:`Damped Track </animation/rigging/constraints/tracking/damped_track>` constraint.
+:doc:`Damped Track </animation/constraints/tracking/damped_track>` constraint.
 
 .. vimeo:: 171554427

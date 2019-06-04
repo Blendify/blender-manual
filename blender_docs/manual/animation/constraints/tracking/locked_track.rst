@@ -5,7 +5,7 @@ Locked Track Constraint
 ***********************
 
 The *Locked Track* constraint is a bit tricky to explain, both graphically and textual.
-Basically, it is a :doc:`Track To constraint </animation/rigging/constraints/tracking/track_to>`, but with a locked axis, i.e.
+Basically, it is a :doc:`Track To constraint </animation/constraints/tracking/track_to>`, but with a locked axis, i.e.
 an axis that cannot rotate (change its orientation). Hence,
 the owner can only track its target by rotating around this axis,
 and unless the target is in the plane perpendicular to the locked axis, and crossing the owner,

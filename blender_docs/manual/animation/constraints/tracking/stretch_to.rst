@@ -5,7 +5,7 @@ Stretch To Constraint
 *********************
 
 The *Stretch To* constraint causes its owner to rotate and scale its Y axis towards its target.
-So it has the same tracking behavior as the :doc:`Track To constraint </animation/rigging/constraints/tracking/track_to>`.
+So it has the same tracking behavior as the :doc:`Track To constraint </animation/constraints/tracking/track_to>`.
 However, it assumes that the Y axis will be the tracking and stretching axis,
 and does not give you the option of using a different one.
 
@@ -55,7 +55,7 @@ Volume
    If you enable the *none* button, the volumetric features are disabled.
 Plane
    These buttons are equivalent to the *Up* ones of
-   the :doc:`Track To constraint </animation/rigging/constraints/tracking/track_to>`:
+   the :doc:`Track To constraint </animation/constraints/tracking/track_to>`:
    they control which of the X or Z axes should be maintained (as much as possible) aligned with the global Z axis,
    while tracking the target with the Y axis.
 

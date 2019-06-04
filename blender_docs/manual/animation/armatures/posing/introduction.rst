@@ -40,7 +40,7 @@ There are six different color codes, ordered here by precedence
 - Gray: Default.
 - Blue wireframe: in Pose Mode.
 - Green: with Constraint.
-- Yellow: with :doc:`IK Solver constraint </animation/rigging/constraints/tracking/ik_solver>`.
+- Yellow: with :doc:`IK Solver constraint </animation/constraints/tracking/ik_solver>`.
 - Orange: with Targetless Solver constraint.
 
 .. note::
