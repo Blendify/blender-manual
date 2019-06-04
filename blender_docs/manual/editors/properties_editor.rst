@@ -35,7 +35,7 @@ These tabs are used to add features, and to change properties for the Active Sce
 
 - :doc:`Render </render/output/index>` and Settings:
   :doc:`Eevee </render/engines/eevee/index>`, :doc:`Cycles </render/engines/cycles/settings/index>`
-- :doc:`/render/post_process/layers`
+- :doc:`/render/layers/index`
 - :doc:`Scene </scene_layout/scene/properties>`
 - World: :doc:`Eevee </render/engines/eevee/world>`, :doc:`Cycles </render/engines/cycles/world>`
 
