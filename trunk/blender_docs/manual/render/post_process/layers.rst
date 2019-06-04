@@ -82,7 +82,7 @@ Material Override
 Usage
 =====
 
-Each Render Layer has an associated set of :doc:`Scene Layers </editors/3dview/object/properties/relations/layers>`.
+Each Render Layer has an associated set of :doc:`Scene Layers </scene_layout/object/properties/relations/layers>`.
 Objects which are on one of the associated Scene Layers are shown in that Render Layer,
 as long as that Scene Layer is also visible.
 

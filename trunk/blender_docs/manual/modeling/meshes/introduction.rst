@@ -36,7 +36,7 @@ You can work with geometric objects in two modes.
 Object Mode
 -----------
 
-:doc:`Object Mode </editors/3dview/object/editing/transform/introduction>`
+:doc:`Object Mode </scene_layout/object/editing/transform/introduction>`
 Operations in *Object Mode* affect the whole object.
 *Object Mode* has the following header in the 3D View:
 

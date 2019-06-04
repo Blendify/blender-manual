@@ -5,7 +5,7 @@ Editing
 
 By default, when new channels are added, the *Graph Editor* sets them to *Edit Mode*.
 
-Many of the hotkeys are the same as the :doc:`3D View ones </editors/3dview/object/index>`,
+Many of the hotkeys are the same as the :doc:`3D View ones </scene_layout/object/index>`,
 for example:
 
 - :kbd:`G` to grab

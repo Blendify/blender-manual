@@ -60,7 +60,7 @@ Force Field
 Group Instance
    Lets you select from a list of existing object groups.
    Once selected, an Empty object will be created, with an instance of the selected group (group duplication active).
-   See :doc:`/editors/3dview/object/properties/duplication/dupligroup`.
+   See :doc:`/scene_layout/object/properties/duplication/dupligroup`.
 
 
 .. _object-common-options:

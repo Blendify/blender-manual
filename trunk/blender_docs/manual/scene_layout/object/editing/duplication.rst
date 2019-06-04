@@ -124,4 +124,4 @@ wheels on a car... anywhere there is repetition or symmetry.
 .. hint::
 
    If you want transform properties (i.e. object data-blocks) to be "linked",
-   see the page on :doc:`parenting </editors/3dview/object/properties/relations/parents>`.
+   see the page on :doc:`parenting </scene_layout/object/properties/relations/parents>`.

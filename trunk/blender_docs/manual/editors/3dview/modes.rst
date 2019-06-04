@@ -51,7 +51,7 @@ Modes might affect many things in Blender:
      - Shortcut
      - Details
    * - .. figure:: /images/editors_3dview_modes_icons-object-mode.png
-     - :doc:`Object Mode </editors/3dview/object/index>`
+     - :doc:`Object Mode </scene_layout/object/index>`
      - *None* [1]_
      - The default mode, available for all object types,
        as it is dedicated to *Object* data-block editing (e.g. position, rotation, size).

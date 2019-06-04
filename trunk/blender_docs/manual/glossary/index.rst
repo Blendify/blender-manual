@@ -414,7 +414,7 @@ This page lists definitions for terms used in Blender and this manual.
       See also :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
 
    Layer
-      A device for organizing objects. See also :doc:`Layers </editors/3dview/object/properties/relations/layers>`.
+      A device for organizing objects. See also :doc:`Layers </scene_layout/object/properties/relations/layers>`.
 
    Light Bounces
       Refers to the reflection or transmission of a light ray upon interaction with a material.
@@ -586,7 +586,7 @@ This page lists definitions for terms used in Blender and this manual.
       The pivot point is the point in space around which all rotations,
       scalings and mirror transformations are centered.
 
-      See also the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>` docs.
+      See also the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>` docs.
 
    Pixel
       The smallest unit of information in a 2D raster image,

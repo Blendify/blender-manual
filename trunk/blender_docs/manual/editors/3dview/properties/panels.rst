@@ -11,7 +11,7 @@ This panel lets you configure some visualization parameters of the viewport.
 Only Render
    Displays only items that will be rendered.
    This option hides visualizations, overlays, the 3D cursor, and the grid floor.
-   The :doc:`3D manipulator widget </editors/3dview/object/editing/transform/control/manipulators>`
+   The :doc:`3D manipulator widget </scene_layout/object/editing/transform/control/manipulators>`
    has to be toggled separately.
 
    This can be useful for a preview and for :doc:`viewport rendering </editors/3dview/viewport_render>`.

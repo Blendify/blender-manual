@@ -163,17 +163,17 @@ Current Scene
    Shows everything in the current scene.
 Visible Layers
    Shows everything on the visible (currently selected) layers in the current scene.
-   Use the :doc:`layer </editors/3dview/object/properties/relations/layers>` buttons
+   Use the :doc:`layer </scene_layout/object/properties/relations/layers>` buttons
    to make objects on a layer visible in the 3D View.
 Selected
    Lists the object(s) that are currently selected in the 3D View.
-   See :doc:`selecting in the 3D View </editors/3dview/object/selecting/index>` for more information.
+   See :doc:`selecting in the 3D View </scene_layout/object/selecting/index>` for more information.
 Active
    Lists only the active (often last selected) object.
 Same Types
    Lists only those objects in the current scene that are of the same types as those selected in the 3D View.
 Groups
-   Lists only :doc:`Groups </editors/3dview/object/properties/relations/groups>` and their members.
+   Lists only :doc:`Groups </scene_layout/object/properties/relations/groups>` and their members.
 Sequence
    Lists :doc:`data-block </data_system/data_blocks>`
    that are used by the :doc:`Sequencer </editors/vse/index>`.

@@ -79,7 +79,7 @@ Controls
 Back to Previous
    A button shown when an area is maximized to return to tiled areas.
 Scene
-   :ref:`Data-block menu <ui-data-block>` to select different :doc:`Scenes </data_system/scenes/introduction>`.
+   :ref:`Data-block menu <ui-data-block>` to select different :doc:`Scenes </scene_layout/scene/introduction>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with object and/or mesh data linked between them.
 Engine

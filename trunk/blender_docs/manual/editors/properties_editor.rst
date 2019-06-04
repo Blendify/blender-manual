@@ -36,7 +36,7 @@ These tabs are used to add features, and to change properties for the Active Sce
 - :doc:`Render </render/output/index>` and Settings:
   :doc:`Eevee </render/eevee/index>`, :doc:`Cycles </render/cycles/settings/index>`
 - :doc:`/render/post_process/layers`
-- :doc:`Scene </data_system/scenes/properties>`
+- :doc:`Scene </scene_layout/scene/properties>`
 - World: :doc:`Eevee </render/eevee/world>`, :doc:`Cycles </render/cycles/world>`
 
 
@@ -55,7 +55,7 @@ These tabs are used to add features, and to change properties for the Active Obj
 
 The Object Data tabs shown depend on what type of object was selected last (the Active Object).
 
-- :doc:`Object </editors/3dview/object/properties/index>`
+- :doc:`Object </scene_layout/object/properties/index>`
 - :doc:`/rigging/constraints/index`
 - :doc:`/modeling/modifiers/index`
 

@@ -19,7 +19,7 @@ Properties
    :Panel:     :menuselection:`Properties editor --> Object Data --> Texture Space`
 
 These are settings of the :term:`texture space` used by generated texture mapping.
-The visualization of the texture space can be activated in the :doc:`/editors/3dview/object/properties/display`.
+The visualization of the texture space can be activated in the :doc:`/scene_layout/object/properties/display`.
 
 Auto Texture Space
    Adjusts the active object's texture space automatically when transforming the object.
@@ -57,7 +57,7 @@ Editing
 
 To modify the texture space from the 3D View, enable
 :ref:`Edit Texture Space <modeling_transform_edit-texture-space>`
-while :doc:`transforming </editors/3dview/object/editing/transform/basics>` an object.
+while :doc:`transforming </scene_layout/object/editing/transform/basics>` an object.
 The texture space can also be transformed with the two shortcuts: :kbd:`Shift-T`
 (move) and :kbd:`Shift-Alt-T` (scale). In essence, these shortcuts just enable
 the *Edit Texture Space* option while transforming.

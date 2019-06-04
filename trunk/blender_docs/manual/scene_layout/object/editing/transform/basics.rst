@@ -55,7 +55,7 @@ Rotate
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, object, etc.)
 around one or more axes or
-the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>`.
+the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
 The angle of rotation will be displayed in the footer of the 3D View editor.
 
@@ -91,7 +91,7 @@ Pressing :kbd:`S` will enter the *Scale* transformation mode where
 the selected element is scaled inward or outward according to the mouse pointer's location.
 The element's scale will increase as the mouse pointer is moved away from the Pivot Point and
 decrease as the pointer is moved towards it. If the mouse pointer crosses from the original side of
-the :doc:`Pivot Point </editors/3dview/object/editing/transform/control/pivot_point/index>` to the opposite side,
+the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>` to the opposite side,
 the scale will continue in the negative direction and flip the element.
 
 .. figure:: /images/editors_3dview_object_editing_transform_basics_scale-basic-usage.png
@@ -113,9 +113,9 @@ There are multiple ways to transform an element which include:
 
 - The keyboard shortcut.
 - The menu in the header or the Transform panel in the Tool Shelf.
-- The :doc:`3D Transform Manipulator </editors/3dview/object/editing/transform/control/manipulators>`
+- The :doc:`3D Transform Manipulator </scene_layout/object/editing/transform/control/manipulators>`
   widget.
-- The :doc:`Transform panel </editors/3dview/object/properties/transforms>`
+- The :doc:`Transform panel </scene_layout/object/properties/transforms>`
   in the Sidebar region or the Object tab.
 
 
@@ -133,7 +133,7 @@ This will reset the object or element to its original state.
 .. seealso::
 
    Using combination of shortcuts gives you more control over your transformation.
-   See :doc:`Transform Control </editors/3dview/object/editing/transform/control/index>`.
+   See :doc:`Transform Control </scene_layout/object/editing/transform/control/index>`.
 
 
 Operator Panel
@@ -151,11 +151,11 @@ Constrain Axis
 
    X, Y, Z
 Orientation
-   Shows the :doc:`Orientations </editors/3dview/object/editing/transform/control/orientations>`
+   Shows the :doc:`Orientations </scene_layout/object/editing/transform/control/orientations>`
    of the constraint axes.
 Proportional Editing, Falloff, Size
    Activates/deactivates *Proportional Editing* and configures the type *Falloff* and
-   *Size* of the :doc:`/editors/3dview/object/editing/transform/control/proportional_edit` tool.
+   *Size* of the :doc:`/scene_layout/object/editing/transform/control/proportional_edit` tool.
 Edit Grease Pencil
    ToDo.
 

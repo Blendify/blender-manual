@@ -74,7 +74,7 @@ It is the difference in the weights that cause the surface to move
 towards or away from a control point.
 
 The *Weight* of any particular control point is visible
-in the :doc:`/editors/3dview/object/properties/transforms`
+in the :doc:`/scene_layout/object/properties/transforms`
 :kbd:`N`, in the *W* field (and not the *Weight* field...).
 
 

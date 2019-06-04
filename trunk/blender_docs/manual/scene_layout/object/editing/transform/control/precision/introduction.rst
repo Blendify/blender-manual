@@ -49,14 +49,14 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 
 .. seealso::
 
-   :doc:`Read more about the Transform Manipulator </editors/3dview/object/editing/transform/control/manipulators>`.
+   :doc:`Read more about the Transform Manipulator </scene_layout/object/editing/transform/control/manipulators>`.
 
 .. tip:: Combining with Other Controls
 
    All of the precision controls detailed on the page can be combined with
-   the :doc:`Axis Locking </editors/3dview/object/editing/transform/control/precision/axis_locking>`
+   the :doc:`Axis Locking </scene_layout/object/editing/transform/control/precision/axis_locking>`
    controls and used with the different
-   :doc:`Pivot Points </editors/3dview/object/editing/transform/control/pivot_point/index>`.
+   :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
 
 Snapping
@@ -104,7 +104,7 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
    Note that if you have a :ref:`Snap Element <transform-snap-element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
-   Read more about :doc:`snapping </editors/3dview/object/editing/transform/control/snap>`.
+   Read more about :doc:`snapping </scene_layout/object/editing/transform/control/snap>`.
 
 
 Precision

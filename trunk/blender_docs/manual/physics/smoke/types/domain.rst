@@ -233,10 +233,10 @@ Collections
    :Panel:     :menuselection:`Properties --> Physics --> Collections`
 
 Flow
-   If set, only objects in the specified :doc:`Collection </editors/3dview/object/properties/relations/groups>`
+   If set, only objects in the specified :doc:`Collection </scene_layout/object/properties/relations/groups>`
    will be allowed to act as flow objects in this domain.
 Collision
-   If set, only objects in the specified :doc:`Collection </editors/3dview/object/properties/relations/groups>`
+   If set, only objects in the specified :doc:`Collection </scene_layout/object/properties/relations/groups>`
    will be allowed to act as collision objects in this domain.
 
 
