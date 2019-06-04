@@ -291,7 +291,7 @@ Denoising
 Even with all the settings described above there will always end
 up being some render noise no matter how many samples you use.
 To fix this there is a post-processing technique to cleanup the final bit of noise.
-To use this enable :doc:`Denoising </render/engines/cycles/settings/scene/render_layers/denoising>`
+To use this enable :doc:`Denoising </render/layers/denoising>`
 in the *Render Layers* tab of the Properties editor.
 
 Below is an example render by

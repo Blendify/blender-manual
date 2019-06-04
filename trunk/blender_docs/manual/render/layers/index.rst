@@ -1,6 +1,6 @@
 
 #########################
-  Render Layer Settings
+  Render Layer & Passes
 #########################
 
 .. toctree::
