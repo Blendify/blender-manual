@@ -66,15 +66,15 @@ Modes might affect many things in Blender:
      - *None* [1]_
      - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
    * - .. figure:: /images/editors_3dview_modes_icons-vertex-paint.png
-     - :doc:`Vertex Paint Mode </sculpt_paint/painting/vertex_paint/index>`
+     - :doc:`Vertex Paint Mode </sculpt_paint/vertex_paint/index>`
      - *None* [1]_
      - A mesh-only mode, that allows you to set your mesh's vertices colors (i.e. to "paint" them).
    * - .. figure:: /images/editors_3dview_modes_icons-weight-paint.png
-     - :doc:`Weight Paint Mode </sculpt_paint/painting/weight_paint/index>`
+     - :doc:`Weight Paint Mode </sculpt_paint/weight_paint/index>`
      - :kbd:`Ctrl-Tab` [2]_
      - A mesh-only mode, dedicated to vertex group weighting.
    * - .. figure:: /images/editors_3dview_modes_icons-texture-paint.png
-     - :doc:`Texture Paint Mode </sculpt_paint/painting/texture_paint/index>`
+     - :doc:`Texture Paint Mode </sculpt_paint/texture_paint/index>`
      - *None* [1]_
      - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D Views.
    * - .. figure:: /images/editors_3dview_modes_icons-particle-edit.png

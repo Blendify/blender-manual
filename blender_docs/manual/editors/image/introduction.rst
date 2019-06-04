@@ -28,7 +28,7 @@ Modes
    View
       Displays Images.
    Paint
-      :doc:`/sculpt_paint/painting/texture_paint/index`.
+      :doc:`/sculpt_paint/texture_paint/index`.
    Mask
       :doc:`/editors/movie_clip_editor/masking/index`.
 

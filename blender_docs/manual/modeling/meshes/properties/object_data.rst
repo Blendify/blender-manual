@@ -54,7 +54,7 @@ Vertex Colors
 =============
 
 Color data can be applied directly to an object's vertices rather than using a texture or a material.
-Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/painting/vertex_paint/index>` mode.
+Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/vertex_paint/index>` mode.
 
 
 Geometry Data

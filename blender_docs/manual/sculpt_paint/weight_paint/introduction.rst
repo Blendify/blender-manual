@@ -42,7 +42,7 @@ In addition to the above described color code, Blender has a special visual nota
 for unreferenced vertices: They are drawn in black.
 Thus you can see the referenced areas (drawn in cold/hot colors) and the unreferenced areas
 (in black) at the same time. This is most practicable when you look for weighting errors.
-See :doc:`/sculpt_paint/painting/weight_paint/options`.
+See :doc:`/sculpt_paint/weight_paint/options`.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code-black.png
 
