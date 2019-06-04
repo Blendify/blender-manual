@@ -38,7 +38,7 @@ Eyedropper
 
    In Blender, the *Hex* and HSV/HSL values are automatically :term:`gamma` corrected however,
    for the RGB values, they are in Scene Linear color space, and are therefore not gamma corrected.
-   For more information, see the :doc:`Color Management and Exposure </render/post_process/color_management>` page.
+   For more information, see the :doc:`Color Management and Exposure </render/color_management>` page.
 
 
 Types

@@ -185,7 +185,7 @@ Color Space
    Filmic Log
       Todo.
 View as Render
-   Applies :doc:`color transform </render/post_process/color_management>` when displaying this image on the screen.
+   Applies :doc:`color transform </render/color_management>` when displaying this image on the screen.
 Use Multi-View
    See :doc:`Multi-View </render/output/multiview/index>`.
 Alpha

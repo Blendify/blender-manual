@@ -15,6 +15,7 @@
    shaders/index.rst
    lighting/index.rst
    camera.rst
+   color_management.rst
    output/index.rst
    post_process/index.rst
    command_line.rst
