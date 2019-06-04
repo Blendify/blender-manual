@@ -1,7 +1,4 @@
-.. _render-index:
-.. _bpy.types.Render:
-.. _bpy.types.RenderSettings:
-.. _bpy.ops.render:
+.. _render-engine-index:
 
 ##################
   Render Engines

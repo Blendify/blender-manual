@@ -67,10 +67,10 @@ Accessing
 =========
 
 The automatically calculated UV map can be accessed by an object's material through
-the *Generated* output of the :doc:`/render/engines/cycles/nodes/types/input/texture_coordinate`.
+the *Generated* output of the :doc:`/render/shaders/nodes/types/input/texture_coordinate`.
 This output can then be used to map any texture onto an object.
 
 .. tip::
 
    Generated texture spaces do not have rotation support, to overcome this,
-   a :doc:`/render/engines/cycles/nodes/types/vector/mapping` can be used to rotate the UV map.
+   a :doc:`/render/shaders/nodes/types/vector/mapping` can be used to rotate the UV map.

@@ -36,7 +36,7 @@ Properties
 ==========
 
 Distribution
-   See :doc:`/render/engines/cycles/nodes/types/shaders/glossy`.
+   See :doc:`/render/shaders/nodes/types/shaders/glossy`.
 
 
 Outputs
