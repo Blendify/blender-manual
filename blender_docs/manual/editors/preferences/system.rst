@@ -20,16 +20,16 @@ to find a supported value or just let Blender correct it.
 Cycles Render Device
 ====================
 
-Changes the computing device the :doc:`Cycles </render/cycles/index>` render engine uses to render images.
+Changes the computing device the :doc:`Cycles </render/engines/cycles/index>` render engine uses to render images.
 Cycles can use either the CPU or certain GPU's to render images,
-for more information see the :doc:`GPU Rendering </render/cycles/gpu_rendering>` page.
+for more information see the :doc:`GPU Rendering </render/engines/cycles/gpu_rendering>` page.
 
 None
    When set to *None* or when the only option is *None*:
    the CPU will be used as the computing device for the Cycles Renderer.
 CUDA
    If the system has a compatible Nvidia CUDA enabled graphics card you will be able
-   to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
+   to use it to render with the :doc:`Cycles </render/engines/cycles/features>` render engine.
 OpenCL
    If the system has a compatible AMD OpenCL device, it will show up an option for rendering with Cycles.
 

@@ -418,7 +418,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Light Bounces
       Refers to the reflection or transmission of a light ray upon interaction with a material.
-      See also :doc:`Light Paths </render/cycles/settings/scene/render/light_paths>`.
+      See also :doc:`Light Paths </render/engines/cycles/settings/scene/render/light_paths>`.
 
    Local Space
       A 3D coordinate system that originates (for Objects) at the :term:`Object Origin`.

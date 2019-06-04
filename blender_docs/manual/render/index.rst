@@ -11,18 +11,8 @@
    :maxdepth: 1
 
    introduction.rst
+   engines/index.rst
    lighting/index.rst
    output/index.rst
    post_process/index.rst
    workflows/index.rst
-
-
-Render Engines
-==============
-
-.. toctree::
-   :maxdepth: 1
-
-   eevee/index.rst
-   cycles/index.rst
-   workbench/index.rst
