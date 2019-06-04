@@ -117,7 +117,7 @@ Multi-Paint
 Stroke & Curve
 ==============
 
-See :doc:`/sculpt_paint/stroke_curve`.
+See :doc:`/sculpt_paint/brush/stroke_curve`.
 
 
 Symmetry
