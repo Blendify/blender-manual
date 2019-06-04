@@ -14,7 +14,7 @@ but just a little, to mimic the stretching of the skin around the joint.
 Use a "light" weight (10 - 40%)
 paint on the vertices around the joint so that they move a little when the bone rotates.
 While there are ways to automatically assign weights to an armature
-(see the :doc:`Armature section </rigging/index>`),
+(see the :doc:`Armature section </animation/rigging/index>`),
 you can do this manually. To do this from scratch, refer to the process below.
 To modify automatically assigned weights, jump into the middle of the process where noted:
 

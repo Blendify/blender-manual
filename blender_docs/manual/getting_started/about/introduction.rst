@@ -41,7 +41,7 @@ Key Features
   :doc:`VFX </editors/movie_clip_editor/index>`,
   :doc:`Compositing </compositing/introduction>`,
   :doc:`Texturing </editors/uv/overview>`,
-  :doc:`Rigging </rigging/introduction>`,
+  :doc:`Rigging </animation/rigging/introduction>`,
   and many types of :doc:`Simulations </physics/introduction>`.
 - It is cross platform, with an OpenGL GUI that is uniform on all major platforms
   (and customizable with Python scripts).

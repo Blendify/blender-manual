@@ -1,14 +1,15 @@
 .. _animation-index:
 .. _bpy.ops.anim:
 
-#############
-  Animation
-#############
+#######################
+  Animation & Rigging
+#######################
 
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
+   rigging/index.rst
    keyframes/index.rst
    actions.rst
    drivers/index.rst
