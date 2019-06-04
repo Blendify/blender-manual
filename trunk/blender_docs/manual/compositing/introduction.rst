@@ -36,7 +36,7 @@ Access the *Compositor* and activate nodes for compositing by clicking the *Use 
 .. note::
 
    After clicking *Use Nodes* the Compositor is enabled, however,
-   it can also be disabled in the :doc:`Post Processing Panel </render/post_process/panel>`.
+   it can also be disabled in the :ref:`render-output-postprocess`.
 
 You now have your first node setup, from here you can add and connect many types of
 :doc:`Compositing Nodes </compositing/index>`, in a sort of map layout,
