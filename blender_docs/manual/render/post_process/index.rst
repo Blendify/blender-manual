@@ -12,5 +12,4 @@ but rather composited on top of the image.
 
    layers.rst
    panel.rst
-   color_management.rst
    freestyle/index.rst
