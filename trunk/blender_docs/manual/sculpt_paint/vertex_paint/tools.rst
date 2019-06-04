@@ -112,4 +112,4 @@ Set Vertex Colors :kbd:`Shift-K`
 
 .. seealso::
 
-   :doc:`/sculpt_paint/painting/weight_paint/hide_mask`
+   :doc:`/sculpt_paint/weight_paint/hide_mask`

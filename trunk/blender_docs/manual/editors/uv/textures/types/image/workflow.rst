@@ -45,7 +45,7 @@ After that, you can color the image using the:
 
 After you have created your image,
 you can modify it using Blender's built-in
-:doc:`Texture Paint </sculpt_paint/painting/texture_paint/introduction>`
+:doc:`Texture Paint </sculpt_paint/texture_paint/introduction>`
 or any external image painting program.
 
 .. note:: See Texture in 3D View but does not Render
