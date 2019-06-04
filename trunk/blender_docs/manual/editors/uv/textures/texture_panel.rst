@@ -14,7 +14,7 @@ Texture Context
    the kind of texture that is being edited.
 
    World
-      :doc:`World Background </render/cycles/world>`.
+      :doc:`World Background </render/engines/cycles/world>`.
    Material/Lamp
       Material type is described in the following section.
 

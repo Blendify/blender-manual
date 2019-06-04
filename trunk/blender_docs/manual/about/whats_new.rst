@@ -8,19 +8,19 @@ This page lists major changes and additions to the manual.
 The `Blender release notes <https://www.blender.org/features/releases/>`__
 are located on the website and in the Wiki.
 
-- :doc:`Principled Hair Node </render/cycles/nodes/types/shaders/hair_principled>`
+- :doc:`Principled Hair Node </render/engines/cycles/nodes/types/shaders/hair_principled>`
   (`rBM4368 <https://developer.blender.org/rBM4368>`__, Jul 17).
 - :doc:`Add-ons section </addons/index>`
   (`rBM4324 <https://developer.blender.org/rBM4324>`__, Jun 27).
 - :doc:`Alembic </pipeline/alembic>`
   (`rBM3580 <https://developer.blender.org/rBM3580>`__, May 30).
-- :doc:`Cycles Denoising </render/cycles/settings/scene/render_layers/denoising>`
+- :doc:`Cycles Denoising </render/engines/cycles/settings/scene/render_layers/denoising>`
   (`rBM3562 <https://developer.blender.org/rBM3562>`__, May 24).
 - :doc:`Video Output (Update) </render/output/video>`
   (`rBM3559 <https://developer.blender.org/rBM3559>`__, May 23).
-- :doc:`Shadow Catcher </render/cycles/settings/objects/object_data>`
+- :doc:`Shadow Catcher </render/engines/cycles/settings/objects/object_data>`
   (`rBM3548 <https://developer.blender.org/rBM3548>`__, May 22).
-- :doc:`Principled Node </render/cycles/nodes/types/shaders/principled>`
+- :doc:`Principled Node </render/engines/cycles/nodes/types/shaders/principled>`
   (`rBM3527 <https://developer.blender.org/rBM3527>`__, May 19).
 - The new Version Switch is located at the bottom of the navigation (beta language switch only).
   Please `report a bug
@@ -49,6 +49,6 @@ are located on the website and in the Wiki.
   (`rBM2975 <https://developer.blender.org/rBM2975>`__, Oct. 27).
 - :doc:`Stabilizer panel </editors/movie_clip_editor/tracking/clip/properties/stabilization/index>` update
   (`rBM2840 <https://developer.blender.org/rBM2840>`__, Sep. 27).
-- :doc:`Displacement controls & bump mapping </render/cycles/materials/displacement>`
+- :doc:`Displacement controls & bump mapping </render/engines/cycles/materials/displacement>`
   (`rBM2776 <https://developer.blender.org/rBM2776>`__,
   `rBM2773 <https://developer.blender.org/rBM2773>`__; Sep. 20).

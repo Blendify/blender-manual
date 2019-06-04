@@ -29,19 +29,19 @@ Global Influences
 
 In Blender, the elements under your control which affect lighting are:
 
-- The color of the world :doc:`ambient light </render/cycles/world>`.
+- The color of the world :doc:`ambient light </render/engines/cycles/world>`.
 - The use of :ref:`Ambient Occlusion <render-cycles-integrator-world-ao>`
   as a way to cast that ambient light onto the object.
 - The degree to which the ambient light colors
-  the :doc:`material </render/cycles/materials/index>` of the object.
-- The use of :doc:`Indirect lighting </render/eevee/indirect_lighting>`,
+  the :doc:`material </render/engines/cycles/materials/index>` of the object.
+- The use of :doc:`Indirect lighting </render/engines/eevee/indirect_lighting>`,
   where the color of one object radiates onto another.
 - The :doc:`lamps </render/lighting/lamp_panel>` in your scene.
 
 The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting),
 buffer shadows (which approximate shadows being cast by objects), ray tracing
 (which traces the path of photons from a light source). Also,
-within Blender you can use :doc:`Indirect lighting </render/eevee/indirect_lighting>`.
+within Blender you can use :doc:`Indirect lighting </render/engines/eevee/indirect_lighting>`.
 Ray tracing, ambient occlusion, and indirect lighting are computationally intensive processes.
 Blender can perform much faster rendering with its internal scan line renderer,
 which is a very good scan line renderer indeed.

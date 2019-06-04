@@ -29,11 +29,11 @@ Cube
 Lamp
    The circle with a thin line to the bottom is a light source illuminating the cube.
    Lights in: :doc:`General Settings </render/lighting/index>`,
-   :doc:`Cycles </render/cycles/lighting>`.
+   :doc:`Cycles </render/engines/cycles/lighting>`.
 
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.
-   See also: cameras in :doc:`Cycles </render/cycles/camera>`.
+   See also: cameras in :doc:`Cycles </render/engines/cycles/camera>`.
 3D Cursor
    The :doc:`3D cursor </editors/3dview/3d_cursor>`, a cross with a red-and-white circle,
    is used for placing objects in the scene.

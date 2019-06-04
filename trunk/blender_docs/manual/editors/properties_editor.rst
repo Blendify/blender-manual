@@ -34,10 +34,10 @@ These tabs are used to add features, and to change properties for the Active Sce
 .. _properties-render-tab:
 
 - :doc:`Render </render/output/index>` and Settings:
-  :doc:`Eevee </render/eevee/index>`, :doc:`Cycles </render/cycles/settings/index>`
+  :doc:`Eevee </render/engines/eevee/index>`, :doc:`Cycles </render/engines/cycles/settings/index>`
 - :doc:`/render/post_process/layers`
 - :doc:`Scene </scene_layout/scene/properties>`
-- World: :doc:`Eevee </render/eevee/world>`, :doc:`Cycles </render/cycles/world>`
+- World: :doc:`Eevee </render/engines/eevee/world>`, :doc:`Cycles </render/engines/cycles/world>`
 
 
 .. _properties-data-tabs:
@@ -78,16 +78,16 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 ..
 
 - :doc:`Speaker </render/output/audio/speaker>`
-- Camera: :doc:`Cycles </render/cycles/camera>`
+- Camera: :doc:`Cycles </render/engines/cycles/camera>`
 - Lamp: :doc:`General settings </render/lighting/lamp_panel>`,
-  :doc:`Cycles </render/cycles/lighting>`
+  :doc:`Cycles </render/engines/cycles/lighting>`
 
 ..
 
-- Material: :doc:`Eevee </render/eevee/materials/settings>`,
-  :doc:`Cycles </render/cycles/materials/index>`
+- Material: :doc:`Eevee </render/engines/eevee/materials/settings>`,
+  :doc:`Cycles </render/engines/cycles/materials/index>`
 - Texture: :doc:`Texture Nodes </editors/uv/textures/index>`,
-  :doc:`Cycles </render/cycles/materials/texture_editing>`
+  :doc:`Cycles </render/engines/cycles/materials/texture_editing>`
 - :doc:`Particles </physics/particles/index>`
 - :doc:`Physics </physics/index>`
 

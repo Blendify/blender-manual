@@ -12,9 +12,9 @@ This is in direct contrast to point-like artificial lights which produce sharp b
 
 .. seealso::
 
-   - :doc:`EEVEE Lighting </render/eevee/lighting>`
-   - :doc:`Cycles Lighting </render/cycles/lighting>`
-   - :doc:`Workbench Lighting </render/workbench/lighting>`
+   - :doc:`EEVEE Lighting </render/engines/eevee/lighting>`
+   - :doc:`Cycles Lighting </render/engines/cycles/lighting>`
+   - :doc:`Workbench Lighting </render/engines/workbench/lighting>`
 
 
 Lamp Options

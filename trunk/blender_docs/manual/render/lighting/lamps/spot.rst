@@ -9,9 +9,9 @@ in a given direction.
 
 .. seealso::
 
-   - :doc:`Eevee Lighting </render/eevee/lighting>`
-   - :doc:`Cycles Lighting </render/cycles/lighting>`
-   - :doc:`Workbench Lighting </render/workbench/lighting>`
+   - :doc:`Eevee Lighting </render/engines/eevee/lighting>`
+   - :doc:`Cycles Lighting </render/engines/cycles/lighting>`
+   - :doc:`Workbench Lighting </render/engines/workbench/lighting>`
 
 
 Lamp Options
