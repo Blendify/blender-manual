@@ -46,7 +46,7 @@ Slot
    Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards and backwards through saved renders.
    The *Slot Name* field in the *Display Panel* allows you to rename a slot.
 Render Layer
-   If you are using :doc:`Render Layers </render/post_process/layers>`,
+   If you are using :doc:`Render Layers </render/layers/index>`,
    use this menu to select which layer is displayed.
 Render Pass
    If you are using :doc:`Render Passes </render/layers/passes>`,

@@ -16,7 +16,7 @@ based on those factors in order to give you your rendered image.
 This process may take some time depending on the complexity of the scene and your hardware.
 
 Once the render is complete, it is possible to do additional manipulation of the image,
-called :doc:`Post Processing </render/post_process/index>`.
+called :ref:`Post Processing <render-output-postprocess>`.
 
 Finally, the output can be saved to an image or video file
 using one of the :doc:`Output Formats </render/output/settings>`.

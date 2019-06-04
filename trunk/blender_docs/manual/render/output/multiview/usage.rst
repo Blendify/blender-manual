@@ -31,7 +31,7 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 Views Setup
 ===========
 
-Go to the :doc:`Render Layers </render/post_process/layers>` panel and enable *Views* for this scene.
+Go to the :doc:`Render Layers </render/layers/index>` panel and enable *Views* for this scene.
 
 .. figure:: /images/render_workflows_multiview_usage_views-panel.png
 
