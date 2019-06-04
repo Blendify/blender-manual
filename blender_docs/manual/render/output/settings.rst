@@ -116,6 +116,8 @@ Color Mode
    - Start as many machines as you wish rendering to that directory.
 
 
+.. _render-output-postprocess:
+
 Post Processing Panel
 =====================
 
