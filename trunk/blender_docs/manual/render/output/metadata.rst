@@ -12,7 +12,7 @@ The *Metadata* panel includes options for writing metadata into render output.
 .. note::
 
    Only some image formats support metadata:
-   See :doc:`image formats </data_system/files/media/image_formats>`.
+   See :doc:`image formats </files/files/media/image_formats>`.
 
 Stamp Output
    Add metadata as text to the render.

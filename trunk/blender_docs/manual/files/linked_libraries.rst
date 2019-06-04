@@ -4,7 +4,7 @@
 Linked Libraries
 ****************
 
-These functions help you reuse materials, objects and other :doc:`data-blocks </data_system/data_blocks>`
+These functions help you reuse materials, objects and other :doc:`data-blocks </files/data_blocks>`
 loaded from an external source blend-file.
 You can build libraries of common content and share them across multiple referencing files.
 
@@ -35,7 +35,7 @@ Options
 -------
 
 Relative Path
-   Available only when linking, see :doc:`relative paths </data_system/files/relative_paths>`.
+   Available only when linking, see :doc:`relative paths </files/files/relative_paths>`.
 Select
    Makes the object *Active* after it is loaded.
 Active Layer

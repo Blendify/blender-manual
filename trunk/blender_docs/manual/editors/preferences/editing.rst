@@ -39,7 +39,7 @@ Link Materials To
 
    .. seealso::
 
-      :doc:`Read more about Blender's Data System </data_system/index>`.
+      :doc:`Read more about Blender's Data System </files/index>`.
 
 Align To
    World

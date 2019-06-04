@@ -318,9 +318,9 @@ Dupligroup
 Particle System
    Selects all objects that use the same *Particle System*.
 Library
-   Selects all objects that are in the same :doc:`Library </data_system/linked_libraries>`.
+   Selects all objects that are in the same :doc:`Library </files/linked_libraries>`.
 Library (Object Data)
-   Selects all objects that are in the same :doc:`Library </data_system/linked_libraries>`
+   Selects all objects that are in the same :doc:`Library </files/linked_libraries>`
    and limited to *object data*.
 
 

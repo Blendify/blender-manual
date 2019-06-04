@@ -67,7 +67,7 @@ Data-block Links
 
    Short explanation: If connected to the object, you can have several instances of the same Object Data using
    different materials. If linked to mesh data, you cannot.
-   See :doc:`Data System </data_system/introduction>` for more information.
+   See :doc:`Data System </files/introduction>` for more information.
 
 
 Material Type

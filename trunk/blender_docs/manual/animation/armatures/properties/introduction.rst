@@ -55,4 +55,4 @@ Custom Properties
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Custom Properties`
 
-See the :doc:`Custom Properties </data_system/custom_properties>` page for more information.
+See the :doc:`Custom Properties </files/custom_properties>` page for more information.

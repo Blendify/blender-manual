@@ -175,17 +175,17 @@ Same Types
 Groups
    Lists only :doc:`Groups </scene_layout/object/properties/relations/groups>` and their members.
 Sequence
-   Lists :doc:`data-block </data_system/data_blocks>`
+   Lists :doc:`data-block </files/data_blocks>`
    that are used by the :doc:`Sequencer </editors/vse/index>`.
 Blender File
    Lists all data in the current blend-file.
 Data-Blocks
-   Lists every :doc:`data-block </data_system/data_blocks>` along with any properties that they might have.
+   Lists every :doc:`data-block </files/data_blocks>` along with any properties that they might have.
 Preferences
    Lists options that can be found in the :doc:`Preferences </editors/preferences/index>`
    along with some other settings.
 Orphan Data
-   Lists :doc:`data-blocks </data_system/data_blocks>`
+   Lists :doc:`data-blocks </files/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
    It includes data-blocks which have only a fake user. You can add/remove Fake User
    by clicking on cross/tick icon in the right side of the Outliner editor.

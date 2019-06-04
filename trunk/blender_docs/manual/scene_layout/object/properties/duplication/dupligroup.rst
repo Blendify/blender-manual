@@ -35,7 +35,7 @@ This way, you can get multiple copies of linked data very easily.
 DupliGroup and Dynamic Linking
 ==============================
 
-See :doc:`Appending and Linking </data_system/linked_libraries>`
+See :doc:`Appending and Linking </files/linked_libraries>`
 to understand how to dynamically link data from another blend-file into the current file.
 You can dynamically link groups from one blend-file to another.
 When you do so, the linked group does not appear anywhere in your scene

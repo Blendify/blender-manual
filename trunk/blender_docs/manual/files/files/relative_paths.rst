@@ -30,5 +30,5 @@ in the :doc:`File </editors/preferences/file_paths>` tab of the Preferences Edit
 .. hint::
 
    If it is necessary to relocate a blend-file relative to its linked resources,
-   use Blender's File :doc:`Save As </data_system/files/save>`
+   use Blender's File :doc:`Save As </files/files/save>`
    function which has an option to *Remap Relative* file links.
