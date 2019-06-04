@@ -14,7 +14,7 @@ are located on the website and in the Wiki.
   (`rBM4324 <https://developer.blender.org/rBM4324>`__, Jun 27).
 - :doc:`Alembic </pipeline/alembic>`
   (`rBM3580 <https://developer.blender.org/rBM3580>`__, May 30).
-- :doc:`Cycles Denoising </render/engines/cycles/settings/scene/render_layers/denoising>`
+- :doc:`Cycles Denoising </render/layers/denoising>`
   (`rBM3562 <https://developer.blender.org/rBM3562>`__, May 24).
 - :doc:`Video Output (Update) </render/output/video>`
   (`rBM3559 <https://developer.blender.org/rBM3559>`__, May 23).

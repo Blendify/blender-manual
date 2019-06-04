@@ -47,7 +47,7 @@ Relative Filter
    This can help to reduce artifacts, but might cause detail loss around edges.
 Passes
    You can choose to selectively choose which
-   :doc:`Render Passes </render/engines/cycles/settings/scene/render_layers/passes>` you want to denoise.
+   :doc:`Render Passes </render/layers/passes>` you want to denoise.
 
 
 Notes and Issues

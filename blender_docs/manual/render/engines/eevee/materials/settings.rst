@@ -153,6 +153,6 @@ It does not work with indirect lighting. The soft parameter of the shadow maps a
 Pass Index
 ==========
 
-Index number for the *Material Index* :doc:`render pass </render/engines/cycles/settings/scene/render_layers/passes>`.
+Index number for the *Material Index* :doc:`render pass </render/layers/passes>`.
 This can be used to give a mask to a material which then can be read with
 the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.

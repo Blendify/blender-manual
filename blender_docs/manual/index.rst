@@ -65,14 +65,6 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_data.jpg
-            :target: data_system/index.html
-
-         :doc:`/data_system/index`
-            Blender's data management of scene data and the structure of blend-files.
-
-      .. container:: descr
-
          .. figure:: /images/index_modeling.jpg
             :target: modeling/index.html
 
@@ -121,6 +113,14 @@ Sections
 
       .. container:: descr
 
+         .. figure:: /images/index_data.jpg
+            :target: data_system/index.html
+
+         :doc:`/data_system/index`
+            Blender's data management of scene data and the structure of blend-files.
+
+      .. container:: descr
+
          .. figure:: /images/index_advanced.jpg
             :target: advanced/index.html
 
@@ -156,13 +156,13 @@ Sections
       interface/index.rst
       editors/index.rst
       scene_layout/index.rst
-      data_system/index.rst
       modeling/index.rst
       sculpt_paint/index.rst
       animation/index.rst
       physics/index.rst
       render/index.rst
       compositing/index.rst
+      data_system/index.rst
       advanced/index.rst
       addons/index.rst
       pipeline/index.rst

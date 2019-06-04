@@ -49,7 +49,7 @@ Render Layer
    If you are using :doc:`Render Layers </render/post_process/layers>`,
    use this menu to select which layer is displayed.
 Render Pass
-   If you are using :doc:`Render Passes </render/engines/cycles/settings/scene/render_layers/passes>`,
+   If you are using :doc:`Render Passes </render/layers/passes>`,
    use this menu to select which pass is displayed.
 
 
