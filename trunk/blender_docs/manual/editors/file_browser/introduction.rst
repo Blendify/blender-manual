@@ -169,12 +169,12 @@ Link/Append from Library
 Open, Save, Save As Blender File
    See :doc:`/files/blend`.
 Open, Replace, Save As Image
-   See :doc:`/files/files/media/image_formats`.
+   See :doc:`/files/media/image_formats`.
 
 For the common option:
 
 Relative Path
-   See :doc:`Relative paths </files/files/relative_paths>`.
+   See :ref:`files-blend-relative_paths`.
 
 
 Main Region

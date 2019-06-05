@@ -20,11 +20,11 @@ Accuracy
    Sample accuracy, important for animation data (the lower the value, the more accurate).
 
 Audio Containers
-   See :doc:`here </files/files/media/video_formats>`.
+   See :doc:`here </files/media/video_formats>`.
 
 Codec
    Some *Audio Containers* also have option to choose a codec.
-   For more information see :doc:`here </files/files/media/video_formats>`.
+   For more information see :doc:`here </files/media/video_formats>`.
 
 Split Channels
    Each audio channel will be rendered into a separate file.

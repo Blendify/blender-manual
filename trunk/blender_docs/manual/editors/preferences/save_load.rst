@@ -8,7 +8,7 @@ Blend Files
 ===========
 
 Relative Paths
-   By default, external files use a :doc:`relative path </files/files/relative_paths>`.
+   By default, external files use a :ref:`files-blend-relative_paths`.
 Compress File
    Compress blend-file when saving.
 
