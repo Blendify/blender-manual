@@ -168,7 +168,6 @@ Sections
       files/index.rst
       advanced/index.rst
       addons/index.rst
-      pipeline/index.rst
       troubleshooting/index.rst
       glossary/index.rst
 
