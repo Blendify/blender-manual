@@ -60,6 +60,7 @@ unset FAIL
 cd locale/
 NEW_FILES=`svn status . | grep -e "\.po$" | awk '/^[?]/{print $2}'`
 if [ "$NEW_FILES" != "" ]; then
+	# Multiple args, don't quote.
 	svn add $NEW_FILES
 fi
 unset NEW_FILES
@@ -68,7 +69,8 @@ unset NEW_FILES
 # there may be a cleaner way to do this in shell.
 NEW_DIRS=`svn status . | grep -v -e "\.po$" | awk '/^[?]/{print $2}' | python -c "import sys, os; sys.stdout.write('\n'.join([f for f in sys.stdin.read().split('\n') if os.path.isdir(f)]))"`
 if [ "$NEW_DIRS" != "" ]; then
-	svn add "$NEW_DIRS"
+	# Multiple args, don't quote.
+	svn add $NEW_DIRS
 fi
 unset NEW_DIRS
 
