@@ -48,10 +48,10 @@ Speaker
    :doc:`Speaker </render/output/audio/speaker>` brings a source of sound to the scene.
 Camera
    This is the virtual camera that is used to determine what appears in the render.
-   See Cameras in :doc:`Cycles </render/camera>`.
+   See Cameras in :doc:`Cycles </render/cameras>`.
 Lamp
    These are used to place light sources in the scene.
-   See Lamps in :doc:`General Settings </render/lighting/index>`,
+   See Lamps in :doc:`General Settings </render/lights>`,
    :doc:`Cycles </render/engines/cycles/lighting>`.
 Force Field
    :doc:`Force Fields </physics/force_fields/index>` are used in physical simulations.

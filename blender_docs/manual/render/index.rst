@@ -13,8 +13,8 @@
    introduction.rst
    engines/index.rst
    shaders/index.rst
-   lighting/index.rst
-   camera.rst
+   lights.rst
+   cameras.rst
    color_management.rst
    layers/index.rst
    output/index.rst
