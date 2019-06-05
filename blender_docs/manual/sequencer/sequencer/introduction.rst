@@ -17,10 +17,10 @@ forms the background and the highest the foreground.
 .. note::
 
    The first channel 0 is unusable as a place to put strips.
-   This is because it is used by the :doc:`Sequencer Display </editors/vse/preview/introduction>`
+   This is because it is used by the :doc:`Sequencer Display </sequencer/preview/introduction>`
    to show a composite of all strips above channel 0.
 
-This region is where strips can be :doc:`selected </editors/vse/sequencer/selecting>`,
-:doc:`modified </editors/vse/sequencer/selecting>` by moving, cutting, or extending strips.
-There are also several built-in :doc:`effects </editors/vse/sequencer/strips/effects/index>`
+This region is where strips can be :doc:`selected </sequencer/sequencer/selecting>`,
+:doc:`modified </sequencer/sequencer/selecting>` by moving, cutting, or extending strips.
+There are also several built-in :doc:`effects </sequencer/sequencer/strips/effects/index>`
 that can be combined with other strips to change their appearance.

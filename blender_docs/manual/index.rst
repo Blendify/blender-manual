@@ -116,6 +116,22 @@ Sections
 
       .. container:: descr
 
+         .. figure:: /images/index_motion_tracking.jpg
+            :target: motion_tracking/index.html
+
+         :doc:`/motion_tracking/index`
+            Video motion tracking.
+
+      .. container:: descr
+
+         .. figure:: /images/index_sequencer.jpg
+            :target: sequencer/index.html
+
+         :doc:`/sequencer/index`
+            Video sequence editor.
+
+      .. container:: descr
+
          .. figure:: /images/index_data.jpg
             :target: files/index.html
 
@@ -165,6 +181,8 @@ Sections
       physics/index.rst
       render/index.rst
       compositing/index.rst
+      motion_tracking/index.rst
+      sequencer/index.rst
       files/index.rst
       advanced/index.rst
       addons/index.rst
