@@ -5,6 +5,12 @@
 Importing & Exporting Files
 ***************************
 
+.. toctree::
+   :hidden:
+
+   import_export/alembic.rst
+   import_export/collada.rst
+
 .. admonition:: Reference
    :class: refbox
 
@@ -48,14 +54,13 @@ to be used in other 3D creation suites or game development.
 
 if you intend to export objects with rigs and/or animation
 to be used in other 3D creation suites or game development (provided they support Collada).
-See also the :doc:`Blender Collada module </pipeline/collada>`
 
 
 :doc:`ABC (Alembic) </files/import_export/alembic>`
 ===================================================
 
 if you want to import/export a large amount of scene data.
-This :doc:`Alembic </pipeline/alembic>` format is also useful to export an animated mesh
+This alembic format is also useful to export an animated mesh
 (rather than a static mesh + the armature + the animation of the armature).
 That animated mesh from an Alembic file can then be used for shading and lighting.
 
