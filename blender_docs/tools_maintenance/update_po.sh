@@ -41,7 +41,7 @@ make gettext
 #
 # note, this can be slow so (multi-process)
 for LANG in `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort`; do
-	sphinx-intl update --pot-dir=build/locale --language="$LANG" &
+	sphinx-intl --config=manual/conf.py update --pot-dir=build/locale --language="$LANG" &
 done
 
 FAIL=0
