@@ -1,13 +1,31 @@
 
 ************
-Video Output
+File Formats
 ************
+
+.. seealso::
+
+   :ref:`files-media-index` for technical information about supported file formats.
+
+Image Output
+============
+
+TODO28 (could have more details).
+
+Rendering to images is useful for animation since rendering can be cancelled and resumed
+by frame range.
+
+Playing back images as an animation is supported, see: :ref:`render-output-animation_player`.
+
+
+Video Output
+============
 
 .. _render-output-video-encoding-panel:
 .. _bpy.types.FFmpegSettings:
 
 Encoding Panel
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -65,7 +83,7 @@ Max B-frames
 
 
 Rate
-----
+^^^^
 
 Bitrate
    Sets the average `bit rate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
@@ -80,7 +98,7 @@ Buffer
 
 
 Mux
----
+^^^
 
 `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__
 is the process of combining separate video and audio streams into a single file,
@@ -96,7 +114,7 @@ Packet Size
 .. _bpy.types.FFmpegSettings.audio:
 
 Audio
------
+^^^^^
 
 Audio Codec
    Audio format to use. For a list of all available options, see
@@ -110,24 +128,26 @@ Volume
 
 
 Tips
-----
+^^^^
 
-.. tip:: The choice of video format depends on what you are planning to do.
+.. tip::
 
-It's not recommended to render directly to a video format in the first instance.
-If a problem occurs while rendering, the file might become unplayable and you will
-have to re-render all frames from the beginning. If you first render out a set
-of static images such as the default PNG format or the higher-quality OpenEXR
-(which can retain HDR pixel data), you can combine them as
-an :doc:`Image Strip </editors/vse/sequencer/strips/movie_image>`
-in the Video Sequence Editor (VSE). This way, you can easily:
+   The choice of video format depends on what you are planning to do.
 
-- Restart the rendering from the place (the frame) where any problem occurred.
-- Try out different video encoding options in seconds,
-  rather than minutes or hours as encoding is usually much faster than rendering the 3d scene.
-- Enjoy the rest of the features of the VSE, such as adding
-  :doc:`Image Strips </editors/vse/sequencer/strips/movie_image>`
-  from previous renders, audio, video clips, etc.
+   It's not recommended to render directly to a video format in the first instance.
+   If a problem occurs while rendering, the file might become unplayable and you will
+   have to re-render all frames from the beginning. If you first render out a set
+   of static images such as the default PNG format or the higher-quality OpenEXR
+   (which can retain HDR pixel data), you can combine them as
+   an :doc:`Image Strip </editors/vse/sequencer/strips/movie_image>`
+   in the Video Sequence Editor (VSE). This way, you can easily:
+
+   - Restart the rendering from the place (the frame) where any problem occurred.
+   - Try out different video encoding options in seconds,
+     rather than minutes or hours as encoding is usually much faster than rendering the 3d scene.
+   - Enjoy the rest of the features of the VSE, such as adding
+     :doc:`Image Strips </editors/vse/sequencer/strips/movie_image>`
+     from previous renders, audio, video clips, etc.
 
 .. tip::
 
