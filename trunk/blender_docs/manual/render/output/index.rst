@@ -8,7 +8,7 @@
 
    render_panel.rst
    settings.rst
-   video.rst
+   file_formats.rst
    audio/index.rst
    metadata.rst
    multiview/index.rst
