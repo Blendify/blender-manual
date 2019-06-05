@@ -8,7 +8,7 @@ The options to manage files are:
 New :kbd:`Ctrl-N`
    Clears the current scene and loads the selected application template.
 Open :kbd:`Ctrl-O`
-   :doc:`Open </files/files/open>` a blend-file.
+   :ref:`Open <files-blend-open>` a blend-file.
 Open Recent :kbd:`Shift-Ctrl-O`
    Displays a list of :ref:`recently <other-file-open-options>` saved blend-files to open.
 Revert
@@ -22,11 +22,11 @@ Recover
       This will open an automatically saved file
       to :doc:`recover </troubleshooting/recover>` it.
 Save :kbd:`Ctrl-S`
-   :doc:`Save </files/files/save>` the current blend-file.
+   :ref:`Save <files-blend-save>` the current blend-file.
 Save As :kbd:`Shift-Ctrl-S`
-   Opens the File Browser to specify file name and location of :doc:`save </files/files/save>`.
+   Opens the File Browser to specify file name and location of :ref:`save <files-blend-save>`.
 Save Copy
-   :doc:`Saves </files/files/save>` a copy of the current file.
+   :ref:`Saves <files-blend-save>` a copy of the current file.
 Defaults
    Save User Settings :kbd:`Ctrl-U`
       Saves the current scene and preferences to the :doc:`startup.blend </getting_started/configuration/defaults>` file.
@@ -58,7 +58,7 @@ External Data
    Unpack Into Files
       Unpack all files packed into this blend-file to external ones.
    Make All Paths Relative
-      Make all paths to external files :doc:`relative </files/files/relative_paths>` to current blend-file.
+      Make all paths to external files :ref:`files-blend-relative_paths` to current blend-file.
    Make All Paths Absolute
       Make all paths to external files absolute. Absolute ones have full path from the system's root.
    Report Missing Files
