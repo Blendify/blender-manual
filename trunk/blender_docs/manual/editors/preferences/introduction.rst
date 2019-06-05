@@ -39,7 +39,7 @@ Auto-Save Preferences
 
    It can be valuable to make a backup of your preferences in the event that you lose your configuration.
 
-   See the :doc:`directory layout </getting_started/installing/configuration/directories>`
+   See the :doc:`directory layout </getting_started/configuration/directories>`
    section to see where your preferences are stored.
 
 

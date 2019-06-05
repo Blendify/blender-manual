@@ -24,9 +24,13 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 Getting Started
 ===============
 
-- :doc:`/getting_started/about/index`
-- :doc:`/getting_started/installing/index`
-- :doc:`/getting_started/help`
+.. hlist::
+   :columns: 2
+
+   - :doc:`/getting_started/about/index`
+   - :doc:`/getting_started/installing/index`
+   - :doc:`/getting_started/help`
+   - :doc:`/getting_started/configuration/index`
 
 
 Sections

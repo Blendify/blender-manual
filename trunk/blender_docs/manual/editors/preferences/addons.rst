@@ -69,7 +69,7 @@ The search field will be set to the add-on's name (to avoid having to look for i
 Enable the add-on by checking the enable checkbox.
 
 Refresh
-   Scans the :doc:`Add-on Directory </getting_started/installing/configuration/directories>` for new add-ons.
+   Scans the :doc:`Add-on Directory </getting_started/configuration/directories>` for new add-ons.
 
 .. tip:: User-Defined Add-on Path
 
