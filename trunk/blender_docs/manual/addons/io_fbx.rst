@@ -247,7 +247,7 @@ are not supported by the FBX format, others may be added later.
 
 - Object instancing -- exported objects do not share data,
   instanced objects will each be written with their own data.
-- Material textures -- only texface images are supported.
+- Material textures
 - Vertex shape keys -- FBX supports them but this exporter does not write them yet.
 - Animated fluid simulation -- FBX does not support this kind of animation.
   You can however use the OBJ exporter to write a sequence of files.

@@ -12,8 +12,8 @@ UV Project Modifier
 
 The *UV Project* Modifier acts like a slide projector.
 It emits a UV map from the negative Z axis of a controller object
-(such as an :doc:`empty </modeling/empties>`),
-and applies it to the object as the "light" hits it. It can optionally override the object's face texture.
+(such as an :doc:`empty object </modeling/empties>`),
+and applies it to the object as the "light" hits it.
 
 `Download an example <https://wiki.blender.org/wiki/File:Uvproject.blend>`__.
 
@@ -29,11 +29,6 @@ UV Map
 Image
    The image associated with this modifier. Not required; you can just project a UV for use elsewhere.
    *Override Image*, below, defines how the image is used.
-Override Image
-   - When true, the Face Texture of all vertices on the mesh is replaced with the Image.
-     This will cause the image to repeat, which is usually undesirable.
-   - When false, the modifier is limited to faces with the Image as their Face Texture.
-
 Projectors
    Up to ten projector objects are supported.
    Each face will choose the closest and aligned projector with its surface normal.

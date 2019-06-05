@@ -35,25 +35,16 @@ the :doc:`Export UV Layout </addons/io_uv_layout>` add-on located in the UVs men
 Creating an Image Texture
 -------------------------
 
-To create an image within Blender,
-you have to first create a :doc:`New Blank </editors/uv/editing/applying_image>`
-Image with a uniform color or test grid.
-After that, you can color the image using the:
+To create an image within Blender, you have to first create a new
+:doc:`Blank Image </editors/uv/editing/applying_image>`
+with a uniform color or test grid. After that, you can color the image using the:
 
 - Vertex colors as the basis for an image.
 - Render Bake image based on how the mesh looks in the scene.
 
-After you have created your image,
-you can modify it using Blender's built-in
+After you have created your image, you can modify it using Blender's built-in
 :doc:`Texture Paint </sculpt_paint/texture_paint/introduction>`
 or any external image painting program.
-
-.. note:: See Texture in 3D View but does not Render
-
-   You may be able to see the texture in Textured display mode in the 3D View;
-   rendering, however, requires a material.
-   You must have a *Face Textures* material assigned to the mesh for it to render using the UV texture.
-   In the Material settings, Add New material to a selected object and enable *Face Textures*.
 
 
 Examples
@@ -148,9 +139,9 @@ Mix and Match Materials
 You can mix and match procedural materials and textures, vertex paint,
 and UV textures onto the same mesh.
 
-The image to the right has a world with a red ambient light.
-The material has both Vertex Color Paint and Face Textures enabled,
-and receives half of ambient light. A weak cloud texture affects color, mixing in a tan color.
+The image to the right has a world with a red ambient light,
+The material has Vertex Color Paint and receives half of ambient light.
+A weak cloud texture affects color, mixing in a tan color.
 The right vertices are vertex painted yellow and the left is unpainted procedural gray.
 The UV texture is a stock arrow image from the public domain texture CD.
 Scene lighting is a white light off to the right.
@@ -165,10 +156,9 @@ You can use UV textures and Vertex Paint (:kbd:`V` in the 3D View) simultaneousl
 if both are enabled in the Material settings.
 The vertex colors are used to modulate the brightness or color of the UV image texture:
 
-- UV texture is at the base *(Face Textures)*
-- Vertex paint affects its colors, then
-- Procedural textures are laid on top of that,
-- Area lights shine on the surface, casting shadows and what not, and finally
+- Vertex paint affects its colors.
+- Procedural textures are laid on top of that.
+- Area lights shine on the surface, casting shadows.
 - Ambient light lights it up.
 
 A UV layout can only have one image, although you can tile and animate the image.
@@ -201,11 +191,10 @@ The only thing that modulates visible parts of a UV texture are the Vertex Color
 In the example to the right,
 the finger image is transparent at the cuff and top of the finger and is used as a UV texture.
 All three balls have a base material of blue and a marbling texture.
-The base material color is not used whenever Face Textures is enabled.
 
 The top left ball has not had any vertex painting,
 and the finger is mapped to the middle band, and the texture is mapped to a pink color.
-As you can see, the base material has Vertex Color Paint and Face Textures enabled;
+As you can see, the base material has Vertex Color Paint enabled;
 the base color blue is not used, but the texture is. With no vertex painting,
 there is nothing to modulate the UV texture colors, so the finger shows as white.
 Transparent areas of the UV Image show as black.
@@ -213,24 +202,20 @@ Transparent areas of the UV Image show as black.
 The top right ball has had a pink vertex color applied to the vertical band of faces
 (in the 3D View editor, select the faces in UV Paint Mode, switch to Vertex Paint Mode,
 pick a pink color, and :menuselection:`Paint --> Set Vertex Colors`).
-The finger is mapped to the middle vertical band of faces,
-and Vertex Color and Face Textures are enabled.
+The finger is mapped to the middle vertical band of faces, and Vertex Color is enabled.
 The texture is mapped to Alpha black and multiplies the base material alpha value which is 1.0.
 Thus, white areas of the texture are 1.0, and 1.0 times 1.0 is 1.0
 so that area is opaque and shows. Black areas of the procedural texture, 0.0,
 multiply the base material to be transparent. As you can see, the unmapped faces
 (left and right sides of the ball) show the vertex paint (none, which is gray)
 and the painted ones show pink, and the middle stripe that is both painted and mapped change
-the white UV texture areas to pink.
-Where the procedural texture says to make the object transparent,
-the green background shows through.
-Transparent areas of the UV texture insist on rendering black.
+the white UV texture areas to pink. Where the procedural texture says to make the object transparent,
+the green background shows through. Transparent areas of the UV texture insist on rendering black.
 
 The bottom ball uses multiple materials. Most of the ball (all faces except the middle band)
-is a base material that does not have Face Textures (nor Vertex Color Paint) enabled.
+is a base material that does not have Vertex Color Paint enabled.
 Without it enabled, the base blue material color shows and the pink color texture is mixed on top.
 The middle band is assigned a new material (2 Mat 2)
-that *does* have vertex paint and Face Textures enabled.
 The middle band of faces were vertex painted yellow,
 so the white parts of the finger are yellow. Where the pink texture runs over the UV texture,
 the mixed color changes to green, since pink and yellow make a green.
