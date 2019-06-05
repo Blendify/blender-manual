@@ -3,65 +3,6 @@
 Video Output
 ************
 
-Preparing your Work for Video
-=============================
-
-Once you master the art of 3D animation, you will probably want to share your work with others;
-either on the Internet (YouTube, Vimeo, etc.) or with family and friends (DVD/Blu-ray)
-or even possibly for television broadcast.
-
-To spare you some disappointment, here are some tips specifically targeted at video preparation.
-
-
-Safe Areas and Overscan
------------------------
-
-For anyone creating motion graphics or simple text overlays, overscan is an important consideration.
-Although its origins are rooted in historic analog TV systems, unfortunately even in 2017,
-for various reasons it can still be an issue with modern digital flat screen TVs.
-
-.. note::
-
-   Due to various limitations in analog TV equipment, the displayed image could sometimes
-   end up shifted horizontally or vary in size, which could lead to the area beyond
-   the intended visible picture being shown. This hidden area sometimes contained junk noise,
-   timing signals or closed-caption/subtitle data. To avoid this being visible to the viewer,
-   the standard approach for TV manufacturers was to 'overscan' (zoom in) the displayed picture
-   by a small amount (between 5-10% edge crop) to ensure that at no time would the hidden areas be visible.
-
-   Although modern digital electronics have eliminated the issue of shifting image position,
-   unfortunately, some TV manufacturers have included overscan on their flat screen TVs.
-   Why? Because for many years it was given that the edge of the visible image would rarely be seen,
-   so broadcasters would sometimes overlay 'hidden' data to the very edge of the image
-   (e.g. some types of closed captions). Also, legacy analog recordings might still
-   contain unwanted noise around the edge. To avoid consumer complaints,
-   overscan is quite often enabled by default. For some flat screen TVs, it is not possible to disable it.
-
-
-Enabling Safe Areas
--------------------
-
-Blender has configurable safe-area markings which can be made visible by selecting the scene camera,
-then in the camera settings by enabling :ref:`Safe Areas <camera-safe-areas>`. Several presets are available.
-If you are producing work for a television network or indeed any client,
-they may have their own rules and requirements on safe area dimensions -- so consult with them.
-
-
-Color Reproduction
-------------------
-
-When exporting to many of the common video formats, the rendered RGB(A) images go through a conversion process
-whereby they are translated to the YCbCr color model. Y corresponds to a gray-scale representation of the image,
-Cb and Cr contain data for the blue and red channels respectively.
-Green is encoded into the Y and Cb, Cr channels with some clever math.
-
-Importantly, the color components are often stored at a lower resolution to the Y (grayscale) channel.
-This can cause blurring/smearing which can be a problem with small text and some saturated color combinations --
-so it is well worth doing test encodes to make sure that text remains legible. As with safe areas,
-a TV network or client might have their own rules on minimum text size and positioning,
-so always seek clarification when unsure.
-
-
 .. _render-output-video-encoding-panel:
 .. _bpy.types.FFmpegSettings:
 
@@ -192,8 +133,3 @@ in the Video Sequence Editor (VSE). This way, you can easily:
 
    You shouldn't post-process a lossy-compressed file as the compression artifacts may become visible.
    Lossy compression should be reserved as a final 'delivery format'.
-
-If you are planning on doing significant post-processing and color correction,
-it is best to output a frameset rendered in OpenEXR format.
-If you plan to do only minimal changes after rendering and would prefer a single file,
-choose lossless H.264 for high quality, or regular H.264 for lower quality.
