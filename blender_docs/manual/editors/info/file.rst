@@ -80,10 +80,10 @@ External Data
 
 Import
    Blender can use information stored in a variety of other format files which are created by
-   other graphics programs. See :doc:`Import/Export </files/files/import_export>`.
+   other graphics programs. See :doc:`Import/Export </files/import_export>`.
 Export
    Normally you save your work in a blend-file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
-   See :doc:`Import/Export </files/files/import_export>`.
+   See :doc:`Import/Export </files/import_export>`.
 Quit :kbd:`Ctrl-Q`
    Closes Blender and the file is saved into ``quit.blend``.
