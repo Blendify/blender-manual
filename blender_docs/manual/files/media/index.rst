@@ -1,4 +1,6 @@
 
+.. _files-media-index:
+
 #################
   Media Formats
 #################

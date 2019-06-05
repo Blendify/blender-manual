@@ -32,7 +32,7 @@ Aspect Ratio
    It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
    resulting in lowered image quality.
 
-   See :doc:`Video Output </render/output/video>` for details on pixel aspect ratio.
+   See :doc:`Video Output </render/output/file_formats>` for details on pixel aspect ratio.
 
 .. _render-output-dimensions-border:
 
@@ -100,7 +100,7 @@ Output Format
    other options such as channels, bit depth and compression level are available.
 
    For rendering out to images see: :ref:`saving images <bpy.types.ImageFormatSettings>`,
-   for rendering to videos see :doc:`rendering to videos </render/output/video>`.
+   for rendering to videos see :doc:`rendering to videos </render/output/file_formats>`.
 Color Mode
    Choose the color format to save the image to.
    Note that *RGBA* will not be available for all image formats.
