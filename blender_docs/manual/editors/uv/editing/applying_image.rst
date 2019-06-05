@@ -57,26 +57,7 @@ the :doc:`Image Textures </render/shaders/textures/types/image/index>` page.
    and you will even see it in your 3D View in textured viewport mode. However, when you render,
    you will just get a default gray if the object does not have a Material assigned.
    You will get a black if you do not load an image. If you do not create a texture that uses the image,
-   or enable *Face Texture*, your object will render according to the procedural material settings.
-
-
-.. (TODO 2.8 remove) Removed in 2.8
-.. _face-textures:
-
-Face Textures
--------------
-
-.. figure:: /images/editors_uv-image_uv_editing_applying-image_facetex.png
-
-   The Material panel with activated Face Textures button.
-
-An alternative way is to set up a Face Textures Material as shown. To do so,
-with the Properties editor displayed, press :kbd:`F5` to display the Shader Buttons.
-In the Properties editor, Material settings, click *Add New* material.
-
-On the Options panel, enable *Face Textures*. This way is quick,
-but bypasses the normal rendering system for fast results,
-but results which do not respect transparency and proper shading.
+  your object will render according to the procedural material settings.
 
 
 Using the Test Grid

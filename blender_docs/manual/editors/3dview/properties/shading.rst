@@ -71,9 +71,6 @@ Shading Panel
 
 The shading panel in the Sidebar region provides additional control over the way objects in the 3D View appear.
 
-Textured Solid
-   Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
-   (*not* available in the Cycles Renderer).
 Shadeless
    Textured mode only -- Draws textures without shading. Its most common use case is texture painting.
 Matcap

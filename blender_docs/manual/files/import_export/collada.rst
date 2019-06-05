@@ -81,25 +81,9 @@ Only Selected UV Map
    When your mesh contains multiple UV layers, then Blender exports all layers by default.
    This option allows you to only export the active (selected) UV layer.
 Include Textures
-   Blender supports two ways to add textures to your objects:
-
-   #. By using directly assigned surface textures (UV textures)
-   #. By using material based image textures (material textures)
-
-   While the material based image textures offer much more flexibility,
-   using surface textures can be done very quickly without the need to first render the textures.
-   Until now Blender did only export material based image textures.
-   The new option allows to directly export render results.
-
-.. note:: Texture export needs materials
-
-   For using surface textures, you will still have to create a material for each texture face.
-   Then all you need to do is to assign your images to the correct faces of your mesh.
-   And finally when your object looks as you expect, just export it with *Include UV Textures*.
-   See also the *Copy* option below.
-
+   Blender supports two ways to add textures to your objects.
 Copy
-   When you export images either material based image textures or surface textures,
+   When you export images either material based image textures,
    then the exporter creates absolute file references in the export file.
 
    But if the *Copy* option is enabled, the exporter will create copies of the images instead and
