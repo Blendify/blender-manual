@@ -12,7 +12,7 @@ Stabilize 2D Node
 Stabilizes the footage according to the settings set in
 :menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization`.
 For more information,
-see :doc:`2D Stabilization </editors/movie_clip_editor/tracking/clip/properties/stabilization/index>`.
+see :doc:`2D Stabilization </motion_tracking/tracking/clip/properties/stabilization/index>`.
 
 
 Inputs

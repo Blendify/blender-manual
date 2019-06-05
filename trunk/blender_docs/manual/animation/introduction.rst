@@ -26,7 +26,7 @@ Animation is typically achieved with the use of :doc:`keyframes </animation/keyf
 .. seealso:: Related Sections
 
    - :doc:`Physical Simulation </physics/introduction>`.
-   - :doc:`Motion Tracking </editors/movie_clip_editor/index>`.
+   - :doc:`Motion Tracking </motion_tracking/index>`.
 
 
 .. _animation-state-colors:

@@ -43,4 +43,4 @@ to one Meta strip than applying it to each individual strip.
 .. seealso::
 
    It is also possible to do the similar task described above with
-   an :doc:`Adjustment Layer </editors/vse/sequencer/strips/effects/adjustment>` effect strip.
+   an :doc:`Adjustment Layer </sequencer/sequencer/strips/effects/adjustment>` effect strip.

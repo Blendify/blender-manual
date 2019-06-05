@@ -25,12 +25,12 @@ Workflow
 
 #. First you are going to want to add in each of your video strips.
 #. Next, you will want to sync all your cameras by either using
-   :doc:`Audio Waveforms </editors/vse/sequencer/strips/sound>` or by the movement of objects.
+   :doc:`Audio Waveforms </sequencer/sequencer/strips/sound>` or by the movement of objects.
 
    .. tip::
 
       To make syncing strips easier you can group cameras, their audio,
-      and their effects together using :doc:`Meta Strips </editors/vse/sequencer/meta>`.
+      and their effects together using :doc:`Meta Strips </sequencer/sequencer/meta>`.
 
 #. Add a viewer region for every input channel and to improve performance use 25% proxies.
 #. Add a Multicam Selector strip *above* all the channel tracks.

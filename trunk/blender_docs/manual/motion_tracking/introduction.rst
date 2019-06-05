@@ -33,8 +33,8 @@ Movie Clip
    Movie Clip Editor with an opened clip.
 
 Modes
-   - :doc:`Motion Tracking </editors/movie_clip_editor/tracking/index>`
-   - :doc:`Masking </editors/movie_clip_editor/masking/index>`
+   - :doc:`Motion Tracking </motion_tracking/tracking/index>`
+   - :doc:`Masking </motion_tracking/masking/index>`
 
 Pivot Point
    See :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.

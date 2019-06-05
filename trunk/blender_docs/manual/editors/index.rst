@@ -32,8 +32,8 @@ General
    shader_editor/index.rst
    Compositor <../compositing/index.rst>
    texture_node/index.rst
-   vse/index.rst
-   movie_clip_editor/index.rst
+   Video Sequencer <../sequencer/index.rst>
+   Movie Clip Editor <../motion_tracking/index.rst>
 
 
 Animation
