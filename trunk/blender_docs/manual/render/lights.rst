@@ -211,14 +211,5 @@ Shape
       with proper ratio for *Size X* and *Size Y*. For the simulation of the light emitted by
       a TV screen, a vertical *Square* area lamp would be better in most cases.
 
-   .. list-table::
-
-      * - .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_square.png
-
-             Square options.
-
-        - .. figure:: /images/render_blender-render_lighting_lamps_area_introduction_rect.png
-
-             Rectangle options.
 Size / Size X / Size Y
    Dimensions for the *Square* or *Rectangle*.
