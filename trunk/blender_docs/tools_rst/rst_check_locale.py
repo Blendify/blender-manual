@@ -43,14 +43,22 @@ def warn_locale():
     """
     Check for stale PO files.
     """
-    files_rst = list(files_recursive(RST_DIR, ext_test=".rst"))
+    # files_rst = list(files_recursive(RST_DIR, ext_test=".rst"))
     files_po = list(files_recursive(LOCALE_DIR, ext_test=".po"))
+
+    # Sphinx adds this file, it's not part of the manual but add it anyway.
+    ignore_suffix = (
+        os.path.join("LC_MESSAGES", "sphinx.po"),
+    )
 
     print_title("List of unused locale:")
 
     if files_po:
         print(" cd locale")
         for f in files_po:
+            if f.endswith(ignore_suffix):
+                continue
+
             # strip LOCALE_DIR from start
             f_sub = f[len(LOCALE_DIR) + 1:-2] + "rst"
             # strip 'fr/LC_MESSAGES'
