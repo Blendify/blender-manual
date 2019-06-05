@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
+   blend.rst
    data_blocks.rst
    custom_properties.rst
    files/index.rst

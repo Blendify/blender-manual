@@ -35,7 +35,7 @@ Options
 -------
 
 Relative Path
-   Available only when linking, see :doc:`relative paths </files/files/relative_paths>`.
+   Available only when linking, see :ref:`files-blend-relative_paths`.
 Select
    Makes the object *Active* after it is loaded.
 Active Layer
