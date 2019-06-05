@@ -60,6 +60,6 @@ under different lighting conditions, and so forth.
 Blender allows you to achieve this in many ways.
 
 You can use "a stack of texture layers" as described
-in :doc:`this section </editors/uv/textures/texture_panel>`,
+in :doc:`this section </render/shaders/textures/texture_panel>`,
 or you can also use arbitrarily complex networks of "texture nodes"
 as discussed :doc:`here </editors/texture_node/introduction>`.

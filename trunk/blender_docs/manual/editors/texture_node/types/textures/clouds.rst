@@ -7,4 +7,4 @@ Clouds Node
 
    Clouds node.
 
-See :doc:`Here </editors/uv/textures/types/procedural/clouds>`.
+See :doc:`Here </render/shaders/textures/types/procedural/clouds>`.

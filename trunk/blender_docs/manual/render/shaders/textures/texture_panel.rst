@@ -44,4 +44,4 @@ Texture Type
 
 Texture Type
    Choose the type of texture that is used for the current texture data-block.
-   These types are described in detail :doc:`in this section </editors/uv/textures/index>`.
+   These types are described in detail :doc:`in this section </render/shaders/textures/index>`.

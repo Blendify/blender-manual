@@ -59,4 +59,4 @@ Add ``+``
 .. seealso::
 
    Note that each texture can be mapped to a specific UV texture.
-   See the :doc:`Mapping </editors/uv/textures/properties/mapping>` panel of the texture tab.
+   See the :doc:`Mapping </render/shaders/textures/properties/mapping>` panel of the texture tab.
