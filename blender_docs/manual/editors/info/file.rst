@@ -29,7 +29,7 @@ Save Copy
    :doc:`Saves </files/files/save>` a copy of the current file.
 Defaults
    Save User Settings :kbd:`Ctrl-U`
-      Saves the current scene and preferences to the :doc:`startup.blend </files/files/startup_file>` file.
+      Saves the current scene and preferences to the :doc:`startup.blend </getting_started/configuration/defaults>` file.
    Load Factory Settings
       Restores the default startup file as :ref:`factory settings <factory-settings>` and saves the changes.
    Load Factory Settings (Temporary)

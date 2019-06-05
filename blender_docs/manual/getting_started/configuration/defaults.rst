@@ -1,13 +1,23 @@
 
-************
+********
+Defaults
+********
+
+
+Preferences
+===========
+
+TODO28: Auto-save option, how to restore factory settings.
+
+
 Startup File
-************
+============
 
 .. admonition:: Reference
    :class: refbox
 
    :Menu:      :menuselection:`File --> Save Startup File`
-   :Hotkey:    :kbd:`Ctrl-U`
+   :Hotkey:    :kbd:`F4`, :kbd:`P`
 
 Saves the current file as the default Blender file ``startup.blend``.
 This file is loaded every time Blender is opened or a new file is generated (:menuselection:`File --> New`).
