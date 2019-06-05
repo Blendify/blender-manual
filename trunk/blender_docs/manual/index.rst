@@ -84,6 +84,14 @@ Sections
 
       .. container:: descr
 
+         .. figure:: /images/index_grease_pencil.jpg
+            :target: grease_pencil/index.html
+
+         :doc:`/grease_pencil/index`
+            Grease pencil drawing and other modes.
+
+      .. container:: descr
+
          .. figure:: /images/index_animation.jpg
             :target: animation/index.html
 
@@ -177,6 +185,7 @@ Sections
       scene_layout/index.rst
       modeling/index.rst
       sculpt_paint/index.rst
+      grease_pencil/index.rst
       animation/index.rst
       physics/index.rst
       render/index.rst
