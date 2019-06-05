@@ -15,7 +15,7 @@ the `minimum or recommended requirements <https://www.blender.org/download/requi
 Always check that the graphics drivers are up to date and that OpenGL is well supported.
 
 Support for other hardware such as graphic tablets and 3D mice are covered later in
-:doc:`Supported Hardware </getting_started/installing/configuration/hardware>`.
+:doc:`Supported Hardware </getting_started/configuration/hardware>`.
 
 
 Download Blender

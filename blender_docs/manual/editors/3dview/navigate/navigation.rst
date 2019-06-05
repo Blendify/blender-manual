@@ -13,7 +13,7 @@ For example, it is possible to translate and zoom in the Image editor.
 .. tip:: Mouse Buttons and Numpad
 
    If you have a mouse with less than three buttons or a keyboard without a numpad,
-   see the :doc:`Keyboard and Mouse </getting_started/installing/configuration/hardware>`
+   see the :doc:`Keyboard and Mouse </getting_started/configuration/hardware>`
    page of the manual to learn how to use them with Blender.
 
 
