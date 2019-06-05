@@ -40,13 +40,13 @@ make gettext
 # Update PO files
 #
 # note, this can be slow so (multi-process)
-for lang in `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort`; do
-	sphinx-intl update -p build/locale -l $lang &
+for LANG in `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort`; do
+	sphinx-intl update --pot-dir=build/locale --language="$LANG" &
 done
 
 FAIL=0
 for job in `jobs -p`; do
-echo $job
+echo "$job"
     wait $job || let "FAIL+=1"
 done
 if [ "$FAIL" != "0" ]; then
@@ -68,7 +68,7 @@ unset NEW_FILES
 # there may be a cleaner way to do this in shell.
 NEW_DIRS=`svn status . | grep -v -e "\.po$" | awk '/^[?]/{print $2}' | python -c "import sys, os; sys.stdout.write('\n'.join([f for f in sys.stdin.read().split('\n') if os.path.isdir(f)]))"`
 if [ "$NEW_DIRS" != "" ]; then
-	svn add $NEW_DIRS
+	svn add "$NEW_DIRS"
 fi
 unset NEW_DIRS
 
