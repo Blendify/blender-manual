@@ -9,3 +9,4 @@
    introduction.rst
    hardware.rst
    directories.rst
+   defaults.rst
