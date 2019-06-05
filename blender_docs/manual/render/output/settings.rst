@@ -84,7 +84,7 @@ File Path
    You can set a custom padding size by adding the appropriate number of ``#`` anywhere in the file name
    (e.g. ``image_##_test.png`` translates to ``image_01_test.png``).
 
-   This setting expands :doc:`relative paths </files/files/relative_paths>`
+   This setting expands :ref:`files-blend-relative_paths`
    where a ``//`` prefix represents the directory of the current blend-file.
 Overwrite
    Overwrite existing files when rendering.
