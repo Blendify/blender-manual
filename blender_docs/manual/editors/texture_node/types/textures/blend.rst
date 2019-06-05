@@ -7,4 +7,4 @@ Blend Node
 
    Blend node.
 
-See :doc:`Here </editors/uv/textures/types/procedural/blend>`.
+See :doc:`Here </render/shaders/textures/types/procedural/blend>`.

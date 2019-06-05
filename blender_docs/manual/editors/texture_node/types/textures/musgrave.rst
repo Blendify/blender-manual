@@ -8,4 +8,4 @@ Musgrave Node
    Musgrave Node.
 
 
-See :doc:`Here </editors/uv/textures/types/procedural/musgrave>`.
+See :doc:`Here </render/shaders/textures/types/procedural/musgrave>`.
