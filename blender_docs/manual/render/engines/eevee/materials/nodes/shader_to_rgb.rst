@@ -15,7 +15,7 @@ Namely ambient occlusion, contact shadows, soft shadows, screen space refraction
 
 For instance if you quantize the result of the ambient occlusion you will not get a fully quantized output
 but an accumulation of a noisy quantized output which may or may not converge to a smooth result.
-(TODO 2.8 Image)
+(TODO2.8 Image)
 
 .. warning::
 
@@ -46,4 +46,4 @@ Color
 Alpha
    Todo 2.8.
 
-(TODO 2.8 Example of Toon shading)
+(TODO2.8 Example of Toon shading)

@@ -70,9 +70,9 @@ Garbage Collection Rate
    Number of seconds between each run of the GL texture garbage collector.
 
 VBO Time Out
-   TODO 2.8.
+   TODO2.8.
 Garbage Collection Rate
-   TODO 2.8.
+   TODO2.8.
 
 
 .. _prefs-system-sound:

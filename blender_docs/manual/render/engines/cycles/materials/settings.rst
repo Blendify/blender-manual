@@ -104,7 +104,7 @@ Blend Mode
       Use texture alpha to add an anti-aliasing mask,
       requires multi-sample to be enabled
 
-      .. TODO28 is this still the case?
+      .. TODO2.8 is this still the case?
 
 
 Pass Index

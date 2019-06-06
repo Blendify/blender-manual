@@ -3,7 +3,7 @@
 Mesh Sequence Cache Modifier
 ****************************
 
-.. (TODO 2.78) wip: The *Mesh Sequence Cache Modifier* is used to.
+.. (TODO2.78) wip: The *Mesh Sequence Cache Modifier* is used to.
 
 Despite its name, this modifier supports meshes and curves.
 It also handles file sequences, as well as meshes and curves with varying number of vertices/control points.

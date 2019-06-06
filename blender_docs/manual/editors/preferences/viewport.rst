@@ -19,7 +19,7 @@ Gizmo size
 Look Dev Sphere Size
    Diameter of the LookDev sphere overlay.
 3D Viewport Axis
-   TODO 2.8.
+   TODO2.8.
 
 
 .. _prefs-system-multi-sampling:
@@ -28,13 +28,13 @@ Quality
 =======
 
 Viewport Anti-aliasing
-   TODO 2.8.
+   TODO2.8.
 Multisampling
    This enables :term:`FSAA` for smoother drawing, at the expense of some performance.
 Grease Pencil Multisampling
    TODO.
 Edit-Mode Smooth Wires
-   TODO 2.8.
+   TODO2.8.
 
 
 Textures

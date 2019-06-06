@@ -11,7 +11,7 @@ File Formats
 Image Output
 ============
 
-TODO28 (could have more details).
+TODO2.8 (could have more details).
 
 Rendering to images is useful for animation since rendering can be canceled and
 resumed by frame range.

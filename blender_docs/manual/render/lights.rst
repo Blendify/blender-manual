@@ -45,17 +45,17 @@ Shadow
 ======
 
 Clip Start
-   TODO28.
+   TODO2.8.
 Softness
-   TODO28.
+   TODO2.8.
 Bias
-   TODO28.
+   TODO2.8.
 Exponent
-   TODO28.
+   TODO2.8.
 Bleet Bias
-   TODO28.
+   TODO2.8.
 Contact Shadows
-   TODO28.
+   TODO2.8.
 
 
 .. _light-type:

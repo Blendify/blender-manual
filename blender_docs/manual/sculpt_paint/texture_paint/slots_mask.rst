@@ -44,7 +44,7 @@ Painting Mode
          A :ref:`ui-list-view` of slots.
          To activate a certain slot to use it for paint a just :kbd:`LMB` click on it.
 
-      .. (TODO 2.8) still available?
+      .. (TODO2.8) still available?
 
       UV Map
          Allows you to select a UV layer for the slot.

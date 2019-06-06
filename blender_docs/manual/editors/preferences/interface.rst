@@ -28,7 +28,7 @@ Tooltips
 Python Tooltips
    Displays a property's Python information below the tooltip.
 Developer Extras
-   TODO 2.8.
+   TODO2.8.
 Large Cursors
    Use large mouse cursors when available.
 
@@ -45,13 +45,13 @@ Region Overlap
    clicking the checkbox will enable the overlapping regions to be drawn using the *Triple Buffer* method,
    which will also enable them to be drawn using Alpha, showing the 3D View contents through the regions.
 Corner Splitting
-   TODO 2.8.
+   TODO2.8.
 Color Picker Type
    Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
 
    See the different color picker types at the :doc:`Color picker </interface/controls/templates/color_picker>` page.
 Header Position
-   TODO 2.8.
+   TODO2.8.
 Factor Display Type
    How factor value types are displayed in the user interface.
 
@@ -101,7 +101,7 @@ Anti-aliasing
    Enable interface text anti-aliasing.
    When disabled, texts are drawn using straight text rendering (filling only absolute pixels).
 Hinting
-   TODO 2.8.
+   TODO2.8.
 Interface Font
    Replacement for the default user interface font.
 Mono-space Font

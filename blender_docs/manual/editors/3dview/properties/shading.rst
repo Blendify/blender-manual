@@ -25,7 +25,7 @@ Wireframe
 Solid
    The default drawing mode using solid colored surfaces and simple lighting.
 LookDev
-   TODO28.
+   TODO2.8.
 Rendered
    An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
 
