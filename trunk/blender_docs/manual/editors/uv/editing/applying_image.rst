@@ -57,7 +57,7 @@ the :doc:`Image Textures </render/shaders/textures/types/image/index>` page.
    and you will even see it in your 3D View in textured viewport mode. However, when you render,
    you will just get a default gray if the object does not have a Material assigned.
    You will get a black if you do not load an image. If you do not create a texture that uses the image,
-  your object will render according to the procedural material settings.
+   your object will render according to the procedural material settings.
 
 
 Using the Test Grid

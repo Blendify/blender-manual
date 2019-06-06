@@ -103,7 +103,7 @@ For more information on specific tools available, see:
 - :doc:`Groups </scene_layout/object/properties/relations/groups>`
 - :ref:`animation-index`
 - :ref:`rigid-body-index`
-- :ref:`grease-pencil-index`
+- :ref:`annotations-index`
 - :ref:`modeling-index`
 - :ref:`painting-sculpting-index`
 - :ref:`painting-vertex-index`
@@ -118,7 +118,7 @@ The Sidebar region contains properties of the active object and selected objects
 as well as properties of the editor itself:
 
 - :doc:`Transform </scene_layout/object/editing/transform/introduction>`
-- :doc:`Grease Pencil </editors/3dview/annotations/introduction>`
+- :doc:`Annotations </editors/3dview/annotations/introduction>`
 - :doc:`Display & View Panels </editors/3dview/properties/panels>`
 - :doc:`Background Images </editors/3dview/properties/background_images>`
 - :doc:`Transform Orientations </scene_layout/object/editing/transform/control/orientations>`
