@@ -13,4 +13,5 @@
    introduction.rst
    texture_panel.rst
    assigning_a_texture.rst
+   workflow.rst
    types/index.rst

@@ -6,5 +6,5 @@
 .. toctree::
    :maxdepth: 2
 
-   image/index.rst
+   image_movie.rst
    procedural/index.rst
