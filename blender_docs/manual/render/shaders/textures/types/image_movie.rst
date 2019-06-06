@@ -77,8 +77,7 @@ Alpha
       Use the alpha channel information stored in the image.
       Where the alpha value in the image is less than 1.0,
       the object will be partially transparent and things behind it will be visible.
-      Works with files like PNG and TGA that can save transparency information.
-      The *Use Alpha* in the `Settings`_ panel must be enabled.
+      Works with :ref:`image formats <files-media-image_formats>` that store transparency information.
 
    Calculate
       Calculate an alpha based on the RGB values of the Image.
