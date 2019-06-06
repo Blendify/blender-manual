@@ -63,3 +63,49 @@ You can use "a stack of texture layers" as described
 in :doc:`this section </render/shaders/textures/texture_panel>`,
 or you can also use arbitrarily complex networks of "texture nodes"
 as discussed :doc:`here </editors/texture_node/introduction>`.
+
+
+UV Textures vs. Procedural Textures
+===================================
+
+A Material Texture, that has a Map Input of UV,
+and is an image texture that is mapped to Color, is equivalent to a UV texture.
+It provides much more flexibility, because it can be sized and offset, and the degree to which
+it affects the color of your object can be controlled in the Map To panel. In addition,
+you can have different images for each texture channel; one for color, one for alpha,
+one for normals, one for specularity, one for reflectivity, *etc.* Procedural textures,
+like Clouds, are incredibly simple and useful for adding realism and details to an image.
+
+.. list-table::
+   :header-rows: 1
+   :class: valign
+   :widths: 40 60
+
+   * - UV Texture
+     - Procedural Texture
+   * - Image maps to precise coordinates on the selected faces of the mesh.
+     - Pattern is generated dynamically, and is mapped to the entire mesh (or portion covered by that material).
+   * - The Image maps once to a range of mesh faces specifically selected.
+     - Maps once to all the faces to which that material is assigned; either the whole mesh or a portion.
+   * - Image is mapped once to faces.
+     - Size XYZ in the Map Input allows tiling the texture many times across faces.
+       Number of times depends on size of mesh.
+   * - Affect the color and the alpha of the object.
+     - Can also affect normals (bumpiness), reflectivity, emit, displacement,
+       and a dozen other aspects of the mesh's appearance; can even warp or stencil subsequent textures.
+   * - Can have many for a mesh.
+     - Can be layered, up to 10 textures can be applied, layering on one another.
+       Many mix methods for mixing multiple channels together.
+   * - Any Image type (still, video, rendered). Generated test grid available.
+     - Many different types: clouds, wood grain, marble, noise, and even magic.
+   * - Provides the UV layout for animated textures.
+     - Noise is the only animated procedural texture.
+   * - Takes very limited graphics memory
+     - Uses no or little memory; instead uses CPU compute power.
+
+So, in a sense, a single UV texture for a mesh is simpler but more limited than using multiple textures
+(mapped to UV coordinates), because they do one specific thing very well:
+adding image details to a range of faces of a mesh.
+They work together if the procedural texture maps to the UV coordinates specified in your layout.
+As discussed earlier, you can map multiple UV textures to different images using
+the UV Coordinate mapping system in the Map Input panel.
