@@ -3,9 +3,9 @@
 .. _bpy.ops.clip:
 .. _editors-movieclip-index:
 
-#####################
-  Movie Clip Editor
-#####################
+######################
+  Tracking & Masking
+######################
 
 .. toctree::
    :maxdepth: 2
