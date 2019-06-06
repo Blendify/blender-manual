@@ -25,4 +25,4 @@ Mask
 In the Dope Sheet's *Mask Mode* mask shape keyframes can be selected and edited.
 All Mask data-blocks in the blend-file are shown.
 
-See :doc:`Masking </motion_tracking/masking/index>`.
+See :doc:`Masking </movie_clip/masking/index>`.

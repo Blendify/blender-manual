@@ -213,7 +213,7 @@ Camera Presets
 Sensor size
    This setting is an alternative way to control the focal length,
    it is useful to match the camera in Blender to a physical camera & lens combination,
-   e.g. for :doc:`motion tracking </motion_tracking/index>`.
+   e.g. for :doc:`motion tracking </movie_clip/index>`.
 Sensor Fit
    Option to control which dimension (vertical or horizontal) along which field of view angle fits.
 

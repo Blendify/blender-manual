@@ -106,7 +106,7 @@ Seams
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
    :Menu:      :menuselection:`UVs --> Mark/Clear Seam`
 
-See :doc:`/editors/uv/editing/unwrapping/seams`.
+See :doc:`/modeling/meshes/editing/uv/unwrapping/seams`.
 
 
 .. _bpy.ops.uv.pack_islands:
