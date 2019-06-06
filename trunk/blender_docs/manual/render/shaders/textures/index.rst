@@ -13,5 +13,4 @@
    introduction.rst
    texture_panel.rst
    assigning_a_texture.rst
-   properties/index.rst
    types/index.rst
