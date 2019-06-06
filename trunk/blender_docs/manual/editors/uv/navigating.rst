@@ -20,7 +20,7 @@ Update Automatically
 UV Local View
    Displays only the UV faces that are assigned to the currently displayed image.
 
-   .. (TODO 2.8) BI only? ^^^
+   .. (TODO2.8) BI only? ^^^
 
 Draw Other Objects
    Draws the UVs of selected objects (Object Mode) in the background.

@@ -99,9 +99,9 @@ View Navigation
    The default navigation mode for :kbd:`Shift-F` in the 3D View.
 
    Walk
-      TODO 2.8.
+      TODO2.8.
    Fly
-      TODO 2.8.
+      TODO2.8.
 
 Camera Parent Lock
    When the camera is locked to the view and in fly mode, transform the parent rather than the camera.

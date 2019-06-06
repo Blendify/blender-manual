@@ -6,7 +6,7 @@ Lights
 Studio Lights
 =============
 
-TODO 2.8.
+TODO2.8.
 
 
 .. _bpy.types.UserSolidLight:
@@ -32,23 +32,23 @@ Light
    Specular
       This is the highlight color of the light.
    Smooth
-      TODO 2.8.
+      TODO2.8.
    Direction
       Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
       let us the user change the direction of the lamp by rotating the sphere.
       The direction of the lamp will be the same as shown at the sphere surface.
 
 Ambient Color
-   TODO 2.8.
+   TODO2.8.
 
 
 MatCaps
 =======
 
-TODO 2.8.
+TODO2.8.
 
 
 LookDev HDRIs
 =============
 
-TODO 2.8.
+TODO2.8.

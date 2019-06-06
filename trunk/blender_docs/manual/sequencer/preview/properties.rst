@@ -19,7 +19,7 @@ Preview Shading
    Method for rendering the viewport.
    See the 3D View's :ref:`view3d-viewport-shading` options.
 Override Scene Settings
-   TODO 2.8.
+   TODO2.8.
 
 
 View Settings

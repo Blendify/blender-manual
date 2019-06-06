@@ -18,7 +18,7 @@ Emulate Numpad
    the regular number keys. If you have a keyboard without a Numpad (e.g. on a laptop),
    you can tell Blender to treat the standard number keys as Numpad keys by checking *Emulate Numpad*.
 Default to Advanced Numeric Input
-   TODO 2.8.
+   TODO2.8.
 
 
 Mouse
@@ -91,7 +91,7 @@ Tablet
 ======
 
 Tablet API
-   TODO 2.8.
+   TODO2.8.
 Max Threshold
    Amount of pressure required to achieve full intensity.
 Softness

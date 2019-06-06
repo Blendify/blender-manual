@@ -8,7 +8,7 @@ the previous frame color to create more accurate reflection than reflection prob
 
 If a *Reflection Plane* is near a reflective surface,
 it will be used as the source for tracing rays more efficiently and fix the partial visibility problem
-[TODO 2.8 image].
+[TODO2.8 image].
 However, the reflected color will not contain the following effects:
 Subsurface scattering, volumetrics, screen space reflections, screen space refractions.
 

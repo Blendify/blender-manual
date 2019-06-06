@@ -6,7 +6,7 @@ Defaults
 Preferences
 ===========
 
-TODO28: Auto-save option, how to restore factory settings (file menu).
+TODO2.8: Auto-save option, how to restore factory settings (file menu).
 
 
 Startup File

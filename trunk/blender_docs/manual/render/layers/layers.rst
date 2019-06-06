@@ -94,7 +94,7 @@ as long as that Scene Layer is also visible.
    So, if only Scene Layer 1 is visible and your Render Layer set specifies to render only Layers 2 and 3,
    nothing will be rendered.
 
-.. TODO28 integrate content below with content above.
+.. TODO2.8 integrate content below with content above.
 
 
 *************

@@ -43,7 +43,7 @@ Point Lamp
 
 Point lamps emit light equally in all directions.
 By setting the *Size* larger than zero, they become spherical lamps,
-which give softer shadows (TODO 2.8 link soft shadows) and shading.
+which give softer shadows (TODO2.8 link soft shadows) and shading.
 
 .. seealso::
 
@@ -54,7 +54,7 @@ Spot Lamp
 ---------
 
 Spot lamps emit light in a particular direction, inside a cone.
-By setting the *Size* larger than zero, they can cast softer shadows (TODO 2.8 link soft shadows) and shading.
+By setting the *Size* larger than zero, they can cast softer shadows (TODO2.8 link soft shadows) and shading.
 
 .. note::
 

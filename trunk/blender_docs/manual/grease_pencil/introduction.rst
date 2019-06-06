@@ -3,4 +3,4 @@
 Introduction
 ************
 
-TODO28: Write grease pencil introduction.
+TODO2.8: Write grease pencil introduction.
