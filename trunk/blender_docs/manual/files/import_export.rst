@@ -31,36 +31,36 @@ a good rule of thumb for selecting import/export formats for your project is:
 :doc:`glTF (Graphics Library Transmission Format) </addons/io_gltf2>`
 =====================================================================
 
-if you intend to export rich materials for :abbr:`PBR (Physically Based Rendering)`
+If you intend to export rich materials for :abbr:`PBR (Physically Based Rendering)`
 or need the file to be in ready-to-render form for a wide variety of clients and viewers.
 
 
 :doc:`STL (STereoLithography) </addons/io_stl>`
 ===============================================
 
-if you intend to import/export the files for CAD software.
+If you intend to import/export the files for CAD software.
 This format is also commonly used for loading into 3D printing software.
 
 
 :doc:`FBX (Filmbox) </addons/io_fbx>`
 =====================================
 
-if you intend to export objects with rigs and/or animation
+If you intend to export objects with rigs and/or animation
 to be used in other 3D creation suites or game development.
 
 
 :doc:`DAE (Collada) </files/import_export/collada>`
 ===================================================
 
-if you intend to export objects with rigs and/or animation
+If you intend to export objects with rigs and/or animation
 to be used in other 3D creation suites or game development (provided they support Collada).
 
 
 :doc:`ABC (Alembic) </files/import_export/alembic>`
 ===================================================
 
-if you want to import/export a large amount of scene data.
-This alembic format is also useful to export an animated mesh
+If you want to import/export a large amount of scene data.
+This Alembic format is also useful to export an animated mesh
 (rather than a static mesh + the armature + the animation of the armature).
 That animated mesh from an Alembic file can then be used for shading and lighting.
 

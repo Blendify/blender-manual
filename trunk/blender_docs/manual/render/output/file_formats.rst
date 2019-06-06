@@ -7,13 +7,14 @@ File Formats
 
    :ref:`files-media-index` for technical information about supported file formats.
 
+
 Image Output
 ============
 
 TODO28 (could have more details).
 
-Rendering to images is useful for animation since rendering can be cancelled and resumed
-by frame range.
+Rendering to images is useful for animation since rendering can be canceled and
+resumed by frame range.
 
 Playing back images as an animation is supported, see: :ref:`render-output-animation_player`.
 
