@@ -9,4 +9,3 @@
    image/index.rst
    procedural/index.rst
    environment.rst
-   volume/index.rst
