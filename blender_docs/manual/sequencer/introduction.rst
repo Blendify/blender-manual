@@ -34,5 +34,3 @@ the third button displays both the Sequencer and the Preview.
 
    By default the Sequencer is enabled, however, it can be disabled
    in the :ref:`render-output-postprocess`.
-
-/scratch/src/manual/manual/editors/vse/introduction.rst:35:

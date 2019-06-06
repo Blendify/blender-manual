@@ -3,7 +3,6 @@
 Blend Files
 ***********
 
-
 .. _files-blend-open:
 
 Opening Files

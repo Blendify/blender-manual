@@ -112,7 +112,7 @@ For more information on specific tools available, see:
 
 
 Sidebar Region
-=================
+==============
 
 The Sidebar region contains properties of the active object and selected objects (such as their locations),
 as well as properties of the editor itself:

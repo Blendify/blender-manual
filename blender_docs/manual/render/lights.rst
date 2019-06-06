@@ -19,6 +19,7 @@ while a simple model can become very realistic if skillfully lit.
    - :doc:`Cycles Lighting </render/engines/cycles/lighting>`
    - :doc:`Workbench Lighting </render/engines/workbench/lighting>`
 
+
 Light
 =====
 
