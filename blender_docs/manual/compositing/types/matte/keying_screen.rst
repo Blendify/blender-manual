@@ -75,7 +75,7 @@ Instead of increasing the range of accepted shades to be masked out, the *Keying
 node lets you change what shade of green (or other color) to use for different parts of
 the image.
 
-Start in the :doc:`Movie Clip Editor </motion_tracking/introduction>`.
+Start in the :doc:`Movie Clip Editor </movie_clip/introduction>`.
 Open the Sidebar region and Tool Shelf to show tracking configuration.
 Tracks used for gradients are not useful for camera solving, because they do not
 track well. So create a new object track in the *Objects* selector. Place tracking

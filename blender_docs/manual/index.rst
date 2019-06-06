@@ -124,11 +124,11 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_motion_tracking.jpg
-            :target: motion_tracking/index.html
+         .. figure:: /images/index_movie_clip.jpg
+            :target: movie_clip/index.html
 
-         :doc:`/motion_tracking/index`
-            Video motion tracking.
+         :doc:`/movie_clip/index`
+            Video motion tracking & masking.
 
       .. container:: descr
 
@@ -190,7 +190,7 @@ Sections
       physics/index.rst
       render/index.rst
       compositing/index.rst
-      motion_tracking/index.rst
+      movie_clip/index.rst
       sequencer/index.rst
       files/index.rst
       advanced/index.rst

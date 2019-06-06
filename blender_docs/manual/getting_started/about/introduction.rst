@@ -38,7 +38,7 @@ Key Features
   :doc:`Rendering </render/introduction>`,
   :doc:`Animation & Rigging </animation/introduction>`,
   :doc:`Video Editing </sequencer/index>`,
-  :doc:`VFX </motion_tracking/index>`,
+  :doc:`VFX </movie_clip/index>`,
   :doc:`Compositing </compositing/introduction>`,
   :doc:`Texturing </editors/uv/introduction>`,
   and many types of :doc:`Simulations </physics/introduction>`.

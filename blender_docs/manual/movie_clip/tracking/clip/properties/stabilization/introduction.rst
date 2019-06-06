@@ -51,7 +51,7 @@ Stabilization Tracks
 
 Thus, as foundation for any image stabilization, we need tracked image features to derive the movements.
 These *tracking points* or "tracks" can be established with Blender's
-:doc:`image feature tracking component </motion_tracking/tracking/clip/introduction>`
+:doc:`image feature tracking component </movie_clip/tracking/clip/introduction>`
 The right choice of points to track is somewhat tricky, yet crucial for successful image stabilization.
 Often, we're here because we'll have to deal with imperfect footage. In such cases, the *averaging of tracks*
 helps to work around image or tracking errors at some point.
