@@ -9,3 +9,5 @@
 
    scene/index.rst
    object/index.rst
+   collections/index.rst
+   view_layers/index.rst
