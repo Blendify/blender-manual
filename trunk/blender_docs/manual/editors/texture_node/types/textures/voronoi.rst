@@ -8,4 +8,4 @@ Voronoi Node
    Voronoi node.
 
 
-See :doc:`Here </render/shaders/textures/types/procedural/voronoi>`.
+See :doc:`Here </render/shaders/textures/types/voronoi>`.

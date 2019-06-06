@@ -11,4 +11,4 @@ Noise
    Noise Node.
 
 
-See :doc:`Here </render/shaders/textures/types/procedural/noise>`.
+See :doc:`Here </render/shaders/textures/types/noise>`.

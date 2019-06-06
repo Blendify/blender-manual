@@ -64,7 +64,7 @@ Options
 =======
 
 Image
-   The Image :ref:`ui-data-block`. For the options see :doc:`/editors/image/image_settings`.
+   The Image :ref:`ui-data-block`.
 
 
 Alpha
