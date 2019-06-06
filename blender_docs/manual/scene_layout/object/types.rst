@@ -54,7 +54,7 @@ Lamp
    See Lamps in :doc:`General Settings </render/lights>`,
    :doc:`Cycles </render/engines/cycles/lighting>`.
 Force Field
-   :doc:`Force Fields </physics/force_fields/index>` are used in physical simulations.
+   :doc:`Force Fields </physics/forces/force_fields/index>` are used in physical simulations.
    They give simulations external forces, creating movement,
    and are represented in the 3D View editor as small control objects.
 Group Instance

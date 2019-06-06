@@ -34,7 +34,7 @@ The object does not deform, because every vertex moves with the same speed in th
 Force Fields
 ============
 
-Soft body vertices interact with all the :doc:`Force Fields </physics/force_fields/index>`
+Soft body vertices interact with all the :doc:`Force Fields </physics/forces/force_fields/index>`
 applied (usually to particles) in the layer, such as wind, force fields,
 and what ever physics field effect is on a common layer.
 
