@@ -10,3 +10,7 @@
    hardware.rst
    directories.rst
    defaults.rst
+
+.. seealso::
+
+   See :ref:`prefs-index` for a complete list of options.

@@ -29,14 +29,14 @@ When there are no templates found the menu will not be displayed on the splash s
 
 New application-templates can be installed from the file menu.
 
-If you would like to keep the current application-template active on restarting Blender, save your user-preferences.
+If you would like to keep the current application-template active on restarting Blender, save your preferences.
 
 
 Motivation
 ----------
 
 In some cases it's not enough to write a single script or add-on,
-and expect someone to replace his user-preferences and startup file, install scripts and change his key-map.
+and expect someone to replace their preferences and startup file, install scripts and change his key-map.
 
 The goal of application-templates is to support switching to a customized configuration
 without disrupting your existing settings & installation.
@@ -52,7 +52,7 @@ An application-template may define its own:
 Startup File
    The default file to load with this template.
 Preferences
-   Only certain user-preferences from a template are used:
+   Only certain preferences from a template are used:
 
    - Themes.
    - Add-ons.
@@ -102,7 +102,7 @@ Each of the following files can be used for application templates but are option
 ``startup.blend``
    Factory startup file to use for this template.
 ``userpref.blend``
-   Factory user-preferences file to use for this template.
+   Factory preferences file to use for this template.
 
    *(As noted previously, this is only used for a subset of preferences).*
 ``splash.png``, ``splash_2x.png``
