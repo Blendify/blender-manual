@@ -26,7 +26,7 @@ Common Options
 Noise Basis
 -----------
 
-Each noise-based Blender texture (with the exception of Voronoi and simple noise) has
+Each noise-based Blender texture (except Voronoi and Simple Noise) has
 a *Noise Basis* setting that allows the user to select
 which algorithm is used to generate the texture.
 This list includes the original Blender noise algorithm.
@@ -98,14 +98,12 @@ Nabla
 -----
 
 Almost all procedural textures in Blender use derivatives for calculating normals for texture mapping
-(with as exception *Blend* and *Magic*). This is important for Normal and Displacement Maps.
+(except *Blend* and *Magic*). This is important for Normal and Displacement Maps.
 The strength of the effect is controlled with the *Nabla* Number Button.
 
 
 Hints
 =====
-
-Use the size buttons in the *Mapping* panel to set the size that the procedural textures are mapped to.
 
 Procedural textures can either produce colored textures, intensity only textures,
 textures with alpha values and normal textures.
