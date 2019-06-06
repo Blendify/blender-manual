@@ -11,6 +11,7 @@
    :maxdepth: 2
 
    introduction.rst
+   procedural.rst
    texture_panel.rst
    assigning_a_texture.rst
    workflow.rst
