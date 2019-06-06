@@ -6,7 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   ocean.rst
    blend.rst
    clouds.rst
    distorted_noise.rst
