@@ -111,7 +111,7 @@ Delete :kbd:`X`
    Strokes
       Delete the entire stroke containing any selected points.
    Frame
-      Delete a frame when doing :doc:`Animating Sketches </editors/3dview/grease_pencil/drawing/layers>`.
+      Delete a frame when doing :doc:`Animating Sketches </editors/3dview/annotations/drawing/layers>`.
 Duplicate :kbd:`Shift-D`
    Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.
    :kbd:`LMB` places them at their new position. :kbd:`RMB` cancels and removes the duplicates.

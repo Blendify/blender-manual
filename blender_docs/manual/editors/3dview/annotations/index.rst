@@ -1,10 +1,8 @@
-.. _grease-pencil-index:
-.. _bpy.types.GreasePencil:
-.. _bpy.ops.gpencil:
+.. _annotations-index:
 
-#################
-  Grease Pencil
-#################
+###############
+  Annotations
+###############
 
 .. toctree::
    :maxdepth: 2

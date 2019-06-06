@@ -17,4 +17,4 @@
    properties/index.rst
    ruler_protractor.rst
    viewport_render.rst
-   grease_pencil/index.rst
+   annotations/index.rst

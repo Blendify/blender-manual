@@ -24,7 +24,7 @@ Camera Override
 
    It is useful to support switching views within a single scene.
 Show Grease Pencil
-   Shows :doc:`Grease Pencil </editors/3dview/grease_pencil/index>`
+   Shows :doc:`Grease Pencil </editors/3dview/annotations/index>`
    in non render preview i.e. *Solid* mode.
 Audio Volume
    Volume of the audio taken from the chosen scene.

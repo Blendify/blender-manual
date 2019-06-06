@@ -47,4 +47,4 @@ the most important parts of the video can be seen across all screens.
 Grease Pencil
 =============
 
-Allows you to use :doc:`Grease Pencil </editors/3dview/grease_pencil/index>` in the Sequencer.
+Allows you to use :doc:`Grease Pencil </editors/3dview/annotations/index>` in the Sequencer.
