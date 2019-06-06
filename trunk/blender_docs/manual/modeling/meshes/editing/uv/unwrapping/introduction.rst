@@ -47,7 +47,7 @@ Getting Started
    UV Editing screen layout.
 
 By default, meshes are not created with UVs. First you must map the faces, then
-you can :doc:`edit them </editors/uv/editing/layout>`.
+you can :doc:`edit them </modeling/meshes/editing/uv/layout>`.
 The process of unwrapping your model is done within Edit Mode in the 3D View editor.
 This process creates one or more UV Islands in the :ref:`UV Editor <editors-uv-index>`.
 
@@ -73,6 +73,6 @@ The process is:
 #. Select a UV mapping method from the UV Unwrap menu.
 #. Adjust the unwrap settings.
 #. Add a test image to see if there will be any distortion.
-   See :doc:`Applying Images to UVs </editors/uv/editing/applying_image>`.
+   See :doc:`Applying Images to UVs </modeling/meshes/editing/uv/applying_image>`.
 #. Adjust UVs in the UV editor.
-   See :doc:`Editing UVs </editors/uv/editing/layout>`.
+   See :doc:`Editing UVs </modeling/meshes/editing/uv/layout>`.

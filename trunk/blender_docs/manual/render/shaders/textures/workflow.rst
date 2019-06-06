@@ -5,7 +5,7 @@ Workflow
 
 The process consists of the following steps:
 
-#. Create the Mesh. :doc:`Unwrap </editors/uv/editing/unwrapping/index>` it into one or more
+#. Create the Mesh. :doc:`Unwrap </modeling/meshes/editing/uv/unwrapping/index>` it into one or more
    :doc:`UV Layouts </editors/uv/layout_management>`.
 #. Create one or more Materials for the Mesh.
 #. Create one or more images for each UV layout and aspect of the texture. Either:
@@ -36,7 +36,7 @@ Creating an Image Texture
 -------------------------
 
 To create an image within Blender, you have to first create a new
-:doc:`Blank Image </editors/uv/editing/applying_image>`
+:doc:`Blank Image </modeling/meshes/editing/uv/applying_image>`
 with a uniform color or test grid. After that, you can color the image using the:
 
 - Vertex colors as the basis for an image.
