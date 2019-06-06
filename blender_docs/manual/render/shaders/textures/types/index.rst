@@ -8,4 +8,3 @@
 
    image/index.rst
    procedural/index.rst
-   environment.rst
