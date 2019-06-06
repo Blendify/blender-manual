@@ -58,5 +58,6 @@ Add ``+``
 
 .. seealso::
 
-   Note that each texture can be mapped to a specific UV texture.
-   See the :doc:`Mapping </render/shaders/textures/properties/mapping>` panel of the texture tab.
+   Note that each texture can be mapped to a specific UV layout.
+
+   .. TODO2.8 link to docs on UV mapping textures.

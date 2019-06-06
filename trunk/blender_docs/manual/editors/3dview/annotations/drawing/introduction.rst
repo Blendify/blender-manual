@@ -151,10 +151,6 @@ Only Endpoints
      by the pressure used when drawing that part of the stroke.
    - The "eraser" end of the stylus can be used to erase strokes.
 
-Enable Editing
-   See :doc:`/editors/3dview/grease_pencil/stroke_edit`.
-   An overlay is displayed in the top-right corner of editors when enabled.
-
 
 Tools
 =====
