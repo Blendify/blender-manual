@@ -125,7 +125,7 @@ Variable Type
       (see Fig. :ref:`fig-setup-single-property`)
       First select the type of ID-block, then the ID of the ID-block, then copy and
       paste an RNA property :kbd:`Ctrl-V`.
-      See also :doc:`/files/custom_properties`.
+      See also :ref:`files-data_blocks-custom-properties`.
 
       ID Type
          The ID-block type. For example: Key, Image, Object, Material.

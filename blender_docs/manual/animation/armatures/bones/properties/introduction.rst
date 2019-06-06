@@ -88,4 +88,4 @@ Custom Properties
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Bone --> Custom Properties`
 
-See the :doc:`Custom Properties </files/custom_properties>` page for more information.
+See the :ref:`Custom Properties <files-data_blocks-custom-properties>` page for more information.

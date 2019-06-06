@@ -30,7 +30,7 @@ Modes
    Paint
       :doc:`/sculpt_paint/texture_paint/index`.
    Mask
-      :doc:`/editors/movie_clip_editor/masking/index`.
+      :doc:`/motion_tracking/masking/index`.
 
 
 Multi-Layer
