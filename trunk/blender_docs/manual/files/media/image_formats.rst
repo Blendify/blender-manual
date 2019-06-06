@@ -1,5 +1,6 @@
 .. _bpy.types.Image:
 .. _bpy.ops.image:
+.. _files-media-image_formats:
 
 **************************
 Supported Graphics Formats
