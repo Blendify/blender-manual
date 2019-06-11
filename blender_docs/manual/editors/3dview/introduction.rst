@@ -83,23 +83,7 @@ Tool Shelf
 The Tool Shelf is a context-sensitive region containing tools depending on the current mode
 (for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
 
-For more information on specific tools available, see:
-
-.. TODO2.8 This is outdated. Will need to reformat using the active tool paradigm
-
-- :doc:`Transformations </scene_layout/object/editing/transform/index>`
-- :doc:`History </interface/undo_redo>`
-- :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
-- :doc:`Parents </scene_layout/object/properties/relations/parents>`
-- :doc:`Groups </scene_layout/object/properties/relations/groups>`
-- :ref:`animation-index`
-- :ref:`rigid-body-index`
-- :ref:`annotations-index`
-- :ref:`modeling-index`
-- :ref:`painting-sculpting-index`
-- :ref:`painting-vertex-index`
-- :ref:`painting-weight-index`
-- :ref:`painting-texture-index`
+See :doc:`Tools </editors/3dview/tools>` for more information.
 
 
 Sidebar Region
