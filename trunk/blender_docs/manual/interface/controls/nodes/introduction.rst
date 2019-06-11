@@ -4,8 +4,8 @@ Introduction
 ************
 
 The different node editors are used to work with node-based workflows.
-Each node editor type has there own specific purpose, so,
-here we will only give an overview of what the generic node editor is.
+Each node editor type has there own specific purpose.
+Therefore, this section only explains how to work with nodes in general.
 In the list below it shows a list of different types of node trees and where each is documented.
 
 .. figure:: /images/editors_node-editor_introduction_example.jpg
@@ -34,7 +34,6 @@ In the list below it shows a list of different types of node trees and where eac
      - Texture Nodes are covered
        in the :doc:`UV editor </editors/texture_node/introduction>` docs.
 
-After choosing what node context you want to use, you have to enable nodes with the *Use Nodes* button.
 
 
 Editor Interface
@@ -58,20 +57,21 @@ Add
 Node
    This menu allows you to do things with selected nodes.
 Use Nodes
-   Tells the render engine to use the node map in computing the material color or rendering the final image,
-   or not. If not, the map is ignored and the basic render of the material tabs or scene is accomplished.
+   Tells the render engine to use the node tree when computing the material color or rendering the final image,
+   or not. If not, the tree is ignored. For materials, this is mostly a legacy option, because in the past
+   materials could not be created with node trees.
 Use Pinned
    When enabled, the editor will retain the material or texture, even when the user selects a different object.
    A node tree can then be edited independent of the object selection in the 3D View.
 Go to Parent button
    This button allows you go to parent node tree e.g. leaving a group.
-
+Snapping
+   Change options for snapping node positions to achieve a cleaner node tree layout.
 
 Toolbar
 -------
 
-The *Toolbar* is a context-sensitive region, natively containing tools for the Grease Pencil
-and buttons for adding nodes. The Toolbar is organized using tabs.
+The *Toolbar* contains a set of tools that can be used in the node editor.
 
 
 Sidebar
@@ -106,7 +106,4 @@ Adding Nodes
    :Menu:      :menuselection:`Add`
    :Hotkey:    :kbd:`Shift-A`
 
-Nodes are added in two ways to the node editors:
-
-#. By using the Tool Shelf which has buttons for adding nodes, organized with tabs.
-#. By using the :menuselection:`Add` menu :kbd:`Shift-A`.
+Nodes are added via the :menuselection:`Add` menu or using the :kbd:`Shift-A` shortcut.

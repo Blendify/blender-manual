@@ -34,13 +34,13 @@ Sockets
 The *Sockets* input and output values from the node.
 They appear as little colored circles on either side of the node.
 Unused sockets can be hidden with :kbd:`Ctrl-H`.
-There are two functions of sockets; `inputs`_ and `outputs`_.
+There are two kinds of sockets: `inputs`_ and `outputs`_.
 
 Each socket is color-coded depending on what type of data it handles.
 
 Color (yellow)
    Indicates that color information needs to be input or will be output from the node.
-   This may or may not include an alpha channel.
+   Depending on the node tree type, the color has an alpha channel or not.
 Numeric (gray)
    Indicates numeric value's information.
    It can either be a single numerical value or a so-called "value map".
@@ -51,7 +51,7 @@ Numeric (gray)
 Vector (blue)
    Indicates vector, coordinate and normal information.
 Shader (green)
-   Used for shaders in :doc:`Cycles </render/engines/cycles/index>`.
+   Used for shaders in :doc:`Cycles </render/engines/cycles/index>` and :doc:`Eevee </render/engines/eevee/index>`.
 
 
 Inputs
