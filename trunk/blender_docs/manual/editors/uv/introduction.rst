@@ -4,9 +4,9 @@ Introduction
 ************
 
 The UV Editor is used to map 2D assets like images/textures
-onto 3D objects and edit what are called `UVs <UVs Explained>`_.
+onto 3D objects and edit what are called UVs.
 
-.. figure:: /images/editors_uv-image_introduction_main.png
+.. figure:: /images/editors_uv_introduction_main.png
 
    UV Editor with a UV map and a test grid texture.
 
@@ -130,8 +130,6 @@ UV Snapping
    Similar to Snapping in the 3D View.
 Active UV Texture Map Selector
    Select which UV texture to use.
-Auto Update Other Affected Windows
-   Update other affected windows automatically to reflect changes during interactive operations e.g. transforms.
 
 
 Sidebar Region
@@ -151,8 +149,13 @@ UV Vertex
 Tool Tab
 ^^^^^^^^
 
+Shows the settings for the active tool.
+
 View Tab
 ^^^^^^^^
 
 Display
-   Controls display options.
+   See :doc:`/editors/uv/display_panel`.
+
+2D Cursor
+   Control 2D cursor location.

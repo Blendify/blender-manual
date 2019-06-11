@@ -52,15 +52,11 @@ Editing
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Menu:      :menuselection:`Object --> Transform`
-   :Hotkey:    :kbd:`Shift-T`, :kbd:`Shift-Alt-T`
+   :Menu:      :menuselection:`Object --> Transform --> Scale/Move Texture Space`
 
 To modify the texture space from the 3D View, enable
 :ref:`Edit Texture Space <modeling_transform_edit-texture-space>`
 while :doc:`transforming </scene_layout/object/editing/transform/basics>` an object.
-The texture space can also be transformed with the two shortcuts: :kbd:`Shift-T`
-(move) and :kbd:`Shift-Alt-T` (scale). In essence, these shortcuts just enable
-the *Edit Texture Space* option while transforming.
 
 
 Accessing

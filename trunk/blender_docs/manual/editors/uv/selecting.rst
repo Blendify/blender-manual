@@ -11,10 +11,11 @@ Menu
 ====
 
 Border Select
-   Use the box lasso to select UV coordinates :kbd:`B`.
+   Click and drag to box select uv coordinates.
+   Alternatively, use :kbd:`B` to start box selection.
    See :ref:`bpy.ops.view3d.select_border`.
 Border Select Pinned
-   Use the box lasso to select only pinned UV coordinates :kbd:`Shift-B`.
+   Use the box lasso to select only pinned UV coordinates :kbd:`Ctrl-B`.
 Circle Select
    See :ref:`bpy.ops.view3d.select_circle`.
 Select/Deselect All
