@@ -11,15 +11,15 @@ Prefetch :kbd:`P`
    This allows to fill in the cache as fast as possible when you really need to track something,
    but this keeps CPU and drive bandwidth idle if you've got Clip editor opened but not actually interacting with it.
 Reload
-   ToDo >2.61.
+   Force reload currently loaded movie clip. Is mainly useful when clip gets edited outside of Blender.
 Set Scene Frames
-   ToDo >2.61.
+   Sets end scene frame to match current clip dureation.
 
 
 Marker Panel
 ============
 
-Add Marker and Move
+Add
    Places a new marker at the position of the mouse
    (which is under the button in this case, not ideal but it is just how things work)
    and then it can be moved to the needed location. When it is moved to the desired position,
@@ -64,8 +64,8 @@ Detect Features
       It is needed to prevent markers from being placed too close to each other
       (such placement can confuse the camera solver).
 
-Delete Track
-   Is a quite self-explaining operator which deletes all selected tracks.
+Delete
+   Delete all selected tracks.
 
 
 .. _clip-tracking-settings:
@@ -76,11 +76,13 @@ Tracking Settings Panel
 This panel contains all settings for the 2D tracking algorithms.
 
 Tracking Presets
-   ToDo 2.63.
-Channels
-   ToDo ~2.63.
+   These presets are based on tracking experience of real footage and provides good ball-bark values to start working
+   with a specific footage.
 Pattern Size, Search
-   ToDo ~2.63.
+   Defines size of a newely created tracks.
+Channels
+   Defines color channels which will be used by a tracking algorithm.
+   Disabling some colors might increase contrast of feature, helping the tracker.
 Motion Model
    Defines which possible motions tracking feature has. This option should be set depending on which motion
    a particular feature has and it'll make tracking most accurate for such a motion.
@@ -124,7 +126,7 @@ Normalize
    to make them invariant to illumination changes. An example where this is useful is a scene where
    a marker moves in the shadow of an object.
 Copy From Active Track
-   Tracker settings only -- ToDo 2.64.
+   Copies all settings from active track. Allows to ease creation of new tracks with the same setting.
 
 .. (alt) Previous frame: An image created from the current frame is sent as first image to the tracker.
 
@@ -132,20 +134,23 @@ Copy From Active Track
 Extra Settings
 --------------
 
-Use Mask
-   ToDo 2.64.
+Weight
+   See Track :ref:`Weight <clip-tracking-weight>`.
 Correlation
-   Is now a single value for all tracking settings and defines the minimal correlation between
+   This value defines defines the minimal correlation between
    a matched pattern and a reference to be considered a successful tracking.
    If the tracker is giving up too easily, decrease this value, or if the tracker is slipping too much
    when it should give up sooner, increase this value.
+Margin
+   Can be used disable tracks when they become too close to the image boundary.
+   This slider sets "too close" in pixels.
+Use Mask
+   Allows to use annotation tool to mask part of a pattern, narrowing down what the tracker algorithm is
+   attempting to match across frames.
 Frames Limit
    Controls how many frames can be tracked when the Track Sequence operator is called.
    So, each Track Sequence operation would track maximum *Frames Limit* frames.
    This also helps to notice a slide-off of tracks and correct them.
-Margin
-   Can be used disable tracks when they become too close to the image boundary.
-   This slider sets "too close" in pixels.
 Speed
    Marker settings only -- Can be used to control the speed of sequence tracking.
    This option does not affect the quality of tracking; it just helps to control if tracking happens accurately.
@@ -153,13 +158,6 @@ Speed
    to slide out of position. In such cases *Speed* can be set to Double or Half to add some delay between
    tracking two frames, so a slide-off would be noticed earlier and the tracking process can be canceled to
    adjust positions of tracks.
-Weight
-   See Track :ref:`Weight <clip-tracking-weight>`.
-
-.. hybrid tracker:
-   The algorithm tracks an image larger than the defined pattern first to find the general direction of motion.
-   Then it tracks a slightly smaller image to refine the position from the first step and make the final
-   position more accurate. This iterates several times.
 
 
 Track Panel
@@ -177,7 +175,7 @@ Tracking can happen (in order of buttons):
 - Forward along the whole sequence :kbd:`Ctrl-T`
 - Forward one frame :kbd:`Alt-Right`
 
-This operator depends on settings from the Tracking Settings panel, which will be described later.
+This operator depends on settings from the Tracking Settings panel.
 If during sequence tracking the algorithm fails to track some markers,
 they will be disabled and tracking will continue for the rest of the markers.
 If the algorithm fails when tracking frame-by-frame, the marker is not disabled,
@@ -195,7 +193,7 @@ Action
    Clear (Track Path/All) :kbd:`Shift-Alt-T`
       Clears all markers except the current one from all selected tracks.
 Clear Active
-   ToDo <2.67.
+   Limits clear action to only active track (as opposite to all selected ones).
 
 
 Refine

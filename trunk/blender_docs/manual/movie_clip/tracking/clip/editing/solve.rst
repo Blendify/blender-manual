@@ -46,7 +46,7 @@ with the same distance between feature and camera for all feature points.
 
 .. note::
 
-   Please note, that this is special type of camera solver and it behaves different from regular solver.
+   This is special type of camera solver and it behaves different from regular solver.
    It means using more tracks doesn't imply more accurate solution.
    Having 5-10 tracks on frame is likely what shall be commonly used for this kind of solver.
 
@@ -97,13 +97,13 @@ or that values for focal length or distortion coefficients were set incorrectly.
 Cleanup Panel
 =============
 
-This panel contains a single operator and its settings. This operator cleans up bad tracks:
+This panel contains operators and their settings which are needed to cleans up bad tracks:
 tracks which are not tracked long enough or which failed to reconstruct accurately.
 
 Frames
-   ToDo >2.61.
+   Tracks or tracked segments shorter than this number of frames will be removed.
 Error
-   Error threshold value.
+   Tracks which has reprojection error higher than this value will be removed.
 Action
    Several actions can be performed for bad tracks:
 
@@ -114,14 +114,24 @@ Action
    Delete Segments
       Bad segments of tracked sequence can be removed.
 
+Clean Tracks
+   Identifies all tracks which matches settings from above and performs desired action on them.
+
+Filter Tracks
+   This operator deletes obviously bad tracks (for example, the ones which are too short).
+   Additionally, it identifies tracks which has suspicious spikes in their motion and selects them.
+
 
 Geometry Panel
 ==============
 
 3D Markers to Mesh
-   Converts the reconstructed points into a point cloud (single mesh). ToDo 2.61.
+   Creates a mesh which vertices matches positions of reconstructed tracks.
+   It is required to have motion solved first before using this operator. Only tracks from the current tracking object
+   will be used.
+   The intention of this operator is to give a nice starting point for a manual mesh reconstruction.
 Link Empty to Track
-   ToDo 2.61.
+   Creates new empty in 3D viewport and appends contraint which parts it to the active track.
 
 
 Orientation Panel
@@ -130,19 +140,23 @@ Orientation Panel
 Scene orientation tools can be used for orienting object to bundles.
 
 Floor
-   Select three markers that should lay on the floor plane. ToDo >2.61.
+   Use selected three markers to define a floor. Camera will be transformed in a way which makes the selected
+   markers to be flat (have Z=0).
 Wall
-   Define world orientation based on points on the wall.
+   Similar to the floor orientation, but defines a wall (selected tracks are placed onto OXZ plane).
 Set Origin
-   ToDo >2.61.
+   Transform camera in a way which makes active track to be moved to a scene origin.
+   Only translation is applied to the camera.
 Set X, Y Axis
-   ToDo >2.61.
+   Transform camera in a way which makes active track to become on X or Y axis. No translation is applied, meaning
+   scene origin which was specified before will be preserved.
 Set Scale
-   Object has got scale to define "depth" in camera space.
-Apply
-   Apply scale on scene solution.
+   Scale camera or tracking object in a way which makes distance between two selected tracks match the given value in
+   Distance.
+Apply Scale
+   Similar to Set Scale, but actually modifies the tracking data.
 Distance
-   ToDo >2.61.
+   Distance in active scene units which is used by Set/Apply scale.
 
 
 Scene Setup
@@ -153,4 +167,6 @@ Set as Background
    If there is no visible 3D Views or the Clip Editor is open in full screen,
    nothing will happen.
 Setup Tracking Scene
-   ToDo >2.61.
+   Performs all usual steps to set up a VFX scene:
+   - Create reference objects for floor and test object.
+   - Create node set up for combining CG with an actual clip.

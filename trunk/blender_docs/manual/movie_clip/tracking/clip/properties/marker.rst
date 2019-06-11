@@ -6,6 +6,8 @@ Marker
 Marker Display
 ==============
 
+Defines how markers are displayed in the editor. Settings are found in the Clip Display pop-over.
+
 Pattern
    Can be used to disable displaying of rectangles which correspond to pattern areas of tracks.
    In some cases it helps
@@ -17,7 +19,7 @@ Search :kbd:`Alt-S`
 Path
    And *Length* control displaying of the paths of tracks. The ways tracks are moving can be visible looking
    at only one frame. It helps to determine if a track jumps from its position or not.
-Disabled :kbd:`Alt-D`
+Show Disabled :kbd:`Alt-D`
    Makes it possible to hide all tracks which are disabled on the current frame.
    This helps to make view more clear, to see if tracking is happening accurately enough.
 Info
@@ -30,7 +32,7 @@ Info
    projected back to the movie clip and displayed as a small point. The color of the point depends on the distance
    between the projected coordinate and the original coordinate: if they are close enough, the point is green,
    otherwise it will be red. This helps to find tracks which were not solved nicely and need to be tweaked.
-Thin
+Draw Thin
    The way in which markers are displayed compact (black outline and yellow foreground color)
    makes tracks visible on all kind of footage (both dark and light).
    But sometimes it can be annoying and this option will make the marker display

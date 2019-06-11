@@ -28,14 +28,15 @@ Header
 
 Show
    Only selected (mouse cursor icon)
+
    Hidden (ghost icon)
 Filter
-   Display options.
+   Display options, defines what curves are visible.
 
    Frames
-      ToDo.
+      Visualizes per-frame average reprojection error of all tracks in the active tracking object.
    Motion
-      ToDo.
+      Shows curves for X and Y speed of tracks.
    Error
       Per-frame reprojection error of tracks.
 
