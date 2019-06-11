@@ -28,7 +28,7 @@ Edit Externally
 Save
    Save the image, if the image is already a file :kbd:`Alt-S`.
 Save As
-   Save the (rendered) image in a separate file :kbd:`F3` or
+   Save the (rendered) image in a separate file :kbd:`Shift-S` or
    you want to save it under a different name.
 Save a Copy
    Using *Save as Copy* will save the file to a specified name,
