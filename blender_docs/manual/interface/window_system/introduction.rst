@@ -16,12 +16,9 @@ Blender's user interface is consistent across all platforms.
 Interface Elements
 ==================
 
-.. four screens or three?
-
-Blender's interface is separated into four screens listed below:
+Blender's interface is separated into three parts listed below:
 
 - Top bar at the very top.
-- Tool settings the second row of the Top bar.
 - Editors area in the middle.
 - Status bar at the bottom.
 
@@ -33,8 +30,7 @@ which can then be named and saved for later use. The Layout workspace is describ
 
 .. figure:: /images/interface_window-system_introduction_default-screen.png
 
-   Blender's default Screen Layout. Top bar (blue), Tool settings (yellow),
-   Editors (green) and Status bar (red).
+   Blender's default Screen Layout. Top bar (blue), Editors (green) and Status bar (red).
 
 
 The Layout Workspace
@@ -48,11 +44,12 @@ This workspace contains the following :doc:`/editors/index`:
 - Properties editor on bottom right.
 - Timeline on bottom left.
 
-   .. TODO2.8: /images/interface_window-system_introduction_layout-workspace.png
+.. figure:: /images/interface_window-system_introduction_layout-workspace.png
+   :align: center
 
    Blender's Layout Workspace with four editors.
 
-   3D View (color), Outliner (), Properties editor () and Timeline ().
+   3D View (yellow), Outliner (green), Properties editor (blue) and Timeline (red).
 
 
 Components of an Editor

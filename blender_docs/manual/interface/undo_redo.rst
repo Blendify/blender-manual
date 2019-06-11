@@ -18,8 +18,7 @@ Undo
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Undo`
-   :Menu:      :menuselection:`Object/Object types --> Undo`
+   :Menu:      :menuselection:`Edit --> Undo`
    :Hotkey:    :kbd:`Ctrl-Z`
 
 If you want to undo your last action, just press :kbd:`Ctrl-Z`.
@@ -38,8 +37,7 @@ Redo
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Redo`
-   :Menu:      :menuselection:`Object/Object types --> Redo`
+   :Menu:      :menuselection:`Edit --> Redo`
    :Hotkey:    :kbd:`Shift-Ctrl-Z`
 
 To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
@@ -47,18 +45,17 @@ To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 
 .. _ui-redo-last:
 
-Redo Last
-=========
+Adjust Last Operation
+=====================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Operator panel`
-   :Hotkey:    :kbd:`F6`
+   :Menu:     :menuselection:`Edit --> Adjust Last Operation...`
+   :Hotkey:    :kbd:`F9`
 
-*Redo Last* is short for *Redo(ing the) Last (Action)*.
-:kbd:`F6` after an action will present you a context-sensitive
+:kbd:`F9` after an action will present you a context-sensitive
 Pop-Up menu based on your last action taken and the Mode and Editor in which Blender is being used.
 
 For example, if your last action was a rotation in *Object Mode*,
@@ -90,7 +87,7 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 
 .. tip:: Operations using Redo Last
 
-   Some operations produce particularly useful results if you tweak their parameters with the :kbd:`F6` Menu.
+   Some operations produce particularly useful results if you tweak their parameters with the :kbd:`F9` Menu.
    Take, for example, adding a Circle. If you reduce the Vertex count to three,
    you get a perfect equilateral triangle.
 
@@ -104,9 +101,7 @@ Undo History
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Undo History`
-   :Menu:      :menuselection:`Object/Object types --> Undo History`
-   :Hotkey:    :kbd:`Ctrl-Alt-Z`
+   :Menu:      :menuselection:`Edit --> Undo History`
 
 .. figure:: /images/interface_undo-redo_undo-history-menu.png
    :align: right
@@ -114,7 +109,6 @@ Undo History
    The Undo History menu.
 
 There is also an Undo History of the last actions taken, recorded by Blender.
-You can access the history pop-up with :kbd:`Ctrl-Alt-Z`.
 
 First positions correspond to most recent actions.
 A small icon of an eye next to one of the entries indicates the current status.
@@ -135,7 +129,7 @@ Repeat Last
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Repeat: Repeat Last`
+   :Panel:     :menuselection:`Edit --> Repeat Last`
    :Hotkey:    :kbd:`Shift-R`
 
 The Repeat Last feature will repeat your last action when you press :kbd:`Shift-R`.
@@ -168,8 +162,7 @@ Repeat History
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> History --> Repeat: History...`
-   :Hotkey:    :kbd:`F3`
+   :Menu:     :menuselection:`Edit --> Repeat History...`
 
 .. figure:: /images/interface_undo-redo_repeat-history-menu.png
    :align: right
@@ -179,16 +172,11 @@ Repeat History
 The *Repeat History* feature will present you a list of the last repeated actions,
 and you can choose the actions you want to repeat.
 It works in the same way as the Undo History, explained above,
-but the list contains only repeated actions. To access Repeat History, use :kbd:`F3`.
+but the list contains only repeated actions.
 
 .. container:: lead
 
    .. clear
-
-.. note::
-
-   Blender uses two separate Histories, one dedicated for the *Edit Mode*,
-   and one dedicated for the *Object Mode*.
 
 .. important::
 

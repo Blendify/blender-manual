@@ -9,25 +9,17 @@ There are shortcuts shared among many button types.
 Mouse
 =====
 
-In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for selection
-and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
+Blender's default keymap has two main interaction modes: Right- and left-click-select.
 
-.. list-table::
-   :widths: 15 85
+In the past, Blender has used right-click-select to have a more clear
+distinction between selection and action.
+In this mode, the :kbd:`RMB` (Right Mouse Button) is generally used for
+selection and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
 
-   * - :kbd:`RMB`
-     - To select an item.
-   * - :kbd:`Shift-RMB`
-     - To add more items to the selection.
-   * - :kbd:`LMB`
-     - To perform an action on the selection.
+Today, Blender users can choose between the older right-click-select method
+and left-click-select, which makes Blender feel more like other software.
 
-Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/76335056>`__.
-
-.. note::
-
-   There are a few corner cases where :kbd:`LMB` is used for selection.
-   For example, the :doc:`File Browser </editors/file_browser/introduction>`.
+Video: `Learn the benefits of right-click-select <https://vimeo.com/76335056>`__.
 
 
 Hovering

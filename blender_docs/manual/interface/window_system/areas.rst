@@ -91,10 +91,10 @@ Duplicate Area into new Window
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`View --> Duplicate Area into new Window`
+   :Menu:      :menuselection:`View --> Area --> Duplicate Area into new Window`
 
 A new floating window containing an area can be created from
-:menuselection:`View --> Duplicate Area into new Window`.
+:menuselection:`View --> Area --> Duplicate Area into new Window`.
 
 The new window is a fully functional window, which is part of the same instance of Blender.
 This can be useful, e.g. if you have multiple monitors.
@@ -111,11 +111,11 @@ Toggle Maximize Area
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`View --> Toggle Maximize Area`
+   :Menu:      :menuselection:`View --> Area --> Toggle Maximize Area`
    :Hotkey:    :kbd:`Ctrl-Spacebar`
 
 The maximized area fill the whole application window. You can
-maximize an area with :menuselection:`View --> Toggle Maximize Area`
+maximize an area with :menuselection:`View --> Area --> Toggle Maximize Area`
 menu entry or keyboard shortcut :kbd:`Ctrl-Spacebar`. To return to
 normal size use keyboard shortcut or the *Back to Previous* button on
 the Top bar.
@@ -134,7 +134,7 @@ Toggle Fullscreen Area
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`View --> Toggle Fullscreen Area`
+   :Menu:      :menuselection:`View --> Area --> Toggle Fullscreen Area`
 
 The fullscreen area contains only the main region.
 To exit the fullscreen move the mouse to the top right corner
