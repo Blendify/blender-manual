@@ -3,6 +3,8 @@
 Shader To RGB
 *************
 
+:guilabel:`Eevee Only`
+
 Eevee supports the conversion of BSDF outputs into color inputs to make any kind of custom shading.
 
 This is supported using the Shader to RGB node.

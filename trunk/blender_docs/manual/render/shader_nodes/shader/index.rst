@@ -22,6 +22,7 @@
    hair_principled.rst
    volume_principled.rst
    refraction.rst
+   specular_bsdf.rst
    sss.rst
    toon.rst
    translucent.rst
