@@ -51,7 +51,7 @@ Ambient Occlusion
 
 .. note::
 
-   :doc:`Transparent BSDFs are given special treatment </render/engines/cycles/settings/scene/render/light_paths>`.
+   :doc:`Transparent BSDFs are given special treatment </render/cycles/settings/scene/render/light_paths>`.
    A fully transparent surface is treated as if there is no surface there at all;
    a partially transparent surface is treated as if only part of the light rays can pass through.
    This means it is not included in the Transmission passes;

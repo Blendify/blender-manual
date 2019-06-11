@@ -10,7 +10,7 @@ World Node
    World Node.
 
 The *World Output* node is used to output light a color information
-to the scene's :doc:`World </render/engines/cycles/world>`.
+to the scene's :doc:`World </render/cycles/world>`.
 
 
 Inputs

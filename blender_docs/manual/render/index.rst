@@ -11,10 +11,13 @@
    :maxdepth: 2
 
    introduction.rst
-   engines/index.rst
+   eevee/index.rst
+   cycles/index.rst
+   workbench/index.rst
    shaders/index.rst
    lights.rst
    cameras.rst
    color_management.rst
+   freestyle/index.rst
    layers/index.rst
    output/index.rst

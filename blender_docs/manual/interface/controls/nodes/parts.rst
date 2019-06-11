@@ -51,7 +51,7 @@ Numeric (gray)
 Vector (blue)
    Indicates vector, coordinate and normal information.
 Shader (green)
-   Used for shaders in :doc:`Cycles </render/engines/cycles/index>` and :doc:`Eevee </render/engines/eevee/index>`.
+   Used for shaders in :doc:`Cycles </render/cycles/index>` and :doc:`Eevee </render/eevee/index>`.
 
 
 Inputs

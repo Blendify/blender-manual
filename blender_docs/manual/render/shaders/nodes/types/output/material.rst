@@ -29,7 +29,7 @@ Volume
       - :doc:`Volume Scatter </render/shaders/nodes/types/shaders/volume_scatter>` shader.
 
 Displacement
-   Used to create bump mapping or actual subdivided :doc:`Displacement </render/engines/cycles/materials/displacement>`.
+   Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`.
 
 
 Properties

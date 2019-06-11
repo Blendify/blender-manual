@@ -16,9 +16,9 @@ Solid
 
 Show the scene using in solid mode. This mode uses the workbench engine to render
 the 3D Viewport. For all options of the workbench engine look the 
-:doc:`lighting </render/engines/workbench/lighting>`, 
-:doc:`color </render/engines/workbench/color>` and 
-:doc:`options </render/engines/workbench/options>`.
+:doc:`lighting </render/workbench/lighting>`, 
+:doc:`color </render/workbench/color>` and 
+:doc:`options </render/workbench/options>`.
 
 Background
     The way how to draw the background in the 3D Viewport.

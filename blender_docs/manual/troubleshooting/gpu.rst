@@ -105,8 +105,8 @@ Poor Performance
 Render Errors
 -------------
 
-See :doc:`Eevee </render/engines/eevee/limitations>` and
-:doc:`Cycles </render/engines/cycles/gpu_rendering>` documentation respectively.
+See :doc:`Eevee </render/eevee/limitations>` and
+:doc:`Cycles </render/cycles/gpu_rendering>` documentation respectively.
 
 
 Wrong Selection in 3D Viewport
