@@ -22,11 +22,11 @@ Noisy Image
    If denoising is enabled, the original combined pass before denoising.
 
 Diffuse Direct
-   Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces,
+   Direct lighting from diffuse BSDFs. We define direct lighting as coming from lights, emitting surfaces,
    the background, or ambient occlusion after a single reflection or transmission off a surface.
    BSDF color is not included in this pass.
 Diffuse Indirect
-   Indirect lighting from diffuse BSDFs. We define indirect lighting as coming from lamps,
+   Indirect lighting from diffuse BSDFs. We define indirect lighting as coming from lights,
    emitting surfaces or the background after more than one reflection or transmission off a surface.
    BSDF color is not included in this pass.
 Diffuse Color
@@ -44,14 +44,14 @@ Environment
    Emission from the directly visible background. When the film is set to transparent,
    this can be used to get the environment color and composite it back in.
 Shadow
-   Shadows from lamp objects. Mostly useful for compositing objects with shadow into existing footage.
+   Shadows from light objects. Mostly useful for compositing objects with shadow into existing footage.
 Ambient Occlusion
    Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
    it gives a 'normalized' value between 0 and 1.
 
 .. note::
 
-   :doc:`Transparent BSDFs are given special treatment </render/cycles/settings/scene/render/light_paths>`.
+   :doc:`Transparent BSDFs are given special treatment </render/cycles/render_settings/light_paths>`.
    A fully transparent surface is treated as if there is no surface there at all;
    a partially transparent surface is treated as if only part of the light rays can pass through.
    This means it is not included in the Transmission passes;

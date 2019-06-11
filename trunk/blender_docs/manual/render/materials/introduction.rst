@@ -109,14 +109,14 @@ There are several ways in which materials can be set up in Blender.
 Generally speaking, these are not compatible.
 You must choose which method you are going to use for each particular object in your scene:
 
-#. First, you can set the :doc:`Settings </render/cycles/materials/settings>`
+#. First, you can set the :doc:`Settings </render/materials/settings>`
    in the various Material panels.
 #. Second, you can use :doc:`Nodes </render/shaders/nodes/index>`;
    a graphical nodes editor is available.
 #. Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
    these are not materials at all, but they are included here because they affect the appearance of your objects.
    These include :ref:`Vertex Painting <painting-vertex-index>`,
-   :doc:`Volume Rendering </render/cycles/materials/volume>`, and
+   :doc:`Volume Rendering </render/materials/components/volume>`, and
    :doc:`Wire Rendering </render/shaders/nodes/types/input/wireframe>`.
 
 The exact effect of Material settings can be affected by a number of system settings.

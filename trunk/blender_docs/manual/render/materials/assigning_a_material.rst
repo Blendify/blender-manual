@@ -52,7 +52,7 @@ This action has a series of effects:
 #. Adds the new material to the Object Material Slots list for the active object (or its object data -- see below).
 #. Brings up a :doc:`preview </render/materials/preview>` of the new material.
 #. Provides you with a range of panels allowing you to select
-   the :doc:`material settings </render/cycles/materials/settings>` of the new material.
+   the :doc:`material settings </render/materials/settings>` of the new material.
 
 
 New Material Panel Buttons

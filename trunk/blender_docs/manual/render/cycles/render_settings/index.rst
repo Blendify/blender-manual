@@ -11,4 +11,5 @@
    geometry.rst
    light_paths.rst
    motion_blur.rst
+   simplify.rst
    performance.rst

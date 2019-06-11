@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+********
+Simplify
+********
 
 .. _render-cycles-settings-scene-simplify:
 .. _bpy.types.CyclesRenderSettings.texture_limit:
@@ -9,9 +9,6 @@ Introduction
 .. _bpy.types.CyclesRenderSettings.camera_cull_margin:
 .. _bpy.types.CyclesRenderSettings.use_distance_cull:
 .. _bpy.types.CyclesRenderSettings.distance_cull_margin:
-
-Simplify
-========
 
 .. admonition:: Reference
    :class: refbox

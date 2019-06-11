@@ -34,7 +34,7 @@ These tabs are used to add features, and to change properties for the Active Sce
 .. _properties-render-tab:
 
 - :doc:`Render </render/output/index>` and Settings:
-  :doc:`Eevee </render/eevee/index>`, :doc:`Cycles </render/cycles/settings/index>`
+  :doc:`Eevee </render/eevee/index>`, :doc:`Cycles </render/cycles/render_settings/index>`
 - :doc:`/render/layers/index`
 - :doc:`Scene </scene_layout/scene/properties>`
 - World: :doc:`Eevee </render/eevee/world>`, :doc:`Cycles </render/cycles/world>`
@@ -79,13 +79,13 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 
 - :doc:`Speaker </render/output/audio/speaker>`
 - Camera: :doc:`Cycles </render/cameras>`
-- Lamp: :doc:`General settings </render/lights>`,
-  :doc:`Cycles </render/cycles/lighting>`
+- Light: :doc:`General settings </render/lights>`,
+  :doc:`Cycles </render/cycles/light_settings>`
 
 ..
 
 - Material: :doc:`Eevee </render/eevee/materials/settings>`,
-  :doc:`Cycles </render/cycles/materials/index>`
+  :doc:`Cycles </render/cycles/material_settings>`
 - Texture: :doc:`Texture Nodes </render/shaders/textures/index>`
 - :doc:`Particles </physics/particles/index>`
 - :doc:`Physics </physics/index>`

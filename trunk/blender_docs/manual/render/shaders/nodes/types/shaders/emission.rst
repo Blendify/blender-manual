@@ -10,17 +10,17 @@ Emission
    Emission Shader.
 
 The *Emission* node is used to add Lambertian emission shader.
-This can for example, be used for material and lamp surface outputs.
+This can for example, be used for material and light surface outputs.
 
 Cycles uses a physically correct light falloff by default,
 whereas Blender Internal uses a smoothed falloff with a Distance parameter.
 A similar effect can be found by using the Light Falloff node with the Smooth parameter.
 
-Lamp strength for point, spot and area lamps is specified in Watts.
+Light strength for point, spot and area lights is specified in Watts.
 This means you typically need higher values than Blender Internal,
-as you could not use a 1W lamp to light a room; you need something stronger like a 100W lamp.
+as you could not use a 1W light to light a room; you need something stronger like a 100W light.
 
-Sun lamps are specified in Watts/m\ :sup:`2`, which require much smaller values like 1 W/m\ :sup:`2`.
+Sun lights are specified in Watts/m\ :sup:`2`, which require much smaller values like 1 W/m\ :sup:`2`.
 This can be confusing, but specifying strength in Watts would not have been convenient;
 the real sun for example has strength 384.6×10\ :sup:`24`\ W.
 Emission shaders on meshes are also in Watts/m\ :sup:`2`.
@@ -32,7 +32,7 @@ Inputs
 Color
    Color of the emitted light.
 Strength
-   Strength of the emitted light. For point and area lamps, the unit is Watts.
+   Strength of the emitted light. For point and area lights, the unit is Watts.
    For materials, a value of 1.0 will ensure that the object in the image has
    the exact same color as the Color input, i.e. make it 'shadeless'.
 

@@ -41,7 +41,7 @@ Cube Size
    Higher shadow map size will give higher precision and sharper shadows.
 
 Cascade Size
-   Size of one cascade used by *Cascaded Shadow Maps*. This is only for Sun lamps.
+   Size of one cascade used by *Cascaded Shadow Maps*. This is only for Sun lights.
 
 High Bitdepth
    This option can help reduce some artifacts due to float imprecision inside the shadow maps.
@@ -57,7 +57,7 @@ Light Threshold
    can be found inside the :menuselection:`Render Settings panel --> Shadow tab`.
 
    This light threshold does not take the light shape into account and may not
-   suit every case. That is why we provide a per-lamp override where you can
+   suit every case. That is why we provide a per-light override where you can
    just set the cut off distance
    (:menuselection:`Light Properties Panel --> Light --> Custom Distance`).
 
@@ -70,7 +70,7 @@ Light Threshold
 
 .. note::
 
-   The Soft Shadows method is not physically based and will not match Cycles for very large lamps.
+   The Soft Shadows method is not physically based and will not match Cycles for very large lights.
 
 .. tip::
 
@@ -78,8 +78,8 @@ Light Threshold
    Tweaking the *Size* parameters can have a big impact on memory consumption and performance.
 
 
-Lamp Settings
-=============
+Light Settings
+==============
 
 Common Parameters
 -----------------
@@ -87,7 +87,7 @@ Common Parameters
 Clip
    Distance from the light object at which the shadow map starts and ends.
    Any object before this distance will not appear to cast shadows.
-   *Clip End* will only appear for sun lamps.
+   *Clip End* will only appear for sun lights.
 
 Soft
    Size of the filter applied to the shadow map.

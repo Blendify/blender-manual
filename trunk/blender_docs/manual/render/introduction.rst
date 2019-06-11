@@ -15,7 +15,7 @@ More renderers from third-party developers are available as
 Each renderer has its own render settings to control render quality and performance.
 
 What the render looks like is defined by :doc:`cameras </render/cameras>`,
-:doc:`lights </render/lights>` and :doc:`shaders </render/shaders/index>`.
+:doc:`lights </render/lights>` and :doc:`materials </render/materials/index>`.
 These are shared between Eevee and Cycles, however some features are only supported in one or the other.
 
 Renders can be split up into :doc:`layers and passes </render/layers/index>`, which can then

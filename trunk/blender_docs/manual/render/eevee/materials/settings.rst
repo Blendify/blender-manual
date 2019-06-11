@@ -146,7 +146,7 @@ However, true Subsurface Scattering goes beneath the surface and can travel a lo
 This is why a human ear lit from behind appears red on the front side.
 
 That is what this effect mimics. This translucency approximation only works
-with lamps that have shadow maps and only on Subsurface BSDFs (not the Translucency BSDFs).
+with lights that have shadow maps and only on Subsurface BSDFs (not the Translucency BSDFs).
 It does not work with indirect lighting. The soft parameter of the shadow maps also affects this effect.
 
 

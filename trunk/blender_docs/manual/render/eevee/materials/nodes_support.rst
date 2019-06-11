@@ -56,7 +56,7 @@ Emission
    Treated as indirect lighting and will only show up in :abbr:`SSR (Screen Space Reflection)`\ s and Probes.
 
 Glass / Refraction BSDF
-   Does not refract lamps. Does not support Beckmann and GGX Multiscatter distribution. See limitation of Refraction.
+   Does not refract lights. Does not support Beckmann and GGX Multiscatter distribution. See limitation of Refraction.
 
 Glossy BSDF
    Does not support Beckmann, Ashikhmin-Shirley and GGX Multiscatter distribution.

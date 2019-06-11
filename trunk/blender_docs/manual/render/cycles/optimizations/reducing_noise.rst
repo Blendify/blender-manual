@@ -30,13 +30,13 @@ rather than from the light sources into the scene and then into the camera.
 This has the advantage that we do not waste light rays that will not end up in the camera,
 but also means that it is difficult to find some light paths that may contribute a lot.
 Light rays will be sent either according to the surface BRDF,
-or in the direction of known light sources (lamps, emitting meshes with Sample as Lamp).
+or in the direction of known light sources.
 
 .. seealso::
 
    For more details, see
-   the :doc:`Light Paths </render/cycles/settings/scene/render/light_paths>` and
-   :doc:`Integrator </render/cycles/settings/scene/render/integrator>` documentation.
+   the :doc:`Light Paths </render/cycles/render_settings/light_paths>` and
+   :doc:`Integrator </render/cycles/render_settings/integrator>` documentation.
 
 
 Where Noise Comes From
@@ -49,7 +49,7 @@ the second image below gives an impression of what the diffuse shader "sees".
 To find the light that is reflected from this surface,
 we need to find the average color from all these pixels.
 Note the glossy highlight on the sphere,
-and the bright spot the lamp casts on the nearby wall. These hotspots are 100x brighter than
+and the bright spot the light casts on the nearby wall. These hotspots are 100x brighter than
 other parts of the image and will contribute significantly to the lighting of this pixel.
 
 .. list-table::
@@ -69,7 +69,7 @@ other parts of the image and will contribute significantly to the lighting of th
 
           The detected highlights.
 
-The lamp is a known light source, so its location is already known,
+The light is a known light source, so its location is already known,
 but the glossy highlight(s) that it causes are a different matter.
 The best we can do with path tracing is to distribute light rays randomly over the hemisphere,
 hoping to find all the important bright spots. If for some pixels we miss some bright spot,
@@ -207,7 +207,7 @@ Multiple Importance Sampling
 ============================
 
 Materials with emission shaders can be configured to use
-Multiple Importance Sampling (:doc:`/render/cycles/materials/settings`).
+Multiple Importance Sampling (:doc:`/render/cycles/material_settings`).
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
 For very bright mesh light sources, this can reduce noise significantly.
@@ -216,7 +216,7 @@ this will take samples away from other brighter light sources for which it is im
 
 The optimal setting here is difficult to guess; it may be a matter of trial and error,
 but often it is clear that a somewhat glowing object may be only contributing light locally,
-while a mesh light used as a lamp would need this option enabled.
+while a mesh light used as a light would need this option enabled.
 Here is an example where the emissive spheres contribute little to the lighting,
 and the image renders with slightly less noise by disabling Multiple Importance on them.
 
@@ -277,8 +277,7 @@ Light Portals
 
 When rendering a daylight indoor scene where most of the light is coming in through a window
 or door opening, it is difficult for the integrator to find its way to them.
-To fix this, use :ref:`Light Portals <render-cycles-lamps-area-portals>`,
-these work by adding an :ref:`Area Lamp <render-cycles-lamps-area>`.
+To fix this, use :ref:`Light Portals <render-cycles-lights-area-portals>`.
 You then will need to modify its shape to match that of the opening that you are trying to fill.
 
 .. figure:: /images/render_cycles_lamps_portals2.jpg

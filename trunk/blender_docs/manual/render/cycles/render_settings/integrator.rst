@@ -9,8 +9,8 @@ It works well for various lighting setups,
 but is not as suitable for caustics and some other complex lighting situations.
 
 Rays are traced from the camera into the scene,
-bouncing around until they find a light source such as a lamp, an object emitting light,
-or the world background. To find lamps and surfaces emitting light,
+bouncing around until they find a light source such as a light, an object emitting light,
+or the world background. To find lights and surfaces emitting light,
 both indirect light sampling (letting the ray follow the surface BSDF)
 and direct light sampling (picking a light source and tracing a ray towards it) are used.
 
