@@ -2,18 +2,17 @@
 .. _bpy.types.RenderLayer:
 .. _render-layers:
 
-*************
-Render Layers
-*************
+***********
+View Layers
+***********
 
-Render layers allow you to render your scene in separate layers,
-usually with the intension of compositing them back together afterwards.
+Renders can be separated into layers, to composite them back together afterwards.
 
-This can be useful for several purposes, such as color correcting certain elements differently,
-blurring the foreground as a fast manual method of creating DoF,
-or reducing the render quality for unimportant objects.
+Some example usages are applying compositing effects to characters separately,
+blurring the background and foregroud layers separately for depth of field,
+or rendering different lighting variations of the same scene.
 
-Using Render Layers can also save you from having to re-render your entire image each time you change something,
+Using View Layers can also save you from having to re-render your entire image each time you change something,
 allowing you to instead re-render only the layer(s) that you need.
 
 
@@ -29,12 +28,12 @@ Layer List
 
    Layer list.
 
-This is a list of all the Render Layers in the current scene.
+This is a list of all the View Layers in the current scene.
 
 Only layers which are enabled (checkbox on right is ticked) will be rendered.
 If the pin icon at the bottom right of the list is enabled, only the active (highlighted) layer will be rendered.
 
-Render Layers can be added and removed using the ``+`` and ``-`` buttons on the right,
+View Layers can be added and removed using the ``+`` and ``-`` buttons on the right,
 and existing layers can be renamed by double-clicking on their name.
 
 
@@ -104,7 +103,7 @@ Cycles Layers
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Render Layers --> Layer`
+   :Panel:     :menuselection:`View Layers --> Layer`
 
 This section covers only the Render Layer settings appropriate for the Cycles renderer.
 For the engine-independent settings,
@@ -140,5 +139,5 @@ Override
 Material
    Overrides all materials in the render layer.
 Samples
-   Render layer samples to override the scene samples.
+   View layer samples to override the scene samples.
    Controlled by the :ref:`layer samples <render-cycles-integrator-layer-samples>` in the sampling panel.
