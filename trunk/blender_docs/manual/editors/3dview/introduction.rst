@@ -4,9 +4,7 @@ Introduction
 ************
 
 The 3D View is used to interact with the 3D scene for a variety of purposes,
-such as modeling, animation, texture painting, etc.
-
-.. (TODO add) expand, more general info
+such as modeling, animating, texture painting, etc.
 
 
 Header
@@ -52,41 +50,32 @@ Mode
    - Pose Mode
    - Edit Strokes Mode
 
-Viewport Shading
-   Allows you to change the way objects are displayed in the viewport.
-   Read more about the different :doc:`shading modes </editors/3dview/properties/shading>`.
+Transform Orientations
+   Use to select and modify the active 
+   :doc:`Transform Orientations </editors/3dview/controls/orientation>`.
+
 Pivot Point
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
    Read more about :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.
-Transform Manipulator
-   These handy selectors allow you to rotate or move objects by grabbing
-   (clicking with your mouse) their controls and moving your mouse in the axis.
-
-   Read more about :doc:`Transform Manipulators </scene_layout/object/editing/transform/control/manipulators>`.
-Layer
-   The Layers Widget is documented in the :doc:`Layers page </scene_layout/object/properties/relations/layers>`.
-Lock to Scene
-   By default, the "lock" button to the right of the layer buttons is enabled.
-   This means that in this view, the active layers and camera are those of the whole scene
-   (and those used at render time). Hence, all 3D Views locked this way will share the same
-   active layers and camera. When you change them in one view,
-   all locked others will immediately reflect these changes.
-
-   But if you disable this "lock" button, you then can specify different active layers and camera,
-   specific to this view. This might be useful if you do not want to have your working areas (views)
-   cluttered with the whole scene, and still have an ancillary complete view
-   (which is unlocked with e.g. all layers shown).
-   Or to have several views with different active cameras. Remember that you can use
-   :kbd:`Ctrl-Numpad0` to make the active object the active camera.
-
-   Read more about :doc:`Scenes </scene_layout/scene/introduction>`.
-Proportional Edit
-   :doc:`Proportional Edit </scene_layout/object/editing/transform/control/proportional_edit>`.
-Snap
+Snapping
    Controls the :doc:`snapping tools </scene_layout/object/editing/transform/control/snap>`
    that help with transforming and modeling objects.
+Proportional Edit
+   :doc:`Proportional Edit </scene_layout/object/editing/transform/control/proportional_edit>`.
 
+
+Object Type Visibility
+   Change the :doc:`Object Type Visibility </editors/3dview/controls/visibility>`
+   and selectability of objects in the 3D View.
+Viewport Gizmos
+   Change the way how :doc:`gizmos </editors/3dview/controls/gizmo>` are displayed 
+   in the 3D View.
+Viewport Overlays
+   Change the way how :doc:`overlays </editors/3dview/controls/overlays>` are
+   displayed in the 3D View.
+Viewport Shading
+   Change the :doc:`shading </editors/3dview/controls/shading>` of the 3D View.
 
 Tool Shelf
 ==========
@@ -95,6 +84,8 @@ The Tool Shelf is a context-sensitive region containing tools depending on the c
 (for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
 
 For more information on specific tools available, see:
+
+.. TODO2.8 This is outdated. Will need to reformat using the active tool paradigm
 
 - :doc:`Transformations </scene_layout/object/editing/transform/index>`
 - :doc:`History </interface/undo_redo>`
@@ -116,6 +107,8 @@ Sidebar Region
 
 The Sidebar region contains properties of the active object and selected objects (such as their locations),
 as well as properties of the editor itself:
+
+.. TODO2.8 This is outdated. Item, Tool & View
 
 - :doc:`Transform </scene_layout/object/editing/transform/introduction>`
 - :doc:`Annotations </editors/3dview/annotations/introduction>`
