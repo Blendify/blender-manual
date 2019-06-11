@@ -33,7 +33,7 @@ General
    Compositor <../compositing/index.rst>
    texture_node/index.rst
    Video Sequencer <../sequencer/index.rst>
-   Movie Clip Editor <../movie_clip/index.rst>
+   clip/index.rst
 
 
 Animation
