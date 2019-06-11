@@ -1,7 +1,7 @@
 .. _render-shaders-index:
 
 ###########
-  Shading
+  Shaders
 ###########
 
 .. toctree::
