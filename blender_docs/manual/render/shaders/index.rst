@@ -1,8 +1,8 @@
 .. _render-shaders-index:
 
-###########
-  Shaders
-###########
+################
+  Shader Nodes
+################
 
 .. toctree::
    :maxdepth: 2

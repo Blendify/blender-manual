@@ -86,8 +86,7 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 
 - Material: :doc:`Eevee </render/eevee/materials/settings>`,
   :doc:`Cycles </render/cycles/materials/index>`
-- Texture: :doc:`Texture Nodes </render/shaders/textures/index>`,
-  :doc:`Cycles </render/cycles/materials/texture_editing>`
+- Texture: :doc:`Texture Nodes </render/shaders/textures/index>`
 - :doc:`Particles </physics/particles/index>`
 - :doc:`Physics </physics/index>`
 
