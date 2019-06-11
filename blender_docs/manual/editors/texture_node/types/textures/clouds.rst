@@ -7,4 +7,4 @@ Clouds Node
 
    Clouds node.
 
-See :doc:`Here </render/shaders/textures/types/clouds>`.
+See :doc:`Here </render/materials/legacy_textures/types/clouds>`.

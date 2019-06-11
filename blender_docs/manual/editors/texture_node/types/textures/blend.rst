@@ -7,4 +7,4 @@ Blend Node
 
    Blend node.
 
-See :doc:`Here </render/shaders/textures/types/blend>`.
+See :doc:`Here </render/materials/legacy_textures/types/blend>`.

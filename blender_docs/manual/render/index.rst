@@ -17,7 +17,7 @@
    cameras.rst
    lights.rst
    materials/index.rst
-   shaders/index.rst
+   shader_nodes/index.rst
    color_management.rst
    freestyle/index.rst
    layers/index.rst

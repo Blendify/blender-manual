@@ -12,3 +12,4 @@
    assigning_a_material.rst
    preview.rst
    settings.rst
+   legacy_textures/index.rst

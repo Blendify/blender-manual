@@ -7,4 +7,4 @@ Wood Node
 
    Wood node.
 
-See :doc:`Here </render/shaders/textures/types/wood>`.
+See :doc:`Here </render/materials/legacy_textures/types/wood>`.

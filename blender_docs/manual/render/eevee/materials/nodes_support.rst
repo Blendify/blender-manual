@@ -8,7 +8,7 @@ may (or may not) be implemented in Eevee in the future.
 
 .. seealso::
 
-   :doc:`Material </render/shaders/nodes/index>`.
+   :doc:`Shader Nodes </render/shader_nodes/index>`.
 
 
 Eevee only Nodes
@@ -45,7 +45,7 @@ So be sure to check out the Cycles section of this manual for that.
 
 .. seealso::
 
-   :doc:`Material </render/shaders/nodes/types/shaders/index>`.
+   :doc:`Material </render/shader_nodes/shader/index>`.
 
 Although most BSDFs are supported, many of them are approximations and are not feature complete.
 

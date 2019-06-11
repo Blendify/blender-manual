@@ -8,4 +8,4 @@ Marble Node
    Marble node.
 
 
-See :doc:`Here </render/shaders/textures/types/marble>`.
+See :doc:`Here </render/materials/legacy_textures/types/marble>`.

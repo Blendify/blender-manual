@@ -8,4 +8,4 @@ Musgrave Node
    Musgrave Node.
 
 
-See :doc:`Here </render/shaders/textures/types/musgrave>`.
+See :doc:`Here </render/materials/legacy_textures/types/musgrave>`.
