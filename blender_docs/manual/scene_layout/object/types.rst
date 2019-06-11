@@ -49,10 +49,8 @@ Speaker
 Camera
    This is the virtual camera that is used to determine what appears in the render.
    See Cameras in :doc:`Cycles </render/cameras>`.
-Lamp
-   These are used to place light sources in the scene.
-   See Lamps in :doc:`General Settings </render/lights>`,
-   :doc:`Cycles </render/cycles/lighting>`.
+Light
+   :doc:`Lights </render/lights>` for lighting the scene in renders.
 Force Field
    :doc:`Force Fields </physics/forces/force_fields/index>` are used in physical simulations.
    They give simulations external forces, creating movement,

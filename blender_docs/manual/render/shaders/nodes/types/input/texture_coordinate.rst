@@ -56,8 +56,8 @@ Generated
    for more information.
 Normal
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
-   The Normal output can be used on Point and Spot lamps. The coordinates will take
-   the rotation of the lamp into account.
+   The Normal output can be used on Point and Spot lights. The coordinates will take
+   the rotation of the light into account.
 UV
    UV texture coordinates from the active render UV map.
    See :ref:`UV Mapping <editors-uv-index>` for more information.

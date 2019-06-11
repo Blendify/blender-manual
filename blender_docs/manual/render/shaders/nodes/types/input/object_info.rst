@@ -45,7 +45,7 @@ Random
 .. note::
 
    Note that this node only works for material shading nodes;
-   it does nothing for lamp and world shading nodes.
+   it does nothing for light and world shading nodes.
 
 
 Example

@@ -10,10 +10,11 @@
    :maxdepth: 2
 
    introduction.rst
-   materials/index.rst
-   lighting.rst
+   render_settings/index.rst
    world.rst
-   settings/index.rst
+   object_settings/index.rst
+   material_settings.rst
+   light_settings.rst
    gpu_rendering.rst
    features.rst
    baking.rst

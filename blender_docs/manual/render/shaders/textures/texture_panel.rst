@@ -15,7 +15,7 @@ Texture Context
 
    World
       :doc:`World Background </render/cycles/world>`.
-   Material/Lamp
+   Material/Light
       Material type is described in the following section.
 
       .. TODO2.79: texture coordinates for lights: rB1272ee4

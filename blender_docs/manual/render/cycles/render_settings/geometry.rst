@@ -26,7 +26,7 @@ Max Steps
 Subdivision Rate
 ================
 
-These settings are used to control :doc:`Adaptive Subdivision </render/cycles/settings/objects/adaptive_subsurf>`.
+These settings are used to control :doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subsurf>`.
 
 .. note::
 
@@ -69,7 +69,7 @@ Each hair system uses the material identified in the particle settings in the sa
 .. seealso::
 
    There are also object-level hair settings for each particle system which can be found
-   in the :doc:`Hair Settings </render/cycles/settings/objects/hair>`.
+   in the :doc:`Hair Settings </render/cycles/object_settings/hair>`.
 
 Use Hair
    Enables rendering of hair particle systems.

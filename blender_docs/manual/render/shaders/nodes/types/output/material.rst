@@ -16,9 +16,9 @@ Inputs
 ======
 
 Surface
-   The surface output of the material.
+   Shading for the :doc:`surface </render/materials/components/surface>` of the object.
 Volume
-   Used to output of the different volume shaders.
+   Shading for the :doc:`volume </render/materials/components/volume>` inside the object.
 
    .. seealso::
 
@@ -29,7 +29,7 @@ Volume
       - :doc:`Volume Scatter </render/shaders/nodes/types/shaders/volume_scatter>` shader.
 
 Displacement
-   Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`.
+   Used to create bump mapping or actual subdivided :doc:`displacement </render/materials/components/displacement>`.
 
 
 Properties

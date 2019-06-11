@@ -1,13 +1,12 @@
 
-#############
-  Materials
-#############
+##############
+  Components
+##############
 
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
+   overview.rst
    surface.rst
    volume.rst
    displacement.rst
-   settings.rst

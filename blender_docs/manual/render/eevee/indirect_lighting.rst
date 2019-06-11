@@ -4,7 +4,7 @@ Indirect Lighting Cache
 ***********************
 
 While not strictly correct, all lighting that is not coming straight out
-from a lamp object is considered as indirect lighting in Eevee.
+from a light object is considered as indirect lighting in Eevee.
 That means distant HDRI lighting (or World) is considered as indirect lighting.
 Mesh objects using an Emission node are also considered as indirect lighting.
 

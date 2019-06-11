@@ -12,7 +12,7 @@ They consist of three shaders, defining the appearance of the surface of the mes
 Surface Shader
 ==============
 
-The :doc:`surface shader </render/cycles/materials/surface>` defines the light interaction at
+The :doc:`surface shader </render/materials/components/surface>` defines the light interaction at
 the surface of the mesh.
 
 
@@ -20,7 +20,7 @@ Volume Shader
 =============
 
 When the surface shader does not reflect or absorb light, it enters into the volume.
-If no :doc:`volume shader </render/cycles/materials/volume>` is specified,
+If no :doc:`volume shader </render/materials/components/volume>` is specified,
 it will pass straight through to the other side of the mesh.
 
 If it is defined,
@@ -37,7 +37,7 @@ Displacement
 ============
 
 The shape of the surface and the volume inside it may be altered by
-:doc:`displacement </render/cycles/materials/displacement>`.
+:doc:`displacement </render/materials/components/displacement>`.
 This way, textures can then be used to make the mesh surface more detailed.
 
 Depending on the settings, the displacement may be virtual,

@@ -100,7 +100,7 @@ World Volume
 A volume shader can also be applied to the world, filling the entire space.
 
 Currently, this is most useful for night time or other dark scenes,
-as the world surface shader or sun lamps will have no effect if a volume shader is used.
+as the world surface shader or sun lights will have no effect if a volume shader is used.
 This is because the world background is assumed to be infinitely far away,
 which is accurate enough for the sun for example.
 However, for modeling effects such as fog or atmospheric scattering,
@@ -115,7 +115,7 @@ Multiple Scattering
 
 Real-world effects such as scattering in clouds or subsurface scattering require many
 scattering bounces. However, unbiased rendering of such effects can be noisy, so by default
-the number of bounces is zero.
+the number of bounces is zero in Cycles, and no support is available in Eevee.
 The effect you get when rendering with zero volume bounces is what is known as
 "single scattering", the effect from more bounces is "multiple scattering".
 
@@ -126,11 +126,3 @@ method can accurately render such materials.
 For materials such as clouds or smoke that do not have a well defined surface,
 volume rendering is required. These look best with many scattering bounces,
 but in practice one might have to limit the number of bounces to keep render times acceptable.
-
-
-Limitations
-===========
-
-Not available on GPU:
-
-- Multiple importance sampling for efficient lights inside volumes.

@@ -33,7 +33,7 @@ The most accurate and memory intensive displacement method is to apply true disp
 the mesh surface.
 
 It requires the mesh to be finely subdivided, which can be memory intensive.
-:doc:`Adaptive Subdivision </render/cycles/settings/objects/adaptive_subsurf>` is the best way
+:doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subsurf>` is the best way
 to subdivide the mesh, so that exactly the right amount of subdivision is used depending on
 the distance of the object to the camera.
 

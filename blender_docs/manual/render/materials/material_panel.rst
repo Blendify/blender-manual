@@ -68,25 +68,3 @@ Data-block Links
    Short explanation: If connected to the object, you can have several instances of the same Object Data using
    different materials. If linked to mesh data, you cannot.
    See :doc:`Data System </files/introduction>` for more information.
-
-
-Material Type
-=============
-
-Material added in edit mode. These toggles tell Blender where this material fits into the Render Pipeline,
-and what aspects of the material are to be rendered.
-
-Surface
-   Render object as a :doc:`surface </render/cycles/materials/surface>`.
-Volume
-   Render object as a :doc:`volume </render/cycles/materials/volume>`.
-
-.. list-table::
-
-   * - .. figure:: /images/render_blender-render_materials_material-panel_surface.jpg
-
-          Surface.
-
-   * - .. figure:: /images/render_blender-render_materials_material-panel_volume.jpg
-
-          Volume.

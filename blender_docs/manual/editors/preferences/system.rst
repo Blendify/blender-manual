@@ -28,8 +28,7 @@ None
    When set to *None* or when the only option is *None*:
    the CPU will be used as the computing device for the Cycles Renderer.
 CUDA
-   If the system has a compatible Nvidia CUDA enabled graphics card you will be able
-   to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
+   If the system has a compatible NVIDIA CUDA device, it will show up an option for rendering with Cycles.
 OpenCL
    If the system has a compatible AMD OpenCL device, it will show up an option for rendering with Cycles.
 
