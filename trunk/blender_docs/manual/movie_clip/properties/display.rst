@@ -3,7 +3,7 @@
 Clip Display
 ************
 
-This pop-over contains display settings related on editor itself.
+This pop-over contains display settings related to editor itself.
 
 Channels
    The R, G, B toggles control the color channels used for frame preview.
