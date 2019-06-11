@@ -16,5 +16,5 @@ the color of the vertex is modified according to the settings of the brush. The 
 visible planes and edges attached to the vertex are then modified with a gradient to the color
 of the other connected vertices. Note that the color of occluded faces is not modified.
 
-You can also the use :doc:`/render/shaders/nodes/types/input/attribute`
+You can also the use :doc:`/render/shader_nodes/input/attribute`
 to access vertex color information in the material node tree.

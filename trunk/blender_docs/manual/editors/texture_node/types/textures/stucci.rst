@@ -8,4 +8,4 @@ Stucci Node
    Stucci Node.
 
 
-See :doc:`Here </render/shaders/textures/types/stucci>`.
+See :doc:`Here </render/materials/legacy_textures/types/stucci>`.

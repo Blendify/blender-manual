@@ -136,10 +136,6 @@ End
 Random
    Give the path length a random variation.
 
-.. Todo 2.8
-   (old) Please see also the manual page about
-   :doc:`Strands </render/blender_render/materials/properties/strands>` for an in-depth description.
-
 
 Object
 ------

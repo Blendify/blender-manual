@@ -3,10 +3,10 @@
 Introduction
 ************
 
-As an alternative to using the :doc:`Texture Stack </render/shaders/textures/texture_panel>`,
+As an alternative to using the :doc:`Texture Stack </render/materials/legacy_textures/texture_panel>`,
 Blender includes a node-based texture generation system, which enables textures creation by combining colors,
 patterns and other textures in the same way as shader writing with
-:doc:`Material Nodes </render/shaders/nodes/index>`.
+:doc:`Material Nodes </render/shader_nodes/index>`.
 
 .. figure:: /images/render_blender-render_textures_nodes_introduction_types-combined.png
    :width: 600px

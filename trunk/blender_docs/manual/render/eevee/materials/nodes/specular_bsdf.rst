@@ -8,7 +8,7 @@ Specular BSDF
 The *Specular* :abbr:`BSDF (Bidirectional scattering distribution function)`
 combines multiple layers into a single easy to use node.
 
-It is similar to the :doc:`Principled BSDF </render/shaders/nodes/types/shaders/principled>` node
+It is similar to the :doc:`Principled BSDF </render/shader_nodes/shader/principled>` node
 but uses the *specular* workflow instead of the metallic.
 It has far fewer parameters and supports less features. Both might be merged into one node in the future.
 

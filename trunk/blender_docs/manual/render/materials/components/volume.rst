@@ -19,7 +19,7 @@ Shading
 Principled Volume
 -----------------
 
-:doc:`Principled Volume </render/shaders/nodes/types/shaders/volume_principled>`
+:doc:`Principled Volume </render/shader_nodes/shader/volume_principled>`
 is a physically-based volume shader that can be used to create a wide range of volume materials.
 It supports scattering, absorption and emission in one easy to use node. Fire can be rendered with blackbody emission.
 
@@ -34,18 +34,18 @@ Volume Components
 
 For more control, volume shading components can be manually combined into a custom shader setup.
 
-- :doc:`Volume Absorption </render/shaders/nodes/types/shaders/volume_absorption>`
+- :doc:`Volume Absorption </render/shader_nodes/shader/volume_absorption>`
   will absorb part of the light as it passes through the volume.
   This can be used to shade for example black smoke or colored glass objects, or mixed with the volume scatter node.
   This node is similar to the transparent BSDF node,
   it blocks part of the light and lets other light pass straight through.
-- :doc:`Volume Scatter </render/shaders/nodes/types/shaders/volume_scatter>`
+- :doc:`Volume Scatter </render/shader_nodes/shader/volume_scatter>`
   lets light scatter in other directions as it hits particles in the volume.
   The anisotropy defines in which direction the light is more likely to scatter.
   A value of 0 will let light scatter evenly in all directions (similar to the diffuse BSDF node),
   negative values let light scatter mostly backwards, and positive values let light scatter mostly forward.
   This can be used to shade white smoke or clouds for example.
-- :doc:`Emission </render/shaders/nodes/types/shaders/emission>`
+- :doc:`Emission </render/shader_nodes/shader/emission>`
   will emit light from the volume, for example for fire.
 
 .. figure:: /images/render_cycles_materials_volume_node.jpg

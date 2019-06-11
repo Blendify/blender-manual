@@ -8,4 +8,4 @@ Magic Node
    Magic node.
 
 
-See :doc:`Here </render/shaders/textures/types/magic>`.
+See :doc:`Here </render/materials/legacy_textures/types/magic>`.

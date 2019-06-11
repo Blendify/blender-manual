@@ -8,4 +8,4 @@ Distorted Noise Node
    Distorted Noise node.
 
 
-See :doc:`Here </render/shaders/textures/types/distorted_noise>`.
+See :doc:`Here </render/materials/legacy_textures/types/distorted_noise>`.

@@ -27,7 +27,7 @@ Multiple Importance Sample
    This option will only have an influence if the material contains an emission node; otherwise it will be disabled.
 
 Transparent Shadows
-   Use transparent shadows if it contains a :doc:`Transparent BSDF </render/shaders/nodes/types/shaders/transparent>`,
+   Use transparent shadows if it contains a :doc:`Transparent BSDF </render/shader_nodes/shader/transparent>`,
    disabling will render faster but will not give accurate shadows.
 
 
