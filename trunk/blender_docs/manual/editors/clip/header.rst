@@ -1,7 +1,33 @@
+******
+Header
+******
 
-************
+Clip Menu
+---------
+
+- Open Clip :kbd:`Alt-O`
+
+Controls
+--------
+
+Movie Clip
+   :ref:`Data-block menu <ui-data-block>` used for add a movie file.
+   Both movie files and image sequences can be used in the Clip editor.
+   When a movie clip is loaded into the Clip editor, extra panels are displayed in the interface.
+
+.. TODO2.8 .. figure:: /images/editors_movie-clip-editor_introduction_example.png
+
+   Movie Clip Editor with an opened clip.
+
+Modes
+   - :doc:`Motion Tracking </movie_clip/tracking/index>`
+   - :doc:`Masking </movie_clip/masking/index>`
+
+Pivot Point
+   See :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.
+
 Clip Display
-************
+------------
 
 This pop-over contains display settings related to editor itself.
 
