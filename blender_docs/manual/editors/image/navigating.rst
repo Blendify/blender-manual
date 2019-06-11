@@ -35,9 +35,13 @@ Fractional Zoom
    - Zoom 2:1 :kbd:`Shift-Numpad2`
    - Zoom 4:1 :kbd:`Shift-Numpad4`
    - Zoom 8:1 :kbd:`Shift-Numpad8`
-View All
+Frame All
    Center the view to the entire image :kbd:`Home`.
-View Fit
+Frame All Fit
    Fit the view to the image dimensions :kbd:`Shift-Home`.
+Render Region :kbd:`Ctrl-B`
+   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
+Clear Render Region :kbd:`Ctrl-Alt-B`
+   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
 Area
    Adjust the area the image editor is in. See :doc:`/interface/window_system/areas`.
