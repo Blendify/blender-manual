@@ -16,7 +16,7 @@ Inputs
 ======
 
 Surface
-   Not an actual surface, but the final output of a :doc:`Lamp </render/engines/cycles/lighting>` object.
+   Not an actual surface, but the final output of a :doc:`Lamp </render/cycles/lighting>` object.
 
 
 Properties

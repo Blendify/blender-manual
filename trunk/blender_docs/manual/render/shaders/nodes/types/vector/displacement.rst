@@ -21,7 +21,7 @@ settings, so that no high resolution mesh is needed.
 
 .. seealso::
 
-   :doc:`Material Displacement </render/engines/cycles/materials/displacement>` for more details on displacement workflows.
+   :doc:`Material Displacement </render/cycles/materials/displacement>` for more details on displacement workflows.
 
 
 Inputs

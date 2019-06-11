@@ -25,7 +25,7 @@ In the list below it shows a list of different types of node trees and where eac
    * - .. figure:: /images/editors_node-editor_introduction_icons-material.png
      - Material Nodes
      - :doc:`Cycles </render/shaders/nodes/index>` and
-       :doc:`Eevee </render/engines/eevee/materials/nodes/index>`.
+       :doc:`Eevee </render/eevee/materials/nodes/index>`.
    * - .. figure:: /images/editors_node-editor_introduction_icons-render-layers.png
      - Composite Nodes
      - Documentation can be found in the :doc:`Compositing </compositing/index>` section.

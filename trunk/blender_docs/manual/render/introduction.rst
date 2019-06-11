@@ -6,9 +6,9 @@ Introduction
 Rendering is the process of turning a 3D scene into a 2D image.
 Blender includes three render engines with different strengths:
 
-- :doc:`Eevee </render/engines/eevee/index>` is a physically based realtime renderer.
-- :doc:`Cycles </render/engines/cycles/index>` is a physically based path tracer.
-- :doc:`Workbench </render/engines/workbench/index>` is designed for layout, modeling and previews.
+- :doc:`Eevee </render/eevee/index>` is a physically based realtime renderer.
+- :doc:`Cycles </render/cycles/index>` is a physically based path tracer.
+- :doc:`Workbench </render/workbench/index>` is designed for layout, modeling and previews.
 
 More renderers from third-party developers are available as
 :doc:`add-ons </editors/preferences/addons>`.
@@ -20,7 +20,7 @@ These are shared between Eevee and Cycles, however some features are only suppor
 
 Renders can be split up into :doc:`layers and passes </render/layers/index>`, which can then
 be :doc:`composited </compositing/index>` together for creative control, or to combine
-with real footage. :doc:`Freestyle </render/engines/freestyle/index>` can be used to add non-photorealistic 
+with real footage. :doc:`Freestyle </render/freestyle/index>` can be used to add non-photorealistic 
 line rendering.
 
 Blender supports interactive 3D viewport rendering for all render engines, for quick iteration

@@ -19,7 +19,7 @@ to control the trade-off between a noise-free image, image details, and calculat
 .. seealso::
 
    See the other ways to reduce noise on the general
-   :doc:`Noise Optimization </render/engines/cycles/optimizations/reducing_noise>` page.
+   :doc:`Noise Optimization </render/cycles/optimizations/reducing_noise>` page.
 
 
 Options

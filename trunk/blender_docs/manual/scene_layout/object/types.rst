@@ -52,7 +52,7 @@ Camera
 Lamp
    These are used to place light sources in the scene.
    See Lamps in :doc:`General Settings </render/lights>`,
-   :doc:`Cycles </render/engines/cycles/lighting>`.
+   :doc:`Cycles </render/cycles/lighting>`.
 Force Field
    :doc:`Force Fields </physics/forces/force_fields/index>` are used in physical simulations.
    They give simulations external forces, creating movement,

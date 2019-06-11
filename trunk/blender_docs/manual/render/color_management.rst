@@ -57,12 +57,8 @@ There is also an artistic choice to be made.
 Partially that is because display devices cannot display the full spectrum of colors and only have limited brightness,
 so we can squeeze the colors to fit in the gamut of the device.
 Besides that, it can also be useful to give the renders a particular look,
-e.g. as if they have been printed on real film.
+e.g. as if they have been printed on real camera film.
 The default Filmic transform does this.
-
-Another common use case is when you want to inspect renders,
-to see details in dark shadows or bright highlights, or identify render errors.
-Such settings would be only used temporarily and not for final renders.
 
 .. figure:: /images/render_post-process_color-management_linear-display-space.svg
 
@@ -120,16 +116,6 @@ Display Device
 
 Render
 ------
-
-There is also an artistic choice to be made for renders. Partially that is
-because display devices cannot display the full spectrum of colors and only have limited
-brightness, so we can squeeze the colors to fit in the gamut of the device.
-Besides that, it can also be useful to give the renders a particular look, e.g.
-as if they have been printed on real film.
-
-Another common use case is when you want to inspect renders,
-to see details in dark shadows or bright highlights, or identify render errors.
-Such settings would be only used temporarily and not get used for final renders.
 
 View
    These are different ways to view the image on the same display device.

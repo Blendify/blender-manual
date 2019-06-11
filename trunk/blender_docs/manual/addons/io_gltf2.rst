@@ -169,7 +169,7 @@ the correct image and will copy the strength setting into the glTF.
    The resulting baked image can be saved and plugged into to a new material using
    the Normal Map node as described above, allowing it to export correctly.
 
-   See: :doc:`Cycles Render Baking </render/engines/cycles/baking>`
+   See: :doc:`Cycles Render Baking </render/cycles/baking>`
 
 
 Emissive
