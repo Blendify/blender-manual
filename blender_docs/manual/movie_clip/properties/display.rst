@@ -1,9 +1,9 @@
 
-*************
-Display Panel
-*************
+************
+Clip Display
+************
 
-This panel contains display settings related on editor itself.
+This pop-over contains display settings related on editor itself.
 
 Channels
    The R, G, B toggles control the color channels used for frame preview.
@@ -22,7 +22,7 @@ Lock to Selection :kbd:`L`
    along the whole footage during playback or tracking.
    This option helps to control the tracking process and
    stop it when the track is starting to slide off or when it jumped.
-Display Stabilization
+Show Stable
    This option makes the displayed frame be affected by the 2D stabilization settings
    (available in reconstruction mode only).
    It is only a preview option, which does not actually change the footage itself.

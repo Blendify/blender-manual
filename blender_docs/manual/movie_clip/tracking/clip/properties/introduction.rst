@@ -80,8 +80,8 @@ Channels
    In such cases disabling some color channels can help.
 Grayscale Preview (B/W)
    Display the preview image as gray-scale even if all channels are enabled.
-Alpha Preview (black/white icon)
-   ToDo 2.64.
+Mask Preview (black/white icon)
+   Applies mask defined by a nannotation tool in the preview widget.
 
 .. _clip-tracking-weight:
 
@@ -149,11 +149,11 @@ Tracking Settings Panel
 This panel contains :ref:`tracker settings <clip-tracking-settings>` for each marker.
 
 
-Grease Pencil Panel
-===================
+Annotations Panel
+=================
 
-Grease pencil strokes can be enabled/disabled with the checkbox in the panel header.
-It is a standard Grease pencil panel where new Grease pencil layers and frames can be controlled.
-There is one difference in the behavior of the Grease pencil from other areas --
+Annotation tool strokes can be enabled/disabled with the checkbox in the panel header.
+It is a standard annotations panel where annotation layers and frames can be controlled.
+There is one difference in the behavior of the annotation tools from other areas --
 when a new layer is created "on-demand" (when making a stroke without adding a layer before this)
 the default color for the layer is set to pink. This makes the stroke easy to notice on all kinds of movies.

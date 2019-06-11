@@ -35,9 +35,9 @@ Header
 
 Show
    Only selected (mouse cursor icon)
-      ToDo >2.61.
+      Limits dopesheet channels to only information about selected tracks.
    Hidden (ghost icon)
-      ToDo >2.61.
+      includes information from hidden tracks.
 Sort Method
    Sort order of the tracks.
 
@@ -56,4 +56,4 @@ Invert
 Usage
 =====
 
-Currently the dope sheet view is for visualization and does not have any tools to actually edit data.
+The dope sheet view is for visualization and does not have any tools to actually edit data.
