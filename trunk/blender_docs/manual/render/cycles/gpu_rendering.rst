@@ -12,11 +12,6 @@ because modern GPUs are designed to do quite a lot of number crunching.
 On the other hand, they also have some limitations in rendering complex scenes, due to more limited memory,
 and issues with interactivity when using the same graphics card for display and rendering.
 
-Cycles has two GPU rendering modes: *CUDA*,
-which is the preferred method for Nvidia graphics cards; and *OpenCL*,
-which supports rendering on AMD graphics cards.
-
-
 Configuration
 =============
 
@@ -24,36 +19,37 @@ To enable GPU rendering, go into the Preferences, and under the System tab,
 select the Compute Device(s) to use. Next, for each scene,
 you can configure to use CPU or GPU rendering in the Render properties.
 
+In case of problems, be sure to install the graphics drivers from the NVIDIA or AMD website,
+or through the package manager on Linux.
 
-CUDA
-----
 
-Nvidia :abbr:`CUDA (Compute Unified Device Architecture)`
-is supported for GPU rendering with *Nvidia* graphics cards.
+NVIDIA CUDA
+-----------
+
+NVIDIA :abbr:`CUDA (Compute Unified Device Architecture)`
+is supported for GPU rendering with *NVIDIA* graphics cards.
 We support graphics cards with compute capability 3.0 and higher.
-See the `list of Nvidia graphics cards <https://developer.nvidia.com/cuda-gpus>`__ with compute capabilities.
-
-Cycles requires recent Nvidia drivers to be installed, on all operating systems.
+See the `list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__ with compute capabilities.
 
 
-OpenCL
-------
+AMD OpenCL
+----------
 
-:abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with *AMD* graphics cards.
-(We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture 2.0 and above).
+:abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with *AMD* graphics cards,
+with :abbr:`GCN (Graphics Core Next)` architecture 2.0 and above.
 To make sure your GPU is supported checkout
 `this Wikipedia page <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
 
-.. note::
-
-   Cycles requires recent AMD drivers to be installed, on all operating systems.
+AMD GPU rendering is supported on Windows and Linux, but not on macOS.
 
 
 Supported Features and Limitations
 ==================================
 
-For an overview of supported features, check the comparison
-in the :doc:`Features </render/cycles/features>`.
+GPU rendering supports all the same features as CPU rendering, except two:
+
+- Open Shading Language.
+- Advanced volume light sampling to reduce noise.
 
 
 Frequently Asked Questions
@@ -97,10 +93,10 @@ Would multiple GPUs increase available memory?
 No, each GPU can only access its own memory.
 
 
-What renders faster, Nvidia or AMD, CUDA or OpenCL?
+What renders faster, NVIDIA or AMD, CUDA or OpenCL?
 ---------------------------------------------------
 
-Currently Nvidia with CUDA is rendering fastest, but this really depends on the hardware you buy.
+Currently NVIDIA with CUDA is rendering fastest, but this really depends on the hardware you buy.
 Currently, CUDA and OpenCL are about the same in the newest mid-range GPUs.
 However, CUDA is fastest in the respect of high-end GPUs.
 
@@ -149,7 +145,7 @@ not the 32-bit version.
 CUDA Error: Kernel compilation failed
 -------------------------------------
 
-This error may happen if you have a new Nvidia graphics card that is not yet supported by
+This error may happen if you have a new NVIDIA graphics card that is not yet supported by
 the Blender version and CUDA toolkit you have installed.
 In this case Blender may try to dynamically build a kernel for your graphics card and fail.
 
@@ -171,7 +167,7 @@ We can currently only render scenes that fit in graphics card memory,
 and this is usually smaller than that of the CPU. See above for more details.
 
 
-The Nvidia OpenGL driver lost connection with the display driver
+The NVIDIA OpenGL driver lost connection with the display driver
 ----------------------------------------------------------------
 
 If a GPU is used for both display and rendering,

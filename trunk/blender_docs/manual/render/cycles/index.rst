@@ -13,8 +13,8 @@
    materials/index.rst
    lighting.rst
    world.rst
-   features.rst
    settings/index.rst
    gpu_rendering.rst
+   features.rst
    baking.rst
    optimizations/index.rst
