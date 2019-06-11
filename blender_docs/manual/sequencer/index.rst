@@ -3,9 +3,9 @@
 .. _bpy.types.Sequence:
 .. _bpy.ops.sequencer:
 
-###################
-  Video Sequencer
-###################
+##################
+  Video Editing
+##################
 
 .. toctree::
    :maxdepth: 2
