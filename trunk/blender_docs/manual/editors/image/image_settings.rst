@@ -183,7 +183,7 @@ Color Space
    Raw
       Same as Non-Color.
    Filmic Log
-      Log color space that can .
+      Intermediate log color space of Filmic view transform.
 View as Render
    Applies :doc:`color transform </render/color_management>` when displaying this image on the screen.
 Use Multi-View
