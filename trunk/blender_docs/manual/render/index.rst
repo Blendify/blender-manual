@@ -14,9 +14,10 @@
    eevee/index.rst
    cycles/index.rst
    workbench/index.rst
-   shaders/index.rst
-   lights.rst
    cameras.rst
+   lights.rst
+   materials/index.rst
+   shaders/index.rst
    color_management.rst
    freestyle/index.rst
    layers/index.rst
