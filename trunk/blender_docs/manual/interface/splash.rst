@@ -29,12 +29,12 @@ Information Region
    Hash
       The Git Hash. This can be useful to give to support personnel, when diagnosing a problem.
    Branch
-      Optional branch ID.
+      Optional branch name.
 Interactive Region
-   The interactive region is the bottom half of the splash screen and provides how to get a project started.
+   The interactive region is the bottom half of the splash screen.
 
    New File
-      Options for starting a new project, based on predefined application templates.
+      Start a new project based on a template.
    Recent Files
       Your most recently opened blend-files. This gives quick and easy access to your recent projects.
    Open
@@ -65,9 +65,9 @@ Shortcuts
       Read more about this keymap :doc:`here </interface/keymap/blender_default>`
    Blender 2.7x
       This keymap is intended to match the last major series of Blender versions
-      and is designed for people upgrading who do not want to relearn the keymap.
+      and is designed for people upgrading who do not want to learn the updated keymap.
    Industry Compatible
-      This keymap is indented to match of common creation software
+      This keymap is indented to match common creation software
       and is intended for people who use many different creation software.
       Read more about this keymap :doc:`here </interface/keymap/industry_compatible>`
 

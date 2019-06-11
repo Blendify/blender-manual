@@ -24,8 +24,20 @@ Add ``+``
    they will be placed in the middle of both stops.
 Delete ``-``
    Deletes the selected color stop from the list.
-Flip ``<->``
-   Flips the gradient, inverting the values of the custom weight paint range.
+Submenu ``v``
+   Contains more operators for the color ramp.
+
+   Flip Color Ramp
+      Flips the gradient, inverting the values of the custom weight paint range.
+   Distribute Stops from Left
+      Distribute the stops so that every step has the same space to the right.
+      This is mostly useful when used with Constant interpolation mode.
+   Distribute Stops Evenly
+      Space between all neighboring stops becomes equal.
+   Eyedropper
+      Pick a color from the interface to be used in the color ramp.
+   Reset Color Ramp
+      Resets the color ramp to its default state.
 Color Mode
    Selection of the :term:`color space` used for interpolation.
 

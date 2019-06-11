@@ -33,8 +33,7 @@ See specific documentation about each editor in the :doc:`Editors </editors/inde
 Header
 ======
 
-A header is a small horizontal strip with a lighter gray background,
-which sits either at the top or bottom of the area.
+A header is a small horizontal strip, which sits either at the top or bottom of an area.
 All editors have a header acting as a container for menus and commonly used tools.
 :ref:`Menus <ui-header-menu>` and buttons will change with the editor type and
 the selected object and mode.
