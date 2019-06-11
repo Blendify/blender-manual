@@ -12,14 +12,15 @@ Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to 
 Gizmos
 ======
 
-Todo 2.8.
+Next to the sidebar region at the top, there are gizmos that allow panning
+and zooming more comfortably when e.g. no mouse wheel is available.
 
 
 View Menu
 =========
 
 Region Controls
-   Todo link.
+   Adjust which regions are visible in the image editor.
 Update Automatically
    Update the view in multiple areas.
 Show Metadata
@@ -39,4 +40,4 @@ View All
 View Fit
    Fit the view to the image dimensions :kbd:`Shift-Home`.
 Area
-   See... Todo.
+   Adjust the area the image editor is in. See :doc:`/interface/window_system/areas`.

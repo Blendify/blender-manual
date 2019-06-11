@@ -45,8 +45,8 @@ Slot
    Empty slots appear as blank grids in the Image editor.
    Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards and backwards through saved renders.
    The *Slot Name* field in the *Display Panel* allows you to rename a slot.
-Render Layer
-   If you are using :doc:`Render Layers </render/layers/index>`,
+View Layer
+   If you are using :doc:`View Layers </render/layers/index>`,
    use this menu to select which layer is displayed.
 Render Pass
    If you are using :doc:`Render Passes </render/layers/passes>`,
@@ -56,11 +56,11 @@ Render Pass
 Display Channels
 ----------------
 
-The radio buttons set which channels of the image are displayed.
+In the dropdown menu on the right, the displayed channels can be selected.
 
-RGBA
+Color and Alpha
    Replaces transparent pixels with background checkerboard, denoting the alpha channel.
-RGB
+Color
    Draw the colored image, without alpha channel.
 Alpha
    Displays the Alpha channel a grayscale image. White areas are opaque, black areas have an alpha of 0.
@@ -74,7 +74,7 @@ Red, Green, Blue
 Main View
 =========
 
-When :kbd:`LMB` dragging mouse the color under the cursor is shown in the footer as well the cursor position and
+When :kbd:`LMB/RMB` dragging mouse the color under the cursor is shown in the footer as well the cursor position and
 the color values in the RGBA, HSV and Luminance :term:`color space`.
 
 
@@ -82,7 +82,7 @@ Sidebar Region
 ==============
 
 Tool
-   Todo.
+   Displays the settings of the active tool.
 Image
    Tools for working with images see :doc:`/editors/image/image_settings`.
 View Tab
