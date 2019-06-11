@@ -28,9 +28,9 @@ The images above show the side views of a plain (not beveled) cube and a beveled
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_bevel_none-if.png
+.. TODO .. figure:: /images/modeling_modifiers_generate_bevel_none-if.png
 
-   Bevel Modifier panel.
+.. TODO   Bevel Modifier panel.
 
 Width
    The size of the bevel affect. See *Width Method* below.
