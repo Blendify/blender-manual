@@ -15,6 +15,7 @@
    navigate/index.rst
    3d_cursor.rst
    controls/index.rst
+   tools.rst
    properties/index.rst
    ruler_protractor.rst
    viewport_render.rst
