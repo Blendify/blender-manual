@@ -16,7 +16,7 @@ TODO2.8 (could have more details).
 Rendering to images is useful for animation since rendering can be canceled and
 resumed by frame range.
 
-Playing back images as an animation is supported, see: :ref:`render-output-animation_player`.
+Playing back images as an animation is supported, see: :ref:`Animation Player <render-output-animation_player>`.
 
 
 Video Output
