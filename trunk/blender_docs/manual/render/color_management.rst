@@ -19,8 +19,8 @@ Blender's color management is based on the `OpenColorIO <http://opencolorio.org/
 By using the same OpenColorIO configuration in multiple applications, the same color spaces and transforms
 will be available for consistent results.
 
-Theory
-======
+Workflow
+========
 
 Scene Linear Color Space
 ------------------------
