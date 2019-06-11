@@ -191,8 +191,6 @@ This page lists definitions for terms used in Blender and this manual.
       YCbCr
          Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
          whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
-      \+A
-         The color space holds an additional :term:`Alpha Channel`.
 
    Concave Face
       Face in which one vertex is inside a triangle formed by other vertices of the face.
