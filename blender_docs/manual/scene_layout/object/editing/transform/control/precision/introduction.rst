@@ -85,7 +85,7 @@ cause movement to happen by increments of 10 BU, 100 BU, etc.
 
 .. seealso::
 
-   Read more about :doc:`zooming </editors/3dview/navigate/introduction>`.
+   Read more about :doc:`zooming </editors/3dview/navigate/navigation>`.
 
 
 Rotation
