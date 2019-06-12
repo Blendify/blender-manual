@@ -80,11 +80,3 @@ Outputs
 
 Image
    Standard image output.
-
-
-Example
-=======
-
-.. A nice lens flare render of an outdoor scene
-
-TODO <2.8 add.

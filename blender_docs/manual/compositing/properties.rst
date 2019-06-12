@@ -18,8 +18,6 @@ Backdrop
 
    Backdrop Channels
       See below.
-Auto Render
-   Re-render and composite changed layer when edits to the 3D scene are made.
 
 
 Backdrop
@@ -28,7 +26,7 @@ Backdrop
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Backdrop`
+   :Panel:     :menuselection:`Sidebar region --> View --> Backdrop`
 
 .. figure:: /images/compositing_properties_backdrop.png
    :align: right
@@ -52,7 +50,7 @@ Performance
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Performance`
+   :Panel:     :menuselection:`Sidebar region --> Options --> Performance`
 
 .. figure:: /images/compositing_properties_performance.png
    :align: right
@@ -79,5 +77,5 @@ Viewer Border
    The border is started by :kbd:`Ctrl-B` and finished by selection of a rectangular area.
    :kbd:`Ctrl-Alt-B` discards the border back to a full preview.
    This is only a preview option, final compositing during a render ignores this border.
-Highlight
-   Highlights the nodes that are being calculated by the compositor.
+Auto Render
+   Re-render and composite changed layer when edits to the 3D scene are made.
