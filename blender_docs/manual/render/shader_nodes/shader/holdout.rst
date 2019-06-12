@@ -4,6 +4,8 @@
 Holdout
 *******
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_shaders_holdout_node.png
    :align: right
 

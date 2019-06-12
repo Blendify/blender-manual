@@ -4,6 +4,8 @@
 Toon BSDF
 *********
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_shaders_toon_node.png
    :align: right
 

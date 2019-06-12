@@ -6,6 +6,7 @@
 .. toctree::
    :maxdepth: 1
 
+   ao.rst
    attribute.rst
    bevel.rst
    camera_data.rst

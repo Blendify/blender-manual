@@ -9,7 +9,6 @@
 
    add.rst
    anisotropic.rst
-   ao.rst
    background.rst
    diffuse.rst
    emission.rst
