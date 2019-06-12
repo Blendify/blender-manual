@@ -40,8 +40,7 @@ Walk Mode
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> View Navigation --> Walk Navigation`
-   :Hotkey:    :kbd:`Shift-F`
+   :Menu:      :menuselection:`View --> Navigation --> Walk Navigation`
 
 On activation the mouse pointer will move at the center of the view,
 and a cross marker will appear...
@@ -85,8 +84,7 @@ Fly Mode
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> View Navigation --> Fly Navigation`
-   :Hotkey:    :kbd:`Shift-F`
+   :Menu:      :menuselection:`View --> Navigation --> Fly Navigation`
 
 On activation the mouse pointer will move at the center of the view,
 and a squared marker will appear -- a sort of HUD...

@@ -7,7 +7,7 @@ Projections
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> View Perspective/Orthographic`
+   :Menu:      :menuselection:`View --> Perspective/Orthographic`
    :Hotkey:    :kbd:`Numpad5`
 
 These operators change the projection of the viewport camera.

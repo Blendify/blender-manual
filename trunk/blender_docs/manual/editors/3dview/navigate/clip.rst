@@ -15,7 +15,7 @@ View Clipping Border
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> Set Clipping Border`
+   :Menu:      :menuselection:`View --> View Region -> Clipping Region...`
    :Hotkey:    :kbd:`Alt-B`
 
 Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
@@ -78,8 +78,8 @@ Render Border
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> Render Border...`
-               :menuselection:`View --> Clear Render Border`
+   :Menu:      :menuselection:`View --> View Region --> Render Region...`
+               :menuselection:`View --> View Region --> Clear Render Region`
    :Hotkey:    :kbd:`Ctrl-B`, :kbd:`Ctrl-Alt-B`
 
 When using :ref:`rendered shading <view3d-viewport-shading>` mode,

@@ -6,7 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
    navigation.rst
    walk_fly.rst
    align.rst

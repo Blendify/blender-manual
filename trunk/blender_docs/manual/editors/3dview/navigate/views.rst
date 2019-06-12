@@ -17,7 +17,7 @@ View Global/Local
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> View Global/Local`
+   :Menu:      :menuselection:`View --> Local View --> Toggle Local View`
    :Hotkey:    :kbd:`NumpadSlash`
 
 Global view shows all of the 3D objects in the scene. Local view isolates the selected object or
