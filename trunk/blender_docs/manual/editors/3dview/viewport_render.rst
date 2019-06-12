@@ -18,10 +18,15 @@ the Cycles Renderer.
 
 .. list-table:: Model by © 2016 pokedstudio.com
 
-   * - .. figure:: /images/render_opengl_example-opengl-render.jpg
+   * - .. figure:: /images/render_opengl_example-workbench-render.jpg
           :width: 320px
 
-          Viewport render.
+          Viewport render using Solid Mode
+
+     - .. figure:: /images/render_opengl_example-eevee-render.jpg
+          :width: 320px
+
+          Viewport render using Look Dev Mode.
 
      - .. figure:: /images/render_opengl_example-cycles-render.jpg
           :width: 320px
@@ -29,7 +34,7 @@ the Cycles Renderer.
           Full render.
 
 
-.. tip:: Disable Overlays
+.. tip:: 
 
    Disable overlays to render the viewport without any additional overlays.
 
@@ -37,7 +42,6 @@ the Cycles Renderer.
    enable, since it removes data such as rigs and empties that can be a distraction.
 
 
-.. TODO2.8
 
 Settings
 ========
@@ -48,9 +52,17 @@ Settings
    :Editor:    Info Editor
    :Menu:      :menuselection:`Render --> Viewport Render Options`
 
-For the most part, *Viewport Render* uses the viewport settings,
+For the most part, *Viewport Render* uses the curremt viewport settings. Some
+settings are located in the render panel of the render engine that is used
+to render the view.
+
+Solid mode uses the render settings of workbench; Look Dev mode uses the 
+render settings of EEVEE.
+
 Sampling and Alpha Transparency Mode options can be set by
-the :menuselection:`Render --> Viewport Render Options` from the Info Editor header.
+the :menuselection:`Render --> Sampling` from the Properties panel. Make sure
+the Workbench or EEVEE render engine is selected to see the appropiate values.
+
 Additionally, some render settings are used too:
 
 - Render Dimensions
