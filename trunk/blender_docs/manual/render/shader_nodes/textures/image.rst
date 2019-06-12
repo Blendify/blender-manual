@@ -41,7 +41,7 @@ Interpolation
       Smoother, better quality interpolation. For bump maps this should be used to get best results.
    Closest
       No interpolation, use only closest pixel for rendering pixel art.
-   Smart
+   Smart :guilabel:`Cycles Only`
       Only for Open Shading Language. Use cubic interpolation when scaling up and linear when scaling down,
       for better performance and sharpness.
 Projection

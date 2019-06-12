@@ -27,7 +27,7 @@ This is supported using the :doc:`Shader to RGB </render/shader_nodes/converter/
 Specular BSDF
 -------------
 
-This :doc:`node </render/eevee/materials/nodes/specular_bsdf>` implements the specular workflow
+This :doc:`node </render/shader_nodes/shader/specular_bsdf>` implements the specular workflow
 found in other render engines.
 
 

@@ -57,7 +57,7 @@ Shadow
    Enables the object to cast shadows.
 
 This can be used, for example, to make an emitting mesh invisible to camera rays.
-For duplicators, visibility is inherited; if the parent object is hidden for some ray types,
+For instancers, visibility is inherited; if the parent object is hidden for some ray types,
 the children will be hidden for these too.
 
 In terms of performance, using these options is more efficient that using a shader node setup

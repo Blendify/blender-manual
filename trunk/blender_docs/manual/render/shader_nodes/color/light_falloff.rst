@@ -4,6 +4,8 @@
 Light Falloff Node
 ******************
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_color_light-falloff_node.png
    :align: right
 

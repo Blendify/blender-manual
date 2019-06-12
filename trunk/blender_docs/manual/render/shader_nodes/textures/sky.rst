@@ -4,6 +4,8 @@
 Sky Texture Node
 ****************
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_textures_sky_node.png
    :align: right
 

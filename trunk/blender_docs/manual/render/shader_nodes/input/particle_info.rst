@@ -6,6 +6,8 @@
 Particle Info Node
 ******************
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_input_particle-info_node.png
    :align: right
 

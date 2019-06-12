@@ -4,6 +4,8 @@
 Bevel Node
 **********
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_input_bevel_node.png
    :align: right
 

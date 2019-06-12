@@ -18,7 +18,7 @@ Cameras
 Lights
 ======
 
-- Shadows are not supported on light instances (dupli objects, group instancing).
+- Shadows are not supported on light instances (instance objects, group instancing).
 - Only 128 active lights can be supported by Eevee in a scene.
 - Only 8 Shadowed sun lights can be supported at the same time.
 - As of now, lights can only have one color and do not support light node trees.
@@ -45,7 +45,7 @@ Indirect Lighting
 Shadows
 =======
 
-- Shadows are not supported on light instances (dupli objects, group instancing).
+- Shadows are not supported on light instances (instance objects, group instancing).
 - Only 128 active lights can be supported by Eevee in a scene.
 - Only 8 Shadowed sun lights can be supported at the same time.
 
