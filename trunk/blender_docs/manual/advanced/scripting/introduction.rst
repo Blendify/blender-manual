@@ -54,6 +54,8 @@ concepts of Python scripting for Blender.
 
 .. rubric:: External links
 
+.. TODO2.8: Find new links to scripting introductions.
+
 Here are external links containing a lot of good information to start learning how to write scripts for Blender:
 
 - `Introductory tutorial by Satish Goda
@@ -86,8 +88,8 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases.
   Many of them work reliably and are very useful but are not ensured to be stable for release.
 
-For an overview of all add-ons available, see
-the `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__.
+For an overview of many add-ons available, see
+the `Scripts Catalog <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/>`__.
 
 
 Scripts
@@ -120,7 +122,7 @@ Installation
 ^^^^^^^^^^^^
 
 Add-ons are conveniently installed through Blender in the :doc:`Preferences </editors/preferences/addons>`.
-Click the :menuselection:`Install from File...` button and select the ``.py`` or ``.zip`` file.
+Click the :menuselection:`Install...` button and select the ``.py`` or ``.zip`` file.
 
 To manually install scripts or add-ons, place them in the ``add-ons``, ``modules``, ``presets``,
 or ``startup`` directory according to their type. See the description above.
