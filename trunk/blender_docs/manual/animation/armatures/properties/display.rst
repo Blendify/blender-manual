@@ -1,17 +1,17 @@
 
-*************
-Display Panel
-*************
+**********************
+Viewport Display Panel
+**********************
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Armature --> Display`
+   :Panel:     :menuselection:`Armature --> Viewport Display`
 
-.. figure:: /images/rigging_armatures_properties_display_panel.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_properties_display_panel.png
 
-   The Display panel.
+.. TODO2.8    The Display panel.
 
 This controls the way the bones appear in 3D View; you have four different visualizations you can select.
 
@@ -109,19 +109,16 @@ Draw Options
 
 Names
    When enabled, the name of each bone is drawn.
-Colors
-   This is only relevant for *Pose Mode*,
-   and is described in detail :doc:`there </animation/armatures/properties/bone_groups>`.
 Axes
    When enabled, the (local) axes of each bone are drawn (only relevant for *Edit Mode* and *Pose Mode*).
-X-Ray
-   When enabled, the bones of the armature will always be drawn on top of the solid objects
-   (meshes, surfaces, ...) -- i.e. they will always be visible and selectable
-   (this is the same option as the one found in the *Display* panel of the *Object data* tab).
-   Very useful when not in *Wireframe* mode.
 Shapes
    When enabled, the default standard bone shape is replaced,
    in *Object Mode* and *Pose Mode*, by the shape of a chosen object
    (see :doc:`Shaped Bones </animation/armatures/bones/properties/display>` for details).
-Delay Refresh
-   When enabled, the bone does not deform its children when manipulating the bone in pose mode.
+Group Colors
+   Use the Bone Group colors to draw the bone. For more details see :doc:`Bone Groups </animation/armatures/properties/bone_groups>`.
+In Front
+   When enabled, the bones of the armature will always be drawn on top of the solid objects
+   (meshes, surfaces, ...) -- i.e. they will always be visible and selectable
+   (this is the same option as the one found in the *Display* panel of the *Object data* tab).
+   Very useful when not in *Wireframe* mode.

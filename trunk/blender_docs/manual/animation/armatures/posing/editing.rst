@@ -4,10 +4,10 @@
 Editing
 *******
 
-.. figure:: /images/rigging_armatures_posing_editing_tools.png
-   :align: right
+.. TODO2.8 .. figure:: /images/rigging_armatures_posing_editing_tools.png
+.. TODO2.8    :align: right
 
-   Pose Tools.
+.. TODO2.8    Pose Tools.
 
 In *Pose Mode*, bones behave like objects. So the transform actions
 (grab/rotate/scale, etc.) are very similar to the same ones in *Object* mode
@@ -30,6 +30,8 @@ bones' transformations are performed based on the *Rest Position* of the armatur
 which is its state as defined in *Edit Mode*. This means that in rest position,
 in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 (as you can see it in the *Transform* panel, in the 3D Views).
+
+.. TODO2.8 Update image.
 
 .. figure:: /images/rigging_armatures_posing_editing_local-rotation.png
 
@@ -64,7 +66,7 @@ Auto IK
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Options --> Pose Options`
+   :Panel:     :menuselection:`Sidebar region --> Tool --> Pose Options`
 
 The auto IK option in the Tool Shelf enables a temporary IK constraint when posing bones.
 The chain acts from the tip of the selected bone to root of the uppermost parent bone.
@@ -138,8 +140,8 @@ Push Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tool --> Tool --> Pose Tools --> In-Betweens: Push`
-   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose`
+   :Panel:     :menuselection:`Toolbar region --> Pose Tools --> Push`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown`
    :Hotkey:    :kbd:`Ctrl-E`
 
 Push pose exaggerates the current pose.
@@ -152,8 +154,8 @@ Relax Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Relax`
-   :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose`
+   :Panel:     :menuselection:`Toolbar region --> Pose Tools --> Relax`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose to Breakdown`
    :Hotkey:    :kbd:`Alt-E`
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
@@ -169,9 +171,9 @@ Breakdowner
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> In-Betweens: Breakdowner`
+   :Panel:     :menuselection:`Toolbar region --> Pose Tools --> Breakdowner`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
-   :Hotkey:    :kbd:`Shift-E`
+   :Hotkey:    :kbd:`LMB`\ -drag
 
 Creates a suitable breakdown pose on the current frame.
 
@@ -191,14 +193,15 @@ Copy/Paste Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Header:    Copy/Paste (|copy-paste|)
-   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Copy, Paste`
    :Menu:      :menuselection:`Pose --> Copy Current Pose`,
                :menuselection:`Pose --> Paste Pose`,
                :menuselection:`Pose --> Paste X-Flipped Pose`
+   :Hotkey:    :kbd:`Ctrl-C`
+               :kbd:`Ctrl-V`
+               :kbd:`Shift-Ctrl-V`
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
-directly using the three copy/paste buttons found at the right part of the 3D View's header:
+by using hotkeys.
 
 Copy Current Pose
    Copy the current pose of selected bones into the pose buffer.
@@ -267,7 +270,6 @@ Propagate
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tool --> Pose Tools --> Pose: Propagate`
    :Menu:      :menuselection:`Pose --> Propagate`
    :Hotkey:    :kbd:`Alt-P`
 
@@ -312,7 +314,7 @@ Show/Hide
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Properties editor --> Bone --> Display`
+   :Panel:     :menuselection:`Properties editor --> Bone --> Viewport Display`
    :Menu:      :menuselection:`... --> Show/Hide`
 
 You do not have to use bone layers to show/hide some bones. As with objects,
@@ -322,7 +324,7 @@ vertices or control points, you can use :kbd:`H`:
 - :kbd:`Shift-H` will hide all bones *but the selected one(s)*.
 - :kbd:`Alt-H` will show all hidden bones.
 
-You can also use the *Hide* checkbox of the :menuselection:`Bone tab --> Display panel`.
+You can also use the *Hide* checkbox of the :menuselection:`Bone tab --> Viewport Display panel`.
 
 Note that hidden bones are specific to a mode,
 i.e. you can hide some bones in *Edit Mode*,

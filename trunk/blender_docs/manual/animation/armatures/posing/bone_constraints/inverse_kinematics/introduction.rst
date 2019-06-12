@@ -25,7 +25,7 @@ Automatic IK
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Options --> Pose Options`
+   :Panel:     :menuselection:`Sidebar region --> Tool -> Pose Options`
 
 Automatic IK is a tool for quick posing, it can be enabled in the Tool Shelf in the 3D View,
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
@@ -71,9 +71,9 @@ Armature IK Panel
 This panel is used to select the IK Solver type for the armature: *Standard* or *iTaSC*.
 Most the time people will use the *Standard* IK solver.
 
-.. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
 
-   The armature IK panel.
+.. TODO2.8    The armature IK panel.
 
 
 Standard
@@ -230,9 +230,9 @@ Bone IK Panel
 
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
-.. figure:: /images/rigging_armatures_bones_properties_introduction_inverse-kinematics-panel.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_introduction_inverse-kinematics-panel.png
 
-   The bone IK panel.
+.. TODO2.8    The bone IK panel.
 
 IK Stretch
    Stretch influence to IK target.
@@ -275,6 +275,8 @@ This arm uses two bones to overcome the twist problem for the forearm.
 IK locking is used to stop the forearm from bending,
 but the forearm can still be twisted manually by pressing :kbd:`R Y Y` in *Pose Mode*,
 or by using other constraints.
+
+.. TODO2.8  Maybe update?
 
 .. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_example.png
    :align: center
