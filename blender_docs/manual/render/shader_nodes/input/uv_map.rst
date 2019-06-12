@@ -24,8 +24,8 @@ This node has no inputs.
 Properties
 ==========
 
-From Dupli
-   See the :ref:`From Dupli <cycles-nodes-input-texture-coordinate-from-dupli>`
+From Instancer :guilabel:`Cycles Only`
+   See the :ref:`From Instancer <cycles-nodes-input-texture-coordinate-from-instancer>`
    option of the :doc:`Texture Coordinate Node </render/shader_nodes/input/texture_coordinate>`.
 
 UV Map

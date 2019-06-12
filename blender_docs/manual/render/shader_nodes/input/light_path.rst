@@ -37,28 +37,28 @@ Is Diffuse Ray
    1.0 if shading is executed for a diffuse ray, 0.0 otherwise.
 Is Glossy Ray
    1.0 if shading is executed for a glossy ray, 0.0 otherwise.
-Is Singular Ray
+Is Singular Ray :guilabel:`Cycles Only`
    1.0 if shading is executed for a singular ray, 0.0 otherwise.
-Is Reflection Ray
+Is Reflection Ray :guilabel:`Cycles Only`
    1.0 if shading is executed for a reflection ray, 0.0 otherwise.
-Is Transmission Ray
+Is Transmission Ray :guilabel:`Cycles Only`
    1.0 if shading is executed for a transmission ray, 0.0 otherwise.
-Ray Length
+Ray Length :guilabel:`Cycles Only`
    Distance traveled by the light ray from the last bounce or camera.
 Ray Depth
-   Number of times the ray has "bounced", i.e. been reflected or transmitted on interaction with a surface.
+   Number of times the ray been reflected or transmitted on interaction with a surface.
 
    .. note::
 
       Passing through a transparent shader
       :ref:`does not count as a normal "bounce" <render-cycles-light-paths-transparency>`.
 
-Diffuse Depth
-   (Todo)
-Glossy Depth
-   (Todo)
-Transparent Depth
+Diffuse Depth :guilabel:`Cycles Only`
+   Number of times of times the ray has gone through diffuse reflection or transmission.
+Glossy Depth :guilabel:`Cycles Only`
+   Number of times of times the ray has gone through glossy reflection or transmission.
+Transparent Depth :guilabel:`Cycles Only`
    Returns the number of transparent surfaces passed through.
-Transmission Depth
+Transmission Depth :guilabel:`Cycles Only`
    Replace a Transmission light path after X bounces with another shader, e.g. a Diffuse one.
    This can be used to avoid black surfaces, due to low amount of max bounces.
