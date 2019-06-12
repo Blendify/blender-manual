@@ -52,8 +52,6 @@ Display
       Empties can display images. This can be used to create reference images,
       including blueprints or character sheets to model from, instead of using background images.
       The image is displayed regardless of the 3D display mode.
-      The settings are the same as in
-      :doc:`Background Image Settings </editors/3dview/properties/background_images>`.
 
       .. note::
 
