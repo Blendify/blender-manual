@@ -86,7 +86,7 @@ Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
    While this can be useful on its own, its has the side effect of not relying on OpenGL selection.
 Change Draw Modes (Workaround)
-   Using *Wireframe* or even *Bounding Box* draw modes can be used to more quickly select different objects.
+   Using *Wireframe* draw mode can be used to more quickly select different objects.
 
 .. note::
 
@@ -106,7 +106,7 @@ When navigating your scene, you may accidentally navigate away from your scene
 and find yourself with a blank viewport. There are two ways to fix this:
 
 #. Select an object in the :doc:`Outliner </editors/outliner>`,
-   then zoom to that object with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
+   then zoom to that object with :menuselection:`View --> Frame Selected` or :kbd:`NumpadPeriod`.
 #. Use :kbd:`Home` to fit all objects into the 3D View.
 
 
@@ -130,9 +130,8 @@ Solutions
 - Use :ref:`Auto Depth <prefs-auto-depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tool will make sure the distance is always the value under the mouse cursor,
 - Use :ref:`Border Zoom <3dview-nav-zoom-border>` as it also resets the center point when zooming.
-- Center the view around the mouse cursor :kbd:`Alt-F`.
+- Center the view around the mouse cursor :kbd:`Alt-MMB`.
   This will take the position under the cursor and make it your viewpoint center.
-- Center the view around the 3D cursor :kbd:`Alt-Home`.
 - Use an :abbr:`NDOF (N-Degrees of Freedom)`, also known as a 3D mouse,
   see :ref:`configuring peripherals <hardware_3d-mice>` for more information.
 
