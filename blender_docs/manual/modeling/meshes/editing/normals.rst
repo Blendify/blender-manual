@@ -17,7 +17,7 @@ or a tangent plane for a point on a surface.
 
 In the figure above, each blue line represents the normal for a face on the torus.
 The lines are each perpendicular to the face on which they lie.
-The visualization can be activated in the :ref:`Mesh Display panel <mesh-display-normals>`.
+The visualization can be activated, in Edit Mode, in the :ref:`Mesh Display Viewport Overlays panel <mesh-display-normals>`.
 
 
 .. _modeling-meshes-editing-normals-shading:
@@ -107,9 +107,9 @@ Properties
 
    :Panel:     :menuselection:`Properties editor --> Object Data --> Normals`
 
-.. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
+.. TODO .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
 
-   Normals panel.
+.. TODO  Normals panel.
 
 .. _auto-smooth:
 
@@ -148,10 +148,9 @@ Flip Direction
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Flip Direction`
-   :Menu:      :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
+   :Menu:      :menuselection:`Mesh --> Normals --> Flip`
 
-Well, it will just reverse the normals direction of all selected faces.
+This will reverse the normals direction of all selected faces.
 Note that this allows you to precisely control the direction
 (**not** the orientation, which is always perpendicular to the face) of your normals,
 as only selected ones are flipped.
@@ -164,28 +163,15 @@ Recalculate Normals
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Recalculate`
    :Menu:      :menuselection:`Mesh --> Normals --> Recalculate Outside` and
                :menuselection:`Mesh --> Normals --> Recalculate Inside`
    :Hotkey:    :kbd:`Ctrl-N` and :kbd:`Shift-Ctrl-N`
 
 These tools will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.
-This volume do not need to be closed. In fact, this means that the face of interest must be
-adjacent with at least one non-coplanar other face.
+The volume does not need to be closed; inside and outside are determined by the angles with adjacent faces.
+This means that the face of interest must be adjacent to at least one non-coplanar other face.
 For example, with a *Grid* primitive, recalculating normals does not have a meaningful result.
-
-
-Set from Face
--------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Shading/UVs --> Shading --> Normals: Set from Face`
-
-Sets the custom vertex normals from the selected face's normals.
 
 
 .. _modeling_meshes_normals_custom:
@@ -205,24 +191,128 @@ per a set of neighbor face corners, or per vertex.
 Enabling Custom Split Normals Support
 -------------------------------------
 
-#. Enable custom split normals using :ref:`Add Custom Split Normals Data <modeling_meshes_properties_custom-data>`.
-#. Make sure to enable :ref:`Auto Smooth <modeling_meshes_editing_normals_properties>`.
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:     :menuselection:`Mesh --> Normals: Split`
+
+Enables Custom Split Normals.
+
+..
+
+Also, any of the custom normal editing tools (see below) will, as a convenience,
+enable custom normals if they are not already enabled.
 
 .. note::
 
+   This has the side effect of enabling *Auto Smooth*, as that is necessary to use custom normals.
    Once you have custom normals, the angle threshold of the *Auto Smooth* behavior is disabled --
    all non-sharp-tagged edges will be considered as smooth, disregarding the angle between their faces.
 
 
-Creating/Editing Custom Split Normals
+Editing Custom Split Normals
 -------------------------------------
 
-Currently, editing is only possible by using the :doc:`/modeling/modifiers/modify/normal_edit`.
+There are a number of tools for editing custom split normals.
+The custom normal mesh edit tools can affect all normals (the default), or only selected ones.
+To select a custom normal associated with a particular vertex and face:
+
+* Make the element selection mode both Vertex and Face (use shift-click to enable the second one).
+* Select one or more vertices, then select a face. This can be repeated to select more vertices and a different face. And so on. It is easiest to see the effect of these tools if you turn on the Edit Mode Overlays option 'Display vertex-per-face normals as lines'.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:     :menuselection:`Mesh --> Normals: Set from Faces`
+   :Menu:     :menuselection:`Mesh --> Normals: Rotate` or :kbd:`R`:kbd:`N`
+   :Menu:     :menuselection:`Mesh --> Normals: Point to Target` or :kbd:`Alt-L`
+   :Menu:     :menuselection:`Mesh --> Normals: Merge`
+   :Menu:     :menuselection:`Mesh --> Normals: Split`
+   :Menu:     :menuselection:`Mesh --> Normals: Average`
+   :Menu:     :menuselection:`Mesh --> Normals: Copy Vectors`
+   :Menu:     :menuselection:`Mesh --> Normals: Paste Vectors`
+   :Menu:     :menuselection:`Mesh --> Normals: Smoothen Vectors`
+   :Menu:     :menuselection:`Mesh --> Normals: Reset Vectors`
+   :Hotkey:  :kbd:`Alt-N` for entire menu
+
+
+Set From Faces
+^^^^^^^^^^^^^^^^^^^^
+
+Set the custom normals at corners to be the same as the face normal that the corner is part of.
+
+Rotate
+^^^^^^^^^^^^^^^^^^^^
+
+This is an interactive tool. As you move the mouse around, the selected normals are rotated.
+You can also invoke the Rotate Normals tool by typing the Rotate transform key, :kbd:`R`
+followed by :kbd:`N`.
+
+
+Point to Target
+^^^^^^^^^^^^^^^^^^^^
+
+This is an interactive tool. The selected normals are set according to the pointing mode, which is set by different keys.
+
+* A target is set by keys :kbd:`M` (the mouse), :kbd:`L` (the pivot), :kbd:`O` (the object origin), :kbd:`Ctrl-LMB` (the cursor, set at this click), or :kbd:`Ctrl-RMB` (a mesh item selection, set by this click).
+* When confirmed by :kbd:`Enter` or :kbd:`LMB`, all selected normals are set to point from their vertex to the target; but this can be modified:
+
+   * If :kbd:`A` (align) has been previously pressed, then all normals will point in the same direction: from the center of selected points to the target.
+   * If :kbd:`S` (spherize) has been previously pressed, then each normal will be an interpolation between its original value and the direction to the target.
+   * If :kbd:`I` (invert) has been previously pressed, then the normal directions are reversed from what was specified above.
+
+* An :kbd:`R` press will reset the custom normals back to what they were when the operation started.
+
+
+Merge
+^^^^^^^^^^^^^^^^^^^^
+
+Merge all of the normals at selected vertices, making one average normal for all of the faces.
+
+
+Split
+^^^^^^^^^^^^^^^^^^^^
+
+Split the normals at all selected vertices so that there are separate normals for each face, pointing in the same direction as those faces.
+
+Average
+^^^^^^^^^^^^^^^^^^^^
+
+Average all of the normals in each fan of faces between sharp edges at a vertex.
+
+Copy Vectors
+^^^^^^^^^^^^^^^^^^^^
+
+If a single normal is selected, copy it to an internal vector buffer.
+
+Paste Vectors
+^^^^^^^^^^^^^^^^^^^^
+
+Replace the selected normals with the one in the internal vector buffer.
+
+Smoothen Vectors
+^^^^^^^^^^^^^^^^^^^^
+
+Adjust the normals to bring them closer to their adjacent vertex normals.
+
+Reset Vectors
+^^^^^^^^^^^^^^^^^^^^
+
+Put normals back the to default calculation of the normals.
+
+
+.. seealso::
+
+   The :doc:`/modeling/modifiers/modify/normal_edit` can be used to edit custom normals.
+
+.. TODO put in ref to weighted normals modifier and bevel tool and modifier
 
 You can also copy normals from another mesh using Data Transfer
 (:doc:`operator </modeling/meshes/editing/data_transfer>`
 or :doc:`modifier </modeling/modifiers/modify/data_transfer>`).
-
 
 Importing Custom Split Normals
 ------------------------------
