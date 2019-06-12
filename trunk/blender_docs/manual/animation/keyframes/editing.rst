@@ -12,7 +12,6 @@ Insert Keyframes
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Insert`
    :Menu:      :menuselection:`Object --> Animation --> Insert Keyframe...`
    :Hotkey:    :kbd:`I`
 
@@ -30,7 +29,7 @@ Auto Keyframe
 
    Timeline Auto Keyframe.
 
-Auto Keyframe is the red record button in the *Timeline* header. Auto Keyframe adds
+Auto Keyframe is the record button in the *Timeline* header. Auto Keyframe adds
 keyframes automatically to the set frame if the value for transform type properties changes.
 
 See :ref:`Timeline Keyframe Control <animation-editors-timeline-autokeyframe>` for more info.
@@ -45,7 +44,6 @@ Delete Keyframes
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Animation --> Animation --> Keyframes: Remove`
    :Menu:      :menuselection:`Object --> Animation --> Delete Keyframes...`
    :Hotkey:    :kbd:`Alt-I`
 
@@ -96,7 +94,7 @@ This example shows you how to animate a cube's location, rotation, and scale.
 
 To test the animation, press :kbd:`Alt-A` to play.
 
-.. figure:: /images/animation_keyframes_editing_keyframe-animation-examples.png
-   :width: 600px
+.. TODO2.8 .. figure:: /images/animation_keyframes_editing_keyframe-animation-examples.png
+.. TODO2.8   :width: 600px
 
-   The animation on frames 1, 50 and 100.
+.. TODO2.8   The animation on frames 1, 50 and 100.

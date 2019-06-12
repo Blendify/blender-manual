@@ -45,13 +45,15 @@ Properties have different colors and menu items for different states.
 .. list-table::
 
    * - Gray
-     - Default
+     - Not animated
    * - Yellow
-     - Keyframes
+     - Keyframed on the current frame
    * - Green
-     - Animated
+     - Keyframed on a different frame
+   * - Orange
+     - Changed from the keyframed value
    * - Purple
-     - Driver
+     - Controlled by a driver
 
 
 Rigging

@@ -21,7 +21,7 @@ There are some built-in Keying Sets and,
 also custom Keying Sets called *Absolute Keying Sets*.
 
 To select and use a Keying Set, set the *Active Keying Set*
-in the :ref:`Timeline Header <animation-editors-timeline-autokeyframe>`,
+in the :ref:`Keying Popover <timeline-keying>` in the Timeline Header,
 or the Keying Set panel, or press :kbd:`Shift-Ctrl-Alt-I` in the 3D View.
 
 
@@ -56,7 +56,7 @@ Export to File
    Export Keying Set to a Python script ``File.py``.
    To re-add the keying set from the ``File.py``, open then run the ``File.py`` from the Text Editor.
 
-Keyframing Settings
+Keyframing Settings (General Override)
    These options control all properties in the Keying Set.
    Note that the same settings in *Preferences* override these settings if enabled.
 
@@ -83,9 +83,9 @@ This panel is used to add properties to the active Keying Set.
 
    The Active Keying Set panel.
 
-.. figure:: /images/editors_graph-editor_channels_region.png
+.. TODO2.8 .. figure:: /images/editors_graph-editor_channels_region.png
 
-   The Graph Editor's channels region with named groups.
+.. TODO2.8   The Graph Editor's channels region with named groups.
 
 Active Keying Set Paths
    A collection of paths in a :ref:`List View <ui-list-view>` each with a *Data Path* to a property
@@ -103,7 +103,7 @@ Target
       Set the ID Type and the *Object IDs* Data Path for the property.
    Data Path
       Set the rest of the Data Path for the property.
-   Array Target
+   Array All Items
       Use *All Items* from the Data Path or select the array index for a specific property.
 
 F-Curve Grouping
@@ -111,7 +111,7 @@ F-Curve Grouping
 
    Keying Set Name, None, Named Group
 
-Keyframing Settings
+Keyframing Settings (Active Set Override)
    These options control individual properties in the Keying Set.
 
    Only Needed
