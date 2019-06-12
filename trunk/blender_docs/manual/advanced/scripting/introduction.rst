@@ -49,7 +49,7 @@ concepts of Python scripting for Blender.
 
 - :doc:`Text Editor </editors/text_editor>`
 - :doc:`Python Console </editors/python_console>`
-- Info Editor's :ref:`info-report-console`
+- :doc:`Info Editor </editors/info_editor>`
 
 
 .. rubric:: External links

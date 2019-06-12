@@ -38,6 +38,20 @@ Keymap
    common_shortcuts.rst
 
 
+Topbar
+======
+
+.. toctree::
+   :maxdepth: 1
+
+   topbar/app_menu.rst
+   topbar/file_menu.rst
+   topbar/edit_menu.rst
+   topbar/render_menu.rst
+   topbar/window_menu.rst
+   topbar/help_menu.rst
+
+
 Interface Controls
 ==================
 

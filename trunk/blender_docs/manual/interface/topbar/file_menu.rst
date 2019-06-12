@@ -1,7 +1,6 @@
-
-****
-File
-****
+*********
+File Menu
+*********
 
 The options to manage files are:
 
@@ -27,13 +26,6 @@ Save As :kbd:`Shift-Ctrl-S`
    Opens the File Browser to specify file name and location of :ref:`save <files-blend-save>`.
 Save Copy
    :ref:`Saves <files-blend-save>` a copy of the current file.
-Defaults
-   Save User Settings :kbd:`Ctrl-U`
-      Saves the current scene and preferences to the :doc:`startup.blend </getting_started/configuration/defaults>` file.
-   Load Factory Settings
-      Restores the default startup file as :ref:`factory settings <factory-settings>` and saves the changes.
-   Load Factory Settings (Temporary)
-      Restores the default startup file as :ref:`factory settings <factory-settings>` but does not save the changes.
 Link
    Links data from an external blend-file (library) to the current scene.
    The edition of that data is only possible in the external library.
@@ -43,7 +35,22 @@ Append :kbd:`Shift-F1`
    Appends data from an external blend-file to the current scene.
    The new data is copied from the external file, and completely unlinked from it.
 Data Previews
-   Todo.
+   Refresh Data-Block Previews
+      Ensure data-block previews are available and up-to-date to be saved in .blend file.
+      Previews only exist for some types like materials and textures.
+   Batch-Generate Previews
+      Generate previews for selected .blend files.
+   Clear Data-Block Previews
+      Clear previews for supported data-block types.
+   Batch-Clear Previews
+      Clear previews for selected .blend files.
+Import
+   Blender can use information stored in a variety of other format files which are created by
+   other graphics programs. See :doc:`Import/Export </files/import_export>`.
+Export
+   Normally you save your work in a blend-file,
+   but you can export some or all of your work to a format that can be processed by other graphics programs.
+   See :doc:`Import/Export </files/import_export>`.
 External Data
    External data, like texture images and other resources,
    can be stored inside the blend-file (packed) or as separate files (unpacked).
@@ -77,13 +84,12 @@ External Data
 
          Recovered files might need to be reloaded. You can do that one by one, or
          you can save the blend-file and reload it again, so that all external files are reloaded at once.
-
-Import
-   Blender can use information stored in a variety of other format files which are created by
-   other graphics programs. See :doc:`Import/Export </files/import_export>`.
-Export
-   Normally you save your work in a blend-file,
-   but you can export some or all of your work to a format that can be processed by other graphics programs.
-   See :doc:`Import/Export </files/import_export>`.
+Defaults
+   Save User Settings :kbd:`Ctrl-U`
+      Saves the current scene and preferences to the :doc:`startup.blend </getting_started/configuration/defaults>` file.
+   Load Factory Settings
+      Restores the default startup file as :ref:`factory settings <factory-settings>` and saves the changes.
+   Load Factory Settings (Temporary)
+      Restores the default startup file as :ref:`factory settings <factory-settings>` but does not save the changes.
 Quit :kbd:`Ctrl-Q`
    Closes Blender and the file is saved into ``quit.blend``.
