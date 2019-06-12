@@ -8,58 +8,52 @@ Data-Blocks
 The base unit for any Blender project is the data-block. Examples of data-blocks include:
 meshes, objects, materials, textures, node trees, scenes, texts, brushes, and even screens.
 
-Data-blocks are low level program representations for items inside
-Blender. When you consider Blender items at a low level, they are all
-Data-blocks, which have common Data-block properties. Data-block level
-is needed to handle items in Blender program. However, when
-considering a higher level, which is typically visible to users,
-Blender items are represented as meshes, objects, materials, textures
-etc. which are different things. Data-block level handles the same
-high level items (meshes, objects, materials, textures etc.), but only
-considers their low level common properties and functions.
+.. figure:: /images/data-system_outliner_blender_file_view.png
+   :align: right
 
-For clarity, bones, sequence strips and vertex groups are **not** data-blocks,
-they belong to armature, scene and mesh types respectively.
+   Blender File view of the Outliner.
+
+A data-block is a generic abstraction of very different kinds of data,
+which features a common set of basic features, properties and behaviors.
 
 Some common characteristics:
 
 - They are the primary contents of the blend-file.
-- They can link to each other, for reuse and instancing.
-  (child/parent, object/object-data, with modifiers and constraints too).
-- Their names are unique.
+- They can reference to each other, for reuse and instancing.
+  (child/parent, object/object-data, materials/images, in modifiers or constraints too...).
+- Their names are unique within a blend-file, for a given type.
 - They can be added/removed/edited/duplicated.
 - They can be linked between files (only enabled for a limited set of data-blocks).
 - They can have their own animation data.
 - They can have :ref:`Custom Properties <files-data_blocks-custom-properties>`.
 
+User will typically interact with the higher level data types (objects, meshes, etc.).
 When doing more complex projects, managing data-blocks becomes more important,
 especially when inter-linking blend-files.
+The main editor for that is the :doc:`Outliner </editors/outliner>`.
 
-.. figure:: /images/data-system_data-blocks_view.png
+Not every data in Blender is a data-block,
+bones, sequence strips or vertex groups e.g. are not,
+they belong to armature, scene and mesh types respectively.
 
-   Data-blocks view.
 
+Life Time
+=========
 
-Users (Garbage Collection)
-==========================
+Every data-block is ref-counted, when there is more than one, you can see the number
+of current users of a data-block to the right of its name in the UI.
 
-It is good to be aware of how Blender
-handles data-blocks lifetime, when they are freed and why.
-
-Blender follows the general rule where unused data is eventually removed.
+Blender follows the general rule that unused data is eventually removed.
 
 Since it is common to add and remove a lot of data while working,
 this has the advantage of not having to manually manage every single data-block.
 
 This works by skipping zero user data-blocks when writing blend-files.
 
-In some cases, you want to save a data-block even when it is unused
-(typically for re-usable asset libraries). See `Fake User`_.
-
 
 .. _data-system-datablock-fake-user:
 
-Fake User
+Protected
 ---------
 
 Since zero user data-blocks are not saved,
@@ -68,15 +62,15 @@ there are times when you want to force the data to be kept irrespective of its u
 If you are building a blend-file to serve as a library of things that you intend to link to and from other files,
 you will need to make sure that they do not accidentally get deleted from the library file.
 
-Do this by giving the data-blocks a *Fake User*, by pressing the *F* button next to the name of the data-block.
-This prevents the user count from ever becoming zero: therefore, the data-block will not be deleted
-(since Blender does not keep track of how many other files link to this one).
+To protect a data-block, use the "shield" button next to its name.
+The data-block will then never be silently deleted by Blender,
+but you can still do it manually if needed.
 
 
-Users (Sharing)
-===============
+Sharing
+=======
 
-Many data-blocks can be shared among other data-blocks.
+Data-blocks can be shared among other data-blocks.
 
 Examples where sharing data is common:
 
@@ -91,50 +85,42 @@ You can also share data-blocks between files, see:
 
 
 .. _data-system-datablock-make-single-user:
-.. _bpy.ops.object.make_single_user:
 
-Make Single User
-================
+Making Single User
+==================
 
-.. admonition:: Reference
-   :class: refbox
+When a data-block is shared between several users, you can make a copy of it for a given user.
+To do so, click on the user-count button to the right of its name.
+This will duplicate that data-block and assign the newly created copy to that usage only.
 
-   :Editor:    3D View
-   :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Make Single User`
-   :Hotkey:    :kbd:`U`
+.. note::
 
-Makes the selected or all objects data-blocks a single user, that is,
-not shared (linked) between other objects than the current one.
-
-Type
-   These actions work on the selected objects, or on all the objects of the scene.
-
-   All, Selected Objects
-Data-blocks
-   Lets you, in addition to the menu predefined selection, choose the type of data-blocks individually.
-
-   Object, Object Data, Materials, Textures, Object Animation
+   Objects have a set of more advanced actions to become single-user,
+   see :doc:`their documentation </scene_layout/object/editing/duplication>`.
 
 
 Removing Data-Blocks
 ====================
 
-As covered in `Users (Garbage Collection)`_, data-blocks are typically removed when they are no longer used.
+As covered in `Life Time`_, data-blocks are typically removed when they are no longer used.
 
-There are some exceptions to this, however.
+They can also be manually *unlinked* or *deleted*.
 
-The following data-blocks can be removed directly: Scene, Text, Group, and Screen.
+Unlinking a data-block means that its user won't use it anymore.
+This can be achieved by clicking on the "X" icon next to a data-block's name.
 
-Other data-blocks such as Groups and Actions can be *Unlinked* from the *Outliner* context menu.
+If you unlink a data-block from all of its users,
+it will eventually be deleted by Blender as described above (unless it is a protected one).
 
-.. tip::
+Deleting a data-block directly erases it from the blend-file, automatically unlinking it from all of its users.
+This can be achieved by Shift-clicking on the "X" icon next to its name.
 
-   Some data (images especially) is hard to keep track of,
-   especially since image views are counted as users.
+.. warning::
 
-   For data-blocks that can be unlinked hold :kbd:`Shift`, while pressing on the *X* button.
-   This force clears the user count, so the data-block will be removed on reloading.
+   Deleting some data-blocks can lead to deletion of some of its users, which would become invalid without it.
+   The main example is that object-data deletion (like mesh, curve, camera...) will also delete all objects using it.
+
+Those two operations are also available in the contextual menu when right-clicking on a data-block in the *Outliner*.
 
 
 .. _data-system-datablock-types:
