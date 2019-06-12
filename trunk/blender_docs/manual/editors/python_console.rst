@@ -153,25 +153,6 @@ Try It Out!
 .. figure:: /images/editors_python-console_bpy-data.png
 
 
-Exercise
-^^^^^^^^
-
-After :kbd:`Return` twice it prints the names of all objects
-belonging to the Blender scene with name "Scene"::
-
-   for obj in bpy.data.scenes['Scene'].objects: print(obj.name)
-
-Unlink the active object from the Blender scene named 'Scene'::
-
-   bpy.data.scenes['Scene'].objects.unlink(bpy.context.active_object)
-
-.. code-block:: python
-
-   bpy.data.materials['Material'].shadows
-
-   bpy.data.materials['Material'].shadows = False
-
-
 bpy.ops
 -------
 
@@ -180,32 +161,6 @@ Operators are typically executed from buttons or menus but can be called directl
 
 See the `bpy.ops <https://www.blender.org/api/blender_python_api_current/bpy.ops.html>`__ API documentation
 for a list of all operators.
-
-Lets create a set of five Cubes in the 3D View. First,
-delete the existing Cube object by selecting it and pressing :kbd:`X`.
-
-
-Try It Out!
-^^^^^^^^^^^
-
-The following commands are used to specify that the objects are created in layer 1.
-So first we define an array variable for later reference::
-
-   mylayers = [False] * 20
-   mylayers[0] = True
-
-We create a reference to the operator that is used for creating a cube mesh primitive::
-
-   add_cube = bpy.ops.mesh.primitive_cube_add
-
-Now in a *for loop*, we create the five objects like this
-(in the screenshot above, another method is used):
-Press :kbd:`Return` twice after entering the command at the shell prompt::
-
-   for index in range(5):
-       add_cube(location=(index * 3, 0, 0), layers=mylayers)
-
-.. figure:: /images/editors_python-console_bpy-ops.png
 
 
 Usage
