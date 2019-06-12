@@ -80,10 +80,10 @@ Roughness
 
       When converting from the older *Glossy BSDF* node, use the square root of the original value.
 
-Anisotropic
+Anisotropic :guilabel:`Cycles Only`
    Amount of anisotropy for specular reflection. Higher values give elongated highlights along the tangent direction;
    negative values give highlights shaped perpendicular to the tangent direction.
-Anisotropic Rotation
+Anisotropic Rotation :guilabel:`Cycles Only`
    Rotates the direction of anisotropy, with 1.0 going full circle.
 
    .. hint::
@@ -105,7 +105,7 @@ IOR
    Index of refraction for transmission.
 Transmission
    Mix between fully opaque surface at zero and fully glass like transmission at one.
-Transmission Roughness
+Transmission Roughness :guilabel:`Cycles Only`
    With **GGX** distribution controls roughness used for transmitted light.
 Normal
    Controls the normals of the base layers.

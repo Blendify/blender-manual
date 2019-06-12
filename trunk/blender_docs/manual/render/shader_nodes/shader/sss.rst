@@ -58,7 +58,7 @@ Method
    Christensen-Burley
       Is an approximation to physically-based volume scattering.
       Gives less blurry results than Cubic and Gaussian functions.
-   Random Walk
+   Random Walk :guilabel:`Cycles Only`
       Provides the most accurate results for thin and curved objects.
       This comes at the cost of increased render time or noise for more dense media like skin,
       but also better geometry detail preservation.

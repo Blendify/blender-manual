@@ -4,6 +4,8 @@
 Hair BSDF
 *********
 
+:guilabel:`Cycles Only`
+
 .. figure:: /images/render_cycles_nodes_types_shaders_hair_node.png
    :align: right
 

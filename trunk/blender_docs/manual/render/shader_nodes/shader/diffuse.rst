@@ -19,7 +19,7 @@ Inputs
 Color
    Color of the surface, or physically speaking,
    the probability that light is reflected or transmitted for each wavelength.
-Roughness
+Roughness :guilabel:`Cycles Only`
    Surface roughness; 0.0 gives standard Lambertian reflection, higher values activate the Oren-Nayar BSDF.
 Normal
    Normal used for shading; if nothing is connected the default shading normal is used.
