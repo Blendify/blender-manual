@@ -97,8 +97,14 @@ Usage
    :Menu:      :menuselection:`File --> Save`
    :Hotkey:    :kbd:`Ctrl-S`
 
+.. admonition:: Reference
+   :class: refbox
+
    :Menu:      :menuselection:`File --> Save As...`
    :Hotkey:    :kbd:`Shift-Ctrl-S`
+
+.. admonition:: Reference
+   :class: refbox
 
    :Menu:      :menuselection:`File --> Save Copy...`
 
