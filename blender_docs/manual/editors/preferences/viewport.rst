@@ -30,7 +30,7 @@ Quality
 Viewport Anti-aliasing
    TODO2.8.
 Multisampling
-   This enables :term:`FSAA` for smoother drawing, at the expense of some performance.
+   This enables :term:`multisampling` for smoother drawing, at the expense of some performance.
 Grease Pencil Multisampling
    TODO.
 Edit-Mode Smooth Wires

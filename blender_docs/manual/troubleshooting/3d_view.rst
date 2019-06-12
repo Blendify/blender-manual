@@ -153,14 +153,14 @@ so the graphics card driver relies on giving correct results.
 
 Possible Solutions:
 
-Disable Anti-Aliasing :term:`FSAA, Multisampling <FSAA>`
+Disable Anti-Aliasing :term:`Multisampling`
    This is by far the most common cause of selection issues.
 
-   There are known problems with some graphics cards when using FSAA/multisampling.
+   There are known problems with some graphics cards when using multisampling.
 
    You can disable this option by:
 
-   - Turning FSAA/multisampling off in your graphics card driver options.
+   - Turning multisampling off in your graphics card driver options.
    - Turning *Multi-Sampling* off in the :ref:`System Preferences <prefs-system-multi-sampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
