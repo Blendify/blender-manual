@@ -174,7 +174,7 @@ Tangent
    Everything is compatible.
 
 Texture Coordinate
-   From Dupli and coordinate from Custom Object is not supported.
+   From Dupli is not supported.
 
 UV Map
    From Dupli is not supported.

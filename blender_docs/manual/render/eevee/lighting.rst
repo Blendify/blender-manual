@@ -43,7 +43,7 @@ Point Light
 
 Point lights emit light equally in all directions.
 By setting the *Size* larger than zero, they become spherical lights,
-which give softer shadows (TODO2.8 link soft shadows) and shading.
+which give softer :doc:`shadows </render/eevee/shadows>` and shading.
 
 .. seealso::
 
@@ -54,7 +54,7 @@ Spot Light
 ----------
 
 Spot lights emit light in a particular direction, inside a cone.
-By setting the *Size* larger than zero, they can cast softer shadows (TODO2.8 link soft shadows) and shading.
+By setting the *Size* larger than zero, they can cast softer :doc:`shadows </render/eevee/shadows>` and shading.
 
 .. note::
 
