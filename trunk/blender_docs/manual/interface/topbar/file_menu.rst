@@ -22,16 +22,16 @@ Recover
       to :doc:`recover </troubleshooting/recover>` it.
 Save :kbd:`Ctrl-S`
    :ref:`Save <files-blend-save>` the current blend-file.
-Save As :kbd:`Shift-Ctrl-S`
+Save As... :kbd:`Shift-Ctrl-S`
    Opens the File Browser to specify file name and location of :ref:`save <files-blend-save>`.
-Save Copy
+Save Copy...
    :ref:`Saves <files-blend-save>` a copy of the current file.
-Link
+Link... :kbd:`F4`, :kbd:`L`
    Links data from an external blend-file (library) to the current scene.
    The edition of that data is only possible in the external library.
    *Link* and *Append* are used to load in only selected parts from another file.
    See :doc:`Linked Libraries </files/linked_libraries>`.
-Append :kbd:`Shift-F1`
+Append... :kbd:`F4`, :kbd:`A`
    Appends data from an external blend-file to the current scene.
    The new data is copied from the external file, and completely unlinked from it.
 Data Previews
@@ -44,10 +44,10 @@ Data Previews
       Clear previews for supported data-block types.
    Batch-Clear Previews
       Clear previews for selected .blend files.
-Import
+Import :kbd:`F4`, :kbd:`I`
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs. See :doc:`Import/Export </files/import_export>`.
-Export
+Export :kbd:`F4`, :kbd:`E`
    Normally you save your work in a blend-file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
    See :doc:`Import/Export </files/import_export>`.
@@ -73,7 +73,7 @@ External Data
       After selecting this option, a warning message will appear in the Info editor's header.
       If no warning is shown, there are no missing external files.
    Find Missing Files
-      In case you have broken links in a blend-file, this option will help you to fix the problem.
+      In case you have broken links in a blend-file, this can help you to fix the problem.
       A File Browser will show up. Select the desired directory (or a file within that directory),
       and a search will be performed in it, recursively in all contained directories.
       Every missing file found in the search will be recovered.
@@ -95,7 +95,7 @@ Defaults
 
    Save User Settings
       Saves the current blend file as the startup-file.
-    Load Factory Settings
+   Load Factory Settings
       Restores the default startup file and preferences.
 
    .. seealso:: :ref:`prefs-menu`.
