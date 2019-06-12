@@ -60,6 +60,8 @@ as with meshes, by pressing respectively :kbd:`E R` and :kbd:`E S` --
 as well as :doc:`locked </scene_layout/object/editing/transform/control/precision/axis_locking>`
 extrusion along a global or local axis.
 
+.. TODO2.8 Update images?
+
 .. _fig-rig-bone-mirror:
 
 .. list-table:: Mirror extrusion example.
@@ -117,6 +119,8 @@ it will be on the plane parallel to the view and passing through the 3D cursor.
 
 The position of the root and the parenting of the new bone depends on the active element:
 
+.. TODO2.8 Update images?
+
 .. figure:: /images/rigging_armatures_bones_editing_bones_mouse-clicks-1.png
    :width: 300px
 
@@ -127,6 +131,8 @@ If the active element is a *bone*:
 - The new bone's root is placed on the active bone's tip.
 - The new bone is parented and connected to the active bone
   (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
+
+.. TODO2.8 Update images?
 
 .. _fig-rig-bone-active-tip:
 
@@ -140,6 +146,8 @@ If the active element is a *tip*:
 - The new bone's root is placed on the active tip.
 - The new bone is parented and connected to the bone owning the active tip
   (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
+
+.. TODO2.8 Update images?
 
 .. _fig-rig-bone-disconnected-tip:
 
@@ -155,6 +163,8 @@ If the active element is a *disconnected root*:
   (check the Outliner in Fig. :ref:`fig-rig-bone-disconnected-tip`).
 
 And hence the new bone will **not** be connected to any bone.
+
+.. TODO2.8 Update images?
 
 .. _fig-rig-bone-connected-root:
 
@@ -196,6 +206,8 @@ If you have one root and one tip selected, the new bone:
 - Will have the tip placed on the selected root.
 - Will be parented and connected to the bone owning the selected tip.
 
+.. TODO2.8 Update images?
+
 .. list-table:: Fill between a tip and a root.
 
    * - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-1.png
@@ -213,6 +225,8 @@ If you have two tips selected, the new bone:
 - Will have the root placed on the selected tip closest to the 3D cursor.
 - Will have the tip placed on the other selected tip.
 - Will be parented and connected to the bone owning the tip used as the new bone's root.
+
+.. TODO2.8 Update images?
 
 .. list-table:: Fill between tips.
 
@@ -238,6 +252,8 @@ When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 If you try to move the new bone, Blender will update the interface and you will see
 that the new bone's root moves to the tip of the parent bone.
 
+.. TODO2.8 Update images?
+
 .. list-table:: Fill between roots.
 
    * - .. figure:: /images/rigging_armatures_bones_editing_bones_fill-joints-5.png
@@ -252,6 +268,8 @@ that the new bone's root moves to the tip of the parent bone.
 
 Clicking :kbd:`F` with only one bone joint selected will create a bone from the selected
 joint to the 3D cursor position, and it will not parent it to any bone in the armature.
+
+.. TODO2.8 Update images?
 
 .. list-table:: Fill with only one bone joint selected.
 
@@ -483,11 +501,11 @@ X-Axis Mirror
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Options --> Armature Options --> X-Axis Mirror`
+   :Panel:     :menuselection:`Sidebar region --> Tool --> Options --> X-Axis Mirror`
 
 This option enables automatic mirroring of editing actions along the X axis.
 Another very useful tool is the *X-Axis Mirror* editing option by
-:menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*.
+:menuselection:`Tool tab --> Options panel`, while Armature is selected in *Edit Mode*.
 When you have pairs of bones of the same name with just a different "side suffix"
 (e.g. ".R"/".L", or "_right"/"_left" ...), once this option is enabled,
 each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,

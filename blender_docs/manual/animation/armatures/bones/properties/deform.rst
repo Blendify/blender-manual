@@ -9,9 +9,9 @@ Deform
    :Mode:      All Modes
    :Panel:     :menuselection:`Bone --> Deform`
 
-.. figure:: /images/rigging_armatures_bones_properties_deform_panel.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_deform_panel.png
 
-   The Deform panel.
+.. TODO2.8    The Deform panel.
 
 In this panel you can set deformation options for each bone.
 
@@ -52,7 +52,7 @@ shown in the *Envelope* visualization:
 
    The :doc:`editing pages </animation/armatures/bones/editing/transform>` for how to edit these properties.
 
-Distance
+Envelope Distance
    The Distance defines a volume which is the range within the bone
    has an influence on vertices of the deformed object.
    The geometry is less and less affected by the bone as it goes away by following a quadratic decay.
@@ -61,7 +61,7 @@ Distance
 
       Single bone with various different envelope sizes.
 
-Weight
+Envelope Weight
    A bone property, that controls the global influence of the bone over the deformed object,
    when using the envelopes method.
 
@@ -69,6 +69,7 @@ Weight
    influenced by more than one bone (generally, at the joints...) -- a bone with a high weight will
    have more influence on the result than one with a low weight...
    Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
+
 Radius
    Set the radius for the head and the tail of envelope bones.
    Inside this volume, the geometry if fully affected by the bone.
@@ -79,7 +80,7 @@ Radius
 
       The 1st with a default radius value, the two others with differing Tail and Head radius values.
 
-Multiply
+Envelope Multiply
    This option controls how the two deforming methods interact, when they are both enabled.
    By default, when they are both active, all vertices belonging to at least one vertex group are only deformed
    through the vertex groups method. The other "orphan" vertices being handled by the envelopes one.

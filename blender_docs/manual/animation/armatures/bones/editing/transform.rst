@@ -6,11 +6,11 @@ Transform
 Transform
 =========
 
-.. figure:: /images/rigging_armatures_bones_editing_transform_panel.png
-   :align: right
-   :figwidth: 165px
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_editing_transform_panel.png
+.. TODO2.8   :align: right
+.. TODO2.8   :figwidth: 165px
 
-   The Transform panel for armatures in Edit Mode.
+.. TODO2.8   The Transform panel for armatures in Edit Mode.
 
 We will not detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
 as they are common to most object editing, and already described in
@@ -55,6 +55,8 @@ of the parent's tip and of the children's roots.
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter,
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* number buttons.
+
+.. TODO2.8 Maybe replace the images?
 
 .. list-table:: Bone Scale and Scale Radius comparison.
 
@@ -103,6 +105,8 @@ then enter a new value into it.
 Altering the Bone Envelope volume does not alter the size of the bone just the range
 within which it can influence vertices of child objects.
 
+.. TODO2.8 Maybe replace the images?
+
 .. list-table:: Envelope scaling example.
 
    * - .. figure:: /images/rigging_armatures_bones_editing_transform_scaling-bone-radius-3.png
@@ -143,7 +147,7 @@ Align Bones
    :Menu:      :menuselection:`Armature --> Transform --> Align Bones`
    :Hotkey:    :kbd:`Ctrl-Alt-A`
 
-ToDo <2.72.
+.. TODO <2.72.
 
 
 .. _armature-bone-roll:
@@ -212,14 +216,14 @@ Switch Direction
    :Menu:      :menuselection:`Armature --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
    :Hotkey:    :kbd:`Alt-F`
 
-This tool is not available from the *Armature* menu,
-but only from the *Specials* pop-up menu :kbd:`W`.
-It allows you to switch the direction of the selected bones
+This tool allows you to switch the direction of the selected bones
 (i.e. their root will become their tip, and vice versa).
 
 Switching the direction of a bone will generally break the chain(s) it belongs to.
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
 but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
+
+.. TODO2.8 Maybe replace the images?
 
 .. _fig-rig-properties-switch:
 

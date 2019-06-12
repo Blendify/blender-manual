@@ -1,17 +1,17 @@
 
-*************
-Display Panel
-*************
+**********************
+Viewport Display Panel
+**********************
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object and Pose Mode
-   :Panel:     :menuselection:`Bone --> Display`
+   :Panel:     :menuselection:`Bone --> Viewport Display`
 
-.. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-field.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-field.png
 
-   The Display panel.
+.. TODO2.8    The Display panel.
 
 Display panel lets you customize the look of your bones taking the shape of another existing object.
 
@@ -28,7 +28,7 @@ Custom Shape
 Blender allows you to give to each bone of an armature a specific shape
 (in *Object Mode* and *Pose Mode*), using another object as "template".
 In order to be visible the *Shapes* checkbox has to be enabled
-(:menuselection:`Armature --> Display` panel).
+(:menuselection:`Armature --> Viewport Display` panel).
 
 
 Options
@@ -39,9 +39,9 @@ Custom Shape
 Bone Size
    Option not to use bones length, so that changes in Edit Mode don't resize the custom shape.
 Scale
-   Avoids having multiple custom shapes at different sizes.
+   Additional scaling factor to apply to the custom shape.
 At
-   Bone that defines the display transform of this shape bone.
+   Bone that defines the display transform of the custom shape.
 
 
 Workflow
@@ -50,7 +50,7 @@ Workflow
 To assign a custom shape to a bone, you have to:
 
 #. Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
-#. Select the relevant bone by clicking on it with :kbd:`RMB`.
+#. Select the relevant bone by clicking on it.
 #. Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
    in this example we are using a cube and a cone. You can optionally set the *At* field to another bone.
 
