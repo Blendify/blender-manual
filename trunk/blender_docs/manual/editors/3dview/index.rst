@@ -19,4 +19,3 @@
    properties/index.rst
    ruler_protractor.rst
    viewport_render.rst
-   annotations/index.rst

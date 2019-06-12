@@ -105,7 +105,7 @@ Euclidean Distance
 
 .. seealso::
 
-   :doc:`Read more about Annotations </editors/3dview/annotations/index>`.
+   :doc:`Read more about Annotations </grease_pencil/index>`.
 
 
 Miscellaneous
