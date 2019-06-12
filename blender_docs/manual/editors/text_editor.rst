@@ -12,8 +12,8 @@ accessible via the *Editor type* menu, or the shortcut :kbd:`Shift-F11`.
 Header
 ======
 
-The newly opened Text editor is gray and empty, with a very simple header
-(Fig. :ref:`fig-text-header-plain`).
+The newly opened Text editor is empty, with a very simple header.
+More options become available when a text file is created or opened.
 
 .. _fig-text-header-plain:
 
@@ -33,11 +33,10 @@ Menus
    Editors `Menus`_.
 Text
    A Data-block menu to select a text or to create a new one.
-   After that the header will change (Fig. :ref:`fig-text-header-full`).
+   After that the header will change.
 Show
-   The following three buttons toggle display options.
-
-   Line numbers, word-wrap text, syntax highlighting
+   The following three buttons toggle display options:
+   line numbers, word-wrap text and syntax highlighting.
 
 .. _editors-text-run-script:
 
