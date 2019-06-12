@@ -45,7 +45,7 @@ This page lists definitions for terms used in Blender and this manual.
 
       Conversion (Straight/Premultiplied) Alpha
          Conversion between the two alpha types is not a simple operation and can involve data loss,
-         as both alpha types can represent data that the other cannot though it is often subtle.
+         as both alpha types can represent data that the other cannot, though it is often subtle.
 
          Straight alpha can be considered to be an RGB color image with a separate alpha mask.
          In areas where this mask is fully transparent, there can still be colors in the RGB channels.
@@ -69,7 +69,7 @@ This page lists definitions for terms used in Blender and this manual.
       Simulation of motion.
 
    Anti-aliasing
-      See :term:`oversampling`.
+      Is the technique of minimizing :term:`aliasing`, by rendering multipe samples per pixel.
 
    Armature
       An :term:`Object` consisting of :term:`bones <bone>`. Used to :term:`rig` characters, props, etc.
@@ -273,11 +273,6 @@ This page lists definitions for terms used in Blender and this manual.
    Empty
       An :term:`Object` without any :term:`Vertices`, :term:`Edges <Edge>` or :term:`Faces <Face>`.
 
-   Environment Map
-      A method of calculating reflections.
-      It involves rendering images at strategic positions and applying them as textures to the mirror.
-      Now in most cases obsoleted by ray tracing, which though slower is easier to use and more accurate.
-
    Euler
    Euler Rotation
       Rotation method where rotations applied on each X, Y, Z axis component.
@@ -320,14 +315,6 @@ This page lists definitions for terms used in Blender and this manual.
       B‑frames
          Use both previous and forward frames for data reference to get the highest amount of compression.
 
-   FSAA
-   Full-Screen Anti-Aliasing
-      A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
-      Also known as *Multisampling*.
-
-      This can be enabled in the :ref:`Preferences <prefs-system-multi-sampling>`.
-      On many graphics cards, this can also be enabled in the driver options.
-
    Gamma
       An operation used to adjust the brightness of an image.
 
@@ -356,11 +343,6 @@ This page lists definitions for terms used in Blender and this manual.
 
    Global Space
       See :term:`World Space`.
-
-   Gouraud Shading
-      Used to achieve smooth lighting on low-polygon surfaces without
-      the heavy computational requirements of calculating lighting for each pixel.
-      The technique was first presented by Henri Gouraud in 1971.
 
    Glossy Map
       See :term:`Roughness Map`.
@@ -479,7 +461,7 @@ This page lists definitions for terms used in Blender and this manual.
       Simulating motion blur makes computer animation appear more realistic.
 
    Multisampling
-      See :term:`FSAA`.
+      Rendering multiple samples per pixel, for :term:`anti-aliasing`.
 
    N-gon
       A :term:`face` that contains more than four :term:`vertices <vertex>`.
@@ -547,12 +529,6 @@ This page lists definitions for terms used in Blender and this manual.
       for drawing 3D graphics, often taking advantage of hardware acceleration.
 
       See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
-
-   Oversampling
-      Is the technique of minimizing :term:`aliasing`
-      when representing a high resolution signal at a lower resolution.
-
-      Also called Anti-Aliasing.
 
    Overscan
       The term used to describe the situation.
