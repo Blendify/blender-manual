@@ -167,7 +167,7 @@ Operator Panel
 Link/Append from Library
    See :doc:`Linked libraries </files/linked_libraries>`.
 Open, Save, Save As Blender File
-   See :doc:`/files/blend`.
+   See :doc:`/files/blend/blend`.
 Open, Replace, Save As Image
    See :doc:`/files/media/image_formats`.
 

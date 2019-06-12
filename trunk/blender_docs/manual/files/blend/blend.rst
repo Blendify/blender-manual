@@ -3,6 +3,17 @@
 Blend Files
 ***********
 
+Saving and opening blend-file are usually done using the :doc:`File Browser </editors/file_browser/introduction>`.
+
+.. note:: Unsaved Changes
+
+   By default, when exiting Blender or loading a new blend-file, if you have unsaved changes,
+   a pop-up will ask you to either confirm discarding those changes, or save them.
+
+   This behavior can be disabled with the *Save Prompt* option in the :ref:`prefs-save-load` section
+   of the *Preferences*.
+
+
 .. _files-blend-open:
 
 Opening Files
@@ -10,7 +21,7 @@ Opening Files
 
 .. figure:: /images/data-system_files_open_file-browser-open.png
 
-   The File Browser.
+   The File Browser in open configuration.
 
 
 Usage
@@ -19,18 +30,11 @@ Usage
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Info Editor --> File --> Open`
-   :Hotkey:    :kbd:`Ctrl-O` or :kbd:`F1`
+   :Menu:      :menuselection:`File --> Open...`
+   :Hotkey:    :kbd:`Ctrl-O`
 
 The upper text field displays the current directory path,
 and the lower text field contains the selected filename.
-
-.. warning:: For Linux and macOS Users
-
-   When exiting you are **not** asked to save unsaved changes to the scene you were previously working on.
-   So take care to save your work.
-
-   On MS-Windows, there is a :ref:`prefs-save-load` option to warn on exit.
 
 
 Options
@@ -44,8 +48,8 @@ Load UI
 
    .. tip::
 
-      If you want to work on the blend-file using your own defaults, start a fresh Blender,
-      then open the File Browser and turn off the *Load UI* button, and then open the file.
+      If you want to work on a blend-file using your own defaults, start a fresh Blender,
+      open the File Browser and turn off the *Load UI* button, and open the desired file.
 
 Trusted Source
    When enabled, Python scripts and drivers that may be included in the file will be run automatically.
@@ -79,27 +83,39 @@ Recover Auto Save
 Saving Files
 ============
 
+.. figure:: /images/data-system_files_save_file-browser-save.png
+
+   The File Browser in save configuration.
+
+
+Usage
+-----
+
 .. admonition:: Reference
    :class: refbox
 
    :Menu:      :menuselection:`File --> Save`
+   :Hotkey:    :kbd:`Ctrl-S`
+
+   :Menu:      :menuselection:`File --> Save As...`
+   :Hotkey:    :kbd:`Shift-Ctrl-S`
+
+   :Menu:      :menuselection:`File --> Save Copy...`
 
 There are a number of slightly different methods you can use to save your blend-file to your hard drive:
 
 Save :kbd:`Ctrl-S`
-   Save an existing blend-file over itself.
-Save As :kbd:`Shift-Ctrl-S`
-   Choose a file to save the blend-file to.
+   Save current blend-file over itself (if it was not saved yet, this will automatically switch to *Save As...*).
+Save As... :kbd:`Shift-Ctrl-S`
+   Choose a file path to save the blend-file to.
 Save Copy
-   Choose a file to save the blend-file to, but return to editing the original file upon completion.
+   Choose a file path to save the blend-file to, but return to editing the original file upon completion.
    This can be used to save backups of the current working state without modifying the original file.
 
 .. warning::
 
    If a file with the same given name already exists,
    the text field will turn red as a warning that the file will be overwritten.
-
-.. figure:: /images/editors_file-browser_introduction_editor.png
 
 .. tip::
 
@@ -110,8 +126,6 @@ Save Copy
 
 Options
 -------
-
-The save options appear in the operator panel.
 
 Compress File
    When enabled, the saved file will be smaller, but take longer to save and load.
@@ -148,15 +162,15 @@ When relative paths are supported, the File Browser provides a *Relative Path* c
 when entering the path into a text field, use a double slash prefix (``//``) to make it so.
 
 Relative paths are the default but this can be changed
-in the :doc:`File </editors/preferences/file_paths>` tab of the Preferences Editor.
+in the :doc:`File </editors/preferences/file_paths>` tab of the *Preferences*.
 
 .. note::
 
-   You cannot enter relative paths into a new *untitled* blend-file.
+   You cannot use relative paths into a new *untitled* blend-file.
    Save it before linking to external files.
 
 .. hint::
 
    If it is necessary to relocate a blend-file relative to its linked resources,
-   use Blender's File :ref:`Save As <files-blend-save>`
+   use Blender's File :ref:`Save As... <files-blend-save>`
    function which has an option to *Remap Relative* file links.
