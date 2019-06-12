@@ -26,6 +26,8 @@ Modes
 Pivot Point
    See :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
+.. _clip-editor-clip-display-label:
+
 Clip Display
 ------------
 
