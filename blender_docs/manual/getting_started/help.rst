@@ -66,7 +66,7 @@ This opens a webpage relating to the button under the cursor, supporting both to
 Help Menu
 =========
 
-The *Help* menu in the Info Editor header.
+The *Help* menu in the topbar.
 
 .. figure:: /images/getting-started_help_menu.png
    :align: right

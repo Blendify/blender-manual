@@ -57,7 +57,7 @@ Scripting
 
    text_editor.rst
    python_console.rst
-   info/index.rst
+   info_editor.rst
 
 
 Data
