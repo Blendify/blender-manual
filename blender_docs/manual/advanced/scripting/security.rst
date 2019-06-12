@@ -12,10 +12,10 @@ Therefore, you should only run scripts from sources you know and trust.
 Automatic execution is disabled by default,
 however, some blend-files need this to function properly.
 
-When a blend-file tries to execute a script and is not allowed, a message will appear in
-the header with the option to **Reload Trusted** or **Ignore** the message.
+When a blend-file tries to execute a script and is not allowed, a dialog will appear.
+In it, you can choose to *Allow Execution* or to *Ingore* the scripts.
 
-.. figure:: /images/animation_drivers_troubleshooting_autorun-info-header.png
+.. figure:: /images/advanced_scripting_autorun-scripts-dialog.png
 
    An Auto-run warning in the Info editor's header.
 
