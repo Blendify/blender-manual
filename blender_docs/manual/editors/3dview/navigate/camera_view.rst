@@ -7,8 +7,7 @@ Camera View
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> Camera`
-   :Menu:      :menuselection:`View --> Camera --> Active Camera`
+   :Menu:      :menuselection:`View --> Cameras --> Active Camera`
    :Hotkey:    :kbd:`Numpad0`
 
 .. figure:: /images/editors_3dview_navigate_camera-view_example.png
