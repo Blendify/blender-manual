@@ -146,17 +146,17 @@ Ease In, Out
    which of course automatically varies depending on bone length,
    angle with the reference handle, and so on.
 
-.. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
+.. TODO2.8 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
-   * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-1.png
-          :width: 320px
+.. TODO2.8    * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-1.png
+.. TODO2.8           :width: 320px
 
-          Look at Bone.004: it has the default In and Out values (1.0).
+.. TODO2.8           Look at Bone.004: it has the default In and Out values (1.0).
 
-     - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-2.png
-          :width: 320px
+.. TODO2.8      - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-2.png
+.. TODO2.8           :width: 320px
 
-          Bone.004 with In at 2.0, and Out at 0.0.
+.. TODO2.8           Bone.004 with In at 2.0, and Out at 0.0.
 
 
 Custom Handles

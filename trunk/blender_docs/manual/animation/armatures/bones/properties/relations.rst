@@ -9,9 +9,9 @@ Relations
    :Mode:      All Modes
    :Panel:     :menuselection:`Bone --> Relations`
 
-.. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
 
-   The Relations panel.
+.. TODO2.8    The Relations panel.
 
 In this panel you can arrange sets of bones in different layers for easier manipulation.
 
@@ -44,9 +44,9 @@ Bone Group
 
    :Mode:      Pose Mode
 
-.. figure:: /images/rigging_armatures_bones_properties_relations_group-list.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_relations_group-list.png
 
-   The Bone Group data ID.
+.. TODO2.8    The Bone Group data ID.
 
 To assign a selected bone to a given bone group use the *Bone Group* data ID.
 
@@ -60,7 +60,7 @@ Object Children
    :Mode:      Pose Mode
 
 Relative Parenting
-   ToDo 2.66.
+   Changes how transformation of the bone is applied to its child Objects.
 
 
 .. _bone-relations-parenting:
@@ -105,20 +105,23 @@ By default, children bones inherit:
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using the Relations panel in the *Bones* tab:
 
-.. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_relations_panel.png
 
-   Relations panel in Pose Mode.
+.. TODO2.8    Relations panel in Pose Mode.
 
 Inherit Rotation
    When disabled, this will "break" the rotation relationship to the bone's parent.
    This means that the child will keep its rotation in the armature object space when its parent is rotated.
 Inherit Scale
    When disabled, this will "break" the scale relationship to the bone's parent.
+Local Location
+   When disabled, the location transform property is evaluated in the parent bone's local space,
+   rather than using the bone's own *rest pose* local space orientation.
 
 These inheriting behaviors propagate along the bones' hierarchy.
 So when you scale down a bone, all its descendants are by default scaled down accordingly.
-However, if you set one bone's *Inherit Scale* or *Inherit Rotation*
-property on in this "family", this will break the scaling propagation,
+However, if you disable one bone's *Inherit Scale* or *Inherit Rotation*
+property in this "family", this will break the scaling propagation,
 i.e. this bone *and all its descendants* will no longer be affected when you scale one of its ancestors.
 
 .. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
