@@ -1,32 +1,18 @@
+.. TODO: use substitutions, see: https://stackoverflow.com/questions/56557296
+.. |menu| unicode:: U+2630
+
 
 ********
 Defaults
 ********
 
-Preferences
-===========
+There are two areas where where Blender defaults are stored.
 
-TODO2.8: Auto-save option, how to restore factory settings (file menu).
+:ref:`Preferences <prefs-menu>`
+  stores key-map, add-ons theme and other options
+:ref:`Startup File <startup-file>`
+  stores the scene, workspaces and interface which is displayed at startup
+  and when loading a new file (:menuselection:`File --> New`).
 
-
-Startup File
-============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Menu:      :menuselection:`File --> Save Startup File`
-   :Hotkey:    :kbd:`F4`, :kbd:`P`
-
-Saves the current file as the default Blender file ``startup.blend``.
-This file is loaded every time Blender is opened or a new file is generated (:menuselection:`File --> New`).
-It contains the default :doc:`startup scene </editors/3dview/startup_scene>` included with Blender.
-This startup scene can be replaced by your own customized setup.
-
-To change the startup scene, make all of the desired changes to the current scene or
-current file and :menuselection:`File --> Save Startup File`.
-Saving the ``startup.blend`` still stores Preferences in the file.
-Only if a ``userpref.blend`` exists, it will use the preferences from that file.
-
-If you want to go back to the original startup file
-you can reset Blender to its :ref:`factory settings <factory-settings>`.
+.. TODO2.8: more content about defaults would be useful:
+   - how they relate to app-templates.
