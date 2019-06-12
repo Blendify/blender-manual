@@ -5,21 +5,15 @@ Introduction
 
 .. figure:: /images/render_cycles_introduction_overview.jpg
 
-Cycles is Blender's physically-based production renderer.
+Cycles is Blender's physically-based path tracer for production rendering.
+It is designed to provide physically based results out-of-the-box,
+with artistic control and flexible shading nodes for production needs.
 
-To use Cycles, set it as the active render engine in the Render properties.
-Interactive rendering can be started in the 3D viewport by changing to the Render display mode.
-To render an image or :doc:`animation </render/output/animation>`, use the Render menu.
-
-Cycles may be able to use your :abbr:`GPU (Graphics Processing Unit, or Graphics Card)` for faster rendering.
-To see if and how you can use your GPU for rendering, see the documentation on
-:doc:`GPU Rendering </render/cycles/gpu_rendering>`.
-
-The source code is available under the Apache License v2,
-and can be integrated in open source and commercial software.
-Cycles is natively integrated in Blender, Poser, and Rhino.
+To use Cycles, select it as the Render Engine in the Render properties.
+For :doc:`GPU accelerated rendering </render/cycles/gpu_rendering>`,
+enable compatible devices in :menuselection:`Preferences --> System --> Cycles Render Devices`.
 
 .. seealso::
 
-   - `Cycles website <https://www.cycles-renderer.org/>`__
+   - The `Cycles website <https://www.cycles-renderer.org/>`__
      with more information and a gallery.

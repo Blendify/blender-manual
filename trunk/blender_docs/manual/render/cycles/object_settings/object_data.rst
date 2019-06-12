@@ -3,37 +3,25 @@
 Object Data
 ***********
 
-.. _render-cycles-settings-object-motion-blur:
-
-Motion Blur
-===========
+Visibility
+==========
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Object --> Motion Blur`
+   :Panel:     :menuselection:`Object --> Visibility`
 
-Each object has its own motion blur settings along with
-the :doc:`Scene Level Motion Blur </render/cycles/render_settings/motion_blur>`
-These settings can be found
-in the :doc:`Object Properties </scene_layout/object/properties/introduction>` tab
-of the Properties editor.
+Shadow Catcher
+--------------
 
-Deformation
-   Enables motion blur for deformed meshes such as animated characters, including hair.
-Steps
-   Controls accuracy of deformation motion blur, more steps gives more memory usage.
-   The actual number of time steps is :math:`2^{steps -1}`.
+Enables the object to only receive shadow rays.
+It is to be noted that shadow catcher objects will interact with other CG objects via indirect light interaction.
+This feature makes it really easy to combine :abbr:`CGI (Computer-generated imagery)` elements
+into a real-world footage.
 
+.. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.jpg
 
-Cycles Settings
-===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Object --> Cycles Settings`
-
+   Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
 
 .. _cycles-ray-visibility:
 .. _bpy.types.CyclesVisibilitySettings:
@@ -66,21 +54,8 @@ Objects invisible to a certain ray will be skipped in ray traversal already,
 leading to fewer rays cast and shaders executed.
 
 
-Shadow Catcher
---------------
-
-Enables the object to only receive shadow rays.
-It is to be noted that shadow catcher objects will interact with other CG objects via indirect light interaction.
-This feature makes it really easy to combine :abbr:`CGI (Computer-generated imagery)` elements
-into a real-world footage.
-
-.. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.jpg
-
-   Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
-
-
-Performance
------------
+Culling
+-------
 
 In order to activate these options the respectively camera cull options have to be enabled
 in the scene :ref:`simplify panel <render-cycles-settings-scene-simplify>`.
@@ -91,3 +66,25 @@ Use Distance Cull
    Will cull any objects further from the camera than a given distance. When used in combination with
    camera frustum culling, this can be used to avoid culling nearby objects that are outside the camera frustum,
    but still visible in reflections. It is also useful to cull small objects far from the camera.
+
+.. _render-cycles-settings-object-motion-blur:
+
+Motion Blur
+===========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Object --> Motion Blur`
+
+Each object has its own motion blur settings along with
+the :doc:`Scene Level Motion Blur </render/cycles/render_settings/motion_blur>`
+These settings can be found
+in the :doc:`Object Properties </scene_layout/object/properties/introduction>` tab
+of the Properties editor.
+
+Deformation
+   Enables motion blur for deformed meshes such as animated characters, including hair.
+Steps
+   Controls accuracy of deformation motion blur, more steps gives more memory usage.
+   The actual number of time steps is :math:`2^{steps -1}`.

@@ -16,7 +16,7 @@ Inputs
 ======
 
 Surface
-   Shading for the surface of the :doc:`light </render/lights>` object.
+   Shading for the surface of the :doc:`light object </render/lights/light_object>`.
 
 
 Properties

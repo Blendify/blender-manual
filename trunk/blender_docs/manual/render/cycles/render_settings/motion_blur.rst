@@ -24,15 +24,6 @@ both in a movie frame and in a photograph from a real-world camera.
    be sure to bake them before rendering,
    otherwise you might not get correct or consistent motion.
 
-
-Options
-=======
-
-.. figure:: /images/render_cycles_settings_scene_render_motion-blur_settings.png
-   :align: right
-
-   Motion Blur settings.
-
 Position
    Controls at what point the shutter opens in relation to the current frame.
 
@@ -81,9 +72,6 @@ Rolling Shutter Duration
    These options can be found in the Object tab of the Properties editor.
    See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
 
-
-Example
-=======
 
 .. figure:: /images/render_cycles_settings_scene_render_motion-blur_example-cubes.jpg
    :width: 640px

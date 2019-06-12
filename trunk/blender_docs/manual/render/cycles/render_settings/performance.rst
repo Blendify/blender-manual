@@ -88,4 +88,4 @@ Use Hair BVH
    The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
    Disabling this option will reduce memory, at the cost of increasing hair render time.
 BVH Time Steps
-   (Todo)
+   Split BVH primitives by this number of time steps to speed up render time in cost of memory.

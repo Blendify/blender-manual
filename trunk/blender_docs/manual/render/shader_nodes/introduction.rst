@@ -40,7 +40,7 @@ for direct lighting or global illumination.
 Textures
 ========
 
-Each texture type in Cycles corresponds to a node,
+Each texture type corresponds to a node,
 with a texture coordinate and various parameters as input, and a color or value as output.
 No texture data-blocks are needed; instead node groups can be used for reusing texture setups.
 
@@ -72,7 +72,7 @@ layering shaders and non-physically-based tricks can be found in:
 Open Shading Language
 =====================
 
-Custom nodes can be written using the Open Shading Language.
+In Cycles, custom nodes can be written using the Open Shading Language.
 
 .. seealso::
 

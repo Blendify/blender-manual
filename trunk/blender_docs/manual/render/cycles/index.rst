@@ -11,7 +11,7 @@
 
    introduction.rst
    render_settings/index.rst
-   world.rst
+   world_settings.rst
    object_settings/index.rst
    material_settings.rst
    light_settings.rst

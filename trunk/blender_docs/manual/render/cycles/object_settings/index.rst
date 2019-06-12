@@ -11,4 +11,3 @@ and are often only available in certain contexts.
 
    object_data.rst
    adaptive_subsurf.rst
-   hair.rst

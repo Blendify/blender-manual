@@ -1,7 +1,7 @@
 
-******
-Lights
-******
+************
+Light Object
+************
 
 Lighting is a very important topic in rendering.
 The most accurately modeled and textured scene will yield poor results without a proper lighting scheme,
@@ -103,9 +103,10 @@ plus a dashed line indicating the direction of the light.
    but because the light is emitted from a location considered infinitely far away,
    the location of a *Sun* light does not affect the rendered result.
 
-Color, Strength
-   These settings are common to most types of lights, and are described in
-   :doc:`Light Properties </render/lights>`.
+Color
+   Color tint of the light.
+Strength
+   Strength of the lights in Watts per square meter.
 Angle
    The size of the sun light according to its
    `angular diameter <https://en.wikipedia.org/wiki/Angular_diameter#Use_in_astronomy>`__

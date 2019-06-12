@@ -22,9 +22,9 @@ Cube
    Object Origin
       The :doc:`Origin of the object </scene_layout/object/origin>` is displayed as
       an orange dot and it marks the cube's (relative) position.
-Lamp
+Light
    The circles with a thin line to the bottom is a light source illuminating the cube.
-   Lights in: :doc:`General Settings </render/lights>`.
+   Lights in: :doc:`General Settings </render/lights/light_object>`.
 
 Camera
    The pyramid with a big triangle pointing upward is the camera used as point of view for rendering.

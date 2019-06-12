@@ -8,10 +8,6 @@ Film
 
    :Panel:     :menuselection:`Render --> Film`
 
-
-Options
-=======
-
 Exposure
    This can be used to change the brightness of an image.
    Different than the *Exposure* option found in the :ref:`Color management <render-post-color-management>` panel,
