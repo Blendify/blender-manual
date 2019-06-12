@@ -24,7 +24,7 @@ Camera Override
 
    It is useful to support switching views within a single scene.
 Show Annotations
-   Shows :doc:`Annotations </editors/3dview/annotations/index>`
+   Shows :doc:`Annotations </interface/annotation_tool>`
    in non render preview i.e. *Solid* mode.
 Audio Volume
    Volume of the audio taken from the chosen scene.

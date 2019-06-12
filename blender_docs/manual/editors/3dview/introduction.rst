@@ -13,9 +13,21 @@ Header
 The header contains various menus and controls based on the current
 :doc:`mode </editors/3dview/modes>`.
 
-.. figure:: /images/editors_3dview_introduction_header.png
+Mode
+----
 
-   3D View header.
+The 3D View has :doc:`several modes </editors/3dview/modes>`
+used for editing different kinds of data:
+
+- Object Mode
+- Edit Mode
+- Sculpt Mode
+- Vertex Paint
+- Weight Paint
+- Texture Paint
+- Particle Edit
+- Pose Mode
+- Edit Strokes Mode
 
 
 Menus
@@ -35,20 +47,6 @@ Object
 
 Controls
 --------
-
-Mode
-   The 3D View has :doc:`several modes </editors/3dview/modes>`
-   used for editing different kinds of data:
-
-   - Object Mode
-   - Edit Mode
-   - Sculpt Mode
-   - Vertex Paint
-   - Weight Paint
-   - Texture Paint
-   - Particle Edit
-   - Pose Mode
-   - Edit Strokes Mode
 
 Transform Orientations
    Use to select and modify the active 
@@ -92,10 +90,60 @@ Sidebar Region
 The Sidebar region contains properties of the active object and selected objects (such as their locations),
 as well as properties of the editor itself:
 
-.. TODO2.8 This is outdated. Item, Tool & View
+Item
+   Shows :doc:`Transform </scene_layout/object/editing/transform/introduction>`
+   settings of the active objects
 
-- :doc:`Transform </scene_layout/object/editing/transform/introduction>`
-- :doc:`Annotations </editors/3dview/annotations/introduction>`
-- :doc:`Display & View Panels </editors/3dview/properties/panels>`
-- :doc:`Background Images </editors/3dview/properties/background_images>`
-- :doc:`Transform Orientations </scene_layout/object/editing/transform/control/orientations>`
+Tool
+   Show settings of the active tool and workspace
+
+View
+   Shows settings of the current Viewport
+
+   View
+      Focal Length
+         Focal length of the viewport (when not in camera mode)
+      
+      Clip Start
+         3D View near clipping distance when in perspective mode
+      
+      End
+         3D View far clipping distance
+
+      Use Local Camera
+         Use a local camera in this view, rather then the scene's active camera
+      
+      Local Camera
+         Camera to use as local camera
+
+      Render Region
+         Use a region within the frame size for rendered viewport (when not
+         viewing through the camera)
+      
+      View Lock
+         Lock to Object
+            Center of this view is locked to the chosen object
+         
+         Lock to 3D Cursor
+            Center of this view is locked to the 3D Cursor
+         
+         Lock Camera to View
+            Enable view navigation while in camera view
+         
+   3D Cursor
+      Location
+         The location of the 3D Cursor
+      
+      Rotation
+         The rotation of the 3D Cursor
+      
+      Rotation Mode
+         The Rotation mode of the 3D Cursor
+      
+   Collections
+      This panel shows a list of collections. The visibility of the collection
+      can be changed.
+   
+   Annotations
+      See :doc:`Annotations </interface/annotation_tool>` for more
+      information about annotations.

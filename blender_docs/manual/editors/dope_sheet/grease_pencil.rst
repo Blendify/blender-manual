@@ -3,7 +3,7 @@
 Grease Pencil
 *************
 
-This Mode allows you adjust the timing of the :doc:`Grease pencil tool's </editors/3dview/annotations/index>`
+This Mode allows you adjust the timing of the :doc:`Grease pencil tool's </grease_pencil/index>`
 animated sketches. It is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
@@ -22,7 +22,7 @@ Grease Pencil (light blue)
    Multiple blocks are used for each area (e.g. one for the 3D View and the Image editor).
 Layers (gray)
    These channels contain the keyframes to which
-   the :doc:`layers </editors/3dview/annotations/drawing/layers>` are bound.
+   the :doc:`layers </grease_pencil/layers/index>` are bound.
 
 
 Header
