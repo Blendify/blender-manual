@@ -6,6 +6,5 @@
 .. toctree::
    :maxdepth: 2
 
-   panels.rst
+   sidebar.rst
    shading.rst
-   background_images.rst

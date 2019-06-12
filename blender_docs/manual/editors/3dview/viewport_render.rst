@@ -28,14 +28,13 @@ the Cycles Renderer.
 
           Full render.
 
-.. TODO2.8 Replace this text with overlays.
 
-.. tip:: Showing Only Rendered Objects
+.. tip:: Disable Overlays
 
-   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/properties/panels>`.
+   Disable overlays to render the viewport without any additional overlays.
 
-   While this option is not specific to Viewport rendering, it's often useful to enable,
-   since it removes data such as rigs and empties that can be a distraction.
+   While this option is not specific to Viewport rendering, it's often useful to
+   enable, since it removes data such as rigs and empties that can be a distraction.
 
 
 .. TODO2.8

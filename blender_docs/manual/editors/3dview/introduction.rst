@@ -88,62 +88,9 @@ Sidebar Region
 ==============
 
 The Sidebar region contains properties of the active object and selected objects (such as their locations),
-as well as properties of the editor itself:
+as well as properties of the editor itself.
 
-Item
-   Shows :doc:`Transform </scene_layout/object/editing/transform/introduction>`
-   settings of the active objects
+See :doc:`Sidebar Panels </editors/3dview/properties/sidebar>` for more information.
 
-Tool
-   Show settings of the active tool and workspace
 
-View
-   Shows settings of the current Viewport
-
-   View
-      Focal Length
-         Focal length of the viewport (when not in camera mode)
-      
-      Clip Start
-         3D View near clipping distance when in perspective mode
-      
-      End
-         3D View far clipping distance
-
-      Use Local Camera
-         Use a local camera in this view, rather then the scene's active camera
-      
-      Local Camera
-         Camera to use as local camera
-
-      Render Region
-         Use a region within the frame size for rendered viewport (when not
-         viewing through the camera)
-      
-      View Lock
-         Lock to Object
-            Center of this view is locked to the chosen object
          
-         Lock to 3D Cursor
-            Center of this view is locked to the 3D Cursor
-         
-         Lock Camera to View
-            Enable view navigation while in camera view
-         
-   3D Cursor
-      Location
-         The location of the 3D Cursor
-      
-      Rotation
-         The rotation of the 3D Cursor
-      
-      Rotation Mode
-         The Rotation mode of the 3D Cursor
-      
-   Collections
-      This panel shows a list of collections. The visibility of the collection
-      can be changed.
-   
-   Annotations
-      See :doc:`Annotations </interface/annotation_tool>` for more
-      information about annotations.
