@@ -11,6 +11,37 @@ XRay
 Wireframe
 ---------
 
+Color
+    *Single*
+        Show the scene in a single color.
+    
+    *Object*
+        Show the object color
+
+    *Random*
+        Show random object color
+
+
+Background
+    The way how to draw the background in the 3D Viewport.
+
+    *Theme*
+        Use the background of the theme.
+
+    *World*
+        Use the world viewport display options
+
+    *Viewport*
+        Select a custom color the draw the background of the 3D Viewport
+
+X-Ray
+   Render the scene transparent. With the slider you can control how
+   transparent the scene should appear.
+
+Outline
+   Render the outline of objects in the viewport. The color of the outline can be adjusted.
+
+
 Solid
 -----
 
