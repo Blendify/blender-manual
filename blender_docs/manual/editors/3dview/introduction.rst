@@ -91,6 +91,3 @@ The Sidebar region contains properties of the active object and selected objects
 as well as properties of the editor itself.
 
 See :doc:`Sidebar Panels </editors/3dview/properties/sidebar>` for more information.
-
-
-         

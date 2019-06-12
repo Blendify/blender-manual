@@ -53,6 +53,7 @@ Annotate Eraser
 
 Measure
     Measure distances in the scene. Drag to create a new measurement.
+    See :doc:`Measuring </editors/3dview/measure>` for more information.
 
 Edit Mesh Mode
 --------------

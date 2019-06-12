@@ -16,6 +16,6 @@
    3d_cursor.rst
    controls/index.rst
    tools.rst
+   measure.rst
    properties/index.rst
-   ruler_protractor.rst
    viewport_render.rst
