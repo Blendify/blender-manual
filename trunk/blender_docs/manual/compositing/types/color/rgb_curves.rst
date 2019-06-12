@@ -41,6 +41,12 @@ White Level
 Properties
 ==========
 
+Tone
+   .. TODO2.8
+
+   Standard
+
+   Film like
 Channel
    Clicking on one of the channels displays the curve for each.
 

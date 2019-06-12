@@ -50,9 +50,3 @@ X/Y
 Speed
    The velocity of the marker, measured in pixels per frame.
    This could be used to fake effects like motion blur by connecting it to the Vector Blur Node.
-
-
-Examples
-========
-
-TODO <2.8 add.

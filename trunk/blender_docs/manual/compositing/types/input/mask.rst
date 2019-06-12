@@ -24,8 +24,6 @@ Properties
 
 Masks
    The selectable mask data-block. If the label is left blank, the mask name will be set.
-Anti-Alias
-   Create smooth mask edges rather than hard ones.
 Feather
    Use or ignore feather points defined for splines see :ref:`Mask Feathers <mask-feather>` for more details.
 Size

@@ -48,9 +48,3 @@ Outputs
 
 Image
    Standard image output.
-
-
-Example
-=======
-
-TODO <2.8 add.

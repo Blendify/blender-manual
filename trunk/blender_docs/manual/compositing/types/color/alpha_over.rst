@@ -47,6 +47,8 @@ Premultiply
 
    If *Premultiply* is not zero, *Convert Premul* will be ignored.
 
+   .. note:: This is a legacy option.
+
 
 Outputs
 =======
