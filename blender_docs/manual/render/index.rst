@@ -15,7 +15,7 @@
    cycles/index.rst
    workbench/index.rst
    cameras.rst
-   lights.rst
+   lights/index.rst
    materials/index.rst
    shader_nodes/index.rst
    color_management.rst

@@ -36,7 +36,7 @@ or in the direction of known light sources.
 
    For more details, see
    the :doc:`Light Paths </render/cycles/render_settings/light_paths>` and
-   :doc:`Integrator </render/cycles/render_settings/integrator>` documentation.
+   :doc:`Sampling </render/cycles/render_settings/sampling>` documentation.
 
 
 Where Noise Comes From

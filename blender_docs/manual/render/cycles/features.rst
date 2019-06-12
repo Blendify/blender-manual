@@ -8,7 +8,7 @@ Experimental Features
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Render --> Render`
+   :Panel:     :menuselection:`Render`
 
 .. _cycles-experimental-features:
 

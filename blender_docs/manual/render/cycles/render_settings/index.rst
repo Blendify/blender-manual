@@ -6,10 +6,12 @@
 .. toctree::
    :maxdepth: 2
 
-   integrator.rst
-   film.rst
-   geometry.rst
+   sampling.rst
    light_paths.rst
-   motion_blur.rst
+   volumes.rst
+   subdivision.rst
+   hair.rst
    simplify.rst
+   motion_blur.rst
+   film.rst
    performance.rst

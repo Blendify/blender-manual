@@ -21,23 +21,23 @@ The tabs are documented in their own manual sections,
 the links are listed below.
 
 
-Scene/Render
-------------
+Scene
+-----
 
-These tabs are used to add features, and to change properties for the Active Scene.
+These tabs contain settings for the active scene.
 
 .. figure:: /images/editors_properties-editor_render.png
    :align: right
 
-   Scene/Render tabs.
+   Scene tabs.
 
 .. _properties-render-tab:
 
-- :doc:`Render </render/output/index>` and Settings:
-  :doc:`Eevee </render/eevee/index>`, :doc:`Cycles </render/cycles/render_settings/index>`
+- :doc:`Eevee </render/eevee/index>`, :doc:`Cycles </render/cycles/render_settings/index>` or :doc:`Workbench </render/workbench/index>` render settings
+- :doc:`Render Output </render/output/index>` settings
 - :doc:`/render/layers/index`
 - :doc:`Scene </scene_layout/scene/properties>`
-- World: :doc:`Eevee </render/eevee/world>`, :doc:`Cycles </render/cycles/world>`
+- :doc:`World </render/lights/world>`
 
 
 .. _properties-data-tabs:
@@ -79,7 +79,7 @@ The Object Data tabs shown depend on what type of object was selected last (the 
 
 - :doc:`Speaker </render/output/audio/speaker>`
 - Camera: :doc:`Cycles </render/cameras>`
-- Light: :doc:`General settings </render/lights>`,
+- Light: :doc:`General settings </render/lights/light_object>`,
   :doc:`Cycles </render/cycles/light_settings>`
 
 ..

@@ -21,12 +21,6 @@ gets changed to control the subdivision of a mesh at the time of rendering.
 For this, all the other settings are the same except the *View* and *Render* settings.
 These previously mentioned settings get removed/renamed and the following settings are added:
 
-.. figure:: /images/render_cycles_settings_objects_adaptive-subsurf_modifier.png
-   :align: right
-
-   Subdivision Surface Modifier.
-
-
 .. rubric:: Preview
 
 Levels
@@ -56,15 +50,13 @@ Levels
 Known Limitations
 =================
 
-- Missing support for UV subdivision.
-- Creases do not match Blender creases currently.
 - Multi-user object data are currently made single users, leading to increased memory usage.
   For those it is better to use non-adaptive subdivision still.
 - Multi-view renders can have some inconsistencies between views.
 
 .. warning::
 
-   Particle instances, Group instances, Dupliverts and Dupligroups are not tessellated individually.
+   Instances are not tessellated individually.
    Instead, the original object is tessellated and then duplicated on all instances.
    To take advantage of both adaptive subdivision and instancing you should place
    the original object at the position of the instance that is closest from the camera.

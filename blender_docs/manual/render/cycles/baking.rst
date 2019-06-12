@@ -9,94 +9,44 @@ Render Baking
 
    :Panel:     :menuselection:`Render --> Bake`
 
-Baking, in general, is the act of pre-computing something in order to speed up some other
-process later down the line.
-Rendering from scratch takes a lot of time depending on the options you choose.
-Therefore, Blender allows you to "bake" some parts of the render ahead of time, for select objects.
-Then, when you press Render, the entire scene is rendered much faster,
-since the colors of those objects do not have to be recomputed.
+Cycles shaders and lighting can be baked to image textures.
+This has a few different purposes, most commonly:
 
-Render baking creates 2D bitmap images of a mesh object's rendered surface.
-These images can be re-mapped onto the object using the object's UV coordinates.
-Baking is done for each individual mesh, and can only be done if that mesh has been UV-unwrapped.
-While it takes time to set up and perform, it saves render time. If you are rendering a long animation,
-the time spent baking can be much less than time spent rendering out each frame of a long animation.
+- Baking textures like base color or normal maps for export to game engines.
+- Baking ambient occlusion or procedural textures,
+  as a base for texture painting or further edits.
+- Creating light maps to provide global illumination or speed up rendering in games.
+
+Setup
+=====
+
+Baking requires a mesh to have a UV map, and an image texture node with an image to be baked to.
+The active (last selected) image texture node is used as the baking target.
 
 Use Render Bake in intensive light/shadow solutions,
 such as AO or soft shadows from area lights. If you bake AO for the main objects,
 you will not have to enable it for the full render, saving render time.
 
-Use *Full Render* or *Textures* to create an image texture;
-baked procedural textures can be used as a starting point for further texture painting.
-Use *Normals* to make a low resolution mesh look like a high resolution mesh.
-To do that, UV unwrap a high resolution, finely sculpted mesh and bake its normals.
-Save that normal map, and *Mapping* (texture settings)
-the UV of a similarly unwrapped low resolution mesh.
-The low resolution mesh will look just like the high resolution,
-but will have much fewer faces/polygons.
-
-
-.. rubric:: Advantages
-
-- Can significantly reduce render times.
-- Texture painting made easier.
-- Reduced polygon count.
-- Repeated renders are made faster, multiplying the time savings.
-
-
-.. rubric:: Disadvantages
-
-- Object must be UV-unwrapped.
-- If shadows are baked, lights and object cannot move with respect to each other.
-- Large textures (e.g. 4096×4096) can be memory intensive, and be just as slow as the rendered solution.
-- Human (labor) time must be spent unwrapping and baking and saving files and applying the textures to a channel.
-
 Cycles uses the render settings (samples, bounces, ...) for baking.
 This way the quality of the baked textures should match the result you get from the rendered scene.
 
-The baking happens into the respective active textures of the object materials.
-The active texture is the last selected Image Texture node of the material node tree.
-That means the active object (or the selected objects, when not baking 'Selected to Active') needs a material,
-and that material needs at least an Image Texture node, with the image to be used for the baking.
-Note, the node does not need to be connected to any other node.
-The active texture is what projection painting and the viewport use as a criteria to which image to use.
-This way after the baking is done you can automatically preview the baked result in the Texture mode.
+Settings
+========
 
-
-Options
-=======
-
-.. figure:: /images/render_cycles_baking_ao.png
-
-   Ambient Occlusion Pass.
-
-
-Bake Mode
----------
+Bake Types
+----------
 
 Combined
    Bakes all materials, textures, and lighting except specularity.
-
-   .. figure:: /images/render_cycles_baking_combined.png
-
-      Combined Pass options.
 
    The passes that contribute to the combined pass can be toggled individually to form the final map.
 Ambient Occlusion
    Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 
-   .. figure:: /images/render_blender-render_bake_ambient-occlusion.png
-
-   Ambient Occlusion.
-
 Shadow
    Bakes shadows and lighting.
 Normals
    Bakes normals to an RGB image.
-
-   .. figure:: /images/render_cycles_baking_normal.png
-
-      Normal Pass options.
 
    Normal Space
       Normals can be baked in different spaces:
@@ -111,10 +61,6 @@ Normals
       Axis to bake into the red, green and blue channel.
 
 
-   .. figure:: /images/render_blender-render_bake_normals.png
-
-      Normals.
-
    For materials the same spaces can be chosen in the image texture options
    next to the existing *Normal Map* setting. For correct results,
    the setting here should match the setting used for baking.
@@ -128,23 +74,15 @@ Environment
 Diffuse, Glossy, Transmission, Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
-   .. figure:: /images/render_cycles_baking_diffuse.png
-
-      Diffuse Pass options.
-
    - If only color is selected you get the pass color,
      which is a property of the surface and independent of sampling refinement.
    - If color is not selected, you get the direct and/or indirect contributions in gray-scale.
    - If color and either direct or indirect are selected, you get the direct and/or indirect contributions colored.
 
 
-Additional Options
-==================
+Selected to Active
+------------------
 
-Margin
-   Baked result is extended this many pixels beyond the border of each UV "island", to soften seams in the texture.
-Clear
-   If selected, clears the image before baking render.
 Select to Active
    Bake shading on the surface of selected objects to the active object.
    The rays are cast from the low-poly object inwards towards the high-poly object.
@@ -181,3 +119,12 @@ Cage
       When the base mesh extruded does not give good results,
       you can create a copy of the base mesh and modify it to use as a *Cage*.
       Both meshes need to have the same :term:`topology` (number of faces and face order).
+
+Output
+------
+
+Margin
+   Baked result is extended this many pixels beyond the border of each UV "island", to soften seams in the texture.
+Clear
+   If selected, clears the image before baking render.
+

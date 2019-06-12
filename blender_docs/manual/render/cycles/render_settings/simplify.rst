@@ -13,9 +13,7 @@ Simplify
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Scene --> Simplify`
-
-.. figure:: /images/render_cycles_settings_scene_introduction_simplify.png
+   :Menu:      :menuselection:`Render --> Simplify`
 
 Texture Limit
    Automatically scales textures down so that they are no larger than the values chosen.

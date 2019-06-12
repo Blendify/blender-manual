@@ -7,13 +7,7 @@ Material Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Material --> Settings`
-
-.. figure:: /images/render_cycles_materials_settings_panel.png
-   :align: right
-
-   Material Settings.
-
+   :Panel:     :menuselection:`Material --> Settings` and :menuselection:`Shader Editor --> Sidebar --> Settings`
 
 Surface
 =======
@@ -30,22 +24,8 @@ Transparent Shadows
    Use transparent shadows if it contains a :doc:`Transparent BSDF </render/shader_nodes/shader/transparent>`,
    disabling will render faster but will not give accurate shadows.
 
-
-Volume
-======
-
-Similar volume settings as the :ref:`World settings <render-cycles-integrator-world-settings>` per material.
-
-
 .. _bpy.types.CyclesMaterialSettings.displacement:
 .. _cycles-materials-settings-displace:
-
-Displacement
-============
-
-.. note::
-
-   These Options are only available if :ref:`Experimental Feature Set <cycles-experimental-features>` is turned on.
 
 Displacement Method
    Method used to perform :doc:`Displacement </render/materials/components/displacement>` on materials.
@@ -61,3 +41,8 @@ Displacement Method
    Displacement and Bump
       Both methods can be combined, to do displacement on a coarser mesh,
       and use bump mapping for the final detail.
+
+Volume
+======
+
+Similar volume settings as the :ref:`World settings <render-cycles-integrator-world-settings>` per material.
