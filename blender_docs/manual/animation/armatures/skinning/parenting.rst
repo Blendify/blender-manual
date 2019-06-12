@@ -21,9 +21,9 @@ select *Armature Deform* in the *Set Parent To* pop-up menu.
 The armature will be the parent object of all the other child objects and each child object
 will have an Armature Modifier with the armature associated (*Object* field).
 
-.. figure:: /images/rigging_armatures_skinning_parenting_deform-object-mode.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_skinning_parenting_deform-object-mode.png
 
-   Bone associated with Mesh Object.
+.. TODO2.8    Bone associated with Mesh Object.
 
 
 With Empty Groups
@@ -49,9 +49,9 @@ For example, if you have an armature which consists of three bones named "BoneA"
 the armature, the cube will get three new vertex groups created on it called "BoneA",
 "BoneB" and "BoneC". Notice that each vertex group is empty.
 
-.. figure:: /images/rigging_armatures_skinning_parenting_bone-empty-groups.png
+.. TODO2.8 .. figure:: /images/rigging_armatures_skinning_parenting_bone-empty-groups.png
 
-   Cube in Edit Mode using Armature Deform with empty groups.
+.. TODO2.8    Cube in Edit Mode using Armature Deform with empty groups.
 
 
 With Automatic Weights
@@ -85,6 +85,8 @@ You will have to apply Armature Deform With Envelope Weights parenting again.
 .. tip::
 
    If you want the envelope setting to be used instantly, bind the Armature Modifier to *Bone Envelopes*.
+
+.. TODO2.8 Update image.
 
 .. figure:: /images/rigging_armatures_skinning_parenting_envelope-influence.png
 
