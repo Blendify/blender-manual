@@ -85,11 +85,19 @@ External Data
          Recovered files might need to be reloaded. You can do that one by one, or
          you can save the blend-file and reload it again, so that all external files are reloaded at once.
 Defaults
-   Save User Settings :kbd:`Ctrl-U`
-      Saves the current scene and preferences to the :doc:`startup.blend </getting_started/configuration/defaults>` file.
-   Load Factory Settings
-      Restores the default startup file as :ref:`factory settings <factory-settings>` and saves the changes.
-   Load Factory Settings (Temporary)
-      Restores the default startup file as :ref:`factory settings <factory-settings>` but does not save the changes.
+   .. _startup-file:
+
+   This menu manages the startup-file, used to store the default scene,
+   work-space and interface displayed at startup and when opening creating a new file.
+
+   Initially this contains the :doc:`startup scene </editors/3dview/startup_scene>` included with Blender.
+   This can be replaced by your own customized setup.
+
+   Save User Settings
+      Saves the current blend file as the startup-file.
+    Load Factory Settings
+      Restores the default startup file and preferences.
+
+   .. seealso:: :ref:`prefs-menu`.
 Quit :kbd:`Ctrl-Q`
    Closes Blender and the file is saved into ``quit.blend``.

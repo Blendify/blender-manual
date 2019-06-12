@@ -1,39 +1,56 @@
+.. TODO: use substitutions, see: https://stackoverflow.com/questions/56557296
+.. |menu| unicode:: U+2630
 
 ************
 Introduction
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Edit --> Preferences...`
+   :Hotkey:    :kbd:`F4`, :kbd:`P`
+
+
 This chapter explains how to change Blender's default configuration with the *Preferences* editor.
 
-The Blender *Preferences* editor contains settings to control how Blender behaves.
-At the left of the editor, the available options are grouped into tabs.
+The Blender *Preferences* contains settings to control how Blender behaves.
+At the left of the editor, the available options are grouped into sectiions.
 
 .. figure:: /images/preferences_interface_tab.png
 
    Blender Preferences window.
 
+.. _prefs-menu:
 
-Opening Preferences
-===================
+Managing Preferences
+====================
 
-While the *Preferences* is its own editor type the best and easiest way to open it is
-in a new window. To open the *Preferences* editor go to :menuselection:`Edit --> Preferences...`
+Default preferences are managed from the :menuselection:`☰` menu in the preferences window.
 
+The following items are available in this menu:
 
-Save User Settings
-==================
-
-Once you have set your preferences, you can either manually save them,
-or just close the window and they will be saved automatically.
-
-To manually save the preferences, from the preferences window open the small menu
-in the bottom left and select *Save Current State*. There are two other options
-related to saving the preferences:
-
-Revert to Saved
-   Undoes any unsaved modifications to preferences back to the previous saved state.
 Auto-Save Preferences
-   Toggle whether or not the preferences are saved when exiting the *Preferences* window.
+   By default changes to preferences are saved on exit,
+   this allows changes to the key-map and quick-menu to be stored and used between sessions.
+
+   When disabled, a **Save Preferences** button is shown to manually perform the operation.
+Revert to Saved
+   Undoes any unsaved modifications, loading the previously saved state.
+Load Factory Settings
+   Completely undo all the modifications made to the preferences,
+   resetting to the state used before making customizations.
+
+   .. note::
+
+      After running **Load Factory Settings**, auto-save will be disabled for the currents session.
+
+      This allows you to switch back to the factory settings for testing
+      or following tutorials for example, without the risk of accidentally auto-saving
+      over the preferences you have manually configured.
+
+      If you wish to save these as your preferences,
+      un-check the **Skip Auto-Save** button which will be displayed factory settings have been loaded.
 
 .. tip::
 
@@ -54,7 +71,7 @@ Note that no permanent changes are made until you save the preferences or close 
 
 .. note::
 
-   Using this only resets the preferences and will not affect settings stored in the startup file.
+   This only resets the preferences and will not affect settings stored in the startup file.
    This includes app templates, area locations, and any Blender properties not part of the preferences.
 
    These must be reverted though :menuselection:`File --> Defaults`.
