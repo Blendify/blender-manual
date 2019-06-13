@@ -75,7 +75,7 @@ Now you can build the manual with the translation applied::
 
    make -e SPHINXOPTS="-D language='fr'"
 
-If you are on MS-Windows and do not have ``make``, run::
+If you are on Windows and do not have ``make``, run::
 
    sphinx-build -b html -D language=fr ./manual ./build/html
 

@@ -39,4 +39,4 @@ especially when others are unable to reproduce the crash.
 
 .. warning::
 
-   This is currently disabled for MS-Windows.
+   This is currently disabled for Windows.

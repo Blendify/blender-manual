@@ -76,7 +76,7 @@ Version/Revision Milestones
 - **1.3x -- June 1998:** NaN founded.
 - **1.4x -- September 1998:** Sun and Linux Alpha version released.
 - **1.50 -- November 1998:** First Manual published.
-- **1.60 -- April 1999:** C-key (new features behind a lock, $95), MS-Windows version released.
+- **1.60 -- April 1999:** C-key (new features behind a lock, $95), Windows version released.
 - **1.6x -- June 1999:** BeOS and PPC version released.
 - **1.80 -- June 2000:** End of C-key, Blender full freeware again.
 - **2.00 -- August 2000:** Interactive 3D and real-time engine.
@@ -227,7 +227,7 @@ Version/Revision Milestones
    Cycles, texture painting workflow is improved, and more than 220 bug fixes.
 `2.73 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.73>`__ -- January 2015:
    Cycles gets improved volumetric support, major upgrade to Grease pencil,
-   MS-Windows gets Input Method Editors (IMEs)
+   Windows gets Input Method Editors (IMEs)
    and general improvements to painting, Freestyle, Sequencer and add-ons.
 `2.74 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.74>`__ -- March 2015:
    Support for custom-normals, viewport compositing and improvements to hair dynamics.

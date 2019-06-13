@@ -1,8 +1,8 @@
 .. highlight:: sh
 
-**********************
-Building on MS-Windows
-**********************
+*******************
+Building on Windows
+*******************
 
 Converting the RST-files into pretty HTML pages.
 There are two ways to run the build process.

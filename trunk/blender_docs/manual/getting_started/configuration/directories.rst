@@ -32,8 +32,8 @@ Here are the default locations for each system:
    used for self-contained bundles distributed by official blender.org builds.
 
 
-MS-Windows
-----------
+Windows
+-------
 
 LOCAL
    .. parsed-literal:: .\\\ |BLENDER_VERSION|\\
@@ -167,5 +167,5 @@ The temporary directory is used to store various files at run-time
 The temporary directory is selected based on the following priority:
 
 - User Preference (see :ref:`prefs-file-paths`).
-- Environment variables (``TEMP`` on MS-Windows, ``TMP`` & ``TMP_DIR`` on other platforms).
+- Environment variables (``TEMP`` on Windows, ``TMP`` & ``TMP_DIR`` on other platforms).
 - The ``/tmp/`` directory.

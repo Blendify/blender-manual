@@ -33,8 +33,8 @@ check that the distribution is compatible with your operating system.
 Platform Specific
 =================
 
-MS-Windows
-----------
+Windows
+-------
 
 Mixed Python Libraries (DLL's)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
