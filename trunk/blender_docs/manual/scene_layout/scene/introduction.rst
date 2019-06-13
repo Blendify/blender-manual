@@ -10,7 +10,7 @@ Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </files/index>`,
 so it is a good idea to read that manual page first, if you are not familiar with the basics of that system.
 
-You can select and create scenes with the *Scene data-block* menu in the *Info Editor* header.
+You can select and create scenes with the *Scene data-block* menu in the :ref:`topbar-index`.
 
 
 Controls
@@ -19,7 +19,7 @@ Controls
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Info Editor Header --> Scene`
+   :Menu:      :menuselection:`Topbar --> Scene`
 
 .. figure:: /images/data-system_scenes_introduction_menu.png
    :align: right
@@ -68,7 +68,7 @@ Add ``+``
       *copied from* the active scene to the new one, and how much will be *shared* (linked).
 
 Delete ``X``
-   You can delete the current scene by clicking the *X* next to the name in the Info Editor.
+   You can delete the current scene by clicking the *X* next to the name in the :ref:`topbar-index`.
 
 .. seealso:: Linking to a Scene
 

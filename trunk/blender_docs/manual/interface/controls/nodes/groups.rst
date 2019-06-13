@@ -182,7 +182,7 @@ Appending Node Groups
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    Info Editor
+   :Editor:    Topbar
    :Mode:      All Modes
    :Menu:      :menuselection:`File --> Link/Append`
 

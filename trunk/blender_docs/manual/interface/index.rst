@@ -38,6 +38,8 @@ Keymap
    common_shortcuts.rst
 
 
+.. _topbar-index:
+
 Topbar
 ======
 
