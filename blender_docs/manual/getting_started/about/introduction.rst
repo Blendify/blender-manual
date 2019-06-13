@@ -46,7 +46,7 @@ Key Features
   (and customizable with Python scripts).
 - It has a high-quality 3D architecture, enabling fast and efficient creation workflow.
 - It boasts excellent community support from `forums <http://blenderartists.org/forum/>`__ and
-  :ref:`IRC <irc-channels>`.
+  :ref:`blender-chat`.
 - It has a small executable, which is optionally portable.
 
 You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
