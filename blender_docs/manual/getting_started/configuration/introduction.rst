@@ -11,8 +11,8 @@ The full list and explanation of the Preferences are documented in the section
 Language
 ========
 
-At :menuselection:`Edit --> Preferences --> System`,
-enable *International Fonts* to choose the *Language* and
+Enable :menuselection:`Edit --> Interface --> Translation`,
+and choose the *Language* and
 what to translate from *Interface*, *Tooltips* and *New Data*.
 
 See :ref:`prefs-system-international` for details.
@@ -22,10 +22,10 @@ Input
 =====
 
 If you have a compact keyboard without a separate number pad, enable
-:menuselection:`Preferences --> Emulate Numpad`.
+:menuselection:`Preferences --> Input --> Keyboard --> Emulate Numpad`.
 
 If you do not have a middle mouse button, you can enable
-:menuselection:`Preferences --> Emulate 3 Button Mouse`.
+:menuselection:`Preferences --> Input --> Mouse --> Emulate 3 Button Mouse`.
 
 See :doc:`Input Preferences </editors/preferences/input>` for details.
 
@@ -33,7 +33,7 @@ See :doc:`Input Preferences </editors/preferences/input>` for details.
 File and Paths
 ==============
 
-At :menuselection:`Preferences --> File`
+At :menuselection:`Preferences --> File Paths`
 you can set options such as what external *Image Editor* to use,
 such as GIMP or Krita, and the Animation Player.
 
