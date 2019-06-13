@@ -63,6 +63,7 @@ Shortcuts
 - Move up and down :kbd:`Q`, :kbd:`E` -- only in *free* mode.
 - Alternate between *free* and *gravity* modes :kbd:`Tab`.
 - Change the movement speed:
+
   - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session.
   - :kbd:`WheelDown` or :kbd:`NumpadMinus` to decrease the movement speed for this open session.
   - :kbd:`Shift` (hold) -- to speed up the movement temporarily.
@@ -94,6 +95,7 @@ Shortcuts
 
 - Move the mouse outside the safe-region in the direction you want to look.
 - Move the view forward/backward:
+
   - :kbd:`WheelUp` or :kbd:`NumpadPlus` to accelerate the movement forward.
   - :kbd:`WheelDown` or :kbd:`NumpadMinus` to accelerate the movement backward.
 
