@@ -69,4 +69,4 @@ there are several options for helping out. You can:
    <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-c4nvvrxuczix2326vlti>`__
    in the documentation.
 #. Get involved in discussions through the `mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__
-   and ``#blenderwiki`` :ref:`IRC channel <irc-channels>`.
+   and ``#docs`` :ref:`blender-chat`.
