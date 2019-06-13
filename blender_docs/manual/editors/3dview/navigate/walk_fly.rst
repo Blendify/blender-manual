@@ -5,11 +5,11 @@ Walk/Fly Mode
 *************
 
 There are cases where it's preferable to navigate with first person controls,
-especially if it is very large, like environments or an architectural model.
-In these cases orbiting around the view center is limiting,
+especially for large environments such as architectural models.
+In these cases orbiting around the view center is limiting.
 While zoom, pan & dolly can be used, it's inconvenient.
 
-With walk/fly modes you can walk or fly around the scene where view rotation is
+With walk/fly modes you can navigate around the scene where view rotation is
 performed from the cameras location.
 
 .. figure:: /images/editors_3dview_navigate_walk-fly_view-navigation-panel.png
@@ -53,9 +53,8 @@ It works with a combination of keyboard arrow keys and mouse movement.
 Shortcuts
 ---------
 
-- Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
-- Move the camera forward/backward  :kbd:`W`, :kbd:`S`.
-- Strafe left/right :kbd:`A`, :kbd:`D`.
+- Move the mouse in the direction you want to look.
+- Arrow keys or :kbd:`W`, :kbd:`A`, :kbd:`S`, :kbd:`D` move forwards/backwards and strafe left/right.
 - Teleport :kbd:`Spacebar`.
 
   This moves you to the location at the cross-hair
