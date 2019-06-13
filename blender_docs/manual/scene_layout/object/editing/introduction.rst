@@ -3,8 +3,8 @@
 Introduction
 ************
 
-In this section will be described tools for manipulating objects in Object Mode.
-All editing tools can be found in Object menu and/or in Tool Shelf.
+In this section describes tools for manipulating objects in Object Mode.
+All editing tools can be found in Object menu..
 
 
 .. _bpy.ops.object.delete:
@@ -16,15 +16,13 @@ Delete
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Delete`
    :Menu:      :menuselection:`Object --> Delete`
-   :Hotkey:    :kbd:`X`
+   :Hotkey:    :kbd:`X` or :kbd:`Del`
 
 The selected objects are deleted from the scene.
 
-Delete Globally :kbd:`Shift-X`
-   This checkbox in the Operator panel will cause the objects to be deleted from all the scenes
-   where they are linked.
+Delete Globally
+   Delete the selected objects from all scenes.
 
 
 .. _object-show-hide:
@@ -76,7 +74,7 @@ Mesh from Curve/Metaball/Surface/Text
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Convert to --> Mesh from Curve/Metaball/Surface/Text`
+   :Menu:      :menuselection:`Object --> Convert to --> Mesh from Curve/Meta/Surf/Text`
 
 Converts the selected curve, metaball, surface and text objects to mesh objects.
 The actual defined resolution of these objects will be taken into account for the conversion.
@@ -100,7 +98,6 @@ Join
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Join`
    :Menu:      :menuselection:`Object --> Join`
    :Hotkey:    :kbd:`Ctrl-J`
 

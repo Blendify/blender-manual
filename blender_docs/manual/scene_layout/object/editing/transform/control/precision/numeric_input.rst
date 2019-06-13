@@ -3,9 +3,11 @@
 Numeric Input
 *************
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_precision_numeric-input_footer.png
+.. TODO2.8:
 
-   Numeric input displayed in the 3D View footer.
+   .. figure:: /images/editors_3dview_object_editing_transform_control_precision_numeric-input_footer.png
+
+      Numeric input displayed in the 3D View footer.
 
 Using the mouse for transformations is convenient,
 but if you require more precise control, you can also enter numeric values.

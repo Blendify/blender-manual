@@ -8,7 +8,6 @@ Object Types
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Create --> Add Primitive`
    :Menu:      :menuselection:`Add`
    :Hotkey:    :kbd:`Shift-A`
 
@@ -55,9 +54,11 @@ Force Field
    :doc:`Force Fields </physics/forces/force_fields/index>` are used in physical simulations.
    They give simulations external forces, creating movement,
    and are represented in the 3D View editor as small control objects.
-Group Instance
-   Lets you select from a list of existing object groups.
-   Once selected, an Empty object will be created, with an instance of the selected group (group duplication active).
+Collection Instance
+   .. TODO2.8: update link
+
+   Lets you select from a list of existing collections.
+   Once selected, an Empty object will be created, with an instance of the selected collection (collection duplication active).
    See :doc:`/scene_layout/object/properties/duplication/dupligroup`.
 
 

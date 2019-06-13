@@ -17,7 +17,7 @@ this allows the transformation to be performed in discrete amounts.
 Holding :kbd:`Shift` during a transform operation will transform the object at 1/10th the speed,
 allowing much finer control.
 
-The magnitude of the transformation can be viewed in the 3D View footer.
+The magnitude of the transformation can be viewed in the 3D View header.
 Releasing :kbd:`Ctrl` or :kbd:`Shift` during the transformation will cause the movement
 to revert back to its normal mode of operation.
 
