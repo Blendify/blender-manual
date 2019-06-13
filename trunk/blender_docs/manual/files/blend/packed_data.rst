@@ -47,7 +47,8 @@ When enabled, this option will ensure that all eligible external files, existing
 are systematically marked as packed.
 As with *Pack All Into .blend*, blend-file must be saved to disk for this to have an effect.
 
-Disabling that option won't unpack anything, but future external files won't be automatically marked as packed anymore.
+Disabling that option won't unpack anything,
+but future external files won't be automatically marked as packed anymore.
 
 
 Selective Packing

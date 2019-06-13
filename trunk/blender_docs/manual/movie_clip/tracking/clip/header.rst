@@ -6,7 +6,8 @@ Header
 Marker Display
 ==============
 
-Defines how markers are displayed in the editor. Settings are found in the :ref:`Clip Display <clip-editor-clip-display-label>` pop-over.
+Defines how markers are displayed in the editor.
+Settings are found in the :ref:`Clip Display <clip-editor-clip-display-label>` pop-over.
 
 Pattern
    Can be used to disable displaying of rectangles which correspond to pattern areas of tracks.

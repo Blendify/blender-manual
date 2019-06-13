@@ -41,7 +41,8 @@ Grid Floor
 Text Info 
 =========
 
-The visibility and settings of the overlays can be set in the :doc:`Viewport Overlay </editors/3dview/controls/overlays>`.
+The visibility and settings of the overlays can be set in the
+:doc:`Viewport Overlay </editors/3dview/controls/overlays>`.
 
 View Name
    If the viewport camera is not aligned, the view is named "User" plus

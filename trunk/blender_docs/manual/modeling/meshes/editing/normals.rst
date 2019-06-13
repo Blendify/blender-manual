@@ -17,7 +17,8 @@ or a tangent plane for a point on a surface.
 
 In the figure above, each blue line represents the normal for a face on the torus.
 The lines are each perpendicular to the face on which they lie.
-The visualization can be activated, in Edit Mode, in the :ref:`Mesh Display Viewport Overlays panel <mesh-display-normals>`.
+The visualization can be activated,
+in Edit Mode, in the :ref:`Mesh Display Viewport Overlays panel <mesh-display-normals>`.
 
 
 .. _modeling-meshes-editing-normals-shading:
@@ -212,14 +213,17 @@ enable custom normals if they are not already enabled.
 
 
 Editing Custom Split Normals
--------------------------------------
+----------------------------
 
 There are a number of tools for editing custom split normals.
 The custom normal mesh edit tools can affect all normals (the default), or only selected ones.
 To select a custom normal associated with a particular vertex and face:
 
 * Make the element selection mode both Vertex and Face (use shift-click to enable the second one).
-* Select one or more vertices, then select a face. This can be repeated to select more vertices and a different face. And so on. It is easiest to see the effect of these tools if you turn on the Edit Mode Overlays option 'Display vertex-per-face normals as lines'.
+* Select one or more vertices, then select a face.
+  This can be repeated to select more vertices and a different face.  And so on.
+  It is easiest to see the effect of these tools if you turn on the Edit Mode Overlays option
+  'Display vertex-per-face normals as lines'.
 
 
 .. admonition:: Reference
@@ -240,12 +244,12 @@ To select a custom normal associated with a particular vertex and face:
 
 
 Set From Faces
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 Set the custom normals at corners to be the same as the face normal that the corner is part of.
 
 Rotate
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^
 
 This is an interactive tool. As you move the mouse around, the selected normals are rotated.
 You can also invoke the Rotate Normals tool by typing the Rotate transform key, :kbd:`R`
@@ -253,53 +257,64 @@ followed by :kbd:`N`.
 
 
 Point to Target
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
-This is an interactive tool. The selected normals are set according to the pointing mode, which is set by different keys.
+This is an interactive tool.
+The selected normals are set according to the pointing mode,
+which is set by different keys.
 
-* A target is set by keys :kbd:`M` (the mouse), :kbd:`L` (the pivot), :kbd:`O` (the object origin), :kbd:`Ctrl-LMB` (the cursor, set at this click), or :kbd:`Ctrl-RMB` (a mesh item selection, set by this click).
-* When confirmed by :kbd:`Enter` or :kbd:`LMB`, all selected normals are set to point from their vertex to the target; but this can be modified:
+* A target is set by keys :kbd:`M` (the mouse),
+  :kbd:`L` (the pivot),
+  :kbd:`O` (the object origin),
+  :kbd:`Ctrl-LMB` (the cursor, set at this click), or
+  :kbd:`Ctrl-RMB` (a mesh item selection, set by this click).
+* When confirmed by :kbd:`Enter` or :kbd:`LMB`,
+  all selected normals are set to point from their vertex to the target; but this can be modified:
 
-   * If :kbd:`A` (align) has been previously pressed, then all normals will point in the same direction: from the center of selected points to the target.
-   * If :kbd:`S` (spherize) has been previously pressed, then each normal will be an interpolation between its original value and the direction to the target.
-   * If :kbd:`I` (invert) has been previously pressed, then the normal directions are reversed from what was specified above.
+   * If :kbd:`A` (align) has been previously pressed,
+     then all normals will point in the same direction: from the center of selected points to the target.
+   * If :kbd:`S` (spherize) has been previously pressed,
+     then each normal will be an interpolation between its original value and the direction to the target.
+   * If :kbd:`I` (invert) has been previously pressed,
+     then the normal directions are reversed from what was specified above.
 
 * An :kbd:`R` press will reset the custom normals back to what they were when the operation started.
 
 
 Merge
-^^^^^^^^^^^^^^^^^^^^
+^^^^^
 
 Merge all of the normals at selected vertices, making one average normal for all of the faces.
 
 
 Split
-^^^^^^^^^^^^^^^^^^^^
+^^^^^
 
-Split the normals at all selected vertices so that there are separate normals for each face, pointing in the same direction as those faces.
+Split the normals at all selected vertices so that there are separate normals for each face,
+pointing in the same direction as those faces.
 
 Average
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^
 
 Average all of the normals in each fan of faces between sharp edges at a vertex.
 
 Copy Vectors
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^
 
 If a single normal is selected, copy it to an internal vector buffer.
 
 Paste Vectors
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Replace the selected normals with the one in the internal vector buffer.
 
 Smoothen Vectors
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 Adjust the normals to bring them closer to their adjacent vertex normals.
 
 Reset Vectors
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Put normals back the to default calculation of the normals.
 

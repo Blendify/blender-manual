@@ -44,5 +44,6 @@ Collision type
 Forces
 ======
 
-:doc:`Force Fields </physics/forces/force_fields/index>` (such as wind or vortex) are supported, like most physics systems.
+:doc:`Force Fields </physics/forces/force_fields/index>`
+(such as wind or vortex) are supported, like most physics systems.
 The influence individual force types have :ref:`can be controlled per domain object <smoke-field-weights>`.

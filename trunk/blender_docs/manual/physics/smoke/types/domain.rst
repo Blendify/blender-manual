@@ -263,7 +263,8 @@ Field Weights
    :Type:      Domain
    :Panel:     :menuselection:`Properties --> Physics --> Field Weights`
 
-These settings determine how much gravity and :doc:`Force Fields </physics/forces/force_fields/index>` affect the smoke.
+These settings determine how much gravity and
+:doc:`Force Fields </physics/forces/force_fields/index>` affect the smoke.
 
 Effector Collection
    When set, smoke can only be influenced by force fields in the specified collection.
