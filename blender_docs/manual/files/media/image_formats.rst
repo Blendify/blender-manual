@@ -147,7 +147,7 @@ Color Mode
 
    BW, RGB, RGBA
 Color Depth
-   Image file formats support a varying number of bits per pixel.
+   Some image file formats support a varying number of bits per pixel.
    This affects the color quality and file size. Commonly used depths:
 
    8 bit (256 levels)
@@ -204,7 +204,7 @@ OpenEXR
 for HDR image files, especially because of its flexible and expandable structure.
 
 An OpenEXR file can store multiple layers and passes.
-This means OpenEXR images can be loaded into a compositor keeping render layers, passes intact.
+This means OpenEXR images can be loaded into a compositor keeping render layers and passes intact.
 
 
 Output Options
@@ -213,19 +213,23 @@ Output Options
 Available options for OpenEXR render output are:
 
 Color Depth
-   Saves images in a custom 16 bits per channel floating point format.
+   *Half* saves images in a custom 16 bits per channel floating point format.
    This reduces the actual "bit depth" to 10 bits, with a 5 bits power value and 1 bit sign.
 
    Float (Half), Float (Full)
 Codec
-   ``PIZ``
-      Lossless wavelet compression. Compresses images with grain well.
-   ``ZIP``
-      Standard lossless compression using Zlib.
-   ``RLE``
-      Run-length encoded, lossless, works well when scanlines have same values.
    ``PXR24``
       Lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
+   ``ZIP``
+      Standard lossless compression using Zlib, operating on 16 scanlines at a time.
+   ``PIZ``
+      Lossless wavelet compression. Compresses images with grain well.
+   ``RLE``
+      Run-length encoded, lossless, works well when scanlines have same values.
+   ``ZIPS``
+      Standard lossless compression using Zlib, operating on a single scanline at a time.
+   ``DWAA``
+      JPEG-like lossy algorithm from DreamWorks.
 Z Buffer
    Save the depth information.
    In Blender, this now is written in floats too,
