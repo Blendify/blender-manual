@@ -22,9 +22,7 @@ Set Origin
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Edit --> Set Origin`
-   :Menu:      :menuselection:`Object --> Transform`
-   :Hotkey:    :kbd:`Shift-Ctrl-Alt-C`
+   :Menu:      :menuselection:`Object --> Set Origin`
 
 The Object Origin and Geometry can be moved relative to each other and to the 3D Cursor.
 

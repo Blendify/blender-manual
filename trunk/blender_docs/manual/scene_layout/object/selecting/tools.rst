@@ -10,48 +10,42 @@ Point Selection
    :class: refbox
 
    :Mode:      All Modes
-   :Hotkey:    :kbd:`RMB` and :kbd:`Shift-RMB`
+   :Hotkey:    :kbd:`LMB` and :kbd:`Shift-LMB`
 
-The simplest form of object selection consists of using :kbd:`RMB` on it.
-To add to the selection, use :kbd:`Shift-RMB` on more objects.
-If the objects are overlapping in the view, you can use :kbd:`Alt-RMB`
+The simplest form of object selection consists of using :kbd:`LMB` on it.
+To add to the selection, use :kbd:`Shift-LMB` on more objects.
+If the objects are overlapping in the view, you can use :kbd:`Alt-LMB`
 to cycle through possible choices (*Object Mode* only).
-If you want to add to a selection this way then the shortcut becomes :kbd:`Shift-Alt-RMB`.
-To activate an object that is already selected, click :kbd:`Shift-RMB` on it.
+If you want to add to a selection this way then the shortcut becomes :kbd:`Shift-Alt-LMB`.
+To activate an object that is already selected, click :kbd:`Shift-LMB` on it.
 
 To *deselect* an active object,
 click :kbd:`Shift-RMB` one time and hence, two clicks if the object is not active.
 Note that this only works if there are no other objects under the mouse.
 Otherwise it just adds those to the selection. There appears to be no workaround for this bug.
 
-Also you can use :kbd:`Ctrl-RMB` and :kbd:`Shift-Ctrl-RMB` shortcut
+Also you can use :kbd:`Ctrl-LMB` and :kbd:`Shift-Ctrl-LMB` shortcut
 to select the object by its center point rather than its contents.
 
 
 .. _bpy.ops.view3d.select_border:
 
-Border Select
-=============
+Box Select
+==========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Menu:      :menuselection:`Select --> Border Select`
+   :Menu:      :menuselection:`Select --> Box Select`
    :Hotkey:    :kbd:`B`
 
-To activate the tool, press :kbd:`B`.
-With *Border Select* you draw a rectangle while holding down :kbd:`LMB`.
+To activate the tool, press :kbd:`B` or click and drag :kbd:`LMB`.
+With *Box Select* you draw a rectangle while holding down :kbd:`LMB`.
 Any object that lies even partially within this rectangle becomes selected.
 If any object that was last active appears in the selection it will become active.
 
-For deselecting objects, use :kbd:`MMB` or *Border Select* again while holding
-:kbd:`Shift` or :kbd:`Alt`. To cancel the selection use :kbd:`RMB`.
-
-.. hint::
-
-   *Border Select* adds to the previous selection, so in order to select
-   only the contents of the rectangle, deselect all with :kbd:`A` first.
+For deselecting objects, use :kbd:`MMB`.
 
 
 .. _bpy.ops.view3d.select_circle:
@@ -83,36 +77,52 @@ Lasso Select
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Hotkey:    :kbd:`Ctrl-LMB`
+   :Hotkey:    :kbd:`Ctrl-RMB`
 
 Lasso select is used by drawing a dotted line around vertices or the origin of the objects,
-in *Object Mode*. To use this hold :kbd:`Ctrl-LMB` and simply draw around the points you want to select.
+in *Object Mode*. To use this hold :kbd:`Ctrl-RMB` and simply draw around the points you want to select.
 
 Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-LMB`.
 
 
 .. _bpy.ops.object.select_all:
 
-(De)select All
+Select All
 ==============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Select --> (De)select All`,
-               :menuselection:`Select --> Inverse`
+   :Menu:      :menuselection:`Select --> All`
    :Hotkey:    :kbd:`A`
 
-If anything was selected it is first deselected.
-Otherwise it toggles between selecting and deselecting every visible object.
+Select all selectable objects.
 
-Action
-   Select, Deselect, Invert, Toggle
 
-   Inverse :kbd:`Ctrl-I`
-      Selects all objects that were not selected, while deselecting all those which were.
+Deselect All
+==============
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Select --> None`,
+   :Hotkey:    :kbd:`Alt-A`
+
+Deselect all objects, but the active object stays the same.
+
+Invert Selection
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Select --> Invert`,
+   :Hotkey:    :kbd:`Ctrl-I`
+
+Toggle the selection state of all visible objects.
 
 .. _bpy.ops.object.select_random:
 
@@ -123,10 +133,10 @@ Random
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Menu:      :menuselection:`Select --> Random`
+   :Menu:      :menuselection:`Select --> Select Random`
 
-Randomly selects unselected objects based on percentage probability on currently active layers.
-On selecting the operator a numerical selection box becomes available in the *Tool Shelf*.
+Randomly selects unselected objects based on percentage probability.
+The percentage can be modified in the *Adjust Last Operation* panel.
 It is important to note that the percentage represents the likelihood of an unselected object being
 selected and not the percentage amount of objects that will be selected.
 
@@ -140,44 +150,10 @@ Mirror
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      :menuselection:`Select --> Mirror`
-   :Hotkey:    :kbd:`Shift-Ctrl-M`
+   :Menu:      :menuselection:`Select --> Mirror Selection`
 
 Select the Mirror objects of the selected object,
 based on their names, e.g. "sword.L" and "sword.R".
-
-
-.. _bpy.ops.object.select_by_layer:
-
-Select All by Layer
-===================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode
-   :Menu:      :menuselection:`Select --> Select All by Layer`
-
-.. figure:: /images/editors_3dview_object_selecting_tools_all-by-layer.png
-   :align: right
-
-   All by Layer selection menu.
-
-This option allows the selection of every single object that belongs to a given layer.
-Selected objects become visible.
-
-Match
-   The match type for selection.
-Extend
-   Enable to add objects to current selection rather than replacing the current selection.
-Layer
-   The layer on which the objects are.
-
-.. tip:: Selection of Objects
-
-   Rather than using the :menuselection:`Select All by Layer` option,
-   it might be more efficient to make the needed layers visible and use :kbd:`A` on them.
-   This method also allows objects to be deselected.
 
 
 .. _bpy.ops.object.select_by_type:
@@ -189,7 +165,7 @@ Select All by Type
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Select --> Select All by Type`
+   :Menu:      :menuselection:`Select --> Select All by Type...`
 
 With this tool, it becomes possible to select objects of a certain type in one go.
 
@@ -199,14 +175,14 @@ Armature, Lattice, Empty, Camera, Lamp, Speaker.
 
 .. _bpy.ops.object.select_camera:
 
-Select Camera
-=============
+Select Active Camera
+====================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Select --> Select Camera`
+   :Menu:      :menuselection:`Select --> Select Active Camera`
 
 Selects the active camera, this can be used in a complicated scene to easily find the active camera.
 
@@ -250,7 +226,7 @@ Select Grouped
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Select --> Grouped`
+   :Menu:      :menuselection:`Select --> Select Grouped`
    :Hotkey:    :kbd:`Shift-G`
 
 There are two ways to organize the objects in relation to one another.
@@ -269,13 +245,10 @@ Siblings
    This can also be used to select all root level objects (objects with no parents).
 Type
    Select objects that are the same type as the active one.
-Layer
-   Objects that have at least one shared layer.
-Group
-   Objects that are part of a group (rendered green with the default theme)
-   will be selected if they are in one of the groups that the active object is in.
-   If the active object belongs to more than one group,
-   a list will pop up so that you can choose which group to select.
+Collection
+   Select all objects that are in the same collection as the active one.
+   If the active object belongs to more than one collection,
+   a list will pop up so that you can choose which collection to select.
 Object Hooks
    Every hook that belongs to the active object.
 Pass
@@ -284,8 +257,8 @@ Color
    Select objects with same :ref:`Object Color <objects-display-object-color>`.
 Keying Set
    Select objects included in the active :doc:`Keying Set </animation/keyframes/keying_sets>`.
-Lamp Type
-   Select matching lamp types.
+Light Type
+   Select matching light types.
 Pass Index
    Select matching object pass index.
 
@@ -299,7 +272,7 @@ Select Linked
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Select --> Linked`
+   :Menu:      :menuselection:`Select --> Select Linked`
    :Hotkey:    :kbd:`Shift-L`
 
 Selects all objects which share a common data-block with the active object.
@@ -311,10 +284,10 @@ Object Data
    (constitutive elements like vertices, control vertices, and where they are in space) of the object.
 Material
    Selects every object that is linked to the same material data-block.
+Instanced Collection
+   .. TODO2.8
 Texture
    Selects every object that is linked to the same texture data-block.
-Dupligroup
-   Selects all objects that use the same *Group* for duplication.
 Particle System
    Selects all objects that use the same *Particle System*.
 Library
@@ -333,7 +306,7 @@ Select Pattern
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Select --> Pattern`
+   :Menu:      :menuselection:`Select --> Select Pattern...`
 
 Selects all objects whose name matches a given pattern.
 Supported wild-cards: \* matches everything, ? matches any single character,

@@ -12,8 +12,7 @@ Grab/Move
    :class: refbox
 
    :Mode:      Object Mode, Edit Mode, and Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Translate`
-   :Menu:      :menuselection:`Object type --> Transform --> Grab/Move`
+   :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Grab/Move`
    :Hotkey:    :kbd:`G`
 
 In Object Mode, the grab/move option lets you translate (move) objects.
@@ -23,15 +22,15 @@ It also lets you translate any elements that make up the object within the 3D sp
 Pressing :kbd:`G` activates "Grab/Move" transformation mode.
 The selected object or element then moves freely according to the mouse pointer's location and camera.
 
-You can also move an object by clicking and holding :kbd:`RMB` on the object to move it.
 To confirm the action, press :kbd:`LMB`.
 
 While Grab/Move is active, the amount of change in the X, Y,
-and Z coordinates is displayed at the bottom left corner of the 3D View editor.
+and Z coordinates is displayed at the upper left corner of the 3D View editor.
 
-.. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png
+.. TODO2.8:
+   .. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png
 
-   Translation Display.
+      Translation Display.
 
 .. tip::
 
@@ -48,20 +47,20 @@ Rotate
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Rotate`
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
    :Hotkey:    :kbd:`R`
 
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
-or roll and involves changing the orientation of elements (vertices, edge, face, object, etc.)
+or roll and involves changing the orientation of elements (vertices, edges, faces, objects, etc.)
 around one or more axes or
 the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
-The angle of rotation will be displayed in the footer of the 3D View editor.
+The angle of rotation will be displayed in the header of the 3D View editor.
 
-.. figure:: /images/editors_3dview_object_editing_transform_basics_rotate-display-values.png
+.. TODO2.8:
+   .. figure:: /images/editors_3dview_object_editing_transform_basics_rotate-display-values.png
 
-   Rotation values.
+      Rotation values.
 
 
 .. _view3d-transform-trackball:
@@ -82,7 +81,6 @@ Scale
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Scale`
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
    :Hotkey:    :kbd:`S`
 
@@ -99,11 +97,12 @@ the scale will continue in the negative direction and flip the element.
    Basic scale usage. From left to right, the panels show: the original Object,
    a scaled down Object, a scaled up Object and a scale-flipped Object.
 
-The amount of scaling will be displayed in the footer of the 3D View editor.
+The amount of scaling will be displayed in the header of the 3D View editor.
 
-.. figure:: /images/editors_3dview_object_editing_transform_basics_scale-display-values.png
+.. TODO2.8:
+   .. figure:: /images/editors_3dview_object_editing_transform_basics_scale-display-values.png
 
-   Scale values.
+      Scale values.
 
 
 Common Options
@@ -112,7 +111,7 @@ Common Options
 There are multiple ways to transform an element which include:
 
 - The keyboard shortcut.
-- The menu in the header or the Transform panel in the Tool Shelf.
+- The menu in the header.
 - The :doc:`3D Transform Manipulator </scene_layout/object/editing/transform/control/manipulators>`
   widget.
 - The :doc:`Transform panel </scene_layout/object/properties/transforms>`
@@ -123,9 +122,6 @@ Confirm and Cancel
 ------------------
 
 :kbd:`LMB` click to accept changes.
-This behavior can be changed globally by activating *Release Confirms*
-in the :doc:`Preferences </editors/preferences/editing>`,
-so that a single :kbd:`RMB` drag can be used to move and confirm.
 
 To cancel the transformation press :kbd:`RMB` or :kbd:`Esc` instead.
 This will reset the object or element to its original state.
@@ -156,8 +152,6 @@ Orientation
 Proportional Editing, Falloff, Size
    Activates/deactivates *Proportional Editing* and configures the type *Falloff* and
    *Size* of the :doc:`/scene_layout/object/editing/transform/control/proportional_edit` tool.
-Edit Grease Pencil
-   ToDo.
 
 .. _modeling_transform_edit-texture-space:
 
@@ -175,7 +169,7 @@ Workflow
 Using Keyboard Shortcuts
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-#. Use :kbd:`RMB` to select the elements you want to transform.
+#. Use :kbd:`LMB` to select the elements you want to transform.
 #. Tap :kbd:`G`, or :kbd:`R`, or :kbd:`S` once to enter the transformation mode.
 #. Transform the elements by moving the mouse.
 #. :kbd:`LMB` click to accept changes.
