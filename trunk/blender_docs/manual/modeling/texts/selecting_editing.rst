@@ -137,7 +137,7 @@ You can change the text case by selecting it then clicking the *To Upper* or
 
 Blender's *Bold* and *Italic* buttons do not work the same way as other applications,
 as they also serve as placeholders for you to load up other fonts manually,
-which get applied when you define the corresponding style; see `Font`_.
+which get applied when you define the corresponding style; see :ref:`Font <modeling-text-character>`.
 
 To apply the Bold/Italics/Underline attribute to a set of characters, you either turn on
 *Bold* / *Italics* / *Underline* prior to typing characters,

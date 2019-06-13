@@ -6,15 +6,16 @@
 
 .. toctree::
    :maxdepth: 2
+
    generate/index.rst
-   deform/index.rst   
+   deform/index.rst
    color/index.rst
 
 
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst      
+   introduction.rst
 
 Generate
 ========
@@ -56,5 +57,3 @@ Color
    color/hue_saturation.rst
    color/opacity.rst
    color/tint.rst
-
-   
