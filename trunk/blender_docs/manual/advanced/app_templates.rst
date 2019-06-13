@@ -1,4 +1,5 @@
 .. _bpy.ops.wm.app_template:
+.. _app_templates:
 
 *********************
 Application Templates
