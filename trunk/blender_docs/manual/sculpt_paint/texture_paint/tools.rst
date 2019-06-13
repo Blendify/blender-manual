@@ -204,16 +204,3 @@ Very handy for making seamless textures. (In the *Image Editor* only.)
       top/bottom
 
 
-External
-========
-
-(Todo)
-
-Quick Edit
-   Edit a snapshot of the viewport in an external image editor.
-Apply
-   Project edited image back onto the object.
-Size
-   Size of the captured image for reprojecting.
-Apply Camera Image
-   Project an edited render from the active camera back onto the object.
