@@ -183,8 +183,8 @@ Accumulate
    Causes stroke dabs to accumulate on top of each other.
 
 
-Symmetry/Lock Panel
-===================
+Symmetry Panel
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -197,17 +197,17 @@ Mirror
    Mirror the brush strokes across the selected local axes.
    Note that if you want to alter the directions the axes point in,
    you must rotate the model in Edit Mode and not in Object Mode.
-Radial
-   These settings allow for radial symmetry in the desired axes.
-   The number determines how many times the stroke will be repeated within 360 degrees around the central axes.
-Feather
-   Reduces the strength of the stroke where it overlaps the planes of symmetry.
 Lock
    These three buttons allow you to block any modification/deformation
    of your model along selected local axes, while you are sculpting it.
 Tiling
    Using this option allows you to seamlessly tile your strokes along the given axes.
    This allows to create repeating patterns.
+Feather
+   Reduces the strength of the stroke where it overlaps the planes of symmetry.
+Radial
+   These settings allow for radial symmetry in the desired axes.
+   The number determines how many times the stroke will be repeated within 360 degrees around the central axes.
 Tile Offset
    The default tile size is set to one :abbr:`BU (Blender Unit)`.
    The offset allows the option to alter the tile size along all three axes.

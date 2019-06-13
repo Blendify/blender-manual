@@ -123,4 +123,4 @@ See :doc:`/sculpt_paint/brush/stroke`.
 Symmetry
 ========
 
-See :doc:`/sculpt_paint/brush/symmetry`.
+.. TODO

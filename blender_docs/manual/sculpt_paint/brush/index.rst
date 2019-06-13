@@ -11,5 +11,3 @@
    stroke.rst
    falloff.rst
    display.rst
-   symmetry.rst
-   options.rst
