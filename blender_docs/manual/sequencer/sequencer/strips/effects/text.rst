@@ -17,6 +17,8 @@ Options
 
 Text
    The actual text displayed.
+Font
+   :ref:`ui-data-block` to choose which font-file is used to render the text.
 Size
    Size of the text.
 Color
