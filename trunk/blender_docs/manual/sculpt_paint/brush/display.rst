@@ -2,6 +2,8 @@
 Display
 *******
 
+.. _sculpt-paint-brush-display:
+
 .. figure:: /images/sculpt-paint_brush_display-panel.png
    :align: right
 
