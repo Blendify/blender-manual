@@ -26,30 +26,40 @@ Resizing
 
 .. figure:: /images/interface_window-system_areas_resize.png
    :align: right
+   :width: 250px
+   :figwidth: 250px
 
 You can resize areas by dragging their borders with :kbd:`LMB`.
 Move your mouse cursor over the border between two areas,
 so that the cursor changes to a double-headed arrow, and then click and drag.
 
 
-Splitting and Joining
+Splitting
 =====================
 
 .. figure:: /images/interface_window-system_areas_split.png
    :align: right
+   :width: 250px
+   :figwidth: 250px
 
-Splitting an area will create a new area, and joining of two areas
-will close one area. Placing mouse cursor in area corner will change
-cursor to a cross (+) to indicate that pressing down :kbd:`LMB` will
-activate splitting or joining command. Dragging from area corner
-inward will *split* the area. You define the split direction by
-dragging either horizontally or vertically.
+Splitting an area will create a new area. Placing the mouse cursor
+in an area corner will change the cursor to a cross (+) to indicate that
+pressing down :kbd:`LMB` will activate splitting or joining command.
+Dragging from area corner **inward** will *split* the area. You define the
+split direction by dragging either horizontally or vertically.
+
+
+Joining
+=====================
 
 .. figure:: /images/interface_window-system_areas_join.png
+   :align: right
+   :width: 250px
+   :figwidth: 250px
 
    The Properties Editor is being joined to the Outliner.
 
-Dragging from area corner outward will *join* two areas. The area that
+Dragging from an area corner **outward** will *join* two areas. The area that
 will be closed gets a dark overlaid arrow. You can select which area
 will be closed by moving the mouse over areas. Release the :kbd:`LMB`
 to complete the join. If you press :kbd:`Esc` or :kbd:`RMB` before
