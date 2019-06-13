@@ -89,8 +89,8 @@ If you then open a new terminal, the following command will work:
    blender
 
 
-MS-Windows
-----------
+Windows
+-------
 
 Open the Command Prompt, go to the directory where Blender is installed,
 and then run Blender:

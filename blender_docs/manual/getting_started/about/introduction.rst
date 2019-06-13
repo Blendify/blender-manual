@@ -11,7 +11,7 @@ still images, 3D animations, VFX shots, and video editing.
 Blender is well suited to individuals and small studios who
 benefit from its unified pipeline and responsive development process.
 
-Blender is a cross-platform application, running on Linux, macOS, and MS-Windows systems.
+Blender is a cross-platform application, running on Linux, macOS, and Windows systems.
 Blender also has relatively small memory and drive requirements compared to other 3D creation suites.
 Its interface uses OpenGL to provide a consistent experience across all supported hardware and platforms.
 

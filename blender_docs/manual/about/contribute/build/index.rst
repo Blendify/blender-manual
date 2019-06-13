@@ -11,4 +11,4 @@ The building process is different for each operating system, instructions have b
 
    Linux <linux.rst>
    macOS <macos.rst>
-   MS-Windows <windows.rst>
+   Windows <windows.rst>
