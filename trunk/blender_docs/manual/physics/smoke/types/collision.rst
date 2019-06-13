@@ -16,14 +16,14 @@ To define any mesh object as a *Smoke Collision* object,
 add smoke physics by clicking *Smoke* in :menuselection:`Properties --> Physics`.
 Then select *Collision* as the *Smoke Type*.
 
+.. TODO2.8:
+   .. figure:: /images/physics_smoke_types_collision_settings.png
+      :align: right
+
+      Smoke Collision options.
 
 Options
 =======
-
-.. figure:: /images/physics_smoke_types_collision_settings.png
-   :align: right
-
-   Smoke Collision options.
 
 .. TODO, cannot figure out what the differences between the collision types are :/
 .. Wild speculation on SE: https://blender.stackexchange.com/q/1723/599
