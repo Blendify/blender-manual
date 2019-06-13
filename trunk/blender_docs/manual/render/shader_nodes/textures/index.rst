@@ -11,6 +11,7 @@
    checker.rst
    environment.rst
    gradient.rst
+   ies.rst
    image.rst
    magic.rst
    musgrave.rst
