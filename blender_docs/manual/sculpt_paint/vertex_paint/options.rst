@@ -3,7 +3,7 @@
 Options
 *******
 
-See the :ref:`Overlay & Appearance <sculpt-paint-brush-display>` options.
+See the :ref:`Brush Display <sculpt-paint-brush-display>` options.
 
 
 Options
