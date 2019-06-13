@@ -10,8 +10,8 @@ Object Modes
 
    The Mode select menu.
 
-*Modes* are a object-oriented feature, that mean that the available modes vary 
-depending on the selected active object's type -- most of them only enable the 
+*Modes* are a object-oriented feature, that mean that the available modes vary
+depending on the selected active object's type -- most of them only enable the
 default *Object Mode* (like cameras, lamps, etc.).
 
 Each mode is designed to edit an aspect of the selected object.
@@ -74,7 +74,7 @@ Modes might affect many things in Blender:
      - :doc:`Pose Mode </animation/armatures/posing/index>`
      - An armature only mode, dedicated to armature posing.
    * - .. figure:: /images/editors_3dview_modes_icons-grease-pencil.png
-     - :doc:`Edit Strokes Mode </grease_pencil/edit/index>`
+     - :doc:`Edit Strokes Mode </grease_pencil/modes/edit/index>`
      - A Grease Pencil only mode, dedicated to editing Grease Pencil strokes.
 
 

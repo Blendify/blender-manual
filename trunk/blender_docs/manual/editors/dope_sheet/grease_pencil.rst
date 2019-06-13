@@ -22,7 +22,7 @@ Grease Pencil (light blue)
    Multiple blocks are used for each area (e.g. one for the 3D View and the Image editor).
 Layers (gray)
    These channels contain the keyframes to which
-   the :doc:`layers </grease_pencil/layers/index>` are bound.
+   the :doc:`layers </grease_pencil/properties/layers>` are bound.
 
 
 Header
