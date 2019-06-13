@@ -5,19 +5,16 @@ Shader To RGB
 
 :guilabel:`Eevee Only`
 
-Eevee supports the conversion of BSDF outputs into color inputs to make any kind of custom shading.
+The Shader to RGB node is typically used for non-photorealistic rendering,
+to apply additional effects on the output of BSDFs.
+For example, a color ramp on the output of a diffuse BSDF can be used to create a flexible toon shader.
 
-This is supported using the Shader to RGB node.
-While this is supported, this is breaking the :abbr:`PBR (Physically Based Rendering)` pipeline and
-thus makes the result unpredictable when other effects are used.
+Using this conversion breaks the :abbr:`PBR (Physically Based Rendering)` pipeline and
+thus makes the result unpredictable when used in combination with effects such as
+ambient occlusion, contact shadows, soft shadows and screen space refaction.
 
-Here unpredictable means that it will not have the desired result.
-This might be the case if you use effects that need temporal accumulation to converge.
-Namely ambient occlusion, contact shadows, soft shadows, screen space refraction.
-
-For instance if you quantize the result of the ambient occlusion you will not get a fully quantized output
-but an accumulation of a noisy quantized output which may or may not converge to a smooth result.
-(TODO2.8 Image)
+Some effects require multiple samples to converge, and applying arbitrary changes to
+noisy input may not convert to a smooth result.
 
 .. warning::
 
@@ -26,12 +23,11 @@ but an accumulation of a noisy quantized output which may or may not converge to
    - Screen Space Reflection
    - Subsurface Scattering
 
-
 Inputs
 ======
 
 Shader
-   Todo 2.8.
+   Any shader such as a BSDF or Emission node can be linked here.
 
 
 Properties
@@ -44,8 +40,13 @@ Outputs
 =======
 
 Color
-   Todo 2.8.
+  Surface color computed from BSDFs and lighting.
 Alpha
-   Todo 2.8.
+   Alpha transparency from any Transparent BSDFs in the input.
 
-(TODO2.8 Example of Toon shading)
+Examples
+========
+
+.. figure:: /images/render_eevee_nodes_types_shader_to_rgb_example.jpg
+
+   Simple toon shading with Shader to RGB and Freestyle.
