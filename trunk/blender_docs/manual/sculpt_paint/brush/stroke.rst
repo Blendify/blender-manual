@@ -1,10 +1,7 @@
 
-**************
-Stroke & Curve
-**************
-
+******
 Stroke
-======
+******
 
 .. figure:: /images/sculpt-paint_stroke-curve_stroke-panel.png
    :align: right
@@ -80,15 +77,3 @@ Input Samples
    Recent mouse locations (input samples) are averaged together to smooth brush strokes.
 
 
-Curve
-=====
-
-The Curve allows you to control the *Strength* falloff of the brush.
-The falloff is mapped from the center of the brush (left part of the curve)
-towards its borders (right part of the curve).
-Changing the shape of the curve will make the brush softer or harder.
-Read more about using the :ref:`ui-curve-widget`.
-
-.. figure:: /images/sculpt-paint_stroke-curve_brush-curve.png
-
-   Brush curve example.

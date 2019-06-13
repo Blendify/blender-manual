@@ -10,6 +10,7 @@
 
    introduction.rst
    brush/index.rst
+   navigation.rst
 
 
 Modes

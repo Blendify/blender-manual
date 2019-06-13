@@ -114,13 +114,13 @@ Multi-Paint
       After that simply paint on top to set the desired collective weight.
 
 
-Stroke & Curve
-==============
+Stroke
+======
 
-See :doc:`/sculpt_paint/brush/stroke_curve`.
+See :doc:`/sculpt_paint/brush/stroke`.
 
 
 Symmetry
 ========
 
-(Todo)
+See :doc:`/sculpt_paint/brush/symmetry`.

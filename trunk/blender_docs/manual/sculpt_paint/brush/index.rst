@@ -6,6 +6,10 @@
 .. toctree::
    :maxdepth: 2
 
-   settings.rst
-   stroke_curve.rst
+   brush.rst
    texture.rst
+   stroke.rst
+   falloff.rst
+   display.rst
+   symmetry.rst
+   options.rst

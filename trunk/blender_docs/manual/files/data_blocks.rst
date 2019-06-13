@@ -185,7 +185,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |none|
      - | Skeleton used to deform meshes.
        | Used as data of armature objects, and by the Armature Modifier.
-   * - :doc:`Brush </sculpt_paint/brush/settings>`
+   * - :doc:`Brush </sculpt_paint/brush/brush>`
      - |tick|
      - |none|
      - | Used by paint tools.
@@ -281,7 +281,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - | An entity in the scene with location,
        | scale, rotation.
        | Used by scenes & collections.
-   * - :doc:`Paint Curve </sculpt_paint/brush/stroke_curve>`
+   * - :doc:`Paint Curve </sculpt_paint/brush/stroke>`
      - |tick|
      - |none|
      - | Stores a paint or sculpt stroke.
