@@ -129,6 +129,57 @@ As usual, be careful that the file does not have too many characters,
 as interactive response will slow down.
 
 
+Setting Case
+------------
+
+You can change the text case by selecting it then clicking the *To Upper* or
+*To Lower* in the Tool Shelf.
+
+Blender's *Bold* and *Italic* buttons do not work the same way as other applications,
+as they also serve as placeholders for you to load up other fonts manually,
+which get applied when you define the corresponding style; see `Font`_.
+
+To apply the Bold/Italics/Underline attribute to a set of characters, you either turn on
+*Bold* / *Italics* / *Underline* prior to typing characters,
+or highlight (select) first and then toggle Bold/Italics/Underline.
+
+
+Loading and Changing Fonts
+--------------------------
+
+Blender comes with a *built-in* font by default that is displayed in
+each of the four font style data-block menus.
+The *built-in* font is always present and shows in this list as "Bfont".
+The data-block menu contains a list displaying the currently loaded fonts.
+Select one for each font style.
+
+To load a different *Font*, click one of the *Load* buttons
+in the *Font* panel and navigate to a font file.
+The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital "F" icon.
+
+If you select a font that is unsupported by Blender, you will get the error ``Not a valid font``.
+
+.. note:: Location of Fonts on Unix
+
+   Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``,
+   but not always. They may be in other locations as well,
+   such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
+
+Remember the same font will be applied to all chars with same style in a text,
+but that a separate font is required for each style.
+For example, you will need to load an *Italics* font in order to make characters or words italic.
+Once the font is loaded you can apply that font "Style" to the selected characters or the whole object.
+In all, you would need to load a minimum of four different types of fonts to represent each style
+(Normal, Italics, Bold, Bold-Italics).
+
+It is important to understand, that Blender does not care what font
+you load for "normal", "bold", etc., styles.
+This is how you can have up to four different fonts in use in the same text,
+but you have to choose between different styles of a same font, or different fonts.
+Blender has a number of typographic controls for changing the style and layout of text,
+found in the *Font* panel.
+
+
 Converting Text Objects
 -----------------------
 
