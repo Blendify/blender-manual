@@ -3,7 +3,7 @@
 Options
 *******
 
-See the :ref:`Overlay & Appearance <sculpt-paint-brush-appearance>` options.
+See the :ref:`Overlay & Appearance <sculpt-paint-brush-display>` options.
 
 
 Project Paint
