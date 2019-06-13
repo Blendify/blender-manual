@@ -227,7 +227,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |none|
      - | Geometry shape storage, which can be animated.
        | Used by mesh, curve, and lattice objects.
-   * - :doc:`Light </render/lights>`
+   * - :doc:`Light </render/lights/light_object>`
      - |tick|
      - |none|
      - | Used as object data by light objects.
@@ -330,7 +330,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |none|
      - | The overarching manager for all of Blender's UI.
        | Includes workspaces, notification system, operators, and keymaps.
-   * - :doc:`World </render/cycles/world>`
+   * - :doc:`World </render/lights/world>`
      - |tick|
      - |none|
      - | Define global render environment settings.
