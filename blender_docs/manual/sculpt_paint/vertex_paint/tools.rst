@@ -16,7 +16,7 @@ Brush
 =====
 
 Brush
-   The :doc:`brush presets </sculpt_paint/brush/settings>` data-block menu.
+   The :doc:`brush presets </sculpt_paint/brush/brush>` data-block menu.
 Color
    The color of the brush. See :ref:`ui-color-picker`.
 
@@ -64,7 +64,7 @@ See :doc:`/sculpt_paint/brush/texture`.
 Stroke & Curve
 ==============
 
-See :doc:`/sculpt_paint/brush/stroke_curve`.
+See :doc:`/sculpt_paint/brush/stroke`.
 
 
 Symmetry

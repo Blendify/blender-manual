@@ -19,14 +19,13 @@ and that particular texture defined using the Material and Texture buttons.
 It is not necessary to have that material or texture applied to any mesh anywhere;
 it must only be defined.
 
-The example to the right shows the effects of painting with a flat
-(banded) wood texture.
-Switching the texture to Rings makes a target/flower type of brush painting pattern.
+The example to the right shows the effects of painting with a voronoi texture.
 
 Texture
    In paint modes the texture is used as a color source,
    while for sculpting it is used to determine the strength of the brush.
-Brush Mapping
+
+Mapping
    Sets the way the texture is applied to the brush stroke.
 
    View Plane
@@ -52,9 +51,9 @@ Brush Mapping
       The stencil is displayed as a screen space overlay on the viewport.
       To the transform the stencil texture and the stencil mask with additional :kbd:`Alt` pressed:
 
-      - Translate :kbd:`RMB`, :kbd:`Alt-RMB`
-      - Scale :kbd:`Shift-RMB`, :kbd:`Shift-Alt-RMB`
-      - Rotate :kbd:`Ctrl-RMB`, :kbd:`Ctrl-Alt-RMB`
+      - Translate :kbd:`RMB`
+      - Scale :kbd:`Shift-RMB`
+      - Rotate :kbd:`Ctrl-RMB`
 
       When using stencil scaling, :kbd:`X` and :kbd:`Y` are used to constrain the scaling to one axis.
       Pressing one of the buttons twice reverts to unconstrained scaling.
@@ -93,8 +92,6 @@ Texture Mask
 
 Brush strength is masked with a texture.
 
-ToDo <2.8 add.
-
 Pressure Masking
    A mask cut-off function. It allows to clip the mask result based on pressure,
    creating areas of no paint when low pressure is applied to the brush,
@@ -102,7 +99,7 @@ Pressure Masking
 
    Off
       Deactivated.
-   Cutoff
-      Simply selects between zero and one based on stylus pressure.
    Ramp
       Distributes the mask effect above the pressure value.
+   Cutoff
+      Simply selects between zero and one based on stylus pressure.
