@@ -43,7 +43,7 @@ Show
 Run Script / Script Node Update
    Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
 Register
-   Registers the current text data-block as a module on loading (the text name must end with '.py').
+   Registers the current text data-block as a module on loading (the text name must end with ``.py``).
    Read more about the registration of Python modules in
    `API documentation <https://docs.blender.org/api/2.79/info_overview.html#registration>`__.
 Label
@@ -85,10 +85,10 @@ Edit
       Pastes the text from the clipboard at the cursor location in the Text editor.
    Duplicate Line :kbd:`Ctrl-D`
       Duplicates the current line.
-   Move line(s) up
-      Swaps the current line with the above.
-   Move line(s) down
-      Swaps the current line with the below.
+   Move line(s) up :kbd:`Shift-Ctrl-Up`
+      Swaps the current/selected line(s) with the above.
+   Move line(s) down :kbd:`Shift-Ctrl-Down`
+      Swaps the current/selected line(s) with the below.
    Select
       Select Line, Select All.
    Jump
@@ -96,7 +96,7 @@ Edit
    Find...
       Shows the Find panel in the Sidebar region.
    Text Auto Complete :kbd:`Ctrl-Spacebar`
-      Shows a selectable list of Python commands and matching against words already used in the text.
+      Shows a selectable list of words already used in the text.
    Text To 3D Object
       One Object, One Object per line.
 Format
