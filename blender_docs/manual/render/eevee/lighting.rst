@@ -6,16 +6,21 @@ Light Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties --> Light`
+   :Panel:     :menuselection:`Properties --> Light` and :menuselection:`Shader Editor --> Sidebar --> Settings`
 
 Next to lighting from the background and any object with an emission shader,
-lamps are another way to add light into the scene.
+lights are another way to add light into the scene.
 The difference is that they are not directly visible in the rendered image,
 and can be more easily managed as objects of their own type.
 
-
 Common
 ======
+
+:doc:`Light settings </render/lights/light_object>` for all renderers.
+
+
+Eevee
+=====
 
 Specular
    Specular Light intensity multiplier. Use it for more artistic control.
@@ -35,58 +40,13 @@ Custom Distance
    The light's *Power*/*Strength* affect both specular and diffuse light.
 
 
-Light Types
+Shadows
+=======
+
+All lights can cast shadows, see :doc:`shadow settings </render/eevee/shadows>`.
+
+
+Limitations
 ===========
 
-Point Light
------------
-
-Point lights emit light equally in all directions.
-By setting the *Size* larger than zero, they become spherical lights,
-which give softer :doc:`shadows </render/eevee/shadows>` and shading.
-
-.. seealso::
-
-   :ref:`Point Lights <light-type-point>`.
-
-
-Spot Light
-----------
-
-Spot lights emit light in a particular direction, inside a cone.
-By setting the *Size* larger than zero, they can cast softer :doc:`shadows </render/eevee/shadows>` and shading.
-
-.. note::
-
-   Unlike in Cycles the *Size* of the light does not change the softness of the cone.
-
-.. seealso::
-
-   :ref:`Spot Lights <light-type-spot>`.
-
-
-Area Light
-----------
-
-Area lights emit light from a rectangular or elliptic area.
-
-.. seealso::
-
-   :ref:`Area Lights <light-type-area>`.
-
-
-Sun Light
----------
-
-Sun lights emit light in a given direction. Their position is not taken into account;
-they are always located outside of the scene, infinitely far away,
-and will not result in any distance falloff.
-
-However, their position is taken into account for shadowing. See :ref:`eevee-cascaded-shadow-map`.
-
-Because they are not located inside the scene, their strength uses different units,
-and should typically be set to lower values than other lights.
-
-.. seealso::
-
-   :ref:`Sun Lights <light-type-sun>`.
+- Unlike in Cycles, the *Size* of spot lights does not change the softness of the cone.

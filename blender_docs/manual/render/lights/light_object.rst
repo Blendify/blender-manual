@@ -1,72 +1,33 @@
 
-************
-Light Object
-************
-
-Lighting is a very important topic in rendering.
-The most accurately modeled and textured scene will yield poor results without a proper lighting scheme,
-while a simple model can become very realistic if skillfully lit.
+*************
+Light Objects
+*************
 
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Object Mode
-   :Editor:    :menuselection:`Properties --> Light`
-
-.. seealso::
-
-   - :doc:`Eevee Lighting </render/eevee/lighting>`
-   - :doc:`Cycles Lighting </render/cycles/light_settings>`
+   :Panel:     :menuselection:`Properties --> Light` and :menuselection:`Shader Editor --> Sidebar --> Settings`
 
 
-Light
-=====
+Common Settings
+===============
 
 Type
-   Defines the physical light shape, see: :ref:`light-type`.
-
+   Defines the light shape.
 Color
-   The color of the light source's illumination.
-Power/Strength
-   Each light type has its own way to control the intensity of the light.
-
-   .. note::
-
-      While this value can be negative, it will break the rules for conservation of energy
-      and will no longer be physically based (PBR).
-Radius/Size/Angle
-   Each light type has some way to control the physical size of the virtual light;
-   increasing this will result in softer shadows and shading.
-
-
-
-Shadow
-======
-
-Clip Start
-   TODO2.8.
-Softness
-   TODO2.8.
-Bias
-   TODO2.8.
-Exponent
-   TODO2.8.
-Bleet Bias
-   TODO2.8.
-Contact Shadows
-   TODO2.8.
-
-
-.. _light-type:
-
-Light Types
-===========
+   Color tint of the emitted light.
 
 .. _light-type-point:
 .. _bpy.types.PointLight:
 
+Renderer Settings
+=================
+
+- :doc:`Eevee specific settings </render/eevee/lighting>`
+- :doc:`Cycles specific settings </render/cycles/light_settings>`
+
 Point Light
-^^^^^^^^^^^
+===========
 
 .. figure:: /images/render_blender-render_lighting_lamps_point_viewport.png
    :align: right
@@ -85,47 +46,34 @@ Light intensity/energy decays based on (among other variables)
 distance from the *Point* light to the object. In other words,
 surfaces that are further away will be rendered darker.
 
+Power
+   Power of the light in Watts. Higher values increase the intensity of the light.
+   Negative values can be set, but should be avoided for predictable and physically based result.
+
+Size
+   When larger than zero, light will be emitted from a spherical surfaces with the specified radius.
+   Lights with larger size have softer shadows and specular highlights.
+
 
 .. _light-type-sun:
 .. _bpy.types.SunLight:
 
-Sun Light
-^^^^^^^^^
-
-A sun light provides light of constant intensity emitted in a single direction from infinitely far away.
-A sun light can be very handy for a uniform clear daylight open-space illumination. In the 3D View,
-the *Sun* light is represented by an encircled black dot with rays emitting from it,
-plus a dashed line indicating the direction of the light.
-
-.. note::
-
-   This direction can be changed by rotating the *Sun* light, like any other object,
-   but because the light is emitted from a location considered infinitely far away,
-   the location of a *Sun* light does not affect the rendered result.
-
-Color
-   Color tint of the light.
-Strength
-   Strength of the lights in Watts per square meter.
-Angle
-   The size of the sun light according to its
-   `angular diameter <https://en.wikipedia.org/wiki/Angular_diameter#Use_in_astronomy>`__
-   as seen from earth.
-
-
-.. _light-type-spot:
-.. _bpy.types.SpotLight:
-
 Spot Light
-^^^^^^^^^^
+==========
 
 A *Spot* light emits a cone-shaped beam of light from the tip of the cone,
 in a given direction.
 
-Distance, Energy and Color
-   These settings are common to most types of lights.
+Power
+   Power of the light in Watts. Higher values increase the intensity of the light.
+   Negative values can be set, but should be avoided for predictable and physically based result.
+
+Size
+   When larger than zero, light will be emitted from a spherical surfaces with the specified radius.
+   Lights with larger size have softer shadows and specular highlights.
 
 Spot Shape
+~~~~~~~~~~
 
    .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_terms.png
       :width: 610px
@@ -184,13 +132,17 @@ Show Cone
 .. _bpy.types.AreaLight:
 
 Area Light
-^^^^^^^^^^
+==========
 
 The *Area* light simulates light originating from a surface (or surface-like) emitter.
 For example, a TV screen, office neon lights, a window,
 or a cloudy sky are just a few types of area light. The area light produces shadows with
 soft borders by sampling a light along a grid the size of which is defined by the user.
 This is in direct contrast to point-like artificial lights which produce sharp borders.
+
+Power
+   Power of the light in Watts. Higher values increase the intensity of the light.
+   Negative values can be set, but should be avoided for predictable and physically based result.
 
 Shape
    Shape of the light.
@@ -214,3 +166,29 @@ Shape
 
 Size / Size X / Size Y
    Dimensions for the *Square* or *Rectangle*.
+
+
+Sun Light
+=========
+
+A sun light provides light of constant intensity emitted in a single direction from infinitely far away.
+A sun light can be very handy for a uniform clear daylight open-space illumination. In the 3D View,
+the *Sun* light is represented by an encircled black dot with rays emitting from it,
+plus a dashed line indicating the direction of the light.
+
+.. note::
+
+   This direction can be changed by rotating the *Sun* light, like any other object,
+   but because the light is emitted from a location considered infinitely far away,
+   the location of a *Sun* light does not affect the rendered result.
+
+Strength
+   Strength of the lights in Watts per square meter.
+Angle
+   The size of the sun light according to its
+   `angular diameter <https://en.wikipedia.org/wiki/Angular_diameter#Use_in_astronomy>`__
+   as seen from earth.
+
+
+.. _light-type-spot:
+.. _bpy.types.SpotLight:
