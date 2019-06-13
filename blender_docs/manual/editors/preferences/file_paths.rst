@@ -33,28 +33,27 @@ Temporary Files
 Scripts Path
 ------------
 
-By default Blender looks in several directories (OS dependent) for scripts.
-By setting a user script path in the preferences an additional directory is looked in.
-This can be used to store certain scripts/templates/presets independently of
-the currently used Blender Version.
+By default Blender looks in several directories (platform dependent) for scripts.
+By setting a user script path in the preferences an additional directory is used.
+This can be used to store your own scripts and add-ons independently of the current Blender version.
 
-Inside the specified folder, specific subfolders have to be created to tell Blender what to
-look for and where. This folder structure has to mirror the structure of the scripts folder found in
-the installation directory of Blender:
+You will need to create specific sub-folders in this path which match the structure of the ``scripts``
+folder found in Blenders installation directory.
 
-- scripts
-- add-ons
-- modules
-- presets
-- camera
-- cloth
-- interface_theme
-- operator
-- render
-- ...
-- startup
-- templates
-  Not all of the folders have to be present.
+The following subdirectories will be used when present:
+
+``startup/``
+   Modules in this folder will be imported on startup.
+``addons/``
+   Add-ons located here will be listed in the add-ons preferences.
+``modules/``
+   Modules in this folder can be imported by other scripts.
+``presets/``
+   Presets in this folder will be added to existing presets.
+
+.. note::
+
+   Blender will need to be restarted for all changes to the users scripts to take effect.
 
 .. warning::
 
