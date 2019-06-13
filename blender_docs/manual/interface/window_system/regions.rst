@@ -92,11 +92,12 @@ Resizing regions works by dragging their border, the same way as
 :doc:`/interface/window_system/areas`.
 
 To hide a region resize it down to nothing.
-A hidden region leaves a little plus sign (see picture below).
-By :kbd:`LMB` on the plus sign, the region will reappear.
+A hidden region leaves a little arrow sign.
+By :kbd:`LMB` on this icon to make the region reappear.
 
-.. list-table:: Hiding and showing the Header.
+.. TODO2.8:
+     .. list-table:: Hiding and showing the Header.
 
-   * - .. figure:: /images/interface_window-system_regions_headers-hide.png
+     * - .. figure:: /images/interface_window-system_regions_headers-hide.png
 
-     - .. figure:: /images/interface_window-system_regions_headers-show.png
+          - .. figure:: /images/interface_window-system_regions_headers-show.png
