@@ -20,17 +20,17 @@ Brush
 Color
    The color of the brush. See :ref:`ui-color-picker`.
 
-   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
-   Hold :kbd:`Ctrl` to paint with background color.
+   Press :kbd:`S` on any part of the image to sample that color and set it as
+   the brush color.
 
    Flip (cycle icon) :kbd:`X`
       Swaps the foreground and background color.
 
    .. note::
 
-      Note that Vertex Paint works in sRGB :term:`space <Color Space>`,
-      and the RGB representation of the same colors will be different
-      between the paint tools and the materials that are in linear space.
+      Note that Vertex Paint works in sRGB :term:`space <Color Space>`, and the
+      RGB representation of the same colors will be different between the paint
+      tools and the materials that are in linear space.
 
 Radius
    Set the radius of the brush.
@@ -39,21 +39,15 @@ Strength
 Blend
    See :term:`Color Blend Modes`.
 
-   In addition, here you can select the *Blur* or *Smear* mode.
-Alpha
-   When this is disabled, it locks (prevents changes) the alpha channel while painting.
-Accumulate
-   This will allow a stroke to accumulate on itself, just like an airbrush would do.
-Front Faces Only
-   Only paint on the front side of faces.
-Falloff Angle
-   As faces point away from the view the brush strokes fade away to prevent harsh edges.
-
-   Angle
-      The angle at which the falloff begins.
-2D Falloff
-   This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
-
+Options
+   Accumulate
+      This will allow a stroke to accumulate on itself, just like an airbrush would do.
+   Affect Alpha
+      When this is disabled, it locks (prevents changes) the alpha channel while painting.
+   Front Faces Only
+      Only paint on the front side of faces.
+   2D Falloff
+      This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
 
 Texture
 =======
@@ -70,10 +64,24 @@ See :doc:`/sculpt_paint/brush/stroke`.
 Symmetry
 ========
 
-(Todo)
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Vertex Paint Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tool --> Symmetry`
+   :Panel:     :menuselection:`Properties --> Tool --> Symmetry`
+   :Menu:      :menuselection:`Sculpt --> Symmetry`
+
+Mirror
+   Mirror the brush strokes across the selected local axes.
+   Note that if you want to alter the directions the axes point in,
+   you must rotate the model in Edit Mode and not in Object Mode.
+Radial
+   These settings allow for radial symmetry in the desired axes.
+   The number determines how many times the stroke will be repeated within 360 degrees around the central axes.
 
 
-Color Tools
+Paint Tools
 ===========
 
 .. admonition:: Reference
@@ -82,18 +90,10 @@ Color Tools
    :Mode:      Vertex Paint Mode
    :Menu:      :menuselection:`Paint`
 
-.. (TODO) tooltips, each tool has parameters
-
-Bright/Contrast
-   Adjust vertex color brightness/contrast.
-Hue Saturation Value
-   Adjust vertex color HSV values.
-Levels
-   Adjust levels of vertex colors.
-Invert
-   Invert RGB values.
-Vertex Color from Weight
-   Converts the active weight into grayscale vertex colors.
+Set Vertex Colors :kbd:`Shift-K`
+   Fill the active vertex color layer with the current paint color.
+Smooth Vertex Colors
+   Smooth colors across vertices.
 Dirty Vertex Colors
    Blur Strength
       Blur strength per iteration.
@@ -105,10 +105,16 @@ Dirty Vertex Colors
       Less than 90 limits the angle used in the tonal range.
    Dirt Only
       When active it won't calculate cleans for convex areas.
-Smooth Vertex Colors
-   Smooth colors across vertices.
-Set Vertex Colors :kbd:`Shift-K`
-   Fill the active vertex color layer with the current paint color.
+Vertex Color from Weight
+   Converts the active weight into grayscale vertex colors.
+Invert
+   Invert RGB values.
+Levels
+   Adjust levels of vertex colors.
+Hue Saturation Value
+   Adjust vertex color HSV values.
+Bright/Contrast
+   Adjust vertex color brightness/contrast.
 
 .. seealso::
 
