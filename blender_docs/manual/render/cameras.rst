@@ -201,10 +201,6 @@ Clip Start and End
 Camera
 ======
 
-.. figure:: /images/render_blender-render_camera_object-data_camera-panel.png
-
-   Camera Presets panel.
-
 Camera Presets
    :ref:`Presets <ui-presets>` to match real cameras.
 
@@ -227,17 +223,12 @@ Depth of Field
 
    :Panel:     :menuselection:`Camera --> Depth of Field`
 
-.. figure:: /images/render_cycles_camera_depth-of-field-panel.png
-
 Real-world cameras transmit light through a lens that bends and focuses it onto the sensor.
 Because of this, objects that are a certain distance away are in focus,
 but objects in front and behind that are blurred.
 
 The area in focus is called the *focal point* and can be set using either an exact value,
 or by using the distance between the camera and a chosen object:
-
-Aperature
----------
 
 Focus Object
    Choose an object which will determine the focal point. Linking an object will deactivate the distance parameter.
@@ -252,31 +243,12 @@ Distance
       Hover the mouse over the *Distance* property and press :kbd:`E` to use a special *Depth Picker*.
       Then click on a point in the 3D View to sample the distance from that point to the camera.
 
-Viewport
---------
-
-High Quality
-   Enables the High Quality *viewport* depth of field, giving a more accurate
-   representation of *depth of field*. This allows the viewport depth of field
-   to be closely represented to that of the render and render preview depth of field.
-F-Stop
-   Viewport depth of field aperture measured in f-stops; smaller numbers will cause more blur.
-Blades
-   The number of polygonal sides to give blurred objects in the viewport.
-   The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
-   (Only available with High Quality).
-
-
 Aperture
 --------
 
-Aperture type
-   Use F-Stop or Radius to set the aperture for the render, and render preview.
-   F-Stop is the focal ratio, where Radius is the radius of the focal point.
-Size/Number
-   Aperture radius *size*, or F-Stop *number* used for the render, and render preview.
-   Using the F-Stop with a low number, or Radius with a large size will result in a strong blur,
-   also allowing the use of the *bokeh effect*.
+F-Stop
+   F-Stop ratio that defines the amount of blurring.
+   Lower values give a strong depth of field effect.
 Blades
    Total number of polygonal blades used to alter the shape of the blurred objects
    in the render, and render preview. As with the viewport, the minimum amount of
@@ -298,10 +270,6 @@ Ratio
 
 Viewport Display
 ================
-
-.. figure:: /images/render_blender-render_camera_object-data_display-panel.png
-
-   Camera Display panel.
 
 Limits
    Shows a line which indicates *Start* and *End Clipping* values.
@@ -376,11 +344,6 @@ Modern LCD/plasma screens with purely digital signals have no :term:`overscan`,
 yet safe areas are still considered best practice and may be legally required for broadcast.
 
 In Blender, safe areas can be set from the Camera and Sequencer views.
-
-.. figure:: /images/render_blender-render_camera_object-data_safe-areas-panel.png
-
-   The Safe areas panel found in the camera properties,
-   and the view mode of the Sequencer.
 
 The Safe Areas can be customized by their outer margin,
 which is a percentage scale of the area between the center and the render size.
@@ -475,11 +438,6 @@ Render Border
    :Menu:      :menuselection:`View --> Render Border`
    :Hotkey:    :kbd:`Ctrl-B`
 
-.. figure:: /images/render_blender-render_camera_introduction_border.png
-   :align: right
-
-   Render Border toggle.
-
 While in camera view, you can define a subregion to render by drawing out a rectangle within the camera's frame.
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times for quick previews on an area of interest.
@@ -492,7 +450,7 @@ in the *Render* tab or by activating the option again.
    .. clear
 
 .. list-table:: Render border and associated render.
-   :widths: 60 40
+   :widths: 65 35
 
    * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
 
