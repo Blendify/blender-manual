@@ -189,13 +189,19 @@ View as Render
 Use Multi-View
    See :doc:`Multi-View </render/output/multiview/index>`.
 Alpha
-   Representation of alpha in the image file, to convert to and from when saving and loading the image. See :term:`Alpha Channel`.
+   Representation of alpha in the image file, to convert to and from when saving and loading the image.
+   See :term:`Alpha Channel`.
 
    Straight
-      Store RGB and alpha channels separately with alpha acting as a mask, also known as unassociated alpha. Commonly used by image editing applications and file formats like PNG. This preserves colors in parts of the image with zero alpha.
+      Store RGB and alpha channels separately with alpha acting as a mask, also known as unassociated alpha.
+      Commonly used by image editing applications and file formats like PNG.
+      This preserves colors in parts of the image with zero alpha.
    Premultiplied
-      Store RGB channels with alpha multipled in, also known as associated alpha. The natural format for renders and used by file formats like OpenEXR. This can represent purely emissive effects like fire correctly, unlike straight alpha.
+      Store RGB channels with alpha multipled in, also known as associated alpha.
+      The natural format for renders and used by file formats like OpenEXR.
+      This can represent purely emissive effects like fire correctly, unlike straight alpha.
    Channel Packed
-      Different images are packed in the RGB and alpha channels, and they should not affect each other. Channel packing is commonly used by game engines to save memory.
+      Different images are packed in the RGB and alpha channels, and they should not affect each other.
+      Channel packing is commonly used by game engines to save memory.
    None
-		Ignore alpha channel from the file and make image fully opaque.
+      Ignore alpha channel from the file and make image fully opaque.

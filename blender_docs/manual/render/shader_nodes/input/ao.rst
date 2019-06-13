@@ -25,7 +25,7 @@ Inputs
 Color
    Tint for AO output color.
 Distance :guilabel:`Cycles Only`
-   Distance up to which other objects are considered to occlude the shading point.   
+   Distance up to which other objects are considered to occlude the shading point.
 Normal
    Normal used for ambient occlusion; if nothing is connected the default shading normal is used.
 
@@ -34,7 +34,7 @@ Properties
 ==========
 
 Samples :guilabel:`Cycles Only`
-	 Number of samples to use for ray traced ambient occlusion sampling. Keep as low as possible for best performance.
+   Number of samples to use for ray traced ambient occlusion sampling. Keep as low as possible for best performance.
 Inside :guilabel:`Cycles Only`
    Detect convex rather than concave shapes, by computing occlusion inside mesh.
 Only Local :guilabel:`Cycles Only`

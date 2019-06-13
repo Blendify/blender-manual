@@ -116,7 +116,8 @@ Shapes
    in *Object Mode* and *Pose Mode*, by the shape of a chosen object
    (see :doc:`Shaped Bones </animation/armatures/bones/properties/display>` for details).
 Group Colors
-   Use the Bone Group colors to draw the bone. For more details see :doc:`Bone Groups </animation/armatures/properties/bone_groups>`.
+   Use the Bone Group colors to draw the bone.
+   For more details see :doc:`Bone Groups </animation/armatures/properties/bone_groups>`.
 In Front
    When enabled, the bones of the armature will always be drawn on top of the solid objects
    (meshes, surfaces, ...) -- i.e. they will always be visible and selectable

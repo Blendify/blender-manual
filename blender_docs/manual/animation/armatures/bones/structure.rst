@@ -65,4 +65,5 @@ which depends on:
    Our armature in Envelope visualization, in Pose Mode.
 
 
-All these influence parameters are further detailed in the :doc:`skinning pages </animation/armatures/skinning/index>`.
+All these influence parameters are further detailed in the
+:doc:`skinning pages </animation/armatures/skinning/index>`.

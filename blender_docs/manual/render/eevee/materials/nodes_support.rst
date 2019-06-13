@@ -83,7 +83,8 @@ Volume Absorption
 
 Volume Scatter
    The anisotropy parameter will be mixed and averaged for all overlapping volumetric objects,
-   which is not physically correct and differs from Cycles. Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
+   which is not physically correct and differs from Cycles.
+   Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
 
 Principled Volume
    Same as Volume Scatter. Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
