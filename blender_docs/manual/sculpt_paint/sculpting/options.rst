@@ -9,7 +9,7 @@ Options
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Tool Shelf --> Options`
 
-See the :ref:`Overlay & Appearance <sculpt-paint-brush-appearance>` options.
+See the :ref:`Display <sculpt-paint-brush-display>` options.
 
 
 Options Panel

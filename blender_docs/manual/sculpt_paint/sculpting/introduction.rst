@@ -19,8 +19,8 @@ Sculpt Mode
 
 Sculpt mode is selected from the mode menu of the *3D View* header.
 Once sculpt mode is activated, the Tool Shelf of the *3D View* will change
-to sculpt mode specific panels. The panels will be *Brush*,
-*Texture*, *Tool*, *Symmetry*, *Stroke*, *Curve*, *Appearance*, and *Options*.
+to sculpt mode specific panels. The panels will be *Brush*, *Texture*, *Stroke*,
+*Falloff*, *Display*, *Dyntopo*, *Symmetry*, and *Options*.
 A red circle will appear and follow the location of the cursor in the 3D View.
 
 .. note::
@@ -34,18 +34,6 @@ A red circle will appear and follow the location of the cursor in the 3D View.
 .. figure:: /images/sculpt-paint_sculpting_introduction_brush-circle.png
 
    The cursor in Sculpt Mode.
-
-
-Sculpt Menus
-============
-
-Tool Menu
----------
-
-Here you can select the type of brush preset to use.
-*Reset Brush* will return the settings of a brush to its defaults.
-You can also set Blender to use the current brush for *Vertex Paint Mode*,
-*Weight Paint Mode*, and *Texture Paint Mode* using the toggle buttons.
 
 
 Keyboard Shortcuts

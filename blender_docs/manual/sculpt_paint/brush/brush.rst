@@ -79,4 +79,3 @@ Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
 
 
 .. TODO: Move to own page (manual/sculpt_paint/options.rst), add refboxes
-.. _sculpt-paint-brush-appearance:
