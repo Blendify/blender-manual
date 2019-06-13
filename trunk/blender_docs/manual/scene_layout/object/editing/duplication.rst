@@ -127,7 +127,6 @@ wheels on a car... anywhere there is repetition or symmetry.
    see the page on :doc:`parenting </scene_layout/object/properties/relations/parents>`.
 
 
-.. _data-system-datablock-make-single-user:
 .. _bpy.ops.object.make_single_user:
 
 Make Single User
@@ -155,6 +154,7 @@ Data-blocks
 
    Object, Object Data, Materials, Textures, Object Animation
 
+.. seealso:: :ref:`data-system-datablock-make-single-user`
 
 .. _data-system-linked-libraries-make-link:
 .. _bpy.ops.object.make_links:
