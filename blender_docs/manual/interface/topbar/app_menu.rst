@@ -3,7 +3,7 @@ App Menu
 ********
 
 Splash Screen
-   Open the :doc:`/interface/splash`.
+   Open the :ref:`splash`.
 Support Blender
    Development Fund
       Open the developer fund website.
@@ -19,4 +19,4 @@ About
    License
       Open License website.
 Install Application Template
-   Install a new application template.
+   Install a new :ref:`application template <app_templates>`.

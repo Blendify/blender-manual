@@ -28,6 +28,8 @@ Tooltips
 Python Tooltips
    Displays a property's Python information below the tooltip.
 Developer Extras
+   .. _prefs-interface-dev-extras:
+
    TODO2.8.
 Large Cursors
    Use large mouse cursors when available.
