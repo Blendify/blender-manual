@@ -45,8 +45,8 @@ Key Features
 - It is cross platform, with an OpenGL GUI that is uniform on all major platforms
   (and customizable with Python scripts).
 - It has a high-quality 3D architecture, enabling fast and efficient creation workflow.
-- It boasts excellent community support from `forums <http://blenderartists.org/forum/>`__ and
-  :ref:`blender-chat`.
+- It boasts active community support, see `blender.org/community <https://www.blender.org/community>`__
+  for an extensive list of sites.
 - It has a small executable, which is optionally portable.
 
 You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
@@ -60,9 +60,7 @@ trying to grasp the basics. However, with a bit of motivation and the right lear
 it is possible to familiarize yourself with Blender after a few hours of practice.
 
 This manual is a good start, though it serves more as a reference.
-There are also many online video tutorials from specialized websites, and
-several books and training DVDs available in the `Blender Store <https://store.blender.org/>`__
-and on the `Blender Cloud <https://cloud.blender.org/>`__.
+There are also many online video tutorials from specialized websites.
 
 Despite everything Blender can do, it remains a tool. Great artists do not create masterpieces
 by pressing buttons or manipulating brushes, but by learning and practicing subjects
