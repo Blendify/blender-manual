@@ -4,9 +4,10 @@
 Baking
 ******
 
-.. figure:: /images/physics_fluid_types_domain_panels.png
+.. TODO2.8:
+   .. figure:: /images/physics_fluid_types_domain_panels.png
 
-   The fluid simulation options with Domain selected.
+      The fluid simulation options with Domain selected.
 
 
 Bake Button
