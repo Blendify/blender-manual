@@ -12,9 +12,9 @@ They work by changing how an object is displayed and rendered, but not the geome
 You can add several modifiers to a single object to form `The Modifier Stack`
 and *Apply* a modifier if you wish to make its changes permanent.
 
-.. TODO: .. figure:: /images/grease_pencil_modifiers_introduction_menu.png
+.. figure:: /images/grease_pencil_modifiers_introduction_menu.png
 
-   Modifiers menu.
+   Grease Pencil Modifiers menu.
 
 There are three types of modifiers for Grease Pencil:
 
