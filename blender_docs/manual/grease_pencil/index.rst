@@ -9,9 +9,14 @@
    :maxdepth: 2
 
    introduction.rst
+   structure.rst
+   primitives.rst
+   selecting.rst
+   properties/index.rst   
+   modifiers/index.rst
+   visual_effects/index.rst   
+   materials/index.rst    
    animation/index.rst
-   layers/index.rst
-   materials/index.rst
 
 Modes
 =====
@@ -19,6 +24,7 @@ Modes
 .. toctree::
    :maxdepth: 2
 
-   draw/index.rst
-   sculpting/index.rst
-   edit/index.rst
+   modes/draw/index.rst
+   modes/sculpting/index.rst
+   modes/edit/index.rst
+   modes/weight_paint/index.rst

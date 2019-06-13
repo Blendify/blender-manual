@@ -3,4 +3,9 @@
   Grease Pencil Animation
 ###########################
 
-TODO2.8: write this page.
+.. toctree::
+   :maxdepth: 2
+
+   introduction.rst   
+   interpolation.rst
+   additive_drawing.rst   

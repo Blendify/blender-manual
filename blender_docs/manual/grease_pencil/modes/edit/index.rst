@@ -1,11 +1,12 @@
 
 ###########################
-  Grease Pencil Materials
+  Grease Pencil Edit Mode
 ###########################
 
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
-   components/index.rst
-   material_panel.rst
+   tools.rst
+   stroke_menu.rst
+   multiframe_editing.rst

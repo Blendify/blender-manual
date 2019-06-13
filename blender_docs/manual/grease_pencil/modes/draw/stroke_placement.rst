@@ -1,6 +1,6 @@
 
 ###########################
-  Grease Pencil Draw Mode
+  Stroke Placement
 ###########################
 
 TODO2.8: write this section.
