@@ -22,7 +22,7 @@ We will begin with a very simple example: the default cube.
 
 - To judge the effect of the external forces you should at first turn off the *Goal*,
   so that the vertices are not retracted to their original position.
-- Press :kbd:`Alt-A` to run the simulation.
+- Start playback to run the simulation.
 
 What happens? The cube moves in negative Z direction.
 Each of its eight vertices is affected by a global, constant force -- the gravitation.
@@ -45,12 +45,12 @@ Soft Body Field Weights
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Physics --> Soft Body Field Weights`
+   :Panel:     :menuselection:`Physics --> Soft Body --> Field Weights`
 
 The *Soft Body Field Weights* panel allows you to control how much influence
 each type of external force field has on the soft body system.
 
-Effector Group
+Effector Collection
    Limit effectors to a specified group. Only effectors in this group will have an effect on the current system.
 Gravity
    Control how much the Global Gravity has an effect on the system.
