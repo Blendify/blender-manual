@@ -107,7 +107,7 @@ If you have a wheel mouse, you can zoom by rotating the :kbd:`Wheel`.
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
    :kbd:`Home` changes the view so that you can see all objects :menuselection:`View --> Frame All`,
-   while :kbd:`NumpadPeriod` zooms the view to the currently selected objects when 
+   while :kbd:`NumpadPeriod` zooms the view to the currently selected objects when
    in perspective mode :menuselection:`View --> Frame Selected`.
 
 
@@ -120,6 +120,7 @@ Zoom Border
    :class: refbox
 
    :Mode:      All modes
+   :Menu:      :menuselection:`View --> Navigation --> Zoom Border`
    :Hotkey:    :kbd:`Shift-B`
 
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
