@@ -88,7 +88,7 @@ If there is any problem with the selection or profiles,
 the tool will warn you with the error message:
 ``"You have to select a string of connected vertices too"`` as seen
 in Fig. :ref:`fig-mesh-screw-error-info` and Fig. :ref:`fig-mesh-screw-error-popup`,
-both in the Info Editor and at the place where you clicked to start performing the operation
+both in the *Status Bar* and at the place where you clicked to start performing the operation
 (when you click the Screw Button).
 
 .. _fig-mesh-screw-error-info:

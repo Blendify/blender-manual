@@ -15,9 +15,10 @@ Append and Link
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    Info Editor
+   :Editor:    Topbar
    :Mode:      All Modes
    :Menu:      :menuselection:`File --> Append or Link`
+   :Hotkey:    :kbd:`F4`, :kbd:`A` or :kbd:`L`
 
 *Link* creates a reference to the data in the source file such that
 changes made there will be reflected in the referencing file the next time it is reloaded.

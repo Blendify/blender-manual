@@ -19,7 +19,7 @@ Audio
 
 By default the biggest area is replaced with the Image Editor and the render appears.
 
-To cancel the rendering process click the cancel button ``X`` besides the progress bar in the Info Editor,
+To cancel the rendering process click the cancel button ``X`` besides the progress bar in the :ref:`topbar-index`,
 or press :kbd:`Esc`.
 
 

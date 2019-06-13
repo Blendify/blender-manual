@@ -24,10 +24,10 @@ Creating and Deleting Previews
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    Info Editor
+   :Editor:    Topbar
    :Menu:      :menuselection:`File --> Data Previews`
 
-Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`.
+Previews can be created and deleted in many ways from :menuselection:`Topbar --> File --> Data Previews`.
 
 Refresh Data-Block Previews
    Ensures that data-block previews are available and up to date.

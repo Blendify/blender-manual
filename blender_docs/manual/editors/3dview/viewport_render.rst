@@ -34,7 +34,7 @@ the Cycles Renderer.
           Full render.
 
 
-.. tip:: 
+.. tip::
 
    Disable overlays to render the viewport without any additional overlays.
 
@@ -49,14 +49,14 @@ Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    Info Editor
+   :Editor:    Topbar
    :Menu:      :menuselection:`Render --> Viewport Render Options`
 
 For the most part, *Viewport Render* uses the curremt viewport settings. Some
 settings are located in the render panel of the render engine that is used
 to render the view.
 
-Solid mode uses the render settings of workbench; Look Dev mode uses the 
+Solid mode uses the render settings of workbench; Look Dev mode uses the
 render settings of EEVEE.
 
 Sampling and Alpha Transparency Mode options can be set by

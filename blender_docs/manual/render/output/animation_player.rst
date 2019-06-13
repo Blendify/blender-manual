@@ -6,7 +6,7 @@
 Animation Player
 ****************
 
-The :menuselection:`Info Editor --> Render --> View Animation`
+The :menuselection:`Topbar --> Render --> View Animation`
 menu will play back the rendered animation in a new window.
 
 You can also drop images or movie files in a running animation player.
