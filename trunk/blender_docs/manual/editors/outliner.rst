@@ -59,6 +59,9 @@ For example, activating the mesh data of the cube will select the cube
 and enter *Edit Mode* while activating the object data of
 the cube will select the cube and enter *Object Mode* (see right).
 
+If the data-block type supports multi-editing, you can use :kbd:`shift` to add/remove
+objects from the edit mode.
+
 
 Selecting a Group of Data-blocks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -85,8 +88,8 @@ Context Menu
 Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
 Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
 
-Select, Deselect
-   This feature is not yet implemented.
+Select, Select Hierarchy, Deselect
+   Add object to current selection without making it the active one.
 Unlink
    To unlink a data-block from its "owner" (e.g. a material from its mesh).
 Make Local
@@ -108,40 +111,9 @@ Rename :kbd:`Ctrl-LMB`
 Select Linked
    Selects the linked data, see :ref:`bpy.ops.object.select_linked` for more information.
 
-.. note::
-
-   Some data-block types will not have a context menu at all!
-
-
-Object-level Restrictions
--------------------------
-
-The three following toggles, in the right side of the *Outliner* editor,
-are available for objects, modifiers and constraints.
-When holding :kbd:`Ctrl` all its child objects are affected as well.
-
-Visibility (eye icon)
-   Toggles the visibility of the object in the 3D View.
-   :kbd:`V` will toggle this property for any objects that are selected in the *Outliner*.
-Selectability (mouse cursor icon)
-   This is useful for if you have placed something in the scene
-   and do not want to accidentally select it when working on something else.
-   :kbd:`S` will toggle this property for any objects that are selected in the *Outliner*.
-Rendering (camera icon)
-   This will still keep the object visible in the scene, but it will be ignored by the renderer.
-   :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.
-
-
-Header
-======
-
 View Menu
----------
-
-Sort Alphabetically
-   Sort the entries alphabetically.
-Show Restriction Columns
-   Toggles the three columns of `Object-level Restrictions`_.
+"""""""""
+*The view menu is part of the context menu and supported in all the outliner elements.*
 
 Show Active
    Centers the Tree View to selected object :kbd:`Period`.
@@ -151,58 +123,128 @@ Show Hierarchy
    To collapse all levels of the tree :kbd:`Home`.
 
 
+.. note::
+
+   Some data-block types will not have a context menu at all!
+
+
+Restriction Columns
+-------------------
+
+The following toggles, in the right side of the *Outliner* editor,
+are available for collections, objects, bones, modifiers and constraints.
+
+By default only the temporary viewport visibility is enabled.
+The other options can be enabled in the *Restriction Toggles* option in the outliner filter.
+
+* Holding :kbd:`Shift` sets or unsets the value to all its child collections or objects.
+* Holding :kbd:`Ctrl` isolates the object or collection, so they are the only ones with its value set.
+
+Visibility (eye icon)
+   Toggles the visibility of the object in the 3D View.
+Enable collection (checkbox)
+   Exclude the collection from the view layer.
+   This is not really a restriction column. It is drawn besides the collection icon.
+
+.. note::
+
+   The following options need to first be enabled in the outliner filter.
+
+Selectability (mouse cursor icon)
+   This is useful for if you have placed something in the scene
+   and do not want to accidentally select it when working on something else.
+Rendering (camera icon)
+   This will still keep the object visible in the scene, but it will be ignored by the renderer.
+   Usually used by support objects that help modelling and animation yet do not belong in the final images.
+Global Viewport Visibility (screen icon)
+   This will still render the object/collection, but it will be ignored by all the viewports.
+   Often used for collections with high-poly objects that need to be instanced in other files.
+Holdout (collection only)
+   Mask out objects in collection from view layer - *Cycles only*.
+Indirect Only (collection only)
+   Objects in these collections only contribute to indirect light - *Cycles only*.
+
+Header
+======
+
 Display Mode
 ------------
 
 The editors header has a select menu that let you filter what the Outliner should show.
 It helps to narrow the list of objects so that you can find things quickly and easily.
 
-All Scenes
-   Shows *everything* the *Outliner* can display (in all scenes, all layers, etc.).
-Current Scene
-   Shows everything in the current scene.
-Visible Layers
-   Shows everything on the visible (currently selected) layers in the current scene.
-   Use the :doc:`layer </scene_layout/object/properties/relations/layers>` buttons
-   to make objects on a layer visible in the 3D View.
-Selected
-   Lists the object(s) that are currently selected in the 3D View.
-   See :doc:`selecting in the 3D View </scene_layout/object/selecting/index>` for more information.
-Active
-   Lists only the active (often last selected) object.
-Same Types
-   Lists only those objects in the current scene that are of the same types as those selected in the 3D View.
-Groups
-   Lists only :doc:`Groups </scene_layout/object/properties/relations/groups>` and their members.
+Scenes
+   Shows *everything* the *Outliner* can display (in all scenes, all view layers, etc.).
+View Layer
+   Shows all the collections and objects in the current view layer.
 Sequence
    Lists :doc:`data-block </files/data_blocks>`
    that are used by the :doc:`Sequencer </sequencer/index>`.
 Blender File
    Lists all data in the current blend-file.
-Data-Blocks
+Data API
    Lists every :doc:`data-block </files/data_blocks>` along with any properties that they might have.
-Preferences
-   Lists options that can be found in the :doc:`Preferences </editors/preferences/index>`
-   along with some other settings.
 Orphan Data
    Lists :doc:`data-blocks </files/data_blocks>`
    which are unused and/or will be lost when the file is reloaded.
    It includes data-blocks which have only a fake user. You can add/remove Fake User
    by clicking on cross/tick icon in the right side of the Outliner editor.
 
-   Purge All
-      Remove all unused data-blocks from the file (cannot be undone).
-
-
 Searching
 ---------
 
 You can search the view for data-blocks,
 by using Search field in the header of the *Outliner*,
-The *Search* menu lets you toggle the following options:
+The `Filter`_ menu lets you toggle the following options:
 
 - Case Sensitive Matches Only
 - Complete Matches Only
+
+Filter
+------
+
+Restriction Toggles
+   Set which `Restriction Columns`_ should be visible.
+Sort Alphabetically
+   Sort the entries alphabetically.
+
+Collections
+   List the objects and collections under the :doc:`collection hierarchy of the scene </scene_layout/collections>`.
+   Objects may appear in more than one collection.
+Objects
+   List of all the objects, respecting the other filter options. Disabled only if you need an overview of the collections without the objects.
+Object State
+   All
+      The default option, no restrictions.
+   Visible
+      List only the objects visible in the viewports.
+      The global and temporary visibility settings are taken into considerations.
+   Selected
+      Lists the object(s) that are currently selected in the 3D View.
+      See :doc:`selecting in the 3D View </scene_layout/object/selecting/index>` for more information.
+   Active
+      Lists only the active (often last selected) object.
+Object Contents
+   List materials, modifiers, mesh data, ...
+Object Children
+   List the object children. If the Collections option is enabled, we will see the object children even if the children are not in the collection.
+   However the outliner draws them in a dashed line.
+Data-Block
+   Allows you to filter out certain data-blocks currently present in the scene.
+
+Miscellaneous
+-------------
+
+Some options in the header will only show if compatible with the active `Display Mode`_.
+
+New Collection (view layer)
+   Add a new collection inside selected collection.
+Filter ID Type (orphan data, Blender file)
+   Restrict the type of the data-blocks shown in the outliner.
+Keying Sets (data api)
+   Add/Remove selected data to the active :doc:`Keying Set </animation/keyframes/keying_sets>`.
+Purge (orphan data)
+   Remove all unused data-blocks from the file (cannot be undone).
 
 
 .. (TODO) Edit menu for data-blocks mode
