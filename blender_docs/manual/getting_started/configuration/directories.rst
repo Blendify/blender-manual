@@ -127,13 +127,15 @@ Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/
    render engine integration and many handy utilities.
 
 ``./scripts/addons/modules/*.py``
-   Modules for add-ons to use (added to Python's sys.path).
+   Modules for add-ons to use
+   (added to Python's ``sys.path``).
 
 ``./scripts/addons_contrib/*.py``
    Another add-ons directory which is used for community maintained add-ons (must be manually created).
 
 ``./scripts/addons_contrib/modules/*.py``
-   Modules for ``addons_contrib`` to use (added to Python's sys.path).
+   Modules for ``addons_contrib`` to use
+   (added to Python's ``sys.path``).
 
 ``./scripts/modules/*.py``
    Python modules containing our core API and utility functions for other scripts to import
@@ -148,7 +150,7 @@ Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/
 ``./scripts/templates_py/*.py``
    Example scripts which can be accessed from :menuselection:`Text Editor --> Templates --> Python`.
 
-``./scripts/templates_osl/*.py``
+``./scripts/templates_osl/*.osl``
    Example OSL shaders which can be accessed from
    :menuselection:`Text Editor --> Templates --> Open Shading Language`.
 
