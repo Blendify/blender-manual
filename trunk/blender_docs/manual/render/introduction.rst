@@ -20,8 +20,8 @@ These are shared between Eevee and Cycles, however some features are only suppor
 
 Renders can be split up into :doc:`layers and passes </render/layers/index>`, which can then
 be :doc:`composited </compositing/index>` together for creative control, or to combine
-with real footage. :doc:`Freestyle </render/freestyle/index>` can be used to add non-photorealistic 
-line rendering.
+with real footage. :doc:`Freestyle </render/freestyle/index>` can be used to
+add non-photorealistic line rendering.
 
 Blender supports interactive 3D viewport rendering for all render engines, for quick iteration
 on lighting and shading. Once this is done, the final quality image or animation can

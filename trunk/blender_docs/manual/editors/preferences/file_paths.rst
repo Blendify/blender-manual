@@ -37,8 +37,8 @@ By default Blender looks in several directories (platform dependent) for scripts
 By setting a user script path in the preferences an additional directory is used.
 This can be used to store your own scripts and add-ons independently of the current Blender version.
 
-You will need to create specific sub-folders in this path which match the structure of the ``scripts``
-folder found in Blenders installation directory.
+You will need to create specific subfolders in this path which match the structure of the ``scripts``
+folder found in Blender's installation directory.
 
 The following subdirectories will be used when present:
 

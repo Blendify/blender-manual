@@ -18,8 +18,8 @@ the :doc:`Spline IK </animation/constraints/tracking/spline_ik>` page.
 Basic Setup
 ===========
 
-The Spline IK Constraint is not strictly an 'Inverse Kinematics' method (i.e. IK Constraint),
-but rather a 'Forward Kinematics' method (i.e. normal bone posing). However,
+The Spline IK Constraint is not strictly an *Inverse Kinematics* method (i.e. IK Constraint),
+but rather a *Forward Kinematics* method (i.e. normal bone posing). However,
 it still shares some characteristics of the IK Constraint,
 such as operating on multiple bones, not being usable for Objects,
 and being evaluated after all other constraints have been evaluated. It should be noted that
@@ -33,9 +33,9 @@ it is necessary to have a chain of connected bones and a curve to constrain thes
 - With the last bone in the chain selected,
   add a :doc:`Spline IK </animation/constraints/tracking/spline_ik>`
   Constraint from the Bone Constraints tab in the Properties Editor.
-- Set the 'Chain Length' setting to the number of bones in the chain
+- Set the *Chain Length* setting to the number of bones in the chain
   (starting from and including the selected bone) that should be influenced by the curve.
-- Finally, set the 'Target' field to the curve that should control the curve.
+- Finally, set the *Target* field to the curve that should control the curve.
 
 Congratulations, the bone chain is now controlled by the curve.
 
@@ -46,10 +46,11 @@ Settings and Controls
 For the precise list of options, see :doc:`Spline IK </animation/constraints/tracking/spline_ik>` constraint.
 This section is intended to introduce their use.
 
+
 Roll Control
 ------------
 
-To control the 'twist' or 'roll' of the Spline IK chain,
+To control the *twist* or *roll* of the Spline IK chain,
 the standard methods of rotating the bones in the chain along their Y axes still apply.
 For example, simply rotate the bones in the chain around their Y axes to adjust the roll of
 the chain from that point onwards.
@@ -60,7 +61,7 @@ Offset Controls
 ---------------
 
 The entire bone chain can be made to follow the shape of the curve while still being able to
-be placed at an arbitrary point in 3D space when the 'Chain Offset' option is enabled.
+be placed at an arbitrary point in 3D space when the *Chain Offset* option is enabled.
 By default, this option is not enabled,
 and the bones will be made to follow the curve in its untransformed position.
 
@@ -68,7 +69,7 @@ and the bones will be made to follow the curve in its untransformed position.
 Length Control
 --------------
 
-The 'Y Scale Mode' setting can be used to choose the way bones are scaled length-wise.
+The *Y Scale Mode* setting can be used to choose the way bones are scaled length-wise.
 The available options allow stretching the bone chain to fit the curve, using the pre-IK
 scaling, or doing neither. In addition, the scale of the curve Object affects the result.
 
@@ -76,7 +77,7 @@ scaling, or doing neither. In addition, the scale of the curve Object affects th
 Thickness Controls
 ------------------
 
-The thickness of the bones in the chain is controlled using the constraint's 'XZ Scale Mode' setting.
+The thickness of the bones in the chain is controlled using the constraint's *XZ Scale Mode* setting.
 This setting determines the method used for determining the scaling on
 the X and Z axes of each bone in the chain.
 
@@ -86,7 +87,7 @@ None
    This option keeps the X and Z scaling factors as 1.0.
 Volume Preserve
    The X and Z scaling factors are taken as the inverse of the Y scaling factor (length of the bone),
-   maintaining the 'volume' of the bone.
+   maintaining the *volume* of the bone.
 Bone Original
    This options just uses the X and Z scaling factors the bone would have after being evaluated in the standard way.
 
@@ -102,7 +103,7 @@ Tips for Nice Setups
 
 - For optimal deformations, it is recommended that the bones are roughly the same length,
   and that they are not too long, to facilitate a better fit to the curve.
-  Also, bones should ideally be created in a way that follows the shape of the curve in its 'rest pose' shape,
+  Also, bones should ideally be created in a way that follows the shape of the curve in its *rest pose* shape,
   to minimize the problems in areas where the curve has sharp bends
   which may be especially noticeable when stretching is disabled.
 - For control of the curve, it is recommended that hooks (in particular, Bone Hooks)

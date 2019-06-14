@@ -8,7 +8,7 @@
 
    introduction.rst
    tools.rst  
-   brushes/index.rst 
+   brushes/index.rst
    stroke_placement.rst
    drawing_planes.rst
    guides.rst

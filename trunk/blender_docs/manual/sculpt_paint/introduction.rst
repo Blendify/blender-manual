@@ -1,10 +1,10 @@
+
 ************
 Introduction
 ************
 
-Sculpting and painting uses :doc:`brushes </sculpt_paint/brush/index>` to paint
-directly on meshes. There are several :doc:`modes </editors/3dview/modes>` that
-uses this.
+Sculpting and painting uses :doc:`brushes </sculpt_paint/brush/index>` to paint directly on meshes.
+There are several :doc:`modes </editors/3dview/modes>` that uses this.
 
 - :doc:`Sculpting </sculpt_paint/sculpting/introduction>`:
   Change the topology of the mesh.

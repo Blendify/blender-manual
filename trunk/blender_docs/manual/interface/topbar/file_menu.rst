@@ -1,3 +1,4 @@
+
 *********
 File Menu
 *********
@@ -36,7 +37,7 @@ Append... :kbd:`F4`, :kbd:`A`
    The new data is copied from the external file, and completely unlinked from it.
 Data Previews
    Refresh Data-Block Previews
-      Ensure data-block previews are available and up-to-date to be saved in .blend file.
+      Ensure data-block previews are available and up-to-date to be saved in the blend-file.
       Previews only exist for some types like materials and textures.
    Batch-Generate Previews
       Generate previews for selected .blend files.
@@ -87,8 +88,8 @@ External Data
 Defaults
    .. _startup-file:
 
-   This menu manages the startup-file, used to store the default scene,
-   work-space and interface displayed at startup and when opening creating a new file.
+   This menu manages the startup file, used to store the default scene,
+   Workspace and interface displayed at startup and when opening creating a new file.
 
    Initially this contains the :doc:`startup scene </editors/3dview/startup_scene>` included with Blender.
    This can be replaced by your own customized setup.

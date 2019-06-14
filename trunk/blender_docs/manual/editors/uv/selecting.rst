@@ -11,7 +11,7 @@ Menu
 ====
 
 Border Select
-   Click and drag to box select uv coordinates.
+   Click and drag to box select UV coordinates.
    Alternatively, use :kbd:`B` to start box selection.
    See :ref:`bpy.ops.view3d.select_border`.
 Border Select Pinned

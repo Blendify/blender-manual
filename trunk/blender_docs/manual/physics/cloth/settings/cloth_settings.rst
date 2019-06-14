@@ -38,6 +38,7 @@ Bending Model
    Angular
       Cloth model with angular bending springs.
 
+
 Stiffness
 ^^^^^^^^^
 
@@ -92,7 +93,6 @@ There are several ways of doing this including using the Weight Paint tool to pa
 (see the :doc:`/sculpt_paint/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
 
-
 .. TODO2.8:
    .. figure:: /images/physics_cloth_settings_cloth-settings_pinning.png
 
@@ -133,10 +133,11 @@ Dynamic Mesh
    cloth to squash and stretch following the character with the help of shape keys or modifiers, but
    otherwise move freely under control of the physics simulation.
 
-   Normally cloth uses the state of the object in the first frame to compute the natural rest
-   shape of the cloth, and keeps that constant throughout the simulation. This is reasonable
-   for fully realistic scenes, but does not quite work for clothing on cartoon style characters
-   that use a lot of squash and stretch.
+   Normally cloth uses the state of the object in the first frame to compute
+   the natural rest shape of the cloth, and keeps that constant throughout the simulation.
+   This is reasonable for fully realistic scenes, but does not quite work for clothing
+   on cartoon style characters that use a lot of squash and stretch.
+
 
 Pinning Clothing to an Armature
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -180,7 +181,6 @@ The typical workflow for pinning:
 
 .. This is jumping ahead and not clear and not true at this point.
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
-
 
 
 Property Weights

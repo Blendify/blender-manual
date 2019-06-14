@@ -13,6 +13,7 @@ lights are another way to add light into the scene.
 The difference is that they are not directly visible in the rendered image,
 and can be more easily managed as objects of their own type.
 
+
 Common
 ======
 

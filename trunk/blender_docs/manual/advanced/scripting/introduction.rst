@@ -84,11 +84,10 @@ Outside of the Blender executable,
 there are literally hundreds of add-ons written by many people:
 
 - Officially supported add-ons are bundled with Blender.
-- Other **Testing** add-ons are included in development builds but not official releases.
+- Other *Testing* add-ons are included in development builds but not official releases.
   Many of them work reliably and are very useful but are not ensured to be stable for release.
 
-
-See :ref:`addons-index` for documentation on add-ons included with Blender.
+See :doc:`/addons/index` for documentation on add-ons included with Blender.
 
 
 Scripts

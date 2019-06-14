@@ -1,9 +1,10 @@
 
-#############################
-  Backbone Stretch Modifier
-#############################
+*************************
+Backbone Stretch Modifier
+*************************
 
 TODO2.8: write this section.
+
 
 Options
 =======

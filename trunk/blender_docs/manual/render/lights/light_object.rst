@@ -17,6 +17,7 @@ Type
 Color
    Color tint of the emitted light.
 
+
 .. _light-type-point:
 .. _bpy.types.PointLight:
 
@@ -25,6 +26,7 @@ Renderer Settings
 
 - :doc:`Eevee specific settings </render/eevee/lighting>`
 - :doc:`Cycles specific settings </render/cycles/light_settings>`
+
 
 Point Light
 ===========
@@ -55,8 +57,8 @@ Size
    Lights with larger size have softer shadows and specular highlights.
 
 
-.. _light-type-sun:
-.. _bpy.types.SunLight:
+.. _light-type-spot:
+.. _bpy.types.SpotLight:
 
 Spot Light
 ==========
@@ -72,8 +74,9 @@ Size
    When larger than zero, light will be emitted from a spherical surfaces with the specified radius.
    Lights with larger size have softer shadows and specular highlights.
 
+
 Spot Shape
-~~~~~~~~~~
+----------
 
    .. figure:: /images/render_blender-render_lighting_lamps_spot_introduction_terms.png
       :width: 610px
@@ -110,7 +113,7 @@ Blend
    decrease the value of *Blend*.
    Setting *Blend* to 0.0 results in very sharp spotlight edges, without any transition between light and shadow.
 
-   The falloff rate of the *Spot* light light is a ratio between the *Blend* and *Size* values;
+   The falloff rate of the *Spot* light is a ratio between the *Blend* and *Size* values;
    the larger the circular gap between the two, the more gradual the light fades between *Blend* and *Size*.
 
    *Blend* and *Size* only control the *Spot* light cone's aperture and softness ("radial" falloff);
@@ -168,6 +171,9 @@ Size / Size X / Size Y
    Dimensions for the *Square* or *Rectangle*.
 
 
+.. _light-type-sun:
+.. _bpy.types.SunLight:
+
 Sun Light
 =========
 
@@ -188,7 +194,3 @@ Angle
    The size of the sun light according to its
    `angular diameter <https://en.wikipedia.org/wiki/Angular_diameter#Use_in_astronomy>`__
    as seen from earth.
-
-
-.. _light-type-spot:
-.. _bpy.types.SpotLight:

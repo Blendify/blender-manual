@@ -108,7 +108,7 @@ Usage
 
    :Menu:      :menuselection:`File --> Save Copy...`
 
-There are a number of slightly different methods you can use to save your blend-file to your hard drive:
+There are a number of slightly different methods you can use to save your blend-file to your drive:
 
 Save :kbd:`Ctrl-S`
    Save current blend-file over itself (if it was not saved yet, this will automatically switch to *Save As...*).

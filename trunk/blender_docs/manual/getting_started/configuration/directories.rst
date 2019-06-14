@@ -28,10 +28,10 @@ Here are the default locations for each system:
 
 .. note::
 
-   The path ./|BLENDER_VERSION|/ is relative to the Blender executable &
-   used for self-contained bundles distributed by official blender.org builds.
+   The path |INSTALLDIR| is relative to the Blender executable and
+   is used for self-contained bundles distributed by official blender.org builds.
 
-   .. We can't use a parsed-literal above since it adds a line break.
+.. |INSTALLDIR| replace:: ./|BLENDER_VERSION|/
 
 
 Windows

@@ -1,9 +1,10 @@
 
-#############################
-  Stroke Modifier
-#############################
+***************
+Stroke Modifier
+***************
 
 TODO2.8: write this section.
+
 
 Options
 =======

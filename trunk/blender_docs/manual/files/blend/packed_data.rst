@@ -7,8 +7,7 @@ Packed Data
 
 Blender has the ability to encapsulate (incorporate)
 various kinds of data within the blend-file that is normally saved outside of the blend-file.
-For example, an image texture that is an external image file can be
-put "inside" the blend-file.
+For example, an image texture that is an external image file can be put "inside" the blend-file.
 This allows to share a full project as a single file,
 instead of e.g. an archive containing the blend-file and all of its dependencies.
 
@@ -45,10 +44,10 @@ Automatically Pack
 
 When enabled, this option will ensure that all eligible external files, existing or added later,
 are systematically marked as packed.
-As with *Pack All Into .blend*, blend-file must be saved to disk for this to have an effect.
+As with *Pack All Into .blend*, the blend-file must be saved to drive for this to have an effect.
 
-Disabling that option won't unpack anything,
-but future external files won't be automatically marked as packed anymore.
+Disabling that option won't unpack anything, but future external files
+won't be automatically marked as packed anymore.
 
 
 Selective Packing
@@ -100,14 +99,14 @@ Options
 ^^^^^^^
 
 Remove Pack
-   Just mark the file as unpacked, without actually writing it or reloading it from disk.
+   Just mark the file as unpacked, without actually writing it or reloading it from drive.
 Create <local file path>
    Unpack the file at proposed path, which is local to current blend-file.
 Use <original file path> (differs)|(identical)
-   If original file path still exists, mark it as unpacked. Note that it won't be automatically reloaded from disk.
-   *(differs)* or *(identical)* show difference status between packed version and on-disk one.
+   If original file path still exists, mark it as unpacked. Note that it won't be automatically reloaded from drive.
+   *(differs)* or *(identical)* show difference status between packed version and on-drive one.
 Overwrite <original file path>
    If original file path still exists but differs from packed version,
-   mark it as unpacked and overwrite on-disk file with packed version.
+   mark it as unpacked and overwrite on-drive file with packed version.
 Create <original file path>
-   If original file path does not exist, mark it as unpacked and write it to disk.
+   If original file path does not exist, mark it as unpacked and write it to drive.

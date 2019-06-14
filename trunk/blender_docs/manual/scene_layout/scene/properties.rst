@@ -62,12 +62,13 @@ Unit System
       Use the imperial unit system in this scene.
 Unit Scale
    Scale factor to use when converting between internal :term:`Blender Units`
-   and values displayed in the user interface. This can be changed when modelling
+   and values displayed in the user interface. This can be changed when modeling
    at microscopic or astronomical scales.
 
-   .. Note::
+   .. note::
+
       This only influences the values displayed in the user interface
-      and not how things behave internally. For example, physic simulations
+      and not how things behave internally. For example, physics simulations
       don't take the unit scale into account.
 
 Separate Units
@@ -209,8 +210,8 @@ Distance Model
 .. _bpy.types.FFmpegSettings.audio_channels:
 
 Format Settings
-   These settings, along with the settings found in the
-   :ref:`Encoding Panel <render-output-video-encoding-panel>`
+   These settings, along with the settings found
+   in the :ref:`Encoding Panel <render-output-video-encoding-panel>`
    change how sound is exported while rendering.
 
    To control how sounds plays back from within Blender, see the audio settings

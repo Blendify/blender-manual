@@ -38,11 +38,12 @@ Grid Floor
    They meet at the origin, which is also the position of the *Cube*.
    The Grid Floor settings are in the :doc:`Viewport Overlay </editors/3dview/controls/overlays>`.
 
-Text Info 
+
+Text Info
 =========
 
-The visibility and settings of the overlays can be set in the
-:doc:`Viewport Overlay </editors/3dview/controls/overlays>`.
+The visibility and settings of the overlays can be set
+in the :doc:`Viewport Overlay </editors/3dview/controls/overlays>`.
 
 View Name
    If the viewport camera is not aligned, the view is named "User" plus

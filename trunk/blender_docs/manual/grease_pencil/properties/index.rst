@@ -13,4 +13,3 @@
    vertex_group.rst
    strokes.rst
    display.rst
-   

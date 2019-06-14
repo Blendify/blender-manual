@@ -81,7 +81,7 @@ Channels
 Grayscale Preview (B/W)
    Display the preview image as gray-scale even if all channels are enabled.
 Mask Preview (black/white icon)
-   Applies mask defined by a nannotation tool in the preview widget.
+   Applies mask defined by a annotation tool in the preview widget.
 
 .. _clip-tracking-weight:
 

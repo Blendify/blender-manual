@@ -7,9 +7,9 @@
 .. toctree::
    :maxdepth: 2
 
-   orientation
+   orientation.rst
 
-   visibility
-   gizmo
-   overlays
-   shading
+   visibility.rst
+   gizmo.rst
+   overlays.rst
+   shading.rst

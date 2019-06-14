@@ -7,7 +7,7 @@ Dope Sheet View
 
    Dope Sheet View.
 
-The dope sheet view is used to visualize motion tracking data,
+The Dope Sheet View is used to visualize motion tracking data,
 it implemented as separate view of the Movie Clip editor just like the Graph View.
 
 It displays channels for selected tracks and each channel visualizes tracked
@@ -35,9 +35,9 @@ Header
 
 Show
    Only selected (mouse cursor icon)
-      Limits dopesheet channels to only information about selected tracks.
+      Limits dope-sheet channels to only information about selected tracks.
    Hidden (ghost icon)
-      includes information from hidden tracks.
+      Includes information from hidden tracks.
 Sort Method
    Sort order of the tracks.
 
@@ -56,4 +56,4 @@ Invert
 Usage
 =====
 
-The dope sheet view is for visualization and does not have any tools to actually edit data.
+The Dope Sheet View is for visualization and does not have any tools to actually edit data.

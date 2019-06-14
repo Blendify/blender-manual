@@ -15,7 +15,7 @@ Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to 
 View Menu
 =========
 
-Also see :doc:`/editors/image/navigating` in the image editor.
+Also see :doc:`/editors/image/navigating` in the Image editor.
 
 UV Local View
    Displays only the UV faces that are assigned to the currently displayed image.

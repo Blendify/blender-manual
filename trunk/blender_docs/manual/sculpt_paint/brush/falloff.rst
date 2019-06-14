@@ -1,3 +1,4 @@
+
 *******
 Falloff
 *******
@@ -12,11 +13,9 @@ Read more about using the :ref:`ui-curve-widget`.
 
    Brush curve example.
 
-
 Frontface Falloff
-    As faces point away from the view the brush strokes fade away to prevent
-    harsh edges.
+    As faces point away from the view the brush strokes fade away to
+    prevent harsh edges.
 
     Angle
         The angle at which the falloff begins.
-

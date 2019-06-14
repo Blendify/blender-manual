@@ -26,8 +26,6 @@ Brush Type
 .. figure:: /images/sculpt-paint_sculpting_tools_brushes.png
    :align: right
 
-
-
    Sculpt brushes.
 
 Draw :kbd:`Shift Space, X`

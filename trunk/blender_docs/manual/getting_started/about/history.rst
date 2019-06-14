@@ -230,7 +230,7 @@ Version/Revision Milestones
    Windows gets Input Method Editors (IMEs)
    and general improvements to painting, Freestyle, Sequencer and add-ons.
 `2.74 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.74>`__ -- March 2015:
-   Support for custom-normals, viewport compositing and improvements to hair dynamics.
+   Support for custom normals, viewport compositing and improvements to hair dynamics.
 `2.75 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.75>`__ -- July 2015:
    Integrated stereo/multi-view pipeline, corrective smooth modifier and new developmental dependency graph.
 `2.76 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.76>`__ -- November 2015:

@@ -13,7 +13,7 @@ Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
 Now, a lot of settings will appear, most of which we will ignore for now.
 
 That is all you need to do to set your cloth up for animating,
-but if you playback the animation, your lovely fabric will just drop very un-spectacularly.
+but if you playback the animation, the drop of your newly created fabric will be quite unspectacular.
 That is what we will cover in the next two sections about pinning and colliding.
 
 

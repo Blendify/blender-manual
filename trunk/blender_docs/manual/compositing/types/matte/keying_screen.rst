@@ -77,9 +77,9 @@ the image.
 
 Start in the :doc:`Movie Clip Editor </editors/clip/index>`.
 Open the Sidebar region and Tool Shelf to show tracking configuration.
-Tracks used for gradients are not useful for camera solving, because they do not
-track well. So create a new object track in the *Objects* selector. Place tracking
-markers on the clip to sample different parts of the backdrop.
+Tracks used for gradients are not useful for camera solving, because they do not track well.
+So create a new object track in the *Objects* selector.
+Place tracking markers on the clip to sample different parts of the backdrop.
 
 .. figure:: /images/compositing_types_matte_keying-screen_trackers.jpg
    :width: 480px

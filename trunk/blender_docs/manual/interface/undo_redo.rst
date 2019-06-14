@@ -52,11 +52,11 @@ Adjust Last Operation
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:     :menuselection:`Edit --> Adjust Last Operation...`
+   :Menu:      :menuselection:`Edit --> Adjust Last Operation...`
    :Hotkey:    :kbd:`F9`
 
-:kbd:`F9` after an action will present you a context-sensitive
-Pop-Up menu based on your last action taken and the Mode and Editor in which Blender is being used.
+:kbd:`F9` after an action will present you a context-sensitive pop-up menu
+based on your last action taken and the Mode and Editor in which Blender is being used.
 
 For example, if your last action was a rotation in *Object Mode*,
 Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last` left),

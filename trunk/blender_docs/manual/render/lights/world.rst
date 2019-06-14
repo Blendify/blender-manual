@@ -1,3 +1,4 @@
+
 *****************
 World Environment
 *****************
@@ -11,6 +12,7 @@ The world defines the environment that the scene is in.
 The surface shader sets the background and environment lighting,
 either as a fixed color, sky model or HDRI texture.
 With volume shaders the entire scene can be covered in mist or other volumetric effects.
+
 
 Surface
 =======
@@ -32,7 +34,7 @@ Image Based Lighting
 
 For image based lighting,
 use the Environment Texture node rather than the Image Texture node for correct mapping.
-This supports *Equirectangular* (also known as Lat/Long) for environment maps,
+This supports *Equirectangular* (also known as latitude/longitude) for environment maps,
 and *Mirror Ball* mapping for converting photos of mirror balls to environment maps.
 
 

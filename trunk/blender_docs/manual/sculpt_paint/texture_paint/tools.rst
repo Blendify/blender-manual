@@ -202,5 +202,3 @@ Very handy for making seamless textures. (In the *Image Editor* only.)
       left/right
    Y
       top/bottom
-
-

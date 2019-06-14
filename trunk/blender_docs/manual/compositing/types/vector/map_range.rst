@@ -44,4 +44,3 @@ Usage
 
 One important use case is to easily map the original range of the Z-depth channel
 to a more usable range (i.e: 0.0 - 1.0) for use as a matte for colorization or filtering operations.
-

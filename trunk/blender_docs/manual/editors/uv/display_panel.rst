@@ -13,7 +13,6 @@ You can set the editors display options in this panel.
 
       With both an image and UVs selected.
 
-
 Aspect Ratio
    Display Aspect for this image. Does not affect rendering.
 Repeat Image
@@ -36,7 +35,7 @@ Overlays
    Faces
       Display faces over the image.
    Smooth
-      Makes edges appeared anti-aliased.
+      Makes edges appear anti-aliased.
    Modified
       Show results of modifiers in the UV display.
    Stretching

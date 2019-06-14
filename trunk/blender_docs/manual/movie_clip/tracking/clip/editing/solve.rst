@@ -17,7 +17,7 @@ It also might be used for masking.
 This button will create a plane object
 which is deforming in the same way as plane defined by all selected point tracks.
 At least four feature points tracked across the footage which belongs to
-the plane one wants to replace are needed. More tracks will give better estimation of plane motion.
+the plane you want to replace are needed. More tracks will give better estimation of plane motion.
 
 Feature points used to estimate plane motion could be used from any place on the plane,
 meaning it's not necessarily need to be corners. Corners are not always easy to be tracked,
@@ -97,7 +97,7 @@ or that values for focal length or distortion coefficients were set incorrectly.
 Cleanup Panel
 =============
 
-This panel contains operators and their settings which are needed to cleans up bad tracks:
+This panel contains operators and their settings which are needed to clean up bad tracks:
 tracks which are not tracked long enough or which failed to reconstruct accurately.
 
 Frames
@@ -127,8 +127,8 @@ Geometry Panel
 
 3D Markers to Mesh
    Creates a mesh which vertices matches positions of reconstructed tracks.
-   It is required to have motion solved first before using this operator. Only tracks from the current tracking object
-   will be used.
+   It is required to have motion solved first before using this operator.
+   Only tracks from the current tracking object will be used.
    The intention of this operator is to give a nice starting point for a manual mesh reconstruction.
 Link Empty to Track
    Creates new empty in 3D viewport and appends contraint which parts it to the active track.
@@ -141,7 +141,7 @@ Scene orientation tools can be used for orienting object to bundles.
 
 Floor
    Use selected three markers to define a floor. Camera will be transformed in a way which makes the selected
-   markers to be flat (have Z=0).
+   markers to be flat (have Z = 0).
 Wall
    Similar to the floor orientation, but defines a wall (selected tracks are placed onto OXZ plane).
 Set Origin
@@ -164,9 +164,9 @@ Scene Setup
 
 Set as Background
    Sets the clip currently being edited as the camera background for all visible 3D Views.
-   If there is no visible 3D Views or the Clip Editor is open in full screen,
-   nothing will happen.
+   If there is no visible 3D Views or the Clip Editor is open in full screen, nothing will happen.
 Setup Tracking Scene
    Performs all usual steps to set up a VFX scene:
+
    - Create reference objects for floor and test object.
    - Create node set up for combining CG with an actual clip.

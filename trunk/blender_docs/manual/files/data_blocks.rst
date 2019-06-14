@@ -6,7 +6,7 @@ Data-Blocks
 ***********
 
 The base unit for any Blender project is the data-block. Examples of data-blocks include:
-meshes, objects, materials, textures, node trees, scenes, texts, brushes, and even workspaces.
+meshes, objects, materials, textures, node trees, scenes, texts, brushes, and even Workspaces.
 
 .. figure:: /images/data-system_outliner_blender_file_view.png
    :align: right
@@ -40,8 +40,8 @@ they belong to armature, scene and mesh types respectively.
 Life Time
 =========
 
-Every data-block is ref-counted, when there is more than one, you can see the number
-of current users of a data-block to the right of its name in the UI.
+Every data-block has its usage counted (reference count), when there is more than one,
+you can see the number of current users of a data-block to the right of its name in the UI.
 
 Blender follows the general rule that unused data is eventually removed.
 
@@ -62,7 +62,7 @@ there are times when you want to force the data to be kept irrespective of its u
 If you are building a blend-file to serve as a library of things that you intend to link to and from other files,
 you will need to make sure that they do not accidentally get deleted from the library file.
 
-To protect a data-block, use the "shield" button next to its name.
+To protect a data-block, use the button with the shield icon next to its name.
 The data-block will then never be silently deleted by Blender,
 but you can still do it manually if needed.
 
@@ -113,14 +113,14 @@ If you unlink a data-block from all of its users,
 it will eventually be deleted by Blender as described above (unless it is a protected one).
 
 Deleting a data-block directly erases it from the blend-file, automatically unlinking it from all of its users.
-This can be achieved by Shift-clicking on the "X" icon next to its name.
+This can be achieved by :kbd:`Shift-LMB` on the "X" icon next to its name.
 
 .. warning::
 
    Deleting some data-blocks can lead to deletion of some of its users, which would become invalid without it.
    The main example is that object-data deletion (like mesh, curve, camera...) will also delete all objects using it.
 
-Those two operations are also available in the contextual menu when right-clicking on a data-block in the *Outliner*.
+Those two operations are also available in the contextual menu when :kbd:`RMB`-clicking on a data-block in the *Outliner*.
 
 
 .. _data-system-datablock-types:
@@ -179,7 +179,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |none|
      - | Stores animation F-Curves.
        | Used as data-block animation data,
-       | and the Non-Linear-Editor.
+       | and the Non-Linear Animation editor.
    * - :doc:`Armature </animation/armatures/introduction>`
      - |tick|
      - |none|
@@ -329,7 +329,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - |none|
      - | The overarching manager for all of Blender's UI.
-       | Includes workspaces, notification system, operators, and keymaps.
+       | Includes Workspaces, notification system, operators, and key-maps.
    * - :doc:`World </render/lights/world>`
      - |tick|
      - |none|
@@ -360,7 +360,7 @@ and Python scripts, where it's common to define new settings not available in Bl
 Only certain data supports custom properties:
 
 - All :ref:`data-blocks types <data-system-datablock-types>`.
-- Bones and Pose-Bones.
+- Bones and pose bones.
 - Sequence strips.
 
 To add a custom property, search for the *Custom Properties* panel,

@@ -1,14 +1,16 @@
+
 ******
 Header
 ******
 
 Clip Menu
----------
+=========
 
 - Open Clip :kbd:`Alt-O`
 
+
 Controls
---------
+========
 
 Movie Clip
    :ref:`Data-block menu <ui-data-block>` used for add a movie file.
@@ -26,10 +28,11 @@ Modes
 Pivot Point
    See :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
+
 .. _clip-editor-clip-display-label:
 
 Clip Display
-------------
+============
 
 This pop-over contains display settings related to editor itself.
 

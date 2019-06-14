@@ -146,10 +146,12 @@ Image Tab
 UV Vertex
    Transform Properties :doc:`Selecting UVs </modeling/meshes/editing/uv/layout>`.
 
+
 Tool Tab
 ^^^^^^^^
 
 Shows the settings for the active tool.
+
 
 View Tab
 ^^^^^^^^

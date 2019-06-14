@@ -1,8 +1,9 @@
+
+.. _sculpt-paint-brush-display:
+
 *******
 Display
 *******
-
-.. _sculpt-paint-brush-display:
 
 .. figure:: /images/sculpt-paint_brush_display-panel.png
    :align: right
@@ -17,15 +18,14 @@ Allows you to customize the display in the viewport of the *Curve* and *Texture*
 that is applied to the brush.
 
 Alpha
-   You can change the amount of transparency used when showing the texture using 
-   the slider.
+   You can change the amount of transparency used
+   when showing the texture using the slider.
 Stroke Overlay
    The brush icon allows you to turn off the viewport overlay during strokes.
 View
    The eye icon is used as a toggle to show or hide the given brush texture.
 
-
-
+..
 
 .. figure:: /images/sculpt-paint_sculpting_introduction_brush-circle.png
    :align: right
@@ -40,7 +40,7 @@ Show Brush
    Shows the brush shape in the viewport.
 
    Color
-      Set the color of the brush ring. Pending on the current mode there will
+      Set the color of the brush ring. Depending on the current mode there will
       be options to set a single Color or a Color for Adding/Subtracting.
 
 Custom Icon

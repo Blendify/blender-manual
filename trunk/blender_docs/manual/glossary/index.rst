@@ -69,7 +69,7 @@ This page lists definitions for terms used in Blender and this manual.
       Simulation of motion.
 
    Anti-aliasing
-      Is the technique of minimizing :term:`aliasing`, by rendering multipe samples per pixel.
+      Is the technique of minimizing :term:`aliasing`, by e.g. rendering multiple samples per pixel.
 
    Armature
       An :term:`Object` consisting of :term:`bones <bone>`. Used to :term:`rig` characters, props, etc.

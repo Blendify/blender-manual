@@ -62,7 +62,7 @@ You can be in vertex, face, or edge selection mode.
 Workflow
 --------
 
-The process for unwrapping is straightforward, but there are tons of options available,
+The process for unwrapping is straightforward, but there are a lot of options available,
 each of which dramatically affect the outcome of the unwrap.
 By understanding the meaning behind the options, you will become more efficient at unwrapping.
 

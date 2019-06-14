@@ -10,5 +10,4 @@ Noise
 
    Noise Node.
 
-
 See :doc:`Here </render/materials/legacy_textures/types/noise>`.

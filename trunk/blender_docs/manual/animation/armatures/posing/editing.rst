@@ -69,7 +69,7 @@ Auto IK
    :Panel:     :menuselection:`Sidebar region --> Tool --> Pose Options`
 
 The auto IK option in the Tool Shelf enables a temporary IK constraint when posing bones.
-The chain acts from the tip of the selected bone to root of the uppermost parent bone.
+The chain acts from the tip of the selected bone to root of the upper-most parent bone.
 Note that this mode lacks options,
 and only works by applying the resulting transform to the bones in the chain.
 
@@ -223,6 +223,7 @@ Here are important points:
   and if there is no such named bone, nothing will happen...).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space.
   This means that the resulting pasted pose might be very different from the originally copied one, depending on:
+
   - The rest position of the bones,
   - and the current pose of their parents.
 

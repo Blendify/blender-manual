@@ -4,8 +4,8 @@
 Camera Data
 ***********
 
-This panel contains all settings of the camera used for filming the movie which is currently
-being edited in the Clip editor.
+This panel contains all settings of the camera used for filming the movie
+which is currently being edited in the Clip editor.
 
 
 Camera

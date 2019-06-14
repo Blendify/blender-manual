@@ -7,7 +7,7 @@ If this effect is enabled, all Materials will use the depth buffer and
 the previous frame color to create more accurate reflection than reflection probes.
 
 If a *Reflection Plane* is near a reflective surface,
-it will be used as the source for tracing rays more efficiently and fix the partial visibility problem
+it will be used as the source for tracing rays more efficiently and fix the partial visibility problem.
 
 .. figure:: /images/eevee_ssr_planar_reflection_combo.jpg
 

@@ -253,9 +253,9 @@ Diagnostics
 
 .. (TODO) explain what it is, when it can be useful
 
-   Center of mass - Location of Center of mass.
-   Rot Matrix - Estimated rotation matrix.
-   Scale Matrix - Estimated scale matrix.
+   Center of mass -- Location of the center of mass.
+   Rot Matrix -- Estimated the rotation matrix.
+   Scale Matrix -- Estimated the rscale matrix.
 
 Helpers
    These settings allow you to control how Blender will react (deform) the soft body
@@ -266,4 +266,3 @@ Helpers
    Fuzzy
       Fuzziness while on collision, high values make collision handling faster but less stable.
       Simulation is faster, but less accurate.
-

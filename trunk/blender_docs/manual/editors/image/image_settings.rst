@@ -18,7 +18,7 @@ Open Cache Render
    For this to work, :ref:`Save Buffers <render_properties_save-buffers>` must be enabled.
 
 Replace
-   Replaces the current image throughout the .blend file with another image.
+   Replaces the current image throughout the blend-file with another image.
 Reload
    Reload the image from the file on disk.
 Edit Externally
@@ -51,6 +51,7 @@ Unpack
 .. important::
 
    Rendered images are not automatically saved, they have to be saved to disk manually.
+
 
 Image Panel
 ===========

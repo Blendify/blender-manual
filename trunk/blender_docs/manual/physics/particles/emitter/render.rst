@@ -10,12 +10,18 @@ Render
 
 The Render Panel controls how particles appear when they are rendered.
 
-.. Note::
-   Cycles supports only Object and Collection render types.
+.. note::
 
+   Cycles supports only Object and Collection render types.
 
 Show Emitter
    When disabled, the emitter is no longer rendered. Activate the button *Emitter* to also render the mesh.
+
+
+Common Settings
+===============
+
+TODO2.8.
 
 
 Render As
@@ -131,6 +137,7 @@ Object Rotation
    Use the rotation of the objects.
 Object Scale
    Use the size of the objects.
+
 
 Use Count
 ^^^^^^^^^

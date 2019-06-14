@@ -121,19 +121,19 @@ Object Font
    to locate the individual characters used for typing.
    This is quite a complex process, so here are detailed steps to follow:
 
-   #. Create the font characters, each character can be any object type (mesh, curve, ect...).
+   #. Create the font characters, each character can be any object type (mesh, curve, etc.).
       They must all have a name following the naming schema:
       "common prefix" followed by the "character name" (e.g. "ft.a", "ft.b", etc.).
    #. For the *Text* object, enable
-      :doc:`Instancing Verts </scene_layout/object/properties/duplication/dupliverts>`.
+      :doc:`Instancing Vertices </scene_layout/object/properties/duplication/dupliverts>`.
    #. In the *Font* tab, fill the *Object Font* field with the "common prefix" of your "font" objects.
       Now, each time a character in your text matches the *suffix part* of a "font" object's name,
       this object is duplicated on this character.
 
    .. note::
 
-      The objects are duplicated so that their center is positioned
-      at the *lower right corner* of the corresponding characters.
+      The objects are duplicated so that their center is positioned at
+      the *lower right corner* of the corresponding characters.
 
 Text on Curve
    Select a curve object for the text object to follow.
@@ -153,12 +153,11 @@ Underline
    Text can also be set to Underlined by selecting it then using the *Underline* button in the Tool Shelf.
 
 Underline Position
-      This allows you to shift vertically the position of the underline.
+   This allows you to shift vertically the position of the underline.
 Underline Thickness
-      This controls the thickness of the underline.
+   This controls the thickness of the underline.
 Small Caps Scale
    Type small capital text.
-
 
 Bold
    Toggled with the *Bold* button before typing.

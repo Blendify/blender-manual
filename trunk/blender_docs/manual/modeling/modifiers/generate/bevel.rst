@@ -148,10 +148,7 @@ Miter Patterns
       The *Spread* slider controls how far the new vertices are from the meeting point.
       The *Profile* slider controls the shape of the arc.
 
-
-The miter patterns are shown in these diagrams:
-
- .. list-table::
+.. list-table:: Diagrams of the miter patterns.
 
    * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-2.png
           :width: 320px
@@ -168,8 +165,6 @@ The miter patterns are shown in these diagrams:
 
           Arc outer miter.
 
- .. list-table::
-
    * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-5.png
           :width: 200px
 
@@ -180,6 +175,7 @@ The miter patterns are shown in these diagrams:
 
           Arc inner miter.
 
+     - ..
 
 Spread
    The value used to spread extra vertices apart for *Outer* and *Inner Miters*.

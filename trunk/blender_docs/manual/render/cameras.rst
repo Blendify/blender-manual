@@ -243,6 +243,7 @@ Distance
       Hover the mouse over the *Distance* property and press :kbd:`E` to use a special *Depth Picker*.
       Then click on a point in the 3D View to sample the distance from that point to the camera.
 
+
 Aperture
 --------
 

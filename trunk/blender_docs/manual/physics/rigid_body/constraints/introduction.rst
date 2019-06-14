@@ -21,8 +21,10 @@ animate the relative location of the child.
 Connect
 =======
 
-The quickest way to constrain two objects is to select both and click the *Connect* button in :menuselect:`Object --> Rigid Body`.
-This creates a new *Empty* object (named "Constraint") with a physics constraint already attached and pointing at the two selected objects.
+The quickest way to constrain two objects is to select both and
+click the *Connect* button in :menuselection:`Object --> Rigid Body`.
+This creates a new *Empty* object (named "Constraint") with a physics constraint
+already attached and pointing at the two selected objects.
 
 
 Physics Menu

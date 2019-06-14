@@ -1,9 +1,10 @@
 
-#############################
-  Tint Modifier
-#############################
+*************
+Tint Modifier
+*************
 
 TODO2.8: write this section.
+
 
 Options
 =======

@@ -75,5 +75,3 @@ Smooth stroke :kbd:`Shift-S`
       Sets the amount of smoothing.
 Input Samples
    Recent mouse locations (input samples) are averaged together to smooth brush strokes.
-
-

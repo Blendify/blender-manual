@@ -44,7 +44,7 @@ Resist that deception, it rarely works out well.
 - Prefer a short exposure time to avoid motion blur.
   While motion blur is good to render filmed movements more smooth and natural,
   it seriously impedes the ability to track features precisely.
-  As a guideline, try to get at least to 1/250 s
+  As a guideline, try to get at least to 1/250 s.
 - Prefer higher frame rates. The more *temporal resolution* the stabilizer has to work on, the better the results.
   If you have the option to choose between progressive and interlaced modes, by all means use interlaced
   and deinterlace the footage to the *doubled frame rate*. This can be done with
@@ -68,10 +68,12 @@ Resist that deception, it rarely works out well.
 Elaborate Movements
 ===================
 
-When the footage builds on elaborate intended movement of the camera, the process of stabilization
-becomes more involved -- especially when there is a shift in the main area of interest within the shot.
-When working with many tracks and fine-grained animation, it is easy to get into a situation where additional
-manipulations actually decrease the quality, while it might be hard to spot and locate the root cause of problems.
+When the footage builds on elaborate intended movement of the camera,
+the process of stabilization becomes more involved --
+especially when there is a shift in the main area of interest within the shot.
+When working with many tracks and fine-grained animation,
+it is easy to get into a situation where additional manipulations actually decrease the quality,
+while it might be hard to spot and locate the root cause of problems.
 Recommendation is to proceed systematically, starting from the general outline down to tweaking of specific aspects.
 
 #. Understand the nature of the movements in the shot, both the intended and the accidental.
@@ -96,8 +98,9 @@ including control of the scale factor to hide the dancing black borders.
 Unfortunately there is a **known limitation** in the current version:
 it is not possible to open the generic animation editors (Graph editor and Dope Sheet)
 for animation data beyond the 3D scene. So, while it *is possible* to set keyframes *right within the UI controls*
-of the stabilizer (either through pressing the :kbd:`I` key or with the help of the context menu), it is not possible
-to manipulate the resulting curves graphically. The only way to readjust or remove a misguided keyframe is to locate
+of the stabilizer (either through pressing the :kbd:`I` key or with the help of the context menu),
+it is not possible to manipulate the resulting curves graphically.
+The only way to readjust or remove a misguided keyframe is to locate
 the timeline to the very frame and then use the context menu of the animated UI control.
 (Hint: the color of the UI control changes when you have located at precisely the frame number of the keyframe).
 
@@ -118,8 +121,9 @@ to get a smooth transition without visible jump.
    Irregular Tracks.
 
 The stabilizer is able to deal with gaps and partial coverage within the given tracks.
-However, the basic assumption is that each track covers a single, fixed reference point whenever there is any
-usable/enabled data. Thus, you must not "reuse" a given track to follow several different points,
+However, the basic assumption is that each track covers a single,
+fixed reference point whenever there is any usable/enabled data.
+Thus, you must not "reuse" a given track to follow several different points,
 rather you should disable and thus end one track, when tracking this feature is no longer feasible.
 You may include "gaps", when a tracking point is temporarily disabled or unavailable,
 but you should start a new track for each distinct new feature to be tracked.
@@ -140,5 +144,5 @@ the duration where the tracks overlap, again by animating the *Stab Weight* para
 But even with such cross-fade smoothing, some residual movement might remain,
 which then needs to be corrected with the *Expected Position*
 or *Expected rotation* parameters. It is crucial to avoid "overshooting" movements in such a situation --
-always strive at setting the animation keyframes onto precisely
-the same frame number for all the tracks and parameters involved.
+always strive at setting the animation keyframes onto precisely the same frame number
+for all the tracks and parameters involved.

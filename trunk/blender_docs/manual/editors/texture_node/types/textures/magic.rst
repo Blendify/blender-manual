@@ -7,5 +7,4 @@ Magic Node
 
    Magic node.
 
-
 See :doc:`Here </render/materials/legacy_textures/types/magic>`.

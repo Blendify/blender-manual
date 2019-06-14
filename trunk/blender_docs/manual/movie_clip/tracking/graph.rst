@@ -29,7 +29,8 @@ Header
 Show
    Only selected (mouse cursor icon)
 
-   Hidden (ghost icon)
+Hidden (ghost icon)
+   TODO2.8
 Filter
    Display options, defines what curves are visible.
 

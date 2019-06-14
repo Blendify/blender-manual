@@ -1,9 +1,10 @@
 
-#################################
-  Wave Distortion Visual Effect
-#################################
+*****************************
+Wave Distortion Visual Effect
+*****************************
 
 TODO2.8: write this section.
+
 
 Options
 =======

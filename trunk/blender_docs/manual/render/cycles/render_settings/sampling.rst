@@ -26,6 +26,7 @@ Settings
 Sample Method
    There are two integrator modes that can be used: *Path Tracing* and *Branched Path Tracing*.
 
+
 Path Tracing
 ------------
 

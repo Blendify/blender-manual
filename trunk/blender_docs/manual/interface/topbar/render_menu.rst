@@ -1,3 +1,4 @@
+
 ***********
 Render Menu
 ***********
@@ -16,9 +17,9 @@ View Animation :kbd:`Ctrl-F11`
    Playback rendered animation in an external player.
 Display Mode
    Full Screen
-      Images are rendered in a maximized image editor.
+      Images are rendered in a maximized Image editor.
    Image Editor
-      Images are rendered in an image editor.
+      Images are rendered in an Image editor.
    New Window
       Images are rendered in a new window.
    Keep User Interface

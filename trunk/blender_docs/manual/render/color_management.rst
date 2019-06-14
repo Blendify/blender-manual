@@ -7,7 +7,7 @@ Color Management
 
 Color management is important to create renders and assets that are physically accurate and look great
 on multiple display devices. It is used both to ensure all parts of the pipeline interpret colors correctly,
-and to make artistics changes like exposure and color grading.
+and to make artistic changes like exposure and color grading.
 
 .. figure:: /images/render_post-process_color-management_different-exposures.jpg
    :width: 300px
@@ -16,8 +16,9 @@ and to make artistics changes like exposure and color grading.
    Different views and exposures of the same render.
 
 Blender's color management is based on the `OpenColorIO <http://opencolorio.org/>`__ library.
-By using the same OpenColorIO configuration in multiple applications, the same color spaces and transforms
-will be available for consistent results.
+By using the same OpenColorIO configuration in multiple applications,
+the same color spaces and transforms will be available for consistent results.
+
 
 Workflow
 ========
@@ -44,6 +45,7 @@ However, these values do not directly correspond to human perception or the way 
 work. and image files are often stored in different color spaces.
 So we have to take care to do the right conversion into and out of this scene linear color space.
 
+
 Display Transforms
 ------------------
 
@@ -54,8 +56,8 @@ A computer monitor works differently from a digital cinema projector or HDTV,
 and so needs a different conversion.
 
 There is also an artistic choice to be made.
-Partially that is because display devices cannot display the full spectrum of colors and only have limited brightness,
-so we can squeeze the colors to fit in the gamut of the device.
+Partially that is because display devices cannot display the full spectrum of colors and
+only have limited brightness, so we can squeeze the colors to fit in the gamut of the device.
 Besides that, it can also be useful to give the renders a particular look,
 e.g. as if they have been printed on real camera film.
 The default Filmic transform does this.
@@ -79,8 +81,8 @@ These are always stored in scene linear color spaces, without any data loss.
 That makes them suitable to store renders that can later be composited, color graded and
 converted to different output formats.
 
-Images can also contain data that is not actually a color. For example normal or displacement
-maps merely contain vectors and offsets. Such images should be marked as *Non-Color Data* so
+Images can also contain data that is not actually a color. For example normal or displacement maps
+merely contain vectors and offsets. Such images should be marked as *Non-Color Data* so
 that no color space conversion happens on them.
 
 
@@ -128,7 +130,7 @@ View
       For photorealistic results and better handling of high dynamic range colors.
       The contrast can be adjusted by changing the *Look* option for the Filmic view transform.
    Filmic Log
-      Converts to Filmic log colorspace. This can be used for export to color grading applications,
+      Converts to Filmic log color space. This can be used for export to color grading applications,
       or to inspect the image by flattening out very dark and light areas.
    Raw
       Intended for inspecting the image but not for final export.
@@ -139,12 +141,12 @@ Exposure
    Used to control the image brightness (in stops) applied before color space conversion.
    It is calculated as follows: :math:`output\_value = render\_value × 2^{(exposure)}`
 Gamma
-   Extra gamma correction applied after color space conversion. Note that the default display transforms
-   already perform the appropriate conversion, so this mainly acts as an additional effect for artistic
-   tweaks.
+   Extra gamma correction applied after color space conversion.
+   Note that the default display transforms already perform the appropriate conversion,
+   so this mainly acts as an additional effect for artistic tweaks.
 Look
-   Choose an artistic effect from a set of measured film response data which
-   roughly emulates the look of certain film types. Applied before color space conversion.
+   Choose an artistic effect from a set of measured film response data
+   which roughly emulates the look of certain film types. Applied before color space conversion.
 Use Curves
    Adjust RGB Curves to control image colors before color space conversion.
    Read more about using the :ref:`ui-curve-widget`.
@@ -214,24 +216,24 @@ Blender will use the standard OCIO environment variable to read an OpenColorIO c
 other than the default Blender one. More information about how to set up such a workflow
 can be found on the `OpenColorIO website <http://opencolorio.org/>`__.
 
-We currently use the following color space rules:
+Blender currently use the following color space rules:
 
-scene_linear
+``scene_linear``
    Color space used for rendering, compositing, and storing all float precision images in memory.
-data
+``data``
    Color space for non-color data.
-XYZ
+``XYZ``
    Standard linear XYZ color space. Used for effects such as blackbody emission to convert
    from physical units to the *scene_linear* color space.
-color_picking
-   Defines the distribution of colors in color pickers. It is expected to be approximately
-   perceptually linear, have the same gamut as the *scene_linear* color space, map 0..1 values
-   to 0..1 values in the scene linear color space for predictable editing of material albedos.
-default_sequencer
+``color_picking``
+   Defines the distribution of colors in color pickers. It is expected to
+   be approximately perceptually linear, have the same gamut as the *scene_linear* color space,
+   map 0..1 values to 0..1 values in the scene linear color space for predictable editing of material albedos.
+``default_sequencer``
    Default color space for the Sequencer, *scene_linear* if not specified.
-default_byte
+``default_byte``
    Default color space for byte precision images and files, *texture_paint* if not specified.
-default_float
+``default_float``
    Default color space for float precision images and files, *scene_linear* if not specified.
 
 The standard Blender configuration includes support for saving and loading images in

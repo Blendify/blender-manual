@@ -10,31 +10,30 @@ Object Modes
 
    The Mode select menu.
 
-*Modes* are a object-oriented feature, that mean that the available modes vary
-depending on the selected active object's type -- most of them only enable the
-default *Object Mode* (like cameras, lamps, etc.).
+*Modes* are an object-oriented feature, that means that the available modes vary
+depending on the selected active object's type -- most of them only enable
+the default *Object Mode* (like cameras, lamps, etc.).
 
 Each mode is designed to edit an aspect of the selected object.
 See Tab. :ref:`tab-view3d-modes` below for details.
 
-You set the current mode in the *Mode* selector of *3D View* header
+You set the current mode in the *Mode* selector of 3D View header
 (see Fig. :ref:`fig-view3d-mode-select`).
 
 .. container:: lead
 
    .. clear
 
-
 Modes might affect many things in Blender:
 
 - They can modify the panels and/or controls available in some Properties editor
   tabs.
-- They can modify the behavior of the whole editor, like e.g. the *UV Editor*
-  and *3D View*.
+- They can modify the behavior of the whole editor,
+  like e.g. the UV Editor and 3D View.
 - They can modify the available header tools (menus and/or menu entries, as well
-  as other controls...). For example, in the *3D View* editor, the *Object* menu
-  in *Object Mode* changes to a *Mesh* menu in *Edit Mode* (with an active mesh
-  object!), and a *Paint* menu in *Vertex Paint Mode*...
+  as other controls...). For example, in the 3D View editor, the *Object* menu
+  in Object Mode changes to a *Mesh* menu in Edit Mode (with an active mesh object!),
+  and a *Paint* menu in Vertex Paint Mode...
 
 .. _tab-view3d-modes:
 
@@ -76,7 +75,6 @@ Modes might affect many things in Blender:
    * - .. figure:: /images/editors_3dview_modes_icons-grease-pencil.png
      - :doc:`Edit Strokes Mode </grease_pencil/modes/edit/index>`
      - A Grease Pencil only mode, dedicated to editing Grease Pencil strokes.
-
 
 .. note::
 

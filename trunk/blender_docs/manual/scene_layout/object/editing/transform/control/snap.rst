@@ -148,7 +148,6 @@ Closest
 Additional Snap Options
 -----------------------
 
-
 .. figure:: /images/editors_3dview_object_editing_transform_control_snap_options.png
 
 As seen by the yellow highlighted areas in the image above, besides the snap target,

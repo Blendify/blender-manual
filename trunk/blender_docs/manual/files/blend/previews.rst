@@ -1,6 +1,6 @@
 
 ********************
-Blend Files Previews
+Blend-Files Previews
 ********************
 
 A blend-file can store previews, both for itself, and for some of its :doc:`data-blocks </files/data_blocks>`.
@@ -8,7 +8,7 @@ You can disable writing any previews when saving a blend-file using the *Save Pr
 from the :ref:`prefs-save-load` section of the *Preferences*.
 
 
-Blend-file Preview
+Blend-File Preview
 ==================
 
 Blender saves by default a small preview of current scene in the blend-file.
@@ -18,7 +18,7 @@ During its installation, Blender also adds a small tool to your OS,
 that will allow your system file browser to show those previews as file thumbnails as well.
 
 
-Data-blocks Previews
+Data-Blocks Previews
 ====================
 
 Blender will generate automatically previews for some type of data, mainly shading-related ones
@@ -70,7 +70,7 @@ Batch Generate Previews
 Generate some data-block types' previews (you can choose which in its options),
 in one or more blend-file on your disk. You should not use that operator on the file currently opened in Blender.
 
-This is currently the only way to generate  and store in blend-files previews for scenes, collections and objects.
+This is currently the only way to generate and store in blend-files previews for scenes, collections and objects.
 Note that since this involves a lot of rendering, even of small sizes, the process may take some time to complete.
 
 
@@ -86,5 +86,3 @@ Batch Clear Previews
 
 Clear some data-block types' previews (you can choose which in its options),
 in one or more blend-file on your disk. You should not use that operator on the file currently opened in Blender.
-
-

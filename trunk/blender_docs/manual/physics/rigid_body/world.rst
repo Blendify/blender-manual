@@ -20,8 +20,8 @@ Rigid body objects automatically are added to this group when you add rigid body
 You can create several Rigid Body World groups and allocate the rigid body objects
 with the *Groups* panel in the *Object* tab.
 
-Rigid body objects and constraints are only taken into account by the simulation if they are in the collection specified
-in the *Collection* field of the *Rigid Body World* panel in the *Scene* tab.
+Rigid body objects and constraints are only taken into account by the simulation
+if they are in the collection specified in the *Collection* field of the *Rigid Body World* panel in the *Scene* tab.
 
 
 Settings

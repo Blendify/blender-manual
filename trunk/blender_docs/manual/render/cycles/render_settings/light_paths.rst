@@ -46,8 +46,7 @@ lower than the maximum. In that case, paths longer than minimum will be randomly
 they are expected to contribute less light to the image.
 This will still converge to the same image, but renders faster while possibly being noisier.
 
-A common source of noise is caustics, which are diffuse bounces followed by a glossy bounce
-(assuming we start from the camera). An option is available to disable these entirely.
+A common source of noise is :term:`caustics`. An option is available to disable these entirely.
 
 
 .. _render-cycles-light-paths-transparency:
@@ -80,7 +79,7 @@ rendering performance is affected as each transparency step requires executing t
 .. _render-cycles-integrator-light-paths:
 
 Settings
-===========
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -155,12 +154,12 @@ Filter Glossy
    Some light paths have a low probability of being found while contributing much light to the pixel.
    As a result these light paths will be found in some pixels and not in others, causing fireflies.
    An example of such a difficult path might be a small light that is causing a small specular highlight
-   on a sharp glossy material, which we are seeing through a rough glossy material.
-   In fact in such a case we practically have a caustic.
+   on a sharp glossy material, which is observed through a rough glossy material.
+   In fact in such a case there practically occurs a caustic.
 
    With path tracing it is difficult to find the specular highlight,
-   but if we increase the roughness on the material, the highlight gets bigger and softer, and so easier to find.
-   Often this blurring will hardly be noticeable, because we are seeing it through a blurry material anyway,
+   but if you increase the roughness on the material, the highlight gets bigger and softer, and so easier to find.
+   Often this blurring will hardly be noticeable, because it is blurred by the material anyway,
    but there are also cases where this will lead to a loss of detail in lighting.
 
 .. seealso::

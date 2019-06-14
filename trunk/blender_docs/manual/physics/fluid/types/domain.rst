@@ -142,6 +142,7 @@ Reverse Frames
 Offset
    Time offset when reading backed cache.
 
+
 Bake
 ====
 
@@ -312,10 +313,10 @@ Type
       Fluid will stick to snugly (speed 0).
    Free Slip
       Fluid will move on the object (0 normal direction of speed).
-   Part Slip
+   Partial Slip
       It is a two intermediate. It is almost *No slip*, 1 in the *Free* exactly the same in 0.
 Amount
-   Amount of mixing between no- and free-slip. 0 is no slip, 1 is free slip.
+   Amount of mixing between no and free slip. 0 is no slip, 1 is free slip.
 Surface Smoothing
    Amount of smoothing to be applied to the fluid surface.
    1.0 is standard, 0 is off, while larger values increase the amount of smoothing.

@@ -22,4 +22,3 @@ The *Outliner* allows you to do simple operations on objects,
 such as selecting, renaming, deleting, linking and parenting.
 
 :doc:`Read more about the Outliner </editors/outliner>`.
-

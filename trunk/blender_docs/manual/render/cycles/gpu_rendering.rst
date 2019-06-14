@@ -12,6 +12,7 @@ because modern GPUs are designed to do quite a lot of number crunching.
 On the other hand, they also have some limitations in rendering complex scenes, due to more limited memory,
 and issues with interactivity when using the same graphics card for display and rendering.
 
+
 Configuration
 =============
 

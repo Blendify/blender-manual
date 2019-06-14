@@ -23,6 +23,7 @@ Number
 Hair Length
    Controls how long the hair are.
 
+
 Source
 ======
 
@@ -66,4 +67,3 @@ Random
 Even Distribution
    Hair particle distribution is made even based on surface area of the elements,
    i.e. small elements emit less particles than large elements, so that the particle density is even.
-
