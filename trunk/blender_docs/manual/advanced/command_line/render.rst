@@ -56,7 +56,7 @@ Single Image
 
 .. code-block:: sh
 
-   blender -b file.blend -o /project/renders/frame_##### -F EXR -f -2
+   blender -b file.blend -o /project/renders/frame_##### -F OPEN_EXR -f -2
 
 ``-o /project/renders/frame_#####``
    Path of where to save the rendered image, using five padded zeros for the frame number.
