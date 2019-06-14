@@ -70,6 +70,7 @@ Subsurface Scattering
 Transparent BSDF
    Only monochromatic transparency is supported. The color input will be converted to float and used as alpha value.
    Transparency will only have an effect if the Material blend mode is not Opaque.
+   Using an Add Shader node with a Transparent BSDF node will not result in an additive blending behavior.
 
 Translucent BSDF
    Does not diffuse the light inside the object. It only lights the object with reversed normals.
@@ -106,6 +107,9 @@ Velvet BSDF
 
 Principled Hair BSDF
    Not supported.
+
+Add Shader
+   Using an Add Shader node with a Transparent BSDF node will not result in an additive blending behavior.
 
 
 Input Nodes
