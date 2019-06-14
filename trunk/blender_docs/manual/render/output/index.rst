@@ -6,7 +6,7 @@
 .. toctree::
    :maxdepth: 2
 
-   render_panel.rst
+   /interface/topbar/render_menu.rst
    settings.rst
    file_formats.rst
    audio/index.rst
