@@ -4,6 +4,8 @@
    CHANGES TO THIS FILE MUST BE MADE IN BLENDER'S SOURCE CODE, SEE:
    https://developer.blender.org/diffusion/B/browse/master/source/creator/creator_args.c
 
+.. _command_line-args:
+
 **********************
 Command Line Arguments
 **********************
@@ -229,8 +231,8 @@ Debug Options
 Misc Options
 ============
 
-``--app-template``
-   Set the application template, use ``default`` for none.
+``--app-template`` ``<template>``
+   Set the application template (matching the directory name), use ``default`` for none.
 ``--factory-startup``
    Skip reading the startup.blend in the users home directory.
 ``--enable-static-override``

@@ -285,6 +285,8 @@ def text_extract_help(text, args, static_strings):
         "   CHANGES TO THIS FILE MUST BE MADE IN BLENDER'S SOURCE CODE, SEE:\n"
         "   https://developer.blender.org/diffusion/B/browse/master/source/creator/creator_args.c\n"
         "\n"
+        ".. _command_line-args:\n"
+        "\n"
         "**********************\n"
         "Command Line Arguments\n"
         "**********************\n"
