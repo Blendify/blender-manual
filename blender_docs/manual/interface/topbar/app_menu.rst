@@ -1,3 +1,5 @@
+.. _topbar-app_menu:
+
 ********
 App Menu
 ********
