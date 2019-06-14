@@ -40,7 +40,7 @@ Render Options
 
    The ``#`` characters are replaced by the frame number, and used to define zero padding.
 
-   * ``ani_##_test.png`` becomes ``ani_01_test.png``
+   * ``animation_##_test.png`` becomes ``animation_01_test.png``
    * ``test-######.png`` becomes ``test-000001.png``
 
    When the filename does not contain ``#``, The suffix ``####`` is added to the filename.
@@ -49,12 +49,12 @@ Render Options
 
    .. code-block:: sh
 
-      blender -b foobar.blend -o //render_ -F PNG -x 1 -a
+      blender -b animation.blend -o //render_ -F PNG -x 1 -a
 
    ``//render_`` becomes ``//render_####``, writing frames as ``//render_0001.png``
 ``-E``, ``--engine`` ``<engine>``
    Specify the render engine.
-   Use -E help to list available engines.
+   Use ``-E`` help to list available engines.
 ``-t``, ``--threads`` ``<threads>``
    Use amount of ``<threads>`` for rendering and other operations
    [1-64], 0 for systems processor count.
@@ -65,10 +65,11 @@ Format Options
 
 ``-F``, ``--render-format`` ``<format>``
    Set the render format.
-   Valid options are ``TGA`` ``RAWTGA`` ``JPEG`` ``IRIS`` ``IRIZ`` ``AVIRAW`` ``AVIJPEG`` ``PNG`` ``BMP``
+   Valid options are:
+   ``TGA`` ``RAWTGA`` ``JPEG`` ``IRIS`` ``IRIZ`` ``AVIRAW`` ``AVIJPEG`` ``PNG`` ``BMP``
 
-   Formats that can be compiled into Blender, not available on all systems: ``HDR`` ``TIFF`` ``OPEN_EXR``
-   ``OPEN_EXR_MULTILAYER`` ``MPEG`` ``CINEON`` ``DPX`` ``DDS`` ``JP2``
+   Formats that can be compiled into Blender, not available on all systems:
+   ``HDR`` ``TIFF`` ``OPEN_EXR`` ``OPEN_EXR_MULTILAYER`` ``MPEG`` ``CINEON`` ``DPX`` ``DDS`` ``JP2``
 ``-x``, ``--use-extension`` ``<bool>``
    Set option to add the file extension to the end of the file.
 
@@ -77,7 +78,10 @@ Animation Playback Options
 ==========================
 
 ``-a`` ``<options>`` ``<file(s)>``
-   Playback ``<file(s)>``, only operates this way when not running in background.
+   Instead of showing Blender's user interface, this runs Blender as an animation player,
+   to view movies and image sequences rendered in Blender (ignored if ``-b`` is set).
+
+   Playback Arguments:
 
    ``-p`` ``<sx>`` ``<sy>``
       Open with lower left corner at ``<sx>``, ``<sy>``.
@@ -105,7 +109,7 @@ Window Options
 ``-M``, ``--window-maximized``
    Force opening maximized.
 ``-con``, ``--start-console``
-   Start with the console window open (ignored if -b is set), (Windows only).
+   Start with the console window open (ignored if ``-b`` is set), (Windows only).
 ``--no-native-pixels``
    Do not use native pixel size, for high resolution displays (MacBook ``Retina``).
 ``--no-window-focus``
