@@ -11,9 +11,10 @@ Rigid Body
 
    :Panel:     :menuselection:`Physics --> Rigid Body`
 
-.. figure:: /images/physics_rigid-body_properties_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_rigid-body_properties_panel.png
 
-   Default rigid body panel.
+      Default rigid body panel.
 
 Type
    Role of the rigid body in the simulation.
@@ -25,14 +26,10 @@ Type
       button in the Physics tab of the Tool Shelf.
    Passive
       Object is directly controlled by animation system.
-      Thus, this type is not available for `Rigid Body Dynamics`_.
+      Thus, this type is not available for `Dynamics`_.
       The possibility to select this type also available with *Add Passive* button
       in the Physics tab of the Tool Shelf.
 
-Dynamic
-   Enables/disables rigid body simulation for object.
-Animated
-   Allows the rigid body additionally to be controlled by the animation system.
 Mass
    Specifies how heavy the object is and "weights" irrespective of gravity.
    There are predefined mass preset available with the *Calculate Mass* button
@@ -46,6 +43,10 @@ Mass
 
          Also you can have *Custom* mass material type,
          which is achieved by setting a custom density value (kg/m\ :sup:`3`).
+Dynamic
+   Enables/disables rigid body simulation for object.
+Animated
+   Allows the rigid body additionally to be controlled by the animation system.
 
 
 Rigid Body Collisions
@@ -54,18 +55,18 @@ Rigid Body Collisions
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Physics --> Rigid Body Collisions`
+   :Panel:     :menuselection:`Physics --> Rigid Body --> Collisions`
 
-.. figure:: /images/physics_rigid-body_properties_collisions.png
+.. TODO2.8:
+   .. figure:: /images/physics_rigid-body_properties_collisions.png
 
-   Rigid Body Collisions panel.
+      Rigid Body Collisions panel.
 
 
 Collision Shapes
 ----------------
 
 The Shape option determines the collision shape of the object.
-The changing collision shape is available also with *Change Shape* button in the Physics tab of the Tool Shelf.
 
 
 .. rubric:: Primitive Shapes
@@ -121,22 +122,31 @@ Final
    Includes all deformations and modifiers.
 
 
-General Settings
+Surface Response
 ----------------
 
-Surface Response
-   Friction
-      Resistance of object to movement. Specifies how much velocity is lost when objects collide with each other.
-   Bounciness
-      Tendency of object to bounce after colliding with another (0 to 1) (rigid to perfectly elastic).
-      Specifies how much objects can bounce after collisions.
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Physics --> Rigid Body --> Surface Response`
+
+Friction
+   Resistance of object to movement. Specifies how much velocity is lost when objects collide with each other.
+Bounciness
+   Tendency of object to bounce after colliding with another (0 to 1) (rigid to perfectly elastic).
+   Specifies how much objects can bounce after collisions.
 
 Collision Groups
    Allows rigid body collisions allocate on different groups (maximum 20).
 
 
-Collision Margin
-----------------
+Sensitivity
+-----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Physics --> Rigid Body --> Sensitivity`
 
 Margin
    Threshold of distance near surface where collisions are still considered (best results when non-zero).
@@ -159,20 +169,27 @@ The margin is *not embedded* for these shapes:
 - Passive Triangle Mesh: Can be set to 0 most of the time.
 
 
-Rigid Body Dynamics
-===================
+Dynamics
+========
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Physics --> Rigid Body Dynamics`
+   :Panel:     :menuselection:`Physics --> Rigid Body --> Dynamics`
 
-.. figure:: /images/physics_rigid-body_properties_dynamics.png
+.. TODO2.8:
+   .. figure:: /images/physics_rigid-body_properties_dynamics.png
 
-   Rigid Body Dynamics panel.
+      Rigid Body Dynamics panel.
 
 Used to control the physics of the rigid body simulation.
 This panel is available only for *Active* type of rigid bodies.
+
+Damping
+   Translation
+      Amount of linear velocity that is lost over time.
+   Rotation
+      Amount of angular velocity that is lost over time.
 
 Deactivation
    Enable Deactivation
@@ -187,8 +204,3 @@ Deactivation
       Specifies the angular deactivation velocity below which the rigid body is deactivated and simulation stops
       simulating object.
 
-Damping
-   Translation
-      Amount of linear velocity that is lost over time.
-   Rotation
-      Amount of angular velocity that is lost over time.
