@@ -19,7 +19,10 @@ Gizmo size
 Look Dev Sphere Size
    Diameter of the LookDev sphere overlay.
 3D Viewport Axis
-   TODO2.8.
+   Interactive Navigation
+      Display the axis as an interactive gizmo.
+   Simple Axis
+      Display simple, less intrusive axis in in the viewport.
 
 
 .. _prefs-system-multi-sampling:
@@ -27,14 +30,20 @@ Look Dev Sphere Size
 Quality
 =======
 
+.. TODO2.8: document what the difference exacly is between anti-aliasing & multi-sampling is.
+
 Viewport Anti-aliasing
-   TODO2.8.
+   Control the :term:`anti-aliasing` for smoother drawing.
 Multisampling
    This enables :term:`multisampling` for smoother drawing, at the expense of some performance.
 Grease Pencil Multisampling
-   TODO.
+   Control the :term:`anti-aliasing` for smoother grease pencil drawing.
 Edit-Mode Smooth Wires
-   TODO2.8.
+   Display smooth wire in edit-mode,
+   without this wire will be rendered aliased (jagged).
+
+   Some users prefer to disable this for increased visibility,
+   since edges don't blend into other shaded regions.
 
 
 Textures

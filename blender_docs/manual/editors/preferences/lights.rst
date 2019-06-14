@@ -16,7 +16,7 @@ Editor
 
 *Studio Lights* are used to light the 3D View,
 mostly during *Solid view*. Lighting is constant and position "world" based.
-There are four virtual light sources, used to illuminate 3D View scenes,
+There are up to four virtual light sources, used to illuminate 3D View scenes,
 which will not display in renders.
 
 The Lamp icons allow the user to enable or disable individual lights.
@@ -32,14 +32,15 @@ Light
    Specular
       This is the highlight color of the light.
    Smooth
-      TODO2.8.
+      Smooth the shading from this light.
+
+      *This has the effect of lighting to be less direct.*
    Direction
       Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
       let us the user change the direction of the lamp by rotating the sphere.
       The direction of the lamp will be the same as shown at the sphere surface.
-
 Ambient Color
-   TODO2.8.
+   The color of unlit areas.
 
 
 MatCaps
