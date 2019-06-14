@@ -42,7 +42,7 @@ Particles may be rendered as:
   These hair curves can be manipulated in the 3D View (combing, adding, cutting, moving, etc.).
 
 Every object may carry many particle systems. Each particle system may contain up to
-100.000 particles. Certain particle types (*Hair* and *Keyed*)
+10.000.000 particles. Certain particle types (*Hair* and *Keyed*)
 may have up to 10.000 children for each particle
 (children move and emit more or less like their respective parents).
 The size of your memory and your patience are your practical boundaries.
