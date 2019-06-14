@@ -14,36 +14,77 @@ Cloth
 
 Presets
    Contains a number of :ref:`preset <ui-presets>` cloth examples.
-Quality
+Quality Steps
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
-Speed
+Speed Multiplier
    Adjust how fast time flows in the cloth simulation.
 
 
-Material
---------
+Physical Properties
+-------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties`
 
 Mass
    The mass of the cloth material.
+Air Viscosity
+   Air has some thickness which slows falling things down.
+Bending Model
+   Linear
+      Cloth model with linear bending springs (old).
+   Angular
+      Cloth model with angular bending springs.
+
+Stiffness
+^^^^^^^^^
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties --> Stiffness`
+
+Tension
+   How much the material resists stretching.
+Compression
+   How much the material resists compression.
 Structural
-   Overall stiffness of the cloth.
+   Overall stiffness of the cloth (only in linear bending model).
+Shear
+   How much the material resists shearing.
 Bending
    Wrinkle coefficient. Higher creates more large folds.
 
 
 Damping
--------
+^^^^^^^
 
-Spring
-   Damping of cloth velocity. Higher values give a more smooth result (less jiggling).
-Air
-   Air normally has some thickness which slows falling things down.
-Velocity
-   Damps the velocity to help the cloth reach the final resting position faster.
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties --> Damping`
+
+Tension
+   Amount of damping in stretching behavior.
+Compression
+   Amount of damping in compression behavior.
+Structural
+   Amount of damping in stretching behavior (only in linear bending model).
+Shear
+   Amount of damping in shearing behavior.
+Bending
+   Amount of damping in bending behavior.
 
 
-Pinning
--------
+Shape
+-----
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Physics --> Cloth --> Shape`
 
 The first thing you need when pinning cloth is
 a :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
@@ -51,9 +92,11 @@ There are several ways of doing this including using the Weight Paint tool to pa
 (see the :doc:`/sculpt_paint/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
 
-.. figure:: /images/physics_cloth_settings_cloth-settings_pinning.png
 
-   Cloth pinning.
+.. TODO2.8:
+   .. figure:: /images/physics_cloth_settings_cloth-settings_pinning.png
+
+      Cloth pinning.
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the *Pinning* button in the *Cloth* panel and select which
@@ -62,6 +105,38 @@ vertex group you want to use, and the stiffness you want it at.
 Stiffness
    Target position stiffness. You can leave the stiffness as it is; the default value of 1 is fine.
 
+Sewing Force
+   Maximum force that can be applied by sewing springs. Zero means unbounded, but it is not
+   recommended to leave the field at zero in most cases, as it can cause instability due to
+   extreme forces in the initial frames where the ends of the sewing springs are far apart.
+
+   Another method of restraining cloth similar to pinning is sewing springs.
+   Sewing springs are virtual springs that pull vertices in one part of
+   a cloth mesh toward vertices in another part of the cloth mesh.
+   This is different from pinning which binds vertices of the cloth mesh in place or to another object.
+   A clasp on a cloak could be created with a sewing spring.
+   The spring could pull two corners of a cloak about a character's neck.
+   This could result in a more realistic simulation than pinning the cloak to
+   the character's neck since the cloak would be free to slide about the character's neck and shoulders.
+
+   Sewing springs are created by adding extra edges to a cloth mesh that are not included in any faces.
+   They should connect vertices in the mesh that should be pulled together.
+   For example the corners of a cloak.
+
+Shrinking Factor
+   Factor by which to shrink the cloth.
+
+Dynamic Mesh
+   Dynamic Mesh allows animating the rest shape of cloth using shape keys or
+   modifiers (e.g. an Armature modifier or any deformation modifier) placed above the Cloth modifier.
+   When it is enabled, the rest shape is recalculated every frame, allowing unpinned
+   cloth to squash and stretch following the character with the help of shape keys or modifiers, but
+   otherwise move freely under control of the physics simulation.
+
+   Normally cloth uses the state of the object in the first frame to compute the natural rest
+   shape of the cloth, and keeps that constant throughout the simulation. This is reasonable
+   for fully realistic scenes, but does not quite work for clothing on cartoon style characters
+   that use a lot of squash and stretch.
 
 Pinning Clothing to an Armature
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -107,89 +182,34 @@ The typical workflow for pinning:
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
 
 
-Dynamic Mesh
-------------
 
-Dynamic Mesh allows animating the rest shape of cloth using shape keys or
-modifiers (e.g. an Armature modifier or any deformation modifier) placed above the Cloth modifier.
-When it is enabled, the rest shape is recalculated every frame, allowing unpinned
-cloth to squash and stretch following the character with the help of shape keys or modifiers, but
-otherwise move freely under control of the physics simulation.
-
-Normally cloth uses the state of the object in the first frame to compute the natural rest
-shape of the cloth, and keeps that constant throughout the simulation. This is reasonable
-for fully realistic scenes, but does not quite work for clothing on cartoon style characters
-that use a lot of squash and stretch.
-
-
-Cloth Stiffness Scaling
-=======================
+Property Weights
+================
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Physics --> Cloth Stiffness Scaling`
+   :Panel:     :menuselection:`Physics --> Cloth --> Property Weights`
 
-Structural Stiffness
+Structural Group
    Defines a vertex group to control over structural stiffness.
-Maximum
-   Maximum structural stiffness value.
+Max Tension
+   Maximum tension stiffness value.
 
-Bending Stiffness
-   Defines a vertex group to control over bending stiffness.
-Maximum
-   Maximum structural bending value.
+Shear Group
+   Vertex group for fine control over shear stiffness.
+Max Shearing
+   Maximum shear scaling value.
 
-
-Cloth Sewing Springs
-====================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth Sewing Springs`
-
-Another method of restraining cloth similar to pinning is sewing springs.
-Sewing springs are virtual springs that pull vertices in one part of
-a cloth mesh toward vertices in another part of the cloth mesh.
-This is different from pinning which binds vertices of the cloth mesh in place or to another object.
-A clasp on a cloak could be created with a sewing spring.
-The spring could pull two corners of a cloak about a character's neck.
-This could result in a more realistic simulation than pinning the cloak to
-the character's neck since the cloak would be free to slide about the character's neck and shoulders.
-
-Sewing springs are created by adding extra edges to a cloth mesh that are not included in any faces.
-They should connect vertices in the mesh that should be pulled together.
-For example the corners of a cloak.
-
-To activate the springs, enable the *Cloth Sewing Springs* panel.
-
-
-Options
--------
-
-Sewing Force
-   Maximum force that can be applied by sewing springs. Zero means unbounded, but it is not
-   recommended to leave the field at zero in most cases, as it can cause instability due to
-   extreme forces in the initial frames where the ends of the sewing springs are far apart.
-
-
-Shrinking
-^^^^^^^^^
-
-The *Cloth Sewing Springs* panel also contains controls for shrinking the actual cloth faces.
+Bending Group
+   Vertex group for fine control over bending stiffness.
+Max Bending
+   Maximum bending stiffness value.
 
 Shrinking Group
-   Vertex group that is used to vary the intensity of the shrinking effect over the cloth.
-
-Min
-   Fraction of the size to shrink the cloth by around vertices with weight 0 (or those not in vertex group).
-   The value 0.01 means shrink by 1% etc.
-Max
-   Fraction of the size to shrink the cloth by around vertices with weight 1.
-
-Like unbounded sewing forces, immediately applying a large amount of shrink can cause
-instability, so it is advisable to keyframe these fields and ease in from 0 during draping.
+   vertex group for shrinking cloth.
+Max Shrinking
+   Max amount to shrink cloth by.
 
 
 Cloth Field Weights
@@ -198,6 +218,6 @@ Cloth Field Weights
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Physics --> Cloth Field Weights`
+   :Panel:     :menuselection:`Physics --> Cloth --> Field Weights`
 
 As other physics dynamics systems, Cloth simulation is also influenced by external force effectors.

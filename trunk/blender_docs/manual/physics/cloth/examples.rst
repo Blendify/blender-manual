@@ -6,15 +6,14 @@ Examples
 To start with cloth, the first thing you need, of course, is some fabric. So,
 let us delete the default cube and add a plane. In order to get some good floppy and flexible fabric,
 you will need to subdivide it several times, about eight is a good number.
-So :kbd:`Tab` into *Edit Mode*, and press :kbd:`W` :menuselection:`Specials --> Subdivide multi`,
-and set it to 8.
+So :kbd:`Tab` into *Edit Mode* and subdivide the mesh a couple of times.
 
 Now, we will make this cloth by going to the Physics tab.
 Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
 Now, a lot of settings will appear, most of which we will ignore for now.
 
 That is all you need to do to set your cloth up for animating,
-but if you press :kbd:`Alt-A`, your lovely fabric will just drop very un-spectacularly.
+but if you playback the animation, your lovely fabric will just drop very un-spectacularly.
 That is what we will cover in the next two sections about pinning and colliding.
 
 
@@ -41,7 +40,7 @@ In order to make it look nice and smooth like the picture you need to apply
 a Smooth and/or Subdivision Surface Modifier in the *Modifiers* tab.
 Then, in the Tool Shelf, find the *Edit* panel and Press *Smooth*.
 
-Now, if you press :kbd:`Alt-A`, things are starting to look pretty nice, do not you think?
+Now, if you start playback, things are starting to look pretty nice, do not you think?
 
 
 Cloth on Armature

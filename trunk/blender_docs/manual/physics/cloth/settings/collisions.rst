@@ -27,11 +27,12 @@ Collision Settings
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Physics --> Cloth Collision`
+   :Panel:     :menuselection:`Physics --> Cloth --> Collision`
 
-.. figure:: /images/physics_cloth_settings_collisions_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_cloth_settings_collisions_panel.png
 
-   Cloth Collisions panel.
+      Cloth Collisions panel.
 
 Now you must tell the *Cloth* object that you want it to participate in collisions.
 For the cloth object, locate the *Cloth Collision* panel, shown to the right:
@@ -42,10 +43,6 @@ Quality
 Distance
    As another object gets this close to it (in Blender Units),
    the simulation will start to push the cloth out of the way.
-Repel
-   Repulsion force to apply when cloth is close to colliding.
-Repel Distance
-   Maximum distance to apply repulsion force. Must be greater than minimum distance.
 Friction
    A coefficient for how slippery the cloth is when it collides with the mesh object.
    For example, silk has a lower coefficient of friction than cotton.
@@ -60,11 +57,6 @@ Enable Self Collisions
    Click this to tell the cloth object that it should not penetrate itself. This adds to simulation compute time,
    but provides more realistic results. A flag, viewed from a distance does not need this enabled,
    but a close-up of a cape or blouse on a character should have this enabled.
-Quality
-   For higher self-collision quality just increase
-   the *Quality* and more self-collision layers can be solved.
-   Just keep in mind that you need to have at least the same
-   *Collision Quality* value as the *Quality* value.
 Distance
    If you encounter problems, you could also change the *Min Distance* value for the self-collisions.
    The best value is 0.75; for fast things you better take 1.0. The value 0.5 is quite risky
@@ -72,27 +64,6 @@ Distance
 
 Regression blend-file:
 `Cloth self-collisions <https://wiki.blender.org/wiki/File:Cloth-regression-selfcollisions.blend>`__.
-
-
-Shared Layers
-=============
-
-Suppose you have two objects: a pair of *pants* on layers 2 and 3,
-and your *character* mesh on layers 1 and 2.
-You have enabled the *pants* as cloth as described above.
-You must now make the *character* "visible" to the Cloth object,
-so that as your character bends its leg, it will push the cloth.
-This principle is the same for all simulations;
-simulations only interact with objects on a shared layer. In this example,
-both objects share layer 2.
-
-To view/change an object's layers,
-:kbd:`RMB` click to select the object in *Object Mode* in the 3D View.
-:kbd:`M` to bring up the "Move Layers" pop-up,
-which shows you all the layers that the object is on. To put the object on a single layer,
-:kbd:`LMB` click the layer button. To put the object on multiple layers,
-:kbd:`Shift-LMB` the layer buttons. To remove an object from a selected layer,
-simply :kbd:`Shift-LMB` the layer button again to toggle it.
 
 
 Mesh Objects Collide
@@ -119,20 +90,14 @@ shown to the right. It is also important to note that this collision panel is us
 all simulations that this object is to participate in colliding/deflecting other objects
 on a shared layer (particles, soft bodies, and cloth).
 
-.. warning::
-
-   There are three different *Collision* panels, all found in the *Physics* tab.
-   The first (by default), a tab beside the *Fields* panel, is the one needed here. The second panel,
-   a tab in the *Soft Body* group, concern soft bodies (and so has nothing to do with cloth).
-   And we have already seen the last one, by default a tab beside the *Cloth* panel.
-
 
 Mesh Object Modifier Stack
 ==========================
 
-.. figure:: /images/physics_cloth_settings_collisions_stack.png
+.. TODO2.8:
+   .. figure:: /images/physics_cloth_settings_collisions_stack.png
 
-   Collision stack.
+      Collision stack.
 
 The object's shape deforms the cloth,
 so the cloth simulation must know the "true" shape of that mesh object at that frame.
@@ -157,9 +122,10 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 Bake Collision
 --------------
 
-.. figure:: /images/physics_cloth_settings_collisions_bake.png
+.. TODO2.8:
+   .. figure:: /images/physics_cloth_settings_collisions_bake.png
 
-   After baking.
+      After baking.
 
 After you have set up the deflection mesh for the frame range you intend to run the simulation
 (including animating that mesh *via* armatures),
