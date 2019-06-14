@@ -3,8 +3,27 @@
 Selecting
 *********
 
-TODO2.8: Write grease pencil selecting intro.
+.. admonition:: Reference
+   :class: refbox
 
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`3D View Header --> Select Mode`
+   :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
+
+In Edit Mode there are three different selection modes. You can enter the different modes by selecting one of the three buttons in the header.
+
+   TODO: Selection mode buttons image 
+
+Points
+   To select individual points
+
+Strokes
+   To select all the points in the selected stroke
+
+Points in between
+   To select points that are between other strokes
+
+   TODO: Example image for Points in between selection
 
 Select Menu
 ===========
