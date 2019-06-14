@@ -15,17 +15,18 @@ Grab/Move
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Grab/Move`
    :Hotkey:    :kbd:`G`
 
-In Object Mode, the grab/move option lets you translate (move) objects.
-Translation means changing location of objects.
-It also lets you translate any elements that make up the object within the 3D space of the active 3D View.
+In Object Mode, the grab/move option lets you translate (move) objects. 
+Translation means changing location of objects. It also lets you translate any
+elements that make up the object within the 3D space of the active 3D View.
 
-Pressing :kbd:`G` activates "Grab/Move" transformation mode.
-The selected object or element then moves freely according to the mouse pointer's location and camera.
+Pressing :kbd:`G` activates "Grab/Move" transformation mode. The selected object
+or element then moves freely according to the mouse pointer's location and
+camera.
 
 To confirm the action, press :kbd:`LMB`.
 
-While Grab/Move is active, the amount of change in the X, Y,
-and Z coordinates is displayed at the upper left corner of the 3D View editor.
+While Grab/Move is active, the amount of change in the X, Y, and Z coordinates
+is displayed at the upper left corner of the 3D View editor.
 
 .. TODO2.8:
    .. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png
@@ -34,8 +35,9 @@ and Z coordinates is displayed at the upper left corner of the 3D View editor.
 
 .. tip::
 
-   Moving an object in Object Mode changes the object's origin.
-   Moving the object's vertices/edges/faces in Edit Mode does not change the object's origin.
+   Moving an object in Object Mode changes the object's origin. Moving the
+   object's vertices/edges/faces in Edit Mode does not change the object's
+   origin.
 
 
 .. _bpy.ops.transform.rotate:
@@ -50,10 +52,10 @@ Rotate
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Rotate`
    :Hotkey:    :kbd:`R`
 
-Rotation is also known as a spin, twist, orbit, pivot, revolve,
-or roll and involves changing the orientation of elements (vertices, edges, faces, objects, etc.)
-around one or more axes or
-the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`.
+Rotation is also known as a spin, twist, orbit, pivot, revolve, or roll and
+involves changing the orientation of elements (vertices, edges, faces, objects,
+etc.) around one or more axes or the 
+:doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
 The angle of rotation will be displayed in the header of the 3D View editor.
 
@@ -84,13 +86,14 @@ Scale
    :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
    :Hotkey:    :kbd:`S`
 
-Scaling means changing proportions of objects.
-Pressing :kbd:`S` will enter the *Scale* transformation mode where
-the selected element is scaled inward or outward according to the mouse pointer's location.
-The element's scale will increase as the mouse pointer is moved away from the Pivot Point and
-decrease as the pointer is moved towards it. If the mouse pointer crosses from the original side of
-the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>` to the opposite side,
-the scale will continue in the negative direction and flip the element.
+Scaling means changing proportions of objects. Pressing :kbd:`S` will enter the
+*Scale* transformation mode where the selected element is scaled inward or
+outward according to the mouse pointer's location. The element's scale will
+increase as the mouse pointer is moved away from the Pivot Point and decrease as
+the pointer is moved towards it. If the mouse pointer crosses from the original
+side of the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`
+to the opposite side, the scale will continue in the negative direction and flip
+the element.
 
 .. figure:: /images/editors_3dview_object_editing_transform_basics_scale-basic-usage.png
 
@@ -123,20 +126,20 @@ Confirm and Cancel
 
 :kbd:`LMB` click to accept changes.
 
-To cancel the transformation press :kbd:`RMB` or :kbd:`Esc` instead.
-This will reset the object or element to its original state.
+To cancel the transformation press :kbd:`RMB` or :kbd:`Esc` instead. This will
+reset the object or element to its original state.
 
 .. seealso::
 
-   Using combination of shortcuts gives you more control over your transformation.
-   See :doc:`Transform Control </scene_layout/object/editing/transform/control/index>`.
+   Using combination of shortcuts gives you more control over your
+   transformation. See :doc:`Transform Control </scene_layout/object/editing/transform/control/index>`.
 
 
 Operator Panel
 --------------
 
-In the case of the 3D View, there is the possibility to tweak the operation once accepted,
-using the specific Operator panel corresponding to the tool.
+In the case of the 3D View, there is the possibility to tweak the operation once
+accepted, using the specific Operator panel corresponding to the tool.
 
 Value
    The amount of the transformation.
@@ -150,15 +153,18 @@ Orientation
    Shows the :doc:`Orientations </scene_layout/object/editing/transform/control/orientations>`
    of the constraint axes.
 Proportional Editing, Falloff, Size
-   Activates/deactivates *Proportional Editing* and configures the type *Falloff* and
-   *Size* of the :doc:`/scene_layout/object/editing/transform/control/proportional_edit` tool.
+   Activates/deactivates *Proportional Editing* and configures the type
+   *Falloff* and *Size* of the 
+   :doc:`/scene_layout/object/editing/transform/control/proportional_edit` tool.
 
 .. _modeling_transform_edit-texture-space:
 
 Edit Texture Space :kbd:`Shift-T`:kbd:`Shift-Alt-T`
-   This checkbox lets you apply the transformation on the :ref:`Texture Space <properties-texture-space>`,
-   instead of the object or element itself. Only available in translation and scale.
-   This option is also available via the shortcuts, :kbd:`Shift-T` (move) and :kbd:`Shift-Alt-T` (scale).
+   This checkbox lets you apply the transformation on the 
+   :ref:`Texture Space <properties-texture-space>`, instead of the object or
+   element itself. Only available in translation and scale. This option is also
+   available via the shortcuts, :kbd:`Shift-T` (move) and :kbd:`Shift-Alt-T`
+   (scale).
 Confirm on Release
    Shows if either the operation was drag-and-release or move-and-confirm.
 
