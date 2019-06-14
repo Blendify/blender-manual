@@ -21,4 +21,4 @@ the :doc:`configuration directories </getting_started/configuration/directories>
 
    Blender comes bundled with a small selection of themes.
 
-   This is an example of the theme *Elsyiun*.
+   This is an example of the theme *Blender Light*.
