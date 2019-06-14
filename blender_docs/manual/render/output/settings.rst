@@ -36,9 +36,9 @@ Aspect Ratio
 
 .. _render-output-dimensions-border:
 
-Border
+Render Region
    Renders just a portion of the view instead of the entire frame.
-   See the :ref:`Render Border <editors-3dview-navigate-borders-render>`
+   See the :ref:`Render Region <editors-3dview-navigate-borders-render>`
    documentation to see how to define the size of the render border.
 
    .. note::
@@ -46,8 +46,8 @@ Border
       This disables the *Save Buffers* option in *Performance*
       and *Full Sample* option in *Anti-Aliasing*.
 
-   Crop
-      Crops the rendered image to the size of the render border,
+   Crop Render Region
+      Crops the rendered image to the size of the render region,
       instead of rendering a transparent background around it.
 Frame Range
    Set the *Start* and *End* frames for :doc:`Rendering Animations </render/output/animation>`.
@@ -95,7 +95,7 @@ File Extensions
 Cache Result
    Saves the rendered image and passes to a multi-layer EXR file in temporary location on your hard drive.
    This allows the compositor to read these to improve performance, especially for heavy compositing.
-Output Format
+File Format
    Choose the file format to save to. Based on which format is used,
    other options such as channels, bit depth and compression level are available.
 

@@ -31,7 +31,7 @@ Encoding Panel
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> Render --> Encoding`
+   :Panel:     :menuselection:`Properties editor --> Output --> Encoding`
 
 .. figure:: /images/render_output_video_encoding-panel.png
 
@@ -55,7 +55,11 @@ Container
 Autosplit Output
    If your video is huge and exceeds 2GiB, enable Autosplit Output.
    This will automatically split the output into multiple files after the first file is 2Gig.
-Codec
+
+Video
+^^^^^
+
+Video Codec
    Chooses the method of compression and encoding.
    For a list of all available options see :doc:`video formats </files/media/video_formats>`.
 
