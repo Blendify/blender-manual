@@ -3,14 +3,13 @@
 Introduction
 ************
 
-Python is an interpreted, interactive,
-object-oriented programming language. It incorporates modules, exceptions, dynamic typing,
-very high-level dynamic data types, and classes.
+Python is an interpreted, interactive, object-oriented programming language.
+It incorporates modules, exceptions, dynamic typing, very high-level dynamic data types, and classes.
 Python combines remarkable power with very clear syntax.
 
-Python scripts are a powerful and versatile way to extend Blender functionality.
+Python scripts are a versatile way to extend Blender functionality.
 Most areas of Blender can be scripted, including animation, rendering, import and export,
-object creation and the scripting of repetitive tasks.
+object creation and automating repetitive tasks.
 
 To interact with Blender, scripts can make use of
 the tightly integrated :abbr:`API (Application Programming Interface)`.
@@ -88,8 +87,8 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases.
   Many of them work reliably and are very useful but are not ensured to be stable for release.
 
-For an overview of many add-ons available, see
-the `Scripts Catalog <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/>`__.
+
+See :ref:`addons-index` for documentation on add-ons included with Blender.
 
 
 Scripts
