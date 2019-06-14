@@ -1,7 +1,7 @@
 
-*******
-Display
-*******
+****************
+Viewport Display
+****************
 
 .. admonition:: Reference
    :class: refbox

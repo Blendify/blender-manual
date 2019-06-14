@@ -10,20 +10,12 @@ Render
 
 The Render Panel controls how particles appear when they are rendered.
 
-.. TODO2.8 Add warning.
+.. Note::
+   Cycles supports only Object and Collection render types.
 
-   Cycles support only Object and Group render types. (T48467)
 
 Show Emitter
    When disabled, the emitter is no longer rendered. Activate the button *Emitter* to also render the mesh.
-
-Common Settings
-===============
-
-Material
-   Set which of the object's materials is used to shade the particles.
-Coordinates System
-   Use a different object's coordinates to determine the birth of particles.
 
 
 Render As
@@ -49,9 +41,10 @@ They are called *Halos* because you can see them, but they do not have any subst
 Path
 ----
 
-.. figure:: /images/physics_particles_emitter_render_path.png
+.. TODO2.8:
+   .. figure:: /images/physics_particles_emitter_render_path.png
 
-   The Visualization panel for Path visualization.
+      The Visualization panel for Path visualization.
 
 The *Path* visualization needs a :doc:`Hair </physics/particles/hair/index>` particle system or
 :doc:`Keyed </physics/particles/emitter/physics/keyed>` particles.
@@ -70,8 +63,23 @@ Steps
    1 give 2 subdivisions, 2 --> 4, 3 --> 8, 4 --> 16, ... *n* --> *n*\ :sup:`2`.
 
 
+Common Settings
+===============
+
+Material
+   Set which of the object's materials is used to shade the particles.
+Coordinates System
+   Use a different object's coordinates to determine the birth of particles.
+
+
 Timing
-^^^^^^
+------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Particle System --> Render --> Timing`
+   :Type:      Hair
 
 Absolute Path Time
    Path timing is in absolute frames.
@@ -84,19 +92,29 @@ Random
 Object
 ------
 
-Dupli Object
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Particle System --> Render --> Object`
+
+Instance Object
    The specified object is duplicated in place of each particle.
 
-Global
+Global Coordinates
    Use object's global coordinates for duplication.
-Rotation
+Object Rotation
    Use the rotation of the object.
-Scale
+Object Scale
    Use the size of the object.
 
 
 Collection
 ----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Particle System --> Render --> Collection`
 
 Instance Collection
    The objects that belong to a group are duplicated sequentially in the place of the particles.
@@ -117,6 +135,11 @@ Object Scale
 Use Count
 ^^^^^^^^^
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Particle System --> Render --> Collection --> Use Count`
+
 Use objects multiple times in the same groups.
 Specify the order and number of times to repeat each object with the list view that appears.
 You can duplicate an object in the list with the :kbd:`Plus` button,
@@ -125,6 +148,11 @@ or remove a duplicate with the :kbd:`Minus` button.
 
 Extra
 =====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Particle System --> Render --> Extra`
 
 Parents Particles
    Render also parent particles if child particles are used.

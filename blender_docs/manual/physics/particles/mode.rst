@@ -75,11 +75,11 @@ or that you do not like the latest changes you have made.
 Selecting
 =========
 
-- Single: :kbd:`RMB`.
+- Single: :kbd:`LMB`.
 - All: :kbd:`A`.
 - Linked: Move the mouse over a keypoint and press :kbd:`L`.
 - Border select: :kbd:`B`.
-- First/last: :menuselection:`Specials --> Select First / Select Last`.
+- Root/Tips: :menuselection:`Select --> Roots / Tips`.
 
 You may also use the *Select* Menu.
 
@@ -134,7 +134,6 @@ Brush
    :class: refbox
 
    :Mode:      Particle Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Brush`
 
 With the buttons you can select the type of "Comb" utility you want to use.
 
@@ -196,7 +195,7 @@ Options
    :class: refbox
 
    :Mode:      Particle Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Options`
+   :Panel:     :menuselection:`Sidebar Region --> Tool`
 
 Deflect Emitter
    Hair particles only -- Do not move keypoints through the emitting mesh.
@@ -271,9 +270,9 @@ Moving Keypoints or Particles
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
   but you can subdivide particles which adds new keypoints
-  :menuselection:`Specials --> Subdivide` or :kbd:`Numpad2`.
+  :menuselection:`Particle --> Subdivide`.
 - Alternatively you can rekey a particle
-  :menuselection:`Specials --> Rekey` or :kbd:`Numpad1` and choose the number of keys.
+  :menuselection:`Particle --> Rekey`.
 
 How smoothly the hair and particle paths are displayed depends on the *Path Steps*
 setting in the Tool Shelf. Low settings produce blocky interpolation between points,
@@ -292,8 +291,8 @@ Mirror
 If you want to create an X axis symmetrical haircut you have to do following steps:
 
 #. Select all particles with :kbd:`A`.
-#. Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
-#. Turn on *X Mirror* in the Brush panel.
+#. Mirror the particles with :menuselection:`Particle --> Mirror`.
+#. Turn on *X Mirror* in :menuselection:`Sidebar Region -> Tool --> Options`.
 
 It may happen that after mirroring two particles occupy nearly the same place.
 Since this would be a waste of memory and render time,
@@ -308,7 +307,7 @@ Unify Length
    :class: refbox
 
    :Mode:      Particle Edit Mode
-   :Menu:      :menuselection:`Particle --> Unify Length`, :menuselection:`Specials --> Unify Length`
+   :Menu:      :menuselection:`Particle --> Unify Length`
 
 This tool is used to make all selected hair uniform length by finding the average length.
 

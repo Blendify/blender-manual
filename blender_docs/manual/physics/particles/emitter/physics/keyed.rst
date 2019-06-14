@@ -22,10 +22,11 @@ To setup *Keyed* particles you need at least two particle systems in the *Keys* 
 Options
 =======
 
-.. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
-   :align: right
+.. TODO2.8:
+   .. figure:: /images/physics_particles_emitter_physics_keyed_panel.png
+      :align: right
 
-   Keyed Physics settings.
+      Keyed Physics settings.
 
 Loops
    Sets the number of times the entire *Keys* list is repeated. Disabled if *Use Timing* is enabled.
@@ -38,8 +39,13 @@ Use Timing
    this may lead to varying particle speeds between the targets.
 
 
-Keys
-----
+Relations
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Particle System --> Physics --> Relations`
 
 Key Targets
    The :ref:`list view <ui-list-view>` of keys (target particle systems).
