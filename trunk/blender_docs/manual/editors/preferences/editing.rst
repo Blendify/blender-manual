@@ -46,6 +46,8 @@ Align To
       New objects align with world coordinates.
    View
       New object align with view coordinates.
+   3D Cursor
+      New objects align to the 3D cursors orientation.
 Enter Edit Mode
    If selected, Edit Mode is automatically activated when you create a new object.
 
@@ -67,6 +69,17 @@ If you leave the mesh box unchecked then when you change the mesh of one object,
 the change will be mirrored in the duplicate Object.
 
 The same rules apply to each of the checkboxes in the 'Duplicate Data' list.
+
+
+3D Cursor
+=========
+
+Cursor Surface Project
+   When placing the cursor by clicking,
+   the cursor is projected onto the surface under the cursor.
+Cursor Lock Adjust
+   When the viewport is locked to the cursor,
+   moving the cursor avoids the view *jumping* based on the new offset.
 
 
 Annotations

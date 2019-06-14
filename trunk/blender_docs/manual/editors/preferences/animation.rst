@@ -21,7 +21,7 @@ Allow Negative Frame
    When using *Use Preview Range*, this also allows playback.
 Minimum Grid Spacing
    The minimum number of pixels between grid lines.
-Time Code Style
+TimeCode Style
    Format of Time Codes displayed when not displaying timing in terms of frames.
    The format uses '+' as a separator for sub-second frame numbers,
    with left and right truncation of the timecode as necessary.
