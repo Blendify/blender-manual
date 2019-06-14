@@ -218,7 +218,7 @@ if you want it to be enabled on restart, press *Save as Default*.
       print(addon_utils.paths())
 
    More is written on this topic here:
-   :ref:`Directory Layout <getting-started-installing-config-directories>`.
+   :ref:`Directory Layout <getting-started-config-directories>`.
 
 
 Your Second Add-on
