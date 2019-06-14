@@ -61,8 +61,10 @@ Vertex Groups for Particles
 ===========================
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_particles.png
+   :width: 320px
 
    Weight painted particle emission.
+
 
 In example faces or vertices with zero weight generate no particles. A weight of
 0.1 will result in 10% of the amounts of particles. This option "conserves" the
