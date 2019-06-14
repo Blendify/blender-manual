@@ -36,7 +36,7 @@ These tabs contain settings for the active scene.
 - Render: :doc:`Eevee </render/eevee/index>`,
   :doc:`Cycles </render/cycles/render_settings/index>` or
   :doc:`Workbench </render/workbench/index>` settings
-- :doc:`Output </render/output/render_panel>`
+- :doc:`Output </render/output/index>`
 - :doc:`View Layer </scene_layout/view_layers/index>`
 - :doc:`Scene </scene_layout/scene/properties>`
 - :doc:`World </render/lights/world>`
