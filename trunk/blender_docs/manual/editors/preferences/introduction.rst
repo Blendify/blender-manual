@@ -52,26 +52,16 @@ Load Factory Settings
       If you wish to save these as your preferences,
       un-check the **Skip Auto-Save** button which will be displayed factory settings have been loaded.
 
+   .. note::
+
+      This only resets the preferences and will not affect settings stored in the startup file.
+      This includes app templates, area locations, and any Blender properties not part of the preferences.
+
+      These must be reverted though :menuselection:`File --> Defaults`.
+
 .. tip::
 
    It can be valuable to make a backup of your preferences in the event that you lose your configuration.
 
    See the :doc:`directory layout </getting_started/configuration/directories>`
    section to see where your preferences are stored.
-
-
-.. _factory-settings:
-
-Load Factory Settings
-=====================
-
-If you want to completely undo all the modifications made to the preferences
-and revert them to the factory settings. Open the menu at the bottom left and select *Load Factory Settings*.
-Note that no permanent changes are made until you save the preferences or close the preferences window.
-
-.. note::
-
-   This only resets the preferences and will not affect settings stored in the startup file.
-   This includes app templates, area locations, and any Blender properties not part of the preferences.
-
-   These must be reverted though :menuselection:`File --> Defaults`.
