@@ -19,7 +19,8 @@ F-Keys (:kbd:`F5` - :kbd:`F8`)
 :kbd:`OS-Key` (also known as the ``Windows-Key``, ``Cmd`` or ``Super``)
    Blender doesn't use this key for any bindings.
 
-   *macOS* is an exception, where a few macOS shortcuts are bound to :kbd:`Cmd` (cut/copy/paste/preferences).
+   *macOS* is an exception, where :kbd:`Cmd` replaces :kbd:`Ctrl`
+   except in cases it would conflict with the systems key bindings.
 Modifier Double Click
    Binding modifier keys as primary keys is supported,
    to avoid conflicts with regular usage you can bind them to double click.
@@ -71,22 +72,14 @@ Open a Panel (``wm.call_panel``)
    Open a pop-up panel (also known as a pop-over).
 
 
-Menu Identifier
-^^^^^^^^^^^^^^^
+Menu & Panel Identifiers
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 To find the ``name`` of a menu,
 enable the preference :menuselection:`Interface --> Display --> Python Tooltips`.
 
-Then hover the cursor over the menu item, for sub-menus you will need to use the back arrow
-to prevent the sub-menu from opening and gaining focus.
-
-
-Panel Identifier
-^^^^^^^^^^^^^^^^
-
-Currently there is no way to find a panel identifier,
-besides looking into the Python source code, search for the panel title,
-the identifier will use the convention ``{CATEGORY}_PT_{name}``.
+Then hover the cursor over the popover button or menu item,
+for sub-menus you will need to use the back arrow to prevent the sub-menu from opening and gaining focus.
 
 
 Key Bindings for Properties
