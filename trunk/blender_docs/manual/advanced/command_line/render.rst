@@ -1,3 +1,4 @@
+.. _command_line-render:
 
 **********************
 Command Line Rendering
@@ -10,9 +11,11 @@ One advantage of using the command line is that we do not need a graphical displ
 (no need for X server on Linux for example)
 and consequently we can render via a remote shell (typically SSH).
 
-See :doc:`Command Line Arguments </advanced/command_line/arguments>`
-for a full list of arguments
-(for example to specify which scene to render, the end frame number, etc.), or simply run:
+- See :doc:`Command Line Arguments </advanced/command_line/arguments>`
+  for a full list of arguments
+  (for example to specify which scene to render, the end frame number, etc.), or simply run:
+- See :ref:`Command Line Launching <command_line-launch-index>`
+  for specific instructions on launching Blender from the command line.
 
 .. code-block:: sh
 
@@ -36,75 +39,6 @@ for a full list of arguments
 
    **Always** position ``-f`` or ``-a`` as the last arguments.
 
-
-Platforms
-=========
-
-How to actually execute Blender from the command line depends on the platform and where you
-have installed Blender. Here are basic instructions for the different platforms.
-
-
-Linux
------
-
-Open a terminal, then go to the directory where Blender is installed,
-and run Blender like this:
-
-.. code-block:: sh
-
-   cd <blender installation directory>
-   ./blender
-
-If you have Blender installed in your ``PATH``
-(usually when Blender is installed through a distribution package), you can simply run:
-
-.. code-block:: sh
-
-   blender
-
-
-macOS
------
-
-Open the terminal application, go to the directory where Blender is installed,
-and run the executable within the app bundle, with commands like this:
-
-.. code-block:: sh
-
-   cd /Applications/Blender
-   ./blender.app/Contents/MacOS/blender
-
-If you need to do this often,
-you can make an alias so that typing just ``blender`` in the terminal works.
-For that you can run a command like this in the terminal (with the appropriate path).
-
-.. code-block:: sh
-
-   echo "alias blender=/Applications/Blender/blender.app/Contents/MacOS/blender" >> ~/.bash_profile
-
-If you then open a new terminal, the following command will work:
-
-.. code-block:: sh
-
-   blender
-
-
-Windows
--------
-
-Open the Command Prompt, go to the directory where Blender is installed,
-and then run Blender:
-
-.. code-block:: bat
-
-   cd c:\<blender installation directory>
-   blender
-
-You can also add the Blender folder to your system ``PATH`` so that do you do not have to ``cd`` to it each time.
-
-
-Examples
-========
 
 Single Image
 ------------
