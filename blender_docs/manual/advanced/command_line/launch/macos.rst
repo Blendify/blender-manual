@@ -14,20 +14,20 @@ and run the executable within the app bundle, with commands like this:
    cd /Applications/Blender/blender.app/Contents/MacOS
    ./blender
 
-   If you need to do this often,
-   you can add this directory to your ``PATH``.
+If you need to do this often,
+you can add this directory to your ``PATH``.
 
-   For that you can run a command like this in the terminal (with the appropriate path).
+For that you can run a command like this in the terminal (with the appropriate path).
 
-   .. code-block:: sh
+.. code-block:: sh
 
-      echo "export PATH="$PATH:/Applications/Blender/blender.app/Contents/MacOS" >> ~/.bash_profile
+   echo "export PATH="$PATH:/Applications/Blender/blender.app/Contents/MacOS" >> ~/.bash_profile
 
-   If you then open a new terminal, the following command will work:
+If you then open a new terminal, the following command will work:
 
-   .. code-block:: sh
+.. code-block:: sh
 
-      blender
+   blender
 
 
 Details
