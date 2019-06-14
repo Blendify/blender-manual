@@ -2,12 +2,14 @@
 Render Menu
 ***********
 
-Render Image
+Render Image :kbd:`F12`
    Render the active scene at the current frame.
-Render Animation
+Render Animation :kbd:`Ctrl-F12`
    Render the animation of the active scene.
+   See :doc:`Rendering Animations </render/output/animation>` for more detail.
 Render Audio
    Mix the scenes audio file to a sound file.
+   See :doc:`/render/output/audio/introduction`.
 View Render
    Toggle show render view.
 View Animation

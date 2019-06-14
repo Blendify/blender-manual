@@ -3,8 +3,8 @@
 Render Panel
 ************
 
-.. figure:: /images/render_output_render-panel_panel.png
-   :align: right
+.. TODO2.8 .. figure:: /images/render_output_render-panel_panel.png
+.. TODO2.8    :align: right
 
    Render panel.
 

@@ -49,7 +49,6 @@ Therefore you have to open the *NLA Editor* where you can add sound strips
 that define when the sound should start (nothing else,
 so any other properties of the strips, like length don't matter).
 When you add a speaker object such a strip will be added at the current frame.
-The Shortcut to add a strip in the *NLA Editor* is :kbd:`Shift-K`.
 
 
 Distance
