@@ -4,21 +4,26 @@
 Properties Editor
 *****************
 
-.. figure:: /images/editors_properties-editor_top.png
+.. figure:: /images/editors_properties-editor_interface.png
    :align: right
 
-   Properties editor top part.
+   The *Properties* editor, with *Object* properties shown.
 
-The *Properties Editor* is used to edit data and properties for the *Active Scene* and the *Active Object*.
+The *Properties* editor shows and allows editing of many active data, including the active scene and object.
 
 
 Tabs
 ====
 
-The Properties editor shows several tabs,
-which can be chosen via the icon row in the header.
-The tabs are documented in their own manual sections,
-the links are listed below.
+The *Properties* editor has several categories, which can be chosen via tabs (the icons column to its left).
+Each tab regroups properties and settings of a data type, and is documented in its own manual sections, linked below.
+
+
+Active Tool and Workspace settings
+----------------------------------
+
+This first tab contains settings for the active :doc:`tool</editors/3dview/tools>` (in the *3D View*)
+and the current :doc:`workspace </interface/window_system/workspaces>`.
 
 
 Scene
@@ -26,87 +31,79 @@ Scene
 
 These tabs contain settings for the active scene.
 
-.. figure:: /images/editors_properties-editor_render.png
-   :align: right
-
-   Scene tabs.
-
 .. _properties-render-tab:
 
-- :doc:`Eevee </render/eevee/index>`,
+- Render: :doc:`Eevee </render/eevee/index>`,
   :doc:`Cycles </render/cycles/render_settings/index>` or
-  :doc:`Workbench </render/workbench/index>` render settings
-- :doc:`Render Output </render/output/index>` settings
-- :doc:`/render/layers/index`
+  :doc:`Workbench </render/workbench/index>` settings
+- :doc:`Output </render/output/render_panel>`
+- :doc:`View Layer </scene_layout/view_layers/index>`
 - :doc:`Scene </scene_layout/scene/properties>`
 - :doc:`World </render/lights/world>`
 
 
 .. _properties-data-tabs:
 
-Object & Object Data
---------------------
+Object
+------
 
-These tabs are used to add features, and to change properties for the Active Object
-(and other active elements, material, curve, etc.).
-
-.. figure:: /images/editors_properties-editor_object.png
-   :align: right
-
-   Object Data tabs.
-
-The Object Data tabs shown depend on what type of object was selected last (the Active Object).
+These tabs are used to add features, and to change properties for the active object.
+Depending on the type of the active object, some of those will be hidden.
 
 - :doc:`Object </scene_layout/object/properties/index>`
-- :doc:`/animation/constraints/index`
-- :doc:`/modeling/modifiers/index`
-
-..
-
-- :doc:`Mesh </modeling/meshes/properties/object_data>`
-- :doc:`Curve </modeling/curves/properties/index>`
-- :doc:`Surface </modeling/surfaces/properties>`
-- :doc:`Metaball </modeling/metas/properties>`
-- :doc:`Text </modeling/texts/properties>`
-- :doc:`Empty </modeling/empties>`
-
-..
-
-- :doc:`Armature </animation/armatures/properties/index>`
-- :doc:`Bones </animation/armatures/bones/properties/index>`
-- :doc:`Bone Constraints </animation/armatures/posing/bone_constraints/introduction>`
-- :doc:`Lattice </animation/lattice>`
-
-..
-
-- :doc:`Speaker </render/output/audio/speaker>`
-- Camera: :doc:`Cycles </render/cameras>`
-- Light: :doc:`General settings </render/lights/light_object>`,
-  :doc:`Cycles </render/cycles/light_settings>`
-
-..
-
-- Material: :doc:`Eevee </render/eevee/materials/settings>`,
-  :doc:`Cycles </render/cycles/material_settings>`
-- Texture: :doc:`Texture Nodes </render/materials/legacy_textures/index>`
+- :doc:`Modifiers </modeling/modifiers/index>` (or :doc:`Grease Pencil Modifiers </grease_pencil/modifiers/index>`)
+- :doc:`Object Visual Effects </grease_pencil/visual_effects/index>`
 - :doc:`Particles </physics/particles/index>`
 - :doc:`Physics </physics/index>`
+- :doc:`Object Constraints </animation/constraints/index>`
 
 
-.. (todo add) Generic Object Data page?
+Object Data
+-----------
+
+The main tab of that category (often the only one) always has the same name, *Object Data*,
+but its icon will change based of the actual type of the active object.
+
+- Geometry Objects:
+   - :doc:`Mesh </modeling/meshes/properties/object_data>`
+   - :doc:`Curve </modeling/curves/properties/index>`
+   - :doc:`Surface </modeling/surfaces/properties>`
+   - :doc:`Text </modeling/texts/properties>`
+   - :doc:`Metaball </modeling/metas/properties>`
+   - :doc:`Grease Pencil </grease_pencil/properties/index>`
+- Rigging and Deformation Objects:
+   - :doc:`Armature </animation/armatures/properties/index>`
+      - :doc:`Bone </animation/armatures/bones/properties/index>`
+      - :doc:`Bone Constraints </animation/armatures/posing/bone_constraints/index>`
+   - :doc:`Lattice </animation/lattice>`
+- Other Types of Objects:
+   - :doc:`Empty </modeling/empties>`
+   - :doc:`Speaker </render/output/audio/speaker>`
+   - :doc:`Camera </render/cameras>`
+   - :doc:`Light </render/lights/light_object>`
+   - :doc:`Light Probe </render/eevee/lightprobes/index>`
 
 
-Main View
-=========
+Object Shading
+--------------
 
-.. figure:: /images/editors_properties-editor_interface.png
+Depending on the type of the active object, some of those will be hidden.
 
-   The Properties Editor with the Mesh tab selected.
+- :doc:`Material </render/materials/index>`
+- :doc:`Texture </render/materials/legacy_textures/index>`
 
-At the top of the each tab a list of icons explains the context in which the properties are being edited.
-In the example above, the mesh *Cube* is linked to the object *Cube* which is linked to the scene *Scene*.
 
-.. This is a branch of the scene graph?
+Header
+======
 
-By toggling the pin symbol on the left side on and off,
-Blender can be told to display only the selected property or to follow context.
+.. figure:: /images/editors_properties-editor_top.png
+
+   The header of the *Properties* editor.
+
+In the header of this editor, a list of icons and text items shows the owner of the the properties being edited,
+together with some dependency context if needed.
+In the example above, the material *Material* is used by the active object *Cube*.
+
+By toggling on the pin symbol to the ride, Blender can be told to display in that editor
+only the currently shown data-block's properties, disregarding further selection changes.
+Toggle off that pin to switch back to default behavior, showing active data-block's properties.
