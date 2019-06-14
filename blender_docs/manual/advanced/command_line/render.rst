@@ -60,7 +60,7 @@ Single Image
 
 ``-o /project/renders/frame_#####``
    Path of where to save the rendered image, using five padded zeros for the frame number.
-``-F EXR``
+``-F OPEN_EXR``
    Override the image format specified in the blend-file and save to an OpenEXR image.
 ``-f -2``
    Render only the second last frame.
