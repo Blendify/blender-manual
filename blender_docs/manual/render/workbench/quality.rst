@@ -38,4 +38,3 @@ Multi Sample
 
    For the 3D Viewport, one sample is rendered at a time. When there are no changes
    to the scene or viewport the next sample will be rendered.
-

@@ -8,7 +8,6 @@ Subdivision
 
    :Panel:     :menuselection:`Render --> Subdivision`
 
-
 .. _bpy.types.CyclesRenderSettings.*dicing_rate:
 .. _cycles-subdivision-rate:
 

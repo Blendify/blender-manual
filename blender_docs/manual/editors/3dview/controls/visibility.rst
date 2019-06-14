@@ -1,12 +1,12 @@
+
 **********************
 Object Type Visibility
 **********************
 
-In the Object Type Visibility pop-over the visibility and seletability per 
-type of object can be sepecified. This will limit the visibility and selectability
-per 3D View.
+In the Object Type Visibility pop-over the visibility and seletability per type of object can be specified.
+This will limit the visibility and selectability per 3D View.
 
-The object types that can be changed are
+The object types that can be changed are:
 
 - Mesh
 - Curve
@@ -15,13 +15,12 @@ The object types that can be changed are
 - Font
 - Grease Pencil
 - Armature
-- Latice
+- Lattice
 - Empty
 - Light
 - Light Probe
 - Camera
 - Speaker
 
-When visibility is turned off any object of this kind will not be
-rendered in the 3D Viewport. When selectability is turned off any object of this
-kind will not be selectable via the 3D Viewport.
+When visibility is turned off any object of this kind will not be rendered in the 3D Viewport.
+When selectability is turned off any object of this kind will not be selectable via the 3D Viewport.

@@ -1,7 +1,7 @@
 
-************
+***********
 Weight Menu
-************
+***********
 
 .. admonition:: Reference
    :class: refbox
@@ -23,23 +23,23 @@ The Subset Option
 =================
 
 Some of the tools also provide a Subset filter to restrict their functionality
-to only specific vertex groups (in the Operator panel, displayed after the tool
-is called) with following options:
+to only specific vertex groups (in the Operator panel, displayed after the tool is called)
+with following options:
 
 - Active Group
 - Selected Pose Bones
 - Deform pose Bones
 - All Groups
 
-All tools also work with Vertex Selection Masking and Face Selection Masking. In
-these modes the tools operate only on selected vertices or faces.
+All tools also work with Vertex Selection Masking and Face Selection Masking.
+In these modes the tools operate only on selected vertices or faces.
 
 
 Normalize All
 =============
 
-For each vertex, this tool makes sure that the sum of the weights across all
-Vertex Groups is equal to 1. This tool normalizes all of the vertex groups,
+For each vertex, this tool makes sure that the sum of the weights across
+all Vertex Groups is equal to 1. This tool normalizes all of the vertex groups,
 except for locked groups, which keep their weight values untouched.
 
 
@@ -58,9 +58,8 @@ Lock Active
 Normalize
 =========
 
-This tool only works on the active Vertex Group. All vertices keep their
-relative weights, but the entire set of weights is scaled up such that the
-highest weight value is 1.0.
+This tool only works on the active Vertex Group. All vertices keep their relative weights,
+but the entire set of weights is scaled up such that the highest weight value is 1.0.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_normalize-example.png
 
@@ -72,8 +71,8 @@ Mirror
 
 This tool mirrors the weights from one side of the mesh to the opposite side
 (only mirroring along X axis is supported). But note, the weights are not
-transferred to the corresponding opposite bone weight group. The mirror only
-takes place within the selected Vertex Group.
+transferred to the corresponding opposite bone weight group.
+The mirror only takes place within the selected Vertex Group.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_mirror-example.png
 
@@ -89,31 +88,28 @@ Options
    Mirror options.
 
 Mirror Weights
-   Mirrors the weights of the active group to the other side. Note, this only
-   affects the active weight group.
+   Mirrors the weights of the active group to the other side.
+   Note, this only affects the active weight group.
 Flip Group Names
-   Exchange the names of left and right side. This option only renames the
-   groups.
+   Exchange the names of left and right side. This option only renames the groups.
 All Groups
    Operate on all selected bones.
 Topology Mirror
-   Mirror for meshes which are not 100% symmetric (approximate mirror). See 
-   :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
+   Mirror for meshes which are not 100% symmetric (approximate mirror).
+   See :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
 
    .. tip:: Mirror to Opposite Bone
 
-      If you want to create a mirrored weight group for the opposite bone (of a
-      symmetric character), then you can do this:
+      If you want to create a mirrored weight group for the opposite bone
+      (of a symmetric character), then you can do this:
 
-      #. Delete the target Vertex Group (where the mirrored weights will be
-         placed).
-      #. Create a copy of the source bone Vertex Group (the group containing the
-         weights which you want to copy).
-      #. Rename the new Vertex Group to the name of the target Vertex Group (the
-         group you deleted above).
-      #. Select the Target Vertex Group and call the Mirror tool (use only the
-         Mirror weights option and optionally *Topology Mirror* if your mesh is
-         not symmetric).
+      #. Delete the target Vertex Group (where the mirrored weights will be placed).
+      #. Create a copy of the source bone Vertex Group
+         (the group containing the weights which you want to copy).
+      #. Rename the new Vertex Group to the name of the target Vertex Group
+         (the group you deleted above).
+      #. Select the Target Vertex Group and call the Mirror tool
+         (use only the Mirror weights option and optionally *Topology Mirror* if your mesh is not symmetric).
 
 
 Invert
@@ -141,11 +137,9 @@ Options
    Invert options.
 
 Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ about how
-   subsets are defined.
+   Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
 Add Weights
-   Add vertices that have no weight before inverting (these weights will all be
-   set to 1.0).
+   Add vertices that have no weight before inverting (these weights will all be set to 1.0).
 Remove Weights
    Remove vertices from the Vertex Group if they are 0.0 after inverting.
 
@@ -158,14 +152,13 @@ Clean
 =====
 
 Removes weights below a given threshold.
-This tool is useful for clearing your weight groups of very low (or zero-)
-weights.
+This tool is useful for clearing your weight groups of very low (or zero) weights.
 
 In the example shown, a cutoff value of 0.2 is used (see operator options below)
 so all blue parts are cleaned out.
 
-Note, the images use the *Show Zero weights* Active option so that unreferenced
-Weights are shown in Black.
+Note, the images use the *Show Zero weights* Active option
+so that unreferenced Weights are shown in Black.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_clean-example.png
 
@@ -196,8 +189,8 @@ Quantize
 ========
 
 This operator uses a process known as `Quantization <https://en.wikipedia.org/wiki/Quantization>`__
-which takes the input weights and clamps each weight to a number of steps
-between (0 - 1), so there is no longer a smooth gradient between values.
+which takes the input weights and clamps each weight to a number of steps between (0 - 1),
+so there is no longer a smooth gradient between values.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_quantize-example.png
 
@@ -208,8 +201,8 @@ Options
 -------
 
 Steps
-   The number of steps between 0 and 1 to quantize the weights into. For example
-   5 would allow the following weights ``[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]``.
+   The number of steps between 0 and 1 to quantize the weights into.
+   For example 5 would allow the following weights ``[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]``.
 
 
 Levels
@@ -220,8 +213,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 
 .. note::
 
-   No weight will ever be set to values above 1.0 or below 0.0 regardless of the
-   settings.
+   No weight will ever be set to values above 1.0 or below 0.0 regardless of the settings.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_levels-example.png
 
@@ -237,11 +229,9 @@ Options
    Levels options.
 
 Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets
-   are defined.
+   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
 Offset
-   A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex
-   Group.
+   A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
    All weights in the Subset are multiplied with the gain.
 
@@ -258,38 +248,37 @@ Smooth
 
 .. tip::
 
-   The Smooth tool only works when "Vertex selection masking for painting" is
-   enabled. Otherwise the tool button is grayed out.
+   The Smooth tool only works when "Vertex selection masking for painting" is enabled.
+   Otherwise the tool button is grayed out.
 
-Blends the weights of selected vertices with adjacent unselected vertices. This
-tool only works in vertex select mode.
+Blends the weights of selected vertices with adjacent unselected vertices.
+This tool only works in vertex select mode.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-example-1.png
 
 To understand what the tool really does, let us take a look at a simple example.
-The selected vertex is connected to four adjacent vertices (marked with a gray
-circle in the image). All adjacent vertices are unselected Now the tool
-calculates the average weight of all connected **and** unselected vertices.
+The selected vertex is connected to four adjacent vertices
+(marked with a gray circle in the image). All adjacent vertices are unselected.
+Now the tool calculates the average weight of all connected **and** unselected vertices.
 In the example this is:
 
 :math:`(1 + 0 + 0 + 0) / 4 = 0.25`
 
 This value is multiplied by the factor given in the Operator options (see below).
 
-- If the factor is 0.0 then actually nothing happens at all and the vertex just
-  keeps its value.
+- If the factor is 0.0 then actually nothing happens at all and the vertex just keeps its value.
 - If the factor is 1.0 then the calculated average weight is taken (0.25 here).
-- Dragging the factor from 0 to 1 gradually changes from the old value to the
-  calculated average.
+- Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_weight-tools_smooth-example-2.png
 
-Now let us see what happens when we select all but one of the neighbors of the
-selected vertex as well. Again all connected and unselected vertices are marked
-with a gray circle. When we call the Smooth tool now and set the Factor to 1.0,
+Now let us see what happens when we select all
+but one of the neighbors of the selected vertex as well.
+Again all connected and unselected vertices are marked with a gray circle.
+When we call the Smooth tool now and set the Factor to 1.0,
 then we see different results for each of the selected vertices:
 
-- The topmost and bottommost selected vertices:
+- The top-most and bottom-most selected vertices:
 
   are surrounded by three unselected vertices, with an average weight of :math:`(1 + 0 + 0) / 3 = 0.333`
   So their color has changed to light green.

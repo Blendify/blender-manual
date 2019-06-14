@@ -46,7 +46,6 @@ Developer Extras
       Show Indices
          The option to show mesh vertex/edge/face indices in the overlay popover.
 
-
 Large Cursors
    Use large mouse cursors when available.
 
@@ -61,7 +60,7 @@ Region Overlap
 Corner Splitting
    Split & join by dragging from the corners.
 
-   When disabled, you can use the right click menu for area separators to perform these operations.
+   When disabled, you can use the context menu for area separators to perform these operations.
 Color Picker Type
    Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
 
@@ -77,8 +76,10 @@ Factor Display Type
    Factor
       Values are displayed as float numbers between 0.0 and 1.0.
    Percentage
-      Values are displayed as percentages between 0 and 100.
+      Values are expressed as a percentage between 0 and 100.
 
+
+.. _prefs-interface-translation:
 
 Translation
 ===========
@@ -109,7 +110,7 @@ Interface Font
    Replacement for the default user interface font.
 Mono-space Font
    Replacement for the default mono-space interface font
-   *(use for Text Editor & Python console)*.
+   *(use in the Text editor and Python Console)*.
 
 
 Menus

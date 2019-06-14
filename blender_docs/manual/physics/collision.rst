@@ -66,7 +66,7 @@ Friction
       Random variation of friction.
 
 
-Softbody and Cloth
+Soft body and Cloth
 -------------------
 
 Damping
@@ -101,7 +101,6 @@ Single Sided
 
 Override Normals
    When enabled, cloth collision impulses act in the direction of the collider normals.
-
 
 *Soft body* collisions are difficult to get perfect. If one of the objects move too fast,
 the soft body will penetrate the mesh. See also the section about :doc:`Soft Bodies </physics/soft_body/index>`.

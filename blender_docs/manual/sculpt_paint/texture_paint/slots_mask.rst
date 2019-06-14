@@ -3,7 +3,6 @@
 Texture Slots & Mask
 ********************
 
-
 Texture Slots
 =============
 
@@ -21,8 +20,8 @@ Painting Mode
    The slot system includes two painting modes:
 
    Single Image
-      You can just select an existing image and painting will use the active UV
-      layer for painting.
+      You can just select an existing image and painting will use
+      the active UV layer for painting.
 
       Image
          Allows you to select the image used as a canvas.
@@ -31,10 +30,9 @@ Painting Mode
             Create a new image.
       UV Map
          Allows you to select the UV layer for painting.
-         (Same as the currently active UV map in the mesh's *UV Maps* panel.)
+         (Same as the currently active UV map in the mesh's *UV Maps* panel).
       Texture Filter Type
-         Set the interpolation mode of the texture. This can be Linear or
-         Closest.
+         Set the interpolation mode of the texture. This can be Linear or Closest.
 
    Material
       This mode tries to detect the slots from the materials of the mesh.
@@ -45,9 +43,7 @@ Painting Mode
 
       Available Paint Slots
          A :ref:`ui-list-view` of slots.
-         To activate a certain slot to use it for paint a just :kbd:`LMB` click
-         on it.
-
+         To activate a certain slot to use it for paint a just :kbd:`LMB` click on it.
 
 Save All Images
    Repack (or save if external file) all edited images.

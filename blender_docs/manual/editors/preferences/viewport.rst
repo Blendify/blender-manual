@@ -13,7 +13,10 @@ View Name
    For example: "User Perspective" or "Top Orthographic".
 Playback FPS
    Show the frames per second screen refresh rate while an animation is played back.
-   It appears in the viewport corner, displaying red if the frame rate set cannot be reached
+   It appears in the viewport corner, displaying red if the frame rate set cannot be reached.
+
+.. _prefs-viewport-gizmo-size:
+
 Gizmo size
    Diameter of the manipulator.
 Look Dev Sphere Size
@@ -30,7 +33,7 @@ Look Dev Sphere Size
 Quality
 =======
 
-.. TODO2.8: document what the difference exacly is between anti-aliasing & multi-sampling is.
+.. TODO2.8: document what the difference exactly is between anti-aliasing & multi-sampling is.
 
 Viewport Anti-aliasing
    Control the :term:`anti-aliasing` for smoother drawing.
@@ -39,8 +42,7 @@ Multisampling
 Grease Pencil Multisampling
    Control the :term:`anti-aliasing` for smoother grease pencil drawing.
 Edit-Mode Smooth Wires
-   Display smooth wire in edit-mode,
-   without this wire will be rendered aliased (jagged).
+   Display smooth wire in Edit Mode, without this wire will be rendered aliased.
 
    Some users prefer to disable this for increased visibility,
    since edges don't blend into other shaded regions.

@@ -13,7 +13,7 @@ Automatic execution is disabled by default,
 however, some blend-files need this to function properly.
 
 When a blend-file tries to execute a script and is not allowed, a dialog will appear.
-In it, you can choose to *Allow Execution* or to *Ingore* the scripts.
+In it, you can choose to *Allow Execution* or to *Ignore* the scripts.
 
 .. figure:: /images/advanced_scripting_autorun-scripts-dialog.png
 

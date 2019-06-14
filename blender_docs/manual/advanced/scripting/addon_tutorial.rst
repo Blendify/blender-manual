@@ -2,7 +2,7 @@
 .. This document is an exception to the rule of not having tutorials in the reference manual.
    Since this doesn't quite belong on the API docs either.
    It's important we have at least one place with good basic info on how to write an add-on.
-   - ideasman42
+   -- ideasman42
 
 ***************
 Add-on Tutorial

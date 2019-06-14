@@ -24,14 +24,14 @@ Direct Placement with the Mouse
 Enable the cursor tool. Using :kbd:`RMB` in the 3D View will place the 3D cursor
 directly under your mouse pointer.
 
-For accuracy you should use two perpendicular orthogonal 3D Views, i.e.
-any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpad3`.
-That way you can control the positioning along two axes in one view and determine 
-depth in the second view.
+For accuracy you should use two perpendicular orthogonal 3D Views,
+i.e. any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpad3`.
+That way you can control the positioning along two axes in one view and
+determine depth in the second view.
 
 By default the depth of the geometry under the cursor is used,
-this can be disabled using the *Cursor Surface Project* toggle in the 
-:doc:`Preferences </editors/preferences/editing>`.
+this can be disabled using the *Cursor Surface Project* toggle
+in the :doc:`Preferences </editors/preferences/editing>`.
 
 .. seealso::
 

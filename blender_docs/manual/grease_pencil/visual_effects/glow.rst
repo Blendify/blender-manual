@@ -1,9 +1,10 @@
 
-#############################
-  Glow Visual Effect
-#############################
+******************
+Glow Visual Effect
+******************
 
 TODO2.8: write this section.
+
 
 Options
 =======

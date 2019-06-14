@@ -67,6 +67,7 @@ Go to Parent button
 Snapping
    Change options for snapping node positions to achieve a cleaner node tree layout.
 
+
 Toolbar
 -------
 

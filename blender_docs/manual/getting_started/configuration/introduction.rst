@@ -12,10 +12,9 @@ Language
 ========
 
 Enable :menuselection:`Edit --> Interface --> Translation`,
-and choose the *Language* and
-what to translate from *Interface*, *Tooltips* and *New Data*.
+and choose the *Language* and what to translate from *Interface*, *Tooltips* and *New Data*.
 
-See :ref:`prefs-system-international` for details.
+See :ref:`prefs-interface-translation` for details.
 
 
 Input

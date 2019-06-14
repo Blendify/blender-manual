@@ -3,7 +3,6 @@
   Generate
 ###########
 
-
 .. toctree::
    :maxdepth: 2
 
@@ -13,4 +12,4 @@
    sample.rst
    simplify.rst
    stroke.rst
-   subdivide.rst      
+   subdivide.rst

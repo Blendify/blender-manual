@@ -7,5 +7,4 @@ Voronoi Node
 
    Voronoi node.
 
-
 See :doc:`Here </render/materials/legacy_textures/types/voronoi>`.

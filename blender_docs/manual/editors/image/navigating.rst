@@ -12,7 +12,7 @@ Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to 
 Gizmos
 ======
 
-Next to the sidebar region at the top, there are gizmos that allow panning
+Next to the Sidebar region at the top, there are gizmos that allow panning
 and zooming more comfortably when e.g. no mouse wheel is available.
 
 
@@ -20,7 +20,7 @@ View Menu
 =========
 
 Region Controls
-   Adjust which regions are visible in the image editor.
+   Adjust which regions are visible in the Image editor.
 Update Automatically
    Update the view in multiple areas.
 Show Metadata

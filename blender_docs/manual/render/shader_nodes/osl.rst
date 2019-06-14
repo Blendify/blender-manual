@@ -1,3 +1,4 @@
+
 *********************
 Open Shading Language
 *********************
@@ -13,7 +14,7 @@ To enable it, select *Open Shading Language* as the shading system in the render
 
 .. note::
 
-   On Linux, C/C++ compiler tools (in particular /usr/bin/cpp)
+   On Linux, C/C++ compiler tools (in particular ``/usr/bin/cpp``)
    must be installed to compile OSL scripts.
 
 

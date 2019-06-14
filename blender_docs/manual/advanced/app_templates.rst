@@ -28,9 +28,9 @@ Application templates can be selected from the splash screen or the file menu *(
 
 When there are no templates found the menu will not be displayed on the splash screen.
 
-New application-templates can be installed from the :ref:`topbar-app_menu`.
+New application templates can be installed from the :ref:`topbar-app_menu`.
 
-If you would like to keep the current application-template active on restarting Blender, save your preferences.
+If you would like to keep the current application template active on restarting Blender, save your preferences.
 
 
 Motivation
@@ -39,8 +39,8 @@ Motivation
 In some cases it's not enough to write a single script or add-on,
 and expect someone to replace their preferences and startup file, install scripts and change their key-map.
 
-The goal of application-templates is to support switching to a customized configuration
-without disrupting your existing settings & installation.
+The goal of application templates is to support switching to a customized configuration
+without disrupting your existing settings and installation.
 
 This means people can build their own *applications* on top of Blender that can be easily distributed.
 
@@ -48,7 +48,7 @@ This means people can build their own *applications* on top of Blender that can 
 Details
 -------
 
-An application-template may define its own:
+An application template may define its own:
 
 Startup File
    The default file to load with this template.
@@ -94,11 +94,12 @@ With a template:
 
 See :ref:`getting-started-config-directories` for details on script and configuration locations.
 
+
 Command Line Access
 -------------------
 
 Using the :ref:`command-line arguments <command_line-args>` you can setup a launcher
-that opens Blender with a specific app-templates:
+that opens Blender with a specific app templates:
 
 .. code-block::
 
@@ -131,8 +132,8 @@ Each of the following files can be used for application templates but are option
    Bundled blend-files ``startup.blend`` and ``userpref.blend`` are considered *Factory Settings*
    and are never overwritten.
 
-   The user may save their own startup/preferences while using this template which will
-   be stored in their user-configuration.
+   The user may save their own startup/preferences while using this template
+   which will be stored in their user-configuration.
 
    The original template settings can be loaded using: *Load Template Factory Settings*
    from the file menu in much the same way *Load Factory Settings* works.

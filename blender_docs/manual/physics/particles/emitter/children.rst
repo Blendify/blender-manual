@@ -100,6 +100,7 @@ Roundness
 Seed
    Offset in the random number table for child particles, to get a different randomized result.
 
+
 Clumping
 ^^^^^^^^
 
@@ -120,7 +121,6 @@ Use Clump Noise
 
    Clump Noise Size
       The size of the clumps.
-
 
 
 Roughness

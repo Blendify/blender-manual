@@ -1,3 +1,4 @@
+
 *********
 Edit Menu
 *********
@@ -11,4 +12,4 @@ Rename Active Item
 Lock Object Modes
    Restrict select to the current mode.
 Preferences
-   Open the preferences dialog.
+   Open the Preferences window.

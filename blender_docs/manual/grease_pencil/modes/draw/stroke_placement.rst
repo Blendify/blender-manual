@@ -1,6 +1,6 @@
 
-###########################
-  Stroke Placement
-###########################
+****************
+Stroke Placement
+****************
 
 TODO2.8: write this section.

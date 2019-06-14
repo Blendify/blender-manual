@@ -11,7 +11,7 @@ For example, a color ramp on the output of a diffuse BSDF can be used to create 
 
 Using this conversion breaks the :abbr:`PBR (Physically Based Rendering)` pipeline and
 thus makes the result unpredictable when used in combination with effects such as
-ambient occlusion, contact shadows, soft shadows and screen space refaction.
+ambient occlusion, contact shadows, soft shadows and screen space refraction.
 
 Some effects require multiple samples to converge, and applying arbitrary changes to
 noisy input may not convert to a smooth result.
@@ -22,6 +22,7 @@ noisy input may not convert to a smooth result.
 
    - Screen Space Reflection
    - Subsurface Scattering
+
 
 Inputs
 ======
@@ -40,9 +41,10 @@ Outputs
 =======
 
 Color
-  Surface color computed from BSDFs and lighting.
+   Surface color computed from BSDFs and lighting.
 Alpha
    Alpha transparency from any Transparent BSDFs in the input.
+
 
 Examples
 ========

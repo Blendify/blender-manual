@@ -5,13 +5,13 @@ File Browser
 
 .. figure:: /images/editors_file-browser_introduction_editor.png
 
-   The *File Browser*.
+   The File Browser.
 
 
 Introduction
 ============
 
-The *File Browser* is used in all the file-related operations. These include:
+The File Browser is used in all the file-related operations. These include:
 
 - Opening and saving blend-files.
 - Browsing inside other blend-files, when appending or linking data-blocks,
@@ -25,7 +25,7 @@ and then close and return to the former screen layout.
 
 .. note::
 
-   You can always select several entries in the *File Browser*,
+   You can always select several entries in the File Browser,
    the last selected one is considered as the active one.
    If the calling operation expects a single path (like e.g. the main blend-file *Open* one),
    it will get that active item's path, other selected ones will just be ignored.
@@ -86,14 +86,14 @@ Recursion
       Showing several levels of directories at once can be handy to e.g. see your whole collection of textures,
       even if you have arranged them in a nice set of directories to avoid having hundreds of files in a single place.
 
-      In Append/Link case, showing the content of the whole blend-file will allow you
+      In *Append/Link* case, showing the content of the whole blend-file will allow you
       to link different types of data-blocks in a single operation.
 
    .. warning::
 
       The more levels you show at once, the more time it will take to list them all
-      (typically, it will be exponential, showing three levels at once may take three orders of magnitude more time
-      to be fully listed).
+      (typically, it will be exponential, showing three levels at once
+      may take three orders of magnitude more time to be fully listed).
 
 
 File Filtering
@@ -108,10 +108,10 @@ File Types
 Data-Block Types
    When appending or linking, you can also filter by data-block categories, like scenes, animations, materials, etc.
 Search field
-   Filter items by name. The wildcard ``*`` will match anything, e.g. `bl*er` will match both `blender` and `blogger`.
+   Filter items by name. The wildcard ``*`` will match anything, e.g. ``bl\*er`` will match both ``blender`` and ``blogger``.
    There is always an implicit wildcard at start and end of the search string,
-   so `blender` will also match `test_blender_file.blend`.
-   This field can also be used to filter some specific file extension (e.g. `.png` will list all PNG files).
+   so ``blender`` will also match ``test_blender_file.blend``.
+   This field can also be used to filter some specific file extension (e.g. ``.png`` will list all PNG files).
 
 
 File Region
@@ -133,7 +133,7 @@ Confirm :kbd:`Return`
    Double-clicking on a non-directory item will have the same effect.
 Cancel :kbd:`Esc`
    Cancels the file selection (and the underlying operation), and closes the File Browser.
-   Using the *Back to Previous* button in the :ref:`Top Bar<topbar-index>` will have the same effect.
+   Using the *Back to Previous* button in the :ref:`Topbar <topbar-index>` will have the same effect.
 
 
 Tool Shelf
@@ -145,7 +145,7 @@ The left region is divided in two areas, Bookmarks on top, and the Operator pane
 Bookmarks
 ---------
 
-The top one displays different ways to quickly access some directories, in four :ref:`lists<ui-list-view>`.
+The top one displays different ways to quickly access some directories, in four :ref:`lists <ui-list-view>`.
 Clicking on one of the shortcut entries will immediately navigate to that folder.
 
 Volumes
@@ -161,7 +161,7 @@ Recents
    The ``X`` button to the right allows you to fully erase this list.
 
    You can control how many folders appear in this list with the *Recent Files* number button
-   of the :ref:`Save & Load<prefs-save-load>` tab in the *Preferences*.
+   of the :ref:`Save & Load <prefs-save-load>` tab in the Preferences.
 
 
 Operator Panel
@@ -198,7 +198,7 @@ Parent Directory :kbd:`P`
 File Drop
 ^^^^^^^^^
 
-You can also drag & drop a file or directory from your local file explorer into the Blender *File Browser*.
+You can also drag & drop a file or directory from your local file explorer into the Blender File Browser.
 This will relocate it to the directory of the dropped file, and the file will be selected.
 
 
@@ -211,7 +211,7 @@ Select
 (De)select All :kbd:`A`
    Toggles selecting all files.
 Dragging
-   Dragging with :kbd:`LMB` starts a :ref:`border selection<bpy.ops.view3d.select_border>`.
+   Dragging with :kbd:`LMB` starts a :ref:`border selection <bpy.ops.view3d.select_border>`.
 
 
 Arrow Keys
@@ -229,7 +229,7 @@ If no file is selected, the arrow key navigation selects the first or last file 
 depending on the arrow direction.
 
 If you select a directory and hit :kbd:`Return`, you will go into that directory
-(and highlighting 'parent' `..` entry will bring you up one level).
+(and highlighting 'parent' ``..`` entry will bring you up one level).
 
 
 File Management
@@ -252,9 +252,9 @@ Previews
 
 .. figure:: /images/editors_file-browser_previews_previews.png
 
-   The *File Browser* in *Thumbnail* mode.
+   The File Browser in *Thumbnail* mode.
 
-In its *Thumbnail* drawing mode, the *File Browser* supports many types of previews. These include:
+In its *Thumbnail* drawing mode, the File Browser supports many types of previews. These include:
 
 - Image and video formats
 - Fonts

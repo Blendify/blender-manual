@@ -16,7 +16,6 @@ Strand Shape
    the value of zero makes the primitive linear,
    and positive values make the primitive rounded more towards the bottom.
 
-
 Radius Root
    Multiplier of the hair width at the root.
 Radius Tip

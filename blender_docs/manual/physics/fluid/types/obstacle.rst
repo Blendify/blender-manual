@@ -45,7 +45,7 @@ Slip type
 .. figure:: /images/physics_fluid_types_obstacle_bndtcomp.jpg
 
    Example of the different boundary types for a drop falling onto the slanted wall.
-   From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.
+   From left to right: no slip, partial slip 0.3, partial slip 0.7 and free slip.
 
 Animated Mesh/Export
    See :ref:`Animated Mesh/Export <fluid-animated-mesh>`.

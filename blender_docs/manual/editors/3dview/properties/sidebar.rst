@@ -5,12 +5,15 @@ Sidebar
 
 Item
 ====
-   Shows :doc:`Transform </scene_layout/object/editing/transform/introduction>`
-   settings of the active objects
+
+Shows :doc:`Transform </scene_layout/object/editing/transform/introduction>` settings
+of the active objects.
+
 
 Tool
 ====
-   Show settings of the active tool and workspace
+
+Show settings of the active tool and Workspace.
 
 
 View Panel
@@ -47,7 +50,7 @@ Clip Start/End
       See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
 Use Local Camera
-   Use a local camera in this view, rather then the scene's active camera
+   Use a local camera in this view, rather then the scene's active camera.
 
 Local Camera
    Active camera used in this view to override the (global) scene camera.
@@ -76,18 +79,16 @@ View Lock
 
 3D Cursor
    Location
-      The location of the 3D Cursor
-   
+      The location of the 3D Cursor.
+
    Rotation
-      The rotation of the 3D Cursor
-   
+      The rotation of the 3D Cursor.
+
    Rotation Mode
-      The Rotation mode of the 3D Cursor
-   
+      The Rotation mode of the 3D Cursor.
+
 Collections
-   This panel shows a list of collections. The visibility of the collection
-   can be changed.
+   This panel shows a list of collections. The visibility of the collection can be changed.
 
 Annotations
-   See :doc:`Annotations </interface/annotation_tool>` for more
-   information about annotations.
+   See :doc:`Annotations </interface/annotation_tool>` for more information.

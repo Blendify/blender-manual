@@ -54,7 +54,7 @@ When you link an object, it will be placed in your scene at the 3D cursor positi
 Many other data types, cameras, curves, and materials for example,
 must be linked to an object before they become visible.
 
-Newly added collections types are available in :menuselection:`Add --> Collection Instance` in 3D View.
+Newly added collections types are available in :menuselection:`Add --> Collection Instance` in the 3D View.
 
 Look in the *Outliner*, with display mode set to *Blender File*, to see all your linked and appended data-blocks.
 
@@ -71,7 +71,7 @@ Look in the *Outliner*, with display mode set to *Blender File*, to see all your
 Library Reload & Relocate
 =========================
 
-From the contextual menu of the library items in the *Outliner*'s *Blender File* view,
+From the context menu of the library items in the *Outliner*'s *Blender File* view,
 you can reload and relocate a whole library.
 
 Reloading is useful if you changed something in the library blend-file and want to see those changes
@@ -87,7 +87,7 @@ Broken Library
 --------------
 
 While loading a blend-file, if Blender cannot find any more a library,
-it will create place-holders data-blocks to replace missing linked ones.
+it will create placeholders data-blocks to replace missing linked ones.
 
 That way, references to those missing data are not lost, and by relocating the missing library,
 the lost data can be automatically restored.
@@ -152,7 +152,7 @@ Make Local
    :class: refbox
 
    :Editor:    Outliner
-   :Menu:      :menuselection:`Contextual menu --> ID Data --> Make Local`
+   :Menu:      :menuselection:`Context menu --> ID Data --> Make Local`
 
 Makes the selected or all external objects local in the current blend-file.
 Link to original library file will be full lost.
@@ -162,7 +162,7 @@ But it will make those data-blocks fully editable, just like ones directly creat
 Options
 -------
 
-The operation available from the *Outliner*'s contextual menu has no option, and only affects select data-block.
+The operation available from the *Outliner*'s context menu has no option, and only affects select data-block.
 
 The operation available from the *3D View* only directly affects selected objects,
 but it can also make local the objects' dependencies:

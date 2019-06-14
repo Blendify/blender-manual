@@ -89,4 +89,4 @@ to be performed relative to the other two axes. See :ref:`view3d-transform-plane
 
 .. seealso::
 
-   The :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
+   The :ref:`Manipulator Preferences <prefs-viewport-gizmo-size>`.

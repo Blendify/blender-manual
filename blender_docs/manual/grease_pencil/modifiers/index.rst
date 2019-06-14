@@ -3,7 +3,6 @@
   Grease Pencil Modifiers
 ###########################
 
-
 .. toctree::
    :maxdepth: 2
 

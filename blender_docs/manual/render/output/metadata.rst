@@ -14,6 +14,7 @@ The *Metadata* panel includes options for writing metadata into render output.
    Only some image formats support metadata:
    See :doc:`image formats </files/media/image_formats>`.
 
+
 .. rubric:: Enabled Metadata
 
 Stamping can include the following data:
@@ -44,6 +45,7 @@ Filename
    Includes the filename of the blend-file.
 Strip Name
    Includes the name of the foreground sequence strip.
+
 
 .. rubric:: Sequencer
 

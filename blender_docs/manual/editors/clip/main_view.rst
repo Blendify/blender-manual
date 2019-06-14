@@ -1,9 +1,10 @@
+
 *********
 Main View
 *********
 
 Mini Timeline
--------------
+=============
 
 When a clip is loaded a Timeline is shown at bottom of the Preview.
 It expands over the full area limited by the animation range.

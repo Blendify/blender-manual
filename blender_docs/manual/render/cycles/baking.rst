@@ -17,6 +17,7 @@ This has a few different purposes, most commonly:
   as a base for texture painting or further edits.
 - Creating light maps to provide global illumination or speed up rendering in games.
 
+
 Setup
 =====
 
@@ -29,6 +30,7 @@ you will not have to enable it for the full render, saving render time.
 
 Cycles uses the render settings (samples, bounces, ...) for baking.
 This way the quality of the baked textures should match the result you get from the rendered scene.
+
 
 Settings
 ========
@@ -120,6 +122,7 @@ Cage
       you can create a copy of the base mesh and modify it to use as a *Cage*.
       Both meshes need to have the same :term:`topology` (number of faces and face order).
 
+
 Output
 ------
 
@@ -127,4 +130,3 @@ Margin
    Baked result is extended this many pixels beyond the border of each UV "island", to soften seams in the texture.
 Clear
    If selected, clears the image before baking render.
-

@@ -13,7 +13,7 @@ Prefetch :kbd:`P`
 Reload
    Force reload currently loaded movie clip. Is mainly useful when clip gets edited outside of Blender.
 Set Scene Frames
-   Sets end scene frame to match current clip dureation.
+   Sets end scene frame to match current clip duration.
 
 
 Marker Panel
@@ -76,16 +76,16 @@ Tracking Settings Panel
 This panel contains all settings for the 2D tracking algorithms.
 
 Tracking Presets
-   These presets are based on tracking experience of real footage and provides good ball-bark values to start working
-   with a specific footage.
+   These presets are based on tracking experience of real footage and
+   provides good start values to begin working with a specific footage.
 Pattern Size, Search
-   Defines size of a newely created tracks.
+   Defines size of a newly created tracks.
 Channels
    Defines color channels which will be used by a tracking algorithm.
-   Disabling some colors might increase contrast of feature, helping the tracker.
+   Disabling some colors might increase the contrast to enhance the feature detection.
 Motion Model
-   Defines which possible motions tracking feature has. This option should be set depending on which motion
-   a particular feature has and it'll make tracking most accurate for such a motion.
+   Defines which possible motions tracking feature has. This option should be set depending on
+   which motion a particular feature has and it will make tracking most accurate for such a motion.
 
    Location only, Location+Rotation, Location+Scale, Location+Rotation+Scale, Affine
 
@@ -137,10 +137,10 @@ Extra Settings
 Weight
    See Track :ref:`Weight <clip-tracking-weight>`.
 Correlation
-   This value defines defines the minimal correlation between
+   This value defines the minimal correlation between
    a matched pattern and a reference to be considered a successful tracking.
-   If the tracker is giving up too easily, decrease this value, or if the tracker is slipping too much
-   when it should give up sooner, increase this value.
+   If the tracker is stops too early, decrease this value, or if the track is slipping too much
+   when it should stop sooner, increase this value.
 Margin
    Can be used disable tracks when they become too close to the image boundary.
    This slider sets "too close" in pixels.

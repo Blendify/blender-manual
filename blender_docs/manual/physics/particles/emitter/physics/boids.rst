@@ -178,6 +178,7 @@ Boid Brain
 
 The Boid Brain panel controls how the boids particles will react with each other.
 
+
 Rules
 -----
 

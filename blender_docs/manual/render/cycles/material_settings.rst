@@ -9,6 +9,7 @@ Material Settings
 
    :Panel:     :menuselection:`Material --> Settings` and :menuselection:`Shader Editor --> Sidebar --> Settings`
 
+
 Surface
 =======
 
@@ -41,6 +42,7 @@ Displacement Method
    Displacement and Bump
       Both methods can be combined, to do displacement on a coarser mesh,
       and use bump mapping for the final detail.
+
 
 Volume
 ======

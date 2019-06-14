@@ -162,7 +162,7 @@ Interpolation
 Homogeneous Volume
    Assume volume has the same density everywhere (not using any textures), for faster rendering.
    For example absorption in a glass object would typically not have any textures,
-   and by knowing this we can avoid taking small steps to sample the volume shader.
+   and so the renderer can be set to avoid taking small steps to sample the volume shader.
 
 
 Ray Visibility

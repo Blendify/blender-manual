@@ -12,11 +12,12 @@
    structure.rst
    primitives.rst
    selecting.rst
-   properties/index.rst   
+   properties/index.rst
    modifiers/index.rst
-   visual_effects/index.rst   
-   materials/index.rst    
+   visual_effects/index.rst
+   materials/index.rst
    animation/index.rst
+
 
 Modes
 =====

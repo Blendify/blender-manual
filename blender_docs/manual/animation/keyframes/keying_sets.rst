@@ -21,7 +21,7 @@ There are some built-in Keying Sets and,
 also custom Keying Sets called *Absolute Keying Sets*.
 
 To select and use a Keying Set, set the *Active Keying Set*
-in the :ref:`Keying Popover <timeline-keying>` in the Timeline Header,
+in the :ref:`Keying popover <timeline-keying>` in the Timeline Header,
 or the Keying Set panel, or press :kbd:`Shift-Ctrl-Alt-I` in the 3D View.
 
 

@@ -15,5 +15,4 @@ enable compatible devices in :menuselection:`Preferences --> System --> Cycles R
 
 .. seealso::
 
-   - The `Cycles website <https://www.cycles-renderer.org/>`__
-     with more information and a gallery.
+   The `Cycles website <https://www.cycles-renderer.org/>`__ with more information and a gallery.

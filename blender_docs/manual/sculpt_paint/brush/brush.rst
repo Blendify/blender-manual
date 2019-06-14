@@ -19,36 +19,38 @@ Brushes
 
 .. note::
 
-   In order to save in a blend-user a custom brush,  tick Fake User.
+   In order to save in a blend-user a custom brush, tick Fake User.
 
 The size of the brush can be changed by the :kbd:`[` and :kbd:`]` shortcuts.
 
 Direction
-   The influence direction of the brush. This can be **Add** or **Subtract**.
+   The influence direction of the brush. This can be *Add* or *Subtract*.
 
 Autosmooth
-   Amount of smoothing to apply to each stroke
+   Amount of smoothing to apply to each stroke.
 
 Inverse Autosmooth
-   Lighter pressure causes more smoothing to apply
+   Lighter pressure causes more smoothing to apply.
 
 Height
-   Affectable height of brush
+   Simulated height of brush.
+
 
 Options
--------
+=======
 
 Accumulate
-   Accumulate stroke daubs on top of each other
+   Accumulate stroke daubs on top of each other.
 
 Radius Unit
    View
-      Measure brush size relative to the screen
+      Measure brush size relative to the screen.
    Scene
-      Measure brush size relative to the scene
-   
+      Measure brush size relative to the scene.
+
 Sculpt Plane
-   Set the orientation of the brush effect. Possible selection
+   Set the orientation of the brush effect.
+
    - Area Plane
    - View Plane
    - X Plane
@@ -56,13 +58,13 @@ Sculpt Plane
    - Z Plane
 
 Original Normal
-   Keep using the normal of the initial location where the stroke originated
+   Keep using the normal of the initial location where the stroke originated.
 
 Front Faces Only
-   Brush only affects vertices that face the viewer
+   Brush only affects vertices that face the viewer.
 
 2D Falloff
-   Apply brush influence in 2D circle in stead of a sphere
+   Apply brush influence in 2D circle instead of a sphere.
 
 
 Radial Control

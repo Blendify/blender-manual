@@ -8,6 +8,7 @@ Common Options
 
 Some options shared by many fluid types.
 
+
 .. _fluid-initialization:
 
 Volume Initialization Type

@@ -11,6 +11,7 @@ Visibility
 
    :Panel:     :menuselection:`Object --> Visibility`
 
+
 Shadow Catcher
 --------------
 
@@ -22,6 +23,7 @@ into a real-world footage.
 .. figure:: /images/render_cycles_settings_objects_object-data_shadow-catcher.jpg
 
    Example of the shadow catcher. Note how the material of the plane can still be viewed in the spheres.
+
 
 .. _cycles-ray-visibility:
 .. _bpy.types.CyclesVisibilitySettings:
@@ -66,6 +68,7 @@ Use Distance Cull
    Will cull any objects further from the camera than a given distance. When used in combination with
    camera frustum culling, this can be used to avoid culling nearby objects that are outside the camera frustum,
    but still visible in reflections. It is also useful to cull small objects far from the camera.
+
 
 .. _render-cycles-settings-object-motion-blur:
 

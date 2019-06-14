@@ -184,24 +184,22 @@ Outer Miter :kbd:`O`
 
    The current choices are shown in this diagram, where the outer miter is along the horizontal surface.
 
-   
- .. list-table::
+   .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-2.png
-          :width: 320px
+      * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-2.png
+             :width: 320px
 
-          Sharp outer miter.
+             Sharp outer miter.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-3.png
-          :width: 320px
+        - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-3.png
+             :width: 320px
 
-          Patch outer miter.
+             Patch outer miter.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-4.png
-          :width: 320px
+        - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-4.png
+             :width: 320px
 
-          Arc outer miter.
-
+             Arc outer miter.
 
 Inner Miter :kbd:`I`
    An *Inner Miter* is formed when the angle between two beveled edges is less than 180 degrees.
@@ -209,18 +207,17 @@ Inner Miter :kbd:`I`
    The options are the same as for Outer Miter, except that *Patch* makes no sense and is therefore omitted.
    Inner miters are shown in the following diagram, where two inner miters are on the vertical surfaces.
 
-   
- .. list-table::
+   .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-5.png
-          :width: 200px
+      * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-5.png
+             :width: 200px
 
-          Sharp inner miter.
+             Sharp inner miter.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-6.png
-          :width: 200px
+        - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-6.png
+             :width: 200px
 
-          Arc inner miter.
+             Arc inner miter.
 
 
 Spread

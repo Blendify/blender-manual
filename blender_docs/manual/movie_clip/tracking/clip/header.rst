@@ -7,7 +7,7 @@ Marker Display
 ==============
 
 Defines how markers are displayed in the editor.
-Settings are found in the :ref:`Clip Display <clip-editor-clip-display-label>` pop-over.
+Settings can be found in the :ref:`Clip Display <clip-editor-clip-display-label>` pop-over.
 
 Pattern
    Can be used to disable displaying of rectangles which correspond to pattern areas of tracks.
@@ -22,7 +22,7 @@ Path
    at only one frame. It helps to determine if a track jumps from its position or not.
 Show Disabled :kbd:`Alt-D`
    Makes it possible to hide all tracks which are disabled on the current frame.
-   This helps to make view more clear, to see if tracking is happening accurately enough.
+   This helps to make view more clear, to see if the tracking is accurate enough.
 Info
    Displays information such as track name and status of the track
    (if it is keyframed, disabled, tracked or estimated).
@@ -36,7 +36,6 @@ Info
 Draw Thin
    The way in which markers are displayed compact (black outline and yellow foreground color)
    makes tracks visible on all kind of footage (both dark and light).
-   But sometimes it can be annoying and this option will make the marker display
-   more compactly -- the outline is replaced by dashed black lines drawn on top of the foreground,
+   But sometimes it can be annoying and this option will make the marker display more compactly --
+   the outline is replaced by dashed black lines drawn on top of the foreground,
    so that marker areas are only 1px thick.
-

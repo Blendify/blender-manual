@@ -54,7 +54,7 @@ Example
 
 The purpose of mask layers can be explained with an example.
 Suppose there are two unwanted people in the footage, and one of them goes from left to right, and
-the other in the opposite direction. Two mask layers can then be used to mask them separately
+the other in the opposite direction. Two mask layers can then be used to mask them separately by
 using a single mask data-block. At the point of intersection of these shapes they will be added together rather than
 creating a hole, as would happen if they were on the same layer. If the motion is simple enough,
 a single motion tracked point can be used to drive the location of the entire mask layer.

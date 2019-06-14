@@ -28,8 +28,8 @@ Color
 
    .. note::
 
-      Note that Vertex Paint works in sRGB :term:`space <Color Space>`, and the
-      RGB representation of the same colors will be different between the paint
+      Note that Vertex Paint works in sRGB :term:`space <Color Space>`, and
+      the RGB representation of the same colors will be different between the paint
       tools and the materials that are in linear space.
 
 Radius
@@ -48,6 +48,7 @@ Options
       Only paint on the front side of faces.
    2D Falloff
       This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
+
 
 Texture
 =======

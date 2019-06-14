@@ -88,7 +88,7 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ct
 .. _bpy.ops.object.select_all:
 
 Select All
-==============
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -101,7 +101,7 @@ Select all selectable objects.
 
 
 Deselect All
-==============
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -111,6 +111,7 @@ Deselect All
    :Hotkey:    :kbd:`Alt-A`
 
 Deselect all objects, but the active object stays the same.
+
 
 Invert Selection
 ================
@@ -123,6 +124,7 @@ Invert Selection
    :Hotkey:    :kbd:`Ctrl-I`
 
 Toggle the selection state of all visible objects.
+
 
 .. _bpy.ops.object.select_random:
 
@@ -137,8 +139,9 @@ Random
 
 Randomly selects unselected objects based on percentage probability.
 The percentage can be modified in the *Adjust Last Operation* panel.
-It is important to note that the percentage represents the likelihood of an unselected object being
-selected and not the percentage amount of objects that will be selected.
+It is important to note that the percentage represents the likelihood of
+an unselected object being selected and not the percentage amount of objects
+that will be selected.
 
 
 .. _bpy.ops.object.select_mirror:
@@ -294,7 +297,7 @@ Library
    Selects all objects that are in the same :doc:`Library </files/linked_libraries>`.
 Library (Object Data)
    Selects all objects that are in the same :doc:`Library </files/linked_libraries>`
-   and limited to *object data*.
+   and limited to *Object Data*.
 
 
 .. _bpy.ops.object.select_pattern:

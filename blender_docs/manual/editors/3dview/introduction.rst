@@ -10,8 +10,9 @@ such as modeling, animating, texture painting, etc.
 Header
 ======
 
-The header contains various menus and controls based on the current
-:doc:`mode </editors/3dview/modes>`.
+The header contains various menus and controls based on
+the current :doc:`mode </editors/3dview/modes>`.
+
 
 Mode
 ----
@@ -49,8 +50,7 @@ Controls
 --------
 
 Transform Orientations
-   Use to select and modify the active 
-   :doc:`Transform Orientations </editors/3dview/controls/orientation>`.
+   Use to select and modify the active :doc:`Transform Orientations </editors/3dview/controls/orientation>`.
 
 Pivot Point
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
@@ -62,18 +62,20 @@ Snapping
 Proportional Edit
    :doc:`Proportional Edit </scene_layout/object/editing/transform/control/proportional_edit>`.
 
+..
 
 Object Type Visibility
    Change the :doc:`Object Type Visibility </editors/3dview/controls/visibility>`
    and selectability of objects in the 3D View.
 Viewport Gizmos
-   Change the way how :doc:`gizmos </editors/3dview/controls/gizmo>` are displayed 
-   in the 3D View.
+   Change the way how :doc:`gizmos </editors/3dview/controls/gizmo>` are
+   displayed in the 3D View.
 Viewport Overlays
    Change the way how :doc:`overlays </editors/3dview/controls/overlays>` are
    displayed in the 3D View.
 Viewport Shading
    Change the :doc:`shading </editors/3dview/controls/shading>` of the 3D View.
+
 
 Tool Shelf
 ==========

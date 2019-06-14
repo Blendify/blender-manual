@@ -35,7 +35,7 @@ so that the cursor changes to a double-headed arrow, and then click and drag.
 
 
 Splitting
-=====================
+=========
 
 .. figure:: /images/interface_window-system_areas_split.png
    :align: right
@@ -44,13 +44,13 @@ Splitting
 
 Splitting an area will create a new area. Placing the mouse cursor
 in an area corner will change the cursor to a cross (+) to indicate that
-pressing down :kbd:`LMB` will activate splitting or joining command.
-Dragging from area corner **inward** will *split* the area. You define the
-split direction by dragging either horizontally or vertically.
+pressing down :kbd:`LMB` will activate splitting or joining operator.
+Dragging from area corner **inward** will *split* the area.
+You define the split direction by dragging either horizontally or vertically.
 
 
 Joining
-=====================
+=======
 
 .. figure:: /images/interface_window-system_areas_join.png
    :align: right
@@ -59,11 +59,12 @@ Joining
 
    The Properties Editor is being joined to the Outliner.
 
-Dragging from an area corner **outward** will *join* two areas. The area that
-will be closed gets a dark overlaid arrow. You can select which area
-will be closed by moving the mouse over areas. Release the :kbd:`LMB`
-to complete the join. If you press :kbd:`Esc` or :kbd:`RMB` before
-releasing the mouse, the operation will be aborted.
+Dragging from an area corner **outward** will *join* two areas.
+The area that will be closed gets a dark overlaid arrow.
+You can select which area will be closed by moving the mouse over areas.
+Release the :kbd:`LMB` to complete the join.
+If you press :kbd:`Esc` or :kbd:`RMB` before releasing the mouse,
+the operation will be aborted.
 
 .. note::
 
@@ -124,11 +125,10 @@ Toggle Maximize Area
    :Menu:      :menuselection:`View --> Area --> Toggle Maximize Area`
    :Hotkey:    :kbd:`Ctrl-Spacebar`
 
-The maximized area fill the whole application window. You can
-maximize an area with :menuselection:`View --> Area --> Toggle Maximize Area`
-menu entry or keyboard shortcut :kbd:`Ctrl-Spacebar`. To return to
-normal size use keyboard shortcut or the *Back to Previous* button on
-the Top bar.
+The maximized area fill the whole application window. You can maximize an area
+with :menuselection:`View --> Area --> Toggle Maximize Area` menu entry or
+keyboard shortcut :kbd:`Ctrl-Spacebar`. To return to normal size
+use keyboard shortcut or the *Back to Previous* button on the Topbar.
 
 .. note::
 

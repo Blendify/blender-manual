@@ -7,5 +7,4 @@ Marble Node
 
    Marble node.
 
-
 See :doc:`Here </render/materials/legacy_textures/types/marble>`.

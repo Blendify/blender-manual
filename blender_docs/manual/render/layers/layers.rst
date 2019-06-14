@@ -9,7 +9,7 @@ View Layers
 Renders can be separated into layers, to composite them back together afterwards.
 
 Some example usages are applying compositing effects to characters separately,
-blurring the background and foregroud layers separately for depth of field,
+blurring the background and foreground layers separately for depth of field,
 or rendering different lighting variations of the same scene.
 
 Using View Layers can also save you from having to re-render your entire image each time you change something,

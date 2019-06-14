@@ -10,4 +10,3 @@
    tools.rst
    selecting.rst
    multiframe_sculpting.rst
-

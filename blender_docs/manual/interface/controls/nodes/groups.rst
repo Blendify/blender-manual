@@ -29,6 +29,7 @@ A better method of reuse is to create node groups, exposing only the variable in
 Also nested node groups are supported. I.e. a node group can be inserted or created inside another node group.
 
 .. note::
+
    Recursive node groups are prohibited for all the current node systems to prevent infinite recursion.
    A node group can never contain itself (or another group that contains it).
 

@@ -5,8 +5,8 @@ Workflow
 
 The process consists of the following steps:
 
-#. Create the Mesh. :doc:`Unwrap </modeling/meshes/editing/uv/unwrapping/index>` it into one or more
-   :doc:`UV Layouts </editors/uv/layout_management>`.
+#. Create the Mesh. :doc:`Unwrap </modeling/meshes/editing/uv/unwrapping/index>` it into
+   one or more :doc:`UV Layouts </editors/uv/layout_management>`.
 #. Create one or more Materials for the Mesh.
 #. Create one or more images for each UV layout and aspect of the texture. Either:
    - Paint directly on the mesh using Texture Paint in the 3D View,
@@ -14,6 +14,7 @@ The process consists of the following steps:
    - Bake the existing materials into an image for the Image Editor.
 #. Apply those images as UV textures to the mesh to affect one or more aspects of the mesh.
    This is done by using one or more of the numerous Map To options. For example:
+
    - Map to Color to affect the diffuse coloring of the mesh,
    - Map to Nor to affect the normal direction to give the surface a bumpy or creased look, or
    - Map to Spec (specularity) to make certain areas look shiny and oily.
@@ -231,7 +232,7 @@ To overlay multiple UV images, you have several options:
 - Use the :doc:`Composite Nodes </compositing/index>` to combine the two images via the Alpha Over node,
   creating and saving the composite image. Open that composited image as the UV texture.
 - Use an external paint program to alpha overlay the images and save the file,
-  and load it as the face's UV texture
+  and load it as the face's UV texture.
 - Define two objects, one just inside the other.
   The inner object would have the base image,
   and the outer image the overlaid image with a material alpha less than one (1.0).

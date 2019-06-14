@@ -30,5 +30,5 @@ the *Apply Object Transform* operator.
 
 The scale of the rigid body object also influences the simulation, but is always controlled by the animation system.
 
-Rigid body physics on the object can be *removed* with the *Rigid Body* button in the *Physics* tab in the properties editor.
-or in the :menuselect:`Object --> Rigid Body` menu.
+Rigid body physics on the object can be *removed* with the *Rigid Body* button
+in the *Physics* tab in the Properties editor or in the :menuselect:`Object --> Rigid Body` menu.

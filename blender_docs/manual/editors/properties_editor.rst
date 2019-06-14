@@ -7,22 +7,22 @@ Properties Editor
 .. figure:: /images/editors_properties-editor_interface.png
    :align: right
 
-   The *Properties* editor, with *Object* properties shown.
+   The Properties editor, with *Object* properties shown.
 
-The *Properties* editor shows and allows editing of many active data, including the active scene and object.
+The Properties editor shows and allows editing of many active data, including the active scene and object.
 
 
 Tabs
 ====
 
-The *Properties* editor has several categories, which can be chosen via tabs (the icons column to its left).
+The Properties editor has several categories, which can be chosen via tabs (the icons column to its left).
 Each tab regroups properties and settings of a data type, and is documented in its own manual sections, linked below.
 
 
-Active Tool and Workspace settings
+Active Tool and Workspace Settings
 ----------------------------------
 
-This first tab contains settings for the active :doc:`tool</editors/3dview/tools>` (in the *3D View*)
+This first tab contains settings for the active :doc:`tool </editors/3dview/tools>` (in the 3D View)
 and the current :doc:`workspace </interface/window_system/workspaces>`.
 
 
@@ -64,24 +64,34 @@ Object Data
 The main tab of that category (often the only one) always has the same name, *Object Data*,
 but its icon will change based of the actual type of the active object.
 
-- Geometry Objects:
-   - :doc:`Mesh </modeling/meshes/properties/object_data>`
-   - :doc:`Curve </modeling/curves/properties/index>`
-   - :doc:`Surface </modeling/surfaces/properties>`
-   - :doc:`Text </modeling/texts/properties>`
-   - :doc:`Metaball </modeling/metas/properties>`
-   - :doc:`Grease Pencil </grease_pencil/properties/index>`
-- Rigging and Deformation Objects:
-   - :doc:`Armature </animation/armatures/properties/index>`
-      - :doc:`Bone </animation/armatures/bones/properties/index>`
-      - :doc:`Bone Constraints </animation/armatures/posing/bone_constraints/index>`
-   - :doc:`Lattice </animation/lattice>`
-- Other Types of Objects:
-   - :doc:`Empty </modeling/empties>`
-   - :doc:`Speaker </render/output/audio/speaker>`
-   - :doc:`Camera </render/cameras>`
-   - :doc:`Light </render/lights/light_object>`
-   - :doc:`Light Probe </render/eevee/lightprobes/index>`
+
+.. rubric:: Geometry Objects:
+
+- :doc:`Mesh </modeling/meshes/properties/object_data>`
+- :doc:`Curve </modeling/curves/properties/index>`
+- :doc:`Surface </modeling/surfaces/properties>`
+- :doc:`Text </modeling/texts/properties>`
+- :doc:`Metaball </modeling/metas/properties>`
+- :doc:`Grease Pencil </grease_pencil/properties/index>`
+
+
+.. rubric::  Rigging and Deformation Objects:
+
+- :doc:`Armature </animation/armatures/properties/index>`
+
+  - :doc:`Bone </animation/armatures/bones/properties/index>`
+  - :doc:`Bone Constraints </animation/armatures/posing/bone_constraints/index>`
+
+- :doc:`Lattice </animation/lattice>`
+
+
+.. rubric::  Other Types of Objects:
+
+- :doc:`Empty </modeling/empties>`
+- :doc:`Speaker </render/output/audio/speaker>`
+- :doc:`Camera </render/cameras>`
+- :doc:`Light </render/lights/light_object>`
+- :doc:`Light Probe </render/eevee/lightprobes/index>`
 
 
 Object Shading
@@ -98,12 +108,12 @@ Header
 
 .. figure:: /images/editors_properties-editor_top.png
 
-   The header of the *Properties* editor.
+   The header of the Properties editor.
 
-In the header of this editor, a list of icons and text items shows the owner of the the properties being edited,
+In the header of this editor, a list of icons and text items shows the owner of the properties being edited,
 together with some dependency context if needed.
-In the example above, the material *Material* is used by the active object *Cube*.
+In the example above, the material "Material" is used by the active object "Cube".
 
-By toggling on the pin symbol to the ride, Blender can be told to display in that editor
+By toggling on the pin icon to the right, Blender can be told to display in that editor
 only the currently shown data-block's properties, disregarding further selection changes.
 Toggle off that pin to switch back to default behavior, showing active data-block's properties.

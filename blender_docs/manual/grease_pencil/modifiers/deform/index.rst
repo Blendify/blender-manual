@@ -3,7 +3,6 @@
   Deform
 #########
 
-
 .. toctree::
    :maxdepth: 2
 
@@ -16,4 +15,3 @@
    smooth.rst
    thickness.rst
    time_offset.rst
-   

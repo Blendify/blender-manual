@@ -43,7 +43,7 @@ Keyframe (white / yellow diamond)
    Normal keyframe.
 Breakdown (small cyan diamond)
    Breakdown state. e.g. for transitions between key poses.
-Moving Hold (dark grey / orange diamond)
+Moving Hold (dark gray / orange diamond)
    A keyframe that adds a small amount of motion around a holding pose.
    In the Dope Sheet it will also draw a bar between them.
 Extreme (big pink diamond)
@@ -57,9 +57,9 @@ Jitter (tiny green diamond)
 Handles & Interpolation Display
 ===============================
 
-Dope Sheet can display the Bézier handle type associated with the keyframe, and mark
-segments with non-Bézier interpolation. This facilitates basic editing of interpolation
-without the use of the Graph Editor.
+Dope Sheet can display the Bézier handle type associated with the keyframe,
+and mark segments with non-Bézier interpolation.
+This facilitates basic editing of interpolation without the use of the Graph Editor.
 
 .. figure:: /images/animation_keyframes_introduction_interpolation.png
 
@@ -81,9 +81,11 @@ belonging to the keyframe.
    * - Diamond
      - Free
 
-If the handles of a keyframe have different types, or in case of summary rows representing multiple
-curves, out of the available choices the icon that is furthest down the list is used. This means that if a
-grouped row uses a circle icon, it is guaranteed that none of the grouped channels have a non-auto key.
+If the handles of a keyframe have different types,
+or in case of summary rows representing multiple curves,
+out of the available choices the icon that is furthest down the list is used.
+This means that if a grouped row uses a circle icon,
+it is guaranteed that none of the grouped channels have a non-auto key.
 
 Horizontal green lines mark the use of non-Bézier :ref:`Interpolation <editors-graph-fcurves-settings-interpolation>`.
 The line is dimmed in summary rows if not all grouped channels have the same interpolation.

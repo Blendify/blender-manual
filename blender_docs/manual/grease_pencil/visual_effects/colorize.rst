@@ -1,9 +1,10 @@
 
-#############################
-  Colorize Visual Effect
-#############################
+**********************
+Colorize Visual Effect
+**********************
 
 TODO2.8: write this section.
+
 
 Options
 =======

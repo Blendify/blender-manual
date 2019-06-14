@@ -6,11 +6,11 @@ Annotation Tool
 The annotation tool is available in multiple editors.
 With it notes can be added to e.g. 3D objects or node setups.
 
-The annotation tool can be activated in the toolbar on the left side.
-It has a couple of subtools listed below.
+The annotation tool can be activated in the Toolbar on the left side.
+It has a couple of sub-tools listed below.
 
 Annotate
-   Draw freehand strokes in the main window.
+   Draw free-hand strokes in the main window.
 Annotate Line
    Click and drag to create a line.
 Annotate Polygon
@@ -19,8 +19,12 @@ Annotate Polygon
 Annotate Eraser
    Click and drag to remove lines drawn previously.
 
-Settings in the 3D Editor
-=========================
+
+Settings
+========
+
+3D Editor
+---------
 
 When creating new annotations in the 3D view, there is one tool setting.
 The *Placement* option determines where the line is drawn in 3D space.
@@ -36,18 +40,19 @@ Surface
 
 The eraser has a *Radius* setting.
 
-There is a ``View --> Annotations`` panel in the right sidebar of the 3D view.
+There is a :menuselection:`View --> Annotations` panel in the right Sidebar of the 3D view.
 In it, multiple annotation layers can be managed.
 Furthermore, it allows to adjust the thickness and color of existing and new strokes.
 
 Optionally, *Onion Skin* can be enabled to show a preview of strokes made in frames close by the current frame.
 
-Settings in 2D Editors
-======================
+
+2D Editors
+----------
 
 In 2D editors, the *Placement* option does not exist.
 When the annotation tool is enabled, the settings for managing multiple layers
-can be found in the ``Tool --> Active Tool`` panel in the right sidebar.
+can be found in the :menuselection:`Tool --> Active Tool` panel in the right Sidebar.
 
 .. figure:: /images/interface_annotations_node-editor.png
    :align: center

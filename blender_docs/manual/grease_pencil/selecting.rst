@@ -10,20 +10,22 @@ Selecting
    :Menu:      :menuselection:`3D View Header --> Select Mode`
    :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
 
-In Edit Mode there are three different selection modes. You can enter the different modes by selecting one of the three buttons in the header.
+In Edit Mode there are three different selection modes.
+You can enter the different modes by selecting one of the three buttons in the header.
 
-   TODO: Selection mode buttons image 
+.. TODO: Selection mode buttons image.
 
 Points
-   To select individual points
+   To select individual points.
 
 Strokes
-   To select all the points in the selected stroke
+   To select all the points in the selected stroke.
 
 Points in between
-   To select points that are between other strokes
+   To select points that are between other strokes.
 
-   TODO: Example image for Points in between selection
+   TODO: Example image for Points in between selection.
+
 
 Select Menu
 ===========
@@ -61,7 +63,7 @@ Selects alternate points in the selected strokes.
 
 
 Select Grouped
-================
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -76,14 +78,15 @@ Layer
 Material
    Selects all the points/strokes that share the same material.
 
+
 Select First/Last
-==========================
+=================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> First/Last`,               
+   :Menu:      :menuselection:`Select --> First/Last`
 
 These operators will toggle the selection of the first or last point(s) of the stroke(s)
 in the object. This is useful to quickly find the start of a stroke.

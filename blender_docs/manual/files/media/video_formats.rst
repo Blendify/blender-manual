@@ -33,12 +33,12 @@ different operating systems.
    - Quicktime
    - PNG TIFF Pixlet is not lossless, and may be only available on macOS.
 
-Blender proposes three ways to export videos, in the *File Format* selector of the *Output* properties:
+Blender offers three ways to export videos, in the *File Format* selector of the *Output* properties:
 
-AVI Jpeg
-   AVI but with Jpeg compression.
+AVI JPEG
+   AVI but with JPEG compression.
    Lossy, smaller files but not as small as you can get with a Codec compression algorithm.
-   Jpeg compression is also the one used in the DV format used in digital camcorders.
+   JPEG compression is also the one used in the DV format used in digital camcorders.
 AVI Raw
    Audio-Video Interlaced (AVI) uncompressed frames.
 FFmpeg video
@@ -60,8 +60,8 @@ FFmpeg Containers
 `MPEG-2 <https://en.wikipedia.org/wiki/MPEG-2>`__: ``.dvd``, ``.vob``, ``.mpg``, ``.mpeg``
    A standard for "the generic coding of moving pictures and associated audio information".
    It describes a combination of lossy video compression and lossy audio data compression
-   methods which permit storage and transmission of movies using currently
-   available storage media (notably DVDs) and transmission bandwidth.
+   methods which permit storage and transmission of movies using
+   currently available storage media (notably DVDs) and transmission bandwidth.
    This container enforces the video codec, you can only define quality parameters, and the audio codec.
 `MPEG-4 <https://en.wikipedia.org/wiki/MPEG-4>`__: ``.mp4``, ``.mpg``, ``.mpeg``
    While being a :ref:`video codec <files-video-codecs>`, it is also a real container,
@@ -76,7 +76,7 @@ FFmpeg Containers
    MP4, being an international standard, has more support.
 `DV <https://en.wikipedia.org/wiki/DV>`__: ``.dv``
    An intra-frame video compression scheme, used by many digital camcorders back in the days.
-   It uses the discrete cosine transform (DCT, similar algorithm to Jpeg)
+   It uses the discrete cosine transform (DCT, similar algorithm to JPEG)
    to compress video on a frame-by-frame basis.
    Audio is stored uncompressed.
    This container enforces the video codec, you can only define quality parameters.
@@ -114,7 +114,7 @@ No Video
 `Flash Video <https://en.wikipedia.org/wiki/Flash_Video>`__
    See :ref:`Containers <files-video-containers>`.
 `H.264 <https://en.wikipedia.org/wiki/H.264>`__
-   A modern variation of the Mpeg4 family, this lossy codec is very commonly used.
+   A modern variation of the MPEG-4 family, this lossy codec is very commonly used.
    It offers a very good compression/quality ratio.
 `HuffYUV <https://en.wikipedia.org/wiki/Huffyuv>`__
    Lossless video codec created by Ben Rudiak-Gould which is
@@ -124,7 +124,7 @@ No Video
 `MPEG-2 <https://en.wikipedia.org/wiki/MPEG-2>`__
    See :ref:`Containers <files-video-containers>`.
 `MPEG-4(DivX) <https://en.wikipedia.org/wiki/MPEG-4>`__
-   Absorbs many of the features of MPEG-1 and MPEG-2 and other related standards, and adds new features.
+   Inherits many of the features of MPEG-1 and MPEG-2 and other related standards, and adds new features.
 `PNG <https://en.wikipedia.org/wiki/Portable_Network_Graphics>`__
    Lossless, this stores each frame as an independent image in the video stream.
    Compression will be poor, but as every frame is fully safe-contend, scrubbing and editing can be simpler.
@@ -168,7 +168,6 @@ No Audio
 
 Known Limitations
 =================
-
 
 Video Output Size
 -----------------

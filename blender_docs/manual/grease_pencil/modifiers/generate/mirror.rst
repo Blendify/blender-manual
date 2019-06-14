@@ -1,9 +1,10 @@
 
-#############################
-  Mirror Modifier
-#############################
+***************
+Mirror Modifier
+***************
 
 TODO2.8: write this section.
+
 
 Options
 =======

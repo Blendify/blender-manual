@@ -1,9 +1,10 @@
 
-#############################
-  Hue/Saturation Modifier
-#############################
+***********************
+Hue/Saturation Modifier
+***********************
 
 TODO2.8: write this section.
+
 
 Options
 =======

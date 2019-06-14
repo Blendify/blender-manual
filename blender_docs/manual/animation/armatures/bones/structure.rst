@@ -52,9 +52,8 @@ The simplest way is to have each bone affecting those parts of the geometry that
 a given range from it. This is called the *envelope technique*,
 because each bone can control only the geometry "enveloped" by its own influence area.
 
-If a bone is visualized as *Envelope*,
-in *Edit Mode* and in *Pose Mode* you can see the area of influence,
-which depends on:
+If a bone is visualized as *Envelope*, in *Edit Mode* and in *Pose Mode*
+you can see the area of influence, which depends on:
 
 - The *distance* property and
 - the root's radius and the tip's radius.
@@ -65,5 +64,5 @@ which depends on:
    Our armature in Envelope visualization, in Pose Mode.
 
 
-All these influence parameters are further detailed in the
-:doc:`skinning pages </animation/armatures/skinning/index>`.
+All these influence parameters are further detailed
+in the :doc:`skinning pages </animation/armatures/skinning/index>`.
