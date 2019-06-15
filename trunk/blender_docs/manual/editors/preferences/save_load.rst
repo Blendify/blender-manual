@@ -23,10 +23,10 @@ Load UI
    Default setting is to load the Window layout
    (the :doc:`Workspaces </interface/window_system/workspaces>`) of the saved file.
    This can be changed individually when loading a file from
-   the *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
+   the *Open blend-file* panel of the :doc:`File Browser </editors/file_browser>`.
 
 Save Preview Images
-   Previews of images and materials in the :doc:`File Browser </editors/file_browser/index>`
+   Previews of images and materials in the :doc:`File Browser </editors/file_browser>`
    are created on demand. To save these previews into your blend-file,
    enable this option (at the cost of increasing the size of your blend-file).
 Tabs as Spaces
@@ -95,9 +95,9 @@ Filter File Extensions
 Hide Dot File/Data-blocks
    Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
 Hide Recent Locations
-   Hide the *Recent* panel of the :doc:`File Browser </editors/file_browser/index>`
+   Hide the *Recent* panel of the :doc:`File Browser </editors/file_browser>`
    which displays recently accessed folders.
 Hide System Bookmarks
    Hide System Bookmarks in the *File Browser*.
 Show Thumbnails
-   Display a thumbnail of images and movies when using the :doc:`File Browser </editors/file_browser/index>`.
+   Display a thumbnail of images and movies when using the :doc:`File Browser </editors/file_browser>`.

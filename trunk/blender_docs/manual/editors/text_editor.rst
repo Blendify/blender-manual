@@ -63,14 +63,14 @@ Text
    Create Text Block
       Creates a new internal text.
    Open Text Block
-      Loads a text, a :doc:`File Browser </editors/file_browser/index>` appears :kbd:`Alt-O`.
+      Loads a text, a :doc:`File Browser </editors/file_browser>` appears :kbd:`Alt-O`.
    Reload
       Reopens (reloads) the current buffer (all non-saved modifications are lost) :kbd:`Alt-R`.
    Save
       Saves an already open file :kbd:`Alt-S`.
    Save As
       Saves unsaved text as a text file,
-      a :doc:`File Browser </editors/file_browser/index>` appears :kbd:`Shift-Ctrl-Alt-S`.
+      a :doc:`File Browser </editors/file_browser>` appears :kbd:`Shift-Ctrl-Alt-S`.
    Make Internal
       Stores the text inside the blend-file.
    Run Script
