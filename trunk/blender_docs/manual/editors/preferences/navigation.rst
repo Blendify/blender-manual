@@ -9,7 +9,7 @@ Orbit & Pan
 ===========
 
 Orbit Method
-   Select how Blender works when interactively rotating the 3D View.
+   Choose you're preferred method of interactively rotating the 3D View.
 
    Turntable
       Rotates the view keeping the horizon horizontal.
@@ -29,7 +29,7 @@ Orbit Around Selection
    This uses the selected object (bounding box center), in object mode and
    select elements in edit/pose modes.
 
-   .. hint::
+   .. note::
 
       While this may seem like ideal behavior,
       it can be awkward for larger objects such as a terrain-mesh,
@@ -97,7 +97,7 @@ Zoom to Mouse Position
    When enabled, the mouse pointer position becomes the focus point of zooming instead of the 2D window center.
    Helpful to avoid panning if you are frequently zooming in and out.
 
-   .. hint::
+   .. tip::
 
       This is useful in combination with :ref:`Auto Depth <prefs-auto-depth>`
       to quickly zoom into the point under the cursor.
