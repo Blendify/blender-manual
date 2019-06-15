@@ -124,7 +124,7 @@ You can insert text in two ways: from the internal text buffer
 (as described above), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
-This will bring up a :doc:`File Browser </editors/file_browser/index>` for navigating to a valid UTF-8 file.
+This will bring up a :doc:`File Browser </editors/file_browser>` for navigating to a valid UTF-8 file.
 As usual, be careful that the file does not have too many characters,
 as interactive response will slow down.
 
@@ -155,7 +155,7 @@ Select one for each font style.
 
 To load a different *Font*, click one of the *Load* buttons
 in the *Font* panel and navigate to a font file.
-The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital "F" icon.
+The :doc:`File Browser </editors/file_browser>` will give all valid fonts a capital "F" icon.
 
 If you select a font that is unsupported by Blender, you will get the error ``Not a valid font``.
 

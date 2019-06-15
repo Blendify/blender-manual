@@ -34,7 +34,7 @@ Fake User ``F``
 New/Add ``+``
    Creates a new data-block or duplicates the current data-block and applies it.
 Open file
-   Opens the :doc:`File Browser </editors/file_browser/introduction>`.
+   Opens the :doc:`File Browser </editors/file_browser>`.
 Unpack file
    :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
 Unlink data-block ``X``

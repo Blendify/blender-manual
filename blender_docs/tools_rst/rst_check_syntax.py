@@ -156,7 +156,7 @@ def compile_valid_kbd():
 
 def warn_title(fn, data_src):
     """
-    Complain about long lines
+    Complain about title underline/overline length mis-match.
     """
     lines = data_src.split("\n")
     limit = 118
