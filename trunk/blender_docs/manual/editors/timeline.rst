@@ -353,7 +353,7 @@ Auto Keyframe
 
    When you set a new value for the properties,
    Blender will add keyframes on the current frame for the transform properties.
-   Other use cases are :ref:`Fly/Walk Mode <3dview-walk-fly>` to record the walk/flight path
+   Other use cases are :ref:`Fly/Walk Mode <3dview-fly-walk>` to record the walk/flight path
    and :ref:`Lock Camera to View <3dview-lock-camera-to-view>` to record the navigation in camera view.
 
    .. note::

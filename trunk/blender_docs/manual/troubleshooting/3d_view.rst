@@ -126,7 +126,7 @@ Solutions
 ^^^^^^^^^
 
 - Use :ref:`View Dolly <3dview-nav-zoom-dolly>`.
-- Use :ref:`Walk/Fly modes <3dview-walk-fly>`.
+- Use :ref:`Walk/Fly modes <3dview-fly-walk>`.
 - Use :ref:`Auto Depth <prefs-auto-depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tool will make sure the distance is always the value under the mouse cursor,
 - Use :ref:`Border Zoom <3dview-nav-zoom-border>` as it also resets the center point when zooming.

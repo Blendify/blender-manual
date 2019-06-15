@@ -1,7 +1,7 @@
-.. _3dview-walk-fly:
+.. _3dview-fly-walk:
 
 *************
-Walk/Fly Mode
+Fly/Walk Mode
 *************
 
 There are cases where it's preferable to navigate with first person controls,
