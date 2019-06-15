@@ -154,12 +154,66 @@ def compile_valid_kbd():
     warn_role_kbd.repeat_kbd = re.compile(r"(?:\-|\A)([^ \-]+?)\-\1")
 
 
+def warn_title(fn, data_src):
+    """
+    Complain about long lines
+    """
+    lines = data_src.split("\n")
+    limit = 118
+
+    title_chars = (
+        '#', '=', "-", '^', '~',
+        # Shouldn't use but does work.
+        '+',
+    )
+
+    l_prev = ""
+    len_lines = len(lines)
+    for i, l in enumerate(lines):
+        # Quick & dirty way to check we're a title.
+        if l.startswith(title_chars) and len(set(l.rstrip())) == 1:
+            if i + 1 == len_lines:
+                l_next  = ""
+            else:
+                l_next = lines[i + 1]
+
+            expect_extra = 0
+            expect_indent = 0
+            if l[0] == '#':
+                # Support for:
+                # #########
+                #   Title
+                # #########
+                expect_extra = 2
+                expect_indent = 2
+
+            if l_next:
+                what = "overline"
+                l_test = l_next
+            elif l_prev:
+                what = "underline"
+                l_test = l_prev
+            else:
+                l_test = ""
+
+            if l_test:
+                if len(l_test) + expect_extra != len(l):
+                    print("%s:%d: title %s mismatch %d" % (fn, i + 1, what, len(l)))
+                indent = len(l_test) - len(l_test.lstrip())
+                if expect_indent != indent:
+                    print("%s:%d: title %s expected indent of %d, got %d" % (fn, i + 1, what, expect_indent, indent))
+
+        l_prev = l
+
+    return None
+
 
 # define the operations to call
 operations = []
 operations_checks = {
     "--long": (warn_long_lines, None),
     "--kbd": (warn_role_kbd, None),
+    "--title": (warn_title, None),
 }
 
 
