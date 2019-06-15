@@ -9,7 +9,7 @@ Orbit & Pan
 ===========
 
 Orbit Method
-   Select how Blender works when you rotate the 3D View by default when holding :kbd:`MMB`.
+   Select how Blender works when interactively rotating the 3D View.
 
    Turntable
       Rotates the view keeping the horizon horizontal.
@@ -61,12 +61,13 @@ Zoom
 ====
 
 Zoom Method
-   Choose your preferred style of zooming in and out with :kbd:`Ctrl-MMB`.
+   Choose your preferred style of zooming in and out,
+   when using interactive view zoom.
 
    Scale
       *Scale* zooming depends on where you first click in the view.
-      To zoom out, hold :kbd:`Ctrl-MMB` while dragging from the edge of the screen towards the center.
-      To zoom in, hold :kbd:`Ctrl-MMB` while dragging from the center of the screen towards the edge.
+      To zoom out, move the cursor to the area center.
+      To zoom in, move the cursor away from the areas center.
    Continue
       The *Continue* zooming option allows you to control the speed
       (and not the value) of zooming by moving away from the initial cursor position.
@@ -79,7 +80,7 @@ Zoom Method
    Dolly
       *Dolly* zooming works similarly to *Continue* zooming except that zoom speed is constant.
 Zoom Axis
-   The axis of the :kbd:`MMB` to use for zooming.
+   The axis of the mouse to use for zooming.
 
    Vertical
       Moving up zooms out and moving down zooms in.
