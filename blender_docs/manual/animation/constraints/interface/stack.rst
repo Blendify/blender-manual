@@ -12,8 +12,8 @@ Changing the order of the constraints can change the behavior of the entire stac
 
 .. figure:: /images/rigging_constraints_interface_stack_example.png
 
-   The seven constraints in this example stack are evaluated from top to bottom starting with the "Action" constraint
-   and ending with the final "Transformation" constraint.
+   The constraints in this example stack are evaluated from top to bottom starting with the "Copy Location" constraint
+   and ending with the final "Damped Track" constraint.
 
 To change the order of a constraint use the up/down arrows
 in the :doc:`header </animation/constraints/interface/header>`.

@@ -40,9 +40,9 @@ using the *Transformation Properties* axis locking feature is probably easier.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_limit-scale_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_transform_limit-scale_panel.png
 
-   Limit Scale panel.
+.. TODO2.8    Limit Scale panel.
 
 Minimum/Maximum X, Y, Z
    These buttons enable the lower boundary for the scale of the owner along respectively the X,

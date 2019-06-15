@@ -54,6 +54,8 @@ To assign a custom shape to a bone, you have to:
 #. Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
    in this example we are using a cube and a cone. You can optionally set the *At* field to another bone.
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-example.png
 
    The armature with shape assigned to bone. Note the center of the Cone object.

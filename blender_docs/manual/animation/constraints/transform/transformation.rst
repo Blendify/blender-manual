@@ -20,9 +20,9 @@ and rotation based on location setups.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_transformation_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_transform_transformation_panel.png
 
-   Transformation panel.
+.. TODO2.8    Transformation panel.
 
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.

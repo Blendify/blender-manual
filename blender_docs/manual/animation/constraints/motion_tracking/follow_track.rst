@@ -4,9 +4,9 @@
 Follow Track Constraint
 ***********************
 
-.. figure:: /images/rigging_constraints_motion-tracking_follow-track_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_motion-tracking_follow-track_panel.png
 
-   Follow Track Constraint panel.
+.. TODO2.8    Follow Track Constraint panel.
 
 By default the Follow Track constraint is making objects have the same position at a frame as the track has and
 the motion of this object happens on a single plane defined by the camera and the original position of the object.

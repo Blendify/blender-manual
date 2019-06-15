@@ -29,9 +29,9 @@ Open a default scene, then:
 #. Add a *Single Bone* (:menuselection:`Add --> Armature --> Single Bone`).
 #. Press :kbd:`NumpadDelete` to see the armature at maximum zoom.
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_introduction_default.png
+.. figure:: /images/rigging_armatures_introduction_default.png
 
-.. TODO2.8   The default armature.
+   The default armature.
 
 
 The Armature Object

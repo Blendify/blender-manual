@@ -24,9 +24,9 @@ With bones, the "volumetric" variation scales them along their own local axes
 Options
 =======
 
-.. figure:: /images/rigging_constraints_tracking_stretch-to_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_tracking_stretch-to_panel.png
 
-   Stretch To panel.
+.. TODO2.8    Stretch To panel.
 
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.

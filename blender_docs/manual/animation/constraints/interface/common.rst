@@ -27,11 +27,13 @@ of this vertex group instead of the object center.
 .. figure:: /images/rigging_constraints_interface_common_target-vertex-group.png
 
 If the Target field links to an :term:`Armature`, a :term:`Bone` field will appear
-along with a :term:`Head` or :term:`Tail` slider.
+along with a *Head/Tail* slider.
 Enter the name of a bone and the constraint will target the bone instead of the entire armature object center.
-Slide the slider and the constraint will target the head, the tail or somewhere in between.
 
 .. figure:: /images/rigging_constraints_interface_common_target-bone.png
+
+The slider moves the precise position of the target between the :term:`Head` and :term:`Tail` of the bone.
+Some constraints have a button next to the slider that enables using the curved shape of :ref:`Bendy Bones <bendy-bones>`.
 
 
 Space
@@ -118,3 +120,6 @@ be difficult to control,
 especially as the :doc:`constraint stack </animation/constraints/interface/stack>` grows in complexity.
 
 The influence value is animatable, allowing constraints to be turned off, or partially on as needed.
+
+The ``X`` button after the influence slider can be used to disable the constraint while trying to
+preserve the current object position. This may not work perfectly if other constraints remain active.

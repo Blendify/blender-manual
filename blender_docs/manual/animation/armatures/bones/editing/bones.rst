@@ -41,6 +41,8 @@ This bone will be the child of "its" tip owner, and connected to it. As usual,
 once extrusion is done, only the new bones' tips are selected, and in grab mode,
 so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. _fig-rig-bones-extrusion:
 
 .. list-table:: Extrusion example.
@@ -60,7 +62,7 @@ as with meshes, by pressing respectively :kbd:`E R` and :kbd:`E S` --
 as well as :doc:`locked </scene_layout/object/editing/transform/control/precision/axis_locking>`
 extrusion along a global or local axis.
 
-.. TODO2.8 Update images?
+.. TODO2.8 Maybe update the images (color & style)
 
 .. _fig-rig-bone-mirror:
 
@@ -107,19 +109,19 @@ Mouse Clicks
    :class: refbox
 
    :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Ctrl-LMB`
+   :Hotkey:    :kbd:`Ctrl-RMB`
 
-If at least one bone is selected, :kbd:`Ctrl-LMB`\ -clicking adds a new bone.
+If at least one bone is selected, :kbd:`Ctrl-RMB`\ -clicking adds a new bone.
 
 About the new bone's tip:
 
-After you :kbd:`Ctrl-LMB`\ -clicked it becomes the active element in the armature,
+After you :kbd:`Ctrl-RMB`\ -clicked it becomes the active element in the armature,
 it appears to be right where you clicked, but (as in mesh editing)
 it will be on the plane parallel to the view and passing through the 3D cursor.
 
 The position of the root and the parenting of the new bone depends on the active element:
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. figure:: /images/rigging_armatures_bones_editing_bones_mouse-clicks-1.png
    :width: 300px
@@ -132,7 +134,7 @@ If the active element is a *bone*:
 - The new bone is parented and connected to the active bone
   (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. _fig-rig-bone-active-tip:
 
@@ -147,7 +149,8 @@ If the active element is a *tip*:
 - The new bone is parented and connected to the bone owning the active tip
   (check the Outliner in Fig. :ref:`fig-rig-bone-active-tip`).
 
-.. TODO2.8 Update images?
+.. TODO2.8 This doesn't seem to work as documented:
+.. TODO2.8 Update images (includes outliner)
 
 .. _fig-rig-bone-disconnected-tip:
 
@@ -164,7 +167,7 @@ If the active element is a *disconnected root*:
 
 And hence the new bone will **not** be connected to any bone.
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. _fig-rig-bone-connected-root:
 
@@ -206,7 +209,7 @@ If you have one root and one tip selected, the new bone:
 - Will have the tip placed on the selected root.
 - Will be parented and connected to the bone owning the selected tip.
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. list-table:: Fill between a tip and a root.
 
@@ -226,7 +229,7 @@ If you have two tips selected, the new bone:
 - Will have the tip placed on the other selected tip.
 - Will be parented and connected to the bone owning the tip used as the new bone's root.
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. list-table:: Fill between tips.
 
@@ -252,7 +255,7 @@ When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 If you try to move the new bone, Blender will update the interface and you will see
 that the new bone's root moves to the tip of the parent bone.
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. list-table:: Fill between roots.
 
@@ -269,7 +272,7 @@ that the new bone's root moves to the tip of the parent bone.
 Clicking :kbd:`F` with only one bone joint selected will create a bone from the selected
 joint to the 3D cursor position, and it will not parent it to any bone in the armature.
 
-.. TODO2.8 Update images?
+.. TODO2.8 Update images (includes outliner)
 
 .. list-table:: Fill with only one bone joint selected.
 
@@ -315,6 +318,8 @@ bone, even if the root bone is not selected for the duplication. Be aware, thoug
 that if a bone is parented **and** connected to an unselected bone,
 its copy will be parented, but **not** connected to the unselected bone
 (see Fig. :ref:`fig-rig-bone-duplication`).
+
+.. TODO2.8 Maybe update the images (color & style)
 
 .. _fig-rig-bone-duplication:
 
@@ -362,6 +367,8 @@ This tool delete selected bones, selected *joints* are ignored.
 If you delete a bone in a chain, its child(ren)
 will be automatically re-parented to its own parent, but **not** connected,
 to avoid deforming the whole armature.
+
+.. TODO2.8 Maybe update the images (color & style)
 
 .. list-table:: Deletion example.
 
@@ -416,6 +423,8 @@ the bones are not visually connected. This will be done as soon as you edit one 
 differently depending in which chain is the edited bone
 (compare the bottom two images of the example to understand this better).
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. _fig-rig-bone-merge:
 
 .. list-table:: Merge example.
@@ -461,6 +470,8 @@ in the Subdivide Multi Operator panel.
 Number of Cuts
    Specifies the number of cuts. As in mesh editing,
    if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
+
+.. TODO2.8 Maybe update the images (color & style)
 
 .. list-table:: Subdivision example.
 

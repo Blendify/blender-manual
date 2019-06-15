@@ -26,10 +26,10 @@ Make Regular
 Properties
 ==========
 
-.. figure:: /images/rigging_lattice_panel.png
-   :align: right
+.. TODO2.8 .. figure:: /images/rigging_lattice_panel.png
+.. TODO2.8    :align: right
 
-   Lattice properties.
+.. TODO2.8    Lattice properties.
 
 Lattice
    A :ref:`ui-data-block`.
@@ -54,6 +54,8 @@ Vertex Group
 
 Usage
 =====
+
+.. TODO2.8 Maybe update the images (color & style)
 
 .. figure:: /images/rigging_lattice_view.png
 

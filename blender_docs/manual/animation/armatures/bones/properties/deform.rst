@@ -57,6 +57,8 @@ Envelope Distance
    has an influence on vertices of the deformed object.
    The geometry is less and less affected by the bone as it goes away by following a quadratic decay.
 
+   .. TODO2.8 Maybe update the images (color & style)
+
    .. figure:: /images/rigging_armatures_bones_properties_deform_envelope-distance.png
 
       Single bone with various different envelope sizes.
@@ -73,6 +75,8 @@ Envelope Weight
 Radius
    Set the radius for the head and the tail of envelope bones.
    Inside this volume, the geometry if fully affected by the bone.
+
+   .. TODO2.8 Maybe update the images (color & style)
 
    .. figure:: /images/rigging_armatures_bones_properties_deform_envelope-radius.png
 

@@ -1,6 +1,8 @@
 .. (todo 2.78 add) images: https://code.blender.org/2016/05/
 .. an-in-depth-look-at-how-b-bones-work-including-details-of-the-new-bendy-bones/
 
+.. _bendy-bones:
+
 ***********
 Bendy Bones
 ***********
@@ -62,6 +64,8 @@ another for Pose Mode -- adding together their values to get the final transform
 Example
 =======
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. list-table::
 
    * - .. _fig-rig-bone-intro-bbone:
@@ -69,7 +73,7 @@ Example
        .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-1.png
           :width: 320px
 
-          The OLD B-Bones, in Edit Mode. ToDo.
+          Bones with just one segment in Edit Mode.
 
      - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-2.png
           :width: 320px
@@ -146,17 +150,19 @@ Ease In, Out
    which of course automatically varies depending on bone length,
    angle with the reference handle, and so on.
 
-.. TODO2.8 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
+.. TODO2.8 Maybe update the images (color & style)
 
-.. TODO2.8    * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-1.png
-.. TODO2.8           :width: 320px
+.. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
-.. TODO2.8           Look at Bone.004: it has the default In and Out values (1.0).
+   * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-1.png
+          :width: 320px
 
-.. TODO2.8      - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-2.png
-.. TODO2.8           :width: 320px
+          Bone.004 with default In and Out (1.0).
 
-.. TODO2.8           Bone.004 with In at 2.0, and Out at 0.0.
+     - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-2.png
+          :width: 320px
+
+          Bone.004 with In at 2.0, and Out at 0.0.
 
 
 Custom Handles
