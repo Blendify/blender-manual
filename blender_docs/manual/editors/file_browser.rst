@@ -156,8 +156,8 @@ System
 Favorites
    Contains folders that you want to be able to access often without having to navigate to them in the File Browser.
    To the right of that list are buttons to perform basic management actions on your favorites,
-   e.g. add/remove an entry, move it up or down in the list, etc. 
-Recents
+   e.g. add/remove an entry, move it up or down in the list, etc.
+Recent
    Contains recently accessed folders.
    The ``X`` button to the right allows you to fully erase this list.
 

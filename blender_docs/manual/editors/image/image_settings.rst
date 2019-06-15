@@ -198,7 +198,7 @@ Alpha
       Commonly used by image editing applications and file formats like PNG.
       This preserves colors in parts of the image with zero alpha.
    Premultiplied
-      Store RGB channels with alpha multipled in, also known as associated alpha.
+      Store RGB channels with alpha multiplied in, also known as associated alpha.
       The natural format for renders and used by file formats like OpenEXR.
       This can represent purely emissive effects like fire correctly, unlike straight alpha.
    Channel Packed
