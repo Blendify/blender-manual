@@ -46,26 +46,12 @@ Standard
 
    Markers: small but useful.
 
-Most of the editors visualize markers the same way: as small triangles at their bottom,
-white if unselected or yellow if selected.
+Most of the editors visualize markers the same way: as small white triangles in a separate
+row at their bottom, empty if unselected or filled if selected.
 
-If they have a name, this is shown to their right, in white when the marker is selected.
+If they have a name, this is shown to their right in white.
 
-.. container:: lead
-
-   .. clear
-
-
-Sequencer
----------
-
-.. figure:: /images/animation_markers_sequencer.png
-   :align: right
-
-   Markers in the Sequencer.
-
-The *Video Sequence Editor* just adds a vertical dashed line to each marker
-(gray if the marker is unselected, or white if it is selected).
+Vertical dashed lines can be enabled via the :menuselection:`View --> Show Marker Lines` menu option.
 
 .. container:: lead
 
@@ -81,7 +67,7 @@ The *Video Sequence Editor* just adds a vertical dashed line to each marker
    Marker in a 3D View.
 
 The 3D View does not allow you to create, edit, and remove markers,
-it just show their name in the Object Info in the bottom left corner,
+it just show their name in the Object Info in the upper left corner,
 when on their frame (see Marker in a 3D View).
 
 .. container:: lead
@@ -95,7 +81,7 @@ Pose Markers
 .. figure:: /images/animation_markers_pose.png
    :align: right
 
-   Pose markers in the Action editor.
+   Pose markers.
 
 Pose markers show a diamond-shaped icon in the Dope Sheet.
 In the NLA editor the pose markers are shown as a red dashed line.
@@ -113,14 +99,14 @@ Add Marker
 
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Add Marker`
-   :Hotkey:    :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE editor
+   :Hotkey:    :kbd:`M`
 
 The simplest way to add a marker is to move to the frame where you would like it to appear,
 and press :kbd:`M`.
 
 .. hint::
 
-   Markers can also be added while playback.
+   Markers can also be added during playback.
 
 
 .. _marker-pose-add:
@@ -139,17 +125,16 @@ Selecting
    :class: refbox
 
    :Mode:      All modes
-   :Hotkey:    :kbd:`RMB`
+   :Hotkey:    :kbd:`LMB`
 
-Click :kbd:`RMB` on the marker's triangle to select it.
-Use :kbd:`Shift-RMB` to select multiple markers.
+Click :kbd:`LMB` on the marker's triangle to select it.
+Use :kbd:`Shift-LMB` to select multiple markers.
 
-In the Graph Editor, Dope Sheet, NLA Editor, and Video Sequence Editor,
-you can also select all markers with :kbd:`Ctrl-A`, and apply selection tools on them like Border Select etc.
+In the Graph Editor, Dope Sheet, NLA Editor, Timeline, and Video Sequence Editor,
+you can also select all markers with :kbd:`A` while mousing over the
+marker row, and apply selection tools on them like Border Select etc.
 (as usual, :kbd:`LMB` to select, :kbd:`RMB` to deselect).
 The corresponding options are found in the Select menu of these editors.
-
-In the Timeline, you can select all markers with :kbd:`A`, and border select with :kbd:`B`.
 
 
 .. _animation-markers-editing:
@@ -232,7 +217,7 @@ Once you have one or more markers selected, press :kbd:`G`,
 while hovering with the mouse over the marker bar,
 to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
 (as usual, cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
-Or drag them with the :kbd:`RMB`.
+Or drag them with the :kbd:`LMB`.
 
 By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
 the markers will move in steps corresponding to one second (according to the scene's *FPS*).
@@ -247,7 +232,7 @@ Show Pose Markers
    :Mode:      Action Editor and Shape Keys Editor
    :Menu:      :menuselection:`Marker --> Show Pose Markers`
 
-Only pose markers are shown and editable in Action editor or Shape Keys editor by enabling
+Pose markers are only shown and editable in Action editor or Shape Keys editor by enabling
 the :menuselection:`Marker --> Show Pose Markers` checkbox.
 
 
@@ -285,7 +270,7 @@ Bind Camera to Marker
    :class: refbox
 
    :Editor:    Timeline Editor
-   :Menu:      :menuselection:`View --> Bind Camera to Marker`
+   :Menu:      :menuselection:`Marker --> Bind Camera to Markers`
    :Hotkey:    :kbd:`Ctrl-B`
 
 Switching cameras can be done with the *Timeline* operator *Bind Camera to Markers* by
@@ -297,7 +282,7 @@ The triangle above the camera will become shaded when active.
 Workflow
 --------
 
-.. figure:: /images/animation_markers_camera-switch.png
+.. TODO2.8 .. figure:: /images/animation_markers_camera-switch.png
 
 First in the Timeline, add a set of markers used to switch cameras.
 Press :kbd:`M` to add marker, then :kbd:`Ctrl-M` to rename,

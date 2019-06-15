@@ -10,7 +10,6 @@ Motion Paths
 
    :Editor:    3D View, Properties editor
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Tool Shelf --> Animation --> Animation --> Motion Paths: Calculate`
    :Panel:     :menuselection:`Properties editor --> Object --> Motion Paths`
 
 .. admonition:: Reference
@@ -18,7 +17,6 @@ Motion Paths
 
    :Editor:    3D View, Properties editor
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Pose Tools --> Motion Paths: Calculate`
    :Panel:     :menuselection:`Properties editor --> Armature --> Motion Paths`
    :Menu:      :menuselection:`Pose --> Motion Paths`
 
@@ -45,9 +43,9 @@ Around the current frame a glow indicate the direction of movement:
 blue towards future frames and green towards the past.
 Each frame is displayed by a small white dot on the paths.
 
-As with ghosts, the paths are automatically updated when you edit your poses/keyframes,
-and they are also active during animation playback. :kbd:`Alt-A` is
-only useful when the *Around Current Frame* option is enabled.
+The paths are automatically updated when you edit your poses/keyframes,
+and they are also active during animation playback. Playing the animation
+affects the paths only when the *Around Current Frame* option is enabled.
 
 
 Options
@@ -64,7 +62,10 @@ Type
       (again, as with ghosts).
    In Range
       Display paths of points within specified range.
-Display Range
+
+      Clock Button
+        Updates the display frame range from the scene frame range.
+Frame Range
    Before, After
       Number of frames to show before and after the current frame
       (only for *Around Current Frame* Onion-skinning method).
@@ -72,11 +73,10 @@ Display Range
       Starting and Ending frame of range of paths to display/calculate
       (not for *Around Current Frame* Onion-skinning method).
    Step
-      This is the same as the *Step* for ghosts.
-      It allows you to only display on the path one frame for each *n* ones.
+      Allows displaying one point for every *n* frames on the path.
       Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
 
-Cache/Cache for Bone
+Cache/Bone Cache
    From, To
       These are the start/end frames of the range in which motion paths are drawn.
       You cannot modify this range without deleting the motion path first.
@@ -90,7 +90,7 @@ Calculate/Update Paths
    Start, End
       These are the start/end frames of the range in which motion paths are drawn.
       You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Views.
-      Note that unlike with ghosts, the start frame is *inclusive*
+      The start frame is *inclusive*
       (i.e. if you set *Start* to 1, you will really see the frame 1 as starting point of the paths...).
    Bake Location
       Bones only -- By default, you get the tips' paths.
@@ -108,11 +108,6 @@ Show
 Frame Numbers
    When enabled, a small number appears next to each frame dot on the path,
    which is of course the number of the corresponding frame.
-Line
-   Toggles whether the lines between the points are drawn.
-
-   Thickness, Color (color wheel icon)
-      Customizable thickness and color for the lines.
 Keyframes
    When enabled, big yellow square dots are drawn on motion paths, showing the keyframes of their bones
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
@@ -122,6 +117,11 @@ Keyframes
 Keyframe Numbers
    When enabled, you will see the numbers of the displayed keyframes,
    so this option is obviously only valid when *Show Keys* is enabled.
+Lines
+   Toggles whether the lines between the points are drawn.
+
+   Thickness, Custom Color
+      Customizable thickness and color for the lines.
 
 
 Example

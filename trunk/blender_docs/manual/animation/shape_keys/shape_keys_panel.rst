@@ -24,7 +24,7 @@ Active Shape Key Index
 
    Value
       Current Value of the Shape Key (0.0 to 1.0).
-   Mute (eye icon)
+   Mute (check mark)
       This visually disables the shape key in the 3D View.
 
    Specials
@@ -76,11 +76,10 @@ Value
    The value of the active shape key.
 Range
    Min and Max range of the active shape key value.
-Blend
-   Vertex Group
-      Limit the active shape key deformation to a vertex group.
-   Relative
-      Select the shape key to deform from.
+Vertex Group
+   Limit the active shape key deformation to a vertex group.
+Relative To
+   Select the shape key to deform from.
 
 
 Absolute Shape Keys
