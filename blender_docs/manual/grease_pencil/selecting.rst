@@ -10,10 +10,13 @@ Selecting
    :Menu:      :menuselection:`3D View Header --> Select Mode`
    :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
 
+.. figure:: /images/grease_pencil_selecting_mode-buttons.png
+   :align: right
+
+   Edit Mode selection buttons.
+
 In Edit Mode there are three different selection modes.
 You can enter the different modes by selecting one of the three buttons in the header.
-
-.. TODO: Selection mode buttons image.
 
 Points
    To select individual points.
@@ -22,10 +25,11 @@ Strokes
    To select all the points in the selected stroke.
 
 Points in between
-   To select points that are between other strokes.
+   To select all points that are between other strokes.
 
-   TODO: Example image for Points in between selection.
+.. figure:: /images/grease_pencil_selecting_example.png
 
+   Points, stroke and in between stroke selection sample.
 
 Select Menu
 ===========

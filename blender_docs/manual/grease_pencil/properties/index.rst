@@ -6,7 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
    data.rst
    layers.rst
    onion_skinning.rst
