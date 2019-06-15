@@ -112,7 +112,7 @@ View Navigation
    See :ref:`3dview-fly-walk`.
 
 Camera Parent Lock
-   When the camera is locked to the view, the roop parent is transformed rather than the camera.
+   When the camera is locked to the view, the root parent is transformed rather than the camera.
 
    .. hint::
 

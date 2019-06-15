@@ -53,7 +53,7 @@ Roll Control
 To control the *twist* or *roll* of the Spline IK chain,
 the standard methods of rotating the bones in the chain along their Y axes still apply.
 For example, simply rotate the bones in the chain around their Y axes to adjust the roll of
-the chain from that point onwards.
+the chain from that point onward.
 Applying copy rotation constraints on the bones should also work.
 
 

@@ -26,6 +26,6 @@ Options
 
 Active Clip
    Receive tracking data from the movie clip active in the Movie Clip editor.
-   If unchecked, an option appears to choose from the other clips.
+   If un-checked, an option appears to choose from the other clips.
 Constraint to F-Curve
    Applies the constraint, creating Keyframes for the transforms.

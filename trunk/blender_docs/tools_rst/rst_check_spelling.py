@@ -205,6 +205,7 @@ def role_ignore_recursive(
 
 roles.register_canonical_role('abbr', role_ignore)
 roles.register_canonical_role('menuselection', role_ignore)
+roles.register_canonical_role('guilabel', role_ignore)
 
 roles.register_canonical_role('class', role_ignore_recursive)
 roles.register_canonical_role('doc', role_ignore_recursive)

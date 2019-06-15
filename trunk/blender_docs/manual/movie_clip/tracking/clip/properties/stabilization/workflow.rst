@@ -36,7 +36,7 @@ Avoid Problematic Footage
 =========================
 
 The 2D stabilizer can not work miracles; some flaws simply can not be fixed satisfactory.
-Notorious issues are motion blur, rolling shutter, pumping autofocus and moving compression artifacts.
+Notorious issues are motion blur, rolling shutter, pumping auto-focus and moving compression artifacts.
 Especially if you do succeed with basic stabilization, such image flaws become yet the more noticeable and annoying.
 When on set or on location, it might be tempting to "fix matters in postpro".
 Resist that deception, it rarely works out well.
@@ -53,7 +53,7 @@ Resist that deception, it rarely works out well.
   Avoid fast lateral movements. If you can, prefer a camera which produces less rolling shutter.
   Also, using a higher frame rate reduces the amount of rolling shutter; another reason to prefer
   interlaced over progressive for the purpose at hand.
-- Switch off autofocus.
+- Switch off auto-focus.
   Better plan your movement beforehand, set a fixed focus and rely on depth of field through using a small aperture.
   Pumping movements might not be so noticeable to the human observer, but the feature tracking tends to slide away
   on defocused image elements; fixing this manually after the fact can cause a huge waste of time.
