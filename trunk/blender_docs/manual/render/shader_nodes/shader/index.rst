@@ -1,7 +1,7 @@
 .. _bpy.types.Shader:
 
 ##########
-  Shader 
+  Shader
 ##########
 
 .. toctree::

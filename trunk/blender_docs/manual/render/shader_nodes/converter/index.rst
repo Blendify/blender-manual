@@ -1,6 +1,6 @@
 
 #############
-  Converter 
+  Converter
 #############
 
 .. toctree::

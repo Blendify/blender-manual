@@ -1,12 +1,12 @@
 
-##################################
+###################################
   Grease Pencil Weight Paint Mode
-##################################
+###################################
 
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst   
+   introduction.rst
 
 
 Weight Menu

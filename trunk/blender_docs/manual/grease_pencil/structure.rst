@@ -18,7 +18,7 @@ Points represent a single point in 3D space.
 
 
 Edit Lines
-============
+==========
 
 Points are always connected by a straight line, the line you see when you are editing in Edit Mode.
 They are invisible on the rendered image and used to construct the final stroke.

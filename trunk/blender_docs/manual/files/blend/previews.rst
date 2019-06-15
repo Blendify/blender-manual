@@ -12,7 +12,7 @@ Blend-File Preview
 ==================
 
 Blender saves by default a small preview of current scene in the blend-file.
-This will show in the *Thumbnail* view of the :doc:`File Browser </editors/file_browser/introduction>`.
+This will show in the *Thumbnail* view of the :doc:`File Browser </editors/file_browser>`.
 
 During its installation, Blender also adds a small tool to your OS,
 that will allow your system file browser to show those previews as file thumbnails as well.
