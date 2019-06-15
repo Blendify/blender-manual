@@ -30,8 +30,6 @@ Strokes
 The stroke is the rendered image of the edit line, using a particular brush and material.
 
 
-.. _layers:
-
 2D Layers
 =========
 

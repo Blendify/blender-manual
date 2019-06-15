@@ -246,9 +246,6 @@ Set From Faces
 Set the custom normals at corners to be the same as the face normal that the corner is part of.
 
 
-Set From Faces
-^^^^^^^^^^^^^^
-
 Rotate
 ^^^^^^
 
@@ -257,7 +254,7 @@ Rotate
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals: Rotate`
-   :Hotkey:    :kbd:`R`:kbd:`N`
+   :Hotkey:    :kbd:`R N`
 
 This is an interactive tool. As you move the mouse around, the selected normals are rotated.
 You can also invoke the Rotate Normals tool by typing the Rotate transform key, :kbd:`R`
@@ -274,37 +271,29 @@ Point to Target
    :Menu:      :menuselection:`Mesh --> Normals: Point to Target`
    :Hotkey:    :kbd:`Alt-L`
 
-- A target is set by keys :kbd:`M` (the mouse),
-  :kbd:`L` (the pivot),
-  :kbd:`O` (the object origin),
-  :kbd:`Ctrl-LMB` (the cursor, set at this click), or
-  :kbd:`Ctrl-RMB` (a mesh item selection, set by this click).
-- When confirmed by :kbd:`Enter` or :kbd:`LMB`,
-  all selected normals are set to point from their vertex to the target; but this can be modified:
+All selected normals are set to point from their vertex to the target
+after confirmed by :kbd:`Enter` or :kbd:`LMB`.
 
-  - If :kbd:`A` (align) has been previously pressed,
-    then all normals will point in the same direction: from the center of selected points to the target.
-  - If :kbd:`S` (spherize) has been previously pressed,
-    then each normal will be an interpolation between its original value and the direction to the target.
-  - If :kbd:`I` (invert) has been previously pressed,
-    then the normal directions are reversed from what was specified above.
+A target is set by the keys:
 
-This is an interactive tool. The selected normals are set according to the pointing mode,
-which is set by different keys.
+- The mouse cursor :kbd:`M`
+- The pivot :kbd:`L`
+- The object origin :kbd:`O`
+- The cursor (set at this click) :kbd:`Ctrl-LMB`
+- A mesh item selection (set by this click) :kbd:`Ctrl-RMB`.
 
-- A target is set by keys :kbd:`M` (the mouse), :kbd:`L` (the pivot), :kbd:`O` (the object origin),
-  :kbd:`Ctrl-LMB` (the cursor, set at this click), or :kbd:`Ctrl-RMB` (a mesh item selection, set by this click).
-- When confirmed by :kbd:`Enter` or :kbd:`LMB`,
-  all selected normals are set to point from their vertex to the target; but this can be modified:
+Mode
+   The tool operation can be modified; if one of the following keys has been previously pressed:
 
-  - If :kbd:`A` (align) has been previously pressed, then all normals will point in the same direction:
-    from the center of selected points to the target.
-  - If :kbd:`S` (spherize) has been previously pressed, then each normal will be an interpolation between
-    its original value and the direction to the target.
-  - If :kbd:`I` (invert) has been previously pressed, then the normal directions are reversed from
-    what was specified above.
+   Align :kbd:`A`
+      Then all normals will point in the same direction: from the center of selected points to the target.
+   Spherize :kbd:`S`
+      Then each normal will be an interpolation between its original value and the direction to the target.
+   Invert :kbd:`I`
+      Then the normal directions are reversed from what was specified above.
 
-- An :kbd:`R` press will reset the custom normals back to what they were when the operation started.
+Reset :kbd:`R`
+   Will reset the custom normals back to what they were when the operation started.
 
 
 Merge
@@ -322,8 +311,8 @@ Merge all of the normals at selected vertices, making one average normal for all
 Split
 ^^^^^
 
-Split the normals at all selected vertices so that there are separate normals for each face,
-pointing in the same direction as those faces.
+.. admonition:: Reference
+   :class: refbox
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals: Split`

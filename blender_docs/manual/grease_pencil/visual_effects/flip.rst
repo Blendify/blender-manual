@@ -1,7 +1,7 @@
 
-######################
-  Flip Visual Effect
-######################
+******************
+Flip Visual Effect
+******************
 
 TODO2.8: write this section.
 

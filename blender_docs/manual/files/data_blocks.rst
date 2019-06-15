@@ -120,7 +120,7 @@ This can be achieved by :kbd:`Shift-LMB` on the "X" icon next to its name.
    Deleting some data-blocks can lead to deletion of some of its users, which would become invalid without it.
    The main example is that object-data deletion (like mesh, curve, camera...) will also delete all objects using it.
 
-Those two operations are also available in the contextual menu
+Those two operations are also available in the context menu 
 when :kbd:`RMB`-clicking on a data-block in the *Outliner*.
 
 

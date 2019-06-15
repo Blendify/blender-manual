@@ -133,7 +133,7 @@ Vertex Groups Weights
    Display weights in Edit Mode.
 
    Zero Weights
-      Display unweighted vertices
+      Display unweighted vertices:
 
       - None
       - Active: Show vertices with no weights in the active group.
@@ -150,7 +150,7 @@ Type
 
    Overhang
       Minimum/Maximum
-         Minimum/Maximum angle to display
+         Minimum/Maximum angle to display.
       Axis
          Axis and direction to use as the bases to calculate the angle to visualize.
    Thickness

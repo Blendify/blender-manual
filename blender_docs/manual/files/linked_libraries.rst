@@ -87,7 +87,7 @@ Broken Library
 --------------
 
 While loading a blend-file, if Blender cannot find any more a library,
-it will create placeholders data-blocks to replace missing linked ones.
+it will create placeholder data-blocks to replace missing linked ones.
 
 That way, references to those missing data are not lost, and by relocating the missing library,
 the lost data can be automatically restored.
