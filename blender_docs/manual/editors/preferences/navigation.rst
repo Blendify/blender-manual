@@ -23,21 +23,25 @@ Orbit Method
       Is less restrictive, allowing any orientation.
 
 Orbit Around Selection
-   The selected object (bounding box center) becomes the rotation center of the viewport.
+   The selection center becomes the rotation center of the viewport.
    When there is no selection the last selection will be used.
+
+   This uses the selected object (bounding box center), in object mode and
+   select elements in edit/pose modes.
 
    .. hint::
 
-      This may seem ideal behavior.
-      However, it can become problematic with larger objects such as a terrain-mesh,
-      where the center is not necessarily your point of interest.
+      While this may seem like ideal behavior,
+      it can be awkward for larger objects such as a terrain-mesh,
+      where the center is not necessarily a point of interest.
 
 .. _prefs-interface-auto-perspective:
 
 Auto Perspective
-   Automatically to perspective Top/Side/Front view after using User Orthographic.
-   When disabled, Top/Side/Front views will retain Orthographic or Perspective view
-   (whichever was active at the time of switching to that view).
+   When enabled, the view switches to perspective when orbiting the view,
+   setting axis views (Top/Side/Front/Back ... etc), sets the view to orthographic.
+
+   When disabled, orthographic/perspective mode needs to be changed manually.
 
 .. _prefs-auto-depth:
 
@@ -46,7 +50,7 @@ Auto Depth
    Useful in combination with *Zoom To Mouse Position*.
 
 Smooth View
-   Length of time the animation takes when changing the view with the numpad
+   Time (in milliseconds) the animation takes when changing views
    (Top/Side/Front/Camera...). Reduce to zero to remove the animation.
 Rotation Angle
    Rotation step size in degrees, when :kbd:`Numpad4`, :kbd:`Numpad6`, :kbd:`Numpad8`,
@@ -65,7 +69,8 @@ Zoom Method
       To zoom in, hold :kbd:`Ctrl-MMB` while dragging from the center of the screen towards the edge.
    Continue
       The *Continue* zooming option allows you to control the speed
-      (and not the value) of zooming by moving away from the initial click point with :kbd:`Ctrl-MMB`.
+      (and not the value) of zooming by moving away from the initial cursor position.
+
       Moving up from the initial click point or to the right will zoom out,
       moving down or to the left will zoom in. The further away you move,
       the faster the zoom movement will be.
@@ -91,20 +96,26 @@ Zoom to Mouse Position
    When enabled, the mouse pointer position becomes the focus point of zooming instead of the 2D window center.
    Helpful to avoid panning if you are frequently zooming in and out.
 
+   .. hint::
 
-Walk & Fly
+      This is useful in combination with :ref:`Auto Depth <prefs-auto-depth>`
+      to quickly zoom into the point under the cursor.
+
+
+Fly & Walk
 ==========
 
 View Navigation
-   The default navigation mode for :kbd:`Shift-F` in the 3D View.
+   The default mode for interactive first person navigation.
 
-   Walk
-      TODO2.8.
-   Fly
-      TODO2.8.
+   See :ref:`3dview-fly-walk`.
 
 Camera Parent Lock
-   When the camera is locked to the view and in fly mode, transform the parent rather than the camera.
+   When the camera is locked to the view, the roop parent is transformed rather than the camera.
+
+   .. hint::
+
+      This is useful for camera rigs where you don't want to animate the camera directly.
 
 
 Walk
