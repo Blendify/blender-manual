@@ -165,7 +165,7 @@ File
    Path
       Path to the linked file.
    Open
-      Opens the :doc:`/editors/file_browser/index` to select a file from a drive.
+      Opens the :doc:`/editors/file_browser` to select a file from a drive.
    Reload
       Reloads the file. Useful when a file has been reworked in an external application.
 Color Space

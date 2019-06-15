@@ -15,7 +15,7 @@ Views
 =====
 
 In Tracking Mode there are three different views available. You can toggle between view modes using
-the View dropdown, which is located in the header.
+the View drop-down, which is located in the header.
 When you selected a view in the whole area of the Movie Clip editor will change.
 Hence, to display a curve or dope sheet view, the editor must be split into two,
 with one switched to the curve or dope sheet view.
@@ -35,7 +35,8 @@ There are also fully manual tools where you can use a grid which is getting affe
 deformed cells defines straight lines in the footage.
 
 Within Blender you can use the Annotation tool for this -- just draw a line which should be straight on
-the footage using poly line brush and adjust the distortion values to make the Grease pencil match lines on the footage.
+the footage using poly line brush and adjust the distortion values
+to make the Grease pencil match lines on the footage.
 
 To calibrate your camera more accurately, use the Grid calibration tool from OpenCV.
 OpenCV is using the same distortion model, so it should not be a problem.

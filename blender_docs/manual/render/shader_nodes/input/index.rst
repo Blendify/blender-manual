@@ -1,6 +1,6 @@
 
 #########
-  Input 
+  Input
 #########
 
 .. toctree::

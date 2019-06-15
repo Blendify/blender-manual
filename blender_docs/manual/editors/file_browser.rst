@@ -108,7 +108,8 @@ File Types
 Data-Block Types
    When appending or linking, you can also filter by data-block categories, like scenes, animations, materials, etc.
 Search field
-   Filter items by name. The wildcard ``*`` will match anything, e.g. ``bl\*er`` will match both ``blender`` and ``blogger``.
+   Filter items by name.
+   The wildcard ``*`` will match anything, e.g. ``bl\*er`` will match both ``blender`` and ``blogger``.
    There is always an implicit wildcard at start and end of the search string,
    so ``blender`` will also match ``test_blender_file.blend``.
    This field can also be used to filter some specific file extension (e.g. ``.png`` will list all PNG files).

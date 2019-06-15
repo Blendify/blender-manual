@@ -1,6 +1,6 @@
 
 ##########
-  Output 
+  Output
 ##########
 
 Output nodes are the final node in every node tree.

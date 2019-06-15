@@ -38,7 +38,7 @@ If something is not listed here, it is supported.
 
 
 Shader Nodes
--------------
+------------
 
 In the general case, shader nodes should behave more or less like in Cycles.
 So be sure to check out the Cycles section of this manual for that.
