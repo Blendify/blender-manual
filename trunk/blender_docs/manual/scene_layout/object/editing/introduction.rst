@@ -112,4 +112,4 @@ If several curves are joined, each one will keep its subtype (NURBS or Bézier).
    Materials, vertex groups, UV and Vertex layers will be merged.
 
    Modifiers, constraints, groups and parent relationships are ignored
-   when    joining and will not be applied to the active object.
+   when joining and will not be applied to the active object.

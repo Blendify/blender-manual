@@ -26,17 +26,19 @@ Settings
 3D Editor
 ---------
 
-When creating new annotations in the 3D view, there is one tool setting.
-The *Placement* option determines where the line is drawn in 3D space.
+When creating new annotations in the 3D View, there is one tool setting.
 
-3D Cursor
-   Draw on an imaginary plane that goes through the 3D cursor.
-View
-   Draw in screen-space instead in 3D space.
-   That means, that the line will stay on the same position in the screen,
-   even when e.g. the camera rotates.
-Surface
-   Project the line on the surface under the mouse.
+Placement
+   The *Placement* option determines where the line is drawn in 3D space.
+
+   3D Cursor
+      Draw on an imaginary plane that goes through the 3D cursor.
+   View
+      Draw in screen-space instead in 3D space.
+      That means, that the line will stay on the same position in the screen,
+      even when e.g. the camera rotates.
+   Surface
+      Project the line on the surface under the mouse.
 
 The eraser has a *Radius* setting.
 

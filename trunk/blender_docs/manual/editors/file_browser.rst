@@ -86,7 +86,7 @@ Recursion
       Showing several levels of directories at once can be handy to e.g. see your whole collection of textures,
       even if you have arranged them in a nice set of directories to avoid having hundreds of files in a single place.
 
-      In *Append/Link* case, showing the content of the whole blend-file will allow you
+      In the *Append/Link* case, showing the content of the whole blend-file will allow you
       to link different types of data-blocks in a single operation.
 
    .. warning::
@@ -109,7 +109,7 @@ Data-Block Types
    When appending or linking, you can also filter by data-block categories, like scenes, animations, materials, etc.
 Search field
    Filter items by name.
-   The wildcard ``*`` will match anything, e.g. ``bl\*er`` will match both ``blender`` and ``blogger``.
+   The wildcard ``*`` will match anything, e.g. ``bl*er`` will match both ``blender`` and ``blogger``.
    There is always an implicit wildcard at start and end of the search string,
    so ``blender`` will also match ``test_blender_file.blend``.
    This field can also be used to filter some specific file extension (e.g. ``.png`` will list all PNG files).

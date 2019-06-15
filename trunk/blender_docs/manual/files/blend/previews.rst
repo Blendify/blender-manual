@@ -5,7 +5,7 @@ Blend-Files Previews
 
 A blend-file can store previews, both for itself, and for some of its :doc:`data-blocks </files/data_blocks>`.
 You can disable writing any previews when saving a blend-file using the *Save Preview Images* setting
-from the :ref:`prefs-save-load` section of the *Preferences*.
+from the :ref:`prefs-save-load` section of the Preferences.
 
 
 Blend-File Preview
@@ -26,7 +26,7 @@ Blender will generate automatically previews for some type of data, mainly shadi
 
 It can also store previews for scenes, collections and objects, but those need to be generated manually.
 
-These previews can then be used by the *Thumbnail* view of the *File Browser*, when linking or appending data-blocks.
+These previews can then be used by the *Thumbnail* view of the File Browser, when linking or appending data-blocks.
 
 
 .. _bpy.ops.wm.previews_ensure:

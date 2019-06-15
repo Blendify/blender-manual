@@ -87,7 +87,7 @@ None
    This option keeps the X and Z scaling factors as 1.0.
 Volume Preserve
    The X and Z scaling factors are taken as the inverse of the Y scaling factor (length of the bone),
-   maintaining the *volume* of the bone.
+   maintaining the 'volume' of the bone.
 Bone Original
    This options just uses the X and Z scaling factors the bone would have after being evaluated in the standard way.
 
@@ -103,7 +103,7 @@ Tips for Nice Setups
 
 - For optimal deformations, it is recommended that the bones are roughly the same length,
   and that they are not too long, to facilitate a better fit to the curve.
-  Also, bones should ideally be created in a way that follows the shape of the curve in its *rest pose* shape,
+  Also, bones should ideally be created in a way that follows the shape of the curve in its 'rest pose' shape,
   to minimize the problems in areas where the curve has sharp bends
   which may be especially noticeable when stretching is disabled.
 - For control of the curve, it is recommended that hooks (in particular, Bone Hooks)

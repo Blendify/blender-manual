@@ -173,7 +173,7 @@ If targets already have some data linked to them, it will be unlinked first.
 
 Objects to Scene
    Links the selected objects into a different scene than the current one.
-   The  *Link Objects to Scene* operator panel lets you choose between scenes.
+   The *Link Objects to Scene* operator panel lets you choose between scenes.
 
    This makes the same object exist in more than one scene at once,
    including its position and animation data.
