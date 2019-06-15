@@ -55,6 +55,7 @@ Properties have different colors and menu items for different states.
    * - Purple
      - Controlled by a driver
 
+The changed value highlight currently doesn't work with :doc:`NLA </editors/nla/introduction>`.
 
 Rigging
 =======

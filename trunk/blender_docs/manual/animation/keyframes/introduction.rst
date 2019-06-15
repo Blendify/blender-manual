@@ -89,3 +89,6 @@ it is guaranteed that none of the grouped channels have a non-auto key.
 
 Horizontal green lines mark the use of non-Bézier :ref:`Interpolation <editors-graph-fcurves-settings-interpolation>`.
 The line is dimmed in summary rows if not all grouped channels have the same interpolation.
+
+Display of this information can be disabled via the *Show Handles and Interpolation*
+option of the Dope Sheet`s :ref:`View Menu <dope-sheet-view-menu>`.

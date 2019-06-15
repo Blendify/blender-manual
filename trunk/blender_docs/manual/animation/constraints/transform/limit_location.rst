@@ -33,9 +33,9 @@ using the *Transformation Properties* axis locking feature is probably easier!
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_limit-location_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_transform_limit-location_panel.png
 
-   Limit Location panel.
+.. TODO2.8    Limit Location panel.
 
 Minimum X, Minimum Y, Minimum Z
    These buttons enable the lower boundary for the location of the owner's center along,

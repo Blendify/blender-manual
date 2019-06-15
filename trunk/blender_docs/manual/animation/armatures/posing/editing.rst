@@ -31,7 +31,7 @@ which is its state as defined in *Edit Mode*. This means that in rest position,
 in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 (as you can see it in the *Transform* panel, in the 3D Views).
 
-.. TODO2.8 Update image.
+.. TODO2.8 Maybe update the images (color & style)
 
 .. figure:: /images/rigging_armatures_posing_editing_local-rotation.png
 
@@ -125,6 +125,11 @@ which generally means you will have to skin it again.
 In-Betweens
 ===========
 
+.. figure:: /images/rigging_armatures_posing_editing_inbetween_tools.png
+   :align: right
+
+   In-Betweens Tools
+
 There are several tools for editing poses in an animation.
 
 There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
@@ -140,7 +145,7 @@ Push Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Toolbar region --> Pose Tools --> Push`
+   :Panel:     :menuselection:`Toolbar region --> In-Betweens Tools --> Push`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown`
    :Hotkey:    :kbd:`Ctrl-E`
 
@@ -154,7 +159,7 @@ Relax Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Toolbar region --> Pose Tools --> Relax`
+   :Panel:     :menuselection:`Toolbar region --> In-Betweens Tools --> Relax`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose to Breakdown`
    :Hotkey:    :kbd:`Alt-E`
 
@@ -171,7 +176,7 @@ Breakdowner
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Toolbar region --> Pose Tools --> Breakdowner`
+   :Panel:     :menuselection:`Toolbar region --> In-Betweens Tools --> Breakdowner`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
    :Hotkey:    :kbd:`LMB`\ -drag
 

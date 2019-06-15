@@ -41,6 +41,8 @@ If you want them to be connected, just enable the checkbox to the right of the l
    With this method, the tip of the child bone will never be translated --
    so if *Connected* is enabled, the child bone will be completely transformed by the operation.
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. list-table:: Parenting example.
 
    * - .. figure:: /images/rigging_armatures_bones_editing_parenting_start.png

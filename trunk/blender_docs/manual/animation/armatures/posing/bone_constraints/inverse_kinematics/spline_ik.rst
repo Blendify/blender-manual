@@ -44,7 +44,7 @@ Settings and Controls
 =====================
 
 For the precise list of options, see :doc:`Spline IK </animation/constraints/tracking/spline_ik>` constraint.
-This section is intended to introduce their use.
+This section is intended to introduce the workflow.
 
 
 Roll Control

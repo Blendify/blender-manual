@@ -56,7 +56,7 @@ You can also alter the bone radius by selecting the tail or head of the bone you
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* number buttons.
 
-.. TODO2.8 Maybe replace the images?
+.. TODO2.8 Maybe update the images (color & style)
 
 .. list-table:: Bone Scale and Scale Radius comparison.
 
@@ -105,7 +105,7 @@ then enter a new value into it.
 Altering the Bone Envelope volume does not alter the size of the bone just the range
 within which it can influence vertices of child objects.
 
-.. TODO2.8 Maybe replace the images?
+.. TODO2.8 Maybe update the images (color & style)
 
 .. list-table:: Envelope scaling example.
 
@@ -147,7 +147,7 @@ Align Bones
    :Menu:      :menuselection:`Armature --> Transform --> Align Bones`
    :Hotkey:    :kbd:`Ctrl-Alt-A`
 
-.. TODO <2.72.
+Rotates the selected bones to achieve the same orientation as the active one.
 
 
 .. _armature-bone-roll:
@@ -223,7 +223,7 @@ Switching the direction of a bone will generally break the chain(s) it belongs t
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
 but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
 
-.. TODO2.8 Maybe replace the images?
+.. TODO2.8 Maybe update the images (color & style)
 
 .. _fig-rig-properties-switch:
 

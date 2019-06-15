@@ -59,17 +59,30 @@ Summary
    This is used to give an overview of all the channels by combining all the actions into one channel.
 
 
+.. _dope-sheet-view-menu:
+
 View Menu
 ^^^^^^^^^
 
 Sync Markers
    Sync Markers with keyframe edits.
 
+.. figure:: /images/animation_keyframes_introduction_interpolation.png
+   :align: right
+
+   Handle types.
+
 Show Handles and Interpolation
    Instead of drawing all keyframes as diamonds, different icons are used to show the Bézier handle type.
    When curves use a different interpolation type, a line is drawn between keys to highlight that.
 
    See :ref:`Handles & Interpolation Display <keyframe-handle-display>`.
+
+.. figure:: /images/editors_dope-sheet_introduction_extremes.png
+   :align: right
+
+   Extreme markers.
+
 Show Extremes
    Detect keys where the curve changes direction based on comparing with the adjacent key values,
    and display that by changing the keyframe icons to resemble an arrow.

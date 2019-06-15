@@ -22,9 +22,9 @@ correspond to the distance between the owner and this target.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_transform_limit-distance_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_transform_limit-distance_panel.png
 
-   Limit Distance panel.
+.. TODO2.8    Limit Distance panel.
 
 Target
    :ref:`ui-data-id` used to select the constraint's target, and is not functional (red state) when it has none.
@@ -47,6 +47,7 @@ Clamp Region
       The owner is constrained *on the surface* of the sphere.
 
 For Transform
-   ToDo ~2.65.
+   Transform operators will take the constraint into account to immediately restrict the
+   resulting transform property values.
 
 .. vimeo:: 171109014

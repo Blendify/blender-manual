@@ -20,9 +20,9 @@ when it filmed the video footage, relative to the thing being tracked.
 Options
 =======
 
-.. figure:: /images/rigging_constraints_motion-tracking_camera-solver_panel.png
+.. TODO2.8 .. figure:: /images/rigging_constraints_motion-tracking_camera-solver_panel.png
 
-   Camera Solver Constraint panel.
+.. TODO2.8    Camera Solver Constraint panel.
 
 Active Clip
    Receive tracking data from the movie clip active in the Movie Clip editor.

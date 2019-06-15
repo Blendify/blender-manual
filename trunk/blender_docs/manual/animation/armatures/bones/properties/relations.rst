@@ -85,6 +85,8 @@ By default, children bones inherit:
 - Their parent rotation (i.e. they keep a constant rotation relatively to their parent).
 - Their parent scale, here again with their own offset.
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. list-table:: Examples of transforming parented/connected bones.
 
    * - .. figure:: /images/rigging_armatures_bones_properties_relations_rest.png
@@ -124,6 +126,8 @@ However, if you disable one bone's *Inherit Scale* or *Inherit Rotation*
 property in this "family", this will break the scaling propagation,
 i.e. this bone *and all its descendants* will no longer be affected when you scale one of its ancestors.
 
+.. TODO2.8 Maybe update the images (color & style)
+
 .. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
    * - .. figure:: /images/rigging_armatures_bones_properties_relations_inherit-rot-disabled.png
@@ -152,6 +156,8 @@ behave when transformed. There are many different situations which may not be in
 however, this should give a good idea of the problem:
 
 - Non-related selected bones are transformed independently, as usual.
+
+.. TODO2.8 Maybe update the images (color & style)
 
 .. _fig-rig-pose-edit-scale:
 
