@@ -100,10 +100,10 @@ as well as provide additional controls such as pressure sensitivity.
    try to place the mouse pointer in the Blender window and then unplug/replug your graphic tablet. This might help.
 
 
-.. _hardware_3d-mice:
+.. _hardware-ndof:
 
-3D Mice
--------
+3D Mice (NDOF)
+--------------
 
 3D Mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender.
 Currently only devices made by 3Dconnexion are supported.

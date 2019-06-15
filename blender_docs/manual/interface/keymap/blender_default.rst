@@ -109,6 +109,18 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
      - Walk/Fly Mode.
 
 
+Preferences
+===========
+
+TODO2.8.
+
+.. _keymap-pref-py_menu_on_drag:
+
+Pie Menu On Drag
+----------------
+
+TODO2.8.
+
 Platform Specific Keys
 ======================
 

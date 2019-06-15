@@ -1,3 +1,4 @@
+.. _transform-numeric-input:
 
 *************
 Numeric Input
@@ -30,6 +31,8 @@ You can see the numbers you enter in the 3D View's footer.
    the :doc:`Properties </scene_layout/object/properties/transforms>` region.
 
 
+.. _transform-numeric-input-simple:
+
 Simple Mode
 ===========
 
@@ -57,6 +60,8 @@ Non-number Inputs
    :doc:`Axis Locking </scene_layout/object/editing/transform/control/precision/axis_locking>`
    to limit movement to a particular axis or tool specific shortcuts.
 
+
+.. _transform-numeric-input-advanced:
 
 Advanced Mode
 =============
