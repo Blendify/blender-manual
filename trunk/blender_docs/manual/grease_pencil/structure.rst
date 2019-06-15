@@ -20,7 +20,7 @@ Points represent a single point in 3D space.
 Edit Lines
 ==========
 
-Points are always connected by a straight line, the line you see when you are editing in Edit Mode.
+Points are always connected by a straight line, the line you see when you are editing in Edit Mode or when you look at a stroke in wireframe view.
 They are invisible on the rendered image and used to construct the final stroke.
 
 
@@ -28,12 +28,3 @@ Strokes
 =======
 
 The stroke is the rendered image of the edit line, using a particular brush and material.
-
-
-2D Layers
-=========
-
-Strokes can be grouped in 2D layers, a special *Grease Pencil* layers
-that help to organize the drawing order and visibility of the strokes.
-Further details on working with *Grease Pencil* layers can be found
-in :doc:`2D Layers </grease_pencil/properties/layers>`.
