@@ -133,7 +133,7 @@ Solutions
 - Center the view around the mouse cursor :kbd:`Alt-MMB`.
   This will take the position under the cursor and make it your viewpoint center.
 - Use an :abbr:`NDOF (N-Degrees of Freedom)`, also known as a 3D mouse,
-  see :ref:`configuring peripherals <hardware_3d-mice>` for more information.
+  see :ref:`configuring peripherals <hardware-ndof>` for more information.
 
 
 Tools

@@ -73,7 +73,7 @@ Map Type
    Mouse
       Left/middle/right click. Can be combined with :kbd:`Alt`, :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Cmd`.
    NDOF
-      Movement from a :ref:`3D Mouse <hardware_3d-mice>`.
+      Movement from a :ref:`3D Mouse <hardware-ndof>`.
    Tweak
       Click and drag. Can also be combined with the four previous keys.
    Text Input
