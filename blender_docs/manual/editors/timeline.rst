@@ -36,8 +36,7 @@ The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
 
-   Timeline main view.
-
+Here you can see the *Keyframes* (diamond shapes), *Playhead* (blue handle), *Scrollbar* (along the bottom),  
 
 Adjusting the View
 ------------------
@@ -280,29 +279,7 @@ The Timeline header controls.
 
    Timeline header controls.
 
-   \1. Range Control, 2. Frame Control, 3. Transport Control,
-   \4. Synchronize Playback, 5. Keyframe Control.
-
-
-Range Control
-^^^^^^^^^^^^^
-
-Preview Range (clock icon)
-   This is a temporary frame range used for previewing a smaller part of the full range.
-   The preview range only affects the viewport, not the rendered output.
-   See :ref:`graph-preview-range`.
-
-
-Frame Control
-^^^^^^^^^^^^^
-
-Start Frame
-   The start frame of the animation/playback range.
-End Frame
-   The end frame of the animation/playback range.
-Current Frame :kbd:`Alt-Wheel`
-   The current frame of the animation/playback range.
-   Also the position of the *Playhead*.
+   \1. Popovers for Playback and Keying, 2. Transport Controls, 3.Frame Controls
 
 
 Transport Controls
@@ -331,6 +308,25 @@ Jump to end (|last|) :kbd:`Shift-Ctrl-Up`, :kbd:`Shift-Right`
    This sets the cursor to the end of frame range.
 Pause (|pause|) :kbd:`Alt-A`
    This stops the animation.
+
+
+Frame Controls
+^^^^^^^^^^^^^
+
+Current Frame :kbd:`Alt-Wheel`
+   The current frame of the animation/playback range.
+   Also the position of the *Playhead*.
+Preview Range (clock icon)
+   This is a temporary frame range used for previewing a smaller part of the full range.
+   The preview range only affects the viewport, not the rendered output.
+   See :ref:`graph-preview-range`.
+Start Frame
+   The start frame of the animation/playback range.
+End Frame
+   The end frame of the animation/playback range.
+
+
+
 
 
 .. Move to animation?
