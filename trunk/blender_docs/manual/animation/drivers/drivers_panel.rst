@@ -69,6 +69,7 @@ Use Self
    This allows for drivers to references their own data using the variable ``self``.
    Useful for objects, bones, to avoid having to create a variable pointing to its self.
 
+.. _drivers-simple-expressions:
 
 Simple Expressions
 ^^^^^^^^^^^^^^^^^^
