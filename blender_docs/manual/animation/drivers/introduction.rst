@@ -6,6 +6,9 @@ Introduction
 Drivers are scripts which main purpose is to control properties with other properties.
 In example the rotation of one object is controlled with the location of another object.
 
+Effectively, drivers are animation :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
+that use a custom expression as the X axis input instead of the current frame.
+
 .. seealso::
 
    :doc:`Auto run </advanced/scripting/security>`
@@ -15,7 +18,8 @@ Adding & Removing
 =================
 
 There are some different ways to add drivers in Blender.
-After adding drivers they are usually modified in the *Graph Editor* with the mode set to *Drivers*.
+After adding drivers they are usually modified in the *Graph Editor* with the mode set to *Drivers*,
+or via a simplified *Edit Driver* popover invoked from the property context menu.
 
 
 Add Driver
@@ -30,28 +34,36 @@ Add Driver
 The common way to add a driver to a property is to :kbd:`RMB` click a property,
 then add a driver via the context menu.
 Drivers can also be added by pressing :kbd:`Ctrl-D` with the mouse over the property set.
-The selected properties will be used as a destination (output) for the driver.
 
-All from Target (properties icon)
-   This will add drivers to the set of properties used as a destination.
-   It creates a default curve with keyframes at (0, 0) and (1, 1),
-   For example, it will add drivers to X, Y, and Z for Location.
-Single from Target
-   This will add a single driver to the selected property used as a destination.
-Match Indices (color wheel icon)
-   Use the corresponding index to drive the corresponding property on a similar sized vector/array property.
-   This is useful for driving ``ob1.location`` with ``ob2.location``, or ``RGB color`` with ``XYZ location``.
-Manually Create Later/(Single) (hand icon)
-   It adds a/set of driver(s), each with a single variable (but not filled in). No eyedropper will appear.
+This operation adds a driver with a single variable (but not filled in), and displays
+the *Edit Driver* popover.
 
-The source/target (input) property can then be selected with an :ref:`ui-eye-dropper` (e.g. "Scale Y").
 
-.. note::
+Edit Driver
+-----------
 
-   Due to the way that Blender's UI Context works, you'll need *two* Properties editor instances open
-   (and to have pinned one of the two to show the properties for the unselected object).
-   This is necessary as the UI cannot be manipulated while using eyedroppers to pick data.
-   Therefore, you need to be able to see both the source and the destination properties when using the eyedropper.
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Context menu --> Edit Driver`
+
+Displays a popover window that allows editing the custom expression and input variables
+of the driver without opening the full *Graph Editor*.
+
+Most drivers don't use their :doc:`F-Curve </editors/graph_editor/fcurves/introduction>`
+component, so this reduced interface is sufficient.
+
+
+Open Drivers Editor
+-------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Context menu --> Open Drivers Editor`
+
+Opens a new window with the *Graph Editor* in the *Drivers* mode, and selects
+the driver associated with the property.
 
 
 Copy & Paste
@@ -86,13 +98,10 @@ Removing Drivers
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    Graph editor
-   :Mode:      Drivers
-   :Panel:     :menuselection:`Sidebar region --> Driver --> Drivers --> Remove Driver`
    :Menu:      :menuselection:`Context menu --> Delete (Single) Driver(s)`
    :Hotkey:    :kbd:`Ctrl-Alt-D`
 
-ToDo add.
+Removes driver(s) associated with the property, either for the single selected sub-channel or all of them.
 
 
 Graph View
