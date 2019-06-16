@@ -1,3 +1,4 @@
+.. _keymap-customize:
 
 ********************
 Keymap Customization
