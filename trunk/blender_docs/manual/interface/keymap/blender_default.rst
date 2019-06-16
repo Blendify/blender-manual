@@ -126,11 +126,12 @@ if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
 Select All Toggles
 ------------------
 
-TODO2.8.
+Causes selection to toggle when an existing selection exists.
 
 
 Spacebar Action
 ---------------
+
 Controls the action of :kbd:`Spacebar`.
 These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
 
@@ -149,6 +150,12 @@ Search
 
 Pie Menu On Drag
 ----------------
+
+TODO2.8.
+
+
+3D View
+-------
 
 TODO2.8.
 
