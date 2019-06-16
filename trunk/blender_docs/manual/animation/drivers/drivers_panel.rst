@@ -10,15 +10,21 @@ Drivers Panel
    :Mode:      Drivers
    :Panel:     :menuselection:`Sidebar region --> Drivers --> Drivers`
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Context menu --> Edit Driver`
+
 .. figure:: /images/animation_drivers_drivers-panel_panel.png
    :align: right
 
-   Drivers panel.
+   Edit Driver popover.
 
 This panel is located in the :doc:`Graph Editor </editors/graph_editor/introduction>` with the mode set to Drivers.
+It can also be invoked as a popover via the property context menu.
 
 The Drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which
-will determine the value of the *Driver Value*.
+will determine the *Driver Value*.
 
 
 Settings
@@ -26,8 +32,9 @@ Settings
 
 Update Dependencies
    This will force an update for the Driver Value dependencies.
-Remove Driver
-   Removes the driver from the property.
+Show in Drivers Editor
+   When invoked as a popover, this button allows opening a fully featured *Graph Editor*
+   window for editing the driver.
 
 Type
    There are two categories of scripts: built-in (average, sum, minimum and maximum) and
@@ -98,20 +105,28 @@ Driver Variables
 
 .. list-table::
 
-   * - .. figure:: /images/animation_drivers_drivers-panel_transform-channel2.png
+   * - .. figure:: /images/animation_drivers_drivers-panel_single-property.png
 
-          Transform channel setup.
+          Single property
+
+     - .. figure:: /images/animation_drivers_drivers-panel_transform-channel2.png
+
+          Transform channel
 
      - .. figure:: /images/animation_drivers_drivers-panel_distance.png
 
-          Distance setup.
+          Distance
 
-Variable are references to properties or delta transformations which are a reference to two properties.
+Variables are references to properties, transformation channels, or the result of a comparison
+between transformations of two objects.
 
-Add Variable
+Drivers should access object data via variables, rather than direct references from the Python
+expression, in order for dependencies to be correctly tracked.
+
+Add Input Variable
    Adds a new Driver Variable.
 Copy/Paste
-   Uses the copy of the current variable stack so it can be pasted onto another object's variable stack.
+   Uses the copy of the current variable stack so it can be pasted onto another driver's variable stack.
 Name
    Name to use for scripted expressions/functions.
    No spaces or dots are allowed and must start with a letter.
@@ -120,11 +135,11 @@ Variable Type
    The type of variable to use.
 
    Single Property
-      Use the value from some RNA property.
-      For example, the Ambient shading color from a material.
-      (see Fig. :ref:`fig-setup-single-property`)
-      First select the type of ID-block, then the ID of the ID-block, then copy and
-      paste an RNA property :kbd:`Ctrl-V`.
+      Retrieves the value of a RNA property, specified by a data block reference and a path string.
+
+      In case of transform properties, this will return the exact value of the UI property,
+      while Transform Channel will take parenting and/or constraints into account as needed.
+
       See also :ref:`files-data_blocks-custom-properties`.
 
       ID Type
@@ -132,7 +147,11 @@ Variable Type
       ID
          The ID of the ID-block type. For example: "Material.001".
       RNA Path
-         The RNA ID name of the property. For example: 'ambient' from material shading.
+         The RNA name of the property, based on a subset of Python attribute access syntax.
+         For example: ``location.x`` or ``location[0]`` for the raw X location value.
+
+         The most convenient way to set the path is to paste the result of *Copy Data Path*
+         from the context menu of the property.
 
    Transform Channel
       Use one of the Transform channels from an object or bone.
@@ -158,16 +177,6 @@ Variable Type
 
 Value
    Shows the value of the variable.
-
-
-Example
-=======
-
-.. _fig-setup-single-property:
-
-.. figure:: /images/animation_drivers_drivers-panel_single-property.png
-
-   Setup of a single property.
 
 .. seealso::
 
