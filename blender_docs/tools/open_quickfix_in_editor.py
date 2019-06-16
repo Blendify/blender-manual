@@ -21,16 +21,17 @@ logfile = sys.argv[-1]
 
 if shutil.which("emacsclient"):
     sys.exit(run((
-    	"emacsclient",
+        "emacsclient",
         "--eval",
-        f"(progn (find-file \"{logfile}\") (compilation-mode) (end-of-buffer))",
+        # Calling: (compile-goto-error) should work but doesn't open window when called from here.
+        f"(progn (find-file \"{logfile}\") (compilation-mode) (end-of-buffer) (previous-line))",
         "--no-wait",
-		"--alternate-editor=emacs --eval",
+        "--alternate-editor=emacs --eval",
     )))
 
 elif shutil.which("gvim"):
     sys.exit(run((
-		"gvim",
+        "gvim",
         "--nofork",
         "-c",
         "cfile rst_check_syntax.log",
