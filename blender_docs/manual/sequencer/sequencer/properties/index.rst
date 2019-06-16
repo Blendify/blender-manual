@@ -11,3 +11,6 @@
    filter.rst
    proxy_timecode.rst
    modifiers.rst
+
+
+vse-todo 2.8 review proxy_timecode, modifiers, add view

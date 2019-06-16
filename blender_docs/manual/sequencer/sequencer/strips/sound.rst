@@ -11,7 +11,7 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
 .. figure:: /images/editors_vse_sequencer_strips_sound_editing.png
 
    Example of sound editing.
-
+   vse-todo 2.8
 
 Options
 =======
@@ -47,7 +47,7 @@ Working with Audio Tracks
 =========================
 
 A sound strip is just like any other strip in the VSE. You can grab and move it,
-adjust its starting offset using :kbd:`RMB` over the arrow end handles,
+adjust its starting offset using :kbd:`LMB` over the arrow end handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.
 
@@ -80,10 +80,8 @@ Output
 ======
 
 There are two ways to render out your audio. You can either have it encoded with a video file
-or in its own audio file. To render your audio in a video file make sure to use a video format
-as the output with an audio codec and hit the render *Animation* button in the Properties editor.
-Read more on how to do this :doc:`here </render/output/file_formats>`. To render as an audio file simple
-use the *Audio* button. Read more on how to do this :doc:`here </render/output/file_formats>`.
+or in its own audio file. Read more on how select proper format :doc:`here </render/output/file_formats>`
+and how to start rendering :doc:`here </render/output>`
 
 
 Known Limitations

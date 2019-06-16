@@ -4,6 +4,7 @@ Introduction
 ************
 
 .. figure:: /images/editors_vse_sequencer_strips_introduction_strip-graphic.svg
+   vse-todo 2.8 rename hard offset -> hold offset
 
    Strip schematic.
 
@@ -23,6 +24,7 @@ Add
 .. figure:: /images/editors_vse_sequencer_strips_introduction_add-menu.png
    :align: right
 
+   vse-todo 2.8
    The Add Menu.
 
 The Add menu is the main menu you will be using to add content to the VSE.

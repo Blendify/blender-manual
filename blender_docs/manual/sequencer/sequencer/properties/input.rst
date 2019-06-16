@@ -1,21 +1,25 @@
-.. _bpy.types.SequenceCrop:
-
-*****************
-Strip Input Panel
-*****************
+vse-todo 2.8 rename file to info
+**********
+Info Panel
+**********
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Strip --> Strip Input`
+   :Panel:     :menuselection:`Sidebar region --> Strip --> Info`
 
-.. figure:: /images/editors_vse_sequencer_properties_input_panel.png
-   :align: right
+The Info panel is used to control source and timeline position of the strip
 
-   Strip Input settings.
+Type
+   Displays the type of strip selected.
+Name
+   You can name or rename your strips here.
+Lock (padlock icon)
+   Prevents the strip from being moved.
 
-The Strip Input panel is used to controls the source,
-the duration of the strip along with some basic transforms.
+
+Input
+=====
 
 Path
    A text field that lets you edit/update the path of the file used by a strip.
@@ -27,30 +31,39 @@ Color Space
 Alpha mode
    If the source file has an Alpha (transparency) channel, you can choose:
 
-   :term:`Straight Alpha` or :term:`Premultiplied Alpha`
-Change Data/File
+   :term:`Straight Alpha` or :term:`Premultiplied AlpAha`
+Change Data/Files
    Same as the *Path* and *File* fields, but
    this time combined to open the File Browser in order to find the file(s) you search.
-   :menuselection:`Strip --> Change --> Paths/files`
-
+   :menuselection:`Strip --> Inputs --> Paths/files`
 MPEG Preseek
    Movie strip only -- Use the Preseek field to tell Blender to look backward and
    compose the image based on the n previous frames (e.g. 15 for Mpeg2 DVD).
 Stream index
    Movie strip only -- For files with several movie streams, use the stream with the given index.
 
-Image Offset
-   Used to translate the frames along the X and Y axis.
-   Additionally it disables the auto-scaling of the image.
-Image Crop
-   Used to crop the source image, use *Top*, *Left*,
-   *Bottom*, and *Right* to control which part of the image is cropped.
 
-.. _sequencer-duration-hard:
+Timecodes
+=========
 
-Trim Duration (hard)
-   Controls at what frame the source of the strip starts and ends at.
-Trim Duration (soft)
+Channel
+   Changes the channel number, or row, of the strip.
+Start
+   Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
+End
+   Changes the ending frame number of the strip, which is the same as grabbing and moving the strip right handle.
+Duration
+   Specify the number of frames to use for the strip.
+Strip offset (soft)
    Can be used to either extend the strip beyond the end frame by repeating the last frame.
    Or it can be used to shorten the strip, as if you were cropping the end frame.
    This is the same has adjusting the strip handles.
+.. _sequencer-duration-hard:
+Hold offset (hard)
+   Controls at what frame the source of the strip starts and ends at.
+   vse-todo 2.8
+
+Playhead position
+   vse-todo 2.8
+Resolution
+   Resolution of the image
