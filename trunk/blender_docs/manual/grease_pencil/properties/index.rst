@@ -8,7 +8,6 @@
 
    data.rst
    layers.rst
-   onion_skinning.rst
-   vertex_group.rst
+   onion_skinning.rst   
    strokes.rst
    display.rst
