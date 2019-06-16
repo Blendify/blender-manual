@@ -36,7 +36,7 @@ The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
 
-Here you can see the *Keyframes* (diamond shapes), *Playhead* (blue handle), *Scrollbar* (along the bottom),  
+Here you can see the *Keyframes* (diamond shapes), *Playhead* (blue handle), *Scrollbar* (along the bottom),
 
 Adjusting the View
 ------------------
@@ -315,7 +315,7 @@ Pause (|pause|) :kbd:`Alt-A`
 
 
 Frame Controls
-^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
 
 Current Frame :kbd:`Alt-Wheel`
    The current frame of the animation/playback range.

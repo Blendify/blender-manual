@@ -19,7 +19,8 @@ Scripted Expression
 
 By default Blender will restrict execution of Python scripts.
 
-If using a *Scripted Expression* Driver Type that doesn't follow the :ref:`Simple Expressions <drivers-simple-expressions>`
+If using a *Scripted Expression* Driver Type that doesn't follow the
+:ref:`Simple Expressions <drivers-simple-expressions>`
 subset, you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in :menuselection:`Preferences --> File --> Auto Execution`.
 

@@ -33,7 +33,8 @@ Enter the name of a bone and the constraint will target the bone instead of the 
 .. figure:: /images/rigging_constraints_interface_common_target-bone.png
 
 The slider moves the precise position of the target between the :term:`Head` and :term:`Tail` of the bone.
-Some constraints have a button next to the slider that enables using the curved shape of :ref:`Bendy Bones <bendy-bones>`.
+Some constraints have a button next to the slider
+that enables using the curved shape of :ref:`Bendy Bones <bendy-bones>`.
 
 
 Space

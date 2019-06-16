@@ -36,7 +36,7 @@ An object can have several weight groups and can be assigned in
 See :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>` for more information.
 
 Strokes
-========
+=======
 
 General settings for *Grease Pencil* strokes
 
