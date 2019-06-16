@@ -3,6 +3,11 @@
 Object Data
 ***********
 
+.. figure:: /images/grease_pencil_properties_data_panel.png
+   :align: right
+
+   Grease Pencil properties panel.
+
 Grease Pencil
    The *Grease Pencil* :ref:`Data-Block Menu <ui-data-block>` can be used to link the data between objects.
 
@@ -33,6 +38,6 @@ See :doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/index>` for m
 Strokes
 ========
 
--TODO-
+General settings for *Grease Pencil* strokes
 
-See :doc:`Onion Skinning </grease_pencil/properties/strokes>` for more information.
+See :doc:`Strokes </grease_pencil/properties/strokes>` for more information.
