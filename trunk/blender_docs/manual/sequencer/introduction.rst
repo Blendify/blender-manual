@@ -14,6 +14,7 @@ To use the VSE, you load multiple video clips and lay them end-to-end (or in som
 inserting fades and transitions to link the end of one clip to the beginning of another.
 Finally, you can add audio and synchronize the timing of the video sequence to match it.
 
+vse-todo 2.8
 .. figure:: /images/editors_vse_introduction_screen-layout.png
    :width: 620px
 
@@ -34,3 +35,5 @@ the third button displays both the Sequencer and the Preview.
 
    By default the Sequencer is enabled, however, it can be disabled
    in the :ref:`render-output-postprocess`.
+
+vse-todo 2.8 screenshots here. not referencing this elsewhere

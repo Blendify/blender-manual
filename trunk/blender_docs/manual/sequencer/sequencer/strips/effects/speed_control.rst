@@ -5,8 +5,8 @@ Speed Control
 *************
 
 Speed Control time-warps the strip, making it play faster or slower than it normally would.
-A *Global Speed* less than 1.0 makes the strip play slower; greater than 1.
-0 makes it play faster. Playing faster means that some frames are skipped,
+A *Global Speed* less than 1.0 makes the strip play slower; greater than 1.0
+makes it play faster. Playing faster means that some frames are skipped,
 and the strip will run out of frames before the end frame.
 When the strip runs out of frames to display, it will just keep repeating the last one;
 action will appear to freeze. To avoid this,
@@ -47,6 +47,7 @@ Examples
 Creating a Slow-Motion Effect
 -----------------------------
 
+vse-todo 2.8
 .. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_example.jpg
    :width: 300px
 
@@ -74,6 +75,7 @@ That is it, set your render to animate (in this example) all 550 frames.
 Keyframing the Speed Control
 ----------------------------
 
+vse-todo 2.8
 .. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_keyframing.png
    :align: right
 

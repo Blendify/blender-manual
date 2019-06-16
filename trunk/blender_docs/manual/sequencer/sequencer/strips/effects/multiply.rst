@@ -3,7 +3,8 @@
 ********
 Multiply
 ********
-
+   
+vse-todo 2.8
 .. figure:: /images/editors_vse_sequencer_strips_effects_multiply_example.png
    :width: 300px
 

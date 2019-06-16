@@ -35,6 +35,7 @@ Only boost
 Example
 =======
 
+vse-todo 2.8
 .. figure:: /images/editors_vse_sequencer_strips_effects_glow_example.png
 
    Example of a Glow effect applied to a picture.

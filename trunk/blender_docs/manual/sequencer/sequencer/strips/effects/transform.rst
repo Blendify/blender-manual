@@ -4,6 +4,7 @@
 Transform
 *********
 
+vse-todo 2.8
 .. figure:: /images/editors_vse_sequencer_strips_effects_transform_example.png
    :align: right
 

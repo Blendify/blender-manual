@@ -25,6 +25,7 @@ In this set up the *Gaussian Blur Strip* is modifying
 an :doc:`Adjustment Layer Strip </sequencer/sequencer/strips/effects/adjustment>`
 where the curve defines the amount of blur over the length of the *Adjustment Layer Strip*.
 
+vse-todo 2.8
 .. figure:: /images/editors_vse_sequencer_strips_effects_blur_example.png
 
    Example of Blurring a Transition.

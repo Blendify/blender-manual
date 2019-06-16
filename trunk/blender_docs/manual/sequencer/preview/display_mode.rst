@@ -104,10 +104,7 @@ Color calibration is a matter of taste and depends on what you want.
 
 Use this display to check for too much color saturation.
 While over-saturated images look great for op-art and computer displays,
-they stink when shown on the big screen TV. Use :kbd:`Alt-A` to scrub the video;
-this display will update with a new/revised map for each frame.
-Just like watching the Image preview to see what it looks like,
-watch the Chroma Vectorscope to watch for color use.
+they stink when shown on the big screen TV.
 
 This mode is good for:
 
@@ -135,4 +132,4 @@ while the Y axis represents the number of pixels in that tonal range. A predomin
 image would have most of its information toward the left side of the graph.
 
 Use this mode to balance out the tonal range in an image.
-A well balanced image should a nice smooth distribution of color values.
+A well balanced image should have nice and smooth distribution of color values.

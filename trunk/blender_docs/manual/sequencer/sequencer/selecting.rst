@@ -4,34 +4,40 @@ Selecting
 *********
 
 The active sequence strip is displayed with a light outline.
-The *entire* strip could be selected by clicking :kbd:`RMB` in the middle of the strip.
+The *entire* strip could be selected by clicking :kbd:`LMB` in the middle of the strip.
+
+
+Select Menu
+-----------
 
 The Select Menu helps you select strips in different ways.
 
-Strips to the Left
-   Select all strips to the left of the currently selected strip.
-Strips to the Right
-   Select all strips to the right of the currently selected strip.
-Select Linked Time :kbd:`Ctrl-RMB`
-   Selects the strip under the cursor as well as all strips with the same start/end.
-Select Surrounding Handles :kbd:`Alt-RMB`
-   Selects the strip under the cursor as well as the handles of neighboring strips.
-
-   .. note::
-
-      Select with this method
-      to move a strip that is between two others without affecting the selected strip's length.
-
-Select Both Handles :kbd:`Alt-RMB`
-   Select the handle under the cursor as well as the handles of the adjacent strip.
+All :kbd:`A`
+   Selects all the strips in timeline.
+None :kbd:`Alt-A`
+   Deselects all the strips in timeline.
+Invert :kbd:`Ctrl-I`
+   Inverts the current selection.
+Box Select :kbd:`B`
+   Click and drag a rectangular lasso around a region of strips in your Sequence workspace.
+   Selects strips all intersecting this rectangle.
+Playhead
+   Select strips laying left or right to playhead position.
+Handle
+   Select left, right or both handles of selected strips.
 
    .. note::
 
       Select with this method
       when you want to change the timing of a cut.
 
-Select Linked :kbd:`L`
-   Select all strips linked to the currently selected strip.
+Channel
+   Select strips in the same channel laying left or right to active strip.
+Linked
+   All :kbd:`Ctrl-L`
+   Less :kbd:`Ctrl-Numpad-`
+   More :kbd:`Ctrl-Numpad+`
+      Selects strips, that are placed next to each other without any gaps
 Select Grouped :kbd:`Shift-G`
    Selects strips according to their relation with other strips.
 
@@ -50,12 +56,3 @@ Select Grouped :kbd:`Shift-G`
       Selects the effect strips, if any, linked to the currently selected strip.
    Overlap
       Selects any strips that occur on the same frame as the current.
-
-Select All :kbd:`A`
-   Selects all the strips loaded.
-Select Inverse :kbd:`Ctrl-I`
-   Inverts the current selection.
-Border Select :kbd:`B`
-   Begins the *Box* mode select process.
-   Click and drag a rectangular lasso around a region of strips in your Sequence workspace.
-   When you release the mouse button, the additional strips will be selected.

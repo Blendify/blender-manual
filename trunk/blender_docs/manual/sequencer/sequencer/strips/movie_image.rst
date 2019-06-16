@@ -37,10 +37,10 @@ In the case of (numbered) image sequences
 (e.g. ``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format), you have a choice:
 
 Range
-   Navigate into the directory and :kbd:`RMB` click and drag over a range of names to highlight multiple files.
-   You can page down and continue :kbd:`RMB` click-dragging to add more to the selection.
+   Navigate into the directory and :kbd:`LMB` click and drag over a range of names to highlight multiple files.
+   You can page down and continue :kbd:`Shift-LMB` click-dragging to add more to the selection.
 Batch
-   :kbd:`Shift-RMB` click selected non-related stills for batch processing; each image will be one frame,
+   :kbd:`Shift-LMB` click selected non-related stills for batch processing; each image will be one frame,
    in sort order, and can be a mix of file types (``jpg``, ``png``, ``exr``, etc.).
 All
    Press :kbd:`A` to select/deselect all files in the directory.
@@ -76,6 +76,7 @@ Example
 =======
 
 .. figure:: /images/editors_vse_sequencer_strips_movie-image_example.png
+vse-todo 2.8
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.
