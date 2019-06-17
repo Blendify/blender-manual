@@ -43,8 +43,9 @@ Options
 .. _file-load-ui:
 
 Load UI
-   When *Load UI* is checked, it loads the screen layout saved inside each blend-file,
-   replacing the current layout. Otherwise the file screen layout is ignored.
+   When enabled, the screen layout saved inside each blend-file is used,
+   replacing the current layout & :doc:`workspaces </interface/window_system/workspaces>`.
+   Otherwise the file screen layout is ignored.
 
    .. tip::
 
@@ -133,8 +134,23 @@ Save Copy
 Options
 -------
 
+.. _files-blend-compress:
+
 Compress File
    When enabled, the saved file will be smaller, but take longer to save and load.
+
+   .. note::
+
+      While compression is useful for distributing files online
+      and saving disk space for large projects it has drawbacks too.
+
+      This option may slow down Blender when you quit,
+      or under normal operation when Blender is saving your backup files.
+
+   .. seealso::
+
+      Linked Libraries :ref:`files-linked_libraries-known_limitations-compression`.
+
 Remap Relative
    This option remaps :ref:`files-blend-relative_paths`
    (such as linked libraries and images) when saving a file in a new location.

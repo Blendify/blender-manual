@@ -1,4 +1,5 @@
 .. _bpy.types.Library:
+.. _files-linked_libraries:
 
 ****************
 Linked Libraries
@@ -195,3 +196,14 @@ When linking objects *directly* into a blend-file, the *Rigid Body* settings
 **will not** be linked in since they are associated with their scene's world.
 
 As an alternative, you could link in the entire scene and set it as a :ref:`Background Set <scene-background-set>`.
+
+
+.. _files-linked_libraries-known_limitations-compression:
+
+Compression & Memory Use
+------------------------
+
+Linking to blend files with compression enabled may significantly increase memory usage while loading files.
+
+Reading data on demand isn't supported with compression
+*(this only impacts load time, once loaded there is no difference in memory use)*.
