@@ -148,16 +148,15 @@ Search
 .. _keymap-pref-py_menu_on_drag:
 
 
-Pie Menu On Drag
-----------------
-
-TODO2.8.
-
-
 3D View
 -------
 
-TODO2.8.
+Tab for Pie Menu
+   Causes :kbd:`Tab` to open a pie menu (swaps :kbd:`Tab` and :kbd:`Ctrl-Tab`).
+Pie Menu on Drag
+   Activate some pie menus on drag.
+   This allows to have separate actions assigned to to pressing :kbd:`Tab` and
+   holding :kbd:`Tab` while moving the mouse.
 
 
 Platform Specific Keys
