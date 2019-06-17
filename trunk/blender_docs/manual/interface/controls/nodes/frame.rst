@@ -13,8 +13,9 @@ Frames are useful when a node setup becomes large and confusing yet the re-usabi
 Properties
 ==========
 
-.. figure:: /images/editors_node-editor_nodes_frame_properties.png
-   :align: right
+.. TODO2.8:
+   .. figure:: /images/editors_node-editor_nodes_frame_properties.png
+      :align: right
 
 Label size
    Font size of the label. For example, for subordinate frames to have smaller titles.
