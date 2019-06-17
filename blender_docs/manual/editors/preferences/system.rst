@@ -61,6 +61,7 @@ Console Scrollback Lines
 Texture Time Out
    Time since last access of a GL texture in seconds, after which it is freed.
    Set this to 0 to keep textures allocated.
+
    Garbage Collection Rate
       Number of seconds between each run of the GL texture garbage collector.
 VBO Time Out
