@@ -115,7 +115,10 @@ Refractions
    but using the refracted view direction instead of the reflected view direction.
    Only the first refraction event is modeled correctly.
    An approximation of the second refraction event can be used for relatively thin objects using Refraction Depth.
-   Using Screen Space refraction will refract what is visible in.
+   Using Screen Space refraction will refract what is visible inside the view, and use the nearest probe if there is no hit.
+   Screen Space Reflections and Ambient Occlusion are not compatible with Screen Space Refraction; they will be disabled on the surfaces that use it.
+   Surfaces that use Screen Space Refraction will not appear in Screen Space Reflections at the right place.
+   Surfaces that use Screen Space Refraction will not cast Ambient Occlusion onto other surfaces.
 
 Bump Mapping
    As of now, bump mapping is supported using OpenGL derivatives which are the same for each block of 2x2 pixels.
