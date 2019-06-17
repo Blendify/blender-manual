@@ -3,6 +3,11 @@
 Navigation
 **********
 
+.. figure:: /images/preferences_navigation_tab.png
+
+   Blender Preferences navigation section.
+
+
 .. _prefs-input-orbit-style:
 
 Orbit & Pan
@@ -114,7 +119,7 @@ View Navigation
 Camera Parent Lock
    When the camera is locked to the view, the root parent is transformed rather than the camera.
 
-   .. hint::
+   .. tip::
 
       This is useful for camera rigs where you don't want to animate the camera directly.
 

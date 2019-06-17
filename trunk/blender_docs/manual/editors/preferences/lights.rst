@@ -3,6 +3,10 @@
 Lights
 ******
 
+.. figure:: /images/preferences_lights_tab.png
+
+   Blender Preferences Lights section.
+
 
 .. _prefs-lights-studio:
 

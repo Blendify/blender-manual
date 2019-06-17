@@ -3,6 +3,10 @@
 Viewport
 ********
 
+.. figure:: /images/preferences_viewport_tab.png
+
+   Blender Preferences Viewport section.
+
 Display
 =======
 
