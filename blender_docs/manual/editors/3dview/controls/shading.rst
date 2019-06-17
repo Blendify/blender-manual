@@ -55,6 +55,8 @@ Background
       Select a custom color the draw the background of the 3D Viewport.
 
 
+.. _3dview-lookdev:
+
 Look Dev
 ========
 
