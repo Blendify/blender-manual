@@ -6,7 +6,7 @@ Animation
 The *Animations* section lets you manage settings related to :doc:`Animation </animation/index>`.
 This includes how editors look and also some different tools properties.
 
-.. figure:: /images/preferences_addons_tab.png
+.. figure:: /images/preferences_animation_tab.png
 
    Blender Preferences Animation section.
 
