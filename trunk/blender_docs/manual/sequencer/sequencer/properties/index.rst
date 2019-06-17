@@ -13,4 +13,4 @@
    modifiers.rst
 
 
-vse-todo 2.8 review proxy_timecode, modifiers, add view
+.. TODO2.8(sequencer): review proxy_timecode, modifiers, add view

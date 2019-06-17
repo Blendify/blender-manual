@@ -4,7 +4,7 @@
 Subtract Effect
 ***************
 
-vse-todo 2.8
+.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_subtract_example.png
 
    Subtract Effect.

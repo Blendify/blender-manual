@@ -76,7 +76,7 @@ Example
 =======
 
 .. figure:: /images/editors_vse_sequencer_strips_movie-image_example.png
-vse-todo 2.8
+.. TODO2.8(sequencer):
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.

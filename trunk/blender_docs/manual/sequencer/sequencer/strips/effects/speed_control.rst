@@ -47,7 +47,7 @@ Examples
 Creating a Slow-Motion Effect
 -----------------------------
 
-vse-todo 2.8
+.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_example.jpg
    :width: 300px
 
@@ -75,7 +75,7 @@ That is it, set your render to animate (in this example) all 550 frames.
 Keyframing the Speed Control
 ----------------------------
 
-vse-todo 2.8
+.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_keyframing.png
    :align: right
 

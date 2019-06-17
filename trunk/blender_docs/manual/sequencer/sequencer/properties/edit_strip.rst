@@ -1,4 +1,5 @@
-vse-todo 2.8 rename file to Adjust
+.. TODO2.8(sequencer): rename file to Adjust
+
 ****************
 Adjust Panel
 ****************

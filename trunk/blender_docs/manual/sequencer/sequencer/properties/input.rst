@@ -1,4 +1,5 @@
-vse-todo 2.8 rename file to info
+.. TODO2.8(sequencer): rename file to info
+
 **********
 Info Panel
 **********
@@ -31,7 +32,7 @@ Color Space
 Alpha mode
    If the source file has an Alpha (transparency) channel, you can choose:
 
-   :term:`Straight Alpha` or :term:`Premultiplied AlpAha`
+   :term:`Straight Alpha` or :term:`Premultiplied Alpha`
 Change Data/Files
    Same as the *Path* and *File* fields, but
    this time combined to open the File Browser in order to find the file(s) you search.
@@ -58,12 +59,14 @@ Strip offset (soft)
    Can be used to either extend the strip beyond the end frame by repeating the last frame.
    Or it can be used to shorten the strip, as if you were cropping the end frame.
    This is the same has adjusting the strip handles.
+
 .. _sequencer-duration-hard:
+
 Hold offset (hard)
    Controls at what frame the source of the strip starts and ends at.
-   vse-todo 2.8
-
+   .. TODO2.8(sequencer):
 Playhead position
-   vse-todo 2.8
+   .
+   .. TODO2.8(sequencer):
 Resolution
    Resolution of the image

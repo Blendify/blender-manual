@@ -34,9 +34,7 @@ Handle
 Channel
    Select strips in the same channel laying left or right to active strip.
 Linked
-   All :kbd:`Ctrl-L`
-   Less :kbd:`Ctrl-Numpad-`
-   More :kbd:`Ctrl-Numpad+`
+   All :kbd:`Ctrl-L` / Less :kbd:`Ctrl-Numpad-` / More :kbd:`Ctrl-Numpad+`
       Selects strips, that are placed next to each other without any gaps
 Select Grouped :kbd:`Shift-G`
    Selects strips according to their relation with other strips.
