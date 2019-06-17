@@ -117,9 +117,10 @@ Enabling Screen Space Refraction on a surface means that refraction BSDFs
 will do a raytrace against the depth buffer to find the most accurate refracted color.
 This has a big performance cost if the surface covers a lot of pixels.
 
-Screen Space Reflections is not compatible with Screen Space Refraction.
-It will be disabled on the surfaces that use it.
-Surfaces that use Screen Space Refraction will not appear in Screen Space Reflections.
+Screen Space Reflections and Ambient Occlusion are not compatible with Screen Space Refraction.
+They will be disabled on the surfaces that use it.
+Surfaces that use Screen Space Refraction will not appear in Screen Space Reflections at the right place.
+Surfaces that use Screen Space Refraction will not cast Ambient Occlusion onto other surfaces.
 
 If this option is disabled or if the Screen Space Refraction raytrace fails,
 the refracted ray will use the color of the nearest probe.
