@@ -6,6 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   blend.rst
+   save_load.rst
    packed_data.rst
    previews.rst
