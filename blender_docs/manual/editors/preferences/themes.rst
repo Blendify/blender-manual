@@ -15,7 +15,7 @@ size in the *3D View* or the *Graph Editor* can also be changed.
 
 Themes use Blender's preset system to save a theme.
 This will save the theme to an XML file in the ``./scripts/presets/interface_theme/`` subdirectory of one of
-the :doc:`configuration directories </getting_started/configuration/directories>`.
+the :doc:`configuration directories </advanced/blender_directory_layout>`.
 
 .. figure:: /images/preferences_themes_example.png
 

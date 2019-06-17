@@ -92,7 +92,7 @@ With a template:
    | ``./config/{APP_TEMPLATE_ID}/startup.blend``
    | ``./config/{APP_TEMPLATE_ID}/userpref.blend``
 
-See :ref:`getting-started-config-directories` for details on script and configuration locations.
+See :ref:`blender-directory-layout` for details on script and configuration locations.
 
 
 Command Line Access

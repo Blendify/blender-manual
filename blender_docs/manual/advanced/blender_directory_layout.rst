@@ -1,16 +1,19 @@
-.. _getting-started-config-directories:
+.. _blender-directory-layout:
 
-***********************
-Configuring Directories
-***********************
+************************
+Blender Directory Layout
+************************
+
+This page documents the different directories used by Blender
+*(which can be helpful for troubleshooting)*.
 
 There are three different directories Blender may use,
-their exact locations are operating system dependent.
+their exact locations are platform dependent.
 
 LOCAL
    Location of configuration and run-time data (for self-contained bundle).
 USER
-   Location of configuration files (normally in the user's home directory).
+   Location of configuration files (typically in the user's home directory).
 SYSTEM
    Location of run-time data for system wide installation (may be read-only).
 
