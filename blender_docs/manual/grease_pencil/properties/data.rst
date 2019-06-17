@@ -22,7 +22,7 @@ See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 Onion Skinning
 ==============
 
-Onion skinning is used in animation to see several frames at once.
+Onion skinning is used in animation to see several frames at once and make decisions or edits based on how the previous/next frames are drawn.
 
 See :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` for more information.
 
