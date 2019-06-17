@@ -90,7 +90,7 @@ Options
              Subdivide UVs on.
 
    Optimal Display
-      When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
+      When drawing the wire-frame of this object, the wires of the new subdivided edges will be skipped
       (only draws the edges of the original geometry).
 
 

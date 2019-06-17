@@ -254,7 +254,7 @@ Wireframe
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Faces --> Wire frame`
 
-The Wireframe tool makes a wireframe from faces by turning edges into wireframe tubes,
+The Wireframe tool makes a wire-frame from faces by turning edges into wire-frame tubes,
 similar to the :doc:`/modeling/modifiers/generate/wireframe`.
 
 

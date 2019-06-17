@@ -22,7 +22,7 @@ through the three pop-up menus within the same entry:
 - *Disable Setting*: :kbd:`Alt-W` or :menuselection:`Armature --> Bone Settings --> Disable a Setting`
 
 Display Wire
-   Always draw the bone as wireframe.
+   Always draw the bone as wire-frame.
 Deform
    (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`).
 Multiply Vertex Group by Envelope
