@@ -110,7 +110,7 @@ File Location
 ^^^^^^^^^^^^^
 
 All scripts are loaded from the ``scripts`` folder of
-the :doc:`local, system and user paths </getting_started/configuration/directories>`.
+the :ref:`local, system and user paths <blender-directory-layout>`.
 
 You can setup an additional search path for scripts in
 :ref:`prefs-file-paths` :menuselection:`Preferences --> File Paths`.
