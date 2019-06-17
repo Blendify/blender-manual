@@ -83,7 +83,7 @@ Backface Culling
    Only show the front side of faces. Use this to find faces flipped the wrong way,
    especially when exporting to programs that use single sided drawing.
 Hidden Wire
-   Show only front-facing wireframes. This is useful for a retopology workflow.
+   Show only front-facing wire-frames. This is useful for a re-topology workflow.
    (Mesh, Edit Mode only).
 
    Tip: Optimally this could be combined with the *X-Ray* display setting.

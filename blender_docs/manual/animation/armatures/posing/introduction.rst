@@ -38,7 +38,7 @@ There are six different color codes, ordered here by precedence
 .. hue rotation based on the bone solid.
 
 - Gray: Default.
-- Blue wireframe: in Pose Mode.
+- Blue wire-frame: in Pose Mode.
 - Green: with Constraint.
 - Yellow: with :doc:`IK Solver constraint </animation/constraints/tracking/ik_solver>`.
 - Orange: with Targetless Solver constraint.

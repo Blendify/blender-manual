@@ -35,13 +35,13 @@ Filtering
 
 Filter Type
    Name
-      Search the key-map item by the operator name it calls.
+      Search the key-map item by the operator name it runs.
    Key Binding
       Search the key-map item by the key used to activate it.
 
       .. hint::
 
-         You could for example search for `Ctrl Shift C` for key-map items that use all these keys.
+         You could for example search for ``Ctrl Shift C`` for key-map items that use all these keys.
 Search
    The text to search (leave blank to disable).
 
@@ -78,7 +78,7 @@ Map Type
    Keyboard
       Single hotkey or key-combination.
    Mouse
-      Actions from mouse buttons, tablet & trackpad.
+      Actions from mouse buttons, tablet or track-pad input.
    NDOF
       Movement from a 3D mouse (:term:`NDOF`) device.
    Tweak

@@ -46,7 +46,7 @@ Armature
    :doc:`Armatures </animation/armatures/index>` are used for rigging 3D models
    in order to make them poseable and animateable.
 Lattice
-   :doc:`Lattices </animation/lattice>` are non-renderable wireframes,
+   :doc:`Lattices </animation/lattice>` are non-renderable wire-frames,
    commonly used for taking additional control over other objects
    with help of the :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
 
