@@ -94,12 +94,6 @@ You can click the arrow at the left of the add-on box to see more information, s
 its location, a description and a link to the documentation.
 Here you can also find a button to report a bug specific of this add-on.
 
-.. tip:: Saving Add-on Preferences
-
-   If you want an Add-on to be enabled every time you start Blender,
-   you will need to *Save User Settings*.
-
-
 .. _prefs-addons-prefs:
 .. _bpy.types.AddonPreferences:
 
