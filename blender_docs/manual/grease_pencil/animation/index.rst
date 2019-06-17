@@ -6,6 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst   
+   introduction.rst
    interpolation.rst
    additive_drawing.rst

@@ -1,8 +1,8 @@
 .. TODO2.8(sequencer): rename file to Adjust
 
-****************
+************
 Adjust Panel
-****************
+************
 
 .. admonition:: Reference
    :class: refbox

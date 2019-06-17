@@ -8,6 +8,6 @@
 
    data.rst
    layers.rst
-   onion_skinning.rst   
+   onion_skinning.rst
    strokes.rst
    display.rst

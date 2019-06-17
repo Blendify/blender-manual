@@ -41,7 +41,7 @@ Solid
 =====
 
 Show the scene using in solid mode. This mode uses the Workbench engine to render the 3D Viewport.
-For all options of the Workbench engine look the :doc:`lighting </render/workbench/lighting>`, 
+For all options of the Workbench engine look the :doc:`lighting </render/workbench/lighting>`,
 :doc:`color </render/workbench/color>` and :doc:`options </render/workbench/options>`.
 
 Background
