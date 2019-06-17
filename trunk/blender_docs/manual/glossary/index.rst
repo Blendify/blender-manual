@@ -420,6 +420,10 @@ This page lists definitions for terms used in Blender and this manual.
       the normals will always define two different and non-consecutive surfaces.
       A manifold mesh will always define an even number of non-overlapped surfaces.
 
+   MatCap
+      Stands for "material capture", using an image to represent a complete material
+      including lighting and reflections.
+
    Matte
    Mask
       A grayscale image used to include or exclude parts of an image.
