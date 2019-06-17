@@ -20,9 +20,10 @@ a value smaller than 0.5 acceleration in positive axis direction (like +Z).
 Options
 =======
 
-.. figure:: /images/physics_force-fields_types_texture_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_force-fields_types_texture_panel.png
 
-   UI for a Texture force field.
+      UI for a Texture force field.
 
 Texture mode
    This sets the way a force vector is derived from the texture.

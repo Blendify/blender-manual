@@ -20,9 +20,10 @@ For example fire sparkles could realistically flow along the air turbulence near
 Options
 =======
 
-.. figure:: /images/physics_force-fields_types_smoke-flow_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_force-fields_types_smoke-flow_panel.png
 
-   UI for a Smoke Flow force field.
+      UI for a Smoke Flow force field.
 
 Domain Object
    An object that is used as a domain for the smoke simulation.

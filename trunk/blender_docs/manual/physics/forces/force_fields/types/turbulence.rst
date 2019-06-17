@@ -16,9 +16,10 @@ similar to jets of water or geysers under the ocean.
 Options
 =======
 
-.. figure:: /images/physics_force-fields_types_turbulence_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_force-fields_types_turbulence_panel.png
 
-   UI for a Turbulence force field.
+      UI for a Turbulence force field.
 
 Size
    Indicates the scale of the noise.

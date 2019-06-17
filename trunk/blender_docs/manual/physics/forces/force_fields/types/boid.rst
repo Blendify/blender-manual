@@ -18,9 +18,10 @@ As with most artificial life simulations, Boids is an example of emergent behavi
 the complexity of Boids arises from the interaction of individual agents
 (the boids, in this case) adhering to a set of simple rules.
 
-.. figure:: /images/physics_force-fields_types_boid_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_force-fields_types_boid_panel.png
 
-   UI for a Boid force field.
+      UI for a Boid force field.
 
 The rules applied in the simplest Boids world are as follows:
 

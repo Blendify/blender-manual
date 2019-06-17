@@ -16,9 +16,10 @@ Wind
 The *Wind* force field gives a constant force in a single direction, along the force object's local Z axis.
 The strength of the force is visualized by the spacing of the circles shown.
 
-.. figure:: /images/physics_force-fields_types_wind_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_force-fields_types_wind_panel.png
 
-   UI for a Wind force field.
+      UI for a Wind force field.
 
 
 Example
