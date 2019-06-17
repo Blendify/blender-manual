@@ -162,7 +162,7 @@ def warn_title(fn, data_src):
     limit = 118
 
     title_chars = (
-        '#', '=', "-", '^', '~',
+        '%', '#', '*', '=', "-", '^', '~',
         # Shouldn't use but does work.
         '+',
     )
@@ -179,7 +179,7 @@ def warn_title(fn, data_src):
 
             expect_extra = 0
             expect_indent = 0
-            if l[0] == '#':
+            if l[0] in {'%', '#'}:
                 # Support for:
                 # #########
                 #   Title
