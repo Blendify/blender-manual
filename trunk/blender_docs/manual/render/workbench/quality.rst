@@ -23,7 +23,7 @@ No Anti-Aliasing
 Single Pass Anti-Aliasing
    Scene will be rendered with an anti-aliasing post processing pass.
 
-Multi Sample
+Multisample
    Scene will be rendered multiple times with a slight offset.
    The anti-aliasing will be gathered from the multiple renders.
    The number of samples are predefine so it uses the best distribution of the samples.
@@ -32,7 +32,7 @@ Multi Sample
 
    .. tip::
 
-      Multi Samples Anti-Aliasing is well suited for rendering small details like hair.
+      Multisample anti-aliasing is well suited for rendering small details like hair.
 
    *Progressive Viewport Rendering*
 
