@@ -161,7 +161,7 @@ Disable Anti-Aliasing :term:`Multisampling`
    You can disable this option by:
 
    - Turning multisampling off in your graphics card driver options.
-   - Turning *Multi-Sampling* off in the :ref:`System Preferences <prefs-system-multi-sampling>`.
+   - Turning *Multisampling* off in the :ref:`System Preferences <prefs-system-multisampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
    some specific sample settings may work while others fail.

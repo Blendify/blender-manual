@@ -170,4 +170,4 @@ Fractal
 
 .. seealso::
 
-   `Neal Hirsig's Array Modifier Screen-cast on Vimeo <https://vimeo.com/46061877>`__.
+   `Neal Hirsig's Array Modifier Screencast on Vimeo <https://vimeo.com/46061877>`__.

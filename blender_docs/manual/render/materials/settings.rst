@@ -48,7 +48,7 @@ Blend Mode
       Sort faces for correct alpha drawing (slow, use *Alpha Clip* instead when possible).
    Alpha Anti-Aliasing
       Use texture alpha to add an anti-aliasing mask,
-      requires multi-sample to be enabled
+      requires multisampling to be enabled
 
       .. TODO2.8 is this still the case?
 

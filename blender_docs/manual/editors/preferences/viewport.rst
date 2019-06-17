@@ -32,12 +32,12 @@ Look Dev Sphere Size
       Display simple, less intrusive axis in in the viewport.
 
 
-.. _prefs-system-multi-sampling:
+.. _prefs-system-multisampling:
 
 Quality
 =======
 
-.. TODO2.8: document what the difference exactly is between anti-aliasing & multi-sampling is.
+.. TODO2.8: document what the difference exactly is between anti-aliasing & multisampling is.
 
 Viewport Anti-aliasing
    Control the :term:`anti-aliasing` for smoother drawing.
