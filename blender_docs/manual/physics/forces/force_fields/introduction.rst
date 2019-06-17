@@ -55,8 +55,7 @@ change to the *Physics* tab. Select the field type in the *Fields* menu.
 
    After changing the fields *Fields* panel or deflection *Collision* panel settings,
    you have to recalculate the particle, soft body or cloth system by *Free Cache*,
-   this is not done automatically. You can clear the cache for all selected objects
-   with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
+   this is not done automatically.
 
    Particles react to all kinds of *Force Fields*,
    soft bodies only to *Force*, *Wind*, *Vortex*
@@ -97,13 +96,15 @@ Flow
    If non-zero, the effective force depends on the particle velocity.
    The value defines how quickly the effector force (acceleration)
    will be converted into the constant "air flow" velocity.
-Noise
+Noise Amount
    Adds noise to the strength of the force.
 Seed
    Changes the seed of the random noise.
-Effect Point
-   You can toggle the field's effect on particle *Location* and *Rotation*.
-Collision Absorption
+Affect Location
+   Influence the location of particles.
+Affect Rotation
+   Influence the rotation of particles.
+Absorption
    Force gets absorbed by collision objects.
 
 
@@ -113,7 +114,7 @@ Falloff
 Here you can specify the shape of the force field
 (if the falloff *Power* is greater than 0).
 
-Falloff Type
+Shape
    Sphere
       The falloff is uniform in all directions, as in a sphere.
    Tube

@@ -18,9 +18,10 @@ The *Force* field is the simplest of the fields. It gives a constant force towar
 Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
-.. figure:: /images/physics_force-fields_types_force_panel.png
+.. TODO2.8:
+   .. figure:: /images/physics_force-fields_types_force_panel.png
 
-   UI for a Force force field.
+      UI for a Force force field.
 
 For :doc:`Boids Particles </physics/particles/emitter/physics/index>`
 a field with positive strength can be used as a *Goal*,
