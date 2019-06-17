@@ -10,11 +10,11 @@ This page documents the different directories used by Blender
 There are three different directories Blender may use,
 their exact locations are platform dependent.
 
-LOCAL
+:LOCAL:
    Location of configuration and run-time data (for self-contained bundle).
-USER
+:USER:
    Location of configuration files (typically in the user's home directory).
-SYSTEM
+:SYSTEM:
    Location of run-time data for system wide installation (may be read-only).
 
 For system installations both **SYSTEM** and **USER** directories are needed.
@@ -37,26 +37,32 @@ Here are the default locations for each system:
 .. |INSTALLDIR| replace:: ./|BLENDER_VERSION|/
 
 
-Windows
--------
+Linux
+-----
 
-LOCAL
-   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\
-USER
-   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
-SYSTEM
-   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+:LOCAL:
+   ./|BLENDER_VERSION|/
+:USER:
+   $HOME/.config/blender/|BLENDER_VERSION|/
+:SYSTEM:
+   /usr/share/blender/|BLENDER_VERSION|/
+
+.. note::
+
+   The **USER** path will use ``$XDG_CONFIG_HOME`` if it is set:
+
+   .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
 
 macOS
 -----
 
-LOCAL
-   .. parsed-literal:: ./|BLENDER_VERSION|/
-USER
-   .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/
-SYSTEM
-   .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
+:LOCAL:
+   ./|BLENDER_VERSION|/
+:USER:
+   /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/
+:SYSTEM:
+   /Library/Application Support/Blender/|BLENDER_VERSION|/
 
 .. note::
 
@@ -66,21 +72,15 @@ SYSTEM
    .. parsed-literal:: ./blender.app/Contents/Resources/|BLENDER_VERSION|/
 
 
-Linux
------
+Windows
+-------
 
-LOCAL
-   .. parsed-literal:: ./|BLENDER_VERSION|/
-USER
-   .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
-SYSTEM
-   .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
-
-.. note::
-
-   The **USER** path will use ``$XDG_CONFIG_HOME`` if it is set:
-
-   .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
+:LOCAL:
+   .\\\ |BLENDER_VERSION|\\
+:USER:
+   %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+:SYSTEM:
+   %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 Path Layout
