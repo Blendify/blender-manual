@@ -43,10 +43,15 @@ The :ref:`temp-dir` sets where to store files such as temporary renders and auto
    The ``//`` at the start of each path in Blender means the directory of the currently opened blend-file,
    used to reference relative paths.
 
+See :doc:`File Preferences </editors/preferences/file_paths>` for details.
+
+Save & Load
+===========
+
 If you trust the source of your blend-files, you can enable *Auto Run Python Scripts*.
 This option is meant to protect you from malicious Python scripts that someone can include inside a blend-file.
 This would not happen by accident,
-and most users leave this option on to automatically run scripts often used in advanced rigs
+many users leave this option on to automatically run scripts often used in advanced rigs
 (such as "Rigify" that controls the skeleton of a human rig).
 
-See :doc:`File Preferences </editors/preferences/file_paths>` for details.
+See Save & Load :ref:`prefs-auto-execution` Preference.
