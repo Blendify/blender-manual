@@ -15,10 +15,15 @@ Flat
    Do not calculate any lighting. The base color of the scene will be rendered.
 
 Studio
-   Use studio lights to light the objects. The studio lights can be configured in the preferences.
+   Use studio lights to light the objects.
+   The studio lights can be :ref:`configured in the preferences <prefs-lights-studio>`.
    Studio lights can follow the camera or be fixed. When fixed the angle of the lights can be adjusted.
+
+.. _render-workbench-matcap:
 
 MatCap
    Use a material capture to light the objects in the scene.
-   Custom MatCaps can be loaded in the preferences.
+
+   Custom MatCaps can be :ref:`loaded in the preferences <prefs-lights-matcaps>`.
+
    Note, the MatCaps can be flipped horizontally.

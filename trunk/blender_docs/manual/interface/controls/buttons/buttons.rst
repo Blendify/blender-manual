@@ -59,3 +59,18 @@ Clicking :kbd:`LMB` on color fields opens the :doc:`/interface/controls/template
 Color buttons with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
 on the right the color with an alpha channel drawn over a checker pattern.
 Colors can be copied to other color fields by dragged and dropped to another color field.
+
+
+.. _ui-direction-button:
+
+Direction Buttons
+=================
+
+Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
+lets the user change the direction by rotating the sphere.
+
+Shortcuts
+---------
+
+- :kbd:`LMB` (drag) rotates the direction.
+- :kbd:`Ctrl` (while dragging) snaps to vertical & diagonal directions.

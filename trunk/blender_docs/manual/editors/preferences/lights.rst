@@ -3,10 +3,15 @@
 Lights
 ******
 
+
+.. _prefs-lights-studio:
+
 Studio Lights
 =============
 
-TODO2.8.
+*Studio Lights* are used to illuminate 3D viewport during *Solid View* and will not be rendered.
+
+Unlike lights in the scene, the lighting direction follows the view-port orientation.
 
 
 .. _bpy.types.UserSolidLight:
@@ -14,14 +19,11 @@ TODO2.8.
 Editor
 ------
 
-*Studio Lights* are used to light the 3D View,
-mostly during *Solid view*. Lighting is constant and position "world" based.
-There are up to four virtual light sources, used to illuminate 3D View scenes,
-which will not display in renders.
+There are up to four virtual light sources.
 
 The Lamp icons allow the user to enable or disable individual lights.
 At least one of the four Lamps must remain enabled for the 3D View.
-The lights are equal, except for their position and color.
+The lights are equal, except for their direction and color.
 You can control the direction of the lights, as well as their diffuse and specular colors.
 
 Light
@@ -36,20 +38,23 @@ Light
 
       *This has the effect of lighting to be less direct.*
    Direction
-      Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
-      let us the user change the direction of the lamp by rotating the sphere.
+      The direction of the light, (see :ref:`ui-direction-button`).
+
       The direction of the lamp will be the same as shown at the sphere surface.
 Ambient Color
    The color of unlit areas.
 
+.. _prefs-lights-matcaps:
 
 MatCaps
 =======
 
-TODO2.8.
+This panel manages :term:`matcap` image files
+which can used to light the view when :ref:`matcap <render-workbench-matcap>` shading is enabled.
 
 
 LookDev HDRIs
 =============
 
-TODO2.8.
+This panel manages :term:`HDRI` image files
+which can used to light the view when :ref:`LookDev <3dview-lookdev>` shading is enabled.
