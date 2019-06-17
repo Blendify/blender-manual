@@ -4,9 +4,10 @@ Introduction
 ************
 
 .. figure:: /images/editors_vse_sequencer_strips_introduction_strip-graphic.svg
-   vse-todo 2.8 rename hard offset -> hold offset
 
    Strip schematic.
+
+   .. TODO2.8(sequencer): rename hard offset -> hold offset
 
 A strip is a container which carries frames provided by one or more sources (input).
 It is defined by a *Start Frame* and a *Length*, and is displayed as a colored horizontal rectangle.
@@ -24,8 +25,9 @@ Add
 .. figure:: /images/editors_vse_sequencer_strips_introduction_add-menu.png
    :align: right
 
-   vse-todo 2.8
    The Add Menu.
+
+   .. TODO2.8(sequencer): update image.
 
 The Add menu is the main menu you will be using to add content to the VSE.
 In general, you load up your strips, create strips of special transition effects,

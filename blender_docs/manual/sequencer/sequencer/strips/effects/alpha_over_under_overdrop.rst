@@ -73,7 +73,7 @@ Example
 In the example below, the clouds are being placed on top of the white background
 through the use of an *Alpha Over* strip.
 
-vse-todo 2.8
+.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_alpha-over-under-overdrop_example.png
 
    Alpha Over Effect.

@@ -26,4 +26,4 @@ You can also use one effect strip as the input or source strip with another stri
 thus layering effects on top of one another.
 
 If you picked the wrong effect from the menu,
-you can always exchange it with :ref:`Change <sequencer-edit-change>` operator.
+you can always exchange it using :ref:`sequencer-edit-change`.

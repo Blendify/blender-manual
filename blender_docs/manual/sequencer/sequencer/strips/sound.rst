@@ -11,7 +11,8 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
 .. figure:: /images/editors_vse_sequencer_strips_sound_editing.png
 
    Example of sound editing.
-   vse-todo 2.8
+
+   .. TODO2.8(sequencer):
 
 Options
 =======
@@ -81,7 +82,7 @@ Output
 
 There are two ways to render out your audio. You can either have it encoded with a video file
 or in its own audio file. Read more on how select proper format :doc:`here </render/output/file_formats>`
-and how to start rendering :doc:`here </render/output>`
+and how to start rendering :doc:`here </render/output/index>`
 
 
 Known Limitations

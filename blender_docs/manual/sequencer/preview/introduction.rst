@@ -24,12 +24,13 @@ Safe Areas
 Show Metadata
    Display Image metadata in the preview area.
 
-vse-todo 2.8 document render entries?
+.. TODO2.8(sequencer): document render entries?
 
 Controls
 --------
 
-vse-todo 2.8
+.. TODO2.8(sequencer): update image.
+
 .. figure:: /images/editors_vse_preview_introduction_header.png
 
    Sequencer Display header.

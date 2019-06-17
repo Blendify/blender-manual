@@ -6,7 +6,8 @@ Navigating
 Header
 ======
 
-vse-todo 2.8
+.. TODO2.8(sequencer): update image.
+
 .. figure:: /images/editors_vse_sequencer_introduction_header.png
 
    Video Sequencer Header.
@@ -18,6 +19,7 @@ View Menu
 As usual, the View Menu controls the editor's view settings.
 
 Sidebar :kbd:`N`
+   TODO2.8: write text.
 Preview as Backdrop
    Displays the current frame in the background of the main view like in the Compositor.
 Frame Selected :kbd:`NumpadPeriod`
@@ -25,8 +27,10 @@ Frame Selected :kbd:`NumpadPeriod`
 Frame All :kbd:`Home`
    Zooms the display to show all strips.
 Zoom :kbd:`Shift-B`
+   TODO2.8: write text.
 Navigation
    Play Animation :kbd:`Spacebar`
+      TODO2.8: write text.
    Go to Playhead :kbd:`Numpad0`
       Scrolls the timeline so the current frame is in the center.
    Jump to Previous Strip :kbd:`PageDown`
@@ -34,14 +38,18 @@ Navigation
    Jump to Next Strip :kbd:`PageUp`
       Current frame will jump to beginning of strip.
    Jump to Previous Strip(Center) :kbd:`Alt-PageDown`
+      TODO2.8: write text.
    Jump to Next Strip(Center) :kbd:`Alt-PageUp`
+      TODO2.8: write text.
 Range
    Set Preview Range :kbd:`P`
       See :ref:`graph-preview-range`.
    Clear Preview Range :kbd:`Alt-P`
       See :ref:`graph-preview-range`.
    Set Start Frame :kbd:`Ctrl-Home`
+      TODO2.8: write text.
    Set End Frame :kbd:`Ctrl-End`
+      TODO2.8: write text.
 Show Seconds :kbd:`Ctrl-T`
    Displays the time instead of the frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
@@ -49,18 +57,19 @@ Show Frame Number Indicator
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
+   TODO2.8: write text.
 Cache
    Show Cache
       Show all enabled types.
-   
+
       Final Images, Raw Images, Preprocessed Images, Composite Images
 
-      vse-todo 2.8 link to cache manual
+      .. TODO2.8(sequencer): link to cache manual
 Waveform Displaying
    Global option to either draw the waveform, or the strip info,
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.
 
-vse-todo 2.8 document render entries?
+.. TODO2.8(sequencer): document render entries?
 
 Sync Markers
    Transform Markers as well as Strips.
@@ -72,7 +81,7 @@ Markers Menu
 :doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
 within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
 
-vse-todo 2.8
+.. TODO2.8(sequencer):
 .. figure:: /images/editors_graph-editor_introduction_markers.png
 
    Markers in animation editor.
@@ -113,9 +122,11 @@ Use these shortcuts to adjust the sequence area of the VSE:
 Playhead
 --------
 
-The Playhead is the blue vertical line with the current frame number at the top.
-It can be set or moved to a new position by pressing or holding :kbd:`LMB` in scrubbing area at the top of the timeline.
-You can move playhead in increments by pressing Left or Right, or you can jump to the beginning or end frame by pressing
+The Play-head is the blue vertical line with the current frame number at the top.
+It can be set or moved to a new position by pressing or holding :kbd:`LMB`
+in scrubbing area at the top of the timeline.
+You can move play-head in increments by pressing Left or Right,
+or you can jump to the beginning or end frame by pressing
 Shift-Left or Shift-Right. As you do, the image for that frame is displayed in the Preview region.
 
 When you drag the frame indicator with :kbd:`Shift-RMB` directly on a sequence strip,

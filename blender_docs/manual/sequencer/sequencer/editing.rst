@@ -25,9 +25,10 @@ To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a 
 
 You can also lock the direction to time with :kbd:`X` or to change the strip's channel with :kbd:`Y`.
 
-It is posslible to move strips using mouse by dragging them while holding kbd:`LMB`. Currently it is possible to move only 1 strip by dragging
+It is possible to move strips using mouse by dragging them while holding kbd:`LMB`.
+Currently it is possible to move only 1 strip by dragging
 
-vse-todo 2.8 ^^fix at last moment??
+.. TODO2.8(sequencer): ^^fix at last moment??
 
 
 Start Frame Offset
@@ -111,7 +112,7 @@ you can get all the way down to an individual frame.
 
 
 Clear Strips Offsets
-==================
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -123,7 +124,7 @@ To reset the (soft) start/end frame handles.
 
 
 Duplicate Strips
-==================
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -136,7 +137,7 @@ drag it to a time and channel, and drop it by :kbd:`LMB` click.
 
 
 Delete Strips
-==================
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -213,8 +214,11 @@ Mute Deselected Strips :kbd:`Shift-H`
    You can mute all strips but the selected.
 
 
-Change :kbd:`C`
-===============
+.. _sequencer-edit-change:
+
+Change
+======
+
 The Change sequence operator modifies the file path or effect inputs/type on active strip.
 
 Effect

@@ -37,7 +37,7 @@ Workflow
 
    After completing these steps you should get something similar to the image below:
 
-   vse-todo 2.8
+   .. TODO2.8(sequencer):
    .. figure:: /images/editors_vse_sequencer_strips_effects_multicam_example.png
 
       Multi-camera editing setup.
