@@ -4,13 +4,10 @@
 System
 ******
 
-The *System* tab allows you to set resolution, scripting console preferences,
-sound, graphics cards, and internationalization.
+The *System* tab allows you to set graphics card options, memory limits & sound settings.
 
 If your hardware does not support some of the options described on this page,
-then they will either not show up or get corrected on startup.
-If this happens do not worry, you can either consult your computer manual
-to find a supported value or just let Blender correct it.
+then they will either not show up or be corrected on startup.
 
 .. figure:: /images/preferences_system_tab.png
 
@@ -61,18 +58,17 @@ Sequencer Cache Limit
 Console Scrollback Lines
    The number of lines, buffered in memory of the console window.
    Useful for debugging purposes and command-line rendering.
-
 Texture Time Out
    Time since last access of a GL texture in seconds, after which it is freed.
    Set this to 0 to keep textures allocated.
-Garbage Collection Rate
-   Number of seconds between each run of the GL texture garbage collector.
-
+   Garbage Collection Rate
+      Number of seconds between each run of the GL texture garbage collector.
 VBO Time Out
-   TODO2.8.
-Garbage Collection Rate
-   TODO2.8.
+   Time since last access of a GL Vertex buffer object in seconds after which it is freed
+   (set to 0 to keep vbo allocated).
 
+   Garbage Collection Rate
+      Number of seconds between each run of the GL Vertex buffer object garbage collector
 
 .. _prefs-system-sound:
 
