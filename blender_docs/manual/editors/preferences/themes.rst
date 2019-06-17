@@ -4,7 +4,7 @@
 Themes
 ******
 
-The *Themes* tab allows you to customize interface appearance and colors.
+The *Themes* section allows you to customize interface appearance and colors.
 
 .. figure:: /images/preferences_themes_tab.png
 

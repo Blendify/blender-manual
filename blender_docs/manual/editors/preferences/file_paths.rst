@@ -5,14 +5,14 @@
 File Paths
 **********
 
-The *File* tab in *Preferences* allows you to configure auto-save preferences
+The *File* section in *Preferences* allows you to configure auto-save preferences
 and set default file paths for blend-files, rendered images, and more.
 
 Locations for various external files can be set for the following options:
 
 .. figure:: /images/preferences_file_tab.png
 
-   Preferences File Paths tab.
+   Preferences File Paths section.
 
 .. hint::
 

@@ -3,12 +3,12 @@
 Animation
 *********
 
-The *Animations* tab lets you manage settings related to :doc:`Animation </animation/index>`.
+The *Animations* section lets you manage settings related to :doc:`Animation </animation/index>`.
 This includes how editors look and also some different tools properties.
 
 .. figure:: /images/preferences_addons_tab.png
 
-   Blender Preferences Animation tab.
+   Blender Preferences Animation section.
 
 
 Timeline

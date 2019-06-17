@@ -4,14 +4,14 @@
 System
 ******
 
-The *System* tab allows you to set graphics card options, memory limits & sound settings.
+The *System* section allows you to set graphics card options, memory limits & sound settings.
 
 If your hardware does not support some of the options described on this page,
 then they will either not show up or be corrected on startup.
 
 .. figure:: /images/preferences_system_tab.png
 
-   Preferences System tab.
+   Preferences System section.
 
 
 Cycles Render Device

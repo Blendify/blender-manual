@@ -7,12 +7,12 @@
 Add-ons
 *******
 
-The *Add-ons* tab lets you manage secondary scripts, called "Add-ons" that extends Blender's functionality.
-In this tab you can search, install, enable and disable Add-ons.
+The *Add-ons* section lets you manage secondary scripts, called "Add-ons" that extends Blender's functionality.
+In this section you can search, install, enable and disable Add-ons.
 
 .. figure:: /images/preferences_addons_tab.png
 
-   Blender Preferences Add-ons tab.
+   Blender Preferences Add-ons section.
 
 
 Finding Add-ons
@@ -74,12 +74,12 @@ Refresh
 .. tip:: User-Defined Add-on Path
 
    You can also create a personal directory containing new add-ons and configure your files path in
-   the *File Paths* tab of the *Preferences*. To create a personal script directory:
+   the *File Paths* section of the *Preferences*. To create a personal script directory:
 
    #. Create an empty directory in a location of your choice (e.g. ``my_scripts``).
    #. Add a subdirectory under ``my_scripts`` called ``addons``
       (it *must* have this name for Blender to recognize it).
-   #. Open the *File Paths* tab of the *Preferences*.
+   #. Open the *File Paths* section of the *Preferences*.
    #. Set the *Scripts* file path to point to your script directory (e.g. ``my_scripts``).
    #. Save the preferences and restart Blender for it to recognize the new add-on location.
 
