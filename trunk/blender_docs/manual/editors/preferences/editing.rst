@@ -130,7 +130,7 @@ Sculpt Overlay Color
    representing the focal point of the brush influence.
    The overlay color is visible only when the overlay visibility is selected
    (clicking at the *eye* to set its visibility), and the transparency of the overlay is
-   controlled by the alpha slider located at the :menuselection:`Option tab --> Overlay panel`
-   in the Tool Shelf.
+   controlled by the alpha slider located at the :menuselection:`Tool tab --> Display panel`
+   in the side-bar.
 Node Auto-offset Margin
    Margin to use for :ref:`offsetting nodes <editors-nodes-usage-auto-offset>`.

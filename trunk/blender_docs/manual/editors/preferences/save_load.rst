@@ -6,7 +6,7 @@ Save & Load
 
 .. figure:: /images/preferences_save_load_tab.png
 
-   Preferences Save/Load tab.
+   Preferences Save/Load section.
 
 Blend Files
 ===========
