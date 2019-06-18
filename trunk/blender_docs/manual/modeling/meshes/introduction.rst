@@ -61,20 +61,20 @@ or use :ref:`3dview-multi-object-mode`.
 
    Edit Mode header.
 
-Tools and modes in the 3D View header are (left to right):
+Tools and modes in the 3D View header are split in 3 groups of buttons:
 
-Mode & Menus
+Mode & Menus (left)
    - Space selector *(shared by all space types)*.
    - Object mode selector.
    - View, Select, and Mesh menus.
 
-Transform Settings
+Transform Settings (center)
    - Transform orientation.
    - Pivot center.
    - Snap.
    - Proportional editing.
 
-Display & Shading
+Display & Shading (right)
    - Filter/select by object type popover.
    - Gizmo popover.
    - X-ray toggle.
@@ -104,17 +104,15 @@ By default, Blender highlights selected geometry in orange in both *Object Mode*
 
 In *Object Mode* with *Wireframe* shading enabled :kbd:`Z`,
 objects are displayed in black when unselected and in orange when selected.
-If more than one object is selected, all selected objects except the active object,
-typically the object last selected, are displayed in a darker orange color.
+
+With multiple objects selected the active object (typically the object last selected),
+is displayed with a brighter color.
 
 Similarly, in *Edit Mode*, unselected geometry is drawn in black while selected faces, edges,
-or vertices are drawn in orange. The active face is highlighted in white.
+or vertices are drawn in orange. The active face/edge/vertex is highlighted in white.
 If two vertices joined by an edge are selected in *Vertex selection mode*,
-the edge between them is highlighted too. Similarly,
-if enough vertices or edges are selected to define a face, that face is also highlighted.
-
-If multiple objects are selected before entering *Edit Mode*,
-all the selected objects remain highlighted in orange indicating that they are part of the active selection set.
+the edge between them is highlighted too.
+Similarly, if all vertices or edges of a face are selected, that face draws as selected.
 
 
 Tool Shelf
@@ -128,8 +126,7 @@ Open/close the *Mesh Tools* panel using :kbd:`T`.
 When entering *Edit Mode*, several mesh tools become available.
 
 Most of these tools are also available as shortcuts
-(displayed in the *Tooltips* for each tool) and/or in the *Specials* menu
-:kbd:`W`, the *Edge* menu :kbd:`Ctrl-E`, and *Face* menu :kbd:`Ctrl-F`.
+(displayed in the *Tooltips* for each tool).
 The properties of each tool are displayed in the operator panel at the bottom of the *Tool Shelf*.
 
 Even more mesh editing tools can be enabled in the :menuselection:`Preferences --> Add-ons`.
