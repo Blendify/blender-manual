@@ -125,7 +125,7 @@ if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
 Select All Toggles
 ------------------
 
-Causes selection to toggle when an selection exists.
+Causes selection to de-select all when any selection exists.
 
 
 Spacebar Action
@@ -145,17 +145,40 @@ Search
    This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 
 
-.. _keymap-pref-py_menu_on_drag:
 
 3D View
 -------
 
+.. _keymap-pref-py_menu_on_drag:
+
 Tab for Pie Menu
    Causes :kbd:`Tab` to open a pie menu (swaps :kbd:`Tab` and :kbd:`Ctrl-Tab`).
 Pie Menu on Drag
-   Activate some pie menus on drag.
-   This allows to have separate actions assigned to pressing :kbd:`Tab` and
-   holding :kbd:`Tab` while moving the mouse.
+   This allows keys to have a secondary drag action.
+
+   :kbd:`Tab`
+      :tap: Toggles edit-mode.
+      :drag: Object mode pie menu.
+   :kbd:`Z`
+      :tap: Toggles wire-frame.
+      :drag: Draw mode pie menu.
+   :kbd:`AccentGrave`
+      :tap: First person :ref:`Fly/walk mode <3dview-fly-walk>`.
+      :drag: View axis pie menu.
+
+Tilde Action
+
+   Navigate
+      Navigation pie menu.
+
+      *Use this on systems without a numeric key-pad.*
+   Gizmos
+      Transform gizmos pie menu.
+
+      *Use this for quickly switching between transform gizmos.*
+
+Extra Shading Pie Menu Items
+   Show additional items in the shading menu (:kbd:`Z` key).
 
 
 Platform Specific Keys
