@@ -41,11 +41,11 @@ Linux
 -----
 
 :LOCAL:
-   ./|BLENDER_VERSION|/
+   .. parsed-literal:: ./|BLENDER_VERSION|/
 :USER:
-   $HOME/.config/blender/|BLENDER_VERSION|/
+   .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
 :SYSTEM:
-   /usr/share/blender/|BLENDER_VERSION|/
+   .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
 
 .. note::
 
@@ -58,11 +58,11 @@ macOS
 -----
 
 :LOCAL:
-   ./|BLENDER_VERSION|/
+   .. parsed-literal:: ./|BLENDER_VERSION|/
 :USER:
-   /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/
+   .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/
 :SYSTEM:
-   /Library/Application Support/Blender/|BLENDER_VERSION|/
+   .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
 
 .. note::
 
@@ -76,11 +76,11 @@ Windows
 -------
 
 :LOCAL:
-   .\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\
 :USER:
-   %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 :SYSTEM:
-   %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: %USERPROFILE%\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 Path Layout
