@@ -235,8 +235,8 @@ Misc Options
    Set the application template (matching the directory name), use ``default`` for none.
 ``--factory-startup``
    Skip reading the startup.blend in the users home directory.
-``--enable-static-override``
-   Enable Static Override features in the UI.
+``--enable-library-override``
+   Enable Library Override features in the UI.
 ``--enable-event-simulate``
    Enable event simulation testing feature ``bpy.types.Window.event_simulate``.
 
@@ -285,13 +285,7 @@ Argument Parsing
 
       blender -ba test.blend
 
-   ...will ignore the ``a``.
-
-   .. code-block:: sh
-
-      blender -b test.blend -f8
-
-   ...will ignore ``8`` because there is no space between the ``-f`` and the frame value.
+   ...will exit since ``-ba`` is an unknown argument.
 
 
 Argument Order
