@@ -3,8 +3,11 @@
 Viewport Shading
 ****************
 
+.. _3dview-shading-xray:
+
 X-Ray
-   Show whole scene transparent. This option is not supported when using LookDev or Render mode.
+   Show the whole scene transparent.
+   This option is not supported when using LookDev or Render mode.
 
 
 Wireframe

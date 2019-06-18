@@ -40,10 +40,6 @@ Object Mode
 Operations in *Object Mode* affect the whole object.
 *Object Mode* has the following header in the 3D View:
 
-.. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
-
-   Object Mode header.
-
 
 Edit Mode
 ---------
