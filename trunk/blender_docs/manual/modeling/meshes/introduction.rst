@@ -55,32 +55,6 @@ You can only modify the mesh of the objects you are editing.
 To modify other objects you can leave edit-mode, select another object and enter edit-mode,
 or use :ref:`3dview-multi-object-mode`.
 
-*Edit Mode* has the following header in the 3D View:
-
-.. figure:: /images/modeling_meshes_introduction_3d-view-header-edit-mode.png
-
-   Edit Mode header.
-
-Tools and modes in the 3D View header are split in 3 groups of buttons:
-
-Mode & Menus (left)
-   - Space selector *(shared by all space types)*.
-   - Object mode selector.
-   - View, Select, and Mesh menus.
-
-Transform Settings (center)
-   - Transform orientation.
-   - Pivot center.
-   - Snap.
-   - Proportional editing.
-
-Display & Shading (right)
-   - Filter/select by object type popover.
-   - Gizmo popover.
-   - X-ray toggle.
-   - Shading modes.
-   - Shading popover.
-
 You can switch between the Object and Edit Modes with :kbd:`Tab`.
 You can change to any mode by selecting the desired *Mode* in the menu in the 3D View header.
 
