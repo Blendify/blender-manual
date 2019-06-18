@@ -1,8 +1,8 @@
 .. TODO2.8: Move/split? Move text style toggle to editing.
 
-**********
-Properties
-**********
+============
+ Properties
+============
 
 Shape
 =====
@@ -53,7 +53,7 @@ Geometry
    :class: refbox
 
    :Mode:      All Modes
-   :Panel:     :menuselection:`Properties editor --> Font --> Geometry`
+   :Panel:     :menuselection:`Properties --> Font --> Geometry`
 
 Offset
    Alters the space between letters.
@@ -64,21 +64,14 @@ Taper Object
    You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating
    the Control Points of the *Taper Object*. The *Taper Object* can only be a curve.
    Editing the Handles and Control Points of the *Taper Object* will cause the original object to change shape.
+Map Taper
+   Map taper to the beveled section of the curve.
+
 
 Bevel
 -----
 
-Depth
-   Changes the size of the bevel.
-Resolution
-   Alters the smoothness of the bevel.
-Object
-   Selects a curve object that can be used to give custom bevel results.
-
-.. seealso::
-
-   :doc:`Curve geometry </modeling/curves/properties/geometry>` for more details and examples.
-
+See :ref:`Curve Bevel <modeling-curve-bevel>` for more details.
 
 .. _modeling-text-character:
 
