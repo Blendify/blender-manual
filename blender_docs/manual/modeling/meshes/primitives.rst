@@ -24,13 +24,7 @@ You can also add primitives in Edit Mode at the 3D cursor.
 
    You can make a planar mesh three-dimensional by moving one or more of the vertices out of its plane
    (applies to *Plane*, *Circle* and *Grid*).
-   A simple circle is actually often used as a starting point to create even the most complex of meshes.
-
-.. hint::
-
-   In order to facilitate the modeling,
-   the best solution is to imagine what primitive type suits better for your model.
-   If you will model a cuboid, the best solution is to start with a primitive cube, and so on.
+   A simple circle is often used as a starting point to create even the most complex of meshes.
 
 
 Common Options
