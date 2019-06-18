@@ -51,7 +51,7 @@ Edit Mode
 Operations in *Edit Mode* affect only the geometry of an object,
 but not global properties such as location or rotation.
 
-You can only modify the mesh of the object you are editing.
+You can only modify the mesh of the objects you are editing.
 To modify other objects you need to leave, select them and re-enter Edit Mode.
 
 *Edit Mode* has the following header in the 3D View:

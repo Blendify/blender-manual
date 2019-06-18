@@ -24,16 +24,14 @@ You set the current mode in the *Mode* selector of 3D View header
 
    .. clear
 
-Modes might affect many things in Blender:
+Modes can affect many things in Blender:
 
-- They can modify the panels and/or controls available in some Properties editor
-  tabs.
-- They can modify the behavior of the whole editor,
-  like e.g. the UV Editor and 3D View.
-- They can modify the available header tools (menus and/or menu entries, as well
-  as other controls...). For example, in the 3D View editor, the *Object* menu
-  in Object Mode changes to a *Mesh* menu in Edit Mode (with an active mesh object!),
-  and a *Paint* menu in Vertex Paint Mode...
+- They can modify the panels and/or controls available in some Properties editor tabs.
+- They can modify the behavior of the whole editor, like e.g. the UV Editor and 3D View.
+- They can modify the available header tools (menus and/or menu entries, as well as other controls...).
+  For example, in the 3D View editor, the *Object* menu in Object Mode changes to a *Mesh* menu in Edit Mode
+  (with an active mesh object!), and a *Paint* menu in Vertex Paint Mode...
+- They can modify the available key-shortcuts.
 
 .. _tab-view3d-modes:
 
@@ -80,8 +78,8 @@ Modes might affect many things in Blender:
 
    The cursor becomes a brush in :doc:`Paint and Sculpt Modes </sculpt_paint/index>`.
 
-We will not go into any more detail on mode usages here, because most of them
-are tackled in their specific section.
+We will not go into any more detail on mode usages here,
+because they are tackled in their own sections.
 
 .. hint::
 
