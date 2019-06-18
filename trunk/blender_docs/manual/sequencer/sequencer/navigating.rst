@@ -122,12 +122,12 @@ Use these shortcuts to adjust the sequence area of the VSE:
 Playhead
 --------
 
-The Play-head is the blue vertical line with the current frame number at the top.
+The playhead is the blue vertical line with the current frame number at the top.
 It can be set or moved to a new position by pressing or holding :kbd:`LMB`
 in scrubbing area at the top of the timeline.
-You can move play-head in increments by pressing Left or Right,
+You can move playhead in increments by pressing :kbd:`Left` or :kbd:`Right`,
 or you can jump to the beginning or end frame by pressing
-Shift-Left or Shift-Right. As you do, the image for that frame is displayed in the Preview region.
+:kbd:`Shift-Left` or :kbd:`Shift-Right`. As you do, the image for that frame is displayed in the Preview region.
 
 When you drag the frame indicator with :kbd:`Shift-RMB` directly on a sequence strip,
 this will show the strip *solo*, (temporarily disregarding effects and other strips,

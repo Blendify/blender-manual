@@ -25,7 +25,7 @@ To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a 
 
 You can also lock the direction to time with :kbd:`X` or to change the strip's channel with :kbd:`Y`.
 
-It is possible to move strips using mouse by dragging them while holding kbd:`LMB`.
+It is possible to move strips using mouse by dragging them while holding :kbd:`LMB`.
 Currently it is possible to move only 1 strip by dragging
 
 .. TODO2.8(sequencer): ^^fix at last moment??
@@ -63,7 +63,7 @@ The frame number label over the strip displays the end frame of the strip.
 .. note:: Multiple selection
 
    You can select several (handles of) strips by :kbd:`Shift-LMB` clicking: when you press :kbd:`G`,
-   everything that is selected will move with your mouse- this means that,
+   everything that is selected will move with your mouse -- this means that,
    for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
 
@@ -239,7 +239,6 @@ Reassign Inputs
 This tool can be used to assign (reconnect) effect strips in a different way.
 Just select three arbitrary strips and press :kbd:`R`.
 If you don't create a cycle, those will be connected to a new effect chain.
-
 
 The Strip Menu contains additional tools for working with strips:
 

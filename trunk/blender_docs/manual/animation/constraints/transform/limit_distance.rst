@@ -47,7 +47,7 @@ Clamp Region
       The owner is constrained *on the surface* of the sphere.
 
 For Transform
-   Transform operators will take the constraint into account to immediately restrict the
-   resulting transform property values.
+   Transform operators will take the constraint into account to immediately restrict
+   the resulting transform property values.
 
 .. vimeo:: 171109014

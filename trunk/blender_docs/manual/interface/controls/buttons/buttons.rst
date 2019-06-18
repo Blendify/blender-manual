@@ -69,6 +69,7 @@ Direction Buttons
 Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
 lets the user change the direction by rotating the sphere.
 
+
 Shortcuts
 ---------
 

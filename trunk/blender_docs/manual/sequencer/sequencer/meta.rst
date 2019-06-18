@@ -9,7 +9,7 @@ It allows you to reduce the vertical space used in the Sequencer.
 You can edit it the same way as any other strips.
 
 It is organization tool. For example, if you are using a lot of strips with
-complicated arangement, you can group them together using Meta strips.
+complicated arrangement, you can group them together using Meta strips.
 
 Make Meta Strip :kbd:`Ctrl-G`
    To create a Meta strip, select all the strips you want to group, and :kbd:`Ctrl-G` to group them.

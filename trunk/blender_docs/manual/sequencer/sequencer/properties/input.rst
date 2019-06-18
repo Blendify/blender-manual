@@ -39,7 +39,7 @@ Change Data/Files
    :menuselection:`Strip --> Inputs --> Paths/files`
 MPEG Preseek
    Movie strip only -- Use the Preseek field to tell Blender to look backward and
-   compose the image based on the n previous frames (e.g. 15 for Mpeg2 DVD).
+   compose the image based on the n previous frames (e.g. 15 for MPEG-2 DVD).
 Stream index
    Movie strip only -- For files with several movie streams, use the stream with the given index.
 

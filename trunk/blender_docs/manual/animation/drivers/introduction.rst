@@ -35,8 +35,7 @@ The common way to add a driver to a property is to :kbd:`RMB` click a property,
 then add a driver via the context menu.
 Drivers can also be added by pressing :kbd:`Ctrl-D` with the mouse over the property set.
 
-This operation adds a driver with a single variable (but not filled in), and displays
-the *Edit Driver* popover.
+This operation adds a driver with a single variable (but not filled in), and displays the *Edit Driver* popover.
 
 
 Edit Driver
@@ -62,8 +61,8 @@ Open Drivers Editor
 
    :Menu:      :menuselection:`Context menu --> Open Drivers Editor`
 
-Opens a new window with the *Graph Editor* in the *Drivers* mode, and selects
-the driver associated with the property.
+Opens a new window with the *Graph Editor* in the *Drivers* mode, and
+selects the driver associated with the property.
 
 
 Copy & Paste

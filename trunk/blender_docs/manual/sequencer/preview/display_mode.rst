@@ -104,7 +104,7 @@ Color calibration is a matter of taste and depends on what you want.
 
 Use this display to check for too much color saturation.
 While over-saturated images look great for op-art and computer displays,
-they stink when shown on the big screen TV.
+they might not when shown on the big screen TV.
 
 This mode is good for:
 

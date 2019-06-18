@@ -11,6 +11,7 @@ exactly reproducing the weight-blended bone transformations and applying it to i
 It can be used like a variant of the :ref:`Child Of <bpy.types.ChildOfConstraint>` constraint
 that can handle multiple parents at once, but requires all of them to be bones.
 
+
 Target List
 ===========
 

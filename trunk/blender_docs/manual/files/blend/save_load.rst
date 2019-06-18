@@ -44,7 +44,7 @@ Options
 
 Load UI
    When enabled, the screen layout saved inside each blend-file is used,
-   replacing the current layout & :doc:`workspaces </interface/window_system/workspaces>`.
+   replacing the current layout and :doc:`Workspaces </interface/window_system/workspaces>`.
    Otherwise the file screen layout is ignored.
 
    .. tip::

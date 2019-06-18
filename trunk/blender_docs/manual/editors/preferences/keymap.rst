@@ -21,7 +21,7 @@ Preset Management
 Keymap Presets
    Select the key-map from a list of predefined key-maps.
 Import
-   Importing opens a file browser to select a ``.py`` file to add to the list of key-map presets.
+   Importing opens a File Browser to select a ``.py`` file to add to the list of key-map presets.
 Export
    Saves the current key-map configuration as a preset others may use.
 
@@ -45,7 +45,7 @@ Filter Type
 
       .. hint::
 
-         You could for example search for ``Ctrl Shift C`` for key-map items that use all these keys.
+         You could for example search with ``Ctrl Shift C`` for key-map items that use all these keys.
 Search
    The text to search (leave blank to disable).
 

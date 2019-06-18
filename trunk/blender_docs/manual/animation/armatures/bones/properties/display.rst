@@ -18,7 +18,7 @@ Display panel lets you customize the look of your bones taking the shape of anot
 Hide
    Hides the selected bone.
 Wireframe
-   When enabled, bone is displayed in wire-frame mode regardless of the viewport drawing mode.
+   When enabled, bone is displayed in wireframe mode regardless of the viewport drawing mode.
    Useful for non-obstructive custom bone chains.
 
 

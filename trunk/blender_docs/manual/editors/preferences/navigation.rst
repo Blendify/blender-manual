@@ -37,7 +37,7 @@ Orbit Around Selection
    .. note::
 
       While this may seem like ideal behavior,
-      it can be awkward for larger objects such as a terrain-mesh,
+      it can be inconvenient for larger objects such as a terrain mesh,
       where the center is not necessarily a point of interest.
 
 .. _prefs-interface-auto-perspective:
