@@ -16,6 +16,9 @@ Depending on the type of object you are trying to model, there are different typ
 of modeling :doc:`mode </editors/3dview/modes>`.
 Since modes are not specific to modeling they are covered in different parts of the manual.
 
+Switching between modes while modeling is common.
+Some tools may be available in more than one mode while others may be unique to a particular mode.
+
 
 Edit Mode
 ---------
@@ -29,3 +32,7 @@ Edit mode is used to edit the following types of objects:
 - Metaballs
 - Text objects
 - Lattice
+
+You can only modify the mesh of the objects you are editing.
+To modify other objects you can leave edit-mode, select another object and enter edit-mode,
+or use :ref:`3dview-multi-object-mode`.
