@@ -53,10 +53,49 @@ Display
       including blueprints or character sheets to model from, instead of using background images.
       The image is displayed regardless of the 3D display mode.
 
-      .. note::
+      Empty draw settings can be accessed from :menuselection:`Properties --> Object Data --> Empty` panel.
 
-         While images with an alpha channel can be used, there is a known limitation with object draw order,
-         where alpha-images will not always be drawn on top of other objects when unselected.
+      Use Alpha
+         Use alpha blending instead of alpha-test
+         *(blends with the background but can have depth sorting artifacts)*.
+      Transparency
+         Fade the images transparency
+         *(uses the Object Color's Alpha component)*.
+      Offset X, Y
+         Offset the image origin
+         *(where 1.0 represents the width/height of the image)*.
+
+         :X=0.5, Y=0.5: Objet origin at image center.
+         :X=0.0, Y=0.0: Objet origin at image bottom, left.
+         :X=1.0, Y=1.0: Objet origin at image top, right.
+      Depth
+         :Default: Use normal depth behavior.
+         :Front: Always draw on top of other objects.
+         :Back: Always draw behind of other objects.
+
+         .. tip::
+
+            When using the image as a reference for modeling,
+            it can be useful to set the depth to *Front*, with a low *Transparency*.
+
+      Side
+         :Both: Draw both the front & back of the empty.
+         :Front: Only draw the front of the image.
+         :Back: Only draw the back of the image.
+
+         .. tip::
+
+            This is useful if you're using an image as a reference where you have photos from both the front and back,
+            so two empty images can be set only to show when viewed from the correct side.
+      Display Orthographic
+         Show in orthographic view.
+      Display Perspective
+         Show in perspective view.
+
+         .. hint::
+
+            It's often useful to disable this so reference images don't
+            *get in the way* when viewing a model.
 
    Size
       Controls the size of the empties visualization. This does not change its scale, but functions as an offset.
