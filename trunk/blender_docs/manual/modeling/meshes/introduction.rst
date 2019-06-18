@@ -63,15 +63,23 @@ or use :ref:`3dview-multi-object-mode`.
 
 Tools and modes in the 3D View header are (left to right):
 
-- View, Select, and Mesh menus
-- Blender Mode
-- Display method for 3D View
-- Pivot center
-- 3D manipulator widget
-- Selection mode
-- Limit Selection to Visible
-- Proportional editing
-- Snap
+Mode & Menus
+   - Space selector *(shared by all space types)*.
+   - Object mode selector.
+   - View, Select, and Mesh menus.
+
+Transform Settings
+   - Transform orientation.
+   - Pivot center.
+   - Snap.
+   - Proportional editing.
+
+Display & Shading
+   - Filter/select by object type popover.
+   - Gizmo popover.
+   - X-ray toggle.
+   - Shading modes.
+   - Shading popover.
 
 You can switch between the Object and Edit Modes with :kbd:`Tab`.
 You can change to any mode by selecting the desired *Mode* in the menu in the 3D View header.
