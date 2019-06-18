@@ -440,7 +440,6 @@ a.external {color:#656AE0;}
 .rst-content dl.field-list dt {
 	grid-column-start: 1;
 	grid-column-end: 2;
-	line-height: 24px;
 	font-size: 90%;
 }
 .rst-content dl.field-list dt:after {
