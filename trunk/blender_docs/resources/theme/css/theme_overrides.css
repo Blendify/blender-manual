@@ -72,7 +72,6 @@ input[type="number"], input[type="tel"], input[type="color"] {
 /* Literal blocks that use too much padding, make them look like regular literals. */
 .rst-content pre.literal-block {
 	font-size: 75%;
-	font-weight: bold;
 	margin:0;
 	padding:2px 4px;
 	color:#404040;
