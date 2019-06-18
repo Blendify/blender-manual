@@ -3,6 +3,9 @@
 Object Modes
 ************
 
+Summary
+=======
+
 .. _fig-view3d-mode-select:
 
 .. figure:: /images/editors_3dview_modes_menu.png
@@ -32,6 +35,10 @@ Modes can affect many things in Blender:
   For example, in the 3D View editor, the *Object* menu in Object Mode changes to a *Mesh* menu in Edit Mode
   (with an active mesh object!), and a *Paint* menu in Vertex Paint Mode...
 - They can modify the available key-shortcuts.
+
+
+Object Mode List
+================
 
 .. _tab-view3d-modes:
 
@@ -86,3 +93,23 @@ because they are tackled in their own sections.
    If you are reading this manual and some button or menu option is referenced
    that does not appear on your screen, it may be that you are not in the proper
    mode for that option to be valid.
+
+
+.. _3dview-multi-object-mode:
+
+Multi-Object Modes
+==================
+
+Edit & Pose mode support multiple objects at once.
+
+This is convenient if you want to perform the same edits on multiple objects
+or want to animate multiple characters at once.
+
+- To use edit multiple objects at once, simply select multiple objects and enter the mode.
+- The outliner can also be used to add/remove objects while you are in a mode,
+  by setting or clearing the mode from the context menu, or :kbd:`Shift-LMB` clicking on the objects data icon.
+- Only the active object will be used to display properties such as Shape Keys, UV Layers .. etc.
+- Selecting any element from an object will set this as the active object.
+- There are limits to the kinds of operations that can run on multiple objects.
+
+  *You can't for e.g: create an edge that has vertices from different objects.*
