@@ -1,5 +1,7 @@
 .. TODO2.8: Move/split? Move text style toggle to editing.
 
+.. TODO(campbell): Link to curve docs for all shared properties instead of documenting twice.
+
 ============
  Properties
 ============
@@ -12,10 +14,6 @@ Shape
 
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Text --> Shape`
-
-.. figure:: /images/modeling_texts_properties_shape-settings.png
-
-   The Shape panel.
 
 As you can see in the *Shape* panel, texts have most of the same options as
 :doc:`Curves </modeling/curves/properties/data>`.
@@ -84,12 +82,20 @@ Font
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties editor --> Font --> Font`
 
-.. figure:: /images/modeling_texts_properties_font-settings.png
-   :width: 290px
+Bold
+   Toggled with the *Bold* button before typing.
+   Text can also be set to Bold by selecting it then using the *Bold* button in the Tool Shelf.
+Italics
+   Toggled with the *Italic* button before typing.
+   Text can also be set to Italic by selecting it then using the *Italic* button in the Tool Shelf.
+Underline
+   Enables underlining, as controlled by the Underline settings above.
+Small Caps
+   Enable the *Small Caps* option to type characters as small caps.
 
-   Character options to, for example, type bold text.
+   The size of the *Small Caps* can be changed with the *Small Caps Scale* setting.
+   Note that the *Small Caps Scale* is applied the same to all *Small Caps* formatted characters.
 
-The *Font* panel has several options for changing the look of characters.
 
 
 Transform
@@ -144,27 +150,12 @@ Text on Curve
 Underline
    Toggled with the *Underline* button before typing.
    Text can also be set to Underlined by selecting it then using the *Underline* button in the Tool Shelf.
-
 Underline Position
    This allows you to shift vertically the position of the underline.
 Underline Thickness
    This controls the thickness of the underline.
 Small Caps Scale
    Type small capital text.
-
-Bold
-   Toggled with the *Bold* button before typing.
-   Text can also be set to Bold by selecting it then using the *Bold* button in the Tool Shelf.
-Italics
-   Toggled with the *Italic* button before typing.
-   Text can also be set to Italic by selecting it then using the *Italic* button in the Tool Shelf.
-Underline
-   Enables underlining, as controlled by the Underline settings above.
-Small Caps
-   Enable the *Small Caps* option to type characters as small caps.
-
-   The size of the *Small Caps* can be changed with the *Small Caps Scale* setting.
-   Note that the *Small Caps Scale* is applied the same to all *Small Caps* formatted characters.
 
 
 Paragraph
@@ -177,11 +168,6 @@ Paragraph
    :Panel:     :menuselection:`Properties editor --> Font --> Paragraph`
 
 The *Paragraph* Panel has settings for the alignment and spacing of text.
-
-.. figure:: /images/modeling_texts_properties_paragraph-settings.png
-   :width: 290px
-
-   The Paragraph panel.
 
 
 Alignment
@@ -258,10 +244,6 @@ Text flows continuously from the lowest-numbered frame to the highest-numbered f
 inside each frame word-wrapped.
 Text flows between frames when a lower-numbered frame cannot fit any more text.
 If the last frame is reached, text overflows out of it.
-
-.. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
-
-   Text Boxes panel.
 
 Add Textbox
    Inserts a new frame, just after the current one (in text flow order).
