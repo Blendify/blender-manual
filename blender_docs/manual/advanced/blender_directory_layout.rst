@@ -1,8 +1,8 @@
 .. _blender-directory-layout:
 
-*************************
-Blenders Directory Layout
-*************************
+**************************
+Blender's Directory Layout
+**************************
 
 This page documents the different directories used by Blender
 *(which can be helpful for troubleshooting)*.

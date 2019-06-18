@@ -9,10 +9,10 @@ If you use a Scene strip, the areas of the image where there is not anything sol
 they have an alpha value of 0. If you use a movie strip, that movie has an alpha value of 1 (completely opaque).
 
 So, you can use the *Alpha Over* / *Alpha Under* effect to composite the CGI Scene on top of your movie.
-The result is your model doing whatever as if it was part of the movie.
-The :menuselection:`Adjust --> Compositing --> Opacity` controls how much the foreground is mixed over the background,
-fading in the foreground on top of the background. The colors of transparent foreground image
-areas are ignored and do not change the color of the background.
+The result is your model doing whatever as if it was part of the movie. 
+The :menuselection:`Adjust --> Compositing --> Opacity` controls how much
+the foreground is mixed over the background, fading in the foreground on top of the background.
+The colors of transparent foreground image areas are ignored and do not change the color of the background.
 
 
 .. _bpy.types.AlphaOverSequence:

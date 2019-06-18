@@ -21,7 +21,7 @@ Edit Lines
 ==========
 
 Points are always connected by a straight line,
-the line you see when you are editing in Edit Mode or when you look at a stroke in wire-frame view.
+the line you see when you are editing in Edit Mode or when you look at a stroke in wireframe view.
 They are invisible on the rendered image and used to construct the final stroke.
 
 

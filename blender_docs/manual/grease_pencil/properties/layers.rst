@@ -12,7 +12,7 @@
 Layers List
 ===========
 
-*Grease Pencil* has an special 2D layers displayed in a :ref:`List View <ui-list-view>`
+*Grease Pencil* has a special 2D layers displayed in a :ref:`List View <ui-list-view>`
 to help grouping and arranging strokes.
 Every stroke in the object only belong to one 2D layer.
 
@@ -60,6 +60,7 @@ Merge Down
 
 Copy Layer to Object
    Makes a copy of the layer and move it to the selected *Grease Pencil* Object.
+
 
 Main Settings
 =============
@@ -118,5 +119,5 @@ TODO2.8
 
 .. tip::
 
-   We can still have access to the layers list in the top-bar
+   We can still have access to the layers list in the Topbar
    when working in Full canvas workspace for example.

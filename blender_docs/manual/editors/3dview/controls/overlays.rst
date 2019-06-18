@@ -224,7 +224,7 @@ Vertex Paint
 Opacity
    The opacity of the overlay.
 Show Wire
-   Use wire-frame display in paint modes.
+   Use wireframe display in paint modes.
 
 
 Weight Paint
@@ -242,7 +242,7 @@ Zero Weights
 Show Weight Contours
    Show contour lines formed by points with the same interpolated weight.
 Show Wire
-   Use wire-frame display in paint modes.
+   Use wireframe display in paint modes.
 
 
 Texture Paint

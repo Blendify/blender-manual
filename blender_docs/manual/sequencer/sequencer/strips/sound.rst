@@ -14,6 +14,7 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
 
    .. TODO2.8(sequencer):
 
+
 Options
 =======
 

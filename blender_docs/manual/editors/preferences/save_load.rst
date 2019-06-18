@@ -8,6 +8,7 @@ Save & Load
 
    Preferences Save/Load section.
 
+
 Blend Files
 ===========
 
@@ -23,7 +24,7 @@ Save Preview Images
    are created on demand. To save these previews into your blend-file,
    enable this option (at the cost of increasing the size of your blend-file).
 Tabs as Spaces
-   Entering :kbd:`Tab` in the text editor adds the appropriate number of spaces
+   Entering :kbd:`Tab` in the Text Editor adds the appropriate number of spaces
    instead of using characters.
 Save Prompt
    Asks for confirmation before closing or opening a new
@@ -91,7 +92,7 @@ Filter File Extensions
       File extension filter.
 
 Hide Dot File/Data-blocks
-   Hide file which start with ``.`` on file browsers and ID selector.
+   Hide file which start with ``.`` on File Browsers and ID selector.
 
    .. hint::
 

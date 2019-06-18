@@ -45,6 +45,7 @@ The :ref:`temp-dir` sets where to store files such as temporary renders and auto
 
 See :doc:`File Preferences </editors/preferences/file_paths>` for details.
 
+
 Save & Load
 ===========
 

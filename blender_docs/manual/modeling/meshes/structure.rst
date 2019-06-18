@@ -33,7 +33,7 @@ Edges
 =====
 
 An edge always connects two vertices by a straight line.
-The edges are the "wires" you see when you look at a mesh in wire-frame view.
+The edges are the "wires" you see when you look at a mesh in wireframe view.
 They are usually invisible on the rendered image. They are used to construct faces.
 
 

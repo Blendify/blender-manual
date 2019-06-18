@@ -144,7 +144,7 @@ Limit Selection to Visible
 ==========================
 
 If you are in solid, shaded, or textured viewport shading mode
-(not bounding box or wire-frame),
+(not bounding box or wireframe),
 you will have a fourth button in the header that looks like a cube,
 just right of the select mode ones.
 
@@ -238,7 +238,7 @@ If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging
 
 .. note::
 
-   If you are in bounding box or wire-frame viewport shading mode,
+   If you are in bounding box or wireframe viewport shading mode,
    or when not enabled *Limit Selection to Visible*.
    For *Faces* select mode, the circle must intersect the face indicators
    usually represented by small pixel squares; one at the center of each face.

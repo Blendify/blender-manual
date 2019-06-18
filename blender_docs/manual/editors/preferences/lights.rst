@@ -15,7 +15,7 @@ Studio Lights
 
 *Studio Lights* are used to illuminate 3D viewport during *Solid View* and will not be rendered.
 
-Unlike lights in the scene, the lighting direction follows the view-port orientation.
+Unlike lights in the scene, the lighting direction follows the viewport orientation.
 
 
 .. _bpy.types.UserSolidLight:
@@ -48,13 +48,14 @@ Light
 Ambient Color
    The color of unlit areas.
 
+
 .. _prefs-lights-matcaps:
 
 MatCaps
 =======
 
-This panel manages :term:`matcap` image files
-which can used to light the view when :ref:`matcap <render-workbench-matcap>` shading is enabled.
+This panel manages :term:`MatCap` image files
+which can used to light the view when :ref:`MatCap <render-workbench-matcap>` shading is enabled.
 
 
 LookDev HDRIs

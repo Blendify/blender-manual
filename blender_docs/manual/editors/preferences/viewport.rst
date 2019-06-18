@@ -7,6 +7,7 @@ Viewport
 
    Blender Preferences Viewport section.
 
+
 Display
 =======
 

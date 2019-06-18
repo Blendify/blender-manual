@@ -13,9 +13,9 @@ Select Menu
 The Select Menu helps you select strips in different ways.
 
 All :kbd:`A`
-   Selects all the strips in timeline.
+   Selects all the strips in the timeline.
 None :kbd:`Alt-A`
-   Deselects all the strips in timeline.
+   Deselects all the strips in the timeline.
 Invert :kbd:`Ctrl-I`
    Inverts the current selection.
 Box Select :kbd:`B`

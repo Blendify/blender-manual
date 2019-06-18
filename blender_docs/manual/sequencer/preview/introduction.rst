@@ -1,10 +1,10 @@
+
 ************
 Introduction
 ************
 
 Sequencer preview is used to display result of rendering Sequencer timeline.
-This can be further configured to display output from certain channel, overlay
-or image analyzer(scope).
+This can be further configured to display output from certain channel, overlay or image analyzer (scope).
 
 
 Header
@@ -23,6 +23,7 @@ Safe Areas
    Display an overlay on the preview, marking where title safe region is.
 Show Metadata
    Display Image metadata in the preview area.
+
 
 .. TODO2.8(sequencer): document render entries?
 

@@ -17,13 +17,12 @@ include:
 - Rotating
 - Scaling
 
-These three transforms are the three big ones however, more, advanced
-transformations can be found in the
-:doc:`Advanced Transformations </scene_layout/object/editing/transform/index>` section.
+These three transforms are the three big ones however, more, advanced transformations can be found
+in the :doc:`Advanced Transformations </scene_layout/object/editing/transform/index>` section.
 
 For making other changes to the geometry of editable objects, you should use *Edit Mode*.
 
 Once you have added a basic object, you remain in *Object Mode*.
 You can switch between *Object Mode* and *Edit Mode* by pressing :kbd:`Tab`.
-The object's wire-frame should now appear orange.
+The object's wireframe should now appear orange.
 This means that the object is now selected and active.

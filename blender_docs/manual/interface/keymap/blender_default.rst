@@ -114,7 +114,6 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
 Preferences
 ===========
 
-
 Select With
 -----------
 
@@ -126,7 +125,7 @@ if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
 Select All Toggles
 ------------------
 
-Causes selection to toggle when an existing selection exists.
+Causes selection to toggle when an selection exists.
 
 
 Spacebar Action
@@ -145,8 +144,8 @@ Search
    Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
    This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 
-.. _keymap-pref-py_menu_on_drag:
 
+.. _keymap-pref-py_menu_on_drag:
 
 3D View
 -------
@@ -155,7 +154,7 @@ Tab for Pie Menu
    Causes :kbd:`Tab` to open a pie menu (swaps :kbd:`Tab` and :kbd:`Ctrl-Tab`).
 Pie Menu on Drag
    Activate some pie menus on drag.
-   This allows to have separate actions assigned to to pressing :kbd:`Tab` and
+   This allows to have separate actions assigned to pressing :kbd:`Tab` and
    holding :kbd:`Tab` while moving the mouse.
 
 

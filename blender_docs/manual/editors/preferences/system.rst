@@ -66,10 +66,11 @@ Texture Time Out
       Number of seconds between each run of the GL texture garbage collector.
 VBO Time Out
    Time since last access of a GL Vertex buffer object in seconds after which it is freed
-   (set to 0 to keep vbo allocated).
+   (set to 0 to keep VBO allocated).
 
    Garbage Collection Rate
-      Number of seconds between each run of the GL Vertex buffer object garbage collector
+      Number of seconds between each run of the GL Vertex buffer object garbage collector.
+
 
 .. _prefs-system-sound:
 
