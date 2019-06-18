@@ -81,7 +81,9 @@ Special Characters
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Text --> Special Characters`
+   :Menu:      :menuselection:`Edit --> Special Characters`
+
+This is a limited character map to insert characters which arent' available from the keyboard.
 
 If you need special characters (such as accented chars, which are not on your keyboard)
 you can produce many of them using a combination of two other characters. To do so,
@@ -89,32 +91,21 @@ type the main char, press :kbd:`Alt-Backspace`,
 and then press the desired "modifier" to produce the special character.
 Some examples are given below:
 
-.. list-table::
-   :widths: 20 80
 
-   * - |atilde|
+Accent Characters
+-----------------
 
-     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
+Inserting acccent characters is supported via key shortcuts.
 
-   * - |aacute|
 
-     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`'`
+.. TODO: this list is incomplete, see: `findaccent` in Blender's source.
 
-   * - |agrave|
-
-     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\\`
-
-   * - |aring|
-
-     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`O`
-
-   * - |euml|
-
-     - :kbd:`E`, :kbd:`Alt-Backspace`, :kbd:`"`
-
-   * - |oslash|
-
-     - :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
+:|atilde|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
+:|aacute|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`'`
+:|agrave|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\\`
+:|aring|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`O`
+:|euml|: :kbd:`E`, :kbd:`Alt-Backspace`, :kbd:`"`
+:|oslash|: :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
 
 
 Inserting Text
@@ -134,6 +125,12 @@ Setting Case
 
 You can change the text case by selecting it then clicking the *To Upper* or
 *To Lower* in the Tool Shelf.
+
+
+Font Style
+----------
+
+.. TODO: reference "Font" menu, this is more useful in most cases.
 
 Blender's *Bold* and *Italic* buttons do not work the same way as other applications,
 as they also serve as placeholders for you to load up other fonts manually,
