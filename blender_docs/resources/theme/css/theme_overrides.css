@@ -80,6 +80,11 @@ input[type="number"], input[type="tel"], input[type="color"] {
 	display: inline;
 }
 
+/* Without this, paragraphs in bullet points within definition lists have too much vertical padding. */
+.rst-content li > p {
+	margin-bottom: 0px !important;
+}
+
 /* TABLE & FIGURE */
 
 /* Moves captions to bottom. */
