@@ -148,6 +148,14 @@ Sections
 
       .. container:: descr
 
+         .. figure:: /images/index_addons.jpg
+            :target: addons/index.html
+
+         :doc:`/addons/index`
+            Extending built-in functionality.
+
+      .. container:: descr
+
          .. figure:: /images/index_advanced.jpg
             :target: advanced/index.html
 
@@ -193,8 +201,8 @@ Sections
       movie_clip/index.rst
       sequencer/index.rst
       files/index.rst
-      advanced/index.rst
       addons/index.rst
+      advanced/index.rst
       troubleshooting/index.rst
       glossary/index.rst
 
