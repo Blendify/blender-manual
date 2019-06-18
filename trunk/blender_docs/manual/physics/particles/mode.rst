@@ -256,11 +256,6 @@ Show Children
 Editing
 =======
 
-.. warning:: Beware of Undo!
-
-   Using *Undo* in *Particle Edit Mode* can have strange results. Remember to save often!
-
-
 Moving Keypoints or Particles
 -----------------------------
 
