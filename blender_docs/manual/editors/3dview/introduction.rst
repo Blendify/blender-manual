@@ -7,35 +7,31 @@ The 3D View is used to interact with the 3D scene for a variety of purposes,
 such as modeling, animating, texture painting, etc.
 
 
-Header
-======
+Header Region
+=============
+
+.. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
+
+   Object Mode header.
 
 The header contains various menus and controls based on
 the current :doc:`mode </editors/3dview/modes>`.
 
+Tools and modes in the 3D View header are split in 3 groups of buttons:
+
+Mode & Menus
+------------
 
 Mode
-----
+   The 3D View has :doc:`several modes </editors/3dview/modes>`
+   used for editing different kinds of data.
 
-The 3D View has :doc:`several modes </editors/3dview/modes>`
-used for editing different kinds of data:
-
-- Object Mode
-- Edit Mode
-- Sculpt Mode
-- Vertex Paint
-- Weight Paint
-- Texture Paint
-- Particle Edit
-- Pose Mode
-- Edit Strokes Mode
-
-
-Menus
------
 
 View
    This menu offers tools to :doc:`navigate </editors/3dview/navigate/index>` in 3D space.
+
+*Other menus depend on the current mode, object mode menus listed below.*
+
 Select
    Contains tools for :doc:`selecting </scene_layout/object/selecting/index>` objects.
 Add
@@ -46,12 +42,11 @@ Object
    In edit mode, it will change to the appropriate menu with :doc:`editing tools </modeling/index>`.
 
 
-Controls
---------
+Transform Controls
+------------------
 
 Transform Orientations
    Use to select and modify the active :doc:`Transform Orientations </editors/3dview/controls/orientation>`.
-
 Pivot Point
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
@@ -62,7 +57,9 @@ Snapping
 Proportional Edit
    :doc:`Proportional Edit </scene_layout/object/editing/transform/control/proportional_edit>`.
 
-..
+
+Display & Shading
+-----------------
 
 Object Type Visibility
    Change the :doc:`Object Type Visibility </editors/3dview/controls/visibility>`
@@ -70,6 +67,8 @@ Object Type Visibility
 Viewport Gizmos
    Change the way how :doc:`gizmos </editors/3dview/controls/gizmo>` are
    displayed in the 3D View.
+X-Ray
+   Show the whole scene transparent (:ref:`x-ray <3dview-shading-xray>`).
 Viewport Overlays
    Change the way how :doc:`overlays </editors/3dview/controls/overlays>` are
    displayed in the 3D View.
@@ -77,8 +76,8 @@ Viewport Shading
    Change the :doc:`shading </editors/3dview/controls/shading>` of the 3D View.
 
 
-Tool Shelf
-==========
+Toolbar Region
+==============
 
 The Tool Shelf is a context-sensitive region containing tools depending on the current mode
 (for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
