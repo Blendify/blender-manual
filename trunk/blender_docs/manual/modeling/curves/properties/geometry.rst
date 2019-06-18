@@ -74,6 +74,8 @@ Closed 2D Curve
    It will make the ribbon twist around the curve to create a mobius strip, for example.
 
 
+.. _modeling-curve-bevel:
+
 Bevel
 =====
 
