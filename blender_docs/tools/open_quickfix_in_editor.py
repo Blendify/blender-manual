@@ -24,7 +24,15 @@ if shutil.which("emacsclient"):
         "emacsclient",
         "--eval",
         # Calling: (compile-goto-error) should work but doesn't open window when called from here.
-        f"(progn (find-file \"{logfile}\") (compilation-mode) (end-of-buffer) (previous-line))",
+
+        "(progn "
+        "  (find-file " f"\"{logfile}\")"
+        "  (compilation-mode)"
+        # To to the last non-blank line.
+        "  (goto-char (point-max))"
+        "  (skip-chars-backward \"\n[:space:]\")"
+        "  (move-beginning-of-line nil)"
+        ")",
         "--no-wait",
         "--alternate-editor=emacs --eval",
     )))
