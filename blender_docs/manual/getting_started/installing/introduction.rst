@@ -46,8 +46,8 @@ through the `release notes <https://www.blender.org/features/releases/>`__.
 
    .. note::
 
-      This information is included for the sake of completeness, but it is **not** expected
-      that regular users should have to compile their own Blender builds.
+      This information is included for the sake of completeness,
+      it is **not** expected that regular users should have to compile their own Blender builds.
 
 
 Install Blender
@@ -59,6 +59,6 @@ Follow the steps for your operative system:
 .. toctree::
    :maxdepth: 1
 
-   windows.rst
-   macos.rst
    linux.rst
+   macos.rst
+   windows.rst

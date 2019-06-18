@@ -60,7 +60,7 @@ Tablet Drag Threshold
 Drag Threshold
    The drag threshold for non mouse/tablet events (keyboard or :term:`NDOF` for example).
 
-   This affects :ref:`keymap-pref-py_menu_on_drag` keymap preference.
+   This affects :ref:`Pie Menu on Drag <keymap-pref-py_menu_on_drag>` keymap preference.
 Motion Threshold
    The number of pixels the cursor must be moved before the movement is registered.
    This is helpful for tablet pens that are a lot more difficult to keep still
