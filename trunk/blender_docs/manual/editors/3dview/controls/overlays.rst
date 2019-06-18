@@ -270,6 +270,8 @@ Canvas
 Fade 3D Objects
    Cover all viewport with a full color layer to improve visibility while drawing over complex scenes.
    The opacity of the paper can be adjusted.
+Fade Layers
+   Decreases the opacity of all the layers in the object other than the active one.
 Edit Lines
    Show edit lines when editing strokes.
 Show Edit Lines only in multiframe
