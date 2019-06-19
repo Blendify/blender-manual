@@ -4,7 +4,7 @@
 Viewer Node
 ***********
 
-.. figure:: /images/compositing_types_output_viewer_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeViewer.png
    :align: right
 
    Viewer Node.

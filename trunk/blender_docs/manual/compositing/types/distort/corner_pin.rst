@@ -3,7 +3,7 @@
 Corner Pin Node
 ***************
 
-.. figure:: /images/compositing_types_distort_corner-pin_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeCornerPin.png
    :align: right
 
    Corner Pin Node.

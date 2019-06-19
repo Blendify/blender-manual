@@ -5,7 +5,7 @@
 Defocus Node
 ************
 
-.. figure:: /images/compositing_types_filter_defocus_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeDefocus.png
    :align: right
 
    Defocus Node.

@@ -4,7 +4,7 @@
 Alpha Over Node
 ***************
 
-.. figure:: /images/compositing_types_color_alpha-over_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeAlphaOver.png
    :align: right
 
    Alpha Over Node.

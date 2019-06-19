@@ -4,7 +4,7 @@
 Luminance Key Node
 ******************
 
-.. figure:: /images/compositing_types_matte_luminance-key_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeComposite.png
    :align: right
 
    Luminance Key Node.

@@ -4,7 +4,7 @@
 ID Mask Node
 ************
 
-.. figure:: /images/compositing_types_converter_id-mask_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeIDMask.png
    :align: right
 
    ID Mask Node.
