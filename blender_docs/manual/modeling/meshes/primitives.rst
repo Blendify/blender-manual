@@ -197,12 +197,20 @@ Y Subdivisions
 Monkey
 ======
 
-This is a gift from old NaN to the community and is seen as a programmer's joke or
-"Easter Egg". It creates a monkey's head once you press the *Monkey* button.
-The Monkey's name is "Suzanne" and is Blender's mascot.
-Suzanne is very useful as a standard test mesh,
-much like the `Utah Teapot <https://en.wikipedia.org/wiki/Utah_teapot>`__
-or the `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
+This adds a stylized monkey head to use as a test mesh,
+use :term:`Subdivision Surface` for a refined shape.
+
+This is intended as a test mesh, similar to:
+
+- `Utah Teapot <https://en.wikipedia.org/wiki/Utah_teapot>`__
+- `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
+
+.. admonition:: History
+   :class: refbox
+
+   This is a gift from old NaN to the community and is seen as a programmer's joke or
+   "Easter Egg". It creates a monkey's head once you press the *Monkey* button.
+   The Monkey's name is "Suzanne" and is Blender's mascot.
 
 .. note:: Add-ons
 

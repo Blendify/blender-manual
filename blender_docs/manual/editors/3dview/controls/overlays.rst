@@ -99,45 +99,58 @@ Size
    Change the display size of the recontructed tracks.
 
 
+.. _3dview-overlay-mesh_edit_mode:
+
 Mesh Edit Mode
 ==============
 
 The next options are available when in Edit Mesh Mode.
 
-
-Mesh Edit Mode
---------------
-
 Edges
-   Highlight the selected edges.
+   Highlighted selected and partially selected edges.
+
+   *Only affects vertex and face selection mode (as edges are always highlighted in edge-selection mode).*
 Faces
-   Highlight selected faces.
+   Highlight faces using a face overlay that applies to both selected and unselected faces.
+
+   *Affects all selection modes.*
 Center
-   Display face center.
+   Show face-center points in solid shading modes.
+
+   *Only affects face-select mode.*
 Creases
-   Display the creases created for subdivision surface modifier.
+   Display edges marked with a crease for the
+   :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
 Sharp
    Display sharp edges, used with the edge split modifier.
 Bevel
-   Display weights created for the bevel modifier.
+   Display weights created for the
+   :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`.
 Seams
    Display the UV unwrapping seams.
-
+Edge Marks and Face Marks
+   Used by Freestyle.
 
 Shading
 -------
 
 Hidden Wire
-   Use hidden wire display.
+   Show only front-facing wire-frames.
+   This is useful for a re-topology workflow.
+
+   .. tip::
+
+      Optimally this could be combined with the *X-Ray* display setting.
+
 Vertex Groups Weights
    Display weights in Edit Mode.
 
    Zero Weights
       Display unweighted vertices:
 
-      - None
-      - Active: Show vertices with no weights in the active group.
-      - All: Show vertices with no weights in any group.
+      :None:
+      :Active: Show vertices with no weights in the active group.
+      :All: Show vertices with no weights in any group.
 
 
 Mesh Analysis
@@ -171,21 +184,35 @@ Type
 Measurement
 -----------
 
+Numerical measures of the selected elements on screen as part of the text info overlay.
+The :ref:`data-scenes-props-units` can be set in the Scene properties.
+
 Edge Length
-  Display the length of selected edges as part of the text info overlay.
+   Shows the length of selected edges.
 Edge Angle
-  Display the angle of selected edges as part of the text info overlay.
+   Shows the angle of selected edges between two faces.
 Face Area
-  Display the area of selected faces as part of the text info overlay.
-Face Angles
-  Display the angles of the corners of selected faces in the text info overlay.
+   Show the area of selected faces.
+Face Angle
+   Show the angle of selected face corners.
+
+.. tip::
+
+   Geometry connected to the selection is shown while transforming,
+   allowing you to move a vertex and see the connected edge lengths for example.
+
+.. note::
+
+   These values respect :ref:`Global/Local <modeling-mesh-transform-panel>`.
+
+   Use *Global* if you want the Object's scale to be applied to the measurements.
 
 
 Normals
 -------
 
 - Display vertex normals
-- Display face normals at vertices
+- Display face normals at vertices (split normals)
 - Display face normals
 
 Size

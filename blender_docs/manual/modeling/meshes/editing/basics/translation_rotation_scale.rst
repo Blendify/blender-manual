@@ -31,6 +31,8 @@ You also have in *Edit Mode* an extra option when using these basic manipulation
 the :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 
+.. _modeling-mesh-transform-panel:
+
 Transform Panel
 ===============
 

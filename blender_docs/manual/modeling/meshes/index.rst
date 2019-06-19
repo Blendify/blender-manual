@@ -14,5 +14,4 @@
    selecting/index.rst
    editing/index.rst
    properties/index.rst
-   mesh_display.rst
    mesh_analysis.rst
