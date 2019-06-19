@@ -127,7 +127,7 @@ Pivot Point
    Bounding Box Center
       Center of the selected keyframes.
    2D Cursor
-      Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
+      Center of the *2D Cursor*. *Playhead* + *Cursor*.
    Individual Centers
       Rotate the selected keyframe *Bézier* handles.
 

@@ -258,7 +258,7 @@ Show Cursor
 Cursor from Selection
    Set the *2D cursor* to the center of the selected keyframes.
 Cursor X
-   *Time Cursor* X position.
+   *Playhead* X position.
 
    To Keys
       Snap selected keyframes to the *Playead*.

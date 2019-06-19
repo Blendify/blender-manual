@@ -8,11 +8,11 @@ Mini Timeline
 
 When a clip is loaded a Timeline is shown at bottom of the Preview.
 It expands over the full area limited by the animation range.
-You can move the Time Cursor by dragging with :kbd:`LMB`.
+You can move the Playhead by dragging with :kbd:`LMB`.
 
 The Timeline is composed of the following visual elements:
 
-- Green line: Time Cursor
+- Blue line: Playhead
 - Yellow: Motion track
 - Yellow line: Keyframe
 - Orange line: Shape keyframe

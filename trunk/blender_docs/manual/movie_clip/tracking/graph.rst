@@ -51,5 +51,5 @@ A line that spikes from the rest of the curve usually means a tracking error.
 You can manually edit the curve by selecting a point in the curve and dragging it or deleting,
 that will affect the corresponding tracker on that particular frame.
 
-Lock to Time Cursor :kbd:`L`
-   Locked the time cursor the view center.
+Lock to Playhead :kbd:`L`
+   Center the view  around the playhead.

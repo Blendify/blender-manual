@@ -91,7 +91,7 @@ The following table shows the available hotkeys for the animation player.
 
    * - Action
      - Hotkey
-   * - Toggle Time Cursor (Indicator):
+   * - Toggle Playhead (Indicator):
      - :kbd:`I`
    * - Flip drawing on the X axis:
      - :kbd:`F`

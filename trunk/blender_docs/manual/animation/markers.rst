@@ -258,7 +258,7 @@ Jump to Next/Previous Marker
    :Mode:      All modes
    :Menu:      :menuselection:`Marker --> Jump to Next/Previous Marker`
 
-Moves the time cursor to the next/previous marker relative to the current time cursor position.
+Moves the playhead to the next/previous marker relative to the current playhead position.
 
 
 .. _marker-bind-camera:
