@@ -53,12 +53,12 @@ Snap
    :Menu:      :menuselection:`Key --> Snap`
    :Hotkey:    :kbd:`Shift-S`
 
-Keyframes can be snapped to different properties by using the *Snap Keys* tool.
+Keyframes can be snapped to different properties by using the *Snap Keys* command.
 
 Current Frame
-   Snap the selected keyframes to the *Time Cursor*.
+   Snap the selected keyframes to the *Playhead*.
 Cursor Value
-   Snap the selected keyframes to the *Cursor*.
+   Snap the selected keyframes to the *2D Cursor*.
 Nearest Frame
    Snap the selected keyframes to their nearest frame individually.
 Nearest Second
@@ -91,12 +91,12 @@ Mirror
    :Hotkey:    :kbd:`Shift-M`
 
 Selected keyframes can be mirrored over different properties using the *Mirror Keys*
-tool.
+command.
 
 By Times Over Current Frame
-   Mirror horizontally over the *Time Cursor*.
+   Mirror horizontally over the *Playhead*.
 By Values over Cursor Value
-   Mirror vertically over the *Cursor*.
+   Mirror vertically over the *2D Cursor*.
 By Times over Time 0
    Mirror horizontally over frame 0.
 By Values over Value 0
@@ -139,14 +139,14 @@ Clean Channels
    :Menu:      :menuselection:`Key --> Channels`
    :Hotkey:    :kbd:`X`
 
-Acts like the *Clean Keyframes* tool but will also delete the channel itself if it is only left with
+Acts like the *Clean Keyframes* command but will also delete the channel itself if it is only left with
 a single keyframe containing the default property value and
 it's not being used by any generative f-curve modifiers or drivers.
 
 .. note::
 
-   The modified curve left after the Clean tool is run is not the same as the original,
-   so this tool is better used before doing custom editing of f-curves and after initial keyframe insertion,
+   The modified curve left after the Clean command is run is not the same as the original,
+   so this command is better used before doing custom editing of f-curves and after initial keyframe insertion,
    to get rid of any unwanted keyframes inserted while doing mass keyframe insertion
    (by selecting all bones and pressing :kbd:`I` for instance).
 
@@ -163,7 +163,7 @@ Smoothing
 There is also an option to smooth the selected curves, but beware: its algorithm seems to be
 to divide by two the distance between each keyframe and the average linear value of the curve,
 without any setting, which gives quite a strong smoothing! Note that the first and last keys
-seem to be never modified by this tool.
+seem to be never modified by this command.
 
 .. list-table::
 
@@ -208,7 +208,7 @@ Bake Sound to F-Curves
 
    :Menu:      :menuselection:`Key --> Bake Sound to F-Curves`
 
-The *Bake Sound to F-Curves* tool takes a sound file and uses its sound wave to create the animation data.
+The *Bake Sound to F-Curves* command takes a sound file and uses its sound wave to create the animation data.
 
 Lowest frequency
    Cutoff frequency of a high-pass filter that is applied to the audio data.
