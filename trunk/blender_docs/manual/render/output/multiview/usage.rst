@@ -10,12 +10,6 @@ that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
    Creature Factory 2 by Andy Goralczyk rendered in stereo 3D (anaglyph).
 
-.. note::
-
-   Multi-view drawing requires capable graphics card and drivers with *Triple Buffer* support.
-   If the *Automatic* mode does not work,
-   set the *Window Draw Method* in the :doc:`System Preferences </editors/preferences/system>`.
-
 
 Introduction
 ============
@@ -28,10 +22,10 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
    Turntable Creature Factory 2.
 
 
-Views Setup
-===========
+Stereoscopy Setup
+=================
 
-Go to the :doc:`Render Layers </render/layers/index>` panel and enable *Views* for this scene.
+Go to the :doc:`Render Output </render/output/settings>` settings and enable *Stereoscopy* for this scene.
 
 .. figure:: /images/render_workflows_multiview_usage_views-panel.png
 
@@ -39,7 +33,7 @@ Go to the :doc:`Render Layers </render/layers/index>` panel and enable *Views* f
 
 .. note::
 
-   When you turn on *Views* in the scene, you get 3D preview in the viewport,
+   When you turn on *Stereoscopy* in the scene, you get 3D preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
 .. figure:: /images/render_workflows_multiview_usage_viewport.png
@@ -67,7 +61,7 @@ Before fine-tuning the camera parameters,
 you can set the convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
-You can toggle this and other display settings in the Stereoscopy panel of the 3D Views Sidebar region.
+You can toggle this and other display settings in the Stereoscopy panel of the 3D Views Sidebar.
 In the following image, the camera's frustum volumes are also visible.
 
 .. figure:: /images/render_workflows_multiview_usage_stereo-preview.png
