@@ -29,6 +29,8 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
    - Transform Type -- X Location
    - Transform Space -- World Space
 
+.. TODO2.8 Replace screenshots (ui appearance changes):
+
 .. list-table::
 
    * - .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
@@ -45,6 +47,8 @@ Driver Expression
 -----------------
 
 Here are some examples using the scripted expression Expr to set the Driver Value.
+
+.. TODO2.8 Replace screenshots (ui appearance changes):
 
 .. figure:: /images/animation_drivers_workflow-examples_object-rotation.png
 
@@ -120,6 +124,8 @@ Shape Key Driver
 
 This example is a shape key driver. The driver was added to the shape key Value.
 
+.. TODO2.8 Replace screenshots (ui appearance changes):
+
 .. figure:: /images/animation_drivers_workflow-examples_shape-key.png
    :width: 400px
 
@@ -145,6 +151,8 @@ The following screenshots illustrate combining shape keys, bones, and
 drivers to make multiple chained relative shape keys sharing a single root.
 While it lacks the convenience of the single Evaluation Time of an absolute shape key,
 it allows you to have more complex relationships between your shape keys.
+
+.. TODO2.8 Replace screenshots (ui appearance changes):
 
 .. list-table::
 
@@ -172,6 +180,8 @@ The Basis shape key has the stacks fully retracted. Key1 has the base fully exte
 Key2A has the left stack fully extended. Key2B has the right stack fully extended.
 Key2A and Key2B are both relative to Key1
 (as you can see in the field in the bottom right of the Shape Keys panel).
+
+.. TODO2.8 Replace screenshots (ui appearance changes):
 
 .. list-table::
 
@@ -204,6 +214,8 @@ the top of the left stack will move with bone.L (mostly).
 The value of Key2B is bound to the position of "Bone.R".
 Its generator parameters are similar to Key2A so that
 the top of the right stack will move with bone.R (mostly).
+
+.. TODO2.8 Replace screenshots (ui appearance changes):
 
 .. list-table::
 
