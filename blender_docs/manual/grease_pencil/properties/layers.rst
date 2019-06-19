@@ -6,7 +6,7 @@
 .. figure:: /images/grease_pencil_properties_layers_panel.png
    :align: right
 
-   *Grease Pencil* Layers list.
+   *Grease Pencil* Layers panel.
 
 
 Layers List
@@ -17,10 +17,12 @@ to help grouping and arranging strokes.
 Every stroke in the object only belong to one 2D layer.
 
 There is always only one active layer in the list (the selected one).
-When you are drawing, the new strokes will be added to the active layer.
+When you draw, the new strokes are added to the active layer.
+
+Every layer correspond to a channel in the Grease Pencil mode of the Dope Sheet editor.
 
 By default the drawing order of the layers in the viewport are top to bottom.
-The order can be arranged using the Up and Down buttons on the right.
+You can change the layers order using the Up and Down buttons on the right.
 
 Layers can also be used together with Modifiers to only affects part of your drawing.
 See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
@@ -28,10 +30,15 @@ See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more informatio
 The layers can be added and removed using the ``+`` and ``-`` buttons on the right,
 and existing layers can be renamed by double-clicking on their name or using :kbd:`Ctrl-LMB` over it.
 
-Sometimes you just want to only edit or view the active layer.
-You can use the lock and screen icon buttons next to the list to toggle
+If you just want to only edit or view the active layer and avoid to make unwnated changes on others layers,
+you can use the lock and screen icon buttons next to the list to toggle
 whether the active layer is the only one that can be edited and/or visible.
 
+.. tip::
+
+   Sometimes the layers that your are not working on could be distracting, 
+   you can activate *Fade Layers* in overlays and control the opacity of the non active layers.
+   See :doc:`Overlays </editors/3dview/controls/overlays>` for more information.   
 
 Special Layers List Menu
 ------------------------
@@ -71,6 +78,7 @@ Clamp
    Act like a mask that hide everything on the underlying layers
    overlapping by the drawing in the current layer.
    Can be combined with Blend modes to achieve some useful artistic results.
+   This control can also be found next to the layer opacity control. 
 
 Lock
    Lock/Unlock the layer edition in the viewport.
@@ -78,8 +86,9 @@ Lock
 Viewport/Render Visibility
    Control the layer visibility in the viewport and in render.
 
-Onion Skinning
-   Turn On/off the use of the layer in Onion Skinning.
+Onion Skinning   
+   Turn On/off the use of Onion Skinning in the layer. (*Grease Pencil* Onion Skinning is per layer)
+   You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
 
 Below the layers list there are additional main settings:
 
@@ -91,33 +100,53 @@ Opacity
 
 Show only on keyframed
    Makes the layer visible in the viewport only if it has a keyframe in the actual frame.
-   This helps when you are inking drawings using the Fill Tool and want to only see
-   the strokes that are in the actual frame to avoid fill on unwanted regions.
+   This helps for example when you are in the inking process using the Fill Tool and want to only see
+   the strokes that are in the actual frame to avoid fill in unwanted regions.
 
 
-Adjustment
-==========
+Adjustments
+============
 
-TODO2.8
+.. figure:: /images/grease_pencil_properties_layers_adjustment.png
+   :align: right
+
+   Layers adjustment panel.
+
+Tint Color/Factor
+   Color that override the strokes color on the entire layer.
+   Factor control the amount of tint color to apply.
+
+Stroke Thickness
+   Thickness value that override all the strokes thickness in the layer.
+
+Pass Index
+   Layer index number. This can be used with some Modifiers to restrict where the changes
+   should be applied to the object.
+
+   See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
+
+View Layer
+   Used to select the View Layer to use for the *Grease Pencil* layer.
+   If empty the layer will be included in all View Layers.
+   This is useful to separate drawings parts for compositing.
+
+   See :doc:`Compositing </compositing/introduction>` for more information.
+
+Lock material
+   Avoid editing locked materials in the layer. You can omit all locked materials and allow them
+   to be edited on the layer deactivating this checkbox.
 
 
 Relations
 =========
 
-TODO2.8
+Parent/Type
+   Select a parent Object and type to manipulate the layer.
+   The layer will inherit the transformations of the parent, specially useful when rigging for cut-out animation.
 
 
 Layer Display
 =============
 
-TODO2.8
-
-.. tip::
-
-   Sometimes the layers your are not working on are quite distracting,
-   you can activate Fade Layers in overlays and control it opacity.
-
-.. tip::
-
-   We can still have access to the layers list in the Topbar
-   when working in Full canvas workspace for example.
+Custom channel color
+   Sets the color to use in the channel region of the Dope Sheet.
