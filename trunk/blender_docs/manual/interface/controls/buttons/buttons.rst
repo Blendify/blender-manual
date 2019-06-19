@@ -35,7 +35,7 @@ Text & Search Fields
 
 Text fields show a rounded rectangular border, and optionally an icon and/or text inside the border.
 Text fields store text strings, and provide the means to edit text
-by :doc:`standard text editing shortcuts </interface/common_shortcuts>`.
+by :doc:`standard text editing shortcuts </interface/keymap/introduction>`.
 
 For text fields with an icon and pop-ups, see :ref:`ui-data-id`.
 

@@ -193,8 +193,6 @@ to enhance the resolution without actually computing it. This allows animators t
 resolution simulation quickly and later add details without changing the overall fluid motion.
 Also see `Note on Divisions and High Resolution`_.
 
-Show High Resolution
-   Show the high resolution version in the viewport (may cause viewport responsiveness to suffer).
 Resolution Divisions
    Factor by which to enhance the resolution of smoke using the specified noise method.
 Flow Sampling
@@ -219,6 +217,11 @@ Strength
       :width: 400px
 
       From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
+
+.. tip::
+
+   The visibility of high resolution smoke in the viewport can be toggled in the render
+   :ref:`Simplify options <render-cycles-simplify-viewport>`.
 
 
 Note on Divisions and High Resolution
