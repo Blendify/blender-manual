@@ -11,7 +11,7 @@
    introduction.rst
    structure.rst
    primitives.rst
-   selecting/index.rst
+   selecting.rst
    editing/index.rst
    properties/index.rst
    mesh_analysis.rst
