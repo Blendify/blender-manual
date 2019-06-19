@@ -150,6 +150,9 @@ This page lists definitions for terms used in Blender and this manual.
       Limits a variable to a range. The values over or under the range are set
       to the constant values of the range's minimum or maximum.
 
+   Collection
+      A device for organizing objects. See also :doc:`Collections </scene_layout/collections/collections>`.
+
    Blend Modes
    Color Blend Modes
       Methods for blending two colors together.
@@ -392,9 +395,6 @@ This page lists definitions for terms used in Blender and this manual.
       A type of object consisting of a non-renderable three-dimensional grid of vertices.
 
       See also :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
-
-   Layer
-      A device for organizing objects. See also :doc:`Layers </scene_layout/object/properties/relations/layers>`.
 
    Light Bounces
       Refers to the reflection or transmission of a light ray upon interaction with a material.
