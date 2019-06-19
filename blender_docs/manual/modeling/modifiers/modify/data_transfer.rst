@@ -4,12 +4,12 @@
 Data Transfer Modifier
 **********************
 
-The Data Transfer Modifier transfers several types of data from one mesh to another.
+The Data Transfer modifier transfers several types of data from one mesh to another.
 Data types include vertex groups, UV maps, vertex colors, custom normals...
 
 Transfer works by generating a mapping between source mesh's items (vertices, edges, etc.)
 and destination ones, either on a one-to-one basis, or mapping several source items
-to a single destination one by interpolated mapping.
+to a single destination one, using interpolation.
 
 .. figure:: /images/modeling_modifiers_modify_data-transfer_normals-example.jpg
    :width: 680px
@@ -22,6 +22,7 @@ Options
 =======
 
 .. figure:: /images/modeling_modifiers_modify_data-transfer_panel.png
+   :align: right
 
    Data Transfer Modifier.
 
@@ -33,7 +34,7 @@ Source Object
    in local space (i.e. as if both object's origins were at the same place).
 
 Max Distance
-   When the "hand and bulged in blue line" icon button to the right is enabled,
+   When the "pressure stylus" icon button to the right is enabled,
    this is the maximum distance between source and destination to get a successful mapping.
    If a destination item cannot find a source one within that range, then it will get no transferred data.
 
@@ -52,11 +53,11 @@ Mix Mode
       Replaces everything in destination (note that *Mix Factor* is still used).
    Above Threshold
       Only replaces destination value if it's above given threshold *Mix Factor*.
-      How that threshold is interpreted depends on data type,
+      How that threshold is interpreted depends on the data type,
       note that for boolean values this option fakes a logical AND.
    Below Threshold
       Only replaces destination value if it's below given threshold *Mix Factor*.
-      How that threshold is interpreted depends on data type,
+      How that threshold is interpreted depends on the data type,
       note that for boolean values this option fakes a logical OR.
    Mix, Add, Subtract, Multiply
       Apply that operation, using mix factor to control how much of source or destination value to use.
@@ -71,7 +72,7 @@ Vertex Group
 
 Generate Data Layers
    This modifier cannot generate needed data layers itself. Once the set of source data to transfer is selected,
-   this button shall be used to generate matching destination layers.
+   this button shall be used to generate matching destination layers, if needed.
 
 
 Selection of Data to Transfer
@@ -91,7 +92,7 @@ Multi-layers Data Types Options
    In those cases (vertex groups, vertex colors, UVs), one can select which source layers to transfer
    (usually, either all of them, or a single specified one), and how to affect destination
    (either by matching names, matching order/position,
-   or, if a single source is selected, by specifying manually destination layer).
+   or, if a single source is selected, by specifying manually the destination layer).
 
 Islands Handling Refinement
    This setting only affects UV transfer currently. It allows to avoid a given destination face to get
@@ -104,10 +105,10 @@ Usage
 =====
 
 First key thing to keep in mind when using this modifier is that it will **not** create destination data layers.
-*Generate Data Layers* button shall always be used for this purpose, once set of source data to transfer
-is selected. It should also be well understood that creating those data layers on destination mesh is **not**
+*Generate Data Layers* button shall always be used for this purpose, once the set of source data to transfer
+has been selected. It should also be well understood that creating those data layers on destination mesh is **not**
 part of the modifier stack, which means e.g. that they will remain even once the modifier is deleted, or
-if source data selection is modified.
+if the source data selection is modified.
 
 
 Geometry Mapping
