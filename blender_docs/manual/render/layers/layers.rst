@@ -83,14 +83,14 @@ Material Override
 Usage
 =====
 
-Each Render Layer has an associated set of :doc:`Scene Layers </scene_layout/object/properties/relations/layers>`.
-Objects which are on one of the associated Scene Layers are shown in that Render Layer,
-as long as that Scene Layer is also visible.
+Each Render Layer has an associated set of :doc:`Collections </scene_layout/collections/collections>`.
+Objects which are on one of the associated collections are shown in that Render Layer,
+as long as that collection is also visible.
 
 .. warning::
 
    Only the objects in visible Scene Layers will be rendered.
-   So, if only Scene Layer 1 is visible and your Render Layer set specifies to render only Layers 2 and 3,
+   So, if only Collection 1 is visible and your Render Layer set specifies to render only Collections 2 and 3,
    nothing will be rendered.
 
 .. TODO2.8 integrate content below with content above.
