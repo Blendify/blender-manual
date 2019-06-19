@@ -8,6 +8,8 @@ Mesh Sequence Cache Modifier
 Despite its name, this modifier supports meshes and curves.
 It also handles file sequences, as well as meshes and curves with varying number of vertices/control points.
 
+Unlike the :doc:`Mesh Cache modifier</modeling/modifiers/modify/mesh_cache>`, it uses Alembic files as source.
+
 
 Options
 =======
@@ -34,7 +36,7 @@ Object Path
    The path to the Alembic object inside the archive.
 
 Read Data
-   Type of data to read for a mesh object respectively: vertices,
+   Type of data to read for a mesh object, respectively: vertices,
    polygons, UV maps and Vertex Color layers.
 
    Vertices, Faces, UV, Color
