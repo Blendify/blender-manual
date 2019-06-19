@@ -34,14 +34,25 @@ the other ones are dedicated to view and edit specific data-blocks used in diffe
 - Cache File: Alembic Todo 2.78.
 
 
-Interface
-=========
-
-The *Dope Sheet Editor* interface is divided in three regions:
-
-
 Main Region
------------
+===========
+
+Navigation
+----------
+
+As with most editors, you can:
+
+Pan
+   Pan the view vertically (values) or horizontally (time) with click and drag (:kbd:`MMB`).
+Zoom
+   Zoom in and out with the mouse wheel (:kbd:`Wheel`).
+Scale View
+   Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
+
+In addition, you can also use the scrollbars to pan and zoom the view. 
+
+
+Keyframes
 
 .. figure:: /images/editors_dope-sheet_keyframe_types.png
    The Dope Sheet Editor with object channels.
