@@ -12,14 +12,14 @@
 Layers List
 ===========
 
-*Grease Pencil* has a special 2D layers displayed in a :ref:`List View <ui-list-view>`
-to help grouping and arranging strokes.
-Every stroke in the object only belong to one 2D layer.
+*Grease Pencil* objects each have a list of 2D layers for grouping and arranging strokes.
+Any stroke can only belong to a single 2D layer.
 
 There is always only one active layer in the list (the selected one).
 When you draw, the new strokes are added to the active layer.
 
-Every layer correspond to a channel in the Grease Pencil mode of the Dope Sheet editor.
+Every layer correspond to a channel in the the Dope Sheet editor (Grease Pencil mode).
+See :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` for more information.
 
 By default the drawing order of the layers in the viewport are top to bottom.
 You can change the layers order using the Up and Down buttons on the right.
@@ -36,8 +36,8 @@ whether the active layer is the only one that can be edited and/or visible.
 
 .. tip::
 
-   Sometimes the layers that your are not working on could be distracting, 
-   you can activate *Fade Layers* in overlays and control the opacity of the non active layers.
+   Sometimes the layers that your are not working on could be a distraction, 
+   you can activate *Fade Layers* in overlays to control the opacity of the non active layers.
    See :doc:`Overlays </editors/3dview/controls/overlays>` for more information.   
 
 Special Layers List Menu
