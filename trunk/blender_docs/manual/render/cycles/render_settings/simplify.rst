@@ -17,14 +17,15 @@ Common
 ======
 
 Max Subdivision
-   TODO.
+   Maximum number of subdivision in subdivision surface modifiers.
 Child Particles
-   TODO.
+   Show only a subset of all child hairs and particles.
 Texture Limit
    Automatically scales textures down so that they are no larger than the values chosen.
    This can help reduce computer memory resources when rendering large scenes with huge textures.
 AO Bounces
-   TODO.
+   Replace global illumination with ambient occlusion after the specified number of bounces.
+   This can reduce noise in interior scenes with little visual difference.
 
 .. _bpy.types.SmokeDomainSettings.use_high_resolution:
 .. _render-cycles-simplify-viewport:
@@ -33,7 +34,7 @@ Viewport
 ========
 
 Use High-resolution Smoke
-   Shows a :ref:`higher resolution <smoke-high-resolution>
+   Shows a :ref:`higher resolution <smoke-high-resolution>`
    version of :doc:`Smoke Simulations </physics/smoke/index>` in the viewport.
 
 
