@@ -157,7 +157,7 @@ Edit Translation
 
 .. seealso::
 
-   :doc:`/interface/common_shortcuts`.
+   :doc:`/interface/keymap/introduction`.
 
    .. move paragraph there?
 

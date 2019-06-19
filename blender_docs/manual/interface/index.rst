@@ -33,9 +33,9 @@ Keymap
 .. toctree::
    :maxdepth: 1
 
+   keymap/introduction.rst
    keymap/blender_default.rst
    keymap/industry_compatible.rst
-   common_shortcuts.rst
 
 
 .. _topbar-index:
