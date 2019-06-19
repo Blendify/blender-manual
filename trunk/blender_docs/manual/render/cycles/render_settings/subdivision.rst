@@ -1,3 +1,5 @@
+.. _bpy.types.CyclesRenderSettings.*dicing_rate:
+.. _cycles-subdivision-rate:
 
 ***********
 Subdivision
@@ -8,14 +10,12 @@ Subdivision
 
    :Panel:     :menuselection:`Render --> Subdivision`
 
-.. _bpy.types.CyclesRenderSettings.*dicing_rate:
-.. _cycles-subdivision-rate:
-
-These settings are used to control :doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subsurf>`.
-
 .. note::
 
    These Settings are only available if :ref:`Experimental Feature Set <cycles-experimental-features>` is turned on.
+
+These settings are used to control :doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subsurf>`.
+
 
 Render
    Size of :term:`micropolygons` in pixels.
