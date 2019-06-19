@@ -8,11 +8,10 @@ Introduction
 
    The Dope Sheet.
 
-The Dope Sheet gives the animator a "birds-eye-view" of everything occurring within a scene.
-It contains a collection of animation editors.
+The Dope Sheet gives the animator a birds-eye-view of the keyframes inside the scene.
 
-Classical hand-drawn animators often made a chart, showing exactly when each drawing,
-sound and camera move would occur, and for how long. They nicknamed this the "dope sheet".
+The Dope Sheet is inspired by classical hand-drawn animation process, in which animatots will make use of a chart, showing exactly when each drawing,
+sound and camera move will occur, and for how long. This is called an exposure-sheet or 'dope sheet'.
 While CG foundations dramatically differ from classical hand-drawn animation,
 Blender's *Dope Sheet* inherits a similar directive.
 
@@ -117,17 +116,43 @@ See :doc:`F-Curve </editors/graph_editor/fcurves/index>`.
 Main Region
 -----------
 
-It contains the keyframes for all visible action channels.
-As with the other "time" editor, the X axis represents time.
-The Y axis has no mean in itself, unlike with the *Graph Editor*, it is a "stack" of action channels.
+.. figure:: /images/editors_dope-sheet_keyframe_types.png
 
-Each one being shown as a horizontal colored strip (of a darker shade "during" the animated/keyed period).
-On these channel strips lay the keyframes, visualized as light gray (unselected) or yellow (selected) diamonds.
+This area contains keyframes for all visible action channels.
+As with the other time-based editors, the X axis represents time.
+The Y axis siplmply represents a stack of action channels.
 
-One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
-is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes
-("long keyframes"), a gray (unselected) or yellow (selected) bar is drawn between them.
-Similar bars are drawn between keyframes tagged as moving hold.
+On these channels lay the keyframes, which can show different information:
+
+
+.. list-table::
+   :widths: 20 80
+
+   * - Grey
+     - Unselected
+   * - Yellow
+     - Selected
+   * - Diamond
+     - Free Keyframe Handle
+   * - Round
+     - Auto-Clamped Keyframe Handle
+   * - Circle
+     - Automatic Keyframe Handle
+   * - Square
+     - Vector Keyframe Handle
+   * - Rhombus
+     - Aligned Keyframe Handle
+   * - Various colors
+     - These represent custom keyframe tags set by the user (Key > Keyframe Type)
+   * - Grey bar between keys
+     - Held key (the two keyframes are identical)
+   * - Green line between keys
+     - Fixed keyframe interpolation (set in Key > Interpolation Mode)
+   * - Up-arrow
+     - Maximum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
+   * - Down-arrow
+     - Minimum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
+
 
 
 Channels Region
