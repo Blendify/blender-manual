@@ -3,12 +3,11 @@
 Installing on Linux
 *******************
 
-Check the :doc:`minimum requirements and where to get Blender </getting_started/installing/introduction>`,
-if you have not done so yet.
+Check the :doc:`Downloading Blender </getting_started/installing/index>`
+page to find the minimum requirements and where to get Blender (if you have not done so yet).
 
-
-Specific Packages for Distributions
-===================================
+Install from Package Manager
+============================
 
 Some Linux distributions may have a specific package for Blender in their repositories.
 
@@ -23,8 +22,8 @@ If there is a specific package for your distribution, you may choose what is pre
 otherwise, there is nothing wrong with the official binary on `blender.org <https://www.blender.org/download/>`__.
 
 
-Download from blender.org
-=========================
+Install from blender.org
+========================
 
 Download the Linux version for your architecture and uncompress the file to the desired location
 (e.g. ``~/software`` or ``/usr/local``).
