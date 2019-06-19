@@ -17,7 +17,7 @@ Timeline
 These settings control things in the :doc:`Timeline </editors/timeline>`.
 
 Allow Negative Frame
-   Time Cursor can be set to negative frames with mouse or keyboard.
+   Playhead can be set to negative frames with mouse or keyboard.
    When using *Use Preview Range*, this also allows playback.
 Minimum Grid Spacing
    The minimum number of pixels between grid lines.

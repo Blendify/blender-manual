@@ -53,7 +53,7 @@ Range
 Show Seconds :kbd:`Ctrl-T`
    Displays the time instead of the frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
-   Toggles the units of measure across the bottom of the time cursor between seconds or frames.
+   Toggles the units of measure across the bottom of the playhead between seconds or frames.
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
