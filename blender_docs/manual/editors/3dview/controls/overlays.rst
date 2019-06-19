@@ -208,6 +208,8 @@ Face Angle
    Use *Global* if you want the Object's scale to be applied to the measurements.
 
 
+.. _mesh-display-normals:
+
 Normals
 -------
 
