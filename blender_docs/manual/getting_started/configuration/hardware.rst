@@ -6,12 +6,12 @@ Configuring Peripherals
 Displays
 ========
 
-Multi-Monitor Setup
--------------------
+A full HD display or higher is recommended.
+Multi-monitor setups are supported, and workspaces can be configured to span multiple monitors.
 
 .. figure:: /images/getting-started_installing_configuration_hardware_multi-monitor.jpg
 
-   This is an example of Blender's multi-monitor support.
+   Example of Blender's multi-monitor support.
 
 
 Input Devices
@@ -21,8 +21,8 @@ Blender supports various types of input devices:
 
 - Keyboard (recommended: keyboard with numeric keypad, English layout works best)
 - Mouse (recommended: three button mouse with scroll wheel)
-- NDOF Devices (also known as *3D Mouse*)
-- Graphic Tablets
+- NDOF Device (also known as *3D Mouse*)
+- Graphic Tablet
 
 .. note::
 
@@ -31,8 +31,8 @@ Blender supports various types of input devices:
    Settings to enable this can be found in the :doc:`Input Preferences </editors/preferences/input>`.
 
 
-Mice
-----
+Mouse
+-----
 
 Mouse Button Emulation
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -55,8 +55,8 @@ The following table shows the combinations used:
      - :kbd:`RMB`
 
 
-Keyboards
----------
+Keyboard
+--------
 
 Numpad Emulation
 ^^^^^^^^^^^^^^^^
@@ -85,8 +85,8 @@ your computer to the UK or US layout as long as you work with Blender.
 
 .. _hardware-tablet:
 
-Graphic Tablets
----------------
+Graphic Tablet
+--------------
 
 Graphics tablets can be used to provide a more traditional method of controlling the mouse cursor using a pen.
 This can help to provide a more familiar experience for artists
@@ -101,10 +101,10 @@ as well as provide additional controls such as pressure sensitivity.
 
 .. _hardware-ndof:
 
-3D Mice (NDOF)
---------------
+NDOF (3D Mouse)
+---------------
 
-3D Mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender.
+3D mice or :abbr:`NDOF (N-Degrees of Freedom)` devices are hardware that you can use to navigate a scene in Blender.
 Currently only devices made by 3Dconnexion are supported.
 These devices allow you to explore a scene, as well as :ref:`Fly/Walk modes <3dview-fly-walk>`.
 
