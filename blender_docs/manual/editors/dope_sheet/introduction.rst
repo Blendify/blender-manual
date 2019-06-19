@@ -37,13 +37,93 @@ the other ones are dedicated to view and edit specific data-blocks used in diffe
 Interface
 =========
 
-The *Dope Sheet Editor* interface is somewhat similar to the *Graph Editor*
-one, it is divided in three regions:
+The *Dope Sheet Editor* interface is divided in three regions:
 
-.. figure:: /images/editors_dope-sheet_action_editor.png
-   :width: 670px
 
-   The Action Editor with object channels.
+Main Region
+-----------
+
+.. figure:: /images/editors_dope-sheet_keyframe_types.png
+   The Dope Sheet Editor with object channels.
+
+This area contains keyframes for all visible action channels.
+As with the other time-based editors, the X axis represents time.
+The Y axis siplmply represents a stack of action channels.
+
+On these channels lay the keyframes, which can show different information:
+
+
+.. list-table::
+   :widths: 20 80
+
+   * - Grey
+     - Unselected
+   * - Yellow
+     - Selected
+   * - Diamond
+     - Free Keyframe Handle
+   * - Round
+     - Auto-Clamped Keyframe Handle
+   * - Circle
+     - Automatic Keyframe Handle
+   * - Square
+     - Vector Keyframe Handle
+   * - Rhombus
+     - Aligned Keyframe Handle
+   * - Various colors
+     - These represent custom keyframe tags set by the user (Key > Keyframe Type)
+   * - Grey bar between keys
+     - Held key (the two keyframes are identical)
+   * - Green line between keys
+     - Fixed keyframe interpolation (set in Key > Interpolation Mode)
+   * - Up-arrow
+     - Maximum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
+   * - Down-arrow
+     - Minimum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
+
+
+Selecting Keyframes
+-------------------
+Selection commands are available in the Select menu in the header, and the main shortcuts listed below:
+
+Selecting    
+   Click on a key to select it. Hold :kbd:`Shift` to extend the current selection
+Box Selecting 
+   Click and drag to box select multiple keyframes at once. You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection
+Select/Deselect All
+   To select all keys, press :kbd:`A`
+   To deselect all keys, press :kbd:`Alt-A`
+   To inverse the selection, press :kbd:`Ctrl-I`
+Select all to the right or left
+   Hold :kbd:`Shift` & :kbd:`Ctrl` and click on either side of the Playhead 
+   You can also use :kbd:`]` & :kbd:`[`
+See the Select menu for a full list of selection commands.
+
+Manipulating Keyframes
+----------------------
+Keyframe commands are available in the Key menu in the header, and the main shortcuts listed below:
+
+Moving Keyframes
+   To move a single keyframe, click and drag on a key
+   To move multiple keyframes, make sure several keys are selected and press :kbd:`G`
+Scaling Keyframes
+   To scale (stretch) selected keys, press :kbd:`S`
+Extending Keyframes
+   To extend the time between two keys, select all with :kbd:`A`, place the Playhead between two keyframes and press :kbd:`E`
+See the Key menu for a full list of selection commands.
+
+
+Channels Region
+---------------
+
+.. _fig-dope-sheet-action:
+
+.. figure:: /images/editors_dope-sheet_introduction_action-editor-sliders.png
+
+   The Action editor's channels region.
+
+See :doc:`/editors/graph_editor/channels`.
+
 
 
 Header
@@ -113,55 +193,6 @@ Keyframe Type :kbd:`R`
 See :doc:`F-Curve </editors/graph_editor/fcurves/index>`.
 
 
-Main Region
------------
-
-.. figure:: /images/editors_dope-sheet_keyframe_types.png
-
-This area contains keyframes for all visible action channels.
-As with the other time-based editors, the X axis represents time.
-The Y axis siplmply represents a stack of action channels.
-
-On these channels lay the keyframes, which can show different information:
-
-
-.. list-table::
-   :widths: 20 80
-
-   * - Grey
-     - Unselected
-   * - Yellow
-     - Selected
-   * - Diamond
-     - Free Keyframe Handle
-   * - Round
-     - Auto-Clamped Keyframe Handle
-   * - Circle
-     - Automatic Keyframe Handle
-   * - Square
-     - Vector Keyframe Handle
-   * - Rhombus
-     - Aligned Keyframe Handle
-   * - Various colors
-     - These represent custom keyframe tags set by the user (Key > Keyframe Type)
-   * - Grey bar between keys
-     - Held key (the two keyframes are identical)
-   * - Green line between keys
-     - Fixed keyframe interpolation (set in Key > Interpolation Mode)
-   * - Up-arrow
-     - Maximum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
-   * - Down-arrow
-     - Minimum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
 
 
 
-Channels Region
----------------
-
-.. _fig-dope-sheet-action:
-
-.. figure:: /images/editors_dope-sheet_introduction_action-editor-sliders.png
-
-   The Action editor's channels region.
-
-See :doc:`/editors/graph_editor/channels`.
