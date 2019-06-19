@@ -6,11 +6,6 @@ Configuring Peripherals
 Displays
 ========
 
-Todo add.
-
-.. Include HMD for the future
-
-
 Multi-Monitor Setup
 -------------------
 
@@ -22,14 +17,18 @@ Multi-Monitor Setup
 Input Devices
 =============
 
-.. Add note about emulate 3D button mouse and numpad.
-
 Blender supports various types of input devices:
 
 - Keyboard (recommended: keyboard with numeric keypad, English layout works best)
 - Mouse (recommended: three button mouse with scroll wheel)
 - NDOF Devices (also known as *3D Mouse*)
 - Graphic Tablets
+
+.. note::
+
+   If you are missing an input device such as a mouse or numpad Blender
+   can change its :doc:`keymap </interface/keymap/blender_default>` to emulate these devices.
+   Settings to enable this can be found in the :doc:`Input Preferences </editors/preferences/input>`.
 
 
 Mice
