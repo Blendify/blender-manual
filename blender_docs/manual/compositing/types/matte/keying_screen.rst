@@ -4,7 +4,7 @@
 Keying Screen Node
 ******************
 
-.. figure:: /images/compositing_types_matte_keying-screen_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeKeyingScreen.png
    :align: right
 
    Keying Screen Node.

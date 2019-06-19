@@ -4,7 +4,7 @@
 Color Ramp Node
 ***************
 
-.. figure:: /images/compositing_types_converter_color-ramp_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeValToRGB.png
    :align: right
 
    Color Ramp Node.

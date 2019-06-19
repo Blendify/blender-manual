@@ -4,7 +4,7 @@
 Channel Key Node
 ****************
 
-.. figure:: /images/compositing_types_matte_channel-key_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeChannelMatte.png
    :align: right
 
    Channel Key Node.

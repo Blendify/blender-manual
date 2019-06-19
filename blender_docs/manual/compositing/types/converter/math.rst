@@ -8,7 +8,7 @@
 Math Node
 *********
 
-.. figure:: /images/compositing_types_converter_math_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeMath.png
    :align: right
 
    Math node.

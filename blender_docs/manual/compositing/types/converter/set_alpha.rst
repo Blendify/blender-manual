@@ -4,7 +4,7 @@
 Set Alpha Node
 **************
 
-.. figure:: /images/compositing_types_converter_set-alpha_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeSetAlpha.png
    :align: right
 
    Set Alpha Node.

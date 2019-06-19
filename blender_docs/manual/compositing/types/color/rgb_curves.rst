@@ -8,7 +8,7 @@
 RGB Curves Node
 ***************
 
-.. figure:: /images/compositing_types_color_rgb-curves_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeCurveRGB.png
    :align: right
 
    RGB Curves Node.

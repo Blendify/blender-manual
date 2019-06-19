@@ -4,7 +4,7 @@
 Map Range Node
 **************
 
-.. figure:: /images/compositing_types_vector_map-range_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeMapRange.png
    :align: right
 
    Map Range Node.

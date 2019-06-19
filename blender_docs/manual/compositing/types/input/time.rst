@@ -6,7 +6,7 @@
 Time Node
 *********
 
-.. figure:: /images/compositing_types_input_time_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeTime.png
    :align: right
 
    Time Node.

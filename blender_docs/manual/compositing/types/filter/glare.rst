@@ -4,7 +4,7 @@
 Glare Node
 **********
 
-.. figure:: /images/compositing_types_filter_glare_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeGlare.png
    :align: right
 
    Glare Node.

@@ -4,7 +4,7 @@
 Map Value Node
 **************
 
-.. figure:: /images/compositing_types_vector_map-value_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeMapValue.png
    :align: right
 
    Map Value Node.

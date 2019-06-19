@@ -4,7 +4,7 @@
 Track Position Node
 *******************
 
-.. figure:: /images/compositing_types_input_track-position_node.png
+.. figure:: /images/compositing_node-types_CompositorNodeTrackPos.png
    :align: right
 
    Track Position Node.
