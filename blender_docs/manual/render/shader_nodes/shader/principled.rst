@@ -107,6 +107,11 @@ Transmission
    Mix between fully opaque surface at zero and fully glass like transmission at one.
 Transmission Roughness :guilabel:`Cycles Only`
    With **GGX** distribution controls roughness used for transmitted light.
+Emission
+   Light emission from the surface, like the Emission shader.
+Alpha
+   Controls the transparency of the surface, with 1.0 fully opaque.
+   Usually linked to the Alpha output of an Image Texture node.
 Normal
    Controls the normals of the base layers.
 Clearcoat Normal
