@@ -17,10 +17,11 @@ Each of the three modes have a variety of tools. Some tools may be found in one 
 
 Modes that used for modeling:
 
-- Object Mode
-- Edit Mode
-- Sculpt Mode
-
-Creation of a mesh primitive typically starts by adding a mesh object in *Object Mode*.
-Limited types of editing such as size, location, and orientation can be accomplished in *Object Mode*.
-*Object Mode* also provides the means to Join and Group multiple mesh primitives.
+Object Mode
+   Supports basic operations such as object creation,
+   joining objects, managing shape-keys, UV/color layers.
+Edit Mode
+   Used for the majority of mesh editing operations.
+Sculpt Mode
+   Instead of dealing with individual mesh elements,
+   support sculpting with brushes *(not covered in this chapter)*.
