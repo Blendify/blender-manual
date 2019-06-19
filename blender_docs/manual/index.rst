@@ -29,8 +29,8 @@ Getting Started
 
    - :doc:`/getting_started/about/index`
    - :doc:`/getting_started/installing/index`
-   - :doc:`/getting_started/help`
    - :doc:`/getting_started/configuration/index`
+   - :doc:`/getting_started/help`
 
 
 Sections
