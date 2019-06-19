@@ -246,7 +246,3 @@ The *Rigid Body World* is a group of rigid body objects,
 which holds settings that apply to all rigid bodies in this simulation.
 
 See :doc:`Rigid Body World </physics/rigid_body/world>` for more information.
-
-
-.. _bpy.types.RenderSettings.simplify_subdivision:
-.. _data-system-scenes-properties-simplify:
