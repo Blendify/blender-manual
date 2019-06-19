@@ -1,5 +1,5 @@
 .. _bpy.types.Object.show:
-.. _bpy.types.Object.draw_type:
+.. _bpy.types.Object.display_type:
 .. _bpy.types.Object.color:
 
 *******
@@ -16,31 +16,36 @@ Name
    Displays the name of the object in the 3D View.
 Axis
    Displays an object similar to an *Empty* that shows the object's axis.
-Wire
+Wireframe
    Draws an object's wireframe on top of the solid drawing.
-Draw All Edges
+All Edges
    Displays all edges for mesh objects.
-Bounds
-   Displays a bounding box around an object.
-   This can be helpful if you have high-poly objects that slow down the viewport.
-
-   Draw Bounds Type
-      Displays the object's bounds calculated with different primitive shapes
-      that might be closer to what the original object looks like.
-
 Texture Space
    Displays the objects :term:`Texture Space`.
-X-Ray
+Shadow
+   Allows the object to cast shadows in the viewport.
+In Front
    Makes the object draw in front of others. (Unsupported for duplicator drawing).
-Transparency
-   Displays material transparency in the object. (Unsupported for duplicator drawing).
-
-Maximum Draw Type
-   The Maximum shading mode to display in the 3D View.
-   This can be useful if you have a high-poly object that is slowing down performance.
+Display As
+   The shading mode to display in the 3D View;
+   this can be useful if you have a high-poly object that is slowing down performance.
 
 .. _objects-display-object-color:
 
-Object Color
+Color
    Allows to specify the object's color when using the Workbench renderer
    with *Display Type* set to Rendered.
+
+
+.. _bpy.types.Object.show_bounds:
+.. _bpy.types.Object.display_bounds_type:
+
+Bounds
+------
+
+Displays a bounding shape around an object.
+This can be helpful if you have high-poly objects that slow down the viewport.
+
+Shape
+   Displays the object's bounds calculated with different primitive shapes
+   that might be closer to what the original object looks like.
