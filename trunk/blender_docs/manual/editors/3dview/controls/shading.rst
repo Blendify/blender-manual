@@ -83,10 +83,12 @@ Viewport
 Options
 =======
 
-.. _3dview-shading-xray:
 
 Backface Culling
    TODO2.8.
+
+.. _3dview-shading-xray:
+
 X-Ray
    Render the scene transparent. With the slider you can control how
    transparent the scene should appear.

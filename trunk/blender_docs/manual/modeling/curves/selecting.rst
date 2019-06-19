@@ -8,7 +8,7 @@ Mainly this is, because there is only one selectable element type, the control p
 (no select mode needed here...). These points are a bit more complex than simple vertices,
 however, especially for Béziers, as there is the central vertex, and its two handles...
 
-The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
+The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting>`,
 so you can select a simple control point with the :kbd:`RMB`,
 add to current selection with :kbd:`Shift-RMB`, Border Select :kbd:`B`, and so on.
 
@@ -35,11 +35,11 @@ Border/Circle Select
    All these options have the same meaning and behavior as in
    :doc:`Object Mode </scene_layout/object/selecting/tools>`
    (and the specifics of *Border Select* in *Edit Mode* have already been discussed
-   :doc:`here </modeling/meshes/selecting/introduction>`).
+   :doc:`here </modeling/meshes/selecting>`).
 
 
 Select Linked
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -54,7 +54,7 @@ using :kbd:`L` with a handle selected will select the whole control point and al
 
 
 Select Similar
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -83,7 +83,7 @@ Threshold
 
 
 Shortest Path
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -97,7 +97,7 @@ In the case of a closed curve, the shortest path will be selected.
 
 
 Select/Deselect First/Last
-==========================
+--------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -112,7 +112,7 @@ in the object. This is useful to quickly find the start of a curve
 
 
 Select Next/Previous
-====================
+--------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -127,7 +127,7 @@ In case of a cyclic curve, the first and last points are not considered as neigh
 
 
 Select More/Less
-================
+----------------
 
 .. admonition:: Reference
    :class: refbox
