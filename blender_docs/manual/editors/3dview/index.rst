@@ -15,7 +15,6 @@
    navigate/index.rst
    3d_cursor.rst
    controls/index.rst
-   tools.rst
-   measure.rst
+   toolbar/index.rst
    properties/index.rst
    viewport_render.rst

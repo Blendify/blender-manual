@@ -44,16 +44,6 @@ the selected object and mode.
 
 All hotkeys you press will affect the contents of the editor where mouse pointer is located.
 
-.. _ui-region-tool_settings:
-
-Tool Settings
-=============
-
-This region shows tool settings in a horizontal bar above the regular header.
-
-.. note::
-
-   This region is hidden in the default screen.
 
 .. _ui-region-toolbar:
 
@@ -63,7 +53,18 @@ Toolbar
 The *Toolbar* (on the left side of editor area) contains the tool settings.
 :kbd:`T` toggles the visibility of Toolbar.
 
-See :ref:`ui-tool_system`.
+.. tip::
+
+   Expand the Toolbar to show icons on two columns instead of one.
+   Expand the Toolbar even more to show icons with titles.
+
+
+Operator Panel
+--------------
+
+The *Operator panel* is a region on 3D View that shows tool options
+when tools (operators) are run. Operator panel shows properties of
+the :ref:`last operator <ui-redo-last>` executed.
 
 
 Side Bar
@@ -74,14 +75,6 @@ contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Side bar.
 
-
-Adjust Last Operation
-=====================
-
-Some actions support adjusting their values afterwards.
-This panel shows properties of the :ref:`last operator <ui-redo-last>`.
-
-This can be toggled from the *View* menu.
 
 Arranging
 =========

@@ -29,4 +29,4 @@ Annotations
 ===========
 
 Options for the annotation tool.
-See :doc:`/interface/annotation_tool`.
+See :doc:`/interface/annotate_tool`.

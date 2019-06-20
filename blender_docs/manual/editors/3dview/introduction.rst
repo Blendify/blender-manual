@@ -82,7 +82,7 @@ Toolbar Region
 The Tool Shelf is a context-sensitive region containing tools depending on the current mode
 (for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
 
-See :doc:`Tools </editors/3dview/tools>` for more information.
+See :doc:`Tools </editors/3dview/toolbar/index>` for more information.
 
 
 Sidebar Region
