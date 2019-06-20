@@ -1,5 +1,3 @@
-.. TODO: use substitutions, see: https://stackoverflow.com/questions/56557296
-.. |menu| unicode:: U+2630
 
 ********
 Defaults
@@ -19,7 +17,7 @@ Saving Defaults
 
 The user preferences are automatically saved when changed.
 
-Changing the default startup file when Blender starts can be done via
+Changing the default startup file can be done via
 :menuselection:`File --> Defaults --> Save Startup File`
 See :ref:`Startup File <startup-file>`.
 
