@@ -158,27 +158,7 @@ Mesh Analysis
 
 Show the mesh analysis overlay.
 
-Type
-   Type of data to visualize. Possible options are:
-
-   Overhang
-      Minimum/Maximum
-         Minimum/Maximum angle to display.
-      Axis
-         Axis and direction to use as the bases to calculate the angle to visualize.
-   Thickness
-      Minimum/Maximum
-         Minimum/Maximum thickness to display.
-      Samples
-         Number of samples to use to calculate the thickness.
-   Intersect
-      At what places does the mesh intersect with itself.
-   Distortion
-      Minimum/Maximum
-         Minimum/Maximum distortion to display.
-   Sharp
-      Minimum/Maximum
-         Minimum/Maximum angle to display.
+See: :ref:`modeling-mesh-analysis`.
 
 
 Measurement
