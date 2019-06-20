@@ -132,7 +132,7 @@ Use :kbd:`Shift-LMB` to select multiple markers.
 
 In the Graph Editor, Dope Sheet, NLA Editor, Timeline, and Video Sequence Editor,
 you can also select all markers with :kbd:`A` while hovering the mouse over the marker row,
-and apply selection tools on them like Border Select etc.
+and apply selection tools on them like Box Select etc.
 (as usual, :kbd:`LMB` to select, :kbd:`RMB` to deselect).
 The corresponding options are found in the Select menu of these editors.
 

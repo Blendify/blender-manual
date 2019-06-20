@@ -28,7 +28,7 @@ Hiding is shared between Edit Mode and Sculpt Mode
 
 Hide Bounding Box :kbd:`H`
    To hide a part of a mesh inside the selection.
-   This works similar to :ref:`Border Select <bpy.ops.view3d.select_border>` tool.
+   This works similar to :ref:`Box Select <bpy.ops.view3d.select_border>` tool.
 Hide Bounding Box :kbd:`Shift-H`
    To reveal a hidden part of a mesh inside the selection.
 Show All :kbd:`Alt-H`
@@ -67,7 +67,7 @@ Fill Mask
 Clear Mask :kbd:`Alt-M`
    Fills the mask with a value of 0. To completely remove the mask data see `Clearing Mask Data`_.
 Box Mask :kbd:`B`
-   Works like the *Border Select* tool, it creates a rectangular mask region.
+   Works like the *Box Select* tool, it creates a rectangular mask region.
    Hold :kbd:`Shift` to clear the mask of the selected region.
 Lasso Mask :kbd:`Shift-Ctrl-LMB`
    Can be used to create a free-form mask, similar to the *Lasso Select* tool.

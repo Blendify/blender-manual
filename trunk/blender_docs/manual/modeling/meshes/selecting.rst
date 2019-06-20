@@ -173,7 +173,7 @@ Box Select
 
 Enables a rectangular region for selection :kbd:`B`.
 
-.. list-table:: Border Select example.
+.. list-table:: Box Select example.
 
    * - .. _fig-mesh-select-basics-start:
 
@@ -196,7 +196,7 @@ Enables a rectangular region for selection :kbd:`B`.
 
           Complete.
 
-In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and
+In Fig. :ref:`fig-mesh-select-basics-start`, *Box Select* has been activated and
 is indicated by showing a dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
 Finally,

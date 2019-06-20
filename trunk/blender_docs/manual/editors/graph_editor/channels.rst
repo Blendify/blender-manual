@@ -49,7 +49,7 @@ Selecting
 - Select channel (text in white/black): :kbd:`LMB`
 - Multi Select/Deselect: :kbd:`Shift-LMB`
 - Toggle Select All: :kbd:`A`
-- Border Select: (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
+- Box Select: (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
 - Border Deselect: (:kbd:`Shift-LMB` drag) or :kbd:`B` (:kbd:`Shift-LMB` drag)
 - Select all keyframes in the channel: double :kbd:`LMB` on a channel header.
 

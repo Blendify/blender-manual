@@ -78,7 +78,7 @@ Selecting
 - Single: :kbd:`LMB`.
 - All: :kbd:`A`.
 - Linked: Move the mouse over a keypoint and press :kbd:`L`.
-- Border select: :kbd:`B`.
+- Box select: :kbd:`B`.
 - Root/Tips: :menuselection:`Select --> Roots / Tips`.
 
 You may also use the *Select* Menu.

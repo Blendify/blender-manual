@@ -347,7 +347,7 @@ will assembly perfectly with each other.
    Choose the last saved blend-file; in the last exercise,
    you gave it the name "screw spring example.blend".
 #. Press the shortcut :kbd:`A` to de-select all vertices.
-#. Press the shortcut :kbd:`B`, and Blender will change the cursor; you are now in border selection mode.
+#. Press the shortcut :kbd:`B`, and Blender will change the cursor; you are now in box selection mode.
 #. Open a box that selects all of the circle vertices except
    the two vertices you used to create the height of the extrusions in the last example.
 #. Use the shortcut :kbd:`X` to delete them.

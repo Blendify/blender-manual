@@ -122,7 +122,7 @@ Merge Duplicates
    Duplicate vertices.
 
 The spin operation leaves duplicate vertices along the profile.
-You can select all vertices at the seam with Border select :kbd:`B`
+You can select all vertices at the seam with Box select :kbd:`B`
 (shown in Fig. :ref:`fig-mesh-screw-duplicate`) and perform a *Merge by Distance* operation.
 
 Notice the selected vertex count before and after the *Merge by Distance* operation

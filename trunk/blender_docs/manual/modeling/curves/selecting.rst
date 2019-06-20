@@ -10,7 +10,7 @@ however, especially for Béziers, as there is the central vertex, and its two ha
 
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting>`,
 so you can select a simple control point with the :kbd:`RMB`,
-add to current selection with :kbd:`Shift-RMB`, Border Select :kbd:`B`, and so on.
+add to current selection with :kbd:`Shift-RMB`, Box Select :kbd:`B`, and so on.
 
 One word about the Bézier control points: when you select the main central vertex,
 the two handles are automatically selected too, so you can grab it as a whole,
@@ -31,10 +31,10 @@ the 3D Views header. Let us detail them:
 - Inverse
 - Select/Deselect All
 
-Border/Circle Select
+Box/Circle Select
    All these options have the same meaning and behavior as in
    :doc:`Object Mode </scene_layout/object/selecting/tools>`
-   (and the specifics of *Border Select* in *Edit Mode* have already been discussed
+   (and the specifics of *Box Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting>`).
 
 
