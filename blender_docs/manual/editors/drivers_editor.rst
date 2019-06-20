@@ -49,17 +49,11 @@ Zoom
 Scale View
    Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
-In addition, you can also use the scrollbars to pan and zoom the view. 
-
-
-.. _graph_editor-2d-cursor:
-.. _bpy.types.SpaceGraphEditor.cursor:
-
+In addition, you can also use the scrollbars to pan and zoom the view.
 
 
 Header
 ======
-
 
 
 View Controls
@@ -177,4 +171,3 @@ Cursor Y
 
    To Keys
       Snap selected keyframes to the *Cursor*.
-
