@@ -52,10 +52,7 @@ Toolbar
 The *Toolbar* (on the left side of editor area) contains the tool settings.
 :kbd:`T` toggles the visibility of Toolbar.
 
-.. tip::
-
-   Expand the Toolbar to show icons on two columns instead of one.
-   Expand the Toolbar even more to show icons with titles.
+See :ref:`ui-tool_system`.
 
 
 Operator Panel
