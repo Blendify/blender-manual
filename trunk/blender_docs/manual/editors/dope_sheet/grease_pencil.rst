@@ -43,9 +43,10 @@ it will make a copy of the active frame on that layer, and use that.
 
 
 Copying Frames
-----------------
+--------------
 
-It is possible to copy frames from one layer to another, or from object to object, using the *Copy* and *Paste* commands in the Key menu.
+It is possible to copy frames from one layer to another,
+or from object to object, using the *Copy* and *Paste* commands in the Key menu.
 Note that keyframes will be pasted into selected layers, so make sure you have a destination layer selected.
 
 
@@ -54,5 +55,3 @@ Main View
 
 The keyframes can be manipulated like any other data in the *Dope Sheet*.
 Interpolated keyframes (alias breakdowns) are visualized as smaller light blue points.
-
-

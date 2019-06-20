@@ -22,7 +22,8 @@ Curve
 
    See :doc:`F-Curves </editors/graph_editor/fcurves/index>`.
 Keyframes
-   Keyframes are user-defined values on certain frames and are represented by little black squares which become orange if selected.
+   Keyframes are user-defined values on certain frames and are represented
+   by little black squares which become orange if selected.
 
    See :doc:`Keyframes </animation/keyframes/index>` for more information.
 Handles

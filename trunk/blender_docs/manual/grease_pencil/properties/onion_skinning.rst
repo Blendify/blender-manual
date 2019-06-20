@@ -17,7 +17,7 @@ See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
    Onion Skinning panel.
 
 Options
-========
+=======
 
 Mode
    Keyframes
@@ -39,25 +39,25 @@ Keyframes Before/After
    Sets how many frames or keyframes, depending on the mode, to show before and after the current frame.
 
 Custom Colors
-==============
+=============
 
 Before/After
    Color to use before and after the current frame in ghosts frames.
 
 Display
-========
+=======
 
-View in render   
+View in render
    Show the onion skinning in final render image.
 
 Fade
    Opacity of the ghosts frames decrease the further away from the current frame.
 
 Loop
-   Help working on loop animations showing the first keyframe/frame 
+   Help working on loop animations showing the first keyframe/frame
    as gosht when you are on the last frame of your animation.
 
 
-.. figure:: /images/grease_pencil_properties_onion_skinning_example.png   
+.. figure:: /images/grease_pencil_properties_onion_skinning_example.png
 
    An example of *Grease Pencil* Onion Skinning activated.

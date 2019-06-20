@@ -2,9 +2,9 @@
 
 .. TODO(campbell): Link to curve docs for all shared properties instead of documenting twice.
 
-============
- Properties
-============
+**********
+Properties
+**********
 
 Shape
 =====
