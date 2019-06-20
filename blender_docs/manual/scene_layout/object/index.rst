@@ -12,6 +12,6 @@
    introduction.rst
    origin.rst
    types.rst
-   selecting/index.rst
+   selecting.rst
    editing/index.rst
    properties/index.rst

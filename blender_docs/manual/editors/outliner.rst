@@ -228,7 +228,7 @@ Object State
       The global and temporary visibility settings are taken into considerations.
    Selected
       Lists the object(s) that are currently selected in the 3D View.
-      See :doc:`selecting in the 3D View </scene_layout/object/selecting/index>` for more information.
+      See :doc:`selecting in the 3D View </scene_layout/object/selecting>` for more information.
    Active
       Lists only the active (often last selected) object.
 Object Contents

@@ -37,7 +37,7 @@ Select Menu
 
    Box/Circle/All/None/Invert Select
    All these options have the same meaning and behavior as in
-   :doc:`Object Mode </scene_layout/object/selecting/tools>`
+   :doc:`Object Mode </scene_layout/object/selecting>`
 
 
 Select Linked

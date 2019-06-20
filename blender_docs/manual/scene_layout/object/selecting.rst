@@ -1,7 +1,36 @@
 
-*****
-Tools
-*****
+*********
+Selecting
+*********
+
+Selection determines which elements will be the target of our actions.
+Selections work on the current scene visible objects.
+Blender has advanced selection methods. Both in *Object Mode* and in *Edit Mode*.
+
+
+.. _object-active:
+
+Selections and the Active Object
+================================
+
+Blender distinguishes between two different states of selection:
+
+.. figure:: /images/editors_3dview_object_selecting_introduction_color.png
+
+   Unselected object in black, selected object in orange, and active object in yellow.
+
+In *Object Mode* the last (de)selected item is called the "Active Object"
+and is outlined in yellow (the others are orange).
+There is at most one active object at any time.
+
+Many actions in Blender use the active object as a reference (for example linking operations).
+If you already have a selection and need to make a different object the active one,
+simply re-select it with :kbd:`Shift-LMB`.
+
+All other selected objects are just selected. You can select any number of objects.
+In order to change a property or to perform an operation on all selected objects (bones, and sequencer strips)
+hold :kbd:`Alt`, while confirming.
+
 
 Point Selection
 ===============
@@ -28,10 +57,13 @@ Also you can use :kbd:`Ctrl-LMB` and :kbd:`Shift-Ctrl-LMB` shortcut
 to select the object by its center point rather than its contents.
 
 
+Interactive Selection Tools
+===========================
+
 .. _bpy.ops.view3d.select_border:
 
 Box Select
-==========
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -51,7 +83,7 @@ For deselecting objects, use :kbd:`MMB`.
 .. _bpy.ops.view3d.select_circle:
 
 Circle Select
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -71,7 +103,7 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Return`.
 .. _bpy.ops.view3d.select_lasso:
 
 Lasso Select
-============
+------------
 
 .. admonition:: Reference
    :class: refbox
@@ -85,10 +117,58 @@ in *Object Mode*. To use this hold :kbd:`Ctrl-RMB` and simply draw around the po
 Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-LMB`.
 
 
+.. _object-select-menu:
+
+Select Menu
+===========
+
+All :kbd:`A`
+   Select all.
+None :kbd:`Alt-A`
+   Select none.
+Inverse :kbd:`Ctrl-I`
+   Selects all geometries that are not selected, and deselect currently selected components.
+
+----
+
+`Box Select`_ :kbd:`B`
+   Interactive box selection.
+`Circle Select`_ :kbd:`C`
+   Interactive circle selection.
+
+----
+
+`Select All by Type`_
+   Select objects based on their type.
+`Select Active Camera`_
+   Select the viewports active camera.
+`Mirror Selection`_
+   Select mirrored objects based on their name.
+`Select Random`_
+   Selects a random objects, based on a percentage value.
+
+----
+
+`Select More/Less`_
+   Select objects based on their parent child relationships.
+
+----
+
+`Select Grouped`_
+   Select objects based on matching properties to the active object.
+`Select Linked`_
+   Select objects sharing data with the active object.
+`Select Pattern`_
+   Select objects by pattern matching their name.
+
+
+Selection Tools
+===============
+
 .. _bpy.ops.object.select_all:
 
 Select All
-==========
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -101,7 +181,7 @@ Select all selectable objects.
 
 
 Deselect All
-============
+------------
 
 .. admonition:: Reference
    :class: refbox
@@ -114,7 +194,7 @@ Deselect all objects, but the active object stays the same.
 
 
 Invert Selection
-================
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -128,8 +208,8 @@ Toggle the selection state of all visible objects.
 
 .. _bpy.ops.object.select_random:
 
-Random
-======
+Select Random
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -146,8 +226,8 @@ that will be selected.
 
 .. _bpy.ops.object.select_mirror:
 
-Mirror
-======
+Mirror Selection
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -162,7 +242,7 @@ based on their names, e.g. "sword.L" and "sword.R".
 .. _bpy.ops.object.select_by_type:
 
 Select All by Type
-==================
+------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -179,7 +259,7 @@ Armature, Lattice, Empty, Camera, Lamp, Speaker.
 .. _bpy.ops.object.select_camera:
 
 Select Active Camera
-====================
+--------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -195,7 +275,7 @@ Selects the active camera, this can be used in a complicated scene to easily fin
 .. _bpy.ops.object.select_hierarchy:
 
 Select More/Less
-================
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -223,7 +303,7 @@ Extend Child
 .. _bpy.ops.object.select_grouped:
 
 Select Grouped
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -269,7 +349,7 @@ Pass Index
 .. _bpy.ops.object.select_linked:
 
 Select Linked
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -303,7 +383,7 @@ Library (Object Data)
 .. _bpy.ops.object.select_pattern:
 
 Select Pattern
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
