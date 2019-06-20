@@ -53,7 +53,7 @@ Zoom
 Scale View
    Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
-In addition, you can also use the scrollbars to pan and zoom the view. 
+In addition, you can also use the scrollbars to pan and zoom the view.
 
 
 .. _graph_editor-2d-cursor:
@@ -70,7 +70,7 @@ Playhead & 2D Cursor
 The current frame is represented by a blue vertical line called the *Playhead*.
 
 As in the :doc:`Timeline </editors/timeline>`,
-you can change the current frame by :kbd:`LMB`-dragging in the scrubbing area at the top of the editor. 
+you can change the current frame by :kbd:`LMB`-dragging in the scrubbing area at the top of the editor.
 
 The blue horizontal line is called the *2D Cursor*.
 This can be enabled or disabled via the *View Menu* or the *View Properties* panel.
@@ -102,7 +102,7 @@ View Menu
 Realtime Updates
    When transforming keyframes, changes to the animation data are propagated to other views.
 Show Cursor
-   Toggles the visibility of the `2D Cursor`_.
+   Toggles the visibility of the `Playhead & 2D Cursor`_.
 Show Sliders
    A toggle option that shows the value sliders for the channels.
    See the Fig. :ref:`fig-dope-sheet-action`.
@@ -202,7 +202,7 @@ Normalize
 
 
 F-curve Controls
---------------
+----------------
 
 .. figure:: /images/editors_graph-editor_introduction_header-edit.png
 

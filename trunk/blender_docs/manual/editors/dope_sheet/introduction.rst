@@ -49,12 +49,13 @@ Zoom
 Scale View
    Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
-In addition, you can also use the scrollbars to pan and zoom the view. 
+In addition, you can also use the scrollbars to pan and zoom the view.
 
 
 Keyframes
 
 .. figure:: /images/editors_dope-sheet_keyframe_types.png
+
    The Dope Sheet Editor with object channels.
 
 This area contains keyframes for all visible action channels.
@@ -97,17 +98,18 @@ Selecting Keyframes
 -------------------
 Selection commands are available in the Select menu in the header, and the main shortcuts listed below:
 
-Selecting    
+Selecting
    Click on a key to select it. Hold :kbd:`Shift` to extend the current selection
-Box Selecting 
+Box Selecting
    Click and drag to box select multiple keyframes at once. You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection
 Select/Deselect All
    To select all keys, press :kbd:`A`
    To deselect all keys, press :kbd:`Alt-A`
    To inverse the selection, press :kbd:`Ctrl-I`
 Select all to the right or left
-   Hold :kbd:`Shift` & :kbd:`Ctrl` and click on either side of the Playhead 
+   Hold :kbd:`Shift` & :kbd:`Ctrl` and click on either side of the Playhead
    You can also use :kbd:`]` & :kbd:`[`
+
 See the Select menu for a full list of selection commands.
 
 Manipulating Keyframes
@@ -120,7 +122,9 @@ Moving Keyframes
 Scaling Keyframes
    To scale (stretch) selected keys, press :kbd:`S`
 Extending Keyframes
-   To extend the time between two keys, select all with :kbd:`A`, place the Playhead between two keyframes and press :kbd:`E`
+   To extend the time between two keys, select all with :kbd:`A`,
+   place the Playhead between two keyframes and press :kbd:`E`
+
 See the Key menu for a full list of selection commands.
 
 
@@ -202,8 +206,3 @@ Keyframe Type :kbd:`R`
    Sets the :ref:`keyframe-type` of the selected keyframes.
 
 See :doc:`F-Curve </editors/graph_editor/fcurves/index>`.
-
-
-
-
-
