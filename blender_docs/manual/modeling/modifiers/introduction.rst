@@ -15,14 +15,15 @@ and *Apply* a modifier if you wish to make its changes permanent.
 
    Modifiers menu.
 
-They can be added to the active object using the `Add Modifier` drop-down list at the top of their properties tab.
-New modifiers are always added at the bottom of the :ref:`stack<modifier-stack>` (i.e. will be applied last).
+They can be added to the active object using the *Add Modifier* dropdown menu at the top of their properties tab.
+New modifiers are always added at the bottom of the :ref:`stack <modifier-stack>` (i.e. will be applied last).
 
 There are four types of modifiers:
 
 Modify
    These are tools similar to the *Deform* ones (see below),
-   however they usually do not directly affect the geometry of the object, but some other data, such as vertex groups.
+   however, they usually do not directly affect the geometry of the object,
+   but some other data, such as vertex groups.
 Generate
    These are constructive/destructive tools that will affect the whole :term:`topology` of the mesh.
    They can change the general appearance of the object, or add new geometry to it...
@@ -33,7 +34,7 @@ Simulate
    the modifiers stack whenever a *Particle System* or *Physics* simulation is enabled. Their only role is to define
    the position in the modifier stack from which is taken the base data for the simulation they represent.
    As such, they typically have no attributes, and are controlled by settings exposed in
-   separate sections of the :doc:`Properties editor</editors/properties_editor>`.
+   separate sections of the :doc:`Properties editor </editors/properties_editor>`.
 
 
 .. _bpy.types.Modifier.show:
@@ -65,7 +66,7 @@ Show in viewport (screen icon)
    Toggle visibility of the modifier's effect in the 3D View.
 Show in Edit Mode (vertices-square icon)
    Display the modified geometry in Edit mode, as well as the original geometry which you can edit.
-Show on cage (vertices-triangle icon) - Meshes only
+Show on cage (vertices-triangle icon) -- Meshes only
    Depends on the previous setting, if enabled, the modified geometry can also be edited directly,
    instead of the original one.
 
@@ -75,7 +76,7 @@ Show on cage (vertices-triangle icon) - Meshes only
       This can lead to weird and unpredictable effects with some tools,
       and should be disabled whenever you need to perform complex or precise editing on the mesh.
 
-Apply On Spline Points (point-surface icon) - Curves, Surfaces and Texts only
+Apply On Spline Points (point-surface icon) -- Curves, Surfaces and Texts only
    Apply the whole modifier stack up to and including that one on the curve or surface control points,
    instead of their tessellated geometry.
 
@@ -99,7 +100,7 @@ Apply
    Makes the modifier "real": converts the object's geometry to match the applied modifier's results,
    and deletes the modifier.
 Apply as Shape Key
-   Stores the result of that modifier in a new relative :doc:`shape key</animation/shape_keys/introduction>`.
+   Stores the result of that modifier in a new relative :doc:`shape key </animation/shape_keys/introduction>`.
    This is only available with modifiers that do not affect the topology (typically, *Deform* modifiers only).
 
    .. note::

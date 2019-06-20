@@ -13,7 +13,7 @@
 Timeline
 ********
 
-The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes &
+The *Timeline* editor, identified by a clock icon, is used for manipulating keyframes and
 scrubbing the playhead.
 
 .. figure:: /images/editors_timeline_interface.png

@@ -8,10 +8,9 @@ The *Bevel* modifier bevels the edges of the mesh it is applied to,
 with some control of how and where the bevel is applied to the mesh.
 
 It is a non-destructive alternative to
-the :doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in *Edit* mode.
+the :doc:`Bevel Operation </modeling/meshes/editing/subdividing/bevel>` in Edit Mode.
 
-.. list-table::
-   *Side views of a cube.*
+.. list-table:: Side views of a cube.
    :align: center
 
    * - .. figure:: /images/modeling_modifiers_generate_bevel_square-not.png
@@ -115,7 +114,7 @@ Width Method
 Set Face Strength Mode
    Set *Face Strength* on the faces involved in the bevel, according to the mode specified here.
    This can be used in conjunction with a following
-   :doc:`Weighted Normals</modeling/modifiers/modify/weighted_normal>` modifier
+   :doc:`Weighted Normals </modeling/modifiers/modify/weighted_normal>` modifier
    (with the *Face Influence* option checked).
 
    None

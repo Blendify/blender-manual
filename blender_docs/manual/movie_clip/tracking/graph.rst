@@ -52,4 +52,4 @@ You can manually edit the curve by selecting a point in the curve and dragging i
 that will affect the corresponding tracker on that particular frame.
 
 Lock to Playhead :kbd:`L`
-   Center the view  around the playhead.
+   Center the view around the playhead.

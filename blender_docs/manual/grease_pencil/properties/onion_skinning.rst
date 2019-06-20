@@ -6,15 +6,16 @@ Onion Skinning
 Onion Skinning show ghosts of the keyframes before and after the current frame allowing animators
 to make decisions in the animation sequence.
 
-The main switch to show/hide Onion Skinning is in the
-:doc:`Viewport Overlays </editors/3dview/controls/overlays>` under *Grease Pencil* section,
-but *Grease Pencil* Onion Skinning is per layer and can be turned On/Off in the layer list.
+The main switch to show/hide Onion Skinning is
+in the :doc:`Viewport Overlays </editors/3dview/controls/overlays>` under *Grease Pencil* section,
+but *Grease Pencil* Onion Skinning is per layer and can be turned on/off in the layer list.
 See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 
 .. figure:: /images/grease_pencil_properties_onion_skinning_panel.png
    :align: right
 
    Onion Skinning panel.
+
 
 Options
 =======
@@ -38,11 +39,13 @@ Filter By Type
 Keyframes Before/After
    Sets how many frames or keyframes, depending on the mode, to show before and after the current frame.
 
+
 Custom Colors
 =============
 
 Before/After
    Color to use before and after the current frame in ghosts frames.
+
 
 Display
 =======
@@ -55,7 +58,7 @@ Fade
 
 Loop
    Help working on loop animations showing the first keyframe/frame
-   as gosht when you are on the last frame of your animation.
+   as ghost when you are on the last frame of your animation.
 
 
 .. figure:: /images/grease_pencil_properties_onion_skinning_example.png

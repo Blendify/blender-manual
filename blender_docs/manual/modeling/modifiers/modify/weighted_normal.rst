@@ -58,8 +58,8 @@ Keep Sharp
 
 Face Influence
    Use face weights (weak, medium, or strong) as assigned by
-   the :doc:`Set Strength</modeling/meshes/editing/normals>` tool or by
-   the *Set Strength* mode of a :doc:`Bevel</modeling/modifiers/generate/bevel>` modifier.
+   the :doc:`Set Strength </modeling/meshes/editing/normals>` tool or
+   by the *Set Strength* mode of a :doc:`Bevel </modeling/modifiers/generate/bevel>` modifier.
 
    For example, if three faces meet at a vertex and have the face weights weak, medium, and strong,
    then only the normal associated with the strong face will be used to set the final result.

@@ -56,7 +56,6 @@ In addition, you can also use the scrollbars to pan and zoom the view.
 Header
 ======
 
-
 View Controls
 -------------
 
@@ -81,7 +80,7 @@ Search Filter (magnifying glass icon) :kbd:`F`
 Type Filter
    Filter curves by property type.
 
-   Data-Slock Sort (az icon)
+   Data-Block Sort (az icon)
       Objects data-blocks appear in alphabetical order, so that it is easier to find where they occur
       (as well as helping to keep the animation of related objects together in the NLA for instance).
 

@@ -71,7 +71,7 @@ Closed 2D Curve
    you will never get a volume with an extruded 3D curve, only a wall or ribbon, like with open 2D curves.
 
    However, there is one more feature with 3D curves: the *Tilt* of the control points (see above).
-   It will make the ribbon twist around the curve to create a mobius strip, for example.
+   It will make the ribbon twist around the curve to create a Möbius strip, for example.
 
 
 .. _modeling-curve-bevel:

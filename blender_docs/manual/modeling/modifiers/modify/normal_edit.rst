@@ -76,7 +76,7 @@ The only mandatory prerequisite to use it is to enable the *Auto Smooth* option 
    More complex normal manipulations can be achieved by copying normals from one mesh to another,
    see the :doc:`Data Transfer Modifier </modeling/modifiers/modify/data_transfer>`.
    Some shading effects can also make use of
-   the :doc:`Weighted Normals modifier</modeling/modifiers/modify/weighted_normal>`.
+   the :doc:`Weighted Normals modifier </modeling/modifiers/modify/weighted_normal>`.
 
 
 Example

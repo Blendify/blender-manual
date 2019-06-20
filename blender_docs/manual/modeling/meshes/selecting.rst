@@ -283,6 +283,8 @@ To activate the tool use the :kbd:`Ctrl-RMB` while dragging.
           Complete.
 
 
+.. TODO2.8 de-duplicate
+
 Select Menu
 ===========
 
@@ -291,39 +293,39 @@ All :kbd:`A`
 None :kbd:`Alt-A`
    Select none.
 Inverse :kbd:`Ctrl-I`
-   Selects all geometries that are not selected, and deselect currently selected components.
+   Selects all the geometry that is not selected, and deselect currently selected components.
 
-----
+------------------------
 
 `Box Select`_ :kbd:`B`
    Interactive box selection.
 `Circle Select`_ :kbd:`C`
    Interactive circle selection.
 
-----
+------------------------
 
 Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 :ref:`Checker Deselect <modeling-selecting-checker_deselect>`
    De-select alternate elements relative to the active item.
 
-----
+------------------------
 
 Select Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle value,
    Where an increasing angle selects sharper edges.
 
-----
+------------------------
 
 `Select Similar`_ :kbd:`Shift-G`
    Select elements similar to the current selection.
 
-----
+------------------------
 
 `Select All by Trait`_
    Select geometry by querying it's characteristics.
 
-----
+------------------------
 
 Select More/Less
    More :kbd:`Ctrl-NumpadPlus`
@@ -335,7 +337,7 @@ Select More/Less
    Previous Active :kbd:`Shift-Ctrl-NumpadMinus`
       Select previous just removes the last selected element.
 
-----
+------------------------
 
 Select Loops
    `Edge Loops`_
@@ -347,7 +349,7 @@ Select Loops
    `Edge Ring`_
       Select connected edge ring.
 
-----
+------------------------
 
 Select Linked
    `Linked <Select Linked>`_
@@ -358,7 +360,7 @@ Select Linked
       Select connected faces based on a threshold of the angle between them.
       This is useful for selecting faces that are planar.
 
-----
+------------------------
 
 Select Side of Active
    Selects all vertices on the mesh in a single axis relative to the active vertex.
@@ -369,7 +371,6 @@ Mirror Selection :kbd:`Shift-Ctrl-M`
 
 Selection Tools
 ===============
-
 
 .. _modeling-selecting-checker_deselect:
 
@@ -431,7 +432,7 @@ Interior Faces
 Faces by Sides
    Selects all faces that have a specified number of edges.
 
-----
+------------------------
 
 Ungrouped Vertices
    Selects all vertices which are not part of
@@ -529,8 +530,8 @@ Face Selection Mode:
 
 .. (todo) check type: Image in Cycles
 
-.. _modeling-meshes-selecting-edge-loops:
 
+.. _modeling-meshes-selecting-edge-loops:
 
 Edge Loops
 ----------
@@ -559,7 +560,7 @@ using either :menuselection:`Select --> Edge Loop`.
    Longitudinal and latitudinal edge loops.
 
 The left sphere shows an edge that was selected longitudinally. Notice how the loop is open.
-This is because the algorithm hit the vertices at the poles and terminated
+This is because the algorithm hit the vertices at the poles and is terminated
 because the vertices at the pole connect to more than four edges. However,
 the right sphere shows an edge that was selected latitudinally and has formed a closed loop.
 This is because the algorithm hit the first edge that it started with.
@@ -675,8 +676,8 @@ Shortest Path
 
    Select a face or vertex path with :kbd:`Ctrl-LMB`.
 
-Selects all geometry along the shortest path from the active
-vertex/edge/face to the one which was selected.
+Selects all geometry along the shortest path from
+the active vertex/edge/face to the one which was selected.
 
 Face Stepping
    Supports diagonal paths for vertices and faces, and

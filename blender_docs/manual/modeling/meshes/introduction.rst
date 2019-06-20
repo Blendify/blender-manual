@@ -19,7 +19,7 @@ Modes that used for modeling:
 
 Object Mode
    Supports basic operations such as object creation,
-   joining objects, managing shape-keys, UV/color layers.
+   joining objects, managing shape keys, UV/color layers.
 Edit Mode
    Used for the majority of mesh editing operations.
 Sculpt Mode

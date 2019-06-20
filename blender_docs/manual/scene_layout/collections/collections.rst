@@ -32,11 +32,11 @@ Collections Menu
    :Menu:      :menuselection:`Object --> Collection`
    :Hotkey:    :kbd:`M`, :kbd:`Shift-M`, :kbd:`Ctrl-G`, etc.
 
-Move to Collection
+Move to Collection :kbd:`M`
    Move selected objects to a collection.
-Link to Collection
+Link to Collection :kbd:`Shift-M`
    Link selected objects to a collection.
-   A new collection can be created in the pop-up dialog.
+   A new collection can be created in the pop-up.
 Create New Collection :kbd:`Ctrl-G`
    Creates a new collection and adds the selected object(s) to it.
    The name of the new collection can be specified in the *Create New Collection* Operator panel.
@@ -78,11 +78,11 @@ Name
 Remove ``X``
    To remove an object from a group,
    find the name of the collection from which you wish to remove the object,
-   and click the ``X`` to the right of the collection name.
+   and click the ``X`` button to the right of the collection name.
 Specials
    Unlink Collection, Select Collection, Set Offset From Cursor
 Offset
-   Applies a locational offset of the dupli-instanced collections from the original object's origin.
+   Applies a spatial offset of the dupli-instanced collections from the original object's origin.
 
 .. seealso:: Appending or Linking Collections
 

@@ -21,7 +21,7 @@ The general process is the following, for each vertex:
 
 .. note::
 
-   You can view the modified weights in *Weight Paint* mode.
+   You can view the modified weights in Weight Paint Mode.
    This also implies that you will have to disable the *Vertex Weight Edit* modifier
    if you want to see the original weights of the vertex group you are editing.
 
@@ -135,8 +135,8 @@ Example
 =======
 
 Here is an example of various effects achieved using *Vertex Weight Edit* modifier
-(together with its fellow :doc:`Vertex Weight Proximity</modeling/modifiers/modify/weight_proximity>` modifier)
-to generate weights used by the :doc:`Displace</modeling/modifiers/deform/displace>` modifier.
+(together with the :doc:`Vertex Weight Proximity </modeling/modifiers/modify/weight_proximity>` modifier)
+to generate weights used by the :doc:`Displace </modeling/modifiers/deform/displace>` modifier.
 
 .. list-table::
    *Curve Map* variations.

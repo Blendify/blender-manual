@@ -54,7 +54,7 @@ quadrangles "deform well" and are therefore preferred for animation and subdivis
 .. seealso::
 
    - `Why should triangles be avoided for character animation? <https://blender.stackexchange.com/questions/2931>`__
-   - `When should N-Gons be used, and when shouldn't they? <https://blender.stackexchange.com/questions/89>`__
+   - `When should N-gons be used, and when shouldn't they? <https://blender.stackexchange.com/questions/89>`__
 
 
 Topology
@@ -90,30 +90,34 @@ For a detailed description of how to work with loops in Blender, see:
 
 .. _modeling-mesh-structure-edge-loops:
 
-Edge Loops
-   Loops (1 and 2) in Fig. :ref:`fig-mesh-topo-loop` are edge loops.
-   They connect vertices so that each one on the loop has exactly two neighbors that are not on
-   the loop and placed on both sides of the loop (except the start and end vertex in case of poles).
+.. rubric:: Edge Loops
 
-   Edge loops are an important concept especially in organic (subsurface)
-   modeling and character animation. When used correctly, they allow you to build models with
-   relatively few vertices that look very natural when used as subdivision surfaces and
-   deform very well in animation.
+Loops (1 and 2) in Fig. :ref:`fig-mesh-topo-loop` are edge loops.
+They connect vertices so that each one on the loop has exactly two neighbors that are not on
+the loop and placed on both sides of the loop (except the start and end vertex in case of poles).
 
-   Take Fig. :ref:`fig-mesh-topo-loop` in organic modeling as an example: the edge loops follow the natural
-   contours and deformation lines of the skin and the underlying muscles and are more dense in
-   areas that deform more when the character moves, for example at the shoulders or knees.
+Edge loops are an important concept especially in organic (subsurface)
+modeling and character animation. When used correctly, they allow you to build models with
+relatively few vertices that look very natural when used as subdivision surfaces and
+deform very well in animation.
 
-   Further details on working with edge loops can be found in
-   :ref:`Edge Loop Selection <modeling-meshes-selecting-edge-loops>`.
-Face Loops
-   These are a logical extension of edge loops in that they consist of the faces between
-   two edge loops, as shown in loops (3 and 4) in Fig. :ref:`fig-mesh-topo-loop`.
-   Note that for non-circular loops (4)
-   the faces containing the poles are not included in a face loop.
+Take Fig. :ref:`fig-mesh-topo-loop` in organic modeling as an example: the edge loops follow
+the natural contours and deformation lines of the skin and the underlying muscles and
+are more dense in areas that deform more when the character moves, for example at the shoulders or knees.
 
-   Further details on working with face loops can be found in
-   :ref:`Face Loop Selection <modeling-meshes-selecting-face-loops>`.
+Further details on working with edge loops can be found in
+:ref:`Edge Loop Selection <modeling-meshes-selecting-edge-loops>`.
+
+
+.. rubric:: Face Loops
+
+These are a logical extension of edge loops in that they consist of the faces between
+two edge loops, as shown in loops (3 and 4) in Fig. :ref:`fig-mesh-topo-loop`.
+Note that for non-circular loops (4)
+the faces containing the poles are not included in a face loop.
+
+Further details on working with face loops can be found in
+:ref:`Face Loop Selection <modeling-meshes-selecting-face-loops>`.
 
 
 Poles
@@ -122,7 +126,7 @@ Poles
 See `N-poles & E-poles <https://blender.stackexchange.com/a/133676/55>`__.
 
 
-Non-manifold
+Non-Manifold
 ------------
 
 See :term:`Non-manifold`.

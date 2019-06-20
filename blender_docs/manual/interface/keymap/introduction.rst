@@ -121,6 +121,7 @@ Dragging
 - :kbd:`Shift-Ctrl` -- Precise snap will move the object with high precision
   along with the snapping constraint.
 
+
 .. _ui-text-editing:
 
 Text Editing

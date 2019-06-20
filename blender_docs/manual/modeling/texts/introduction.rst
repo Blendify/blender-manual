@@ -13,7 +13,7 @@ Introduction
 and share the same object type as *Curves* and *Surfaces*,
 as fonts are vectorial, made of curves.
 
-Blender uses a "Font System" to manage mapping letter codes to objects representing them in 3D views.
+Blender uses a "Font System" to manage mapping letter codes to objects representing them in 3D Views.
 This font system has its own *built-in* font, but it can use external fonts too,
 including *PostScript Type 1*, *OpenType* and *TrueType* fonts.
 And moreover, it can use any objects existing in the current blend-file as letters.

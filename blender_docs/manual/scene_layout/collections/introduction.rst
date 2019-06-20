@@ -3,21 +3,22 @@
 Introduction
 ************
 
+.. TODO28 fix heading style
+
 Where are the Objects?
 ======================
 
 In Blender, objects are not directly part of the scenes.
-Instead, they all get stored in a main database
-(basically the .blend file).
+Instead, they all get stored in a main database (basically the blend-file).
 
 .. figure:: /images/scene_layout-collections-database_preview.png
 
-   The .blend file and its stored data.
+   The blend-file and its stored data.
 
 From there they are referenced into as many Scenes as you would like to see them.
 
 When they are stored in a scene, they are part of a so-called *scene collection*.
-So ultimatelly all the scene objects belong to this special collection.
+So ultimately all the scene objects belong to this special collection.
 
 .. figure:: /images/scene_layout-collections-scene_collection.png
 
@@ -26,6 +27,7 @@ So ultimatelly all the scene objects belong to this special collection.
 
 Collections
 ===========
+
 While the *scene collection* contains all the Scene’s objects,
 the user can also make their own collections to better organize these objects.
 
@@ -45,8 +47,9 @@ The result is a clear and flexible way to arrange objects together on the Scene 
 
 Naming and Nesting
 ==================
+
 Collections can be named and sorted hierarchically.
-Just like folders can have sub-folders in any operating system,
+Just like folders can have subfolders in any operating system,
 collections can have nested collections too.
 
 .. figure:: /images/scene_layout-collections-collections_nested.png

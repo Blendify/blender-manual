@@ -6,6 +6,7 @@ Installing on Linux
 Check the :doc:`Downloading Blender </getting_started/installing/index>`
 page to find the minimum requirements and where to get Blender (if you have not done so yet).
 
+
 Install from Package Manager
 ============================
 
@@ -31,7 +32,7 @@ Download the Linux version for your architecture and uncompress the file to the 
 Blender can now be launched by double-clicking the executable.
 
 For ease of access, you can configure your system by adding a menu entry or shortcut for Blender.
-You may also associate blend-files with Blender so that when selected from the File browser,
+You may also associate blend-files with Blender so that when selected from the file browser,
 they will automatically open in Blender.
 These settings are typically found in conjunction with the Window Manager settings. (Gnome or KDE).
 

@@ -34,6 +34,6 @@ Startup File & Preferences
 
 .. note::
 
-   After loading the factory settings, the preferences wont be auto-saved.
+   After loading the factory settings, the preferences won't be auto-saved.
 
    See :ref:`prefs-menu` for details.

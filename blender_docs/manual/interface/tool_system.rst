@@ -21,13 +21,13 @@ Some tools define gizmos (*Shear* and *Spin* for example) to help control the to
 Toolbar
 =======
 
-The tool bar shows buttons for each tool.
+The Toolbar shows buttons for each tool.
 
 For tools which have an arrow :kbd:`LMB` drag opens up the sub-menu so you can select other tools.
 
-When the toolbar is set to a narrow width, text isn't displayed.
+When the Toolbar is set to a narrow width, text isn't displayed.
 
-Holding your cursor over a tool for a short time shows it's name, keep hovering to show the full tool-tip.
+Holding your cursor over a tool for a short time shows it's name, keep hovering to show the full tooltip.
 
 .. tip::
 
@@ -49,7 +49,7 @@ Tools can have their own settings, these are available multiple place:
 Brushes
 =======
 
-For painting modes each brush-type is exposed as a tool,
+For painting modes each brush type is exposed as a tool,
 the brush can be changed from the tool setting.
 
 
@@ -60,7 +60,7 @@ Keyboard tool switching is not enabled by default,
 set the key-map preference :ref:`keymap-blender_default-spacebar_action` to *Tools*.
 Then you can be used as a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:`Shift`).
 
-:kbd:`Space-T` for Transform, :kbd:`Space-D` for Annotate, :kbd:`Space-M` for measure... etc.
+:kbd:`Spacebar-T` for Transform, :kbd:`Spacebar-D` for Annotate, :kbd:`Spacebar-M` for measure, etc.
 
 *The accelerator keys are displayed in the pop-up.*
 

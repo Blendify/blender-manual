@@ -5,8 +5,8 @@ Boolean Modifier
 ****************
 
 The *Boolean* modifier performs operations on meshes that are otherwise too complex
-to achieve with as few steps by editing meshes manually. It uses one of the
-three available boolean operations to create a single mesh out of two mesh objects:
+to achieve with as few steps by editing meshes manually. It uses one of
+the three available boolean operations to create a single mesh out of two mesh objects:
 
 .. figure:: /images/modeling_modifiers_generate_booleans_union-intersect-difference-examples.png
 

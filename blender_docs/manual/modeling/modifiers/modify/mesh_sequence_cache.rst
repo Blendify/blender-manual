@@ -8,7 +8,7 @@ Mesh Sequence Cache Modifier
 Despite its name, this modifier supports meshes and curves.
 It also handles file sequences, as well as meshes and curves with varying number of vertices/control points.
 
-Unlike the :doc:`Mesh Cache modifier</modeling/modifiers/modify/mesh_cache>`, it uses Alembic files as source.
+Unlike the :doc:`Mesh Cache modifier </modeling/modifiers/modify/mesh_cache>`, it uses Alembic files as source.
 
 
 Options

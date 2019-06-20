@@ -205,8 +205,7 @@ This is intended as a test mesh, similar to:
 - `Utah Teapot <https://en.wikipedia.org/wiki/Utah_teapot>`__
 - `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 
-.. admonition:: History
-   :class: refbox
+.. hint:: History
 
    This is a gift from old NaN to the community and is seen as a programmer's joke or
    "Easter Egg". It creates a monkey's head once you press the *Monkey* button.

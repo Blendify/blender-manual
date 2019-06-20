@@ -29,7 +29,7 @@ Options
 Source Object
    Mesh object to copy data from.
 
-   If the button to the right of the field is unset, source and destination geometries
+   If the button to the right of the field is unset, the source and destination geometry
    are considered in global space when generating the mapping, otherwise they are evaluated
    in local space (i.e. as if both object's origins were at the same place).
 
