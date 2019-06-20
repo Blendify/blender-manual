@@ -141,3 +141,7 @@ Typical Workflow
 #. Attach a Viewer node to the Pick output of the Cryptomatte node.
 #. Use the Cryptomatte Add/Remove button to sample objects in the Pick Viewer node.
 #. Use the Matte output of the Cryptomatte node to get the alpha mask.
+
+.. seealso::
+
+   :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
