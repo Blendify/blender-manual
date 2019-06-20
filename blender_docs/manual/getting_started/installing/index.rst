@@ -7,6 +7,7 @@ Blender is released approximately every three months.
 You can keep up to date with the latest changes through the
 `release notes <https://www.blender.org/features/releases/>`__.
 
+
 Support Requirements
 ====================
 
@@ -35,11 +36,11 @@ the latter provides the newest features, as they are developed, at the cost of s
    These versions are not as thoroughly tested as the stable release, and might break,
    although they are official and usually not highly experimental.
 
-.. note ::
+.. note::
 
    Blender's source code is available for free to either reference or to
    `Build from Source <https://wiki.blender.org/wiki/Building_Blender>`__.
-   While normal users are **not** expected to compile Blender it does have a couple advantages:
+   While normal users are **not** expected to compile Blender it does have advantages:
 
    - Blender is always up to date.
    - It allows access to any version or branch where a feature is being developed.

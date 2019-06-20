@@ -94,7 +94,7 @@ Defaults
    Initially this contains the :doc:`startup scene </editors/3dview/startup_scene>` included with Blender.
    This can be replaced by your own customized setup.
 
-   Save User Settings
+   Save Startup File
       Saves the current blend file as the startup-file.
    Load Factory Settings
       Restores the default startup file and preferences.
