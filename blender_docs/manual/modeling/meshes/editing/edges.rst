@@ -60,8 +60,9 @@ Mark Sharp and Clear Sharp
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Edges --> Mark Sharp/Clear Sharp`
 
-The *Sharp* flag is used by the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`,
-which is part of the smoothing techniques.
+The *Sharp* flag is used by the :ref:`split normals<auto-smooth>`
+and the :doc:`Edge Split</modeling/modifiers/generate/edge_split>` modifier,
+which are part of the smoothing/customized shading techniques.
 As seams, it is a property of edges, and these operators set or unset it for selected ones.
 
 
