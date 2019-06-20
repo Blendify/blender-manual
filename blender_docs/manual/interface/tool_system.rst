@@ -1,4 +1,6 @@
 
+.. _ui-tool_system:
+
 ***********
 Tool System
 ***********
@@ -27,7 +29,11 @@ When the toolbar is set to a narrow width, text isn't displayed.
 
 Holding your cursor over a tool for a short time shows it's name, keep hovering to show the full tool-tip.
 
-Otherwise you can increase the width of the region to include the tools names.
+.. tip::
+
+   Expand the Toolbar to show icons on two columns instead of one.
+
+   Expand the Toolbar even more to show icons with titles.
 
 
 Properties
