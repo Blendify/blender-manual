@@ -16,7 +16,7 @@ Usage
 
 This format is mainly use for interchanging character animations between applications
 and is supported by applications such as Cinema4D, Maya, Autodesk 3ds Max, Wings3D and
-engines such as Unity3D, Unreal Engine 3/UDK and Unreal Engine 4.
+engines such as Unity3D, Unreal Engine 3/UDK, Unreal Engine 4 and :abbr:`SL (Secondlife)`.
 
 The exporter can bake mesh modifiers and animation into the Collada export
 so the final result looks the same as in Blender.
@@ -32,15 +32,15 @@ Properties
 Import
 ------
 
-Main
-^^^^
+Import Data Options
+^^^^^^^^^^^^^^^^^^^
 
 Import Units
    Use unit information from the Asset node in the Collada file. Use Blender units if not enabled.
 
 
-Armatures
-^^^^^^^^^
+Armature Options
+^^^^^^^^^^^^^^^^
 
 Fix Leaf Bones
    Try to find a reasonable location for the bone tails of leaf nodes.
@@ -63,8 +63,8 @@ Keep Bind Info
 Export
 ------
 
-Main
-^^^^
+Main Options
+^^^^^^^^^^^^
 
 Selection Only
    Only export the selected objects. Otherwise export all objects in the scene.
@@ -73,15 +73,39 @@ Include Children
 Include Armatures
    Include armatures for rigged objects even if the armature is not selected.
 Include Shape Keys
-   Export shape key data (caution, this creates very large output files if many shape keys are defined).
+   Export shape key data (caution, this creates very large output files if 
+   many shape keys are defined).
+
+Main - Global Orientation Options
+"""""""""""""""""""""""""""""""""
+
+Forward Axis
+    Add a rotation to the Scene (in object mode) such that the selected axis
+    becomes the forward direction in the Target system.
+    Possible values are: X, Y, Z , -X, -Y, -Z
+Up Axis
+    Add a rotation to the Scene (in Object mode) such that the selected axis
+    becomes the top direction in the Target system.
+    Possible values are: X, Y, Z , -X, -Y, -Z
+Apply Global Orientation (only when you changed the global orientation)
+    Rotate the object data instead of adding an extra rotation to the scene.
+    Thus the exported Objects do not get an additional rotation in Object mode.
+    
+.. note:: When in doubt what your target system needs besides changing
+    the global axis orientation, then try first to apply Global Orientation
+    (this is most likely what you need).
+
+Main - Texture Options
+""""""""""""""""""""""
+
 Only Selected UV Map
    Export the active UV map when enabled, otherwise export all UV maps.
 Copy
    Copy textures to same folder where the dae-file is exported to, otherwise create links to the image files.
 
 
-Geometry
-^^^^^^^^
+Geometry Options
+^^^^^^^^^^^^^^^^
 
 Apply Modifiers
    When enabled, the mesh will be from the output of the modifiers applied to the mesh.
@@ -89,8 +113,8 @@ Triangulate
    Triangulate meshes before exporting (use this option when the target engine supports only tris).
 
 
-Armature
-^^^^^^^^
+Armature Options
+^^^^^^^^^^^^^^^^
 
 Deform Bones Only
    Restrict armature to its deform bones.
@@ -98,8 +122,8 @@ Export to SL/OpenSim
    Prepare the rig for the :abbr:`SL (Second Life)` target engine (to be specified).
 
 
-Animation
-^^^^^^^^^
+Animation Options
+^^^^^^^^^^^^^^^^^
 
 Include Animations
    Export Animation data.
@@ -125,8 +149,8 @@ Include All Actions
    When disabled only the currently assigned action is exported.
 
 
-Extra
-^^^^^
+Extra Options
+^^^^^^^^^^^^^
 
 Use Object Instances
    Define an object only once and use it as a reference (not supported on all target engines).
@@ -146,7 +170,8 @@ Keep Bind Info
    ``Bind_mat`` and ``rest_mat`` are needed when handling rigs that where originally made
    with a bind pose (which Blender does not support).
 Limit Precision
-   Take care to use at max five digits after the comma. This is good for debugging when you want to compare values.
+   Take care to use at max five digits after the comma.
+   This is good for debugging when you want to compare values.
 
 
 Compatibility
@@ -155,7 +180,8 @@ Compatibility
 Import
 ------
 
-TODO
+Bind poses (Armature)
+    Bind Poses are baked into the the Skeleton and are used as new Rest Pose. However the bind pose is backuped into the custom bone property ''bind_mat''
 
 
 Export
