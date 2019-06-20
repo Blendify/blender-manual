@@ -9,7 +9,7 @@ Selecting
 The usual selection tools are available:
 
 - Toggle Select All :kbd:`A`.
-- Border and Circle Select :kbd:`B`, :kbd:`C`.
+- Box and Circle Select :kbd:`B`, :kbd:`C`.
 - Lasso Select :kbd:`Ctrl-Alt-LMB`.
 - Select Linked from selection :kbd:`Ctrl-L`.
 - Select Linked with mouse :kbd:`L`.

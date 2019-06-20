@@ -3,8 +3,8 @@
 Selecting
 *********
 
-Border Select
-   Click and drag to border select multiple nodes.
+Box Select
+   Click and drag to box select multiple nodes.
    Alternatively, :kbd:`B` starts the bounding box selection process as well.
 Lasso Select
    :kbd:`Ctrl-Alt-LMB` click and drag starts a lasso selection.

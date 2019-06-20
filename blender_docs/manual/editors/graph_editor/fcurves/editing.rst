@@ -11,7 +11,7 @@ for example:
 - :kbd:`G` to grab
 - :kbd:`R` to rotate
 - :kbd:`S` to scale
-- :kbd:`B` for border select/deselect
+- :kbd:`B` for box select/deselect
 
 And of course you can lock the transformation along the X axis (time frame) or
 Y axis (value) by pressing :kbd:`X` or :kbd:`Y` during transformation.

@@ -265,7 +265,7 @@ else Blender will try to do its best to guess what to merge with what, or the me
 different number of points are selected, or that there is ``Too few selections to merge``
 if you only selected points in one surface...).
 To select control points of different surfaces,
-in the same object, you must use either border select or circle select.
+in the same object, you must use either box select or circle select.
 Holding down :kbd:`Ctrl` while :kbd:`LMB` will not work.
 
 So to avoid problems, you should always only select border rows with the same number of

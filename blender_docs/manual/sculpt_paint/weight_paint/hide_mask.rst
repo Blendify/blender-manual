@@ -33,7 +33,7 @@ The following standard selection operations are supported:
 
 - :kbd:`RMB` -- Single faces. Use :kbd:`Shift-RMB` to select multiple.
 - :kbd:`A` -- All faces, also to de-select.
-- :kbd:`B` -- Border selection.
+- :kbd:`B` -- Box selection.
 - :kbd:`C` -- Circle select with brush.
 - :kbd:`L` -- Pick linked (under the mouse cursor).
 - :kbd:`Ctrl-L` -- Select linked.
@@ -111,5 +111,5 @@ The rest of the 3D View gets hidden.
 
 You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
 
-All weight paint tools that use the view respect this clipping, including border select,
+All weight paint tools that use the view respect this clipping, including box select,
 weight gradient and of course brush strokes.

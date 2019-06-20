@@ -84,6 +84,6 @@ Selection
 
 OpenGL Depth Picking
    This option uses an alternative method of picking which uses depth information to select the front-most elements.
-   It is only used for selecting with the cursor (not border select, lasso, circle select, etc.).
+   It is only used for selecting with the cursor (not box select, lasso, circle select, etc.).
 
    Performance varies depending on your OpenGL hardware and drivers.
