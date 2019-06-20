@@ -48,7 +48,7 @@ Sculpt
 Render
    Set the level of subdivisions to show when rendering.
 Quality
-   How precisely the vertices are positioned,
+   How precisely the vertices are positioned (relatively to their theoretical position),
    can be lowered to get a better performance when working on heavy meshes.
 
 

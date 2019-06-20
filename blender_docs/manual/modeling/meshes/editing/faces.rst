@@ -287,6 +287,8 @@ Poke Center
       Uses center of bounding box.
 
 
+..  _bpy.ops.mesh.quads_convert_to_tris:
+
 Triangulate Faces
 =================
 
