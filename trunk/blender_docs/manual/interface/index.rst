@@ -93,5 +93,6 @@ Tools
 .. toctree::
    :maxdepth: 1
 
+   tool_system.rst
    undo_redo.rst
    annotation_tool.rst

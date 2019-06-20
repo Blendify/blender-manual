@@ -44,6 +44,7 @@ the selected object and mode.
 
 All hotkeys you press will affect the contents of the editor where mouse pointer is located.
 
+.. _ui-region-toolbar:
 
 Toolbar
 =======
