@@ -32,30 +32,29 @@ In order to change a property or to perform an operation on all selected objects
 hold :kbd:`Alt`, while confirming.
 
 
-Point Selection
-===============
+Cursor Selection
+================
 
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      All Modes
-   :Hotkey:    :kbd:`LMB` and :kbd:`Shift-LMB`
+   :Mode:      Object Mode
+   :Hotkey:    :kbd:`LMB`
 
-The simplest form of object selection consists of using :kbd:`LMB` on it.
-To add to the selection, use :kbd:`Shift-LMB` on more objects.
-If the objects are overlapping in the view, you can use :kbd:`Alt-LMB`
-to show a menu with possible choices (*Object Mode* only).
+Clicking on an object selects it,
+using modifier keys you can perform other operations.
 
-If you want to add to a selection this way then the shortcut becomes :kbd:`Shift-Alt-LMB`.
-To activate an object that is already selected, click :kbd:`Shift-LMB` on it.
+Extend/Toggle :kbd:`Shift`
+   To add to the selection or de-select when the object is already active.
 
-To *deselect* an active object,
-click :kbd:`Shift-LMB` one time and hence, two clicks if the object is not active.
-Note that this only works if there are no other objects under the mouse.
-Otherwise it just adds those to the selection. There appears to be no workaround for this bug.
+   This can also be used to activate an object that is already selected.
+Center Point :kbd:`Ctrl`
+   Selects the object by its center point rather than its contents.
+Menu :kbd:`Alt`
+   If the objects are overlapping in the view, a menu of objects under the cursor
+   can be used, so you can pick the object by it's name.
 
-Also you can use :kbd:`Ctrl-LMB` and :kbd:`Shift-Ctrl-LMB` shortcut
-to select the object by its center point rather than its contents.
+These can be combined so you can for example - toggle the selection from an objects center point.
 
 
 Interactive Selection Tools

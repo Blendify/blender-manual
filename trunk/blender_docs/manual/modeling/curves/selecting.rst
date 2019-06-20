@@ -21,6 +21,22 @@ Note that, unlike mesh edges, you cannot directly select a segment. Instead,
 select all of the control points that make up the segment you want to edit.
 
 
+Cursor Selection
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`LMB`
+
+Clicking on a control point selects it,
+using modifier keys you can perform other operations.
+
+Extend/Toggle :kbd:`Shift`
+   To add to the selection or de-select when the item is already active.
+
+
 Select Menu
 ===========
 
