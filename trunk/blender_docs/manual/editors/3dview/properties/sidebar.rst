@@ -91,4 +91,4 @@ Collections
    This panel shows a list of collections. The visibility of the collection can be changed.
 
 Annotations
-   See :doc:`Annotations </interface/annotation_tool>` for more information.
+   See :doc:`Annotations </interface/annotate_tool>` for more information.

@@ -127,6 +127,7 @@ Select All Toggles
 
 Causes selection to de-select all when any selection exists.
 
+.. _keymap-blender_default-spacebar_action:
 
 Spacebar Action
 ---------------

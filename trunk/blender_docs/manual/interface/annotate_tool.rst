@@ -1,7 +1,9 @@
 
-***************
-Annotation Tool
-***************
+.. _tool-annotate:
+
+*************
+Annotate Tool
+*************
 
 The annotation tool is available in multiple editors.
 With it notes can be added to e.g. 3D objects or node setups.

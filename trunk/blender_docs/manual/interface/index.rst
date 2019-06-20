@@ -95,4 +95,4 @@ Tools
 
    tool_system.rst
    undo_redo.rst
-   annotation_tool.rst
+   annotate_tool.rst

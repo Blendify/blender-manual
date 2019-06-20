@@ -1,4 +1,5 @@
 .. _bpy.ops.view3d.ruler:
+.. _tool-measure:
 
 *******
 Measure

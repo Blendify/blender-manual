@@ -81,4 +81,4 @@ the most important parts of the video can be seen across all screens.
 Annotations
 ===========
 
-Allows you to use :doc:`Annotations </interface/annotation_tool>` in the Sequencer.
+Allows you to use :doc:`Annotations </interface/annotate_tool>` in the Sequencer.
