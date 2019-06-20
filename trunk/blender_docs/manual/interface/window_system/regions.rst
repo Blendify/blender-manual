@@ -45,6 +45,7 @@ the selected object and mode.
 All hotkeys you press will affect the contents of the editor where mouse pointer is located.
 
 
+
 .. _ui-region-toolbar:
 
 Toolbar
@@ -67,10 +68,10 @@ when tools (operators) are run. Operator panel shows properties of
 the :ref:`last operator <ui-redo-last>` executed.
 
 
-Side Bar
-========
+Sidebar
+=======
 
-The *Side bar* (on the right side of editor area)
+The *Sidebar* (on the right side of editor area)
 contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Side bar.

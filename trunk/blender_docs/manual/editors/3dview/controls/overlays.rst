@@ -119,23 +119,23 @@ Center
 
    *Only affects face-select mode.*
 Creases
-   Display edges marked with a crease for the
-   :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
+   Display edges marked with a crease
+   for the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
 Sharp
    Display sharp edges, used with the edge split modifier.
 Bevel
-   Display weights created for the
-   :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`.
+   Display weights created for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`.
 Seams
    Display the UV unwrapping seams.
 Edge Marks and Face Marks
    Used by Freestyle.
 
+
 Shading
 -------
 
 Hidden Wire
-   Show only front-facing wire-frames.
+   Show only front-facing wireframes.
    This is useful for a re-topology workflow.
 
    .. tip::

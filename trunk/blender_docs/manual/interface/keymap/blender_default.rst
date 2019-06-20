@@ -127,6 +127,7 @@ Select All Toggles
 
 Causes selection to de-select all when any selection exists.
 
+
 .. _keymap-blender_default-spacebar_action:
 
 Spacebar Action
@@ -158,10 +159,10 @@ Pie Menu on Drag
    This allows keys to have a secondary drag action.
 
    :kbd:`Tab`
-      :tap: Toggles edit-mode.
+      :tap: Toggles Edit Mode.
       :drag: Object mode pie menu.
    :kbd:`Z`
-      :tap: Toggles wire-frame.
+      :tap: Toggles wireframe view.
       :drag: Draw mode pie menu.
    :kbd:`AccentGrave`
       :tap: First person :ref:`Fly/walk mode <3dview-fly-walk>`.
@@ -172,7 +173,7 @@ Tilde Action
    Navigate
       Navigation pie menu.
 
-      *Use this on systems without a numeric key-pad.*
+      *Use this on systems without a numeric keypad.*
    Gizmos
       Transform gizmos pie menu.
 

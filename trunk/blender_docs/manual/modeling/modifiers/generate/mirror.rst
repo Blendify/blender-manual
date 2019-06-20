@@ -50,18 +50,18 @@ Vertex Groups
      It must also be completely empty (no vertices assigned to it).
 
 Merge
-   Where a vertex is in the same place (within the *Merge Limit* distance) as its mirror it will be
-   merged with the mirrored vertex.
+   Where a vertex is in the same place (within the *Merge Limit* distance) as its mirror
+   it will be merged with the mirrored vertex.
 Merge Limit
    The maximum distance between a vertex and its mirror copy at which they are merged together
    (being snapped on the mirror plane). Needs *Merge* to be enabled.
 
 Clipping
-   Prevents vertices from moving through the mirror plane(s) while the user is transforming them in *Edit* mode.
+   Prevents vertices from moving through the mirror plane(s) while the user is transforming them in Edit Mode.
 
-   If it is enabled but vertices are beyond the mirror plane and outside of the
-   *Merge Limit*, the vertices will not be merged. But as soon as the vertices are within
-   *Merge Limit* they are snapped together and cannot be moved beyond the mirror plane.
+   If it is enabled but vertices are beyond the mirror plane and outside of the *Merge Limit*,
+   the vertices will not be merged. But as soon as the vertices are within *Merge Limit*
+   they are snapped together and cannot be moved beyond the mirror plane.
 
    .. note::
 
@@ -72,7 +72,8 @@ Clipping
 Flip UV
    The *Flip U* and *Flip V* options allows you to mirror the UV texture coordinates across the middle of the image.
 
-   E.g. if you have a vertex with UV coordinates of (0.3, 0.9), its mirror copy will have UV coordinates of (0.7, 0.1).
+   E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
+   its mirror copy will have UV coordinates of (0.7, 0.1).
 
 UV Offsets
    Amount to shift mirrored UVs on the U/V axes.
@@ -98,9 +99,9 @@ the edge or face that is to be the axis for mirroring.
 This can be tricky when attempted visually.
 
 A good technique to achieve an exact position is
-to select the edge, then :doc:`snap</scene_layout/object/editing/transform/control/snap>` *Cursor to Selection*.
+to select the edge, then :doc:`snap </scene_layout/object/editing/transform/control/snap>` *Cursor to Selection*.
 This will position the 3D Cursor in the center of the edge.
-Finally, use the :ref:`Set Origin<bpy.ops.object.origin_set>` menu, and select *Origin to 3D Cursor*.
+Finally, use the :ref:`Set Origin <bpy.ops.object.origin_set>` menu, and select *Origin to 3D Cursor*.
 This will move the object's center (and thus, the mirror plane) to where the 3D cursor is located,
 and the mirroring will be exact.
 

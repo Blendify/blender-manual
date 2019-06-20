@@ -127,16 +127,16 @@ All :kbd:`A`
 None :kbd:`Alt-A`
    Select none.
 Inverse :kbd:`Ctrl-I`
-   Selects all geometries that are not selected, and deselect currently selected components.
+   Selects all the geometry that are not selected, and deselect currently selected components.
 
-----
+------------------------
 
 `Box Select`_ :kbd:`B`
    Interactive box selection.
 `Circle Select`_ :kbd:`C`
    Interactive circle selection.
 
-----
+------------------------
 
 `Select All by Type`_
    Select objects based on their type.
@@ -147,12 +147,12 @@ Inverse :kbd:`Ctrl-I`
 `Select Random`_
    Selects a random objects, based on a percentage value.
 
-----
+------------------------
 
 `Select More/Less`_
    Select objects based on their parent child relationships.
 
-----
+------------------------
 
 `Select Grouped`_
    Select objects based on matching properties to the active object.

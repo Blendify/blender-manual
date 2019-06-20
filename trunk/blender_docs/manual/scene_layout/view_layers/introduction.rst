@@ -16,17 +16,18 @@ A *view layer* can have any collection enabled, and multiple *view layers*
 can use the same or different collections.
 
 .. seealso::
-  Each view layer can be rendered separately as invididual
-  :doc:`Render Layers</render/layers/layers>` to help composite your scene.
+
+   Each view layer can be rendered separately as invididual
+   :doc:`Render Layers </render/layers/layers>` to help composite your scene.
 
 
 Outliner
 ========
 
-You can edit the current *view layer* collections in the :doc:`Outliner</editors/outliner>`.
+You can edit the current *view layer* collections in the :doc:`Outliner </editors/outliner>`.
 
 .. figure:: /images/scene_layout-view_layers-outliner.png
 
-   View layer and collections in the outliner.
+   View layer and collections in the Outliner.
 
 There you can enable and disable collections, hide them temporarily, globally, among other options.

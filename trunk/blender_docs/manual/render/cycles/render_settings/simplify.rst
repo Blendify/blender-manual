@@ -17,7 +17,7 @@ Common
 ======
 
 Max Subdivision
-   Maximum number of subdivision in subdivision surface modifiers.
+   Maximum number of subdivision by the subdivision surface modifiers.
 Child Particles
    Show only a subset of all child hairs and particles.
 Texture Limit
@@ -26,6 +26,7 @@ Texture Limit
 AO Bounces
    Replace global illumination with ambient occlusion after the specified number of bounces.
    This can reduce noise in interior scenes with little visual difference.
+
 
 .. _bpy.types.SmokeDomainSettings.use_high_resolution:
 .. _render-cycles-simplify-viewport:

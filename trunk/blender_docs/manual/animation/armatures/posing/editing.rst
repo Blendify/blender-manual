@@ -10,7 +10,7 @@ Editing
 .. TODO2.8    Pose Tools.
 
 In *Pose Mode*, bones behave like objects. So the transform actions
-(grab/rotate/scale, etc.) are very similar to the same ones in *Object* mode
+(grab/rotate/scale, etc.) are very similar to the same ones in Object Mode
 (all available ones are regrouped in the :menuselection:`Pose --> Transform` submenu). However,
 there are some important specificities:
 

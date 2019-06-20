@@ -14,7 +14,7 @@ using different operations.
 
 .. note::
 
-   You can view the modified weights in *Weight Paint* mode.
+   You can view the modified weights in Weight Paint Mode.
    This also implies that you will have to disable the *Vertex Weight Mix* modifier
    if you want to see the original weights of the vertex group you are editing.
 
@@ -79,14 +79,14 @@ Influence/Mask Options
 ----------------------
 
 Those settings are the same for the three *Vertex Weight* modifiers,
-see the :ref:`Vertex Weight Edit modifier<modeling-modifiers-weight-edit-influence-mask-options>` page.
+see the :ref:`Vertex Weight Edit modifier <modeling-modifiers-weight-edit-influence-mask-options>` page.
 
 
 Example
 =======
 
 Here is and example of using a texture and the mapping curve to generate weights used by
-the :doc:`Wave</modeling/modifiers/deform/wave>` modifier.
+the :doc:`Wave </modeling/modifiers/deform/wave>` modifier.
 
 .. list-table:: Texture channel variations.
 

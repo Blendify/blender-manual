@@ -34,5 +34,5 @@ Edit mode is used to edit the following types of objects:
 - Lattice
 
 You can only modify the mesh of the objects you are editing.
-To modify other objects you can leave edit-mode, select another object and enter edit-mode,
+To modify other objects you can leave Edit Mode, select another object and enter Edit Mode,
 or use :ref:`3dview-multi-object-mode`.

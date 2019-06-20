@@ -12,7 +12,7 @@ UV Project Modifier
 
 The *UV Project* modifier acts like a slide projector.
 It emits a UV map from the negative Z axis of a controller object
-(such as an :doc:`empty object</modeling/empties>`),
+(such as an :doc:`empty object </modeling/empties>`),
 and applies it to the object as the "light" hits it.
 
 `Download an example <https://wiki.blender.org/wiki/File:Uvproject.blend>`__.
@@ -49,7 +49,7 @@ General
 
 *UV Project* is great for making spotlights more diverse, and also for creating decals to break up repetition.
 
-Usually, an :doc:`Image Texture node</render/shader_nodes/textures/image>` mapped to the UV map
+Usually, an :doc:`Image Texture node </render/shader_nodes/textures/image>` mapped to the UV map
 that the modifier targets is added to the object's material.
 
 

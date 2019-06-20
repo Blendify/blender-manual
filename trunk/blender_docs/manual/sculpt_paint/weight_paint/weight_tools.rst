@@ -390,8 +390,8 @@ If they are placed side-by-side, then the weight transfer will not work, (see *V
 You can place the objects on different layers,
 but you have to ensure that all objects are visible when you call the tool.
 
-Now ensure that the target object is in *Weight Paint* mode.
-Open the *Tool Shelf* and call the *Transfer Weights* tool in the *Weight Tools* panel.
+Now ensure that the target object is in Weight Paint Mode.
+Open the Tool Shelf and call the *Transfer Weights* tool in the *Weight Tools* panel.
 
 
 Operator Panel Confusion

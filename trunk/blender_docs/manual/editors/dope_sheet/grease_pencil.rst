@@ -46,7 +46,7 @@ Copying Frames
 --------------
 
 It is possible to copy frames from one layer to another,
-or from object to object, using the *Copy* and *Paste* commands in the Key menu.
+or from object to object, using the *Copy* and *Paste* tools in the *Key* menu.
 Note that keyframes will be pasted into selected layers, so make sure you have a destination layer selected.
 
 

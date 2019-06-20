@@ -34,7 +34,7 @@ Modes can affect many things in Blender:
 - They can modify the available header tools (menus and/or menu entries, as well as other controls...).
   For example, in the 3D View editor, the *Object* menu in Object Mode changes to a *Mesh* menu in Edit Mode
   (with an active mesh object!), and a *Paint* menu in Vertex Paint Mode...
-- They can modify the available key-shortcuts.
+- They can modify the available shortcuts.
 
 
 Object Mode List
@@ -86,7 +86,7 @@ Object Mode List
    The cursor becomes a brush in :doc:`Paint and Sculpt Modes </sculpt_paint/index>`.
 
 We will not go into any more detail on mode usages here,
-because they are tackled in their own sections.
+because they are dealed with in their own sections.
 
 .. hint::
 
@@ -100,16 +100,16 @@ because they are tackled in their own sections.
 Multi-Object Modes
 ==================
 
-Edit & Pose mode support multiple objects at once.
+Edit and Pose mode support multiple objects at once.
 
 This is convenient if you want to perform the same edits on multiple objects
 or want to animate multiple characters at once.
 
 - To use edit multiple objects at once, simply select multiple objects and enter the mode.
-- The outliner can also be used to add/remove objects while you are in a mode,
+- The Outliner can also be used to add/remove objects while you are in a mode,
   by setting or clearing the mode from the context menu, or :kbd:`Shift-LMB` clicking on the objects data icon.
-- Only the active object will be used to display properties such as Shape Keys, UV Layers .. etc.
+- Only the active object will be used to display properties such as shape keys, UV layers, etc.
 - Selecting any element from an object will set this as the active object.
 - There are limits to the kinds of operations that can run on multiple objects.
 
-  *You can't for e.g: create an edge that has vertices from different objects.*
+  *You can't for example create an edge that has vertices from different objects.*

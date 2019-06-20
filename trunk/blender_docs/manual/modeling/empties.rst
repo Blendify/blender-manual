@@ -65,9 +65,9 @@ Display
          Offset the image origin
          *(where 1.0 represents the width/height of the image)*.
 
-         :X=0.5, Y=0.5: Objet origin at image center.
-         :X=0.0, Y=0.0: Objet origin at image bottom, left.
-         :X=1.0, Y=1.0: Objet origin at image top, right.
+         :X=0.5, Y=0.5: Object origin at image center.
+         :X=0.0, Y=0.0: Object origin at image bottom, left.
+         :X=1.0, Y=1.0: Object origin at image top, right.
       Depth
          :Default: Use normal depth behavior.
          :Front: Always draw on top of other objects.

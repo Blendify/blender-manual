@@ -4,10 +4,10 @@
 Mesh Cache Modifier
 *******************
 
-The Mesh Cache modifier main use is for animated mesh data to be be applied to a mesh and
+The Mesh Cache modifier main use is for animated mesh data to be applied to a mesh and
 played back, deforming the mesh.
 
-This works in a similar way to :doc:`shape keys</animation/shape_keys/introduction>`,
+This works in a similar way to :doc:`shape keys </animation/shape_keys/introduction>`,
 but is aimed at playing back external files and is often used for interchange between applications.
 
 
@@ -33,8 +33,8 @@ Influence
 
 Deform Mode
    This setting defaults to *Overwrite* which will replace the vertex locations with those in the cache file.
-   However, you may want to use shape keys, for example, and mix them with the mesh-cache.
-   In this case you can select the *Deform* option which integrates deformations with the mesh-cache result.
+   However, you may want to use shape keys, for example, and mix them with the mesh cache.
+   In this case you can select the *Deform* option which integrates deformations with the mesh cache result.
 
    .. note::
 

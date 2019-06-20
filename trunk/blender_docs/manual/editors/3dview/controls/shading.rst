@@ -19,12 +19,13 @@ Show the scene using in solid mode. This mode uses the Workbench engine to rende
 For all options of the Workbench engine look the :doc:`lighting </render/workbench/lighting>`,
 :doc:`color </render/workbench/color>` and :doc:`options </render/workbench/options>`.
 
+
 .. _3dview-lookdev:
 
 Look Dev
 --------
 
-Show the scene in the 3D View in Look Dev mode.
+Show the scene in the 3D View in LookDev mode.
 This mode is specialized for drawing materials.
 You can select different lighting conditions to test your materials.
 
@@ -82,7 +83,6 @@ Viewport
 
 Options
 =======
-
 
 Backface Culling
    TODO2.8.

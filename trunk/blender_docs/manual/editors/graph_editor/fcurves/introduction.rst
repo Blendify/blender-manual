@@ -234,7 +234,7 @@ Linear
 
       Linear extrapolation.
 
-Additional extrapolation methods (e.g. the "Cycles" F-Modifier)
+Additional extrapolation methods (e.g. the *Cycles* modifier)
 are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.
 
 

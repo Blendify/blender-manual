@@ -17,7 +17,8 @@ Header Region
 The header contains various menus and controls based on
 the current :doc:`mode </editors/3dview/modes>`.
 
-Tools and modes in the 3D View header are split in 3 groups of buttons:
+Tools and modes in the 3D View header are split in three groups of buttons:
+
 
 Mode & Menus
 ------------
@@ -25,7 +26,6 @@ Mode & Menus
 Mode
    The 3D View has :doc:`several modes </editors/3dview/modes>`
    used for editing different kinds of data.
-
 
 View
    This menu offers tools to :doc:`navigate </editors/3dview/navigate/index>` in 3D space.
@@ -39,7 +39,7 @@ Add
 Object
    This menu appears when in Object Mode.
    it contains tools to edit :doc:`objects </scene_layout/object/editing/transform/introduction>`.
-   In edit mode, it will change to the appropriate menu with :doc:`editing tools </modeling/index>`.
+   In Edit Mode, it will change to the appropriate menu with :doc:`editing tools </modeling/index>`.
 
 
 Transform Controls

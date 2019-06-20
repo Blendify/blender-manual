@@ -54,6 +54,7 @@ In addition, you can also use the scrollbars to pan and zoom the view.
 
 
 Keyframes
+---------
 
 .. figure:: /images/editors_dope-sheet_keyframe_types.png
 
@@ -61,15 +62,14 @@ Keyframes
 
 This area contains keyframes for all visible action channels.
 As with the other time-based editors, the X axis represents time.
-The Y axis siplmply represents a stack of action channels.
+The Y axis represents a stack of action channels.
 
 On these channels lay the keyframes, which can show different information:
-
 
 .. list-table::
    :widths: 20 80
 
-   * - Grey
+   * - Gray
      - Unselected
    * - Yellow
      - Selected
@@ -84,21 +84,21 @@ On these channels lay the keyframes, which can show different information:
    * - Rhombus
      - Aligned Keyframe Handle
    * - Various colors
-     - These represent custom keyframe tags set by the user (Key > Keyframe Type)
+     - These represent custom keyframe tags set by the user (:menuselection:`Key --> Keyframe Type`)
    * - Grey bar between keys
      - Held key (the two keyframes are identical)
    * - Green line between keys
-     - Fixed keyframe interpolation (set in Key > Interpolation Mode)
-   * - Up-arrow
-     - Maximum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
-   * - Down-arrow
-     - Minimum Extreme keyframe (visible if View > Show Curve Extremes are enabled)
+     - Fixed keyframe interpolation (set in :menuselection:`Key --> Interpolation Mode`)
+   * - Upwards arrow
+     - Maximum Extreme keyframe (visible if :menuselection:`View --> Show Curve Extremes` are enabled)
+   * - Downwards arrow
+     - Minimum Extreme keyframe (visible if :menuselection:`View --> Show Curve Extremes` are enabled)
 
 
 Selecting Keyframes
 -------------------
 
-Selection commands are available in the Select menu in the header, and the main shortcuts listed below:
+Selection tools are available in the Select menu in the header, and the main shortcuts listed below:
 
 Selecting
    Click on a key to select it. Hold :kbd:`Shift` to extend the current selection
@@ -107,20 +107,20 @@ Box Selecting
    You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection
 
 Select/Deselect All
-   To select all keys, press :kbd:`A`
-   To deselect all keys, press :kbd:`Alt-A`
-   To inverse the selection, press :kbd:`Ctrl-I`
+   - To select all keys, press :kbd:`A`.
+   - To deselect all keys, press :kbd:`Alt-A`.
+   - To inverse the selection, press :kbd:`Ctrl-I`.
 Select all to the right or left
-   Hold :kbd:`Shift` & :kbd:`Ctrl` and click on either side of the Playhead
-   You can also use :kbd:`]` & :kbd:`[`
+   Hold :kbd:`Shift-Ctrl` and click on either side of the Playhead.
+   You can also use :kbd:`]` and :kbd:`[`.
 
-See the Select menu for a full list of selection commands.
+See the Select menu for a full list of selection tools.
 
 
 Manipulating Keyframes
 ----------------------
 
-Keyframe commands are available in the Key menu in the header, and the main shortcuts listed below:
+Keyframe tools are available in the Key menu in the header, and the main shortcuts listed below:
 
 Moving Keyframes
    To move a single keyframe, click and drag on a key
@@ -131,7 +131,7 @@ Extending Keyframes
    To extend the time between two keys, select all with :kbd:`A`,
    place the Playhead between two keyframes and press :kbd:`E`
 
-See the Key menu for a full list of selection commands.
+See the Key menu for a full list of selection tools.
 
 
 Channels Region

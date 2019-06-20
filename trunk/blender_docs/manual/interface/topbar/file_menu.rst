@@ -40,7 +40,7 @@ Data Previews
       Ensure data-block previews are available and up-to-date to be saved in the blend-file.
       Previews only exist for some types like materials and textures.
    Batch-Generate Previews
-      Generate previews for selected .blend files.
+      Generate previews for selected blend-files.
    Clear Data-Block Previews
       Clear previews for supported data-block types.
    Batch-Clear Previews
@@ -85,9 +85,10 @@ External Data
 
          Recovered files might need to be reloaded. You can do that one by one, or
          you can save the blend-file and reload it again, so that all external files are reloaded at once.
-Defaults
-   .. _startup-file:
 
+.. _startup-file:
+
+Defaults
    This menu manages the startup file, used to store the default scene,
    Workspace and interface displayed at startup and when opening creating a new file.
 
@@ -95,7 +96,7 @@ Defaults
    This can be replaced by your own customized setup.
 
    Save Startup File
-      Saves the current blend file as the startup-file.
+      Saves the current blend-file as the startup file.
    Load Factory Settings
       Restores the default startup file and preferences.
 

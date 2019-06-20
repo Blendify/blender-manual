@@ -19,6 +19,7 @@ where the user defines which edges should appear smooth or sharp
 If desired, both modes can be active at once.
 
 .. note::
+
    This modifier is kept mostly for historical/compatibility reasons.
    Everything it can do in shading, and much more,
    can now be achieved using :ref:`custom normals<modeling_meshes_normals_custom>`.
@@ -27,7 +28,7 @@ If desired, both modes can be active at once.
 
 .. note::
 
-   Splitting edges can also be :ref:`performed manually<bpy.ops.mesh.edge_split>` in *Edit* mode.
+   Splitting edges can also be :ref:`performed manually <bpy.ops.mesh.edge_split>` in Edit Mode.
 
 
 Options
@@ -46,7 +47,7 @@ Edge Angle
       On 0: all edges are split. On 180: no edges are split.
 
 Sharp Edges
-   When enabled, edges will be split if they were :ref:`marked as sharp<bpy.ops.mesh.mark_sharp>`.
+   When enabled, edges will be split if they were :ref:`marked as sharp <bpy.ops.mesh.mark_sharp>`.
 
 .. note::
 

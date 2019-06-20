@@ -95,10 +95,10 @@ Some examples are given below:
 Accent Characters
 -----------------
 
-Inserting acccent characters is supported via key shortcuts.
+Inserting accent characters is supported via key shortcuts.
 
 
-.. TODO: this list is incomplete, see: `findaccent` in Blender's source.
+.. TODO: this list is incomplete, see: ``findaccent`` in Blender's source.
 
 :|atilde|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
 :|aacute|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`'`

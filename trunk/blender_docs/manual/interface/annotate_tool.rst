@@ -36,7 +36,7 @@ Placement
    3D Cursor
       Draw on an imaginary plane that goes through the 3D cursor.
    View
-      Draw in screen-space instead in 3D space.
+      Draw in screen space instead of in 3D space.
       That means, that the line will stay on the same position in the screen,
       even when e.g. the camera rotates.
    Surface
@@ -61,4 +61,4 @@ can be found in the :menuselection:`Tool --> Active Tool` panel in the right Sid
 .. figure:: /images/interface_annotations_node-editor.png
    :align: center
 
-   Annotations tool in node editor.
+   Annotations tool in a node editor.

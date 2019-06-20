@@ -26,7 +26,7 @@ Mode
             -   .. figure:: /images/modeling_modifiers_generate_mask_panel-vertex-group.png
 
    Armature
-      When in *Pose* mode,
+      When in Pose Mode,
       vertices belonging to the Vertex Group associated with the active bone (same names) will be visible.
       Vertices not in that group will be hidden.
 

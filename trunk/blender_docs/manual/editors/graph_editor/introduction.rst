@@ -48,11 +48,11 @@ Navigation
 As with most editors, you can:
 
 Pan
-   Pan the view vertically (values) or horizontally (time) with click and drag (:kbd:`MMB`).
+   Pan the view vertically (values) or horizontally (time) with click and drag :kbd:`MMB`.
 Zoom
-   Zoom in and out with the mouse wheel (:kbd:`Wheel`).
+   Zoom in and out with the mouse wheel :kbd:`Wheel`.
 Scale View
-   Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
+   Scale the view vertically or horizontally :kbd:`Ctrl-MMB`.
 
 In addition, you can also use the scrollbars to pan and zoom the view.
 
@@ -176,7 +176,7 @@ Show Hidden (dashed object icon)
 Show Only Errors (warning triangle icon)
    Only include curves and drivers that are disabled or have errors.
    Useful for debugging.
-Filter popover(filter icon)
+Filter popover (funnel icon)
    Only include curves with keywords contained in the search field.
 
    Multi-Word (az icon)

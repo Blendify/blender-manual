@@ -4,8 +4,8 @@
 ######################
 
 Blender is released approximately every three months.
-You can keep up to date with the latest changes through the
-`release notes <https://www.blender.org/features/releases/>`__.
+You can keep up to date with the latest changes through
+the `release notes <https://www.blender.org/features/releases/>`__.
 
 
 Support Requirements
@@ -25,7 +25,7 @@ Download Blender
 
 Blender offers two different binary packages; you can choose from a stable release or a daily build.
 The first has the benefit of being more reliable,
-the latter provides the newest features, as they are developed, at the cost of stability .
+the latter provides the newest features, as they are developed, at the cost of stability.
 
 `Latest Stable Release <https://www.blender.org/download/>`__
    This is a binary distribution of the latest version of Blender.
@@ -38,14 +38,13 @@ the latter provides the newest features, as they are developed, at the cost of s
 
 .. note::
 
-   Blender's source code is available for free to either reference or to
-   `Build from Source <https://wiki.blender.org/wiki/Building_Blender>`__.
+   Blender's source code is available for free to either reference or
+   to `Build from Source <https://wiki.blender.org/wiki/Building_Blender>`__.
    While normal users are **not** expected to compile Blender it does have advantages:
 
    - Blender is always up to date.
    - It allows access to any version or branch where a feature is being developed.
    - It can be freely customized.
-
 
 The procedure for installing a binary, either the latest stable release or a daily build, is the same.
 Follow the steps for your operative system:

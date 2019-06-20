@@ -15,7 +15,7 @@ and another target object (or its geometry).
 
 .. note::
 
-   You can view the modified weights in *Weight Paint* mode.
+   You can view the modified weights in Weight Paint Mode.
    This also implies that you will have to disable the *Vertex Weight Proximity* modifier
    if you want to see the original weights of the vertex group you are editing.
 
@@ -82,14 +82,14 @@ Influence/Mask Options
 ----------------------
 
 Those settings are the same for the three *Vertex Weight* modifiers,
-see the :ref:`Vertex Weight Edit modifier<modeling-modifiers-weight-edit-influence-mask-options>` page.
+see the :ref:`Vertex Weight Edit modifier <modeling-modifiers-weight-edit-influence-mask-options>` page.
 
 
 Example
 =======
 
 This example shows the usage of distance from a target object to dynamically control
-a :doc:`Wave</modeling/modifiers/deform/wave>` modifier with a modified vertex group:
+a :doc:`Wave </modeling/modifiers/deform/wave>` modifier with a modified vertex group:
 
 .. vimeo:: 30187079
 

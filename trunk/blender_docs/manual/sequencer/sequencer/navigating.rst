@@ -116,7 +116,7 @@ Use these shortcuts to adjust the sequence area of the VSE:
 - Horizontal Scroll: use :kbd:`Ctrl-Wheel`, or drag on the lower scrollbar.
 - Scale View: :kbd:`Ctrl-MMB` and drag up/down (vertical scale) or left/right (horizontal scale).
 - Scale View Vertically: drag on the circles on the vertical scrollbar.
-- Scale View Horizontally: drag on the circles on the horizontal scroll bar.
+- Scale View Horizontally: drag on the circles on the horizontal scrollbar.
 
 
 Playhead
@@ -125,9 +125,9 @@ Playhead
 The playhead is the blue vertical line with the current frame number at the top.
 It can be set or moved to a new position by pressing or holding :kbd:`LMB`
 in scrubbing area at the top of the timeline.
-You can move playhead in increments by pressing :kbd:`Left` or :kbd:`Right`,
-or you can jump to the beginning or end frame by pressing
-:kbd:`Shift-Left` or :kbd:`Shift-Right`. As you do, the image for that frame is displayed in the Preview region.
+You can move the playhead in increments by pressing :kbd:`Left` or :kbd:`Right`,
+or you can jump to the beginning or end frame by pressing :kbd:`Shift-Left` or :kbd:`Shift-Right`.
+As you do, the image for that frame is displayed in the Preview region.
 
 When you drag the frame indicator with :kbd:`Shift-RMB` directly on a sequence strip,
 this will show the strip *solo*, (temporarily disregarding effects and other strips,
