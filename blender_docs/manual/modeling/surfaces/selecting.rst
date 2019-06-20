@@ -15,6 +15,22 @@ so you can select a simple control point with an :kbd:`LMB`\ -click,
 add to current selection with :kbd:`Shift-LMB` clicks, :kbd:`B` order-select, and so on.
 
 
+Cursor Selection
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`LMB`
+
+Clicking on a control point selects it,
+using modifier keys you can perform other operations.
+
+Extend/Toggle :kbd:`Shift`
+   To add to the selection or de-select when the item is already active.
+
+
 Select Menu
 ===========
 

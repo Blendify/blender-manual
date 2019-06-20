@@ -164,6 +164,22 @@ When enabled, selection isn't occluded by the objects geometry
           X-ray disabled.
 
 
+Cursor Selection
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`LMB`
+
+Clicking on a vertex/edge/face selects it,
+using modifier keys you can perform other operations.
+
+Extend/Toggle :kbd:`Shift`
+   To add to the selection or de-select when the item is already active.
+
+
 Interactive Selection Tools
 ===========================
 
