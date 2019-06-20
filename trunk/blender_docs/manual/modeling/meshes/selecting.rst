@@ -19,7 +19,10 @@ Select Mode Header Buttons
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`3D View Header --> Select Mode`
-   :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3` (:kbd:`Shift` combines modes, :kbd:`Ctrl` expands selection).
+   :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
+               (:kbd:`Shift`
+               `Multiple Selection Modes`_,
+               :kbd:`Ctrl` `Expand/Contract Selection`_).
 
 .. figure:: /images/modeling_meshes_selecting_introduction_mode-buttons.png
    :align: right
@@ -118,8 +121,8 @@ all elements defining the "high-level" element (like a face) will be selected
 (the four vertices or edges of a quadrangle, for example).
 
 
-Expanding/Contracting Selection
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Expand/Contract Selection
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 By holding :kbd:`Ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
@@ -244,7 +247,7 @@ If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging
 Lasso Select
 ------------
 
-To activate the tool use the :kbd:`Ctrl-LMB` while dragging.
+To activate the tool use the :kbd:`Ctrl-RMB` while dragging.
 
 .. list-table:: An example of using the *Lasso Select tool* in *Vertex Select Mode*.
 
@@ -315,7 +318,6 @@ Select More/Less
       This uses selection history to select the next vertex/edge/face based on surrounding topology.
    Previous Active :kbd:`Shift-Ctrl-NumpadMinus`
       Select previous just removes the last selected element.
-
 
 ----
 
@@ -522,7 +524,7 @@ Edge Loops
 
    :Mode:      Edit Mode --> Vertex or Edge select mode
    :Menu:      :menuselection:`Select --> Edge Loop`
-   :Hotkey:    :kbd:`Alt-RMB`, or :kbd:`Shift-Alt-RMB` for modifying existing selection.
+   :Hotkey:    :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
 a line end-to-end, passing through the edge under the mouse pointer.
@@ -556,7 +558,7 @@ Face Loops
    :class: refbox
 
    :Mode:      Edit Mode --> Face or Vertex select modes
-   :Hotkey:    :kbd:`Alt-RMB` or :kbd:`Shift-Alt-RMB` for modifying existing selection.
+   :Hotkey:    :kbd:`Alt-LMB` or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
 faces that are connected in a line end-to-end, along their opposite edges.
@@ -569,7 +571,7 @@ which selects the face loop implicitly.
 
    Face loop selection.
 
-This face loop was selected by clicking with :kbd:`Alt-RMB` on an edge,
+This face loop was selected by clicking with :kbd:`Alt-LMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
 
@@ -578,7 +580,7 @@ The loop extends perpendicular from the edge that was selected.
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
 
 A face loop can also be selected in *Vertex* select mode.
-Technically :kbd:`Ctrl-Alt-RMB` will select an *Edge Ring*,
+Technically :kbd:`Ctrl-Alt-LMB` will select an *Edge Ring*,
 however, in *Vertex* select mode, selecting an *Edge Ring* implicitly
 selects a *Face Loop* since selecting opposite edges of a face implicitly selects
 the entire face.
@@ -591,11 +593,11 @@ Edge Boundary
    :class: refbox
 
    :Mode:      Edit Mode --> Vertex or Edge select modes
-   :Hotkey:    :kbd:`Alt-RMB`
+   :Hotkey:    :kbd:`Alt-LMB`
 
 Loop selection on edge boundaries.
 To extend the selection to all boundaries if the current boundary is already selected
-use :kbd:`Alt-RMB` again.
+use :kbd:`Alt-LMB` again.
 
 
 Edge Ring
@@ -606,7 +608,7 @@ Edge Ring
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Edge Ring`
-   :Hotkey:    :kbd:`Ctrl-Alt-RMB`
+   :Hotkey:    :kbd:`Ctrl-Alt-LMB`
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
 while selecting an edge (or two vertices) selects a sequence of edges that are not connected,
@@ -638,7 +640,7 @@ One is based on edges during computation and the other is based on faces.
    This is because none of those faces had all its (four) edges selected,
    just two of them.
 
-   Instead of selecting the missing edges manually or by using :kbd:`Shift-Alt-RMB` twice,
+   Instead of selecting the missing edges manually or by using :kbd:`Shift-Alt-` twice,
    it is easier to first switch to Vertex Select Mode, which will kind of "flood" the selection.
    A subsequent switch to Face Select Mode will then properly select the faces.
 
@@ -651,11 +653,11 @@ Shortest Path
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> Shortest Path`
-   :Hotkey:    :kbd:`Ctrl-RMB`
+   :Hotkey:    :kbd:`Ctrl-LMB`
 
 .. figure:: /images/modeling_meshes_selecting_advanced_shortest-path.png
 
-   Select a face or vertex path with :kbd:`Ctrl-RMB`.
+   Select a face or vertex path with :kbd:`Ctrl-LMB`.
 
 Selects all geometry along the shortest path from the active
 vertex/edge/face to the one which was selected.
@@ -666,7 +668,7 @@ Face Stepping
 Topological Distance
    Which only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances.
-Fill Region :kbd:`Shift-Ctrl-RMB`
+Fill Region :kbd:`Shift-Ctrl-LMB`
    Selects all elements in the shortest paths from the active selection to the clicked area.
 Checker Select Options
    Allows to quickly select alternate elements in a path.

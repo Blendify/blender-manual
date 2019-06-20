@@ -44,12 +44,13 @@ Point Selection
 The simplest form of object selection consists of using :kbd:`LMB` on it.
 To add to the selection, use :kbd:`Shift-LMB` on more objects.
 If the objects are overlapping in the view, you can use :kbd:`Alt-LMB`
-to cycle through possible choices (*Object Mode* only).
+to show a menu with possible choices (*Object Mode* only).
+
 If you want to add to a selection this way then the shortcut becomes :kbd:`Shift-Alt-LMB`.
 To activate an object that is already selected, click :kbd:`Shift-LMB` on it.
 
 To *deselect* an active object,
-click :kbd:`Shift-RMB` one time and hence, two clicks if the object is not active.
+click :kbd:`Shift-LMB` one time and hence, two clicks if the object is not active.
 Note that this only works if there are no other objects under the mouse.
 Otherwise it just adds those to the selection. There appears to be no workaround for this bug.
 
