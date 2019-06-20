@@ -33,7 +33,7 @@ View
 *Other menus depend on the current mode, object mode menus listed below.*
 
 Select
-   Contains tools for :doc:`selecting </scene_layout/object/selecting/index>` objects.
+   Contains tools for :ref:`selecting <object-select-menu>` objects.
 Add
    Gives a list of different :ref:`objects types <objects-types>` that can be added to a scene.
 Object

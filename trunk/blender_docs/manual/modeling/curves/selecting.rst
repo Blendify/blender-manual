@@ -33,7 +33,7 @@ the 3D Views header. Let us detail them:
 
 Box/Circle Select
    All these options have the same meaning and behavior as in
-   :doc:`Object Mode </scene_layout/object/selecting/tools>`
+   :doc:`Object Mode </scene_layout/object/selecting>`
    (and the specifics of *Box Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting>`).
 
