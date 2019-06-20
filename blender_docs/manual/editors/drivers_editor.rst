@@ -18,7 +18,8 @@ The main view allows you to view and edit Driver F-curves.
 An F-Curve has several key parts:
 
 Axes
-   The curve defines the relationship between two properties: The current (driven) property (Y axis) and the driver (X axis).
+   The curve defines the relationship between two properties:
+   The current (driven) property (Y axis) and the driver (X axis).
 
    See :doc:`F-Curves </editors/graph_editor/fcurves/index>`.
 
@@ -141,11 +142,14 @@ The panels in the *Sidebar region*.
 
 Drivers Tab
 -----------
-   See :doc:`/animation/drivers/drivers_panel`.
+
+See :doc:`/animation/drivers/drivers_panel`.
+
 
 Modifiers Tab
 -------------
-   See :doc:`F-Modifiers </editors/graph_editor/fcurves/modifiers>`.
+
+See :doc:`F-Modifiers </editors/graph_editor/fcurves/modifiers>`.
 
 
 .. (Todo) duplicated here: \editors\graph_editor\fcurves\properties.rst

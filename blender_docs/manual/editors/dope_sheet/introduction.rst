@@ -10,7 +10,8 @@ Introduction
 
 The Dope Sheet gives the animator a birds-eye-view of the keyframes inside the scene.
 
-The Dope Sheet is inspired by classical hand-drawn animation process, in which animatots will make use of a chart, showing exactly when each drawing,
+The Dope Sheet is inspired by classical hand-drawn animation process,
+in which animatots will make use of a chart, showing exactly when each drawing,
 sound and camera move will occur, and for how long. This is called an exposure-sheet or 'dope sheet'.
 While CG foundations dramatically differ from classical hand-drawn animation,
 Blender's *Dope Sheet* inherits a similar directive.
@@ -96,12 +97,15 @@ On these channels lay the keyframes, which can show different information:
 
 Selecting Keyframes
 -------------------
+
 Selection commands are available in the Select menu in the header, and the main shortcuts listed below:
 
 Selecting
    Click on a key to select it. Hold :kbd:`Shift` to extend the current selection
 Box Selecting
-   Click and drag to box select multiple keyframes at once. You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection
+   Click and drag to box select multiple keyframes at once.
+   You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection
+
 Select/Deselect All
    To select all keys, press :kbd:`A`
    To deselect all keys, press :kbd:`Alt-A`
@@ -112,8 +116,10 @@ Select all to the right or left
 
 See the Select menu for a full list of selection commands.
 
+
 Manipulating Keyframes
 ----------------------
+
 Keyframe commands are available in the Key menu in the header, and the main shortcuts listed below:
 
 Moving Keyframes
@@ -138,7 +144,6 @@ Channels Region
    The Action editor's channels region.
 
 See :doc:`/editors/graph_editor/channels`.
-
 
 
 Header
