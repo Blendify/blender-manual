@@ -266,7 +266,7 @@ Point to Target
    :Hotkey:    :kbd:`Alt-L`
 
 All selected normals are set to point from their vertex to the target
-after confirmed by :kbd:`Enter` or :kbd:`LMB`.
+after confirmed by :kbd:`Return` or :kbd:`LMB`.
 
 A target is set by the keys:
 

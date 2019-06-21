@@ -59,8 +59,8 @@ For example, activating the mesh data of the cube will select the cube
 and enter *Edit Mode* while activating the object data of
 the cube will select the cube and enter *Object Mode* (see right).
 
-If the data-block type supports multi-editing, you can use :kbd:`shift` to add/remove
-objects from the edit mode.
+If the data-block type supports multi-editing,
+you can use :kbd:`Shift` to add/remove objects from the edit mode.
 
 
 Selecting a Group of Data-blocks

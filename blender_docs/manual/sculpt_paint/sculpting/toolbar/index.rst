@@ -39,7 +39,7 @@ Crease :kbd:`Shift-C`
 Smooth :kbd:`S`
    As the name suggests, eliminates irregularities in the area of the mesh within the brush's
    influence by smoothing the positions of the vertices.
-Flatten/Contrast :kbd:`Shift Space, Shift-T`
+Flatten/Contrast :kbd:`Shift-T`
    The *Flatten* brush determines an "area plane"
    located by default at the average height above/below the vertices within the brush area.
    The vertices are then pulled towards this plane.

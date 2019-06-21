@@ -17,7 +17,7 @@ Here are keys which aren't used and aren't likely to be used in the future.
 F-Keys (:kbd:`F5` - :kbd:`F8`)
    These F-Keys (including modifier combination)
    have been intentionally kept free for users to bind their own keys to.
-:kbd:`OS-Key` (also known as the ``Windows-Key``, ``Cmd`` or ``Super``)
+:kbd:`OSKey` (also known as the ``Windows-Key``, ``Cmd`` or ``Super``)
    Blender doesn't use this key for any bindings.
 
    *macOS* is an exception, where :kbd:`Cmd` replaces :kbd:`Ctrl`

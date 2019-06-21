@@ -14,6 +14,7 @@ but no relative translation is permitted. The physics engine will do its best to
 designated by the constraint object on the two constrained objects are coincident.
 
 .. TODO2.8:
-    .. figure:: /images/physics_rigid-body_constraints_types_point_panel-example.png
 
-    *Point* constraint options.
+   .. figure:: /images/physics_rigid-body_constraints_types_point_panel-example.png
+
+      *Point* constraint options.
