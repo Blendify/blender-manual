@@ -1,3 +1,4 @@
+.. _tool-mesh-bevel:
 
 *****
 Bevel

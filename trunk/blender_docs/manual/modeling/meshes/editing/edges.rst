@@ -120,6 +120,7 @@ To clear the crease edge property, enter a value of -1.
 
 .. _bpy.ops.transform.edge_slide:
 .. _modeling-meshes-editing-edge-slide:
+.. _tool-mesh-edge_slide:
 
 Edge Slide
 ==========

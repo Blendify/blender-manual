@@ -1,4 +1,5 @@
 .. _bpy.ops.transform.shear:
+.. _tool-transform-shear:
 
 *****
 Shear

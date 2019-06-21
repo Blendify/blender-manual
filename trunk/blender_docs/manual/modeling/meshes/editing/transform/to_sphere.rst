@@ -1,4 +1,5 @@
 .. _bpy.ops.transform.tosphere:
+.. _tool-transform-to_sphere:
 
 *********
 To Sphere

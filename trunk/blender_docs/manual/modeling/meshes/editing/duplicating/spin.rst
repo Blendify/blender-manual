@@ -1,4 +1,6 @@
 .. _bpy.ops.mesh.spin:
+.. _tool-mesh-spin:
+
 .. TODO/Review: {{review|text=reorganize, elaborate}}.
 
 ****
