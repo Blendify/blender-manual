@@ -4,26 +4,82 @@
 Viewport Shading
 ****************
 
-Shading Modes
-=============
+The shading of the 3d viewport can be adjusted to match the task at hand. There
+are several modes to choose from.
+
+- Wireframe
+- Solid
+- Look Dev
+- Render
+
+.. note::
+
+   The Look Dev option is not available when the render engine of the scene is
+   set to `Workbench`.
+
 
 Wireframe
----------
+=========
 
-TODO2.8.
+Shows the full scene by only displaying the edges of the objects (Wireframe).
+
+Color
+   Single
+      Render the whole scene using a single color.
+
+   Object
+      Use the color that can be set per object
+      in the Viewport Display :ref:`properties-object-viewport-display` panel.
+
+   Random
+      A random color will be selected for every object in the scene.
+
+
+Background
+   The way how to draw the background in the 3D Viewport.
+
+   Theme
+      Use the background of the theme.
+   World
+      Use the world viewport display options.
+   Viewport
+      Select a custom color for the background of the 3D Viewport.
+
+
+Options
+   X-Ray
+      Render the scene transparent. With the slider you can control how
+      transparent the scene should appear. In wireframe mode the opacity
+      of the back wires can be adjusted.
+
+   Outline
+      Render the outline of objects in the viewport. The color of the outline 
+      can be adjusted.
 
 Solid
------
+=====
 
-Show the scene using in solid mode. This mode uses the Workbench engine to render the 3D Viewport.
-For all options of the Workbench engine look the :doc:`lighting </render/workbench/lighting>`,
-:doc:`color </render/workbench/color>` and :doc:`options </render/workbench/options>`.
+Show the scene using in solid mode. This mode utilized the Workbench engine to
+render the 3D Viewport. The :doc:`lighting </render/workbench/lighting>`, 
+:doc:`color </render/workbench/color>` and 
+:doc:`options </render/workbench/options>` can be found at Workbench
+render engine section.
+
+Background
+   The way how to draw the background in the 3D Viewport.
+
+   Theme
+      Use the background of the theme.
+   World
+      Use the world viewport display options.
+   Viewport
+      Select a custom color for the background of the 3D Viewport.
 
 
 .. _3dview-lookdev:
 
 Look Dev
---------
+========
 
 Show the scene in the 3D View in LookDev mode.
 This mode is specialized for drawing materials.
@@ -46,59 +102,6 @@ Lighting
 
 
 Render
-------
+======
 
 An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
-
-
-Color
-=====
-
-Material
-   TODO2.8.
-Object
-   Show the object color.
-Vertex
-   TODO2.8.
-Single
-   Show the scene in a single color.
-Random
-   Show a random object color.
-Texture
-   TODO2.8.
-
-
-Background
-==========
-
-The way how to draw the background in the 3D Viewport.
-
-Theme
-   Use the background of the theme.
-World
-   Use the world viewport display options.
-Viewport
-   Select a custom color the draw the background of the 3D Viewport.
-
-
-Options
-=======
-
-Backface Culling
-   TODO2.8.
-
-.. _3dview-shading-xray:
-
-X-Ray
-   Render the scene transparent. With the slider you can control how
-   transparent the scene should appear.
-Shadow
-   TODO2.8
-Outline
-   Render the outline of objects in the viewport. The color of the outline can be adjusted.
-Cavity
-   TODO2.8.
-Depth Of Field
-   TODO2.8.
-Outline
-   TODO2.8.
