@@ -5,13 +5,12 @@
   Blender |BLENDER_VERSION| Reference Manual
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Welcome to the Blender Manual!
-
-This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
+Welcome to the manual for `Blender <https://www.blender.org>`__,
+the free and open source 3D creation suite.
 
 .. warning::
 
-   Blender Manual is being updated in preparation for 2.80 release. This is work in progress.
+   The manual is being updated in preparation for 2.80 release. This is work in progress.
    Various sections of this manual have not been updated, or they are updated only partially.
 
 .. see T64071 for why we don't use ':download:'
@@ -56,7 +55,7 @@ Sections
             :target: editors/index.html
 
          :doc:`/editors/index`
-            Overview of the editors describing the interface and functionality of each one.
+            Overview of the interface and functionality of all editors.
 
       .. container:: descr
 
@@ -64,7 +63,7 @@ Sections
             :target: scene_layout/index.html
 
          :doc:`/scene_layout/index`
-            Scene and object management.
+            Objects and their organization into scenes, view layers and collections.
 
       .. container:: descr
 
@@ -72,7 +71,7 @@ Sections
             :target: modeling/index.html
 
          :doc:`/modeling/index`
-            The various supported geometry types, modeling tools, and modifiers.
+            Geometry types, modeling tools, and modifiers.
 
       .. container:: descr
 
@@ -80,7 +79,7 @@ Sections
             :target: sculpt_paint/index.html
 
          :doc:`/sculpt_paint/index`
-            The 3D texture painting and sculpting modes.
+            Sculpting, texture painting and vertex painting.
 
       .. container:: descr
 
@@ -88,7 +87,7 @@ Sections
             :target: grease_pencil/index.html
 
          :doc:`/grease_pencil/index`
-            Grease pencil drawing and other modes.
+            2D drawing and animation with grease pencil.
 
       .. container:: descr
 
@@ -96,7 +95,7 @@ Sections
             :target: animation/index.html
 
          :doc:`/animation/index`
-            Keyframe animation, graph interpolation, drivers, and shape keys.
+            Keyframes, drivers, constraints, armatures and shape keys.
 
       .. container:: descr
 
@@ -112,7 +111,7 @@ Sections
             :target: render/index.html
 
          :doc:`/render/index`
-            Render engines (Internal, Cycles), shading, post-processing, and Freestyle (NPR).
+            Rendering and shading with Eevee, Cycles and Freestyle.
 
       .. container:: descr
 
@@ -144,7 +143,7 @@ Sections
             :target: files/index.html
 
          :doc:`/files/index`
-            Blender's data management of scene data and the structure of blend-files.
+            Data-block management and the structure of blend-files.
 
       .. container:: descr
 
@@ -152,7 +151,7 @@ Sections
             :target: addons/index.html
 
          :doc:`/addons/index`
-            Extending built-in functionality.
+            Additional functionality available as add-ons.
 
       .. container:: descr
 
@@ -168,8 +167,7 @@ Sections
             :target: troubleshooting/index.html
 
          :doc:`/troubleshooting/index`
-            Compatibility errors related to other software (graphics drivers, Python),
-            how to write a bug report and recover data.
+            Solving crashes, graphics issues and Python errors, recovering data and reporting bugs.
 
       .. container:: descr
 
