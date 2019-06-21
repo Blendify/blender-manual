@@ -1,8 +1,8 @@
 .. _scene-layout-index:
 
-################
-  Scene Layout
-################
+####################
+  Scenes & Objects
+####################
 
 .. toctree::
    :maxdepth: 2
