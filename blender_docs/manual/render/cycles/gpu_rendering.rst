@@ -3,25 +3,28 @@
 GPU Rendering
 *************
 
-Introduction
-============
-
 :abbr:`GPU (Graphics Processing Unit)` rendering makes it possible to use your
-graphics card for rendering, instead of the CPU. This can speed up rendering,
+graphics card for rendering, instead of the CPU. This can speed up rendering
 because modern GPUs are designed to do quite a lot of number crunching.
 On the other hand, they also have some limitations in rendering complex scenes, due to more limited memory,
 and issues with interactivity when using the same graphics card for display and rendering.
 
+To enable GPU rendering, go into the :menuselection:`Preferences --> System --> Cycles Render Devices`,
+and select either *CUDA* or *OpenCL*. Next, you must configure each scene to use GPU rendering in
+:menuselection:`Properties --> Render --> Device`.
 
-Configuration
-=============
+.. warning::
 
-To enable GPU rendering, go into the Preferences, and under the System tab,
-select the Compute Device(s) to use. Next, for each scene,
-you can configure to use CPU or GPU rendering in the Render properties.
+   GPU rendering supports all the same features as CPU rendering, except two:
 
-In case of problems, be sure to install the graphics drivers from the NVIDIA or AMD website,
-or through the package manager on Linux.
+   - Open Shading Language.
+   - Advanced volume light sampling to reduce noise.
+
+
+Supported Hardware
+==================
+
+Blender supports two different technologies to render on the GPU depending on the particular GPU manufacture.
 
 
 NVIDIA CUDA
@@ -29,28 +32,25 @@ NVIDIA CUDA
 
 NVIDIA :abbr:`CUDA (Compute Unified Device Architecture)`
 is supported for GPU rendering with *NVIDIA* graphics cards.
-We support graphics cards with compute capability 3.0 and higher.
-See the `list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__ with compute capabilities.
+Blender supports graphics cards with compute capability 3.0 and higher.
+To make sure your GPU is supported, see the
+`list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__
+with the compute capabilities and supported graphics cards.
+
+NVIDIA CUDA GPU rendering is supported on Windows, macOS, and Linux.
 
 
 AMD OpenCL
 ----------
 
-:abbr:`OpenCL (Open Computing Language)` is supported for GPU rendering with *AMD* graphics cards,
-with :abbr:`GCN (Graphics Core Next)` architecture 2.0 and above.
-To make sure your GPU is supported checkout
-`this Wikipedia page <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
+:abbr:`OpenCL (Open Computing Language)`
+is supported for GPU rendering with *AMD* graphics cards.
+Blender Supports grahics cards with :abbr:`GCN (Graphics Core Next)` generation 2 and above.
+To make sure your GPU is supported, see the
+`list of GCN generations <https://en.wikipedia.org/wiki/Graphics_Core_Next#Iterations>`__
+with the GCN generation and supported graphics cards.
 
-AMD GPU rendering is supported on Windows and Linux, but not on macOS.
-
-
-Supported Features and Limitations
-==================================
-
-GPU rendering supports all the same features as CPU rendering, except two:
-
-- Open Shading Language.
-- Advanced volume light sampling to reduce noise.
+AMD OpenCL GPU rendering is supported on Windows and Linux, but not on macOS.
 
 
 Frequently Asked Questions
@@ -104,6 +104,10 @@ However, CUDA is fastest in the respect of high-end GPUs.
 
 Error Messages
 ==============
+
+In case of problems, be sure to install the official graphics drivers from the NVIDIA or AMD website,
+or through the package manager on Linux.
+
 
 Unsupported GNU version! gcc 4.7 and up are not supported!
 ----------------------------------------------------------
