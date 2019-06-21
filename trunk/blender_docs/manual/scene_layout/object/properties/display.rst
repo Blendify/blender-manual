@@ -27,8 +27,8 @@ Shadow
 In Front
    Makes the object draw in front of others. (Unsupported for duplicator drawing).
 Display As
-   The shading mode to display in the 3D View; this can be useful if you have a
-   high-poly object that is slowing down performance.
+   The shading mode to display in the 3D View; this can be useful if you have
+   a high-poly object that is slowing down performance.
 
 .. _objects-display-object-color:
 

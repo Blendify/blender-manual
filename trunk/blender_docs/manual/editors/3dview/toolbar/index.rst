@@ -22,6 +22,7 @@ Links to each modes toolbar below.
 
 - :ref:`Object Mode <object-toolbar-index>`
 
+
 Edit Modes
 ==========
 
@@ -30,6 +31,7 @@ Edit Modes
 - :ref:`Edit Metaball Mode <meta-toolbar-index>`
 - :ref:`Edit Surface Mode <surface-toolbar-index>`
 
+
 Paint Modes
 ===========
 
@@ -37,6 +39,7 @@ Paint Modes
 - :ref:`Texture Paint Mode <texture_paint_3d-toolbar-index>`
 - :ref:`Vertex Paint Mode <vertex_paint-toolbar-index>`
 - :ref:`Weight Paint Mode <weight_paint-toolbar-index>`
+
 
 Grease Pencil
 =============

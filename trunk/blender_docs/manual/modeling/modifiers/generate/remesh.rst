@@ -50,7 +50,7 @@ Remove Disconnected Pieces
 .. note::
 
    The input mesh should have some thickness to it. If the input is completely flat,
-   add a :doc:`Solidify Modifier</modeling/modifiers/generate/solidify>` above the *Remesh* one.
+   add a :doc:`Solidify Modifier </modeling/modifiers/generate/solidify>` above the *Remesh* one.
 
 
 Examples

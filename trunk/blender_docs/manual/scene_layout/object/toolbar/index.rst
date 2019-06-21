@@ -5,7 +5,7 @@
 Toolbar
 *******
 
-Object mode tools
+Object Mode Tools
 =================
 
 :ref:`Select <tool-select-tweak>`

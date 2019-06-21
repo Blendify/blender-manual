@@ -16,7 +16,7 @@ Usage
 
 This format is mainly use for interchanging character animations between applications
 and is supported by applications such as Cinema4D, Maya, Autodesk 3ds Max, Wings3D and
-engines such as Unity3D, Unreal Engine 3/UDK, Unreal Engine 4 and :abbr:`SL (Secondlife)`.
+engines such as Unity3D, Unreal Engine 3/UDK, Unreal Engine 4 and :abbr:`SL (Second Life)`.
 
 The exporter can bake mesh modifiers and animation into the Collada export
 so the final result looks the same as in Blender.
@@ -76,26 +76,30 @@ Include Shape Keys
    Export shape key data (caution, this creates very large output files if
    many shape keys are defined).
 
+
 Main - Global Orientation Options
 """""""""""""""""""""""""""""""""
 
 Forward Axis
-   Add a rotation to the Scene (in object mode) such that the selected axis
+   Add a rotation to the Scene (in Object Mode) such that the selected axis
    becomes the forward direction in the Target system.
-   Possible values are: X, Y, Z , -X, -Y, -Z
+
+   X, Y, Z, -X, -Y, -Z
 Up Axis
-   Add a rotation to the Scene (in Object mode) such that the selected axis
+   Add a rotation to the Scene (in Object Mode) such that the selected axis
    becomes the top direction in the Target system.
-   Possible values are: X, Y, Z , -X, -Y, -Z
+
+   X, Y, Z, -X, -Y, -Z
 Apply Global Orientation (only when you changed the global orientation)
    Rotate the object data instead of adding an extra rotation to the scene.
-   Thus the exported Objects do not get an additional rotation in Object mode.
+   Thus the exported Objects do not get an additional rotation in Object Mode.
 
 .. note::
 
    When in doubt what your target system needs besides changing
    the global axis orientation, then try first to apply Global Orientation
    (this is most likely what you need).
+
 
 Main - Texture Options
 """"""""""""""""""""""
@@ -183,7 +187,7 @@ Import
 ------
 
 Bind poses (Armature)
-   Bind Poses are baked into the the Skeleton and are used as new Rest Pose.
+   Bind Poses are baked into the skeleton and are used as it's new rest pose.
    However the bind pose is backed up into the custom bone property ``bind_mat``.
 
 

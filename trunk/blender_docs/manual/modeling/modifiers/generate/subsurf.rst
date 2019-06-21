@@ -14,7 +14,7 @@ As with any modifier, order of execution (position in the :ref:`modifier stack <
 has an important bearing on the results.
 
 Keep in mind that this is a different operation than its companion,
-:ref:`Smooth Shading<modeling-meshes-editing-normals-shading>`.
+:ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.
 You can see the difference between the two in the grid image below.
 
 .. figure:: /images/modeling_modifiers_generate_subsurf_grid.png
@@ -24,12 +24,12 @@ You can see the difference between the two in the grid image below.
 .. tip::
 
    The *Subdivision Surface* modifier does not allow you to edit the new subdivided geometry without applying it,
-   but the :doc:`Multiresolution</modeling/modifiers/generate/multiresolution>` modifier does (in *Sculpt* mode).
+   but the :doc:`Multiresolution </modeling/modifiers/generate/multiresolution>` modifier does (in Sculpt Mode).
 
 .. note::
 
-   This modifier now uses the
-   `OpenSubdiv library <http://graphics.pixar.com/opensubdiv/docs/intro.html>`__ as backend.
+   This modifier now uses
+   the `OpenSubdiv library <http://graphics.pixar.com/opensubdiv/docs/intro.html>`__ as a backend.
 
 
 Options
@@ -50,14 +50,14 @@ Type
       the resulting surfaces rather than on a mathematical derivation."
    Simple
       Only subdivides the surfaces, without any smoothing
-      (the same as the :ref:`Subdivide<bpy.ops.mesh.subdivide>` operator, in *Edit* mode).
+      (the same as the :ref:`Subdivide <bpy.ops.mesh.subdivide>` operator, in Edit Mode).
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
    Recursively adds more geometry. For details on polygon counts, see the `Performance Considerations`_ section.
 
    The right combination of these settings will allow you to keep a fast and lightweight approximation of your model
-   when interacting with it in the *3D View*, but use a higher quality version when rendering.
+   when interacting with it in the 3D View, but use a higher quality version when rendering.
 
    Render
       The number of subdivision levels shown in renders.
@@ -65,16 +65,16 @@ Subdivisions
       The number of subdivision levels shown in the 3D View.
    Quality
       How precisely the vertices are positioned (relatively to their theoretical position),
-      can be lowered to get better performances.
+      can be lowered to get a better performance.
 
    .. tip::
 
       Be careful not to set the *Viewport* subdivisions higher than the *Render* subdivisions,
-      this would mean that the *3D View* will be higher quality than the render.
+      this would mean that in the 3D View the quality will be higher than the rendered.
 
 Options
    UV Smooth
-      How to handle UVs during sub-division.
+      How to handle UVs during subdivision.
 
       Smooth, keep corners
          UV islands are smoothed, but their boundary remain sharp.
@@ -108,7 +108,7 @@ the *Subdivision Surface* modifier subdivides the geometry to give the edges a s
 
    A subdivided cube with creased edges.
 
-The crease weight of selected edges can be changed in the *Transform* panel, *Properties* region of the *3D View*.
+The crease weight of selected edges can be changed in the *Transform* panel, Properties region of the 3D View.
 The scale-like dedicated tool :kbd:`Shift-E` can also be used to adjust the crease weight.
 A higher value makes the edge "stronger" and more resistant to the smoothing effect of subdivision surfaces.
 
@@ -122,7 +122,7 @@ Edge Loops
 
 The *Subdivision Surface* modifier demonstrates why good, clean topology is so important.
 As you can see in the figure, the it has a drastic effect on a default cube.
-Until you add in additional loops (with e.g. :ref:`Loop Cut and Slide<bpy.ops.mesh.loopcut_slide>`),
+Until you add in additional loops (with e.g. :ref:`Loop Cut and Slide <bpy.ops.mesh.loopcut_slide>`),
 the shape is almost unrecognizable as a cube.
 
 A mesh with deliberate topology has good placement of edge loops, which allow the placement of more loops
@@ -185,7 +185,7 @@ Abrupt normal changes can produce ugly black gouges even though
 these flipped normals are not an issue for the shape itself.
 
 A quick way to fix this is to use Blender's
-:doc:`Recalculate Normals</modeling/meshes/editing/normals>` operation in *Edit* mode.
+:doc:`Recalculate Normals </modeling/meshes/editing/normals>` operation in Edit Mode.
 
 If you still have some ugly black gouges you will have to
-:doc:`manually flip the normals</modeling/meshes/editing/normals>`.
+:doc:`manually flip the normals </modeling/meshes/editing/normals>`.

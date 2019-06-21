@@ -41,7 +41,7 @@ Vertex Group
       - On 1.0 , the weights are ignored and the *Thickness* value is used for every vertex.
 
 Crease
-   These options are intended for usage with the :doc:`Subdivision</modeling/modifiers/generate/subsurf>` modifier.
+   These options are intended for usage with the :doc:`Subdivision </modeling/modifiers/generate/subsurf>` modifier.
 
    .. figure:: /images/modeling_modifiers_generate_solidify_rims.png
       :width: 350px
@@ -91,7 +91,7 @@ Material Index Offset
    The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
    the thickness will vary on different sides of the object.
 
-   To fix this, either :ref:`apply<bpy.ops.object.transform_apply>` or :ref:`clear<bpy.ops.object.*clear>` the scale.
+   To fix this, either :ref:`apply <bpy.ops.object.transform_apply>` or :ref:`clear <bpy.ops.object.*clear>` the scale.
 
 
 Known Limitations

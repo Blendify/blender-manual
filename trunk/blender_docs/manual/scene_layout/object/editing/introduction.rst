@@ -3,8 +3,8 @@
 Introduction
 ************
 
-This section describes tools for manipulating objects in Object Mode. All
-editing tools can be found in Object menu.
+This section describes tools for manipulating objects in Object Mode.
+All editing tools can be found in Object menu.
 
 
 .. _bpy.ops.object.join:

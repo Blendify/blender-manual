@@ -54,8 +54,7 @@ involves changing the orientation of elements (vertices, edges, faces, objects, 
 around one or more axes or
 the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
-The angle of rotation is displayed at the upper left corner of the 3D View
-editor.
+The angle of rotation is displayed at the upper left corner of the 3D View editor.
 
 .. figure:: /images/editors_3dview_object_editing_transform_basics_rotate-display-values.png
 

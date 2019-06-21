@@ -132,7 +132,7 @@ No Video
 `QT rle / QT Animation <https://en.wikipedia.org/wiki/QuickTime_Animation>`__
    Original format of QuickTime videos. Supports an alpha channel.
 `Theora <https://en.wikipedia.org/wiki/Theora>`__
-   A free open-standard lossy codec designed together with the :ref:`Ogg container<files-video-containers>`.
+   A free open-standard lossy codec designed together with the :ref:`Ogg container <files-video-containers>`.
 `WEBM / VP9 <https://en.wikipedia.org/wiki/VP9>`__:
    A free open-standard lossy video compression format.
    One of the most recent codec, it is widely used for internet streaming.
