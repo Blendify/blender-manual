@@ -56,7 +56,7 @@ Preferences
 Key-maps may define their own preferences, these are predefined adjustments to the key-map you can make
 without having to manually adjust individual key-map items which can cause problems with newer `Blender Versions`_.
 
-See the :ref:`default key-map preferences <default-keymap-prefs>`
+See the :ref:`default key-map preferences <keymap-blender_default-prefs>`
 for options available in the default key-map.
 
 

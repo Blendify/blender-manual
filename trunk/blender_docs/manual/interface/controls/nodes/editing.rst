@@ -66,13 +66,13 @@ Cut Links
 
    :Mode:      All Modes
    :Menu:      :menuselection:`Node --> Cut Links`
-   :Hotkey:    :kbd:`Ctrl-LMB` or :kbd:`Ctrl-RMB` (right/left-click-select)
+   :Hotkey:    :kbd:`Ctrl-RMB`
 
-To break a link between sockets :kbd:`Ctrl-LMB/RMB`-click in an empty area, near the link you want to disconnect, and
-drag: You will see a little cutter icon appearing at your mouse pointer. Move it over the link itself, and
-release the :kbd:`LMB`.
+To break a link between sockets click in an empty area, near the link you want to disconnect, and
+drag: You will see a little cutter icon appearing at your mouse pointer.
+Move it over the link itself, and release.
 
-Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB`-drag
+Detach Links :kbd:`Alt-D`, :kbd:`Alt-LMB` drag
    Use Detach Links in order to cut all links attached to selected nodes at once.
 
 

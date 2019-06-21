@@ -28,7 +28,8 @@ You can see the difference between the two in the grid image below.
 
 .. note::
 
-   This modifier now uses the `OpenSubdiv library <http://graphics.pixar.com/opensubdiv/docs/intro.html>`__ as backend.
+   This modifier now uses the
+   `OpenSubdiv library <http://graphics.pixar.com/opensubdiv/docs/intro.html>`__ as backend.
 
 
 Options

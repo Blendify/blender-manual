@@ -40,7 +40,7 @@ Walk Mode
    :class: refbox
 
    :Mode:      All modes
-   :Hotkey:    :kbd:`Shift-\``
+   :Hotkey:    :kbd:`Shift-AccentGrave`
    :Menu:      :menuselection:`View --> Navigation --> Walk Navigation`
 
 On activation the mouse pointer will move at the center of the view,
@@ -83,7 +83,7 @@ Fly Mode
    :class: refbox
 
    :Mode:      All modes
-   :Hotkey:    :kbd:`Shift-\``
+   :Hotkey:    :kbd:`Shift-AccentGrave`
    :Menu:      :menuselection:`View --> Navigation --> Fly Navigation`
 
 On activation the cursor is centered inside a rectangle that defines a safe-region.

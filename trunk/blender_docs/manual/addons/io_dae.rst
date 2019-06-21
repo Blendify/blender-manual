@@ -73,27 +73,29 @@ Include Children
 Include Armatures
    Include armatures for rigged objects even if the armature is not selected.
 Include Shape Keys
-   Export shape key data (caution, this creates very large output files if 
+   Export shape key data (caution, this creates very large output files if
    many shape keys are defined).
 
 Main - Global Orientation Options
 """""""""""""""""""""""""""""""""
 
 Forward Axis
-    Add a rotation to the Scene (in object mode) such that the selected axis
-    becomes the forward direction in the Target system.
-    Possible values are: X, Y, Z , -X, -Y, -Z
+   Add a rotation to the Scene (in object mode) such that the selected axis
+   becomes the forward direction in the Target system.
+   Possible values are: X, Y, Z , -X, -Y, -Z
 Up Axis
-    Add a rotation to the Scene (in Object mode) such that the selected axis
-    becomes the top direction in the Target system.
-    Possible values are: X, Y, Z , -X, -Y, -Z
+   Add a rotation to the Scene (in Object mode) such that the selected axis
+   becomes the top direction in the Target system.
+   Possible values are: X, Y, Z , -X, -Y, -Z
 Apply Global Orientation (only when you changed the global orientation)
-    Rotate the object data instead of adding an extra rotation to the scene.
-    Thus the exported Objects do not get an additional rotation in Object mode.
-    
-.. note:: When in doubt what your target system needs besides changing
-    the global axis orientation, then try first to apply Global Orientation
-    (this is most likely what you need).
+   Rotate the object data instead of adding an extra rotation to the scene.
+   Thus the exported Objects do not get an additional rotation in Object mode.
+
+.. note::
+
+   When in doubt what your target system needs besides changing
+   the global axis orientation, then try first to apply Global Orientation
+   (this is most likely what you need).
 
 Main - Texture Options
 """"""""""""""""""""""
@@ -181,7 +183,8 @@ Import
 ------
 
 Bind poses (Armature)
-    Bind Poses are baked into the the Skeleton and are used as new Rest Pose. However the bind pose is backuped into the custom bone property ''bind_mat''
+   Bind Poses are baked into the the Skeleton and are used as new Rest Pose.
+   However the bind pose is backed up into the custom bone property ``bind_mat``.
 
 
 Export
