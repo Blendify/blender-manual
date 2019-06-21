@@ -32,6 +32,8 @@ see :doc:`/scene_layout/object/editing/transform/control/precision/axis_locking`
 The extrude tools differentiate in how the new geometry is connected in itself.
 
 
+.. _tool-mesh-extrude_region:
+
 Extrude Region
 ==============
 
@@ -88,6 +90,8 @@ the principles behind *Extrude* are fairly elaborate as discussed below:
 - Single selected vertices which do not belong to selected edges
   are duplicated and a new edge is created between the two.
 
+
+.. _tool-mesh-extrude_individual:
 
 Extrude Individual
 ==================

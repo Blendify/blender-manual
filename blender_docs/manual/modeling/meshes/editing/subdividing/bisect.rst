@@ -1,4 +1,5 @@
 .. _bpy.ops.mesh.bisect:
+.. _tool-mesh-bisect:
 
 ******
 Bisect

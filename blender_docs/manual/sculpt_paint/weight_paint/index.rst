@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   toolbar/index.rst
    usage.rst
    tools.rst
    weight_tools.rst

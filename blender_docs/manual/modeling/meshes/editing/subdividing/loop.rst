@@ -4,6 +4,8 @@
 Loop Subdivide
 **************
 
+.. _tool-mesh-loop_cut:
+
 Loop Cut and Slide
 ==================
 

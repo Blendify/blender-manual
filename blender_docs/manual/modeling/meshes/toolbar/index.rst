@@ -5,70 +5,73 @@
 Toolbar
 *******
 
-In edit mesh more the tools of :ref:`Object Mode <object-toolbar-index>` are also present.
-Next to these tools the next tools are available.
+Mesh edit mode tools:
 
-Extrude Region
+.. note::
+
+   Some :ref:`Object Mode <object-toolbar-index>` are also present.
+
+:ref:`Extrude Region <tool-mesh-extrude_region>`
    Extrude the selected region together freely or along an axis.
 
    Extrude Along Normals
       Extrude Region along their local normal.
-   Extrude Individual
+   :ref:`Extrude Individual <tool-mesh-extrude_individual>`
       Extrude each individual element along their local normal.
-   Extrude To Cursor
+   :ref:`Extrude To Cursor <tool-mesh-extrude_cursor>`
       Extrude selected vertices, edges or face towards the mouse cursor.
 
-Inset Faces
+:ref:`Inset Faces <tool-mesh-inset_faces>`
    Inset selected faces.
-Bevel
+:ref:`Bevel <tool-mesh-bevel>`
    Create a bevel from the selected elements.
-Loop Cut
+:ref:`Loop Cut <tool-mesh-loop_cut>`
    Create a loop cut along the mesh.
 
    Loop Cut And Slide
       Create a loop cut along the mesh and slide it along edges.
 
-Knife
+:ref:`Knife <tool-mesh-knife>`
    Create a knife cut in the mesh. Press enter to confirm the cut.
 
-   Bisect
+   :ref:`Bisect <tool-mesh-bisect>`
       Bisect the mesh.
 
 Poly Build
    Create geometry by adding vertices one by one.
 
-Spin
+:ref:`Spin <tool-mesh-spin>`
    Create new geometry by extruding & rotating.
 
-   Spin Duplicate
+   :ref:`Spin Duplicate <tool-mesh-spin>`
       Create new geometry by duplicating & rotating.
 
-Smooth
+:ref:`Smooth <tool-mesh-smooth>`
    Flatten angles of selected vertices.
 
-   Randomize
+   :ref:`Randomize <tool-mesh-smooth>`
       Randomize selected vertices.
 
-Edge Slide
+:ref:`Edge Slide <tool-mesh-edge_slide>`
    Slide edge along a faces.
 
-   Vertex Slide
+   :ref:`Vertex Slide <tool-mesh-vertex_slide>`
       Slide vertex along an edge.
 
-Shrink/Flatten
+:ref:`Shrink/Flatten <tool-mesh-shrink-fatten>`
    Shrink selected vertices along their normals.
 
-   Push/Pull
+   :ref:`Push/Pull <tool-transform-push_pull>`
       Push or pull (scale) selected elements.
 
-Shear
+:ref:`Shear <tool-transform-shear>`
    Shear selected elements.
 
-   To Sphere
+   :ref:`To Sphere <tool-transform-to_sphere>`
       Move vertices outwards in a spherical shape around object center.
 
-Rip Region
+:ref:`Rip Region <tool-mesh-rip_region>`
    Rip Polygons and move the result.
 
-   Rip Edge
+   :ref:`Rip Edge <tool-mesh-rip_edge>`
       Extend vertices and move the result.

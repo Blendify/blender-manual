@@ -1,4 +1,5 @@
 .. _bpy.ops.transform.push_pull:
+.. _tool-transform-push_pull:
 
 *********
 Push/Pull

@@ -1,4 +1,5 @@
 .. _bpy.ops.transform.shrink_fatten:
+.. _tool-mesh-shrink-fatten:
 
 *************
 Shrink Fatten

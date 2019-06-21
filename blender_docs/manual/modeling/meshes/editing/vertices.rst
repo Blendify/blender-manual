@@ -109,8 +109,11 @@ Unselected
 Separating
 ==========
 
-Rip
----
+
+.. _tool-mesh-rip_region:
+
+Rip Region
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -171,8 +174,8 @@ If your selection includes some edges or vertices that are not "between" two fac
 it will also fail with message *"No proper selection or faces include"*.
 
 
-Rip Fill
---------
+Rip Region Fill
+---------------
 
 .. admonition:: Reference
    :class: refbox
@@ -214,8 +217,10 @@ Note that the "copy" is left exactly at the same position as the original, so yo
 :kbd:`G` to see it clearly...
 
 
-Extend Vertices
----------------
+.. _tool-mesh-rip_edge:
+
+Rip Edge
+--------
 
 .. admonition:: Reference
    :class: refbox
@@ -252,6 +257,8 @@ By loose parts
 
 
 .. _bpy.ops.transform.vert_slide:
+.. _tool-mesh-vertex-slide:
+.. _tool-mesh-vertex_slide:
 
 Vertex Slide
 ============

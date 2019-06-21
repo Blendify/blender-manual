@@ -6,6 +6,8 @@ Adding Geometry
 In Blender, for modeling, you have several ways of adding mesh elements.
 
 
+.. _tool-mesh-extrude_cursor:
+
 Duplicate or Extrude to Cursor
 ==============================
 
