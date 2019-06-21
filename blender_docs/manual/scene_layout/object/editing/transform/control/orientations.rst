@@ -139,8 +139,8 @@ it will take that object's name, etc.
 Create Orientation
 ^^^^^^^^^^^^^^^^^^
 
-To create a custom orientation, select the object or mesh element(s) and click
-the "+" button on the *Transform Orientations* panel.
+To create a custom orientation, select the object or mesh element(s) and
+click the "+" button on the *Transform Orientations* panel.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom-name.png
 

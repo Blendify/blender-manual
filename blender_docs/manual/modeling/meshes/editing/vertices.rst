@@ -109,7 +109,6 @@ Unselected
 Separating
 ==========
 
-
 .. _tool-mesh-rip_region:
 
 Rip Region

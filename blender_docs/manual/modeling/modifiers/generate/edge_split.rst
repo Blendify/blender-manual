@@ -22,7 +22,7 @@ If desired, both modes can be active at once.
 
    This modifier is kept mostly for historical/compatibility reasons.
    Everything it can do in shading, and much more,
-   can now be achieved using :ref:`custom normals<modeling_meshes_normals_custom>`.
+   can now be achieved using :ref:`custom normals <modeling_meshes_normals_custom>`.
 
    Unless you really need the topology changes it generates, it is not advised to use it in new projects.
 

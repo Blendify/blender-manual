@@ -5,7 +5,7 @@ Triangulate Modifier
 ********************
 
 The *Triangulate* modifier converts all faces in a mesh (quads and polygons) to triangular faces.
-It fulfills the exact same function as the :ref:`Triangulate<bpy.ops.mesh.quads_convert_to_tris>` tool in *Edit* mode.
+It fulfills the exact same function as the :ref:`Triangulate <bpy.ops.mesh.quads_convert_to_tris>` tool in Edit Mode.
 
 .. list-table::
 
@@ -36,9 +36,9 @@ Quad Method
    Fixed Alternate
       Split the quads on their 2nd and 4th vertices.
    Shortest Diagonal
-      Split the quads based on the distance between their diagonal's vertices.
+      Split the quads based on the diagonal distance between their vertices.
 
-Ngon Method
+N-gon Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Clip
@@ -46,7 +46,7 @@ Ngon Method
       (gives similar results to the tessellation used for 3D View drawing).
 
 Keep Normals
-   When using :ref:`custom normals<modeling_meshes_normals_custom>`,
+   When using :ref:`custom normals <modeling_meshes_normals_custom>`,
    try to preserve the same shading as before triangulation.
 
 Minimum Vertices

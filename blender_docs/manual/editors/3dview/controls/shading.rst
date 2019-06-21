@@ -4,18 +4,13 @@
 Viewport Shading
 ****************
 
-The shading of the 3d viewport can be adjusted to match the task at hand. There
-are several modes to choose from.
-
-- Wireframe
-- Solid
-- Look Dev
-- Render
+The shading of the 3D Viewport can be adjusted to match the task at hand.
+There are several modes to choose from.
 
 .. note::
 
    The Look Dev option is not available when the render engine of the scene is
-   set to `Workbench`.
+   set to Workbench.
 
 
 Wireframe
@@ -34,7 +29,6 @@ Color
    Random
       A random color will be selected for every object in the scene.
 
-
 Background
    The way how to draw the background in the 3D Viewport.
 
@@ -45,7 +39,6 @@ Background
    Viewport
       Select a custom color for the background of the 3D Viewport.
 
-
 Options
    .. _3dview-shading-xray:
 
@@ -55,17 +48,16 @@ Options
       of the back wires can be adjusted.
 
    Outline
-      Render the outline of objects in the viewport. The color of the outline 
-      can be adjusted.
+      Render the outline of objects in the viewport. The color of the outline can be adjusted.
+
 
 Solid
 =====
 
 Show the scene using in solid mode. This mode utilized the Workbench engine to
-render the 3D Viewport. The :doc:`lighting </render/workbench/lighting>`, 
-:doc:`color </render/workbench/color>` and 
-:doc:`options </render/workbench/options>` can be found at Workbench
-render engine section.
+render the 3D Viewport. The :doc:`lighting </render/workbench/lighting>`,
+:doc:`color </render/workbench/color>` and :doc:`options </render/workbench/options>`
+can be found at Workbench render engine section.
 
 Background
    The way how to draw the background in the 3D Viewport.

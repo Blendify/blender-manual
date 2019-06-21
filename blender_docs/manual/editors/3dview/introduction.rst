@@ -68,8 +68,8 @@ Viewport Gizmos
    Change the way how :doc:`gizmos </editors/3dview/controls/gizmo>` are
    displayed in the 3D View.
 X-Ray
-   Show the whole scene transparent. This is a shortcut to the
-   :ref:`x-ray <3dview-shading-xray>` option inside the shading control.
+   Show the whole scene transparent. This is a shortcut to
+   the :ref:`X-ray <3dview-shading-xray>` option inside the shading control.
 Viewport Overlays
    Change the way how :doc:`overlays </editors/3dview/controls/overlays>` are
    displayed in the 3D View.

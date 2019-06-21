@@ -87,7 +87,7 @@ Sections
             :target: grease_pencil/index.html
 
          :doc:`/grease_pencil/index`
-            2D drawing and animation with grease pencil.
+            2D drawing and animation with Grease Pencil.
 
       .. container:: descr
 

@@ -21,7 +21,6 @@ Mesh edit mode tools:
    :ref:`Select Lasso <tool-select-lasso>`
       Select geometry by drawing a lasso.
 
-
 :ref:`Extrude Region <tool-mesh-extrude_region>`
    Extrude the selected region together freely or along an axis.
 

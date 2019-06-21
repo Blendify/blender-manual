@@ -34,14 +34,14 @@ Smooth Shading
    Output faces with smooth shading rather than flat shading.
    The smooth/flat shading of the input geometry is not preserved.
 
-
 Symmetry Axes X/Y/Z
    These checkboxes are used to keep the output topology symmetrical in their respective axes.
    In other words, using it avoids merging triangles across an axis unless the triangles form a symmetric quad.
 
    .. note::
+
       They do not add geometry flipped across an axis.
-      For that, the :doc:`Mirror</modeling/modifiers/generate/mirror>` modifier should be used,
+      For that, the :doc:`Mirror </modeling/modifiers/generate/mirror>` modifier should be used,
       typically placed above the *Skin* one.
 
 
@@ -95,7 +95,7 @@ This tool does the following:
 #. A new armature object is added with bones matching the input mesh.
    The active selection is switched to the new armature.
 #. Weight groups are added to the input mesh. The *Skin* modifier propagates these weights to the output as well.
-#. An :doc:`Armature</modeling/modifiers/deform/armature>` modifier is added directly below the *Skin* one.
+#. An :doc:`Armature </modeling/modifiers/deform/armature>` modifier is added directly below the *Skin* one.
    Note that the *Armature* modifier is being applied after
    the *Skin* one because it should only deform the output,
    whereas if it were above, it might change the resulting topology.
@@ -114,9 +114,9 @@ and the size (radius) of the skin at each vertex.
 Skin Size
 ---------
 
-The radii of input vertices can be individually scaled in *Edit* mode by pressing :kbd:`Ctrl-A`.
+The radii of input vertices can be individually scaled in Edit Mode by pressing :kbd:`Ctrl-A`.
 Non-uniform scaling of the X and Y axes is accessible by the usual axis locking with :kbd:`X` or :kbd:`Y`.
-The radius can also be adjusted in the *Transform* panel of the *Properties* region, in the *3D View*.
+The radius can also be adjusted in the *Transform* panel of the Properties region, in the 3D View.
 
 
 Examples

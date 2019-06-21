@@ -89,7 +89,7 @@ Options
           Proportional Editing tool.
 
 
-The *Proportional Editing* mode menu is on the *3D View* header.
+The *Proportional Editing* mode menu is on the 3D View header.
 
 Disable :kbd:`O`, :kbd:`Alt-O`
    Proportional Editing is Off, only selected vertices will be affected.
@@ -104,9 +104,9 @@ Projected from View
       The difference between regular and Projected (2D) proportional option (right).
 
 Connected Only
-   Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can
-   proportionally edit the v     ertices in a finger of a hand without affecting the other fingers.
-   While the other vertices are physically close (in 3D space),
+   Rather than using a radius only, the proportional falloff spreads via connected geometry.
+   This means that you can proportionally edit the vertices in a finger of a hand
+   without affecting the other fingers. While the other vertices are physically close (in 3D space),
    they are far away following the topological edge connections of the mesh.
    The icon will have a gray center when *Connected* is active.
    This mode is only available in *Edit Mode*.
@@ -115,7 +115,7 @@ Connected Only
 
 Falloff
    While editing, you can change the curve profile used by either using
-   the :menuselection:`Mesh --> Proportional Falloff` submenu, using the header icon *Falloff menu*,
+   the :menuselection:`Mesh --> Proportional Falloff` submenu, using the header icon *Falloff* menu,
    or by pressing :kbd:`Shift-O` to toggle between the various options.
 
 .. list-table::

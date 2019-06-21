@@ -18,16 +18,14 @@ Basic Usage
 ===========
 
 Create a Collection:
-   - Create a new collection (this can be done via the outliner)
-   - Link the objects that needs to be duplicated as part of the newly created
-     collection
+   - Create a new collection (this can be done via the Outliner).
+   - Link the objects that needs to be duplicated as part of the newly created collection.
 Create a new Collection Instance:
    - :menuselection:`Add --> Collection Instance`
 
-At this point, an instance of the collection and an :doc:`empty object </modeling/empties>`
-will appear. You can duplicate the empty, and the DupliGroup settings will be
-preserved for each empty. This way, you can get multiple copies of linked data
-very easily.
+At this point, an instance of the collection and an :doc:`empty object </modeling/empties>` will appear.
+You can duplicate the empty, and the DupliGroup settings will be preserved for each empty.
+This way, you can get multiple copies of linked data very easily.
 
 
 DupliGroup and Dynamic Linking
