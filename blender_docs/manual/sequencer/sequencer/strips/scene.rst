@@ -9,6 +9,10 @@ Instead of rendering out a video, then inserting the video file, you can insert 
 
 The strip length will be determined based on the animation settings in that scene.
 
+.. note::
+
+   Scene Strips cannot be used to reference the sequence's own scene; a secondary scene must be used instead.
+
 
 Options
 =======
