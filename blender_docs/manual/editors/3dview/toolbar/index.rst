@@ -10,6 +10,12 @@ Toolbar
 
    measure.rst
 
+   select_box.rst
+   select_circle.rst
+   select_lasso.rst
+   select_tweak.rst
+
+
 The Toolbar contains a list of tools.
 
 Links to each modes toolbar below.

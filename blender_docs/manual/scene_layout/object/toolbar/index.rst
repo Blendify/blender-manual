@@ -7,15 +7,17 @@ Toolbar
 
 Object mode tools:
 
-Select
+:ref:`Select <tool-select-tweak>`
    Select or translate.
 
-   Select Box
-      Select objects by dragging a box. All objects that intersect the box will be selected.
-   Select Circle
+   :ref:`Select Box <tool-select-box>`
+      Select objects by dragging a box.
+
+      All objects that intersect the box will be selected.
+   :ref:`Select Circle <tool-select-circle>`
       Select objects by dragging a circle. All objects that intersect the path of
       the circle will be selected.
-   Select Lasso
+   :ref:`Select Lasso <tool-select-lasso>`
       Select objects by drawing a lasso.
 
 Cursor

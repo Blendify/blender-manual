@@ -164,127 +164,6 @@ When enabled, selection isn't occluded by the objects geometry
           X-ray disabled.
 
 
-Cursor Selection
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Hotkey:    :kbd:`LMB`
-
-Clicking on a vertex/edge/face selects it,
-using modifier keys you can perform other operations.
-
-Extend/Toggle :kbd:`Shift`
-   To add to the selection or de-select when the item is already active.
-
-
-Interactive Selection Tools
-===========================
-
-The select menu in edit mode contains tools for selecting components.
-These are described in more detail in the following pages.
-
-
-Box Select
-----------
-
-Enables a rectangular region for selection :kbd:`B`.
-
-.. list-table:: Box Select example.
-
-   * - .. _fig-mesh-select-basics-start:
-
-       .. figure:: /images/modeling_meshes_selecting_introduction_border-select1.png
-          :width: 200px
-
-          Start.
-
-     - .. _fig-mesh-select-basics-selecting:
-
-       .. figure:: /images/modeling_meshes_selecting_introduction_border-select2.png
-          :width: 200px
-
-          Selecting.
-
-     - .. _fig-mesh-select-basics-complete:
-
-       .. figure:: /images/modeling_meshes_selecting_introduction_border-select3.png
-          :width: 200px
-
-          Complete.
-
-In Fig. :ref:`fig-mesh-select-basics-start`, *Box Select* has been activated and
-is indicated by showing a dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
-the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
-Finally,
-by releasing :kbd:`LMB` the selection is complete; see Fig. :ref:`fig-mesh-select-basics-complete`.
-
-
-Circle Select
--------------
-
-Enables a circular-shaped region for selection :kbd:`C`.
-
-.. _fig-mesh-select-basic-circle:
-
-.. list-table:: Circle Select example.
-
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select1.png
-          :width: 320px
-
-          Start.
-
-     - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select2.png
-          :width: 320px
-
-          Selecting.
-
-     - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select3.png
-          :width: 320px
-
-          Dragging.
-
-Fig. :ref:`fig-mesh-select-basic-circle` is an example of selecting edges while in *Edge Select Mode*.
-As soon as an edge intersects the circle the edge becomes selected.
-The tool is interactive such that edges are selected while the circle region is being dragged with the :kbd:`LMB`.
-
-If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging again.
-
-.. note::
-
-   If you are in bounding box or wireframe viewport shading mode,
-   or when not enabled *Limit Selection to Visible*.
-   For *Faces* select mode, the circle must intersect the face indicators
-   usually represented by small pixel squares; one at the center of each face.
-
-
-Lasso Select
-------------
-
-To activate the tool use the :kbd:`Ctrl-RMB` while dragging.
-
-.. list-table:: An example of using the *Lasso Select tool* in *Vertex Select Mode*.
-
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select1.png
-          :width: 200px
-
-          Start.
-
-     - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select2.png
-          :width: 200px
-
-          Selecting.
-
-     - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select3.png
-          :width: 200px
-
-          Complete.
-
-
-.. TODO2.8 de-duplicate
-
 Select Menu
 ===========
 
@@ -297,9 +176,9 @@ Inverse :kbd:`Ctrl-I`
 
 ------------------------
 
-`Box Select`_ :kbd:`B`
+:ref:`Box Select <tool-select-box>` :kbd:`B`
    Interactive box selection.
-`Circle Select`_ :kbd:`C`
+:ref:`Circle Select <tool-select-circle>` :kbd:`C`
    Interactive circle selection.
 
 ------------------------

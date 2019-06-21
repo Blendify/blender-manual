@@ -43,15 +43,26 @@ Select Menu
 With curves, all "advanced" selection options are regrouped in the *Select* menu of
 the 3D Views header. Let us detail them:
 
-- Random...
-- Inverse
-- Select/Deselect All
+All :kbd:`A`
+   Select all.
+None :kbd:`Alt-A`
+   Select none.
+Inverse :kbd:`Ctrl-I`
+   Selects all the geometry that are not selected, and deselect currently selected components.
 
-Box/Circle Select
-   All these options have the same meaning and behavior as in
-   :doc:`Object Mode </scene_layout/object/selecting>`
-   (and the specifics of *Box Select* in *Edit Mode* have already been discussed
-   :doc:`here </modeling/meshes/selecting>`).
+----
+
+:ref:`Box Select <tool-select-box>` :kbd:`B`
+   Interactive box selection.
+:ref:`Circle Select <tool-select-circle>` :kbd:`C`
+   Interactive circle selection.
+
+----
+
+`Select More/Less`_
+   Select objects based on their parent child relationships.
+
+TODO2.8: Add other menu items.
 
 
 Select Linked
