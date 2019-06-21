@@ -5,7 +5,7 @@
 Tool System
 ***********
 
-Tools are accessed from the :ref:`tool-bar <ui-region-toolbar>`,
+Tools are accessed from the :ref:`Toolbar <ui-region-toolbar>`,
 
 This is a general introduction to tools, individual tools have their own documentation.
 

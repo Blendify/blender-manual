@@ -11,7 +11,7 @@ The strip length will be determined based on the animation settings in that scen
 
 .. note::
 
-   Scene Strips cannot be used to reference the sequence's own scene; a secondary scene must be used instead.
+   Scene strips cannot be used to reference the sequence's own scene; a secondary scene must be used instead.
 
 
 Options

@@ -83,7 +83,7 @@ Special Characters
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Edit --> Special Characters`
 
-This is a limited character map to insert characters which arent' available from the keyboard.
+This is a limited character map to insert characters which aren't available from the keyboard.
 
 If you need special characters (such as accented chars, which are not on your keyboard)
 you can produce many of them using a combination of two other characters. To do so,
