@@ -3,50 +3,41 @@
 Introduction
 ************
 
-In this section describes tools for manipulating objects in Object Mode. All
-editing tools can be found in Object menu..
+This section describes tools for manipulating objects in Object Mode. All
+editing tools can be found in Object menu.
 
 
-.. _bpy.ops.object.delete:
+.. _bpy.ops.object.join:
+.. _object-join:
 
-Delete
-======
+Join
+====
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Delete`
-   :Hotkey:    :kbd:`X` or :kbd:`Delete`
+   :Menu:      :menuselection:`Object --> Join`
+   :Hotkey:    :kbd:`Ctrl-J`
 
-The selected objects are deleted from the scene.
+Join merges all selected objects into the last selected *Active* object.
+All object data is linked to the active object (which must be selected).
+All objects must be of the same type: mesh, curve, surface or armature.
+If several curves are joined, each one will keep its subtype (NURBS or Bézier).
 
-Delete Globally
-   Delete the selected objects from all scenes.
+.. note::
 
+   Object data has many attributes which may be handled when joining.
 
-.. _object-show-hide:
-.. _bpy.ops.object.hide_view:
+   Materials, vertex groups, UV and Vertex layers will be merged.
 
-Show/Hide
-=========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All Modes
-   :Menu:      :menuselection:`Object --> Show/Hide`
-
-Show Hidden Objects :kbd:`Alt-H`
-   Reveals all hidden objects.
-Hide Selected :kbd:`H`
-   Hides all selected objects.
-Hide Unselected :kbd:`Shift-H`
-   Hides all unselected objects of the scene.
+   Modifiers, constraints, groups and parent relationships are ignored
+   when joining and will not be applied to the active object.
 
 
 .. _object-convert-to:
 .. _bpy.ops.object.convert:
+
 
 Convert To
 ==========
@@ -87,29 +78,41 @@ Keep Original
    Duplicates the original object before converting it.
 
 
-.. _bpy.ops.object.join:
-.. _object-join:
+.. _object-show-hide:
+.. _bpy.ops.object.hide_view:
 
-Join
-====
+Show/Hide
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Object --> Show/Hide`
+
+Show Hidden Objects :kbd:`Alt-H`
+   Reveals all hidden objects.
+Hide Selected :kbd:`H`
+   Hides all selected objects.
+Hide Unselected :kbd:`Shift-H`
+   Hides all unselected objects of the scene.
+
+
+.. _bpy.ops.object.delete:
+
+Delete
+======
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Join`
-   :Hotkey:    :kbd:`Ctrl-J`
+   :Menu:      :menuselection:`Object --> Delete`
+   :Hotkey:    :kbd:`X` or :kbd:`Delete`
 
-Join merges all selected objects into the last selected *Active* object.
-All object data is linked to the active object (which must be selected).
-All objects must be of the same type: mesh, curve, surface or armature.
-If several curves are joined, each one will keep its subtype (NURBS or Bézier).
+The selected objects are deleted from the scene.
 
-.. note::
+Delete Globally
+   Delete the selected objects from all scenes.
 
-   Object data has many attributes which may be handled when joining.
 
-   Materials, vertex groups, UV and Vertex layers will be merged.
-
-   Modifiers, constraints, groups and parent relationships are ignored
-   when joining and will not be applied to the active object.

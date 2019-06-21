@@ -9,7 +9,6 @@ Transformation Manipulators
 
    :Mode:      Object and Edit Modes
    :Menu:      |manip-menu|
-   :Hotkey:    :kbd:`Ctrl-Spacebar`
 
 The Transformation manipulator widgets allow mouse controlled translation, rotation and scaling in the 3D View.
 There is a separate manipulator for each operation.
@@ -32,32 +31,15 @@ Each manipulator can be used separately or in combination with the others.
 
           Scale.
 
+     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-scalecage.png
+          :width: 320px
+
+          Scale Cage.
+
      - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-all.png
           :width: 320px
 
           Combination.
-
-
-Header Controls
-===============
-
-Manipulators can be accessed through the header of the *3D View*.
-
-Axis
-   Enable/disable the manipulators :kbd:`Ctrl-Spacebar`.
-Manipulators
-   Toggles each of the manipulators. Clicking with :kbd:`Shift-LMB` on multiple manipulator icons
-   will combine the manipulators.
-
-   Arrow
-      Translation.
-   Arc
-      Rotation.
-   Box
-      Scale.
-Transform Orientation
-   A select menu of
-   the :doc:`Transform Orientations </scene_layout/object/editing/transform/control/orientations>`.
 
 
 Manipulator Controls

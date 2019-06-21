@@ -1,9 +1,6 @@
 
 .. |prop-edit-icon| image::
-   /images/editors_3dview_object_editing_transform_control_proportional-edit_header-object-mode.png
-
-.. |prop-edit-edit-mode-icon| image::
-   /images/editors_3dview_object_editing_transform_control_proportional-edit_header-edit-mode.png
+   /images/editors_3dview_object_editing_transform_control_proportional-edit_header.png
 
 
 *****************
@@ -31,7 +28,7 @@ Object Mode
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      Via the |prop-edit-icon| icon in the header indicated by the yellow square in the below image.
+   :Menu:      Via the |prop-edit-icon| icon in the header.
    :Hotkey:    :kbd:`O`
 
 Proportional editing is typically used in *Edit Mode*, however, it can also be used in *Object Mode*.
@@ -54,7 +51,7 @@ Edit Mode
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Proportional Editing` and via the |prop-edit-edit-mode-icon| highlighted icon
+   :Menu:      :menuselection:`Mesh --> Proportional Editing` and via the |prop-edit-icon| highlighted icon
    :Hotkey:    :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
 
 When working with dense geometry, it can become difficult to make subtle adjustments to
@@ -91,10 +88,6 @@ Options
 
           Proportional Editing tool.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_falloff-options.png
-          :width: 250px
-
-          Falloff menu.
 
 The *Proportional Editing* mode menu is on the *3D View* header.
 
@@ -102,7 +95,7 @@ Disable :kbd:`O`, :kbd:`Alt-O`
    Proportional Editing is Off, only selected vertices will be affected.
 Enable :kbd:`O`, :kbd:`Alt-O`
    Vertices other than the selected vertex are affected, within a defined radius.
-Projected (2D)
+Projected from View
    Depth along the view is ignored when applying the radius.
 
    .. figure:: /images/editors_3dview_object_editing_transform_control_proportional-edit_2d-compare.png
@@ -110,9 +103,9 @@ Projected (2D)
 
       The difference between regular and Projected (2D) proportional option (right).
 
-Connected :kbd:`Alt-O`
+Connected Only
    Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can
-   proportionally edit the vertices in a finger of a hand without affecting the other fingers.
+   proportionally edit the v     ertices in a finger of a hand without affecting the other fingers.
    While the other vertices are physically close (in 3D space),
    they are far away following the topological edge connections of the mesh.
    The icon will have a gray center when *Connected* is active.

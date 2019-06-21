@@ -3,13 +3,15 @@
 Object Origin
 *************
 
-Each object has an origin point. The location of this point determines
-where the object is located in 3D space. When an object is selected,
-a small circle appears, denoting the origin point. The location of the origin point is
-important when translating, rotating or scaling an object.
-See :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>` for more.
+Each object has an origin point. The location of this point determines where the
+object is located in 3D space. When an object is selected, a small circle
+appears, denoting the origin point. The location of the origin point is
+important when translating, rotating or scaling an object. See
+:doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`
+for more.
 
-The color of the origin changes based on the state of the object.
+The color of the origin changes based on the :doc:`selection </scene_layout/object/selecting>`
+state of the object.
 
 .. note::
 
