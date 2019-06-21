@@ -66,10 +66,10 @@ macOS
 
 .. note::
 
-   macOS stores the Blender binary in ``./blender.app/Contents/MacOS/blender``.
+   macOS stores the Blender binary in ``./Blender.app/Contents/MacOS/blender``.
    The local path to data and config is:
 
-   .. parsed-literal:: ./blender.app/Contents/Resources/|BLENDER_VERSION|/
+   .. parsed-literal:: ./Blender.app/Contents/Resources/|BLENDER_VERSION|/
 
 
 Windows
