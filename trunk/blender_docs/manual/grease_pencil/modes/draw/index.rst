@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
+   toolbar/index.rst
    tools.rst
    brushes/index.rst
    stroke_placement.rst
