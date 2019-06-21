@@ -262,7 +262,7 @@ Cursor X
    *Playhead* X position.
 
    To Keys
-      Snap selected keyframes to the *Playead*.
+      Snap selected keyframes to the *Playhead*.
 Cursor Y
    Vertical *Cursor* Y position.
 

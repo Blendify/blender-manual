@@ -26,8 +26,8 @@ NVIDIA CUDA
 NVIDIA :abbr:`CUDA (Compute Unified Device Architecture)`
 is supported for GPU rendering with *NVIDIA* graphics cards.
 Blender supports graphics cards with compute capability 3.0 and higher.
-To make sure your GPU is supported, see the
-`list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__
+To make sure your GPU is supported,
+see the `list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__
 with the compute capabilities and supported graphics cards.
 
 NVIDIA CUDA GPU rendering is supported on Windows, macOS, and Linux.
@@ -38,9 +38,9 @@ AMD OpenCL
 
 :abbr:`OpenCL (Open Computing Language)`
 is supported for GPU rendering with *AMD* graphics cards.
-Blender Supports grahics cards with :abbr:`GCN (Graphics Core Next)` generation 2 and above.
-To make sure your GPU is supported, see the
-`list of GCN generations <https://en.wikipedia.org/wiki/Graphics_Core_Next#Iterations>`__
+Blender Supports graphics cards with :abbr:`GCN (Graphics Core Next)` generation 2 and above.
+To make sure your GPU is supported,
+see the `list of GCN generations <https://en.wikipedia.org/wiki/Graphics_Core_Next#Iterations>`__
 with the GCN generation and supported graphics cards.
 
 AMD OpenCL GPU rendering is supported on Windows and Linux, but not on macOS.

@@ -11,7 +11,7 @@ Introduction
 The Dope Sheet gives the animator a birds-eye-view of the keyframes inside the scene.
 
 The Dope Sheet is inspired by classical hand-drawn animation process,
-in which animatots will make use of a chart, showing exactly when each drawing,
+in which animators will make use of a chart, showing exactly when each drawing,
 sound and camera move will occur, and for how long. This is called an exposure-sheet or 'dope sheet'.
 While CG foundations dramatically differ from classical hand-drawn animation,
 Blender's *Dope Sheet* inherits a similar directive.
@@ -85,7 +85,7 @@ On these channels lay the keyframes, which can show different information:
      - Aligned Keyframe Handle
    * - Various colors
      - These represent custom keyframe tags set by the user (:menuselection:`Key --> Keyframe Type`)
-   * - Grey bar between keys
+   * - Gray bar between keys
      - Held key (the two keyframes are identical)
    * - Green line between keys
      - Fixed keyframe interpolation (set in :menuselection:`Key --> Interpolation Mode`)

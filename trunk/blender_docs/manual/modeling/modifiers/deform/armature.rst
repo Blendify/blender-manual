@@ -33,7 +33,7 @@ Preserve Volume
    a discontinuity when reaching 180 degrees from rest position.
 
 .. list-table:: Example of Quaternion option effects.
-   Note that the IcoSphere is deformed using the envelopes weights.
+   Note that the icosphere is deformed using the envelopes weights.
 
    * - .. figure:: /images/modeling_modifiers_deform_armature_preserve-volume-1.png
           :width: 200px

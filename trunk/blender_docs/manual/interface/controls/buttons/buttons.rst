@@ -11,7 +11,7 @@ Operator Buttons
 .. figure:: /images/interface_controls_buttons_buttons_popup.png
    :align: right
 
-   Button with popup menu indicator.
+   Button with pop-up menu indicator.
 
 Operator buttons perform an action when clicked with :kbd:`LMB`.
 Button may show an icon, text, or both.

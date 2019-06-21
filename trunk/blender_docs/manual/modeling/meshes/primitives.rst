@@ -99,7 +99,7 @@ vertices than a UV sphere, in other words, they are uniform in every direction.
 
 Subdivisions
    How many recursions are used to define the sphere.
-   At level 1 the Icosphere is an icosahedron, a solid with 20 equilateral triangular faces.
+   At level 1 the icosphere is an icosahedron, a solid with 20 equilateral triangular faces.
    Each increase in the number of subdivisions splits each triangular face into four triangles.
 
 .. note::

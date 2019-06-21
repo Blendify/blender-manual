@@ -103,7 +103,7 @@ Sections
             :target: physics/index.html
 
          :doc:`/physics/index`
-            Physics simulations, particle systems and dynamic paint.
+            Physics simulations, particle systems and Dynamic Paint.
 
       .. container:: descr
 
@@ -135,7 +135,7 @@ Sections
             :target: sequencer/index.html
 
          :doc:`/sequencer/index`
-            Video sequence editor.
+            Video Sequence editor.
 
       .. container:: descr
 
