@@ -13,13 +13,6 @@ To enable GPU rendering, go into the :menuselection:`Preferences --> System --> 
 and select either *CUDA* or *OpenCL*. Next, you must configure each scene to use GPU rendering in
 :menuselection:`Properties --> Render --> Device`.
 
-.. warning::
-
-   GPU rendering supports all the same features as CPU rendering, except two:
-
-   - Open Shading Language.
-   - Advanced volume light sampling to reduce noise.
-
 
 Supported Hardware
 ==================
@@ -51,6 +44,15 @@ To make sure your GPU is supported, see the
 with the GCN generation and supported graphics cards.
 
 AMD OpenCL GPU rendering is supported on Windows and Linux, but not on macOS.
+
+
+Supported Features and Limitations
+==================================
+
+GPU rendering supports all the same features as CPU rendering, except two:
+
+- Open Shading Language.
+- Advanced volume light sampling to reduce noise.
 
 
 Frequently Asked Questions
