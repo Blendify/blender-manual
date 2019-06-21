@@ -27,10 +27,9 @@ To confirm the action, press :kbd:`LMB`.
 While Grab/Move is active, the amount of change in the X, Y, and Z coordinates
 is displayed at the upper left corner of the 3D View editor.
 
-.. TODO2.8:
-   .. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png
 
-      Translation Display.
+   Translation Display.
 
 .. tip::
 
@@ -55,12 +54,12 @@ involves changing the orientation of elements (vertices, edges, faces, objects, 
 around one or more axes or
 the :doc:`Pivot Point </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
-The angle of rotation will be displayed in the header of the 3D View editor.
+The angle of rotation is displayed at the upper left corner of the 3D View
+editor.
 
-.. TODO2.8:
-   .. figure:: /images/editors_3dview_object_editing_transform_basics_rotate-display-values.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_rotate-display-values.png
 
-      Rotation values.
+   Rotation values.
 
 
 .. _view3d-transform-trackball:
@@ -99,10 +98,9 @@ to the opposite side, the scale will continue in the negative direction and flip
 
 The amount of scaling will be displayed in the header of the 3D View editor.
 
-.. TODO2.8:
-   .. figure:: /images/editors_3dview_object_editing_transform_basics_scale-display-values.png
+.. figure:: /images/editors_3dview_object_editing_transform_basics_scale-display-values.png
 
-      Scale values.
+   Scale values.
 
 
 Common Options

@@ -95,7 +95,8 @@ Scale
 Rotation and Scale
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
 Apply Properties
-   (Todo)
+   Modify properties such as curve vertex radius, font size and bone envelope
+   according to the applied transformation.
 
 
 .. _bpy.ops.object.transforms_to_deltas:
@@ -109,14 +110,13 @@ Transforms to Deltas
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Apply -->`
-   :Hotkey:    :kbd:`Shift-Alt-G`, :kbd:`Shift-Alt-R`, and :kbd:`Shift-Alt-S`
 
 Converts primary object transformations to :ref:`delta transforms <transform-delta>`,
 any existing delta transforms will be included as well.
 
-- Location to Deltas :kbd:`Shift-Alt-G`
-- Rotation to Deltas :kbd:`Shift-Alt-R`
-- Scale to Deltas :kbd:`Shift-Alt-S`
+- Location to Deltas
+- Rotation to Deltas
+- Scale to Deltas
 
 All Transforms to Deltas
    Converts all primary transformations to delta transforms.
@@ -154,7 +154,7 @@ Visual Geometry as Mesh
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Apply --> Visual Geometry as Mesh`
+   :Menu:      :menuselection:`Object --> Apply --> Visual Geometry to Mesh`
    :Hotkey:    :kbd:`Ctrl-A`
 
 Apply the visual state of all selected objects (modifiers, shape keys, hooks, etc.) to object data.
@@ -172,7 +172,7 @@ Make Duplicate Real
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Apply --> Make Duplicate Real`
+   :Menu:      :menuselection:`Object --> Apply --> Make Duplicates Real`
    :Hotkey:    :kbd:`Shift-Ctrl-A`
 
 *Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.

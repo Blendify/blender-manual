@@ -5,7 +5,8 @@
 Toolbar
 *******
 
-Object mode tools:
+Object mode tools
+=================
 
 :ref:`Select <tool-select-tweak>`
    Select or translate.

@@ -257,8 +257,7 @@ Keying Set
    Select objects included in the active :doc:`Keying Set </animation/keyframes/keying_sets>`.
 Light Type
    Select matching light types.
-Pass Index
-   Select matching object pass index.
+
 
 
 .. _bpy.ops.object.select_linked:
@@ -283,7 +282,7 @@ Object Data
 Material
    Selects every object that is linked to the same material data-block.
 Instanced Collection
-   .. TODO2.8
+   Select every object that is linked to the instanced collection.
 Texture
    Selects every object that is linked to the same texture data-block.
 Particle System

@@ -30,8 +30,7 @@ But if you press :kbd:`X` a second time it will constrain to your *Transform Ori
 
    Transform Orientations selector.
 
-The Orientations options can be set through the *Transform Orientation* selector in a 3D View header,
-with :kbd:`Alt-Spacebar`, or in the *Transform Orientations* panel in the *Properties* region.
+The Orientations options can be set through the *Transform Orientation* selector in a 3D View header.
 
 In addition to the five preset options,
 you can define your own custom orientation (see `Custom Orientations`_ below).
@@ -43,7 +42,7 @@ Orientations
 Global
    The manipulator matches the *Global* (or *World*) axis.
 
-   The :doc:`Mini Axis </editors/3dview/startup_scene>` in the lower left corner of the viewport,
+   The :doc:`Axis </editors/3dview/startup_scene>` in the top right corner of the viewport,
    and the *Grid Floor*, shows the axes of world coordinate system.
 
 Local
@@ -71,41 +70,42 @@ View
    - X: Left/Right
    - Z: Towards/Away from the screen
 
+.. TODO2.8
 
-Examples
---------
+   Examples
+   --------
 
-.. list-table:: Cube with the rotation manipulator active in multiple transform orientations.
+   .. list-table:: Cube with the rotation manipulator active in multiple transform orientations.
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-global-1.png
-          :width: 240px
+      * - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-global-1.png
+            :width: 240px
 
-          Default cube with Global transform orientation selected.
+            Default cube with Global transform orientation selected.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-global-2.png
-          :width: 240px
+      - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-global-2.png
+            :width: 240px
 
-          Rotated cube with Global orientation, manipulator has not changed.
+            Rotated cube with Global orientation, manipulator has not changed.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-local.png
-          :width: 240px
+      - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-local.png
+            :width: 240px
 
-          Local orientation, manipulator matches to the object's rotation.
+            Local orientation, manipulator matches to the object's rotation.
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-normal.png
-          :width: 240px
+      * - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-normal.png
+            :width: 240px
 
-          Normal orientation, in Edit Mode.
+            Normal orientation, in Edit Mode.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-gimbal.png
-          :width: 240px
+      - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-gimbal.png
+            :width: 240px
 
-          Gimbal transform orientation.
+            Gimbal transform orientation.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-view.png
-          :width: 240px
+      - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-view.png
+            :width: 240px
 
-          View transform orientation.
+            View transform orientation.
 
 
 Custom Orientations
@@ -127,7 +127,7 @@ use the *Normal* orientation of the selection.
 
    Transform Orientations panel.
 
-The *Transform Orientations* panel, found in the Sidebar region,
+The *Transform Orientations* panel, found in the header of the 3D View,
 can be used to manage transform orientations: selecting the active orientation,
 adding ("+" icon), deleting ("X" icon) and rename custom orientations.
 
@@ -139,8 +139,8 @@ it will take that object's name, etc.
 Create Orientation
 ^^^^^^^^^^^^^^^^^^
 
-To create a custom orientation, select the object or mesh element(s) and press :kbd:`Ctrl-Alt-Spacebar`,
-or click the "+" button on the *Transform Orientations* panel in the Sidebar region.
+To create a custom orientation, select the object or mesh element(s) and click
+the "+" button on the *Transform Orientations* panel.
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_custom-name.png
 
