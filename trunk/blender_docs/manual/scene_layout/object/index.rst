@@ -9,9 +9,9 @@
 .. toctree::
    :maxdepth: 2
 
-   origin.rst
-   types.rst
    introduction.rst
+   types.rst
+   origin.rst
    toolbar/index.rst
    selecting.rst
    editing/index.rst
