@@ -11,6 +11,17 @@ Mesh edit mode tools:
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
 
+:ref:`Select <tool-select-tweak>`
+   Select or translate.
+
+   :ref:`Select Box <tool-select-box>`
+      Select geometry by dragging a box.
+   :ref:`Select Circle <tool-select-circle>`
+      Select geometry by dragging a circle.
+   :ref:`Select Lasso <tool-select-lasso>`
+      Select geometry by drawing a lasso.
+
+
 :ref:`Extrude Region <tool-mesh-extrude_region>`
    Extrude the selected region together freely or along an axis.
 

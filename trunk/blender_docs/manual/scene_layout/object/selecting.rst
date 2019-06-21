@@ -32,91 +32,6 @@ In order to change a property or to perform an operation on all selected objects
 hold :kbd:`Alt`, while confirming.
 
 
-Cursor Selection
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode
-   :Hotkey:    :kbd:`LMB`
-
-Clicking on an object selects it,
-using modifier keys you can perform other operations.
-
-Extend/Toggle :kbd:`Shift`
-   To add to the selection or de-select when the object is already active.
-
-   This can also be used to activate an object that is already selected.
-Center Point :kbd:`Ctrl`
-   Selects the object by its center point rather than its contents.
-Menu :kbd:`Alt`
-   If the objects are overlapping in the view, a menu of objects under the cursor
-   can be used, so you can pick the object by it's name.
-
-These can be combined so you can for example - toggle the selection from an objects center point.
-
-
-Interactive Selection Tools
-===========================
-
-.. _bpy.ops.view3d.select_border:
-
-Box Select
-----------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode and Edit Mode
-   :Menu:      :menuselection:`Select --> Box Select`
-   :Hotkey:    :kbd:`B`
-
-To activate the tool, press :kbd:`B` or click and drag :kbd:`LMB`.
-With *Box Select* you draw a rectangle while holding down :kbd:`LMB`.
-Any object that lies even partially within this rectangle becomes selected.
-If any object that was last active appears in the selection it will become active.
-
-For deselecting objects, use :kbd:`MMB`.
-
-
-.. _bpy.ops.view3d.select_circle:
-
-Circle Select
--------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode and Edit Mode
-   :Menu:      :menuselection:`Select --> Circle Select`
-   :Hotkey:    :kbd:`C`
-
-*Circle Select* :kbd:`C` is used by moving with dotted circle through objects with :kbd:`LMB`.
-You can select any object by touching of circle area.
-It is possible to dynamically change the diameter of circle by scrolling :kbd:`Wheel`
-or with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` as seen in pictures below.
-Deselection is under the same principle -- :kbd:`MMB`.
-To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Return`.
-
-
-.. _bpy.ops.view3d.select_lasso:
-
-Lasso Select
-------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode and Edit Mode
-   :Hotkey:    :kbd:`Ctrl-RMB`
-
-Lasso select is used by drawing a dotted line around vertices or the origin of the objects,
-in *Object Mode*. To use this hold :kbd:`Ctrl-RMB` and simply draw around the points you want to select.
-
-Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-LMB`.
-
-
 .. _object-select-menu:
 
 Select Menu
@@ -131,9 +46,9 @@ Inverse :kbd:`Ctrl-I`
 
 ------------------------
 
-`Box Select`_ :kbd:`B`
+:ref:`Box Select <tool-select-box>` :kbd:`B`
    Interactive box selection.
-`Circle Select`_ :kbd:`C`
+:ref:`Circle Select <tool-select-circle>` :kbd:`C`
    Interactive circle selection.
 
 ------------------------

@@ -109,10 +109,13 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
      - Walk/Fly Mode.
 
 
-.. _default-keymap-prefs:
+.. _keymap-blender_default-prefs:
 
 Preferences
 ===========
+
+
+.. _keymap-blender_default-prefs-select_with:
 
 Select With
 -----------
