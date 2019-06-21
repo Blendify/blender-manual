@@ -115,7 +115,7 @@ def compile_valid_kbd():
 
     pattern_str = ''.join((
         # Modifier
-        r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?(Cmd(?:\-|\Z))?",
+        r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?(OSKey(?:\-|\Z))?(Cmd(?:\-|\Z))?",
 
         # Alphanumeric
         r"((?:",
@@ -124,7 +124,7 @@ def compile_valid_kbd():
 
         # Named
         '|'.join((
-            "Comma", "Period", "Slash", "Backslash", "Plus", "Minus",
+            "Comma", "Period", "Slash", "Backslash", "Plus", "Minus", "AccentGrave",
             # Editing
             "Tab", "Backspace", "Delete", "Return", "Spacebar",
             # Navigation
@@ -163,9 +163,9 @@ def warn_title(fn, data_src):
     limit = 118
 
     title_chars = (
-        '%', '#', '*', '=', "-", '^', '~',
+        '%', '#', '*', '=', "-", '^', '"',
         # Shouldn't use but does work.
-        '+',
+        '+', '~',
     )
 
     l_prev = ""
