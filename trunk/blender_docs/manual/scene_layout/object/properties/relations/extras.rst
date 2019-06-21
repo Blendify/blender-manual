@@ -15,8 +15,3 @@ Tracking Axes
       Axis that points in the "forward" direction.
    Up Axis
       Axis that points in the "upward" direction.
-
-Extra Object Update
-   Refresh the object again on frame changes.
-Extra Data Update
-   Refresh the object's data again on frame changes.

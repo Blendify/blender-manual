@@ -8,7 +8,7 @@ DupliVerts
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Object --> Duplication`
+   :Panel:     :menuselection:`Object --> Instancing`
 
 Using *Duplication Vertices* (or *DupliVerts*) allows you to replicate child objects
 at the location of every vertex of the parent object.

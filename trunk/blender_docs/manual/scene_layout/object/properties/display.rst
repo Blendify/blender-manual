@@ -27,14 +27,13 @@ Shadow
 In Front
    Makes the object draw in front of others. (Unsupported for duplicator drawing).
 Display As
-   The shading mode to display in the 3D View;
-   this can be useful if you have a high-poly object that is slowing down performance.
+   The shading mode to display in the 3D View; this can be useful if you have a
+   high-poly object that is slowing down performance.
 
 .. _objects-display-object-color:
 
 Color
-   Allows to specify the object's color when using the Workbench renderer
-   with *Display Type* set to Rendered.
+   Allows to specify the object's color when using the Workbench renderer.
 
 
 .. _bpy.types.Object.show_bounds:
