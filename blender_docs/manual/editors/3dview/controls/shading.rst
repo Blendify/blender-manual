@@ -47,6 +47,8 @@ Background
 
 
 Options
+   .. _3dview-shading-xray:
+
    X-Ray
       Render the scene transparent. With the slider you can control how
       transparent the scene should appear. In wireframe mode the opacity
