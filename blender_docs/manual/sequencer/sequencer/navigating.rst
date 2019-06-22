@@ -19,7 +19,7 @@ View Menu
 As usual, the View Menu controls the editor's view settings.
 
 Sidebar :kbd:`N`
-   TODO2.8: write text.
+   Show or hide the :ref:`sidebar panel <ui-panels>`
 Preview as Backdrop
    Displays the current frame in the background of the main view like in the Compositor.
 Frame Selected :kbd:`NumpadPeriod`
@@ -27,10 +27,10 @@ Frame Selected :kbd:`NumpadPeriod`
 Frame All :kbd:`Home`
    Zooms the display to show all strips.
 Zoom :kbd:`Shift-B`
-   TODO2.8: write text.
+   Click and drag to draw rectangle and zoom to this rectangle.
 Navigation
    Play Animation :kbd:`Spacebar`
-      TODO2.8: write text.
+      Start or stop playback of animation. This will start playback in all editors.
    Go to Playhead :kbd:`Numpad0`
       Scrolls the timeline so the current frame is in the center.
    Jump to Previous Strip :kbd:`PageDown`
@@ -38,41 +38,40 @@ Navigation
    Jump to Next Strip :kbd:`PageUp`
       Current frame will jump to beginning of strip.
    Jump to Previous Strip(Center) :kbd:`Alt-PageDown`
-      TODO2.8: write text.
+      Jump to next center of the strip
    Jump to Next Strip(Center) :kbd:`Alt-PageUp`
-      TODO2.8: write text.
+      Jump to previous center of the strip
 Range
    Set Preview Range :kbd:`P`
-      See :ref:`graph-preview-range`.
+      Interactively define frame range used for playback.
+      Allows you to define a temporary preview range to use for animation playback
+      (this is the same thing as the *Playback Range* option of
+      the :ref:`Timeline editor header <animation-editors-timeline-headercontrols>`).
    Clear Preview Range :kbd:`Alt-P`
-      See :ref:`graph-preview-range`.
+      Clears preview range.
    Set Start Frame :kbd:`Ctrl-Home`
-      TODO2.8: write text.
+      Set Start of animation range to current playhead position.
    Set End Frame :kbd:`Ctrl-End`
-      TODO2.8: write text.
+      Set End of animation range to current playhead position.
 Show Seconds :kbd:`Ctrl-T`
-   Displays the time instead of the frame number, in the Frame Number Indicator.
+   Display time instead of frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
-   Toggles the units of measure across the bottom of the playhead between seconds or frames.
+   Toggles units of measure across bottom of time cursor between seconds or frames.
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
-   TODO2.8: write text.
+   Show or hide dashed line on marker position across timeline.
 Cache
-   Show Cache
+   Show :doc:`Cache </sequencer/sequencer/properties/cache_settings>`
       Show all enabled types.
-
       Final Images, Raw Images, Preprocessed Images, Composite Images
-
-      .. TODO2.8(sequencer): link to cache manual
 Waveform Displaying
    Global option to either draw the waveform, or the strip info,
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.
-
-.. TODO2.8(sequencer): document render entries?
-
-Sync Markers
-   Transform Markers as well as Strips.
+Sequence Render Image
+   Render image at playhead position
+Sequence Render Animation
+   Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 
 
 Markers Menu
@@ -116,7 +115,7 @@ Use these shortcuts to adjust the sequence area of the VSE:
 - Horizontal Scroll: use :kbd:`Ctrl-Wheel`, or drag on the lower scrollbar.
 - Scale View: :kbd:`Ctrl-MMB` and drag up/down (vertical scale) or left/right (horizontal scale).
 - Scale View Vertically: drag on the circles on the vertical scrollbar.
-- Scale View Horizontally: drag on the circles on the horizontal scrollbar.
+- Scale View Horizontally: drag on the circles on the horizontal scroll bar.
 
 
 Playhead
@@ -125,9 +124,9 @@ Playhead
 The playhead is the blue vertical line with the current frame number at the top.
 It can be set or moved to a new position by pressing or holding :kbd:`LMB`
 in scrubbing area at the top of the timeline.
-You can move the playhead in increments by pressing :kbd:`Left` or :kbd:`Right`,
-or you can jump to the beginning or end frame by pressing :kbd:`Shift-Left` or :kbd:`Shift-Right`.
-As you do, the image for that frame is displayed in the Preview region.
+You can move playhead in increments by pressing :kbd:`Left` or :kbd:`Right`,
+or you can jump to the beginning or end frame by pressing
+:kbd:`Shift-Left` or :kbd:`Shift-Right`. As you do, the image for that frame is displayed in the Preview region.
 
 When you drag the frame indicator with :kbd:`Shift-RMB` directly on a sequence strip,
 this will show the strip *solo*, (temporarily disregarding effects and other strips,

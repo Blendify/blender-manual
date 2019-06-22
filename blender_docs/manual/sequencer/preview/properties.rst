@@ -36,6 +36,9 @@ Channel
 Show Overexposed
    Shows overexposed (bright white) areas using a zebra pattern.
    The threshold can be adjust with the slider.
+
+.. _proxy-render-size:
+
 Proxy Render Size
    Size to display proxies at in the preview region.
    Using a smaller preview size will increase speed.

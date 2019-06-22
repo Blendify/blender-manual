@@ -28,8 +28,6 @@ You can also lock the direction to time with :kbd:`X` or to change the strip's c
 It is possible to move strips using mouse by dragging them while holding :kbd:`LMB`.
 Currently it is possible to move only 1 strip by dragging
 
-.. TODO2.8(sequencer): ^^fix at last moment??
-
 
 Start Frame Offset
 ------------------

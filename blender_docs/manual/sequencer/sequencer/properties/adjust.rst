@@ -1,5 +1,3 @@
-.. TODO2.8(sequencer): rename file to Adjust
-
 ************
 Adjust Panel
 ************
@@ -20,7 +18,7 @@ Blend
 Opacity
    Set the opacity (alpha) of the strip.
 Mute (eye/speaker icon)
-   Hides the strip so that it does not participate in the final image computation.
+   Strip will not produce any output
 
 
 Video
@@ -65,3 +63,26 @@ Image Crop
 
 Used to crop the source image, use *Top*, *Left*,
 *Bottom*, and *Right* to control which part of the image is cropped.
+
+
+Sound
+=====
+
+Volume
+   Sound Volume.
+   This value, even if animated will be reflected in drawn waveform
+Mute(speaker icon)
+   Strip will not produce any output
+Pitch
+   Coefficient of playback speed.
+   This value will affect length of the strip, that will not be represented in timeline.
+Pan
+   Used to pan the audio from left and right channels. Only works for mono sources. Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right. In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back. So this value basically represents the angle at which it’s played.
+
+.. _sequencer-sound-waveform:
+
+Display Waveform
+   Draw approximate waveform of the sound file inside of sound strip
+   Waveform reflects strip volume and it's animation using :doc:`keyframes </animation/keyframes/introduction>`
+Mono
+   Mixdown all audio channels into single one
