@@ -60,23 +60,6 @@ creating a hole, as would happen if they were on the same layer. If the motion i
 a single motion tracked point can be used to drive the location of the entire mask layer.
 
 
-Mask Display
-============
-
-Smooth
-   Display the edge anti-aliased.
-Edge Draw Type
-   Style of the edge.
-Overlay
-   Added mask overlay to both Image and Clip editors.
-
-   Mode
-      Alpha Channel
-         Which displays rasterized mask as a grayscale image.
-      Combined
-         Which multiples image/clip with the mask.
-
-
 Active Spline
 =============
 
