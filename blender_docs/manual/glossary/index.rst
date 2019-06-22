@@ -711,7 +711,7 @@ This page lists definitions for terms used in Blender and this manual.
       It creates new vertices on subdivided edges, new edges between subdivisions and new faces based on new edges.
       If new edges cross a new vertex is created at their crossing point.
 
-   Subsurf
+   Subdiv
    Subdivision Surface
       A method of creating smooth higher poly surfaces which can take a low polygon mesh as input.
 

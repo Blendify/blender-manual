@@ -126,7 +126,7 @@ Examples
 
 .. figure:: /images/modeling_modifiers_generate_skin_example.png
 
-   Simple creature, made with only the Skin and Subsurf modifiers.
+   Simple creature, made with only the Skin and Subdivision Surface modifiers.
 
 
 External Links

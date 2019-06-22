@@ -9,7 +9,7 @@ The *Decimate* modifier allows you to reduce the vertex/face count of a mesh wit
 This is not usually used on meshes which have been created by modeling carefully and economically
 (where all vertices and faces are necessary to correctly define the shape).
 But if the mesh is the result of complex modeling,
-sculpting and/or applied :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`/
+sculpting and/or applied :doc:`Subdivision Surface </modeling/modifiers/generate/subdivision_surface>`/
 :doc:`Multiresolution </modeling/modifiers/generate/multiresolution>` modifiers,
 the *Decimate* one can be used to reduce the polygon count for a performance increase,
 or simply remove unnecessary vertices and edges.
