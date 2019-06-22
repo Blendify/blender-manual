@@ -6,11 +6,12 @@
 .. toctree::
    :maxdepth: 2
 
-   edit_strip.rst
-   input.rst
-   filter.rst
-   proxy_timecode.rst
+   adjust.rst
+   info.rst
+   source.rst
    modifiers.rst
-
-
-.. TODO2.8(sequencer): review proxy_timecode, modifiers, add view
+   cache_settings.rst
+   strip_cache.rst
+   proxy_settings.rst
+   strip_proxy_timecode.rst
+   view.rst

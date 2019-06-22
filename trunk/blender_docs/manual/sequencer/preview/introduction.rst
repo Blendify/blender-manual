@@ -23,9 +23,11 @@ Safe Areas
    Display an overlay on the preview, marking where title safe region is.
 Show Metadata
    Display Image metadata in the preview area.
+Sequence Render Image
+   Render image at playhead position
+Sequence Render Animation
+   Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 
-
-.. TODO2.8(sequencer): document render entries?
 
 Controls
 --------

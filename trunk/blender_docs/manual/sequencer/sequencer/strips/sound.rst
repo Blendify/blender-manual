@@ -15,36 +15,6 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
    .. TODO2.8(sequencer):
 
 
-Options
-=======
-
-Pack
-   This allows you to save the audio file into the blend-file.
-Caching
-   Caching loads a file into RAM and plays it from there, instead of reading it for the hard drive.
-
-.. _sequencer-sound-waveform:
-
-Draw Waveform
-   Draws either the waveform or the strip name, file name, duration.
-   This can be useful for syncing two or more sound strips.
-Volume
-   Controls the volume of the strip. Typically values should be between 0 and 1.
-   If you use higher values it's possible that clipping happens, which drastically influences sound quality.
-Pitch
-   Transposes the frequency of the audio.
-   This basically changes the playback speed of the sound which also results in a pitch change.
-   Unfortunately this leads to possible seeking errors and the length of the strip isn't updated as well.
-Pan
-   Used to pan the audio from left and right channels. Only works for mono sources.
-   Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
-   In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back.
-   So this value basically represents the angle at which it's played.
-
-Trim Duration
-   Offset the start and end of a sound strip.
-
-
 Working with Audio Tracks
 =========================
 
@@ -82,22 +52,5 @@ Output
 ======
 
 There are two ways to render out your audio. You can either have it encoded with a video file
-or in its own audio file. Read more on how select proper format :doc:`here </render/output/file_formats>`
-and how to start rendering :doc:`here </render/output/index>`
-
-
-Known Limitations
-=================
-
-Hiss, Crackle and Pop
----------------------
-
-.. EDITORS NOTE:
-   This is a common problem and unavoidable see T37432#351492
-
-In some cases when *Caching* is disabled, playback noise/hiss is introduced.
-
-If you hear pops and crackles, usually that is a sign that your hardware cannot keep up in real-time playback.
-They will not be present in your final rendered animation output.
-
-Also, static hiss can occur whenever two or more sound strips are overlapping in the timeline.
+or in its own audio file. Read more on how select proper :doc:`format </render/output/file_formats>`
+and how to start :doc:`rendering </render/output/index>`
