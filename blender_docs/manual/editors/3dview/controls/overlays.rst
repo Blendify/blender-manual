@@ -268,22 +268,23 @@ Fade Geometry
    Show the bones on top and face other geometry to the back.
    The opacity can be controlled with the slider.
 
+.. _3dview-overlay-grease-pencil:
 
-Edit Grease Pencil
-==================
+Grease Pencil
+===============
 
 Onion Skin
    Show ghosts of the keyframes before and after the current frame.
 Canvas
-   Display a grid over grease pencil paper. The opacity of the grid can be controlled with a slider.
+   Display a grid over grease pencil drawing plane. The opacity of the grid can be controlled with a slider.
 Fade 3D Objects
    Cover all viewport with a full color layer to improve visibility while drawing over complex scenes.
-   The opacity of the paper can be adjusted.
+   The opacity of the color layer can be adjusted.
 Fade Layers
    Decreases the opacity of all the layers in the object other than the active one.
 Edit Lines
    Show edit lines when editing strokes.
 Show Edit Lines only in multiframe
-   Only show edit lines for additional frames.
+   Only show edit lines while in multiframe edition.
 Vertex Opacity
-   Opacity for edit vertices.
+   Opacity for edit vertices (points).
