@@ -76,10 +76,23 @@ Main Settings
 Next to the layer name there are four icons buttons that control main properties of the layer:
 
 Clamp
-   Act like a mask that hide everything on the underlying layers
-   overlapping by the drawing in the current layer.
+   When using clamp, the lower layers function as a mask for layer with clamp, 
+   hiding any pixel in the layer outside the mask.
    Can be combined with Blend modes to achieve some useful artistic results.
    This control can also be found next to the layer opacity control.
+
+.. list-table::
+
+   * - .. figure:: /images/grease_pencil_properties_layers_clamp_off.png
+          :width: 320px
+
+          Red stroke on top layer without clamp.
+
+     - .. figure:: /images/grease_pencil_properties_layers_clamp_on.png
+          :width: 320px
+
+          Red stroke on top layer with clamp activated.          
+
 
 Lock
    Lock/Unlock the layer edition in the viewport.
@@ -114,29 +127,28 @@ Adjustments
    Layers adjustment panel.
 
 Tint Color/Factor
-   Color that override the strokes color on the entire layer.
+   Color that tint any material colors used in the layer.
    Factor control the amount of tint color to apply.
 
 Stroke Thickness
-   Thickness value that override all the strokes thickness in the layer.
+   Thickness value that override strokes thickness in the layer.
 
 Pass Index
-   Layer index number. This can be used with some Modifiers to restrict where the changes
-   should be applied to the object.
+   Layer index number. Can be used with some Modifiers to restrict changes to only certain areas.
 
    See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
 
 View Layer
-   Used to select the View Layer to use for the *Grease Pencil* layer.
-   If empty the layer will be included in all View Layers.
+   Defines the View Layer to use for the *Grease Pencil* layer.
+   If empty, the layer will be included in all View Layers.
    This is useful to separate drawings parts for compositing.
 
    See :doc:`Compositing </compositing/introduction>` for more information.
 
 Lock material
-   Avoid editing locked materials in the layer. You can omit all locked materials and allow them
-   to be edited on the layer deactivating this checkbox.
-
+   Avoids editing locked materials in the layer. When disable, 
+   any material can be edited even if they are locked in the material list.
+   
 
 Relations
 =========
@@ -150,4 +162,5 @@ Layer Display
 =============
 
 Custom channel color
-   Sets the color to use in the channel region of the Dope Sheet.
+   Sets the color to use in the channel region of the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>`.
+
