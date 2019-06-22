@@ -68,7 +68,7 @@ such as human anatomy, composition, lighting, animation principles, etc.
 
 3D creation software such as Blender have an added technical complexity and
 jargon associated with the underlying technologies.
-Terms like UV maps, materials, shaders, meshes, and "subsurf" are the media of
+Terms like UV maps, materials, shaders, meshes, and "subdivs" are the media of
 the digital artist, and understanding them, even broadly, will help you to use Blender to its best.
 
 So keep reading this manual, learn the great tool that Blender is, keep your mind open to

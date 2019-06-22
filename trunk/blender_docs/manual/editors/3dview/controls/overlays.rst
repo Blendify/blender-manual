@@ -120,7 +120,7 @@ Center
    *Only affects face-select mode.*
 Creases
    Display edges marked with a crease
-   for the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
+   for the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subdivision_surface>`.
 Sharp
    Display sharp edges, used with the edge split modifier.
 Bevel

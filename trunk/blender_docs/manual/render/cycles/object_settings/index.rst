@@ -10,4 +10,4 @@ and are often only available in certain contexts.
    :maxdepth: 2
 
    object_data.rst
-   adaptive_subsurf.rst
+   adaptive_subdiv.rst

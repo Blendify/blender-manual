@@ -4,7 +4,7 @@
 Subdivision Surface Modifier
 ****************************
 
-The *Subdivision Surface* modifier (often shorten to “Subsurf”)
+The *Subdivision Surface* modifier (often shorten to “Subdiv”)
 is used to split the faces of a mesh into smaller faces, giving it a smooth appearance.
 It enables you to create complex smooth surfaces while modeling simple, low-vertex meshes.
 It avoids the need to save and maintain huge amounts of data,
@@ -144,12 +144,13 @@ Blender could potentially crash or hang if you do not have enough available memo
    because the render is generated using your Object Data,
    (even though it cannot be shown by your graphics card).
 
+.. TODO2.8: Remove/Update
 
 Keyboard Shortcuts
 ==================
 
-To quickly add a *Subdivision Surface* modifier to one or more objects, select it/them and press :kbd:`Ctrl-1`.
-That will add a Subsurf modifier with *View Subdivisions* on 1.
+To quickly add a *Subdivision Surface* modifier to one or more objects, select the object(s) and press :kbd:`Ctrl-1`.
+That will add a Subdivision Surface modifier with *View Subdivisions* set to 1.
 
 You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc,
 to add a modifier with that number of subdivisions.

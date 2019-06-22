@@ -109,7 +109,7 @@ Edge Crease
    :Hotkey:    :kbd:`Shift-E`
 
 This edge property, a value between (0.0 to 1.0), is used by
-the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
+the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subdivision_surface>`
 to control the sharpness of the edges in the subdivided mesh.
 This operator enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
