@@ -1,14 +1,14 @@
 
 *******
-Borders
+Regions
 *******
 
 .. seealso::
 
-   :ref:`3dview-nav-zoom-border`.
+   :ref:`3dview-nav-zoom-region`.
 
 
-View Clipping Border
+View Clipping Region
 ====================
 
 .. admonition:: Reference
@@ -18,7 +18,7 @@ View Clipping Border
    :Menu:      :menuselection:`View --> View Region --> Clipping Region...`
    :Hotkey:    :kbd:`Alt-B`
 
-Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
+Allows you to define a clipping region to limit the 3D View display to a portion of 3D space.
 It can assist in the process of working with complex models and scenes.
 
 Once activated, you have to draw a rectangle with the mouse,
@@ -69,9 +69,9 @@ Once clipping is deactivated with another :kbd:`Alt-B`,
 all of 3D space will become visible again.
 
 
-.. _editors-3dview-navigate-borders-render:
+.. _editors-3dview-navigate-render-region:
 
-Render Border
+Render Region
 =============
 
 .. admonition:: Reference
@@ -84,12 +84,12 @@ Render Border
 
 When using :ref:`rendered shading <view3d-viewport-shading>` mode,
 it can be quite slow to render the entire 3D View. To fix this,
-you can define a render border to render just a portion of the viewport
-instead of the entire viewport. A render border is defined by :kbd:`Ctrl-B`
+you can define a render region to render just a portion of the viewport
+instead of the entire viewport. A render region is defined by :kbd:`Ctrl-B`
 and can be removed with :kbd:`Ctrl-Alt-B`.
 
 .. tip::
 
-   You can also use this border in a final render by setting a render border
+   You can also use this region in a final render by setting a render region
    from within the :doc:`Camera View </editors/3dview/navigate/camera_view>` and enabling
-   :ref:`Border <render-output-dimensions-border>` in the Dimensions panel.
+   :ref:`region <render-output-dimensions-region>` in the Dimensions panel.

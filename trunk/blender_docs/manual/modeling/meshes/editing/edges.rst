@@ -217,7 +217,7 @@ Multiple edge loops
    You can minimize this error by always selecting edges end-to-end or in a "chain".
    If you select multiple edges just make sure they are connected.
    This will decrease the possibility of getting looping errors.
-Border Edge
+Border Edges
    When a single edge was selected in a single sided object.
    An edge loop cannot be found because there is only one face.
    Remember, edge loops are loops that span two or more faces.
