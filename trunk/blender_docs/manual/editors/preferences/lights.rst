@@ -25,8 +25,8 @@ Editor
 
 There are up to four virtual light sources.
 
-The Lamp icons allow the user to enable or disable individual lights.
-At least one of the four Lamps must remain enabled for the 3D View.
+The Light icons allow the user to enable or disable individual lights.
+At least one of the four lights must remain enabled for the 3D View.
 The lights are equal, except for their direction and color.
 You can control the direction of the lights, as well as their diffuse and specular colors.
 
@@ -44,7 +44,7 @@ Light
    Direction
       The direction of the light, (see :ref:`ui-direction-button`).
 
-      The direction of the lamp will be the same as shown at the sphere surface.
+      The direction of the light will be the same as shown at the sphere surface.
 Ambient Color
    The color of unlit areas.
 

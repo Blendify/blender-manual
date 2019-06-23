@@ -44,7 +44,7 @@ you have to move or rotate the camera.
 .. note::
 
    Remember that the active "camera" might be any kind of object.
-   So these actions can be used, for example, to position and aim a lamp.
+   So these actions can be used, for example, to position and aim a light.
 
 
 Move Active Camera to View

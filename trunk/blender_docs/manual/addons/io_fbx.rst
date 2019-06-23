@@ -127,7 +127,7 @@ Forward / Up Axis
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
    For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
-Empty/Camera/Lamp/Armature/Mesh/Other
+Empty/Camera/Light/Armature/Mesh/Other
    Enable/Disable exporting of respective object types.
 Apply Transform
    TODO.

@@ -168,7 +168,7 @@ Select All by Type
 With this tool, it becomes possible to select objects of a certain type in one go.
 
 The types are Mesh, Curve, Surface, Meta, Font,
-Armature, Lattice, Empty, Camera, Lamp, Speaker.
+Armature, Lattice, Empty, Camera, Light, Speaker.
 
 
 .. _bpy.ops.object.select_camera:

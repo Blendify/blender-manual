@@ -525,7 +525,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Object
       Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature,
-      Lattice, Empty, Camera, Lamp) and basic 3D transform data (:term:`Object Origin`).
+      Lattice, Empty, Camera, Light) and basic 3D transform data (:term:`Object Origin`).
 
    Object Center
    Object Origin

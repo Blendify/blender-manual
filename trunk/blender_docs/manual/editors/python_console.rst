@@ -61,8 +61,8 @@ Now that you got a hang of this, lets proceed to investigate some of modules in 
 Before Tinkering with the Modules
 ---------------------------------
 
-If you look at the 3D View in the default Blender scene, you will notice three objects: Cube,
-Lamp and Camera.
+If you look at the 3D View in the default Blender scene,
+you will notice three objects: Cube, Light and Camera.
 
 - All objects exist in a context and there can be various modes under which they are operated upon.
 - At any instance, only one object is active and there can be more than one selected object.
