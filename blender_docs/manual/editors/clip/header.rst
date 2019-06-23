@@ -63,7 +63,7 @@ Grid
    This grid can be used for manual calibration --
    distorted lines of grids are equal to straight lines in the footage.
 Calibration
-   Applies the distortion model for Grease pencil strokes (available in distortion mode only).
+   Applies the distortion model for annotation strokes (available in distortion mode only).
    This option also helps to perform manual calibration.
    A more detailed description of this process will be added later.
 Display Aspect Ratio

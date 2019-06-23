@@ -36,7 +36,7 @@ deformed cells defines straight lines in the footage.
 
 Within Blender you can use the Annotation tool for this -- just draw a line which should be straight on
 the footage using poly line brush and adjust the distortion values
-to make the Grease pencil match lines on the footage.
+to make the annotations match lines on the footage.
 
 To calibrate your camera more accurately, use the Grid calibration tool from OpenCV.
 OpenCV is using the same distortion model, so it should not be a problem.
