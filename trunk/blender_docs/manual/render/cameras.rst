@@ -420,7 +420,8 @@ each scene **must** have an active camera.
 The active camera can also be set in the *Scene* tab of the *Properties Editor*.
 
 The camera with the solid triangle on top is the active camera.
-Limit and mist indicators of cameras are displayed darker if the camera is not the active camera for the current scene.
+Limit and mist indicators of cameras are displayed darker if
+the camera is not the active camera for the current scene.
 
 .. note::
 

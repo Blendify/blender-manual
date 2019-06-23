@@ -34,7 +34,8 @@ Vertex Group
       Percentage that the vertex has influence over the final wireframe result.
 
 Crease Edges
-   This option is intended for usage with the :doc:`Subdivision </modeling/modifiers/generate/subdivision_surface>` modifier.
+   This option is intended for usage with the
+   :doc:`Subdivision </modeling/modifiers/generate/subdivision_surface>` modifier.
    Enable this option to crease edges on their junctions and prevent large curved intersections.
 
    Crease Weight

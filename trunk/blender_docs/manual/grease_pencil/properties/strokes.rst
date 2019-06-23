@@ -12,8 +12,8 @@ General settings for *Grease Pencil* strokes.
 
 
 Stroke Depth Order
--------------------
-        
+------------------
+
    2D Layers
       The Strokes drawing order respect the order of the 2D layers list (top to bottom)
       and ignore the real position of the strokes in the 3D space.
@@ -35,14 +35,14 @@ Stroke Depth Order
           Blue, Green and Red strokes in three different layers using 3D Location depth order.
 
 Stroke Thickness
-------------------
-     
+----------------
+
    World Space
-      The thickness is relative to World space. 
+      The thickness is relative to World space.
       Stroke thickness change with the screen zoom factor.
-    
+
    Screen Space
-      The thickness is relative to Screen space. 
+      The thickness is relative to Screen space.
       Stroke thickness remains the same regardless of the screen zoom factor.
 
    Thickness Scale
@@ -50,7 +50,7 @@ Stroke Thickness
 
 
 Other options
---------------
+-------------
 
 Force Fill Update
    Toggle the use of recalculation for filled strokes.

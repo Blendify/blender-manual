@@ -22,4 +22,5 @@ Storage
 Set Selected Strip Proxies
    Set proxy size and overwrite flag for all selected strips.
 Rebuild Proxy and Timecode Indices
-   Generates Proxies and Timecodes for all selected strips, same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode indices`.
+   Generates Proxies and Timecodes for all selected strips,
+   same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode indices`.

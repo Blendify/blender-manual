@@ -271,7 +271,7 @@ Fade Geometry
 .. _3dview-overlay-grease-pencil:
 
 Grease Pencil
-===============
+=============
 
 Onion Skin
    Show ghosts of the keyframes before and after the current frame.
