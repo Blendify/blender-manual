@@ -1,8 +1,8 @@
 .. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
 
-************************
-Manipulate Center Points
-************************
+************
+Only Origins
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -11,14 +11,12 @@ Manipulate Center Points
 
 |pivot-icon|
 
-Manipulate Center Points is located inside the Pivot Point control of the 3D
-View. When this option is enabled, the transformation will change the positions
+*Only Origins* is located inside the Pivot Point control of the 3D View.
+When this option is enabled, the transformation will change the positions
 of the object's origins, but will not affect the object itself.
 
-
-In the examples below,
-a comparison of the scaling and rotation of objects,
-when *Manipulate Center Points* is enabled (middle) and disabled (right).
+In the examples below, a comparison of the scaling and rotation of objects,
+when *Only Origins* is enabled (middle) and disabled (right).
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_manipulate-center-points_rotate.png
 
