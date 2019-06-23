@@ -429,28 +429,28 @@ Limit and mist indicators of cameras are displayed darker if the camera is not t
    See :doc:`Local Camera </editors/3dview/properties/sidebar>`.
 
 
-Render Border
+Render Region
 -------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> Render Border`
+   :Menu:      :menuselection:`View --> Render Region`
    :Hotkey:    :kbd:`Ctrl-B`
 
 While in camera view, you can define a subregion to render by drawing a rectangle within the camera's frame.
-Your renders will now be limited to the part of scene visible within the render border.
+Your renders will now be limited to the part of scene visible within the render region.
 This can be very useful for reducing render times for quick previews on an area of interest.
 
-The border can be disabled by disabling the *Border* option in the *Dimensions* panel
+The region can be disabled by disabling the *Render Region* option in the *Dimensions* panel
 in the *Render* tab or by activating the option again.
 
 .. container:: lead
 
    .. clear
 
-.. list-table:: Render border and associated render.
+.. list-table:: Render region and associated render.
    :widths: 65 35
 
    * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png

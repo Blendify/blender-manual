@@ -72,10 +72,10 @@ Buffer Groups
    Enables buffering of group nodes to increase the speed at the cost of more memory.
 Two Pass
    Use two pass execution during editing: the first pass calculates fast nodes, the second pass calculates all nodes.
-Viewer Border
+Viewer Region
    This allows to set an area of interest for the backdrop and preview.
-   The border is started by :kbd:`Ctrl-B` and finished by selection of a rectangular area.
-   :kbd:`Ctrl-Alt-B` discards the border back to a full preview.
-   This is only a preview option, final compositing during a render ignores this border.
+   The region is started by :kbd:`Ctrl-B` and finished by selection of a rectangular area.
+   :kbd:`Ctrl-Alt-B` discards the region back to a full preview.
+   This is only a preview option, final compositing during a render ignores this region.
 Auto Render
    Re-render and composite changed layer when edits to the 3D scene are made.

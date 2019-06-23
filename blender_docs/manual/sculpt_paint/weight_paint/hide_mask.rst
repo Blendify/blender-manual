@@ -97,17 +97,17 @@ However, you can use a trick:
 Now the vertices belonging to the hidden Faces will remain hidden.
 
 
-The Clipping Border
+The Clipping Region
 -------------------
 
-To constrain the paint area further you can use the *Clipping Border*.
+To constrain the paint area further you can use the *Clipping Region*.
 Press :kbd:`Alt-B` and :kbd:`LMB`\ -drag a rectangular area.
 The selected area will be "cut out" as the area of interest.
 The rest of the 3D View gets hidden.
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_border-select.png
 
-   The Clipping Border is used to select interesting parts for local painting.
+   The Clipping Region is used to select interesting parts for local painting.
 
 You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
 

@@ -40,8 +40,8 @@ Frame All
 Frame All Fit
    Fit the view to the image dimensions :kbd:`Shift-Home`.
 Render Region :kbd:`Ctrl-B`
-   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
+   See :ref:`Render Region <editors-3dview-navigate-render-region>`.
 Clear Render Region :kbd:`Ctrl-Alt-B`
-   See :ref:`Render Borders <editors-3dview-navigate-borders-render>`.
+   See :ref:`Render Region <editors-3dview-navigate-render-region>`.
 Area
    Adjust the area the image editor is in. See :doc:`/interface/window_system/areas`.

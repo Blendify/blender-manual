@@ -129,7 +129,7 @@ Solutions
 - Use :ref:`Walk/Fly modes <3dview-fly-walk>`.
 - Use :ref:`Auto Depth <prefs-auto-depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tool will make sure the distance is always the value under the mouse cursor,
-- Use :ref:`Border Zoom <3dview-nav-zoom-border>` as it also resets the center point when zooming.
+- Use :ref:`3dview-nav-zoom-region` as it also resets the center point when zooming.
 - Center the view around the mouse cursor :kbd:`Alt-MMB`.
   This will take the position under the cursor and make it your viewpoint center.
 - Use an :abbr:`NDOF (N-Degrees of Freedom)`, also known as a 3D mouse,

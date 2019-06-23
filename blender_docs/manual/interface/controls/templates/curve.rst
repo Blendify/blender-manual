@@ -42,7 +42,7 @@ Zoom In
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
 Zoom Out
    Zoom out of the graph to show fewer details and view the graph as a whole.
-   You cannot zoom out further than the clipping borders (see *Clipping* below).
+   You cannot zoom out further than the clipping region (see *Clipping* below).
 
 Tools
    Reset View

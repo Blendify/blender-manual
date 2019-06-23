@@ -35,12 +35,12 @@ Aspect Ratio
 
    See :doc:`Video Output </render/output/file_formats>` for details on pixel aspect ratio.
 
-.. _render-output-dimensions-border:
+.. _render-output-dimensions-region:
 
 Render Region
    Renders just a portion of the view instead of the entire frame.
-   See the :ref:`Render Region <editors-3dview-navigate-borders-render>`
-   documentation to see how to define the size of the render border.
+   See the :ref:`Render Region <editors-3dview-navigate-render-region>`
+   documentation to see how to define the size of the render region.
 
    .. note::
 

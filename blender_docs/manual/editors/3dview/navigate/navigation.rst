@@ -111,19 +111,19 @@ If you have a wheel mouse, you can zoom by rotating the :kbd:`Wheel`.
    when in perspective mode :menuselection:`View --> Frame Selected`.
 
 
-.. _3dview-nav-zoom-border:
+.. _3dview-nav-zoom-region:
 
-Zoom Border
+Zoom Region
 -----------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`View --> Navigation --> Zoom Border`
+   :Menu:      :menuselection:`View --> Navigation --> Zoom Region...`
    :Hotkey:    :kbd:`Shift-B`
 
-The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
+The *Zoom Region* tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3D View.
 
 You can access this through via the shortcut :kbd:`Shift-B`,

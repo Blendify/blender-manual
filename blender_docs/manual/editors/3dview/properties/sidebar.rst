@@ -57,8 +57,8 @@ Local Camera
    The option is available only when *Use Local Camera* toggle enabled.
 
 Render Region
-   Use a Render Border when not looking through a camera.
-   Using :kbd:`Ctrl-B` to draw a border region will automatically enable this option.
+   Use a Render Region when not looking through a camera.
+   Using :kbd:`Ctrl-B` to draw a region will automatically enable this option.
 
 View Lock
    Lock to Object
