@@ -1,3 +1,4 @@
+
 **********
 Info Panel
 **********
@@ -7,7 +8,7 @@ Info Panel
 
    :Panel:     :menuselection:`Sidebar region --> Strip --> Info`
 
-The Info panel is used to control source and timeline position of the strip
+The Info panel is used to control source and timeline position of the strip.
 
 Name
    You can name or rename your strips here.
@@ -29,8 +30,8 @@ Strip offset (soft)
 .. _sequencer-duration-hard:
 
 Hold offset (hard)
-   offset of the uncut strip content 
+   Offset of the uncut strip content.
 Playhead position
-   Position of Playhead relative to start of active strip
+   Position of the Playhead relative to the start of the active strip.
 Resolution
-   Resolution of active strip image output
+   Resolution of the active strip image output.

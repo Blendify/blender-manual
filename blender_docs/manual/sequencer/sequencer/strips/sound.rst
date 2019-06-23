@@ -53,4 +53,4 @@ Output
 
 There are two ways to render out your audio. You can either have it encoded with a video file
 or in its own audio file. Read more on how select proper :doc:`format </render/output/file_formats>`
-and how to start :doc:`rendering </render/output/index>`
+and how to start :doc:`rendering </render/output/index>`.

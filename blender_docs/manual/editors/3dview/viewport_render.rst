@@ -55,7 +55,7 @@ Some settings are located in the render panel of the render engine
 that is used to render the view.
 
 Solid mode uses the render settings of Workbench;
-LookDev mode uses the render settings of Eevvee.
+LookDev mode uses the render settings of Eevee.
 
 Sampling and Alpha Transparency Mode options can be set in :menuselection:`Properties --> Render --> Sampling`.
 Make sure the Workbench or Eevee render engine is selected to see the appropriate values.

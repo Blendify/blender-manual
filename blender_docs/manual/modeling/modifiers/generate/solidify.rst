@@ -41,8 +41,8 @@ Vertex Group
       - On 1.0 , the weights are ignored and the *Thickness* value is used for every vertex.
 
 Crease
-   These options are intended for usage with the
-   :doc:`Subdivision Surface </modeling/modifiers/generate/subdivision_surface>` modifier.
+   These options are intended for usage with
+   the :doc:`Subdivision Surface </modeling/modifiers/generate/subdivision_surface>` modifier.
 
    .. figure:: /images/modeling_modifiers_generate_solidify_rims.png
       :width: 350px

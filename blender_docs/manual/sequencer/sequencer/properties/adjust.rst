@@ -1,3 +1,4 @@
+
 ************
 Adjust Panel
 ************
@@ -14,11 +15,11 @@ Compositing
 ===========
 
 Blend
-   Mode of blending strip with lower channels
+   Mode of blending strip with lower channels.
 Opacity
    Set the opacity (alpha) of the strip.
 Mute (eye/speaker icon)
-   Strip will not produce any output
+   Strip will not produce any output.
 
 
 Video
@@ -69,13 +70,12 @@ Sound
 =====
 
 Volume
-   Sound Volume.
-   This value, even if animated will be reflected in the waveform
-Mute(speaker icon)
-   Strip will not produce any output
+   The volume of the sound. This value, even if animated will be reflected in the waveform.
+Mute (speaker icon)
+   The strip will not produce any sound output.
 Pitch
    Coefficient of playback speed.
-   This value will affect length of the strip, that will not be represented in timeline.
+   This value will affect length of the strip, that will not be represented in the timeline.
 Pan
    Used to pan the audio from left and right channels. Only works for mono sources.
    Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
@@ -86,6 +86,6 @@ Pan
 
 Display Waveform
    Display an approximate waveform of the sound file inside of the sound strip.
-   The waveform reflects strip volume and it's animation using :doc:`keyframes </animation/keyframes/introduction>`
+   The waveform reflects strip volume and it's animation using :doc:`keyframes </animation/keyframes/introduction>`.
 Mono
-   Mixdown all audio channels into single one
+   Mixdown all audio channels into a single one.

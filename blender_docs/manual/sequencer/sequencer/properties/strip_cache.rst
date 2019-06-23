@@ -1,3 +1,4 @@
+
 *****************
 Strip Cache Panel
 *****************
@@ -10,7 +11,6 @@ Strip Cache Panel
 
 Similar to :doc:`Cache Settings </sequencer/sequencer/properties/cache_settings>` panel,
 this panel will set types of images, that will be cached for single (active) strip.
-
 
 Enable Strip Cache
    Enable special rule for active strip.

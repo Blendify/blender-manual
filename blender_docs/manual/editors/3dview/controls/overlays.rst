@@ -198,7 +198,7 @@ Normals
 - Display face normals
 
 Size
-  The size to show the selected normals.
+   The size to show the selected normals.
 
 
 Developer
@@ -267,6 +267,7 @@ Pose Mode
 Fade Geometry
    Show the bones on top and face other geometry to the back.
    The opacity can be controlled with the slider.
+
 
 .. _3dview-overlay-grease-pencil:
 

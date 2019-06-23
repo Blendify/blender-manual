@@ -21,16 +21,17 @@ faster but gives lower resolution and slightly imprecise result.
 
 Once you have chosen the Proxy/Timecode parameters,
 you need to select all strips for which you want proxies to be built.
-Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`, 
+Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`,
 or button in :doc:`Proxy Settings </sequencer/sequencer/properties/proxy_settings>`.
-Once all proxies are built, they will be ready to use
+Once all proxies are built, they will be ready to use.
 
 In order to use proxies, you have to select matching :ref:`Proxy Render Size <proxy-render-size>`
-in Sequencer preview side panel
+in Sequencer preview Sidebar panel.
 
 Proxy Custom Directory
-   By default, all generated proxy images are storing to the <path of original footage>
-   /BL_proxy/<clip name> folder, but this location can be set by hand using this option.
+   By default, all generated proxy images are storing to
+   the ``<path of original footage>/BL_proxy/<clip name>`` folder,
+   but this location can be set by hand using this option.
 Proxy Custom File
    Allows you to use pre-existing proxies.
 Size

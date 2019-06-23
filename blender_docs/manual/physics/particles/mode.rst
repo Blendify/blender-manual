@@ -169,7 +169,7 @@ Weight
    This is especially useful for soft body animations, because the weight defines the soft body *Goal*.
    A keypoint with a weight of 1 will not move at all,
    a keypoint with a weight of 0 subjects fully to soft body animation.
-   This value is scaled by the *GMin* to *GMax* range of soft body goals...
+   This value is scaled by the Strength *Min* to *Max* range of soft body goals...
 
    .. Not more true, I think: "Weight is only displayed for the complete hair (i.e. with the value of the tip),
       not for each keypoint, so it's a bit difficult to paint".

@@ -76,7 +76,7 @@ Main Settings
 Next to the layer name there are four icons buttons that control main properties of the layer:
 
 Clamp
-   When using clamp, the lower layers function as a mask for layer with clamp, 
+   When using clamp, the lower layers function as a mask for layer with clamp,
    hiding any pixel in the layer outside the mask.
    Can be combined with Blend modes to achieve some useful artistic results.
    This control can also be found next to the layer opacity control.
@@ -91,7 +91,7 @@ Clamp
      - .. figure:: /images/grease_pencil_properties_layers_clamp_on.png
           :width: 320px
 
-          Red stroke on top layer with clamp activated.          
+          Red stroke on top layer with clamp activated.
 
 
 Lock

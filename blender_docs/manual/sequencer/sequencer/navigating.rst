@@ -37,10 +37,10 @@ Navigation
       Current frame will jump to end of strip.
    Jump to Next Strip :kbd:`PageUp`
       Current frame will jump to beginning of strip.
-   Jump to Previous Strip(Center) :kbd:`Alt-PageDown`
-      Jump to next center of the strip
-   Jump to Next Strip(Center) :kbd:`Alt-PageUp`
-      Jump to previous center of the strip
+   Jump to Previous Strip (Center) :kbd:`Alt-PageDown`
+      Jump to next center of the strip.
+   Jump to Next Strip (Center) :kbd:`Alt-PageUp`
+      Jump to previous center of the strip.
 Range
    Set Preview Range :kbd:`P`
       Interactively define frame range used for playback.
@@ -69,7 +69,7 @@ Waveform Displaying
    Global option to either display the waveform, or the strip info,
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.
 Sequence Render Image
-   Render image at playhead position
+   Render image at playhead position.
 Sequence Render Animation
    Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 
@@ -115,7 +115,7 @@ Use these shortcuts to adjust the sequence area of the VSE:
 - Horizontal Scroll: use :kbd:`Ctrl-Wheel`, or drag on the lower scrollbar.
 - Scale View: :kbd:`Ctrl-MMB` and drag up/down (vertical scale) or left/right (horizontal scale).
 - Scale View Vertically: drag on the circles on the vertical scrollbar.
-- Scale View Horizontally: drag on the circles on the horizontal scroll bar.
+- Scale View Horizontally: drag on the circles on the horizontal scrollbar.
 
 
 Playhead

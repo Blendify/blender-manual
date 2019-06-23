@@ -1,3 +1,4 @@
+
 ********************
 Cache Settings Panel
 ********************
@@ -8,12 +9,11 @@ Cache Settings Panel
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Cache Settings`
 
 
-Cache is used to save previewed frames in memory,
+The Cache is used to save frames in memory for preview,
 so they can be later displayed much faster than rendered from scratch.
-Cache capacity can be set in :doc:`System page of User Preferences </editors/preferences/system>`
+Cache capacity can be set in :doc:`System tab </editors/preferences/system>` of the Preferences.
 
 In this panel you can set up types of images that will be cached for all strips.
-
 
 Cache Raw
    Cache raw images read from disk, for faster tweaking of strip parameters at the cost of memory usage.
