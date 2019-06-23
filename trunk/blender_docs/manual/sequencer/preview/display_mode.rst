@@ -91,7 +91,7 @@ For pixel of the picture, one point is plotted in the display at the U and V val
 If several pixels happen to have the same UV value the pixel in the plot gets brighter.
 
 To help you understand what color is meant, a hexagram marking the extreme positions
-(red, magenta, blue, cyan, green, yellow) is drawn and a red cross to mark the origin.
+(red, magenta, blue, cyan, green, yellow) is shown and a red cross to mark the origin.
 
 In other words, for the selected channel, this display shows the color space of the image inside a hexagon.
 Each point of the hexagon is a primary color: red, magenta, blue, cyan, green, and yellow.

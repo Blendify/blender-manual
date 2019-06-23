@@ -171,7 +171,7 @@ Weight
    a keypoint with a weight of 0 subjects fully to soft body animation.
    This value is scaled by the *GMin* to *GMax* range of soft body goals...
 
-   .. Not more true, I think: "Weight is only drawn for the complete hair (i.e. with the value of the tip),
+   .. Not more true, I think: "Weight is only displayed for the complete hair (i.e. with the value of the tip),
       not for each keypoint, so it's a bit difficult to paint".
 
 
@@ -235,20 +235,20 @@ Shape Object
           After.
 
 
-Draw
-----
+Viewport Display
+----------------
 
 Path Steps
-   Drawing steps, sets the smoothness of the drawn path.
+   The number of steps used to draw the path; improves the smoothness of the particle path.
 Particles
-   Draws actual particles on top of the paths.
+   Displays the actual particles on top of the paths.
 Fade Time
    Fade out paths and keys further away from current time.
 
    Frames
       How many frames to fade.
 Show Children
-   Draws the children of the particles too.
+   Displays the children of the particles too.
    This allows to fine-tune the particles and see their effects on the result,
    but it may slow down your system if you have many children.
 

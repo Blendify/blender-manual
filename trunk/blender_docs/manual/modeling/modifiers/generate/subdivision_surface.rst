@@ -82,8 +82,8 @@ Options
          UV remain unchanged.
 
    Optimal Display
-      When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
-      (only draws the edges of the original geometry).
+      When rendering the wireframe of this object, the wires of the new subdivided edges will be skipped
+      (only displays the edges of the original geometry).
 
    Use Creases
       Use the `Weighted Edge Creases`_ values stored in edges to control how smooth they are made.
@@ -135,14 +135,6 @@ Performance Considerations
 Higher levels of subdivisions mean more vertices, and more vertices means more memory will be used
 (both system RAM, and video memory for display).
 Blender could potentially crash or hang if you do not have enough available memory.
-
-..
-   Is that still relevant? Don't think so, pretty sure with new drawing code that case would badly crash?
-
-   When using high levels of subdivision with a graphics card that has a low total amount
-   of VRAM, some parts of the geometry will disappear visually. Your mesh will actually be intact,
-   because the render is generated using your Object Data,
-   (even though it cannot be shown by your graphics card).
 
 .. TODO2.8: Remove/Update
 

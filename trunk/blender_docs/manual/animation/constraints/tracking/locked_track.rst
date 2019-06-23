@@ -29,7 +29,7 @@ Which axis does what is up to you!
 
 If you have trouble understanding the buttons of this constraint, read the tooltips,
 they are pretty good. If you do not know where your object's axes are,
-turn on the *Axis* button in the *Object* menu's *Draw* panel.
+enable *Axis* in :menuselection:`Properties --> Armature --> Viewport Display`.
 Or, if you are working with bones, turn on the *Axes* button
 in the *Armature* menu's *Display* panel.
 

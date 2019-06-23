@@ -21,7 +21,7 @@ View Clipping Border
 Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
 It can assist in the process of working with complex models and scenes.
 
-Once activated with :kbd:`Alt-B`, you have to draw a rectangle with the mouse,
+Once activated, you have to draw a rectangle with the mouse,
 in the wanted 3D View. It becomes a clipping volume of four planes:
 
 - A right-angled `parallelepiped <https://en.wikipedia.org/wiki/Parallelepiped>`__

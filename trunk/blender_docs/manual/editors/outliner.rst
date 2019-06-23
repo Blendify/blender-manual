@@ -146,7 +146,7 @@ Visibility (eye icon)
    Toggles the visibility of the object in the 3D View.
 Enable collection (checkbox)
    Exclude the collection from the view layer.
-   This is not really a restriction column. It is drawn besides the collection icon.
+   This is not really a restriction column. It is shown besides the collection icon.
 
 .. note::
 
@@ -236,7 +236,7 @@ Object Contents
 Object Children
    List the object children. If the *Collections* option is enabled,
    you will see the object children even if the children are not in the collection.
-   However the Outliner draws them in a dashed line.
+   However the Outliner shows them as a dashed line.
 Data-Block
    Allows you to filter out certain data-blocks currently present in the scene.
 

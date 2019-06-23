@@ -16,7 +16,7 @@ View Menu
 Fit preview in window :kbd:`Home`
    Resize the preview so that it fits in the window.
 Zoom :kbd:`Shift-B`
-   Click and drag to draw rectangle and zoom to this rectangle.
+   Click and drag to draw a rectangle and zoom to this rectangle.
 Fractional zoom
    Resize the preview in steps from 1:8 to 8:1.
 Safe Areas

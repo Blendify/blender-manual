@@ -41,6 +41,6 @@ Header
 
 Mask
    Once set to Mask mode, a Mask data-block can be added.
-   Any image, movie clip, render or compositing result can be used as a backdrop to draw masks over.
+   Any image, movie clip, render or compositing result can be used as a backdrop to display masks over.
 
    New ``+`` :kbd:`Alt-N`

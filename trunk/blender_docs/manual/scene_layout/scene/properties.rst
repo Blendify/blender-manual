@@ -39,7 +39,7 @@ Background Scene
       where one blend-file contains the environment, which can be reused in many places.
 
 Active Movie Clip
-   Active movie clip for constraints and viewport drawing.
+   Active movie clip for constraints and viewport display.
 
 
 .. _data-scenes-props-units:

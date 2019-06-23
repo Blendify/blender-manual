@@ -37,6 +37,8 @@ for direct lighting or global illumination.
    :doc:`Shaders </render/shader_nodes/shader/index>`
 
 
+.. TODO2.8:
+
 Textures
 ========
 
@@ -45,7 +47,7 @@ with a texture coordinate and various parameters as input, and a color or value 
 No texture data-blocks are needed; instead node groups can be used for reusing texture setups.
 
 For UV mapping and texture painting in the viewport, the Image texture node must be used.
-When setting such a node as active, it will be drawn in Textured draw mode,
+When setting such a node as active, it will be displayed in Textured display mode,
 and can be painted on in texture paint mode.
 
 The default texture coordinates for all nodes are Generated coordinates,

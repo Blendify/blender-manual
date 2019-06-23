@@ -22,7 +22,7 @@ You can set the editors display options in this panel.
 Aspect Ratio
    Display Aspect for this image. Does not affect rendering.
 Repeat Image
-   Draw the image repeated outside of the main view.
+   Duplicate the image until it is repeated to fill the main view.
 
 
 Annotations

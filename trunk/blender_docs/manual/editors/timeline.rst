@@ -234,9 +234,9 @@ Lock Time to Other Windows
    with the other editors (Graph, Dope Sheet, NLA) when this option is set.
    That way you always have these editors showing an identical part of the time you work on.
 Show Frame Number Indicator
-   This will draw the current frame or seconds on the *Playhead*.
+   This will display the current frame or seconds on the *Playhead*.
 Only Keyframes from Selected Channels
-   For *Armatures*, this will draw the object keyframes,
+   For *Armatures*, this will display the object keyframes,
    and the keyframes for the active and selected pose bones.
 Cache
    Show Cache

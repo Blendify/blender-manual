@@ -172,8 +172,8 @@ Sync Markers
    Handle types.
 
 Show Handles and Interpolation
-   Instead of drawing all keyframes as diamonds, different icons are used to show the Bézier handle type.
-   When curves use a different interpolation type, a line is drawn between keys to highlight that.
+   Instead of displaying all keyframes as diamonds, different icons are used to show the Bézier handle type.
+   When curves use a different interpolation type, a line is shown between keys to highlight that.
 
    See :ref:`Handles & Interpolation Display <keyframe-handle-display>`.
 

@@ -41,10 +41,10 @@ Rebuild Proxy
 Timecode
    See `Timecode`_.
 Proxy Render Size
-   defines which proxy image resolution is used for display.
+   Defines which proxy image resolution is used for display.
    If *Render Undistorted* is set, then images created from undistorted frames are used.
-   If there is no generated proxies, render size is set to "No proxy, full render",
-   and render undistorted is enabled, undistortion will happen automatically on frame draw.
+   If there are no generated proxies, render size is set to "No proxy, full render",
+   and if render undistorted is enabled, undistortion will happen automatically on frame refresh.
 
 
 Timecode

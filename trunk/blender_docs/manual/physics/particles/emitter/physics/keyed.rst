@@ -14,7 +14,7 @@ Keyed
 
 The path of Keyed particles is determined between particles of any two (or more) particle systems.
 This allows the creation of a chains of systems to create long strands or groovy moving particles.
-Basically the particles have no dynamics but are interpolated from one system to the next at draw-time.
+Basically the particles have no dynamics but are interpolated from one system to the next each frame.
 
 To setup *Keyed* particles you need at least two particle systems in the *Keys* list.
 

@@ -90,7 +90,7 @@ Timing
 Absolute Path Time
    Path timing is in absolute frames.
 End
-   End time of the drawn path.
+   End time of the practical path.
 Random
    Give the path length a random variation.
 

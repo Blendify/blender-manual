@@ -8,7 +8,7 @@ Mask Display
 
 Smooth
    Display the edge anti-aliased.
-Edge Draw Type
+Edge Display Type
    Style of the edge.
 Overlay
    Added mask overlay to both Image and Clip editors.

@@ -42,7 +42,7 @@ Redraw Timer
    :Menu:      None
    :Hotkey:    :kbd:`Ctrl-Alt-T`
 
-This operator brings up a menu with a list of tests to benchmark UI drawing along with undo/redo functions.
+This operator brings up a menu with a list of tests to benchmark UI render times along with undo/redo functions.
 
 
 .. _bpy.ops.wm.memory_statistics:

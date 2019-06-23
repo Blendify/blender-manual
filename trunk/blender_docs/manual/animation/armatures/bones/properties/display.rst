@@ -18,7 +18,7 @@ Display panel lets you customize the look of your bones taking the shape of anot
 Hide
    Hides the selected bone.
 Wireframe
-   When enabled, bone is displayed in wireframe mode regardless of the viewport drawing mode.
+   When enabled, bone is displayed in wireframe mode regardless of the viewport display mode.
    Useful for non-obstructive custom bone chains.
 
 
@@ -64,7 +64,7 @@ To assign a custom shape to a bone, you have to:
 
    - These shapes will never be rendered, like any bone, they are only visible in 3D Views.
    - Even if any type of object seems to be accepted by the *Object* field (meshes, curves, even metas...),
-     only meshes really work. All other types just make the bone invisible; nothing is drawn...
+     only meshes really work. All other types just make the bone invisible.
    - The center of the shape object will be at the *root of the bone*
      (see the :doc:`bone page </animation/armatures/bones/index>` for root/tip).
    - The object properties of the shape are ignored

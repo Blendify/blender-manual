@@ -37,9 +37,9 @@ Move (up/down arrow icon)
    Since the stack is evaluated from top to bottom,
    moving a constraint in the stack can significantly affect the final outcome of the stack.
 
-   If there is only one constraint in the stack, the arrows will not be drawn.
-   If the constraint is at the top of the stack, only the down arrow will be drawn.
-   If the constraint is at the bottom of the stack, only the up arrow will be drawn.
+   - If there is only one constraint in the stack, the arrows will not be displayed.
+   - If the constraint is at the top of the stack, only the down arrow will be displayed.
+   - If the constraint is at the bottom of the stack, only the up arrow will be displayed.
 Delete ``X``
    Delete the constraint from the stack.
    The settings will be lost.

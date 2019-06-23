@@ -25,12 +25,12 @@ Random
    A random color will be selected for every object in the scene.
 
 Vertex
-   Draw the active vertex colors of an object. When an object has
+   Display the active vertex colors of an object. When an object has
    no active vertex colors it will be rendered in the color that is set
    in the Viewport Display :ref:`properties-material-viewport-display` panel.
 
 Texture
-   Draw the active texture. When an object has no active texture
+   Display the active texture. When an object has no active texture
    the object will be rendered with the settings
    in the Viewport Display :ref:`properties-material-viewport-display` panel.
 

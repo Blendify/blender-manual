@@ -135,7 +135,7 @@ The "Dancing" Black Borders
 
 As explained above, when we succeed with stabilizing the image contents, the boundaries of the original footage
 start to jump around in the opposite direction of the movements compensated. This is inevitable -- yet very annoying,
-since due to the irregular nature of these movements, these "dancing black borders" tend to draw away attention
+since due to the irregular nature of these movements, these "dancing black borders" tend to distract attention
 from the actual subject and introduce an annoying restlessness. Thus our goal must be to hide those dancing borders
 as good as possible. A simple solution is to add a small amount of zoom. Sometimes we'll also need to animate
 the parameter *Expected* position in order to keep the image centered as good as we can -- this helps to reduce

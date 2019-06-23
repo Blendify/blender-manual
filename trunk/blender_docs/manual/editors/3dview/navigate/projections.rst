@@ -33,7 +33,7 @@ It is like viewing the scene from an infinitely distant point.
 Nevertheless, orthographic viewing is very useful
 (it is the default in Blender and most other 3D applications),
 because it provides a more "technical" insight into the scene,
-making it easier to draw and judge proportions.
+making it easier to model and judge proportions.
 
 
 Options

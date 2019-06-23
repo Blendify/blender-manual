@@ -21,7 +21,7 @@ When you draw, the new strokes are added to the active layer.
 Every layer correspond to a channel in the Dope Sheet editor (Grease Pencil mode).
 See :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` for more information.
 
-By default the drawing order of the layers in the viewport are top to bottom.
+By default the rendering order of the layers in the viewport are top to bottom.
 You can change the layers order using the Up and Down buttons on the right.
 
 Layers can also be used together with Modifiers to only affects part of your drawing.

@@ -75,5 +75,5 @@ Burn into Image
    Background
       Set the color and alpha of the color behind the text.
    Include Labels
-      Draws the labels before the metadata text. For example,
+      Displays the labels before the metadata text. For example,
       "Camera" in front of the camera name, etc.
