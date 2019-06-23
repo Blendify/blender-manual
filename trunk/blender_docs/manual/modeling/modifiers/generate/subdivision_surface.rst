@@ -108,7 +108,7 @@ the *Subdivision Surface* modifier subdivides the geometry to give the edges a s
 
    A subdivided cube with creased edges.
 
-The crease weight of selected edges can be changed in the *Transform* panel, Properties region of the 3D View.
+The crease weight of selected edges can be changed in the *Transform* panel, Sidebar of the 3D View.
 The scale-like dedicated tool :kbd:`Shift-E` can also be used to adjust the crease weight.
 A higher value makes the edge "stronger" and more resistant to the smoothing effect of subdivision surfaces.
 

@@ -6,7 +6,7 @@ Object Data
 .. figure:: /images/grease_pencil_properties_data_panel.png
    :align: right
 
-   Grease Pencil properties panel.
+   Grease Pencil Object Data.
 
 Grease Pencil
    The *Grease Pencil* :ref:`data-block menu <ui-data-block>` can be used to link the data between objects.
