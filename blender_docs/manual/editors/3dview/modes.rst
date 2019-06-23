@@ -15,7 +15,7 @@ Summary
 
 *Modes* are an object-oriented feature, that means that the available modes vary
 depending on the selected active object's type -- most of them only enable
-the default *Object Mode* (like cameras, lamps, etc.).
+the default *Object Mode* (like cameras, lights, etc.).
 
 Each mode is designed to edit an aspect of the selected object.
 See Tab. :ref:`tab-view3d-modes` below for details.

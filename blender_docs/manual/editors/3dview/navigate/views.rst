@@ -54,9 +54,9 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
       using :menuselection:`Object --> Move Objects out of Local View`,
       which can be useful to further isolate a selection.
    Preview Renders
-      Preview renders will still use lamps outside the local view,
+      Preview renders will still use lights outside the local view,
       this allows you to quickly render previews
-      without having to remember to select all lamps when entering local view.
+      without having to remember to select all lights when entering local view.
 
 .. tip::
 

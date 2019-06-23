@@ -32,7 +32,7 @@ UV Map
 Projectors
    Up to ten projector objects are supported.
    Each face will choose the closest and aligned projector with its surface normal.
-   Projections emit from the negative Z axis (i.e. straight down a camera or lamp).
+   Projections emit from the negative Z axis (i.e. straight down a camera or light).
    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
 Objects
    Specify the projector object(s).
@@ -59,7 +59,7 @@ that the modifier targets is added to the object's material.
    Perspective Cameras
    -------------------
 ..
-   When using perspective cameras or spot lamps,
+   When using perspective cameras or spot lights,
    you will likely want to enable the *UV Project* Material Option
    (available in the materials panel),
    This uses a different UV interpolation to prevent distortion.
