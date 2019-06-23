@@ -59,7 +59,7 @@ Light Threshold
    This light threshold does not take the light shape into account and may not
    suit every case. That is why we provide a per-light override where you can
    just set the cut off distance
-   (:menuselection:`Light Properties Panel --> Light --> Custom Distance`).
+   (:menuselection:`Properties --> Object Data --> Light --> Custom Distance`).
 
    The influence distance is also used as shadow far clip distance, which might affect how shadows looks.
    This influence distance does not concern sun lights that still have a far clip distance.

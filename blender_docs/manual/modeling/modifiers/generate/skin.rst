@@ -116,7 +116,7 @@ Skin Size
 
 The radii of input vertices can be individually scaled in Edit Mode by pressing :kbd:`Ctrl-A`.
 Non-uniform scaling of the X and Y axes is accessible by the usual axis locking with :kbd:`X` or :kbd:`Y`.
-The radius can also be adjusted in the *Transform* panel of the Properties region, in the 3D View.
+The radius can also be adjusted in the *Transform* panel of the Sidebar, in the 3D View.
 
 
 Examples

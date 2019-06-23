@@ -57,8 +57,7 @@ that is used to render the view.
 Solid mode uses the render settings of Workbench;
 LookDev mode uses the render settings of Eevvee.
 
-Sampling and Alpha Transparency Mode options can be set by
-the :menuselection:`Render --> Sampling` from the Properties panel.
+Sampling and Alpha Transparency Mode options can be set in :menuselection:`Properties --> Render --> Sampling`.
 Make sure the Workbench or Eevee render engine is selected to see the appropriate values.
 
 Additionally, some render settings are used too:
