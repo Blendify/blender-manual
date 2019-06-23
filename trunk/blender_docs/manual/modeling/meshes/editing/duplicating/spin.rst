@@ -31,7 +31,7 @@ Options
 
 Steps
    Specifies how many copies will be extruded along the "sweep".
-Dupli
+Duplicate
    When enabled, will keep the original selected elements as separated islands in the mesh
    (i.e. unlinked to the result of the spin extrusion).
 Angle
@@ -97,8 +97,8 @@ Angle
           Spun profile using an angle of 120.
 
 
-Dupli
-=====
+Duplicate
+=========
 
 .. list-table::
 

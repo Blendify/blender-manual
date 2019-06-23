@@ -82,7 +82,7 @@ Remove ``X``
 Specials
    Unlink Collection, Select Collection, Set Offset From Cursor
 Offset
-   Applies a spatial offset of the dupli-instanced collections from the original object's origin.
+   Applies a spatial offset of the instanced collections from the original object's origin.
 
 .. seealso:: Appending or Linking Collections
 

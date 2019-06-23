@@ -179,10 +179,10 @@ Tangent
    Everything is compatible.
 
 Texture Coordinate
-   From Dupli is not supported.
+   *From Instancer* is not supported.
 
 UV Map
-   From Dupli is not supported.
+   *From Instancer* is not supported.
 
 Wireframe
    Pixel size option does not give exactly the same output as Cycles. The width can be a bit different.

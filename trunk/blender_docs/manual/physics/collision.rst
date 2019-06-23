@@ -113,7 +113,7 @@ Examples
 
    Deflected particles.
 
-Here is a *Meta* object, dupliverted to a particle system emitting downwards, and deflected by a mesh cube.
+Here is a *Meta* object, using instancing verts to a particle system emitting downwards, and deflected by a mesh cube.
 
 
 Hints

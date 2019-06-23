@@ -104,10 +104,10 @@ Object
    :Panel:     :menuselection:`Particle System --> Render --> Object`
 
 Instance Object
-   The specified object is duplicated in place of each particle.
+   The specified object is instanced in place of each particle.
 
 Global Coordinates
-   Use object's global coordinates for duplication.
+   Use object's global coordinates for instancing.
 Object Rotation
    Use the rotation of the object.
 Object Scale
@@ -123,16 +123,16 @@ Collection
    :Panel:     :menuselection:`Particle System --> Render --> Collection`
 
 Instance Collection
-   The objects that belong to a group are duplicated sequentially in the place of the particles.
+   The objects that belong to a collection are instanced sequentially in the place of the particles.
 Whole Collection
    Use the whole group at once, instead of one of its elements, the group being displayed in place of each particle.
 Pick Random
    The objects in the group are selected in a random order, and only one object is displayed in place of a particle.
    Please note that this mechanism fully replaces old Blender particles system using parentage
-   and DupliVerts to replace particles with actual geometry.
+   and *Instancing Verts* to replace particles with actual geometry.
    This method is fully deprecated and does not work anymore.
 Global Coordinates
-   Use object's global coordinates for duplication.
+   Use object's global coordinates for instancing.
 Object Rotation
    Use the rotation of the objects.
 Object Scale

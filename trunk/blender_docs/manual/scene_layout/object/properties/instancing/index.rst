@@ -1,10 +1,9 @@
-.. _bpy.types.Object.dupli_type:
 
 ##############
   Instancing
 ##############
 
-There are currently four ways in Blender to procedurally instantiate (or duplicate) objects.
+There are currently three ways in Blender to procedurally instantiate (or duplicate) objects.
 These options are located in the :menuselection:`Object --> Instancing` panel.
 
 Vertices
