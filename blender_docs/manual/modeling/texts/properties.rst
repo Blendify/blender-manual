@@ -124,7 +124,7 @@ Object Font
       They must all have a name following the naming schema:
       "common prefix" followed by the "character name" (e.g. "ft.a", "ft.b", etc.).
    #. For the *Text* object, enable
-      :doc:`Instancing Vertices </scene_layout/object/properties/duplication/dupliverts>`.
+      :doc:`Instancing Vertices </scene_layout/object/properties/instancing/verts>`.
    #. In the *Font* tab, fill the *Object Font* field with the "common prefix" of your "font" objects.
       Now, each time a character in your text matches the *suffix part* of a "font" object's name,
       this object is duplicated on this character.

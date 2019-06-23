@@ -9,7 +9,7 @@ Relations Extras
 Tracking Axes
    TODO.
 
-   Applies to *DupliVerts* when *Rotation* is enabled.
+   Applies to *Instance Verts* when *Align to Vertex Normal* is enabled.
 
    Axis
       Axis that points in the "forward" direction.

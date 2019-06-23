@@ -117,7 +117,7 @@ Those changes remain local, they are not sent back to the external library.
 .. hint::
 
    Another way to transform a linked object locally is with
-   the use of :doc:`Collection Instancing </scene_layout/object/properties/duplication/dupligroup>`.
+   the use of :doc:`Collection Instancing </scene_layout/object/properties/instancing/collection>`.
    Instead of linking objects directly, it is often more useful to link in *collections*,
    which can be assigned to empties and moved, while maintaining the link to the original file.
 

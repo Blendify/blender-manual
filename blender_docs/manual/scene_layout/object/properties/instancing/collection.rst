@@ -1,8 +1,8 @@
 .. _bpy.types.Object.dupli_group:
 
-*********************
-Collection Instancing
-*********************
+**********
+Collection
+**********
 
 .. admonition:: Reference
    :class: refbox
