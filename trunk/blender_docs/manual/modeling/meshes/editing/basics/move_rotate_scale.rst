@@ -16,7 +16,7 @@ rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </scene_layout/object/editing/transform/introduction>` section.
 
 To move, rotate and scale selected components, either use the *Move*, *Rotate*, and *Scale* buttons,
-the :doc:`transform manipulators </scene_layout/object/editing/transform/control/manipulators>`,
+the :doc:`transform gizmos </scene_layout/object/editing/transform/control/gizmos>`,
 or the shortcuts: :kbd:`G`, :kbd:`R`, and :kbd:`S` respectively.
 After moving a selection, the options in the Operator Panel allow you to fine-tune your changes,
 limit the effect to certain axes, turn proportional editing on and off, etc.

@@ -53,7 +53,7 @@ Rotation
       `here <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__.
 
       Euler
-         The manipulator handles are aligned to the :term:`Euler` axis,
+         The gizmo handles are aligned to the :term:`Euler` axis,
          allowing you to see the discreet XYZ axis underlying the euler rotation,
          as well as possible :term:`gimbal lock`.
       Axis Angle
@@ -81,7 +81,7 @@ When the toggle is locked, the corresponding transformation value can not be cha
 However, the value can still be changed using non-interactive operations,
 like editing the corresponding number button or using Python.
 
-For example, if you locked the *Location X* property then you cannot use the 3D manipulator to
+For example, if you locked the *Location X* property then you cannot use the 3D gizmo to
 move the object along the global X axis.
 However, you can still move it using the *Location X* number button.
 Consider the locking feature as a rigid constraint only changeable from the panel.

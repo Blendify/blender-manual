@@ -9,7 +9,7 @@ Transform controls can be used to modify and control the effects of the availabl
    :maxdepth: 2
 
    precision/index.rst
-   manipulators.rst
+   gizmos.rst
    proportional_edit.rst
    orientations.rst
    snap.rst

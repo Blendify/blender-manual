@@ -109,8 +109,7 @@ There are multiple ways to transform an element which include:
 
 - The keyboard shortcut.
 - The menu in the header.
-- The :doc:`3D Transform Manipulator </scene_layout/object/editing/transform/control/manipulators>`
-  widget.
+- The :doc:`3D Transform Gizmos </scene_layout/object/editing/transform/control/gizmos>`.
 - The :doc:`Transform panel </scene_layout/object/properties/transforms>`
   in the Sidebar region or the Object tab.
 
