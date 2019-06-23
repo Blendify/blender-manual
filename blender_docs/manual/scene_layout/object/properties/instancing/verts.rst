@@ -15,15 +15,15 @@ at the location of every vertex of the parent object.
 .. note::
 
    The relative :doc:`Object Origin </scene_layout/object/origin>` position
-   of the parent and child objects determines offset duplicated geometry from parent vertex.
+   of the parent and child objects determines offset instanced geometry from parent vertex.
 
-Rotation
-   Rotates all duplicated objects according to the corresponding vertex normals of the parent mesh.
+Align to Vertex Normal
+   Rotates all instanced objects according to the corresponding vertex normals of the parent mesh.
 
-   To change the axis of direction of the duplicated objects, select the child object and
+   To change the axis of direction of the instanced  objects, select the child object and
    in the :menuselection:`Object --> Relations Extras` panel change the :menuselection:`Tracking Axes`.
 
-There are actually two approaches to modeling using *DupliVerts*.
+There are actually two approaches to modeling using instanced Verts.
 They can be used as an arranging tool,
 allowing to model geometrical arrangements of objects (e.g. the columns of a Greek temple,
 the trees in a garden, an army of robot soldiers, the desks in a classroom).
@@ -39,11 +39,11 @@ The second approach is to use them to model an object starting from a single par
    while a tentacle parented to an icosphere is on layer 2.
 
 
-DupliVerts as an Arranging Tool
-===============================
+Usage
+=====
 
-Setup
------
+Instanced Verts as an Arranging Tool
+------------------------------------
 
 All you need is a base object (e.g. the *tree* or the *column*)
 and a pattern mesh with its vertices following the pattern you have in mind. In this section,
@@ -61,7 +61,7 @@ our parent mesh.
      - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-after.png
           :width: 320px
 
-          Dupliverted monkeys.
+          Instanced monkeys on Verts.
 
 First, in *Object Mode*,
 select the base object and :kbd:`Shift-RMB` to add the circle to the selection
@@ -70,8 +70,7 @@ and :kbd:`Ctrl-P` or :menuselection:`Object --> Parent --> Object`
 to parent the base object to the circle.
 Now, the circle is the parent of the monkey; if you move the circle, the monkey will follow it.
 
-With only the circle selected, enable *Duplication vertices*
-in the :menuselection:`Object panel --> Duplication --> Vertices`.
+With only the circle selected, enable *Instancing Verts*;
 A monkey head should be placed at every vertex of the circle.
 
 The original monkey head at the center and the parent mesh are still shown in the 3D View but
@@ -81,11 +80,11 @@ location :kbd:`Alt-G`, and origin :kbd:`Alt-O`.
 
 
 Rearranging
------------
+^^^^^^^^^^^
 
 If you now select the base object and modify it in either object or edit mode,
-all changes will also affect the shape of all duplicate objects.
-You can also select the parent mesh to modify the arrangement of the duplicates;
+all changes will also affect the shape of all instanced objects.
+You can also select the parent mesh to modify the arrangement of the instances;
 adding vertices will also add more base objects.
 
 Note that the base objects will inherit changes made to the parent mesh in Object Mode, but
@@ -95,14 +94,14 @@ objects.
 
 
 Orientation
------------
+^^^^^^^^^^^
 
 The orientation of the base objects can be controlled by
-enabling *Rotation* in the *Duplication* panel.
+enabling *Align to Vertex Normal* in the *Instancing* panel.
 This will rotate all base objects according to the vertex normals of the parent mesh.
 
-To change the orientation of the duplicated objects, select the base object and
-in the :menuselection:`Object --> Relations extras` panel change the :menuselection:`Tracking Axes`.
+To change the orientation of the instanced objects, select the base object and
+in the :menuselection:`Object --> Relations extras` panel change the *Tracking Axes*.
 
 .. list-table:: Output of various orientations.
 
@@ -134,13 +133,13 @@ in the :menuselection:`Object --> Relations extras` panel change the :menuselect
    where you can also resize the displayed normals as necessary.
 
 
-DupliVerts as a Modeling Tool
-=============================
+Instanced Verts as a Modeling Tool
+----------------------------------
 
-Very interesting models can be made using DupliVerts and a standard primitive.
+Very interesting models can be made using *Instancing Verts* and a standard primitive.
 In this example, a simple tentacle was made by extruding a cube a couple of times.
 The tentacle object was then parented to an icosphere.
-With dupli *Rotation* enabled for the parent mesh (the icosphere),
+With *Align to Vertex Normal* enabled for the parent mesh (the icosphere),
 the orientation of the base object (the tentacle)
 was adapted to the vertex normals of the parent mesh
 (in this case the tentacle was rotated -90° about the X axis in edit mode).
@@ -157,12 +156,12 @@ was adapted to the vertex normals of the parent mesh
 
      - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_rot.png
 
-          Rotation enabled to align duplicates.
+          *Align to Vertex Normal* enabled to align instanced geometry.
 
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.
 
-To turn all duplicates into real objects, simply select the icosphere and
-:menuselection:`Object --> Apply --> Make Duplicates Real`, :kbd:`Shift-Ctrl-A`.
+To turn all instanced geometry into real objects, simply select the icosphere and
+:menuselection:`Object --> Apply --> Make Instances Real`, :kbd:`Shift-Ctrl-A`.
 To make the icosphere and the tentacle a single object,
 make sure they are all selected and go to :menuselection:`Object --> Join`, :kbd:`Ctrl-J`.
 

@@ -165,29 +165,29 @@ For details, see the :ref:`object-convert-to` mesh.
 
 .. _bpy.ops.object.duplicates_make_real:
 
-Make Duplicate Real
+Make Instances Real
 -------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode
-   :Menu:      :menuselection:`Object --> Apply --> Make Duplicates Real`
+   :Menu:      :menuselection:`Object --> Apply --> Make Instances Real`
    :Hotkey:    :kbd:`Shift-Ctrl-A`
 
-*Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
+*Make Instances Real* unlinks linked instances so each instance now has its own data-block.
 
-.. (TODO) Need to explain, here we mean the Dupli Object (Particle, DupliGroup...)
+.. (TODO) Need to explain, here we mean the Instanced Object (Particle, Instancing Collections...)
 
 
 Options
 ^^^^^^^
 
 Parent
-   Parents all the generated objects to the former duplicator when the option is checked;
+   Parents all the generated objects to the former instancer when the option is checked;
    otherwise, they will be global objects.
 Keep Hierarchy
    If this option is checked, the internal hierarchies (i.e. parent relationships)
    will be preserved in the newly generated objects,
-   even if *Parent* is also checked, in which case, only the duplicated objects on top of the hierarchy
-   will be parented to the former duplicator.
+   even if *Parent* is also checked, in which case, only the instanced objects on top of the hierarchy
+   will be parented to the former instancer.
