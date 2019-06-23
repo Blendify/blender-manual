@@ -24,7 +24,7 @@ Safe Areas
 Show Metadata
    Display Image metadata in the preview area.
 Sequence Render Image
-   Render image at playhead position
+   Render image at playhead position.
 Sequence Render Animation
    Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 
@@ -48,8 +48,8 @@ Display Mode
    - Histogram: Levels of red, green, and blue.
 
 Display Channels
-   - Color and Alpha: Display preview image with transparency over checkerboard pattern.
-   - Color: Ignore transparency of preview image (fully transparent areas will be black).
+   :Color and Alpha: Display preview image with transparency over checkerboard pattern.
+   :Color: Ignore transparency of preview image (fully transparent areas will be black).
 
 ..
    You can adjust the view by zooming in with :kbd:`Plus` and zoom out with :kbd:`Minus`.

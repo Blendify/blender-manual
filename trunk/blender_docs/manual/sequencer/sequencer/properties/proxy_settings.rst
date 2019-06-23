@@ -1,3 +1,4 @@
+
 ********************
 Proxy Settings Panel
 ********************
@@ -6,7 +7,6 @@ Proxy Settings Panel
    :class: refbox
 
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Proxy Settings`
-
 
 Storage
    Defines whether the proxies are for individual strips or the entire sequence.

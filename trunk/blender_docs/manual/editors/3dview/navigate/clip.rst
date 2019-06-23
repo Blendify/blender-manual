@@ -91,5 +91,5 @@ and can be removed with :kbd:`Ctrl-Alt-B`.
 .. tip::
 
    You can also use this region in a final render by setting a render region
-   from within the :doc:`Camera View </editors/3dview/navigate/camera_view>` and enabling
-   :ref:`region <render-output-dimensions-region>` in the Dimensions panel.
+   from within the :doc:`Camera View </editors/3dview/navigate/camera_view>` and
+   enabling :ref:`region <render-output-dimensions-region>` in the Dimensions panel.

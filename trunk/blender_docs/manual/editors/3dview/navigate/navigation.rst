@@ -123,8 +123,8 @@ Zoom Region
    :Menu:      :menuselection:`View --> Navigation --> Zoom Region...`
    :Hotkey:    :kbd:`Shift-B`
 
-The *Zoom Region* tool allows you to specify a rectangular region and zoom in so
-that the region fills the 3D View.
+The *Zoom Region* tool allows you to specify a rectangular region and zoom in
+so that the region fills the 3D View.
 
 You can access this through via the shortcut :kbd:`Shift-B`,
 then :kbd:`LMB` click and drag a rectangle to zoom into.

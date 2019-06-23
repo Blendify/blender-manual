@@ -84,7 +84,7 @@ Upgrade Graphics Driver
    *It is generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
-   While this can be useful on its own, its has the side effect of not relying on OpenGL selection.
+   While this can be useful on its own, it has the side effect of not relying on OpenGL selection.
 Change Display Mode (Workaround)
    Using *Wireframe* display mode can be used to more quickly select different objects.
 

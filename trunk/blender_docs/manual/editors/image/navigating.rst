@@ -25,8 +25,8 @@ Update Automatically
    Update the view in multiple areas.
 Show Metadata
    Displays the Metadata if they were set in the render tab's :doc:`/render/output/metadata` panel.
-View Zoom In/Out
-   Adjusts the Zoom level :kbd:`Wheel`.
+View Zoom In/Out :kbd:`Wheel`
+   Adjusts the Zoom level.
 Fractional Zoom
    - Zoom 1:8 :kbd:`Numpad8`
    - Zoom 1:4 :kbd:`Numpad4`
@@ -35,13 +35,13 @@ Fractional Zoom
    - Zoom 2:1 :kbd:`Shift-Numpad2`
    - Zoom 4:1 :kbd:`Shift-Numpad4`
    - Zoom 8:1 :kbd:`Shift-Numpad8`
-Frame All
-   Center the view to the entire image :kbd:`Home`.
-Frame All Fit
-   Fit the view to the image dimensions :kbd:`Shift-Home`.
+Frame All :kbd:`Home`
+   Center the view to the entire image.
+Frame All Fit :kbd:`Shift-Home`
+   Fit the view to the image dimensions.
 Render Region :kbd:`Ctrl-B`
    See :ref:`Render Region <editors-3dview-navigate-render-region>`.
 Clear Render Region :kbd:`Ctrl-Alt-B`
    See :ref:`Render Region <editors-3dview-navigate-render-region>`.
 Area
-   Adjust the area the image editor is in. See :doc:`/interface/window_system/areas`.
+   Adjust the :doc:`area </interface/window_system/areas>` the Image editor is in.

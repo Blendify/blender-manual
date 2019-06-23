@@ -55,8 +55,8 @@ You can download the latest version of Blender `here <https://www.blender.org/do
 
    A rendered image being post-processed.
 
-Blender makes it possible to perform a wide range of tasks, and it may seem daunting when first
-trying to grasp the basics. However, with a bit of motivation and the right learning material,
+Blender makes it possible to perform a wide range of tasks, and it may seem daunting
+when first trying to grasp the basics. However, with a bit of motivation and the right learning material,
 it is possible to familiarize yourself with Blender after a few hours of practice.
 
 This manual is a good start, though it serves more as a reference.
@@ -68,8 +68,8 @@ such as human anatomy, composition, lighting, animation principles, etc.
 
 3D creation software such as Blender have an added technical complexity and
 jargon associated with the underlying technologies.
-Terms like UV maps, materials, shaders, meshes, and "subdivs" are the media of
-the digital artist, and understanding them, even broadly, will help you to use Blender to its best.
+Terms like UV maps, materials, shaders, meshes, and "subdivs" are the media of the digital artist,
+and understanding them, even broadly, will help you to use Blender to its best.
 
 So keep reading this manual, learn the great tool that Blender is, keep your mind open to
 other artistic and technological areas and you too can become a great artist.
