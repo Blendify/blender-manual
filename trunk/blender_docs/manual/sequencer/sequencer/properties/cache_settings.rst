@@ -16,18 +16,18 @@ In this panel you can set up types of images that will be cached for all strips.
 
 
 Cache Raw
-	Cache raw images read from disk, for faster tweaking of strip parameters at the cost of memory usage.
+   Cache raw images read from disk, for faster tweaking of strip parameters at the cost of memory usage.
 Cache Preprocessed
-	Cache preprocessed images, for faster tweaking of effects at the cost of memory usage.
+   Cache preprocessed images, for faster tweaking of effects at the cost of memory usage.
 Cache Composite
-	Cache intermediate composited images, for faster tweaking of stacked strips at the cost of memory usage.
+   Cache intermediate composited images, for faster tweaking of stacked strips at the cost of memory usage.
 Cache Final
-	Cache final image for each frame.
+   Cache final image for each frame.
 Recycle Up To Cost
-	Only frames with cost lower than this value will be recycled.
+   Only frames with cost lower than this value will be recycled.
 
-	Each stored image has a cost assigned.
+   Each stored image has a cost assigned.
    Cost is calculated as ratio of time spent on rendering to maximum possible time to keep up with chosen frame rate.
    The higher the cost, the harder it is to render image.
 
-	Maximum image cost is limited to arbitrary value of 10.
+   Maximum image cost is limited to arbitrary value of 10.
