@@ -36,14 +36,14 @@ From Instancer :guilabel:`Cycles Only`
 
       From left to right: Sphere with a UV-mapped texture.
       Small spheres instanced to the faces of the textured sphere using
-      :doc:`instancing from faces </scene_layout/object/properties/duplication/duplifaces>`.
+      :doc:`instancing from faces </scene_layout/object/properties/instancing/faces>`.
       Small spheres with *From Instancer* enabled, using the UV map of the large sphere.
 
    .. note::
 
       *From Instancer* only works with the UV output when the object is instanced,
       either :doc:`from particles </physics/particles/introduction>` or
-      :doc:`from faces </scene_layout/object/properties/duplication/duplifaces>`.
+      :doc:`from faces </scene_layout/object/properties/instancing/faces>`.
 
 
 Outputs

@@ -20,6 +20,6 @@ Collection
 .. toctree::
    :maxdepth: 2
 
-   dupliverts.rst
-   duplifaces.rst
-   dupligroup.rst
+   verts.rst
+   faces.rst
+   collection.rst

@@ -81,8 +81,8 @@ Collection Instance
    .. TODO2.8: update link
 
    Lets you select from a list of existing collections. Once selected, an Empty object will be created,
-   with an instance of the selected collection (collection duplication active).
-   See :doc:`/scene_layout/object/properties/duplication/dupligroup`.
+   with an instance of the selected collection (collection instancing active).
+   See :doc:`/scene_layout/object/properties/instancing/collection`.
 
 
 .. _object-common-options:

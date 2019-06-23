@@ -7,10 +7,6 @@ The geometry of a scene is constructed from one or more Objects.
 These objects can range from lights to illuminate your scene, basic 2D and 3D shapes to fill it with models,
 armatures to animate those models, to cameras to take pictures or make video of it all.
 
-
-Instancing
-==========
-
 Each Blender object type (mesh, light, curve, camera, etc.) is composed from two parts:
 an *Object* and *Object Data* (sometimes abbreviated to "ObData"):
 

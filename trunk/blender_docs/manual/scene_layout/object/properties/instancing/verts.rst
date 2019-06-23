@@ -1,8 +1,7 @@
-.. _bpy.types.Object.use_dupli_vertices:
 
-**********
-DupliVerts
-**********
+*****
+Verts
+*****
 
 .. admonition:: Reference
    :class: refbox
@@ -10,7 +9,7 @@ DupliVerts
    :Mode:      Object Mode
    :Panel:     :menuselection:`Object --> Instancing`
 
-Using *Duplication Vertices* (or *DupliVerts*) allows you to replicate child objects
+*Instance Verts* allows you to replicate child objects
 at the location of every vertex of the parent object.
 
 .. note::
@@ -154,7 +153,7 @@ was adapted to the vertex normals of the parent mesh
 
      - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_norot.png
 
-          Tentacle dupliverted onto the parent mesh.
+          Tentacles instanced onto the parent mesh.
 
      - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_rot.png
 
