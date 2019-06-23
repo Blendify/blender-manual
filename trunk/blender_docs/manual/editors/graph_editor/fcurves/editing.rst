@@ -8,7 +8,7 @@ By default, when new channels are added, the *Graph Editor* sets them to *Edit M
 Many of the hotkeys are the same as the :doc:`3D View ones </scene_layout/object/index>`,
 for example:
 
-- :kbd:`G` to grab
+- :kbd:`G` to move
 - :kbd:`R` to rotate
 - :kbd:`S` to scale
 - :kbd:`B` for box select/deselect

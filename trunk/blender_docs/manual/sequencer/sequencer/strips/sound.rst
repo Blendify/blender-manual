@@ -18,7 +18,7 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
 Working with Audio Tracks
 =========================
 
-A sound strip is just like any other strip in the VSE. You can grab and move it,
+A sound strip is just like any other strip in the VSE. You can select and move it,
 adjust its starting offset using :kbd:`LMB` over the arrow end handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.

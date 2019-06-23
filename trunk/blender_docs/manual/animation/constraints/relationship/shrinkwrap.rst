@@ -33,7 +33,7 @@ Shrinkwrap Type
 ---------------
 
 This selector allows you to select which method to use to compute the point on
-the target's surface to which to translate the owner's origin. You have these options:
+the target's surface to which to move the owner's origin. You have these options:
 
 
 Nearest Surface Point

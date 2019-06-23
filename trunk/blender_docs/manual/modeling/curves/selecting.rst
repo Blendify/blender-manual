@@ -13,7 +13,7 @@ so you can select a simple control point with the :kbd:`LMB`,
 add to current selection with :kbd:`Shift-LMB`, Box Select :kbd:`B`, and so on.
 
 One word about the Bézier control points: when you select the main central vertex,
-the two handles are automatically selected too, so you can grab it as a whole,
+the two handles are automatically selected too, so you can move it as a whole,
 without creating an angle in the curve. However, when you select a handle,
 only this vertex is selected, allowing you to modify this control vector...
 

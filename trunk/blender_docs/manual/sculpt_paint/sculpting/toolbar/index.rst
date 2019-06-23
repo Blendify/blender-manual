@@ -67,7 +67,7 @@ Snake Hook :kbd:`K`
       The *Snake Hook* brush tends to loose volume along the stroke,
       with pinch > 0.5 it's possible to sculpt shapes without loosing volume.
    Rake
-      A factor to support grabbing the mesh with rotation following the cursor's motion.
+      A factor to support moving the mesh with rotation following the cursor's motion.
 Thumb
    Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
    while moving it in the direction of the brush stroke.

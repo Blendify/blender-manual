@@ -259,7 +259,7 @@ Editing
 Moving Keypoints or Particles
 -----------------------------
 
-- To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
+- To move selected keypoints press :kbd:`G`, or use one of the various other methods to move vertices.
 - To move a particle root you have to turn off Keep *Root* in the Tool Shelf.
 - You can do many of the things like with vertices, including scaling,
   rotating and removing (complete particles or single keys).

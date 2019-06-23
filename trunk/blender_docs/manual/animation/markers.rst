@@ -153,7 +153,7 @@ Duplicate Marker
    :Hotkey:    :kbd:`Shift-D`
 
 You can duplicate the selected markers by pressing :kbd:`Shift-D`. Once duplicated,
-the new ones are automatically placed in grab mode, so you can move them to the desired location.
+the new ones are automatically placed in select mode, so you can move them to the desired location.
 
 .. note::
 
@@ -203,14 +203,14 @@ know what they stand for. You can name a marker by selecting it, pressing :kbd:`
 typing the name, and pressing the OK button.
 
 
-Grab/Move Marker
-----------------
+Move Marker
+-----------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`Marker --> Grab/Move Marker`
+   :Menu:      :menuselection:`Marker --> /Move Marker`
    :Hotkey:    :kbd:`G`
 
 Once you have one or more markers selected, press :kbd:`G`,
@@ -219,7 +219,7 @@ to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
 (as usual, cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
 Or drag them with the :kbd:`LMB`.
 
-By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
+By default, you move the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
 the markers will move in steps corresponding to one second (according to the scene's *FPS*).
 
 

@@ -92,7 +92,7 @@ This can be achieved by mixing the movie clip and the image by using the plane o
 Using Image Output vs Using Original Image
 ==========================================
 
-Using Image output scales, translates and skews the input image according to the track
+Using Image output scales, moves, and skews the input image according to the track
 while using the original image and mixing it with the movie clip using Plane output as factor
 will display the part of the image that lies inside that mask. This image shows the difference:
 

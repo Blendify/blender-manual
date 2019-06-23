@@ -12,7 +12,7 @@ You can think of it as animated
 :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 While hooks do not give you the fine control over vertices movement that shape keys do,
-they have the advantage that you can grab vertices directly for manipulation.
+they have the advantage that you can select vertices directly for manipulation.
 
 .. figure:: /images/modeling_modifiers_deform_hooks_example.png
    :width: 460px

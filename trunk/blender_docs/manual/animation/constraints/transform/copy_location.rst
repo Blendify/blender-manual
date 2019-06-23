@@ -30,7 +30,7 @@ X, Y, Z
       The *Invert* buttons invert their respective preceding coordinates.
 
 Offset
-   When enabled, this control allows the owner to be translated (using its current transform properties),
+   When enabled, this control allows the owner to be moved (using its current transform properties),
    relative to its target's position.
 
 Space

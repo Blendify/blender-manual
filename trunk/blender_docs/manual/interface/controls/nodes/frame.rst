@@ -21,7 +21,7 @@ Label size
    Font size of the label. For example, for subordinate frames to have smaller titles.
 Shrink
    Once a node is placed in the Frame, the Frame shrinks around it so as to remove wasted space.
-   At this point it is no longer possible to grab the edge of the Frame to resize it, instead resizing occurs
+   At this point it is no longer possible to select the edge of the Frame to resize it, instead resizing occurs
    automatically when nodes within the Frame are rearranged.
    This behavior can be changed by disabling this option.
 Text
