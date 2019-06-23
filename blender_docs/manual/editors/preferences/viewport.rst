@@ -23,7 +23,7 @@ Playback FPS
 .. _prefs-viewport-gizmo-size:
 
 Gizmo size
-   Diameter of the manipulator.
+   Diameter of the gizmo.
 Look Dev Sphere Size
    Diameter of the LookDev sphere overlay.
 3D Viewport Axis

@@ -104,7 +104,7 @@ These keys are shared across editors such as the 3D Viewport, UV and Graph edito
    * - :kbd:`AccentGrave`
      - 3D View navigation pie menu.
    * - :kbd:`Ctrl-AccentGrave`
-     - Toggle manipulator.
+     - Toggle gizmos.
    * - :kbd:`Shift-AccentGrave`
      - Walk/Fly Mode.
 

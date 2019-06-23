@@ -40,17 +40,17 @@ Press :kbd:`G`, :kbd:`R` or :kbd:`S` and then hold either :kbd:`Ctrl`,
 :kbd:`Shift` or :kbd:`Shift-Ctrl`.
 
 
-With the Transform Manipulator
-------------------------------
+With the Transform Gizmo
+------------------------
 
 Hold :kbd:`Ctrl`, :kbd:`Shift` or :kbd:`Shift-Ctrl` and click on the appropriate
-manipulator handle. Then move the mouse in the desired direction.
-The reverse action will also work i.e. clicking the manipulator handle and
+gizmo handle. Then move the mouse in the desired direction.
+The reverse action will also work i.e. clicking the gizmo handle and
 then holding the shortcut key for precision control.
 
 .. seealso::
 
-   :doc:`Read more about the Transform Manipulator </scene_layout/object/editing/transform/control/manipulators>`.
+   :doc:`Read more about the Transform Gizmo </scene_layout/object/editing/transform/control/gizmos>`.
 
 .. tip:: Combining with Other Controls
 

@@ -18,7 +18,7 @@ Transform Orientations
 *Transform Orientations* affect the behavior of
 :doc:`Transformations </scene_layout/object/editing/transform/basics>`: *Location*, *Rotation*, and *Scale*.
 You will see an effect on
-the :doc:`Object Manipulator </scene_layout/object/editing/transform/control/manipulators>`
+the :doc:`Object Gizmo </scene_layout/object/editing/transform/control/gizmos>`
 (the widget in the center of the selection), as well as on transformation constraints,
 :doc:`Axis Locking </scene_layout/object/editing/transform/control/precision/axis_locking>`.
 
@@ -40,20 +40,20 @@ Orientations
 ============
 
 Global
-   The manipulator matches the *Global* (or *World*) axis.
+   The gizmo matches the *Global* (or *World*) axis.
 
    The :doc:`Axis </editors/3dview/startup_scene>` in the top right corner of the viewport,
    and the *Grid Floor*, shows the axes of world coordinate system.
 
 Local
-   The manipulator matches the *Object* axis.
+   The gizmo matches the *Object* axis.
 
-   When an object is rotated, the direction of the *Local* manipulator
+   When an object is rotated, the direction of the *Local* gizmo
    matches to the object's rotation relative to the global axes.
-   While the *Global* manipulator always correspond to world coordinates.
+   While the *Global* gizmo always correspond to world coordinates.
 
 Normal
-   The Z axis of the manipulator will match
+   The Z axis of the gizmo will match
    the :doc:`Normal </modeling/meshes/editing/normals>` of the selected element.
    If multiple elements are selected, it will orient towards the average of those normals.
 
@@ -64,7 +64,7 @@ Gimbal
    depending on the current :ref:`Rotation Mode <rotation-modes>`.
 
 View
-   The manipulator will match the 3D View (viewport):
+   The gizmo will match the 3D View (viewport):
 
    - Y: Up/Down
    - X: Left/Right
@@ -75,7 +75,7 @@ View
    Examples
    --------
 
-   .. list-table:: Cube with the rotation manipulator active in multiple transform orientations.
+   .. list-table:: Cube with the rotation gizmo active in multiple transform orientations.
 
       * - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-global-1.png
             :width: 240px
@@ -85,12 +85,12 @@ View
       - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-global-2.png
             :width: 240px
 
-            Rotated cube with Global orientation, manipulator has not changed.
+            Rotated cube with Global orientation, gizmo has not changed.
 
       - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-local.png
             :width: 240px
 
-            Local orientation, manipulator matches to the object's rotation.
+            Local orientation, gizmo matches to the object's rotation.
 
       * - .. figure:: /images/editors_3dview_object_editing_transform_control_orientations_manipulator-normal.png
             :width: 240px
