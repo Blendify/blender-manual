@@ -45,7 +45,7 @@ Blend Mode
    Alpha Blend
       Render polygon transparent, depending on alpha channel of the texture.
    Alpha Sort
-      Sort faces for correct alpha drawing (slow, use *Alpha Clip* instead when possible).
+      Sort faces for correct alpha rendering (slow, use *Alpha Clip* instead when possible).
    Alpha Anti-Aliasing
       Use texture alpha to add an anti-aliasing mask,
       requires multisampling to be enabled.

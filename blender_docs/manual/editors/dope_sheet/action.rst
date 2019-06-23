@@ -9,7 +9,7 @@ So it takes place somewhere in between the low-level
 :doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla/index>`.
 
 It gives you a slightly simplified view of the F-Curve data-blocks
-(somewhat similar to F-Curve drawn without handles).
+(somewhat similar to F-Curve shown without handles).
 The editor can list all Action data-blocks of an object at once.
 
 Each Action data-block forms a top-level channel (see below).

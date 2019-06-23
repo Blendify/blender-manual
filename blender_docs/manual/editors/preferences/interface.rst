@@ -56,7 +56,7 @@ Editors
 Region Overlap
    This makes regions overlap the viewport.
    It means that the *Tool Shelf* and *Sidebar regions*,
-   will be drawn overlapping the 3D View editor.
+   will be displayed overlapping the 3D View editor.
 Corner Splitting
    Split & join by dragging from the corners.
 
@@ -102,7 +102,7 @@ Text Rendering
 
 Anti-aliasing
    Enable interface text anti-aliasing.
-   When disabled, texts are drawn using straight text rendering (filling only absolute pixels).
+   When disabled, texts are rendered using straight text rendering (filling only absolute pixels).
 Hinting
    Adjust `font hinting <https://en.wikipedia.org/wiki/Font_hinting>`__,
    controls the spacing and crispness of text display.

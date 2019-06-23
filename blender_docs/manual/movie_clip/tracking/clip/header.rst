@@ -33,9 +33,9 @@ Info
    projected back to the movie clip and displayed as a small point. The color of the point depends on the distance
    between the projected coordinate and the original coordinate: if they are close enough, the point is green,
    otherwise it will be red. This helps to find tracks which were not solved nicely and need to be tweaked.
-Draw Thin
+Display Thin
    The way in which markers are displayed compact (black outline and yellow foreground color)
    makes tracks visible on all kind of footage (both dark and light).
    But sometimes it can be annoying and this option will make the marker display more compactly --
-   the outline is replaced by dashed black lines drawn on top of the foreground,
+   the outline is replaced by dashed black lines rendered on top of the foreground,
    so that marker areas are only 1px thick.

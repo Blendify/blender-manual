@@ -29,7 +29,7 @@ Display As
    Axis
       Particles are displayed as 3-point axes.
       This is useful if you want to see the orientation and rotation of particles in the viewport.
-      Increase the *Draw Size* until you can clearly distinguish the axis.
+      Increase the *Display Size* until you can clearly distinguish the axis.
 
 Particles visualized like Point, Circle, Cross and Axis do not have any special options,
 but can be very useful when you have multiple particle systems at play,
@@ -39,7 +39,7 @@ if you do not want to confuse particles of one system from another
 Amount
    Specifies the percentage of all particles to show in the viewport (all particles are still rendered).
 Color
-   The Color Menu allows you to draw particles according to certain particle properties.
+   The Color Menu allows you to display particle's color according to certain particle properties.
 
    None
       Particles are black.

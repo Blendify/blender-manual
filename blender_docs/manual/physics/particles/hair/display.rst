@@ -9,9 +9,9 @@ Viewport Display
    :Panel:     :menuselection:`Particle System --> Display`
 
 Rendered
-   Draw hair as curves.
+   Display hair as curves.
 Path
-   Draw just the end points of the hairs.
+   Display just the end points of the hairs.
 
 Steps
    The number of segments (control points minus 1) of the hair strand.

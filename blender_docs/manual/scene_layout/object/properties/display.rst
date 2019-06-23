@@ -10,14 +10,14 @@ Display
 
    Display panel.
 
-The *Display* panel is used to enable extra drawing or viewing options for the 3D View.
+The *Display* panel is used to enable extra display options for the 3D View.
 
 Name
    Displays the name of the object in the 3D View.
 Axis
    Displays an object similar to an *Empty* that shows the object's axis.
 Wireframe
-   Draws an object's wireframe on top of the solid drawing.
+   Displays an object's wireframe on top of the solid display.
 All Edges
    Displays all edges for mesh objects.
 Texture Space
@@ -25,7 +25,7 @@ Texture Space
 Shadow
    Allows the object to cast shadows in the viewport.
 In Front
-   Makes the object draw in front of others. (Unsupported for duplicator drawing).
+   Makes the object display in front of others. (Unsupported for instanced objects).
 Display As
    The shading mode to display in the 3D View; this can be useful if you have
    a high-poly object that is slowing down performance.

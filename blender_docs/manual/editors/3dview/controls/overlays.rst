@@ -198,7 +198,7 @@ Normals
 - Display face normals
 
 Size
-  The size to draw the selected normals.
+  The size to show the selected normals.
 
 
 Developer

@@ -313,12 +313,12 @@ Thirds
 Golden
    Divides the width and height into Golden proportions (about 0.618 of the size from all sides of the frame).
 Golden Triangle A
-   Draws a diagonal line from the lower left to upper right corners,
+   Displays a diagonal line from the lower left to upper right corners,
    then adds perpendicular lines that pass through the top left and bottom right corners.
 Golden Triangle B
    Same as A, but with the opposite corners.
 Harmonious Triangle A
-   Draws a diagonal line from the lower left to upper right corners,
+   Displays a diagonal line from the lower left to upper right corners,
    then lines from the top left and bottom right corners to 0.618 the lengths of the opposite side.
 Harmonious Triangle B
    Same as A, but with the opposite corners.
@@ -420,7 +420,7 @@ each scene **must** have an active camera.
 The active camera can also be set in the *Scene* tab of the *Properties Editor*.
 
 The camera with the solid triangle on top is the active camera.
-Limit and mist indicators of cameras are drawn darker if the camera is not the active camera for the current scene.
+Limit and mist indicators of cameras are displayed darker if the camera is not the active camera for the current scene.
 
 .. note::
 
@@ -439,7 +439,7 @@ Render Border
    :Menu:      :menuselection:`View --> Render Border`
    :Hotkey:    :kbd:`Ctrl-B`
 
-While in camera view, you can define a subregion to render by drawing out a rectangle within the camera's frame.
+While in camera view, you can define a subregion to render by drawing a rectangle within the camera's frame.
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times for quick previews on an area of interest.
 

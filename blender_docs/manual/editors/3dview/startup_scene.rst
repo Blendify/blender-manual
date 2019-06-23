@@ -17,7 +17,7 @@ Elements
 
 Cube
    The gray cube in the center of the scene is a :doc:`mesh </modeling/meshes/index>` object.
-   Because the cube is selected it is drawn with an orange outline.
+   Because the cube is selected it is displayed with an orange outline.
 
    Object Origin
       The :doc:`Origin of the object </scene_layout/object/origin>` is displayed as

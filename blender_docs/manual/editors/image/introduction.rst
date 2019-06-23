@@ -61,7 +61,7 @@ In the dropdown menu on the right, the displayed channels can be selected.
 Color and Alpha
    Replaces transparent pixels with background checkerboard, denoting the alpha channel.
 Color
-   Draw the colored image, without alpha channel.
+   Display the colored image, without alpha channel.
 Alpha
    Displays the Alpha channel a grayscale image. White areas are opaque, black areas have an alpha of 0.
 Z-Buffer

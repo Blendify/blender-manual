@@ -30,17 +30,17 @@ The Weighting Color Code
 ========================
 
 Weights are visualized by a gradient using a cold/hot color system,
-such that areas of low value (with weights close to 0.0) are drawn in blue (cold)
-and areas of high value (with weights close to 1.0) are drawn in red (hot).
-And all in-between values are drawn in rainbow colors (blue, green, yellow, orange, red).
+such that areas of low value (with weights close to 0.0) are displayed as blue (cold)
+and areas of high value (with weights close to 1.0) are displayed as red (hot).
+And all in-between values are displayed as rainbow colors (blue, green, yellow, orange, red).
 
 .. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code.png
 
    The color spectrum and their respective weights.
 
 In addition to the above described color code, Blender has a special visual notation
-(as an option) for unreferenced vertices: They are drawn in black.
-Thus you can see the referenced areas (drawn in cold/hot colors) and
+(as an option) for unreferenced vertices: They are displayed as black.
+Thus you can see the referenced areas (displayed as cold/hot colors) and
 the unreferenced areas (in black) at the same time.
 This is most practicable when you look for weighting errors.
 See :doc:`/sculpt_paint/weight_paint/options`.

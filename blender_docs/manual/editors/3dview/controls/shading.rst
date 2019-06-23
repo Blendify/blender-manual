@@ -30,7 +30,7 @@ Color
       A random color will be selected for every object in the scene.
 
 Background
-   The way how to draw the background in the 3D Viewport.
+   How the background is displayed in the 3D Viewport.
 
    Theme
       Use the background of the theme.
@@ -60,7 +60,7 @@ render the 3D Viewport. The :doc:`lighting </render/workbench/lighting>`,
 can be found at Workbench render engine section.
 
 Background
-   The way how to draw the background in the 3D Viewport.
+   The way the background is displayed in the 3D Viewport.
 
    Theme
       Use the background of the theme.
@@ -76,7 +76,7 @@ Look Dev
 ========
 
 Show the scene in the 3D View in LookDev mode.
-This mode is specialized for drawing materials.
+This mode is specialized for visualizing materials.
 You can select different lighting conditions to test your materials.
 
 Lighting

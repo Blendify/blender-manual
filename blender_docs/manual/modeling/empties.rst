@@ -19,9 +19,9 @@ For other tools see the :doc:`Object section </scene_layout/object/index>`.
 
 Apply Scale :kbd:`Ctrl-A`
    While Empties don't exactly have any object data attached to them which can be used for supporting
-   "true" apply scale (i.e. with non-uniform scaling), they do have a draw size value which controls how
-   large the empties are drawn (before scaling). This works by taking the scale factor on the most-scaled axis,
-   and combines this with the existing empty draw size to maintain the correct dimensions on that axis.
+   "true" apply scale (i.e. with non-uniform scaling), they do have *Display Size* which controls how
+   large the empties are displayed (before scaling). This works by taking the scale factor on the most-scaled axis,
+   and combines this with the existing empty *Display Size* to maintain the correct dimensions on that axis.
 
 
 Properties
@@ -30,30 +30,30 @@ Properties
 .. figure:: /images/modeling_empties_draw-types.png
    :align: right
 
-   Empty Draw Types.
+   Empty Display Types.
 
 Display
    Plain Axes
-      Draws as six lines, initially with one pointing in each of the +X, -X, +Y, -Y, +Z, and -Z axis directions.
+      Displays as six lines, initially with one pointing in each of the +X, -X, +Y, -Y, +Z, and -Z axis directions.
    Arrows
-      Draws as arrows, initially pointing in the positive X, Y, and Z axis directions, each with a label.
+      Displays as arrows, initially pointing in the positive X, Y, and Z axis directions, each with a label.
    Single Arrow
-      Draws as a single arrow, initially pointing in the +Z axis direction.
+      Displays as a single arrow, initially pointing in the +Z axis direction.
    Circle
-      Draws as a circle initially in the XZ plane.
+      Displays as a circle initially in the XZ plane.
    Cube
-      Draws as a cube, initially aligned to the XYZ axes.
+      Displays as a cube, initially aligned to the XYZ axes.
    Sphere
-      Draws as an implied sphere defined by three circles.
+      Displays as an implied sphere defined by three circles.
       Initially, the circles are aligned, one each, to the X, Y, and Z axes.
    Cone
-      Draws as a cone, initially pointing in the +Y axis direction.
+      Displays as a cone, initially pointing in the +Y axis direction.
    Image
       Empties can display images. This can be used to create reference images,
       including blueprints or character sheets to model from, instead of using background images.
       The image is displayed regardless of the 3D display mode.
 
-      Empty draw settings can be accessed from :menuselection:`Properties --> Object Data --> Empty` panel.
+      Empty Displays settings can be accessed from :menuselection:`Properties --> Object Data --> Empty` panel.
 
       Use Alpha
          Use alpha blending instead of alpha-test
@@ -70,8 +70,8 @@ Display
          :X=1.0, Y=1.0: Object origin at image top, right.
       Depth
          :Default: Use normal depth behavior.
-         :Front: Always draw on top of other objects.
-         :Back: Always draw behind of other objects.
+         :Front: Always display on top of other objects.
+         :Back: Always display behind of other objects.
 
          .. tip::
 
@@ -79,9 +79,9 @@ Display
             it can be useful to set the depth to *Front*, with a low *Transparency*.
 
       Side
-         :Both: Draw both the front & back of the empty.
-         :Front: Only draw the front of the image.
-         :Back: Only draw the back of the image.
+         :Both: Display both the front & back of the empty.
+         :Front: Only display the front of the image.
+         :Back: Only display the back of the image.
 
          .. tip::
 

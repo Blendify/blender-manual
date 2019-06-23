@@ -24,7 +24,7 @@ Region Controls
 Update Automatically
    Update the view in multiple areas.
 Show Metadata
-   Draws the Metadata if they were set in the render tab's :doc:`/render/output/metadata` panel.
+   Displays the Metadata if they were set in the render tab's :doc:`/render/output/metadata` panel.
 View Zoom In/Out
    Adjusts the Zoom level :kbd:`Wheel`.
 Fractional Zoom

@@ -3,7 +3,7 @@
 Viewport Render
 ***************
 
-Viewport rendering uses the 3D View's drawing for quick *preview* renders.
+Viewport rendering uses the 3D Viewport rendering for quick *preview* renders.
 
 This allows you to inspect your animatic
 (for object movements, alternate angles, etc.).

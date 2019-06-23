@@ -43,7 +43,7 @@ N-gon Method
       Arrange the new triangles nicely, slower method.
    Clip
       Split the polygons using an ear-clipping algorithm
-      (gives similar results to the tessellation used for 3D View drawing).
+      (gives similar results to the tessellation used for the viewport rendering).
 
 Keep Normals
    When using :ref:`custom normals <modeling_meshes_normals_custom>`,

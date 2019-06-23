@@ -128,7 +128,7 @@ Blend
    whereas the spotlight edges are soft.
    If you want other items to cast soft shadows within the *Spot* area, you will need to alter other shadow settings.
 Show Cone
-   Draw a transparent cone in 3D View to visualize which objects are contained in it.
+   Displays a transparent cone in 3D View to visualize which objects are contained in it.
 
 
 .. _light-type-area:

@@ -86,8 +86,8 @@ Subdivide UVs
    When enabled, the UV maps will also be subdivided.
    (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
 Optimal Display
-   When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
-   (only draws the edges of the original geometry).
+   When rendering the wireframe of this object, the wires of the new subdivided edges will be skipped
+   (only displays the edges of the original geometry).
 
 Save External
    Saves displacements to an external ``.btx`` file.

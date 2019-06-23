@@ -34,20 +34,20 @@ In *Edit Mode* there are three different selection modes.
 You can enter the different modes by selecting one of the three buttons in the header.
 
 Vertices
-   In this mode vertices are drawn as points.
+   In this mode vertices are shown as points.
 
-   Selected vertices are drawn in orange, unselected vertices in black,
+   Selected vertices are displayed in orange, unselected vertices in black,
    and the active or last selected vertex in white.
 Edges
-   In this mode the vertices are not drawn.
+   In this mode the vertices are not shown.
 
-   Instead the selected edges are drawn in orange,
+   Instead the selected edges are displayed in orange,
    unselected edges black, and the active or last selected edge in white.
 Faces
-   In this mode the faces are drawn with a selection point in the middle which is used for selecting a face.
+   In this mode the faces are displayed with a selection point in the middle which is used for selecting a face.
 
-   Selected faces and their selection point are drawn in orange,
-   unselected faces are drawn in black, and the active or last selected face is highlighted in white.
+   Selected faces and their selection point are displayed in orange,
+   unselected faces are displayed in black, and the active or last selected face is highlighted in white.
 
 When using these buttons, you can make use of modifier keys, see: `Switching Select Mode`_.
 

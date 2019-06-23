@@ -166,7 +166,7 @@ Pie Menu on Drag
       :drag: Object mode pie menu.
    :kbd:`Z`
       :tap: Toggles wireframe view.
-      :drag: Draw mode pie menu.
+      :drag: Display mode pie menu.
    :kbd:`AccentGrave`
       :tap: First person :ref:`Fly/walk mode <3dview-fly-walk>`.
       :drag: View axis pie menu.

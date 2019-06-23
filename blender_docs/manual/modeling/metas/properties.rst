@@ -94,11 +94,11 @@ While transforming metas (grab/move, scale, etc.), you have four "modes" of visu
 located in the *Update* buttons group of the *Metaball* panel:
 
 Always
-   fully draw the meta during transformations.
+   fully display the meta during transformations.
 Half
-   During transformations, draw the meta at half its *Wiresize* resolution.
+   During transformations, display the meta at half its *Wiresize* resolution.
 Fast
-   Do not show meta mesh during transformations.
+   Do not display meta during transformations.
 Never
    Never show meta mesh (not a very recommended option, as the meta is only visible at render time!).
 

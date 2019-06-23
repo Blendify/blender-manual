@@ -92,7 +92,7 @@ In this arrangement, you can zoom and pan each view independently but you cannot
 
    Quad View is different from :doc:`splitting the area </interface/window_system/areas>`
    and aligning the view manually. In Quad View, the four views are still part of a single 3D View.
-   So they share the same draw options and layers.
+   So they share the same display options and layers.
 
 .. figure:: /images/editors_3dview_navigate_views_quad.png
 

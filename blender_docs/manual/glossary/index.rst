@@ -258,10 +258,10 @@ This page lists definitions for terms used in Blender and this manual.
       from one to the other.
 
    Double Buffer
-      Technique for drawing and displaying content on the screen.
-      Blender uses two buffers (images) to draw the interface in.
-      The content of one buffer is displayed while drawing occurs on the other buffer.
-      When drawing is complete, the buffers are switched.
+      Technique for rendering and displaying content on the screen.
+      Blender uses two buffers (images) to render the interface,
+      the content of one buffer is displayed while rendering occurs on the other buffer.
+      When rendering is complete, the buffers are switched.
 
    Edge
       Straight segment (line) that connects two :term:`vertices <vertex>`, and can be part of a :term:`face`.
@@ -354,7 +354,7 @@ This page lists definitions for terms used in Blender and this manual.
       A subcomponent of a :term:`Bone`. The point of rotation for that :term:`Bone`.
       Has X, Y and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`.
       Used in conjunction with the :term:`Tail` to define the :term:`local <Local Space>` Y axis of the :term:`Bone`
-      in :term:`Pose Mode`. The larger of the two ends when drawn as an :term:`Octahedron`.
+      in :term:`Pose Mode`. The larger of the two ends when displayed as an :term:`Octahedron`.
 
    HDRI
    High Dynamic Range Image
@@ -537,7 +537,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    OpenGL
       The graphics system used by Blender (and many other graphics applications)
-      for drawing 3D graphics, often taking advantage of hardware acceleration.
+      for rendering 3D graphics, often taking advantage of hardware acceleration.
 
       See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
@@ -609,7 +609,7 @@ This page lists definitions for terms used in Blender and this manual.
       Perspective
          A *perspective* view is geometrically constructed by taking a scene in 3D and placing an observer
          at point *O*. The 2D perspective scene is built by placing a plane (e.g. a sheet of paper)
-         where the 2D scene is to be drawn in front of point *O*, perpendicular to the viewing direction.
+         where the 2D scene is to be rendered in front of point *O*, perpendicular to the viewing direction.
          For each point *P* in the 3D scene a *PO* line is drawn, passing by *O* and *P*.
          The intersection point *S* between this *PO* line and the plane is the perspective projection
          of that point. By projecting all points *P* of the scene you get a perspective view.
@@ -723,7 +723,7 @@ This page lists definitions for terms used in Blender and this manual.
       A subcomponent of a :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space`
       of the Armature Object. Used in conjunction with the :term:`Head`
       to define the :term:`local <Local Space>` Y axis of a :term:`Bone` in :term:`Pose Mode`.
-      The smaller of the two ends when drawn as an :term:`Octahedron`.
+      The smaller of the two ends when displayed as an :term:`Octahedron`.
 
    Tessellation
       The tiling of a plane using one or more geometric shapes usually resulting in :term:`Micropolygons`.

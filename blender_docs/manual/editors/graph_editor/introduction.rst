@@ -108,11 +108,11 @@ Show Sliders
    A toggle option that shows the value sliders for the channels.
    See the Fig. :ref:`fig-dope-sheet-action`.
 Show Group Colors
-   Draw groups and channels with colors matching their corresponding groups.
+   Display groups and channels with colors matching their corresponding groups.
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
-Use High Quality Drawing
-   Draws F-Curves using anti-aliasing and other fancy effects (disable for better performance).
+Use High Quality Display
+   Display F-Curves using anti-aliasing and other fancy effects (disable for better performance).
 Show Handles :kbd:`Ctrl-H`
    Toggles the display of a curve's handles in the curve view.
 Only Selected Curve Keyframes

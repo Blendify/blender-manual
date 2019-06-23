@@ -27,7 +27,7 @@ Frame Selected :kbd:`NumpadPeriod`
 Frame All :kbd:`Home`
    Zooms the display to show all strips.
 Zoom :kbd:`Shift-B`
-   Click and drag to draw rectangle and zoom to this rectangle.
+   Click and drag to draw a rectangle and zoom to this rectangle.
 Navigation
    Play Animation :kbd:`Spacebar`
       Start or stop playback of animation. This will start playback in all editors.
@@ -66,7 +66,7 @@ Cache
       Show all enabled types.
       Final Images, Raw Images, Preprocessed Images, Composite Images
 Waveform Displaying
-   Global option to either draw the waveform, or the strip info,
+   Global option to either display the waveform, or the strip info,
    or use the individual :ref:`strip option <sequencer-sound-waveform>`.
 Sequence Render Image
    Render image at playhead position

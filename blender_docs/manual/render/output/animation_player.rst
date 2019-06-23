@@ -93,9 +93,9 @@ The following table shows the available hotkeys for the animation player.
      - Hotkey
    * - Toggle Playhead (Indicator):
      - :kbd:`I`
-   * - Flip drawing on the X axis:
+   * - Flip image on the X axis:
      - :kbd:`F`
-   * - Flip drawing on the Y axis:
+   * - Flip image on the Y axis:
      - :kbd:`Shift-F`
    * - Hold to show frame numbers:
      - :kbd:`Shift`

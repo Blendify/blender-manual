@@ -4,8 +4,8 @@
 3D View
 *******
 
-Drawing
-=======
+Rendering
+=========
 
 .. _troubleshooting-depth:
 
@@ -54,8 +54,8 @@ The camera will only show objects that fall within the clipping range.
 Performance
 ===========
 
-Slow Drawing
-------------
+Slow Rendering
+--------------
 
 There are a couple of reasons why you may be experiencing a slow viewport.
 
@@ -68,7 +68,7 @@ Upgrade Graphics Driver
 Slow Selection
 --------------
 
-Blender uses OpenGL drawing for selection, some graphics card drivers are slow at performing this operation.
+Blender uses OpenGL for selection, some graphics card drivers are slow at performing this operation.
 
 This becomes especially problematic on dense geometry.
 
@@ -85,8 +85,8 @@ Upgrade Graphics Driver
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
    While this can be useful on its own, its has the side effect of not relying on OpenGL selection.
-Change Draw Modes (Workaround)
-   Using *Wireframe* draw mode can be used to more quickly select different objects.
+Change Display Mode (Workaround)
+   Using *Wireframe* display mode can be used to more quickly select different objects.
 
 .. note::
 

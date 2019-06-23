@@ -37,7 +37,7 @@ To create or remove motion paths, it is necessary to first select the bones. The
 
    Remember that only selected bones and their paths are affected by these actions!
 
-The paths are drawn in a light shade of gray for unselected points,
+The paths are shown in a light shade of gray for unselected points,
 and a slightly blueish gray for selected ones.
 Around the current frame a glow indicate the direction of movement:
 blue towards future frames and green towards the past.
@@ -78,7 +78,7 @@ Frame Range
 
 Cache/Bone Cache
    From, To
-      These are the start/end frames of the range in which motion paths are drawn.
+      These are the start/end frames of the range in which motion paths are shown.
       You cannot modify this range without deleting the motion path first.
 Calculate/Update Paths
    If no paths have been calculated, Calculate Paths will create a new motion path in cache based on
@@ -88,7 +88,7 @@ Calculate/Update Paths
    To change the frame range of the calculated path, you need to delete the path and calculate it again.
 
    Start, End
-      These are the start/end frames of the range in which motion paths are drawn.
+      These are the start/end frames of the range in which motion paths are shown.
       You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Views.
       The start frame is *inclusive*
       (i.e. if you set *Start* to 1, you will really see the frame 1 as starting point of the paths...).
@@ -109,7 +109,7 @@ Frame Numbers
    When enabled, a small number appears next to each frame dot on the path,
    which is of course the number of the corresponding frame.
 Keyframes
-   When enabled, big yellow square dots are drawn on motion paths, showing the keyframes of their bones
+   When enabled, big yellow square dots are displayed on motion paths, showing the keyframes of their bones
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 \+ Non-Grouped Keyframes
    For bone motion paths, it searches the whole Action for keyframes instead of
@@ -118,7 +118,7 @@ Keyframe Numbers
    When enabled, you will see the numbers of the displayed keyframes,
    so this option is obviously only valid when *Show Keys* is enabled.
 Lines
-   Toggles whether the lines between the points are drawn.
+   Toggles whether the lines between the points are shown.
 
    Thickness, Custom Color
       Customizable thickness and color for the lines.

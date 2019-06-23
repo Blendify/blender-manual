@@ -21,7 +21,7 @@ The option is available from the header of the 3D View
 
 *Select* mode has some advantages over the default *Weight Paint Mode*:
 
-- The original mesh edges are drawn, even when modifiers are active.
+- The original mesh edges are shown, even when modifiers are active.
 - You can select faces to restrict painting to the vertices of the selected faces.
 - Selecting tools include:
 

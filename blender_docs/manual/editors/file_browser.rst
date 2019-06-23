@@ -255,7 +255,7 @@ Previews
 
    The File Browser in *Thumbnail* mode.
 
-In its *Thumbnail* drawing mode, the File Browser supports many types of previews. These include:
+In its *Thumbnail* display mode, the File Browser supports many types of previews. These include:
 
 - Image and video formats
 - Fonts

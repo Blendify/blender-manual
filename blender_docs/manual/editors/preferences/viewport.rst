@@ -41,11 +41,11 @@ Quality
 .. TODO2.8: document what the difference exactly is between anti-aliasing & multisampling is.
 
 Viewport Anti-aliasing
-   Control the :term:`anti-aliasing` for smoother drawing.
+   Control the :term:`anti-aliasing` for higher quality rendering.
 Multisampling
-   This enables :term:`multisampling` for smoother drawing, at the expense of some performance.
+   This enables :term:`multisampling` for higher quality rendering, at the expense of some performance.
 Grease Pencil Multisampling
-   Control the :term:`anti-aliasing` for smoother grease pencil drawing.
+   Control the :term:`anti-aliasing` for higher quality grease pencil rendering.
 Edit-Mode Smooth Wires
    Display smooth wire in Edit Mode, without this wire will be rendered aliased.
 
@@ -63,20 +63,20 @@ Limit Size
    whereas the texture limit matches paging blocks of the textures in the target graphic card memory.
 Anisotropic Filtering
    Sets the level of anisotropic filtering.
-   This improves the quality of how textures are drawn at the cost of performance.
+   This improves the quality that textures are rendered at the cost of performance.
 Clip Alpha
    Clip alpha below this threshold in the 3D View.
    Note that, the default is set to a low value to prevent issues on some GPU's.
 Image Display Method
-   Method to draw images as the following options are supported:
+   Method to render images; the following options are supported:
 
    Automatic
       Automatically use *GLSL* which runs on the GPU for performance but falls back to
       the CPU for large images which might be slow when loaded with the GPU.
    2D Texture
-      Uses CPU for display transform and draws images as a 2D texture.
+      Uses CPU for display transform and render images as a 2D texture.
    GLSL
-      Fastest method using GLSL for display transform and draws images as a 2D texture.
+      Fastest method using GLSL for display transform and render images as a 2D texture.
 
 
 Selection

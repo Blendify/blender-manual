@@ -70,19 +70,22 @@ Sound
 
 Volume
    Sound Volume.
-   This value, even if animated will be reflected in drawn waveform
+   This value, even if animated will be reflected in the waveform
 Mute(speaker icon)
    Strip will not produce any output
 Pitch
    Coefficient of playback speed.
    This value will affect length of the strip, that will not be represented in timeline.
 Pan
-   Used to pan the audio from left and right channels. Only works for mono sources. Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right. In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back. So this value basically represents the angle at which it’s played.
+   Used to pan the audio from left and right channels. Only works for mono sources.
+   Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
+   In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back.
+   So this value basically represents the angle at which it’s played.
 
 .. _sequencer-sound-waveform:
 
 Display Waveform
-   Draw approximate waveform of the sound file inside of sound strip
-   Waveform reflects strip volume and it's animation using :doc:`keyframes </animation/keyframes/introduction>`
+   Display an approximate waveform of the sound file inside of the sound strip.
+   The waveform reflects strip volume and it's animation using :doc:`keyframes </animation/keyframes/introduction>`
 Mono
    Mixdown all audio channels into single one

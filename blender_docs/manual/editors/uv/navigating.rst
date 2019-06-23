@@ -21,9 +21,9 @@ UV Local View
    Displays only the UV faces that are assigned to the currently displayed image.
 
    .. (TODO2.8) BI only? ^^^
-Draw Other Objects
-   Draws the UVs of selected objects (Object Mode) in the background.
-Draw Texture Paint UVs
+Display Other Objects
+   Displays the UVs of selected objects (Object Mode) in the background.
+Display Texture Paint UVs
    Hides the UVs in Paint Mode.
 Frame Selected
    Change view so that all selected uv vertices are visible.
