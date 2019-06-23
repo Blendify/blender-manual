@@ -35,7 +35,7 @@ Display As
              B-Bone bone display.
 
         - .. figure:: /images/rigging_armatures_properties_display_envelope.png
-          :width: 320px
+             :width: 320px
 
              Envelope bone display.
 
