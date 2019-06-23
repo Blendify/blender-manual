@@ -9,7 +9,7 @@ Transform
    :align: right
 
 Transform is a swiss-army knife of image manipulation.
-It translates (shifts), rotates, and scales the images within a strip.
+It moves, rotates, and scales the images within a strip.
 
 
 Options

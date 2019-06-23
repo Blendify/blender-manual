@@ -10,7 +10,7 @@ Structure
 
 Armatures mimic real skeletons. They are made out of bones, which are (by default) rigid elements.
 But you have more possibilities than with real skeletons: In addition to the "natural" rotation of bones,
-you can also translate and even scale them! And your bones do not have to be connected to each other;
+you can also move and even scale them! And your bones do not have to be connected to each other;
 they can be completely free if you want. However,
 the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones",
 which create some sort of "limbs" in your armature, as detailed in `Chains of Bones`_.

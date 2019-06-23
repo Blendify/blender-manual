@@ -21,7 +21,7 @@ Duplicate
 
 This will create a visually-identical copy of the selected object(s).
 The copy is created at the same position as the original object and
-you are automatically placed in *Grab* mode. See the examples below.
+you are automatically placed in move mode. See the examples below.
 
 This copy is a new object, which shares some data-blocks with the original object
 (by default, all the Materials, Textures, and F-Curves), but which has copied others,

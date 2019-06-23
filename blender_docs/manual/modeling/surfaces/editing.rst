@@ -17,11 +17,11 @@ Translation, Rotation, Scale
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Tool shelf --> Tools --> Transform`
-   :Menu:      :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
+   :Menu:      :menuselection:`Surface --> Transform --> Move, Rotate, Scale`
    :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Once you have a selection of one or more control points,
-you can grab/move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
+you can move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </scene_layout/object/editing/transform/introduction>` section.
 
 You also have in *Edit Mode* an extra option when using these basic manipulations:
@@ -77,7 +77,7 @@ a surface with only one control point on each U or V row. In this special case,
 all works exactly as with :ref:`curves <modeling-curves-extrude>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated
-the extrusion happens immediately and you are placed into *Grab mode*,
+the extrusion happens immediately and you are placed into *select mode*,
 ready to drag the new extruded surface to its destination.
 
 There are two things very important to understand:
@@ -176,10 +176,10 @@ Duplication
    :Hotkey:    :kbd:`Shift-D`
 
 Similar as with meshes and curves, this tool duplicates the selection.
-The copy is selected and placed in *Grab* mode, so you can move it to another place.
+The copy is selected and placed in move mode, so you can move it to another place.
 
 However, with surfaces there are some selections that cannot be duplicated,
-in which case they will just be placed in *Grab* mode... In fact,
+in which case they will just be placed in move mode... In fact,
 only selections forming a *single* valid sub-grid are copyable; let us see this in practice:
 
 - You can copy a single control point.

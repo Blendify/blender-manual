@@ -16,7 +16,7 @@ rendered location of its owner, its owner's data-block still allows (by default)
 the object or bone to have coordinates outside the minimum and maximum ranges.
 This can be seen in its *Transform* panel.
 
-When an owner is grabbed and attempted to be moved outside the limit boundaries,
+When an owner is selected and attempted to be moved outside the limit boundaries,
 it will be constrained to those boundaries visually and when rendered, but internally,
 its coordinates will still be changed beyond the limits. If the constraint is removed,
 its ex-owner will seem to jump to its internally specified location.
@@ -54,8 +54,8 @@ For Transform
    the owner can still have coordinates out of bounds (as shown by the *Transform* panel).
    Well, when you enable this button, this is no longer possible --
    the owner's transform properties are also limited by the constraint.
-   Note however, that the constraint does not directly modify the coordinates: you have to grab
-   its owner one way or another for this to take effect...
+   Note however, that the constraint does not directly modify the coordinates:
+   you have to select its owner one way or another for this to take effect...
 
 Convert
    This constraint allows you to choose in which space to evaluate its owner's transform properties.

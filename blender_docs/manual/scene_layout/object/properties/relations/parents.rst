@@ -201,7 +201,7 @@ Bone Relative parenting is an option you can toggle for each bone.
 This works in the same way as Bone parenting with one difference.
 
 With Bone parenting if you have parented a bone to some Child Objects and
-you select that bone and switch it into Edit Mode and then translate that bone;
+you select that bone and switch it into Edit Mode and then move that bone;
 When you switch back into Pose Mode on that bone,
 the Child Object which is parented to that bone will snap back to the location of the bone in Pose Mode.
 

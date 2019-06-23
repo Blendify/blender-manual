@@ -9,7 +9,7 @@ Object Mode Tools
 =================
 
 :ref:`Select <tool-select-tweak>`
-   Select or translate.
+   Select or move.
 
    :ref:`Select Box <tool-select-box>`
       Select objects by dragging a box.

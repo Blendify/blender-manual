@@ -19,7 +19,7 @@ Each manipulator can be used separately or in combination with the others.
    * - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-translate.png
           :width: 320px
 
-          Translate.
+          Move.
 
      - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-rotate.png
           :width: 320px

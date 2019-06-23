@@ -20,8 +20,8 @@ but only the UV coordinates within the grid are mapped to the image. So,
 you can put pieces off to the side while you arrange them. Also,
 each UV unwrap is its own linked set of coordinates.
 
-You can lay them on top of one another, and they will onionskin
-(the bottom one will show through the top one). To grab only one though,
+You can lay them on top of one another, and they will onion skin
+(the bottom one will show through the top one). To move only one though,
 :kbd:`RMB` select one of the UV coordinates,
 and use :menuselection:`Select --> Linked UVs`, :kbd:`Ctrl-L`
 to select connected UVs, not box select because UVs from both will be selected.

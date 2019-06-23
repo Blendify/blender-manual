@@ -10,7 +10,7 @@ Editing
 .. TODO2.8    Pose Tools.
 
 In *Pose Mode*, bones behave like objects. So the transform actions
-(grab/rotate/scale, etc.) are very similar to the same ones in Object Mode
+(move/rotate/scale, etc.) are very similar to the same ones in Object Mode
 (all available ones are regrouped in the :menuselection:`Pose --> Transform` submenu). However,
 there are some important specificities:
 
@@ -185,7 +185,7 @@ Creates a suitable breakdown pose on the current frame.
 The Breakdowner tool can be constrained to work on specific transforms and axes,
 by pressing the following keys while the tool is active:
 
-- :kbd:`G`, :kbd:`R`, :kbd:`S`: translate, rotate, scale
+- :kbd:`G`, :kbd:`R`, :kbd:`S`: move, rotate, scale
 - :kbd:`B`: Bendy bones
 - :kbd:`C`: custom properties
 - :kbd:`X`, :kbd:`Y`, :kbd:`Z`: to the corresponding axes

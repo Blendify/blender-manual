@@ -51,7 +51,7 @@ Mapping
       The stencil is displayed as a screen space overlay on the viewport.
       To the transform the stencil texture and the stencil mask with additional :kbd:`Alt` pressed:
 
-      - Translate :kbd:`RMB`
+      - Move :kbd:`RMB`
       - Scale :kbd:`Shift-RMB`
       - Rotate :kbd:`Ctrl-RMB`
 

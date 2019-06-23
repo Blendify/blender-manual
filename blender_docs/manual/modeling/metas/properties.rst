@@ -90,7 +90,7 @@ The area circled in white shows the green *influence* rings intersecting.
 Update
 ======
 
-While transforming metas (grab/move, scale, etc.), you have four "modes" of visualization,
+While transforming metas (move, scale, etc.), you have four "modes" of visualization,
 located in the *Update* buttons group of the *Metaball* panel:
 
 Always

@@ -5,7 +5,7 @@ Snapping
 
 There are two types of snap operations that you can use in Blender. The first type snaps your
 selection or cursor to a given point while the second type is used during transformations
-(translate, rotate, scale) and snaps your selection to elements within the scene.
+(move, rotate, scale) and snaps your selection to elements within the scene.
 
 
 .. _bpy.ops.view3d.snap:

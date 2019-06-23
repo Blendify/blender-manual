@@ -145,7 +145,7 @@ i.e. this bone *and all its descendants* will no longer be affected when you sca
 
           Scaling of a bone with an Inherit Rotation disabled bone among its descendants.
 
-Connected bones have another specificity: they cannot be translated. Indeed,
+Connected bones have another specificity: they cannot be moved. Indeed,
 as their root must be at their parent's tip, if you do not move the parent,
 you cannot move the child's root, but only its tip, which leads to a child rotation.
 This is exactly what happens, when you press :kbd:`G` with a connected bone selected,
@@ -174,10 +174,10 @@ however, this should give a good idea of the problem:
   exactly as the unselected ones, even though it is selected and active.
   Otherwise, it should have been twice smaller!).
 - When connected and unconnected bones are selected,
-  and you start a grab operation, only the unconnected bones are affected.
+  and you start a move operation, only the unconnected bones are affected.
 - When a child connected hinge bone is in the selection,
   and the "most parent" selected one is connected, when you press :kbd:`G`,
-  nothing happens, because Blender remains in grab operation, which of course has no effect on a connected bone.
+  nothing happens, because Blender remains in move operation, which of course has no effect on a connected bone.
 
 So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone.
 This process is known as *forward kinematics* (FK).

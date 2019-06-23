@@ -15,9 +15,9 @@ Name
 Channel
    Changes the channel number, or row, of the strip.
 Start
-   Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
+   Changes the starting frame number of the strip, which is the same as selecting and moving the strip.
 End
-   Changes the ending frame number of the strip, which is the same as grabbing and moving the strip right handle.
+   Changes the ending frame number of the strip, which is the same as selecting and moving the strip right handle.
 Duration
    Specify the number of frames to use for the strip.
 Lock (padlock icon)

@@ -9,7 +9,7 @@ Introduction
    :Mode:      Object and Edit Modes
    :Hotkey:    :kbd:`Ctrl` and/or :kbd:`Shift`
 
-Holding :kbd:`Ctrl` during a transform operation (such as grab, rotate or scale)
+Holding :kbd:`Ctrl` during a transform operation (such as move, rotate or scale)
 will toggle :ref:`Transform Snapping <transform-snap>`.
 When the :ref:`Snap Element <transform-snap-element>` is set to *Increment*,
 this allows the transformation to be performed in discrete amounts.
@@ -63,22 +63,22 @@ then holding the shortcut key for precision control.
 Snapping
 ========
 
-Grab/move
----------
+Move
+----
 
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_introduction_blender-units.png
    :align: right
 
    One Blender Unit (default zoom level).
 
-For grab/move operations at the default zoom level,
-holding :kbd:`Ctrl` will cause your selection to move by increments of 1 Blender Unit (1 BU)
+For move operations at the default zoom level,
+holding :kbd:`Ctrl` will cause your selection to move by increments of 1 unit
 (i.e. between the two light gray lines). Zooming in enough to see the next set of gray
-lines will now cause :kbd:`Ctrl` movements to occur by 1/10 of a BU.
+lines will now cause :kbd:`Ctrl` movements to occur by 1/10 of a unit.
 Zooming in further until the next set of gray lines becomes visible
-will cause movement to happen by 1/100 of a BU and so on until the zoom limit is reached.
+will cause movement to happen by 1/100 of a unit and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and
-cause movement to happen by increments of 10 BU, 100 BU, etc.
+cause movement to happen by increments of 10, 100 units, etc.
 
 .. container:: lead
 
@@ -121,11 +121,11 @@ In rotation mode the selected element will be rotate in 0.01 degree increments.
 Precision Snapping
 ==================
 
-Grab/move
----------
+Move
+----
 
-For grab/move operations at the default zoom level, holding :kbd:`Shift-Ctrl` will cause your selection
-to move by increments of 1/10 Blender Units. Holding :kbd:`Shift-Ctrl` at
+For move operations at the default zoom level, holding :kbd:`Shift-Ctrl` will cause your selection
+to move by increments of 1/10 units. Holding :kbd:`Shift-Ctrl` at
 any zoom level will cause the transformation increments to always be 1/10 of the increment
 if you were only holding :kbd:`Ctrl`.
 

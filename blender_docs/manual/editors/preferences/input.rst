@@ -34,7 +34,7 @@ Emulate 3 Button Mouse
 
    :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag for example.
 Continuous Grab
-   This feature is used to prevent the problem where an action such as grabbing or panning a view,
+   This feature is used to prevent the problem where an action such as moving objects or panning a view,
    is limited by your screen bounds.
 
    This is done by warping the mouse within the view.

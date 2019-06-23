@@ -22,7 +22,7 @@ and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
 and in addition connected. Parented bones behave in *Edit Mode* exactly as if they
-had no relations. They can be grabbed, rotated, scaled, etc. without affecting their descendants.
+had no relations. They can be moved, rotated, scaled, etc. without affecting their descendants.
 However, connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
 

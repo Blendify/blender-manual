@@ -30,7 +30,7 @@ Transforms
    :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
    :Menu:      :menuselection:`UVs --> Transform`
 
-- Translate :kbd:`G`
+- Move :kbd:`G`
 - Rotate :kbd:`R`
 - Scale :kbd:`S`
 - Shear :kbd:`Shift-Ctrl-Alt-S`

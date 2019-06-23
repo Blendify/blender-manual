@@ -27,7 +27,7 @@ This tool allows you to apply a randomized transformation.
 Object Mode
 -----------
 
-In Object Mode it randomizes the translate, rotate,
+In Object Mode it randomizes the move, rotate,
 and scale values to an object or multiple objects. When applied on multiple objects,
 each object gets its own seed value, and will get different transform results from the rest.
 

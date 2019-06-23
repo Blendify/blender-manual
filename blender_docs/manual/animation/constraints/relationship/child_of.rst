@@ -110,7 +110,7 @@ Examples
 
           Target/parent transformed.
 
-          Target_1 has been translated in the XY plane, rotated around the Z axis,
+          Target_1 has been moved along the XY plane, rotated around the Z axis,
           and scaled along its local X axis.
 
    * - .. figure:: /images/rigging_constraints_relationship_child-of_example5.png

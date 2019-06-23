@@ -22,11 +22,11 @@ Translation, Rotation, Scale
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
-   :Menu:      :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
+   :Menu:      :menuselection:`Curve --> Transform --> Move, Rotate, Scale, ...`
    :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Like other elements in Blender, curve control points and handles can be
-grabbed/moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
+moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
 the :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>` section.
 When in *Edit Mode*,
 :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`
@@ -125,7 +125,7 @@ Extrude Curve and Move
    :Menu:      :menuselection:`Curve --> Extrude Curve and Move`
    :Hotkey:    :kbd:`E`
 
-Extrudes points by duplicating the selected points, which then can be translated.
+Extrudes points by duplicating the selected points, which then can be moved.
 If the selection is an end point, a new point will be connected to the selected point,
 else a new unconnected point is created.
 
@@ -160,7 +160,7 @@ Add Duplicate
 This tool duplicates the selected control points,
 along with the curve segments implicitly selected (if any).
 If only a handle is selected, the full point will be duplicated too.
-The copy is selected and placed in *Grab* mode, so you can move it to another place.
+The copy is selected and placed in select mode, so you can move it to another place.
 
 
 Separate

@@ -5,26 +5,26 @@ Basic Transformations
 
 .. _bpy.ops.transform.translate:
 
-Grab/Move
-=========
+Move
+====
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode, Edit Mode, and Pose Mode
-   :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Grab/Move`
+   :Menu:      :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Move`
    :Hotkey:    :kbd:`G`
 
-In Object Mode, the grab/move option lets you translate (move) objects.
-Translation means changing location of objects. It also lets you translate any elements
+In Object Mode, the move option lets you move objects.
+Translation means changing location of objects. It also lets you move any elements
 that make up the object within the 3D space of the active 3D View.
 
-Pressing :kbd:`G` activates "Grab/Move" transformation mode. The selected object
+Pressing :kbd:`G` activates "Move" transformation mode. The selected object
 or element then moves freely according to the mouse pointer's location and camera.
 
 To confirm the action, press :kbd:`LMB`.
 
-While Grab/Move is active, the amount of change in the X, Y, and Z coordinates
+While Move is active, the amount of change in the X, Y, and Z coordinates
 is displayed at the upper left corner of the 3D View editor.
 
 .. figure:: /images/editors_3dview_object_editing_transform_basics_grab-display-values.png

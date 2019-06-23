@@ -3,13 +3,13 @@
 Editing
 *******
 
-Grab/Move
-=========
+Move
+====
 
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Strip --> Transform --> Grab/Move`
+   :Menu:      :menuselection:`Strip --> Transform --> Move`
    :Hotkey:    :kbd:`G`
 
 Pressing :kbd:`G` moves the all selected strip(s).
@@ -33,7 +33,7 @@ Start Frame Offset
 ------------------
 
 The *start frame offset* for that strip could be selected by clicking :kbd:`LMB` on the left arrow of the strip;
-holding it down (or pressing :kbd:`G` grab and then moving the mouse left/right)
+holding it down (or pressing :kbd:`G` and then moving the mouse left/right)
 changes the start frame within the strip by the number of frames you move it.
 The frame number label under the strip displays the start frame of the strip.
 
@@ -48,7 +48,7 @@ End Frame
 ---------
 
 The *end frame* of the strip could be selected by clicking :kbd:`LMB` on the right arrow of the strip;
-holding it down (or pressing :kbd:`G` grab) and then moving the mouse changes the ending frame within the strip.
+holding it down (or pressing :kbd:`G`) and then moving the mouse changes the ending frame within the strip.
 The frame number label over the strip displays the end frame of the strip.
 
 - Dragging the right arrow to the left shortens the clip;
@@ -65,7 +65,7 @@ The frame number label over the strip displays the end frame of the strip.
    for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
 
-Grab/Extend from Frame
+Move/Extend from Frame
 ======================
 
 .. admonition:: Reference
@@ -75,7 +75,7 @@ Grab/Extend from Frame
    :Hotkey:    :kbd:`E`
 
 With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
-This is similar to grabbing but is useful for extending (or shortening) time around the current frame.
+This is similar to moving but is useful for extending (or shortening) time around the current frame.
 
 All selected strip handles to the "mouse side" of the current frame indicator will transform together,
 so you can change the duration of the current frame.

@@ -55,7 +55,7 @@ Convert to Float
 Image Offset
 ============
 
-Used to translate the frames along the X and Y axis.
+Used to move the frames along the X and Y axis.
 Additionally it disables the auto-scaling of the image.
 
 

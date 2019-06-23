@@ -12,7 +12,7 @@ Mesh edit mode tools:
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
 
 :ref:`Select <tool-select-tweak>`
-   Select or translate.
+   Select or moved.
 
    :ref:`Select Box <tool-select-box>`
       Select geometry by dragging a box.

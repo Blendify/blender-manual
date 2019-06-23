@@ -128,7 +128,7 @@ Use Blender Profile
    the rig should it ever be necessary to import a dae file back into Blender.
 Transformation Type
    Collada supports two types of transformation matrix specifications.
-   Either as ``<Matrix>`` or as a set of transformation decompositions (for translate, rotate and scale).
+   Either as ``<Matrix>`` or as a set of transformation decompositions (for move, rotate and scale).
    Note that the exporter will not strictly follow this option setting,
    but will rather take it as a hint to use the option if ever possible.
    This is so because some of the exported data types have specific rules

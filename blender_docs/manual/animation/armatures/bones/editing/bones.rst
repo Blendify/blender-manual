@@ -38,7 +38,7 @@ Extrude
 When you press :kbd:`E`, for each selected tip
 (either explicitly or implicitly), a new bone is created.
 This bone will be the child of "its" tip owner, and connected to it. As usual,
-once extrusion is done, only the new bones' tips are selected, and in grab mode,
+once extrusion is done, only the new bones' tips are selected, and in select mode,
 so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
 .. TODO2.8 Maybe update the images (color & style)
@@ -85,7 +85,7 @@ But once you have enabled the *X-Axis Mirror* editing option
 each extruded tip will produce *two new bones*, having the same name except for the "_L"/ "_R" suffix
 (for left/right, see the :ref:`next page <armature-editing-naming-conventions>`).
 The "_L" bone behaves like the single one produced by the default extrusion --
-you can grab/rotate/scale it exactly the same way.
+you can move/rotate/scale it exactly the same way.
 The "_R" bone is its mirror counterpart (along the armature's local X axis),
 see Fig. :ref:`fig-rig-bone-mirror`.
 
@@ -307,7 +307,7 @@ Duplicate
    This tool works on selected bones; selected joints are ignored.
 
 As in mesh editing, by pressing :kbd:`Shift-D` the selected bones will be duplicated.
-The duplicates become the selected elements and they are placed in grab mode,
+The duplicates become the selected elements and they are placed in select mode,
 so you can move them wherever you like.
 
 If you select part of a chain, by duplicating it you will get a copy of the selected chain,
@@ -448,7 +448,7 @@ differently depending in which chain is the edited bone
      - .. figure:: /images/rigging_armatures_bones_editing_bones_merge-4.png
           :width: 320px
 
-          The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of Bone.006.
+          The tip of Bone.006 has been moved, and hence the root of Bone.003 was moved to the tip of Bone.006.
 
 
 Subdivide
