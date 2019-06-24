@@ -4,7 +4,7 @@ Introduction
 ************
 
 The different node editors are used to work with node-based workflows.
-Each node editor type has there own specific purpose.
+Each node editor type has its own specific purpose.
 Therefore, this section only explains how to work with nodes in general.
 In the list below it shows a list of different types of node trees and where each is documented.
 
@@ -24,7 +24,7 @@ In the list below it shows a list of different types of node trees and where eac
      - Documentation
    * - .. figure:: /images/editors_node-editor_introduction_icons-material.png
      - Shader Nodes
-     - Documentation is the :doc:`Render </render/shader_nodes/index>` section.
+     - Documentation is in the :doc:`Render </render/shader_nodes/index>` section.
    * - .. figure:: /images/editors_node-editor_introduction_icons-render-layers.png
      - Composite Nodes
      - Documentation can be found in the :doc:`Compositing </compositing/index>` section.
