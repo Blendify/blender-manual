@@ -4,7 +4,7 @@
 #########
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    hue_saturation.rst
    opacity.rst
