@@ -75,7 +75,7 @@ not links, so you still can rotate, scale, and move freely without affecting the
 Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
 
 Linked
-   In the *Duplicate Objects* Operator panel the *Linked* checkbox is checked unlike with *Duplicate*.
+   In the *Duplicate Objects* :ref:`ui-redo-last` panel the *Linked* checkbox is checked unlike with *Duplicate*.
 
 .. hint::
 
@@ -173,7 +173,7 @@ If targets already have some data linked to them, it will be unlinked first.
 
 Objects to Scene
    Links the selected objects into a different scene than the current one.
-   The *Link Objects to Scene* operator panel lets you choose between scenes.
+   The *Link Objects to Scene* in the :ref:`ui-redo-last` panel lets you choose between scenes.
 
    This makes the same object exist in more than one scene at once,
    including its position and animation data.

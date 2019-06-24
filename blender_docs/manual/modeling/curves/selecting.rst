@@ -91,7 +91,7 @@ Select Similar
    :Hotkey:    :kbd:`Shift-G`
 
 Selects control points that have certain similar properties to the active one.
-The Operator panel provides several selection options:
+The :ref:`ui-redo-last` panel provides several selection options:
 
 Type
    Type

@@ -310,7 +310,6 @@ Tilt
 Tilt :kbd:`Ctrl-T`
    Lets you define the tilt of the selected control points.
    The tilt will be interpolated from point to point (you can check it with the normals).
-   The tilt angle is defined interactively first, and then it can be adjusted in the Operator panel *Angle*.
 Clear Tilt :kbd:`Alt-T`
    Brings the tilt of those selected control points back to 0.
 
@@ -347,7 +346,7 @@ Set Goal Weight
    :Menu:      :menuselection:`Specials --> Set Goal Weight`
 
 This sets the :doc:`Soft Body Goal Weight </modeling/curves/properties/introduction>`
-of selected control points. The precise value can be adjusted in the Operator Panel.
+of selected control points. The precise value can be adjusted in the :ref:`ui-redo-last` Panel.
 To adjust the *Mean Weight* (average) of selected control points use
 :menuselection:`Sidebar region --> Transform --> Mean Weight`.
 
@@ -412,7 +411,7 @@ Curve subdivision simply subdivides all selected segments by adding one or
 more control points between the selected segments.
 
 Number of Cuts
-   The number of cuts can be adjusted from the Operator panel.
+   The number of subdivisions to perform.
 
 
 .. _curve-switch-direction:

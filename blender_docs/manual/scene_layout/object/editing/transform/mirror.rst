@@ -45,7 +45,7 @@ will mirror the selection along the X axis of the *Normal Orientation*.
 
 .. figure:: /images/editors_3dview_object_editing_transform_mirror_panel.png
 
-   Mirror operator panel.
+   Mirror :ref:`ui-redo-last` panel.
 
 You can alternatively hold the :kbd:`MMB` to interactively mirror the object by moving
 the mouse in the direction of the mirror axis.

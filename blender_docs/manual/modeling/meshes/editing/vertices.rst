@@ -62,7 +62,7 @@ it can to preserve edges and faces only partly involved in the reunion.
    the order is lost, for instance, after changing selection mode.
 
 UVs
-   If *UVs* is ticked in the Operator panel, the UV mapping coordinates,
+   If *UVs* is ticked in the :ref:`ui-redo-last` panel, the UV mapping coordinates,
    if existing, will be corrected to avoid image distortion.
 
 
@@ -79,7 +79,8 @@ The *Mesh* menu as a related toggle option: *AutoMerge Editing*.
 When enabled,
 as soon as a vertex moves closer to another one than the *Limit* setting
 (:menuselection:`Mesh Tools panel --> Double Threshold`), they are automatically merged.
-This option affects interactive operations only (tweaks made in the Operator panel are considered interactive too).
+This option affects interactive operations only
+(tweaks made in the :ref:`ui-redo-last` panel are considered interactive too).
 If the exact spot where a vertex is moved contains more than one vertex,
 then the merge will be performed between the moved vertex and one of those.
 

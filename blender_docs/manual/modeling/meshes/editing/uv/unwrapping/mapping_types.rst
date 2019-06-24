@@ -124,8 +124,7 @@ a very logical and straightforward UV layout for you.
 Options
 -------
 
-The Operator panel in the Tool Shelf allows fine control over how the mesh is
-unwrapped:
+The :ref:`ui-redo-last` panel allows fine control over how the mesh is unwrapped:
 
 Angle Limit
    This controls how faces are grouped: a higher limit will lead to many small groups but less distortion,
