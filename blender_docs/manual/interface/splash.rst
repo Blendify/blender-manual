@@ -82,7 +82,7 @@ Spacebar
       this option is good for animation or video editing.
    Tools
       Opens the toolbar underneath the cursor to quickly change the active tool.
-      This option is good for if doing a lot of modeling or rigging.
+      This option is good if doing a lot of modeling or rigging.
    Search
       Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
       This option is good for someone who is new to Blender and is unfamiliar with its menus and shortcuts.

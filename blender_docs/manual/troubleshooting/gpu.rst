@@ -6,7 +6,7 @@ Graphics Hardware
 Blender uses of OpenGL for the 3D viewport and user interface.
 The graphics card (GPU) and driver have a big impact on Blender's behavior and performance.
 
-This pages lists possible solutions for graphics glitches, problems with Eevee and Cycles,
+This page lists possible solutions for graphics glitches, problems with Eevee and Cycles,
 and crashes related to your GPU.
 
 

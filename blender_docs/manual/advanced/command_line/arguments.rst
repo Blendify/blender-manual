@@ -234,7 +234,7 @@ Misc Options
 ``--app-template`` ``<template>``
    Set the application template (matching the directory name), use ``default`` for none.
 ``--factory-startup``
-   Skip reading the startup.blend in the users home directory.
+   Skip reading the startup.blend in the user's home directory.
 ``--enable-library-override``
    Enable Library Override features in the UI.
 ``--enable-event-simulate``

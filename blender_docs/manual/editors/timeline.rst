@@ -82,7 +82,7 @@ For the active and selected objects, keyframes are displayed as diamond shapes.
 You can click to select one at a time, or select several by holding :kbd:`Shift`,
 or by dragging a box around the keyframes.
 You can then move single keys by dragging them,
-and you can move multiple keys by pressing :kbd:`G` and scale them with :kbd:`S`
+and you can move multiple keys by pressing :kbd:`G` and scale them with :kbd:`S`.
 
 *Only Selected Channels* can be enabled. :menuselection:`Timeline --> View --> Only Selected Channels`.
 For *Armatures*, this will display the object keyframes,

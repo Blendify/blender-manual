@@ -7,7 +7,7 @@ The *Console Window*, also called a *Terminal*, is an operating system text wind
 messages about Blender's operations, status, and internal errors.
 
 When Blender is manually started from a terminal.
-Blender outputs is shown in the *Console Window* it is started from.
+Blender output is shown in the *Console Window* it is started from.
 
 Use Cases:
 

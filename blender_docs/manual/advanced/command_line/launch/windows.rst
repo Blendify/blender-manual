@@ -14,7 +14,7 @@ and then run Blender:
    cd c:\<blender installation directory>
    blender
 
-You can also add the Blender folder to your system ``PATH`` so that do you do not have to ``cd`` to it each time.
+You can also add the Blender folder to your system ``PATH`` so that you do not have to ``cd`` to it each time.
 
 
 Details

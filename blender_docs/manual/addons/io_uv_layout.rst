@@ -25,7 +25,7 @@ that saves an image as a ``Targa`` (``.tga``), ``EPS``, or ``SVG`` format for th
 The image will be lines defining the UV edges that are within the image area of the UV mapping area.
 Edges outside the boundary, even if selected, will not be shown in the saved graphic.
 The artist will use this as a transparent layer in their paint program as a guide when painting your texture.
-The example below shows Blender in the background, and the Gimp working on the texture, ​
+The example below shows Blender in the background, and the Gimp working on the texture,
 using the saved layout as a guide. Note that ``targa`` format supports the Alpha channel,
 so you can paint transparent areas of the mesh. For using images as textures, see the page on
 :doc:`Image Textures </render/materials/legacy_textures/types/image_movie>`.
