@@ -44,7 +44,6 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    timeline.rst
    graph_editor/index.rst
    drivers_editor.rst
-   ../animation/drivers/index.rst
    nla/index.rst
 
 
