@@ -3,8 +3,8 @@
 Introduction
 ************
 
-Drivers are scripts which main purpose is to control properties with other properties.
-In example the rotation of one object is controlled with the location of another object.
+Drivers are small scripts with the purpose of controlling properties with other properties.
+For example, the rotation of one object can be controlled by the location of another object.
 
 Effectively, drivers are animation :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
 that use a custom expression as the X axis input instead of the current frame.
