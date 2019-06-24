@@ -61,7 +61,7 @@ Look in the *Outliner*, with display mode set to *Blender File*, to see all your
 
 .. note::
 
-   Appending data you already have linked will add objects/groups to the scene,
+   Appending data you already have linked will add objects/collections to the scene,
    but will keep them linked (and un-editable).
 
    This is done so existing relationships with linked data remain intact.
@@ -108,7 +108,7 @@ Proxy Objects
    :Menu:      :menuselection:`Object --> Relations --> Make Proxy...`
 
 This makes the active linked object into a local proxy, appending "_proxy" to its name.
-It allows you to make changes locally over an object (or group) linked from an external library.
+It allows you to make changes locally over an object (or collection) linked from an external library.
 
 Possible changes are restricted, you can mainly edit and animate transformations of the proxy object,
 and its constraints.
@@ -121,7 +121,7 @@ Those changes remain local, they are not sent back to the external library.
    Instead of linking objects directly, it is often more useful to link in *collections*,
    which can be assigned to empties and moved, while maintaining the link to the original file.
 
-   It is also useful to be able to add/remove objects from the group (from within the library blend-file)
+   It is also useful to be able to add/remove objects from the collection (from within the library blend-file)
    without having to manage re-linking of multiple objects.
 
 

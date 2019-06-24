@@ -9,7 +9,7 @@ Collection
    :Mode:      Object Mode
    :Panel:     :menuselection:`Object --> Instancing --> Collection`
 
-*Instance Collections* allows you to create an instance of a group for each instance of another object.
+*Instance Collections* allows you to create an instance of a collection for each instance of another object.
 Collections may contain animations, objects with physics simulations and even other nested collections.
 
 
@@ -32,9 +32,9 @@ Collections and Dynamic Linking
 
 See :doc:`Appending and Linking </files/linked_libraries>`
 to understand how to dynamically link data from another blend-file into the current file.
-You can dynamically link groups from one blend-file to another.
-When you do so, the linked group does not appear anywhere in your scene
-until you create an object controlling where the group instance appears.
+You can dynamically link collections from one blend-file to another.
+When you do so, the linked collection does not appear anywhere in your scene
+until you create an object controlling where the collection instance appears.
 
 
 Making a Instanced Collection Real
@@ -47,5 +47,5 @@ into regular objects that can be transformed and animated normally.
 .. note::
 
    Note that if the instanced collection was linked from an external file, the Object Data
-   (mesh, materials, textures, transforms) will also still be linked from the original group.
+   (mesh, materials, textures, transforms) will also still be linked from the original collection.
    However, the various object's parent-child relationships do not carry over.
