@@ -30,7 +30,7 @@ Detail Type
       will create topology in that size. Zoom out big details, zoom in small fine details.
    Constant Detail
       To keep detail uniform across the entire object, Constant Detail can be used.
-      The Detail is based on the percentage of a single :abbr:`BU (Blender Unit)`.
+      The Detail is based on the percentage of a single unit.
    Brush Detail
       Giving more control over the topology, with this method you can create topology
       based on the brush size. You can increase and lower topology by simply resizing

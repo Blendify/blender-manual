@@ -242,7 +242,7 @@ The following steps explain how to create a height vector:
    for the XYZ coordinates, put (-2, 0, -1).
 #. :kbd:`RMB` click on the other vertex,
    and again, set its XYZ coordinates to (-2, 0, 1).
-   This will create a straight vertical line with 2 Blender units of Height.
+   This will create a straight vertical line with 2 units of Height.
 #. De-select and select everything again with the shortcut :kbd:`A`.
    (See Fig. :ref:`fig-mesh-screw-profile`).
 #. Again, place again the cursor at the center. (Repeat step 2).

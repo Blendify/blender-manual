@@ -100,7 +100,7 @@ are closer than a specified distance to each other.
 An alternative way to simplify a mesh is to use the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
 
 Merge Distance
-   Sets the distance threshold for merging vertices, in Blender units.
+   Sets the distance threshold for merging vertices.
 Unselected
    Allows vertices in selection to be merged with unselected vertices.
    When disabled, selected vertices will only be merged with other selected ones.

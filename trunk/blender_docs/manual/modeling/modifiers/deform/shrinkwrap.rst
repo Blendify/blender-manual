@@ -21,7 +21,7 @@ Options
 Target
    Shrink target, the mesh to shrink to/wrap around.
 Offset
-   The distance that must be kept from the calculated target position, in Blender Units.
+   The distance that must be kept from the calculated target position.
 
 Vertex Group
    The vertex group to control whether and how much each vertex is displaced to its target position.

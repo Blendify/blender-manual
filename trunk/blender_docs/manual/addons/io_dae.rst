@@ -36,7 +36,7 @@ Import Data Options
 ^^^^^^^^^^^^^^^^^^^
 
 Import Units
-   Use unit information from the Asset node in the Collada file. Use Blender units if not enabled.
+   Use unit information from the Asset node in the Collada file. Use *None* units if not enabled.
 
 
 Armature Options

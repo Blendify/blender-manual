@@ -52,7 +52,7 @@ Reset :kbd:`Backspace`
    the whole number editing will be canceled, going back to usual transform with mouse.
 Next/previous Component :kbd:`Tab`, :kbd:`Ctrl-Tab`
    To enter numeric values for multiple axes, use :kbd:`Tab` or :kbd:`Ctrl-Tab`.
-   e.g. To move an object, one Blender unit on all three axes press: :kbd:`G 1`
+   e.g. To move an object, one unit on all three axes press: :kbd:`G 1`
    and :kbd:`Tab 1` and :kbd:`Tab 1`.
 
 Non-number Inputs

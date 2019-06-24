@@ -152,7 +152,7 @@ This panel shows brush options that are based on object velocity.
 On top you have a color ramp and several related settings.
 Basically the color ramp represents brush velocity values:
 left side being zero velocity and right side being the "Max velocity".
-Speed is measured in "Blender units per frame".
+Speed is measured in "units per frame".
 
 Checkboxes above can be used to define color ramp influence.
 

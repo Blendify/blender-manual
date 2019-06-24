@@ -31,9 +31,9 @@ Simulation
    Speed
       You can control the internal timing of the soft body system with this value.
       It sets the correlation between frame rate and tempo of the simulation.
-      A free falling body should cover a distance of about five meters after one second.
+      A free falling body should cover a distance of about ten meters after one second.
       You can adjust the scale of your scene and simulation with this correlation. If you
-      render with 25 frames per second and 1 meter shall be 1 BU, you will have to set *Speed* to 1.3.
+      render with 25 frames per second, you will have to set *Speed* to 1.3.
 
 
 
@@ -183,7 +183,7 @@ Self Collision
 
 Calculation Type
    Manual
-      The *Ball Size* directly sets the ball size (in BU).
+      The *Ball Size* directly sets the ball size.
    Average
       The average length of all edges attached to the vertex is calculated and then multiplied
       with the *Ball Size* setting. Works well with evenly distributed vertices.

@@ -120,5 +120,5 @@ Radial
    These settings allow for radial symmetry in the desired axes.
    The number determines how many times the stroke will be repeated within 360 degrees around the central axes.
 Tile Offset
-   The default tile size is set to one :abbr:`BU (Blender Unit)`.
+   The default tile size is set to one unit.
    The offset allows the option to alter the tile size along all three axes.

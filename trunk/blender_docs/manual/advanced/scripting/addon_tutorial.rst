@@ -117,7 +117,7 @@ Add the following script to the Text editor in Blender::
        obj.location.x += 1.0
 
 Click the :ref:`Run Script button <editors-text-run-script>`,
-all objects in the active scene are moved by 1.0 Blender unit.
+all objects in the active scene are moved by 1.0 unit.
 
 
 Write the Add-on (Simple)

@@ -107,7 +107,7 @@ This is a major improvement from the current constraint system where constraints
 one by one in order of definition so that conflicting constraints overwrite each other.
 
 Precision
-   The maximum variation in Blender unit of the end effector between two successive iterations
+   The maximum variation of the end effector between two successive iterations
    at which a pose is obtained that is stable enough and the solver should stop the iterations.
    Lower values means higher precision on the end effector position.
 Iterations

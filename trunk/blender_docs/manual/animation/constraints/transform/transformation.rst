@@ -12,8 +12,8 @@ You can also switch between axes, and use the range values not as limits,
 but rather as "markers" to define a mapping between input (target) and output (owner) values.
 
 So, e.g. you can use the position of the target along the X axis to control the rotation of
-the owner around the Z axis, stating that 1 BU along the target X axis corresponds
-to 10 BU around the owner Z axis. Typical uses for this include gears (see note below),
+the owner around the Z axis, stating that 1 unit along the target X axis corresponds
+to 10 units around the owner Z axis. Typical uses for this include gears (see note below),
 and rotation based on location setups.
 
 

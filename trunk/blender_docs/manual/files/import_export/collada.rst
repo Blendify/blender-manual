@@ -162,8 +162,7 @@ There is one option for controlling the import units:
 
 Import Units
    If not enabled the imported data will be rescaled according to the currently used unit system.
-   It is assumed that 1 Blender unit is 1 meter. if this option is enabled,
-   then Blender will adjust itself to the unit system as provided by the Collada file.
+   if this option is enabled, then Blender will adjust itself to the unit system as provided by the Collada file.
 Fix Leaf Bones
    Collada only records "joints" which is mostly similar to Blender's bone heads.
    But when you import a Collada file then the bone ends are not defined.

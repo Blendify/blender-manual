@@ -235,7 +235,7 @@ Codec
 Z Buffer
    Save the depth information.
    In Blender, this now is written in floats too,
-   denoting the exact distance from the camera in "Blender unit" values.
+   denoting the exact distance from the camera.
 Preview
    On rendering animations (or single frames via command line),
    Blender saves the same image also as a JPEG, for quick preview or download.

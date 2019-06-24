@@ -19,7 +19,7 @@ In the 3D View, :kbd:`Shift-A` to add a new bone to your armature.
 
 This bone will be:
 
-- Of one Blender Unit of length.
+- Of one unit of length.
 - Oriented towards the global Z axis.
 - With its root placed at the 3D cursor position.
 - With no relationship with any other bone of the armature.

@@ -70,7 +70,7 @@ Data Passes
 ===========
 
 Z
-   Distance in :term:`Blender Units` to any visible surfaces.
+   Distance to any visible surfaces.
 
    .. note::
 
