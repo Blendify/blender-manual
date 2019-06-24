@@ -53,8 +53,8 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
       It's also possible to send objects out of local view,
       using :menuselection:`Object --> Move Objects out of Local View`,
       which can be useful to further isolate a selection.
-   Preview Renders
-      Preview renders will still use lights outside the local view,
+   Rendered Shading
+      While using rendered shading mode lights outside the local view are still used,
       this allows you to quickly render previews
       without having to remember to select all lights when entering local view.
 
@@ -62,6 +62,24 @@ from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you are new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
+
+
+.. _bpy.ops.view3d.localview_remove_from:
+
+Remove from Local View
+----------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Local View --> Remove from Local View`
+   :Hotkey:    :kbd:`M`
+
+Objects can be removed from Local View by selecting them and using the *Remove from Local View* operator.
+This will move the selected object back to global view and all other objects will remain in local view.
+If the last remaining object is removed,
+the local view will be left empty and you will have to exit local view to see any objects.
 
 
 .. _bpy.ops.screen.region_quadview:
