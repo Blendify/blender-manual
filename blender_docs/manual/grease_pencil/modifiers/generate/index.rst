@@ -4,12 +4,10 @@
 ############
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    array.rst
    build.rst
    mirror.rst
-   sample.rst
    simplify.rst
-   stroke.rst
    subdivide.rst

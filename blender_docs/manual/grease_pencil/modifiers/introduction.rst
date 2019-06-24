@@ -16,7 +16,7 @@ and *Apply* a modifier if you wish to make its changes permanent.
 
    Grease Pencil Modifiers menu.
 
-There are three types of modifiers for Grease Pencil:
+There are three types of modifiers for *Grease Pencil*:
 
 Generate
    The *Generate* group of modifiers includes constructive tools that either change
@@ -29,5 +29,29 @@ Color
 Interface
 =========
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_modifiers_introduction_interface.png
 
+   Panel layout (Thickness modifier as an example).
+
+
+Each modifier’s interface shares the same basic components like modifiers for meshes.
+
+See :ref:`Modifiers Interface <bpy.types.Modifier.show>` for more information.
+
+.. note::
+
+   Grease Pencil strokes, unlike meshes, still can not be edited directly in the place.
+
+
+Influence filters
+-----------------
+
+Most of *Grease Pencil* modifiers share some special properties that restrict the effect only to certain items.
+
+Material
+   Restricts the effect only to material that share the same pass index.
+
+Layer
+   Restricts the effect only to one layer or to any layers that share the same pass index.
+
+The Invert toggle allows you to reverse the filters behavior.
