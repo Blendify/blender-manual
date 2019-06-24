@@ -90,7 +90,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Bone
       The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail`
-      and :term:`Roll Angle` which define a set of local axes and a point of rotation at the :term:`Head`.
+      and :term:`Roll Angle` which define a set of local axes and a point of rotation at the Head.
 
    Boolean
       A type of logic dealing with binary true/false states.
@@ -290,7 +290,7 @@ This page lists definitions for terms used in Blender and this manual.
       A special :term:`Data User`, a program construct that is
       used to mark an object (e.g. material) to be saved in a blend-file,
       even when no :term:`Real User` is using the object.
-      Objects that are not used by any :term:`Data User` are not included in saved blend-files.
+      Objects that are not used by any Data User are not included in saved blend-files.
 
    F-Curve
       A curve that holds the animation values of a specific property.
@@ -347,9 +347,9 @@ This page lists definitions for terms used in Blender and this manual.
       See :term:`Roughness Map`.
 
    Head
-      A subcomponent of a :term:`Bone`. The point of rotation for that :term:`Bone`.
-      Has X, Y and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`.
-      Used in conjunction with the :term:`Tail` to define the :term:`local <Local Space>` Y axis of the :term:`Bone`
+      A subcomponent of a :term:`Bone`. The point of rotation for the bone
+      has X, Y, and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`.
+      Used in conjunction with the :term:`Tail` to define the local Y axis of the bone
       in :term:`Pose Mode`. The larger of the two ends when displayed as an :term:`Octahedron`.
 
    HDRI
@@ -718,7 +718,7 @@ This page lists definitions for terms used in Blender and this manual.
    Tail
       A subcomponent of a :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space`
       of the Armature Object. Used in conjunction with the :term:`Head`
-      to define the :term:`local <Local Space>` Y axis of a :term:`Bone` in :term:`Pose Mode`.
+      to define the local Y axis of a bone in :term:`Pose Mode`.
       The smaller of the two ends when displayed as an :term:`Octahedron`.
 
    Tessellation
@@ -777,7 +777,7 @@ This page lists definitions for terms used in Blender and this manual.
       and the rest of the functions are animated.
 
    Weight Painting
-      Assigning :term:`vertices` to :term:`Vertex Groups <Vertex Group>` with a weight of 0.0 - 1.0.
+      Assigning :term:`vertices` to a :term:`Vertex Group` with a weight of 0.0 - 1.0.
 
    White Point
       A reference value for white light defined by what happens when all the primaries,
