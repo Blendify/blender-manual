@@ -1,4 +1,3 @@
-
 .. _tool-annotate:
 
 *************
@@ -21,9 +20,30 @@ Annotate Polygon
 Annotate Eraser
    Click and drag to remove lines drawn previously.
 
+   The eraser has a *Radius* setting found in :menuselection:`Tool Settings --> Eraser`.
+
 
 Settings
 ========
+
+Common
+------
+
+There is a panel, :menuselection:`Sidebar --> View --> Annotations`,
+in it multiple annotation layers can be managed.
+
+Color
+   Adjusts the color of existing and new strokes.
+
+Thickness
+   Adjusts the thickness of existing and new strokes.
+
+Onion Skin
+   Shows a preview of strokes made in frames close by the current frame.
+   Onion skinning only works in the 3D Viewport and Sequencer. 
+   See the Grease Pencil documentation for an explanation of
+   :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
+
 
 3D Editor
 ---------
@@ -41,14 +61,6 @@ Placement
       even when e.g. the camera rotates.
    Surface
       Project the line on the surface under the mouse.
-
-The eraser has a *Radius* setting.
-
-There is a :menuselection:`View --> Annotations` panel in the right Sidebar of the 3D view.
-In it, multiple annotation layers can be managed.
-Furthermore, it allows to adjust the thickness and color of existing and new strokes.
-
-Optionally, *Onion Skin* can be enabled to show a preview of strokes made in frames close by the current frame.
 
 
 2D Editors
