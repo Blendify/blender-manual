@@ -66,10 +66,7 @@ with buttons, controls and widgets placed within them.
 .. figure:: /images/interface_window-system_regions_3d-view.png
    :align: center
 
-   The 3D View editor.
-
-   Header (green), Main region (yellow), Toolbar (blue),
-   Sidebar (red) and Operator panel (pink).
+   The 3D View editor, see :ref:`ui-region` for details.
 
 
 User Interface Principles

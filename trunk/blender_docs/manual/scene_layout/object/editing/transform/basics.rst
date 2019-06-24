@@ -128,11 +128,11 @@ reset the object or element to its original state.
    transformation. See :doc:`Transform Control </scene_layout/object/editing/transform/control/index>`.
 
 
-Operator Panel
---------------
+Adjust Last Operation
+---------------------
 
 In the case of the 3D View, there is the possibility to tweak the operation once
-accepted, using the specific Operator panel corresponding to the tool.
+accepted, using the specific :ref:`ui-redo-last` panel corresponding to the tool.
 
 Value
    The amount of the transformation.

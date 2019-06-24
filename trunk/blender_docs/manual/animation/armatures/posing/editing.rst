@@ -301,7 +301,7 @@ Termination Mode
    Before Frame
       To all keyframes between current frame and the *End frame* option.
       This option is best suited for use from scripts due to the difficulties in setting this frame value,
-      though it is possible to set this manually via the Operator panel if necessary.
+      though it is possible to set this manually via the :ref:`ui-redo-last` panel if necessary.
    Before Last Keyframe
       To all keyframes from current frame until no more are found.
    On Selected Keyframes

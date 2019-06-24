@@ -177,8 +177,8 @@ Stitch
    :Hotkey:    :kbd:`V`
 
 The *Stitch* tool, will join selected UVs that share vertices.
-You set the tool to limit stitching by distance in the Operator panel,
-by activating *Use Limit* and adjusting the *Limit Distance*
+you set the tool to limit stitching by distance in the :ref:`ui-redo-last` panel,
+by activating *use limit* and adjusting the *limit distance*
 
 
 Copy Mirrored UV Coordinates

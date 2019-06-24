@@ -39,7 +39,7 @@ Link to Collection :kbd:`Shift-M`
    A new collection can be created in the pop-up.
 Create New Collection :kbd:`Ctrl-G`
    Creates a new collection and adds the selected object(s) to it.
-   The name of the new collection can be specified in the *Create New Collection* Operator panel.
+   The name of the new collection can be specified in the *Create New Collection* :ref:`ui-redo-last` panel.
 Remove from Collection :kbd:`Ctrl-Alt-G`
    Remove the selected objects from a collection.
    If the object belongs to more one collection a pop-up lets you select the collection and

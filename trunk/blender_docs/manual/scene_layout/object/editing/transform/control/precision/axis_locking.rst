@@ -105,7 +105,7 @@ The orientation can be set
 in the :doc:`Transform Orientation </scene_layout/object/editing/transform/control/orientations>`
 selector of the 3D View header.
 
-.. or independent in the Operator panel?
+.. or independent in the :ref:`ui-redo-last` panel?
 
 For example, if the current transform orientation is set to *Normal*,
 pressing :kbd:`G` to start translation, followed by :kbd:`Z` will lock translation

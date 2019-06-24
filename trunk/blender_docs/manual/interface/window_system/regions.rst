@@ -1,5 +1,7 @@
 .. _bpy.types.Region:
 
+.. _ui-region:
+
 *******
 Regions
 *******
@@ -10,11 +12,15 @@ An area is subdivided into regions.
    :align: center
 
    The regions of the 3D View editor showing the Sidebar and
-   the Operator panel after adding a Cube.
+   the :ref:`ui-redo-last` panel after adding a Cube.
 
-   Header (green), Main region (yellow), Toolbar (blue),
-   Sidebar (red) and Operator panel (pink).
+   :ref:`Header <ui-region-header>` (green),
+   :ref:`Main <ui-region-window>` region (yellow),
+   :ref:`Toolbar <ui-region-toolbar>` (blue),
+   :ref:`Sidebar <ui-region-sidebar>` (red) and
+   :ref:`ui-redo-last` panel (pink).
 
+.. _ui-region-window:
 
 Main Region
 ===========
@@ -60,13 +66,15 @@ The *Toolbar* (on the left side of editor area) contains the tool settings.
    Expand the Toolbar even more to show icons with titles.
 
 
-Operator Panel
---------------
+Adjust Last Operation
+=====================
 
-The *Operator panel* is a region on 3D View that shows tool options
-when tools (operators) are run. Operator panel shows properties of
-the :ref:`last operator <ui-redo-last>` executed.
+The *Adjust Last Operation* is a region that shows tool options when tools (operators) are run.
 
+This is further documented here: :ref:`last operator <ui-redo-last>`.
+
+
+.. _ui-region-sidebar:
 
 Sidebar
 =======

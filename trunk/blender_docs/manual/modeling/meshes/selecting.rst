@@ -288,7 +288,6 @@ Select All by Trait
 Non Manifold
    Selects the :term:`non-manifold` geometry of a mesh.
    This entry is available when editing a mesh, in Vertex and Edge selection modes only.
-   The Operator panel provides several selection options:
 
    Extend
       Lets you extend the current selection.
@@ -332,7 +331,7 @@ Select geometry connected to already selected elements.
 This is often useful when a mesh has disconnected, overlapping parts,
 where isolating it any other way would be tedious.
 
-To give more control, you can also enable delimiters in the Operator panel,
+To give more control, you can also enable delimiters in the :ref:`ui-redo-last` panel,
 so the selection is constrained by seams, sharp edges, materials or UV islands.
 
 With *Pick Linked* you can also select connected geometry directly under the cursor,

@@ -39,7 +39,7 @@ Add Constraint (with Targets)
 
 Adds a constraint to the active object.
 The type of constraint must be chosen from a pop-up menu,
-though it can be changed later from the *Add Constraint (with Targets)* Operator panel.
+though it can be changed later from the *Add Constraint (with Targets)* :ref:`ui-redo-last` panel.
 If there is an other object selected besides the active one,
 that object will be the constraint target (if the chosen constraint accepts targets).
 

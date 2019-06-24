@@ -114,5 +114,3 @@ The selected objects are deleted from the scene.
 
 Delete Globally
    Delete the selected objects from all scenes.
-
-

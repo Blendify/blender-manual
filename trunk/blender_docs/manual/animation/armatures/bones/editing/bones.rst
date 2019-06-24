@@ -465,7 +465,7 @@ The tool will subdivide all selected bones, preserving the existing relationship
 the bones created from a subdivision always form a connected chain of bones.
 
 To create an arbitrary number of bones from each selected bone
-in the Subdivide Multi Operator panel.
+in the Subdivide Multi :ref:`ui-redo-last` panel.
 
 Number of Cuts
    Specifies the number of cuts. As in mesh editing,
