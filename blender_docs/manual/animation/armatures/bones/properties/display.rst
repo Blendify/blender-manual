@@ -71,9 +71,9 @@ To assign a custom shape to a bone, you have to:
      (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object Mode*,
      you will still have a cube-shaped bone...).
    - The "along bone" axis is the Y one,
-     and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
+     and the shape object is always scaled so that one unit stretches along the whole bone length.
    - If you need to remove the custom shape of the bone,
      just right-click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
 
 So to summarize all this, you should use meshes as shape objects,
-with their center at their lower -Y end, and an overall Y length of 1.0 BU.
+with their center at their lower -Y end, and an overall Y length of 1.0 units.

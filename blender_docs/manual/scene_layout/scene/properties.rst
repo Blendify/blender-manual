@@ -55,15 +55,15 @@ Units
 
 Unit System
    None
-      Use :term:`Blender Units` that have with no relation to the real world.
+      Use units that have with no relation to the real world,
+      practically this is the same as *Metric* just without unit names.
    Metric
       Use the metric unit system in this scene.
    Imperial
       Use the imperial unit system in this scene.
 Unit Scale
-   Scale factor to use when converting between internal :term:`Blender Units`
-   and values displayed in the user interface. This can be changed when modeling
-   at microscopic or astronomical scales.
+   Scale factor to use when converting between internal units and values displayed in the user interface.
+   This can be changed when modeling at microscopic or astronomical scales.
 
    .. note::
 

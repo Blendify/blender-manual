@@ -41,7 +41,7 @@ Quality
    A general setting for how fine and good a simulation you wish.
    Higher numbers take more time but ensure less tears and penetrations through the cloth.
 Distance
-   As another object gets this close to it (in Blender Units),
+   As another object gets this close to it,
    the simulation will start to push the cloth out of the way.
 Friction
    A coefficient for how slippery the cloth is when it collides with the mesh object.

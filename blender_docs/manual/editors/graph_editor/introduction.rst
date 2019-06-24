@@ -88,8 +88,7 @@ For *Actions* the X axis represents time,
 the Y axis represents the value to set the property.
 
 Depending on the selected curves, the values have different meaning:
-For example rotation properties are shown in degrees,
-location properties are shown in Blender Units.
+For example rotation properties are shown in degrees.
 
 
 Header

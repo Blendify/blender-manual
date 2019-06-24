@@ -88,10 +88,6 @@ This page lists definitions for terms used in Blender and this manual.
    Bevel
       The operation to chamfer or bevel edges of an object.
 
-   BU
-   Blender Units
-      Internal units used by Blender, equivalent to meters. Often abbreviated to "BU".
-
    Bone
       The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail`
       and :term:`Roll Angle` which define a set of local axes and a point of rotation at the :term:`Head`.

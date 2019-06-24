@@ -91,13 +91,13 @@ Examples
 
           No constraint.
 
-          Note the position of Owner empty 1.0 BU along the X and Y axes.
+          Note the position of Owner empty 1.0 unit along the X and Y axes.
 
      - .. figure:: /images/rigging_constraints_relationship_child-of_example2.png
 
           Child Of just added.
 
-          Here you can see that Owner empty is now 1.0 BU away
+          Here you can see that Owner empty is now 1.0 unit away
           from Target_1 empty along X and Y axes.
 
    * - .. figure:: /images/rigging_constraints_relationship_child-of_example3.png

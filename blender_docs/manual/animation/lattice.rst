@@ -20,7 +20,7 @@ Flip (Distortion Free)
 
    U, V, W
 Make Regular
-   Resets the whole lattice to a regular grid, where the cells are scaled to one cubic Blender Unit.
+   Resets the whole lattice to a regular grid, where the cells are scaled to one cubic unit.
 
 
 Properties

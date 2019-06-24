@@ -69,7 +69,7 @@ Move
 .. figure:: /images/editors_3dview_object_editing_transform_control_precision_introduction_blender-units.png
    :align: right
 
-   One Blender Unit (default zoom level).
+   One unit (default zoom level).
 
 For move operations at the default zoom level,
 holding :kbd:`Ctrl` will cause your selection to move by increments of 1 unit
@@ -98,7 +98,7 @@ Holding :kbd:`Ctrl` will cause rotations of 5 degrees.
 Scale
 -----
 
-Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
+Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 units.
 
 .. note:: Snapping modes
 
@@ -139,4 +139,4 @@ Holding :kbd:`Shift-Ctrl` will cause rotations of 1 degree.
 Scale Transformations
 ---------------------
 
-Holding :kbd:`Shift-Ctrl` will cause size changes in 0.01 BU increments.
+Holding :kbd:`Shift-Ctrl` will cause size changes in 0.01 unit increments.

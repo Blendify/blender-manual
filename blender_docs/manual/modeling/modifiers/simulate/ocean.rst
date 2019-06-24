@@ -63,7 +63,7 @@ Size
    A simple scaling factor that does not affect the height of the waves or behavior of the simulation.
 Spatial Size
    The width of the ocean surface area being simulated, in meters.
-   This also determines the size of the generated mesh, or the displaced area, in Blender units.
+   This also determines the size of the generated mesh, or the displaced area.
    Of course you can scale the object with Ocean Modifier in *Object Mode*
    to tweak the apparent size in your scene.
 
