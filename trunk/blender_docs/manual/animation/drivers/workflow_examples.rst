@@ -3,45 +3,33 @@
 Workflow & Examples
 *******************
 
-These are some driver examples and workflow.
+Simple Drivers can be configured from the pop-over that appears when adding a new Driver.
+
+When adding multiple Drivers or for more advanced configurations, it is useful to have open the *Drivers Editor*.
 
 
-Workflow
+Examples
 ========
 
 Transform Driver
 ----------------
 
-This example shows you how setup a transform driver.
-First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
+Starting from a simple setup with two objects:
 
-#. In object mode, select then duplicate the default Cube. :kbd:`Shift-D`. Move "Cube.001" to a new location.
-#. With "Cube.001" selected, add a single driver to the *Rotation Y* property.
-#. Open the *Graph Editor*, set the Mode to *Drivers*.
-#. *Show Only Selected* is useful disabled for drivers, marked green in the picture.
-#. In the channels region, select the *Y Euler Rotation* property.
-#. Press :kbd:`N` to open the Sidebar region, scroll down to Drivers panel.
-#. Change the *Type* to *Averaged Value*, this will return the averaged value of the driver variables.
-#. Modify the driver variable settings:
+1. Add a Driver to the *Rotation Y* property of the second object by right-clicking or with :kbd:`Ctrl-D`.
 
-   - Type -- Transform Channel
-   - Ob/Bone -- Cube
-   - Transform Type -- X Location
-   - Transform Space -- World Space
+.. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
-.. TODO2.8 Replace screenshots (ui appearance changes):
+2. Open the *Drivers Editor* (:kbd:`Shift-F6`).
+3. In the channels region, select the *Y Euler Rotation* property.
+4. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
+5. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
-.. list-table::
+.. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
-   * - .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
-
-     - .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
-
-When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left to right.
+6. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
 
 
-Examples
-========
 
 Driver Expression
 -----------------
