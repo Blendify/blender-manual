@@ -5,21 +5,21 @@
 Collections
 ***********
 
-.. There can be many objects in a scene: A typical stage scene consists of furniture, props,
-.. lights, and backdrops.
-.. Blender helps you keep everything organized by allowing you to group like objects together.
-..
-.. .. _fig-view3d-grouped-objects:
-..
-.. .. figure:: /images/editors_3dview_object_properties_relations_groups_cubes.png
-..
-..    Grouped objects.
-..
-.. Group objects together without any kind of transformation relationship.
-.. Use groups to just logically organize your scene,
-.. or to facilitate one-step appending or linking between files or across scenes.
-.. Objects that are part of a group always shows as light green when selected.
-.. See Fig. :ref:`fig-view3d-grouped-objects`.
+There can be many objects in a scene: A typical stage scene consists of furniture, props,
+lights, and backdrops.
+Blender helps you keep everything organized by allowing you to group like objects together.
+
+.. _fig-view3d-collection-objects:
+
+.. figure:: /images/editors_3dview_object_properties_relations_groups_cubes.png
+
+   Objects grouped together in a Collection.
+
+Group objects together without any kind of transformation relationship.
+Use collections to just logically organize your scene,
+or to facilitate one-step appending or linking between files or across scenes.
+Objects that are part of a collection always shows as light green when selected.
+See Fig. :ref:`fig-view3d-collection-objects`.
 
 
 Collections Menu
@@ -76,7 +76,7 @@ New ``+``
 Name
    To rename a collection, simply click in the collections name field.
 Remove ``X``
-   To remove an object from a group,
+   To remove an object from a collection,
    find the name of the collection from which you wish to remove the object,
    and click the ``X`` button to the right of the collection name.
 Specials

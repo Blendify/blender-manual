@@ -13,7 +13,7 @@ Faces
    This creates an instance of all children of this object on each face
    (for mesh objects only).
 Collection
-   This creates an instance of the group with the transformation of the object.
+   This creates an instance of the collection with the transformation of the object.
    Collection Instancers can be animated using actions, or can get a :ref:`Proxy <object-proxy>`.
 
 .. toctree::
