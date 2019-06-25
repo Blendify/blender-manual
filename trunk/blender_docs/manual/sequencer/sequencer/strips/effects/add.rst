@@ -4,6 +4,11 @@
 Add Effect
 **********
 
+.. figure:: /images/editors_vse_sequencer_strips_effects_add_example.png
+   :width: 620px
+
+   Add Effect.
+
 The Add Effect adds the colors of two strips together.
 Use this effect with a base image strip, and a modifier strip.
 The modifier strip is either a solid color or a black-and-white mask,
@@ -16,24 +21,14 @@ and is controlled the same way by feeding the Factor input.
 
 .. Red and Cyan (Green and Blue) make White. Red and Blue make Magenta. Red and Green make Yellow.
 
+The example shows what happens when you add gray to an image.
+The image gets bright because we are adding gray
+(R:0.5, G:0.5, B:0.5) to say, a blue color (R:0.1, G:0.1, B:0.5) resulting in (R:0.6, G:0.6, B:1.0)
+which retains the original hue (relationship between the colors) but is much brighter
+(has a higher value). When applied to the whole image like this, it seems to flash.
+
 
 Options
 =======
 
 This strip has no options.
-
-
-Example
-=======
-
-.. TODO2.8(sequencer):
-.. figure:: /images/editors_vse_sequencer_strips_effects_add_example.png
-
-   Add Effect.
-
-The example to the right shows what happens when you add gray to an image.
-The image gets bright because we are adding gray
-(R:0.5, G:0.5, B:0.5) to say, a blue color (R:0.1, G:0.1, B:0.5) resulting in (R:0.6, G:0.6, B:1.0)
-which retains the original hue (relationship between the colors) but is much brighter
-(has a higher value). When applied to the whole image like this,
-the whole image seems to flash.

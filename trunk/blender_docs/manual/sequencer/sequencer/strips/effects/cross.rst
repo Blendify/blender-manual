@@ -5,8 +5,8 @@
 Cross & Gamma Cross
 *******************
 
-.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_cross_example.png
+   :width: 620px
 
    Cross Effect.
 

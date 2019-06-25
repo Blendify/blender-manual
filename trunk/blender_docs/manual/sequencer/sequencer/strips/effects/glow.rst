@@ -4,6 +4,11 @@
 Glow
 ****
 
+.. figure:: /images/editors_vse_sequencer_strips_effects_glow_example.png
+   :width: 620px
+
+   Glow effect.
+
 This effect makes parts of an image glow brighter by working on
 the luminance channel of an image.
 The *Glow* is the superposition of the base image and a modified version,
@@ -30,12 +35,3 @@ Quality
 Only boost
    This checkbox allows you to only show/use
    the "modified" version of the image, without the base one.
-
-
-Example
-=======
-
-.. TODO2.8(sequencer):
-.. figure:: /images/editors_vse_sequencer_strips_effects_glow_example.png
-
-   Example of a Glow effect applied to a picture.

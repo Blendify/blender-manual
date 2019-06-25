@@ -3,6 +3,11 @@
 Alpha Over, Under & Over Drop
 *****************************
 
+.. figure:: /images/editors_vse_sequencer_strips_effects_alpha-over-under-overdrop_example.png
+   :width: 620px
+
+   Alpha Over Effect.
+
 Using the alpha (transparency channel),
 this effect composites a result based on transparent areas of the dominant image.
 If you use a Scene strip, the areas of the image where there is not anything solid are transparent;
@@ -65,15 +70,3 @@ all of the Alpha effects respect the alpha (transparency) channel, whereas Cross
 
 The degree of Alpha applied, and thus color mixing, can be controlled by an F-Curve.
 Creating a Sine wave could have the effect of the foreground fading in and out.
-
-
-Example
-=======
-
-In the example below, the clouds are being placed on top of the white background
-through the use of an *Alpha Over* strip.
-
-.. TODO2.8(sequencer):
-.. figure:: /images/editors_vse_sequencer_strips_effects_alpha-over-under-overdrop_example.png
-
-   Alpha Over Effect.

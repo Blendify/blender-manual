@@ -4,13 +4,13 @@
 Text Effect
 ***********
 
-The text effect strip allows you to directly display text in the Sequence editor.
-The strip will display the text inserted in its text field on the final sequence.
-
-.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_text_example.png
+   :width: 620px
 
    Text Effect.
+
+The text effect strip allows you to directly display text in the Sequence editor.
+The strip will display the text inserted in its text field on the final sequence.
 
 
 Options
