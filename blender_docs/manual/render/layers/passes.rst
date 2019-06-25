@@ -1,12 +1,16 @@
+
+******
+Passes 
+******
+
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
 and also to extract data such as depth or normals.
 
 
 .. _render-cycles-passes:
 
-*************
-Passes Cycles
-*************
+Cycles
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -18,7 +22,7 @@ and also to extract data such as depth or normals.
 
 
 Lighting Passes
-===============
+---------------
 
 Combined
    The final combination of render passes with everything included.
@@ -63,7 +67,7 @@ Ambient Occlusion
 
 
 Combining
----------
+^^^^^^^^^
 
 All these lighting passes can be combined to produce the final image as follows:
 
@@ -71,7 +75,7 @@ All these lighting passes can be combined to produce the final image as follows:
 
 
 Data Passes
-===========
+-----------
 
 Z
    Distance to any visible surfaces.
@@ -114,7 +118,7 @@ Alpha Threshold
 
 
 Cryptomatte
-===========
+-----------
 
 Cryptomatte is a standard to efficiently create mattes for compositing.
 Cycles outputs the required render passes, which can then be used in the Blender compositor
@@ -137,7 +141,7 @@ Accurate Mode
 
 
 Typical Workflow
-----------------
+^^^^^^^^^^^^^^^^
 
 #. Enable Cryptomatte Object render pass in the Passes panel, and render.
 #. In the compositing nodes, create a Cryptomatte node and
@@ -150,11 +154,11 @@ Typical Workflow
 
    :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
 
+
 .. _render-eevee-passes:
 
-************
-Passes EEVEE
-************
+Eevee
+=====
 
 .. admonition:: Reference
    :class: refbox
@@ -162,9 +166,8 @@ Passes EEVEE
    :Panel:     :menuselection:`Scene --> View Layers --> Passes`
 
 
-
 Lighting Passes
-===============
+---------------
 
 Combined
    The final combination of render passes with everything included.
@@ -180,15 +183,14 @@ Ambient Occlusion
    it gives a 'normalized' value between 0 and 1.
 
 
-
 Data Passes
-===========
+-----------
 
 Z
    Distance to any visible surfaces.
 
 Mist
-   Distance to visible surfaces, mapped to the 0.0-1.0 range.
+   Distance to visible surfaces, mapped to the 0.0 - 1.0 range.
 
 Normal
    Surface normal used for shading.

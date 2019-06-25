@@ -3,12 +3,12 @@
 Hook Modifier
 *************
 
-The *Hook* Modifier is used to deform stroke points using another object 
-(usually an Empty or a Bone but it can be any object).
+The *Hook* Modifier is used to deform stroke points using another object
+(usually an empty or a bone but it can be any object).
 
 As the hook moves, it pulls points from the strokes with it.
 You can think of it as animated
-:doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`.
+:doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 
 Options
@@ -27,16 +27,18 @@ Radius
 Strength
    Adjust this hooks influence on the stroke points, were (0.0 to 1.0) (no change to fully follows the hook).
 
-Fallof
+
+Falloff
 -------
 
-Fallof Type
+Falloff Type
    This can be used to adjust the kind of curve that the hook has on the stroke points.
-   You can also define a custom curve to get a much higher level of control.   
+   You can also define a custom curve to get a much higher level of control.
 
 Uniform Falloff
    This setting is useful when using hooks on scaled objects,
    especially in cases where non-uniform scale would stretch the result of the hook.
+
 
 Influence Filters
 -----------------
@@ -57,10 +59,10 @@ Layer
    should always be applied **after** the Hook Modifier;
    otherwise the generated geometry will be left out of the hook's influence.
 
-Example:
---------
+
+Example
+-------
 
 .. figure:: /images/grease_pencil_modifiers_deform_hook_sample.png
 
    Empty used as Hook to manipulate a vertex group (right eye of the monkey).
-   

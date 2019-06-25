@@ -27,8 +27,10 @@ Object
 Strength
    A factor to control blending between original and deformed points positions.
 
+
 Influence Filters
 -----------------
+
 Vertex Group
    Restricts the effect only to a Vertex group.
 
@@ -38,18 +40,18 @@ Material
 Layer
    Restricts the effect only to one layer or to any layers that share the same pass index.
 
+
 Example
 =======
 
+.. list-table:: Lattice modifier sample.
 
-.. list-table:: Lattice modifier sample
-      
-      * - .. figure:: /images/grease_pencil_modifiers_deform_lattice_original.png
-             :width: 320px
+   * - .. figure:: /images/grease_pencil_modifiers_deform_lattice_original.png
+          :width: 320px
 
-             Original Model.
+          Original Model.
 
-        - .. figure:: /images/grease_pencil_modifiers_deform_lattice_edit.png
-             :width: 320px
+     - .. figure:: /images/grease_pencil_modifiers_deform_lattice_edit.png
+          :width: 320px
 
-             After Lattice edition.
+          After Lattice edition.
