@@ -82,6 +82,40 @@ as long as that collection is also visible.
    nothing will be rendered.
 
 
+Collections
+===========
+
+Per collection you can adjust the way how the render engine needs to render the
+objects inside. Based on the render engine different options can be set.
+
+.. figure:: /images/render_post-process_viewlayer-collection.png
+
+   Collection/View layer settings
+
+Disable from View Layer
+   Remove this collection from the active view layer. Objects that are only in
+   this collection will not be rendered for the active view layer.
+
+Enable in View Layer
+   Add this collection to the active view layer. Objects inside the collection
+   will be rendered with the active view layer.
+
+Set Indirect Only
+   Objects inside this collection will only contribute to the final image
+   indirectly through shadows and reflections.
+
+Clear Indirect Only
+   Clear the Set Indirect Only flag. Objects inside this collection will 
+   contribute normal to the final image.
+
+Set Holdout
+   Objects inside this collection will generate a holdout/mask in the active
+   view layer.
+
+Clear Holdout
+   Clear the Set Holdout flag.
+
+
 *************
 Cycles Layers
 *************
