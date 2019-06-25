@@ -325,9 +325,11 @@ The compositing of a view is completed before the remaining views start to be co
 The pipeline is the same as the single-view workflow, with the difference that you can use Images,
 Movies or Image Sequences in any of the supported multi-view formats.
 
-.. figure:: /images/render_workflows_multiview_usage_compositor.png
+..
 
-   Compositor, backdrop and Split Viewer node.
+   .. figure:: /images/render_workflows_multiview_usage_compositor.png
+
+      Compositor, backdrop and Split Viewer node.
 
 The views to render are defined in the current scene views,
 in a similar way as you define the composite output resolution in the current scene render panel,
