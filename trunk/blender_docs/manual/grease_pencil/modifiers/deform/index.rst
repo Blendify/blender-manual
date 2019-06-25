@@ -7,7 +7,6 @@
    :maxdepth: 1
 
    armature.rst
-   backbone_stretch.rst
    hook.rst
    lattice.rst
    noise.rst
