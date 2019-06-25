@@ -54,7 +54,6 @@ def warn_locale():
     print_title("List of unused locale:")
 
     if files_po:
-        print(" cd locale")
         for f in files_po:
             if f.endswith(ignore_suffix):
                 continue
@@ -65,8 +64,7 @@ def warn_locale():
             f_sub = os.sep.join(f_sub.split(os.sep)[2:])
             f_po_as_rst = os.path.join(RST_DIR, f_sub)
             if not os.path.exists(f_po_as_rst):
-                print(" svn rm --force %s" % f[len(LOCALE_DIR) + 1:])
-        print(" cd ../")
+                print(" svn rm --force %s" % f[len(ROOT_DIR) + 1:])
     return 0
 
 
