@@ -28,7 +28,7 @@ with following options:
 
 - Active Group
 - Selected Pose Bones
-- Deform pose Bones
+- Deform Pose Bones
 - All Groups
 
 All tools also work with Vertex Selection Masking and Face Selection Masking.
@@ -337,7 +337,7 @@ Source
 Fix Deforms
 ===========
 
-The *Fix deforms* tool is used to modify an object’s nonzero weights so its deformed
+The *Fix deforms* tool is used to modify an object's nonzero weights so its deformed
 vertices are at a new defined distance. This is helpful to fix deformations
 because when complex models are deformed to their extreme poses,
 they are often visibly bumpy, jagged, or otherwise incorrectly deformed.

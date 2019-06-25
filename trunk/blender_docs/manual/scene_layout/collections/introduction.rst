@@ -3,11 +3,6 @@
 Introduction
 ************
 
-.. TODO28 fix heading style
-
-Where are the Objects?
-======================
-
 In Blender, objects are not directly part of the scenes.
 Instead, they all get stored in a main database (basically the blend-file).
 
@@ -28,7 +23,7 @@ So ultimately all the scene objects belong to this special collection.
 Collections
 ===========
 
-While the *scene collection* contains all the Scene’s objects,
+While the *scene collection* contains all the Scene's objects,
 the user can also make their own collections to better organize these objects.
 
 It works like a Venn diagram, where all the objects are part of the *scene collection*,

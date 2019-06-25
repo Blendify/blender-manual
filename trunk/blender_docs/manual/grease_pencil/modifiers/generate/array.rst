@@ -23,59 +23,67 @@ Options
 Count
    Total number of items.
 
+
 Offset
 ------
 
-Offset, X, Y, Z
+Offset, 
    Distance between items. X, Y and Z distances can be specified.
 
-Objet Offset
-    Use the location or rotation of another Object to determine the distance
-    and rotational change between arrayed items.
+   X, Y, Z
+Object Offset
+   Use the location or rotation of another Object to determine the distance
+   and rotational change between arrayed items.
 
 .. note::
 
-   The *Depth Order* used in the *Grease Pencil* Object has influence in the strokes visualization when using the array modifier.
+   The *Depth Order* used in the *Grease Pencil* Object has influence in
+   the strokes visualization when using the array modifier.
    See :doc:`Depth Order </grease_pencil/properties/strokes>` for more information.
 
-Shift
-------
 
-Shift, X, Y, Z
-   Shiftteness.
-   X, Y and Z shift can be specified.
+Shift
+-----
+
+Shift
+   A shift on the X, Y and Z axes can be specified.
+
+   X, Y, Z
+
 
 Rotation
----------
+--------
 
-Rotation, X, Y, Z
+Rotation, 
    Changes in rotation to apply to the duplicated items.
-   X, Y and Z rotation can be specified.
 
-Random factor   
+   X, Y, Z
+Random factor
    Toggle button and random value to apply for rotation.
-   
+
+
 Scale
-------
+-----
 
-Scale, X, Y, Z
+Scale, 
    Changes in scale to apply to the duplicated items.
-   X, Y and Z scale can be specified.
 
+   X, Y, Z
 Random factor
    Toggle button and random value to apply for scale.
 
+
 Material
----------
+--------
 
 Material Index
-  Index of the material to use on duplicated strokes (0 use strokes original materials)
+   Index of the material to use on duplicated strokes (0 use strokes original materials).
 
 Keep original stroke on top
-  Maintains the original strokes used in the array on top of the duplicated ones.
+   Maintains the original strokes used in the array on top of the duplicated ones.
 
 
-Influence filters
+Influence Filters
 -----------------
 
 Material

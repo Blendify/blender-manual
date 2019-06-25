@@ -3,7 +3,7 @@
 Subdivide Modifier
 ******************
 
-The *Subdivide* modifier subdivide the strokes adding points to the lines.
+The *Subdivide* modifier subdivide the strokes by adding points to the lines.
 
 
 Options
@@ -18,9 +18,10 @@ Level
    The number of subdivision iterations.
 
    Simple
-     When enabled, the subdivide proccess only add control points.
+      When enabled, the subdivide process only add control points.
 
-Influence filters
+
+Influence Filters
 -----------------
 
 Material

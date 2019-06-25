@@ -13,7 +13,7 @@ Summary
 
    The Mode select menu.
 
-*Modes* are an object-oriented feature, that means that the available modes vary
+*Modes* are an object-oriented feature, which means that the available modes vary
 depending on the selected active object's type -- most of them only enable
 the default *Object Mode* (like cameras, lights, etc.).
 

@@ -218,7 +218,7 @@ The Spring Example
 #. Move this circle three units on the X axis to the left;
    you can use the shortcut :kbd:`Ctrl` while selecting with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and moving while using shortcut :kbd:`Ctrl`
-   until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global`` ),
+   until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global``),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
    You can use the Transform Panel, and type :kbd:`Minus 3` and :kbd:`Return` in the Location too.
    (See the Fig. :ref:`fig-mesh-screw-circle`).
@@ -245,7 +245,7 @@ The following steps explain how to create a height vector:
    This will create a straight vertical line with 2 units of Height.
 #. De-select and select everything again with the shortcut :kbd:`A`.
    (See Fig. :ref:`fig-mesh-screw-profile`).
-#. Again, place again the cursor at the center. (Repeat step 2).
+#. Again, place the cursor at the center. (Repeat step 2).
 #. At this point, you can save this blend-file to recycle
    the Spring for another exercise; :kbd:`LMB` click on *File*,
    located in the header of the Info editor, (at the top left side), and choose *Save as*.

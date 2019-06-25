@@ -210,7 +210,7 @@ Move Marker
    :class: refbox
 
    :Mode:      All modes
-   :Menu:      :menuselection:`Marker --> /Move Marker`
+   :Menu:      :menuselection:`Marker --> Move Marker`
    :Hotkey:    :kbd:`G`
 
 Once you have one or more markers selected, press :kbd:`G`,

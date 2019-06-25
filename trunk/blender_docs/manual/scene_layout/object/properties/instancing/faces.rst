@@ -90,8 +90,8 @@ Limitations/Considerations
 ==========================
 
 The positioning of the instanced geometry relative to the face is dependent upon the position
-of the child objects relative to the instancer's origin. This can lead to some visual
-artifacts in the 3D Viewport as the geometry of the original objects overlaps or intersects with
+of the child objects relative to the instancer's origin. This can lead to some visual artifacts
+in the 3D Viewport as the geometry of the original objects overlaps or intersects with
 the instanced geometry.
 One workaround is to move the origin of the instancer mesh off of the plane of the faces.
 
