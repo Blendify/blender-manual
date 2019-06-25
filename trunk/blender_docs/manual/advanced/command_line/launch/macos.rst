@@ -12,7 +12,7 @@ and run the executable within the app bundle, with commands like this:
 .. code-block:: sh
 
    cd /Applications/Blender.app/Contents/MacOS
-   ./blender
+   ./Blender
 
 If you need to do this often,
 you can add this directory to your ``PATH``.
@@ -27,7 +27,7 @@ If you then open a new terminal, the following command will work:
 
 .. code-block:: sh
 
-   blender
+   Blender
 
 
 Details
@@ -38,11 +38,11 @@ These files are actually folders that appear as files in Finder.
 In order to run Blender you will have to specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
 You can start a terminal from :menuselection:`Applications --> Utilities`.
-The path to the executable in the ``.app`` folder is ``./Blender.app/Contents/MacOS/blender``.
+The path to the executable in the ``.app`` folder is ``./Blender.app/Contents/MacOS/Blender``.
 
 If you have Blender installed in the Applications folder, the following command can be used:
 
-.. parsed-literal:: /Applications/Blender.app/Contents/MacOS/blender
+.. parsed-literal:: /Applications/Blender.app/Contents/MacOS/Blender
 
 .. figure:: /images/advanced_command-line_introduction_mac.png
 
