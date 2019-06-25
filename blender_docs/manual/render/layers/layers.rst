@@ -16,68 +16,56 @@ Using View Layers can also save you from having to re-render your entire image e
 allowing you to instead re-render only the layer(s) that you need.
 
 
-Layer List
-==========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Properties editor --> Scene --> Scene`
+View Layers
+===========
 
 .. figure:: /images/render_post-process_layers_list.png
 
-   Layer list.
+   View Layers.
 
-This is a list of all the View Layers in the current scene.
+In the top of the screen there is a list of all the View Layers in the active
+scene.
 
-Only layers which are enabled (checkbox on right is ticked) will be rendered.
-If the pin icon at the bottom right of the list is enabled, only the active (highlighted) layer will be rendered.
+Add View Layer
+   Will add a new view layer to the active scene.
 
-View Layers can be added and removed using the ``+`` and ``-`` buttons on the right,
-and existing layers can be renamed by double-clicking on their name.
+Remove View Layer
+   Will remove the selected view layer from the active scene.
+
+   .. note::
+
+      A scene must at least have a single view layer.
 
 
-Layer Panel
-===========
+View Layer Panel
+================
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> Scene --> Layer`
+   :Panel:     :menuselection:`Properties editor --> Scene --> View Layer`
 
 .. figure:: /images/render_post-process_layers_panel.png
 
-   Layer panel.
+   View Layer panel (shown here for the EEVEE render engine)
 
-The Layer Panel shows the settings of the active Render Layer from the list above.
+The Layer Panel shows the settings of the active View Layer.
 
-You can select multiple layers using :kbd:`Shift-LMB`.
+Use for Rendering
+   The active view layer will be used during rendering.
+Render Single Layer
+   Only render the active view layer.
 
-Scene
-   The Scene Layers, showing which are currently visible and will be rendered.
-Layer
-   The Scene Layers which are associated with the active Render Layer.
-   Objects in those Scene Layers will be rendered in that Render Layer.
-   When an object is in the Scene Layers but not the Render Layer,
-   it will still cast shadows and be visible in reflections, so it is still indirectly visible.
-Mask Layer
-   Objects on these will mask out other objects appearing behind them.
-   This can be used for compositing objects into footage,
-   to take into account objects in front of the virtual objects blocking the view from the camera.
-Material Override
-   Overrides all material settings to use the Material chosen here.
+   .. note::
 
-   Examples of where this might be used:
+      This option is ignored when rendering from the command line.
 
-   - To check lighting by using a plain diffuse material on all objects.
-   - Render a wireframe of the scene.
-   - Create a custom render pass such as an anti-aliased matte or global coordinates.
 
 .. seealso::
 
-   Additional options shown in this panel are different for each render engine. See these options for:
-
-   - :doc:`Cycles </render/layers/passes>`
+   Additional options shown in this panel are different for each render engine.
+   See :doc:`Render Passes </render/layers/passes>` for the options per render
+   engine.
 
 
 Usage
@@ -92,8 +80,6 @@ as long as that collection is also visible.
    Only the objects in visible Scene Layers will be rendered.
    So, if only Collection 1 is visible and your Render Layer set specifies to render only Collections 2 and 3,
    nothing will be rendered.
-
-.. TODO2.8 integrate content below with content above.
 
 
 *************
@@ -130,13 +116,13 @@ Use Surfaces
 Use Hair
    Disables rendering hair strands in the final render.
 Use Freestyle
-   Todo 2.8.
+   Disables freestyle rendering in the final render.
 
 
 Override
 ========
 
-Material
+Material Overrider
    Overrides all materials in the render layer.
 Samples
    View layer samples to override the scene samples.
