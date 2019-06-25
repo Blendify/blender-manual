@@ -5,14 +5,28 @@
 # It looks more complex then it really is, since we do multi-processing
 # to update the PO files, to save some time.
 
+# Subversion Checkout Location
+# ============================
+#
+# Note: this script supports subversion repositories at these locations:
+#
+# ./local/(.svn)          All languages in one checkout.
+# ./local/{LANG}/(.svn)   Each language in it's own checkout.
+#
+# All commands run from the project root, passing in paths
+# without changing directories.
+#
+# This works since subversion will detect the parent directories ".svn"
+# path without us having to change directories.
+
 
 # Trap on the ERR pseudo signal
 # http://stackoverflow.com/a/4384381/432509
 err_trap () {
-    errcode=$? # save the exit code as the first thing done in the trap function
+  errcode=$? # save the exit code as the first thing done in the trap function
 	echo "  Error($errcode) on line ${BASH_LINENO[0]}, in command:"
-    echo "  $BASH_COMMAND"
-    exit $errcode
+  echo "  $BASH_COMMAND"
+  exit $errcode
 }
 trap err_trap ERR
 
