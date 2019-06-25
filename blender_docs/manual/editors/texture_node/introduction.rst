@@ -2,11 +2,15 @@
 ************
 Introduction
 ************
+.. note::
 
-As an alternative to using the :doc:`Texture Stack </render/materials/legacy_textures/texture_panel>`,
-Blender includes a node-based texture generation system, which enables textures creation by combining colors,
-patterns and other textures in the same way as shader writing with
-:doc:`Material Nodes </render/shader_nodes/index>`.
+    The Texture node system is legacy and will be replaced soon by a new system.
+    Due to this, the manual is not up to date with the latest version of
+    Blender.
+
+Blender includes a node-based texture generation system, which enables textures
+creation by combining colors, patterns and other textures in the same way as
+shader writing with :doc:`Material Nodes </render/shader_nodes/index>`.
 
 .. figure:: /images/render_blender-render_textures_nodes_introduction_types-combined.png
    :width: 600px
@@ -19,7 +23,8 @@ and even inside other textures.
 
 .. note::
 
-   Node-based textures do **not** work for real-time display, they will only be visible in rendered images.
+   Node-based textures do **not** work for real-time display, they will only be
+   visible in rendered images.
 
 
 Using Texture Nodes
