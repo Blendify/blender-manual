@@ -27,7 +27,7 @@ Count
 Offset
 ------
 
-Offset, 
+Offset
    Distance between items. X, Y and Z distances can be specified.
 
    X, Y, Z
@@ -54,7 +54,7 @@ Shift
 Rotation
 --------
 
-Rotation, 
+Rotation
    Changes in rotation to apply to the duplicated items.
 
    X, Y, Z
@@ -65,7 +65,7 @@ Random factor
 Scale
 -----
 
-Scale, 
+Scale
    Changes in scale to apply to the duplicated items.
 
    X, Y, Z

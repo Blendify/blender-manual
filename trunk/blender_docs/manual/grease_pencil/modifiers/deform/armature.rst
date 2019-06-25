@@ -7,7 +7,7 @@ The *Armature* Modifier is used for building skeletal systems for animating
 the poses of characters and anything else which needs to be posed.
 
 By adding an armature system to an object,
-that object can be deformed accurately so that geometry does not have to be animated by hand.
+this object can be deformed accurately so that geometry does not have to be animated by hand.
 
 .. seealso::
 
@@ -24,6 +24,7 @@ Options
 
 Object
    The name of the armature object used by this modifier.
+
 
 Bind To
 -------

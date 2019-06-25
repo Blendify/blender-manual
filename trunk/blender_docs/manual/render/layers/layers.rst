@@ -23,8 +23,7 @@ View Layers
 
    View Layers.
 
-In the top of the screen there is a list of all the View Layers in the active
-scene.
+In the top of the screen there is a list of all the View Layers in the active scene.
 
 Add View Layer
    Will add a new view layer to the active scene.
@@ -47,7 +46,7 @@ View Layer Panel
 
 .. figure:: /images/render_post-process_layers_panel.png
 
-   View Layer panel (shown here for the EEVEE render engine)
+   View Layer panel (shown here for the Eevee render engine)
 
 The Layer Panel shows the settings of the active View Layer.
 
@@ -85,8 +84,8 @@ as long as that collection is also visible.
 Collections
 ===========
 
-Per collection you can adjust the way how the render engine needs to render the
-objects inside. Based on the render engine different options can be set.
+Per collection you can adjust the way how the render engine needs to render the objects inside.
+Based on the render engine different options can be set.
 
 .. figure:: /images/render_post-process_viewlayer-collection.png
 
@@ -105,20 +104,17 @@ Set Indirect Only
    indirectly through shadows and reflections.
 
 Clear Indirect Only
-   Clear the Set Indirect Only flag. Objects inside this collection will 
-   contribute normal to the final image.
+   Clear the Set Indirect Only flag. Objects inside this collection will contribute normal to the final image.
 
 Set Holdout
-   Objects inside this collection will generate a holdout/mask in the active
-   view layer.
+   Objects inside this collection will generate a holdout/mask in the active view layer.
 
 Clear Holdout
    Clear the Set Holdout flag.
 
 
-*************
-Cycles Layers
-*************
+Cycles
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -126,12 +122,11 @@ Cycles Layers
    :Panel:     :menuselection:`View Layers --> Layer`
 
 This section covers only the Render Layer settings appropriate for the Cycles renderer.
-For the engine-independent settings,
-see :ref:`this section <render-layers>`.
+For the engine-independent settings, see :ref:`this section <render-layers>`.
 
 
 View Layer
-==========
+----------
 
 Exclude
    Scene layers are shared between all render layers;
@@ -139,7 +134,7 @@ Exclude
 
 
 Filter
-======
+------
 
 Use Environment
    Disables rendering the *Environment* render pass in the final render.
@@ -154,7 +149,7 @@ Use Freestyle
 
 
 Override
-========
+--------
 
 Material Overrider
    Overrides all materials in the render layer.

@@ -10,7 +10,7 @@ STL
 :Category: Import-Export
 :Author: Guillaume Bouchard (Guillaum)
 
-This format is uesful if you intend to import/export the files for CAD software.
+This format is useful if you intend to import/export the files for CAD software.
 It is also commonly used for loading into 3D printing software.
 
 .. warning::
