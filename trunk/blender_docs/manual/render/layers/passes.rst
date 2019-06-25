@@ -1,13 +1,17 @@
+Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
+and also to extract data such as depth or normals.
+
+
 .. _render-cycles-passes:
 
-******
-Passes
-******
+*************
+Passes Cycles
+*************
 
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Render Layers --> Passes`
+   :Panel:     :menuselection:`Scene --> View Layers --> Passes`
 
 Passes can be used to split rendered images into colors, direct and indirect light to edit them individually,
 and also to extract data such as depth or normals.
@@ -145,3 +149,46 @@ Typical Workflow
 .. seealso::
 
    :doc:`Cryptomatte Node </compositing/types/matte/cryptomatte>`.
+
+.. _render-eevee-passes:
+
+************
+Passes EEVEE
+************
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Scene --> View Layers --> Passes`
+
+
+
+Lighting Passes
+===============
+
+Combined
+   The final combination of render passes with everything included.
+Subsurface Direct
+   Direct lighting from subsurface BSDFs. We define direct lighting as coming from lights, emitting surfaces,
+   the background, or ambient occlusion after a single reflection or transmission off a surface.
+   BSDF color is not included in this pass.
+Subsurface Color
+   Color weights of subsurface BSDFs. These weights are the color input socket for BSDF nodes,
+   modified by any Mix and Add Shader nodes.
+Ambient Occlusion
+   Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
+   it gives a 'normalized' value between 0 and 1.
+
+
+
+Data Passes
+===========
+
+Z
+   Distance to any visible surfaces.
+
+Mist
+   Distance to visible surfaces, mapped to the 0.0-1.0 range.
+
+Normal
+   Surface normal used for shading.
