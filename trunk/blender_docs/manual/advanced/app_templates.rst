@@ -89,7 +89,7 @@ Command Line Access
 Using the :ref:`command-line arguments <command_line-args>` you can setup a launcher
 that opens Blender with a specific app template:
 
-.. code-block::
+.. code-block:: sh
 
    blender --app-template my_template
 
