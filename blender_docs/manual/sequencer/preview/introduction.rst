@@ -32,8 +32,6 @@ Sequence Render Animation
 Controls
 --------
 
-.. TODO2.8(sequencer): update image.
-
 .. figure:: /images/editors_vse_preview_introduction_header.png
 
    Sequencer Display header.

@@ -80,7 +80,6 @@ Markers Menu
 :doc:`Markers </animation/markers>` are used to denote frames with key points or significant events
 within an animation. Like with most animation editors, markers are shown at the bottom of the editor.
 
-.. TODO2.8(sequencer):
 .. figure:: /images/editors_graph-editor_introduction_markers.png
 
    Markers in animation editor.

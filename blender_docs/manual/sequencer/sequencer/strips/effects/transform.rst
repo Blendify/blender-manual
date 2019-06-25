@@ -4,9 +4,10 @@
 Transform
 *********
 
-.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_transform_example.png
-   :align: right
+   :width: 620px
+
+   Transform Effect.
 
 Transform is a swiss-army knife of image manipulation.
 It moves, rotates, and scales the images within a strip.

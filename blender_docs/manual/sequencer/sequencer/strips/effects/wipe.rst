@@ -4,11 +4,10 @@
 Wipe
 ****
 
-.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_wipe_example.png
-   :align: right
+   :width: 620px
 
-   Wipe Effect settings.
+   Wipe Effect.
 
 The wipe effect is a type of transition strip. It can be used to transition from one strip to the next.
 The wipe will have no effect if created from a single strip instead of two strips.
