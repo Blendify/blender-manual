@@ -29,7 +29,8 @@ Mirror Object
    which position and rotation will be used to define mirror planes
    (instead of using the ones from the modified object).
 
-Influence filters
+
+Influence Filters
 -----------------
 
 Material

@@ -80,7 +80,7 @@ Pan
    Used to pan the audio from left and right channels. Only works for mono sources.
    Values can be between -2 and 2, where 0 means front/center, -1 means to the left and 1 to the right.
    In case of multichannel audio (rear speakers) you can pan to those with the higher values: -2, 2 is back.
-   So this value basically represents the angle at which it’s played.
+   So this value basically represents the angle at which it's played.
 
 .. _sequencer-sound-waveform:
 

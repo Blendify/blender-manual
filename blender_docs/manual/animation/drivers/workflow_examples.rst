@@ -16,18 +16,18 @@ Transform Driver
 
 Starting from a simple setup with two objects:
 
-1. Add a Driver to the *Rotation Y* property of the second object by right-clicking or with :kbd:`Ctrl-D`.
+#. Add a Driver to the *Rotation Y* property of the second object with the context menu or with :kbd:`Ctrl-D`.
 
-.. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
+   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
-2. Open the *Drivers Editor* (:kbd:`Shift-F6`).
-3. In the channels region, select the *Y Euler Rotation* property.
-4. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
-5. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
+#. Open the *Drivers Editor* (:kbd:`Shift-F6`).
+#. In the channels region, select the *Y Euler Rotation* property.
+#. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
+#. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
-.. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
+   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
-6. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+#. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
 
 
 

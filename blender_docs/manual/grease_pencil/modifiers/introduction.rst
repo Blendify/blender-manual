@@ -26,13 +26,13 @@ Deform
 Color
    The *Color* group of modifiers change the object color output.
 
+
 Interface
 =========
 
 .. figure:: /images/grease_pencil_modifiers_introduction_interface.png
 
    Panel layout (Thickness modifier as an example).
-
 
 Each modifier’s interface shares the same basic components like modifiers for meshes.
 
@@ -43,7 +43,7 @@ See :ref:`Modifiers Interface <bpy.types.Modifier.show>` for more information.
    Grease Pencil strokes, unlike meshes, still can not be edited directly in the place.
 
 
-Influence filters
+Influence Filters
 -----------------
 
 Most of *Grease Pencil* modifiers share some special properties that restrict the effect only to certain items.

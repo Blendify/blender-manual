@@ -4,7 +4,7 @@
 Subdivision Surface Modifier
 ****************************
 
-The *Subdivision Surface* modifier (often shorten to “Subdiv”)
+The *Subdivision Surface* modifier (often shorten to "Subdiv")
 is used to split the faces of a mesh into smaller faces, giving it a smooth appearance.
 It enables you to create complex smooth surfaces while modeling simple, low-vertex meshes.
 It avoids the need to save and maintain huge amounts of data,

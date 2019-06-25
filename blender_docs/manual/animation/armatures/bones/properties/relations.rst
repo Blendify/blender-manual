@@ -172,7 +172,7 @@ however, this should give a good idea of the problem:
   (see Fig. :ref:`fig-rig-pose-edit-scale` the third tip bone,
   outlined in yellow, was only scaled down through the parent relationship,
   exactly as the unselected ones, even though it is selected and active.
-  Otherwise, it should have been twice smaller!).
+  Otherwise, it should have been twice smaller!)
 - When connected and unconnected bones are selected,
   and you start a move operation, only the unconnected bones are affected.
 - When a child connected hinge bone is in the selection,

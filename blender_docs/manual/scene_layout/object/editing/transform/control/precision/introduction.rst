@@ -73,8 +73,8 @@ Move
 
 For move operations at the default zoom level,
 holding :kbd:`Ctrl` will cause your selection to move by increments of 1 unit
-(i.e. between the two light gray lines). Zooming in enough to see the next set of gray
-lines will now cause :kbd:`Ctrl` movements to occur by 1/10 of a unit.
+(i.e. between the two light gray lines). Zooming in enough to see the next set of gray lines
+will now cause :kbd:`Ctrl` movements to occur by 1/10 of a unit.
 Zooming in further until the next set of gray lines becomes visible
 will cause movement to happen by 1/100 of a unit and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and

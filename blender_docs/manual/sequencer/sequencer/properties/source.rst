@@ -40,8 +40,8 @@ Options for Sound Strips
 Sound
    :ref:`Data-block menu <ui-data-block>` to select a sound.
 Path
-   Path to sound file used by this :ref:`data-block <ui-data-block>` menu.
+   Path to the sound file used by this :ref:`data-block <ui-data-block>` menu.
 Pack
-   Pack sound into blend-file.
+   Pack sound into the blend-file.
 Caching
    Sound file is decoded and loaded into the RAM.

@@ -24,16 +24,17 @@ Mode
       Deletes alternated points in the strokes, except the start and end points.
 
       Iterations
-         Number of times to repeat the procedure.         
+         Number of times to repeat the procedure.
 
    Adaptive
-      Uses the RDP algorithm (Ramer-Douglas–Peucker algorithm) for points deletion. 
+      Uses the RDP algorithm (Ramer-Douglas-Peucker algorithm) for points deletion.
       The algorithm try to obtain a similar line shape with fewer points.
 
       Factor
-        Controls the amount of recursively simplifications applied by the algorithm.
+         Controls the amount of recursively simplifications applied by the algorithm.
 
-Influence filters
+
+Influence Filters
 -----------------
 
 Material
@@ -42,50 +43,50 @@ Material
 Layer
    Restricts the effect only to one layer or to any layers that share the same pass index.
 
+
 Example
 =======
 
-.. list-table:: Fixed Mode sample
-      
-      * - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_0.png
-             :width: 130px
+.. list-table:: Fixed Mode sample.
 
-             Original Model.
+   * - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_0.png
+          :width: 130px
 
-        - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_1.png
-             :width: 130px
+          Original Model.
 
-             Iteration: 1.
+     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_1.png
+          :width: 130px
 
-        - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_2.png
-             :width: 130px
+          Iteration: 1.
 
-             Iteration: 2.
+     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_2.png
+          :width: 130px
 
-        - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_3.png
-             :width: 130px
+          Iteration: 2.
 
-             Iteration: 3.
+     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_3.png
+          :width: 130px
 
-.. list-table:: Adpative Mode sample
+          Iteration: 3.
 
-      * - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_0.png
-             :width: 130px
+.. list-table:: Adaptive Mode sample.
 
-             Original Model.
+   * - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_0.png
+          :width: 130px
 
-        - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_01.png
-             :width: 130px
+          Original Model.
 
-             Factor: 0.1.
+     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_01.png
+          :width: 130px
 
-        - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_02.png
-             :width: 130px
+          Factor: 0.1.
 
-             Factor: 0.5.
+     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_02.png
+          :width: 130px
 
-        - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_05.png
-             :width: 130px
+          Factor: 0.5.
 
-             Factor: 1.
-      
+     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_05.png
+          :width: 130px
+
+          Factor: 1.

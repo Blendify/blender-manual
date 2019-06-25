@@ -40,7 +40,7 @@ Thickness
 
 Onion Skin
    Shows a preview of strokes made in frames close by the current frame.
-   Onion skinning only works in the 3D Viewport and Sequencer. 
+   Onion skinning only works in the 3D Viewport and Sequencer.
    See the Grease Pencil documentation for an explanation of
    :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 

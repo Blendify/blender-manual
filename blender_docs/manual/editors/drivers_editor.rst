@@ -65,7 +65,6 @@ View Controls
 
    View controls.
 
-
 Normalize
    Normalize curves so the maximum and minimum points equal 1.0 and -1.0 respectively.
 
@@ -82,10 +81,11 @@ Show Only Errors (warning triangle icon)
    Useful for debugging.
 
 Create Ghost Curves (square with curve icon)
-   Makes a visual indication in the background of the editor with a snapshot of the current state of the selected curves.
+   Makes a visual indication in the background of the editor
+   with a snapshot of the current state of the selected curves.
    This is useful to have a base for comparison on top of which to make edits.
 
-Filter popover (funnel icon)
+Filter (funnel icon)
    Type Filter
       Filter curves by property type.
 
@@ -103,7 +103,6 @@ Curve Controls
 .. figure:: /images/editors_graph-editor_introduction_header-edit.png
 
    Curve controls.
-
 
 Pivot Point
    Pivot point for rotation.

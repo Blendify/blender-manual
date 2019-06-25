@@ -20,6 +20,7 @@ An area is subdivided into regions.
    :ref:`Sidebar <ui-region-sidebar>` (red) and
    :ref:`ui-redo-last` panel (pink).
 
+
 .. _ui-region-window:
 
 Main Region
