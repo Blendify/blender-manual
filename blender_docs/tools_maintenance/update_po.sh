@@ -20,17 +20,21 @@ trap err_trap ERR
 export LANG="en_US.UTF8"
 
 # Ensure we're in the repo's base:
-BASEDIR=$(dirname $0)
+BASEDIR="$(dirname $0)"
 cd $BASEDIR
 cd ../
+ROOTDIR="$(pwd)"
 
+
+# All directories containing '.svn' (the parent directory).
+SVN_DIRS_ALL="$(find locale/ -name '.svn' -printf '%h\n')"
 
 # Update the locale dir:
-cd ./locale
-svn cleanup .
-svn up .
-cd ../
-
+for SVNDIR in "$SVN_DIRS_ALL"; do
+  svn cleanup "$SVNDIR"
+  svn up "$SVNDIR"
+done
+unset SVNDIR
 
 # Create PO files:
 rm -rf build/locale
@@ -40,46 +44,47 @@ make gettext
 # Update PO files
 #
 # note, this can be slow so (multi-process)
-for LANG in `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort`; do
+for LANG in $(find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort); do
 	sphinx-intl --config=manual/conf.py update --pot-dir=build/locale --language="$LANG" &
 done
 
 FAIL=0
-for job in `jobs -p`; do
-echo "$job"
-    wait $job || let "FAIL+=1"
+for JOB in $(jobs -p); do
+  echo "$JOB"
+  wait $JOB || let "FAIL+=1"
 done
+unset JOB
 if [ "$FAIL" != "0" ]; then
 	echo "Error updating"
 	exit 1
 fi
 unset FAIL
 
-
-# Add newly created PO files:
-cd locale/
-NEW_FILES=`svn status . | grep -e "\.po$" | awk '/^[?]/{print $2}'`
-if [ "$NEW_FILES" != "" ]; then
-	# Multiple args, don't quote.
-	svn add $NEW_FILES
-fi
-unset NEW_FILES
-
-# note, the Python part filters only for directories
-# there may be a cleaner way to do this in shell.
-NEW_DIRS=`svn status . | grep -v -e "\.po$" | awk '/^[?]/{print $2}' | python -c "import sys, os; sys.stdout.write('\n'.join([f for f in sys.stdin.read().split('\n') if os.path.isdir(f)]))"`
-if [ "$NEW_DIRS" != "" ]; then
-	# Multiple args, don't quote.
-	svn add $NEW_DIRS
-fi
-unset NEW_DIRS
-
-cd -
-
-
 # Notify on redundant PO files
 python3 tools_rst/rst_check_locale.py
 
+# Add newly created PO files:
+for SVNDIR in "$SVN_DIRS_ALL"; do
+
+  NEW_FILES=$(svn status "$SVNDIR" | grep -e "\.po$" | awk '/^[?]/{print $2}')
+  if [ "$NEW_FILES" != "" ]; then
+    # Multiple args, don't quote.
+    svn add "$NEW_FILES"
+  fi
+  unset NEW_FILES
+
+  # Note, the Python part filters only for directories.
+  # There may be a cleaner way to do this in shell.
+  NEW_DIRS=$(svn status "$SVNDIR" | grep -v -e "\.po$" | awk '/^[?]/{print $2}' | python -c "import sys, os; sys.stdout.write('\n'.join([f for f in sys.stdin.read().split('\n') if os.path.isdir(f)]))")
+  if [ "$NEW_DIRS" != "" ]; then
+    # Multiple args, don't quote.
+    svn add "$NEW_DIRS"
+  fi
+  unset NEW_DIRS
+done
+
+
 # Print Commit message:
-REVISION=`svn info . | grep '^Revision:' | sed -e 's/^Revision: //'`
-echo " cd locale; svn ci . -m \"Update r"$REVISION\""; cd .."
+for SVNDIR in "$SVN_DIRS_ALL"; do
+  echo " svn ci \"$SVNDIR\" -m \"Update r"$REVISION\"""
+done
