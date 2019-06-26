@@ -6,8 +6,6 @@ Aligning
 These options allow you to align and orient the view.
 
 
-.. (TODO2.8 add) negative/positive direction.
-
 Axes
 ====
 
@@ -17,8 +15,7 @@ Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointi
 *Top*/ *Bottom* along the Z axis.
 
 You can select the viewing direction for a 3D View with the *View* menu entries,
-or by pressing the hotkeys. You can select the opposite directions if you hold
-:kbd:`Ctrl` while using the same numpad shortcuts.
+or by pressing the hotkeys.
 
 These operators change the view to be aligned with the specified global axes:
 
@@ -33,7 +30,6 @@ Holding :kbd:`Ctrl` shows the other side of the same axis.
 :Left: :kbd:`Ctrl-Numpad3`
 
 Holding :kbd:`Shift` aligns the view relative to the active selection.
-
 So you can for example, view a rotated objects side, or align the view to the active face in mesh edit-mode.
 
 
