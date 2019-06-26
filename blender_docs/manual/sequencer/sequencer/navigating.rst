@@ -6,8 +6,6 @@ Navigating
 Header
 ======
 
-.. TODO2.8(sequencer): update image.
-
 .. figure:: /images/editors_vse_sequencer_introduction_header.png
 
    Video Sequencer Header.

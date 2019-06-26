@@ -76,11 +76,7 @@ Example
 =======
 
 .. figure:: /images/editors_vse_sequencer_strips_movie-image_example.png
-.. TODO2.8(sequencer):
 
-If you scroll up the workspace, you will see an information channel
-(at vertical location channel 0) that gives you some helpful hints about the active strip.
-The example above shows a color strip from frames 1 to 25, then a ``mov`` file,
-and then an image strip. The info channel shows handy information about the image strip,
-whose name has been scrunched in the strip display,
-but is clearly spelled out in the information strip.
+   Imported movie strip with audio track underneath.
+
+In the strip itself, you can see strip name, path to source file, and strip length.

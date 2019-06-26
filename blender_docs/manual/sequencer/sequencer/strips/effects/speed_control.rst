@@ -75,7 +75,6 @@ That is it, set your render to animate (in this example) all 550 frames.
 Keyframing the Speed Control
 ----------------------------
 
-.. TODO2.8(sequencer):
 .. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_keyframing.png
    :align: right
 
