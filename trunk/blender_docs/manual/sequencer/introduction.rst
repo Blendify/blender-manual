@@ -23,16 +23,22 @@ Finally, you can add audio and synchronize the timing of the video sequence to m
 View Types
 ==========
 
-The Video Sequence Editor has three view types for the main view.
+.. figure:: /images/editors_vse_introduction_view_types.png
+   :align: right
 
-The View Types toggles in the header allow you to change the view of the VSE.
-When the first button is toggled only the Sequencer is displayed (the default).
-The second button displays only the Preview region, and
-the third button displays both the Sequencer and the Preview.
+The Video Sequence Editor has three view types for the main view:
+
+Sequencer
+	View timeline and strip properties
+Preview
+	View preview window and preview properties
+Sequencer/Preview
+	Combined view of preview and timeline and properties of both
+
+It is possible to create multiple instances of any view type in single workspace.
+
 
 .. note::
-
    By default the Sequencer is enabled, however, it can be disabled
    in the :ref:`render-output-postprocess`.
 
-.. figure:: /images/editors_vse_introduction_view_types.png
