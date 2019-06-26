@@ -4,13 +4,6 @@
 Camera View
 ***********
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All modes
-   :Menu:      :menuselection:`View --> Cameras --> Active Camera`
-   :Hotkey:    :kbd:`Numpad0`
-
 .. figure:: /images/editors_3dview_navigate_camera-view_example.png
 
    Demonstration of camera view.
@@ -19,28 +12,34 @@ The Camera view shows the current scene as seen from the currently active camera
 
 The Camera view can be used to virtually compose shots and preview how the scene will look when rendered.
 The rendered image will contain everything within the dashed line.
-In this view you can also set the *Render Region* which defines the portion of the 3D View to be rendered.
 
-.. list-table:: Camera view provides a preview for the final rendered image.
+.. seealso::
 
-   * - .. figure:: /images/editors_3dview_navigate_camera-view_preview.png
-          :width: 335px
-
-          Camera view.
-
-     - .. figure:: /images/editors_3dview_navigate_camera-view_render.png
-          :width: 335px
-
-          Rendered image.
+   :ref:`Camera Settings <camera-settings>` for details how camera settings are used for display & rendering.
 
 
-Changing the Active Camera
-==========================
+Viewing the Active Camera
+=========================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All modes
+   :Menu:      :menuselection:`View --> Cameras --> Active Camera`
+   :Hotkey:    :kbd:`Numpad0`
+
+
+This switches the view to the active camera.
+
+
+Setting the Active Camera
+=========================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Object Mode
+   :Menu:      :menuselection:`View --> Cameras --> Set Active Camera`
    :Hotkey:    :kbd:`Ctrl-Numpad0`
 
 .. figure:: /images/render_blender-render_camera_introduction_cameras.png
@@ -84,11 +83,10 @@ There are several different ways to navigate and position the camera in your sce
 Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.
 
-.. note::
+.. hint::
 
-   Remember that the active "camera" might be any kind of object.
+   The active "camera" might be any kind of object.
    So these actions can be used, for example, to position and aim a light.
-
 
 
 Move Active Camera to View
@@ -114,6 +112,10 @@ Camera View Positioning
 By enabling :ref:`Lock Camera to View <3dview-lock-camera-to-view>` in the View panel of the Sidebar region,
 while in camera view, you can navigate the 3D View as usual,
 while remaining in camera view. Controls are exactly the same as when normally moving in 3D.
+
+.. seealso::
+
+   :ref:`Fly/Walk Mode <3dview-fly-walk>` for first person navigation that moves the active camera too.
 
 
 Roll, Pan, Dolly, and Track
@@ -142,10 +144,3 @@ Dolly
 Sideways Tracking
    Press :kbd:`G` and move the mouse (you can use :kbd:`X` twice or :kbd:`Y`
    to get pure-horizontal or pure-vertical sideways tracking).
-
-.. seealso::
-
-   :ref:`Fly/Walk Mode <3dview-fly-walk>`
-      When you are in walk/fly mode, navigation actually moves your camera.
-   :ref:`Lock Camera to View <3dview-lock-camera-to-view>`
-      When enabled, performing typical view manipulation operations will move the camera object.
