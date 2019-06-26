@@ -22,12 +22,19 @@ or by pressing the hotkeys. You can select the opposite directions if you hold
 
 These operators change the view to be aligned with the specified global axes:
 
-- Top :kbd:`Numpad7`
-- Bottom :kbd:`Ctrl-Numpad7`
-- Front :kbd:`Numpad1`
-- Back :kbd:`Ctrl-Numpad1`
-- Right :kbd:`Numpad3`
-- Left :kbd:`Ctrl-Numpad3`
+:Top: :kbd:`Numpad7`
+:Front: :kbd:`Numpad1`
+:Right: :kbd:`Numpad3`
+
+Holding :kbd:`Ctrl` shows the other side of the same axis.
+
+:Bottom: :kbd:`Ctrl-Numpad7`
+:Back: :kbd:`Ctrl-Numpad1`
+:Left: :kbd:`Ctrl-Numpad3`
+
+Holding :kbd:`Shift` aligns the view relative to the active selection.
+
+So you can for example, view a rotated objects side, or align the view to the active face in mesh edit-mode.
 
 
 Align View Menu
