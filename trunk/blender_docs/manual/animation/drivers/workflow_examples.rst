@@ -14,37 +14,40 @@ Examples
 Transform Driver
 ----------------
 
+Control a property with an object's transform.
+In this example, the Y rotation of Object 2 will be driven by the X position of Object 1.
+
 Starting from a simple setup with two objects:
 
-#. Add a Driver to the *Rotation Y* property of the second object with the context menu or with :kbd:`Ctrl-D`.
+1. Add a Driver to the *Rotation Y* property of the second object by right-clicking it or with :kbd:`Ctrl-D`.
 
-   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
-
-#. Open the *Drivers Editor* (:kbd:`Shift-F6`).
-#. In the channels region, select the *Y Euler Rotation* property.
-#. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
-#. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
-
-   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
-
-#. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+.. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
 
+2. Open the *Drivers Editor* (:kbd:`Shift-F6`).
+3. In the channels region, select the *Y Euler Rotation* property.
+4. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
+5. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
-Driver Expression
------------------
 
-Here are some examples using the scripted expression Expr to set the Driver Value.
+.. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
+
+
+6. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+
+
+
+Driver Expression - Orbit a Point
+---------------------------------
+
+A *Scripted Expression* can drive a property with Python and Mathematical expressions.
+
+The expressions make use of the *Driver Variables*.
 
 .. TODO2.8 Replace screenshots (ui appearance changes):
 
 .. figure:: /images/animation_drivers_workflow-examples_object-rotation.png
 
-   Object rotation example.
-
-
-Orbit a Point
-^^^^^^^^^^^^^
 
 Here two drivers have been added to the Cube, X Location and Y Location.
 
@@ -65,8 +68,9 @@ Y Location Expr
 ``frame`` is the same as bpy.context.scene.frame_current.
 
 
-Driver Namespace
-^^^^^^^^^^^^^^^^
+
+Driver Expression - Driver Namespace
+------------------------------------
 
 There is a list of built-in driver functions and properties.
 These can be displayed via the Python Console:
