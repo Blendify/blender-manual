@@ -23,7 +23,7 @@ Gravity
       Using another object, the gravity can be oriented to the set object's local Z axis,
       changing the direction of the gravity.
 Threaded Sculpt
-   Takes advantage of multiple CPU processors to improve sculpting performance.
+   Takes advantage of multiple CPU processors to improve the sculpting performance.
 Fast Navigation
    For *multi-resolution* models, shows low resolution while navigating in the viewport.
 Use Deform Only

@@ -15,26 +15,27 @@ Options
 
    Offset Modifier.
 
-Location   
-   Sets strokes location offset from object origin.
+Location
+   Sets strokes location offset from its object origin.
 
-   X, Y, Z.
+   X, Y, Z
 
 Scale
    Sets strokes scale.
-   
-   X, Y, Z.
+
+   X, Y, Z
 
 Rotation
    Sets strokes rotation.
-   
-   X, Y, Z.
+
+   X, Y, Z
+
 
 Influence Filters
 -----------------
 
 Vertex Group
-   Restricts the effect only to a Vertex group.
+   Restricts the effect only to a vertex group.
 
 Material
    Restricts the effect only to material that share the same pass index.

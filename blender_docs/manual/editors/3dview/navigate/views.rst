@@ -22,7 +22,7 @@ View Global/Local
 
 Global view shows all of the 3D objects in the scene. Local view isolates the selected object or
 objects, so that they are the only ones visible in the viewport. This is useful for working on
-objects that are obscured by other ones, or to speed up viewport performance in heavy scenes.
+objects that are obscured by other ones, or to speed up the viewport performance in heavy scenes.
 
 You can toggle between *Global* and *Local View* by selecting the option
 from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.

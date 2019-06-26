@@ -6,7 +6,7 @@ Simplify Modifier
 The *Simplify* modifier allows you to reduce the amount of points in the strokes.
 The goal of this modifier is reduce points while maintaining the lines shape.
 
-Apply the modifier can help to obtain better performance (more FPS) while animating.
+Apply the modifier can help to obtain a better performance (more FPS) while animating.
 
 
 Options

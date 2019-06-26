@@ -18,7 +18,7 @@ or by masking areas that can not be sculpted on.
 Hide
 ====
 
-Portions of the mesh can be hidden in Sculpt Mode to improve performance and
+Portions of the mesh can be hidden in Sculpt Mode to improve the viewport performance and
 to access parts of the mesh that would otherwise be difficult to access,
 because they are occluded by other parts.
 

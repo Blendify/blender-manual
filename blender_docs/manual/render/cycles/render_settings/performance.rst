@@ -26,14 +26,14 @@ Tiles
 =====
 
 Tile Order
-   Order of rendering tiles. This does not significantly affect performance.
+   Order of rendering tiles. This does not significantly affect the performance.
 
 Tile size X/Y
    The size of the tiles for rendering.
 
    Depending on what device you are using for rendering, different tile sizes can give faster renders.
    For CPU rendering smaller tiles sizes (like 32 x 32) tend to be faster, while for
-   :doc:`GPU rendering </render/cycles/gpu_rendering>` larger tile sizes give better performance (like 256 x 256).
+   :doc:`GPU rendering </render/cycles/gpu_rendering>` larger tile sizes give a better performance (like 256 x 256).
 
 Progressive Refine
    Instead of rendering each tile until it has finished every sample, refine the whole image progressively.
@@ -81,7 +81,7 @@ Acceleration Structure
 ======================
 
 Use Spatial Splits
-   Spatial splits improve rendering performance in scenes with a mix of large and small polygons.
+   Spatial splits improve the rendering performance in scenes with a mix of large and small polygons.
    The downsides are longer BVH build times and slightly increased memory usage.
 Use Hair BVH
    Use a special type of :term:`BVH` for rendering hair.

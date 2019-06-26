@@ -3,9 +3,9 @@
 Noise Modifier
 **************
 
-The *Noise* Modifier changes the value of one or more stroke/points properties like: 
+The *Noise* Modifier changes the value of one or more stroke/points properties like:
 location, strength, thickness or UV texture position
-trying to add varied values that make the line unestable and noisy.
+trying to add varied values that make the line unstable and noisy.
 
 Random values can be used for the noise factor for more vivid effects.
 
@@ -38,8 +38,8 @@ Affect
 
    Position
       Noise affect the point location.
-   Strenght
-      Noise affect the point strenght (opacity).
+   Strength
+      Noise affect the point strength (opacity).
    Thickness
       Noise affect the point thickness.
    UV
@@ -50,7 +50,7 @@ Influence Filters
 -----------------
 
 Vertex Group
-   Restricts the effect only to a Vertex group.
+   Restricts the effect only to a vertex group.
 
 Material
    Restricts the effect only to material that share the same pass index.
