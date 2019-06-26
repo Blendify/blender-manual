@@ -10,9 +10,10 @@ Axes
 ====
 
 Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointing upwards.
-*Left*/ *Right* corresponds to looking along the X axis,
-*Front*/ *Back* along the Y axis, and
-*Top*/ *Bottom* along the Z axis.
+
+:X axis: Left / Right
+:Y axis: Front / Back
+:Z axis: Top / Bottom
 
 You can select the viewing direction for a 3D View with the *View* menu entries,
 or by pressing the hotkeys.
