@@ -17,6 +17,11 @@ The rendered image will contain everything within the dashed line.
 
    :ref:`Camera Settings <camera-settings>` for details how camera settings are used for display & rendering.
 
+.. hint::
+
+   The active camera can be selected while in camera view using the camera frame
+   *(assuming the object isn't hidden).*
+
 
 Viewing the Active Camera
 =========================
@@ -110,13 +115,11 @@ while remaining in camera view. Controls are exactly the same as when normally m
 Roll, Pan, Dolly, and Track
 ---------------------------
 
-To perform these camera moves, the camera must first be *selected*,
-so that it becomes the active object (while viewing through it,
-you can :kbd:`RMB` -- click on the solid rectangular edges to select it).
+To perform these camera moves, the camera must first be *selected* so transform operations apply to it.
+
 The following actions also assume that you are in camera view.
 
-Having done so, you can now manipulate the camera using the same tools
-that are used to manipulate any object:
+Having done so, you can now manipulate the camera using the same tools that are used to transform any object:
 
 Roll
    Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z axis
