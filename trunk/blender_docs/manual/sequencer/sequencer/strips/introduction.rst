@@ -27,8 +27,6 @@ Add
 
    The Add Menu.
 
-   .. TODO2.8(sequencer): update image.
-
 The Add menu is the main menu you will be using to add content to the VSE.
 In general, you load up your strips, create strips of special transition effects,
 and then animate out your sequence by selecting "Do Sequence" and clicking the *Animation* button.

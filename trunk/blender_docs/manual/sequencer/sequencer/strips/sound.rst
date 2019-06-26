@@ -12,8 +12,6 @@ or from sound encoded within a movie, and mix them using an F-Curve as a volume 
 
    Example of sound editing.
 
-   .. TODO2.8(sequencer):
-
 
 Working with Audio Tracks
 =========================

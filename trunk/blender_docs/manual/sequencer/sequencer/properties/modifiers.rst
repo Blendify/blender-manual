@@ -14,7 +14,6 @@ Modifiers Panel
 
    :Panel:     :menuselection:`Sidebar region --> Modifiers --> Modifiers`
 
-.. TODO2.8(sequencer): update image.
 .. figure:: /images/editors_vse_sequencer_properties_modifiers_panel.png
    :align: right
 

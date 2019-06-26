@@ -35,4 +35,4 @@ the third button displays both the Sequencer and the Preview.
    By default the Sequencer is enabled, however, it can be disabled
    in the :ref:`render-output-postprocess`.
 
-.. TODO2.8(sequencer): screenshots here. not referencing this elsewhere
+.. figure:: /images/editors_vse_introduction_view_types.png
