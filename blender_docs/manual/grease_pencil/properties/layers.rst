@@ -145,8 +145,8 @@ View Layer
 
    See :doc:`Compositing </compositing/introduction>` for more information.
 
-Lock material
-   Avoids editing locked materials in the layer. When disable, 
+Disallow Locked Materials Editing
+   Avoids editing locked materials in the layer. When disabled, 
    any material can be edited even if they are locked in the material list.
    
 

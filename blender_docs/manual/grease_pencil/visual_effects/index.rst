@@ -13,7 +13,7 @@ Visual Effects
 ==============
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    blur.rst
    colorize.rst

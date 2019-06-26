@@ -3,10 +3,15 @@
 Shadow Visual Effect
 ********************
 
-TODO2.8: write this section.
+The *Shadow* Visual Effect shows a simulated shadow casting by the object silhouette.
 
 
 Options
 =======
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_shadow_panel.png
+   :align: right
+
+   Shadow Visual Effect.
+
+TODO2.8
