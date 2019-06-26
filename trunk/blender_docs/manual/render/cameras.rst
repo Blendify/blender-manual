@@ -6,14 +6,11 @@ Cameras
 
 A *Camera* is an object that provides a means of rendering images from Blender.
 It defines which portion of a scene is visible in the rendered image.
-By default a scene contains one camera. However, a scene can contain more than one camera,
-but only one of them will be used at a time.
-So you will only need to add a new camera if you are making cuts between them.
 
 .. seealso::
 
-   - :ref:`3D Viewport Camera Navigation <3dview-camera-navigate>`.
-   - :ref:`Animating Cameras <marker-bind-camera>`.
+   :ref:`3D Viewport Camera Navigation <3dview-camera-navigate>`
+   for documentation about managing cameras in the viewport.
 
 
 .. admonition:: Reference
@@ -394,71 +391,3 @@ Position content inside the center-cut areas to make sure the most important ele
 of your composition can still be visible in these screens.
 
 Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-screen).
-
-
-
-Camera Operations
-=================
-
-.. TODO2.8: move this to a more appropriate location.
-
-Changing the Active Camera
---------------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Object Mode
-   :Hotkey:    :kbd:`Ctrl-Numpad0`
-
-.. figure:: /images/render_blender-render_camera_introduction_cameras.png
-
-   Active camera (left one).
-
-The *active* camera is the camera that is currently being used for rendering and camera view
-:kbd:`Numpad0`.
-
-Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
-(by doing so, you also switch the view to camera view). In order to render,
-each scene **must** have an active camera.
-
-The active camera can also be set in the *Scene* tab of the *Properties Editor*.
-
-The camera with the solid triangle on top is the active camera.
-Limit and mist indicators of cameras are displayed darker if
-the camera is not the active camera for the current scene.
-
-.. note::
-
-   The active camera, as well as the layers, can be specific to a given view,
-   or global (locked) to the whole scene.
-   See :doc:`Local Camera </editors/3dview/properties/sidebar>`.
-
-
-Render Region
--------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All modes
-   :Menu:      :menuselection:`View --> Render Region`
-   :Hotkey:    :kbd:`Ctrl-B`
-
-While in camera view, you can define a subregion to render by drawing a rectangle within the camera's frame.
-Your renders will now be limited to the part of scene visible within the render region.
-This can be very useful for reducing render times for quick previews on an area of interest.
-
-The region can be disabled by disabling the *Render Region* option in the *Dimensions* panel
-in the *Render* tab or by activating the option again.
-
-.. container:: lead
-
-   .. clear
-
-.. list-table:: Render region and associated render.
-   :widths: 65 35
-
-   * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
-
-     - .. figure:: /images/render_blender-render_camera_introduction_render-border-2.png

@@ -34,6 +34,48 @@ In this view you can also set the *Render Region* which defines the portion of t
           Rendered image.
 
 
+Changing the Active Camera
+==========================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object Mode
+   :Hotkey:    :kbd:`Ctrl-Numpad0`
+
+.. figure:: /images/render_blender-render_camera_introduction_cameras.png
+
+   Active camera (left one).
+
+The *active* camera is the camera that is currently being used for rendering and camera view
+:kbd:`Numpad0`.
+
+Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
+(by doing so, you also switch the view to camera view). In order to render,
+each scene **must** have an active camera.
+
+The active camera can also be set in the *Scene* tab of the *Properties Editor*.
+
+The camera with the solid triangle on top is the active camera.
+Limit and mist indicators of cameras are displayed darker if
+the camera is not the active camera for the current scene.
+
+.. note::
+
+   The active camera, as well as the layers, can be specific to a given view,
+   or global (locked) to the whole scene.
+   See :doc:`Local Camera </editors/3dview/properties/sidebar>`.
+
+
+Animated Camera Switching
+-------------------------
+
+By default a scene contains one camera. However, a scene can contain more than one camera,
+but only one of them will be used at a time.
+So you will only need to add a new camera if you are making cuts between them.
+See :ref:`Animating Cameras <marker-bind-camera>`.
+
+
 Camera Navigation
 =================
 
@@ -46,6 +88,7 @@ you have to move or rotate the camera.
 
    Remember that the active "camera" might be any kind of object.
    So these actions can be used, for example, to position and aim a light.
+
 
 
 Move Active Camera to View
