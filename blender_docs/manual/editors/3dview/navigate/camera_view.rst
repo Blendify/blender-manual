@@ -44,20 +44,13 @@ Setting the Active Camera
 
 .. figure:: /images/render_blender-render_camera_introduction_cameras.png
 
-   Active camera (left one).
+   Active camera (left) displayed with a solid triangle above it.
 
-The *active* camera is the camera that is currently being used for rendering and camera view
-:kbd:`Numpad0`.
+   This is the camera currently used for rendering and when viewing from the camera.
 
-Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
-(by doing so, you also switch the view to camera view). In order to render,
-each scene **must** have an active camera.
+This sets the current active object as the active camera & switches to the camera view.
 
 The active camera can also be set in the *Scene* tab of the *Properties Editor*.
-
-The camera with the solid triangle on top is the active camera.
-Limit and mist indicators of cameras are displayed darker if
-the camera is not the active camera for the current scene.
 
 .. note::
 
@@ -98,12 +91,8 @@ Move Active Camera to View
    :Mode:      Object Mode
    :Hotkey:    :kbd:`Ctrl-Alt-Numpad0`
 
-This feature allows you to position and orient the active camera to match your current viewport.
-
-Select a camera and then move around in the 3D View to a desired position and direction for
-your camera (so that you are seeing what you want the camera to see). Now press
-:kbd:`Ctrl-Alt-Numpad0` and your selected camera positions itself to match the view,
-and switches to camera view.
+This matches the active camera to a regular (non camera) view,
+for a convenient method of placing the camera without having to move the object directly.
 
 
 Camera View Positioning
@@ -124,7 +113,8 @@ Roll, Pan, Dolly, and Track
 To perform these camera moves, the camera must first be *selected*,
 so that it becomes the active object (while viewing through it,
 you can :kbd:`RMB` -- click on the solid rectangular edges to select it).
-The following actions also assume that you are in camera view :kbd:`Numpad0`!
+The following actions also assume that you are in camera view.
+
 Having done so, you can now manipulate the camera using the same tools
 that are used to manipulate any object:
 
