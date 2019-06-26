@@ -33,7 +33,7 @@ Affect
    Thickness
       Smooth affect the point thickness.
    UV
-      Smooth affect the point texture UV position.
+      Smooth affect the point UV rotation.
 
 
 Influence Filters
