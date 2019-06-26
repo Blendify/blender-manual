@@ -18,14 +18,7 @@ shader writing with :doc:`Material Nodes </render/shader_nodes/index>`.
 
    Combined textures based on nodes.
 
-These textures can be used in the same places as regular textures:
-they can be placed in texture channels, in material nodes, in particle systems,
-and even inside other textures.
-
-.. note::
-
-   Node-based textures do **not** work for real-time display, they will only be
-   visible in rendered images.
+These textures can be used for brushes, compositing and inside particle systems.
 
 
 Using Texture Nodes
@@ -33,7 +26,6 @@ Using Texture Nodes
 
 To use texture nodes with the current texture, open the *Texture Node Editor*
 
-To start adding nodes, a material has to be to selected.
 A new texture can be created by either clicking the *New* button in the Texture Node editor,
 or the *New* button in the texture panel. Once a texture is selected,
 it can be toggled to a function as a regular texture or a node texture by
