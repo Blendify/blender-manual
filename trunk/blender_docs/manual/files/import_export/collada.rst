@@ -266,7 +266,7 @@ Export & Import
 - Animations of armatures in Object mode.
 - Fully rigified Armature animations (referring to the Rigify add-on). For export of rigified Armature animations:
 
-  - Select Bake Action. (press :kbd:`Spacebar` in 3D View and type "Bake Action")
+  - Select Bake Action. (Press :kbd:`Spacebar` in 3D View and type "Bake Action".)
   - If you have only the deform bones selected check *Only Selected*.
     This will give smaller dae. Otherwise uncheck *Only Selected*.
   - Check *Clear Constraints*.

@@ -197,7 +197,7 @@ Details
 - Only the first curve in a *Taper Object* is evaluated, even if you have several separated segments.
 - The scaling starts at the first control point on the left
   and moves along the curve to the last control point on the right.
-- Negative scaling, (negative local Y on the taper curve) is possible as well.
+- Negative scaling, (e.g. negative local Y on the taper curve) is possible as well.
   However, rendering artifacts may appear.
 - Might need to increase the curve resolution to see more detail of the taper.
 - With closed curves, the taper curve in *Taper Object* acts along the whole curve (perimeter of the object),

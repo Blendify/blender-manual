@@ -80,7 +80,7 @@ Setup and Animate, and you have an image sequence that fades to black over a 2-s
    This is an example of using Blender's powerful compositing abilities
    separate from its modeling and animation capabilities.
    (A Render Layer could be substituted for the Image layer,
-   and the "fade-network" effect will still produce the same effect).
+   and the "fade-network" effect will still produce the same effect.)
 
 
 Fade In a Title

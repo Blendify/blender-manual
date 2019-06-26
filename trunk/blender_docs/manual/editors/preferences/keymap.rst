@@ -102,7 +102,7 @@ Event
    Type
       The key or button that activates this key-map item (depending on the map-type).
    Value
-      The action (such as press, release, click, drag... etc), (depending on the map-type).
+      The action (such as press, release, click, drag, etc.), (depending on the map-type).
    Modifier
       Additional keys to hold (such as :kbd:`Ctrl`, :kbd:`Shift`, :kbd:`Alt`).
 Operator Properties

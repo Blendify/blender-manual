@@ -60,7 +60,7 @@ Mapping
 
       Image Aspect
          Restore the aspect ratio of the original image to reset stretching introduce by scaling,
-         (image textures only). This operator can use the tiling and scale values of the brush texture
+         (Image textures only.) This operator can use the tiling and scale values of the brush texture
          if the relevant are enabled in :ref:`ui-redo-last` panel.
       Reset Transform
          Restores the position of the stencil.
@@ -72,7 +72,7 @@ Angle :kbd:`Ctrl-F`
 
    Rake :kbd:`R`
       Angle follows the direction of the brush stroke. Not available with *3D* textures.
-      (shortcut sculpting only).
+      (Shortcut sculpting only.)
    Random :kbd:`R`
       Angle is randomized per dab.
 

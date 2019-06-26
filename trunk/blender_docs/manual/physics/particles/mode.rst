@@ -10,7 +10,7 @@ and paths of *Baked*
 :doc:`Particle </physics/particles/index>`,
 :doc:`Cloth </physics/cloth/index>`, and
 :doc:`Soft Body </physics/soft_body/index>` simulations.
-(You can also edit and style hair before baking).
+(You can also edit and style hair before baking.)
 
 Since working in Particle Edit Mode is pretty easy and very similar
 to working with vertices in the 3D View, we will show how to set up
@@ -161,7 +161,7 @@ Puff
    So it makes the hair stand up with *Add* or lay down with *Sub*.
 
    Puff Volume
-      Apply puff to unselected end points, (helps maintain hair volume when puffing root).
+      Apply puff to unselected end points, (Helps to maintain the hair volume when puffing the root.)
 Cut
    Scales the segments until the last keypoint reaches the brush.
 

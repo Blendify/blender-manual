@@ -16,7 +16,7 @@ Inputs
 ======
 
 Value
-   Standard Value input. (value refers to each vector in the set).
+   Standard Value input. (Value refers to each vector in the set.)
 
 
 Properties

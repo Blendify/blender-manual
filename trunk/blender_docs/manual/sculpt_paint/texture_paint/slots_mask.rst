@@ -30,7 +30,7 @@ Painting Mode
             Create a new image.
       UV Map
          Allows you to select the UV layer for painting.
-         (Same as the currently active UV map in the mesh's *UV Maps* panel).
+         (Same as the currently active UV map in the mesh's *UV Maps* panel.)
       Texture Filter Type
          Set the interpolation mode of the texture. This can be Linear or Closest.
 

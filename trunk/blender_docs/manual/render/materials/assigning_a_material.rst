@@ -109,7 +109,7 @@ of the :ref:`active object <object-active>`.
 Very useful if you need to set a large number of objects to the same material;
 just select all of them,
 then the object that has the desired material, and :kbd:`Ctrl-L` links them to that "parent".
-(See Tip on Linking Data in Creating about data linking).
+(See Tip on Linking Data in Creating about data linking.)
 
 
 Deleting a Material
@@ -136,8 +136,7 @@ but will have disappeared when the file is reloaded.
 Multiple Materials
 ==================
 
-Normally,
-different colors or patterns on an object are achieved by adding textures to your materials.
+Normally, different colors or patterns on an object are achieved by adding textures to your materials.
 However, in some applications you can obtain multiple colors on an object by assigning
 different materials to the individual faces of the object.
 
@@ -152,8 +151,8 @@ you use the Material Slots options in the Materials header panel.
 
    Material menu in edit mode.
 
-The workflow for applying a second material to some faces of an object covered by a base
-material is as follows:
+The workflow for applying a second material to some faces of an object covered by
+a base material is as follows:
 
 #. In Object Mode, apply the base material to the whole object.
 #. Create/select the second material (the whole object will change to this new material).
@@ -169,4 +168,4 @@ You can also make this new material a copy of an existing material by adding the
 Select the object, get the material, :kbd:`RMB` and Copy data to clipboard.
 When you have renamed the material, click "Link: Data" to link to the existing material.
 Proceed to assign faces as required.
-NB: If you change the material on the original object, the new object color changes too.
+N.b: If you change the material on the original object, the new object color changes too.
