@@ -3,10 +3,15 @@
 Swirl Visual Effect
 *******************
 
-TODO2.8: write this section.
+The *Swirl* Visual Effect applies a swirling pattern to the object.
 
 
 Options
 =======
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_swirl_panel.png
+   :align: right
+
+   Shadow Visual Effect.
+
+TODO2.8

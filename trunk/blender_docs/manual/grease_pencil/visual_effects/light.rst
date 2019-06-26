@@ -3,10 +3,16 @@
 Light Visual Effect
 *******************
 
-TODO2.8: write this section.
+The *Light* Visual Effect applies a simulated light source over the object.
 
 
 Options
 =======
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_light_panel.png
+   :align: right
+
+   Light Visual Effect.
+
+
+TODO2.8

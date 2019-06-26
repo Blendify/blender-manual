@@ -3,10 +3,20 @@
 Flip Visual Effect
 ******************
 
-TODO2.8: write this section.
+The *Flip* Visual Effect shows ther the object flipped horizontally and/or vertically.
 
 
 Options
 =======
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_flip_panel.png
+   :align: right
+
+   Flip Visual Effect.
+
+Horizontal
+   When enabled, shows the object flipped horizontally.
+
+Vertical
+   When enabled, shows the object flipped vertically.
+

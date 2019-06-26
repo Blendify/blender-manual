@@ -3,12 +3,34 @@
 Introduction
 ************
 
-Grease Pencil has an special set of realtime Visual Effects. This Visual Effects are similar to Modifiers but...
+*Grease Pencil* has a special set of viewport real time Visual Effects that can be apply to the object.
 
-TODO2.8: write this section.
+These effects treat the object as if it was just an image, for that reason they
+have effect on the whole object and cannot limit their influence
+on certain parts like layers, materials or vertex group as with modifiers.
+Also unlike modifiers, they can not be applied to the Object.
 
+Their main purpose is to have a quick way to visualize certain effects on your drawings
+like Blur, Pixelate, Wave Distortion among others.
+
+The effects are extremely dependant on the zoom and orientation of the viewport or camera.
+so keep in mind that they may vary with viewport or camera changes.
+
+.. note::
+
+   Visual Effects are mainly for quick viewport visualization and not so reliable for final production renders. 
+   If you want more precision with effects it is recommended to use the compositor.
+
+   See :doc:`Compositor </compositing/introduction>` for more information.
 
 Interface
 =========
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_introduction_interface.png
+
+   Panel layout (Blur Effect as an example).
+
+The Visual Effects panels and UI are similar to Modifiers.
+Each effect’s interface shares the same basic components similar to modifiers for meshes.
+
+See :ref:`Modifiers Interface <bpy.types.Modifier.show>` for more information.

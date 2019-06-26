@@ -3,10 +3,15 @@
 Pixelate Visual Effect
 **********************
 
-TODO2.8: write this section.
+The *Pixelate* Visual Effect shows the object as a pixelated image.
 
 
 Options
 =======
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_pixelate_panel.png
+   :align: right
+
+   Pixelate Visual Effect.
+
+TODO2.8

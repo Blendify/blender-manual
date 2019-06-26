@@ -3,10 +3,15 @@
 Wave Distortion Visual Effect
 *****************************
 
-TODO2.8: write this section.
+The *Wave Distortion* Visual applies a wavy effects to the object.
 
 
 Options
 =======
 
-TODO2.8: write this section.
+.. figure:: /images/grease_pencil_visual_effects_wave_distortion_panel.png
+   :align: right
+
+   Wave Distortion Effect.
+
+TODO2.8
