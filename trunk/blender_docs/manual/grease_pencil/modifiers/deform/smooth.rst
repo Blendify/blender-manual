@@ -7,6 +7,7 @@ The *Smooth* Modifier changes the value of one or more stroke/points properties 
 location, strength, thickness or UV texture position
 trying to maintain similar values that make the line fluid and smoother.
 
+
 Options
 =======
 
@@ -27,8 +28,8 @@ Affect
 
    Position
       Smooth affect the point location.
-   Strenght
-      Smooth affect the point strenght (opacity).
+   Strength
+      Smooth affect the point strength (opacity).
    Thickness
       Smooth affect the point thickness.
    UV
@@ -39,7 +40,7 @@ Influence Filters
 -----------------
 
 Vertex Group
-   Restricts the effect only to a Vertex group.
+   Restricts the effect only to a vertex group.
 
 Material
    Restricts the effect only to material that share the same pass index.

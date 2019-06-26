@@ -95,7 +95,7 @@ File Extensions
    Adds the correct file extensions per file type to the output files.
 Cache Result
    Saves the rendered image and passes to a multi-layer EXR file in temporary location on your hard drive.
-   This allows the compositor to read these to improve performance, especially for heavy compositing.
+   This allows the compositor to read these to improve the performance, especially for heavy compositing.
 File Format
    Choose the file format to save to. Based on which format is used,
    other options such as channels, bit depth and compression level are available.

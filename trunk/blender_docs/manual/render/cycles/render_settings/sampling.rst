@@ -77,7 +77,7 @@ Volume Samples
 
 Sample All Direct Lights
    When enabled, Cycles will sample all lights in the scene for direct bounces, instead of randomly picking one.
-   Disabling this can improve performance, when using a lot of AA Samples anyway, to clear up the render.
+   Disabling this can improve the performance, when using a lot of AA Samples anyway, to clear up the render.
 Sample All Indirect Lights
    Similar to direct light, but for indirect lights. This can reduce noise in scenes with many lights.
 

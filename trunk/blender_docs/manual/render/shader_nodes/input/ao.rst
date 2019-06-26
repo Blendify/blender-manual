@@ -34,7 +34,8 @@ Properties
 ==========
 
 Samples :guilabel:`Cycles Only`
-   Number of samples to use for ray traced ambient occlusion sampling. Keep as low as possible for best performance.
+   Number of samples to use for ray traced ambient occlusion sampling.
+   Keep as low as possible for an optimal performance.
 Inside :guilabel:`Cycles Only`
    Detect convex rather than concave shapes, by computing occlusion inside mesh.
 Only Local :guilabel:`Cycles Only`

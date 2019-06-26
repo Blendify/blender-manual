@@ -33,7 +33,6 @@ Viewing the Active Camera
    :Menu:      :menuselection:`View --> Cameras --> Active Camera`
    :Hotkey:    :kbd:`Numpad0`
 
-
 This switches the view to the active camera.
 
 

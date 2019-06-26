@@ -43,7 +43,7 @@ Interpolation
       No interpolation, use only closest pixel for rendering pixel art.
    Smart :guilabel:`Cycles Only`
       Only for Open Shading Language. Use cubic interpolation when scaling up and linear when scaling down,
-      for better performance and sharpness.
+      for a better performance and sharpness.
 Projection
    Projection to use for mapping the textures.
 

@@ -25,11 +25,12 @@ Custom Curve
    When enabled, use a custom curve to change the profile of the stroke thickness
    from start to end points.
 
+
 Influence Filters
 -----------------
 
 Vertex Group
-   Restricts the effect only to a Vertex group.
+   Restricts the effect only to a vertex group.
 
 Material
    Restricts the effect only to material that share the same pass index.

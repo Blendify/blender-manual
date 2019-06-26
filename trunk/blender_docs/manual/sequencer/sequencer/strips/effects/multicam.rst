@@ -32,7 +32,7 @@ Workflow
       To make syncing strips easier you can group cameras, their audio,
       and their effects together using :doc:`Meta Strips </sequencer/sequencer/meta>`.
 
-#. Add a viewer region for every input channel and to improve performance use proxies.
+#. Add a viewer region for every input channel and to improve the performance use proxies.
 #. Add a Multicam Selector strip *above* all the channel tracks.
 
    After completing these steps you should get something similar to the image below:

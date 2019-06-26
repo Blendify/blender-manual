@@ -111,7 +111,7 @@ Show Group Colors
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
 Use High Quality Display
-   Display F-Curves using anti-aliasing and other fancy effects (disable for better performance).
+   Display F-Curves using anti-aliasing and other fancy effects (disable for a better performance).
 Show Handles :kbd:`Ctrl-H`
    Toggles the display of a curve's handles in the curve view.
 Only Selected Curve Keyframes

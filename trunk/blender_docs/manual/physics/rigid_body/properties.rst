@@ -100,7 +100,7 @@ The center of gravity for these shapes is the object origin.
 
 Convex Hull
    A mesh-like surface encompassing (e.g. shrink-wrap over) all vertices (best results with fewer vertices).
-   Convex approximation of the object, has good performance and stability.
+   A convex approximation of the object, has a good performance and stability.
 Mesh
    :term:`Mesh` consisting of triangles only, allowing for more detailed interactions than convex hulls.
    Allows to simulate concave objects, but is rather slow and unstable.
@@ -151,8 +151,9 @@ Sensitivity
 Margin
    Threshold of distance near surface where collisions are still considered (best results when non-zero).
 
-The collision margin is used to improve performance and stability of rigid bodies. Depending on the shape, it behaves
-differently: some shapes embed it, while others have a visible gap around them.
+The collision margin is used to improve the performance and stability of rigid bodies.
+Depending on the shape, it behaves differently: some shapes embed it,
+while others have a visible gap around them.
 
 The margin is *embedded* for these shapes:
 
@@ -194,7 +195,7 @@ Damping
 Deactivation
    Enable Deactivation
       Enable deactivation of resting rigid bodies. Allows object to be deactivated during the simulation
-      (improves performance and stability, but can cause glitches).
+      (improves the performance and stability, but can cause glitches).
    Start Deactivated
       Starts objects deactivated. They are activated on collision with other objects.
    Linear Velocity

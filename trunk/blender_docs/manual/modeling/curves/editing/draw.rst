@@ -39,7 +39,7 @@ Type
          Refit
             Incrementally re-fits the curve (gives best results).
          Split
-            Splits the curve until the tolerance is met (gives better drawing performance).
+            Splits the curve until the tolerance is met (gives a better drawing performance).
 
       Detect Corners
          Detects corners and uses non-aligned handles for them.
@@ -94,7 +94,7 @@ Fit Method
    Refit
       Incrementally re-fits the curve (gives best results).
    Split
-      Splits the curve until the tolerance is met (gives better drawing performance).
+      Splits the curve until the tolerance is met (gives a better drawing performance).
 Corner Angle
    Any angles above this are considered corners.
 Cyclic

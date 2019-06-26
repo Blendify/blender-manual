@@ -25,7 +25,7 @@ Factor
 
 Trace Precision
    Increases precision of the effect but introduces more noise and lowers the maximum trace distance.
-   Increased precision also increases performance cost.
+   Increased precision also increases the performance cost.
    Lower precision will also miss occluders and lead to undershadowing.
 
 Bent Normals

@@ -18,7 +18,7 @@ Jitter Threshold
    This can lead to a cross shaped pattern when the scattering radius is high.
    Increasing the Jitter Threshold will rotate the samples below this radius percentage
    in a random pattern in order to hide the visible pattern.
-   This affects performance if the scattering radius is large.
+   This affects the performance if the scattering radius is large.
 
 Separate Albedo
    Output the albedo of a BSSRDF in a separate buffer in order to not blur it.

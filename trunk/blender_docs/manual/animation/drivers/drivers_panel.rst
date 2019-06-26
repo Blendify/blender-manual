@@ -69,13 +69,14 @@ Use Self
    This allows for drivers to references their own data using the variable ``self``.
    Useful for objects, bones, to avoid having to create a variable pointing to its self.
 
+
 .. _drivers-simple-expressions:
 
 Simple Expressions
 ^^^^^^^^^^^^^^^^^^
 
 Blender can evaluate a useful subset of Python driver expressions directly,
-which significantly improves performance, especially on multi-core systems.
+which significantly improves the performance, especially on multi-core systems.
 To take advantage of this, the driver expression must only use the following features:
 
 Variable Names
