@@ -34,7 +34,7 @@ Blender can now be launched by double-clicking the executable.
 For ease of access, you can configure your system by adding a menu entry or shortcut for Blender.
 You may also associate blend-files with Blender so that when selected from the file browser,
 they will automatically open in Blender.
-These settings are typically found in conjunction with the Window Manager settings. (Gnome or KDE).
+These settings are typically found in conjunction with the Window Manager settings. (Gnome or KDE.)
 
 
 Running from the Terminal

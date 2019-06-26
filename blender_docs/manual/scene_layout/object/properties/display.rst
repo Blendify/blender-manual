@@ -25,7 +25,7 @@ Texture Space
 Shadow
    Allows the object to cast shadows in the viewport.
 In Front
-   Makes the object display in front of others. (Unsupported for instanced objects).
+   Makes the object display in front of others. (Unsupported for instanced objects.)
 Display As
    The shading mode to display in the 3D View; this can be useful if you have
    a high-poly object that is slowing down the viewport.

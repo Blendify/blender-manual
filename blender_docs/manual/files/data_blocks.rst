@@ -20,7 +20,7 @@ Some common characteristics:
 
 - They are the primary contents of the blend-file.
 - They can reference to each other, for reuse and instancing.
-  (child/parent, object/object-data, materials/images, in modifiers or constraints too...).
+  (Child/parent, object/object-data, materials/images, in modifiers or constraints too...)
 - Their names are unique within a blend-file, for a given type.
 - They can be added/removed/edited/duplicated.
 - They can be linked between files (only enabled for a limited set of data-blocks).

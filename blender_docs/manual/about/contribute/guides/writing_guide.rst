@@ -69,8 +69,8 @@ To be avoided:
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
   if there is a simpler way to explain it.
 
-  (e.g. explaining how mesh smoothing algorithms work is unnecessary,
-  but the blending types of a mix node do need a mathematical explanation).
+  (E.g. explaining how mesh smoothing algorithms work is unnecessary,
+  but the blending types of a mix node do need a mathematical explanation.)
 - Avoid repetition of large portions of text. Simply explain it once, and from then on refer to that explanation.
 
   For general terminology, consider defining a ``:term:`` in the :doc:`glossary </glossary/index>`.

@@ -56,7 +56,7 @@ Start Delay
 
 Length
    Maximum number of frames that the build effect can run for.
-   (unless another *Grease Pencil* keyframe occurs before this time has elapsed).
+   (Unless another *Grease Pencil* keyframe occurs before this time has elapsed.)
 
 Restrict Frame range
    If enabled, only modify strokes during the specified frame range.

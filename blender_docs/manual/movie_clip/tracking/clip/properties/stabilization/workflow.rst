@@ -102,7 +102,7 @@ of the stabilizer (either through pressing the :kbd:`I` key or with the help of 
 it is not possible to manipulate the resulting curves graphically.
 The only way to readjust or remove a misguided keyframe is to locate
 the timeline to the very frame and then use the context menu of the animated UI control.
-(Hint: the color of the UI control changes when you have located at precisely the frame number of the keyframe).
+(Hint: the color of the UI control changes when you have located at precisely the frame number of the keyframe.)
 
 
 Irregular Track Setup

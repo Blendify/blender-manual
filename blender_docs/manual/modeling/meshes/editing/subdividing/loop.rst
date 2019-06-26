@@ -123,10 +123,10 @@ Edge Slide
 Even :kbd:`E`
    Only available for single edge loops.
    This matches the shape of the edge loop to one of the adjacent edge loops.
-   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details.)
 Flip :kbd:`F`
    When Even is enabled, this flips the target edge loop to match.
-   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details.)
 
 
 Offset Edge Slide

@@ -293,11 +293,11 @@ Termination Mode
    While Held
       The most complicated of the modes available, as it tries to guess when to stop propagating by
       examining the pauses in the animation curves per control
-      (i.e. all F-Curves for a bone, instead of per F-Curve).
+      (i.e. all F-curves for a bone, instead of per F-curve).
    To Next Keyframe
       Simply copies the pose to the first keyframe after (but not including any keyframe on) the current frame.
    To Last Keyframe
-      Will simply replace the last keyframe. (i.e. making action cyclic).
+      Will simply replace the last keyframe (i.e. making action cyclic).
    Before Frame
       To all keyframes between current frame and the *End frame* option.
       This option is best suited for use from scripts due to the difficulties in setting this frame value,

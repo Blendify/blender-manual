@@ -18,23 +18,23 @@ Options
    Surface Deform Modifier.
 
 Target
-   The object to which to bind. (This setting is unavailable after binding).
+   The object to which to bind. (This setting is unavailable after binding.)
 Interpolation falloff
    How much a vertex bound to one face of the target will be affected by the surrounding faces.
    This essentially controls how smooth the deformations are.
    Note that while lower values result in smoother deformations,
    they may also introduce slight artifacts.
-   (This setting is unavailable after binding).
+   (This setting is unavailable after binding.)
 Bind
    Bind the current state of the modified mesh to the current state of
    the target mesh, such that any later change in the target mesh will
    deform the modified mesh as well. Note that until the bind has been
    executed, this modifier will have no effect whatsoever.
-   (This does not affect the target object).
+   (This does not affect the target object.)
 Unbind
    Once the mesh is bound, the *Bind* button changes to *Unbind*.
    Executing this frees the modified mesh from the target, and resets it to its original shape.
-   (This does not affect the target object).
+   (This does not affect the target object.)
 
 .. note::
 

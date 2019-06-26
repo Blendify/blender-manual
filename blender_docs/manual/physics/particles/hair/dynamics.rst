@@ -17,7 +17,7 @@ Options
 =======
 
 Quality Steps
-   Quality of the simulation in steps per frame. (higher is better quality but slower).
+   Quality of the simulation in steps per frame (higher is better quality but slower).
 
 Goal Strength
    Spring stiffness of the vertex target position.

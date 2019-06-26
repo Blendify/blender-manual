@@ -35,14 +35,14 @@ Lift/Gamma/Gain
 
 Offset/Power/Slope (ASC-CDL)
    Offset
-      Summand. (Adjusts the overall brightness).
+      Summand. (Adjusts the overall brightness.)
 
       Basis
          Additional offset, allows to specify a negative Offset value.
    Power
-      Over-all exponent. (Adjusts the midtones).
+      Over-all exponent. (Adjusts the midtones.)
    Slope
-      Multiplier. (Adjusts the highlights).
+      Multiplier. (Adjusts the highlights.)
 
 
 Outputs

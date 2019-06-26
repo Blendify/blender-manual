@@ -45,7 +45,7 @@ Crease Angle
    The value also affects *Silhouette* edge type selection.
 Culling
    Ignore the edges that are out of view.
-   (Saves some processing time and memory, but may reduce the quality of the result in some cases).
+   (Saves some processing time and memory, but may reduce the quality of the result in some cases.)
 
 
 Advanced Options

@@ -59,7 +59,7 @@ Creating the Language Entry in the HTML Menu
    (assuming you are at the ``blender_docs`` subdirectory).
 #. Find the table for the languages in ``var all_langs = {..};``.
 #. Enter the entry: ``"fr": "Fran&ccedil;ais",``, (``"fr": "François"``).
-   (Notice the Unicode characters).
+   (Notice the Unicode characters.)
 #. To find out about changes in the local repository::
 
       svn status

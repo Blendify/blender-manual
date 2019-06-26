@@ -103,7 +103,7 @@ Goal Strength
 The *Goal Strength* defines how much motion from an animation system gets applied.
 
 A *Goal* value of 1.0 means no soft body simulation,
-the object act like any regular animated object, (the vertex keeps at its original position).
+the object act like any regular animated object (i.e. the vertex is kept at its original position).
 When setting *Goal* to 0.0 (or no goal), the vertex is only influenced by physical laws
 according to soft body simulation.
 

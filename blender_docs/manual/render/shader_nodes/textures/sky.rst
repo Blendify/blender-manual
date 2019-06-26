@@ -41,7 +41,7 @@ Turbidity
 
 Ground Albedo
    Amount of light reflected from the planet surface back into the atmosphere.
-   (RGB 0,0,0 is black, 1,1,1 is white).
+   (RGB(0, 0, 0) is black, RGB(1, 1, 1) is white.)
 
 
 Outputs

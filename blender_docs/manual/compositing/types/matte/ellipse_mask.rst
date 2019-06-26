@@ -26,7 +26,7 @@ Properties
 
 X, Y
    Position of the center of the ellipse as a fraction of the total width or height.
-   (0.5, 0.5 creates a centered ellipse; 0.0, 0.0 creates an ellipse with its center in the lower left).
+   (0.5, 0.5 creates a centered ellipse; 0.0, 0.0 creates an ellipse with its center in the lower left.)
 Width
    Width of the ellipse as a fraction of the total image width.
 Height

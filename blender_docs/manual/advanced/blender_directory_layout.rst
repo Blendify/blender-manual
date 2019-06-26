@@ -91,7 +91,7 @@ This is the path layout which is used within the directories described above.
 Where ``./config/startup.blend`` could be ``~/.blender/|BLENDER_VERSION|/config/startup.blend`` for example.
 
 ``./autosave/ ...``
-   Autosave blend-file location. (Windows only, temp directory used for other systems).
+   Autosave blend-file location. (Windows only, temp directory used for other systems.)
 
    Search order: ``LOCAL, USER``.
 

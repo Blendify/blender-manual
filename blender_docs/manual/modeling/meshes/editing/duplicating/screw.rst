@@ -145,7 +145,7 @@ Blender will copy the cursor location coordinates to
 the values present in the *Center* values of the *Screw* interactive Panel.
 Depending on the Global View position, Blender will automatically add a value of 1 to one of the Axis Vectors,
 giving the profiles a starting direction for the Screw Operation and also giving a direction for the extrusions.
-(See examples below).
+(See examples below.)
 
 The position of the 3D cursor will be the starting center of the rotation.
 Subsequent operations (e.g. pressing the Screw button again), will start from the last selected element.
@@ -171,7 +171,7 @@ Center
    using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates.
    You can adjust these coordinates interactively and
    specify another place for the spin center during the interactive session.
-   (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
 Steps
    This number button specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
@@ -179,7 +179,7 @@ Steps
 Turns
    This number button specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
-   The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
+   The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
 Axis
    These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
    These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
@@ -190,7 +190,7 @@ Axis
    operation (by reverting the angular vector of the height),
    meaning you can revert the clockwise and counterclockwise direction of some operations,
    and also adjust the angular vectors of the profile, bending it accordingly.
-   (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
 
 
 Examples
@@ -221,7 +221,7 @@ The Spring Example
    until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global``),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
    You can use the Transform Panel, and type :kbd:`Minus 3` and :kbd:`Return` in the Location too.
-   (See the Fig. :ref:`fig-mesh-screw-circle`).
+   (See the Fig. :ref:`fig-mesh-screw-circle`.)
 #. You will have to scale the circle using the shortcut :kbd:`S Period 5`, then :kbd:`Return`.
 #. Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 #. De-select all vertices using the shortcut :kbd:`A`.
@@ -244,8 +244,8 @@ The following steps explain how to create a height vector:
    and again, set its XYZ coordinates to (-2, 0, 1).
    This will create a straight vertical line with 2 units of Height.
 #. De-select and select everything again with the shortcut :kbd:`A`.
-   (See Fig. :ref:`fig-mesh-screw-profile`).
-#. Again, place the cursor at the center. (Repeat step 2).
+   (See Fig. :ref:`fig-mesh-screw-profile`.)
+#. Again, place the cursor at the center. (Repeat step 2.)
 #. At this point, you can save this blend-file to recycle
    the Spring for another exercise; :kbd:`LMB` click on *File*,
    located in the header of the Info editor, (at the top left side), and choose *Save as*.
@@ -426,7 +426,7 @@ To make this new example as short as possible, it will recycle the last example 
    All of the things will be placed exactly the way you saved before.
    Choose the last saved blend-file; from the last exercise, which is named "screw hardware example.blend".
 #. Move the upper vertex and move a bit to the left, but no more than you have moved the last vertex.
-   (See Fig. :ref:`fig-mesh-screw-start`).
+   (See Fig. :ref:`fig-mesh-screw-start`.)
 #. Press the shortcut :kbd:`A` twice to de-select and select all.
 #. Press the shortcut :kbd:`Shift-S` and select *Cursor to Center*
 #. Press Screw.
