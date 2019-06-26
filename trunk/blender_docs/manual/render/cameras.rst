@@ -9,7 +9,12 @@ It defines which portion of a scene is visible in the rendered image.
 By default a scene contains one camera. However, a scene can contain more than one camera,
 but only one of them will be used at a time.
 So you will only need to add a new camera if you are making cuts between them.
-See :ref:`Animating Cameras <marker-bind-camera>`.
+
+.. seealso::
+
+   - :ref:`3D Viewport Camera Navigation <3dview-camera-navigate>`.
+   - :ref:`Animating Cameras <marker-bind-camera>`.
+
 
 .. admonition:: Reference
    :class: refbox

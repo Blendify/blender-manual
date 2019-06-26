@@ -1,3 +1,4 @@
+.. _3dview-camera-navigate:
 
 ***********
 Camera View
@@ -15,7 +16,7 @@ Camera View
    Demonstration of camera view.
 
 The Camera view shows the current scene as seen from the currently active camera's view point.
-It can be activated by pressing :kbd:`Numpad0`.
+
 The Camera view can be used to virtually compose shots and preview how the scene will look when rendered.
 The rendered image will contain everything within the dashed line.
 In this view you can also set the *Render Region* which defines the portion of the 3D View to be rendered.
