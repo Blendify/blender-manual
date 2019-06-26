@@ -61,6 +61,15 @@ Corner Splitting
    Split & join by dragging from the corners.
 
    When disabled, you can use the context menu for area separators to perform these operations.
+Navigation Controls
+   Show navigation buttons at top right of the window.
+
+   This impacts the 3D viewport as well as image spaces.
+
+   .. note::
+
+      If you're familiar with navigation key shortcuts, this can be disabled.
+
 Color Picker Type
    Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
 

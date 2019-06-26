@@ -29,8 +29,13 @@ Look Dev Sphere Size
 3D Viewport Axis
    Interactive Navigation
       Display the axis as an interactive gizmo.
+
+      :Click: Sets the viewport to display along this axis.
+      :Drag: Orbit the view.
    Simple Axis
       Display simple, less intrusive axis in in the viewport.
+   Off
+      Disables the viewport axis.
 
 
 .. _prefs-system-multisampling:
