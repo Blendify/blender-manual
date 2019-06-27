@@ -22,7 +22,7 @@ Playback FPS
 
 .. _prefs-viewport-gizmo-size:
 
-Gizmo size
+Gizmo Size
    Diameter of the gizmo.
 Look Dev Sphere Size
    Diameter of the LookDev sphere overlay.
@@ -34,6 +34,9 @@ Look Dev Sphere Size
       :Drag: Orbit the view.
    Simple Axis
       Display simple, less intrusive axis in in the viewport.
+
+      :Size: Size of the simple axis.
+      :Brightness: How vivid the colors of the simple axis are.
    Off
       Disables the viewport axis.
 
