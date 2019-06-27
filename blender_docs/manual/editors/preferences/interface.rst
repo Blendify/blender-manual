@@ -62,7 +62,7 @@ Corner Splitting
 
    When disabled, you can use the context menu for area separators to perform these operations.
 Navigation Controls
-   Show navigation buttons at top right of the window.
+   Show navigation controls at top right of the window.
 
    This impacts the 3D viewport as well as image spaces.
 
