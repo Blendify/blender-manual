@@ -8,6 +8,7 @@ The *Opacity* Modifier change the Opacity (Alpha) value of the stroke points.
 The alpha value in *Grease Pencil* is stored per-point,
 The modifier can alter these values to go from totally transparent points to totally opaque points.
 
+
 Options
 =======
 
@@ -18,25 +19,26 @@ Options
 
 Factor
    Controls the Opacity (Alpha) value of the stroke points.
-   
-   A value of 1.0 respect the original alpha value of the points,
-   a shift less than 1.0 make the points more transparent than originals,
-   and a shift greater than 1.0 make the points more opaque than originals.
 
-   Sets value to 2.0 makes the points alpha full opaque.
+   A value of 1.0 respect the original alpha value of the points,
+   a shift less than 1.0 make the points more transparent than originally,
+   and a shift greater than 1.0 make the points more opaque than originally.
+
+   Sets value to 2.0 makes the points alpha fully opaque.
 
 Create Materials
    When Applied, The modifier will create new material that keep the color transformation.
 
 Mode
    Both
-     Color transformation affect stroke and fill color.
+      Color transformation affect stroke and fill color.
 
    Stroke
       Color transformation affect only stroke color.
 
    Fill
       Color transformation affect only fill color.
+
 
 Influence Filters
 -----------------
@@ -50,23 +52,23 @@ Material
 Layer
    Restricts the effect only to one layer or to any layers that share the same pass index.
 
+
 Example
 =======
 
-.. list-table:: Factor Opacity sample.
+.. list-table:: Factor Opacity samples.
 
    * - .. figure:: /images/grease_pencil_modifiers_color_opacity_factor_03.png
           :width: 200px
 
           Opacity Factor: 0.3.
 
-
      - .. figure:: /images/grease_pencil_modifiers_color_opacity_factor_1.png
           :width: 200px
 
-          Opacity Factor: 1.0 (Original alpha)
+          Opacity Factor: 1.0 (original alpha).
 
      - .. figure:: /images/grease_pencil_modifiers_color_opacity_factor_2.png
           :width: 200px
 
-          Opacity Factor: 2.0. (Full opaque)
+          Opacity Factor: 2.0 (fully opaque).

@@ -177,7 +177,7 @@ Reiteration
       This option omits most of the iTaSC dynamic behavior: the maximum joint velocity
       and the continuity between frames is not guaranteed anymore in compensation of better
       precision on the end effector positions. It is an intermediate mode
-      between *Animation* and real time *Simulation*.
+      between *Animation* and real-time *Simulation*.
 Auto Step
    Use this option if you want to let the solver set how many substeps should be executed for each frame.
    A substep is a subdivision on the time between two frames for which the solver evaluates

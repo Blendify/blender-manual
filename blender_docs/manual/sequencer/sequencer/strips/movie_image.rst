@@ -64,7 +64,7 @@ Placeholder Images
 Image sequences can use placeholder files.
 This works by enabling *Use placeholders* checkbox when adding an image strip.
 The option detects the frame range of opened images using Blender's frame naming scheme
-(filename + frame number + .extension) and makes an image sequence
+(``filename + frame number + .extension``) and makes an image sequence
 with all files in between even if they are missing.
 This allows you to render an image sequence with a few frames missing and
 still the image strip will have the correct range to account for the missing frames displayed as black.

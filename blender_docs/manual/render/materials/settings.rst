@@ -8,6 +8,7 @@ Settings
 
    :Panel:     :menuselection:`Material --> Settings`
 
+
 Renderer Settings
 =================
 
@@ -30,9 +31,9 @@ Pass Index
 Viewport Display
 ================
 
-These settings control the 3D viewport display in solid shading.
-They provide a faster alternative to full shader nodes, which may be too heavy or distracting
-for tasks like modeling, layout or sculpting.
+These settings control the 3D Viewport display in solid shading.
+They provide a faster alternative to full shader nodes,
+which may be too heavy or distracting for tasks like modeling, layout or sculpting.
 
 Color
    Diffuse or metal surface color.

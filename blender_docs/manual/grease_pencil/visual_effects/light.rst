@@ -23,7 +23,6 @@ Options
 
    Light Visual Effect.
 
-
 Object
    Sets the object to use as the location of the light source.
 
@@ -33,6 +32,7 @@ Energy
 
 Ambient
    Strength of the ambient light.
+
 
 Example
 =======

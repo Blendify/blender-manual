@@ -33,7 +33,7 @@ Look Dev Sphere Size
       :Click: Sets the viewport to display along this axis.
       :Drag: Orbit the view.
    Simple Axis
-      Display simple, less intrusive axis in in the viewport.
+      Display simple, less intrusive axis in the viewport.
 
       :Size: Size of the simple axis.
       :Brightness: How vivid the colors of the simple axis are.

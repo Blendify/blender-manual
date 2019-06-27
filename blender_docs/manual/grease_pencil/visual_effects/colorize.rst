@@ -15,7 +15,7 @@ Options
    Blur Visual Effect.
 
 Mode
-   Grayscale   
+   Grayscale
       Converts to a grayscale image.
 
    Sepia
@@ -25,10 +25,10 @@ Mode
       Converts to a black and white posterize image with high contrast and brightness.
 
    Transparent
-      Add color transparency. 
+      Add color transparency.
 
       Factor
-         Controls the mix value (0 full transparent, 1 full opaque.)
+         Controls the mix value (0 fully transparent, 1 fully opaque).
 
    Custom
       Allows to define a tint custom color.
@@ -38,6 +38,7 @@ Mode
 
       Factor
          Control the mix value.
+
 
 Example
 =======
@@ -63,5 +64,3 @@ Example
           :width: 200px
 
           Mode: transparent.
-
-   

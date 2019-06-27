@@ -15,7 +15,7 @@ Options
 
    Shadow Visual Effect.
 
-object
+Object
    Sets the object to use as the center of the swirl.
 
 Radius
@@ -27,27 +27,28 @@ Angle
 Transparent
    When enabled, the Object is fully transparent outside the radius of the swirl.
 
+
 Example
 =======
 
-.. list-table:: Swirl Effect samples (Radius: 100 px.)
+.. list-table:: Swirl Effect samples (with a Radius of 100 px).
 
    * - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_00.png
           :width: 200px
 
-          Angle: 0.
+          Angle: 0°.
 
      - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_15.png
           :width: 200px
 
-          Angle: 15.
+          Angle: 15°.
 
      - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_45.png
           :width: 200px
 
-          Angle: 45.
+          Angle: 45°.
+
      - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_90.png
           :width: 200px
 
-          Angle: 90
-          .
+          Angle: 90°.

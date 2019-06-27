@@ -22,9 +22,10 @@ Amplitude
 
 Period
    Controls the wave period. The time it takes to complete one cycle.
-   
+
 Phase
    Shifts the wave pattern over the Object.
+
 
 Example
 =======
@@ -34,19 +35,19 @@ Example
    * - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_h10.png
           :width: 200px
 
-          Amplitude: 10 (Horizontal.)
+          Amplitude: 10 (horizontal).
 
      - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_h30.png
           :width: 200px
 
-          Amplitude: 30 (Horizontal.)
+          Amplitude: 30 (horizontal).
 
      - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_v10.png
           :width: 200px
 
-          Amplitude: 10 (Vertical.)
+          Amplitude: 10 (vertical).
 
      - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_v30.png
           :width: 200px
 
-          Amplitude: 30 (Vertical.)
+          Amplitude: 30 (vertical).

@@ -5,8 +5,9 @@ Shadow Visual Effect
 
 The *Shadow* Visual Effect shows a simulated shadow casting by the object.
 
-For simulating the shadow a color silhouette of the object is
-displaced in horizontal and/or vertical direction on the back of the object.
+For simulating the shadow a color silhouette of the object is displaced in
+horizontal and/or vertical direction on the back of the object.
+
 
 Options
 =======
@@ -17,7 +18,7 @@ Options
    Shadow Visual Effect.
 
 Offset
-   Control the shadow displacement in pixels for X and Z axis.
+   Control the shadow displacement in pixels on the X and Z axis.
 
    X, Z
 
@@ -25,7 +26,7 @@ Shadow Color
    Defines the shadow color.
 
 Scale
-   Control the size of the shadow for X and Z axis.
+   Control the size of the shadow on the X and Z axis.
 
    X, Z
 
@@ -34,7 +35,7 @@ Rotation
    or other object if *Use Object As Pivot* is enabled.
 
 Blur
-   Control the blurriness distance in pixels for X and Z axis.
+   Control the blur scale in pixels on the X and Z axis.
 
    X, Z
 
@@ -48,7 +49,7 @@ Use Object As Pivot
       Sets the object to use as the pivot point for the shadow.
 
 Use Wave Effect
-   When enabled, apply a wave distortion to the shadow
+   When enabled, apply a wave distortion to the shadow.
 
    Direction
       Sets horizontal or vertical direction for the waves.
@@ -61,6 +62,7 @@ Use Wave Effect
 
    Phase
       Shifts the wave pattern over the shadow.
+
 
 Example
 =======
