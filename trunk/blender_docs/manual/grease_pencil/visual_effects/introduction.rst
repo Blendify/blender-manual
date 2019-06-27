@@ -3,6 +3,12 @@
 Introduction
 ************
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Properties --> Visual Effects`
+
+
 *Grease Pencil* has a special set of viewport real time Visual Effects that can be apply to the object.
 
 These effects treat the object as if it was just an image, for that reason they
