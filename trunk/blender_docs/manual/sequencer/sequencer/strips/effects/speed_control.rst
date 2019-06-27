@@ -47,12 +47,6 @@ Examples
 Creating a Slow-Motion Effect
 -----------------------------
 
-.. TODO2.8(sequencer):
-.. figure:: /images/editors_vse_sequencer_strips_effects_speed-control_example.jpg
-   :width: 300px
-
-   50% Slow motion using Speed Control.
-
 Suppose you want to slow your strip down.
 You need to affect the speed of the video clip without affecting the overall frame rate.
 Select the clip and :menuselection:`Add --> Effect --> Speed Control` effect strip.
