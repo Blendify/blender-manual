@@ -30,7 +30,7 @@ The defaults Shading workspace has a shader editor and a 3D viewport that can be
 LookDev or Rendered shading, to interactively preview how the material interacts with objects
 and lights in the scene.
 
-Materials are data-blocks that can be :doc:`assigned </render/materials/assigning_a_material>`
+Materials are data-blocks that can be :doc:`assigned </render/materials/assignment>`
 to one or more objects, and different materials can be assigned to differents parts of meshes.
 
 Image textures can be created from scratch in :doc:`texture paint mode </sculpt_paint/texture_paint/index>`,
