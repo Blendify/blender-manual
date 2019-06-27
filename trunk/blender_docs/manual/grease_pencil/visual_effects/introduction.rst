@@ -8,8 +8,7 @@ Introduction
 
    :Panel:     :menuselection:`Properties --> Visual Effects`
 
-
-*Grease Pencil* has a special set of viewport real time Visual Effects that can be apply to the object.
+*Grease Pencil* has a special set of viewport real-time Visual Effects that can be apply to the object.
 
 These effects treat the object as if it was just an image, for that reason they
 have effect on the whole object and cannot limit their influence
@@ -17,17 +16,18 @@ on certain parts like layers, materials or vertex group as with modifiers.
 Also unlike modifiers, they can not be applied to the Object.
 
 Their main purpose is to have a quick way to visualize certain effects on your drawings
-like Blur, Pixelate, Wave Distortion among others.
+like blurring, pixelation, wave distortion, among others.
 
-The effects are extremely dependant on the zoom and orientation of the viewport or camera.
+The effects are extremely dependent on the zoom and orientation of the viewport or camera.
 so keep in mind that they may vary with viewport or camera changes.
 
 .. note::
 
-   Visual Effects are mainly for quick viewport visualization and not so reliable for final production renders. 
+   Visual Effects are mainly for quick viewport visualization and are not so reliable for final production renders.
    If you want more precision with effects it is recommended to use the compositor.
 
    See :doc:`Compositor </compositing/introduction>` for more information.
+
 
 Interface
 =========

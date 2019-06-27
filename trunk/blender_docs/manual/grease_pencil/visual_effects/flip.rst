@@ -3,7 +3,7 @@
 Flip Visual Effect
 ******************
 
-The *Flip* Visual Effect shows ther the object flipped horizontally and/or vertically.
+The *Flip* Visual Effect shows the object flipped horizontally and/or vertically.
 
 
 Options
@@ -19,4 +19,3 @@ Horizontal
 
 Vertical
    When enabled, shows the object flipped vertically.
-

@@ -64,7 +64,7 @@ Corner Splitting
 Navigation Controls
    Show navigation controls at top right of the window.
 
-   This impacts the 3D viewport as well as image spaces.
+   This impacts the 3D Viewport as well as image spaces.
 
    .. note::
 

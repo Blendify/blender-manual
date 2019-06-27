@@ -3,7 +3,7 @@
 Blur Visual Effect
 ******************
 
-The *Blur* Visual Effect applies a gaussian blur to the object.
+The *Blur* Visual Effect applies a Gaussian blur to the object.
 
 
 Options
@@ -15,7 +15,7 @@ Options
    Blur Visual Effect.
 
 Factor
-   Control the blurriness distance in pixels for X and Z axis.
+   Control the blur scale in pixels on the X and Z axis.
 
    X, Z
 
@@ -26,10 +26,11 @@ Lock Focal Plane
    When enabled, the blur effect uses the focal plane distance of the actual camera
    to simulate a depth of field effect. Only available in camera view.
 
+
 Example
 =======
 
-.. list-table:: Blur Effect samples (Blur Samples: 8).
+.. list-table:: Blur Effect samples (Samples: 8).
 
    * - .. figure:: /images/grease_pencil_visual_effects_blur_factor_0.png
           :width: 200px
@@ -39,14 +40,14 @@ Example
      - .. figure:: /images/grease_pencil_visual_effects_blur_factor_10.png
           :width: 200px
 
-          Factor: 10,10.          
+          Factor: 10, 10.
 
      - .. figure:: /images/grease_pencil_visual_effects_blur_factor_50.png
           :width: 200px
 
-          Factor: 50,50.          
+          Factor: 50, 50.
 
      - .. figure:: /images/grease_pencil_visual_effects_blur_factor_100.png
           :width: 200px
 
-          Factor: 100,100.          
+          Factor: 100, 100.

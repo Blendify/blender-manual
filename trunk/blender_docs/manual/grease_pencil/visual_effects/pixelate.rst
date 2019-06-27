@@ -15,9 +15,8 @@ Options
    Pixelate Visual Effect.
 
 Size
-  Horizontal and vertical size of the final pixels to apply.
-  
-|
+   Horizontal and vertical size of the final pixels to apply.
+
 
 Example
 =======
@@ -27,7 +26,7 @@ Example
    * - .. figure:: /images/grease_pencil_visual_effects_pixelate_0.png
           :width: 200px
 
-          Original image
+          Original image.
 
      - .. figure:: /images/grease_pencil_visual_effects_pixelate_20.png
           :width: 200px

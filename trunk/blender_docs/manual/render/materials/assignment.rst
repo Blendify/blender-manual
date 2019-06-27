@@ -22,9 +22,8 @@ Material Slots
 
 Material slots link materials to objects and meshes.
 
-By default objects only have a single material slot, which assigns a material to the
-entire object. If different parts of the mesh need different materials, multiple
-material slots can be created.
+By default objects only have a single material slot, which assigns a material to the entire object.
+If different parts of the mesh need different materials, multiple material slots can be created.
 
 .. figure:: /images/render_blender-render_materials_assigning-a-material_panel-object-mode.png
 
@@ -52,8 +51,8 @@ Copy Material to Selected
    Copy the same material assignment from the active to other selected objects.
 
 
-Datablock
----------
+Data-Block
+----------
 
 Material
    The Material :ref:`Data-Block Menu <ui-data-block>` for the selected material slot.
@@ -94,7 +93,6 @@ Additional buttons will then appear in the material slots panel.
 .. figure:: /images/render_blender-render_materials_assigning-a-material_panel-edit-mode.png
 
    Material slots panel in edit mode.
-
 
 Assign
    Assign active material slot and material to the selected faces in the mesh,

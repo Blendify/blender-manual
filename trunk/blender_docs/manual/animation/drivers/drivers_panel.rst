@@ -8,10 +8,6 @@ Drivers Panel
 
    Edit Driver popover.
 
-
-This panel is visible in Sidebar of the :doc:`Drivers Editor </editors/drivers_editor>`
-or as a  popover when adding a driver to a property.
-
 .. admonition:: Reference
    :class: refbox
 
@@ -26,8 +22,10 @@ or as a  popover when adding a driver to a property.
    :Menu:      :menuselection:`Context menu --> Edit Driver`
    :Hotkey:    :kbd:`Ctrl+D`
 
+This panel is visible in Sidebar of the :doc:`Drivers Editor </editors/drivers_editor>`
+or as a popover when adding a driver to a property.
 
-The panel shows first the property that is being driven and next a series of settings
+It shows first the property that is being driven and next a series of settings
 that determine how the driver works.
 
 
@@ -40,10 +38,10 @@ Type
 There are two categories of drivers:
 
 - **built-in functions** (average, sum, minimum and maximum)
-   The driven property will have the value of the average, sum, lowest or highest (respectively)
-   of the referenced *Driver Variables*' values.
+  The driven property will have the value of the average, sum, lowest or highest (respectively)
+  of the referenced *Driver Variables*' values.
 - **custom** (scripted expression).
-   A Mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
+  A mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
 
 
 Driver Value

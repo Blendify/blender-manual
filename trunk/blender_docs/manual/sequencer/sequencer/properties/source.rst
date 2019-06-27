@@ -22,7 +22,7 @@ Change Data/Files
 
 MPEG Preseek
    Movie strip only -- Use Preseek field to tell Blender to look backward and compose an image
-   based on the specified amout of previous frames (e.g. 15 for MPEG-2 DVD).
+   based on the specified amount of previous frames (e.g. 15 for MPEG-2 DVD).
 Color Space
    To specify the color space of the source file.
 Alpha mode

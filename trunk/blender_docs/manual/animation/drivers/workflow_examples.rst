@@ -19,28 +19,26 @@ In this example, the Y rotation of Object 2 will be driven by the X position of 
 
 Starting from a simple setup with two objects:
 
-1. Add a Driver to the *Rotation Y* property of the second object by right-clicking it or with :kbd:`Ctrl-D`.
+#. Add a Driver to the *Rotation Y* property of the second object by with the context menu or with :kbd:`Ctrl-D`.
 
-.. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
+   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
+#. Open the *Drivers Editor* and select the *Y Euler Rotation* property in the channels region.
+#. Open the Sidebar region and select the *Drivers* tab.
+#. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
-2. Open the *Drivers Editor* (:kbd:`Shift-F6`).
-3. In the channels region, select the *Y Euler Rotation* property.
-4. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
-5. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
+   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
-
-.. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
-
-
-6. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+#. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
 
 
+Driver Expression
+-----------------
 
-Driver Expression - Orbit a Point
----------------------------------
+Orbit a Point
+^^^^^^^^^^^^^
 
-A *Scripted Expression* can drive a property with Python and Mathematical expressions.
+A *Scripted Expression* can drive a property with Python and mathematical expressions.
 
 The expressions make use of the *Driver Variables*.
 
@@ -68,9 +66,8 @@ Y Location Expr
 ``frame`` is the same as bpy.context.scene.frame_current.
 
 
-
-Driver Expression - Driver Namespace
-------------------------------------
+Driver Namespace
+^^^^^^^^^^^^^^^^
 
 There is a list of built-in driver functions and properties.
 These can be displayed via the Python Console:

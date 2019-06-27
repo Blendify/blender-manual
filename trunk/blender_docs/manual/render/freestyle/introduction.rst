@@ -23,7 +23,7 @@ with the introduction of line style modifiers, the sky is the limit!
    * - .. figure:: /images/render_freestyle_introduction_example-1.png
 
           ATV buggy by Rylan Wright (RONIN). CC BY.
-          (`File:AtvBuggy.zip <https://wiki.blender.org/wiki/File:AtvBuggy.zip>`__.)
+          (`File:AtvBuggy.zip <https://wiki.blender.org/wiki/File:AtvBuggy.zip>`__)
 
      - .. figure:: /images/render_freestyle_introduction_example-2.png
 

@@ -85,7 +85,7 @@ Methods to bind the armature to the mesh.
 
 Vertex Groups
    Meshes and lattices only. When enabled, bones of a given name will deform vertices which belong to
-   :doc:`vertex groups</modeling/meshes/properties/vertex_groups/index>` of the same name.
+   :doc:`vertex groups </modeling/meshes/properties/vertex_groups/index>` of the same name.
    e.g. a bone named "forearm", will only affect the vertices in the "forearm" vertex group.
 
    The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
@@ -94,27 +94,27 @@ Vertex Groups
 Bone Envelopes
    When enabled, bones will deform vertices or control points near them,
    defined by each bone's envelope radius and distance.
-   This lets :ref:`bone envelopes<armature-bones-envelope>` control the deformation
+   This lets :ref:`bone envelopes <armature-bones-envelope>` control the deformation
    (i.e. bones deform vertices in their neighborhood).
 
    .. list-table:: Example of skinning methods.
 
-     * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-1.png
+      * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-1.png
             :width: 320px
 
             The weights of the "arm" vertex group.
 
-       - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-2.png
+        - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-2.png
             :width: 320px
 
             The weights of the "forearm" vertex group.
 
-     * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-3.png
+      * - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-3.png
             :width: 320px
 
             The result when posing the armature.
 
-       - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-4.png
+        - .. figure:: /images/modeling_modifiers_deform_armature_vertex-groups-skinning-4.png
             :width: 320px
 
             The same pose, but using envelopes method rather that vertex groups.
@@ -125,7 +125,7 @@ Bone Envelopes
    determine which bones are actually necessary to evaluate the modifier.
    Removing empty vertex groups helps to reduce dependencies, and can be essential
    if the mesh is used during evaluation of other bones in the same armature,
-   e.g. as the target of a :doc:`Shrinkwrap</animation/constraints/relationship/shrinkwrap>` constraint.
+   e.g. as the target of a :doc:`Shrinkwrap </animation/constraints/relationship/shrinkwrap>` constraint.
 
 
 Multi Modifier
@@ -140,5 +140,5 @@ the *Vertex Group* as "mixing guides".
 
 .. tip::
 
-   *Armature* modifiers can quickly be added to objects by :ref:`parenting<bpy.ops.object.parent_set>`
+   *Armature* modifiers can quickly be added to objects by :ref:`parenting <bpy.ops.object.parent_set>`
    them to an armature.
