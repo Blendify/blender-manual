@@ -269,25 +269,21 @@ Bind Camera to Marker
 .. admonition:: Reference
    :class: refbox
 
-   :Editor:    Timeline Editor
+   :Editor:    Timeline
    :Menu:      :menuselection:`Marker --> Bind Camera to Markers`
    :Hotkey:    :kbd:`Ctrl-B`
 
-Switching cameras can be done with the *Timeline* operator *Bind Camera to Markers* by
-having both the camera and marker selected.
+*Bind Camera to Markers* is a special operator only available in the *Timeline*.
+The operator allows markers to be used to set the active object as the active camera.
 
-The triangle above the camera will become shaded when active.
+To use this operator, select the object to become the active camera
+and select a marker to bind the active camera to.
+If no marker is selected when the operator is preformed, a marker will be added.
+When an object is bound to a marker the marker will be renamed to the name of the active object.
+These markers also have a camera icon next to the left of the name
+to easily distinguish them from other informative markers
 
-
-Workflow
---------
+These markers can be moved to change the frame at which
+the active camera is changed to the object the marker is bound to.
 
 .. TODO2.8 .. figure:: /images/animation_markers_camera-switch.png
-
-First in the Timeline, add a set of markers used to switch cameras.
-Press :kbd:`M` to add marker, then :kbd:`Ctrl-M` to rename,
-duplicated markers should retain the same name.
-
-#. In the 3D View, select the Camera the Markers will switch to.
-#. In the Timeline, select the Marker(s) to switch to the Camera.
-#. In the Timeline, press :kbd:`Ctrl-B` to Bind Cameras to Markers.

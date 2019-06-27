@@ -23,6 +23,8 @@ Cameras are invisible in renders, so they do not have any material or texture se
 However, they do have *Object* and *Editing* setting panels available
 which are displayed when a camera is the selected (active!) object.
 
+The triangle above the camera will become shaded when active.
+
 
 .. _camera-lens-type:
 
