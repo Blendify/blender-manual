@@ -61,14 +61,17 @@ Add Image Strip
 Placeholder Images
 ^^^^^^^^^^^^^^^^^^
 
-Image sequences can use placeholder files. This works by enabling *Use placeholders* checkbox
-when adding an image strip. The option detects the frame range of opened images using
-Blender's frame naming scheme (filename + frame number + .extension) and makes an image sequence with
-all files in between even if they are missing.
+Image sequences can use placeholder files.
+This works by enabling *Use placeholders* checkbox when adding an image strip.
+The option detects the frame range of opened images using Blender's frame naming scheme
+(filename + frame number + .extension) and makes an image sequence
+with all files in between even if they are missing.
 This allows you to render an image sequence with a few frames missing and
 still the image strip will have the correct range to account for the missing frames displayed as black.
-When the missing frames are rendered or placed in the same folder, you can refresh the Sequencer and
-get the missing frames in the strip. The option is also available when using the *Change Data/File* operator and
+When the missing frames are rendered or placed in the same folder,
+you can :ref:`refresh <bpy.ops.sequencer.refresh_all>`
+the Sequencer and get the missing frames in the strip.
+The option is also available when using the *Change Data/File* operator and
 allows you to add more images to the range.
 
 
