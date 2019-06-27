@@ -8,8 +8,7 @@
 
    introduction.rst
    components/index.rst
-   material_panel.rst
-   assigning_a_material.rst
+   assignment.rst
    preview.rst
    settings.rst
    legacy_textures/index.rst
