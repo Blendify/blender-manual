@@ -48,23 +48,27 @@ There are two categories of drivers:
 
 Driver Value
 ------------
-   The current result of the driver setup. Useful for debug purposes.
+
+The current result of the driver setup. Useful for debug purposes.
 
 
 Variables
 ---------
-   See  `Driver Variables`_.
+
+See  `Driver Variables`_.
 
 
 Update Dependencies
 -------------------
-   Forces an update for the Driver Value dependencies.
+
+Forces an update for the Driver Value dependencies.
 
 
 Show in Drivers Editor
 ----------------------
-   Opens the fully featured :doc:`Drivers Editor </editors/drivers_editor>`.
-   This button only shows in the popover version of the Drivers Panel.
+
+Opens the fully featured :doc:`Drivers Editor </editors/drivers_editor>`.
+This button only shows in the popover version of the Drivers Panel.
 
 
 Driver Variables

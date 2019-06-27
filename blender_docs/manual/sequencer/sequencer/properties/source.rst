@@ -8,7 +8,8 @@ Source Panel
 
    :Panel:     :menuselection:`Sidebar region --> Strip --> Source`
 
-The Source panel is used to control sources of the strip such as filename and file path and various methods of interpreting these files.
+The Source panel is used to control sources of the strip such as filename and file path
+and various methods of interpreting these files.
 
 Path
    A text field that lets you edit/update the path of the file used by a strip.
