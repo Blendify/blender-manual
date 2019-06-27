@@ -5,7 +5,7 @@ Workflow & Examples
 
 Simple Drivers can be configured from the pop-over that appears when adding a new Driver.
 
-When adding multiple Drivers or for more advanced configurations, it is useful to have open the *Drivers Editor*.
+When adding multiple Drivers or for more advanced configurations, it is useful to have open the :doc:`Drivers Editor </editors/drivers_editor>`.
 
 
 Examples
@@ -19,55 +19,57 @@ In this example, the Y rotation of Object 2 will be driven by the X position of 
 
 Starting from a simple setup with two objects:
 
-#. Add a Driver to the *Rotation Y* property of the second object by with the context menu or with :kbd:`Ctrl-D`.
+1. Add a Driver to the *Rotation Y* property of the second object by right-clicking it or with :kbd:`Ctrl-D`.
 
-   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
-
-#. Open the *Drivers Editor* and select the *Y Euler Rotation* property in the channels region.
-#. Open the Sidebar region and select the *Drivers* tab.
-#. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
-
-   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
-
-#. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+.. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
 
-Driver Expression
------------------
+2. Open the *Drivers Editor* (:kbd:`Shift-F6`).
+3. In the channels region, select the *Y Euler Rotation* property.
+4. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
+5. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
-Orbit a Point
-^^^^^^^^^^^^^
 
-A *Scripted Expression* can drive a property with Python and mathematical expressions.
+.. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
-The expressions make use of the *Driver Variables*.
 
-.. TODO2.8 Replace screenshots (ui appearance changes):
+6. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+
+
+
+Scripted Expression - Orbit a Point
+-----------------------------------
+
+Orbit an object's position around a point with a custom *Scripted Expression*.
+The object's position will change when scrubbing the timeline.
+
+Using trigonometry, circular motion can be defined in 2D using the sin and cos functions.
+(See `Unit Circle <https://en.wikipedia.org/wiki/Unit_circle>`__).
+
+In this example, the current frame is used as the variable that induces the motion.
+``frame`` is a :ref:`Simple Expression <drivers-simple-expressions>` that corresponds to
+``bpy.context.scene.frame_current``.
+
 
 .. figure:: /images/animation_drivers_workflow-examples_object-rotation.png
 
 
-Here two drivers have been added to the Cube, X Location and Y Location.
+#. Add a driver to the X Location property.
 
-The scripted expressions are being used to set the object location.
+   #. Set the *Driver Type* to *Scripted Expression*.
+   #. Add the expression ``0 + (sin(frame / 8) * 4)``
 
-X Location Expr
-   ``0 + (sin(frame / 8) * 4)``
-      ``(frame/8)`` : is the current frame of the animation, divided by 8 to slow the orbit down.
-      ``(sin( )*4)`` : This returns the sine of (frame/8), then multiplies by 4 for a bigger circle.
-      ``0 +`` : is used to control the X Location offset of the orbit.
+      * ``frame/8`` : is the current frame of the animation, divided by 8 to slow the orbit down.
+      * ``(sin( )*4)`` : multiplies the result of ``sin(frame/8)`` by 4 for a bigger circle.
+      * ``0 +`` : is used to control the offset to the orbit center point.
 
-Y Location Expr
-   ``0 + (cos(frame / 8) * 4)``
-      ``(frame / 8)`` : is the current frame of the animation, divided by 8 to slow the orbit down.
-      ``(cos( ) * 4)`` : This returns the cosine of (frame/8), then multiplies by 4 for a bigger circle.
-      ``0 +`` : is used to control the Y Location offset of the orbit.
-
-``frame`` is the same as bpy.context.scene.frame_current.
+#. Add a driver to the Y Location property with the expression ``0 + (cos(frame / 8) * 4)``
+#. Scrub the timeline to see the effect. Experiment with the variables to control the size and center of the orbit.
 
 
-Driver Namespace
-^^^^^^^^^^^^^^^^
+
+Driver Namespace - Square Value
+-------------------------------
 
 There is a list of built-in driver functions and properties.
 These can be displayed via the Python Console:
