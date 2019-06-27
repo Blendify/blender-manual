@@ -88,12 +88,12 @@ Uncheck *Stretch to input strip length* and uncheck *Use as speed*.
 You now have a Frame number button which you can keyframe.
 If you want the strip to animate **at all** you will have to insert some keyframes,
 otherwise it will look like a still. In most cases you will want to use the Graph editor view
-to set the curve interpolation to Linear since the default Bézier will rarely be what you
-want.
+to set the curve interpolation to Linear since the default Bézier will rarely be what you want.
 
-If you do choose to keyframe the Speed factor instead, remember to click the Refresh Sequencer
-button in the header of the Video Sequence Editor's strip view or your changes will not take
-effect.
+.. tip::
+
+   If you choose to keyframe the Speed factor instead, remember to
+   :ref:`Refresh All <bpy.ops.sequencer.refresh_all>` or the changes will not take effect.
 
 
 Changing Video Frame Rates

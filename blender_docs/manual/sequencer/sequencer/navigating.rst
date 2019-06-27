@@ -51,6 +51,19 @@ Range
       Set Start of animation range to current playhead position.
    Set End Frame :kbd:`Ctrl-End`
       Set End of animation range to current playhead position.
+
+.. _bpy.ops.sequencer.refresh_all:
+
+Refresh All
+   To force Blender to re-read in files, and to force a re-render of the 3D View,
+   click the *Refresh Sequencer* button.
+   Blender will update and synchronize all cached images and compute the current frame.
+
+   Certain operations, like moving an object in 3D View, may not force the *Sequencer*
+   to call for a refresh of the rendered image (since the movement may not affect the rendered image).
+   If an image or video, used as a strip, is changed by some application outside of Blender,
+   Blender has no real way of being notified from your operating system.
+
 Show Seconds :kbd:`Ctrl-T`
    Display time instead of frame number, in the Frame Number Indicator.
 Show Frame Number Indicator
@@ -83,20 +96,6 @@ within an animation. Like with most animation editors, markers are shown at the 
    Markers in animation editor.
 
 For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
-
-
-Refresh Sequencer
------------------
-
-To force Blender to re-read in files, and to force a re-render of the 3D View,
-click the *Refresh Sequencer* button.
-Blender will update and synchronize all cached images and compute the current frame.
-
-Certain operations, like moving an object in 3D View, may not force the *Sequencer*
-to call for a refresh of the rendered image (since the movement may not affect the rendered image).
-If an image or video, used as a strip, is changed by some application outside of Blender,
-Blender has no real way of being notified from your operating system.
-
 
 Main View
 =========
