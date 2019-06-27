@@ -1,65 +1,45 @@
 
-*****************
-Material Settings
-*****************
+********
+Settings
+********
 
 .. admonition:: Reference
    :class: refbox
 
    :Panel:     :menuselection:`Material --> Settings`
 
+Renderer Settings
+=================
 
-Viewport Display
-================
+While shading nodes control the appearance, these settings control the quality and algorithms
+that each renderer uses to render the material.
 
-Viewport Color
---------------
+- :doc:`Eevee specific settings </render/eevee/materials/settings>`
+- :doc:`Cycles specific settings </render/cycles/material_settings>`
 
-Color
-   Diffuse color of the object in the 3D viewport.
-Alpha
-   Transparency of the object in the 3D viewport.
-
-
-Viewport Specular
------------------
-
-Color
-   Specular reflection color of the object in the 3D viewport.
-Hardness
-   Roughness control for the object in the 3D viewport.
-
-
-Viewport Alpha
---------------
-
-Blend Mode
-   :term:`Blend modes` for transparent faces.
-
-   Opaque
-      Render color of textured face as color.
-   Add
-      Render transparent and add color of face.
-   Alpha Clip
-      Use the image alpha values clipped with no blending (binary alpha).
-   Alpha Blend
-      Render polygon transparent, depending on alpha channel of the texture.
-   Alpha Sort
-      Sort faces for correct alpha rendering (slow, use *Alpha Clip* instead when possible).
-   Alpha Anti-Aliasing
-      Use texture alpha to add an anti-aliasing mask,
-      requires multisampling to be enabled.
-
-      .. TODO2.8 is this still the case?
-
-
-Settings
-========
 
 Pass Index
-----------
+==========
 
 Pass Index
    Index number for the *Material Index* :doc:`render pass </render/layers/passes>`.
    This can be used to give a mask to a material and then be read with
    the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+
+
+Viewport Display
+================
+
+These settings control the 3D viewport display in solid shading.
+They provide a faster alternative to full shader nodes, which may be too heavy or distracting
+for tasks like modeling, layout or sculpting.
+
+Color
+   Diffuse or metal surface color.
+Metallic
+   Blends between a non-metallic and metallic material model.
+   A value of 1.0 gives a fully specular reflection tinted with the base color,
+   without diffuse reflection or transmission.
+   At 0.0 the material consists of a diffuse or transmissive base layer, with a specular reflection layer on top.
+Roughness
+   Specifies microfacet roughness of the surface for metal and specular reflection.

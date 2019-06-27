@@ -26,25 +26,6 @@ Three displacement methods exist, with varying accuracy, performance and memory 
    Bump only, displacement only and displacement and bump combined.
 
 
-Displacement Only
-=================
-
-The most accurate and memory intensive displacement method is to apply true displacement to
-the mesh surface.
-
-It requires the mesh to be finely subdivided, which can be memory intensive.
-:doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subdiv>` is the best way
-to subdivide the mesh, so that exactly the right amount of subdivision is used depending on
-the distance of the object to the camera.
-
-For baked displacement maps, best results are achieved with 16 or 32-bit float maps,
-as 8-bit byte images often can not represent all the necessary detail.
-
-.. seealso::
-
-   The :doc:`Displace Modifier </modeling/modifiers/deform/displace>` can also be used to displace a mesh.
-
-
 Bump Only
 =========
 
@@ -64,8 +45,31 @@ these are more visible for bump maps than other types of textures.
    be reduced or actual displacement should be used.
 
 
+Displacement Only
+=================
+
+:guilabel:`Cycles Only`
+
+The most accurate and memory intensive displacement method is to apply true displacement to
+the mesh surface.
+
+It requires the mesh to be finely subdivided, which can be memory intensive.
+:doc:`Adaptive Subdivision </render/cycles/object_settings/adaptive_subdiv>` is the best way
+to subdivide the mesh, so that exactly the right amount of subdivision is used depending on
+the distance of the object to the camera.
+
+For baked displacement maps, best results are achieved with 16 or 32-bit float maps,
+as 8-bit byte images often can not represent all the necessary detail.
+
+.. seealso::
+
+   The :doc:`Displace Modifier </modeling/modifiers/deform/displace>` can also be used to displace a mesh.
+
+
 Displacement and Bump
 =====================
+
+:guilabel:`Cycles Only`
 
 Both methods can be combined to use actual displacement for the bigger displacement and
 bump for the finer details. This can provide a good balance to reduce memory usage.
