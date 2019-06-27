@@ -10,6 +10,19 @@ The Image Editor is where you can view/edit 2D assets like images or textures.
    Image Editor with a test grid texture.
 
 
+Toolbar
+=======
+
+Sample Tool
+   Used to sample a pixels color from anywhere within Blender.
+
+   Sample Size
+      The dimensions of the square used to sample underlying pixels.
+      If larger than 1 the resulting sample is an average of all underlying pixels.
+
+Annotate
+   See :doc:`Annotations </interface/annotate_tool>` for more information.
+
 Header
 ======
 
