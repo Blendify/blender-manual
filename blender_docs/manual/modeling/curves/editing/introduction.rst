@@ -1,4 +1,4 @@
-.. (TODO2.8 add) spin, split tool; control point: recalc normals, set curve radius = Shrink/Fatten.
+.. (TODO2.8 add) spin, split tool; control point: recalc normals.
 
 ************
 Introduction
@@ -77,7 +77,7 @@ Tools
 
 The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
 in the :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
-The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
+The two other tools, *Tilt* and *Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/properties/geometry>`.
 
 
