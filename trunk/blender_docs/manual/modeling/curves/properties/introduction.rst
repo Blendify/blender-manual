@@ -18,10 +18,17 @@ forcing the curve to "stick" to their original positions, based on the weight.
 Radius
 ------
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Radius`
+               :menuselection:`Sidebar region --> Transform --> Radius`
+   :Menu:      :menuselection:`Curve --> Transform --> Radius`
+   :Hotkey:    :kbd:`Alt-S`
+
 The Radius allows you to directly control the width of the extrusion along the "spinal" curve.
-The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
-the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
-or the :menuselection:`Sidebar region --> Transform --> Radius`.
+The *Radius* of the points is set using the *Radius* transform tool. Or in the Siderbar *Transform* panel.
 
 .. figure:: /images/modeling_curves_properties_introduction_extrude-radius.png
    :width: 320px
