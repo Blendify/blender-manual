@@ -5,7 +5,7 @@
 Brush
 *****
 
-.. figure:: /images/sculpt-paint_brush_data-block-menu.png
+.. figure:: /images/sculpt-paint_brush_brush_data-block-menu.png
    :align: right
 
    Brush data-block menu.

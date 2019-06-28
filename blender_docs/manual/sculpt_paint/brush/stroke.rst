@@ -3,7 +3,7 @@
 Stroke
 ******
 
-.. figure:: /images/sculpt-paint_stroke-curve_stroke-panel.png
+.. figure:: /images/sculpt-paint_brush_stroke_stroke-panel.png
    :align: right
 
    Stroke panel.

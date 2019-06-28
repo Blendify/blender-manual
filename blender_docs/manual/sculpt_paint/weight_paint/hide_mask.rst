@@ -14,7 +14,7 @@ a brush will only paint on the selected vertices or faces.
 The option is available from the header of the 3D View
 (see icons surrounded by the yellow frame):
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_select.png
+.. figure:: /images/sculpt-paint_weight-paint_hide-mask_select.png
 
    You can choose between *Face Selection masking* (left button)
    and *Vertex selection masking* (right button).
@@ -49,7 +49,7 @@ The following standard selection operations are supported:
 Vertex Selection Masking
 ------------------------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_vertex-select.png
+.. figure:: /images/sculpt-paint_weight-paint_hide-mask_vertex-select.png
 
    Vertex Selection masking.
 
@@ -64,7 +64,7 @@ All unselected vertices are protected from unintentional changes.
 Face Selection Masking
 ----------------------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select.png
+.. figure:: /images/sculpt-paint_weight-paint_hide-mask_face-select.png
 
    Face Selection masking.
 
@@ -75,7 +75,7 @@ tool to those faces, very similar to Vertex selection masking.
 Hide/Unhide Faces
 -----------------
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_face-select-hidden.png
+.. figure:: /images/sculpt-paint_weight-paint_hide-mask_face-select-hidden.png
 
    Hidden faces.
 
@@ -105,7 +105,7 @@ Press :kbd:`Alt-B` and :kbd:`LMB`\ -drag a rectangular area.
 The selected area will be "cut out" as the area of interest.
 The rest of the 3D View gets hidden.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_hide-mask_border-select.png
+.. figure:: /images/sculpt-paint_weight-paint_hide-mask_border-select.png
 
    The Clipping Region is used to select interesting parts for local painting.
 
