@@ -29,7 +29,7 @@ the :doc:`Inverse Kinematics constraint </animation/constraints/tracking/ik_solv
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_tracking_track-to_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_tracking_track-to_panel.png
 
 .. TODO2.8    Track To panel.
 

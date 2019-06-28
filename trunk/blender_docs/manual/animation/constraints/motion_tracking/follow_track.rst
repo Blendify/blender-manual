@@ -4,7 +4,7 @@
 Follow Track Constraint
 ***********************
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_motion-tracking_follow-track_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_motion-tracking_follow-track_panel.png
 
 .. TODO2.8    Follow Track Constraint panel.
 

@@ -9,7 +9,7 @@ Viewport Display Panel
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Viewport Display`
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_properties_display_panel.png
+.. TODO2.8 .. figure:: /images/animation_armatures_properties_display_panel.png
 
 .. TODO2.8    The Display panel.
 
@@ -19,22 +19,22 @@ Display As
 
    .. list-table::
 
-      * - .. figure:: /images/rigging_armatures_properties_display_octahedral.png
+      * - .. figure:: /images/animation_armatures_properties_display_octahedral.png
              :width: 320px
 
              Octahedral bone display.
 
-        - .. figure:: /images/rigging_armatures_properties_display_stick.png
+        - .. figure:: /images/animation_armatures_properties_display_stick.png
              :width: 320px
 
              Stick bone display.
 
-      * - .. figure:: /images/rigging_armatures_properties_display_b-bone.png
+      * - .. figure:: /images/animation_armatures_properties_display_b-bone.png
              :width: 320px
 
              B-Bone bone display.
 
-        - .. figure:: /images/rigging_armatures_properties_display_envelope.png
+        - .. figure:: /images/animation_armatures_properties_display_envelope.png
              :width: 320px
 
              Envelope bone display.
@@ -46,7 +46,7 @@ Display As
       - The bone "size" (its thickness is proportional to its length).
       - The bone roll (as it has a square section).
 
-      .. figure:: /images/rigging_armatures_properties_display_type-octahedral.png
+      .. figure:: /images/animation_armatures_properties_display_type-octahedral.png
          :width: 300px
 
          Note the 40° rolled Bone.001 bone.
@@ -56,7 +56,7 @@ Display As
       It just materializes bones by sticks of constant (and small) thickness,
       so it gives you no information about root and tip, nor bone size or roll angle.
 
-      .. figure:: /images/rigging_armatures_properties_display_type-stick.png
+      .. figure:: /images/animation_armatures_properties_display_type-stick.png
          :width: 300px
 
          Note that Bone.001 roll angle is not visible (except by its XZ axes).
@@ -89,12 +89,12 @@ Display As
 
       .. list-table::
 
-         * - .. figure:: /images/rigging_armatures_properties_display_type-wire-pose-mode.png
+         * - .. figure:: /images/animation_armatures_properties_display_type-wire-pose-mode.png
                 :width: 320px
 
                 An armature of Wire, in Pose Mode.
 
-           - .. figure:: /images/rigging_armatures_properties_display_type-wire-edit-mode.png
+           - .. figure:: /images/animation_armatures_properties_display_type-wire-edit-mode.png
                 :width: 320px
 
                 The same armature in Edit Mode.

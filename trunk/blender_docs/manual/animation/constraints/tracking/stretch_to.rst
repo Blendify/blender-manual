@@ -24,7 +24,7 @@ With bones, the "volumetric" variation scales them along their own local axes
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_tracking_stretch-to_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_tracking_stretch-to_panel.png
 
 .. TODO2.8    Stretch To panel.
 

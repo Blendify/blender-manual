@@ -33,7 +33,7 @@ see the "Inverse Kinematics" section of Bone properties.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_transform_limit-rotation_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_transform_limit-rotation_panel.png
 
 .. TODO2.8    Limit Rotation panel.
 

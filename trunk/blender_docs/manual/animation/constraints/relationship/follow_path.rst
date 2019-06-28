@@ -74,7 +74,7 @@ you can use a *Locked Track* and a target object to specify the up direction, as
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_relationship_follow-path_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_relationship_follow-path_panel.png
 
 .. TODO2.8    Follow Path panel.
 

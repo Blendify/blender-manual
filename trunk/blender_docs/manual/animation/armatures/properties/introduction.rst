@@ -11,7 +11,7 @@ Introduction
 
 The *Armature* tab in Properties editor contains various panels gathering the armature settings.
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_properties_introduction_properties-editor.png
+.. TODO2.8 .. figure:: /images/animation_armatures_properties_introduction_properties-editor.png
 
 .. TODO2.8    The Armature tab in the Properties editor.
 

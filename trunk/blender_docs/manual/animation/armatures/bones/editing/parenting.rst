@@ -45,23 +45,23 @@ If you want them to be connected, just enable the checkbox to the right of the l
 
 .. list-table:: Parenting example.
 
-   * - .. figure:: /images/rigging_armatures_bones_editing_parenting_start.png
+   * - .. figure:: /images/animation_armatures_bones_editing_parenting_start.png
           :width: 320px
 
           The starting armature, with Bone.005 parented and connected to Bone.004.
 
-     - .. figure:: /images/rigging_armatures_bones_editing_parenting_unconnected.png
+     - .. figure:: /images/animation_armatures_bones_editing_parenting_unconnected.png
           :width: 320px
 
           Bone.005 re-parented to Bone.002, but not connected to it
           (same result, using either :kbd:`Ctrl-P 2` in 3D View, or the Bones tab settings).
 
-   * - .. figure:: /images/rigging_armatures_bones_editing_parenting_connected.png
+   * - .. figure:: /images/animation_armatures_bones_editing_parenting_connected.png
           :width: 320px
 
           Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P 1` in 3D View.
 
-     - .. figure:: /images/rigging_armatures_bones_editing_parenting_data-id.png
+     - .. figure:: /images/animation_armatures_bones_editing_parenting_data-id.png
           :width: 320px
 
           Bone.005 parented and connected to Bone.002.

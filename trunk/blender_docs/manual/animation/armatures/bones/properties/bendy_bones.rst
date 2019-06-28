@@ -75,7 +75,7 @@ Example
 
           Bones with just one segment in Edit Mode.
 
-     - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-2.png
+     - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-2.png
           :width: 320px
 
           The Bézier curve superposed to the chain, with its handles placed at bones' joints.
@@ -95,7 +95,7 @@ each one made of five segments.
 Look at Fig. :ref:`fig-rig-bone-intro-same`,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
 
-.. figure:: /images/rigging_armatures_bones_properties_bendy-bones_pose-mode.png
+.. figure:: /images/animation_armatures_bones_properties_bendy-bones_pose-mode.png
 
    An armature in Pose Mode, B-Bone visualization: Bone.003 has one segment,
    Bone.004 has four, and Bone.005 has sixteen.
@@ -154,12 +154,12 @@ Ease In, Out
 
 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 
-   * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-1.png
+   * - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_curve-in-out-1.png
           :width: 320px
 
           Bone.004 with default In and Out (1.0).
 
-     - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_curve-in-out-2.png
+     - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_curve-in-out-2.png
           :width: 320px
 
           Bone.004 with In at 2.0, and Out at 0.0.
@@ -202,7 +202,7 @@ Custom Handle
 Example
 -------
 
-.. figure:: /images/rigging_armatures_bones_properties_bendy-bones_settings-demo.png
+.. figure:: /images/animation_armatures_bones_properties_bendy-bones_settings-demo.png
 
    Visualization of the Bendy Bones properties.
 

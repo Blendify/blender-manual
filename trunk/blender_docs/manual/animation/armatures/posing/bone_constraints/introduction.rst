@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_posing_bone-constraints_introduction_tab.png
+.. TODO2.8 .. figure:: /images/animation_armatures_posing_bone-constraints_introduction_tab.png
 .. TODO2.8    :align: right
 .. TODO2.8    :figwidth: 280px
 

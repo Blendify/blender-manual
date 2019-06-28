@@ -3,7 +3,7 @@
 Structure
 *********
 
-.. figure:: /images/rigging_armatures_structure_armature-example.png
+.. figure:: /images/animation_armatures_structure_armature-example.png
    :align: right
 
    Example of a very basic armature.
@@ -33,7 +33,7 @@ This is exactly what happens in armatures by parenting a bone to the next one in
 you create a "chains of bones". These chains can be ramified. For example,
 five fingers attached to a single "hand" bone.
 
-.. figure:: /images/rigging_armatures_structure_chains-of-bones.png
+.. figure:: /images/animation_armatures_structure_chains-of-bones.png
 
    An armature with two chains of bones.
 

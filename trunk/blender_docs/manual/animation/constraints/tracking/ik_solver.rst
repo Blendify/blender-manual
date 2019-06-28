@@ -24,7 +24,7 @@ the :ref:`Inverse Kinematics <bone-constraints-inverse-kinematics>` page, part o
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_tracking_ik-solver_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_tracking_ik-solver_panel.png
 
 .. TODO2.8    Inverse Kinematics panel.
 

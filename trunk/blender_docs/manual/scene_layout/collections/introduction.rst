@@ -6,7 +6,7 @@ Introduction
 In Blender, objects are not directly part of the scenes.
 Instead, they all get stored in a main database (basically the blend-file).
 
-.. figure:: /images/scene_layout-collections-database_preview.png
+.. figure:: /images/scene-layout_collections_database-preview.png
 
    The blend-file and its stored data.
 
@@ -15,7 +15,7 @@ From there they are referenced into as many Scenes as you would like to see them
 When they are stored in a scene, they are part of a so-called *scene collection*.
 So ultimately all the scene objects belong to this special collection.
 
-.. figure:: /images/scene_layout-collections-scene_collection.png
+.. figure:: /images/scene-layout_collections_scene-collection.png
 
    The scene collection.
 
@@ -29,13 +29,13 @@ the user can also make their own collections to better organize these objects.
 It works like a Venn diagram, where all the objects are part of the *scene collection*,
 but can also be part of multiple collections.
 
-.. figure:: /images/scene_layout-collections-venn_diagram.png
+.. figure:: /images/scene-layout_collections_venn-diagram.png
 
    Venn diagram.
 
 The result is a clear and flexible way to arrange objects together on the Scene level.
 
-.. figure:: /images/scene_layout-collections-scene_organization.png
+.. figure:: /images/scene-layout_collections_scene-organization.png
 
    Scene organization.
 
@@ -47,7 +47,7 @@ Collections can be named and sorted hierarchically.
 Just like folders can have subfolders in any operating system,
 collections can have nested collections too.
 
-.. figure:: /images/scene_layout-collections-collections_nested.png
+.. figure:: /images/scene-layout_collections_collections-nested.png
 
    Nested collections.
 

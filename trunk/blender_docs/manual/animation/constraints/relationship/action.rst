@@ -36,7 +36,7 @@ the owner will be as if in frame 50 of the linked action, etc.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_relationship_action_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_relationship_action_panel.png
 
 .. TODO2.8    Action panel.
 

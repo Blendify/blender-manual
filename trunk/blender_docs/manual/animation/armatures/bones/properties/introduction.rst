@@ -14,7 +14,7 @@ properties are shown in the *Bone* tab of the Properties editor.
 This shows different panels used to control features of each selected bone;
 the panels change depending on which mode you are working in.
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_introduction_properties-editor.png
+.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_introduction_properties-editor.png
 
 .. TODO2.8    The Bone tab.
 
@@ -33,11 +33,11 @@ Transform
 
 .. TODO2.8 .. list-table::
 
-.. TODO2.8    * - .. figure:: /images/rigging_armatures_bones_properties_introduction_transform-panel-edit.png
+.. TODO2.8    * - .. figure:: /images/animation_armatures_bones_properties_introduction_transform-panel-edit.png
 
 .. TODO2.8           The Transform panel (Edit Mode).
 
-.. TODO2.8      - .. figure:: /images/rigging_armatures_bones_properties_introduction_transform-panel-pose.png
+.. TODO2.8      - .. figure:: /images/animation_armatures_bones_properties_introduction_transform-panel-pose.png
 
 .. TODO2.8           The Transform panel (Pose Mode).
 

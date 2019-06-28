@@ -278,7 +278,7 @@ or by using other constraints.
 
 .. TODO2.8 Maybe update the images (color & style)
 
-.. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_example.png
+.. figure:: /images/animation_armatures_posing_bone-constraints_inverse-kinematics_introduction_example.png
    :align: center
 
    `IK Arm Example <https://wiki.blender.org/wiki/File:IK_Arm_Example.blend>`__.

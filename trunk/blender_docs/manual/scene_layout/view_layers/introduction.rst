@@ -6,7 +6,7 @@ Introduction
 The visibility controls are part of *view layers*, designed to help organizing
 what you want to see or work on.
 
-.. figure:: /images/scene_layout-view_layers-collections.png
+.. figure:: /images/scene-layout_view-layers_collections.png
 
    View layers and collections.
 
