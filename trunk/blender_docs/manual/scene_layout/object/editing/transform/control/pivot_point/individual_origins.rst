@@ -1,4 +1,4 @@
-.. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
+.. |pivot-icon| image:: /images/scene-layout_object_editing_transform_control_pivot-point_menu.png
 
 ******************
 Individual Origins
@@ -22,7 +22,7 @@ The origin does not have to be located in the center of the geometry (e.g. mesh)
 This means that an object can have its origin located on one end of the mesh or
 even completely outside the mesh.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
+.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
    Rotation around individual origins.
 

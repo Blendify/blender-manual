@@ -70,7 +70,7 @@ Example
 
    * - .. _fig-rig-bone-intro-bbone:
 
-       .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-1.png
+       .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-1.png
           :width: 320px
 
           Bones with just one segment in Edit Mode.
@@ -82,7 +82,7 @@ Example
 
    * - .. _fig-rig-bone-intro-same:
 
-       .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-3.png
+       .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-3.png
           :width: 320px
 
           The same armature in Object Mode.

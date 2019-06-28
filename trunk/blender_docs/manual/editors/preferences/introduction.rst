@@ -17,7 +17,7 @@ This chapter explains how to change Blender's default configuration with the *Pr
 The Blender *Preferences* contains settings to control how Blender behaves.
 At the left of the editor, the available options are grouped into sections.
 
-.. figure:: /images/preferences_interface_tab.png
+.. figure:: /images/editors_preferences_interface_tab.png
 
    Blender Preferences window.
 

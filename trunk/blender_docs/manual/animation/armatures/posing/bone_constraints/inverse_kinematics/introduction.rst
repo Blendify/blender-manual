@@ -71,7 +71,7 @@ Armature IK Panel
 This panel is used to select the IK Solver type for the armature: *Standard* or *iTaSC*.
 Most the time people will use the *Standard* IK solver.
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
+.. TODO2.8 .. figure:: /images/animation_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
 
 .. TODO2.8    The armature IK panel.
 
@@ -230,7 +230,7 @@ Bone IK Panel
 
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_introduction_inverse-kinematics-panel.png
+.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_introduction_inverse-kinematics-panel.png
 
 .. TODO2.8    The bone IK panel.
 

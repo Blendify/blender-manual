@@ -53,4 +53,4 @@ Volume
 Examples
 ========
 
-.. figure:: /images/render_cycles_materials_volume_principled.jpg
+.. figure:: /images/render_materials_components_volume_principled.jpg

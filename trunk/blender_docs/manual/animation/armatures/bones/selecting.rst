@@ -83,7 +83,7 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 
 .. list-table:: Linked bones selection.
 
-   * - .. figure:: /images/rigging_armatures_bones_selecting_single-bone.png
+   * - .. figure:: /images/animation_armatures_bones_selecting_single-bone.png
           :width: 320px
 
           A single selected bone.

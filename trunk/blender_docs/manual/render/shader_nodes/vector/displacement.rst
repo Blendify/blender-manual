@@ -59,6 +59,6 @@ Displacement
 Examples
 ========
 
-.. figure:: /images/render_cycles_materials_displacement_example.jpg
+.. figure:: /images/render_materials_components_displacement_example.jpg
 
    Bump only, displacement only, and displacement and bump combined.

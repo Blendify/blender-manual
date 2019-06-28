@@ -1,4 +1,4 @@
-.. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
+.. |pivot-icon| image:: /images/scene-layout_object_editing_transform_control_pivot-point_menu.png
 
 *******************
 Bounding Box Center
@@ -30,7 +30,7 @@ and the size of objects is not taken into account.
 The image below shows the results of using the *Bounding Box* as
 the pivot point in a number of situations.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
+.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_individual-origins_rotation-around-center.png
 
    Single object rotation.
 

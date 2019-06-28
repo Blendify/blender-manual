@@ -22,7 +22,7 @@ In the list below it shows a list of different types of node trees and where eac
    * - Icon
      - Name
      - Documentation
-   * - .. figure:: /images/editors_node-editor_introduction_icons-material.png
+   * - .. figure:: /images/interface_controls_nodes_introduction_icons-material.png
      - Shader Nodes
      - Documentation is in the :doc:`Render </render/shader_nodes/index>` section.
    * - .. figure:: /images/editors_node-editor_introduction_icons-render-layers.png

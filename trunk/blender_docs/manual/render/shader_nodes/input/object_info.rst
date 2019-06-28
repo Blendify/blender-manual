@@ -54,7 +54,7 @@ Example
 .. figure:: /images/render_cycles_nodes_types_input_object-info_example.png
    :width: 640px
 
-.. figure:: /images/render_cycles_settings_scene_render_motion-blur_example-cubes.jpg
+.. figure:: /images/render_cycles_render-settings_motion-blur_example-cubes.jpg
    :width: 640px
 
    `Example blend-file <https://en.blender.org/uploads/0/03/Blender2.65_motion_blur.blend>`__.

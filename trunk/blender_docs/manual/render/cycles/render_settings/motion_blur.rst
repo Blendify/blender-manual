@@ -73,7 +73,7 @@ Rolling Shutter Duration
    See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
 
 
-.. figure:: /images/render_cycles_settings_scene_render_motion-blur_example-cubes.jpg
+.. figure:: /images/render_cycles_render-settings_motion-blur_example-cubes.jpg
    :width: 640px
 
    Motion blur example.

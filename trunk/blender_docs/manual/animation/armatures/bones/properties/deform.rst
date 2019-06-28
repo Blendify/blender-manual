@@ -28,7 +28,7 @@ parented to the armature using the *Armature Deform* tool with the "With Automat
 Envelope
 ========
 
-.. figure:: /images/rigging_armatures_bones_structure_envelope-edit-mode.png
+.. figure:: /images/animation_armatures_bones_structure_envelope-edit-mode.png
    :align: right
    :figwidth: 180px
 
