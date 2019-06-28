@@ -46,7 +46,7 @@ Strip Cache Panel
 
 
 Similar to `Cache Settings Panel`_,
-this panel will set types of images, that will be cached the active strip.
+this panel sets the types of images that will be cached for the active strip.
 
 Enable Strip Cache
    Enable overriding the cache defaults.
@@ -102,15 +102,9 @@ Strip Proxy & Timecode Panel
 Proxy
 -----
 
-A proxy is using optimized video codec and lower resolution version (faster to load)
-that stands in for the main image or video.
-When proxies are built, editing functions like scrubbing and scrolling and compositing is much
-faster but gives lower resolution and slightly imprecise result.
-
-Once you have chosen the Proxy/Timecode parameters,
+Once you have chosen the :term:`Proxy`/:term:`Timecode` parameters,
 you need to select all strips for which you want proxies to be built.
-Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`,
-or button in `Proxy Settings Panel`_.
+Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`, or button in `Proxy Settings Panel`_.
 Once all proxies are built, they will be ready to use.
 
 In order to use proxies, you have to select matching :ref:`Proxy Render Size <proxy-render-size>`

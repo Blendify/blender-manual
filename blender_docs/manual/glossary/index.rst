@@ -616,6 +616,14 @@ This page lists definitions for terms used in Blender and this manual.
          *S* between the line and the plane is the orthographic projection of the point *P*.
          By projecting all points *P* of the scene you get the orthographic view.
 
+   Proxy
+      For video editing, a proxy is a smaller version of the original file,
+      typically using an optimized video codec and lower resolution version (faster to load)
+      that stands in for the main image or video.
+
+      When proxies are built, editing functions like scrubbing and scrolling and compositing is much
+      faster but gives lower resolution and slightly imprecise result.
+
    Quad
    Quadrilateral
    Quadrangle
