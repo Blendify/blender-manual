@@ -1,3 +1,4 @@
+.. _bpy.types.SceneEEVEE.volumetric:
 
 ***********
 Volumetrics
@@ -33,6 +34,8 @@ Distribution
    Blend between linear and exponential sample distribution. Higher values puts more samples near the camera.
 
 
+.. _bpy.types.SceneEEVEE.volumetric_light:
+
 Volumetric Lighting
 ===================
 
@@ -43,6 +46,8 @@ Light Clamping
    Clamp light contribution of the volume scattering effect. Reduces flickering and noise.
    Set to 0.0 to disable clamping.
 
+
+.. _bpy.types.SceneEEVEE.volumetric_shadow:
 
 Volumetric Shadows
 ==================
