@@ -34,7 +34,7 @@ Custom Distance
 
    .. seealso::
 
-      :doc:`Light Threshold </render/eevee/shadows>`.
+      :doc:`Light Threshold </render/eevee/render_settings/shadows>`.
 
 .. note::
 
@@ -44,7 +44,7 @@ Custom Distance
 Shadows
 =======
 
-All lights can cast shadows, see :doc:`shadow settings </render/eevee/shadows>`.
+All lights can cast shadows, see :doc:`shadow settings </render/eevee/render_settings/shadows>`.
 
 
 Limitations

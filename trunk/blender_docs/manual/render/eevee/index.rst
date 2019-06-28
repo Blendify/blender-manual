@@ -9,15 +9,10 @@
    :maxdepth: 2
 
    introduction.rst
+   render_settings/index.rst
    materials/index.rst
    world.rst
    lighting.rst
-   shadows.rst
-   volumetrics.rst
-   screen_space_effects/index.rst
-   indirect_lighting.rst
+   screen_space_effects.rst
    lightprobes/index.rst
-   motion_blur.rst
-   bloom.rst
-   depth_of_field.rst
    limitations.rst

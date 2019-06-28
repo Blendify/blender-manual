@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+********************
+Screen Space Effects
+********************
 
 Eevee is not a ray tracing engine and cannot do ray-triangle intersection.
 Instead of this, Eevee uses the depth buffer as an approximated scene representation.
