@@ -1,3 +1,5 @@
+.. _bpy.ops.object.lightprobe:
+.. _bpy.types.LightProbe:
 
 ################
   Light Probes

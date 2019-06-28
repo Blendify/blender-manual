@@ -1,3 +1,4 @@
+.. _bpy.types.SceneEEVEE.gtao:
 
 *****************
 Ambient Occlusion

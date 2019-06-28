@@ -1,3 +1,4 @@
+.. _bpy.types.SceneEEVEE.bokeh_max_size:
 
 **************
 Depth of Field

@@ -1,3 +1,5 @@
+.. _bpy.ops.scene.light_cache:
+.. _bpy.types.SceneEEVEE.gi:
 
 ***********************
 Indirect Lighting Cache
