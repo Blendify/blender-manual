@@ -4,7 +4,7 @@
 Wipe
 ****
 
-.. figure:: /images/editors_vse_sequencer_strips_effects_wipe_example.png
+.. figure:: /images/sequencer_sequencer_strips_effects_wipe_example.png
    :width: 620px
 
    Wipe Effect.

@@ -22,7 +22,7 @@ Options
 =======
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_vortex_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_vortex_panel.png
 
       UI for a Vortex force field.
 

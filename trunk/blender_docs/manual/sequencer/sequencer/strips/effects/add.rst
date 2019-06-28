@@ -6,7 +6,7 @@ Add Effect
 
 .. _fig-sequencer-strips-effects-add:
 
-.. figure:: /images/editors_vse_sequencer_strips_effects_add_example.png
+.. figure:: /images/sequencer_sequencer_strips_effects_add_example.png
    :width: 620px
 
    Add Effect.

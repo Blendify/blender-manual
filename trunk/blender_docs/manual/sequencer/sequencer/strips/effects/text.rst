@@ -4,7 +4,7 @@
 Text Effect
 ***********
 
-.. figure:: /images/editors_vse_sequencer_strips_effects_text_example.png
+.. figure:: /images/sequencer_sequencer_strips_effects_text_example.png
    :width: 620px
 
    Text Effect.

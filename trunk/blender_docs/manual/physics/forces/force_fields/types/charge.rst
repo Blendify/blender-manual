@@ -16,7 +16,7 @@ Which means that this field has only an effect on particles that have also a *Ch
 (else, they have no "charge", and hence are unaffected)!
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_charge_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_charge_panel.png
 
       UI for a Charge force field.
 

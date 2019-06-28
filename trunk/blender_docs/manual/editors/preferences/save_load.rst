@@ -4,7 +4,7 @@
 Save & Load
 ***********
 
-.. figure:: /images/preferences_save_load_tab.png
+.. figure:: /images/editors_preferences_save-load_tab.png
 
    Preferences Save/Load section.
 
@@ -87,7 +87,7 @@ Filter File Extensions
    (i.e. blend-files when loading a complete Blender setting).
    The selection of file types may be changed in the file region.
 
-   .. figure:: /images/preferences_file_filter.png
+   .. figure:: /images/editors_preferences_save-load_filter.png
 
       File extension filter.
 

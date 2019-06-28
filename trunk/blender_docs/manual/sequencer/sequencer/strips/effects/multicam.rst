@@ -37,7 +37,7 @@ Workflow
 
    After completing these steps you should get something similar to the image below:
 
-   .. figure:: /images/editors_vse_sequencer_strips_effects_multicam_example.png
+   .. figure:: /images/sequencer_sequencer_strips_effects_multicam_example.png
 
       Multi-camera editing setup.
 
