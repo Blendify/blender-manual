@@ -8,7 +8,7 @@ They specify where to sample the scene's lighting and where to apply it.
 
 .. seealso::
 
-   :doc:`Indirect Lighting </render/eevee/indirect_lighting>`.
+   :doc:`Indirect Lighting </render/eevee/render_settings/indirect_lighting>`.
 
 *Screen Space Reflections* are much more precise than reflection cubemaps.
 If enabled, they have priority and cubemaps are used as a fall back if a ray misses.

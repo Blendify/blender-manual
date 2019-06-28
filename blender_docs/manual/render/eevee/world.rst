@@ -12,4 +12,4 @@ This makes the lighting less precise than Cycles.
 
 .. seealso::
 
-   :doc:`Indirect Lighting </render/eevee/indirect_lighting>`.
+   :doc:`Indirect Lighting </render/eevee/render_settings/indirect_lighting>`.

@@ -11,7 +11,7 @@ Lighting is computed at the dot positions visible when the Irradiance Volume obj
 
 .. seealso::
 
-   :doc:`Indirect Lighting </render/eevee/indirect_lighting>`.
+   :doc:`Indirect Lighting </render/eevee/render_settings/indirect_lighting>`.
 
 If Ambient Occlusion is enabled, it will be applied onto diffuse indirect lighting.
 If both Ambient Occlusion and "Bent Normals" are enabled
