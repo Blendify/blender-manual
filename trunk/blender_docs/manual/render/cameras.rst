@@ -69,7 +69,8 @@ Perspective
          The focal length can be set either in terms of millimeters or the actual :term:`Field of View` as an angle.
 
          .. figure:: /images/render_cycles_camera_perspective.svg
-            :width: 340px
+            :align: center
+            :width: 50%
 
       .. hint::
 
@@ -96,7 +97,7 @@ Orthographic
 
       .. figure:: /images/render_cycles_camera_orthographic.svg
          :align: center
-         :width: 340px
+         :width: 50%
 
 Panoramic
    Panoramic cameras only work in cycles.
