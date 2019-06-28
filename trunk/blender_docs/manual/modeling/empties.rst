@@ -50,7 +50,7 @@ Display
       Displays as a cone, initially pointing in the +Y axis direction.
    Image
       Empties can display images. This can be used to create reference images,
-      including blueprints or character sheets to model from, instead of using background images.
+      including blueprints or character sheets to model from.
       The image is displayed regardless of the 3D display mode.
 
       Empty Displays settings can be accessed from :menuselection:`Properties --> Object Data --> Empty` panel.

@@ -11,3 +11,4 @@ and are often only available in certain contexts.
 
    object_data.rst
    adaptive_subdiv.rst
+   cameras.rst

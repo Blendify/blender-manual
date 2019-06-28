@@ -7,11 +7,26 @@ Cameras
 A *Camera* is an object that provides a means of rendering images from Blender.
 It defines which portion of a scene is visible in the rendered image.
 
+Cameras are invisible in renders, so they do not have any material or texture settings.
+However, they do have *Object* and *Editing* setting panels available
+which are displayed when a camera is the selected (active!) object.
+
 .. seealso::
 
    :ref:`3D Viewport Camera Navigation <3dview-camera-navigate>`
    for documentation about managing cameras in the viewport.
 
+
+Active Cameras
+==============
+
+The triangle above the camera will become shaded when active.
+
+Switch between active cameras by :ref:`binding the camera to markers <marker-bind-camera>`.
+
+
+Properties
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -19,217 +34,133 @@ It defines which portion of a scene is visible in the rendered image.
    :Mode:      Object Mode
    :Editor:    :menuselection:`Properties --> Camera`
 
-Cameras are invisible in renders, so they do not have any material or texture settings.
-However, they do have *Object* and *Editing* setting panels available
-which are displayed when a camera is the selected (active!) object.
-
-The triangle above the camera will become shaded when active.
-
-
 .. _camera-lens-type:
 
 Lens
-====
+----
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Camera --> Lens`
+.. rubric:: Type
 
 The camera lens options control the way 3D objects are represented in a 2D image.
 
-
-Type
-----
-
 Perspective
-^^^^^^^^^^^
+   This matches how you view things in the real world.
+   Objects in the distance will appear smaller than objects in the foreground,
+   and parallel lines (such as the rails on a railroad) will appear to converge as they get farther away.
 
-This matches how you view things in the real world.
-Objects in the distance will appear smaller than objects in the foreground,
-and parallel lines (such as the rails on a railroad) will appear to converge as they get farther away.
+   Focal Length/Field of View
+      The :term:`focal length` controls the amount of zoom, i.e.
+      the amount of the scene which is visible all at once.
+      Longer focal lengths result in a smaller :abbr:`FOV (Field of View)` (more zoom),
+      while short focal lengths allow you to see more of the scene at once
+      (larger :abbr:`FOV (Field of View)`, less zoom).
 
-.. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks.jpg
+      .. list-table::
 
-   Render of a train track scene with a *Perspective* camera.
+         * - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks.jpg
 
-Focal Length/Field of View
-   The :term:`focal length` controls the amount of zoom, i.e.
-   the amount of the scene which is visible all at once.
-   Longer focal lengths result in a smaller :abbr:`FOV (Field of View)` (more zoom),
-   while short focal lengths allow you to see more of the scene at once
-   (larger :abbr:`FOV (Field of View)`, less zoom).
+                Perspective camera with 35mm focal length.
 
-   Lens Unit
-      The focal length can be set either in terms of millimeters or the actual :term:`Field of View` as an angle.
+           - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-telephoto.jpg
 
-   .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-telephoto.jpg
+                Perspective camera with 210mm focal length instead of 35mm.
 
-      Render of the same scene as above, but with a focal length of 210mm instead of 35mm.
+      Lens Unit
+         The focal length can be set either in terms of millimeters or the actual :term:`Field of View` as an angle.
 
-.. figure:: /images/render_cycles_camera_perspective.svg
-   :width: 340px
+         .. figure:: /images/render_cycles_camera_perspective.svg
+            :width: 340px
 
-.. hint:: Dolly Zoom
+      .. hint::
 
-   While the camera is moving towards an object the *Focal Length* property can be decreased
-   to produce a *Dolly Zoom* camera effect, or vice versa.
+         While the camera is moving towards an object the *Focal Length* property can be decreased
+         to produce a *Dolly Zoom* camera effect, or vice versa.
 
-   `This video <https://vimeo.com/15837189>`__ demos the *Dolly Zoom* camera effect.
-
+         `This video <https://vimeo.com/15837189>`__ demonstrates the *Dolly Zoom* camera effect.
 
 Orthographic
-^^^^^^^^^^^^
+   With *Orthographic* perspective objects always appear at their actual size, regardless of distance.
+   This means that parallel lines appear parallel, and do not converge like they do with *Perspective*.
 
-With *Orthographic* perspective objects always appear at their actual size, regardless of distance.
-This means that parallel lines appear parallel, and do not converge like they do with *Perspective*.
+   .. figure:: /images/render_blender-render_camera_object-data_perspective-orthographic-ortho-example.jpg
+      :width: 50%
 
-.. figure:: /images/render_blender-render_camera_object-data_perspective-orthographic-ortho-example.jpg
+      Render from the same camera angle as the previous examples, but with orthographic perspective.
 
-   Render from the same camera angle as the previous examples, but with orthographic perspective.
+   Orthographic Scale
+      This controls the apparent size of objects projected on the image.
 
-Orthographic Scale
-   This controls the apparent size of objects projected on the image.
+      Note that this is effectively the only setting which applies to orthographic perspective.
+      Since parallel lines do not converge in orthographic mode (no vanishing points),
+      the lens shift settings are equivalent to translating the camera in the 3D View.
 
-   Note that this is effectively the only setting which applies to orthographic perspective.
-   Since parallel lines do not converge in orthographic mode (no vanishing points),
-   the lens shift settings are equivalent to translating the camera in the 3D View.
-
-.. figure:: /images/render_cycles_camera_orthographic.svg
-   :width: 340px
-
-
-.. _cycles-panoramic-camera:
+      .. figure:: /images/render_cycles_camera_orthographic.svg
+         :align: center
+         :width: 340px
 
 Panoramic
-^^^^^^^^^
-
-Cycles supports Equirectangular and Fisheye panoramic cameras.
-Note that these cannot be displayed non rendered modes in the viewport,
-i.e. *Solid* mode; they will only work for the final render.
-
-
-Equirectangular
-"""""""""""""""
-
-Render a panoramic view of the scenes from the camera location and use an equirectangular projection,
-always rendering the full 360° over the X axis and 180° over the Y axis.
-
-This projection is compatible with the environment texture as used for world shaders,
-so it can be used to render an environment map. To match the default mapping,
-set the camera object rotation to (90, 0, -90) or pointing along the positive X axis.
-This corresponds to looking at the center of the image using the default environment texture mapping.
-
-Minimum/Maximum Latitude/Longitude
-   Limits of the vertical and horizontal field of view angles.
-
-
-Fisheye
-"""""""
-
-Fisheye lenses are typically wide angle lenses with strong distortion,
-useful for creating panoramic images for e.g. dome projection, or as an artistic effect.
-
-The *Fisheye Equisolid* lens will best match real cameras.
-It provides a lens focal length and field of view angle,
-and will also take the sensor dimensions into account.
-
-The *Fisheye Equidistant* lens does not correspond to any real lens model;
-it will give a circular fisheye that does not take any sensor information into account
-but rather uses the whole sensor. This is a good lens for full-dome projections.
-
-Lens
-   Lens focal length in millimeters.
-Field of View
-   Field of view angle, going to 360 and more to capture the whole environment.
-
-
-Mirror Ball
-"""""""""""
-
-Render is if taking a photo of a reflective mirror ball.
-This can be useful in rare cases to compare with a similar photo taken to capture an environment.
-
+   Panoramic cameras only work in cycles.
+   See the cyles :ref:`panoramic camera <cycles-panoramic-camera>` settings for more information.
 
 Shift
------
+   Allows for the adjustment of *vanishing points*.
+   *Vanishing points* refer to the positions to which parallel lines converge.
+   In these render examples, the most obvious vanishing point is at the end of the railroad.
 
-The *Shift* setting allows for the adjustment of *vanishing points*.
-*Vanishing points* refer to the positions to which parallel lines converge.
-In this example, the most obvious vanishing point is at the end of the railroad.
+   .. list-table::
 
-To see how this works, take the following examples:
+      * - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-lens-shift.jpg
 
-.. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-lens-shift.jpg
+             Horizontal lens shift of 0.330.
 
-   Render of a train track scene with a horizontal lens shift of 0.330.
+        - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-camera-rotate.jpg
 
-.. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-camera-rotate.jpg
+             Rotation of the camera object instead of a lens shift.
 
-   Render of a train track scene with a rotation of the camera object instead of a lens shift.
+   Notice how the horizontal lines remain perfectly horizontal when using the lens shift,
+   but do get skewed when rotating the camera object.
 
-Notice how the horizontal lines remain perfectly horizontal when using the lens shift,
-but do get skewed when rotating the camera object.
+   .. note::
 
-Using lens shift is equivalent to rendering an image with a larger
-:abbr:`FOV (Field of View)` and cropping it off-center.
-
+      Using lens shift is equivalent to rendering an image with a larger
+      :abbr:`FOV (Field of View)` and cropping it off-center.
 
 .. _camera-clipping:
-
-Clipping
---------
 
 Clip Start and End
    The interval in which objects are directly visible,
    Any objects outside this range still influence the image indirectly,
    as further light bounces are not clipped.
 
-.. tip::
+   .. note::
 
-   For viewport rendering, setting clipping distances to limited values
-   is important to ensure sufficient rasterization precision.
-   Ray tracing renders do not suffer from this issue so much,
-   and as such more extreme values can safely be set.
+      For viewport rendering, setting clipping distances to limited values
+      is important to ensure sufficient rasterization precision.
+      Ray tracing renders do not suffer from this issue so much,
+      and as such more extreme values can safely be set.
 
-.. tip::
+   .. tip::
 
-   When *Limits* in the *Display* panel is enabled,
-   the clip bounds will be visible as two yellow connected dots on the camera line of sight.
+      When *Limits* in the *Display* panel is enabled,
+      the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
-.. seealso::
+   .. seealso::
 
-   - :doc:`3D View clipping </editors/3dview/properties/sidebar>`.
-
-
-Camera
-======
-
-Camera Presets
-   :ref:`Presets <ui-presets>` to match real cameras.
-
-.. _render-camera-sensor-size:
-
-Sensor size
-   This setting is an alternative way to control the focal length,
-   it is useful to match the camera in Blender to a physical camera & lens combination,
-   e.g. for :doc:`motion tracking </movie_clip/index>`.
-Sensor Fit
-   Option to control which dimension (vertical or horizontal) along which field of view angle fits.
-
+      - :doc:`3D View clipping </editors/3dview/properties/sidebar>`
 
 
 Depth of Field
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Camera --> Depth of Field`
+--------------
 
 Real-world cameras transmit light through a lens that bends and focuses it onto the sensor.
 Because of this, objects that are a certain distance away are in focus,
 but objects in front and behind that are blurred.
+
+.. figure:: /images/render_cycles_camera_dof-bokeh.jpg
+   :align: center
+   :width: 50%
+
+   Example of DOF bokeh effect.
 
 The area in focus is called the *focal point* and can be set using either an exact value,
 or by using the distance between the camera and a chosen object:
@@ -238,7 +169,7 @@ Focus Object
    Choose an object which will determine the focal point. Linking an object will deactivate the distance parameter.
    Typically this is used to give precise control over the position of the focal point,
    and also allows it to be animated or constrained to another object.
-Distance
+Focal Distance
    Sets the distance to the focal point when no *Focus Object* is specified.
    If *Limits* are enabled, a yellow cross is shown on the camera line of sight at this distance.
 
@@ -249,7 +180,7 @@ Distance
 
 
 Aperture
---------
+^^^^^^^^
 
 F-Stop
    F-Stop ratio that defines the amount of blurring.
@@ -266,67 +197,21 @@ Ratio
    A setting of 1.0 shows no distortion, where a number below 1.0 will cause a horizontal distortion,
    and a higher number will cause a vertical distortion.
 
-.. figure:: /images/render_cycles_camera_dof-bokeh.jpg
 
-.. seealso:: Switching between Cameras
+Camera
+------
 
-   By :ref:`binding the camera to markers <marker-bind-camera>`.
+Camera Presets
+   :ref:`Presets <ui-presets>` to match real cameras.
 
+.. _render-camera-sensor-size:
 
-Viewport Display
-================
-
-Limits
-   Shows a line which indicates *Start* and *End Clipping* values.
-Mist
-   Toggles viewing of the mist limits on and off.
-   The limits are shown as two connected white dots on the camera line of sight.
-   The mist limits and other options are set in the *World* panel,
-   in the :ref:`Mist section <render-cycles-integrator-world-mist>`.
-
-.. figure:: /images/render_blender-render_camera_object-data_display-view.png
-
-   Camera view displaying safe areas, sensor and name.
-
-Sensor
-   Displays a dotted frame in camera view.
-Name
-   Toggle name display on and off in camera view.
-Size
-   Size of the camera visualization in the 3D View. This setting has **no** effect on the render output of a camera.
-   The camera visualization can also be scaled using the standard Scale :kbd:`S` transform key.
-Passepartout
-   This option darkens the area outside of the camera's field of view.
-
-   Alpha
-      Controls the transparency of the passepartout mask.
-
-
-Composition Guides
-------------------
-
-*Composition Guides* are available from the menu, which can help when framing a shot.
-There are eight types of guides available:
-
-Center
-   Adds lines dividing the frame in half vertically and horizontally.
-Center Diagonal
-   Adds lines connecting opposite corners.
-Thirds
-   Adds lines dividing the frame in thirds vertically and horizontally.
-Golden
-   Divides the width and height into Golden proportions (about 0.618 of the size from all sides of the frame).
-Golden Triangle A
-   Displays a diagonal line from the lower left to upper right corners,
-   then adds perpendicular lines that pass through the top left and bottom right corners.
-Golden Triangle B
-   Same as A, but with the opposite corners.
-Harmonious Triangle A
-   Displays a diagonal line from the lower left to upper right corners,
-   then lines from the top left and bottom right corners to 0.618 the lengths of the opposite side.
-Harmonious Triangle B
-   Same as A, but with the opposite corners.
-
+Sensor size
+   This setting is an alternative way to control the focal length,
+   it is useful to match the camera in Blender to a physical camera & lens combination,
+   e.g. for :doc:`motion tracking </movie_clip/index>`.
+Sensor Fit
+   Option to control which dimension (vertical or horizontal) along which field of view angle fits.
 
 
 .. _bpy.types.DisplaySafeAreas:
@@ -334,7 +219,7 @@ Harmonious Triangle B
 .. _camera-safe-areas:
 
 Safe Areas
-==========
+----------
 
 Safe areas are guides used to position elements to ensure that the most important
 parts of the content can be seen across all screens.
@@ -350,28 +235,26 @@ yet safe areas are still considered best practice and may be legally required fo
 
 In Blender, safe areas can be set from the Camera and Sequencer views.
 
+.. figure:: /images/render_blender-render_camera_object-data_safe-areas-main.png
+   :align: center
+   :width: 50%
+
+   Red line: Action safe. Green line: Title safe.
+
 The Safe Areas can be customized by their outer margin,
 which is a percentage scale of the area between the center and the render size.
 Values are shared between the Video Sequence editor and camera view.
 
-
-Main Safe Areas
----------------
-
-.. figure:: /images/render_blender-render_camera_object-data_safe-areas-main.png
-
-   Red line: Action safe. Green line: Title safe.
-
-Title Safe
+Title Safe Margins X/Y
    Also known as *Graphics Safe*.
    Place all important information (graphics or text) inside this area to
    ensure it can be seen by the majority of viewers.
-Action Safe
+Action Safe Margins X/Y
    Make sure any significant action or characters in the shot are inside this area.
    This zone also doubles as a sort of "margin" for the screen which can be used
    to keep elements from piling up against the edges.
 
-.. tip:: Legal Standards
+.. tip::
 
    Each country sets a legal standard for broadcasting.
    These include, among other things, specific values for safe areas.
@@ -379,12 +262,8 @@ Action Safe
    Make sure you are using the correct values when working for broadcast to avoid any trouble.
 
 
-Center-Cuts
------------
-
-.. figure:: /images/render_blender-render_camera_object-data_safe-areas-cuts.png
-
-   Cyan line: action center safe. Blue line: title center safe.
+Center-Cut Safe Areas
+^^^^^^^^^^^^^^^^^^^^^
 
 Center-cuts are a second set of safe areas to ensure content
 is seen correctly on screens with a different aspect ratio.
@@ -393,3 +272,76 @@ Position content inside the center-cut areas to make sure the most important ele
 of your composition can still be visible in these screens.
 
 Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-screen).
+
+.. figure:: /images/render_blender-render_camera_object-data_safe-areas-cuts.png
+   :align: center
+   :width: 50%
+
+   Cyan line: action center safe. Blue line: title center safe.
+
+
+Background Images
+-----------------
+
+TODO2.8.
+
+
+Viewport Display
+----------------
+
+.. figure:: /images/render_blender-render_camera_object-data_display-view.png
+   :align: center
+   :width: 50%
+
+   Camera view displaying safe areas, sensor and name.
+
+Size
+   Size of the camera visualization in the 3D View. This setting has **no** effect on the render output of a camera.
+   The camera visualization can also be scaled using the standard Scale :kbd:`S` transform key.
+Limits
+   Shows a line which indicates *Start* and *End Clipping* values.
+Mist
+   Toggles viewing of the mist limits on and off.
+   The limits are shown as two connected white dots on the camera line of sight.
+   The mist limits and other options are set in the *World* panel,
+   in the :ref:`Mist section <render-cycles-integrator-world-mist>`.
+Sensor
+   Displays a dotted frame in camera view.
+Name
+   Toggle name display on and off in camera view.
+
+
+Passepartout
+^^^^^^^^^^^^
+
+This option darkens the area outside of the camera's field of view.
+
+Alpha
+   Controls the transparency of the passepartout mask.
+
+
+.. _bpy.types.Camera.show_composition:
+
+Composition Guides
+^^^^^^^^^^^^^^^^^^
+
+*Composition Guides* enable overlays onto the camera display that can help when framing a shot.
+
+Center
+   Adds lines dividing the frame in half vertically and horizontally.
+Center Diagonal
+   Adds lines connecting opposite corners.
+Thirds
+   Adds lines dividing the frame in thirds vertically and horizontally.
+Golden Ratio
+   Divides the width and height into Golden proportions (about 0.618 of the size from all sides of the frame).
+Golden Triangle A
+   Displays a diagonal line from the lower left to upper right corners,
+   then adds perpendicular lines that pass through the top left and bottom right corners.
+Golden Triangle B
+   Same as A, but with the opposite corners.
+Harmonious Triangle A
+   Displays a diagonal line from the lower left to upper right corners,
+   then lines from the top left and bottom right corners to 0.618 the lengths of the opposite side.
+Harmonious Triangle B
+   Same as A, but with the opposite corners.
