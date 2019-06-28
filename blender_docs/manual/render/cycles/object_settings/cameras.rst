@@ -49,7 +49,7 @@ Field of View
 
 
 Mirror Ball
-"""""""""""
+^^^^^^^^^^^
 
 Render is if taking a photo of a reflective mirror ball.
 This can be useful in rare cases to compare with a similar photo taken to capture an environment.

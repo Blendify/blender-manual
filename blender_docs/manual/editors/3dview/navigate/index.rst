@@ -10,6 +10,6 @@
    walk_fly.rst
    align.rst
    projections.rst
-   clip.rst
+   regions.rst
    views.rst
    camera_view.rst

@@ -8,7 +8,7 @@ The eyedropper (pipette icon) allows you to sample from anywhere in the Blender 
 The eyedropper can be used to select different kinds of data:
 
 Color
-   This is the most common usage, the eye dropper is used to sample a pixels color from anywhere within Blender.
+   This is the most common usage, the eyedropper is used to sample a pixels color from anywhere within Blender.
 Color Ramp
    Dragging the cursor over the window to sample a line which is converted into a color ramp.
 Objects/Object-Data

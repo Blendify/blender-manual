@@ -11,7 +11,6 @@ Cache Settings Panel
 
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Cache Settings`
 
-
 The Cache is used to save frames in memory for preview,
 so they can be later displayed much faster than rendered from scratch.
 Cache capacity can be set in :doc:`System tab </editors/preferences/system>` of the Preferences.
@@ -43,7 +42,6 @@ Strip Cache Panel
    :class: refbox
 
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Cache Settings`
-
 
 Similar to `Cache Settings Panel`_,
 this panel sets the types of images that will be cached for the active strip.

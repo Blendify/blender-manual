@@ -25,6 +25,7 @@ Properties
    :Mode:      Object Mode
    :Editor:    :menuselection:`Properties --> Camera`
 
+
 .. _camera-lens-type:
 
 Lens
@@ -91,8 +92,8 @@ Orthographic
          :width: 50%
 
 Panoramic
-   Panoramic cameras only work in cycles.
-   See the cyles :ref:`panoramic camera <cycles-panoramic-camera>` settings for more information.
+   Panoramic cameras only work in Cycles.
+   See the Cycles :ref:`panoramic camera <cycles-panoramic-camera>` settings for more information.
 
 Shift
    Allows for the adjustment of *vanishing points*.
@@ -204,7 +205,7 @@ Camera Presets
 
 Sensor size
    This setting is an alternative way to control the focal length,
-   it is useful to match the camera in Blender to a physical camera & lens combination,
+   it is useful to match the camera in Blender to a physical camera and lens combination,
    e.g. for :doc:`motion tracking </movie_clip/index>`.
 Sensor Fit
    Option to control which dimension (vertical or horizontal) along which field of view angle fits.
@@ -217,8 +218,8 @@ Sensor Fit
 Safe Areas
 ----------
 
-Safe areas are guides used to position elements to ensure that the most important
-parts of the content can be seen across all screens.
+Safe areas are guides used to position elements to ensure that
+the most important parts of the content can be seen across all screens.
 
 Different screens have varying amounts of :term:`overscan` (especially older TV sets).
 That means that not all content will be visible to all viewers,
@@ -267,7 +268,7 @@ Old TV sets receiving ``16:9`` or ``21:9`` video will cut off the sides.
 Position content inside the center-cut areas to make sure the most important elements
 of your composition can still be visible in these screens.
 
-Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-screen).
+Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (widescreen).
 
 .. figure:: /images/render_blender-render_camera_object-data_safe-areas-cuts.png
    :align: center

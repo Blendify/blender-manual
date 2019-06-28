@@ -1,7 +1,10 @@
 
-************
+*****
+Strip
+*****
+
 Adjust Panel
-************
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -12,7 +15,7 @@ The *Adjust* panel is used to control visual properties of strips.
 
 
 Compositing
-===========
+-----------
 
 Blend
    Mode of blending strip with lower channels.
@@ -23,7 +26,7 @@ Mute (eye/speaker icon)
 
 
 Video
-=====
+-----
 
 Strobe
    To only display each nth frame. For example, if you set this to 10,
@@ -42,7 +45,7 @@ Y Flip
 
 
 Color
-=====
+-----
 
 Saturation
    Increase or decrease the saturation of an image.
@@ -53,21 +56,21 @@ Convert to Float
 
 
 Image Offset
-============
+------------
 
 Used to move the frames along the X and Y axis.
 Additionally it disables the auto-scaling of the image.
 
 
 Image Crop
-==========
+----------
 
 Used to crop the source image, use *Top*, *Left*,
 *Bottom*, and *Right* to control which part of the image is cropped.
 
 
 Sound
-=====
+-----
 
 Volume
    The volume of the sound. This value, even if animated will be reflected in the waveform.
@@ -91,9 +94,8 @@ Mono
    Mixdown all audio channels into a single one.
 
 
-**********
 Info Panel
-**********
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -129,9 +131,8 @@ Resolution
    Resolution of the active strip image output.
 
 
-************
 Source Panel
-************
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -153,7 +154,7 @@ Change Data/Files
 
 MPEG Preseek
    Movie strip only -- Use Preseek field to tell Blender to look backward and compose an image
-   based on the specified amout of previous frames (e.g. 15 for MPEG-2 DVD).
+   based on the specified amount of previous frames (e.g. 15 for MPEG-2 DVD).
 Color Space
    To specify the color space of the source file.
 Alpha mode
@@ -165,7 +166,7 @@ Stream index
 
 
 Options for Sound Strips
-========================
+------------------------
 
 Sound
    :ref:`Data-block menu <ui-data-block>` to select a sound.
