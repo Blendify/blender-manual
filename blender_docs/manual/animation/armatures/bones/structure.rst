@@ -37,7 +37,7 @@ oriented from root to tip. So, this is the "roll" axis of the bones.
 Bones Influence
 ===============
 
-.. figure:: /images/rigging_armatures_bones_structure_envelope-edit-mode.png
+.. figure:: /images/animation_armatures_bones_structure_envelope-edit-mode.png
    :figwidth: 180px
    :align: right
 
@@ -58,7 +58,7 @@ you can see the area of influence, which depends on:
 - The *distance* property and
 - the root's radius and the tip's radius.
 
-.. figure:: /images/rigging_armatures_bones_structure_envelope-pose-mode.png
+.. figure:: /images/animation_armatures_bones_structure_envelope-pose-mode.png
    :width: 300px
 
    Our armature in Envelope visualization, in Pose Mode.

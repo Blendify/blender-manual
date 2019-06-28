@@ -15,7 +15,7 @@ however, some blend-files need this to function properly.
 When a blend-file tries to execute a script and is not allowed, a dialog will appear.
 In it, you can choose to *Allow Execution* or to *Ignore* the scripts.
 
-.. figure:: /images/advanced_scripting_autorun-scripts-dialog.png
+.. figure:: /images/advanced_scripting_security_autorun-scripts-dialog.png
 
    An Auto-run warning in the Info editor's header.
 

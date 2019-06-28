@@ -21,7 +21,7 @@ for example, a photon map in memory,
 and because we can keep rays relatively coherent to use an on-demand image cache,
 compared to e.g. bidirectional path tracing.
 
-.. figure:: /images/render_cycles_settings_scene_render_light-paths_rays.svg
+.. figure:: /images/render_cycles_render-settings_light-paths_rays.svg
    :align: center
 
 We do the inverse of what reality does,
@@ -280,8 +280,8 @@ or door opening, it is difficult for the integrator to find its way to them.
 To fix this, use :ref:`Light Portals <render-cycles-lights-area-portals>`.
 You then will need to modify its shape to match that of the opening that you are trying to fill.
 
-.. figure:: /images/render_cycles_lamps_portals2.jpg
-.. figure:: /images/render_cycles_lamps_portals.jpg
+.. figure:: /images/render_cycles_light-settings_portals2.jpg
+.. figure:: /images/render_cycles_light-settings_portals.jpg
 
 
 Denoising
@@ -298,11 +298,11 @@ Below is an example render by
 
 .. list-table::
 
-   * - .. figure:: /images/render_cycles_settings_scene_render-layers_denoising_example1.jpg
+   * - .. figure:: /images/render_layers_denoising_example1.jpg
 
           Example render before denoising.
 
-     - .. figure:: /images/render_cycles_settings_scene_render-layers_denoising_example2.jpg
+     - .. figure:: /images/render_layers_denoising_example2.jpg
 
           Example render after denoising.
 

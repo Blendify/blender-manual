@@ -29,7 +29,7 @@ Handles
 
    See :ref:`editors-graph-fcurves-settings-handles` for more information.
 
-.. figure:: /images/editors_graph-editor_fcurves_introduction.png
+.. figure:: /images/editors_graph-editor_introduction_f-curve-example.png
 
    A simple driver.
 

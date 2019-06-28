@@ -80,7 +80,7 @@ Data-block Links
    different materials. If linked to mesh data, you cannot.
    See :doc:`Data System </files/introduction>` for more information.
 
-.. |material-icon| image:: /images/editors_node-editor_introduction_icons-material.png
+.. |material-icon| image:: /images/interface_controls_nodes_introduction_icons-material.png
    :width: 1.0em
 
 

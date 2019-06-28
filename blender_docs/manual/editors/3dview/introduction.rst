@@ -10,7 +10,7 @@ such as modeling, animating, texture painting, etc.
 Header Region
 =============
 
-.. figure:: /images/modeling_meshes_introduction_3d-view-header-object-mode.png
+.. figure:: /images/editors_3dview_introduction_3d-view-header-object-mode.png
 
    Object Mode header.
 

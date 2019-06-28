@@ -36,7 +36,7 @@ Go to the :doc:`Render Output </render/output/settings>` settings and enable *St
    When you turn on *Stereoscopy* in the scene, you get 3D preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
-.. figure:: /images/render_workflows_multiview_usage_viewport.png
+.. figure:: /images/render_output_multiview_usage_viewport.png
 
    Viewport with 3D visualization.
 
@@ -326,7 +326,7 @@ The pipeline is the same as the single-view workflow, with the difference that y
 Movies or Image Sequences in any of the supported multi-view formats.
 
 
-.. figure:: /images/render_workflows_multiview_usage_compositor.png
+.. figure:: /images/render_output_multiview_usage_compositor.png
 
    Compositor, backdrop and Split Viewer node.
 

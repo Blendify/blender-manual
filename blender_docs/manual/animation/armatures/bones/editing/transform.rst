@@ -60,7 +60,7 @@ and entering new values for the *Tail* and *Head* number buttons.
 
 .. list-table:: Bone Scale and Scale Radius comparison.
 
-   * - .. figure:: /images/rigging_armatures_bones_selecting_single-bone.png
+   * - .. figure:: /images/animation_armatures_bones_selecting_single-bone.png
           :width: 320px
 
           A single selected bone in Octahedron visualization.

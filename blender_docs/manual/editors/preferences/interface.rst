@@ -6,7 +6,7 @@ Interface
 
 Interface configuration lets you change how UI elements are displayed and how they react.
 
-.. figure:: /images/preferences_interface_tab.png
+.. figure:: /images/editors_preferences_interface_tab.png
 
 
 Display

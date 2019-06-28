@@ -9,7 +9,7 @@ Force
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Force
 
-.. figure:: /images/physics_force-fields_types_force_visualzation.png
+.. figure:: /images/physics_forces_force-fields_types_force_visualzation.png
 
    Force force field visualization.
 

@@ -108,7 +108,7 @@ Images
 
 Figures should be used to place images::
 
-   .. figure:: /images/render_cycles_nodes_types_shaders_principled_node.png
+   .. figure:: /images/render_cycles_nodes_types_shaders_node.png
 
       Image caption.
 

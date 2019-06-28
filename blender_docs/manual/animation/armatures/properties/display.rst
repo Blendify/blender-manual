@@ -67,12 +67,12 @@ Display As
 
       .. list-table::
 
-         * - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-1.png
+         * - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-1.png
                 :width: 320px
 
                 An armature of B-Bones, in Edit Mode.
 
-           - .. figure:: /images/rigging_armatures_bones_properties_bendy-bones_b-bones-3.png
+           - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-3.png
                 :width: 320px
 
                 The same armature in Object Mode.
@@ -81,7 +81,7 @@ Display As
       This visualization materializes the bone deformation influence.
       More on this in the :ref:`bone page <armature-bone-influence>`.
 
-      .. figure:: /images/rigging_armatures_bones_structure_envelope-pose-mode.png
+      .. figure:: /images/animation_armatures_bones_structure_envelope-pose-mode.png
          :width: 300px
 
    Wire bone

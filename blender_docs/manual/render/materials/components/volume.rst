@@ -23,7 +23,7 @@ Principled Volume
 is a physically-based volume shader that can be used to create a wide range of volume materials.
 It supports scattering, absorption and emission in one easy to use node. Fire can be rendered with blackbody emission.
 
-.. figure:: /images/render_cycles_materials_volume_principled.jpg
+.. figure:: /images/render_materials_components_volume_principled.jpg
    :align: center
 
    Smoke and fire rendered with Principled Volume shader.

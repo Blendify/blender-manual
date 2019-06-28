@@ -1,4 +1,4 @@
-.. |pivot-icon| image:: /images/editors_3dview_object_editing_transform_control_pivot-point_menu.png
+.. |pivot-icon| image:: /images/scene-layout_object_editing_transform_control_pivot-point_menu.png
 
 **************
 Active Element

@@ -9,7 +9,7 @@ Wind
    :Panel:     :menuselection:`Physics --> Force Fields`
    :Type:      Wind
 
-.. figure:: /images/physics_force-fields_types_wind_visualzation.png
+.. figure:: /images/physics_forces_force-fields_types_wind_visualzation.png
 
    Wind force field visualization.
 

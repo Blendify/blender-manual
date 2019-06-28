@@ -80,10 +80,10 @@ Below is an example render by
 
 .. list-table::
 
-   * - .. figure:: /images/render_cycles_settings_scene_render-layers_denoising_example1.jpg
+   * - .. figure:: /images/render_layers_denoising_example1.jpg
 
           Example render before denoising.
 
-     - .. figure:: /images/render_cycles_settings_scene_render-layers_denoising_example2.jpg
+     - .. figure:: /images/render_layers_denoising_example2.jpg
 
           Example render after denoising.

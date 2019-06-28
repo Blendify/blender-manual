@@ -40,7 +40,7 @@ in the :doc:`Armature chapter </animation/armatures/posing/bone_constraints/inde
 
           Bone
 
-     - .. figure:: /images/rigging_constraints_interface_stack_example.png
+     - .. figure:: /images/animation_constraints_interface_stack_example.png
           :align: center
 
           The Constraint Stack is evaluated from top to bottom.
