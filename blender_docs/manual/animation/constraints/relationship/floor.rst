@@ -18,7 +18,7 @@ It cannot be used for uneven floors or walls.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_relationship_floor_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_relationship_floor_panel.png
 
 .. TODO2.8    Floor panel.
 

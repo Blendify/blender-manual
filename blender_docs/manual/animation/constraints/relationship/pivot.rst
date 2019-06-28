@@ -12,7 +12,7 @@ e.g. fingers, feet, elbows, etc.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_relationship_pivot_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_relationship_pivot_panel.png
 
 .. TODO2.8    Pivot panel.
 

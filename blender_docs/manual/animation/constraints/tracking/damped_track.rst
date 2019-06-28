@@ -11,7 +11,7 @@ In other 3D software you can find it with the name "Look at" constraint.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_tracking_damped-track_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_tracking_damped-track_panel.png
 
 .. TODO2.8    Damped Track panel.
 

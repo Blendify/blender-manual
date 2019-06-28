@@ -32,11 +32,11 @@ in the :doc:`Armature chapter </animation/armatures/posing/bone_constraints/inde
 .. list-table::
    :widths: 1 1 5
 
-   * - .. figure:: /images/rigging_constraints_introduction_tab-object.png
+   * - .. figure:: /images/animation_constraints_introduction_tab-object.png
 
           Object
 
-     - .. figure:: /images/rigging_constraints_introduction_tab-bone.png
+     - .. figure:: /images/animation_constraints_introduction_tab-bone.png
 
           Bone
 

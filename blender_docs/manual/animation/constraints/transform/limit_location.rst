@@ -33,7 +33,7 @@ using the *Transformation Properties* axis locking feature is probably easier!
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_transform_limit-location_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_transform_limit-location_panel.png
 
 .. TODO2.8    Limit Location panel.
 

@@ -17,7 +17,7 @@ Tab
 
 To add a constraint click on the *Add Object Constraint* menu in the Constraints tab.
 
-.. figure:: /images/rigging_constraints_interface_adding-removing_add-menu.png
+.. figure:: /images/animation_constraints_interface_adding-removing_add-menu.png
 
 To remove a constraint click on the "X" button
 in the :doc:`header </animation/constraints/interface/header>`.

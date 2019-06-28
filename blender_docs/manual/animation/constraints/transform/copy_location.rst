@@ -16,7 +16,7 @@ The *Copy Location* constraint forces its owner to have the same location as its
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_transform_copy-location_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_transform_copy-location_panel.png
 
 .. TODO2.8    Copy Location panel.
 

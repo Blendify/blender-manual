@@ -10,7 +10,7 @@ Bone Groups
    :Panel:     :menuselection:`Properties editor --> Armature --> Bone Groups`
    :Menu:      :menuselection:`Pose --> Bone Groups --> ...`
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_properties_bone-groups_panel.png
+.. TODO2.8 .. figure:: /images/animation_armatures_properties_bone-groups_panel.png
 
 .. TODO2.8    The Bone Groups panel.
 
@@ -25,7 +25,7 @@ Active Bone Group
 Color Set
 =========
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_properties_bone-groups_color-list.png
+.. TODO2.8 .. figure:: /images/animation_armatures_properties_bone-groups_color-list.png
 
 .. TODO2.8    The Bone Color Set selector and the color buttons.
 

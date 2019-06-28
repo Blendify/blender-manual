@@ -26,7 +26,7 @@ Make Regular
 Properties
 ==========
 
-.. TODO2.8 .. figure:: /images/rigging_lattice_panel.png
+.. TODO2.8 .. figure:: /images/animation_lattice_panel.png
 .. TODO2.8    :align: right
 
 .. TODO2.8    Lattice properties.
@@ -57,7 +57,7 @@ Usage
 
 .. TODO2.8 Maybe update the images (color & style)
 
-.. figure:: /images/rigging_lattice_view.png
+.. figure:: /images/animation_lattice_view.png
 
    Lattice around the cube object in Object Mode.
 

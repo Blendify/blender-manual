@@ -3,7 +3,7 @@
 Structure
 *********
 
-.. figure:: /images/rigging_armatures_bones_structure_bones-elements.png
+.. figure:: /images/animation_armatures_bones_structure_bones-elements.png
    :align: right
 
    The elements of a bone.

@@ -7,7 +7,7 @@ Header
 Every constraint has a header.
 The interface elements of the header are explained below using a Copy Location constraint as an example.
 
-.. figure:: /images/rigging_constraints_interface_header_example.png
+.. figure:: /images/animation_constraints_interface_header_example.png
 
    A Header sits at the top of every constraint.
 

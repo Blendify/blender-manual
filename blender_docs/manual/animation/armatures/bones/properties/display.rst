@@ -9,7 +9,7 @@ Viewport Display Panel
    :Mode:      Object and Pose Mode
    :Panel:     :menuselection:`Bone --> Viewport Display`
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-field.png
+.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_display_custom-shape-field.png
 
 .. TODO2.8    The Display panel.
 
@@ -56,7 +56,7 @@ To assign a custom shape to a bone, you have to:
 
 .. TODO2.8 Maybe update the images (color & style)
 
-.. figure:: /images/rigging_armatures_bones_properties_display_custom-shape-example.png
+.. figure:: /images/animation_armatures_bones_properties_display_custom-shape-example.png
 
    The armature with shape assigned to bone. Note the center of the Cone object.
 

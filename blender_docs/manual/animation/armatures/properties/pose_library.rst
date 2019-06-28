@@ -10,7 +10,7 @@ Pose Library Panel
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties editor --> Object --> Pose Library`
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_properties_pose-library_panel.png
+.. TODO2.8 .. figure:: /images/animation_armatures_properties_pose-library_panel.png
 .. TODO2.8    :align: right
 
 .. TODO2.8    The Pose Library panel.

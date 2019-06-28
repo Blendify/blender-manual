@@ -26,7 +26,7 @@ Can be used to add a mesh to video for example.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_motion-tracking_object-solver_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_motion-tracking_object-solver_panel.png
 
 .. TODO2.8    Object Solver Constraint panel.
 

@@ -23,7 +23,7 @@ will have an Armature Modifier with the armature associated (*Object* field).
 
 .. TODO2.8 Maybe update the images (color & style)
 
-.. figure:: /images/rigging_armatures_skinning_parenting_deform-object-mode.png
+.. figure:: /images/animation_armatures_skinning_parenting_deform-object-mode.png
 
    Bone associated with Mesh Object.
 
@@ -51,7 +51,7 @@ For example, if you have an armature which consists of three bones named "BoneA"
 the armature, the cube will get three new vertex groups created on it called "BoneA",
 "BoneB" and "BoneC". Notice that each vertex group is empty.
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_skinning_parenting_bone-empty-groups.png
+.. TODO2.8 .. figure:: /images/animation_armatures_skinning_parenting_bone-empty-groups.png
 
 .. TODO2.8    Cube in Edit Mode using Armature Deform with empty groups.
 
@@ -90,7 +90,7 @@ You will have to apply Armature Deform With Envelope Weights parenting again.
 
 .. TODO2.8 Maybe update the images (color & style)
 
-.. figure:: /images/rigging_armatures_skinning_parenting_envelope-influence.png
+.. figure:: /images/animation_armatures_skinning_parenting_envelope-influence.png
 
    Two sets of Armatures, each with three bones.
 

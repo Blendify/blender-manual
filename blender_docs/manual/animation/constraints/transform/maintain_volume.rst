@@ -11,7 +11,7 @@ a bone to a given ratio of its original volume.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_transform_maintain-volume_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_transform_maintain-volume_panel.png
 
 .. TODO2.8    Maintain Volume Constraint.
 

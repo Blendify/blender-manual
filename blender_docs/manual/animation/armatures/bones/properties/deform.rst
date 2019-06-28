@@ -9,7 +9,7 @@ Deform
    :Mode:      All Modes
    :Panel:     :menuselection:`Bone --> Deform`
 
-.. TODO2.8 .. figure:: /images/rigging_armatures_bones_properties_deform_panel.png
+.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_deform_panel.png
 
 .. TODO2.8    The Deform panel.
 
@@ -59,7 +59,7 @@ Envelope Distance
 
    .. TODO2.8 Maybe update the images (color & style)
 
-   .. figure:: /images/rigging_armatures_bones_properties_deform_envelope-distance.png
+   .. figure:: /images/animation_armatures_bones_properties_deform_envelope-distance.png
 
       Single bone with various different envelope sizes.
 
@@ -78,7 +78,7 @@ Radius
 
    .. TODO2.8 Maybe update the images (color & style)
 
-   .. figure:: /images/rigging_armatures_bones_properties_deform_envelope-radius.png
+   .. figure:: /images/animation_armatures_bones_properties_deform_envelope-radius.png
 
       Three Armature Bones all using Envelope Weight.
 

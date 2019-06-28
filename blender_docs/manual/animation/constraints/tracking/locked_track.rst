@@ -44,7 +44,7 @@ This constraint also works very well for 2D billboarding.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/rigging_constraints_tracking_locked-track_panel.png
+.. TODO2.8 .. figure:: /images/animation_constraints_tracking_locked-track_panel.png
 
 .. TODO2.8    Locked track panel.
 
