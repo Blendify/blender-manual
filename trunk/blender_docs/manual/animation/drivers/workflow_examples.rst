@@ -5,7 +5,8 @@ Workflow & Examples
 
 Simple Drivers can be configured from the pop-over that appears when adding a new Driver.
 
-When adding multiple Drivers or for more advanced configurations, it is useful to have open the :doc:`Drivers Editor </editors/drivers_editor>`.
+When adding multiple Drivers or for more advanced configurations,
+it is useful to have open the :doc:`Drivers Editor </editors/drivers_editor>`.
 
 
 Examples
