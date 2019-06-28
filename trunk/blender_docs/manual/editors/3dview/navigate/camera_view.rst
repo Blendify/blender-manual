@@ -15,7 +15,7 @@ The rendered image will contain everything within the dashed line.
 
 .. seealso::
 
-   :doc:`Camera Settings </rendering/cameras>` for details how camera settings are used for display & rendering.
+   :doc:`Camera Settings </render/cameras>` for details how camera settings are used for display & rendering.
 
 .. hint::
 
