@@ -83,31 +83,7 @@ Render a Still Image
 Render an Animation
    to render an animation use :menuselection:`3D Viewport --> View --> Viewport Render Animation`.
 
+.. tip::
 
-Render Region
--------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All modes
-   :Menu:      :menuselection:`View --> Render Region`
-   :Hotkey:    :kbd:`Ctrl-B`
-
-While in camera view, you can define a subregion to render by drawing a rectangle within the camera's frame.
-Your renders will now be limited to the part of scene visible within the render region.
-This can be very useful for reducing render times for quick previews on an area of interest.
-
-The region can be disabled by disabling the *Render Region* option in the *Dimensions* panel
-in the *Render* tab or by activating the option again.
-
-.. container:: lead
-
-   .. clear
-
-.. list-table:: Render region and associated render.
-   :widths: 65 35
-
-   * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
-
-     - .. figure:: /images/render_blender-render_camera_introduction_render-border-2.png
+   You can limit the viewport render to a particular region with
+   :ref:`Render Regions <editors-3dview-navigate-render-region>`.

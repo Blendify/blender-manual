@@ -80,13 +80,21 @@ Render Region
    :Mode:      All modes
    :Menu:      :menuselection:`View --> View Region --> Render Region...`
                :menuselection:`View --> View Region --> Clear Render Region`
-   :Hotkey:    :kbd:`Ctrl-B`, :kbd:`Ctrl-Alt-B`
+   :Hotkey:    Mark: :kbd:`Ctrl-B`
+               Clear: :kbd:`Ctrl-Alt-B`
 
 When using :ref:`rendered shading <view3d-viewport-shading>` mode,
 it can be quite slow to render the entire 3D View. To fix this,
-you can define a render region to render just a portion of the viewport
-instead of the entire viewport. A render region is defined by :kbd:`Ctrl-B`
-and can be removed with :kbd:`Ctrl-Alt-B`.
+you can define a subregion to render just a portion of the viewport
+instead of the entire viewport.
+This can be very useful for reducing render times for quick previews on an area of interest.
+
+.. list-table:: Render region and associated render.
+   :widths: 65 35
+
+   * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
+
+     - .. figure:: /images/render_blender-render_camera_introduction_render-border-2.png
 
 .. tip::
 
