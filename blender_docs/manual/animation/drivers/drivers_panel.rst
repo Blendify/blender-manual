@@ -20,7 +20,7 @@ Drivers Panel
    :class: refbox
 
    :Menu:      :menuselection:`Context menu --> Edit Driver`
-   :Hotkey:    :kbd:`Ctrl+D`
+   :Hotkey:    :kbd:`Ctrl-D`
 
 This panel is visible in Sidebar of the :doc:`Drivers Editor </editors/drivers_editor>`
 or as a popover when adding a driver to a property.
