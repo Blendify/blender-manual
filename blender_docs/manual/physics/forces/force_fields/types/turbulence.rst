@@ -17,7 +17,7 @@ Options
 =======
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_turbulence_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_turbulence_panel.png
 
       UI for a Turbulence force field.
 
@@ -30,6 +30,6 @@ Global
 Example
 =======
 
-.. figure:: /images/physics_force-fields_types_turbulence_example.png
+.. figure:: /images/physics_forces_force-fields_types_turbulence_example.png
 
    Turbulence force field affecting a particle system.

@@ -48,7 +48,7 @@ This mode is good for:
 
 .. list-table::
 
-   * - .. figure:: /images/editors_vse_preview_display-mode_luma-waveform-example-1.png
+   * - .. figure:: /images/sequencer_preview_display-mode_luma-waveform-example-1.png
 
           The various horizontal lines in the Luma waveform
           match the uniform-colored lines of the picture. Note that the 'gray 20%'
@@ -56,7 +56,7 @@ This mode is good for:
           The two lines drawing an "X" are from the two linear tone shades (white --> black and black --> white).
           Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
-     - .. figure:: /images/editors_vse_preview_display-mode_luma-waveform-example-2.png
+     - .. figure:: /images/sequencer_preview_display-mode_luma-waveform-example-2.png
 
           The curves are quite visible. We found a luma of 80-100% for the sky,
           a luma around 40% for the sea, and a luma of 10-20% for the mountains,
@@ -76,11 +76,11 @@ if two strips were rendered or shot under different lighting conditions but are 
 Chroma Vectorscope
 ==================
 
-.. figure:: /images/editors_vse_preview_display-mode_example.jpg
+.. figure:: /images/sequencer_preview_display-mode_example.jpg
 
    Example image.
 
-.. figure:: /images/editors_vse_preview_display-mode_vectorscope.png
+.. figure:: /images/sequencer_preview_display-mode_vectorscope.png
 
    Example of a Chroma Vectorscope Preview.
 
@@ -122,7 +122,7 @@ Histogram
 
    Example image.
 
-.. figure:: /images/editors_vse_preview_display-mode_histogram.png
+.. figure:: /images/sequencer_preview_display-mode_histogram.png
 
    Example of Histogram Preview.
 

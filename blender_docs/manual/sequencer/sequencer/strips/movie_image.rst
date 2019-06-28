@@ -78,7 +78,7 @@ allows you to add more images to the range.
 Example
 =======
 
-.. figure:: /images/editors_vse_sequencer_strips_movie-image_example.png
+.. figure:: /images/sequencer_sequencer_strips_movie-image_example.png
 
    Imported movie strip with audio track underneath.
 

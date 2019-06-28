@@ -16,7 +16,7 @@ Options
 =======
 
 .. TODO2.8
-   .. figure:: /images/physics_force-fields_types_drag_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_drag_panel.png
 
       UI for a Drag force field.
 

@@ -3,7 +3,7 @@
 Lights
 ******
 
-.. figure:: /images/preferences_lights_tab.png
+.. figure:: /images/editors_preferences_lights_tab.png
 
    Blender Preferences Lights section.
 

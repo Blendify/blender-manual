@@ -39,7 +39,7 @@ Options
 =======
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_curve-guide_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_curve-guide_panel.png
 
       UI for a Curve Guide force field.
 
@@ -107,7 +107,7 @@ Type
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 
-.. figure:: /images/physics_force-fields_types_curve-guide_kink.jpg
+.. figure:: /images/physics_forces_force-fields_types_curve-guide_kink.jpg
    :width: 400px
 
    Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
@@ -128,7 +128,7 @@ Examples
 
 .. vimeo:: 182780872
 
-.. figure:: /images/physics_force-fields_types_curve-guide_example.png
+.. figure:: /images/physics_forces_force-fields_types_curve-guide_example.png
    :align: center
    :width: 560px
 

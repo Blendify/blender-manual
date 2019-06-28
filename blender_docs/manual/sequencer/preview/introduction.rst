@@ -32,7 +32,7 @@ Sequence Render Animation
 Controls
 --------
 
-.. figure:: /images/editors_vse_preview_introduction_header.png
+.. figure:: /images/sequencer_preview_introduction_header.png
 
    Sequencer Display header.
 

@@ -20,7 +20,7 @@ Options
 =======
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_harmonic_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_harmonic_panel.png
 
       UI for a Harmonic force field.
 

@@ -14,7 +14,7 @@ Modifiers Panel
 
    :Panel:     :menuselection:`Sidebar region --> Modifiers --> Modifiers`
 
-.. figure:: /images/editors_vse_sequencer_properties_modifiers_panel.png
+.. figure:: /images/sequencer_sequencer_properties_modifiers_panel.png
    :align: right
 
 Modifiers are used to make adjustments on the image, like contrast,

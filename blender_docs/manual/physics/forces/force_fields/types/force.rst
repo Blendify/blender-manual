@@ -19,7 +19,7 @@ Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_force_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_force_panel.png
 
       UI for a Force force field.
 

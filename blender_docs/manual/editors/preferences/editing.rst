@@ -6,7 +6,7 @@ Editing
 
 These preferences control how several tools will interact with your input.
 
-.. figure:: /images/preferences_editing_tab.png
+.. figure:: /images/editors_preferences_editing_tab.png
 
 
 Objects
@@ -22,7 +22,7 @@ Link Materials To
    the Object data-block contains information about the Object's location while the Object Data
    "ObData" data-block contains information about the mesh.
 
-   .. figure:: /images/preferences_editing_data-blocks-hierarchy.png
+   .. figure:: /images/editors_preferences_editing_data-blocks-hierarchy.png
 
       Example for a mesh.
 
@@ -33,7 +33,7 @@ Link Materials To
    Object
       Any created material will be created as part of the Object data-block.
 
-   .. figure:: /images/preferences_editing_data-blocks-link.png
+   .. figure:: /images/editors_preferences_editing_data-blocks-link.png
 
       A material linked to Object Data (left) and Object (right).
 

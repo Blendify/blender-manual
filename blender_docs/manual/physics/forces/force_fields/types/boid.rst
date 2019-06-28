@@ -19,7 +19,7 @@ the complexity of Boids arises from the interaction of individual agents
 (the boids, in this case) adhering to a set of simple rules.
 
 .. TODO2.8:
-   .. figure:: /images/physics_force-fields_types_boid_panel.png
+   .. figure:: /images/physics_forces_force-fields_types_boid_panel.png
 
       UI for a Boid force field.
 

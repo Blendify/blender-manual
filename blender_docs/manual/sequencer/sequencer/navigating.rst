@@ -6,7 +6,7 @@ Navigating
 Header
 ======
 
-.. figure:: /images/editors_vse_sequencer_introduction_header.png
+.. figure:: /images/sequencer_sequencer_navigating_header.png
 
    Video Sequencer Header.
 
