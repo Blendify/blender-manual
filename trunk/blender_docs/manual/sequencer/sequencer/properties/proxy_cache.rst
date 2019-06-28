@@ -1,6 +1,10 @@
-********************
+
+**********************
+Proxy & Cache Settings
+**********************
+
 Cache Settings Panel
-********************
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -32,9 +36,8 @@ Recycle Up To Cost
    Maximum image cost is limited to arbitrary value of 10.
 
 
-*****************
 Strip Cache Panel
-*****************
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -42,12 +45,12 @@ Strip Cache Panel
    :Panel:     :menuselection:`Sidebar region --> Proxy & Timecode --> Cache Settings`
 
 
-Similar to `Cache Settings`_ panel,
-this panel will set types of images, that will be cached for single (active) strip.
+Similar to `Cache Settings Panel`_,
+this panel will set types of images, that will be cached the active strip.
 
 Enable Strip Cache
-   Enable special rule for active strip.
-   When disabled, `Cache Settings`_ will be used.
+   Enable overriding the cache defaults.
+   When disabled, *Cache Settings* will be used.
 Cache Raw
    Cache raw images read from disk, for faster tweaking of strip parameters at the cost of memory usage.
 Cache Preprocessed
@@ -56,9 +59,8 @@ Cache Composite
    Cache intermediate composited images, for faster tweaking of stacked strips at the cost of memory usage.
 
 
-********************
 Proxy Settings Panel
-********************
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -85,9 +87,8 @@ Rebuild Proxy and Timecode Indices
 
 .. _bpy.types.SequenceProxy:
 
-****************************
 Strip Proxy & Timecode Panel
-****************************
+============================
 
 .. admonition:: Reference
    :class: refbox
@@ -99,7 +100,7 @@ Strip Proxy & Timecode Panel
 
 
 Proxy
-=====
+-----
 
 A proxy is using optimized video codec and lower resolution version (faster to load)
 that stands in for the main image or video.
@@ -109,7 +110,7 @@ faster but gives lower resolution and slightly imprecise result.
 Once you have chosen the Proxy/Timecode parameters,
 you need to select all strips for which you want proxies to be built.
 Then use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`,
-or button in `Proxy Settings`_.
+or button in `Proxy Settings Panel`_.
 Once all proxies are built, they will be ready to use.
 
 In order to use proxies, you have to select matching :ref:`Proxy Render Size <proxy-render-size>`
@@ -133,7 +134,7 @@ Timecode Index
 
 
 Timecode
-========
+--------
 
 When you are working with footage directly copied from a camera without pre-processing it,
 there might be bunch of artifacts, mostly due to seeking a given frame in sequence.
