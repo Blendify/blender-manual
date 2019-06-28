@@ -138,13 +138,15 @@ Source Panel
 
    :Panel:     :menuselection:`Sidebar region --> Strip --> Source`
 
-The Source panel is used to control sources of the strip such as filename and file path and various methods of interpreting these files.
+The Source panel is used to control sources of the strip
+such as filename and file path and various methods of interpreting these files.
 
 Path
-   A text field that lets you edit/update the path of the file used by a strip.
-   When you moved the files, it avoids having to delete and re-create the strip.
+   The directory that contains the source file.
+   When the file is moved this can be updated instead of re-create the strip.
 File
-   Same than before, but in case you renamed the source file, you can retrieve it (or change it).
+   The file name of the source file.
+   For image strips showing an image sequence, this will be different for each frame.
 Change Data/Files
    Same as the *Path* and *File* fields, but this time combined to open the File Browser in order to
    find the file(s) you search. Same as :menuselection:`Strip --> Inputs --> Paths/files`.
