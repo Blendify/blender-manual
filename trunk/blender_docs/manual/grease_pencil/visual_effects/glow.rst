@@ -66,4 +66,4 @@ Example
      - .. figure:: /images/grease_pencil_visual_effects_glow_3.png
           :width: 200px
 
-          Mode: Color (Black lines)
+          Mode: Color (Black lines).
