@@ -12,7 +12,7 @@
    :Mode:      Object Mode and Edit Mode
    :Header:    Pivot Point
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_index_modes.png
+.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_index_modes.png
    :align: right
 
    Pivot Point modes.
@@ -52,10 +52,10 @@ of the object's origins, but will not affect the object itself.
 In the examples below, a comparison of the scaling and rotation of objects,
 when *Only Origins* is enabled (middle) and disabled (right).
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_manipulate-center-points_rotate.png
+.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_index_rotate.png
 
    Rotation example.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_pivot-point_manipulate-center-points_scale.png
+.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_index_scale.png
 
    Scaling example.

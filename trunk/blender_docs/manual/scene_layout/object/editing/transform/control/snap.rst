@@ -70,7 +70,7 @@ Transform Snapping
 The ability to snap Objects and Mesh element to various types of scene elements during
 a transformation is available by toggling the magnet icon in the 3D View's header buttons.
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_snap_header-magnet-icon.png
+.. figure:: /images/scene-layout_object_editing_transform_control_snap_header-magnet-icon.png
 
    Magnet icon in the 3D View header (blue when enabled).
 
@@ -87,7 +87,7 @@ Snap Element
    :Header:    :menuselection:`Snap Element`
    :Hotkey:    :kbd:`Shift-Ctrl-Tab`
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_snap_element-menu.png
+.. figure:: /images/scene-layout_object_editing_transform_control_snap_element-menu.png
    :align: right
 
    Snap Element menu.
@@ -132,15 +132,15 @@ Closest
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_target-closest.png
+   * - .. figure:: /images/scene-layout_object_editing_transform_control_snap_target-closest.png
 
           Closest.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_target-active.png
+     - .. figure:: /images/scene-layout_object_editing_transform_control_snap_target-active.png
 
           Active.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_snap_target-median.png
+     - .. figure:: /images/scene-layout_object_editing_transform_control_snap_target-median.png
 
           Median.
 
@@ -148,7 +148,7 @@ Closest
 Additional Snap Options
 -----------------------
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_snap_options.png
+.. figure:: /images/scene-layout_object_editing_transform_control_snap_options.png
 
 As seen by the yellow highlighted areas in the image above, besides the snap target,
 additional controls are available to alter snap behavior. These options vary between mode
@@ -176,7 +176,7 @@ Affect
 Multiple Snap Targets
 ^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_snap_target-multiple.png
+.. figure:: /images/scene-layout_object_editing_transform_control_snap_target-multiple.png
 
    Multiple snapping targets.
 

@@ -53,12 +53,12 @@ our parent mesh.
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-before.png
+   * - .. figure:: /images/scene-layout_object_properties_instancing_verts_monkey-before.png
           :width: 320px
 
           A monkey head and a circle.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_monkey-after.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_verts_monkey-after.png
           :width: 320px
 
           Instanced monkeys on Verts.
@@ -105,22 +105,22 @@ in the :menuselection:`Object --> Relations extras` panel change the *Tracking A
 
 .. list-table:: Output of various orientations.
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_orientation.png
+   * - .. figure:: /images/scene-layout_object_properties_instancing_verts_orientation.png
           :width: 320px
 
           Orientation enabled, orientation +Y.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_negy.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_verts_negy.png
           :width: 320px
 
           Negative Y.
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posx.png
+   * - .. figure:: /images/scene-layout_object_properties_instancing_verts_posx.png
           :width: 320px
 
           Positive X.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_posz.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_verts_posz.png
           :width: 320px
 
           Positive Z, up X.
@@ -146,15 +146,15 @@ was adapted to the vertex normals of the parent mesh
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_tentacle.png
+   * - .. figure:: /images/scene-layout_object_properties_instancing_verts_tentacle.png
 
           A simple tentacle set to smooth.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_norot.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_verts_norot.png
 
           Tentacles instanced onto the parent mesh.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_dupliverts_rot.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_verts_rot.png
 
           *Align to Vertex Normal* enabled to align instanced geometry.
 

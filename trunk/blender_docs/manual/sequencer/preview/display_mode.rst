@@ -118,7 +118,7 @@ This mode is good for:
 Histogram
 =========
 
-.. figure:: /images/editors_vse_preview_display-mode_example.jpg
+.. figure:: /images/sequencer_preview_display-mode_example.jpg
 
    Example image.
 

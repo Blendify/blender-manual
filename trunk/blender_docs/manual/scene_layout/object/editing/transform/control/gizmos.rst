@@ -1,4 +1,4 @@
-.. |manip-menu| image:: /images/editors_3dview_object_editing_transform_control_manipulators_header.png
+.. |manip-menu| image:: /images/scene-layout_object_editing_transform_control_gizmos_header.png
 
 *********************
 Transformation Gizmos
@@ -16,27 +16,27 @@ Each gizmo can be used separately or in combination with the others.
 
 .. list-table:: The different Gizmos.
 
-   * - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-translate.png
+   * - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-translate.png
           :width: 320px
 
           Move.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-rotate.png
+     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-rotate.png
           :width: 320px
 
           Rotate.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-scale.png
+     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-scale.png
           :width: 320px
 
           Scale.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-scalecage.png
+     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-scalecage.png
           :width: 320px
 
           Scale Cage.
 
-     - .. figure:: /images/editors_3dview_object_editing_transform_control_manipulators_options-all.png
+     - .. figure:: /images/scene-layout_object_editing_transform_control_gizmos_options-all.png
           :width: 320px
 
           Combination.

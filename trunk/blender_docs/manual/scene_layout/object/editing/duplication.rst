@@ -37,7 +37,7 @@ because not all data-blocks are shared; some of them are "hard copied"!
 Examples
 --------
 
-.. figure:: /images/editors_3dview_object_editing_duplication_example.png
+.. figure:: /images/scene-layout_object_editing_duplication_example.png
 
    The Cube object was duplicated.
 
@@ -93,7 +93,7 @@ Linked
 Examples
 --------
 
-.. figure:: /images/editors_3dview_object_editing_duplication_linked-example.png
+.. figure:: /images/scene-layout_object_editing_duplication_linked-example.png
 
    The Cube object was linked duplicated.
 
