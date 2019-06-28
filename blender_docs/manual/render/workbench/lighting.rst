@@ -19,6 +19,11 @@ Studio
    The studio lights can be :ref:`configured in the preferences <prefs-lights-studio>`.
    Studio lights can follow the camera or be fixed. When fixed the angle of the lights can be adjusted.
 
+   World Space Lighting
+      TODO2.8.
+   Rotation
+      TODO2.8.
+
 .. _render-workbench-matcap:
 
 MatCap
