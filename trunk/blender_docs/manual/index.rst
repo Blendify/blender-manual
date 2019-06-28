@@ -1,5 +1,3 @@
-.. _bpy.types:
-.. _bpy.ops:
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
   Blender |BLENDER_VERSION| Reference Manual
