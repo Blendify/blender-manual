@@ -6,7 +6,7 @@ Numeric Input
 
 .. TODO2.8:
 
-   .. figure:: /images/editors_3dview_object_editing_transform_control_precision_numeric-input_footer.png
+   .. figure:: /images/scene-layout_object_editing_transform_control_precision_numeric-input_footer.png
 
       Numeric input displayed in the 3D View footer.
 

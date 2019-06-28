@@ -15,7 +15,7 @@ Randomize Transform
    :Menu:      :menuselection:`Object --> Transform --> Randomize Transform`,
                :menuselection:`Mesh --> Transform --> Randomize`
 
-.. figure:: /images/editors_3dview_object_editing_transform_tools_randomize.png
+.. figure:: /images/scene-layout_object_editing_transform_tools_randomize.png
    :figwidth: 180px
    :align: right
 

@@ -128,7 +128,7 @@ In-Betweens
 .. figure:: /images/animation_armatures_posing_editing_inbetweens-tools.png
    :align: right
 
-   In-Betweens Tools.
+   In-Betweens Tools
 
 There are several tools for editing poses in an animation.
 

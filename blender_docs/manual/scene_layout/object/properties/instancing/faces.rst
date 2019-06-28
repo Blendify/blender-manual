@@ -41,12 +41,12 @@ first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-before.png
+   * - .. figure:: /images/scene-layout_object_properties_instancing_faces_cube-before.png
           :width: 320px
 
           A cube and a sphere.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_cube-after.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_faces_cube-after.png
           :width: 320px
 
           Instancing Faces applied to the cube.
@@ -69,12 +69,12 @@ Scale
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-enabled.png
+   * - .. figure:: /images/scene-layout_object_properties_instancing_faces_scale-enabled.png
           :width: 320px
 
           Scale enabled.
 
-     - .. figure:: /images/editors_3dview_object_properties_duplication_duplifaces_scale-changed.png
+     - .. figure:: /images/scene-layout_object_properties_instancing_faces_scale-changed.png
           :width: 320px
 
           Top face of cube scaled down.

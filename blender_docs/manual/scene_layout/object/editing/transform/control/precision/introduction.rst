@@ -66,7 +66,7 @@ Snapping
 Move
 ----
 
-.. figure:: /images/editors_3dview_object_editing_transform_control_precision_introduction_blender-units.png
+.. figure:: /images/scene-layout_object_editing_transform_control_precision_introduction_blender-units.png
    :align: right
 
    One unit (default zoom level).
