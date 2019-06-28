@@ -21,7 +21,7 @@ When you draw, the new strokes are added to the active layer.
 Every layer correspond to a channel in the Dope Sheet editor (Grease Pencil mode).
 See :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` for more information.
 
-By default the rendering order of the layers in the viewport are top to bottom.
+By default the view order of the layers in the viewport are top to bottom.
 You can change the layers order using the Up and Down buttons on the right.
 
 Layers can also be used together with Modifiers to only affects part of your drawing.
@@ -69,13 +69,30 @@ Merge Down
 Copy Layer to Object
    Makes a copy of the layer and move it to the selected *Grease Pencil* Object.
 
+Arrange buttons
+---------------
 
-Main Settings
-=============
+Move (up/down arrow icon)
+   Move the layer up/down in the stack.
+   Remember that the view order of the layers in the viewport are top to bottom.
 
-Next to the layer name there are four icons buttons that control main properties of the layer:
 
-Mask
+Lock and visibility general controls
+-------------------------------------
+
+Lock (padlock icon)
+  Toggle whether the active layer is the only that can be edited.
+
+Visibility (screen icon)
+   Toggle whether the active layer is the only that can be edited and visible.
+
+
+Common Settings
+===============
+
+Next to the layer name there are four icons buttons that control coomon properties of the layer:
+
+Mask (overlay icon)
    When the mask is enabled, all the layers below the current one function as a single mask. 
    This mask hide any pixel in the current layer outside the mask created by the underlying layers.
 
@@ -92,17 +109,17 @@ Mask
           Red stroke on top layer with mask activated.
 
 
-Lock
-   Lock/Unlock the layer edition in the viewport.
+Lock (padlock icon)
+   Toggle layer from being editable.
 
-Viewport/Render Visibility
-   Control the layer visibility in the viewport and in render.
+Viewport/Render Visibility (eye icon)
+   Toggle layer visibility in the viewport and in render.
 
-Onion Skinning
-   Turn On/off the use of Onion Skinning in the layer. (*Grease Pencil* Onion Skinning is per layer)
+Onion Skinning (Trail icon)
+   Toggle the use the layer for Onion Skinning.
    You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
 
-Below the layers list there are additional main settings:
+Below the layers list there are additional common settings:
 
 Blend
    The layer blending operation to perform. See :term:`Color Blend Modes`.

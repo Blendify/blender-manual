@@ -7,5 +7,4 @@
    :maxdepth: 2
 
    introduction.rst
-   components/index.rst
-   material_panel.rst
+   grease_pencil_shader.rst
