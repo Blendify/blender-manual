@@ -1,4 +1,3 @@
-.. _camera-settings:
 
 *******
 Cameras
@@ -13,16 +12,8 @@ which are displayed when a camera is the selected (active!) object.
 
 .. seealso::
 
-   :ref:`3D Viewport Camera Navigation <3dview-camera-navigate>`
+   :doc:`3D Viewport Camera Navigation </editors/3dview/navigate/camera_view>`
    for documentation about managing cameras in the viewport.
-
-
-Active Cameras
-==============
-
-The triangle above the camera will become shaded when active.
-
-Switch between active cameras by :ref:`binding the camera to markers <marker-bind-camera>`.
 
 
 Properties

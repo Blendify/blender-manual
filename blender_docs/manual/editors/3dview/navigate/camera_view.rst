@@ -15,7 +15,7 @@ The rendered image will contain everything within the dashed line.
 
 .. seealso::
 
-   :ref:`Camera Settings <camera-settings>` for details how camera settings are used for display & rendering.
+   :doc:`Camera Settings </rendering/cameras>` for details how camera settings are used for display & rendering.
 
 .. hint::
 
@@ -34,7 +34,7 @@ Viewing the Active Camera
    :Hotkey:    :kbd:`Numpad0`
 
 This switches the view to the active camera.
-
+The triangle above the camera will become shaded when active.
 
 Setting the Active Camera
 =========================
