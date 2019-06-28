@@ -9,7 +9,7 @@ towards its borders (right part of the curve).
 Changing the shape of the curve will make the brush softer or harder.
 Read more about using the :ref:`ui-curve-widget`.
 
-.. figure:: /images/sculpt-paint_stroke-curve_brush-curve.png
+.. figure:: /images/sculpt-paint_brush_falloff_brush-curve.png
 
    Brush curve example.
 

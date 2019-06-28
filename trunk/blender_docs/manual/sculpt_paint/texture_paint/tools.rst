@@ -9,7 +9,7 @@ Tools located in the *Tools* tab of the *Tool Shelf* in the 3D View or Image Edi
 Brush
 =====
 
-.. figure:: /images/sculpt-paint_painting_texture-paint_tools_brush-settings.png
+.. figure:: /images/sculpt-paint_texture-paint_tools_brush-settings.png
    :align: right
 
    Brush settings.

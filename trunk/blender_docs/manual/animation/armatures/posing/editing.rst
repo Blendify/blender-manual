@@ -125,10 +125,10 @@ which generally means you will have to skin it again.
 In-Betweens
 ===========
 
-.. figure:: /images/animation_armatures_posing_editing_tools.png
+.. figure:: /images/animation_armatures_posing_editing_inbetweens-tools.png
    :align: right
 
-   In-Betweens Tools
+   In-Betweens Tools.
 
 There are several tools for editing poses in an animation.
 

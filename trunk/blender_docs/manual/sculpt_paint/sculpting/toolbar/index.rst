@@ -6,7 +6,7 @@ Toolbar
 
 Sculpt mode tools:
 
-.. figure:: /images/sculpt-paint_sculpting_tools_brushes.png
+.. figure:: /images/sculpt-paint_sculpting_toolbar_index_brushes.png
    :align: right
 
 Draw :kbd:`X`

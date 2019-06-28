@@ -56,7 +56,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 Vertex Groups for Particles
 ===========================
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_particles.png
+.. figure:: /images/sculpt-paint_weight-paint_usage_particles.png
    :width: 320px
 
    Weight painted particle emission.

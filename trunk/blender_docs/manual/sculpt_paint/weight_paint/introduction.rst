@@ -12,7 +12,7 @@ It is primarily used for rigging meshes, where the vertex groups are used to
 define the relative bone influences on the mesh. But we use it also for
 controlling particle emission, hair density, many modifiers, shape keys, etc.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_example.jpg
+.. figure:: /images/sculpt-paint_weight-paint_introduction_example.jpg
 
    Vertex Group in Weight Paint Mode.
 
@@ -34,7 +34,7 @@ such that areas of low value (with weights close to 0.0) are displayed as blue (
 and areas of high value (with weights close to 1.0) are displayed as red (hot).
 And all in-between values are displayed as rainbow colors (blue, green, yellow, orange, red).
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code.png
+.. figure:: /images/sculpt-paint_weight-paint_introduction_color-code.png
 
    The color spectrum and their respective weights.
 
@@ -45,7 +45,7 @@ the unreferenced areas (in black) at the same time.
 This is most practicable when you look for weighting errors.
 See :doc:`/sculpt_paint/weight_paint/options`.
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_introduction_color-code-black.png
+.. figure:: /images/sculpt-paint_weight-paint_introduction_color-code-black.png
 
    Unreferenced vertices example.
 

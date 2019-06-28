@@ -6,7 +6,7 @@ Texture Slots & Mask
 Texture Slots
 =============
 
-.. figure:: /images/sculpt-paint_painting_texture-paint_slots-mask_slots-panel.png
+.. figure:: /images/sculpt-paint_texture-paint_slots-mask_slots-panel.png
    :align: right
 
    Texture Slots settings.
@@ -53,7 +53,7 @@ Save All Images
 Mask
 ====
 
-.. figure:: /images/sculpt-paint_painting_texture-paint_slots-mask_mask-panel.png
+.. figure:: /images/sculpt-paint_texture-paint_slots-mask_mask-panel.png
    :align: right
 
    Mask settings.

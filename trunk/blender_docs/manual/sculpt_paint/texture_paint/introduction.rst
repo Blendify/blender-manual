@@ -24,7 +24,7 @@ easily in either the Image or the 3D View Editor.
 Since a UV texture is just a special-purpose image,
 you can also use any external paint program, like GIMP or Krita.
 
-.. figure:: /images/sculpt-paint_painting_texture-paint_introduction_example.png
+.. figure:: /images/sculpt-paint_texture-paint_introduction_example.png
    :width: 430px
 
    Texture painting in Blender.
@@ -49,7 +49,7 @@ See: :doc:`Applying Image </modeling/meshes/editing/uv/applying_image>`.
 After you have done one of these two things,
 you can modify the image using the Texture Paint Mode:
 
-.. figure:: /images/sculpt-paint_painting_texture-paint_introduction_paint-mode.png
+.. figure:: /images/sculpt-paint_texture-paint_introduction_paint-mode.png
 
    Enabling paint mode.
 

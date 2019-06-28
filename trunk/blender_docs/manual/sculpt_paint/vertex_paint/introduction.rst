@@ -6,7 +6,7 @@ Introduction
 Vertex Painting is a simple way of painting color onto an object, by directly
 manipulating the color of vertices, rather than textures, and is fairly straightforward.
 
-.. figure:: /images/sculpt-paint_painting_vertex-paint_introduction_mode-menu.png
+.. figure:: /images/sculpt-paint_vertex-paint_introduction_mode-menu.png
 
    Vertex Painting Mode.
 

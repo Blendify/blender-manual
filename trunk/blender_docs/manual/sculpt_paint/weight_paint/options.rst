@@ -9,7 +9,7 @@ See the :ref:`Brush Display <sculpt-paint-brush-display>` options.
 Options
 =======
 
-.. figure:: /images/sculpt-paint_painting_weight-paint_options_options-panel.png
+.. figure:: /images/sculpt-paint_weight-paint_options_options-panel.png
    :align: right
 
    Paint options.
