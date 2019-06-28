@@ -141,6 +141,8 @@ Clip Start and End
       - :doc:`3D View clipping </editors/3dview/properties/sidebar>`
 
 
+.. _bpy.types.CameraDOFSettings:
+
 Depth of Field
 --------------
 
@@ -189,6 +191,8 @@ Ratio
    A setting of 1.0 shows no distortion, where a number below 1.0 will cause a horizontal distortion,
    and a higher number will cause a vertical distortion.
 
+
+.. _bpy.types.Camera.sensor:
 
 Camera
 ------
@@ -318,6 +322,9 @@ Flip Horizontally
 Flip Vertically
    Swaps the image around, such that the top side is now on the bottom, and the bottom now on the top.
 
+
+.. _bpy.types.Camera.show:
+.. _bpy.types.Camera.display_size:
 
 Viewport Display
 ----------------
