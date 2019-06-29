@@ -7,6 +7,7 @@
    :titlesonly:
    :maxdepth: 2
 
+   sampling.rst
    ambient_occlusion.rst
    bloom.rst
    depth_of_field.rst
