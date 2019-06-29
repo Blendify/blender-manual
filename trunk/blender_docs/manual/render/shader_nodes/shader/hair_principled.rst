@@ -6,7 +6,7 @@ Principled Hair BSDF
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_node_melaninconcentration.png
+.. figure:: /images/render_shader-nodes_shader_hair-principled_node-melaninconcentration.png
    :figwidth: 30 %
    :align: right
 
@@ -76,7 +76,7 @@ Color
 
       where :math:`\beta_{N}` is the radial roughness of the hair after applying randomization (if specified).
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_color.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-color.jpg
    :align: center
 
    Coloring hair using the Direct coloring parametrization. (The numbers on top are the RGB values.)
@@ -93,7 +93,7 @@ Melanin
 
          melanin\_qty = -\ln(\max(1.0 - Melanin, 0.0001))
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_melanin.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-melanin.jpg
    :align: center
 
    Melanin.
@@ -117,7 +117,7 @@ Melanin Redness
          eumelanin * \left[\begin{matrix}   0.506 \\ 0.841 \\ 1.653 \\ \end{matrix}\right] +
          pheomelanin * \left[\begin{matrix} 0.343 \\ 0.733 \\ 1.924 \\ \end{matrix}\right]
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_melanin_redness.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-melanin-redness.jpg
    :align: center
 
    Melanin Redness.
@@ -132,7 +132,7 @@ Tint
       This is converted via the Color mapping above and added to
       the absorption coefficient of the melanin concentration.
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_tint.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-tint.jpg
    :align: center
 
    Tint, using Melanin 0.1 and the corresponding RGB values.
@@ -144,7 +144,7 @@ Roughness
    Too low values will smoothen the hair to the point of looking almost metallic,
    making glints look like fireflies; while setting it too high will result in a Lambertian look.
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_roughness.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-roughness.jpg
    :align: center
 
    Roughness.
@@ -159,7 +159,7 @@ Radial Roughness
       Mathematically, this parameter is mapped to the logistic distribution's
       scale factor :math:`s` (section 4.1 of [CBTB16]_).
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_radial_roughness.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-radial-roughness.jpg
    :align: center
 
    Radial Roughness.
@@ -169,7 +169,7 @@ Coat
    only for the first light bounce (diffuse).
    Range :math:`[0, 1]` equivalent to a reduction of :math:`[0\%, 100\%]` of the original Roughness.
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_coat.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-coat.jpg
    :align: center
 
    Coat.
@@ -193,7 +193,7 @@ Random Color
       The melanin concentration is multiplied by :math:`randomFactor`,
       where :math:`randomFactor = 1.0 + 2.0*(Random - 0.5) * RandomColor`.
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_random_color.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-random-color.jpg
    :align: center
 
    Random Color.
@@ -207,7 +207,7 @@ Random Roughness
 
       The applied formula is the same one as for *Random Color*.
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_hair_demo_random_roughness.jpg
+.. figure:: /images/render_shader-nodes_shader_hair-principled_demo-random-roughness.jpg
    :align: center
 
    Random Roughness.

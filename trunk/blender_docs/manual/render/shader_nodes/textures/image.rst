@@ -4,7 +4,7 @@
 Image Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_types_textures_image_node.png
+.. figure:: /images/render_shader-nodes_textures_image_node.png
    :align: right
 
    Image Texture Node.
@@ -94,6 +94,6 @@ Alpha
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_image_example.jpg
+.. figure:: /images/render_shader-nodes_textures_image_example.jpg
 
    Image texture from `GoodTextures.com <http://www.goodtextures.com/>`__.

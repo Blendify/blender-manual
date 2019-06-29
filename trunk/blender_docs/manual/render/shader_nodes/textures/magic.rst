@@ -4,7 +4,7 @@
 Magic Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_types_textures_magic_node.png
+.. figure:: /images/render_shader-nodes_textures_magic_node.png
    :align: right
 
    Magic Texture Node.
@@ -43,7 +43,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_magic_example.jpg
+.. figure:: /images/render_shader-nodes_textures_magic_example.jpg
    :width: 200px
 
    Magic texture: Depth 10, Distortion 2.0.

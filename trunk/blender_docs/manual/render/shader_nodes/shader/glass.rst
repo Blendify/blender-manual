@@ -4,7 +4,7 @@
 Glass BSDF
 **********
 
-.. figure:: /images/render_cycles_nodes_types_shaders_glass_node.png
+.. figure:: /images/render_shader-nodes_shader_glass_node.png
    :align: right
 
    Glass BSDF.
@@ -52,20 +52,20 @@ Examples
 .. list-table::
    :widths: auto
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_glass_example.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_glass_example.jpg
 
           Sharp Glass example.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glass_behavior-sharp.svg
+     - .. figure:: /images/render_shader-nodes_shader_glass_behavior-sharp.svg
           :width: 308px
 
           Sharp Glass behavior.
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_glass_example-rough.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_glass_example-rough.jpg
 
           Rough Glass example.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glass_behavior.svg
+     - .. figure:: /images/render_shader-nodes_shader_glass_behavior.svg
           :width: 308px
 
           Rough Glass behavior.

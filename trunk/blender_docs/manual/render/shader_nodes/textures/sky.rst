@@ -6,7 +6,7 @@ Sky Texture Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_textures_sky_node.png
+.. figure:: /images/render_shader-nodes_textures_sky_node.png
    :align: right
 
    Sky Texture Node.
@@ -54,7 +54,7 @@ Color
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_sky_example.jpg
+.. figure:: /images/render_shader-nodes_textures_sky_example.jpg
    :width: 200px
 
    Example of Sky Texture.

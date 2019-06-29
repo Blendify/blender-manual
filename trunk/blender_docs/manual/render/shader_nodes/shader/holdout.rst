@@ -6,7 +6,7 @@ Holdout
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_shaders_holdout_node.png
+.. figure:: /images/render_shader-nodes_shader_holdout_node.png
    :align: right
 
    Holdout Shader.
@@ -41,6 +41,6 @@ Holdout
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_holdout_example.jpg
+.. figure:: /images/render_shader-nodes_shader_holdout_example.jpg
 
    The checkered area is a region with zero alpha.

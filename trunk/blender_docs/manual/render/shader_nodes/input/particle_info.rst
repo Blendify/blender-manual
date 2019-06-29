@@ -8,7 +8,7 @@ Particle Info Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_input_particle-info_node.png
+.. figure:: /images/render_shader-nodes_input_particle-info_node.png
    :align: right
 
    Particle Info Node.

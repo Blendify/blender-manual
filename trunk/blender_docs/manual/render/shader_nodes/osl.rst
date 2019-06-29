@@ -23,7 +23,7 @@ To enable it, select *Open Shading Language* as the shading system in the render
 Script Node
 ===========
 
-.. figure:: /images/render_cycles_nodes_osl_script-node.png
+.. figure:: /images/render_shader-nodes_osl_script-node.png
    :align: right
 
    Script Node.

@@ -4,7 +4,7 @@
 Material Node
 *************
 
-.. figure:: /images/render_cycles_nodes_types_output_material_node.png
+.. figure:: /images/render_shader-nodes_output_material_node.png
    :align: right
 
    Material Node.

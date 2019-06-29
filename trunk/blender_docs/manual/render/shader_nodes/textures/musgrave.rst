@@ -4,7 +4,7 @@
 Musgrave Texture Node
 *********************
 
-.. figure:: /images/render_cycles_nodes_types_textures_musgrave_node.png
+.. figure:: /images/render_shader-nodes_textures_musgrave_node.png
    :align: right
 
    Musgrave Texture Node.
@@ -89,12 +89,12 @@ Examples
 .. list-table:: Remapped Musgrave texture such that most values are visible.
    :widths: 65 35
 
-   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_nodes.png
+   * - .. figure:: /images/render_shader-nodes_textures_musgrave_nodes.png
           :width: 460px
 
           Nodes for the image to the right.
 
-     - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example.jpg
+     - .. figure:: /images/render_shader-nodes_textures_musgrave_example.jpg
           :width: 320px
 
           Musgrave texture.
@@ -105,27 +105,27 @@ Musgrave Types
 
 .. list-table:: Different Musgrave types with the same parameters.
 
-   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-fbm.jpg
+   * - .. figure:: /images/render_shader-nodes_textures_musgrave_example-type-fbm.jpg
           :width: 320px
 
           fBM (fractal Brownian Motion).
 
-     - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-multifractal.jpg
+     - .. figure:: /images/render_shader-nodes_textures_musgrave_example-type-multifractal.jpg
           :width: 320px
 
           Multifractal.
 
-   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-hybrid.jpg
+   * - .. figure:: /images/render_shader-nodes_textures_musgrave_example-type-hybrid.jpg
           :width: 320px
 
           Hybrid Multifractal.
 
-     - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-terrain.jpg
+     - .. figure:: /images/render_shader-nodes_textures_musgrave_example-type-terrain.jpg
           :width: 320px
 
           Heterogeneous Terrain.
 
-   * - .. figure:: /images/render_cycles_nodes_types_textures_musgrave_example-type-ridged.jpg
+   * - .. figure:: /images/render_shader-nodes_textures_musgrave_example-type-ridged.jpg
           :width: 320px
 
           Ridged Multifractal.

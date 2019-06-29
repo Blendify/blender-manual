@@ -4,7 +4,7 @@
 Light Node
 **********
 
-.. figure:: /images/render_cycles_nodes_types_output_lamp_node.png
+.. figure:: /images/render_shader-nodes_output_light_node.png
    :align: right
 
    Light Node.

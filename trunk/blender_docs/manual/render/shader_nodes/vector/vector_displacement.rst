@@ -4,7 +4,7 @@
 Vector Displacement Node
 ************************
 
-.. figure:: /images/render_cycles_nodes_types_vector_vector_displacement_node.png
+.. figure:: /images/render_shader-nodes_vector_vector-displacement_node.png
    :align: right
 
    Vector Displacement Node.
@@ -62,6 +62,6 @@ Displacement
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_vector_vector_displacement_example.jpg
+.. figure:: /images/render_shader-nodes_vector_vector-displacement_example.jpg
 
    Regular and exaggerated vector displacement on a smooth base mesh.

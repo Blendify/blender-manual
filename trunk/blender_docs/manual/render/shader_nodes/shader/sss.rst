@@ -4,7 +4,7 @@
 Subsurface Scattering
 *********************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_sss_node.png
+.. figure:: /images/render_shader-nodes_shader_sss_node.png
    :align: right
 
    Subsurface Scattering Shader.
@@ -86,6 +86,6 @@ BSSRDF
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_sss_example.jpg
+.. figure:: /images/render_shader-nodes_shader_sss_example.jpg
 
    Random Walk subsurface scattering.

@@ -4,7 +4,7 @@
 Bump Node
 *********
 
-.. figure:: /images/render_cycles_nodes_types_vector_bump_node.png
+.. figure:: /images/render_shader-nodes_vector_bump_node.png
    :align: right
 
    Bump Node.
@@ -44,9 +44,9 @@ Normal
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_vector_bump_node-setup.png
+.. figure:: /images/render_shader-nodes_vector_bump_node-setup.png
 
 The above node setup will only bump the diffuse part of the shader,
 simulating a bumpy diffuse surface coated with a smooth glossy "glaze" layer.
 
-.. figure:: /images/render_cycles_nodes_types_vector_bump_example.jpg
+.. figure:: /images/render_shader-nodes_vector_bump_example.jpg

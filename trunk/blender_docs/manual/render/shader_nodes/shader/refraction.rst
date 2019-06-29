@@ -4,7 +4,7 @@
 Refraction BSDF
 ***************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_refraction_node.png
+.. figure:: /images/render_shader-nodes_shader_refraction_node.png
    :align: right
 
    Refraction BSDF.
@@ -46,6 +46,6 @@ BSDF
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_refraction_example.jpg
+.. figure:: /images/render_shader-nodes_shader_refraction_example.jpg
 
    Refraction Shader.

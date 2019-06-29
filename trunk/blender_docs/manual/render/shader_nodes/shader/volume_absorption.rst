@@ -4,7 +4,7 @@
 Volume Absorption
 *****************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_volume-absorption_node.png
+.. figure:: /images/render_shader-nodes_shader_volume-absorption_node.png
    :align: right
 
    Volume Absorption Shader.
@@ -40,6 +40,6 @@ Volume
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_volume-absorption_example.png
+.. figure:: /images/render_shader-nodes_shader_volume-absorption_example.png
 
    Example of Volume Absorption.

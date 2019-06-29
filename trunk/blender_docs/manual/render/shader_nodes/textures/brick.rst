@@ -4,7 +4,7 @@
 Brick Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_types_textures_brick_node.png
+.. figure:: /images/render_shader-nodes_textures_brick_node.png
    :align: right
 
    Brick Texture Node.
@@ -58,7 +58,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_brick_example.jpg
+.. figure:: /images/render_shader-nodes_textures_brick_example.jpg
    :width: 200px
 
    Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.

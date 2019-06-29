@@ -4,7 +4,7 @@
 Noise Texture Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_types_textures_noise_node.png
+.. figure:: /images/render_shader-nodes_textures_noise_node.png
    :align: right
 
    Noise Texture Node.
@@ -45,7 +45,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_noise_example.jpg
+.. figure:: /images/render_shader-nodes_textures_noise_example.jpg
    :width: 200px
 
    Noise Texture with high detail.

@@ -6,7 +6,7 @@ Toon BSDF
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_shaders_toon_node.png
+.. figure:: /images/render_shader-nodes_shader_toon_node.png
    :align: right
 
    Toon BSDF.
@@ -48,6 +48,6 @@ BSDF
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_toon_example.jpg
+.. figure:: /images/render_shader-nodes_shader_toon_example.jpg
 
    Example of Toon Shader.

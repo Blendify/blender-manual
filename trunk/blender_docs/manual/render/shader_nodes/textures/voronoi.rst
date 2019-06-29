@@ -5,7 +5,7 @@
 Voronoi Texture Node
 ********************
 
-.. figure:: /images/render_cycles_nodes_types_textures_voronoi_node.png
+.. figure:: /images/render_shader-nodes_textures_voronoi_node.png
    :align: right
 
    Voronoi Texture Node.
@@ -44,12 +44,12 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/render_cycles_nodes_types_textures_voronoi_intensity.jpg
+   * - .. figure:: /images/render_shader-nodes_textures_voronoi_intensity.jpg
           :width: 200px
 
           Voronoi texture, type: Intensity.
 
-     - .. figure:: /images/render_cycles_nodes_types_textures_voronoi_cells.jpg
+     - .. figure:: /images/render_shader-nodes_textures_voronoi_cells.jpg
           :width: 200px
 
           Voronoi texture, type: Cells.
