@@ -1,8 +1,8 @@
 .. _bpy.types.SceneEEVEE.ssr:
 
-***********
-Reflections
-***********
+************************
+Screen Space Reflections
+************************
 
 If this effect is enabled, all Materials will use the depth buffer and
 the previous frame color to create more accurate reflection than reflection probes.
