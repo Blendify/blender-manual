@@ -20,21 +20,18 @@ In this example, the Y rotation of Object 2 will be driven by the X position of 
 
 Starting from a simple setup with two objects:
 
-1. Add a Driver to the *Rotation Y* property of the second object by right-clicking it or with :kbd:`Ctrl-D`.
+#. Add a Driver to the *Rotation Y* property of the second object by right-clicking it or with :kbd:`Ctrl-D`.
 
-.. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
+   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
+#. Open the *Drivers Editor* (:kbd:`Shift-F6`).
+#. In the channels region, select the *Y Euler Rotation* property.
+#. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
+#. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
-2. Open the *Drivers Editor* (:kbd:`Shift-F6`).
-3. In the channels region, select the *Y Euler Rotation* property.
-4. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
-5. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
+   .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
-
-.. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
-
-
-6. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
+#. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
 
 
 
@@ -69,50 +66,53 @@ In this example, the current frame is used as the variable that induces the moti
 
 
 
-Driver Namespace - Square Value
--------------------------------
+Custom Function - Square Value
+------------------------------
 
-There is a list of built-in driver functions and properties.
-These can be displayed via the Python Console:
+Make a custom function to get the square of a value (i.e. value\ :sup:`2`).
+Adding the function to the *Driver Namespace* allows it to be used from driver expressions.
+
+The *Driver Namespace* has a list of built-in functions for use in driver expressions,
+as well as constants such as π and e.
+These can be inspected via the Python Console:
 
 .. code-block:: python
 
-   >>> bpy.app.driver_namespace['
-                                 __builtins__']
-                                 __doc__']
-                                 __loader__']
-                                 __name__']
-                                 __package__']
+   >>> bpy.app.driver_namespace[' <tab>
                                  acos']
                                  acosh']
                                  asin']
                                  asinh']
                                  atan']
-                                 atan2']
-                                 atanh']
-                                 bpy']
-                                 ceil']
-                                 copysign']
-                                 cos']
-                                 cosh']
-                                 ..
+                                 ...
 
-This script will add a function to the driver namespace,
-which can then be used in the expression ``driver_func(frame)``
+To add a new function to the *Driver Namespace*, the function itself needs to be implemented
+and then added to the ``bpy.app.driver_namespace``.
 
-.. code-block:: python
+#. Add the following to the Text Editor inside Blender and press *Run Script*.
 
-   import bpy
+   .. code-block:: python
 
-   def driver_func(val):
-       return val * val    # return val squared
+      import bpy
 
-   # add function to driver_namespace
-   bpy.app.driver_namespace['driver_func'] = driver_func
+      def square(val):
+         """Returns the square of the given value"""
+         return val * val
+
+      # Add function to driver_namespace
+      bpy.app.driver_namespace['square'] = square
+
+
+#. Add a driver with a *Scripted Expression* such as ``square(frame)``
+#. Observe the effect when scrubbing the timeline.
+
+There are more custom function examples available in Blender's Text Editor
+:menuselection:`Templates > Python > Driver Functions`.
+
 
 
 Shape Key Driver
-^^^^^^^^^^^^^^^^
+----------------
 
 This example is a shape key driver. The driver was added to the shape key Value.
 
