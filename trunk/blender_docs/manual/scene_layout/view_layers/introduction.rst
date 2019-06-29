@@ -6,7 +6,7 @@ Introduction
 The visibility controls are part of *view layers*, designed to help organizing
 what you want to see or work on.
 
-.. figure:: /images/scene-layout_view-layers_collections.png
+.. figure:: /images/scene-layout_view-layers_introduction_collections.png
 
    View layers and collections.
 
@@ -26,7 +26,7 @@ Outliner
 
 You can edit the current *view layer* collections in the :doc:`Outliner </editors/outliner>`.
 
-.. figure:: /images/scene_layout-view_layers-outliner.png
+.. figure:: /images/scene-layout_view-layers_introduction_outliner.png
 
    View layer and collections in the Outliner.
 

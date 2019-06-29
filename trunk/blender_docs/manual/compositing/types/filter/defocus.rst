@@ -116,7 +116,7 @@ The input has to be scaled, because usually the value of a texture is only in th
 Camera Settings
 ---------------
 
-.. figure:: /images/render_blender-render_camera_object-data_depth-of-field-panel.png
+.. figure:: /images/compositing_types_filter_defocus_depth-of-field-panel.png
 
    Distance setting in the Camera Depth of Field panel.
 

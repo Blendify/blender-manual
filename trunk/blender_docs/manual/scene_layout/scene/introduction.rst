@@ -23,7 +23,7 @@ Controls
 
    :Menu:      :menuselection:`Topbar --> Scene`
 
-.. figure:: /images/data-system_scenes_introduction_menu.png
+.. figure:: /images/scene-layout_scene_introduction_menu.png
    :align: right
 
    Scene data-block menu.

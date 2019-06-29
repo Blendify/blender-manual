@@ -70,7 +70,7 @@ In 2D editors, the *Placement* option does not exist.
 When the annotation tool is enabled, the settings for managing multiple layers
 can be found in the :menuselection:`Tool --> Active Tool` panel in the right Sidebar.
 
-.. figure:: /images/interface_annotations_node-editor.png
+.. figure:: /images/interface_annotate-tool_node-editor.png
    :align: center
 
    Annotations tool in a node editor.

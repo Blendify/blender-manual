@@ -9,7 +9,7 @@ Displays
 A full HD display or higher is recommended.
 Multi-monitor setups are supported, and workspaces can be configured to span multiple monitors.
 
-.. figure:: /images/getting-started_installing_configuration_hardware_multi-monitor.jpg
+.. figure:: /images/getting-started_configuration_hardware_multi-monitor.jpg
 
    Example of Blender's multi-monitor support.
 

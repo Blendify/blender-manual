@@ -45,7 +45,7 @@ This section describes the effect of the different export options.
 Manual Transform
 ----------------
 
-.. figure:: /images/pipeline_alembic_export-panel-scene-options.png
+.. figure:: /images/files_import-export_alembic_export-panel-scene-options.png
    :align: right
 
    Alembic Export options.
@@ -86,7 +86,7 @@ Flatten Hierarchy
 Object Options
 --------------
 
-.. figure:: /images/pipeline_alembic_export-panel-object-options.png
+.. figure:: /images/files_import-export_alembic_export-panel-object-options.png
    :align: right
 
    Object options.
@@ -121,7 +121,7 @@ Triangulate
 Particle Systems
 ----------------
 
-.. figure:: /images/pipeline_alembic_export-panel-particle-systems.png
+.. figure:: /images/files_import-export_alembic_export-panel-particle-systems.png
    :align: right
 
    Particle Systems options.

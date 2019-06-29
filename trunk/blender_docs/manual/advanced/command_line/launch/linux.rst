@@ -30,13 +30,13 @@ an entry for Blender is added to your menu after you install Blender.
 
 Many desktop environments support the ability to "Run in terminal".
 
-.. figure:: /images/advanced_command-line_introduction_kde.png
+.. figure:: /images/advanced_command-line_launch_linux_kde.png
 
    Configuring the KDE menu icon to start Blender from a terminal.
 
 This screenshot shows Blender started from a Linux Terminal and
 the resulting text output written to it:
 
-.. figure:: /images/advanced_command-line_introduction_linux.png
+.. figure:: /images/advanced_command-line_launch_linux_linux.png
 
    Starting Blender from a Linux terminal window.
