@@ -134,7 +134,8 @@ Confirm :kbd:`Return`
    Double-clicking on a non-directory item will have the same effect.
 Cancel :kbd:`Esc`
    Cancels the file selection (and the underlying operation), and closes the File Browser.
-   Using the *Back to Previous* button in the :ref:`Topbar <topbar-index>` will have the same effect.
+   Using the *Back to Previous* button in the :doc:`Topbar </interface/window_system/topbar>`
+   will have the same effect.
 
 
 Tool Shelf
