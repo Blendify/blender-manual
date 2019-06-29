@@ -2,15 +2,15 @@
 .. _bpy.types.Object.display_type:
 .. _bpy.types.Object.color:
 
-*******
-Display
-*******
+****************
+Viewport Display
+****************
 
 .. figure:: /images/scene-layout_object_properties_display_panel.png
 
-   Display panel.
+   Viewport Display panel.
 
-The *Display* panel is used to enable extra display options for the 3D View.
+The *Viewport Display* panel is used to enable extra display options for the 3D Viewport.
 
 Name
    Displays the name of the object in the 3D View.
