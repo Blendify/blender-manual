@@ -72,7 +72,7 @@ Data Previews
    Clear Data-Block Previews
       Clear previews for supported data-block types.
    Batch-Clear Previews
-      Clear previews for selected .blend files.
+      Clear previews for selected blend-files.
 Import :kbd:`F4`, :kbd:`I`
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs. See :doc:`Import/Export </files/import_export>`.
