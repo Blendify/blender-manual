@@ -8,7 +8,7 @@ Each node editor type has its own specific purpose.
 Therefore, this section only explains how to work with nodes in general.
 In the list below it shows a list of different types of node trees and where each is documented.
 
-.. figure:: /images/editors_node-editor_introduction_example.jpg
+.. figure:: /images/interface_controls_nodes_introduction_example.jpg
 
    Example of a node editor.
 
@@ -25,10 +25,10 @@ In the list below it shows a list of different types of node trees and where eac
    * - .. figure:: /images/interface_controls_nodes_introduction_icons-material.png
      - Shader Nodes
      - Documentation is in the :doc:`Render </render/shader_nodes/index>` section.
-   * - .. figure:: /images/editors_node-editor_introduction_icons-render-layers.png
+   * - .. figure:: /images/interface_controls_nodes_introduction_icons-render-layers.png
      - Composite Nodes
      - Documentation can be found in the :doc:`Compositing </compositing/index>` section.
-   * - .. figure:: /images/editors_node-editor_introduction_icons-texture.png
+   * - .. figure:: /images/interface_controls_nodes_introduction_icons-texture.png
      - Texture Nodes
      - Texture Nodes are covered
        in the :doc:`UV editor </editors/texture_node/introduction>` docs.
@@ -43,7 +43,7 @@ Header
 
 The *Header* contains various menus, buttons and options, partially based on the current node tree type.
 
-.. figure:: /images/editors_node-editor_introduction_header.png
+.. figure:: /images/interface_controls_nodes_introduction_header.png
 
    Common node editor header options.
 

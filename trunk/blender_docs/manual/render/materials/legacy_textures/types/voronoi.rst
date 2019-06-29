@@ -7,7 +7,7 @@ Voronoi
 The voronoi texture is used to generate very convincing Metal,
 especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
 
-.. figure:: /images/render_blender-render_textures_types_procedural_voronoi_panel.png
+.. figure:: /images/render_materials_legacy-textures_types_voronoi_panel.png
 
    Voronoi Texture panels.
 
@@ -42,32 +42,32 @@ Distance Metric
 
 .. list-table::
 
-   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky0-5.jpg
+   * - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky0-5.jpg
           :width: 200px
 
           Minkowsky Exponent: 0.5 (Minkowsky 1/2).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky1.jpg
+     - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky1.jpg
           :width: 200px
 
           Minkowsky Exponent: 1 (Manhattan).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky2.jpg
+     - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky2.jpg
           :width: 200px
 
           Minkowsky Exponent: 2 (Actual Distance).
 
-   * - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky4.jpg
+   * - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky4.jpg
           :width: 200px
 
           Minkowsky Exponent: 4 (Minkowsky 4).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_minkowsky10.jpg
+     - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky10.jpg
           :width: 200px
 
           Minkowsky Exponent: 10 (Chebychev).
 
-     - .. figure:: /images/render_blender-render_textures_types_procedural_voronoi_distancesquared.jpg
+     - .. figure:: /images/render_materials_legacy-textures_types_voronoi_distancesquared.jpg
           :width: 200px
 
           Distance Squared (more contrast than Actual Distance).
