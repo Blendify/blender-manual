@@ -71,7 +71,7 @@ Interpolation Options
       Far
          Furthest route around the wheel.
 
-   .. figure:: /images/interface_controls_templates_color-ramp_color-ramp_interpolation.png
+   .. figure:: /images/interface_controls_templates_color-ramp_interpolation.png
       :width: 600px
 
       HSV and HSL interpolation options.

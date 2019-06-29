@@ -24,7 +24,7 @@ Select Mode Header Buttons
                `Multiple Selection Modes`_,
                :kbd:`Ctrl` `Expand/Contract Selection`_).
 
-.. figure:: /images/modeling_meshes_selecting_introduction_mode-buttons.png
+.. figure:: /images/modeling_meshes_selecting_mode-buttons.png
    :align: right
    :width: 200px
 
@@ -72,22 +72,22 @@ without first having to switch modes.
 
 .. list-table:: Selection modes.
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_vertex-mode-example.png
           :width: 310px
 
           Vertex mode example.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
+     - .. figure:: /images/modeling_meshes_selecting_edge-mode-example.png
           :width: 310px
 
           Edge mode example.
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_face-mode-example.png
           :width: 310px
 
           Face mode example.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_mixed-mode-example.png
+     - .. figure:: /images/modeling_meshes_selecting_mixed-mode-example.png
           :width: 310px
 
           Mixed mode example.
@@ -106,12 +106,12 @@ All selected parts that do not form a complete set in the new mode will be unsel
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_edge-mode-example.png
           :width: 310px
 
           Edge mode, the initial selection.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_face-mode-switched-from-edge.png
+     - .. figure:: /images/modeling_meshes_selecting_face-mode-switched-from-edge.png
           :width: 310px
 
           Switching to Face mode.
@@ -132,12 +132,12 @@ Or contracting the selection when switching to a lower mode.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_vertex-mode-example.png
+   * - .. figure:: /images/modeling_meshes_selecting_vertex-mode-example.png
           :width: 310px
 
           Vertex mode, the initial selection.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_edge-mode-expanding-from-vertex.png
+     - .. figure:: /images/modeling_meshes_selecting_edge-mode-expanding-from-vertex.png
           :width: 310px
 
           Expanding to Edge mode.
@@ -153,12 +153,12 @@ When enabled, selection isn't occluded by the objects geometry
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_limit-selection-to-visible-off.png
+   * - .. figure:: /images/modeling_meshes_selecting_limit-selection-to-visible-off.png
           :width: 310px
 
           X-ray enabled.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_limit-selection-to-visible-on.png
+     - .. figure:: /images/modeling_meshes_selecting_limit-selection-to-visible-on.png
           :width: 310px
 
           X-ray disabled.
@@ -433,7 +433,7 @@ using either :menuselection:`Select --> Edge Loop`.
    In *Vertex* select mode, you can also select edge loops, by using the same hotkeys,
    and clicking on the *edges* (not on the vertices).
 
-.. figure:: /images/modeling_meshes_selecting_advanced_edge-loops.png
+.. figure:: /images/modeling_meshes_selecting_edge-loops.png
 
    Longitudinal and latitudinal edge loops.
 
@@ -462,7 +462,7 @@ In vertex select mode,
 the same can be accomplished by using :kbd:`Ctrl-Alt` to select an edge,
 which selects the face loop implicitly.
 
-.. figure:: /images/modeling_meshes_selecting_advanced_face-loops.png
+.. figure:: /images/modeling_meshes_selecting_face-loops.png
 
    Face loop selection.
 
@@ -470,7 +470,7 @@ This face loop was selected by clicking with :kbd:`Alt-LMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
 
-.. figure:: /images/modeling_meshes_selecting_advanced_face-loops-vertex.png
+.. figure:: /images/modeling_meshes_selecting_face-loops-vertex.png
 
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
 
@@ -520,7 +520,7 @@ or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
 .. _fig-mesh-select-advanced-loop-ring:
 
-.. figure:: /images/modeling_meshes_selecting_advanced_edge-ring.png
+.. figure:: /images/modeling_meshes_selecting_edge-ring.png
 
    A selected edge loop, and a selected edge ring.
 
@@ -550,7 +550,7 @@ Shortest Path
    :Menu:      :menuselection:`Select --> Shortest Path`
    :Hotkey:    :kbd:`Ctrl-LMB`
 
-.. figure:: /images/modeling_meshes_selecting_advanced_shortest-path.png
+.. figure:: /images/modeling_meshes_selecting_shortest-path.png
 
    Select a face or vertex path with :kbd:`Ctrl-LMB`.
 
@@ -590,15 +590,15 @@ While it is possible to use this operator in *Vertex* and *Face* selection modes
 Note that if the selected loop of edges is not closed,
 then all connected edges on the mesh will be considered inside the loop.
 
-.. figure:: /images/modeling_meshes_selecting_advanced_inner-region1.png
+.. figure:: /images/modeling_meshes_selecting_inner-region1.png
 
    Loop to Region.
 
-.. figure:: /images/modeling_meshes_selecting_advanced_inner-region2.png
+.. figure:: /images/modeling_meshes_selecting_inner-region2.png
 
    This tool handles multiple loops fine, as you can see.
 
-.. figure:: /images/modeling_meshes_selecting_advanced_inner-region3.png
+.. figure:: /images/modeling_meshes_selecting_inner-region3.png
 
    This tool handles "holes" just fine as well.
 
@@ -618,7 +618,7 @@ It can operate in any select mode, but when in *Face* mode it will switch to *Ed
 
 All this is much more simple to illustrate with examples:
 
-.. figure:: /images/modeling_meshes_selecting_advanced_boundary-loop.png
+.. figure:: /images/modeling_meshes_selecting_boundary-loop.png
 
    Select Boundary Loop does the opposite and forces into Edge Select Mode.
 
@@ -629,7 +629,7 @@ Known Issues
 N-Gons in Face Select Mode
 --------------------------
 
-.. figure:: /images/modeling_meshes_selecting_edges-faces_face-mode-ngon-visual-problem.png
+.. figure:: /images/modeling_meshes_selecting_face-mode-ngon-visual-problem.png
 
    N-gon face having its center dot inside another face.
 

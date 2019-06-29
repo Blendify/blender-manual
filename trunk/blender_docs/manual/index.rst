@@ -81,7 +81,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_grease_pencil.jpg
+         .. figure:: /images/index_grease-pencil.jpg
             :target: grease_pencil/index.html
 
          :doc:`/grease_pencil/index`
@@ -121,7 +121,7 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_movie_clip.jpg
+         .. figure:: /images/index_movie-clip.jpg
             :target: movie_clip/index.html
 
          :doc:`/movie_clip/index`

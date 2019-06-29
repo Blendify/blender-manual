@@ -4,7 +4,7 @@
 Display
 *******
 
-.. figure:: /images/sculpt-paint_brush_display-panel.png
+.. figure:: /images/sculpt-paint_brush_display_panel.png
    :align: right
 
    Brush appearance options.
