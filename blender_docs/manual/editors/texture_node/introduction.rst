@@ -12,7 +12,7 @@ Blender includes a node-based texture generation system, which enables textures
 creation by combining colors, patterns and other textures in the same way as
 shader writing with :doc:`material nodes </render/shader_nodes/index>`.
 
-.. figure:: /images/render_blender-render_textures_nodes_introduction_types-combined.png
+.. figure:: /images/editors_texture-node_introduction_types-combined.png
    :width: 600px
 
    Combined textures based on nodes.

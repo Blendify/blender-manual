@@ -3,7 +3,7 @@
 Noise
 *****
 
-.. figure:: /images/render_blender-render_textures_types_procedural_noise_panel.png
+.. figure:: /images/render_materials_legacy-textures_types_noise_panel.png
 
    Noise Texture panel.
 

@@ -88,12 +88,12 @@ Alpha
 
       .. list-table:: The image with various alpha and gray-scale values.
 
-         * - .. figure:: /images/render_blender-render_textures_types_image_options_alpha-use.png
+         * - .. figure:: /images/render_materials_legacy-textures_types_image-movie_alpha-use.png
                 :width: 320px
 
                 Image with *Use* alpha. The alpha values of the pixels are evaluated.
 
-           - .. figure:: /images/render_blender-render_textures_types_image_options_alpha-calculate.png
+           - .. figure:: /images/render_materials_legacy-textures_types_image-movie_alpha-calculate.png
                 :width: 320px
 
                 Image with *Calculate* alpha only, *Use Alpha* in the *Image* panel is disabled.
@@ -106,7 +106,7 @@ Alpha
 Mapping
 -------
 
-.. figure:: /images/render_blender-render_textures_types_image_options_image-mapping-panel.png
+.. figure:: /images/render_materials_legacy-textures_types_image-movie_image-mapping-panel.png
 
    Image Mapping panel.
 
@@ -155,7 +155,7 @@ Sampling
 
 In the *Sampling* panel you can control how the information is retrieved from the image.
 
-.. figure:: /images/render_blender-render_textures_types_image_options_image-sampling-panel.png
+.. figure:: /images/render_materials_legacy-textures_types_image-movie_image-sampling-panel.png
 
    Image Sampling panel.
 
@@ -169,12 +169,12 @@ Interpolation
 
    .. list-table::
 
-      * - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-off.png
+      * - .. figure:: /images/render_materials_legacy-textures_types_image-movie_interpolation-off.png
              :width: 320px
 
              Enlarged Image texture without *Interpolation*.
 
-        - .. figure:: /images/render_blender-render_textures_types_image_options_interpolation-on.png
+        - .. figure:: /images/render_materials_legacy-textures_types_image-movie_interpolation-on.png
              :width: 320px
 
              Enlarged Image texture with *Interpolation*.

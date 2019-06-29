@@ -3,7 +3,7 @@
 Marble Node
 ***********
 
-.. figure:: /images/render_blender-render_textures_nodes_types_textures_marble_node.png
+.. figure:: /images/editors_texture-node_types_textures_marble_node.png
 
    Marble node.
 

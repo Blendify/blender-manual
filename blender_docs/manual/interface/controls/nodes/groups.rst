@@ -7,7 +7,7 @@
 Node Groups
 ***********
 
-.. figure:: /images/editors_node-editor_nodes_groups_node-group-example.png
+.. figure:: /images/interface_controls_nodes_groups_node-group-example.png
    :align: right
 
    Example of a node group.
@@ -121,7 +121,7 @@ Panel
    :Panel:     :menuselection:`Sidebar region --> Node --> Interface`
 
 .. TODO2.8:
-   .. figure:: /images/editors_node-editor_nodes_groups_interface-panel.png
+   .. figure:: /images/interface_controls_nodes_groups_interface-panel.png
       :align: right
 
       The interface panel for editing groups.
