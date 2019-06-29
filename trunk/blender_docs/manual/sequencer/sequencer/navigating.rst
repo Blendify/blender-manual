@@ -71,7 +71,7 @@ Show Frame Number Indicator
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
-   Show or hide dashed line on marker position across timeline.
+   Show or hide dashed line on marker position across the timeline.
 Cache
    Show :doc:`Cache </sequencer/sequencer/properties/proxy_cache>`
       Show all enabled types.

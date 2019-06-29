@@ -12,4 +12,4 @@
    color.rst
    options.rst
    display_settings.rst
-   quality.rst
+   sampling.rst

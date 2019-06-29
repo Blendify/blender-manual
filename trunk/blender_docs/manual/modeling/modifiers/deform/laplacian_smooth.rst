@@ -390,7 +390,7 @@ Normalized
 
 .. hint::
 
-   Meshes with a great number of vertices, more than ten thousand (10 000),
+   Meshes with a great number of vertices, more than ten thousand (10,000),
    may take several minutes for processing. You can use small portions of the mesh for testing
    before executing the modifier on the entire model.
 
