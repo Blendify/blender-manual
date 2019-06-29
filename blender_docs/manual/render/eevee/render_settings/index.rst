@@ -11,6 +11,7 @@
    bloom.rst
    depth_of_field.rst
    subsurface_scattering.rst
+   screen_space_reflections.rst
    motion_blur
    volumetrics.rst
    shadows.rst
