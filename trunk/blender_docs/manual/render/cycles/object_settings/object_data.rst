@@ -3,6 +3,8 @@
 Object
 ******
 
+.. _render-cycles-object-settings-visibility:
+
 Visibility
 ==========
 
@@ -10,6 +12,10 @@ Visibility
    :class: refbox
 
    :Panel:     :menuselection:`Object --> Visibility`
+
+.. seealso::
+
+   There are several other :doc:`general visibility </scene_layout/object/properties/visibility>` properties.
 
 
 Shadow Catcher

@@ -11,3 +11,11 @@ Show in Renders
    The object is able to be in the final render, note that it will still be visible in rendered shading view.
 Selectable
    The object is able to be selected in the 3D Viewport.
+
+.. note::
+
+   These visibility options can also be set in the :doc:`Outliner </editors/outliner>.`
+
+.. seealso::
+
+   Cycles has additional :ref:`Visibility properties <render-cycles-object-settings-visibility>`.
