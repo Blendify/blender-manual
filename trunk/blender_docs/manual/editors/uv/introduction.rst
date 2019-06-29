@@ -43,7 +43,7 @@ and then arrange them in some way upon a photograph that is also lying on that t
 Example
 -------
 
-.. figure:: /images/editors_uv-image_uv_overview_3d-uv-space.png
+.. figure:: /images/editors_uv_introduction_3d-uv-space.png
    :width: 620px
 
    3D space (XYZ) versus UV space.
@@ -96,7 +96,7 @@ Interface
 Header
 ------
 
-.. figure:: /images/editors_uv-image_uv_introduction_texturing-header.png
+.. figure:: /images/editors_uv_introduction_texturing-header.png
 
    UV Editor header.
 
@@ -139,7 +139,7 @@ Image Tab
 ^^^^^^^^^
 
 .. TODO2.8:
-   .. figure:: /images/editors_uv-image_uv_introduction_uv-vertex.png
+   .. figure:: /images/editors_uv_introduction_uv-vertex.png
       :align: right
 
       Image tab.

@@ -23,21 +23,21 @@ For deselecting objects, use :kbd:`MMB`.
 
    * - .. _fig-mesh-select-basics-start:
 
-       .. figure:: /images/modeling_meshes_selecting_introduction_border-select1.png
+       .. figure:: /images/editors_3dview_toolbar_select-box_border-select1.png
           :width: 200px
 
           Start.
 
      - .. _fig-mesh-select-basics-selecting:
 
-       .. figure:: /images/modeling_meshes_selecting_introduction_border-select2.png
+       .. figure:: /images/editors_3dview_toolbar_select-box_border-select2.png
           :width: 200px
 
           Selecting.
 
      - .. _fig-mesh-select-basics-complete:
 
-       .. figure:: /images/modeling_meshes_selecting_introduction_border-select3.png
+       .. figure:: /images/editors_3dview_toolbar_select-box_border-select3.png
           :width: 200px
 
           Complete.

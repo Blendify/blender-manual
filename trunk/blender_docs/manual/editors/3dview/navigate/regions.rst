@@ -40,17 +40,17 @@ Example
 
 .. list-table:: Region/Volume clipping.
 
-   * - .. figure:: /images/editors_3dview_navigate_clip_border1.png
+   * - .. figure:: /images/editors_3dview_navigate_regions_border1.png
           :width: 320px
 
           Selecting a region.
 
-     - .. figure:: /images/editors_3dview_navigate_clip_border2.png
+     - .. figure:: /images/editors_3dview_navigate_regions_border2.png
           :width: 320px
 
           Region selected.
 
-     - .. figure:: /images/editors_3dview_navigate_clip_border3.png
+     - .. figure:: /images/editors_3dview_navigate_regions_border3.png
           :width: 320px
 
           View rotated.
@@ -92,9 +92,9 @@ This can be very useful for reducing render times for quick previews on an area 
 .. list-table:: Render region and associated render.
    :widths: 65 35
 
-   * - .. figure:: /images/render_blender-render_camera_introduction_render-border-1.png
+   * - .. figure:: /images/editors_3dview_navigate_regions_render-border-1.png
 
-     - .. figure:: /images/render_blender-render_camera_introduction_render-border-2.png
+     - .. figure:: /images/editors_3dview_navigate_regions_render-border-2.png
 
 .. tip::
 

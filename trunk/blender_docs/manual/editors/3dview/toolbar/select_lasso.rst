@@ -18,17 +18,17 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ct
 
 .. list-table:: An example of using the *Lasso Select tool* in *Vertex Select Mode*.
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select1.png
+   * - .. figure:: /images/editors_3dview_toolbar_select-lasso_lasso-select1.png
           :width: 200px
 
           Start.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select2.png
+     - .. figure:: /images/editors_3dview_toolbar_select-lasso_lasso-select2.png
           :width: 200px
 
           Selecting.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_lasso-select3.png
+     - .. figure:: /images/editors_3dview_toolbar_select-lasso_lasso-select3.png
           :width: 200px
 
           Complete.

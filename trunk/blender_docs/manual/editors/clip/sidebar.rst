@@ -16,7 +16,7 @@ to generate the proxy clip and it will be available after Blender makes it.
 Proxy
 =====
 
-.. figure:: /images/editors_movie-clip-editor_properties_proxy_panel.png
+.. figure:: /images/editors_clip_sidebar_proxy-panel.png
    :align: right
 
 A proxy is a smaller image (faster to load) that stands in for the main image.

@@ -35,7 +35,7 @@ Masks can be reused in different places, and hold global parameters for all the 
 Header
 ======
 
-.. figure:: /images/editors_movie-clip-editor_masking_introduction_header.png
+.. figure:: /images/movie-clip_masking_introduction_header.png
 
    The Movie Clip Editor header in Mask mode.
 

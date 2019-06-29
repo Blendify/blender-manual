@@ -108,7 +108,7 @@ Properties
 
    :Panel:     :menuselection:`Properties editor --> Object Data --> Normals`
 
-.. TODO .. figure:: /images/modeling_meshes_properties_object-data_normals-panel.png
+.. TODO .. figure:: /images/modeling_meshes_editing_normals_normals-panel.png
 
 .. TODO  Normals panel.
 
@@ -125,7 +125,7 @@ Auto Smooth
 Example
 -------
 
-.. figure:: /images/modeling_meshes_properties_object-data_example-auto-smooth.png
+.. figure:: /images/modeling_meshes_editing_normals_example-auto-smooth.png
    :width: 250px
 
    Example mesh with *Auto Smooth* enabled.
