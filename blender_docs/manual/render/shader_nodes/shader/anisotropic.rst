@@ -4,7 +4,7 @@
 Anisotropic BSDF
 ****************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_node.png
+.. figure:: /images/render_shader-nodes_shader_anisotropic_node.png
    :align: right
 
    Anisotropic BSDF.
@@ -56,15 +56,15 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_rot0.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_anisotropic_rot0.jpg
 
           Anisotropic rotation on 0.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_rot025.jpg
+     - .. figure:: /images/render_shader-nodes_shader_anisotropic_rot025.jpg
 
           Anisotropic rotation on 0.25 (90°).
 
-.. figure:: /images/render_cycles_nodes_types_shaders_anisotropic_example.jpg
+.. figure:: /images/render_shader-nodes_shader_anisotropic_example.jpg
 
    Anisotropic shading with 0° rotation, 90° rotation and textured rotation of the tangent direction.
    `Example blend-file <https://en.blender.org/uploads/b/b7/Blender2.65_cycles_anisotropic.blend>`__.

@@ -4,7 +4,7 @@
 Translucent BSDF
 ****************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_translucent_node.png
+.. figure:: /images/render_shader-nodes_shader_translucent_node.png
    :align: right
 
    Translucent BSDF.
@@ -41,11 +41,11 @@ Examples
 .. list-table::
    :widths: auto
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_translucent_example.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_translucent_example.jpg
 
           Translucent shader example.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_translucent_behavior.svg
+     - .. figure:: /images/render_shader-nodes_shader_translucent_behavior.svg
           :width: 308px
 
           Translucent shader behavior.

@@ -4,7 +4,7 @@
 Volume Scatter
 **************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_volume-scatter_node.png
+.. figure:: /images/render_shader-nodes_shader_volume-scatter_node.png
    :align: right
 
    Volume Scatter Shader.
@@ -38,6 +38,6 @@ Volume
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_shaders_volume-scatter_example.png
+.. figure:: /images/render_shader-nodes_shader_volume-scatter_example.png
 
    Example of Volume Scatter.

@@ -6,7 +6,7 @@ Bevel Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_input_bevel_node.png
+.. figure:: /images/render_shader-nodes_input_bevel_node.png
    :align: right
 
    Bevel Node.
@@ -50,6 +50,6 @@ Normal
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_input_bevel_example.jpg
+.. figure:: /images/render_shader-nodes_input_bevel_example.jpg
 
    Bevel shader bringing out specular highlights on the edges.

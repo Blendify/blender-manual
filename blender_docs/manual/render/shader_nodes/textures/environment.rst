@@ -4,7 +4,7 @@
 Environment Texture Node
 ************************
 
-.. figure:: /images/render_cycles_nodes_types_textures_environment_node.png
+.. figure:: /images/render_shader-nodes_textures_environment_node.png
    :align: right
 
    Environment Texture Node.
@@ -63,7 +63,7 @@ Color
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_environment_example.jpg
+.. figure:: /images/render_shader-nodes_textures_environment_example.jpg
    :width: 200px
 
    HDR image from `OpenFootage.net <http://www.openfootage.net/?p=986>`__.

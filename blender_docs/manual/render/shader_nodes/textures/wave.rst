@@ -4,7 +4,7 @@
 Wave Texture Node
 *****************
 
-.. figure:: /images/render_cycles_nodes_types_textures_wave_node.png
+.. figure:: /images/render_shader-nodes_textures_wave_node.png
    :align: right
 
    Wave Texture Node.
@@ -54,7 +54,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_wave_default.jpg
+.. figure:: /images/render_shader-nodes_textures_wave_default.jpg
    :width: 200px
 
    Default wave texture.

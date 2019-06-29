@@ -4,7 +4,7 @@
 Emission
 ********
 
-.. figure:: /images/render_cycles_nodes_types_shaders_emission_node.png
+.. figure:: /images/render_shader-nodes_shader_emission_node.png
    :align: right
 
    Emission Shader.
@@ -56,10 +56,10 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_emission_example.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_emission_example.jpg
 
           Emission shader, with strength at 1.0.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_emission_example-bright.jpg
+     - .. figure:: /images/render_shader-nodes_shader_emission_example-bright.jpg
 
           Emission shader, with strength at 3.0.

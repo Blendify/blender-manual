@@ -4,7 +4,7 @@
 Glossy BSDF
 ***********
 
-.. figure:: /images/render_cycles_nodes_types_shaders_glossy_node.png
+.. figure:: /images/render_shader-nodes_shader_glossy_node.png
    :align: right
 
    Glossy BSDF.
@@ -56,20 +56,20 @@ Examples
 .. list-table::
    :widths: auto
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_example.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_glossy_example.jpg
 
           Sharp Glossy example.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_behavior-sharp.svg
+     - .. figure:: /images/render_shader-nodes_shader_glossy_behavior-sharp.svg
           :width: 308px
 
           Sharp Glossy behavior.
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_rough.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_glossy_rough.jpg
 
           Rough Glossy example.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_glossy_behavior.svg
+     - .. figure:: /images/render_shader-nodes_shader_glossy_behavior.svg
           :width: 308px
 
           Rough Glossy behavior.

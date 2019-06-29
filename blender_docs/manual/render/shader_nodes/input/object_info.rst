@@ -4,7 +4,7 @@
 Object Info Node
 ****************
 
-.. figure:: /images/render_cycles_nodes_types_input_object-info_node.png
+.. figure:: /images/render_shader-nodes_input_object-info_node.png
    :align: right
 
    Object Info Node.
@@ -51,7 +51,7 @@ Random
 Example
 =======
 
-.. figure:: /images/render_cycles_nodes_types_input_object-info_example.png
+.. figure:: /images/render_shader-nodes_input_object-info_example.png
    :width: 640px
 
 .. figure:: /images/render_cycles_render-settings_motion-blur_example-cubes.jpg

@@ -4,7 +4,7 @@
 Diffuse BSDF
 ************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_diffuse_node.png
+.. figure:: /images/render_shader-nodes_shader_diffuse_node.png
    :align: right
 
    Diffuse BSDF.
@@ -44,16 +44,16 @@ Examples
 .. list-table::
    :widths: auto
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_diffuse_example.jpg
 
           Lambertian reflection.
 
-     - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_behavior.svg
+     - .. figure:: /images/render_shader-nodes_shader_diffuse_behavior.svg
           :width: 308px
 
           Diffuse shader behavior.
 
-   * - .. figure:: /images/render_cycles_nodes_types_shaders_diffuse_example-oren-nayar.jpg
+   * - .. figure:: /images/render_shader-nodes_shader_diffuse_example-oren-nayar.jpg
 
           Oren-Nayar reflection.
 

@@ -4,7 +4,7 @@
 World Node
 **********
 
-.. figure:: /images/render_cycles_nodes_types_output_world_node.png
+.. figure:: /images/render_shader-nodes_output_world_node.png
    :align: right
 
    World Node.

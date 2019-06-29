@@ -4,7 +4,7 @@
 Camera Data Node
 ****************
 
-.. figure:: /images/render_cycles_nodes_types_input_camera-data_node.png
+.. figure:: /images/render_shader-nodes_input_camera-data_node.png
    :align: right
 
    Camera Data Node.

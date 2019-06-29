@@ -49,6 +49,6 @@ Alpha
 Examples
 ========
 
-.. figure:: /images/render_eevee_nodes_types_shader_to_rgb_example.jpg
+.. figure:: /images/render_shader-nodes_converter_shader-to-rgb_example.jpg
 
    Simple toon shading with Shader to RGB and Freestyle.

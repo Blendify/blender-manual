@@ -4,7 +4,7 @@
 Checker Texture Node
 ********************
 
-.. figure:: /images/render_cycles_nodes_types_textures_checker_node.png
+.. figure:: /images/render_shader-nodes_textures_checker_node.png
    :align: right
 
    Checker Texture Node.
@@ -45,7 +45,7 @@ Factor
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_checker_example.jpg
+.. figure:: /images/render_shader-nodes_textures_checker_example.jpg
    :width: 200px
 
    Default Checker texture.

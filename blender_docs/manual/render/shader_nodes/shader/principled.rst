@@ -4,7 +4,7 @@
 Principled BSDF
 ***************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_node.png
+.. figure:: /images/render_shader-nodes_shader_principled_node.png
    :align: right
 
    Principled BSDF.
@@ -162,6 +162,6 @@ Examples
 Below are some examples of how all the Principled BSDF's
 parameters interact with each other.
 
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_example-1a.jpg
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_example-2a.jpg
-.. figure:: /images/render_cycles_nodes_types_shaders_principled_example-2b.jpg
+.. figure:: /images/render_shader-nodes_shader_principled_example-1a.jpg
+.. figure:: /images/render_shader-nodes_shader_principled_example-2a.jpg
+.. figure:: /images/render_shader-nodes_shader_principled_example-2b.jpg

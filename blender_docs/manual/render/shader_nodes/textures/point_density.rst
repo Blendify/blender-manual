@@ -3,7 +3,7 @@
 Point Density Node
 ******************
 
-.. figure:: /images/render_cycles_nodes_types_textures_point-density_node.png
+.. figure:: /images/render_shader-nodes_textures_point-density_node.png
    :align: right
 
    Point Density Node.
@@ -94,7 +94,7 @@ Density
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_textures_point-density_example.jpg
+.. figure:: /images/render_shader-nodes_textures_point-density_example.jpg
    :width: 200px
 
    Domain object with Point Density texture using vertices from ball as points.

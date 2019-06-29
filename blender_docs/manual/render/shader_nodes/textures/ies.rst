@@ -37,6 +37,6 @@ Factor
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_ies_texture.jpg
+.. figure:: /images/render_shader-nodes_textures_ies_texture.jpg
 
    Lights with different IES profiles.

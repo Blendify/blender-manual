@@ -6,7 +6,7 @@ Hair BSDF
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_shaders_hair_node.png
+.. figure:: /images/render_shader-nodes_shader_hair_node.png
    :align: right
 
    Hair BSDF.

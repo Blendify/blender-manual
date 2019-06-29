@@ -6,7 +6,7 @@ Wavelength Node
 
 :guilabel:`Cycles Only`
 
-.. figure:: /images/render_cycles_nodes_types_converter_wavelength_node.png
+.. figure:: /images/render_shader-nodes_converter_wavelength_node.png
    :align: right
 
    Wavelength Node.
@@ -38,6 +38,6 @@ Color
 Examples
 ========
 
-.. figure:: /images/render_cycles_nodes_types_converter_wavelength_example.jpg
+.. figure:: /images/render_shader-nodes_converter_wavelength_example.jpg
 
    Example of Wavelength node.

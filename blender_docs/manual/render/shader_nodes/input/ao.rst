@@ -7,7 +7,7 @@
 Ambient Occlusion
 *****************
 
-.. figure:: /images/render_cycles_nodes_types_shaders_ao_node.png
+.. figure:: /images/render_shader-nodes_input_ao_node.png
    :align: right
 
    Ambient Occlusion.
@@ -54,6 +54,6 @@ AO
 Example
 =======
 
-.. figure:: /images/render_cycles_nodes_types_shaders_ao_example.jpg
+.. figure:: /images/render_shader-nodes_input_ao_example.jpg
 
    White AO shader.

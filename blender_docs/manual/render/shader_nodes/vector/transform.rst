@@ -4,7 +4,7 @@
 Vector Transform Node
 *********************
 
-.. figure:: /images/render_cycles_nodes_types_vector_transform_node.png
+.. figure:: /images/render_shader-nodes_vector_transform_node.png
    :align: right
 
    Vector Transform node.
