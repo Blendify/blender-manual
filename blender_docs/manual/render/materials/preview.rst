@@ -13,6 +13,6 @@ Shape
 Preview World
    Use the world from the current scene for lighting in the material preview.
 
-.. figure:: /images/render_materials_preview.png
+.. figure:: /images/render_materials_preview_shapes.png
 
    Preview shapes.

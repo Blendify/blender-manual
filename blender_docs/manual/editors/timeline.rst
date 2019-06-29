@@ -105,7 +105,7 @@ Popovers
 Playback Popover
 ^^^^^^^^^^^^^^^^
 
-.. figure:: /images/editors_timeline_header_playback.png
+.. figure:: /images/editors_timeline_playback.png
 
 The *Playback* popover contains options controlling the animation playback.
 
@@ -165,7 +165,7 @@ Clip Editors
 Keying Popover
 ^^^^^^^^^^^^^^
 
-.. figure:: /images/editors_timeline_header_keying.png
+.. figure:: /images/editors_timeline_keying.png
 
 The *Keying* popover contains options that affect keyframe insertion.
 

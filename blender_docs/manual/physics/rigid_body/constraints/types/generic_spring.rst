@@ -25,7 +25,7 @@ Options
 =======
 
 .. TODO2.8:
-   .. figure:: /images/physics_rigid-body_constraints_types_generic-spring.png
+   .. figure:: /images/physics_rigid-body_constraints_types_generic-spring_panel.png
       :align: right
 
       *Generic Spring* constraint options.

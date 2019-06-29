@@ -3,7 +3,7 @@
 File Browser
 ************
 
-.. figure:: /images/editors_file-browser_introduction_editor.png
+.. figure:: /images/editors_file-browser_editor.png
 
    The File Browser.
 
@@ -252,7 +252,7 @@ Rename :kbd:`Ctrl-LMB`
 Previews
 --------
 
-.. figure:: /images/editors_file-browser_previews_previews.png
+.. figure:: /images/editors_file-browser_previews.png
 
    The File Browser in *Thumbnail* mode.
 

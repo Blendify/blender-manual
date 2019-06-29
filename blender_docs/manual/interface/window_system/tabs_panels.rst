@@ -17,7 +17,7 @@ Tabs are used to control overlapping sections in the user interface.
 Contents of only one Tab is visible at a time.
 Tabs are listed in *Tab header*, which can be vertical or horizontal.
 
-.. figure:: /images/interface_window-system_tabs-panels_tabs_horizontal.png
+.. figure:: /images/interface_window-system_tabs-panels_tabs-horizontal.png
    :align: center
 
    Horizontal Tab header in the Top Bar.
