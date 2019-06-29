@@ -5,14 +5,14 @@ Lattice Modifier
 ****************
 
 The *Lattice* modifier deforms the base object according to
-the shape of a :doc:`Lattice</animation/lattice>` object.
+the shape of a :doc:`Lattice </animation/lattice>` object.
 Objects to be deformed can be meshes, curves,
 surfaces, text, lattices and even particles.
 
 .. tip::
 
    A *Lattice* modifier can quickly be added to selected objects by
-   :ref:`parenting<bpy.ops.object.parent_set>` them using the *Lattice Deform* option.
+   :ref:`parenting <bpy.ops.object.parent_set>` them using the *Lattice Deform* option.
 
 
 Options
@@ -24,7 +24,7 @@ Options
    The Lattice modifier.
 
 Object
-   The :doc:`Lattice</animation/lattice>` object with which to deform the base object.
+   The :doc:`Lattice </animation/lattice>` object with which to deform the base object.
 Vertex Group
    An optional vertex group name which lets you limit the modifier's effect to a part of the base mesh.
 Strength
@@ -47,5 +47,5 @@ There are a couple of reasons for that:
 
 .. note::
 
-   When using a lattice to deform particles, order in the :ref:`modifier stack<modifier-stack>` matters.
+   When using a lattice to deform particles, order in the :ref:`modifier stack <modifier-stack>` matters.
    You need to place the *Lattice* modifier after the *Particle System* one.

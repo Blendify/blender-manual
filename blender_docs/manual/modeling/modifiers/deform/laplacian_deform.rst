@@ -30,12 +30,10 @@ Options
 
 Repeat
    How many iterations to do to improve the found solution.
-   The objective is to find the rotation of the differential
-   coordinates preserving the best possible geometric details.
+   The objective is to find the rotation of the differential coordinates
+   preserving the best possible geometric details.
    Details are retained better if more iterations are used,
    however, it will take longer to calculate.
-
-   |
 
    .. list-table:: Deform horse example
       `blend-file <https://en.blender.org/uploads/a/a2/Apinzonf_Deform_Horse_example1.blend>`__.
@@ -108,7 +106,7 @@ The system did not find a solution
 
 .. note::
 
-   If the mesh is dense, with a number of vertices greater than 100 000,
+   If the mesh is dense, with a number of vertices greater than 100,000,
    then it is possible that the non-linear optimization system will fail.
 
 

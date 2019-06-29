@@ -9,7 +9,7 @@ The *Hook* modifier is used to deform a *Mesh*, *Curve* or *Lattice* using anoth
 
 As the hook moves, it pulls vertices or control points from the geometry with it.
 You can think of it as animated
-:doc:`proportional editing</scene_layout/object/editing/transform/control/proportional_edit>`.
+:doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 While hooks do not give you the fine control over vertices movement that shape keys do,
 they have the advantage that you can select vertices directly for manipulation.
@@ -29,14 +29,14 @@ Vertex Group
    Allows you to define the influence per vertex.
 
    Useful when you want something other than a spherical field of influence.
-   
+
 Radius
    The size of the hooks influence.
 Strength
    Adjust this hooks influence on the vertices, were (0.0 to 1.0) (no change to fully follows the hook).
 
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook using this property.
-   
+
 Falloff Type
    This can be used to adjust the kind of influence curve that the hook has on the mesh.
    You can also define a custom curve to get a much higher level of control.

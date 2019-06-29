@@ -14,10 +14,10 @@ Points
 ======
 
 The main element used in editing Grease Pencil Object are points.
-Points represent a single point in 3D space. 
+Points represent a single point in 3D space.
 
 Each point store all the properties that define the final appearance of the strokes
-as its X,Y,Z Location, thickness, alpha, UV rotation for textures and Weight.
+as its location, thickness, alpha, UV rotation for textures and weight.
 
 
 Edit Lines
@@ -31,5 +31,6 @@ They are invisible on the rendered image and used to construct the final stroke.
 Strokes
 =======
 
-The stroke is the rendered image of the points and edit line, using a particular :doc:`Grease Pencil material </grease_pencil/materials/introduction>`.
-(*Grease Pencil* Materials are linked at stroke level).
+The stroke is the rendered image of the points and edit line,
+using a particular :doc:`Grease Pencil material </grease_pencil/materials/introduction>`.
+(*Grease Pencil* Materials are linked at stroke level.)

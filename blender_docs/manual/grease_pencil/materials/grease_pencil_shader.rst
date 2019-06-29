@@ -1,12 +1,13 @@
 
-**********************
+********************
 Grease Pencil Shader
-**********************
+********************
 
 TODO2.8
 
+
 Stroke
-=======
+======
 
 Properties
 ----------
@@ -14,16 +15,16 @@ Properties
 Mode Type
    Defines how to display the output material in the stroke.
 
-   Line      
-      Connects every points in the strokes showing a continuos line.
+   Line
+      Connects every points in the strokes showing a continuous line.
 
    Dots
       Use a circle shape at each point in the stroke.
-      The dots are ar not connected.
+      The dots are not connected.
 
    Boxes
       Use a box shape at each point in the stroke.
-      The boxes are ar not connected.
+      The boxes are not connected.
 
 Style
    Type of material.
@@ -38,7 +39,7 @@ Style
       TODO
 
       Image
-        TODO
+         TODO
 
       UV Factor
          TODO
@@ -48,9 +49,10 @@ Style
 
       Mix color
          When enabled, TODO
-    
+
+
 Fill
-=====
+====
 
 Properties
 ----------
@@ -80,4 +82,4 @@ Style
       TODO
 
       Image
-        TODO
+         TODO

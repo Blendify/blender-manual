@@ -426,4 +426,4 @@ Examples
 
 .. seealso::
 
-   :doc:`Smooth Modifier</modeling/modifiers/deform/smooth>`.
+   :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`.

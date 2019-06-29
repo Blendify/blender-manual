@@ -275,4 +275,4 @@ Further Tabs
 F-Curve Tab
    See :doc:`F-Curve </editors/graph_editor/fcurves/properties>`.
 Modifiers Tab
-   See :doc:`F-Modifiers </editors/graph_editor/fcurves/modifiers>`.
+   See :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifiers>`.

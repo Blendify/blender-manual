@@ -6,7 +6,7 @@ Corrective Smooth Modifier
 
 The *Corrective Smooth* modifier is used to reduce highly distorted areas of a mesh by smoothing the deformations.
 
-This is typically useful *after* an :doc:`Armature modifier</modeling/modifiers/deform/armature>`,
+This is typically useful *after* an :doc:`Armature modifier </modeling/modifiers/deform/armature>`,
 where distortion around joints may be hard to avoid, even with careful weight painting.
 
 To use this modifier effectively, it is important to understand the basics of how it works.
