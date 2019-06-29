@@ -12,7 +12,7 @@ to *Grease Pencil*.
 
 To use this editor mode, make sure you have a :doc:`Grease Pencil object </grease_pencil/index>` selected.
 
-.. figure:: /images/editors_dope-sheet_grease_pencil.png
+.. figure:: /images/editors_dope-sheet_grease-pencil_view.png
    :width: 620px
 
 

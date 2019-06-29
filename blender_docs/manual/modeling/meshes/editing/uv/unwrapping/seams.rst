@@ -6,7 +6,7 @@ Seams
 Introduction
 ============
 
-.. figure:: /images/editors_uv-image_uv_editing_unwrapping_seams_simple.png
+.. figure:: /images/modeling_meshes_editing_uv_unwrapping_seams_simple.png
    :width: 300px
 
    Simple seam on a cylinder.
@@ -59,7 +59,7 @@ Marking Seams
    :Panel:     :menuselection:`Tool Shelf --> Tools --> UV Tools --> UV Unwrap: Mark/Clear Seam`
    :Menu:      :menuselection:`UVs --> Mark/Clear Seam`
 
-.. figure:: /images/editors_uv-image_uv_editing_unwrapping_seams_suzanne.png
+.. figure:: /images/modeling_meshes_editing_uv_unwrapping_seams_suzanne.png
    :width: 250px
 
    Seamed Suzanne.

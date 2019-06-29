@@ -17,7 +17,7 @@ Keep in mind that this is a different operation than its companion,
 :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.
 You can see the difference between the two in the grid image below.
 
-.. figure:: /images/modeling_modifiers_generate_subsurf_grid.png
+.. figure:: /images/modeling_modifiers_generate_subdivision-surface_grid.png
 
    Subdivision levels 0 to 3, without and with Smooth Shading.
 
@@ -35,7 +35,7 @@ You can see the difference between the two in the grid image below.
 Options
 =======
 
-.. figure:: /images/modeling_modifiers_generate_subsurf_panel.png
+.. figure:: /images/modeling_modifiers_generate_subdivision-surface_panel.png
    :align: right
 
    The Subdivision Surface modifier.
@@ -104,7 +104,7 @@ Weighted Edge Creases
 Weighted edge creases for subdivision surfaces allows you to change the way
 the *Subdivision Surface* modifier subdivides the geometry to give the edges a smooth or sharp appearance.
 
-.. figure:: /images/modeling_modifiers_generate_subsurf_withcrease.png
+.. figure:: /images/modeling_modifiers_generate_subdivision-surface_withcrease.png
 
    A subdivided cube with creased edges.
 
@@ -116,7 +116,7 @@ A higher value makes the edge "stronger" and more resistant to the smoothing eff
 Edge Loops
 ----------
 
-.. figure:: /images/modeling_modifiers_generate_subsurf_cube-with-edge-loops.png
+.. figure:: /images/modeling_modifiers_generate_subdivision-surface_cube-with-edge-loops.png
 
    Subdivision Level 2 cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
@@ -165,12 +165,12 @@ shares the overall normal orientation of that original face.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_modifiers_generate_subsurf_normal-orientation-1.png
+   * - .. figure:: /images/modeling_modifiers_generate_subdivision-surface_normal-orientation-1.png
           :width: 320px
 
           Comparison of good normals and bad normals.
 
-     - .. figure:: /images/modeling_modifiers_generate_subsurf_normal-orientation-2.png
+     - .. figure:: /images/modeling_modifiers_generate_subdivision-surface_normal-orientation-2.png
           :width: 320px
 
           Side view of image on the left.

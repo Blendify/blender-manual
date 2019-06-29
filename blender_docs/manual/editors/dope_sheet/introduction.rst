@@ -56,7 +56,7 @@ In addition, you can also use the scrollbars to pan and zoom the view.
 Keyframes
 ---------
 
-.. figure:: /images/editors_dope-sheet_keyframe_types.png
+.. figure:: /images/editors_dope-sheet_introduction_types.png
 
    The Dope Sheet Editor with object channels.
 

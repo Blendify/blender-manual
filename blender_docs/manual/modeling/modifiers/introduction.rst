@@ -104,6 +104,7 @@ Apply as Shape Key
    This is only available with modifiers that do not affect the topology (typically, *Deform* modifiers only).
 
    .. note::
+
       Even though it should work with any geometry type that supports shape keys,
       currently it will only work with meshes.
 
@@ -136,13 +137,13 @@ and :doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have swit
 
 .. list-table:: Modifier Stack example.
 
-   * - .. figure:: /images/modeling_modifiers_generate_mirror_subsurf2.png
+   * - .. figure:: /images/modeling_modifiers_introduction_mirror-subdiv2.png
           :width: 320px
 
           The Mirror modifier is the last item in the stack and
           the result looks like two surfaces.
 
-     - .. figure:: /images/modeling_modifiers_generate_mirror_subsurf1.png
+     - .. figure:: /images/modeling_modifiers_introduction_mirror-subdiv1.png
           :width: 320px
 
           The Subdivision surface modifier is the last

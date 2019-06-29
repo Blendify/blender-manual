@@ -21,17 +21,17 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc` or :kbd:`Return`.
 
 .. list-table:: Circle Select example.
 
-   * - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select1.png
+   * - .. figure:: /images/editors_3dview_toolbar_select-circle_circle-select1.png
           :width: 320px
 
           Start.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select2.png
+     - .. figure:: /images/editors_3dview_toolbar_select-circle_circle-select2.png
           :width: 320px
 
           Selecting.
 
-     - .. figure:: /images/modeling_meshes_selecting_introduction_circle-select3.png
+     - .. figure:: /images/editors_3dview_toolbar_select-circle_circle-select3.png
           :width: 320px
 
           Dragging.

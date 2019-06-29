@@ -38,7 +38,7 @@ The more advanced methods can be used with more complex models, and have more sp
 Unwrap
 ======
 
-.. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_unwrap-example.png
+.. figure:: /images/modeling_meshes_editing_uv_unwrapping_mapping-types_unwrap-example.png
    :width: 420px
 
    Result of unwrapping Suzanne.
@@ -97,7 +97,7 @@ Margin
 Smart UV Project
 ================
 
-.. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_smart-project.png
+.. figure:: /images/modeling_meshes_editing_uv_unwrapping_mapping-types_smart-project.png
    :width: 670px
 
    Smart UV project on a cube.
@@ -246,7 +246,7 @@ Scale to Bounds
 Cylinder and Sphere Projection
 ==============================
 
-.. figure:: /images/editors_uv-image_uv_editing_unwrapping_mapping-types_sphere-projection.png
+.. figure:: /images/modeling_meshes_editing_uv_unwrapping_mapping-types_sphere-projection.png
    :width: 420px
 
    Using an equirectangular image with a Sphere Projection.

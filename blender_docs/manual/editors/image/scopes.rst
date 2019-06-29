@@ -4,7 +4,7 @@
 Scopes
 ******
 
-.. figure:: /images/editors_uv-image_scopes_main.png
+.. figure:: /images/editors_image_scopes_main.png
    :align: right
 
    Scopes in the image editor.

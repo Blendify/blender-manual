@@ -30,7 +30,7 @@ to select connected UVs, not box select because UVs from both will be selected.
 Combining UV Maps
 -----------------
 
-.. figure:: /images/editors_uv-image_uv_editing_layout-workflow_combining-uv-maps-1.png
+.. figure:: /images/modeling_meshes_editing_uv_layout-workflow_combining-uv-maps-1.png
 
    Bad unwrap, note ear and neck.
 
@@ -40,7 +40,7 @@ or are horribly confusing. The picture to the right shows an initial unwrap of t
 the Unwrap from sphere option. The issues are with the ear; it is just a mush of UVs,
 and the neck, it is stretched and folded under. Too much work to clean up.
 
-.. figure:: /images/editors_uv-image_uv_editing_layout-workflow_combining-uv-maps-2.png
+.. figure:: /images/modeling_meshes_editing_uv_layout-workflow_combining-uv-maps-2.png
 
    Unwrap face only, without ear or neck.
 
@@ -52,7 +52,7 @@ selecting each calculation according to whatever works best for that piece. So l
 We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
 rotate them somewhat to fit logically within the image area of the UV Editor.
 
-.. figure:: /images/editors_uv-image_uv_editing_layout-workflow_combining-uv-maps-3.png
+.. figure:: /images/modeling_meshes_editing_uv_layout-workflow_combining-uv-maps-3.png
 
    Unwrap ear only, using the *Project From View*.
 
@@ -80,7 +80,7 @@ and all those maps are laid out in the same UV texture map. Congratulations! Fro
 it is a simple matter of "stitching" (discussed in the next section)
 to construct the entire UV map as a single map.
 
-.. figure:: /images/editors_uv-image_uv_editing_layout-workflow_combining-uv-maps-4.png
+.. figure:: /images/modeling_meshes_editing_uv_layout-workflow_combining-uv-maps-4.png
 
    UV maps arranged together and stitched.
 

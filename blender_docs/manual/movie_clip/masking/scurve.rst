@@ -13,7 +13,7 @@ the current point and the next point on the spline.
 Each feather point is stored in UW space,
 where U means position across spline segment, and W (weight) means distance between main spline and feather points.
 
-.. figure:: /images/editors_movie-clip-editor_masking_scurve_schematic.svg
+.. figure:: /images/movie-clip_masking_scurve_schematic.svg
    :width: 420px
 
    S-Curve explained.

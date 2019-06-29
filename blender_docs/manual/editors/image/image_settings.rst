@@ -128,11 +128,11 @@ Image generated in Blender.
 
 .. TODO2.8 .. list-table::
 
-.. TODO2.8   * - .. figure:: /images/editors_uv-image_image_image-settings_generated-image-panel.png
+.. TODO2.8   * - .. figure:: /images/editors_image_image-settings_generated-image-panel.png
 
 .. TODO2.8          Image panel for Generated source.
 
-.. TODO2.8     - .. figure:: /images/editors_uv-image_image_image-settings_generated-new-image.png
+.. TODO2.8     - .. figure:: /images/editors_image_image-settings_generated-new-image.png
 
 .. TODO2.8          The New Image pop-up menu.
 

@@ -5,7 +5,7 @@ Info Editor
 
 The Info editor logs executed operators, warnings and error messages.
 
-.. figure:: /images/editors_info_introduction_info-editor.png
+.. figure:: /images/editors_info-editor_info-editor.png
 
    Area with an Info editor.
 

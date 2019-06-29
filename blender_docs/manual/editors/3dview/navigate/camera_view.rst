@@ -46,7 +46,7 @@ Setting the Active Camera
    :Menu:      :menuselection:`View --> Cameras --> Set Active Camera`
    :Hotkey:    :kbd:`Ctrl-Numpad0`
 
-.. figure:: /images/render_blender-render_camera_introduction_cameras.png
+.. figure:: /images/editors_3dview_navigate_camera-view_cameras.png
 
    Active camera (left) displayed with a solid triangle above it.
 

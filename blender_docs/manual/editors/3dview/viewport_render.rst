@@ -18,17 +18,17 @@ the Cycles Renderer.
 
 .. list-table:: Model by © 2016 pokedstudio.com
 
-   * - .. figure:: /images/render_opengl_example-workbench-render.jpg
+   * - .. figure:: /images/editors_3dview_viewport-render_example-workbench-render.jpg
           :width: 320px
 
           Viewport render using Solid Mode.
 
-     - .. figure:: /images/render_opengl_example-eevee-render.jpg
+     - .. figure:: /images/editors_3dview_viewport-render_example-eevee-render.jpg
           :width: 320px
 
           Viewport render using Look Dev Mode.
 
-     - .. figure:: /images/render_opengl_example-cycles-render.jpg
+     - .. figure:: /images/editors_3dview_viewport-render_example-cycles-render.jpg
           :width: 320px
 
           Full render.

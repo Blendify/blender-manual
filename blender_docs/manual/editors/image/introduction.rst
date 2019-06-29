@@ -5,7 +5,7 @@ Introduction
 
 The Image Editor is where you can view/edit 2D assets like images or textures.
 
-.. figure:: /images/editors_uv-image_introduction_main.png
+.. figure:: /images/editors_image_introduction_main.png
 
    Image Editor with a test grid texture.
 

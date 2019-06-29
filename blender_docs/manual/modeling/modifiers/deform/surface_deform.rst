@@ -67,6 +67,6 @@ Unbind
 Example
 =======
 
-.. figure:: /images/modelling_modifiers_deform_surface_deform_example.png
+.. figure:: /images/modeling_modifiers_deform_surface-deform_example.png
 
    Cloth simulation copied to an arbitrary mesh with rings as instancing faces.
