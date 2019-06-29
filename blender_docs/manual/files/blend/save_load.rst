@@ -19,7 +19,7 @@ Saving and opening blend-file are usually done using the :doc:`File Browser </ed
 Opening Files
 =============
 
-.. figure:: /images/data-system_files_open_file-browser-open.png
+.. figure:: /images/files_blend_save-load_file-browser-open.png
 
    The File Browser in open configuration.
 
@@ -84,7 +84,7 @@ Recover Auto Save
 Saving Files
 ============
 
-.. figure:: /images/data-system_files_save_file-browser-save.png
+.. figure:: /images/files_blend_save-load_file-browser-save.png
 
    The File Browser in save configuration.
 

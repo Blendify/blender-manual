@@ -11,7 +11,7 @@ Blender helps you keep everything organized by allowing you to group like object
 
 .. _fig-view3d-collection-objects:
 
-.. figure:: /images/editors_3dview_object_properties_relations_groups_cubes.png
+.. figure:: /images/scene-layout_collections_collections_cubes.png
 
    Objects grouped together in a Collection.
 
@@ -61,7 +61,7 @@ Collections Panel
    :Mode:      Object Mode
    :Panel:     :menuselection:`Object tab --> Collections`
 
-.. figure:: /images/editors_3dview_object_properties_relations_groups_panel-outliner.png
+.. figure:: /images/scene-layout_collections_collections_panel.png
 
    Collections panel.
 

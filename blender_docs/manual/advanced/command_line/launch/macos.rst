@@ -44,6 +44,6 @@ If you have Blender installed in the Applications folder, the following command 
 
 .. parsed-literal:: /Applications/Blender.app/Contents/MacOS/Blender
 
-.. figure:: /images/advanced_command-line_introduction_mac.png
+.. figure:: /images/advanced_command-line_launch_macos_mac.png
 
    Starting Blender from a macOS console window.

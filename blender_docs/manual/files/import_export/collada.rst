@@ -15,7 +15,7 @@ So it may be possible that your particular usage scenario is not yet supported.
 Collada Exporter
 ================
 
-.. figure:: /images/pipeline_collada_export.png
+.. figure:: /images/files_import-export_collada_export.png
    :align: right
 
 
@@ -154,7 +154,7 @@ Keep Bind Info
 Collada Importer
 ================
 
-.. figure:: /images/pipeline_collada_import.png
+.. figure:: /images/files_import-export_collada_import.png
    :align: right
 
 The Collada importer is mostly driven by the imported data.

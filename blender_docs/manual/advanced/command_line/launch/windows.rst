@@ -32,7 +32,7 @@ then it can be found here:
 
 .. parsed-literal:: C:\\Program Files\\Blender Foundation\\Blender\\blender.exe
 
-.. figure:: /images/advanced_command-line_introduction_windows.png
+.. figure:: /images/advanced_command-line_launch_windows_windows.png
 
    Blender's Console Window on Microsoft Windows.
 

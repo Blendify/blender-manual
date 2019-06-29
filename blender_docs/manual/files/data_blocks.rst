@@ -8,7 +8,7 @@ Data-Blocks
 The base unit for any Blender project is the data-block. Examples of data-blocks include:
 meshes, objects, materials, textures, node trees, scenes, texts, brushes, and even Workspaces.
 
-.. figure:: /images/data-system_outliner_blender_file_view.png
+.. figure:: /images/files_data-blocks_outliner-blender-file-view.png
    :align: right
 
    Blender File view of the Outliner.
@@ -138,7 +138,7 @@ Data-Block Types
 
 .. Image source Scene tab --> Active keying set panel --> ID-block (sound replaced).
 
-.. figure:: /images/data-system_data-blocks_id-types.png
+.. figure:: /images/files_data-blocks_id-types.png
    :align: right
 
    Data-blocks types with their icon.
@@ -349,7 +349,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
 Custom Properties
 =================
 
-.. figure:: /images/data-system_custom-properties_add.png
+.. figure:: /images/files_data-blocks_add.png
    :align: right
 
    Custom Properties panel.
@@ -376,7 +376,7 @@ User Interface
 
 Custom properties can be edited using the panel available for data types that support it.
 
-.. figure:: /images/data-system_custom-properties_edit.png
+.. figure:: /images/files_data-blocks_edit.png
    :align: right
 
    Custom Properties edit pop-up.
