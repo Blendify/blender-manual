@@ -9,6 +9,8 @@
    *Grease Pencil* Layers panel.
 
 
+.. Some parts can be removed since this is covered in UI section link to ui-list instead.
+
 Layers List
 ===========
 
@@ -69,7 +71,8 @@ Merge Down
 Copy Layer to Object
    Makes a copy of the layer and move it to the selected *Grease Pencil* Object.
 
-Arrange buttons
+
+Arrange Buttons
 ---------------
 
 Move (up/down arrow icon)
@@ -77,11 +80,11 @@ Move (up/down arrow icon)
    Remember that the view order of the layers in the viewport are top to bottom.
 
 
-Lock and visibility general controls
--------------------------------------
+Lock and Visibility General Controls
+------------------------------------
 
 Lock (padlock icon)
-  Toggle whether the active layer is the only that can be edited.
+   Toggle whether the active layer is the only that can be edited.
 
 Visibility (screen icon)
    Toggle whether the active layer is the only that can be edited and visible.
@@ -90,10 +93,10 @@ Visibility (screen icon)
 Common Settings
 ===============
 
-Next to the layer name there are four icons buttons that control coomon properties of the layer:
+Next to the layer name there are four icons buttons that control common properties of the layer:
 
 Mask (overlay icon)
-   When the mask is enabled, all the layers below the current one function as a single mask. 
+   When the mask is enabled, all the layers below the current one function as a single mask.
    This mask hide any pixel in the current layer outside the mask created by the underlying layers.
 
 .. list-table::
@@ -107,7 +110,6 @@ Mask (overlay icon)
           :width: 320px
 
           Red stroke on top layer with mask activated.
-
 
 Lock (padlock icon)
    Toggle layer from being editable.

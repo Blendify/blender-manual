@@ -30,7 +30,7 @@ Pin (pin icon)
 Hide (eye icon)
    Hides the channel(s)/curve (Graph editor only).
 Modifiers (wrench icon)
-   Deactivates the F-Modifiers of the curve or all curves in the channel.
+   Deactivates the F-curve modifiers of the selected curve or all curves in the channel.
 Mute (speaker icon)
    Deactivates the channel/curve.
 Lock (padlock icon) :kbd:`Tab`

@@ -33,7 +33,7 @@ Direction
    Normal
       Displace along the vertex normal.
    Custom Normal
-      Displace along (averaged) :ref:`custom normals<modeling_meshes_normals_custom>`, instead of vertex normals.
+      Displace along (averaged) :ref:`custom normals <modeling_meshes_normals_custom>`, instead of vertex normals.
    RGB to XYZ
       Displace along local XYZ axes individually using the RGB components of the texture
       (Red values displaced along the X axis, Green along the Y, Blue along the Z).
@@ -74,7 +74,7 @@ Texture Coordinates
       .. note::
          Moving the original object will **also** result in a texture coordinate update.
          As such, if you need to maintain a displacement coordinate system while moving the modified object,
-         consider :ref:`parenting<bpy.ops.object.parent_set>` the coordinate object to the modified object.
+         consider :ref:`parenting <bpy.ops.object.parent_set>` the coordinate object to the modified object.
 
    Global
       Take the texture coordinates from the global coordinate system.

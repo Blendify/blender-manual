@@ -98,5 +98,5 @@ Hints
 
 .. seealso::
 
-   - The :doc:`Lattice modifier</modeling/modifiers/deform/lattice>`.
+   - The :doc:`Lattice modifier </modeling/modifiers/deform/lattice>`.
    - `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__

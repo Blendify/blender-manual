@@ -4,8 +4,8 @@
 Warp Modifier
 *************
 
-The *Warp* modifier can be used to warp parts of a mesh to a new location in a very
-flexible way, by using two objects to select the "from" and "to" regions,
+The *Warp* modifier can be used to warp parts of a mesh to a new location in
+a very flexible way, by using two objects to select the "from" and "to" regions,
 with options for using a curve falloff, texture and/or vertex group.
 
 .. figure:: /images/modeling_modifiers_deform_warp_example.png
@@ -17,8 +17,7 @@ This modifier is a bit tricky to understand at first.
 It requires two points, specified by the two target objects' origins.
 The "from" point designates a point in space that is pulled toward the "to" point.
 It is akin to using
-the :doc:`proportional editing</scene_layout/object/editing/transform/control/proportional_edit>`
-in *Edit* mode.
+the :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>` in Edit Mode.
 
 
 Options
@@ -43,7 +42,7 @@ Radius
    Sets the distance from the transforms that can be warped by the transform handles.
 Falloff Type
    Sets the way the strength of the warp change as it goes from the center of the transform to the *Radius* value.
-   See :doc:`proportional editing</scene_layout/object/editing/transform/control/proportional_edit>`
+   See :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`
    for descriptions of the falloff types.
 Texture
    Texture controlling the strength of the effect, to create variations in the displacement.
@@ -79,7 +78,7 @@ Texture Coordinates
       .. note::
          Moving the original object will **also** result in a texture coordinate update.
          As such, if you need to maintain a displacement coordinate system while moving the modified object,
-         consider :ref:`parenting<bpy.ops.object.parent_set>` the coordinate object to the modified object.
+         consider :ref:`parenting <bpy.ops.object.parent_set>` the coordinate object to the modified object.
 
    Global
       Take the texture coordinates from the global coordinate system.
@@ -91,12 +90,12 @@ Usage
 =====
 
 The *Warp* modifier can be awkward to use sometimes, and its use case is rather small,
-But there are a few still. For example, it can be used to have an interactive
-:doc:`Proportional Editing</scene_layout/object/editing/transform/control/proportional_edit>`
+But there are a few still. For example, it can be used to have
+an interactive :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`
 that can be used for animations.
 
 Another way to use this modifier is similar to
-the :doc:`Deform Modifier</modeling/modifiers/deform/mesh_deform>`.
+the :doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform>`.
 This allows you to deform parts of the mesh without having to make a vertex group.
 
 

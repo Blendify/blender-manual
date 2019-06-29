@@ -7,20 +7,20 @@ Cast Modifier
 The *Cast* modifier shifts the shape of a mesh, curve,
 surface or lattice, towards any of a few predefined shapes (sphere, cylinder, cuboid).
 
-It is equivalent to the :ref:`To Sphere<tool-transform-to_sphere>` tool in *Edit* mode,
+It is equivalent to the :ref:`To Sphere <tool-transform-to_sphere>` tool in *Edit* mode,
 and what other programs call "Spherify" or "Spherize", but, as written above,
 it is not limited to casting to a sphere.
 
 .. tip::
 
-   The :doc:`Smooth Modifier</modeling/modifiers/deform/smooth>` is a good companion to *Cast*,
+   The :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>` is a good companion to *Cast*,
    since the cast shape sometimes needs smoothing to look nicer or even to fix shading artifacts.
 
 .. note::
 
    For performance reasons, this modifier only works with local coordinates.
    If the modified object looks wrong, you may need to apply its
-   :ref:`transformations<bpy.ops.object.transform_apply>`, especially when casting to a cylinder.
+   :ref:`transformations <bpy.ops.object.transform_apply>`, especially when casting to a cylinder.
 
 
 Options
@@ -38,10 +38,10 @@ Axis X/Y/Z
    (X and Y only for *Cylinder* cast type, since the Z axis remains unaffected).
 Factor
    The factor to control blending between original and cast vertex positions.
-   
+
    It is a linear interpolation: 0.0 gives original coordinates (i.e. modifier has no effect),
    1.0 casts to the target shape.
-   
+
    Values below 0.0 or above 1.0 exaggerate the deformation, sometimes in interesting ways.
 
 Radius

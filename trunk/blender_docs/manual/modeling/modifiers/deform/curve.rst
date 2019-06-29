@@ -15,18 +15,19 @@ When you move the object beyond the curve's ends, the object will continue
 to deform based on the direction vector at those ends.
 
 .. note::
+
    This modifier works in global space, in other words, the actual position of the geometry
    relative to the curve is determinant to get a correct result.
 
-   Typically, you'll want your object's center to be at the center of your geometry (not offset far away from it,
-   you can :ref:`set Origin to Geometry<bpy.ops.object.origin_set>` e.g.).
+   Typically, you'll want your object's origin to be at the center of your geometry (not offset far away from it,
+   you can e.g. :ref:`Set Origin to Geometry <bpy.ops.object.origin_set>`).
 
-   And then you'll want to start with your object's center at the same location as your curve object's center
-   (you may use :ref:`snap tools<bpy.ops.view3d.snap>` for that...).
+   And then you'll want to start with your object's origin at the same location as your curve object's origin
+   (you may use :ref:`snap tools <bpy.ops.view3d.snap>` for that...).
 
 If the curve is 3D, the *Tilt* value of its control points will be used to twist the deformed object.
 And the *Radius* property controls the size of the object as well.
-Those options are in the *Shape* panel, under :ref:`Path/Curve-Deform<curve-shape-path-curve-deform>`.
+Those options are in the *Shape* panel, under :ref:`Path/Curve-Deform <curve-shape-path-curve-deform>`.
 
 
 Options

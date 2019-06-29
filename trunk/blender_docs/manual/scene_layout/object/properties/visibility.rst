@@ -14,7 +14,7 @@ Selectable
 
 .. note::
 
-   These visibility options can also be set in the :doc:`Outliner </editors/outliner>.`
+   These visibility options can also be set in the :doc:`Outliner </editors/outliner>`.
 
 .. seealso::
 

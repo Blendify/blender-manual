@@ -137,4 +137,4 @@ is not always stable near 90 degree and sharper angles in the target mesh.
 
 .. seealso::
 
-   :doc:`Shrinkwrap Constraint</animation/constraints/relationship/shrinkwrap>`.
+   :doc:`Shrinkwrap Constraint </animation/constraints/relationship/shrinkwrap>`.
