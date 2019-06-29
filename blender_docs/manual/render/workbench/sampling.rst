@@ -1,7 +1,7 @@
 
-**************
-Render Quality
-**************
+********
+Sampling
+********
 
 The quality of the renders can be adjusted by changing the anti-aliasing method.
 A different one can be selected for the 3D Viewport, Viewport rendering and
