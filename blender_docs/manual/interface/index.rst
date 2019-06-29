@@ -21,6 +21,7 @@ Window System
    :maxdepth: 1
 
    window_system/introduction.rst
+   window_system/topbar.rst
    window_system/workspaces.rst
    window_system/areas.rst
    window_system/regions.rst
@@ -36,22 +37,6 @@ Keymap
    keymap/introduction.rst
    keymap/blender_default.rst
    keymap/industry_compatible.rst
-
-
-.. _topbar-index:
-
-Topbar
-======
-
-.. toctree::
-   :maxdepth: 1
-
-   topbar/app_menu.rst
-   topbar/file_menu.rst
-   topbar/edit_menu.rst
-   topbar/render_menu.rst
-   topbar/window_menu.rst
-   topbar/help_menu.rst
 
 
 Interface Controls

@@ -1,7 +1,35 @@
 
-*********
+******
+Topbar
+******
+
+.. _topbar-app_menu:
+
+App Menu
+========
+
+Splash Screen
+   Open the :ref:`splash`.
+Support Blender
+   Development Fund
+      Open the developer fund website.
+   Blender Store
+      Open the Blender store.
+About
+   Release Notes
+      Open the latest release notes.
+   Blender Website
+      Open main Blender website.
+   Credits
+      Open credits website.
+   License
+      Open License website.
+Install Application Template
+   Install a new :ref:`application template <app_templates>`.
+
+
 File Menu
-*********
+=========
 
 The options to manage files are:
 
@@ -103,3 +131,87 @@ Defaults
    .. seealso:: :ref:`prefs-menu`.
 Quit :kbd:`Ctrl-Q`
    Closes Blender and the file is saved into ``quit.blend``.
+
+
+Edit Menu
+=========
+
+Undo/Redo/History
+   See :doc:`/interface/undo_redo`.
+Operator Search
+   Execute an operator based on its name.
+Rename Active Item
+   Rename the e.g. active object or node.
+Lock Object Modes
+   Restrict select to the current mode.
+Preferences
+   Open the Preferences window.
+
+
+.. _topbar-render:
+
+Render Menu
+===========
+
+Render Image :kbd:`F12`
+   Render the active scene at the current frame.
+Render Animation :kbd:`Ctrl-F12`
+   Render the animation of the active scene.
+
+   .. seealso::
+
+      - :doc:`Rendering Animations </render/output/animation>` for details.
+Render Audio
+   Mix the scenes audio file to a sound file.
+
+   .. seealso::
+
+      - :doc:`Rendering audio </render/output/audio/introduction>` for details.
+View Render :kbd:`F11`
+   Toggle show render view.
+
+.. _topbar-render-view_animation:
+
+View Animation :kbd:`Ctrl-F11`
+   Playback rendered animation in a separate player.
+
+   .. seealso::
+
+      - :ref:`Animation player <render-output-animation_player>` for details.
+      - :ref:`Animation player <prefs-file_paths-animation_player>` preferences to select different animation players.
+Display Mode
+   Full Screen
+      Images are rendered in a maximized Image editor.
+   Image Editor
+      Images are rendered in an Image editor.
+   New Window
+      Images are rendered in a new window.
+   Keep User Interface
+      Images are rendered without changing the user interface.
+Lock Interface
+   Lock interface during rendering in favor of giving more memory to the renderer.
+
+
+Window Menu
+===========
+
+New Window
+   Create a new window by copying the current window.
+New Main Window
+   Create a new window with its own workspace and scene selection.
+Toggle Window Fullscreen
+   Toggle the current window fullscreen.
+Next Workspace
+   Switch to the next workspace.
+Previous Workspace
+   Switch to the previous workspace.
+Show Status Bar
+   Choose whether the status bar at the bottom of the window should be displayed.
+Save Screenshot
+   Capture a picture of the active area of whole Blender window.
+
+
+Help Menu
+=========
+
+See :doc:`/getting_started/help`.

@@ -42,7 +42,7 @@ Interactive Region
    Recover Last Session
       Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
    Links
-      Links official web pages, the same could be found in the *Help* Menu of the :ref:`topbar-index`.
+      Links official web pages, the same could be found in the *Help* Menu of the :doc:`Topbar </interface/window_system/topbar>`.
       See :ref:`help-menu`.
 
 
