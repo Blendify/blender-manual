@@ -5,6 +5,9 @@
 Brush
 *****
 
+For painting modes each brush type is exposed as a tool,
+the brush can be changed from the tool setting.
+
 .. figure:: /images/sculpt-paint_brush_brush_data-block-menu.png
    :align: right
 
