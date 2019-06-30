@@ -58,9 +58,10 @@ make gettext
 # Update PO files
 #
 # note, this can be slow so (multi-process)
-for LANG in $(find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort); do
-	sphinx-intl --config=manual/conf.py update --pot-dir=build/locale --language="$LANG" &
+for PO_LANG in $(find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf '%f\n' | sort); do
+	sphinx-intl --config=manual/conf.py update --pot-dir=build/locale --language="$PO_LANG" &
 done
+unset PO_LANG
 
 FAIL=0
 for JOB in $(jobs -p); do
@@ -74,16 +75,13 @@ if [ "$FAIL" != "0" ]; then
 fi
 unset FAIL
 
-# Notify on redundant PO files
-python3 tools_rst/rst_check_locale.py
-
 # Add newly created PO files:
 for SVNDIR in "$SVN_DIRS_ALL"; do
 
   NEW_FILES=$(svn status "$SVNDIR" | grep -e "\.po$" | awk '/^[?]/{print $2}')
   if [ "$NEW_FILES" != "" ]; then
     # Multiple args, don't quote.
-    svn add "$NEW_FILES"
+    svn add $NEW_FILES
   fi
   unset NEW_FILES
 
@@ -92,13 +90,16 @@ for SVNDIR in "$SVN_DIRS_ALL"; do
   NEW_DIRS=$(svn status "$SVNDIR" | grep -v -e "\.po$" | awk '/^[?]/{print $2}' | python -c "import sys, os; sys.stdout.write('\n'.join([f for f in sys.stdin.read().split('\n') if os.path.isdir(f)]))")
   if [ "$NEW_DIRS" != "" ]; then
     # Multiple args, don't quote.
-    svn add "$NEW_DIRS"
+    svn add $NEW_DIRS
   fi
   unset NEW_DIRS
 done
 
+# Notify on redundant PO files
+python3 tools_rst/rst_check_locale.py
 
 # Print Commit message:
+REVISION=$(svn info "$ROOTDIR" | grep '^Revision:' | sed -e 's/^Revision: //')
 for SVNDIR in "$SVN_DIRS_ALL"; do
   echo " svn ci \"$SVNDIR\" -m \"Update r"$REVISION\"""
 done
