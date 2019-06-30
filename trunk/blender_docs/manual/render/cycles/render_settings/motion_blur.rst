@@ -13,7 +13,7 @@ While great for stop-motion and time-lapses, this is unrealistic, since fast-mov
 objects do appear to be blurred in the direction of motion,
 both in a movie frame and in a photograph from a real-world camera.
 
-.. figure:: /images/render_cycles_settings_scene_render_motion-blur_example.jpg
+.. figure:: /images/render_cycles_render-settings_motion-blur_example.jpg
    :width: 640px
 
    Motion blur example (camera zoom).

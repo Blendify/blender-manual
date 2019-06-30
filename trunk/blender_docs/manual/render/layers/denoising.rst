@@ -29,7 +29,7 @@ to control the trade-off between a noise-free image, image details, and calculat
 Options
 =======
 
-.. figure:: /images/render_cycles_settings_scene_render-layers_denoising_panel.png
+.. figure:: /images/render_layers_denoising_panel.png
 
    Denoising panel.
 

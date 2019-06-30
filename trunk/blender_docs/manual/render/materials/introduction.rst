@@ -44,7 +44,7 @@ Components
 Materials consist of three shaders, defining the appearance of the surface,
 the volume inside the object, and the displacement of the surface.
 
-.. figure:: /images/render_cycles_materials_introduction_shaders.svg
+.. figure:: /images/render_materials_introduction_shaders.svg
    :align: center
 
 

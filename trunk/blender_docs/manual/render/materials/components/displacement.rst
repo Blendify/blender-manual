@@ -15,7 +15,7 @@ or :doc:`Vector Displacement </render/shader_nodes/vector/vector_displacement>` 
 to the displacement output of the Material Output node. Procedural, painted or baked textures can
 then be connected to these nodes.
 
-.. figure:: /images/render_cycles_materials_displacement_node_setup.png
+.. figure:: /images/render_materials_components_displacement_node-setup.png
 
    Typical displacement node setup.
 

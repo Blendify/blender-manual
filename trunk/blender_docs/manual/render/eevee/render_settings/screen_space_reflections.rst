@@ -10,7 +10,7 @@ the previous frame color to create more accurate reflection than reflection prob
 If a *Reflection Plane* is near a reflective surface,
 it will be used as the source for tracing rays more efficiently and fix the partial visibility problem.
 
-.. figure:: /images/eevee_ssr_planar_reflection_combo.jpg
+.. figure:: /images/render_eevee_render-settings_screen-space-reflections_planar-reflection-combo.jpg
 
 However, the reflected color will not contain the following effects:
 Subsurface scattering, volumetrics, screen space reflections, screen space refractions.

@@ -3,7 +3,7 @@
 World Environment
 *****************
 
-.. figure:: /images/render_cycles_world_environment-lighting.jpg
+.. figure:: /images/render_lights_world_environment-lighting.jpg
    :align: right
 
    Lighting with an HDR image.
