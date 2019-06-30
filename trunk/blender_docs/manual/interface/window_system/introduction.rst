@@ -18,7 +18,7 @@ Interface Elements
 
 Blender's interface is separated into three parts listed below:
 
-- Top bar at the very top.
+- Topbar at the very top.
 - Editors area in the middle.
 - Status bar at the bottom.
 
@@ -30,7 +30,7 @@ which can then be named and saved for later use. The Layout workspace is describ
 
 .. figure:: /images/interface_window-system_introduction_default-screen.png
 
-   Blender's default Screen Layout. Top bar (blue), Editors (green) and Status bar (red).
+   Blender's default Screen Layout. Top bar (blue), Editors (green) and Status Bar (red).
 
 
 The Layout Workspace
