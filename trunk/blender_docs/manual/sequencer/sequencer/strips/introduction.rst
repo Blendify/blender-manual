@@ -7,8 +7,6 @@ Introduction
 
    Strip schematic.
 
-   .. TODO2.8(sequencer): rename hard offset -> hold offset
-
 A strip is a container which carries frames provided by one or more sources (input).
 It is defined by a *Start Frame* and a *Length*, and is displayed as a colored horizontal rectangle.
 
