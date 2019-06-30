@@ -1,4 +1,3 @@
-
 .. _ui-tool_system:
 
 ***********
@@ -18,6 +17,8 @@ although typically they use the :kbd:`LMB`, sometimes with modifier keys.
 Some tools define gizmos (*Shear* and *Spin* for example) to help control the tool.
 
 
+.. _ui-region-toolbar:
+
 Toolbar
 =======
 
@@ -31,9 +32,8 @@ Holding your cursor over a tool for a short time shows it's name, keep hovering 
 
 .. tip::
 
-   Expand the Toolbar to show icons on two columns instead of one.
-
-   Expand the Toolbar even more to show icons with titles.
+   - Expand the Toolbar to show icons on two columns instead of one.
+   - Expand the Toolbar even more to show icons with titles.
 
 
 Properties
