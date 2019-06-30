@@ -1,5 +1,4 @@
 .. _bpy.types.Region:
-
 .. _ui-region:
 
 *******
@@ -68,7 +67,6 @@ Flip to Bottom/Top
 Maximize Area
    See :ref:`bpy.ops.screen.screen_full_area`.
 
-.. _ui-region-toolbar:
 
 Toolbar
 =======
@@ -76,10 +74,7 @@ Toolbar
 The *Toolbar* (on the left side of editor area) contains a set of interactive tools.
 :kbd:`T` toggles the visibility of Toolbar.
 
-.. tip::
-
-   Expand the Toolbar to show icons on two columns instead of one.
-   Expand the Toolbar even more to show icons with titles.
+This is further documented here: :ref:`Toolbar <ui-region-toolbar>`.
 
 
 Adjust Last Operation
@@ -87,7 +82,7 @@ Adjust Last Operation
 
 The *Adjust Last Operation* is a region that shows tool options when tools (operators) are run.
 
-This is further documented here: :ref:`last operator <ui-redo-last>`.
+This is further documented here: :ref:`Adjust Last Operation <ui-redo-last>`.
 
 
 .. _ui-region-sidebar:
