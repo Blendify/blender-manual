@@ -49,9 +49,6 @@ the selected object and mode.
 
    The Header of the 3D View editor.
 
-All hotkeys you press will affect the contents of the editor where mouse pointer is located.
-
-
 
 .. _ui-region-toolbar:
 
