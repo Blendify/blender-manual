@@ -194,6 +194,7 @@ Display Mode
 Lock Interface
    Lock interface during rendering in favor of giving more memory to the renderer.
 
+.. _topbar-window:
 
 Window Menu
 -----------
@@ -209,7 +210,8 @@ Next Workspace
 Previous Workspace
    Switch to the previous workspace.
 Show Status Bar
-   Choose whether the status bar at the bottom of the window should be displayed.
+   Choose whether the :doc:`Status Bar </interface/window_system/status_bar>`
+   at the bottom of the window should be displayed.
 Save Screenshot
    Capture a picture of the active area of whole Blender window.
 

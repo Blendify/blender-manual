@@ -23,6 +23,7 @@ Window System
    window_system/introduction.rst
    window_system/topbar.rst
    window_system/workspaces.rst
+   window_system/status_bar.rst
    window_system/areas.rst
    window_system/regions.rst
    window_system/tabs_panels.rst
