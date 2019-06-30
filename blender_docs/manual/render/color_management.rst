@@ -9,7 +9,7 @@ Color management is important to create renders and assets that are physically a
 on multiple display devices. It is used both to ensure all parts of the pipeline interpret colors correctly,
 and to make artistic changes like exposure and color grading.
 
-.. figure:: /images/render_post-process_color-management_different-exposures.jpg
+.. figure:: /images/render_color-management_different-exposures.jpg
    :width: 300px
    :align: right
 
@@ -31,7 +31,7 @@ are needed for rendering, display and storage of images.
 Rendering and compositing is best done in *scene linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
-.. figure:: /images/render_post-process_color-management_linear-workflow.svg
+.. figure:: /images/render_color-management_linear-workflow.svg
 
    An example of a linear workflow.
 
@@ -62,7 +62,7 @@ Besides that, it can also be useful to give the renders a particular look,
 e.g. as if they have been printed on real camera film.
 The default Filmic transform does this.
 
-.. figure:: /images/render_post-process_color-management_linear-display-space.svg
+.. figure:: /images/render_color-management_linear-display-space.svg
 
    Conversion from linear to display device space.
 
@@ -180,7 +180,7 @@ Color Space
    and on such values, no color space conversion should ever be applied.
    For such images, the color space should be set to *None*.
 
-.. TODO2.8 .. figure:: /images/render_post-process_color-management_image-settings.png
+.. TODO2.8 .. figure:: /images/render_color-management_image-settings.png
 
 .. TODO2.8    Image settings for color management.
 

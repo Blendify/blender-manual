@@ -49,18 +49,18 @@ Perspective
 
       .. list-table::
 
-         * - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks.jpg
+         * - .. figure:: /images/render_cameras_traintracks-perspective-BI.jpg
 
                 Perspective camera with 35mm focal length.
 
-           - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-telephoto.jpg
+           - .. figure:: /images/render_cameras_traintracks-perspective-telephoto-BI.jpg
 
                 Perspective camera with 210mm focal length instead of 35mm.
 
       Lens Unit
          The focal length can be set either in terms of millimeters or the actual :term:`Field of View` as an angle.
 
-         .. figure:: /images/render_cycles_camera_perspective.svg
+         .. figure:: /images/render_cameras_perspective.svg
             :align: center
             :width: 50%
 
@@ -75,7 +75,7 @@ Orthographic
    With *Orthographic* perspective objects always appear at their actual size, regardless of distance.
    This means that parallel lines appear parallel, and do not converge like they do with *Perspective*.
 
-   .. figure:: /images/render_blender-render_camera_object-data_perspective-orthographic-ortho-example.jpg
+   .. figure:: /images/render_cameras_traintracks-orthographic-BI.jpg
       :width: 50%
 
       Render from the same camera angle as the previous examples, but with orthographic perspective.
@@ -87,7 +87,7 @@ Orthographic
       Since parallel lines do not converge in orthographic mode (no vanishing points),
       the lens shift settings are equivalent to translating the camera in the 3D View.
 
-      .. figure:: /images/render_cycles_camera_orthographic.svg
+      .. figure:: /images/render_cameras_orthographic.svg
          :align: center
          :width: 50%
 
@@ -102,11 +102,11 @@ Shift
 
    .. list-table::
 
-      * - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-lens-shift.jpg
+      * - .. figure:: /images/render_cameras_traintracks-perspective-lens-shift-BI.jpg
 
              Horizontal lens shift of 0.330.
 
-        - .. figure:: /images/render_blender-render_camera_object-data_perspective-perspective-traintracks-camera-rotate.jpg
+        - .. figure:: /images/render_cameras_traintracks-perspective-rotate-BI.jpg
 
              Rotation of the camera object instead of a lens shift.
 
@@ -151,7 +151,7 @@ Real-world cameras transmit light through a lens that bends and focuses it onto 
 Because of this, objects that are a certain distance away are in focus,
 but objects in front and behind that are blurred.
 
-.. figure:: /images/render_cycles_camera_dof-bokeh.jpg
+.. figure:: /images/render_cameras_dof-bokeh.jpg
    :align: center
    :width: 50%
 
@@ -232,7 +232,7 @@ yet safe areas are still considered best practice and may be legally required fo
 
 In Blender, safe areas can be set from the Camera and Sequencer views.
 
-.. figure:: /images/render_blender-render_camera_object-data_safe-areas-main.png
+.. figure:: /images/render_cameras_safe-areas-main-BI.png
    :align: center
    :width: 50%
 
@@ -270,7 +270,7 @@ of your composition can still be visible in these screens.
 
 Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (widescreen).
 
-.. figure:: /images/render_blender-render_camera_object-data_safe-areas-cuts.png
+.. figure:: /images/render_cameras_safe-areas-cuts-BI.png
    :align: center
    :width: 50%
 
@@ -330,7 +330,7 @@ Flip Vertically
 Viewport Display
 ----------------
 
-.. figure:: /images/render_blender-render_camera_object-data_display-view.png
+.. figure:: /images/render_cameras_display-view-BI.png
    :align: center
    :width: 50%
 

@@ -39,7 +39,7 @@ Adaptive
       When using *Adaptive* the *Render Levels* property gets changed to *Dicing Rate*,
       this property is used to multiply the :ref:`scene dicing rate <cycles-subdivision-rate>`.
 
-      .. figure:: /images/render_cycles_settings_objects_adaptive-subsurf_displacement-dicing.png
+      .. figure:: /images/render_cycles_object-settings_adaptive-subdiv_displacement-dicing.png
 
          Subdivision Off/On, Dicing Rate: 1.0 - 0.3 - 0.05 (monkeys look identical in viewport, no modifiers).
 

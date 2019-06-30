@@ -33,7 +33,7 @@ Encoding Panel
 
    :Panel:     :menuselection:`Properties editor --> Output --> Encoding`
 
-.. figure:: /images/render_output_video_encoding-panel.png
+.. figure:: /images/render_output_file-formats_video-encoding-panel.png
 
    Encoding panel.
 

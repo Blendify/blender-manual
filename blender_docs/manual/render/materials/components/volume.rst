@@ -48,7 +48,7 @@ For more control, volume shading components can be manually combined into a cust
 - :doc:`Emission </render/shader_nodes/shader/emission>`
   will emit light from the volume, for example for fire.
 
-.. figure:: /images/render_cycles_materials_volume_node.jpg
+.. figure:: /images/render_materials_components_volume_node.jpg
    :align: center
 
    Volume Absorption, Scatter and Emission

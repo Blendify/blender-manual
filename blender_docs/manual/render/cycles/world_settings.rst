@@ -47,7 +47,7 @@ Mist Pass
 
    :Panel:     :menuselection:`World --> Mist Pass`
 
-.. figure:: /images/render_blender-render_world_mist_example1.jpg
+.. figure:: /images/render_cycles_world-settings_example1-BI.jpg
 
    Mist example (`blend-file <https://wiki.blender.org/wiki/File:25-Manual-World-Mist-Example1.blend>`__).
 
@@ -117,11 +117,11 @@ Multiple Importance Sample
 
    .. list-table::
 
-      * - .. figure:: /images/render_cycles_world_mis-off.jpg
+      * - .. figure:: /images/render_cycles_world-settings_mis-off.jpg
 
              Multiple Importance Sample off.
 
-        - .. figure:: /images/render_cycles_world_mis-on.jpg
+        - .. figure:: /images/render_cycles_world-settings_mis-on.jpg
 
              Multiple Importance Sample on.
 
@@ -189,6 +189,6 @@ the background and a low-res image for the actual lighting.
 Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-res image
 will also be visible in reflections.
 
-.. figure:: /images/render_cycles_world_tricks.png
+.. figure:: /images/render_cycles_world-settings_tricks.png
 
    Nodes for the trick above.

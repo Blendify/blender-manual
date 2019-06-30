@@ -13,7 +13,7 @@ This includes render size, frame rate, pixel aspect ratio, output location, and 
 Dimensions Panel
 ================
 
-.. figure:: /images/render_output_output_dimensions-panel.png
+.. figure:: /images/render_output_settings_dimensions-panel.png
 
    Dimensions panel.
 
@@ -70,7 +70,7 @@ Time Remapping
 Output Panel
 ============
 
-.. figure:: /images/render_output_output_panel.png
+.. figure:: /images/render_output_settings_panel.png
 
    Output panel.
 
@@ -129,7 +129,7 @@ Post Processing Panel
 
 The Post Processing panel is used to control different options used to process your image after rendering.
 
-.. figure:: /images/render_post-process_panel_post-processing-panel.png
+.. figure:: /images/render_output_settings_post-processing-panel.png
    :align: right
 
    Post Processing panel.

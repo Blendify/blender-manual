@@ -5,7 +5,7 @@
 Speaker
 *******
 
-.. figure:: /images/render_audio_speaker_objects.png
+.. figure:: /images/render_output_audio_speaker_objects.png
 
    Speaker objects.
 
@@ -54,7 +54,7 @@ When you add a speaker object such a strip will be added at the current frame.
 Distance
 --------
 
-.. figure:: /images/render_audio_speaker_properties.png
+.. figure:: /images/render_output_audio_speaker_properties.png
    :align: right
 
    Speaker properties.
