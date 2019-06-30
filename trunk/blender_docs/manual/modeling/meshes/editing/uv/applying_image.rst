@@ -15,7 +15,7 @@ Applying Textures to UVs
 ========================
 
 The UV Editor allows you to map textures directly to the mesh faces.
-The 3D View editor shows you the object being textured.
+The 3D Viewport shows you the object being textured.
 If you set the 3D View into Textured viewport shading,
 you will immediately see any changes made in the UV Editor, and vice versa.
 This is because no real rendering is taking place; it is all just viewport shading.

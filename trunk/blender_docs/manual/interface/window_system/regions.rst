@@ -11,7 +11,7 @@ An area is subdivided into regions.
 .. figure:: /images/interface_window-system_regions_3d-view.png
    :align: center
 
-   The regions of the 3D View editor showing the Sidebar and
+   The regions of the 3D Viewport showing the Sidebar and
    the :ref:`ui-redo-last` panel after adding a Cube.
 
    :ref:`Header <ui-region-header>` (green),
