@@ -14,6 +14,7 @@ Areas
 
 The application window is divided up into a number of rectangular areas.
 Areas reserve screen space for :doc:`/editors/index`, such as 3D Viewport, or an Outliner.
+All hotkeys you press will affect the contents of the editor in the area the mouse pointer is located.
 Area boundary is indicated by rounded (beveled) corners.
 
 .. container:: lead
