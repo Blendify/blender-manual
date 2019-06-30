@@ -3,6 +3,9 @@
 Texture Slots & Mask
 ********************
 
+.. _bpy.types.ImagePaint.mode:
+.. _bpy.types.ImagePaint.interpolation:
+
 Texture Slots
 =============
 
@@ -50,6 +53,8 @@ Save All Images
    Same as in the :doc:`Image Editor </editors/image/introduction>`.
 
 
+.. _bpy.types.ImagePaint.stencil:
+
 Mask
 ====
 
@@ -60,11 +65,12 @@ Mask
 
 The mask can be deactivated by the checkbox in the header.
 
-UV Map
+UV Layer
    Allows you to select the UV layer for the mask image.
 Stencil Image
    Image used as a mask. See :ref:`ui-data-block`.
 Display Color
    Mask color in the viewport. See :ref:`ui-color-picker`.
-Invert Stencil (black/white icon)
-   Inverts the mask.
+
+   Invert Stencil (black/white icon)
+      Inverts the mask.
