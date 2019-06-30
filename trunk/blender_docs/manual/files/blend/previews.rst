@@ -53,8 +53,8 @@ Clear Data-Block Previews
 
    :Menu:      :menuselection:`File --> Data Previews --> Clear Data-blocks Previews`
 
-Clear all, a generic type of, or a specific data-block type of previews,
-in the current blend-file. You still need to save the file if you want to clear them from disk.
+Clear all, a generic type of, or a specific data-block type of previews in the current blend-file.
+You still need to save the file if you want to clear them from disk.
 
 
 .. _bpy.ops.wm.previews_batch_generate:

@@ -151,7 +151,7 @@ Use Freestyle
 Override
 --------
 
-Material Overrider
+Material Override
    Overrides all materials in the render layer.
 Samples
    View layer samples to override the scene samples.
