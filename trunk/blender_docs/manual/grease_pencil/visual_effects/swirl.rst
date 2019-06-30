@@ -10,7 +10,7 @@ The effect use an object as the center of the swirl.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_swirl_panel.png
+.. figure:: /images/grease-pencil_visual-effects_swirl_panel.png
    :align: right
 
    Shadow Visual Effect.
@@ -33,22 +33,22 @@ Example
 
 .. list-table:: Swirl Effect samples (with a Radius of 100 px).
 
-   * - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_00.png
+   * - .. figure:: /images/grease-pencil_visual-effects_swirl_angle-00.png
           :width: 200px
 
           Angle: 0°.
 
-     - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_15.png
+     - .. figure:: /images/grease-pencil_visual-effects_swirl_angle-15.png
           :width: 200px
 
           Angle: 15°.
 
-     - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_45.png
+     - .. figure:: /images/grease-pencil_visual-effects_swirl_angle-45.png
           :width: 200px
 
           Angle: 45°.
 
-     - .. figure:: /images/grease_pencil_visual_effects_swirl_angle_90.png
+     - .. figure:: /images/grease-pencil_visual-effects_swirl_angle-90.png
           :width: 200px
 
           Angle: 90°.

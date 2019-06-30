@@ -14,7 +14,7 @@ You can think of it as animated
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_hook_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_hook_panel.png
    :align: right
 
    The Hook modifier.
@@ -63,6 +63,6 @@ Layer
 Example
 -------
 
-.. figure:: /images/grease_pencil_modifiers_deform_hook_sample.png
+.. figure:: /images/grease-pencil_modifiers_deform_hook_sample.png
 
    Empty used as Hook to manipulate a vertex group (right eye of the monkey).

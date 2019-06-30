@@ -15,7 +15,7 @@ Multiple Array modifiers may be active for an object at the same time
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_generate_array_panel.png
+.. figure:: /images/grease-pencil_modifiers_generate_array_panel.png
    :align: right
 
    The Array modifier.

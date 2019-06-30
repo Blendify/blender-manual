@@ -9,7 +9,7 @@ The *Tint* Modifier colorize the original stroke with a tint color.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_color_tint_panel.png
+.. figure:: /images/grease-pencil_modifiers_color_tint_panel.png
    :align: right
 
    Tint Modifier.
@@ -54,17 +54,17 @@ Example
 
 .. list-table:: Tint sample.
 
-   * - .. figure:: /images/grease_pencil_modifiers_color_tint_factor_0.png
+   * - .. figure:: /images/grease-pencil_modifiers_color_tint_factor-0.png
           :width: 200px
 
           Color Mix Factor: 0 (original color).
 
-     - .. figure:: /images/grease_pencil_modifiers_color_tint_factor_05.png
+     - .. figure:: /images/grease-pencil_modifiers_color_tint_factor-05.png
           :width: 200px
 
           Color Mix Factor: 0.5.
 
-     - .. figure:: /images/grease_pencil_modifiers_color_tint_factor_1.png
+     - .. figure:: /images/grease-pencil_modifiers_color_tint_factor-1.png
           :width: 200px
 
           Color Mix Factor: 1.0 (fully tinted).

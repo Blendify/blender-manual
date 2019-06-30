@@ -16,7 +16,7 @@ This is especially useful for cut-out animation.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_time_offset_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_time-offset_panel.png
    :align: right
 
    Time Offset Modifier.

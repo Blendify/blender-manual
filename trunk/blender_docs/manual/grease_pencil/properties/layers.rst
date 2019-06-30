@@ -3,7 +3,7 @@
 2D Layers
 *********
 
-.. figure:: /images/grease_pencil_properties_layers_panel.png
+.. figure:: /images/grease-pencil_properties_layers_panel.png
    :align: right
 
    *Grease Pencil* Layers panel.
@@ -101,12 +101,12 @@ Mask (overlay icon)
 
 .. list-table::
 
-   * - .. figure:: /images/grease_pencil_properties_layers_mask_off.png
+   * - .. figure:: /images/grease-pencil_properties_layers_mask-off.png
           :width: 320px
 
           Red stroke on top layer without mask.
 
-     - .. figure:: /images/grease_pencil_properties_layers_mask_on.png
+     - .. figure:: /images/grease-pencil_properties_layers_mask-on.png
           :width: 320px
 
           Red stroke on top layer with mask activated.
@@ -138,7 +138,7 @@ Show only on keyframed
 Adjustments
 ===========
 
-.. figure:: /images/grease_pencil_properties_layers_adjustment.png
+.. figure:: /images/grease-pencil_properties_layers_adjustment.png
    :align: right
 
    Layers adjustment panel.

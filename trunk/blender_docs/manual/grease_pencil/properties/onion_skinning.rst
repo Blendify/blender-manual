@@ -10,7 +10,7 @@ The main switch to show/hide Onion Skinning is in the :ref:`Viewport Overlays <3
 but *Grease Pencil* Onion Skinning is per-layer and the visibility can be toggle in the layer list.
 See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 
-.. figure:: /images/grease_pencil_properties_onion_skinning_panel.png
+.. figure:: /images/grease-pencil_properties_onion-skinning_panel.png
    :align: right
 
    Onion Skinning panel.
@@ -60,6 +60,6 @@ Loop
    as ghost when you are on the last frame of your animation.
 
 
-.. figure:: /images/grease_pencil_properties_onion_skinning_example.png
+.. figure:: /images/grease-pencil_properties_onion-skinning_example.png
 
    An example of *Grease Pencil* Onion Skinning activated.

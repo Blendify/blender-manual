@@ -3,7 +3,7 @@
 Viewport Display
 ****************
 
-.. figure:: /images/grease_pencil_properties_display_panel.png
+.. figure:: /images/grease-pencil_properties_display_panel.png
    :align: right
 
    Viewport Display panel.
@@ -42,7 +42,7 @@ Offset X/Y
 Subdivisions
    Specifies the number of subdivisions to use for the grid.
 
-.. figure:: /images/grease_pencil_properties_display_canvas.png
+.. figure:: /images/grease-pencil_properties_display_canvas.png
    :align: right
 
    Example: Canvas on XZ drawing plane using a green color grid.

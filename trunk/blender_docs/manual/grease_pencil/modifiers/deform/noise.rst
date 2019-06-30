@@ -13,7 +13,7 @@ Random values can be used for the noise factor for more vivid effects.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_noise_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_noise_panel.png
    :align: right
 
    Noise Modifier.

@@ -16,7 +16,7 @@ the shape of a :doc:`Lattice </animation/lattice>` object.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_lattice_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_lattice_panel.png
    :align: right
 
    Lattice Modifier.
@@ -46,12 +46,12 @@ Example
 
 .. list-table:: Lattice modifier sample.
 
-   * - .. figure:: /images/grease_pencil_modifiers_deform_lattice_original.png
+   * - .. figure:: /images/grease-pencil_modifiers_deform_lattice_original.png
           :width: 320px
 
           Original Model.
 
-     - .. figure:: /images/grease_pencil_modifiers_deform_lattice_edit.png
+     - .. figure:: /images/grease-pencil_modifiers_deform_lattice_edit.png
           :width: 320px
 
           After Lattice edition.

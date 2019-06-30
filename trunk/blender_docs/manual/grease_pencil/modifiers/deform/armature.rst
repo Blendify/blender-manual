@@ -17,7 +17,7 @@ this object can be deformed accurately so that geometry does not have to be anim
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_armature_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_armature_panel.png
    :align: right
 
    The Armature modifier.

@@ -7,7 +7,7 @@ Introduction
 Can be use to make traditional 2D animation, cut-out animation, motion graphics or
 use it as storyboard tool among other things.
 
-.. figure:: /images/grease_pencil_introduction_example.png
+.. figure:: /images/grease-pencil_introduction_example.png
 
    An example of a Grease Pencil Object in the 3D environment.
 

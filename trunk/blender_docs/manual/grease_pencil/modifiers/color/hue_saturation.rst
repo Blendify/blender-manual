@@ -9,7 +9,7 @@ The *Hue/Saturation* Modifier applies a color transformation in the HSV object o
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_color_hue_saturation_panel.png
+.. figure:: /images/grease-pencil_modifiers_color_hue-saturation_panel.png
    :align: right
 
    Hue/Saturation Modifier.

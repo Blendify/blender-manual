@@ -10,7 +10,7 @@ It can also use another object as the mirror center, then use that object's loca
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_generate_mirror_panel.png
+.. figure:: /images/grease-pencil_modifiers_generate_mirror_panel.png
    :align: right
 
    The Mirror modifier.

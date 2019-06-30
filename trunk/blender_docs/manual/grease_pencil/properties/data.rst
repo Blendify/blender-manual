@@ -3,7 +3,7 @@
 Object Data
 ***********
 
-.. figure:: /images/grease_pencil_properties_data_panel.png
+.. figure:: /images/grease-pencil_properties_data_panel.png
    :align: right
 
    Grease Pencil Object Data.
