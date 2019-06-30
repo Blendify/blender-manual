@@ -22,7 +22,7 @@ Studio
    World Space Lighting
       TODO2.8.
    Rotation
-      TODO2.8.
+      The rotation of the studio lights on the Z axis.
 
 .. _render-workbench-matcap:
 
