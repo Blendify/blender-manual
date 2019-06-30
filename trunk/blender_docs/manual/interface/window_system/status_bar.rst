@@ -18,6 +18,20 @@ The region to the left of the Status Bar displays information about what mouse b
 and keys do for each editor, mode and tool, and it updates as you hold modifier keys.
 
 
+Status Messages
+===============
+
+The region in the middle of the Status Bar displays information about currently running tasks or tools.
+
+Running Tasks
+   A progress bar and a cancel button are shown while doing longer computational tasks such as rendering or baking.
+   Hovering over them shows a time estimate.
+Report Message
+   Label for an operator to display results or warnings. It disappears after a short time.
+   By clicking with :kbd:`LMB` on the icon on the left side,
+   the full report is copied into a new text data-block, which you can open in the Text Editor.
+
+
 Resource Information
 ====================
 
