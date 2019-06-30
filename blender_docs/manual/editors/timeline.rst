@@ -109,7 +109,7 @@ Playback Popover
 
 The *Playback* popover contains options controlling the animation playback.
 
-Synchronize Playback
+Sync Mode
    .. figure:: /images/editors_timeline_red-fps.png
       :figwidth: 109px
       :align: right
@@ -133,7 +133,7 @@ Audio Scrubbing
    If your animation has sound, this option plays bits of the sound wave
    while you move the playhead with :kbd:`LMB` or keyboard arrows (like a moving playhead).
 Mute Audio
-   Mute the sound from Sequence Editors.
+   Mute the sound from any audio sources.
 Subframes
    Display and allow changing the current scene sub-frame.
 Limit Playhead to Frame Range
@@ -143,11 +143,11 @@ Follow Playhead
    Following will be done when animating and changing frame.
    When the cursor reaches the end of the screen, the next range of frames of the same width will be displayed.
 Active Editor Only
-   While playing, updates the Timeline, if Animation Editors and All 3D View Editors disabled.
-All 3D View Editors
+   While playing, updates the Timeline, if *Animation Editors* and *All 3D Viewports* disabled.
+All 3D Viewports
    While playing, updates the 3D View and the Timeline.
 Animation Editors
-   While playing, updates the Timeline, Dope Sheet, Graph Editor, Video Sequence Editor.
+   While playing, updates the Timeline, Dope Sheet, Graph Editor, Video Sequencer.
 Property Editors
    When the animation is playing, this will update the property values in the UI.
 Image Editors

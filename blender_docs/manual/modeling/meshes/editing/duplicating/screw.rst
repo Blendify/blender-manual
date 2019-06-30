@@ -129,7 +129,7 @@ Once you click in the *Screw* tool in the Mesh Tools Panel,
 Blender will enter in the *Screw* interactive mode, and the :ref:`ui-redo-last` Panel
 at the end of the Mesh Tools Panel will be replaced so you can adjust the values explained below.
 To show the Mesh Tools Panel,
-use the shortcut :kbd:`T` in the Edit Mode of the 3D View editor.
+use the shortcut :kbd:`T` in the Edit Mode of the 3D Viewport.
 
 Once you perform any other operation,
 Blender leaves the interactive mode and accepts all of the values. Because it is modal,
@@ -218,7 +218,7 @@ The Spring Example
 #. Move this circle three units on the X axis to the left;
    you can use the shortcut :kbd:`Ctrl` while selecting with the mouse using the standard transform widgets
    (clicking on the red arrow shown with the object and moving while using shortcut :kbd:`Ctrl`
-   until the info in the bottom left corner of the 3D View editor displays ``D. -3.0000 (3.0000) Global``),
+   until the info in the bottom left corner of the 3D Viewport displays ``D. -3.0000 (3.0000) Global``),
    or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
    You can use the Transform Panel, and type :kbd:`Minus 3` and :kbd:`Return` in the Location too.
    (See the Fig. :ref:`fig-mesh-screw-circle`.)

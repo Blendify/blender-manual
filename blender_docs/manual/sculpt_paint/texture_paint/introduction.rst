@@ -20,7 +20,7 @@ There are three ways to establish the image used by the UV texture:
 
 Blender features a built-in paint mode called *Texture Paint* which is designed
 specifically to help you edit your UV textures and images quickly and
-easily in either the Image or the 3D View Editor.
+easily in either the Image Editor or the 3D Viewport.
 Since a UV texture is just a special-purpose image,
 you can also use any external paint program, like GIMP or Krita.
 

@@ -75,7 +75,7 @@ Speaker
 Force Field
    :doc:`Force Fields </physics/forces/force_fields/index>` are used in physical simulations.
    They give simulations external forces, creating movement, and
-   are represented in the 3D View editor as small control objects.
+   are represented in the 3D Viewport as small control objects.
 
 Collection Instance
    .. TODO2.8: update link
