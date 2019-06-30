@@ -40,6 +40,8 @@ For the cloth object, locate the *Cloth Collision* panel, shown to the right:
 Quality
    A general setting for how fine and good a simulation you wish.
    Higher numbers take more time but ensure less tears and penetrations through the cloth.
+
+
 Distance
    As another object gets this close to it,
    the simulation will start to push the cloth out of the way.
@@ -48,8 +50,8 @@ Friction
    For example, silk has a lower coefficient of friction than cotton.
 
 
-Self-collisions
----------------
+Self Collision
+--------------
 
 Real cloth cannot permeate itself, so you normally want the cloth to self-collide.
 
@@ -105,65 +107,6 @@ This true shape is the basis shape as modified by shape keys or armatures. There
 the Collision Modifier must be **after** any of those.
 The image to the right shows the *Modifiers* panel for the Character mesh object
 (not the cloth object).
-
-
-Cloth Cache
-===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth Cache`
-
-Cache settings for cloth are the same as with other dynamic systems.
-See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
-
-
-Bake Collision
---------------
-
-.. TODO2.8:
-   .. figure:: /images/physics_cloth_settings_collisions_bake.png
-
-      After baking.
-
-After you have set up the deflection mesh for the frame range you intend to run the simulation
-(including animating that mesh *via* armatures),
-you can now tell the cloth simulation to compute (and avoid) collisions.
-Select the cloth object and in the *Object* tab,
-*Physics* tab, set the *Start* and *End* settings for
-the simulation frames you wish to compute, and click the *Bake* button.
-
-You cannot change *Start* or *End* without clearing the bake simulation.
-When the simulation has finished, you will notice you have the option to free the bake,
-edit the bake and re-bake:
-
-There are a few things you will probably notice right away. First,
-it will bake significantly slower than before,
-and it will probably clip through the box pretty badly as in the picture on the right.
-
-
-Editing the Cached Simulation
------------------------------
-
-The cache contains the shape of the mesh at each frame. You can edit the cached simulation,
-after you have baked the simulation and pressed the *Bake Editing* button.
-Just go to the frame you want to fix and :kbd:`Tab` into *Edit Mode*.
-There you can move your vertices using all of Blender's mesh shaping tools. When you exit,
-the shape of the mesh will be recorded for that frame of the animation.
-If you want Blender to resume the simulation using the new shape going forward,
-:kbd:`LMB` click *Rebake from next Frame* and play the animation.
-Blender will then pick up with that shape and resume the simulation.
-
-Edit the mesh to correct minor tears and
-places where the colliding object has punctured the cloth.
-
-If you add, delete, or extrude vertices in the mesh, Blender will take the new mesh as
-the starting shape of the mesh back to the *first frame* of the animation,
-replacing the original shape you started with,
-up to the frame you were on when you edited the mesh. Therefore,
-if you change the content of a mesh, when you press :kbd:`Tab` out of *Edit Mode*,
-you should unprotect and clear the cache so that Blender will make a consistent simulation.
 
 
 Troubleshooting

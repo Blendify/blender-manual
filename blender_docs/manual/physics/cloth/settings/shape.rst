@@ -1,86 +1,7 @@
-.. _bpy.types.ClothSettings:
 
-********
-Settings
-********
-
-Cloth
-=====
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth`
-
-Presets
-   Contains a number of :ref:`preset <ui-presets>` cloth examples.
-Quality Steps
-   Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
-Speed Multiplier
-   Adjust how fast time flows in the cloth simulation.
-
-
-Physical Properties
--------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties`
-
-Mass
-   The mass of the cloth material.
-Air Viscosity
-   Air has some thickness which slows falling things down.
-Bending Model
-   Linear
-      Cloth model with linear bending springs (old).
-   Angular
-      Cloth model with angular bending springs.
-
-
-Stiffness
-^^^^^^^^^
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties --> Stiffness`
-
-Tension
-   How much the material resists stretching.
-Compression
-   How much the material resists compression.
-Structural
-   Overall stiffness of the cloth (only in linear bending model).
-Shear
-   How much the material resists shearing.
-Bending
-   Wrinkle coefficient. Higher creates more large folds.
-
-
-Damping
-^^^^^^^
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth --> Physical Properties --> Damping`
-
-Tension
-   Amount of damping in stretching behavior.
-Compression
-   Amount of damping in compression behavior.
-Structural
-   Amount of damping in stretching behavior (only in linear bending model).
-Shear
-   Amount of damping in shearing behavior.
-Bending
-   Amount of damping in bending behavior.
-
-
+*****
 Shape
------
+*****
 
 .. admonition:: Reference
    :class: refbox
@@ -140,7 +61,7 @@ Dynamic Mesh
 
 
 Pinning Clothing to an Armature
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+===============================
 
 Clothing can be simulated and pinned to an armature.
 For example, a character could have a baggy tunic pinned to the character's waist with a belt.
@@ -181,43 +102,3 @@ The typical workflow for pinning:
 
 .. This is jumping ahead and not clear and not true at this point.
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
-
-
-Property Weights
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth --> Property Weights`
-
-Structural Group
-   Defines a vertex group to control over structural stiffness.
-Max Tension
-   Maximum tension stiffness value.
-
-Shear Group
-   Vertex group for fine control over shear stiffness.
-Max Shearing
-   Maximum shear scaling value.
-
-Bending Group
-   Vertex group for fine control over bending stiffness.
-Max Bending
-   Maximum bending stiffness value.
-
-Shrinking Group
-   vertex group for shrinking cloth.
-Max Shrinking
-   Max amount to shrink cloth by.
-
-
-Cloth Field Weights
-===================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Physics --> Cloth --> Field Weights`
-
-As other physics dynamics systems, Cloth simulation is also influenced by external force effectors.
