@@ -66,8 +66,28 @@ Friction
       Random variation of friction.
 
 
+.. _physics-collision-soft-bodt-cloth:
+
 Soft body and Cloth
 -------------------
+
+It is also important to note that this collision panel is used to tell
+all simulations that this object is to participate in colliding/deflecting other objects
+on a shared layer (particles, soft bodies, and cloth).
+
+.. note::
+
+   The object's shape deforms the cloth,
+   so the cloth simulation must know the "true" shape of that mesh object at that frame.
+   This true shape is the basis shape as modified by shape keys or armatures. Therefore,
+   the Collision Modifier must be **after** any of those.
+   The image to the right shows the *Modifiers* panel for the Character mesh object
+   (not the cloth object).
+
+   .. TODO2.8:
+      .. figure:: /images/physics_cloth_settings_collisions_stack.png
+
+         Collision stack.
 
 Damping
    Damping during a collision.
