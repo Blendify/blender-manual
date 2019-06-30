@@ -17,6 +17,10 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
    you must clear the cache; otherwise, Blender will use the position of
    the current/cached mesh's vertices when trying to represent where they are.
 
+.. note:: Subdivision Surface Modifier
+
+   A bake/cache is done for every subdivision level so please use
+   **the equal** subdivision level for render and preview.
 
 Bake Collision
 --------------

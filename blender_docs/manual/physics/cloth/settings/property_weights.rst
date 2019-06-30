@@ -12,6 +12,8 @@ Structural Group
    Defines a vertex group to control over structural stiffness.
 Max Tension
    Maximum tension stiffness value.
+Max Compression
+   TODO2.8.
 
 Shear Group
    Vertex group for fine control over shear stiffness.
