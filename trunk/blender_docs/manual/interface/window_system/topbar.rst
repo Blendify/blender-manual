@@ -58,28 +58,20 @@ Save As... :kbd:`Shift-Ctrl-S`
    Opens the File Browser to specify file name and location of :ref:`save <files-blend-save>`.
 Save Copy...
    :ref:`Saves <files-blend-save>` a copy of the current file.
-Link... :kbd:`F4`, :kbd:`L`
+Link...
    Links data from an external blend-file (library) to the current scene.
    The edition of that data is only possible in the external library.
    *Link* and *Append* are used to load in only selected parts from another file.
    See :doc:`Linked Libraries </files/linked_libraries>`.
-Append... :kbd:`F4`, :kbd:`A`
+Append...
    Appends data from an external blend-file to the current scene.
    The new data is copied from the external file, and completely unlinked from it.
 Data Previews
-   Refresh Data-Block Previews
-      Ensure data-block previews are available and up-to-date to be saved in the blend-file.
-      Previews only exist for some types like materials and textures.
-   Batch-Generate Previews
-      Generate previews for selected blend-files.
-   Clear Data-Block Previews
-      Clear previews for supported data-block types.
-   Batch-Clear Previews
-      Clear previews for selected blend-files.
-Import :kbd:`F4`, :kbd:`I`
+   Tools for managing :doc:`data-block previews </files/blend/previews>`.
+Import
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs. See :doc:`Import/Export </files/import_export>`.
-Export :kbd:`F4`, :kbd:`E`
+Export
    Normally you save your work in a blend-file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
    See :doc:`Import/Export </files/import_export>`.
