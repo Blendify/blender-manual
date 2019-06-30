@@ -8,29 +8,24 @@ Shape
 
    :Panel:     :menuselection:`Physics --> Cloth --> Shape`
 
-The first thing you need when pinning cloth is
-a :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
-There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin
-(see the :doc:`/sculpt_paint/weight_paint/index` section of the manual).
-The weight of each vertex in the group controls how strongly it is pinned.
-
 .. TODO2.8:
    .. figure:: /images/physics_cloth_settings_cloth-settings_pinning.png
 
-      Cloth pinning.
+      Cloth Shape.
 
-Once you have a vertex group set, things are pretty straightforward; all you have to do is
-press the *Pinning* button in the *Cloth* panel and select which
-vertex group you want to use, and the stiffness you want it at.
+Pin Group
+   Vertex Group to use for pinning.
+
+   The shape of the cloth can be controlled by pinning cloth to a.
+   :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
+   There are several ways of doing this including
+   :doc:`Weight Painting </sculpt_paint/weight_paint/index>` areas you want to pin.
+   The weight of each vertex in the group controls how strongly it is pinned.
 
 Stiffness
-   Target position stiffness. You can leave the stiffness as it is; the default value of 1 is fine.
+   Target position stiffness.
 
-Sewing Force
-   Maximum force that can be applied by sewing springs. Zero means unbounded, but it is not
-   recommended to leave the field at zero in most cases, as it can cause instability due to
-   extreme forces in the initial frames where the ends of the sewing springs are far apart.
-
+Sewing
    Another method of restraining cloth similar to pinning is sewing springs.
    Sewing springs are virtual springs that pull vertices in one part of
    a cloth mesh toward vertices in another part of the cloth mesh.
@@ -44,11 +39,16 @@ Sewing Force
    They should connect vertices in the mesh that should be pulled together.
    For example the corners of a cloak.
 
+Max Sewing Force
+   Maximum force that can be applied by sewing springs. Zero means unbounded, but it is not
+   recommended to leave the field at zero in most cases, as it can cause instability due to
+   extreme forces in the initial frames where the ends of the sewing springs are far apart.
+
 Shrinking Factor
    Factor by which to shrink the cloth.
 
 Dynamic Mesh
-   Dynamic Mesh allows animating the rest shape of cloth using shape keys or
+   Allows animating the rest shape of cloth using shape keys or
    modifiers (e.g. an Armature modifier or any deformation modifier) placed above the Cloth modifier.
    When it is enabled, the rest shape is recalculated every frame, allowing unpinned
    cloth to squash and stretch following the character with the help of shape keys or modifiers, but
