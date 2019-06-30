@@ -9,7 +9,7 @@ The *Colorize* Visual Effect applies different preset colorizing effects to the 
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_colorize_panel.png
+.. figure:: /images/grease-pencil_visual-effects_colorize_panel.png
    :align: right
 
    Blur Visual Effect.
@@ -45,22 +45,22 @@ Example
 
 .. list-table:: Colorize Effect samples.
 
-   * - .. figure:: /images/grease_pencil_visual_effects_colorize_grayscale.png
+   * - .. figure:: /images/grease-pencil_visual-effects_colorize_grayscale.png
           :width: 200px
 
           Mode: Grayscale.
 
-     - .. figure:: /images/grease_pencil_visual_effects_colorize_sepia.png
+     - .. figure:: /images/grease-pencil_visual-effects_colorize_sepia.png
           :width: 200px
 
           Mode: Sepia.
 
-     - .. figure:: /images/grease_pencil_visual_effects_colorize_duotone.png
+     - .. figure:: /images/grease-pencil_visual-effects_colorize_duotone.png
           :width: 200px
 
           Mode: duotone.
 
-     - .. figure:: /images/grease_pencil_visual_effects_colorize_transparent.png
+     - .. figure:: /images/grease-pencil_visual-effects_colorize_transparent.png
           :width: 200px
 
           Mode: transparent.

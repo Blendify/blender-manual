@@ -13,7 +13,7 @@ Primitives
 
 In Object Mode, the *Add Grease Pencil* menu, provides three different Grease Pencil primitives:
 
-.. figure:: /images/grease_pencil_primitives_all.png
+.. figure:: /images/grease-pencil_primitives_all.png
 
    Grease Pencil primitives.
 

@@ -10,7 +10,7 @@ Selecting
    :Menu:      :menuselection:`3D View Header --> Select Mode`
    :Hotkey:    :kbd:`1`, :kbd:`2`, :kbd:`3`
 
-.. figure:: /images/grease_pencil_selecting_mode-buttons.png
+.. figure:: /images/grease-pencil_selecting_mode-buttons.png
    :align: right
 
    Edit Mode selection buttons.
@@ -27,7 +27,7 @@ Strokes
 Points in between
    To select all points that are between other strokes.
 
-.. figure:: /images/grease_pencil_selecting_example.png
+.. figure:: /images/grease-pencil_selecting_example.png
 
    Points, stroke and in between stroke selection sample.
 

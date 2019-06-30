@@ -11,7 +11,7 @@ trying to maintain similar values that make the line fluid and smoother.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_smooth_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_smooth_panel.png
    :align: right
 
    Smooth Modifier.

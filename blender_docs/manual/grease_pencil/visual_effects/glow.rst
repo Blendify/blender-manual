@@ -9,7 +9,7 @@ The *Glow* Visual Effect add a glowing rim around the object.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_glow_panel.png
+.. figure:: /images/grease-pencil_visual-effects_glow_panel.png
    :align: right
 
    Glow Visual Effect.
@@ -48,22 +48,22 @@ Example
 
 .. list-table:: Glow Effect samples.
 
-   * - .. figure:: /images/grease_pencil_visual_effects_glow_0.png
+   * - .. figure:: /images/grease-pencil_visual-effects_glow_original.png
           :width: 200px
 
           Original image.
 
-     - .. figure:: /images/grease_pencil_visual_effects_glow_1.png
+     - .. figure:: /images/grease-pencil_visual-effects_glow_luminance.png
           :width: 200px
 
           Mode: Luminance.
 
-     - .. figure:: /images/grease_pencil_visual_effects_glow_2.png
+     - .. figure:: /images/grease-pencil_visual-effects_glow_luminance-alpha.png
           :width: 200px
 
           Mode: Luminance (Alpha mode).
 
-     - .. figure:: /images/grease_pencil_visual_effects_glow_3.png
+     - .. figure:: /images/grease-pencil_visual-effects_glow_color.png
           :width: 200px
 
           Mode: Color (Black lines).

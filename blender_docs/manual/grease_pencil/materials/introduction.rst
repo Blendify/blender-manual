@@ -9,7 +9,7 @@ They define the color and texture of the strokes and filled areas.
 The material are linked to the strokes, this means that any change in a material will change
 the look of already made strokes.
 
-.. figure:: /images/grease_pencil_materials_sample.png
+.. figure:: /images/grease-pencil_materials_introduction_sample.png
 
    Same stroke linked to different materials.
 
@@ -28,7 +28,7 @@ with materials while drawing or editing lines.
 Common Settings
 ---------------
 
-.. figure:: /images/grease_pencil_materials_slots-panel.png
+.. figure:: /images/grease-pencil_materials_introduction_slots-panel.png
    :align: right
 
    Grease Pencil material slots panel.

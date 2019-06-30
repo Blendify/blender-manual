@@ -12,7 +12,7 @@ horizontal and/or vertical direction on the back of the object.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_shadow_panel.png
+.. figure:: /images/grease-pencil_visual-effects_shadow_panel.png
    :align: right
 
    Shadow Visual Effect.
@@ -69,17 +69,17 @@ Example
 
 .. list-table:: Shadow Effect samples.
 
-   * - .. figure:: /images/grease_pencil_visual_effects_shadow_0.png
+   * - .. figure:: /images/grease-pencil_visual-effects_shadow_simple.png
           :width: 200px
 
           Simple Shadow.
 
-     - .. figure:: /images/grease_pencil_visual_effects_shadow_1.png
+     - .. figure:: /images/grease-pencil_visual-effects_shadow_blur.png
           :width: 200px
 
           Blurred Shadow.
 
-     - .. figure:: /images/grease_pencil_visual_effects_shadow_2.png
+     - .. figure:: /images/grease-pencil_visual-effects_shadow_stretch.png
           :width: 200px
 
           Stretched shadow with an Empty as center of rotation.

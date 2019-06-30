@@ -9,7 +9,7 @@ The *Wave Distortion* Visual applies a wavy effects to the object.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_wave_distortion_panel.png
+.. figure:: /images/grease-pencil_visual-effects_wave-distortion_panel.png
    :align: right
 
    Wave Distortion Effect.
@@ -32,22 +32,22 @@ Example
 
 .. list-table:: Wave Distortion Effect samples.
 
-   * - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_h10.png
+   * - .. figure:: /images/grease-pencil_visual-effects_wave-distortion_h10.png
           :width: 200px
 
           Amplitude: 10 (horizontal).
 
-     - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_h30.png
+     - .. figure:: /images/grease-pencil_visual-effects_wave-distortion_h30.png
           :width: 200px
 
           Amplitude: 30 (horizontal).
 
-     - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_v10.png
+     - .. figure:: /images/grease-pencil_visual-effects_wave-distortion_v10.png
           :width: 200px
 
           Amplitude: 10 (vertical).
 
-     - .. figure:: /images/grease_pencil_visual_effects_wave_distortion_v30.png
+     - .. figure:: /images/grease-pencil_visual-effects_wave-distortion_v30.png
           :width: 200px
 
           Amplitude: 30 (vertical).

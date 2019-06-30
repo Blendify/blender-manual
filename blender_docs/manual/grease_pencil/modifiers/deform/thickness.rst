@@ -9,7 +9,7 @@ The *Thickness* Modifier change the stroke points thickness.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_thickness_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_thickness_panel.png
    :align: right
 
    Thickness Modifier.

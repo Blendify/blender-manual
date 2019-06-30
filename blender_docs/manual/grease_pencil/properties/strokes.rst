@@ -3,7 +3,7 @@
 Strokes
 *******
 
-.. figure:: /images/grease_pencil_properties_stroke_panel.png
+.. figure:: /images/grease-pencil_properties_strokes_panel.png
    :align: right
 
    Strokes panel.
@@ -24,12 +24,12 @@ Stroke Depth Order
 
 .. list-table::
 
-   * - .. figure:: /images/grease_pencil_properties_depth_order_2d.png
+   * - .. figure:: /images/grease-pencil_properties_strokes_depth-order-2d.png
           :width: 320px
 
           Blue, Green and Red strokes in three different layers using 2D Layers depth order.
 
-     - .. figure:: /images/grease_pencil_properties_depth_order_3d.png
+     - .. figure:: /images/grease-pencil_properties_strokes_depth-order-3d.png
           :width: 320px
 
           Blue, Green and Red strokes in three different layers using 3D Location depth order.

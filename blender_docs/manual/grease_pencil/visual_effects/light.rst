@@ -18,7 +18,7 @@ This fake light source does not cast shadows.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_light_panel.png
+.. figure:: /images/grease-pencil_visual-effects_light_panel.png
    :align: right
 
    Light Visual Effect.
@@ -39,12 +39,12 @@ Example
 
 .. list-table:: Light visual effect sample.
 
-   * - .. figure:: /images/grease_pencil_visual_effects_light_original.png
+   * - .. figure:: /images/grease-pencil_visual-effects_light_original.png
           :width: 320px
 
           Original Model.
 
-     - .. figure:: /images/grease_pencil_visual_effects_light_sample.png
+     - .. figure:: /images/grease-pencil_visual-effects_light_sample.png
           :width: 320px
 
           Empty on top-left used as source light.

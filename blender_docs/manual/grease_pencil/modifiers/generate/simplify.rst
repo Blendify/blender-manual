@@ -12,7 +12,7 @@ Apply the modifier can help to obtain a better performance (more FPS) while anim
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_generate_simplify_panel.png
+.. figure:: /images/grease-pencil_modifiers_generate_simplify_panel.png
    :align: right
 
    The Simplify modifier.
@@ -49,44 +49,44 @@ Example
 
 .. list-table:: Fixed Mode sample.
 
-   * - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_0.png
+   * - .. figure:: /images/grease-pencil_modifiers_generate_simplify_fixed-iterations-0.png
           :width: 130px
 
           Original Model.
 
-     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_1.png
+     - .. figure:: /images/grease-pencil_modifiers_generate_simplify_fixed-iterations-1.png
           :width: 130px
 
           Iteration: 1.
 
-     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_2.png
+     - .. figure:: /images/grease-pencil_modifiers_generate_simplify_fixed-iterations-2.png
           :width: 130px
 
           Iteration: 2.
 
-     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_fixed_iterations_3.png
+     - .. figure:: /images/grease-pencil_modifiers_generate_simplify_fixed-iterations-3.png
           :width: 130px
 
           Iteration: 3.
 
 .. list-table:: Adaptive Mode sample.
 
-   * - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_0.png
+   * - .. figure:: /images/grease-pencil_modifiers_generate_simplify_adaptive-factor-0.png
           :width: 130px
 
           Original Model.
 
-     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_01.png
+     - .. figure:: /images/grease-pencil_modifiers_generate_simplify_adaptive-factor-01.png
           :width: 130px
 
           Factor: 0.1.
 
-     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_02.png
+     - .. figure:: /images/grease-pencil_modifiers_generate_simplify_adaptive-factor-02.png
           :width: 130px
 
           Factor: 0.5.
 
-     - .. figure:: /images/grease_pencil_modifiers_generate_simplify_adaptive_factor_05.png
+     - .. figure:: /images/grease-pencil_modifiers_generate_simplify_adaptive-factor-05.png
           :width: 130px
 
           Factor: 1.

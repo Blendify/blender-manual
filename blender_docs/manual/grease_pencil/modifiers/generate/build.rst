@@ -10,7 +10,7 @@ create the illusion of animating lines being drawn/erased.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_generate_build_panel.png
+.. figure:: /images/grease-pencil_modifiers_generate_build_panel.png
    :align: right
 
    The Build modifier.

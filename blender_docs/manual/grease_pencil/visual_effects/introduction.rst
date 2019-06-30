@@ -32,7 +32,7 @@ so keep in mind that they may vary with viewport or camera changes.
 Interface
 =========
 
-.. figure:: /images/grease_pencil_visual_effects_introduction_interface.png
+.. figure:: /images/grease-pencil_visual-effects_introduction_interface.png
 
    Panel layout (Blur Effect as an example).
 

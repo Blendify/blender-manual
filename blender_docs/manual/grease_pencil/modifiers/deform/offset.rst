@@ -10,7 +10,7 @@ starting from the object origin.
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_deform_offset_panel.png
+.. figure:: /images/grease-pencil_modifiers_deform_offset_panel.png
    :align: right
 
    Offset Modifier.

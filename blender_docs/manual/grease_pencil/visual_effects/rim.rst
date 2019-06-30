@@ -14,7 +14,7 @@ Many blending modes can be applied to the resulting mask.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_rim_panel.png
+.. figure:: /images/grease-pencil_visual-effects_rim_panel.png
    :align: right
 
    Rim Visual Effect.
@@ -47,22 +47,22 @@ Example
 
 .. list-table:: Rim Effect samples (Mode: Add).
 
-   * - .. figure:: /images/grease_pencil_visual_effects_rim_0.png
+   * - .. figure:: /images/grease-pencil_visual-effects_rim_original.png
           :width: 200px
 
           Original image.
 
-     - .. figure:: /images/grease_pencil_visual_effects_rim_1.png
+     - .. figure:: /images/grease-pencil_visual-effects_rim_no-blur.png
           :width: 200px
 
           No blur.
 
-     - .. figure:: /images/grease_pencil_visual_effects_rim_2.png
+     - .. figure:: /images/grease-pencil_visual-effects_rim_blur.png
           :width: 200px
 
           Blur.
 
-     - .. figure:: /images/grease_pencil_visual_effects_rim_3.png
+     - .. figure:: /images/grease-pencil_visual-effects_rim_mask.png
           :width: 200px
 
           Mask color: Black.

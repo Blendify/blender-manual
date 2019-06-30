@@ -9,7 +9,7 @@ The *Pixelate* Visual Effect shows the object as a pixelated image.
 Options
 =======
 
-.. figure:: /images/grease_pencil_visual_effects_pixelate_panel.png
+.. figure:: /images/grease-pencil_visual-effects_pixelate_panel.png
    :align: right
 
    Pixelate Visual Effect.
@@ -23,22 +23,22 @@ Example
 
 .. list-table:: Pixelate Effect samples.
 
-   * - .. figure:: /images/grease_pencil_visual_effects_pixelate_0.png
+   * - .. figure:: /images/grease-pencil_visual-effects_pixelate_size-0.png
           :width: 200px
 
           Original image.
 
-     - .. figure:: /images/grease_pencil_visual_effects_pixelate_20.png
+     - .. figure:: /images/grease-pencil_visual-effects_pixelate_size-20.png
           :width: 200px
 
           Size: 20 px.
 
-     - .. figure:: /images/grease_pencil_visual_effects_pixelate_100.png
+     - .. figure:: /images/grease-pencil_visual-effects_pixelate_size-100.png
           :width: 200px
 
           Size: 100 px.
 
-     - .. figure:: /images/grease_pencil_visual_effects_pixelate_200.png
+     - .. figure:: /images/grease-pencil_visual-effects_pixelate_size-200.png
           :width: 200px
 
           Size: 200 px.

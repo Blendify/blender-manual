@@ -47,7 +47,7 @@ Mist Pass
 
    :Panel:     :menuselection:`World --> Mist Pass`
 
-.. figure:: /images/render_cycles_world-settings_example1-BI.jpg
+.. figure:: /images/render_cycles_world-settings_mist-example1-BI.jpg
 
    Mist example (`blend-file <https://wiki.blender.org/wiki/File:25-Manual-World-Mist-Example1.blend>`__).
 

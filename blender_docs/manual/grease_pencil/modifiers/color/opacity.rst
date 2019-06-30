@@ -12,7 +12,7 @@ The modifier can alter these values to go from totally transparent points to tot
 Options
 =======
 
-.. figure:: /images/grease_pencil_modifiers_color_opacity_panel.png
+.. figure:: /images/grease-pencil_modifiers_color_opacity_panel.png
    :align: right
 
    Opacity Modifier.
@@ -58,17 +58,17 @@ Example
 
 .. list-table:: Factor Opacity samples.
 
-   * - .. figure:: /images/grease_pencil_modifiers_color_opacity_factor_03.png
+   * - .. figure:: /images/grease-pencil_modifiers_color_opacity_factor-03.png
           :width: 200px
 
           Opacity Factor: 0.3.
 
-     - .. figure:: /images/grease_pencil_modifiers_color_opacity_factor_1.png
+     - .. figure:: /images/grease-pencil_modifiers_color_opacity_factor-1.png
           :width: 200px
 
           Opacity Factor: 1.0 (original alpha).
 
-     - .. figure:: /images/grease_pencil_modifiers_color_opacity_factor_2.png
+     - .. figure:: /images/grease-pencil_modifiers_color_opacity_factor-2.png
           :width: 200px
 
           Opacity Factor: 2.0 (fully opaque).
