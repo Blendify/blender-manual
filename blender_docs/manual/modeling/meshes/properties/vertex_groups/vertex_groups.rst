@@ -18,7 +18,7 @@ Vertex Groups are maintained within the *Object Data* Properties Editor,
 and there in the *Vertex Groups* panel.
 
 Active Vertex Group
-   A :ref:`ui-list-view`.
+   A :ref:`List view <ui-list-view>`.
 
    Lock
       Locks the group from being editable. You can only rename or delete the group.

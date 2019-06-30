@@ -42,7 +42,7 @@ Painting Mode
       added on the slots tab.
 
       Available Paint Slots
-         A :ref:`ui-list-view` of slots.
+         A :ref:`List view <ui-list-view>` of slots.
          To activate a certain slot to use it for paint a just :kbd:`LMB` click on it.
 
 Save All Images
