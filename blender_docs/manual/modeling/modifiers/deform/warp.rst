@@ -34,8 +34,6 @@ To
    The object defining the destination transformation of the warp.
 Preserve Volume
    Enables volume preservation when rotating one of the transforms.
-Vertex Group
-   Limit the deformation to a specific vertex group.
 Strength
    Sets how strong the effect is.
 Radius
@@ -44,46 +42,11 @@ Falloff Type
    Sets the way the strength of the warp change as it goes from the center of the transform to the *Radius* value.
    See :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`
    for descriptions of the falloff types.
-Texture
-   Texture controlling the strength of the effect, to create variations in the displacement.
-Texture Coordinates
-   Set the way textures are applied to the mesh when using a *Texture* to control the warp.
 
-   UV
-      Take texture coordinates from face UV coordinates.
+You can finely control which vertices are affected by the warp, and to what extent,
+using a vertex group and/or a texture.
 
-      UV Map
-         The :term:`UV map` from which to take texture coordinates.
-         If the object has no UV coordinates, it falls back to the *Local* coordinate system.
-         If this field is blank, but there is a UV map available
-         (e.g. just after adding the first UV map to the mesh), the currently active UV map will be used.
-
-      .. note::
-
-         Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV
-         coordinate for each vertex from the first face encountered which uses that vertex.
-         Any other faces using that vertex are ignored.
-
-         This may lead to artifacts if the mesh has non-contiguous UV coordinates.
-
-   Object
-      Take the texture coordinates from another object's coordinate system.
-
-      Object
-         The object from which to take texture coordinates.
-         Moving the object will therefore alter the coordinates of the texture mapping.
-
-         If this field is blank, it falls back to the *Local* coordinate system.
-
-      .. note::
-         Moving the original object will **also** result in a texture coordinate update.
-         As such, if you need to maintain a displacement coordinate system while moving the modified object,
-         consider :ref:`parenting <bpy.ops.object.parent_set>` the coordinate object to the modified object.
-
-   Global
-      Take the texture coordinates from the global coordinate system.
-   Local
-      Take the texture coordinates from the object's local coordinate system.
+See :ref:`common masking options<modifiers-common-options-masking>` for a complete reference.
 
 
 Usage
