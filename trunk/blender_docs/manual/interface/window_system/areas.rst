@@ -116,6 +116,7 @@ on the area corner, then drag outward slightly.
 
 The window can be closed with the OS *Close Window* button.
 
+.. _bpy.ops.screen.screen_full_area:
 
 Toggle Maximize Area
 ====================
@@ -137,8 +138,6 @@ use keyboard shortcut or the *Back to Previous* button on the Topbar.
    that will be maximized using the keyboard shortcuts.
 
 
-.. _bpy.ops.screen.screen_full_area:
-
 Toggle Fullscreen Area
 ======================
 
@@ -146,6 +145,7 @@ Toggle Fullscreen Area
    :class: refbox
 
    :Menu:      :menuselection:`View --> Area --> Toggle Fullscreen Area`
+   :Hotkey:    :kbd:`Ctrl-Alt-Spacebar`
 
 The fullscreen area contains only the main region.
 To exit the fullscreen move the mouse to the top right corner

@@ -47,8 +47,26 @@ the selected object and mode.
 
 .. figure:: /images/editors_3dview_introduction_3d-view-header-object-mode.png
 
-   The Header of the 3D View editor.
+   The Header of the 3D Viewport.
 
+
+.. _bpy.ops.screen.header:
+
+Options
+-------
+
+:kbd:`RMB` on a header reveals a menu with a couple options.
+
+Show Header
+   Toggles the visibility of the header.
+   If a header is hidden it can be made visible again by dragging
+   the small arrow that appears towards the top/bottom right of the editor.
+Show Menus
+   Toggles where the :ref:`Menus <ui-header-menu>` are collapsed or not.
+Flip to Bottom/Top
+   Toggles whether headers appear on the top or the bottom of the editor.
+Maximize Area
+   See :ref:`bpy.ops.screen.screen_full_area`.
 
 .. _ui-region-toolbar:
 
@@ -80,7 +98,7 @@ Sidebar
 The *Sidebar* (on the right side of editor area)
 contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
-:kbd:`N` toggles the visibility of Side bar.
+:kbd:`N` toggles the visibility of Sidebar.
 
 
 Arranging
