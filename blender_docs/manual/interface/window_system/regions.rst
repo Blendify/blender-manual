@@ -73,7 +73,7 @@ Maximize Area
 Toolbar
 =======
 
-The *Toolbar* (on the left side of editor area) contains the tool settings.
+The *Toolbar* (on the left side of editor area) contains a set of interactive tools.
 :kbd:`T` toggles the visibility of Toolbar.
 
 .. tip::

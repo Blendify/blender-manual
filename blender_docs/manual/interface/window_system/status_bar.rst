@@ -24,7 +24,7 @@ Resource Information
 The region to the right of the Status Bar displays information about the current blend-file.
 
 Active Collection
-   Displays the name of the current select :doc:`Collection </scene_layout/collections/index>`.
+   Displays the name of the current selected :doc:`Collection </scene_layout/collections/index>`.
 Active Object
    Displays the name of the current selected object.
 Geometry
