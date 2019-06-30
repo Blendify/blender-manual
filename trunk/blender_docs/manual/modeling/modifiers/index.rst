@@ -9,6 +9,7 @@
    :maxdepth: 2
 
    introduction.rst
+   common_options.rst
 
 
 Modify

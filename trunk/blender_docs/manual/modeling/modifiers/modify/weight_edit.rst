@@ -75,60 +75,10 @@ Global Influence
       Influence only affects weights, adding/removing of vertices
       to/from vertex group is not prevented by setting this value to 0.0.
 
+In addition, a per-vertex fine control of the effect is possible using either a vertex group or a texture
+(both are mutually exclusive). The per-vertex values from those will be multiplied with the *Global Influence*.
 
-Vertex Group Mask
-^^^^^^^^^^^^^^^^^
-
-Vertex Group Mask
-   An additional vertex group, which weights will be
-   multiplied with the global influence value for each vertex.
-   If a vertex is not in the masking vertex group, its weight will be not be affected.
-
-
-Texture Mask
-^^^^^^^^^^^^
-
-Texture Mask
-   An additional texture, which values will be multiplied with the global influence value for each vertex.
-
-   This is a standard texture :doc:`data-block </files/data_blocks>` control.
-   When set, it reveals other settings:
-
-Texture Coordinates
-   How the texture is mapped to the mesh.
-
-   Local
-      Use local vertex coordinates.
-   Global
-      Use vertex coordinates in global space.
-   Object
-      Use vertex coordinates in another object's space.
-
-      Object
-         The object to be used as reference for *Object* mapping.
-   UV
-      Use a UV map's coordinates.
-
-      UV Map
-         The UV map to be used for *UV* mapping.
-
-Use Channel
-   Which channel to use as weight factor source.
-
-   Red/Green/Blue/Alpha
-      One of the color channels' values.
-   Intensity
-      The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33).
-   Value
-      The highest value of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 1.0).
-   Hue
-      Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow).
-   Saturation
-      Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0).
-
-   .. note::
-
-      All of the channels above are gamma corrected, except for *Intensity*.
+See :ref:`common masking options<modifiers-common-options-masking>` for a complete reference.
 
 
 Example
