@@ -41,16 +41,9 @@ Properties
 
 Tools can have their own settings, these are available multiple place:
 
-- The Sidebar *Tools* tab, *Active Tool* panel.
+- The :menuselection:`Sidebar --> Tools --> Active Tool` panel.
 - The *Active Tool* tab in the properties space.
-- The *Tool Settings* header.
-
-
-Brushes
-=======
-
-For painting modes each brush type is exposed as a tool,
-the brush can be changed from the tool setting.
+- The *Tool Settings* region.
 
 
 Switching Tools
