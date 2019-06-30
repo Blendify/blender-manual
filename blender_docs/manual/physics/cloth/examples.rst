@@ -60,9 +60,9 @@ The typical workflow for pinning:
    For example the belt area of the tunic would be in the vertex group and have weight one.
 #. Designate the clothing objects as "cloth" in the Physics tab of the Properties editor.
    Make sure the Cloth Modifier is below the Armature Modifier in the modifier stack.
-#. Press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
-#. Designate the character's mesh as "collision" object in the Physics tab of the Properties editor.
-#. The clothing is now ready. Non-pinned vertices will be under control of the Cloth modifier.
+#. In the cloth Shape panel select the vertex group.
+#. Add :doc:`collision physics </physics/collision>` to the character's mesh.
+#. The clothing is now ready; non-pinned vertices will be under control of the Cloth modifier.
    Pinned vertices will be under control of the Armature modifier.
 
 .. note::
@@ -70,21 +70,6 @@ The typical workflow for pinning:
    When animating or posing the character you must begin from the bind pose.
    Move the character to its initial pose over several frames so the physics engine can simulate the clothing moving.
    Very fast movements and teleport jumps can break the physics simulation.
-
-.. Note that if you move the cloth object ''after'' you have already run some simulations,
-   you must unprotect and clear the cache; otherwise, Blender will use the position of
-   the current/cached mesh's vertices when trying to represent where they are.
-   Editing the shape of the mesh, after simulation, is also discussed below.
-   You may disable the cloth and edit the mesh as a normal mesh editing process.
-   This is jumping ahead and not clear and not true at this point.
-   --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
-
-   Finally, use the Timeline editor Play button,
-   or press :kbd:`Alt-A` in the 3D View to run the simulation.
-   Your cloth will fall and interact with Deflection objects as it would in the real world.
-
-.. This is jumping ahead and not clear and not true at this point.
-   --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
 
 `Regression blend-file <https://wiki.blender.org/wiki/File:Cloth-regression-armature.blend>`__.
 
