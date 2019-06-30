@@ -3,10 +3,13 @@
 Topbar
 ******
 
+Menus
+=====
+
 .. _topbar-app_menu:
 
 App Menu
-========
+--------
 
 Splash Screen
    Open the :ref:`splash`.
@@ -29,7 +32,7 @@ Install Application Template
 
 
 File Menu
-=========
+---------
 
 The options to manage files are:
 
@@ -134,7 +137,7 @@ Quit :kbd:`Ctrl-Q`
 
 
 Edit Menu
-=========
+---------
 
 Undo/Redo/History
    See :doc:`/interface/undo_redo`.
@@ -151,7 +154,7 @@ Preferences
 .. _topbar-render:
 
 Render Menu
-===========
+-----------
 
 Render Image :kbd:`F12`
    Render the active scene at the current frame.
@@ -193,7 +196,7 @@ Lock Interface
 
 
 Window Menu
-===========
+-----------
 
 New Window
    Create a new window by copying the current window.
@@ -212,6 +215,20 @@ Save Screenshot
 
 
 Help Menu
-=========
+---------
 
 See :doc:`/getting_started/help`.
+
+
+Workspaces
+==========
+
+These set of tabs are used to select the current :doc:`Workspace </interface/window_system/workspaces>`;
+which are essentially predefined window layouts.
+
+
+Scenes & Layers
+===============
+
+These :ref:`data-block menus <ui-data-block>` are used to select the current active
+:doc:`Scene </scene_layout/scene/index>` and :doc:`View Layer </scene_layout/view_layers/index>`.
