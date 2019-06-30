@@ -42,6 +42,24 @@ Default Workspaces
 :Scripting: Programming workspace for writing scripts.
 
 
+Additional Workspaces
+---------------------
+
+.. rubric:: 2D Animation
+
+:2D Animation: General workspace to work with the Grease Pencil.
+:2D Full Canvas: Similar to "2D Animation" but contains a larger canvas.
+
+.. rubric:: VFX
+
+:Masking: Tools to create 2D masks for composting.
+:Motion Tracking: Tools to motion track and stabilize footage.
+
+.. Rubric:: Video Editing
+
+:Video Editing: Sequence together media into one video.
+
+
 Save and Override
 =================
 
