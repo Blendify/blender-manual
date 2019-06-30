@@ -11,6 +11,12 @@ Cache
 Cache settings for cloth are the same as with other dynamic systems.
 See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 
+.. note::
+
+   If you move or edit the cloth object **after** you have already run the simulations,
+   you must clear the cache; otherwise, Blender will use the position of
+   the current/cached mesh's vertices when trying to represent where they are.
+
 
 Bake Collision
 --------------
