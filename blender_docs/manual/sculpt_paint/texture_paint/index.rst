@@ -1,4 +1,5 @@
 .. _painting-texture-index:
+.. _bpy.types.ImagePaint:
 
 #################
   Texture Paint
