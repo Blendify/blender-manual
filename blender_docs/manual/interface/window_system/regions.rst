@@ -5,7 +5,10 @@
 Regions
 *******
 
-An area is subdivided into regions.
+Every Editor in Blender is divided into Regions.
+Regions can have smaller structuring elements like
+:doc:`tabs and panels </interface/window_system/tabs_panels>`
+with buttons, controls and widgets placed within them.
 
 .. figure:: /images/interface_window-system_regions_3d-view.png
    :align: center

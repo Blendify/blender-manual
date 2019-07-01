@@ -12,14 +12,15 @@ Areas
 
    Area boundaries are indicated by rounded corners (yellow highlights).
 
-The application window is divided up into a number of rectangular areas.
-Areas reserve screen space for :doc:`/editors/index`, such as 3D Viewport, or an Outliner.
-All hotkeys you press will affect the contents of the editor in the area the mouse pointer is located.
-Area boundary is indicated by rounded (beveled) corners.
+The Blender window is divided up into a number of rectangles called Areas.
+Areas reserve screen space for :doc:`/editors/index`, such as the 3D Viewport, or the Outliner.
+In general an Editor provides a way to view and modify your work through a specific part of Blender.
+All hotkeys you press will affect the contents of the Editor in the Area the mouse pointer is located.
+Area boundaries are indicated by rounded (beveled) corners.
 
-.. container:: lead
-
-   .. clear
+Areas can be customized to match specific tasks called
+:doc:`workspaces </interface/window_system/workspaces>`,
+which can then be named and saved for later use.
 
 
 Resizing

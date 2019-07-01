@@ -3,16 +3,16 @@
 Workspaces
 **********
 
-.. figure:: /images/interface_window-system_workspaces_screen.png
-   :align: center
-
-   Workspaces are located at the Top bar.
-
 *Workspaces* are essentially predefined window layouts.
 Blender's flexibility with :doc:`Areas </interface/window_system/areas>`
 lets you create customized workspaces for different tasks such as
 modeling, animating, and scripting. It is often useful to quickly switch between
 different workspaces within the same file.
+
+.. figure:: /images/interface_window-system_workspaces_screen.png
+   :align: center
+
+   Workspaces are located at the Top bar.
 
 
 Controls
@@ -30,7 +30,25 @@ Context menu :kbd:`RMB`
 Default Workspaces
 ==================
 
-:Layout: A general workspace to preview your scene and objects.
+Blender's default startup shows the "Layout" workspace in the main area.
+This workspace is a general workspace to preview your scene and objects
+and contains the following :doc:`/editors/index`:
+
+- 3D View on top left.
+- Outliner on top right.
+- Properties editor on bottom right.
+- Timeline on bottom left.
+
+.. figure:: /images/interface_window-system_introduction_layout-workspace.png
+   :align: center
+
+   Blender's Layout Workspace with four editors.
+
+   3D View (yellow), Outliner (green), Properties editor (blue) and Timeline (red).
+
+
+Blender also has several other workspaces added by default:
+
 :Modeling: For modification of geometry by modeling tools.
 :Sculpting: For modification of meshes by sculpting tools.
 :UV Editing: Mapping of image texture coordinates to 3D surfaces.
@@ -44,6 +62,8 @@ Default Workspaces
 
 Additional Workspaces
 ---------------------
+
+Blender as a couple additional Workspaces to choose from when adding a new Workspace:
 
 .. rubric:: 2D Animation
 
