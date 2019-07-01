@@ -13,9 +13,8 @@ Frames are useful when a node setup becomes large and confusing yet the re-usabi
 Properties
 ==========
 
-.. TODO2.8:
-   .. figure:: /images/interface_controls_nodes_frame_properties.png
-      :align: right
+.. figure:: /images/interface_controls_nodes_frame_properties.png
+   :align: right
 
 Label size
    Font size of the label. For example, for subordinate frames to have smaller titles.
