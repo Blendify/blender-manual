@@ -41,3 +41,6 @@ Inverse
    Normally, vertices belonging to the selected Vertex Group (or group associated with the active pose bone)
    will be shown. The *Invert* toggle allows you to reverse this behavior, instead only showing vertices
    which do not belong to the Vertex Group.
+
+Threshold
+   Vertices with weights less or equal to this value will be hidden.
