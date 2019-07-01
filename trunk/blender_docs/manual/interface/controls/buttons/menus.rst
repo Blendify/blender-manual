@@ -7,6 +7,29 @@ Menus
 *****
 
 Blender uses a variety of different menus for accessing options and tools.
+Selecting menus can be interacted with in the following ways:
+
+Mouse selection
+   :kbd:`LMB` on the desired item.
+Numerical selection
+   You can use the number keys or numpad to input an item in the list to select.
+   For example, :kbd:`Numpad1` will select the first item and so on.
+
+If the menu content is too large to fit on the screen, small menu
+scrolling indicator triangle appears on bottom or top of menu.
+Scrolling is done by moving the mouse below or above the scrolling indicator.
+
+.. rubric:: Shortcuts
+
+- Use :kbd:`Wheel` while hovering with the mouse.
+- Arrow keys can be used to navigate.
+- Each menu item has an underlined character which can be pressed to activate it.
+- Number keys or numpad can be used to access menu items.
+  (Where :kbd:`1` is the first menu item, :kbd:`2` the second, etc.
+  For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th.)
+- Press :kbd:`Return` to activate the selected menu item.
+- Press :kbd:`Esc` to cancel the menu, or move the mouse cursor far from the pop-up,
+  or by :kbd:`LMB` clicking anywhere out of it.
 
 
 .. _ui-header-menu:
@@ -65,8 +88,8 @@ The selected option is then shown as active on the menu button.
 
 .. _bpy.types.UIPopupMenu:
 
-Pop-Up Menus
-============
+Popover Menus
+=============
 
 .. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
@@ -75,40 +98,12 @@ Pop-Up Menus
 
    The Transform Orientations pop-up menu.
 
-Pop-up menus are overlays.
+Popover menus are overlays.
 Like Select Menus, pop-up menus also include down arrow on the right
 side of menu button. However, pop-up menus allow more content to be shown,
 such as title, list options, buttons, sliders, etc.
-Pop-up menus group controls into a menu, which is automatically hidden
+Popover menus group controls into a menu, which is automatically hidden
 when mouse pointer leaves menu boundaries (including a margin).
-
-If pop-up menu content is too large to fit on the screen, small menu
-scrolling indicator triangle appears on bottom or top of menu.
-Scrolling is done by moving the mouse below or above the scrolling indicator.
-
-Mouse selection
-   :kbd:`LMB` on the desired item.
-Numerical selection
-   You can use the number keys or numpad to input an item in the list to select.
-   For example, :kbd:`Numpad1` will select the first item and so on.
-
-Pop-ups can be moved by dragging their title.
-
-.. TODO2.8 duplicate: selection
-
-
-Shortcuts
----------
-
-- Use :kbd:`Wheel` while hovering with the mouse.
-- Arrow keys can be used to navigate.
-- Each menu item has an underlined character which can be pressed to activate it.
-- Number keys or numpad can be used to access menu items.
-  (Where :kbd:`1` is the first menu item, :kbd:`2` the second, etc.
-  For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th.)
-- Press :kbd:`Return` to activate the selected menu item.
-- Press :kbd:`Esc` to cancel the menu, or move the mouse cursor far from the pop-up,
-  or by :kbd:`LMB` clicking anywhere out of it.
 
 
 Context Menu
