@@ -45,47 +45,7 @@ Interactive Region
       Links official web pages, the same could be found in the *Help* Menu
       of the :doc:`Topbar </interface/window_system/topbar>`. See :ref:`help-menu`.
 
-
-Quick Set Up
-============
-
-When you open Blender for the first time the interactive region of the splash screen
-is replaced with a couple initial preferences to configure how you interact inside Blender.
-
 .. note::
 
-   These options can always be changed later in the :doc:`Preferences </editors/preferences/index>`
-
-Shortcuts
-   Presets for the default :doc:`keymap </editors/preferences/keymap>` for Blender.
-   Note that this manual assumes that you use the "Blender" keymap.
-
-   Blender
-      This is the default keymap.
-      Read more about this keymap :doc:`here </interface/keymap/blender_default>`
-   Blender 2.7x
-      This keymap is intended to match the last major series of Blender versions
-      and is designed for people upgrading who do not want to learn the updated keymap.
-   Industry Compatible
-      This keymap is indented to match common creation software
-      and is intended for people who use many different creation software.
-      Read more about this keymap :doc:`here </interface/keymap/industry_compatible>`
-
-Select With
-   Controls which mouse button, either right or left, is used to select items in Blender.
-Spacebar
-   Controls the action of :kbd:`Spacebar`.
-   These and other shortcuts can be modified in the :doc:`keymap preferences </editors/preferences/keymap>`.
-
-   Play
-      Starts playing through the :doc:`Timeline </editors/timeline>`,
-      this option is good for animation or video editing.
-   Tools
-      Opens the Toolbar underneath the cursor to quickly change the active tool.
-      This option is good if doing a lot of modeling or rigging.
-   Search
-      Opens up the :doc:`operator search </interface/controls/templates/operator_search>`.
-      This option is good for someone who is new to Blender and is unfamiliar with its menus and shortcuts.
-Theme
-   Choose between a light or dark theme for Blender.
-   Themes can be customized more in the :doc:`Preferences </editors/preferences/themes>`
+   When starting Blender for the first time the
+   Interactive Region contains a :ref:`Quick Set Up Process <Quick Set Up>`.
