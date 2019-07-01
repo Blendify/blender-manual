@@ -71,7 +71,7 @@ Use Gradient
    For projective texturing it will bypass some options for projective painting to paint the model.
    This means that occluded, backfacing and normal culled faces will always get filled,
    regardless of whether the options are activated
-   in the :doc:`Project Paint </sculpt_paint/texture_paint/options>` panel.
+   in the :doc:`External </sculpt_paint/texture_paint/properties/options>` panel.
 
 
 Mask
@@ -79,8 +79,8 @@ Mask
 
 The mask feature maps an image to the mesh and uses the image intensity to
 mask out certain parts of the mesh out during painting.
-The mask options can be found in the mask panel's
-:doc:`slots tab </sculpt_paint/texture_paint/slots_mask>`.
+The mask options can be found in the mask panel
+:doc:`mask panel </sculpt_paint/texture_paint/properties/mask>`.
 It's only available for 3D projective painting.
 
 Mask Value
