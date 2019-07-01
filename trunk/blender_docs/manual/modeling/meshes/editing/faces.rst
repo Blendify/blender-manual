@@ -327,7 +327,7 @@ Alternatively you can force this operation selecting a pairs of faces (see hint 
 To create a quad, this tool needs at least two adjacent triangles.
 If you have an even number of selected triangles,
 it is also possible not to obtain only quads. In fact,
-this tool tries to create "squarishest" quads as possible from the given triangles,
+this tool tries to create most even rectangular quads from the given triangles,
 which means some triangles could remain.
 
 .. list-table::

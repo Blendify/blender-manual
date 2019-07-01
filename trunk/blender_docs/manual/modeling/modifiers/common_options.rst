@@ -91,6 +91,7 @@ Texture Coordinates
          If this field is blank, it falls back to the *Local* coordinate system.
 
       .. note::
+
          Moving the original object will **also** result in a texture coordinate update.
          As such, if you need to maintain a displacement coordinate system while moving the modified object,
          consider :ref:`parenting<bpy.ops.object.parent_set>` the coordinate object to the modified object.
@@ -102,7 +103,8 @@ Texture Coordinates
 
 Use Channel
    Which channel to use as value source
-   (only available with a few modifiers currently, others follow the *Intensity* behavior, unless otherwise specified).
+   (only available with a few modifiers currently, others follow the *Intensity* behavior,
+   unless otherwise specified).
 
    Intensity
       The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33).
