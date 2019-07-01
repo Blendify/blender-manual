@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-clone:
+.. _tool-grease-pencil-sculpt-clone:
 
 *************
 Clone Tool

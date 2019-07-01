@@ -1,8 +1,8 @@
-.. _tool-grease-pencil-edit-randomize:
+.. _tool-grease-pencil-sculpt-randomize:
 
-*************
+***************
 Randomize Tool
-*************
+***************
 
 .. admonition:: Reference
    :class: refbox

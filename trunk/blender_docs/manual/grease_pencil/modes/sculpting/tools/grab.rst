@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-grab:
+.. _tool-grease-pencil-sculpt-grab:
 
 *************
 Grab Tool

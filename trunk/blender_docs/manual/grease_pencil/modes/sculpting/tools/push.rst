@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-push:
+.. _tool-grease-pencil-sculpt-push:
 
 *************
 Push Tool

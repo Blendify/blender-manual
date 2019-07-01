@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-strength:
+.. _tool-grease-pencil-sculpt-strength:
 
 *************
 Strength Tool

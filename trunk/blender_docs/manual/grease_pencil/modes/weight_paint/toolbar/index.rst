@@ -6,4 +6,5 @@ Toolbar
 
 Grease pencil weight paint tools:
 
-TODO2.8: list tools, see edit-mesh as an example.
+:ref:`Weight <tool-grease-pencil-weight-paint-weight>`
+   TODO2.8
