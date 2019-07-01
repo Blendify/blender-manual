@@ -70,8 +70,8 @@ Front Faces Only
    Apply brush influence in 2D circle instead of a sphere.
 
 
-Radial Control
-==============
+Brush Control
+=============
 
 - Set brush size :kbd:`F`
 - Set brush strength :kbd:`Shift-F`
