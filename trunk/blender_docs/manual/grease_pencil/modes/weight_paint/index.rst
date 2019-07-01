@@ -8,6 +8,7 @@
 
    introduction.rst
    toolbar/index.rst
+   tools/index.rst
 
 
 Weight Menu
