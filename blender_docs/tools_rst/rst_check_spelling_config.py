@@ -25,6 +25,7 @@ dict_custom = {
     "probabilistically",
     "recurse",
     "screencast",
+    "selectability",
     "subclass", "subclasses", "subclassing",
     "subdirectory",
     "unregister",
