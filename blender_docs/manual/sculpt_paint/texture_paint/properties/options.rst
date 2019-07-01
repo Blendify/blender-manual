@@ -1,6 +1,6 @@
 .. _bpy.types.ImagePaint.use_backface_culling:
 .. _bpy.types.ImagePaint.dither:
-.. _bpy.types.ImagePaint.use_occlude
+.. _bpy.types.ImagePaint.use_occlude:
 
 
 *******

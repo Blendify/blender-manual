@@ -1,13 +1,9 @@
-
-********************
-Texture Slots & Mask
-********************
-
 .. _bpy.types.ImagePaint.mode:
 .. _bpy.types.ImagePaint.interpolation:
 
+*************
 Texture Slots
-=============
+*************
 
 .. figure:: /images/sculpt-paint_texture-paint_slots-mask_slots-panel.png
    :align: right
@@ -51,26 +47,3 @@ Painting Mode
 Save All Images
    Repack (or save if external file) all edited images.
    Same as in the :doc:`Image Editor </editors/image/introduction>`.
-
-
-.. _bpy.types.ImagePaint.stencil:
-
-Mask
-====
-
-.. figure:: /images/sculpt-paint_texture-paint_slots-mask_mask-panel.png
-   :align: right
-
-   Mask settings.
-
-The mask can be deactivated by the checkbox in the header.
-
-UV Layer
-   Allows you to select the UV layer for the mask image.
-Stencil Image
-   Image used as a mask. See :ref:`ui-data-block`.
-Display Color
-   Mask color in the viewport. See :ref:`ui-color-picker`.
-
-   Invert Stencil (black/white icon)
-      Inverts the mask.

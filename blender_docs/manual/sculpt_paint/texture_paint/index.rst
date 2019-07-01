@@ -12,5 +12,4 @@
    introduction.rst
    toolbar/index.rst
    tools.rst
-   slots_mask.rst
-   options.rst
+   properties/index.rst
