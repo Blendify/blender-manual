@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-smooth:
+.. _tool-grease-pencil-sculpt-smooth:
 
 *************
 Smooth Tool

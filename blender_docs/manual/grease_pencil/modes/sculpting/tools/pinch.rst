@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-pinch:
+.. _tool-grease-pencil-sculpt-pinch:
 
 *************
 Pinch Tool

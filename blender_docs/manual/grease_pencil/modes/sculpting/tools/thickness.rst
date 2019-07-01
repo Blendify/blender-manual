@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-thickness:
+.. _tool-grease-pencil-sculpt-thickness:
 
 ***************
 Thickness Tool

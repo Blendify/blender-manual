@@ -1,4 +1,4 @@
-.. _tool-grease-pencil-edit-twist:
+.. _tool-grease-pencil-sculpt-twist:
 
 ************
 Twist Tool
