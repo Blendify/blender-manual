@@ -64,7 +64,7 @@ This step is skipped when using multiple edge loops (see below).
 Options
 -------
 
-The options are available while the tool is in use, and later in the :ref:`ui-redo-last` panel.
+The options are available while the tool is in use, and later in the :ref:`ui-undo-redo-adjust-last-operation` panel.
 
 
 Loop Cut

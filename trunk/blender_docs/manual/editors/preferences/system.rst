@@ -43,7 +43,7 @@ Global Undo
 
    .. warning::
 
-      While disabling this option does save memory, it stops the :ref:`Redo Panel <ui-redo-last>`
+      While disabling this option does save memory, it stops the :ref:`Redo Panel <ui-undo-redo-adjust-last-operation>`
       from functioning, also preventing tool options from being changed in some cases.
 
       For typical usage, its best to keep this enabled.

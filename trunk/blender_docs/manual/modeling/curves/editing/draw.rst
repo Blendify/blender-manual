@@ -85,7 +85,7 @@ Draw Options
 
    Draw Curve panel.
 
-These options can be found in the :ref:`Redo Last Panel <ui-redo-last>`.
+These options can be found in the :ref:`Adjust Last Operation Panel <ui-undo-redo-adjust-last-operation>`.
 
 Error
    Error distance in object units. This can be seen similar to a subdivision rate for the curve.

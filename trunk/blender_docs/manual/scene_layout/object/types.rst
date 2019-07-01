@@ -90,7 +90,7 @@ Collection Instance
 Common Options
 ==============
 
-You can change the options of the object in the :ref:`ui-redo-last` panel just after creating it:
+You can change the options of the object in the :ref:`ui-undo-redo-adjust-last-operation` panel just after creating it:
 
 Type
    Some objects let you change their type after creation with a selector.

@@ -14,13 +14,13 @@ with buttons, controls and widgets placed within them.
    :align: center
 
    The regions of the 3D Viewport showing the Sidebar and
-   the :ref:`ui-redo-last` panel after adding a Cube.
+   the :ref:`ui-undo-redo-adjust-last-operation` panel after adding a Cube.
 
    :ref:`Header <ui-region-header>` (green),
    :ref:`Main <ui-region-window>` region (yellow),
    :ref:`Toolbar <ui-region-toolbar>` (blue),
    :ref:`Sidebar <ui-region-sidebar>` (red) and
-   :ref:`ui-redo-last` panel (pink).
+   :ref:`ui-undo-redo-adjust-last-operation` panel (pink).
 
 
 .. _ui-region-window:
@@ -85,7 +85,7 @@ Adjust Last Operation
 
 The *Adjust Last Operation* is a region that shows tool options when tools (operators) are run.
 
-This is further documented here: :ref:`Adjust Last Operation <ui-redo-last>`.
+This is further documented here: :ref:`Adjust Last Operation <ui-undo-redo-adjust-last-operation>`.
 
 
 .. _ui-region-sidebar:

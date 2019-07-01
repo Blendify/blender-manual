@@ -30,7 +30,7 @@ You can also add primitives in Edit Mode at the 3D cursor.
 Common Options
 ==============
 
-These options can be specified in the :ref:`ui-redo-last` panel,
+These options can be specified in the :ref:`ui-undo-redo-adjust-last-operation` panel,
 which appears when the object is created.
 Options included in more than one primitive are:
 

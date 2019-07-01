@@ -23,7 +23,7 @@ The Subset Option
 =================
 
 Some of the tools also provide a Subset filter to restrict their functionality
-to only specific vertex groups (in the :ref:`ui-redo-last` panel, displayed after the tool is called)
+to only specific vertex groups (in the :ref:`ui-undo-redo-adjust-last-operation` panel, displayed after the tool is called)
 with following options:
 
 - Active Group
@@ -367,7 +367,7 @@ Copy weights from other objects to the vertex groups of the active object.
 
 By default this tool copies only the active (selected) vertex group of the source object
 to the active vertex group of target object or creates a new one if the group does not exist.
-However, you can change the tool's behavior in the :ref:`ui-redo-last` panel.
+However, you can change the tool's behavior in the :ref:`ui-undo-redo-adjust-last-operation` panel.
 
 For example, to transfer all existing vertex groups from the source objects to the target,
 change the *Source Layers Selection* option to *By Name*.
@@ -394,18 +394,18 @@ Now ensure that the target object is in Weight Paint Mode.
 Open the Tool Shelf and call the *Transfer Weights* tool in the *Weight Tools* panel.
 
 
-:ref:`ui-redo-last` Panel Confusion
+:ref:`ui-undo-redo-adjust-last-operation` Panel Confusion
 -----------------------------------
 
-You may notice that the :ref:`ui-redo-last` panel stays available after the weight transfer is done.
-The panel only disappears when you call another Operator that has its own :ref:`ui-redo-last` panel.
+You may notice that the :ref:`ui-undo-redo-adjust-last-operation` panel stays available after the weight transfer is done.
+The panel only disappears when you call another Operator that has its own :ref:`ui-undo-redo-adjust-last-operation` panel.
 This can lead to confusion when you use Transfer weights repeatedly
-after you changed your vertex groups. If you then use the still-visible :ref:`ui-redo-last` panel,
+after you changed your vertex groups. If you then use the still-visible :ref:`ui-undo-redo-adjust-last-operation` panel,
 then Blender will reset your work to its state right before you initially called the *Transfer Weights* tool.
 
 So when you want to call the *Transfer Weights* tool again after you made some changes to your
 vertex groups, then **always** use the *Transfer Weights* button,
-even if the :ref:`ui-redo-last` panel is still available.
+even if the :ref:`ui-undo-redo-adjust-last-operation` panel is still available.
 Unless you really want to reset your changes to the initial call of the tool.
 
 
