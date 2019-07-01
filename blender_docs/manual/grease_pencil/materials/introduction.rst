@@ -6,8 +6,11 @@ Introduction
 Materials control the appearance of the *Grease Pencil* object.
 They define the color and texture of the strokes and filled areas.
 
-The material are linked to the strokes, this means that any change in a material will change
-the look of already made strokes.
+There is always only one active material in the list (the selected one).
+When you draw, the new strokes use the active material.
+
+The material always remains linked to the strokes, this means that any change in a material will change
+the look of already drawn strokes.
 
 .. figure:: /images/grease-pencil_materials_introduction_sample.png
 
@@ -41,7 +44,7 @@ Lock (padlock icon)
 Viewport/Render Visibility (eye icon)
    Toggle material visibility in the viewport and in render.
 
-Onion Skinning (Trail icon)
+Onion Skinning (Onion skin icon)
    Toggle the use of the material for Onion Skinning.
    You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
 
