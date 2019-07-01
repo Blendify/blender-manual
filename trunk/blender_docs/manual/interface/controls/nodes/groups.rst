@@ -120,11 +120,10 @@ Panel
    :Mode:      All Modes
    :Panel:     :menuselection:`Sidebar region --> Node --> Interface`
 
-.. TODO2.8:
-   .. figure:: /images/interface_controls_nodes_groups_interface-panel.png
-      :align: right
+.. figure:: /images/interface_controls_nodes_groups_interface-panel.png
+   :align: right
 
-      The interface panel for editing groups.
+   The interface panel for editing groups.
 
 Sockets can be added, re-ordered, or removed, descriptive names can be added and
 the details of the input data value defined here.
