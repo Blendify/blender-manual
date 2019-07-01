@@ -8,6 +8,6 @@
 
    introduction.rst
    toolbar/index.rst
-   tools.rst
+   tools/index.rst
    stroke_menu.rst
    multiframe_editing.rst
