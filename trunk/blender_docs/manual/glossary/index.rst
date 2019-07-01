@@ -644,6 +644,19 @@ This page lists definitions for terms used in Blender and this manual.
       `Radiosity (computer graphics) <https://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
       on Wikipedia.
 
+   Random Seed
+   Seed
+      Blender uses pseudo random number generators, which produce numbers that *look* random,
+      but given the same initial condition, they will always produce the exact same sequence of 'random' numbers.
+
+      This is a critical feature to get reproducible and/or stable effects
+      (otherwise e.g. your hair simulation would change every time you re-run it, in completely uncontrollable ways).
+
+      The **seed** is a number that represents the initial condition of a random generator,
+      if you change its seed, it will produce a new sequence of pseudo-random numbers.
+
+      See also `Random seed <https://en.wikipedia.org/wiki/Random_seed>`__ on Wikipedia.
+
    Ray Tracing
       Rendering technique that works by tracing the path taken by a ray of light through the scene,
       and calculating reflection, refraction, or absorption of the ray whenever it intersects
