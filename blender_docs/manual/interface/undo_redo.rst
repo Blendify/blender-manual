@@ -55,41 +55,47 @@ Adjust Last Operation
    :Menu:      :menuselection:`Edit --> Adjust Last Operation...`
    :Hotkey:    :kbd:`F9`
 
-:kbd:`F9` after an action will present you a context-sensitive pop-up menu
-based on your last action taken and the Mode and Editor in which Blender is being used.
+After an operation is complete you can tweak the parameters of the operation afterwards.
+In editors that support it, there is a "heads up display" panel in the bottom left
+based on your last operation preformed; dependent on mode and context.
+Alternately, you can create a pop-up with :kbd:`F9` does the same thing.
 
-For example, if your last action was a rotation in *Object Mode*,
+For example, if your last operation was a rotation in *Object Mode*,
 Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last` left),
 where you can change your action back completely by typing :kbd:`Numpad0`.
-There are other useful options, based on your action context,
+There are other useful options, based on the operator,
 and you cannot only Undo actions, but change them completely using the available options.
 
 If you are in *Edit Mode*,
 Blender will also change its contents based on your last action taken.
-In our second example (at the right), the last action taken was a Vertex Move;
-we did a *Scale* on a Face, and, as you can see,
-the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
+In the second example (at the right), the last operation was a Move in object mode;
+but a *Scale* on a Face in Edit mode, and, as you can see,
+the contents of *Adjust Last Operation* are different, because of the mode (Edit mode)
 (See Fig. :ref:`fig-interface-redo-last` right).
 
 .. _fig-interface-redo-last:
 
-.. list-table:: Redo Last.
+.. list-table::
 
    * - .. figure:: /images/interface_undo-redo_redo-last-object-mode.png
           :width: 310px
 
-          Redo Last -- Rotation (Object Mode, 60 degrees).
+          Adjust Last Operation -- Rotation (Object Mode, 60 degrees).
 
      - .. figure:: /images/interface_undo-redo_redo-last-edit-mode.png
           :width: 310px
 
-          Redo Last -- Scale (Edit Mode, Resize face).
+          Adjust Last Operation -- Scale (Edit Mode, Resize face).
 
-.. tip:: Operations using Redo Last
+.. tip::
 
-   Some operations produce particularly useful results if you tweak their parameters with the :kbd:`F9` Menu.
-   Take, for example, adding a Circle. If you reduce the Vertex count to three,
+   Some operations produce particularly useful results by using *Adjust Last Operation*.
+   For example, adding a Circle in the 3D Viewport; if you reduce the *Vertices* to three,
    you get a perfect equilateral triangle.
+
+.. tip::
+
+   The *Adjust Last Operation* region can be hidden by :menuselection:`View --> Adjust Last Operation`
 
 
 .. _bpy.ops.ed.undo_history:

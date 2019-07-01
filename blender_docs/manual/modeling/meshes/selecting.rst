@@ -331,7 +331,7 @@ Select geometry connected to already selected elements.
 This is often useful when a mesh has disconnected, overlapping parts,
 where isolating it any other way would be tedious.
 
-To give more control, you can also enable delimiters in the :ref:`ui-redo-last` panel,
+To give more control, you can also enable delimiters in the :ref:`ui-undo-redo-adjust-last-operation` panel,
 so the selection is constrained by seams, sharp edges, materials or UV islands.
 
 With *Pick Linked* you can also select connected geometry directly under the cursor,

@@ -132,7 +132,7 @@ Adjust Last Operation
 ---------------------
 
 In the case of the 3D View, there is the possibility to tweak the operation once
-accepted, using the specific :ref:`ui-redo-last` panel corresponding to the tool.
+accepted, using the specific :ref:`ui-undo-redo-adjust-last-operation` panel corresponding to the tool.
 
 Value
    The amount of the transformation.

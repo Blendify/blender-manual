@@ -37,7 +37,7 @@ Options
 
 Clear Delta
    Clear the :ref:`delta transform <transform-delta>` in addition to clearing the primary transforms.
-   (Appears in the :ref:`ui-redo-last` panel.)
+   (Appears in the :ref:`ui-undo-redo-adjust-last-operation` panel.)
 
 
 Apply
@@ -73,7 +73,7 @@ however modifiers and constraints may depend on object transformation.
    this does **not** apply to their pose location, animation curves or constraints.
    This tool should be used before rigging and animation.
 
-When running *Apply Transform*, the :ref:`ui-redo-last` panel lets you choose
+When running *Apply Transform*, the :ref:`ui-undo-redo-adjust-last-operation` panel lets you choose
 the combination of transformations to apply.
 
 

@@ -346,7 +346,7 @@ Set Goal Weight
    :Menu:      :menuselection:`Specials --> Set Goal Weight`
 
 This sets the :doc:`Soft Body Goal Weight </modeling/curves/properties/introduction>`
-of selected control points. The precise value can be adjusted in the :ref:`ui-redo-last` Panel.
+of selected control points. The precise value can be adjusted in the :ref:`ui-undo-redo-adjust-last-operation` Panel.
 To adjust the *Mean Weight* (average) of selected control points use
 :menuselection:`Sidebar region --> Transform --> Mean Weight`.
 

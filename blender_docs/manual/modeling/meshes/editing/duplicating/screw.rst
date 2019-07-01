@@ -127,7 +127,7 @@ Options
 This tool is an interactive and modal tool, and only works in *Edit Mode*.
 
 Once you click in the *Screw* tool in the Mesh Tools Panel,
-Blender will enter in the *Screw* interactive mode, and the :ref:`ui-redo-last` Panel
+Blender will enter in the *Screw* interactive mode, and the :ref:`ui-undo-redo-adjust-last-operation` Panel
 at the end of the Mesh Tools Panel will be replaced so you can adjust the values explained below.
 To show the Mesh Tools Panel,
 use the shortcut :kbd:`T` in the Edit Mode of the 3D Viewport.
@@ -162,7 +162,7 @@ Continuous operations without changing the selection will repeat the operation c
 
 .. figure:: /images/modeling_meshes_editing_duplicating_screw_interactive-panel.png
 
-   Screw Tools :ref:`ui-redo-last` Panel (Edit Mode).
+   Screw Tools :ref:`ui-undo-redo-adjust-last-operation` Panel (Edit Mode).
 
 Center
    These number buttons specify the center of the spin. When the tool is called for the first time,
