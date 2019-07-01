@@ -10,6 +10,11 @@ This can be further configured to display output from certain channel, overlay o
 Header
 ======
 
+.. figure:: /images/sequencer_preview_introduction_header.png
+
+   Sequencer Display header.
+
+
 View Menu
 ---------
 
@@ -29,26 +34,35 @@ Sequence Render Animation
    Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
 
 
-Controls
---------
-
-.. figure:: /images/sequencer_preview_introduction_header.png
-
-   Sequencer Display header.
-
 Display Mode
-   Mode to show different aspects of the composite result,
-   for the current frame:
+------------
 
-   - Image Preview: Colors (what you see).
-   - Luma Waveform: Brightness/contrast.
-   - Chroma Vectorscope: Color hue and saturation.
-   - Histogram: Levels of red, green, and blue.
+Mode to show different aspects of the composite result,
+for the current frame:
+
+Image Preview:
+   Render image preview.
+Luma Waveform:
+   Brightness/contrast analyzer.
+Chroma Vectorscope:
+   Color hue and saturation analyzer.
+Histogram:
+   RGB distribution histogram.
+
 
 Display Channels
-   :Color and Alpha: Display preview image with transparency over checkerboard pattern.
-   :Color: Ignore transparency of preview image (fully transparent areas will be black).
+----------------
+
+Color and Alpha
+   Display preview image with transparency over checkerboard pattern.
+Color
+   Ignore transparency of preview image (fully transparent areas will be black).
 
 ..
    You can adjust the view by zooming in with :kbd:`Plus` and zoom out with :kbd:`Minus`.
-   You can also reset the view with :kbd:`Home`.
+
+
+Gizmos
+======
+
+You can use gizmos to pan and zoom image in sequencer preview window.

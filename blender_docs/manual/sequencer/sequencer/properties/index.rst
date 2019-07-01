@@ -9,4 +9,3 @@
    strip.rst
    modifiers.rst
    proxy_cache.rst
-   view.rst

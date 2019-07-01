@@ -204,12 +204,10 @@ number buttons in the *Strip Info* panel.
 Mute
 ====
 
-Mute Strips :kbd:`H`
-   Mute the selected strips.
-Un-Mute Strips :kbd:`Alt-H`
-   Un-Mutes selected strips.
-Mute Deselected Strips :kbd:`Shift-H`
-   You can mute all strips but the selected.
+Mute/Unmute Strips :kbd:`H`, :kbd:`Alt-H`
+   Mute or unmute the selected strips.
+Mute/Unmute Deselected Strips :kbd:`Shift-H`, :kbd:`Ctrl-Alt-H`
+   Mute or unmute all strips but the selected.
 
 
 .. _sequencer-edit-change:
@@ -248,3 +246,21 @@ The Strip Menu contains additional tools for working with strips:
 - Lock Strips
 - UnLock Strips
 - Swap Strips
+
+
+************
+Context Menu
+************
+
+You can activate context menu by clicking :kbd:`RMB` in sequencer timeline.
+
+In this menu you can quickly access some common commands such as:
+
+- copy and paste strips
+- cut, delete and duplicate strips
+- slip strip contents
+- snap to playhead
+- remove and insert gaps
+- lock or mute strips
+
+

@@ -25,7 +25,7 @@ Use Sequence
    with the added advantage of supporting multiple instances of the same data.
 Volume
    Volume of the audio taken from the chosen scene.
-Camera Override
+Camera
    This can be used to override the scene's camera with any other object.
 
    It is useful to support switching views within a single scene.
