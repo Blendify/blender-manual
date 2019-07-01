@@ -20,7 +20,7 @@ Window System
 .. toctree::
    :maxdepth: 1
 
-   window_system/introduction.rst
+   Introduction <window_system/introduction.rst>
    window_system/topbar.rst
    window_system/workspaces.rst
    window_system/status_bar.rst
