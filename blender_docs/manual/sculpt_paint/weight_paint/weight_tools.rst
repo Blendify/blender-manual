@@ -395,7 +395,7 @@ Open the Tool Shelf and call the *Transfer Weights* tool in the *Weight Tools* p
 
 
 :ref:`ui-undo-redo-adjust-last-operation` Panel Confusion
------------------------------------
+---------------------------------------------------------
 
 You may notice that the :ref:`ui-undo-redo-adjust-last-operation` panel stays available after the weight transfer is done.
 The panel only disappears when you call another Operator that has its own :ref:`ui-undo-redo-adjust-last-operation` panel.
