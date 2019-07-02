@@ -42,7 +42,7 @@ Detect Features
 
    Placement
       Used to control where to place markers. By default, they will be added through the whole frame,
-      but you can also outline some areas with interesting features with Grease pencil
+      but you can also outline some areas with interesting features with Grease Pencil
       and place markers only inside the outlined area.
       That is how the "Inside Grease Pencil" placement variant works.
       You can also outline areas of no interest (like trees, humans and so)

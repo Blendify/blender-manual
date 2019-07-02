@@ -20,10 +20,11 @@ See :doc:`Particle Cache </physics/particles/emitter/cache>` for details.
 .. note:: Subdivision Surface Modifier
 
    A bake/cache is done for every subdivision level so please use
-   **the equal** subdivision level for render and preview.
+   the **equal** subdivision level for render and preview.
+
 
 Bake Collision
---------------
+==============
 
 .. TODO2.8:
    .. figure:: /images/physics_cloth_settings_collisions_bake.png

@@ -54,10 +54,10 @@ the selected object and mode.
 
 .. _bpy.ops.screen.header:
 
-Options
--------
+Context Menu
+------------
 
-:kbd:`RMB` on a header reveals a menu with a couple options.
+:kbd:`RMB` on a header reveals a context menu with a couple options:
 
 Show Header
    Toggles the visibility of the header.

@@ -139,7 +139,7 @@ Set From Faces
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Set from Faces`
+   :Menu:      :menuselection:`Mesh --> Normals --> Set from Faces`
 
 Set the custom normals at corners to be the same as the face normal that the corner is part of.
 
@@ -170,7 +170,7 @@ Point to Target
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Point to Target`
+   :Menu:      :menuselection:`Mesh --> Normals --> Point to Target`
    :Hotkey:    :kbd:`Alt-L`
 
 All selected normals are set to point from their vertex to the target
@@ -207,7 +207,7 @@ Merge
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Merge`
+   :Menu:      :menuselection:`Mesh --> Normals --> Merge`
 
 Merge all of the normals at selected vertices, making one average normal for all of the faces.
 
@@ -221,7 +221,7 @@ Split
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Split`
+   :Menu:      :menuselection:`Mesh --> Normals --> Split`
 
 Split the normals at all selected vertices so that there are separate normals for each face,
 pointing in the same direction as those faces.
@@ -248,7 +248,7 @@ Copy Vectors
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Copy Vectors`
+   :Menu:      :menuselection:`Mesh --> Normals --> Copy Vectors`
 
 If a single normal is selected, copy it to an internal vector buffer.
 
@@ -260,7 +260,7 @@ Paste Vectors
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Paste Vectors`
+   :Menu:      :menuselection:`Mesh --> Normals --> Paste Vectors`
 
 Replace the selected normals with the one in the internal vector buffer.
 
@@ -274,7 +274,7 @@ Smoothen Vectors
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Smoothen Vectors`
+   :Menu:      :menuselection:`Mesh --> Normals --> Smoothen Vectors`
 
 Adjust the normals to bring them closer to their adjacent vertex normals.
 
@@ -286,6 +286,6 @@ Reset Vectors
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Reset Vectors`
+   :Menu:      :menuselection:`Mesh --> Normals --> Reset Vectors`
 
 Put normals back the to default calculation of the normals.

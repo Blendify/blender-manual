@@ -68,7 +68,7 @@ Friction
 
 .. _physics-collision-soft-bodt-cloth:
 
-Soft body and Cloth
+Soft Body and Cloth
 -------------------
 
 It is also important to note that this collision panel is used to tell

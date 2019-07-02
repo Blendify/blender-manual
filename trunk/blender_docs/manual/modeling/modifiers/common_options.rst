@@ -18,23 +18,25 @@ Vertex Group
 
    Typical modifier Vertex Group options.
 
-:doc:`Vertex Groups</modeling/meshes/properties/vertex_groups/introduction>` are an easy way to control
+:doc:`Vertex Groups </modeling/meshes/properties/vertex_groups/introduction>` are an easy way to control
 which vertices are affected by a modifier, and to which extent (using their weights).
-They are available when modifying meshes or latices.
+They are available when modifying meshes or lattices.
 
 .. tip::
+
    Vertex groups can also be edited and even animated using
-   the :ref:`Vertex Weight modifiers<bpy.types.VertexWeightEditModifier>`.
+   the :ref:`Vertex Weight modifiers <bpy.types.VertexWeightEditModifier>`.
 
 Vertex Group
    The vertex group name.
 
    .. warning::
+
       The group is referenced by its name. That means that if you rename it, the link to the renamed vertex group
       will be lost by all modifiers using it (their field will turn red),
       and you'll have to select the proper group again in all of them.
 
-Invert (double-arrow icon)
+Invert (double arrow icon)
    Invert the influence of the vertex group. Only available in some modifiers.
 
 
@@ -47,18 +49,20 @@ Texture
    Typical modifier Texture options.
 
 Those options allow to use any kind of image (including parametric ones) to control the modifier's effect.
-Most of the time, only the value (gray-scale) of the texture is used,
-but in some cases (like with some modes of the :ref:`Displace modifier<bpy.types.DisplaceModifier>`),
+Most of the time, only the value (grayscale) of the texture is used,
+but in some cases (like with some modes of the :ref:`Displace modifier <bpy.types.DisplaceModifier>`),
 the whole RGB color components might be exploited.
 
 .. tip::
+
    Textures can be animated (either using videos, or by animating the mapping coordinates...).
 
 Texture
-   The :doc:`texture data-block</render/materials/legacy_textures/introduction>` to use.
+   The :doc:`texture data-block </render/materials/legacy_textures/introduction>` to use.
 
    .. tip::
-      By clicking on the right-most button of this field (the 'settings' one),
+
+      By clicking on the right-most button of this field (with the settings icon),
       you can go directly to the selected texture's settings in the *Texture Properties* editor.
 
 Texture Coordinates
@@ -94,7 +98,7 @@ Texture Coordinates
 
          Moving the original object will **also** result in a texture coordinate update.
          As such, if you need to maintain a displacement coordinate system while moving the modified object,
-         consider :ref:`parenting<bpy.ops.object.parent_set>` the coordinate object to the modified object.
+         consider :ref:`parenting <bpy.ops.object.parent_set>` the coordinate object to the modified object.
 
    Global
       Take the texture coordinates from the global coordinate system.
@@ -114,7 +118,7 @@ Use Channel
       The hue from the HSV color space
       (i.e; the color in the standard wheel, e.g. blue has a higher hue value than yellow).
    Saturation
-      The saturation from the HSV color space (e.g. pure red's value is 1.0, gray is 0.0).
+      The saturation from the HSV color space (e.g. the value for pure red is 1.0, for gray is 0.0).
    Value
       The value from the HSV color space.
 

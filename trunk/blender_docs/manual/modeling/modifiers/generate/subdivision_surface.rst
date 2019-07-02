@@ -61,7 +61,7 @@ Subdivisions
 
    .. warning::
 
-      Higher levels of subdivisions mean more vertices, and more vertices means more memory will be used
+      Higher levels of subdivisions results in more vertices, which means more memory will be occupied
       (both system RAM, and video memory for display).
       Blender could potentially crash or hang if you do not have enough available memory.
 

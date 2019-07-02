@@ -133,7 +133,7 @@ Audio Scrubbing
    If your animation has sound, this option plays bits of the sound wave
    while you move the playhead with :kbd:`LMB` or keyboard arrows (like a moving playhead).
 Mute Audio
-   Mute the sound from any audio sources.
+   Mute the sound from any audio source.
 Subframes
    Display and allow changing the current scene sub-frame.
 Limit Playhead to Frame Range

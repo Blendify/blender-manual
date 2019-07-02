@@ -16,8 +16,8 @@ Shape
 Pin Group
    Vertex Group to use for pinning.
 
-   The shape of the cloth can be controlled by pinning cloth to a.
-   :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
+   The shape of the cloth can be controlled by pinning cloth to
+   a :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>`.
    There are several ways of doing this including
    :doc:`Weight Painting </sculpt_paint/weight_paint/index>` areas you want to pin.
    The weight of each vertex in the group controls how strongly it is pinned.

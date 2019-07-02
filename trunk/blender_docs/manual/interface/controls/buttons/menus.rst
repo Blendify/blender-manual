@@ -19,6 +19,7 @@ If the menu content is too large to fit on the screen, small menu
 scrolling indicator triangle appears on bottom or top of menu.
 Scrolling is done by moving the mouse below or above the scrolling indicator.
 
+
 .. rubric:: Shortcuts
 
 - Use :kbd:`Wheel` while hovering with the mouse.

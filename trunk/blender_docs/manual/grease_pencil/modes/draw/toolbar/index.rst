@@ -4,7 +4,7 @@
 Toolbar
 *******
 
-Grease pencil draw tools:
+Grease Pencil draw tools:
 
 .. note::
 
@@ -14,7 +14,7 @@ Cursor
    Change the location of the 3D Cursor.
 
 :ref:`Draw <tool-grease-pencil-draw-draw>`
-   Create new strokes by freehand drawing.
+   Create new strokes by free-hand drawing.
 
 :ref:`Fill <tool-grease-pencil-draw-fill>`
    Automatic fill closed strokes areas.
@@ -26,16 +26,16 @@ Cursor
    Cut strokes in between others.
 
 :ref:`Line <tool-grease-pencil-draw-line>`
-  Draw rect lines.
+   Draw straight lines.
 
 :ref:`Arc <tool-grease-pencil-draw-arc>`
-  Draw Simple arcs.
+   Draw simple arcs.
 
 :ref:`Curve <tool-grease-pencil-draw-curve>`
-  Draw complex bezier style curves.
+   Draw complex Bézier style curves.
 
 :ref:`Box <tool-grease-pencil-draw-box>`
-  Draw rectangular shapes.
+   Draw rectangular shapes.
 
 :ref:`Circle <tool-grease-pencil-draw-circle>`
-  Draw oval shapes.
+   Draw oval shapes.

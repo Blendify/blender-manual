@@ -12,7 +12,7 @@ different workspaces within the same file.
 .. figure:: /images/interface_window-system_workspaces_screen.png
    :align: center
 
-   Workspaces are located at the Top bar.
+   Workspaces are located at the Topbar.
 
 
 Controls
@@ -46,7 +46,6 @@ and contains the following :doc:`/editors/index`:
 
    3D View (yellow), Outliner (green), Properties editor (blue) and Timeline (red).
 
-
 Blender also has several other workspaces added by default:
 
 :Modeling: For modification of geometry by modeling tools.
@@ -65,17 +64,20 @@ Additional Workspaces
 
 Blender as a couple additional Workspaces to choose from when adding a new Workspace:
 
+
 .. rubric:: 2D Animation
 
 :2D Animation: General workspace to work with the Grease Pencil.
 :2D Full Canvas: Similar to "2D Animation" but contains a larger canvas.
 
+
 .. rubric:: VFX
 
-:Masking: Tools to create 2D masks for composting.
+:Masking: Tools to create 2D masks for compositing.
 :Motion Tracking: Tools to motion track and stabilize footage.
 
-.. Rubric:: Video Editing
+
+.. rubric:: Video Editing
 
 :Video Editing: Sequence together media into one video.
 
@@ -89,3 +91,4 @@ use the file's screen layouts and overriding the current layout.
 See :ref:`Load UI <file-load-ui>`.
 
 A custom set of workspaces can be saved as a part of the :doc:`/getting_started/configuration/defaults`.
+

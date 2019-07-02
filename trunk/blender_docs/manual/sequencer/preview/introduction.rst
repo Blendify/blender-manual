@@ -40,13 +40,13 @@ Display Mode
 Mode to show different aspects of the composite result,
 for the current frame:
 
-Image Preview:
+Image Preview
    Render image preview.
-Luma Waveform:
+Luma Waveform
    Brightness/contrast analyzer.
-Chroma Vectorscope:
+Chroma Vectorscope
    Color hue and saturation analyzer.
-Histogram:
+Histogram
    RGB distribution histogram.
 
 
@@ -65,4 +65,4 @@ Color
 Gizmos
 ======
 
-You can use gizmos to pan and zoom image in sequencer preview window.
+You can use gizmos to pan and zoom image in the Sequencer preview region.

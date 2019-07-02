@@ -56,9 +56,9 @@ Adjust Last Operation
    :Hotkey:    :kbd:`F9`
 
 After an operation is complete you can tweak the parameters of the operation afterwards.
-In editors that support it, there is a "heads up display" panel in the bottom left
-based on your last operation preformed; dependent on mode and context.
-Alternately, you can create a pop-up with :kbd:`F9` does the same thing.
+In editors that support it, there is a "head-up display" panel in the bottom left
+based on the last performed operation; dependent on mode and context.
+Alternatively, you can create a pop-up with :kbd:`F9` does the same thing.
 
 For example, if your last operation was a rotation in *Object Mode*,
 Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last` left),
@@ -75,17 +75,17 @@ the contents of *Adjust Last Operation* are different, because of the mode (Edit
 
 .. _fig-interface-redo-last:
 
-.. list-table::
+.. list-table:: Adjust Last Operation.
 
    * - .. figure:: /images/interface_undo-redo_redo-last-object-mode.png
           :width: 310px
 
-          Adjust Last Operation -- Rotation (Object Mode, 60 degrees).
+           Rotation (Object Mode, 60 degrees).
 
      - .. figure:: /images/interface_undo-redo_redo-last-edit-mode.png
           :width: 310px
 
-          Adjust Last Operation -- Scale (Edit Mode, Resize face).
+          Scale (Edit Mode, Resize face).
 
 .. tip::
 

@@ -4,7 +4,7 @@
 Toolbar
 *******
 
-Grease pencil weight paint tools:
+Grease Pencil weight paint tools:
 
 :ref:`Weight <tool-grease-pencil-weight-paint-weight>`
-   TODO2.8
+   TODO2.8.

@@ -1,6 +1,7 @@
-##########
+
+#########
   Tools
-##########
+#########
 
 .. toctree::
    :maxdepth: 2
@@ -9,4 +10,3 @@
    radius.rst
    bend.rst
    shear.rst
-      

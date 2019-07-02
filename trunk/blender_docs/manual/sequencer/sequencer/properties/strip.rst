@@ -110,6 +110,7 @@ Time Panel
 
 The Info panel is used to control source and timeline position of the strip.
 
+
 Panel Header
 ------------
 

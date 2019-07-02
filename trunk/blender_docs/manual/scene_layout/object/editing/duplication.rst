@@ -72,10 +72,11 @@ this is called a deep link. This will create a new object with **all** of its da
 the original object. If you modify one of the linked objects in *Edit Mode*,
 all linked copies are modified. Transform properties (object data-blocks) still remain copies,
 not links, so you still can rotate, scale, and move freely without affecting the other copies.
-Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
+Reference the :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
 
 Linked
-   In the *Duplicate Objects* :ref:`ui-undo-redo-adjust-last-operation` panel the *Linked* checkbox is checked unlike with *Duplicate*.
+   In the *Duplicate Objects* :ref:`ui-undo-redo-adjust-last-operation` panel the *Linked* checkbox is checked
+   unlike with *Duplicate*.
 
 .. hint::
 

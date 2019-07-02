@@ -8,7 +8,7 @@ When a *Particle Instance* modifier is added to an object,
 the mesh of this object will be duplicated
 at the location of the particles of the selected *Particle System* from another target object.
 This means that to use this modifier, you must have at least one other object
-that has a :doc:`Particles System</physics/particles/index>` on it.
+that has a :doc:`Particles System </physics/particles/index>` on it.
 
 Because of the correlation in which the *Particle Instance* modifier is
 influenced by the underlying particle systems on other objects, some of the apparent effects
@@ -100,7 +100,8 @@ Amount
          If you want to fully avoid overlaps, your *Offset* value must be at least as high as your *Amount* value.
 
 Rotation Axis X/Y/Z
-   Specify which axis of the modified object to use as pole axis to apply the rotation from the instantiated particles.
+   Specify which axis of the modified object to use as pole axis to apply
+   the rotation from the instantiated particles.
 
 
 Using Paths
@@ -110,15 +111,15 @@ By default, the instances are placed depending on the particles position in the 
 By enabling this option, you can select the position along the particles path regardless of the current frame.
 
 You can adjust the particles' path (using the *Path* visualization type)
-on the :doc:`Render</physics/particles/emitter/render>` panel of the *Particle System* tab.
+on the :doc:`Render </physics/particles/emitter/render>` panel of the *Particle System* tab.
 
 .. note::
 
-   The particle system must be :doc:`baked</physics/baking>`, except for *Hair* type or *Keyed* physics.
+   The particle system must be :doc:`baked </physics/baking>`, except for *Hair* type or *Keyed* physics.
 
 Create Along Paths
-   This option tries to make the instance of the modified object to
-   follow, to deform its shape along the particle path (or the hair strand).
+   This option tries to make the instance of the modified object to follow,
+   to deform its shape along the particle path (or the hair strand).
 Keep Shape
    Enabling this prevents the instance from being deformed,
    and places it on the path according to the *Position* value.

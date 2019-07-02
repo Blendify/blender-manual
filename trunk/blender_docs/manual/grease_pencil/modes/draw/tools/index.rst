@@ -1,6 +1,7 @@
-##########
+
+#########
   Tools
-##########
+#########
 
 .. toctree::
    :maxdepth: 2
@@ -14,4 +15,3 @@
    curve.rst
    box.rst
    circle.rst
-   

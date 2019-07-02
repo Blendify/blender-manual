@@ -8,11 +8,12 @@ Curve Tool
    :class: refbox
 
    :Mode:      Draw Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Draw Tools --> Curve`   
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Draw Tools --> Curve`
 
 The Curve tool draw complex bezier style curves.
+
 
 Usage
 =====
 
-TODO2.8
+TODO2.8.

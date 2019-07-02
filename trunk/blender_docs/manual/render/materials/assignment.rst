@@ -96,7 +96,7 @@ Additional buttons will then appear in the material slots panel.
 
 Assign
    Assign active material slot and material to the selected faces in the mesh,
-   strokes in a grease pencil, and similar for other object types.
+   strokes in a Grease Pencil, and similar for other object types.
 
 Select
    Select faces assigned to the active material slot.

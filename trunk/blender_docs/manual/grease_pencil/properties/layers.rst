@@ -95,7 +95,7 @@ Common Settings
 
 Next to the layer name there are four icons buttons that control common properties of the layer:
 
-Mask (Mask icon)
+Mask (mask icon)
    When the mask is enabled, all the layers below the current one function as a single mask.
    This mask hide any pixel in the current layer outside the mask created by the underlying layers.
 
@@ -117,7 +117,7 @@ Lock (padlock icon)
 Viewport/Render Visibility (eye icon)
    Toggle layer visibility in the viewport and in render.
 
-Onion Skinning (Onion skin icon)
+Onion Skinning (onion skin icon)
    Toggle the use the layer for Onion Skinning.
    You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
 

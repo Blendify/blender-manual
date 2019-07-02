@@ -4,12 +4,11 @@
 Toolbar
 *******
 
-Grease pencil edit tools:
+Grease Pencil edit tools:
 
 .. note::
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
-
 
 :ref:`Select <tool-select-tweak>`
    Select or moved.
@@ -25,13 +24,13 @@ Cursor
    Change the location of the 3D Cursor.
 
 :ref:`Extrude <tool-grease-pencil-edit-extrude>`
-   TODO2.8
+   TODO2.8.
 
 :ref:`Radius <tool-grease-pencil-edit-radius>`
-   TODO2.8
+   TODO2.8.
 
 :ref:`Bend <tool-grease-pencil-edit-bend>`
-   TODO2.8
+   TODO2.8.
 
 :ref:`Shear <tool-grease-pencil-edit-shear>`
-   TODO2.8
+   TODO2.8.
