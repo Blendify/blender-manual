@@ -248,19 +248,16 @@ The Strip Menu contains additional tools for working with strips:
 - Swap Strips
 
 
-************
 Context Menu
-************
+============
 
-You can activate context menu by clicking :kbd:`RMB` in sequencer timeline.
+You can activate context menu by clicking :kbd:`RMB` in the Sequencer's timeline.
 
-In this menu you can quickly access some common commands such as:
+In this menu you can quickly access some common tools such as:
 
-- copy and paste strips
-- cut, delete and duplicate strips
-- slip strip contents
-- snap to playhead
-- remove and insert gaps
-- lock or mute strips
-
-
+- Copy and paste strips
+- Cut, delete and duplicate strips
+- Slip strip contents
+- Snap to playhead
+- Remove and insert gaps
+- Lock or mute strips

@@ -4,8 +4,8 @@
 Explode Modifier
 ****************
 
-The *Explode* modifier is used to alter the mesh geometry by moving/rotating its faces in a way that roughly
-tracks particles emitted by that object, making it look as if the mesh is being exploded
+The *Explode* modifier is used to alter the mesh geometry by moving/rotating its faces in a way
+that roughly tracks particles emitted by that object, making it look as if the mesh is being exploded
 (broken apart and pushed outward).
 
 For this modifier to have any visible effect, there needs to be a particle system on its object.
@@ -53,18 +53,18 @@ Vertex Group
       (which would happen if the faces had a weight value of 0).
 
 Particle UV
-   If set, the ``U`` value of the coordinates in that :term:`UV map` will be overwritten
+   If set, the U value of the coordinates in that :term:`UV map` will be overwritten
    with the age of the particle attached to the matching mesh face
-   (in proportion, from ``0`` for not yet born particles, to ``1`` for dead ones).
+   (in proportion, from 0 for not yet born particles, to 1 for dead ones).
 
-   The ``V`` value is set to a constant ``0.5`` value.
+   The V value is set to a constant 0.5 value.
 
    This allows e.g. to make the color of a fragment (face) vary during it 'explosion' phase,
    by using a texture with a gradient of colors along its *U* axis.
 
 Cut Edges
    Split the mesh in pieces based on location of emitted particles, instead of using existing faces.
-   This will typically give a more random-looking splitting.
+   This will typically give a splitting that appears more random.
 
 Unborn
    Show faces when their attached particles are unborn.

@@ -8,20 +8,20 @@ Grease Pencil Shader
 
    Shader panel with only Stroke component activated.
 
-
 The *Grease Pencil* Shader create a material that can work
 with strokes and/or filled areas of a *Grease Pencil* Object.
 
-Stroke and fill components has it own section panel and they can be
-enabled with a checkbox on the panel header.
+Stroke and fill components has it own section panel and
+they can be enabled with a checkbox on the panel header.
 
 *Stroke* only has effect on the lines and *Fill* only on the areas
 determined by closed lines (by connecting the lines start and end points).
 
 .. note::
 
-   The shader is not yet a BSDF capable shader to interact with Blender lights 
-   and can only be setting up on the material properties panel (it is not a shader node).
+   The shader is not yet a BSDF capable shader to interact with Blender lights
+   and can only be setting up on the Material Properties panel (it is not a shader node).
+
 
 Properties
 ==========
@@ -79,28 +79,27 @@ Style
          Color
             Color to mix.
 
-
 .. list-table:: Samples of different material strokes mode types and styles.
 
    * - .. figure:: /images/grease-pencil_shader_stroke-solid-line.png
           :width: 130px
 
-          Mode Type: Line - Style: Solid.
+          Mode Type: Line, Style: Solid.
 
      - .. figure:: /images/grease-pencil_shader_stroke-texture-line.png
           :width: 130px
 
-          Mode Type: Line - Style: Texture.
+          Mode Type: Line, Style: Texture.
 
      - .. figure:: /images/grease-pencil_shader_stroke-solid-dot.png
           :width: 130px
 
-          Mode Type: Dot - Style: Solid.
+          Mode Type: Dot, Style: Solid.
 
      - .. figure:: /images/grease-pencil_shader_stroke-texture-dot.png
           :width: 130px
 
-          Mode Type: Dot - Style: Texture.
+          Mode Type: Dot, Style: Texture.
 
 
 Fill
@@ -122,63 +121,63 @@ Style
       Use gradient colors.
 
       Gradient Type
-         
+
          Linear
             Mix the colors along a single axis.
-         
+
          Radial
             Mix the colors radiating from a center point.
 
       Color.
          Primary color.
-      
+
       Secondary color.
          Secondary color.
-      
+
       Mix Factor
          Primary and secondary colors mixing amount.
-      
+
       Flip colors
          Flips the gradient, Inverting the primary and secondary colors.
-      
+
       Location
          Shift gradient position.
 
-         X, Y.
-      
+         X, Y
+
       Scale
          Scale gradient.
-         
-         X, Y.
-      
+
+         X, Y
+
       Angle
          Rotate gradient.
 
    Checkerboard
-      Use a chequered pattern.
+      Use a checkered pattern.
 
       Color.
          Primary color.
-      
+
       Secondary color.
-         Secondary color.      
-      
+         Secondary color.
+
       Flip colors
          Invert primary and secondary colors.
-      
-      Location
-         Shift the chequered pattern position.
 
-         X, Y.
-      
+      Location
+         Shift the checkered pattern position.
+
+         X, Y
+
       Scale
-         Overall chequered pattern scale.
-      
+         Overall checkered pattern scale.
+
       Angle
-         Rotate the chequered pattern.
-      
+         Rotate the checkered pattern.
+
       Box Size
-         Sets the box size of the chequered pattern.
+         Sets the box size of the checkered pattern.
 
    Texture
       Use image texture.
@@ -192,15 +191,15 @@ Style
          Color
             Color to use on not transparent areas of the image.
 
-      Offset 
+      Offset
          Shift image position.
 
-         X, Y.
-      
-      Scale 
+         X, Y
+
+      Scale
          Scale image.
 
-         X, Y.
+         X, Y
 
       Angle
          Rotate image.
@@ -220,7 +219,6 @@ Style
          Color
             Color to mix.
 
-
 .. list-table:: Samples of different material fill styles.
 
    * - .. figure:: /images/grease-pencil_shader_fill-solid.png
@@ -231,14 +229,14 @@ Style
      - .. figure:: /images/grease-pencil_shader_fill-gradient.png
           :width: 130px
 
-          Stytle: Gradient.
+          Style: Gradient.
 
      - .. figure:: /images/grease-pencil_shader_fill-checkerboard.png
           :width: 130px
 
-          Stytle: Checkerboard.
+          Style: Checkerboard.
 
      - .. figure:: /images/grease-pencil_shader_fill-texture.png
           :width: 130px
 
-          Stytle: Texture.
+          Style: Texture.

@@ -4,12 +4,11 @@
 Toolbar
 *******
 
-Grease pencil sculpt tools:
+Grease Pencil sculpt tools:
 
 .. note::
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
-
 
 :ref:`Select <tool-select-tweak>`
    Select or moved.
@@ -46,4 +45,4 @@ Grease pencil sculpt tools:
    TODO2.8
 
 :ref:`Clone <tool-grease-pencil-sculpt-clone>`
-   TODO2.8
+   TODO2.8.

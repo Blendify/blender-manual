@@ -19,7 +19,7 @@ All hotkeys you press will affect the contents of the Editor in the Area the mou
 Area boundaries are indicated by rounded (beveled) corners.
 
 Areas can be customized to match specific tasks called
-:doc:`workspaces </interface/window_system/workspaces>`,
+:doc:`Workspaces </interface/window_system/workspaces>`,
 which can then be named and saved for later use.
 
 
@@ -116,6 +116,7 @@ You can also create a new window from an existing area by :kbd:`Shift-LMB`
 on the area corner, then drag outward slightly.
 
 The window can be closed with the OS *Close Window* button.
+
 
 .. _bpy.ops.screen.screen_full_area:
 

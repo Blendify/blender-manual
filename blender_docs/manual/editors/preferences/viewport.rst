@@ -53,7 +53,7 @@ Viewport Anti-aliasing
 Multisampling
    This enables :term:`multisampling` for higher quality rendering, at the expense of some performance.
 Grease Pencil Multisampling
-   Control the :term:`anti-aliasing` for higher quality grease pencil rendering.
+   Control the :term:`anti-aliasing` for higher quality Grease Pencil rendering.
 Edit-Mode Smooth Wires
    Display smooth wire in Edit Mode, without this wire will be rendered aliased.
 

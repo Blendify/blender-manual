@@ -646,11 +646,12 @@ This page lists definitions for terms used in Blender and this manual.
 
    Random Seed
    Seed
-      Blender uses pseudo random number generators, which produce numbers that *look* random,
-      but given the same initial condition, they will always produce the exact same sequence of 'random' numbers.
+      Blender uses pseudo random number generators, which produce numbers that appear to be random,
+      but given the same initial condition, they will always produce the exact same sequence of numbers.
 
       This is a critical feature to get reproducible and/or stable effects
-      (otherwise e.g. your hair simulation would change every time you re-run it, in completely uncontrollable ways).
+      (otherwise e.g. your hair simulation would change every time you re-run it,
+      without any way to control the outcome).
 
       The **seed** is a number that represents the initial condition of a random generator,
       if you change its seed, it will produce a new sequence of pseudo-random numbers.

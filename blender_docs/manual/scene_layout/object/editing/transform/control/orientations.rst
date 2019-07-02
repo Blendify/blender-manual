@@ -146,7 +146,8 @@ click the "+" button on the *Transform Orientations* panel.
 
    Create Orientation :ref:`ui-undo-redo-adjust-last-operation` panel.
 
-Just after creating the orientation, the *Create Orientation* :ref:`ui-undo-redo-adjust-last-operation` panel gives a few options:
+Just after creating the orientation,
+the *Create Orientation* :ref:`ui-undo-redo-adjust-last-operation` panel gives a few options:
 
 Name
    Text field for naming the new orientation.
@@ -171,4 +172,5 @@ Align to Transform Orientation
    :Menu:      :menuselection:`Object --> Transform --> Align to Transform Orientation`
 
 Aligns (rotates) the selected objects so that their local orientation matches the active transform orientation
-in the Transform orientation panel or the *Orientation* selection in the Transform :ref:`ui-undo-redo-adjust-last-operation` panels.
+in the Transform orientation panel or the *Orientation* selection
+in the Transform :ref:`ui-undo-redo-adjust-last-operation` panels.

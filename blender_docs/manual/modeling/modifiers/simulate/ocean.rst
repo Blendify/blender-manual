@@ -28,7 +28,7 @@ Geometry
       Creates a tiled mesh grid that exactly corresponds with the resolution of the simulation data.
 
       When generating a mesh surface, the existing mesh object is completely overridden with the ocean grid.
-      An UV channel is also added, mapping the (0.0 to 1.0) UV space to the simulation grid.
+      A UV channel is also added, mapping the (0.0 to 1.0) UV space to the simulation grid.
 
       Repeat X, Repeat Y
          Controls the number of times the grid is tiled in X and Y directions.

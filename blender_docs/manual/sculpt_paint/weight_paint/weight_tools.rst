@@ -22,8 +22,8 @@ Weight Tools panel.
 The Subset Option
 =================
 
-Some of the tools also provide a Subset filter to restrict their functionality
-to only specific vertex groups (in the :ref:`ui-undo-redo-adjust-last-operation` panel, displayed after the tool is called)
+Some of the tools also provide a Subset filter to restrict their functionality to only specific vertex groups
+(in the :ref:`ui-undo-redo-adjust-last-operation` panel, displayed after the tool is called)
 with following options:
 
 - Active Group
@@ -394,13 +394,14 @@ Now ensure that the target object is in Weight Paint Mode.
 Open the Tool Shelf and call the *Transfer Weights* tool in the *Weight Tools* panel.
 
 
-:ref:`ui-undo-redo-adjust-last-operation` Panel Confusion
----------------------------------------------------------
+Adjust Last Operation Panel Confusion
+-------------------------------------
 
-You may notice that the :ref:`ui-undo-redo-adjust-last-operation` panel stays available after the weight transfer is done.
-The panel only disappears when you call another Operator that has its own :ref:`ui-undo-redo-adjust-last-operation` panel.
-This can lead to confusion when you use Transfer weights repeatedly
-after you changed your vertex groups. If you then use the still-visible :ref:`ui-undo-redo-adjust-last-operation` panel,
+You may notice that the :ref:`ui-undo-redo-adjust-last-operation` panel stays available
+after the weight transfer is done. The panel only disappears
+when you call another Operator that has its own :ref:`ui-undo-redo-adjust-last-operation` panel.
+This can lead to confusion when you use Transfer weights repeatedly after you changed your vertex groups.
+If you then use the still-visible :ref:`ui-undo-redo-adjust-last-operation` panel,
 then Blender will reset your work to its state right before you initially called the *Transfer Weights* tool.
 
 So when you want to call the *Transfer Weights* tool again after you made some changes to your

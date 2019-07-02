@@ -53,7 +53,7 @@ for the collider object (not on the cloth object).
 
 .. note::
 
-   If your colliding object is not a mesh object, such as a NURBS surface, or text object,
+   If your colliding object is not a mesh object, such as a NURBS surface, or a text object,
    you must convert it to a mesh object using :ref:`object-convert-to`.
 
 Distance
@@ -64,7 +64,7 @@ Friction
    For example, silk has a lower coefficient of friction than cotton.
 
 
-Self Collisions
+Self-Collisions
 ---------------
 
 Real cloth cannot permeate itself, so you normally want the cloth to self-collide.

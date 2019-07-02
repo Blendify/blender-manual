@@ -224,5 +224,5 @@ which are essentially predefined window layouts.
 Scenes & Layers
 ===============
 
-These :ref:`data-block menus <ui-data-block>` are used to select the current active
-:doc:`Scene </scene_layout/scene/index>` and :doc:`View Layer </scene_layout/view_layers/index>`.
+These :ref:`data-block menus <ui-data-block>` are used to select
+the current active :doc:`Scene </scene_layout/scene/index>` and :doc:`View Layer </scene_layout/view_layers/index>`.

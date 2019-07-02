@@ -13,7 +13,7 @@ Texture Slots
 The combination of images associated with UV maps is called "slots".
 
 Selecting a *Paint Slots* or *Canvas Image*
-will also display the corresponding image in the *Image Editor*.
+will also display the corresponding image in the Image Editor.
 
 Painting Mode
    The slot system includes two painting modes:
@@ -36,9 +36,8 @@ Painting Mode
    Material
       This mode tries to detect the slots from the materials of the mesh.
 
-      For the Cycles renderer,
-      all texture images (*Image Texture* node) on the material's node tree are
-      added on the slots tab.
+      For the Cycles renderer, all textures (*Image Texture* node) on the material's node tree
+      are added on the slots tab.
 
       Available Paint Slots
          A :ref:`List view <ui-list-view>` of slots.

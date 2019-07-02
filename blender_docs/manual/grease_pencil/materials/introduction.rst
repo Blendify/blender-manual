@@ -44,7 +44,7 @@ Lock (padlock icon)
 Viewport/Render Visibility (eye icon)
    Toggle material visibility in the viewport and in render.
 
-Onion Skinning (Onion skin icon)
+Onion Skinning (onion skin icon)
    Toggle the use of the material for Onion Skinning.
    You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
 

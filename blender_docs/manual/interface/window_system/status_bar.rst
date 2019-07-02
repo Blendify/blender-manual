@@ -4,7 +4,7 @@ Status Bar
 **********
 
 The Status Bar is located at the very bottom of the Blender window and is used to present information.
-The Status Bar can be optionally be hidden by dragging it down or from the :ref:`topbar-window`.
+The Status Bar can be hidden by dragging it down or from the :ref:`topbar-window`.
 
 .. figure:: /images/interface_window-system_status-bar.png
 

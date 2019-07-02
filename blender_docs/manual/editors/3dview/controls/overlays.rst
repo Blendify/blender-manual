@@ -277,7 +277,7 @@ Grease Pencil
 Onion Skin
    Show ghosts of the keyframes before and after the current frame.
 Canvas
-   Display a grid over grease pencil drawing plane. The opacity of the grid can be controlled with a slider.
+   Display a grid over Grease Pencil drawing plane. The opacity of the grid can be controlled with a slider.
 Fade 3D Objects
    Cover all viewport with a full color layer to improve visibility while drawing over complex scenes.
    The opacity of the color layer can be adjusted.

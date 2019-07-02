@@ -47,5 +47,5 @@ Interactive Region
 
 .. note::
 
-   When starting Blender for the first time the
-   Interactive Region contains a :ref:`Quick Set Up Process <splash-quick-start>`.
+   When starting Blender for the first time the Interactive Region
+   contains a :ref:`Quick Set Up Process <splash-quick-start>`.

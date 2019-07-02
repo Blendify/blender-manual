@@ -8,11 +8,12 @@ Draw Tool
    :class: refbox
 
    :Mode:      Draw Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Draw Tools --> Draw`   
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Draw Tools --> Draw`
 
-The Draw tool can be used to draw freehand strokes.
+The Draw tool can be used to draw free-hand strokes.
+
 
 Usage
 =====
 
-TODO2.8
+TODO2.8.

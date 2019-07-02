@@ -10,7 +10,7 @@ is replaced with a couple initial preferences to configure how you interact insi
 
 .. note::
 
-   These options can always be changed later in the :doc:`Preferences </editors/preferences/index>`
+   These options can always be changed later in the :doc:`Preferences </editors/preferences/index>`.
 
 Shortcuts
    Presets for the default :doc:`keymap </editors/preferences/keymap>` for Blender.
@@ -18,14 +18,14 @@ Shortcuts
 
    Blender
       This is the default keymap.
-      Read more about this keymap :doc:`here </interface/keymap/blender_default>`
+      Read more about this keymap :doc:`here </interface/keymap/blender_default>`.
    Blender 2.7x
       This keymap is intended to match the last major series of Blender versions
       and is designed for people upgrading who do not want to learn the updated keymap.
    Industry Compatible
-      This keymap is indented to match common creation software
+      This keymap is intended to match common creation software
       and is intended for people who use many different creation software.
-      Read more about this keymap :doc:`here </interface/keymap/industry_compatible>`
+      Read more about this keymap :doc:`here </interface/keymap/industry_compatible>`.
 
 Select With
    Controls which mouse button, either right or left, is used to select items in Blender.
@@ -44,10 +44,9 @@ Spacebar
       This option is good for someone who is new to Blender and is unfamiliar with its menus and shortcuts.
 Theme
    Choose between a light or dark theme for Blender.
-   Themes can be customized more in the :doc:`Preferences </editors/preferences/themes>`
+   Themes can be customized more in the :doc:`Preferences </editors/preferences/themes>`.
 
-
-There are two areas where Blender's defaults are stored.
+There are two areas where Blender's defaults are stored:
 
 Preferences
    The :ref:`Preferences <prefs-menu>` file stores key-map, add-ons theme and other options.
