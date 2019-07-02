@@ -16,7 +16,7 @@ Grease Pencil edit tools:
    :ref:`Select Box <tool-select-box>`
       Select geometry by dragging a box.
    :ref:`Select Circle <tool-select-circle>`
-      Select geometry by dragging a circle.
+      Select geometry by painting on it.
    :ref:`Select Lasso <tool-select-lasso>`
       Select geometry by drawing a lasso.
 
