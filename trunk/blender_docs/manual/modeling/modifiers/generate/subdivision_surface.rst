@@ -54,18 +54,28 @@ Type
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
-   Recursively adds more geometry. For details on polygon counts, see the `Performance Considerations`_ section.
+   Recursively adds more geometry.
 
    The right combination of these settings will allow you to keep a fast and lightweight approximation of your model
-   when interacting with it in the 3D View, but use a higher quality version when rendering.
+   when interacting with it in the 3D Viewport, but use a higher quality version when rendering.
+
+   .. warning::
+
+      Higher levels of subdivisions mean more vertices, and more vertices means more memory will be used
+      (both system RAM, and video memory for display).
+      Blender could potentially crash or hang if you do not have enough available memory.
 
    Render
       The number of subdivision levels shown in renders.
    Viewport
       The number of subdivision levels shown in the 3D View.
    Quality
-      How precisely the vertices are positioned (relatively to their theoretical position),
+      How precisely the vertices are positioned
+      (relatively to their theoretical position of an infinitely subdivided mesh),
       can be lowered to get a better performance.
+
+      Using higher values does not necessarily mean real improvement in quality,
+      ideal results might be reached well before the maximum *Quality* value.
 
    .. tip::
 
@@ -87,6 +97,19 @@ Options
 
    Use Creases
       Use the `Weighted Edge Creases`_ values stored in edges to control how smooth they are made.
+
+
+Keyboard Shortcuts
+==================
+
+To quickly add a *Subdivision Surface* modifier to one or more objects, select the object(s) and press :kbd:`Ctrl-1`.
+That will add a Subdivision Surface modifier with *Viewport* subdivisions set to 1.
+You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc,
+to add a modifier with that number of subdivisions.
+Adding a *Subdivision Surface* modifier in this fashion will not modify the *Render* subdivisions.
+
+If an object already has a *Subdivision Surface* modifier,
+doing this will simply change its subdivision level instead of adding another modifier.
 
 
 Control
@@ -127,30 +150,6 @@ the shape is almost unrecognizable as a cube.
 
 A mesh with deliberate topology has good placement of edge loops, which allow the placement of more loops
 (or their removal) to control the sharpness/smoothness of the resultant mesh.
-
-
-Performance Considerations
-==========================
-
-Higher levels of subdivisions mean more vertices, and more vertices means more memory will be used
-(both system RAM, and video memory for display).
-Blender could potentially crash or hang if you do not have enough available memory.
-
-
-.. TODO2.8: Remove/Update
-
-Keyboard Shortcuts
-==================
-
-To quickly add a *Subdivision Surface* modifier to one or more objects, select the object(s) and press :kbd:`Ctrl-1`.
-That will add a Subdivision Surface modifier with *View Subdivisions* set to 1.
-
-You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc,
-to add a modifier with that number of subdivisions.
-The *Render Subdivisions* will always be on 2 when added like this.
-
-If an object already has a *Subdivision Surface* modifier,
-doing this will simply change its subdivision level instead of adding another modifier.
 
 
 Known Limitations
