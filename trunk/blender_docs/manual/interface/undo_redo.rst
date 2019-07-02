@@ -43,7 +43,7 @@ Redo
 To roll back the Undo action, press :kbd:`Shift-Ctrl-Z`.
 
 
-.. _ui-redo-last:
+.. _ui-undo-redo-adjust-last-operation:
 
 Adjust Last Operation
 =====================
