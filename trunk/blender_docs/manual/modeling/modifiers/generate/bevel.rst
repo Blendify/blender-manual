@@ -56,8 +56,8 @@ Only Vertices
       Three cubes with 0.1, 0.3 and 0.5 bevel widths, with *Only Vertices* option enabled.
 
 Clamp Overlap
-   When enabled, the width of each beveled edge will be limited such that they cannot intersect with each other.
-   Edges that are far apart will still bevel with the full width, only edges too close to each other are affected.
+   Limits the width of each beveled edge so that edges cannot causes
+   overlapping intersections with other geometry.
 Loop Slide
    If there are unbeveled edges along with beveled edges into a vertex,
    the bevel tries to slide along those edges when possible.

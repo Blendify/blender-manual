@@ -162,7 +162,7 @@ To select a custom normal associated with a particular vertex and face:
   the Edit Mode Overlays option *Display vertex-per-face normals as lines*.
 
 
-.. seealso:
+.. seealso::
 
    :doc:`Editing Normals </modeling/meshes/editing/normals>`.
 
