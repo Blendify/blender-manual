@@ -119,8 +119,8 @@ Vertex Only :kbd:`V`
    When selected, the tool is in "vertex only" mode, and only vertices will be beveled.
 
 Clamp Overlap :kbd:`C`
-   When selected, the bevel amount is not allowed to go larger than an amount that causes
-   overlapping collisions with other geometry.
+   Limits the width of each beveled edge so that edges cannot causes
+   overlapping intersections with other geometry.
 
 Loop Slide
    If there are unbeveled edges along with beveled edges into a vertex,
