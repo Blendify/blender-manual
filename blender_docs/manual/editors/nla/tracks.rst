@@ -29,7 +29,7 @@ by storing them into an action based on the name as the object you are working o
 
 .. (alt) icon: downwards chevron
 
-Push Down (double down arrow peak icon)
+Push Down
    Turns the active action into a new NLA strip at the top of the NLA stack.
 
    .. figure:: /images/editors_nla_tracks_push-down-button.png
