@@ -151,29 +151,29 @@ Miter Patterns
 
       The *Profile* slider controls the shape of the arc.
 
-.. list-table:: Diagrams of the miter patterns.
+   .. list-table:: Diagrams of the miter patterns.
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-2.png
+      * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-2.png
 
-          Sharp outer miter.
+             Sharp outer miter.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-3.png
+        - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-3.png
 
-          Patch outer miter.
+             Patch outer miter.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-4.png
+        - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-4.png
 
-          Arc outer miter.
+             Arc outer miter.
 
-   * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-5.png
+      * - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-5.png
 
-          Sharp inner miter.
+             Sharp inner miter.
 
-     - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-6.png
+        - .. figure:: /images/modeling_meshes_editing_subdividing_bevel_miter-6.png
 
-          Arc inner miter.
+             Arc inner miter.
 
-     - ..
+        - ..
 
 Spread
    The value used to spread extra vertices apart for non-sharp miters.

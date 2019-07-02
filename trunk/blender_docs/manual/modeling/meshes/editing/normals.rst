@@ -3,9 +3,6 @@
 Normals
 *******
 
-Introduction
-============
-
 In geometry, a normal is a direction or line that is perpendicular to something,
 typically a triangle or surface but can also be relative to a line, a tangent line for a point on a curve,
 or a tangent plane for a point on a surface.
@@ -88,8 +85,8 @@ Alternatively, you can choose which faces to smooth by entering *Edit Mode*,
 then selecting some faces and picking *Shade Smooth* from the *Face Menu*.
 
 When the mesh is in *Edit Mode*,
-only the selected faces will receive the "smoothing" attribute. You can set faces as flat
-(removing the "smoothing" attribute)
+only the selected faces will receive the "smoothing" attribute.
+You can set faces as flat (removing the "smoothing" attribute)
 in the same way by selecting edges and picking the *Shade Flat* from the *Face Menu*.
 
 .. seealso::
@@ -108,11 +105,13 @@ Properties
 
    :Panel:     :menuselection:`Properties editor --> Object Data --> Normals`
 
-.. TODO .. figure:: /images/modeling_meshes_editing_normals_normals-panel.png
+.. figure:: /images/modeling_meshes_editing_normals_normals-panel.png
 
-.. TODO  Normals panel.
+   Normals panel.
 
 .. _auto-smooth:
+.. _bpy.types.Mesh.use_auto_smooth:
+.. _bpy.types.Mesh.auto_smooth_angle:
 
 Auto Smooth
    Edges where an angle between the faces is smaller than specified in the *Angle* button will be smoothed,
@@ -121,10 +120,6 @@ Auto Smooth
    Angle
       Angle number button.
 
-
-Example
--------
-
 .. figure:: /images/modeling_meshes_editing_normals_example-auto-smooth.png
    :width: 250px
 
@@ -132,9 +127,12 @@ Example
 
 
 .. _modeling-meshes-editing-normals-editing:
+.. _bpy.ops.mesh.normals_tools:
 
 Editing
 =======
+
+.. _bpy.ops.mesh.flip_normals:
 
 Flip Direction
 --------------
@@ -150,6 +148,8 @@ Note that this allows you to precisely control the direction
 (**not** the orientation, which is always perpendicular to the face) of your normals,
 as only selected ones are flipped.
 
+
+.. _bpy.ops.mesh.normals_make_consistent:
 
 Recalculate Normals
 -------------------
@@ -191,11 +191,9 @@ Enabling Custom Split Normals Support
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:     :menuselection:`Mesh --> Normals: Split`
+   :Menu:     :menuselection:`Mesh --> Normals --> Split`
 
 Enables Custom Split Normals.
-
-..
 
 Also, any of the custom normal editing tools (see below) will, as a convenience,
 enable custom normals if they are not already enabled.
@@ -214,8 +212,8 @@ Editing Custom Split Normals
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:     :menuselection:`Mesh --> Normals`
-   :Hotkey:  :kbd:`Alt-N` for entire menu
+   :Menu:      :menuselection:`Mesh --> Normals`
+   :Hotkey:    :kbd:`Alt-N` for entire menu
 
 There are a number of tools for editing custom split normals.
 The custom normal mesh edit tools can affect all normals (the default), or only selected ones.
@@ -227,6 +225,8 @@ To select a custom normal associated with a particular vertex and face:
   It is easiest to see the effect of these tools if you turn on
   the Edit Mode Overlays option *Display vertex-per-face normals as lines*.
 
+
+.. _bpy.ops.mesh.set_normals_from_faces:
 
 Set From Faces
 ^^^^^^^^^^^^^^
@@ -240,6 +240,8 @@ Set From Faces
 Set the custom normals at corners to be the same as the face normal that the corner is part of.
 
 
+.. _bpy.ops.transform.rotate_normal:
+
 Rotate
 ^^^^^^
 
@@ -247,13 +249,15 @@ Rotate
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Rotate`
+   :Menu:      :menuselection:`Mesh --> Normals --> Rotate`
    :Hotkey:    :kbd:`R N`
 
 This is an interactive tool. As you move the mouse around, the selected normals are rotated.
 You can also invoke the Rotate Normals tool by typing the Rotate transform key, :kbd:`R`
 followed by :kbd:`N`.
 
+
+.. _bpy.ops.mesh.point_normals:
 
 Point to Target
 ^^^^^^^^^^^^^^^
@@ -290,6 +294,8 @@ Reset :kbd:`R`
    Will reset the custom normals back to what they were when the operation started.
 
 
+.. _bpy.ops.mesh.merge_normals:
+
 Merge
 ^^^^^
 
@@ -301,6 +307,8 @@ Merge
 
 Merge all of the normals at selected vertices, making one average normal for all of the faces.
 
+
+.. _bpy.ops.mesh.split_normals:
 
 Split
 ^^^^^
@@ -315,6 +323,8 @@ Split the normals at all selected vertices so that there are separate normals fo
 pointing in the same direction as those faces.
 
 
+.. _bpy.ops.mesh.average_normals:
+
 Average
 ^^^^^^^
 
@@ -322,7 +332,7 @@ Average
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Normals: Average`
+   :Menu:      :menuselection:`Mesh --> Normals --> Average`
 
 Average all of the normals in each fan of faces between sharp edges at a vertex.
 
@@ -350,6 +360,8 @@ Paste Vectors
 
 Replace the selected normals with the one in the internal vector buffer.
 
+
+.. _bpy.ops.mesh.smoothen_normals:
 
 Smoothen Vectors
 ^^^^^^^^^^^^^^^^
