@@ -31,7 +31,7 @@ Header
 ======
 
 Active Only
-   Only show the Grease Pencil blocks attached to the current scene and the objects within it.
+   Only show the Grease Pencil data-blocks attached to the current scene and the objects within it.
 
 
 Insert Keyframe

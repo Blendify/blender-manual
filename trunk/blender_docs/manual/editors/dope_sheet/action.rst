@@ -59,7 +59,7 @@ Layer Previous/Next (down/up arrow peak icon)
 .. _dopesheet-action-action:
 
 Action
-   A :ref:`Data-block menu <ui-data-block>`.
+   A :ref:`data-block menu <ui-data-block>`.
 
    Add ``+``
       When an action is created it is stored in an NLA Action Stash.

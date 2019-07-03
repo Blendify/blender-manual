@@ -32,7 +32,7 @@ Editor type
 Menus
    Editors `Menus`_.
 Text
-   A Data-block menu to select a text or to create a new one.
+   A :ref:`data-block menu <ui-data-block>` to select a text or to create a new one.
    After that the header will change.
 Show
    The following three buttons toggle display options:
