@@ -293,7 +293,7 @@ is added for those joint nodes. To correctly derive the bone-to-tail location on
 
 .. note:: Important Things to Remember
 
-   - Object and data block names are constrained to 21 characters (bytes).
+   - Object and data-block names are constrained to 21 characters (bytes).
    - UV layer names are constrained to 32 characters (bytes).
    - Only armature animation on mesh, single skin controller.
    - No support for modifiers yet.

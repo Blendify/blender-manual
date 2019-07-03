@@ -50,7 +50,7 @@ When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 
 
-Activating a Data-block
+Activating a Data-Block
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
@@ -63,7 +63,7 @@ If the data-block type supports multi-editing,
 you can use :kbd:`Shift` to add/remove objects from the edit mode.
 
 
-Selecting a Group of Data-blocks
+Selecting a Group of Data-Blocks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Useful when you want to select/deselect a whole bunch of data-blocks.

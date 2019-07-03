@@ -90,7 +90,7 @@ Remove Empty Animation Data
 
    :Menu:      :menuselection:`Edit --> Remove Empty Animation Data`
 
-This operator removes AnimData blocks (restricted to only those
+This operator removes AnimData data-blocks (restricted to only those
 which are visible in the animation editor where it is run from) which are "empty"
 (i.e. that is, have no active action, drivers, and NLA tracks or strips).
 

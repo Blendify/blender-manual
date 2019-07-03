@@ -11,7 +11,7 @@ all of the :term:`data users <Data User>` when edited.
 .. figure:: /images/interface_controls_templates_data-block_data-block.png
    :align: right
 
-   A Data-block menu with a search field.
+   A data-block menu with a search field.
 
 Type
    Shows an icon indicating the data-block type. It opens up the following pop-up menu.

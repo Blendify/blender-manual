@@ -149,7 +149,7 @@ See :doc:`/editors/graph_editor/channels`.
 Header
 ------
 
-Here you find the menus, a first block of controls related to the editor "mode",
+Here you find the menus, a first group of controls related to the editor "mode",
 a second one concerning the action data-blocks, and a few other tools
 (like the copy/paste buttons, and snapping type).
 
