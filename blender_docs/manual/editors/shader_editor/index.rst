@@ -13,8 +13,6 @@ Therefore, the main window of the Shader editor is a :doc:`node editor </interfa
 
 A list of all :doc:`shader nodes </render/shader_nodes/index>` is available in the rendering section.
 
-sdfgsdfg  kfj
-
 Header
 ======
 
