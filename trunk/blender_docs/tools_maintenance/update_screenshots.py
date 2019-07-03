@@ -38,8 +38,8 @@ if "bpy" not in sys.modules:
         # "--no-window-focus",
         "--no-native-pixels",
         # For preferences this wont matter, for other screen-shots it may.
-        # "--window-geometry", "0", "0", "800", "600",
-        "--window-geometry", "0", "0", "1280", "720",
+        # Size is odd, this is based on the screenshot in the manual.
+        "--window-geometry", "0", "0", "1442", "767",
         "--enable-event-simulate",
         "--python", __file__,
     ]
@@ -118,6 +118,22 @@ def window_screenshot_to_filepath(*, window, filepath):
     )
     yield
 
+# ----------------------------------------------------------------------
+# Screenshot Startup
+
+def screenshot_startup(window):
+    from bpy import context
+
+    filepath = os.path.join(
+        IMAGE_DIR_PREVIEW,
+        "interface_window-system_introduction_default-startup.png",
+    )
+
+    yield from window_screenshot_to_filepath(
+        window=window,
+        filepath=filepath,
+    )
+
 
 # ----------------------------------------------------------------------
 # Screenshot Preferences
@@ -126,8 +142,6 @@ def screenshot_preferences(window):
     from bpy import context
 
     prefs = context.preferences
-
-    yield
 
     # We can't open preferences from a timer, use the shortcut.
     # bpy.ops.screen.userpref_show({"window": window, "screen": window.screen}, 'INVOKE_DEFAULT')
@@ -165,11 +179,6 @@ def screenshot_preferences(window):
 
     yield
 
-    print(__doc__)
-
-
-    sys.exit(0)
-
 
 # ----------------------------------------------------------------------
 # Generate HTML
@@ -202,11 +211,15 @@ def generate_preview_html():
 
 
 def screenshot_all(window):
+    yield
+    yield from screenshot_startup(window)
     yield from screenshot_preferences(window)
 
     # Finally
     generate_preview_html()
     yield
+    print(__doc__)
+    sys.exit(0)
 
 
 def main():
