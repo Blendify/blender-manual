@@ -33,7 +33,7 @@ Interpolation falloff
 Bind
    Bind the current state of the modified mesh to the current state of the target mesh,
    such that any later change in the target mesh will deform the modified mesh as well.
-   Note that until the bind has been executed, this modifier will have no effect.
+   Note that until the bind has been executed, this modifier will have no effect at all.
 Unbind
    Once the mesh is bound, the *Bind* button changes to *Unbind*.
    Executing this frees the modified mesh from the target, and resets it to its original shape.

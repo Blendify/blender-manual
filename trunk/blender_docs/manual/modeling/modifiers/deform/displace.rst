@@ -44,7 +44,7 @@ Space
 Texture Coordinates
    The texture coordinate system to use when retrieving values from the texture for each vertex.
 
-   See :ref:`common masking options<modifiers-common-options-masking>` for a complete reference.
+   See :ref:`common masking options <modifiers-common-options-masking>` for a complete reference.
 
 Vertex Group
    The name of a vertex group which is used to control the influence of the modifier.

@@ -12,7 +12,7 @@ while having that transformation affect other nearby elements. For example,
 having the movement of a single vertex cause the movement of unselected vertices within a given range.
 Unselected vertices that are closer to the selected vertex will move more than those farther from it
 (i.e. they will move proportionally relative to the location of the selected element).
-Since proportional editing affects the nearby geometry,
+Since Proportional Editing affects the nearby geometry,
 it is very useful when you need to smoothly deform the surface of a dense mesh.
 
 .. note:: Sculpting
@@ -31,7 +31,7 @@ Object Mode
    :Menu:      Via the |prop-edit-icon| icon in the header.
    :Hotkey:    :kbd:`O`
 
-Proportional editing is typically used in *Edit Mode*, however, it can also be used in *Object Mode*.
+Proportional Editing is typically used in *Edit Mode*, however, it can also be used in *Object Mode*.
 In *Object Mode* the tool works on entire objects rather than individual mesh components.
 
 In the image below, the right cylinder is scaled along the Z axis.
@@ -56,19 +56,19 @@ Edit Mode
 
 When working with dense geometry, it can become difficult to make subtle adjustments to
 the vertices without causing visible lumps and creases in the model's surface.
-When you face situations like this the Proportional editing tool
+When you face situations like this the Proportional Editing tool
 can be used to smoothly deform the surface of the model.
 This is done by the tool's automatic modification of unselected vertices within a given range.
 
 .. figure:: /images/scene-layout_object_editing_transform_control_proportional-edit_edit-mode.png
 
-   Proportional editing in Edit Mode.
+   Proportional Editing in Edit Mode.
 
 
 Influence
 ---------
 
-You can increase or decrease the radius of the proportional editing influence with
+You can increase or decrease the radius of the tool's influence with
 the mouse wheel :kbd:`WheelUp`, :kbd:`WheelDown` or
 :kbd:`PageUp`, :kbd:`PageDown` respectively. As you change the radius,
 the points surrounding your selection will adjust their positions accordingly.
@@ -171,4 +171,4 @@ with enabled *Proportional Editing*.
 .. figure:: /images/scene-layout_object_editing_transform_control_proportional-edit_landscape.jpg
    :width: 620px
 
-   A landscape obtained via proportional editing.
+   A landscape obtained via Proportional Editing.

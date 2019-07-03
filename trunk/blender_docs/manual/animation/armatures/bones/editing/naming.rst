@@ -99,7 +99,7 @@ AutoName
 
 The three *AutoName* entries of the *Armature* and *Specials* menu :kbd:`W`
 allow you to automatically add a suffix to all selected bones, based
-on the position of their root relative to the armature center and its local coordinates:
+on the position of their root relative to the armature's origin and its local coordinates:
 
 AutoName Left/Right
    will add the ".L" suffix to all bones with a *positive* X-coordinate root,

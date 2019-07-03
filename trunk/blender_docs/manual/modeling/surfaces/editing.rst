@@ -25,7 +25,7 @@ you can move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other t
 as described in the :doc:`Manipulation in 3D Space </scene_layout/object/editing/transform/introduction>` section.
 
 You also have in *Edit Mode* an extra option when using these basic manipulations:
-the :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`.
+the :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 
 Transform Panel

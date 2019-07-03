@@ -22,13 +22,13 @@ By default, the Target will use the :term:`Object Origin` as the target point.
 
 If the Target field links to a :term:`Mesh` or :term:`Lattice` object, a :term:`Vertex Group` field will appear.
 Enter the name of a vertex group and the constraint will target the median point
-of this vertex group instead of the object center.
+of this vertex group instead of the object's origin.
 
 .. figure:: /images/animation_constraints_interface_common_target-vertex-group.png
 
 If the Target field links to an :term:`Armature`, a :term:`Bone` field will appear
 along with a *Head/Tail* slider.
-Enter the name of a bone and the constraint will target the bone instead of the entire armature object center.
+Enter the name of a bone and the constraint will target the bone instead of the entire armature object origin.
 
 .. figure:: /images/animation_constraints_interface_common_target-bone.png
 

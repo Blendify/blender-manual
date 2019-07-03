@@ -37,7 +37,7 @@ Reset Distance
 
 Clamp Region
    The *Limit Mode* select menu allows you to choose how to use the sphere
-   defined by the *Distance* setting and target's center:
+   defined by the *Distance* setting and target's origin:
 
    Inside
       The owner is constrained *inside* the sphere.

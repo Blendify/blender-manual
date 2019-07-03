@@ -140,7 +140,7 @@ With the buttons you can select the type of "Comb" utility you want to use.
 None
    No special tool, just edit the keypoints as "normal" vertices.
 Comb
-   Moves the keypoints (similar to "proportional editing").
+   Moves the keypoints (similar to the Proportional Editing tool).
 Smooth
    Parallels visually adjacent segments.
 Add

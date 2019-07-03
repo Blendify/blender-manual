@@ -28,7 +28,7 @@ you also modify the implicitly related elements of other kinds (e.g. vertices an
 Pressing :kbd:`G` twice enters either *Edge Slide* or *Vertex Slide* tool depending on the selection.
 
 You also have in *Edit Mode* an extra option when using these basic manipulations:
-the :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`.
+the :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 
 .. _modeling-mesh-transform-panel:

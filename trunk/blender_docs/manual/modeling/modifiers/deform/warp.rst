@@ -17,7 +17,7 @@ This modifier is a bit tricky to understand at first.
 It requires two points, specified by the two target objects' origins.
 The "from" point designates a point in space that is pulled toward the "to" point.
 It is akin to using
-the :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>` in Edit Mode.
+the :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>` in Edit Mode.
 
 
 Options
@@ -40,13 +40,13 @@ Radius
    Sets the distance from the transforms that can be warped by the transform handles.
 Falloff Type
    Sets the way the strength of the warp change as it goes from the center of the transform to the *Radius* value.
-   See :doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`
+   See :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`
    for descriptions of the falloff types.
 
 You can finely control which vertices are affected by the warp, and to what extent,
 using a vertex group and/or a texture.
 
-See :ref:`common masking options<modifiers-common-options-masking>` for a complete reference.
+See :ref:`common masking options <modifiers-common-options-masking>` for a complete reference.
 
 
 Usage

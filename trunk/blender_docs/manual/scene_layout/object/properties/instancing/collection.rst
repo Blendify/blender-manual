@@ -37,10 +37,10 @@ When you do so, the linked collection does not appear anywhere in your scene
 until you create an object controlling where the collection instance appears.
 
 
-Making a Instanced Collection Real
-==================================
+Making an Instanced Collection Real
+===================================
 
-Say you want to make further edits on a instanced collections.
+Say you want to make further edits on an instanced collections.
 Simply select your *Instance Collection* and press :kbd:`Shift-Ctrl-A` to convert the collection
 into regular objects that can be transformed and animated normally.
 

@@ -187,7 +187,7 @@ if the GPU will render them successfully.
 CPU Rendering
 =============
 
-Being an rasterization engine, Eevee only uses the power of
+Being a rasterization engine, Eevee only uses the power of
 the :abbr:`GPU (Graphic Processing Unit, also known as Graphics Card)` to render.
 There is no plan to support :abbr:`CPU (Central Processing Unit)` (software) rendering
 as it would be very inefficient. CPU power is still needed to handle high scene complexity

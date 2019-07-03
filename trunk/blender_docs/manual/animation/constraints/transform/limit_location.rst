@@ -8,8 +8,7 @@ An object or *unconnected* bone can be moved around the scene along the X, Y and
 This constraint restricts the amount of allowed translations along each axis,
 through lower and upper bounds.
 
-The limits for an object are calculated from its center, and the limits of a bone,
-from its root.
+The limits for an object are calculated from its origin, and the limits of a bone, from its root.
 
 It is interesting to note that even though the constraint limits the visual and
 rendered location of its owner, its owner's data-block still allows (by default)
@@ -38,14 +37,14 @@ Options
 .. TODO2.8    Limit Location panel.
 
 Minimum X, Minimum Y, Minimum Z
-   These buttons enable the lower boundary for the location of the owner's center along,
+   These buttons enable the lower boundary for the location of the owner's origin along,
    respectively, the X, Y and Z axes of the chosen *Space*.
    The number button below them controls the value of their limit.
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.
 
 Maximum X, Maximum Y, Maximum Z
-   These buttons enable the upper boundary for the location of the owner's center along,
+   These buttons enable the upper boundary for the location of the owner's origin along,
    respectively, the X, Y and Z axes of the chosen *Space*.
    Same options as above.
 

@@ -5,7 +5,7 @@ Smooth Modifier
 ***************
 
 The *Smooth* modifier smooths a mesh by flattening the angles between adjacent faces in it,
-just like the :ref:`Smooth tool<bpy.ops.mesh.vertices_smooth>` in *Edit* mode.
+just like the :ref:`Smooth tool <bpy.ops.mesh.vertices_smooth>` in *Edit* mode.
 It smooths without subdividing the mesh, the number of vertices remains the same.
 
 This modifier is not limited to smoothing, though.
