@@ -10,7 +10,7 @@ The key-map editor lets you adjust your key-map via:
 :Preferences: Key-maps may define their own preferences to change the functionality or add additional key bindings.
 :Key Map Items: You may add/remove/edit individual key-map entries.
 
-.. figure:: /images/editors_preferences_keymap_tab.png
+.. figure:: /images/editors_preferences_section_keymap.png
 
    Blender Preferences Key-map section.
 

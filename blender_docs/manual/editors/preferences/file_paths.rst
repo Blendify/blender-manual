@@ -10,7 +10,7 @@ and set default file paths for blend-files, rendered images, and more.
 
 Locations for various external files can be set for the following options:
 
-.. figure:: /images/editors_preferences_file-paths_tab.png
+.. figure:: /images/editors_preferences_section_file-paths.png
 
    Preferences File Paths section.
 

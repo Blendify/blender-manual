@@ -10,7 +10,7 @@ Add-ons
 The *Add-ons* section lets you manage secondary scripts, called "Add-ons" that extends Blender's functionality.
 In this section you can search, install, enable and disable Add-ons.
 
-.. figure:: /images/editors_preferences_addons_tab.png
+.. figure:: /images/editors_preferences_section_addons.png
 
    Blender Preferences Add-ons section.
 

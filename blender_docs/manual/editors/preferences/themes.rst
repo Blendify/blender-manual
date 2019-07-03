@@ -6,7 +6,7 @@ Themes
 
 The *Themes* section allows you to customize interface appearance and colors.
 
-.. figure:: /images/editors_preferences_themes_tab.png
+.. figure:: /images/editors_preferences_section_themes.png
 
 The colors for each editor can be set separately by simply selecting the editor you wish to
 change in the multi-choice list at the left, and adjusting colors as required.
