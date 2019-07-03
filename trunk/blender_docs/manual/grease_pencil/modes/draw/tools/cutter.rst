@@ -10,10 +10,29 @@ Cutter Tool
    :Mode:      Draw Mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> Draw Tools --> Cutter`
 
-The Cutter tool cut strokes in between others.
+The Cutter tool delete points in between intersecting strokes.
 
 
 Usage
 =====
 
-TODO2.8.
+Draw a dotted line around the strokes you want to be cut. 
+After releasing the mouse/pen all the points on the selected strokes 
+will be deleted till found another intersecting stroke.
+
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_cutter-01.png
+          :width: 200px
+
+          Original drawing.
+
+     - .. figure:: /images/grease-pencil_modes_draw_tools_cutter-02.png
+          :width: 200px
+
+          Lasso Selecting the strokes to be cut.
+
+     - .. figure:: /images/grease-pencil_modes_draw_tools_cutter-03.png
+          :width: 200px
+
+          Final result.
