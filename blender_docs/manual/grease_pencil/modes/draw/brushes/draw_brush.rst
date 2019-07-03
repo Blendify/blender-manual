@@ -4,6 +4,7 @@ Draw Brush
 **********
 
 Draw brushes are the special type of brushes that use *Grease Pencil* for drawing tools.
+The brush can be changed from the tool setting.
 
 The different draw brushes (pencil, Ink, marker, etc.) are settings variations of the same *Draw Brush*. 
 you can create many brushes, each with unique settings 
@@ -16,6 +17,36 @@ Common options
    :align: right
 
    Brush data-block panel.
+
+Brush   
+   The Data-Block Menu to select a preset brush type or a custom brush.
+   
+   Add Brush
+      When you add a brush, the new brush is a clone of the current one.
+
+.. note::
+
+   In order to save in a blend-user a custom brush, tick Fake User.
+
+Radius
+   The radius of the brush in pixels.
+
+   :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen.
+   Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
+
+      Use Pressure (pressure sensitivity icon)
+         Uses stylus pressure to control how strong the effect is.
+
+Strenght
+   Control the stroke transparency (alpha). 
+   From totally transparent (0.0) to fully opaque (1.0).
+
+   You can change the brush strength interactively by pressing :kbd:`Shift-F`
+   in the 3D View and then moving the mouse/pen and then :kbd:`LMB`.
+   You can enter the size numerically also while in :kbd:`Shift-F` sizing.
+
+      Use Pressure (pressure sensitivity icon)
+         Uses stylus pressure to control how strong the effect is.
 
 Input Samples
    Controls how often the input device is read to generate points on the stroke.
@@ -69,6 +100,9 @@ Subdivision Steps
 
    Randomness
       Amount of randomness to apply on the points location after subdivision.
+
+Trim Strokes End
+   Automatically trim intersection strokes ends.
 
 .. _grease-pencil-draw-brushes-stabilizer:
 
@@ -138,3 +172,4 @@ Show Brush
 
 Show fill color while drawing
    Shows the brush linked material color in the viewport.
+   

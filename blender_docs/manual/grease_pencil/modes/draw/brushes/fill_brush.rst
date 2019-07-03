@@ -4,6 +4,7 @@ Fill Brush
 **********
 
 Fill brushes are the special type of brushes that use *Grease Pencil* for fill tools.
+The brush can be changed from the tool setting.
 
 The different fill brushes are settings variations of the same *Fill Brush*. 
 you can create many brushes, each with unique settings 
@@ -16,6 +17,16 @@ Common options
    :align: right
 
    Brush data-block panel.
+
+Brush   
+   The Data-Block Menu to select a preset brush type or a custom brush.
+   
+   Add Brush
+      When you add a brush, the new brush is a clone of the current one.
+
+.. note::
+
+   In order to save in a blend-user a custom brush, tick Fake User.
 
 Leak Size
    Size in pixel to consider the leak closed.
