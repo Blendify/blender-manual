@@ -17,6 +17,8 @@ materials is desired, then mixing shader nodes with a :doc:`Mix shader </render/
 is a better solution.
 
 
+.. _material-slots:
+
 Material Slots
 ==============
 
