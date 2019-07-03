@@ -3,7 +3,7 @@
 Navigation
 **********
 
-.. figure:: /images/editors_preferences_navigation_tab.png
+.. figure:: /images/editors_preferences_section_navigation.png
 
    Blender Preferences navigation section.
 

@@ -4,7 +4,7 @@
 Save & Load
 ***********
 
-.. figure:: /images/editors_preferences_save-load_tab.png
+.. figure:: /images/editors_preferences_section_save-load.png
 
    Preferences Save/Load section.
 
