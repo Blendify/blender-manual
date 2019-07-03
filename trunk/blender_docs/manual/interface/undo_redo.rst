@@ -61,7 +61,7 @@ based on the last performed operation; dependent on mode and context.
 Alternatively, you can create a pop-up with :kbd:`F9` does the same thing.
 
 For example, if your last operation was a rotation in *Object Mode*,
-Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last-edit-mode` left),
+Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last-object-mode` left),
 where you can change your action back completely by typing :kbd:`Numpad0`.
 There are other useful options, based on the operator,
 and you cannot only Undo actions, but change them completely using the available options.
@@ -71,7 +71,7 @@ Blender will also change its contents based on your last action taken.
 In the second example (at the right), the last operation was a Move in object mode;
 but a *Scale* on a Face in Edit mode, and, as you can see,
 the contents of *Adjust Last Operation* are different, because of the mode (Edit mode)
-(See Fig. :ref:`fig-interface-redo-last-object-mode` right).
+(See Fig. :ref:`fig-interface-redo-last-edit-mode` right).
 
 .. list-table:: Adjust Last Operation.
 
