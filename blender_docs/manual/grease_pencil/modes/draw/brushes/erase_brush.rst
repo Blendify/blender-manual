@@ -21,7 +21,7 @@ Common options
    Brush data-block panel.
 
 Brush   
-   The Data-Block Menu to select a preset brush type or a custom brush.
+   The :ref:`ui-data-block` to select a preset brush type or a custom brush.
    
    Add Brush
       When you add a brush, the new brush is a clone of the current one.
