@@ -39,7 +39,7 @@ Geometry
 
 Time
    The time at which the ocean surface is being evaluated.
-   To make an animated ocean, you will need to :ref:`animate<bpy.ops.anim.keyframe_insert>` this value.
+   To make an animated ocean, you will need to :ref:`animate <bpy.ops.anim.keyframe_insert>` this value.
    The speed that the time value is changing will determine the speed of the wave animation.
 Depth
    The constant depth of the ocean floor under the simulated area.

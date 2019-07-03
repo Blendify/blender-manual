@@ -26,7 +26,7 @@ showing a cube with a particle system and *Explode* modifier.
 
 .. note::
 
-   The *Explode* modifier must come after the *Particle System* one in the :ref:`modifier stack<modifier-stack>`,
+   The *Explode* modifier must come after the *Particle System* one in the :ref:`modifier stack <modifier-stack>`,
    in order for the former to get required data from the later.
 
 

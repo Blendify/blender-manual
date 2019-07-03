@@ -91,7 +91,7 @@ Delimiter & Noise
 You can finely control which vertices are affected by the wave, and to what extent,
 using a vertex group and/or a texture.
 
-See :ref:`common masking options<modifiers-common-options-masking>` for a complete reference.
+See :ref:`common masking options <modifiers-common-options-masking>` for a complete reference.
 
 
 Arguments

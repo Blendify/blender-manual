@@ -29,7 +29,7 @@ Like other elements in Blender, curve control points and handles can be
 moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
 the :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>` section.
 When in *Edit Mode*,
-:doc:`proportional editing </scene_layout/object/editing/transform/control/proportional_edit>`
+:doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`
 is also available for transformation actions.
 
 

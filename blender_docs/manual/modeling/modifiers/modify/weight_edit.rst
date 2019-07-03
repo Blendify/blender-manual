@@ -78,7 +78,7 @@ Global Influence
 In addition, a per-vertex fine control of the effect is possible using either a vertex group or a texture
 (both are mutually exclusive). The per-vertex values from those will be multiplied with the *Global Influence*.
 
-See :ref:`common masking options<modifiers-common-options-masking>` for a complete reference.
+See :ref:`common masking options <modifiers-common-options-masking>` for a complete reference.
 
 
 Example

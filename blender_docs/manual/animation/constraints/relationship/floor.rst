@@ -32,7 +32,7 @@ Use Rotation
    Forces the constraint to take the target's rotation into account.
    This allows you to have a "floor" plane of any orientation you like, not just the global XY, XZ and YZ ones...
 Offset
-   Allows you to offset the "floor" plane from the target's center,
+   Allows you to offset the "floor" plane from the target's origin,
    by the given number of units. Use it e.g.
    to account for the distance from a foot bone to the surface of the foot's mesh.
 Max/Min

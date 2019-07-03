@@ -176,14 +176,14 @@ Alignment
 Horizontal Alignment
    Left
       Aligns text to left of frames when using them,
-      else uses the center point of the *Text* object as the starting point of the text (which grows to the right).
+      else uses the origin of the *Text* object as the starting point of the text (which grows to the right).
    Center
       Centers text in the frames when using them,
-      else uses the center point of the *Text* object as the mid-point of the text
+      else uses the origin of the *Text* object as the mid-point of the text
       (which grows equally to the left and right).
    Right
       Aligns text to right of frames when using them,
-      else uses the center point of the *Text* object as the ending point of the text (which grows to the left).
+      else uses the origin of the *Text* object as the ending point of the text (which grows to the left).
    Justify
       Only flushes a line when it is terminated by a word-wrap (**not** by :kbd:`Return`),
       it uses *white-space* instead of *character spacing* (kerning) to fill lines.
@@ -196,17 +196,17 @@ Horizontal Alignment
 Vertical Alignment
    Top Base-Line
       Aligns the text base-line to top of frames when using them,
-      else uses the center point of the *Text* object as the starting point of the text (which grows to the bottom).
+      else uses the origin of the *Text* object as the starting point of the text (which grows to the bottom).
    Top
-      Aligns top of text to the center point of the *Text* object (which grows to the bottom).
+      Aligns top of text to the origin of the *Text* object (which grows to the bottom).
       It behaves as *Top Base-Line* when using frames. *Top* only works without frames.
    Center
       Centers text in the frames when using them,
-      else uses the center point of the *Text* object as the mid-point of the text
+      else uses the origin of the *Text* object as the mid-point of the text
       (which grows equally to the top and bottom).
    Bottom
       Aligns text to bottom of frames when using them,
-      else uses the center point of the *Text* object as the ending point of the text (which grows to the top).
+      else uses the origin of the *Text* object as the ending point of the text (which grows to the top).
 
 
 Spacing

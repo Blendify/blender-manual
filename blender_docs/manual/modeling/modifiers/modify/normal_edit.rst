@@ -19,24 +19,24 @@ Options
 
 Mode
    Radial
-      Aligns normals with the `(origin, vertex_coordinates)` vector, in other words all normals seems to radiate
+      Aligns normals with the ``(origin, vertex_coordinates)`` vector, in other words all normals seems to radiate
       from the given center point, as if they were emitted from an ellipsoid surface.
    Directional
       Makes all normals point (converge) towards a given target object.
 
 Target Object
-   Uses this object's center as reference point when generating normals.
+   Uses this object's origin as reference point when generating normals.
 
    Optional in *Radial* mode, mandatory in *Directional* one.
 
 Parallel Normals
-   Makes all normals parallel to the line between both objects' centers,
-   instead of converging towards target's center.
+   Makes all normals parallel to the line between both objects' origins,
+   instead of converging towards target's origin.
 
    Only relevant in *Directional* mode.
 
 Offset
-   Gives modified object's center an offset before using it to generate normals.
+   Gives modified object's origin an offset before using it to generate normals.
 
    Only relevant in *Radial* mode if no *Target Object* is set,
    and in *Directional* mode when *Parallel Normals* is set.
