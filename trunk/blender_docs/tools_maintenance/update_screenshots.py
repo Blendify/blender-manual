@@ -161,7 +161,7 @@ def screenshot_preferences(window):
     for section in prefs_sections:
         filepath = os.path.join(
             IMAGE_DIR_PREVIEW,
-            "preferences_section_" + section.lower() + ".png",
+            "editors_preferences_section_" + section.lower().replace("_", "-") + ".png",
         )
         setattr(prefs, "active_section", section)
 
