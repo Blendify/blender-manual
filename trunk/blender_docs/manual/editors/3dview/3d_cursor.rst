@@ -1,4 +1,4 @@
-.. _bpy.types.SpaceView3D.cursor_location:
+.. _bpy.types.View3DCursor:
 
 *********
 3D Cursor
@@ -52,8 +52,16 @@ in the :doc:`Preferences </editors/preferences/editing>`.
 
    The 3D Cursor panel of the Sidebar region.
 
-The 3D cursor can also be positioned and oriented by editing the values in
-the *3D cursor* panel of the Sidebar region.
+The 3D cursor can also be positioned and oriented by editing these values:
+
+Location
+   The location of the 3D Cursor.
+
+Rotation
+   The rotation of the 3D Cursor.
+
+Rotation Mode
+   The Rotation mode of the 3D Cursor.
 
 
 Usage
