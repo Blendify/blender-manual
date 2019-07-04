@@ -24,8 +24,6 @@ import os
 #
 
 blender_version = '2.80'
-# blender_url_suffix = 'latest'  # For regular releases.
-blender_url_suffix = 'dev'  # For development.
 
 
 # If extensions (or modules to document with autodoc) are in another directory,
@@ -192,7 +190,7 @@ if html_theme == "sphinx_rtd_theme":
     "display_version": False,
     "collapse_navigation": True,
     "navigation_depth": 4,
-    "canonical_url": "https://docs.blender.org/manual/en/" + blender_url_suffix,
+    "canonical_url": "https://docs.blender.org/manual/en/latest/",
     }
 
 
@@ -269,7 +267,7 @@ html_show_copyright = True
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
 # Ed. Note: URL has to be adapted, when versioning is set up.
-html_use_opensearch = 'https://docs.blender.org/manual/' + language + '/' + blender_url_suffix
+html_use_opensearch = 'https://docs.blender.org/manual/' + language + '/latest'
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
