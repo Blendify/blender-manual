@@ -54,7 +54,7 @@ Radius
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
 
-Strenght
+Strength
    Control the stroke transparency (alpha).
    From totally transparent (0.0) to fully opaque (1.0).
 
@@ -108,8 +108,10 @@ Straight lines
 :kbd:`Alt-LMB` Constrains the drawing of the strokes to horizontal or vertical straight lines.
 
 
-Switch tools
-------------
+Switch to Erase tool
+---------------------
 
 :kbd:`Ctrl-LMB` changes temporally to the active erase tool.
 see :doc:`Erase Tool </grease_pencil/modes/draw/tools/erase>` for more information.
+
+You can also use :kbd:`B` to delete all the points in the selected drawing area.

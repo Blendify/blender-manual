@@ -54,7 +54,7 @@ Radius
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
 
-Strenght
+Strength
    Control the stroke transparency (alpha).
    From totally transparent (0.0) to fully opaque (1.0).
 
