@@ -20,19 +20,14 @@ Usage
 Selecting Brush and Material
 ----------------------------
 
-Select the Brush and Material to use with the tool on the topbar.
-The active material can also be changed in the material list.
+On the topbar select the brush and material to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-
-   Draw tool uses *Draw Brushes* types.
-   For more information and settings see :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
+   Draw tool uses *Draw Brushes* types.   
 
 Material
    Data-Block selector for the material.
-
-   For more information and settings see :doc:`Materials </grease_pencil/materials/introduction>`
 
    Pin Material (pin icon)
       Pin the material to the brush.
@@ -41,69 +36,76 @@ Material
       stick the material to the brush gives more control and avoid lack of coordination between the two.
 
 
+For more information about brushes and materials see: :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
+and :doc:`Material </grease_pencil/materials/introduction>`
+
+Common Brush options
+---------------------
+
+You can also configure the brush main settings exposed on the topbar for convenience.
+For complete draw brushes configuration and settings see: :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`.
+
+Radius
+   The radius of the brush in pixels.
+
+   :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen.
+   Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
+
+      Use Pressure (pressure sensitivity icon)
+         Uses stylus pressure to control how strong the effect is.
+
+Strenght
+   Control the stroke transparency (alpha).
+   From totally transparent (0.0) to fully opaque (1.0).
+
+   You can change the brush strength interactively by pressing :kbd:`Shift-F`
+   in the 3D View and then moving the mouse/pen and then :kbd:`LMB`.
+   You can enter the size numerically also while in :kbd:`Shift-F` sizing.
+
+      Use Pressure (pressure sensitivity icon)
+         Uses stylus pressure to control how strong the effect is.
+
 Free-hand drawing
 -----------------
 
 Click and hold :kbd:`LMB` or use the pen tip to make free-hand drawing on the viewport.
 
 .. list-table::
+   Drawing free-hand strokes.
 
    * - .. figure:: /images/grease-pencil_modes_draw_tools_draw_free-hand-01.png
           :width: 200px
 
-          Free-hand drawing start.
-
      - .. figure:: /images/grease-pencil_modes_draw_tools_draw_free-hand-02.png
           :width: 200px
 
-          Adding more free-hand strokes.
-
      - .. figure:: /images/grease-pencil_modes_draw_tools_draw_free-hand-03.png
           :width: 200px
-
-          Final free-hand drawing.
-
-
-Brush Size and strength
------------------------
-
-- :kbd:`F` Sets brush size
-- :kbd:`Shift-F` Sets brush strength
-
-You can then either adjust the value interactively or by typing in numbers.
-After pressing the hotkey move the mouse to increase/reduce the value
-(additionally with precision and/or snapping activated).
-Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
-
-
-Straight lines
---------------
-
-:kbd:`Alt-LMB` Constrains the drawing of the strokes to horizontal or vertical straight lines.
 
 
 Stabilizer
 ----------
 
 :kbd:`Shift-LMB` toggle the use of :ref:`Stabilizer <grease-pencil-draw-brushes-stabilizer>`
-on the brush to make smoother lines.
+on the brush to have more control while drawing and obtain smoother lines.
 
 .. list-table::
+   Drawing strokes using Stabilizer.
 
    * - .. figure:: /images/grease-pencil_modes_draw_tools_draw-stabilizer-01.png
           :width: 200px
 
-          Stroke drawing start using stabilizer.
-
      - .. figure:: /images/grease-pencil_modes_draw_tools_draw-stabilizer-02.png
           :width: 200px
-
-          Continue drawing with the stabilizer.
 
      - .. figure:: /images/grease-pencil_modes_draw_tools_draw-stabilizer-03.png
           :width: 200px
 
-          Final stabilized stroke drawing.
+
+Straight lines
+--------------
+
+:kbd:`Alt-LMB` Constrains the drawing of the strokes to horizontal or vertical straight lines.
 
 
 Switch tools

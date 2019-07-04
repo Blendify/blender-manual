@@ -50,6 +50,8 @@ Radius
 
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
+      Occlude Eraser (Overlapping squares icon)
+         Erase only strokes visible and not occluded by geometry.
 
 Strenght
    Control how much will affect the eraser the stroke transparency (alpha).
@@ -78,7 +80,7 @@ Radius
    Use Pressure (pressure sensitivity icon)
       Uses stylus pressure to control how strong the effect is.
    Occlude Eraser (Overlapping squares icon)
-      Erase only strokes visible and not occluded.
+      Erase only strokes visible and not occluded by geometry.
 
 
 Stroke
@@ -92,7 +94,7 @@ Radius
    Use Pressure (pressure sensitivity icon)
       Uses stylus pressure to control how strong the effect is.
    Occlude Eraser (Overlapping squares icon)
-      Erase only strokes visible and not occluded.
+      Erase only strokes visible and not occluded by geometry.
 
 Display
 =======
