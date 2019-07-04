@@ -121,8 +121,8 @@ When you are satisfied with the fill result you can delete the Boundary strokes 
 Clean Up operator in the :doc:`Stroke Menu </grease_pencil/modes/edit/stroke_menu>` in Edit Mode.
 
 
-Switch tools
-------------
+Switch to Draw Tool
+--------------------
 
 Use :kbd:`Ctrl-LMB` to change temporary to the active draw tool.
 For example to manually cover small areas difficult to reach for the fill tool.
