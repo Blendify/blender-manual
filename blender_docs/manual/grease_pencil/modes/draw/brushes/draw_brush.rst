@@ -6,21 +6,22 @@ Draw Brush
 Draw brushes are the special type of brushes that use *Grease Pencil* for drawing tools.
 The brush can be changed from the tool setting.
 
-The different draw brushes (pencil, Ink, marker, etc.) are settings variations of the same *Draw Brush*. 
-you can create many brushes, each with unique settings 
+The different draw brushes (pencil, Ink, marker, etc.) are settings variations of the same *Draw Brush*.
+you can create many brushes, each with unique settings
 to obtain different artistic result while drawing.
 
-Common options
-===============
 
-.. figure:: /images/grease-pencil_modes_draw_brushes_draw-brush-data-block.png   
+Common Options
+==============
+
+.. figure:: /images/grease-pencil_modes_draw_brushes_draw-brush-data-block.png
    :align: right
 
    Brush data-block panel.
 
-Brush   
+Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   
+
    Add Brush
       When you add a brush, the new brush is a clone of the current one.
 
@@ -38,7 +39,7 @@ Radius
          Uses stylus pressure to control how strong the effect is.
 
 Strenght
-   Control the stroke transparency (alpha). 
+   Control the stroke transparency (alpha).
    From totally transparent (0.0) to fully opaque (1.0).
 
    You can change the brush strength interactively by pressing :kbd:`Shift-F`
@@ -76,10 +77,11 @@ Border Opacity Factor
 
       X, Y.
 
-Post-Processing
-----------------
 
-Post-processing methods that are executed on the strokes 
+Post-Processing
+---------------
+
+Post-processing methods that are executed on the strokes
 when you finished drawing, right after releasing the :kbd:`LMB` or pen tip.
 You can toggle the use of post-processing using the checkbox on the section panel header.
 
@@ -109,58 +111,55 @@ Trim Strokes End
 Stabilizer
 ----------
 
-Stabilizer helps to reduce jitter on the strokes while drawing 
+Stabilizer helps to reduce jitter on the strokes while drawing
 delaying and correcting points location on the stroke.
 You can toggle the use of stabilizer using the checkbox on the section panel header.
 
 Radius
    Minimum distance from last point before stroke continues.
-
 Factor
-   Smooth factor. Higher values gives smoother strokes but the drawing 
+   Smooth factor. Higher values gives smoother strokes but the drawing
    sensation feels like you are pulling the stroke.
 
+
 Randomize
-----------
+---------
 
 Adds randomness to points position along the stroke.
 You can toggle the use of randomize using the checkbox on the section panel header.
 
 Pressure
    Amount of randomness to apply using the pressure of the input device.
-
 Strength
    Amount of randomness to apply to stroke strenght value (alpha).
-
 UV
    Amount of randomness to apply to UV rotation.
-
 Jitter
    Amount of jittering to add to the stroke.
 
    Use Pressure (pressure sensitivity icon)
-      Uses stylus pressure to control how strong the effect is.   
+      Uses stylus pressure to control how strong the effect is.
+
 
 Curves
-=======
+======
 
-For more precise control on some strokes properties you can use a :doc:`curve widget </interface/controls/templates/curve>`.
+For more precise control on some strokes properties you can use a
+:doc:`curve widget </interface/controls/templates/curve>`.
 
 Sensitivity
    Controls the sensitivity of the input device.
-
 Strength
    Controls the stroke strength (alpha).
-
 Jitter
    Controls the jitter amount on the stroke.
+
 
 Display
 =======
 
 Icon
    Sets a predefined icon to use.
-
 Custom Icon
    Allows definition of a custom brush icon.
 
@@ -169,7 +168,5 @@ Custom Icon
 
 Show Brush
    Shows the brush shape in the viewport.
-
 Show fill color while drawing
    Shows the brush linked material color in the viewport.
-   
