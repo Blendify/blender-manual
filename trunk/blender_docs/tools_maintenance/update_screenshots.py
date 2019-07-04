@@ -104,9 +104,38 @@ def run_iter_from_timer(event_iter):
 # ----------------------------------------------------------------------
 # Blender Helpers
 
-def window_tap_key(*, window, type):
-    window.event_simulate(type=type, value='PRESS')
+def window_tap_key(*, window, type, unicode=None):
+    kw = {}
+    if unicode is not None:
+        kw["unicode"] = unicode
+    yield
+    window.event_simulate(type=type, value='PRESS', **kw)
+    yield
     window.event_simulate(type=type, value='RELEASE')
+    yield
+
+
+def window_type_keys(*, window, text):
+    yield
+    for c in text:
+        if c == ' ':
+            c_upper = 'SPACE'
+        else:
+            c_upper = c.upper()
+        yield
+        print(c)
+        yield from window_tap_key(window=window, type=c_upper, unicode=c)
+        yield
+    yield
+
+
+def window_run_operator_from_search(*, window, operator_name):
+    yield
+    yield from window_tap_key(window=window, type='F3')
+    yield
+    yield from window_type_keys(window=window, text=operator_name)
+    yield from window_tap_key(window=window, type='RET')
+    yield
 
 
 def window_screenshot_to_filepath(*, window, filepath):
@@ -137,6 +166,46 @@ def screenshot_startup(window):
 
 
 # ----------------------------------------------------------------------
+# Screenshot Splash
+
+def screenshot_splash_screen(window):
+    from bpy import context
+
+    filepath = os.path.join(
+        IMAGE_DIR_PREVIEW,
+        "interface_splash_current.png"
+    )
+
+    yield from window_run_operator_from_search(
+        window=window,
+        operator_name="splash screen",
+    )
+
+    yield from window_screenshot_to_filepath(
+        window=window,
+        filepath=filepath,
+    )
+
+    yield from window_tap_key(window=window, type='ESC')
+
+    # Crop.
+    import imbuf
+    ibuf = imbuf.load(filepath)
+    size_dst = 520, 487
+    size_src = ibuf.size
+    min = (
+        (size_src[0] // 2) - (size_dst[0] // 2) - 1,
+        (size_src[1] // 2) - (size_dst[1] // 2) - 1,
+    )
+    max = (
+        min[0] + size_dst[0],
+        min[1] + size_dst[1],
+    )
+    ibuf.crop(min=min, max=max)
+    imbuf.write(ibuf, filepath)
+
+
+# ----------------------------------------------------------------------
 # Screenshot Preferences
 
 def screenshot_preferences(window):
@@ -146,10 +215,8 @@ def screenshot_preferences(window):
 
     # We can't open preferences from a timer, use the shortcut.
     # bpy.ops.screen.userpref_show({"window": window, "screen": window.screen}, 'INVOKE_DEFAULT')
-    window_tap_key(window=window, type='F4')
-    yield
-    window_tap_key(window=window, type='P')
-    yield
+    yield from window_tap_key(window=window, type='F4')
+    yield from window_tap_key(window=window, type='P')
 
     prefs_window = next(iter([w for w in context.window_manager.windows if w.screen.is_temporary]))
     area = prefs_window.screen.areas[0]
@@ -209,6 +276,7 @@ def screenshot_all(window):
 
     yield
     yield from screenshot_startup(window)
+    yield from screenshot_splash_screen(window)
     yield from screenshot_preferences(window)
 
     bpy.app.use_event_simulate = False
