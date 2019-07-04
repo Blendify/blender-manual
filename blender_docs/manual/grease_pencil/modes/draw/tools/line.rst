@@ -10,7 +10,7 @@ Line Tool
    :Mode:      Draw Mode
    :Panel:     :menuselection:`Tool Shelf --> Tools --> Draw Tools --> Line`
 
-The Line tool draws straight lines.
+The Line tool create straight lines.
 
 
 Usage
@@ -27,7 +27,7 @@ Brush
    Line tool uses *Draw Brushes* types.   
 
 Material
-   Data-Block selector for the material.   
+   Data-Block selector for the material.
 
    Pin Material (pin icon)
       Pin the material to the brush.
@@ -42,7 +42,7 @@ and :doc:`Material </grease_pencil/materials/introduction>`
 Common Brush options
 ---------------------
 
-You can also configure the brush main settings exposed on the topbar for convenience.
+You can configure the brush main settings exposed on the topbar for convenience.
 For complete draw brushes configuration and settings see: :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`.
 
 Radius
@@ -65,15 +65,15 @@ Strenght
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
 
-Use Curve
-   When enabled, the stroke use a curve profile to control the thickness along the line.
+Thickness Profile
+   use a :doc:`curve widget </interface/controls/templates/curve>`. to define the stroke thickness
+   from the start (left) to end (right) of the stroke.
 
-   Thickness Profile
-      use a :doc:`curve widget </interface/controls/templates/curve>`. to define the stroke thickness
-      from the start (left) to end (right) of the stroke.
+   Use Curve
+      When enabled, the stroke use a curve profile to control the thickness along the line.
 
 .. list-table::
-   Thickness Profile Samples.
+   Different thickness profile samples.
 
    * - .. figure:: /images/grease-pencil_modes_draw_tools_line-thickness-profile-01.png
           :width: 200px
@@ -85,8 +85,8 @@ Use Curve
           :width: 200px
 
 
-Drawing lines
--------------
+Creating lines
+---------------
 
 - Click (:kbd:`LMB` or the pen tip) and drag the start point.
 - Release on the desired end point.
@@ -94,7 +94,9 @@ Drawing lines
 - Press :kbd:`Enter`/:kbd:`MMB` to confirm or :kbd:`Esc`/:kbd:`RMB` to cancel.
 
 While dragging you can use :kbd:`Shift` to snapping the line to horizontal, vertical or 45° angle
-or use :kbd:`Alt` to draw the line from a center point.
+or use :kbd:`Alt` to create the line from a center origin.
+
+:kbd:`+` and :kbd:`-` or using the mouse wheel will increase or decrease the amount of points in the final line.
 
 
 .. list-table::
@@ -113,3 +115,27 @@ or use :kbd:`Alt` to draw the line from a center point.
           :width: 200px
 
           Confirmed line.
+
+
+Extruding
+----------
+
+before confirming you can use :kbd:`E` to extrude the end point of the line
+to generate multiple connected lines.
+
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_draw_tools_line-extrude-01.png
+          :width: 200px
+
+          End point extruding.
+
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line-extrude-02.png
+          :width: 200px
+
+          repositioning the end point of the last line with the manipulator.
+
+     - .. figure:: /images/grease-pencil_modes_draw_tools_line-extrude-03.png
+          :width: 200px
+
+          Confirmed connected lines.

@@ -31,8 +31,10 @@ Brush
 
 Leak Size
    Size in pixel to consider the leak closed.
+
 Thickness
    The thickness radius of the boundary stroke in pixels.
+   
 Simplify
    Number of simplify steps to apply to the boundary line.
    Higher values reduce the final filled area accuracy.
