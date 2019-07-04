@@ -15,17 +15,19 @@ The Erase tool erase already drawn strokes.
 Usage
 =====
 
+
 Selecting Brush
 ---------------
 
-Brush   
+Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   
+
    Erase tool uses *Erase Brushes* types (soft, point and stroke).
    For more information and settings see :doc:`Erase Brush </grease_pencil/modes/draw/brushes/erase_brush>`
 
+
 Soft Erasing
--------------
+------------
 
 - Select an erase brush of type Soft/Hard.
 - Click and hold :kbd:`LMB` or use the pen tip to delete strokes on the viewport.
@@ -35,7 +37,7 @@ Soft Erasing
    * - .. figure:: /images/grease-pencil_modes_draw_tools_erase_soft-01.png
           :width: 200px
 
-          Original drawing.      
+          Original drawing.
 
      - .. figure:: /images/grease-pencil_modes_draw_tools_erase_soft-02.png
           :width: 200px
@@ -46,6 +48,7 @@ Soft Erasing
           :width: 200px
 
           Final result.
+
 
 Point Erasing
 -------------
@@ -58,7 +61,7 @@ Point Erasing
    * - .. figure:: /images/grease-pencil_modes_draw_tools_erase_point-01.png
           :width: 200px
 
-          Original drawing.      
+          Original drawing.
 
      - .. figure:: /images/grease-pencil_modes_draw_tools_erase_point-02.png
           :width: 200px
@@ -69,6 +72,7 @@ Point Erasing
           :width: 200px
 
           Final result.
+
 
 Stroke Erasing
 --------------
@@ -81,7 +85,7 @@ Stroke Erasing
    * - .. figure:: /images/grease-pencil_modes_draw_tools_erase_stroke-01.png
           :width: 200px
 
-          Original drawing.      
+          Original drawing.
 
      - .. figure:: /images/grease-pencil_modes_draw_tools_erase_stroke-02.png
           :width: 200px
