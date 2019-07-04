@@ -97,11 +97,11 @@ def warn_role_kbd(fn, data_src):
             # chained (not pressed simultaneously): e.g. G X 5
             for k in content.split():
                 if not re.match(valid_kbd, k) or re.search(repeat_kbd, k):
-                    fn_rel = fn[len(RST_DIR) + 1:]
+                    # fn_rel = fn[len(RST_DIR) + 1:]
                     out = content
                     if content != k:
                         out += "| " + k
-                    print(fn_rel + ":" + str(lineno + 1) + " '" + out + "' " + "invalid keyboard shortcut")
+                    print(fn + ":" + str(lineno + 1) + ": '" + out + "' " + "invalid keyboard shortcut")
 
     return None
 
