@@ -23,6 +23,7 @@ Example Usage
    env BLENDER_BIN=/src/blender/blender.bin ./tools_maintenance/update_screenshots.py
 """
 
+
 import sys
 import os
 if "bpy" not in sys.modules:
@@ -169,15 +170,8 @@ def screenshot_preferences(window):
 
     bpy.ops.wm.window_close({"window": prefs_window})
 
-    yield
-
     # import IPython
     # IPython.embed()
-
-    bpy.app.use_event_simulate = False
-    prefs.is_dirty = False
-
-    yield
 
 
 # ----------------------------------------------------------------------
@@ -211,12 +205,20 @@ def generate_preview_html():
 
 
 def screenshot_all(window):
+    from bpy import context
+
     yield
     yield from screenshot_startup(window)
     yield from screenshot_preferences(window)
 
+    bpy.app.use_event_simulate = False
+
+    prefs = context.preferences
+    prefs.is_dirty = False
+
     # Finally
     generate_preview_html()
+
     yield
     print(__doc__)
     sys.exit(0)
