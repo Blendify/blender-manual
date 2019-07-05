@@ -16,9 +16,9 @@ The Cutter tool delete points in between intersecting strokes.
 Usage
 =====
 
-Draw a dotted line around the strokes you want to be cut. 
-After releasing the mouse/pen all the points on the selected strokes 
-will be deleted till found another intersecting stroke.
+Draw a dotted line around the strokes you want to be cut.
+After releasing the mouse/pen all the points on the selected strokes
+will be deleted until another intersecting stroke is found.
 
 .. list-table::
 

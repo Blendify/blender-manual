@@ -16,11 +16,10 @@ The Fill tool is used to automatically fill closed strokes areas.
 Usage
 =====
 
-
 Selecting Brush and Material
 ----------------------------
 
-On the topbar select the brush and material to use with the tool.
+On the Topbar select the brush and material to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
@@ -40,7 +39,7 @@ For more information about brushes and materials see: :doc:`Fill Brush </grease_
 and :doc:`Material </grease_pencil/materials/introduction>`
 
 
-Common Brush options
+Common Brush Options
 ---------------------
 
 You can also configure the brush main settings exposed on the topbar for convenience.
@@ -69,11 +68,11 @@ Boundary
       Toggle show help lines to see the fill boundary.
 
 
-Filling areas
+Filling Areas
 -------------
 
-Click :kbd:`LMB` in a closed stroke area. The tool will automatically
-calculate the boundary and create a new closed stroke filled with the material selected.
+Click :kbd:`LMB` in a closed stroke area. The tool will automatically calculate
+the boundary and create a new closed stroke filled with the material selected.
 
 .. list-table::
 
@@ -117,8 +116,8 @@ To create a Boundary Strokes use :kbd:`Alt-LMB` and draw a line to close the des
 
           Use Fill Tool to leak material on the new closed area.
 
-When you are satisfied with the fill result you can delete the Boundary strokes using the
-Clean Up operator in the :doc:`Stroke Menu </grease_pencil/modes/edit/stroke_menu>` in Edit Mode.
+When you are satisfied with the fill result you can delete the Boundary strokes using
+the *Clean Up* tool in the :doc:`Stroke Menu </grease_pencil/modes/edit/stroke_menu>` in Edit Mode.
 
 
 Switch to Draw Tool

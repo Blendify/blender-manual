@@ -55,7 +55,7 @@ Midlevel
    Texture values below this value will result in negative displacement along the selected direction,
    while texture values above it will result in positive displacement.
 
-   `displacement = texture_value - Midlevel`
+   :math:`displacement = texture_value - Midlevel`
 
    Recall that color/luminosity values are typically between (0.0 to 1.0) in Blender,
    and not between (0 to 255).
@@ -64,7 +64,7 @@ Strength
    The strength of the displacement. After offsetting by the *Midlevel* value,
    the displacement will be multiplied by the *Strength* value to give the final vertex offset.
 
-   `vertex_offset = displacement × Strength`
+   :math:`vertex_offset = displacement × Strength`
 
    A negative strength can be used to invert the effect of the modifier.
 

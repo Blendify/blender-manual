@@ -60,16 +60,24 @@ Scene Options
 
 Start Frame and End Frame
    Sets the frame range to export to Alembic. This defaults to the current scene frame range.
-Sub-frame sampling: Transform & Geometry Samples, Shutter Open & Close
-   These options control the sub-frame sampling of animations. Transform Samples sets the number
-   of times per frame at which animated transformations are sampled and written to Alembic.
-   Geometry Samples sets the same, but then for animated geometry. Shutter Open & Close define
-   the interval [open, close] over which those samples are taken. The valid range is -1 to 1, where -1
-   indicates the previous frame, 0 indicates the current frame, and 1 indicates the next frame.
-   For example, if information for detailed mesh motion blur is desired, some subframes around
-   the current frame can be written to Alembic by using a sample count of 5, Shutter Open at -0.25 and
-   Shutter Close at 0.25. This mimics a "180 degree" shutter, opening 90 degrees before the frame
-   and closing 90 degrees after the frame.
+Sub-frame Sampling
+   These options control the sub-frame sampling of animations.
+
+   Transform Samples
+      Transform Samples sets the number of times per frame at which animated transformations
+      are sampled and written to Alembic.
+   Geometry Samples
+      Geometry Samples sets the same, but then for animated geometry.
+   Shutter Open/Close
+      Shutter Open/Close define the interval [open, close] over which those samples are taken.
+      The valid range is -1 to 1, where -1 indicates the previous frame,
+      0 indicates the current frame, and 1 indicates the next frame.
+
+      For example, if information for detailed mesh motion blur is desired, some subframes around
+      the current frame can be written to Alembic by using a sample count of 5,
+      Shutter Open at -0.25 and Shutter Close at 0.25.
+      This mimics a "180 degree" shutter, opening 90 degrees before the frame
+      and closing 90 degrees after the frame.
 Selected Objects Only
    When enabled, exports only the selected objects. When disabled, all objects are exported.
 Renderable Objects Only

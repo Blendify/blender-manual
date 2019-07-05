@@ -33,11 +33,7 @@ Shutter
    For example, shutter time 1.0 blurs over the length of 1 frame.
 
 Rolling Shutter
-   Creates a "rolling shutter" effect.
-
-   In real CMOS cameras the sensor is read out with scanlines
-   and hence different scanlines are sampled at a different moment in time.
-   This, for example, make vertical straight lines being curved when doing a horizontal camera pan.
+   Creates a :term:`rolling shutter` effect.
 
    None
       No rolling shutter effect.

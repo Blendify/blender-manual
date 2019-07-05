@@ -689,6 +689,12 @@ This page lists definitions for terms used in Blender and this manual.
       Has no effect on the local Y axis as local Y is determined by the location of
       the :term:`Head` and :term:`Tail`.
 
+   Rolling Shutter
+      In real CMOS cameras the sensor is read out with scanlines
+      and hence different scanlines are sampled at a different moment in time.
+      This, for example, make vertical straight lines being curved when doing a horizontal camera pan.
+      See also `Rolling Shutter <https://en.wikipedia.org/wiki/Rolling_shutter>`__ on Wikipedia.
+
    Roughness Map
       A grayscale texture that defines how rough or smooth the surface of a material is.
       This may also be known as a :term:`Glossy Map`.
