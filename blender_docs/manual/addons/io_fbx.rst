@@ -49,7 +49,7 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
    For armature animations typically you just leave the armature enabled which is necessary for
    that type of animation. Reducing what is output makes the export and future import much faster.
    Normally each action will have its own name but the current or
-   only take can be forced to be named "Default Take". Typically, ensure that this option remains off.
+   only take can be forced to be named "Default Take". Typically, this option can remain off.
 
 
 Properties
@@ -114,8 +114,8 @@ Selected Objects
    Only export the selected objects. Otherwise export all objects in the scene.
    Note, this does not apply when batch exporting.
 Scale
-   Scale the exported data by this value. 10 is the default because this
-   fits best with the scale most applications import FBX to.
+   Scale the exported data by this value. 10 is the default
+   because this fits best with the scale most applications import FBX to.
 Apply Scale
    TODO.
 Apply Scalings
@@ -156,7 +156,7 @@ Batch Mode
    Group/Scene
       Choose whether to batch export groups or scenes to files.
       Note, when Group/Scene is enabled, you cannot use the animation option *Current Action*
-      since that uses scene data and groups are not attached to any scenes.
+      since it uses scene data and groups are not attached to any scenes.
       Also note, when Group/Scene is enabled you must include the armature objects
       in the group for animated actions to work.
    Own Dir

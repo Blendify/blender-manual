@@ -63,5 +63,5 @@ Usage
 
 The lattice should be scaled and moved to fit around your object in Object Mode.
 Any scaling applied to the object in Edit Mode will result in the object deforming.
-This includes applying scale with :kbd:`Ctrl-A` as this will achieve the same result as
+This includes applying its scale with :kbd:`Ctrl-A` as this will achieve the same result as
 scaling the lattice in Edit Mode, and therefore the object.

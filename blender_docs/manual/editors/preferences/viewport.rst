@@ -71,7 +71,7 @@ Limit Size
    whereas the texture limit matches paging blocks of the textures in the target graphic card memory.
 Anisotropic Filtering
    Sets the level of anisotropic filtering.
-   This improves the quality that textures are rendered at the cost of performance.
+   This improves the quality of textures that are rendered at the cost of performance.
 Clip Alpha
    Clip alpha below this threshold in the 3D View.
    Note that, the default is set to a low value to prevent issues on some GPU's.

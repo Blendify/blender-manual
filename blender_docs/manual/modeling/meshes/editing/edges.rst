@@ -178,7 +178,7 @@ Even Mode
 rather than sliding a percentage along each perpendicular edge.
 
 In *Even* mode, the tool shows the position along the length of the currently selected edge
-which is marked in yellow, from the vertex that as an enlarged red marker.
+which is marked in yellow, from the vertex that has an enlarged red marker.
 Movement of the sliding edge loop is restricted to this length. As you move the mouse
 the length indicator in the header changes showing where along the length of the edge you are.
 
