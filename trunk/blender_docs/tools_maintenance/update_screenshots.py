@@ -28,6 +28,8 @@ import sys
 import os
 if "bpy" not in sys.modules:
     import subprocess
+    import tempfile
+
     blender = os.environ.get("BLENDER_BIN", "blender")
 
     command = [
@@ -44,9 +46,18 @@ if "bpy" not in sys.modules:
         "--enable-event-simulate",
         "--python", __file__,
     ]
-    subprocess.run(
-        command
-    )
+
+    env = os.environ.copy()
+
+    # Needed to avoid reading "recent-files.txt" & "bookmarks.txt"
+    # as well as helpfully auto-saving the preferences.
+    with tempfile.TemporaryDirectory() as temp_home:
+        env["HOME"] = temp_home
+
+        subprocess.run(
+            command,
+            env=env,
+        )
     sys.exit(0)
 
 # -----------
@@ -123,7 +134,6 @@ def window_type_keys(*, window, text):
         else:
             c_upper = c.upper()
         yield
-        print(c)
         yield from window_tap_key(window=window, type=c_upper, unicode=c)
         yield
     yield
@@ -171,6 +181,20 @@ def screenshot_startup(window):
 def screenshot_splash_screen(window):
     from bpy import context
 
+    # Needed otherwise userpref.blend is an empty file.
+    filepath_userpref = os.path.join(
+        os.environ["HOME"],
+        ".config",
+        "blender",
+        "{:d}.{:d}".format(*bpy.app.version[:2]),
+        "config",
+        "userpref.blend",
+    )
+
+    os.makedirs(os.path.dirname(filepath_userpref), exist_ok=True)
+    with open(filepath_userpref, 'wb') as fh:
+        pass
+
     filepath = os.path.join(
         IMAGE_DIR_PREVIEW,
         "interface_splash_current.png"
@@ -185,6 +209,8 @@ def screenshot_splash_screen(window):
         window=window,
         filepath=filepath,
     )
+
+    os.unlink(filepath_userpref)
 
     yield from window_tap_key(window=window, type='ESC')
 
@@ -280,9 +306,6 @@ def screenshot_all(window):
     yield from screenshot_preferences(window)
 
     bpy.app.use_event_simulate = False
-
-    prefs = context.preferences
-    prefs.is_dirty = False
 
     # Finally
     generate_preview_html()
