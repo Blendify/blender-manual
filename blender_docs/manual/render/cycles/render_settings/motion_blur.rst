@@ -13,10 +13,10 @@ While great for stop-motion and time-lapses, this is unrealistic, since fast-mov
 objects do appear to be blurred in the direction of motion,
 both in a movie frame and in a photograph from a real-world camera.
 
-.. figure:: /images/render_cycles_render-settings_motion-blur_example.jpg
-   :width: 640px
+.. figure:: /images/render_cycles_render-settings_motion-blur_example-cubes.jpg
 
-   Motion blur example (camera zoom).
+   Motion blur example.
+   (`blend-file <https://en.blender.org/uploads/0/03/Blender2.65_motion_blur.blend>`__)
 
 .. note::
 
@@ -71,10 +71,3 @@ Rolling Shutter Duration
    Each object has its own settings to control motion blur.
    These options can be found in the Object tab of the Properties editor.
    See :ref:`object setting <render-cycles-settings-object-motion-blur>` for more information.
-
-
-.. figure:: /images/render_cycles_render-settings_motion-blur_example-cubes.jpg
-   :width: 640px
-
-   Motion blur example.
-   (`blend-file <https://en.blender.org/uploads/0/03/Blender2.65_motion_blur.blend>`__)
