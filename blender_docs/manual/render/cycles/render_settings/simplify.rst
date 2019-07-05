@@ -13,8 +13,8 @@ Simplify
 .. _bpy.types.RenderSettings.simplify_subdivision:
 .. _bpy.types.CyclesRenderSettings.texture_limit:
 
-Common
-======
+
+.. rubric:: Common Settings
 
 Max Subdivision
    Maximum number of subdivision by the subdivision surface modifiers.
@@ -37,6 +37,12 @@ Viewport
 Use High-resolution Smoke
    Shows a :ref:`higher resolution <smoke-high-resolution>`
    version of :doc:`Smoke Simulations </physics/smoke/index>` in the viewport.
+
+
+Render
+======
+
+See Common Settings above.
 
 
 .. _bpy.types.CyclesRenderSettings.use_camera_cull:
