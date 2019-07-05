@@ -4,14 +4,14 @@
 Toolbar
 *******
 
+.. figure:: /images/grease-pencil_modes_draw_toolbar_tools.png
+   :align: right
+
 Grease Pencil draw tools:
 
 .. note::
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
-
-Cursor
-   Change the location of the 3D Cursor.
 
 :ref:`Draw <tool-grease-pencil-draw-draw>`
    Create new strokes by free-hand drawing.

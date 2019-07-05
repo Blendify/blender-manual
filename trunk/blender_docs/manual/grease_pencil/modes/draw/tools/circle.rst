@@ -23,7 +23,7 @@ In the Topbar select the brush and material to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   Line tool uses *Draw Brushes* types.
+   Circle tool uses *Draw Brushes* types.
 
 Material
    Data-Block selector for the material.
@@ -90,7 +90,7 @@ Creating Circles
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.
 #. Release on the desired end point.
 #. After releasing you can move the start and end point by clicking and dragging on the yellow manipulators.
-#. Then confirm or cancel.
+#. Then confirm (:kbd:`Enter`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
 
 While dragging you can use :kbd:`Shift` to make a perfect circle
 or use :kbd:`Alt` to create the circle from a center point.
