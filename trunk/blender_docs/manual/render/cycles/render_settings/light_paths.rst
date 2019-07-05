@@ -109,6 +109,8 @@ Transparency
    Maximum number of transparency bounces.
 
 
+.. _render-cycles-integrator-clamp-samples:
+
 Clamp
 -----
 
