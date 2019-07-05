@@ -108,7 +108,7 @@ Straight lines
 :kbd:`Alt-LMB` Constrains the drawing of the strokes to horizontal or vertical straight lines.
 
 
-Switch to Erase tool
+Switch to Erase Tool
 ---------------------
 
 :kbd:`Ctrl-LMB` changes temporally to the active erase tool.
