@@ -186,7 +186,7 @@ This should be obvious because if the active element is a connected root then th
 element will be also the tip of the parent bone, so it is the same as the second case.
 
 As the tip of the new bone becomes the active element,
-you can repeat these :kbd:`Ctrl-RMB` several times,
+you can repeat these :kbd:`Ctrl-RMB` clicks several times,
 to consecutively add several bones to the end of the same chain.
 
 

@@ -91,7 +91,7 @@ on a shared layer (particles, soft bodies, and cloth).
 
 Damping
    Damping during a collision.
-   The amount of bounce that surfaces will have.
+   The amount of bounce that the surfaces will have.
 
    - 0.0 - No damping, soft bodies will have a maximum bounciness.
    - 1.0 - Maximum damping, soft bodies will not bounce at all.

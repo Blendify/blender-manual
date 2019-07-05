@@ -239,7 +239,7 @@ Step Size
 
 Error Limit
    Rules the overall quality of the solution delivered. Default 0.1.
-   The most critical setting that says how precise the solver should check for collisions.
+   The most critical setting that defines how precise the solver should check for collisions.
    Start with a value that is half the average edge length.
    If there are visible errors, jitter, or over-exaggerated responses, decrease the value.
    The solver keeps track of how "bad" it is doing and the *Error Limit* causes the solver to
@@ -255,7 +255,7 @@ Diagnostics
 
    Center of mass -- Location of the center of mass.
    Rot Matrix -- Estimated the rotation matrix.
-   Scale Matrix -- Estimated the rscale matrix.
+   Scale Matrix -- Estimated the scale matrix.
 
 Helpers
    These settings allow you to control how Blender will react (deform) the soft body

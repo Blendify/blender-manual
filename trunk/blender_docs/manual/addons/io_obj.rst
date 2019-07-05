@@ -66,7 +66,7 @@ Clamp Size
    OBJ-files often vary greatly in scale, this setting clamps the imported file to a fixed size.
 Forward / Up Axis
    Since many applications use a different axis for 'Up', these are axis conversion for these settings,
-   Forward and Up axes -- By mapping these to different axes you can convert rotations
+   Forward and Up axes -- By mapping these two different axes you can convert rotations
    between applications default up and forward axes.
 
    Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).

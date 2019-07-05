@@ -106,7 +106,7 @@ Clear Scale
 Sync Action Length
    Synchronize the length of the action to the length used in the NLA-strip.
 Make Single User
-   This tools ensures that none of the selected strips use an action
+   This tool ensures that none of the selected strips use an action
    which is also used by any other strips.
 Swap Strips
    Swap the order of the selected NLA-strips in their NLA-track.

@@ -69,7 +69,7 @@ Self-Collisions
 
 Real cloth cannot permeate itself, so you normally want the cloth to self-collide.
 Enable this to tell the cloth object that it should not penetrate itself.
-This adds to simulation compute time, but provides more realistic results.
+This adds to the simulation's compute time, but provides more realistic results.
 
 .. tip::
 
