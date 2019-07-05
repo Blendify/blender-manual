@@ -47,7 +47,7 @@ Radius
       Occlude Eraser (Overlapping squares icon)
          Erase only strokes visible and not occluded by geometry.         
 
-Strenght
+Strength
    Control how much will affect the eraser the stroke transparency (alpha).
 
    You can change the brush strength interactively by pressing :kbd:`Shift-F`

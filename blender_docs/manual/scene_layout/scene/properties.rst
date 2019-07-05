@@ -73,7 +73,7 @@ Unit Scale
 
 Separate Units
    When using *Metric* or *Imperial*, display properties as multiple values.
-   For example, `2.285m` will become `2m 28.5cm`.
+   For example, ``2.285m`` will become ``2m 28.5cm``.
 Rotation
    Degrees
       Use degrees for angles in the user interface.
@@ -82,8 +82,8 @@ Rotation
 Length
    Adaptive
       The unit used for a specific value depends on the magnitude of the value.
-      For example, some values might be displayed as `23cm` while others are
-      displayed as `10km`.
+      For example, some values might be displayed as ``23cm`` while others are
+      displayed as ``10km``.
    Meters/Centimeters/Feet/...
       A fixed unit that will be used for all lengths in the user interface.
 Mass

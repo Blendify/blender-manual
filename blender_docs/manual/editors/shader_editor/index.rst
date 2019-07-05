@@ -13,21 +13,26 @@ Therefore, the main window of the Shader editor is a :doc:`node editor </interfa
 
 A list of all :doc:`shader nodes </render/shader_nodes/index>` is available in the rendering section.
 
+
 Header
 ======
 
-The :menuselection:`Use Nodes` setting is mostly a legacy setting and should always be checked for materials.
-The :menuselection:`Slot` menu can be used to select the active
-:ref:`material slot <material-slots>` on the active object.
-The material selector to the right of it can change the material that is in the selected slot.
-The :menuselection:`Pin` icon fixates the current material selection.
-When a material is pinned,
-it will remain visible in the shader editor even when another object or material is selected elsewhere.
+Use Nodes
+   The Use Nodes setting is mostly a legacy setting and should always be checked for materials.
+Slot
+   The :menuselection:`Slot` menu can be used to select
+   the active :ref:`material slot <material-slots>` on the active object.
+   The material selector to the right of it can change the material that is in the selected slot.
+Pin (pin icon)
+   The pin button will keep the current material selection fixed.
+   When a material is pinned, it will remain visible in the shader editor
+   even when another object or material is selected elsewhere.
+
 
 Options
 =======
 
-The options panel in the sidebar region contains the same :doc:`settings </render/materials/settings>`
-that are also available in the material tab in the properties editor.
+The Options panel in the Sidebar region contains the same :doc:`settings </render/materials/settings>`
+that are also available in the Material tab in the Properties editor.
 They differ depending on the selected render engine.
 The settings are duplicated to make it possible to edit the entire material from the shader editor.

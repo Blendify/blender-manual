@@ -15,7 +15,7 @@ With modifiers, you can perform many effects automatically that would otherwise 
 too tedious to do manually and without affecting the base geometry of your object.
 
 They work by changing how an object is displayed and rendered, but not the geometry which you can edit directly.
-You can add several modifiers to a single object to form `The Modifier Stack`
+You can add several modifiers to a single object forming the modifier stack
 and *Apply* a modifier if you wish to make its changes permanent.
 
 .. figure:: /images/grease-pencil_modifiers_introduction_menu.png

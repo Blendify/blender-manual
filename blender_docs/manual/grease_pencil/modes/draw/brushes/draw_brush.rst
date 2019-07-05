@@ -27,7 +27,7 @@ Brush
 
 .. note::
 
-   In order to save in a blend-user a custom brush, tick Fake User.
+   In order to save a custom brush, activate *Fake User*.
 
 Radius
    The radius of the brush in pixels.
@@ -75,7 +75,7 @@ Border Opacity Factor
    Aspect Ratio
       Controls the width and height of the alpha gradient.
 
-      X, Y.
+      X, Y
 
 
 Post-Processing
@@ -106,6 +106,7 @@ Subdivision Steps
 Trim Strokes End
    Automatically trim intersection strokes ends.
 
+
 .. _grease-pencil-draw-brushes-stabilizer:
 
 Stabilizer
@@ -131,7 +132,7 @@ You can toggle the use of randomize using the checkbox on the section panel head
 Pressure
    Amount of randomness to apply using the pressure of the input device.
 Strength
-   Amount of randomness to apply to stroke strenght value (alpha).
+   Amount of randomness to apply to stroke strength value (alpha).
 UV
    Amount of randomness to apply to UV rotation.
 Jitter
@@ -144,8 +145,8 @@ Jitter
 Curves
 ======
 
-For more precise control on some strokes properties you can use a
-:doc:`curve widget </interface/controls/templates/curve>`.
+For more precise control on some strokes properties you can use
+a :doc:`curve widget </interface/controls/templates/curve>`.
 
 Sensitivity
    Controls the sensitivity of the input device.

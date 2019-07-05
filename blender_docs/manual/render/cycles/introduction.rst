@@ -18,7 +18,6 @@ enable compatible devices in :menuselection:`Preferences --> System --> Cycles R
    The `Cycles website <https://www.cycles-renderer.org/>`__ with more information and a gallery.
 
 
-
 .. todo: expand to describe how ray tracing works.
 
 Light Rays
