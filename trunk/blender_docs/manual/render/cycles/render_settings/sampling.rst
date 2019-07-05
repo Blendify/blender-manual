@@ -49,7 +49,7 @@ Viewport
 
 
 Sub Samples
------------
+===========
 
 The panel is visible only when using *Branched Path Tracing*.
 
