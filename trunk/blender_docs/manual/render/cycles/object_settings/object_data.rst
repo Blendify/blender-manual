@@ -97,3 +97,10 @@ Deformation
 Steps
    Controls accuracy of deformation motion blur, more steps gives more memory usage.
    The actual number of time steps is :math:`2^{steps -1}`.
+
+.. warning::
+
+   An object modifier setup that changes mesh topology over time can not render
+   deformation motion blur correctly. Deformation blur should be disabled for such objects.
+
+   Common examples of this are animated Booleans, Deformation before Edge Split, Remesh, Skin or Decimate modifiers.
