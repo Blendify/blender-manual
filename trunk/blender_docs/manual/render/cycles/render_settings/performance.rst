@@ -51,6 +51,28 @@ Save Buffers
    and Image editor by using :ref:`bpy.ops.node.read_viewlayers`.
 
 
+Acceleration Structure
+======================
+
+Use Spatial Splits
+   Spatial splits improve the rendering performance in scenes with a mix of large and small polygons.
+   The downsides are longer BVH build times and slightly increased memory usage.
+Use Hair BVH
+   Use a special type of :term:`BVH` for rendering hair.
+   The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
+   Disabling this option will reduce memory, at the cost of increasing hair render time.
+BVH Time Steps
+   Split BVH primitives by this number of time steps to speed up render time in cost of memory.
+
+
+Final Render
+============
+
+Persistent Images
+   Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage when
+   performing other tasks in Blender.
+
+
 Viewport
 ========
 
@@ -67,25 +89,3 @@ Viewport Resolution
    Pixel Size
       Option to control the resolution for viewport rendering.
       Allows you to speed up viewport rendering, which is especially useful for displays with high DPI.
-
-
-Final Render
-============
-
-Persistent Images
-   Keep image data in memory after rendering, for faster re-renders at the cost of extra memory usage when
-   performing other tasks in Blender.
-
-
-Acceleration Structure
-======================
-
-Use Spatial Splits
-   Spatial splits improve the rendering performance in scenes with a mix of large and small polygons.
-   The downsides are longer BVH build times and slightly increased memory usage.
-Use Hair BVH
-   Use a special type of :term:`BVH` for rendering hair.
-   The bounding boxes are not axis aligned allowing a spatially closer fit to the hair geometry.
-   Disabling this option will reduce memory, at the cost of increasing hair render time.
-BVH Time Steps
-   Split BVH primitives by this number of time steps to speed up render time in cost of memory.
