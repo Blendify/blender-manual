@@ -24,7 +24,15 @@ Setting up Materials
 as any other materials in Blender.
 See :doc:`Material assignment </render/materials/assignment>` for more information.
 
-*Grease Pencil* Materials slots also have some extra controls that help to work
+The 3D Viewport can be set to LookDev or Rendered shading, to interactively preview how the material looks in the scene.
+
+*Grease Pencil* Materials are data-blocks that can be :doc:`assigned </render/materials/assignment>`
+to one or more objects, and different materials can be assigned to different strokes.
+
+In *Grease Pencil* the :doc:`brush </grease_pencil/modes/draw/brushes/introduction>`
+settings together with the material used will define the look and feel of the final strokes.
+
+*Grease Pencil* Materials slots in the :ref:`List view <ui-list-view>` also have some extra controls that help to work
 with materials while drawing or editing lines.
 
 
@@ -49,8 +57,8 @@ Onion Skinning (onion skin icon)
    You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
 
 
-Special Layers List Menu
-------------------------
+Specials
+--------
 
 Show All
    Turns on the visibility of every material in the list.
@@ -65,16 +73,6 @@ Unlock All
    Unlocks edition of all the materials in the list.
 
 
-.. This can be removed since this is covered in UI section link to ui-list instead.
-
-Arrange Buttons
----------------
-
-Move (up/down arrow icon)
-   Move the material up/down in the stack.
-   The material order is just for sorting purpose.
-
-
 Lock and Visibility General Controls
 ------------------------------------
 
@@ -83,14 +81,6 @@ Lock (padlock icon)
 
 Visibility (screen icon)
    Toggle whether the active material is the only that can be edited and visible.
-
-3D Viewport can be set to LookDev or Rendered shading, to interactively preview how the material looks in the scene.
-
-*Grease Pencil* Materials are data-blocks that can be :doc:`assigned </render/materials/assignment>`
-to one or more objects, and different materials can be assigned to different strokes.
-
-In *Grease Pencil* the :doc:`brush </grease_pencil/modes/draw/brushes/introduction>`
-settings together with the material used will define the look and feel of the final strokes.
 
 
 Grease Pencil Shader
