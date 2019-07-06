@@ -6,7 +6,12 @@ Properties
 Metadata
 ========
 
-Todo 2.8.
+List of  metadata of displayed image.
+
+.. note::
+
+   Metadata will only be displayed for image, that has not been processed by any effect.
+   By default images are processed by alpha over blending.
 
 
 Scene Preview/Render
@@ -19,7 +24,7 @@ Preview Shading
    Method for rendering the viewport.
    See the 3D View's :ref:`view3d-viewport-shading` options.
 Override Scene Settings
-   TODO2.8.
+   Use workbench render settings from the sequencer scene, instead of each individual scene used in the strip
 
 
 View Settings
