@@ -72,18 +72,6 @@ Thickness Profile
    Use Curve
       When enabled, the stroke use a curve profile to control the thickness along the line.
 
-.. list-table:: Different thickness profile samples.
-
-   * - .. figure:: /images/grease-pencil_modes_draw_tools_circle-thickness-profile-01.png
-          :width: 200px
-
-     - .. figure:: /images/grease-pencil_modes_draw_tools_circle-thickness-profile-02.png
-          :width: 200px
-
-     - .. figure:: /images/grease-pencil_modes_draw_tools_circle-thickness-profile-03.png
-          :width: 200px
-
-
 Creating Circles
 ----------------
 
