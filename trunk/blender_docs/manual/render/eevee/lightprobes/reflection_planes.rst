@@ -79,5 +79,5 @@ Viewport Display
 Arrow Size
    Size of the arrow showing the reflection plane normal.
 
-Show Data
+Show Preview Plane
    Show the captured reflected image onto a fully reflective plane in the 3D View.
