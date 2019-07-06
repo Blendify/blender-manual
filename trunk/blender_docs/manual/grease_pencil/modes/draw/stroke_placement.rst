@@ -10,19 +10,23 @@ Stroke Placement
    :Header:     :menuselection:`Stroke Placement`
 
 
-Stroke Placement selector in the viewport header helps to select
-the location in which the new created strokes will be placed.
+Stroke Placement selector helps to select the location 
+in which the newly created strokes are drawn.
 
 .. note::
 
-   The placement selected is only for new drawing strokes 
-   and has no effect on already drawn strokes.
+   The Stroke Placement selected has effect only for new strokes and does not affect the existing ones.
 
 Placement Options
 ==================
 
+.. figure:: /images/grease-pencil_modes_draw_stroke_placement-selector.png      
+   :align: right
+   
+   Stroke Placement selector on 3D View header.
+
 Origin
-   Strokes are placed at *Grease Pencil* object origin.
+   Strokes are placed at *Grease Pencil* object origin.   
 
 3D Cursor
    Strokes are placed at 3D cursor.
