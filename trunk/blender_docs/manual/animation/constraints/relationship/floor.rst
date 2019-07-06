@@ -24,10 +24,6 @@ Options
 
 Targets
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
-Sticky
-   Makes the owner immovable when touching the "floor" plane
-   (it cannot slide around on the surface of the plane any more).
-   This is fantastic for making walk and run animations!
 Use Rotation
    Forces the constraint to take the target's rotation into account.
    This allows you to have a "floor" plane of any orientation you like, not just the global XY, XZ and YZ ones...
