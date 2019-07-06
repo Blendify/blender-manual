@@ -17,3 +17,4 @@
    volumetrics.rst
    shadows.rst
    indirect_lighting.rst
+   film.rst
