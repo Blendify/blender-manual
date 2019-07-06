@@ -3,4 +3,73 @@
 Drawing Planes
 **************
 
-TODO2.8: write this section.
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Draw Mode and Sculpt Mode
+   :Header:     :menuselection:`Drawing Planes`
+
+
+Drawing Planes selector helps to select
+the plane in which the newly created strokes are drawn.
+
+To see which plane you are using when drawing strokes,
+you can enable *Canvas* in :ref:`Viewport Overlays <3dview-overlay-grease-pencil>`.
+See :doc:`Viewport Display </interface/controls/templates/curve>` to know more about Canvas settings.
+
+.. note::
+
+   The Drawing Plane selected has effect only for new strokes and does not affect the existing ones.
+
+Plane Options
+===============
+
+.. figure:: /images/grease-pencil_modes_draw_stroke_drawing_planes-selector.png      
+   :align: right
+   
+   Drawing Planes selector on 3D View header.
+
+Front
+   Strokes are drawn on the plane determined by the X-Z axes (front view). 
+
+Side
+   Strokes are drawn on the plane determined by the Y-Z axes (side view).
+
+Top
+   Strokes are drawn on the plane determined by the the X-Y axes (top view).
+
+View
+   Strokes are drawn with the current 3D view orientation.
+
+Cursor
+   Strokes are drawn with the current 3D cursor orientation.
+
+Examples
+=========
+
+.. list-table:: Stroke using different Drawing Planes with Canvas overlay activated.
+
+   * - .. figure:: /images/grease-pencil_modes_draw_drawing_planes-front.png
+          :width: 200px
+
+          Front.
+
+     - .. figure:: /images/grease-pencil_modes_draw_drawing_planes-side.png
+          :width: 200px
+
+          Side.
+
+     - .. figure:: /images/grease-pencil_modes_draw_drawing_planes-top.png
+          :width: 200px
+
+          Top.
+
+     - .. figure:: /images/grease-pencil_modes_draw_drawing_planes-view.png
+          :width: 200px
+
+          View.
+
+     - .. figure:: /images/grease-pencil_modes_draw_drawing_planes-cursor.png
+          :width: 200px
+
+          Cursor.
