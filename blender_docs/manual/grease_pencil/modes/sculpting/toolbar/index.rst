@@ -6,6 +6,11 @@ Toolbar
 
 Grease Pencil sculpt tools:
 
+.. figure:: /images/grease-pencil_modes_sculpting_toolbar_brushes.png
+   :align: right
+
+   3D View Mode selector: Sculpt Mode.
+
 .. note::
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
@@ -20,29 +25,37 @@ Grease Pencil sculpt tools:
    :ref:`Select Lasso <tool-select-lasso>`
       Select geometry by drawing a lasso.
 
-:ref:`Smooth <tool-grease-pencil-sculpt-smooth>`
-   TODO2.8
+Smooth
+   Eliminates irregularities in the area of the drawing 
+   within the brush’s influence by smoothing the positions of the points.
 
-:ref:`Thickness <tool-grease-pencil-sculpt-thickness>`
-   TODO2.8
+Thickness
+   Increase or decrease the points thickness in the area of the drawing 
+   within the brush’s influence.
 
-:ref:`Strength <tool-grease-pencil-sculpt-strength>`
-   TODO2.8
+Strength
+   Increase or decrease the points transparency (alpha) in the area of the drawing 
+   within the brush’s influence.
 
-:ref:`Randomize <tool-grease-pencil-sculpt-randomize>`
-   TODO2.8
+Randomize
+   Add noise to the strokes in the area of the drawing 
+   within the brush’s influence by moving points location in a random way.
 
-:ref:`Grab <tool-grease-pencil-sculpt-grab>`
-   TODO2.8
+Grab
+   Used to drag a group of points around. Unlike the other brushes,
+   Grab does not modify different points as the brush is dragged across the model. 
+   Instead, Grab selects a group of points on mouse-down, and pulls them to follow the mouse. 
+   The effect is similar to moving a group of points in Edit Mode with Proportional Editing enabled.
 
-:ref:`Push <tool-grease-pencil-sculpt-push>`
-   TODO2.8
+Push
+   Moves points in the direction of the brush stroke.
 
-:ref:`Twist <tool-grease-pencil-sculpt-twist>`
-   TODO2.8
+Twist
+   Twist the points in counter-clockwise (CCW) or Clockwise (CW) rotation.
 
-:ref:`Pinch <tool-grease-pencil-sculpt-pinch>`
-   TODO2.8
+Pinch
+   Pulls points towards the center of the brush. 
+   The inverse setting is Magnify, in which points are pushed away from the center of the brush.
 
-:ref:`Clone <tool-grease-pencil-sculpt-clone>`
+Clone
    TODO2.8.
