@@ -15,8 +15,8 @@ the :doc:`Edit Mode </grease_pencil/modes/edit/introduction>` or
 :doc:`Sculpt Mode </grease_pencil/modes/sculpting/introduction>`.
 
 
-Getting Started
-===============
+Draw Mode
+==========
 
 .. figure:: /images/grease-pencil_modes_draw_introduction_mode-selector.png
    :align: right
