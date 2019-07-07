@@ -1,4 +1,3 @@
-.. This is for 3D View painting, 2D image painting belongs in the Image editor section.
 
 ************
 Introduction
