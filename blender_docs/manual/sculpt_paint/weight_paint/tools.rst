@@ -1,8 +1,8 @@
 .. _weight_paint-toolbar-index:
 
-*******
-Toolbar
-*******
+******************
+Weight Paint Tools
+******************
 
 Weight paint tools:
 
