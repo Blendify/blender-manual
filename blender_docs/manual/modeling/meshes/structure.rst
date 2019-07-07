@@ -17,13 +17,14 @@ With meshes, everything is built from three basic structures:
 Vertices
 ========
 
-The most elementary part of a mesh is the vertex which is a single point or position in 3D space.
-The vertices (the plural form of vertex) are stored in an array of coordinates.
+The most elementary part of a mesh is the vertex vertices (plural) which is a single point or position in 3D space.
+Vertices are represented in the 3D Viewport in edit mode as small dots.
+The vertices of and object are stored as an array of coordinates.
 
 .. tip::
 
-   Do not mistake the :doc:`Origin Point </scene_layout/object/origin>` of an object for a vertex.
-   It looks similar, but it is bigger and you cannot select it.
+   Do not mistake the :doc:`Object Origin </scene_layout/object/origin>` for a vertex.
+   It may look similar, but it is bigger and cannot be selected.
 
    .. figure:: /images/modeling_meshes_structure_cube-example.png
 
