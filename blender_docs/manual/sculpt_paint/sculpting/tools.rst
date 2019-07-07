@@ -53,6 +53,9 @@ Strength
       then you can scale the model (in Edit Mode, not Object Mode).
       Larger sizes will make the brush's effect smaller, and vice versa.
 
+Direction :kbd:`Ctrl`
+   Brush direction toggle, *Add* raises geometry towards the brush,
+   *Subtract* lowers geometry away from the brush. This setting can be toggled with :kbd:`Ctrl` while sculpting.
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
 Normal Weight :kbd:`Ctrl`
@@ -61,9 +64,22 @@ Normal Weight :kbd:`Ctrl`
    E.g. *Grab* brush can be used to push a depression (hole) into the mesh when *Normal Weight* is set.
 
    Applies to *Grab* and *Snake Hook* brushes.
-Use Original Normal (padlock icon)
-   When locked it keeps using the normal of the surface where stroke was initiated,
-   instead of the surface normal currently under the cursor.
+Plane Offset
+   Offset for planar brushes (Clay, Fill, Flatten, Scrape),
+   shifts the plane that is found by averaging the faces above or below.
+Plane Trim
+   Ability to limit the distance that planar brushes act.
+   If trim is enabled vertices that are further away from the offset plane than
+   the trim distance are ignored during sculpting.
+
+
+Options
+^^^^^^^
+
+Accumulate
+   Causes stroke dabs to accumulate on top of each other.
+Radius Unit
+   TODO.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
    In other words, the primary direction that the vertices will move.
@@ -75,22 +91,15 @@ Sculpt Plane
       Sculpting in the plane of the current 3D View.
    X, Y, Z Plane
       The movement takes place in the positive direction of one of the global axes.
-Plane Offset
-   Offset for planar brushes (Clay, Fill, Flatten, Scrape),
-   shifts the plane that is found by averaging the faces above or below.
-Trim
-   Ability to limit the distance that planar brushes act.
-   If trim is enabled vertices that are further away from the offset plane than
-   the trim distance are ignored during sculpting.
+
+Original Normal
+   When locked it keeps using the normal of the surface where stroke was initiated,
+   instead of the surface normal currently under the cursor.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
 2D Falloff
    This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
    It can be used along the outline of a mesh to adjust its silhouette.
-Add/Subtract :kbd:`Ctrl`
-   Brush direction toggle. :kbd:`Ctrl` pressed while sculpting.
-Accumulate
-   Causes stroke dabs to accumulate on top of each other.
 
 
 Symmetry Panel
