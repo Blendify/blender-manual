@@ -75,7 +75,7 @@ Contact Shadows
 
 This type of shadow exists to fix light leaking caused by bias or shadow map undersampling.
 It uses the depth buffer to find occluders (just like Screen Space Reflections).
-However, just like Screen Space Reflections it suffers from the same limitations,
+However, just like Screen Space Reflections it has the same limitations,
 namely, unknown object thickness and effect disappearing at screen edges.
 
 .. tip::

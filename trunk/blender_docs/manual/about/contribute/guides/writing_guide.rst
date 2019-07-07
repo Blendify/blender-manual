@@ -37,7 +37,8 @@ please keep this page in mind and only deviate from it when you have a good reas
 Rules of thumb:
 
 - Spell checking is *strongly* recommended.
-- Use American English (e.g: modeling and not modelling, color and not colour).
+- Use American English (e.g: modeling and not modelling, color and not colour)
+  also for formatting numbers (e.g: 2,718.28 and not 2 718,28).
 - Take care about grammar, appropriate wording and use simple English.
 - Keep sentences short and clear, resulting in text that is easy to read, objective and to the point.
 - Including why or how an option might be useful is a good idea.

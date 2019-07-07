@@ -78,7 +78,7 @@ on a shared layer (particles, soft bodies, and cloth).
 .. note::
 
    The object's shape deforms the cloth,
-   so the cloth simulation must know the "true" shape of that mesh object at that frame.
+   so the cloth simulation must be inputted the "true" shape of that mesh object at that frame.
    This true shape is the basis shape as modified by shape keys or armatures. Therefore,
    the Collision Modifier must be **after** any of those.
    The image to the right shows the *Modifiers* panel for the Character mesh object

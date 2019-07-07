@@ -194,9 +194,8 @@ Calculation Type
 
 Ball Size
    Fraction of the length of attached edges.
-   The edge length is computed based on the algorithm you choose.
-   You know how when someone stands too close to you, and feel uncomfortable?
-   We call that our "personal space", and this setting is the factor that is multiplied by the spring length.
+   The edge length is computed based on the choosen algorithm.
+   This setting is the factor that is multiplied by the spring length.
    It is a spherical distance (radius) within which, if another vertex of the same mesh enters,
    the vertex starts to deflect in order to avoid a self-collision.
    Set this value to the fractional distance between vertices that you want them to have their own "space".

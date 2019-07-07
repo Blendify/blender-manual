@@ -6,11 +6,11 @@ Properties
 Metadata
 ========
 
-List of  metadata of displayed image.
+A list of metadata of the displayed image.
 
 .. note::
 
-   Metadata will only be displayed for image, that has not been processed by any effect.
+   The metadata will only be displayed for the image, that has not been processed by any effect.
    By default images are processed by alpha over blending.
 
 
@@ -21,10 +21,10 @@ It allows you to control how the images of :doc:`Scene Strips </sequencer/sequen
 are displayed in the preview.
 
 Preview Shading
-   Method for rendering the viewport.
-   See the 3D View's :ref:`view3d-viewport-shading` options.
+   Method for rendering in the viewport.
+   See the 3D Viewport's :ref:`view3d-viewport-shading` options.
 Override Scene Settings
-   Use workbench render settings from the sequencer scene, instead of each individual scene used in the strip
+   Use the Workbench render settings from the sequencer scene, instead of each individual scene used in the strip.
 
 
 View Settings

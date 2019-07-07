@@ -18,8 +18,8 @@ Backface Culling hides the back side of faces in the final render.
 Blend Mode
 ==========
 
-After calculating the color of a surface, Eevee needs to know how to add it to the color buffer.
-Depending on the blend mode the final color will be different.
+After calculating the color of a surface, the blend mode defines how it is added to the color buffer.
+Depending on this the final color will be different.
 
 .. note::
 

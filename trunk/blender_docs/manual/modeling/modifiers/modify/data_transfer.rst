@@ -114,8 +114,9 @@ if the source data selection is modified.
 Geometry Mapping
 ----------------
 
-Geometry mapping is the process by which a given destination vertex/edge/... knows **which part** of the source mesh
-to get its data from. It is crucial to understand this topic well to get good results with this modifier.
+Geometry mapping is how a given destination mesh relates to a source mesh.
+In this process a destination vertex/edge/... gets a part of the source mesh assigned with functions as its data source.
+It is crucial to understand this topic well to get good results with this modifier.
 
 Topology
    The simplest option, expects both meshes to have identical number of items, and match them by order (indices).

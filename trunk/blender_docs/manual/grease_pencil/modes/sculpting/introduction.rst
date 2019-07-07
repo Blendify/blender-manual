@@ -11,7 +11,7 @@ but Sculpt Mode uses a very different workflow:
 instead of dealing with individual elements (points and edit lines),
 an area of the model is altered using a brush.
 In other words, instead of selecting a group of points,
-Sculpt Mode manipulates teh drawing in the brush region of influence.
+Sculpt Mode manipulates the drawing in the brush region of influence.
 
 
 Sculpt Mode
@@ -24,8 +24,9 @@ Sculpt Mode
 
 Sculpt Mode is selected from the mode menu of the 3D View header.
 Once Sculpt Mode is activated, the Tool Shelf of the 3D View will change to
-Sculpt Mode specific panels. 
+Sculpt Mode specific panels.
 A red circle will appear and follow the location of the cursor in the 3D View.
+
 
 Keyboard Shortcuts
 ==================

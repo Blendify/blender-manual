@@ -26,25 +26,25 @@ Grease Pencil sculpt tools:
       Select geometry by drawing a lasso.
 
 Smooth
-   Eliminates irregularities in the area of the drawing 
+   Eliminates irregularities in the area of the drawing
    within the brush’s influence by smoothing the positions of the points.
 
 Thickness
-   Increase or decrease the points thickness in the area of the drawing 
+   Increase or decrease the points thickness in the area of the drawing
    within the brush’s influence.
 
 Strength
-   Increase or decrease the points transparency (alpha) in the area of the drawing 
+   Increase or decrease the points transparency (alpha) in the area of the drawing
    within the brush’s influence.
 
 Randomize
-   Add noise to the strokes in the area of the drawing 
+   Add noise to the strokes in the area of the drawing
    within the brush’s influence by moving points location in a random way.
 
 Grab
    Used to drag a group of points around. Unlike the other brushes,
-   Grab does not modify different points as the brush is dragged across the model. 
-   Instead, Grab selects a group of points on mouse-down, and pulls them to follow the mouse. 
+   Grab does not modify different points as the brush is dragged across the model.
+   Instead, Grab selects a group of points on mouse-down, and pulls them to follow the mouse.
    The effect is similar to moving a group of points in Edit Mode with Proportional Editing enabled.
 
 Push
@@ -54,7 +54,7 @@ Twist
    Twist the points in counter-clockwise (CCW) or Clockwise (CW) rotation.
 
 Pinch
-   Pulls points towards the center of the brush. 
+   Pulls points towards the center of the brush.
    The inverse setting is Magnify, in which points are pushed away from the center of the brush.
 
 Clone
