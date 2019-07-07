@@ -5,12 +5,21 @@
 Sampling
 ********
 
+EEVEE uses a process called Temporal Anti Aliasing (TAA) which reduces :term:`aliasing`.
+TAA is sample based so the more samples the more aliasing is reduced at the cost of performance.
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Panel:     :menuselection:`Render --> Sampling`
+
 Viewport
-   TODO2.8.
+   The number of samples to use in the 3D Viewport.
+   Setting this to zero will use continuously resample the viewport.
 Render
-   TODO2.8.
+   The number of samples to use in the final render.
 
 .. _bpy.types.SceneEEVEE.use_taa_reprojection:
 
 Viewport Denoising
-   TODO2.8.
+   Reduces noise while moving the viewport or during animation playback.
