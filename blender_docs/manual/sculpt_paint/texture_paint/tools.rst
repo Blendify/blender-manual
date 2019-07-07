@@ -150,10 +150,10 @@ Color
    The color of the brush. See :ref:`ui-color-picker`.
 
    Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
-   Hold :kbd:`Ctrl` to paint with background color.
+   Hold :kbd:`Ctrl` to paint with the secondary color.
 
    Flip (cycle icon) :kbd:`X`
-      Swaps the foreground and background color.
+      Swaps the primary and secondary colors.
 Radius
    The radius of the brush in pixels.
 Strength

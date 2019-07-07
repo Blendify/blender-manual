@@ -24,7 +24,7 @@ Color
    the brush color.
 
    Flip (cycle icon) :kbd:`X`
-      Swaps the foreground and background color.
+      Swaps the primary and secondary colors.
 
    .. note::
 
