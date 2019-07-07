@@ -430,41 +430,6 @@ Limit
    Maximum number of weights allowed on each vertex.
 
 
-Weight Gradient
-===============
-
-.. figure:: /images/sculpt-paint_weight-paint_weight-tools_gradient.png
-
-   Example of the Gradient tool being used with selected vertices.
-
-This is an interactive tool for applying a linear/radial weight gradient;
-this is useful at times when painting gradual changes in weight becomes difficult.
-
-The Gradient tool can be accessed from the Tool Shelf or as a key shortcut:
-
-- Linear: :kbd:`Alt-LMB` and drag.
-- Radial: :kbd:`Ctrl-Alt-LMB` and drag.
-
-The following weight paint options are used to control the gradient:
-
-Weight
-   The gradient starts at the current selected weight value, blending out to nothing.
-Strength
-   Lower values can be used so the gradient mixes in with the existing weights (just like with the brush).
-Curve
-   The brush falloff curve applies to the gradient too, so you can use this to adjust the blending.
-
-Blends the weights of selected vertices with unselected vertices.
-
-
-Options
--------
-
-Type
-   - Linear
-   - Radial
-
-
 Assign
 ======
 
