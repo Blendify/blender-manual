@@ -4,7 +4,7 @@
 Depth of Field
 **************
 
-Depth of field is done as a post-process effect in EEVEE.
+Depth of field is done as a post-process effect in Eevee.
 The depth of field effect can be controlled in the :doc:`camera settings </render/cameras>`.
 
 .. note::

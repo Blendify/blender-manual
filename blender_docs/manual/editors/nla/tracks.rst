@@ -70,9 +70,8 @@ When creating a new action, if the existing action only has a single user (i.e. 
 it will get "stashed" in the NLA stack. Action Stashing should prevent most cases actions getting lost.
 
 The action "stashing" method works by storing otherwise unused/dormant actions in the NLA stack
-as strips in special muted NLA Tracks. This way, Blender can "know" that the action is related
-to a particular data-block (i.e. to a specific object, or to a specific material/light/etc.) and
-that you still want to keep it for later use.
+as strips in special muted NLA tracks. This way, the action is linked up to a particular data-block
+(i.e. to a specific object, or to a specific material/light/etc.) and will be preserved for later use.
 
 
 Deleting & Converting

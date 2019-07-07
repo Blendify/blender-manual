@@ -79,7 +79,7 @@ Show only on keyframed
 
 
 Specials
-------------------------
+--------
 
 Duplicate Layer
    Makes an exact copy of the selected layer appending a number to differentiate its name.

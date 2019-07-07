@@ -26,7 +26,7 @@ Brush
    Circle tool uses *Draw Brushes* types.
 
 Material
-   Data-Block selector for the material.
+   Data-block selector for the material.
 
    Pin Material (pin icon)
       Pin the material to the brush.

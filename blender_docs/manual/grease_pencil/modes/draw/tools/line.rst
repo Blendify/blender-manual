@@ -16,17 +16,17 @@ The Line tool create straight lines.
 Usage
 =====
 
-Selecting Brush and Material
-----------------------------
+Selecting a Brush and Material
+------------------------------
 
 In the Topbar select the brush and material to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   Line tool uses *Draw Brushes* types.   
+   Line tool uses *Draw Brushes* types.
 
 Material
-   Data-Block selector for the material.
+   Data-block selector for the material.
 
    Pin Material (pin icon)
       Pin the material to the brush.
@@ -34,14 +34,15 @@ Material
       The final appearance of the strokes is a combination of the brush and material used,
       binding the material to the brush gives more control and avoids a lack of coordination between the two.
 
-For more information about brushes and materials see: :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
+For more information about brushes and materials see:
+:doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
 and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
 Common Brush Options
 ---------------------
 
-You can configure the brush main settings exposed on the topbar for convenience.
+You can configure the brush main settings exposed on the Topbar for convenience.
 For complete draw brushes configuration and settings see:
 :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`.
 
@@ -84,7 +85,7 @@ Thickness Profile
           :width: 200px
 
 
-Creating lines
+Creating Lines
 ---------------
 
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.

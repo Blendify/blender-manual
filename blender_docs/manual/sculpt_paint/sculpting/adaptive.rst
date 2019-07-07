@@ -86,7 +86,8 @@ Topology Rake
 
 *Topology Rake* automatically aligns edges to the brush direction to generate cleaner topology
 and define sharp features.
-Best used on low-poly meshes as it has a performance impact
+Best used on low-poly meshes as it has a performance impact.
+
 
 Multiresolution Modifier
 ========================

@@ -7,7 +7,7 @@ Indirect Lighting
 
 While not strictly correct, all lighting that is not coming straight out
 from a light object is considered as indirect lighting in Eevee.
-That means distant HDRI lighting (or World) is considered as indirect lighting.
+That means distant :term:`HDRI` lighting (or World) is considered as indirect lighting.
 Mesh objects using an Emission node are also considered as indirect lighting.
 
 In Eevee, indirect lighting is separated into two component: Diffuse and Specular.
@@ -23,7 +23,7 @@ Only view independent lighting can be baked. This is why Reflection Planes are n
 The visibility and collections used during the baking process are the ones in the current Active View Layer.
 
 To enable light bounces through large environments, the light baking process can be run multiple times
-while injecting previous bake result into the bake.
+while injecting the previous bake result into the bake.
 
 Light bounces only concerns diffuse lighting.
 
