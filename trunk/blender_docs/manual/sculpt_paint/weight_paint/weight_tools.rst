@@ -14,13 +14,11 @@ Weight Menu
 
    Weight Paint Tools.
 
-Blender provides a set of helper tools for Weight Painting. The tools are
-accessible from the Tool Shelf in Weight Paint Mode. And they are located in the
-Weight Tools panel.
+Blender provides a set of helper tools for Weight Painting.
 
+.. _bpy.ops.object.vertex_group_levels:
 
-The Subset Option
-=================
+.. rubric:: The Subset Option
 
 Some of the tools also provide a Subset filter to restrict their functionality to only specific vertex groups
 (in the :ref:`ui-undo-redo-adjust-last-operation` panel, displayed after the tool is called)
@@ -35,16 +33,25 @@ All tools also work with Vertex Selection Masking and Face Selection Masking.
 In these modes the tools operate only on selected vertices or faces.
 
 
+Assign from Bone Envelopes
+==========================
+
+Apply the envelope weight of the selected bone(s) to the selected vertex group.
+
+
+Assign Automatic from Bone
+==========================
+
+Apply from the selected bone(s) to the vertex group the same "auto-weighting"
+methods as available in the Parent armature menu.
+
+
 Normalize All
 =============
 
 For each vertex, this tool makes sure that the sum of the weights across
 all Vertex Groups is equal to 1. This tool normalizes all of the vertex groups,
 except for locked groups, which keep their weight values untouched.
-
-
-Options
--------
 
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_normalize.png
    :align: right
@@ -77,10 +84,6 @@ The mirror only takes place within the selected Vertex Group.
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_mirror-example.png
 
    Mirror example.
-
-
-Options
--------
 
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_mirror.png
    :align: right
@@ -127,17 +130,13 @@ Examples:
 
    Invert.
 
-
-Options
--------
-
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_invert.png
    :align: right
 
    Invert options.
 
 Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ about how subsets are defined.
+   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` about how subsets are defined.
 Add Weights
    Add vertices that have no weight before inverting (these weights will all be set to 1.0).
 Remove Weights
@@ -164,18 +163,13 @@ so that unreferenced Weights are shown in Black.
 
    Clean example.
 
-
-Options
--------
-
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_clean.png
    :align: right
 
    Clean options.
 
 Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets
-   are defined.
+   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Limit
    This is the minimum weight value that will be kept in the Group. Weights
    below this value will be removed from the group.
@@ -196,10 +190,6 @@ so there is no longer a smooth gradient between values.
 
    Quantize example (Steps = 2).
 
-
-Options
--------
-
 Steps
    The number of steps between 0 and 1 to quantize the weights into.
    For example 5 would allow the following weights ``[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]``.
@@ -219,17 +209,13 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 
    Levels example.
 
-
-Options
--------
-
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_levels.png
    :align: right
 
    Levels options.
 
 Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
+   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Offset
    A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
@@ -305,10 +291,6 @@ and it will be used for blending the left side to the right side of the area.
 - Thus when the *Factor* is set to 1.0 then the edge loop turns to
   green and finally does blend the cold side (right) to the hot side (left).
 
-
-Options
--------
-
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_smooth.png
    :align: right
 
@@ -332,32 +314,6 @@ Source
       Smoothing will only smooth with selected vertices.
    Only Deselected
       Smoothing will only smooth with deselected vertices.
-
-
-Fix Deforms
-===========
-
-The *Fix deforms* tool is used to modify an object's nonzero weights so its deformed
-vertices are at a new defined distance. This is helpful to fix deformations
-because when complex models are deformed to their extreme poses,
-they are often visibly bumpy, jagged, or otherwise incorrectly deformed.
-Using this tool, you can smooth over the deformation.
-
-To use the tool, select the vertices that you would like to move,
-either in Edit Mode or by using the vertex selection/mask.
-The operator can now be used and altered with these options:
-
-Distance
-   The distance to move to.
-Strength
-   The distance moved can be changed by this factor.
-Accuracy
-   Changes the amount weights are altered with each iteration: lower values are slower.
-
-.. note::
-
-   Note that if it does not change, then there are no nonzero bone weights
-   that are changed to make it closer to the intended distance.
 
 
 Transfer Weights
@@ -420,21 +376,33 @@ The tool removes lowest weights first until the limit is reached.
 
    The tool can only work reasonably when more than one weight group is selected.
 
-
-Options
--------
-
 Subset
-   Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
+   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Limit
    Maximum number of weights allowed on each vertex.
 
 
-Assign
-======
+Fix Deforms
+===========
 
-Assign from Bone Envelopes
-   Apply the envelope weight of the selected bone(s) to the selected vertex group.
-Assign Automatic from Bone
-   Apply from the selected bone(s) to the vertex group the same "auto-weighting"
-   methods as available in the Parent armature menu.
+The *Fix deforms* tool is used to modify an object's nonzero weights so its deformed
+vertices are at a new defined distance. This is helpful to fix deformations
+because when complex models are deformed to their extreme poses,
+they are often visibly bumpy, jagged, or otherwise incorrectly deformed.
+Using this tool, you can smooth over the deformation.
+
+To use the tool, select the vertices that you would like to move,
+either in Edit Mode or by using the vertex selection/mask.
+The operator can now be used and altered with these options:
+
+Distance
+   The distance to move to.
+Strength
+   The distance moved can be changed by this factor.
+Accuracy
+   Changes the amount weights are altered with each iteration: lower values are slower.
+
+.. note::
+
+   Note that if it does not change, then there are no nonzero bone weights
+   that are changed to make it closer to the intended distance.
