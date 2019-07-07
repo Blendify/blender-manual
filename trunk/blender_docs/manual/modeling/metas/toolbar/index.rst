@@ -10,4 +10,4 @@ Metaball edit mode tools:
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
 
-TODO2.8: list tools, see edit-mesh as an example.
+There are no Meta-specific editing tools currently.
