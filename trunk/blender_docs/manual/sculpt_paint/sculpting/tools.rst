@@ -58,6 +58,8 @@ Direction :kbd:`Ctrl`
    *Subtract* lowers geometry away from the brush. This setting can be toggled with :kbd:`Ctrl` while sculpting.
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
+Topology
+   See :ref:`Dyntopo <bpy.types.Brush.topology_rake_factor>`.
 Normal Weight :kbd:`Ctrl`
    Constrains brush movement along the surface normal.
    Especially useful with the *Grab* brush, can be temporarily enabled by holding :kbd:`Ctrl`.
