@@ -84,9 +84,11 @@ Topology Rake
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Sidebar --> Tool --> Brush --> Topology Rake`
 
-*Topology Rake* automatically aligns edges to the brush direction to generate cleaner topology
-and define sharp features.
-Best used on low-poly meshes as it has a performance impact.
+*Topology Rake* automatically aligns mesh edges to the brush direction
+to generate cleaner topology and define sharp features.
+*Topology Rake* can have a severe performance impact so it works best on low-poly meshes.
+
+.. figure:: /images/sculpt-paint_sculpting_adaptive_topology-rake.png
 
 
 Multiresolution Modifier
