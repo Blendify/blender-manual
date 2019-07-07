@@ -1,9 +1,9 @@
 .. _bpy.ops.scene.light_cache:
 .. _bpy.types.SceneEEVEE.gi:
 
-***********************
-Indirect Lighting Cache
-***********************
+*****************
+Indirect Lighting
+*****************
 
 While not strictly correct, all lighting that is not coming straight out
 from a light object is considered as indirect lighting in Eevee.
@@ -22,19 +22,11 @@ Only view independent lighting can be baked. This is why Reflection Planes are n
 
 The visibility and collections used during the baking process are the ones in the current Active View Layer.
 
-
-Light Bounce
-============
-
-To enable light bounces through large environment, the light baking process can be run multiple times
+To enable light bounces through large environments, the light baking process can be run multiple times
 while injecting previous bake result into the bake.
-Total baking time is more or less multiplied by the number of bounce.
 
 Light bounces only concerns diffuse lighting.
 
-
-Indirect Lighting
-=================
 
 .. admonition:: Reference
    :class: refbox
@@ -46,11 +38,12 @@ Auto Bake
 
 Diffuse Bounces
    Number of bounces to compute when baking the diffuse irradiance.
+   Total baking time is more or less multiplied by the number of bounce.
 
 Cubemap Size
    Size of the reflection cubemaps.
 
-Diffuse Occlusion Size
+Diffuse Occlusion
    Each irradiance sample also stores a shadow map that is used to minimize indirect light leaking.
    This parameter defines the size of this shadow map.
 
@@ -65,13 +58,17 @@ Clamp Glossy
 Filter Quality
    Takes more samples during cubemap filtering to remove artifacts. For now, only has an effect on cubemaps.
 
-Cubemap Display
+
+Display
+=======
+
+Cubemap Size
    Display the Reflection Cubemaps present in the cache directly in the 3D View.
 
-Irradiance Display
+Irradiance Size
    Display the Irradiance Samples present in the cache in the 3D View.
 
 .. note::
 
-   Cache data display only works in the viewport and
+   Cache data display only works in the 3D Viewport and
    only if the viewport uses world lighting in LookDev mode or is in Render Preview mode.

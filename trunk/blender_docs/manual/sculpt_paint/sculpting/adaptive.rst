@@ -73,6 +73,21 @@ Symmetrize
    it may happen that the model goes asymmetric, so this a good tool for that.
 
 
+.. _bpy.types.Brush.topology_rake_factor:
+
+Topology Rake
+-------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Sculpt Mode
+   :Panel:     :menuselection:`Sidebar --> Tool --> Brush --> Topology Rake`
+
+*Topology Rake* automatically aligns edges to the brush direction to generate cleaner topology
+and define sharp features.
+Best used on low-poly meshes as it has a performance impact
+
 Multiresolution Modifier
 ========================
 

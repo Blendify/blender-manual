@@ -4,17 +4,17 @@
 Depth of Field
 **************
 
-Depth of field is done as a post-process in Eevee.
-
-The depth of field effect is using the same :doc:`camera </render/cameras>` settings as Cycles.
+Depth of field is done as a post-process effect in EEVEE.
+The depth of field effect can be controlled in the :doc:`camera settings </render/cameras>`.
 
 .. note::
 
-   Depth of Field only works in Camera View.
+   In the 3D Viewport, depth of field only works while in Camera View.
 
+.. note::
 
-Settings
-========
+   Because of performance considerations, the viewport can exhibit color artifacts when using large bokeh sizes.
+   These artifacts are not present in the final render.
 
 .. admonition:: Reference
    :class: refbox
@@ -23,8 +23,3 @@ Settings
 
 Max Size
    Max size of the bokeh shape for the depth of field (lower is faster).
-
-   .. note::
-
-      Because of performance considerations, the viewport can exhibit color artifacts when using large bokeh sizes.
-      These artifacts are not present in the final render.

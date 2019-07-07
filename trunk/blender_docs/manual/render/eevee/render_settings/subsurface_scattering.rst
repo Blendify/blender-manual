@@ -26,13 +26,12 @@ Separate Albedo
    The *Texture Blur* parameter requires this option to be enabled to work correctly.
    This option increases video memory usage but does not have a big impact on performance.
 
+.. note::
 
-Subsurface Translucency
-=======================
+   :ref:`Subsurface Translucency <bpy.types.Material.use_sss_translucency>`
+   needs to be enabled in order to make the light go through an object
+   (like simulating a human ear lit from behind).
 
-The Subsurface Translucency option needs to be enabled in order to make the light go through an object
-(like simulating a human ear lit from behind).
-
-This option only works with shadowed light and does not work with indirect lighting.
+   This option only works with shadowed light and does not work with indirect lighting.
 
 .. seealso:: :ref:`Limitations <eevee-limitations-sss>`.

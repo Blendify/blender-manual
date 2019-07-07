@@ -137,6 +137,8 @@ Refraction Depth
    This option greatly increases the quality of thin glass objects.
 
 
+.. _bpy.types.Material.use_sss_translucency:
+
 Subsurface Translucency
 =======================
 

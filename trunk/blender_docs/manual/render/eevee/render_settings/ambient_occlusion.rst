@@ -11,7 +11,7 @@ Ambient occlusion can be rendered as a separate pass in the Render Layers panel.
 
 .. note::
 
-   This effect needs to be enabled for the Ambient Occlusion shader node to work.
+   This effect needs to be enabled for the :doc:`Ambient Occlusion </render/shader_nodes/input/ao> node to work.
 
 .. admonition:: Reference
    :class: refbox

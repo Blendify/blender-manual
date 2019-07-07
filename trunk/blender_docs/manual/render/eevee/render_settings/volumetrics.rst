@@ -9,7 +9,7 @@ Eevee simulate volumetric scattering by evaluating all volume objects inside the
 For this it uses several 3D texture which have a high video memory usage.
 The texture dimensions can be tweaked using the *Tile Size* and *Samples* parameters.
 
-Object volumes have some limitations (link).
+Object volumes have some limitations (link TODO2.8).
 
 .. admonition:: Reference
    :class: refbox
