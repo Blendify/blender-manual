@@ -9,19 +9,6 @@ Options
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Tool Shelf --> Options`
 
-See the :ref:`Display <sculpt-paint-brush-display>` options.
-
-
-Options Panel
-=============
-
-Gravity
-   Factor
-      Setting the factor allows you to add gravity to your brush strokes,
-      giving it a draping effect.
-   Orientation
-      Using another object, the gravity can be oriented to the set object's local Z axis,
-      changing the direction of the gravity.
 Threaded Sculpt
    Takes advantage of multiple CPU processors to improve the sculpting performance.
 Fast Navigation
@@ -35,10 +22,28 @@ Show Diffuse Color
 Show Mask
    The option to hide mask in the viewport.
    Brushes themselves are still affected by the mask, but the viewport will not display the mask.
-Unified Settings
+
+.. seealso::
+
+   See the :ref:`Display <sculpt-paint-brush-display>` options.
+
+Unified Brush
+=============
+
    Size
       Forces the brush size to be shared across brushes.
    Strength
       Forces the brush strength to be shared across brushes.
    Color
       Not used in Sculpt Mode.
+
+
+Gravity
+=======
+
+Factor
+   Setting the factor allows you to add gravity to your brush strokes,
+   giving it a draping effect.
+Orientation
+   Using another object, the gravity can be oriented to the set object's local Z axis,
+   changing the direction of the gravity.
