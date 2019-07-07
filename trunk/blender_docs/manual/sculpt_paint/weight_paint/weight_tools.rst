@@ -456,10 +456,6 @@ Curve
 
 Blends the weights of selected vertices with unselected vertices.
 
-.. hint::
-
-   This tool only works in vertex select mode.
-
 
 Options
 -------
