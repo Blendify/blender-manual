@@ -12,4 +12,5 @@
    introduction.rst
    toolbar/index.rst
    tools.rst
+   editing.rst
    options.rst
