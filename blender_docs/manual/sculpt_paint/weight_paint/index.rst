@@ -8,9 +8,8 @@
    :maxdepth: 2
 
    introduction.rst
-   toolbar/index.rst
-   usage.rst
    tools.rst
+   tool_settings/index.rst
+   usage.rst
    editing.rst
-   options.rst
    hide_mask.rst
