@@ -5,7 +5,7 @@
 Sampling
 ********
 
-EEVEE uses a process called Temporal Anti Aliasing (TAA) which reduces :term:`aliasing`.
+Eevee uses a process called Temporal Anti Aliasing (TAA) which reduces :term:`aliasing`.
 TAA is sample based so the more samples the more aliasing is reduced at the cost of performance.
 
 .. admonition:: Reference

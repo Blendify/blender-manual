@@ -16,10 +16,6 @@ The motion blur is really basic and just blurs the render results based on pixel
 
    Motion blur only works within the Camera View.
 
-
-Settings
-========
-
 .. admonition:: Reference
    :class: refbox
 

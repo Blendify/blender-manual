@@ -1,3 +1,4 @@
+.. _bpy.types.SceneEEVEE.shadow:
 
 *******
 Shadows
@@ -7,12 +8,6 @@ Eevee uses Shadow Mapping techniques to properly shadow the light coming directl
 
 A shadow map is a texture that stores the nearest occluder from the light position.
 Eevee also filters the shadow maps in order to smooth out the pixelated appearance.
-
-
-.. _bpy.types.SceneEEVEE.shadow:
-
-Global Settings
-===============
 
 .. admonition:: Reference
    :class: refbox
