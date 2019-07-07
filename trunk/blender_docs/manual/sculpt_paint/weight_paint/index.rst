@@ -11,6 +11,6 @@
    toolbar/index.rst
    usage.rst
    tools.rst
-   weight_tools.rst
+   editing.rst
    options.rst
    hide_mask.rst
