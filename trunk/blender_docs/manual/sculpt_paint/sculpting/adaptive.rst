@@ -3,20 +3,30 @@
 Adaptive Sculpting
 ******************
 
+In order for sculpting to give accurate and predictable results, Blender needs geometry to work with.
+One way to accomplish this is starting off with a highly subdivided mesh.
+The other way involves using either of two adaptive sculpting methods to add geomtry dynamically.
+
+
 Dynamic Topology
 ================
 
-Dynamic topology (aka dyntopo) is a dynamic tessellation sculpting method,
-adds and removes details on-the-fly, whereas regular sculpting only affects the shape of a mesh.
+Dynamic topology (aka dyntopo) is a dynamic tessellation
+sculpting method that adds and removes details under the brush.
+This works by first tessellating the mesh then applying the sculpting stroke on top of the tessellated mesh.
 
 This makes it possible to sculpt complex shapes out of a simple mesh,
 rather than just adding details onto a modeled base mesh.
+
+.. seealso::
+
+   Dynamic Topology can be enabled in the :doc:`Dyntopo panel </sculpt_paint/sculpting/tool_settings/dyntopo>`.
 
 
 Multiresolution Modifier
 ========================
 
-The Multiresolution Modifier is can be used to sculpt. The modifier will subdivide the mesh.
+The Multiresolution Modifier can be used to dynamically subdivide the mesh.
 The more subdivision the more computing will be needed. With the Blender stack
 non-destructive data, multi-resolution sculpting will help when you have a clean topology base mesh.
 
