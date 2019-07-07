@@ -2,7 +2,6 @@
 .. _bpy.types.ImagePaint.dither:
 .. _bpy.types.ImagePaint.use_occlude:
 
-
 *******
 Options
 *******
