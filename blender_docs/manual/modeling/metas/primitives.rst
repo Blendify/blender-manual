@@ -6,7 +6,7 @@ Primitives
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Object Mode and Edit Mode
+   :Mode:      Object and Edit
    :Panel:     :menuselection:`Tool Shelf --> Create --> Add Primitive/Metaball`
    :Menu:      :menuselection:`Add --> Meta`
    :Hotkey:    :kbd:`Shift-A`
@@ -26,7 +26,7 @@ Options
 Primitive
    Meta Ball
       Adds a meta with a point underlying structure.
-   Meta Tube
+   Meta Capsule
       Adds a meta with a line segment underlying structure.
    Meta Plane
       Adds a meta with a planar underlying structure.
@@ -35,5 +35,9 @@ Primitive
    Meta Cube
       Adds a meta with a volumetric cubic underlying structure.
 
+   .. seealso::
+
+      A more detailed explanation of each primitive in the :doc:`Structure</modeling/metas/structure>` page.
+
 Radius, Align to View, Location, Rotation
-   See :ref:`Common Object Options <object-common-options>`.
+   See :ref:`Common Object Options<object-common-options>`.
