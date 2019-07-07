@@ -1,7 +1,7 @@
 
-***********
-Weight Menu
-***********
+***************
+Editing Weights
+***************
 
 .. admonition:: Reference
    :class: refbox
