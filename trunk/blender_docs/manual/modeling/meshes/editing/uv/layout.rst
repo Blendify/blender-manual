@@ -44,7 +44,7 @@ Also, holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 
 
 .. _bpy.types.SpaceUVEditor.use_live_unwrap:
-.. _bpy.types.SpaceUVEditor.use_snap_to_pixels:
+.. _bpy.types.SpaceUVEditor.pixel_snap_mode:
 .. _bpy.types.SpaceUVEditor.lock_bounds:
 
 UV Options
@@ -54,13 +54,17 @@ UV Options
    :class: refbox
 
    :Mode:      View Mode and Mask Mode
-   :Panel:     :menuselection:`Tool Shelf --> Options --> UV Options`
    :Menu:      :menuselection:`UVs`
 
 Live Unwrap
    Continuously unwraps the selected UV islands while transforming pinned vertices.
-Snap to pixel
-   Will force the UVs to snap to the nearest pixels of an image if loaded.
+Snap to Pixels
+   Disabled
+      UVs will not be snapped.
+   Corner
+      Will force the UVs to snap to the corners of the nearest pixels of an image if loaded.
+   Center
+      Will force the UVs to snap to the center of the nearest pixels of an image if loaded.
 Constraining to Image Bounds
    Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside the 0 to 1 UV range.
 

@@ -122,5 +122,7 @@ especially as the :doc:`constraint stack </animation/constraints/interface/stack
 
 The influence value is animatable, allowing constraints to be turned off, or partially on as needed.
 
+.. _bpy.ops.constraint.disable_keep_transform:
+
 The ``X`` button after the influence slider can be used to disable the constraint while trying to
 preserve the current object position. This may not work perfectly if other constraints remain active.
