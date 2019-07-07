@@ -20,13 +20,14 @@ Vertices
 The most elementary part of a mesh is the vertex which is a single point or position in 3D space.
 The vertices (the plural form of vertex) are stored in an array of coordinates.
 
-It is usually invisible in rendering and in *Object Mode*.
-Do not mistake the :doc:`Origin Point </scene_layout/object/origin>` of an object for a vertex.
-It looks similar, but it is bigger and you cannot select it.
+.. tip::
 
-.. figure:: /images/modeling_meshes_structure_cube-example.png
+   Do not mistake the :doc:`Origin Point </scene_layout/object/origin>` of an object for a vertex.
+   It looks similar, but it is bigger and you cannot select it.
 
-   The vertex is labeled as "A", and "B" is object origin.
+   .. figure:: /images/modeling_meshes_structure_cube-example.png
+
+      The vertex is labeled as "A"; the object's Origin Point is labeled as "B".
 
 
 Edges
