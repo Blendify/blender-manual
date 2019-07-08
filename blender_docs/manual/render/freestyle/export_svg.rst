@@ -60,7 +60,7 @@ Exportable Properties
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> Render Layers --> Freestyle Line Style SVG Export`
+   :Panel:     :menuselection:`Properties editor --> View Layers --> Freestyle Line Style SVG Export`
 
 Because the representation of Freestyle strokes and SVG path objects is fundamentally different, a one-on-one
 translation between Freestyle and SVG is not possible. The main shortcoming of SVG compared to Freestyle is that
@@ -68,7 +68,7 @@ Freestyle defines style per-point, where SVG defines it per-path. This means tha
 complex results that are impossible to achieve in SVG.
 
 There are extended options for the exporter,
-located at the specific panels of the Freestyle renderer at the Render Layers tab of the Properties editor.
+located at the specific panels of the Freestyle renderer at the View Layers tab of the Properties editor.
 Those options are located at the Freestyle Line Style SVG Export panel, at the bottom of the tab.
 
 The properties (no modifiers applied) that can be exported are:

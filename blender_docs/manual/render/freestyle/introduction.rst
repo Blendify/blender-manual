@@ -50,8 +50,8 @@ The Big Picture
 ===============
 
 - Activate FreeStyle by :menuselection:`Properties Editor --> Render tab --> FreeStyle` panel's checkbox.
-- FreeStyle settings are located in the new *Render Layers* tab.
-- One render layer can only have one view map. A view map holds the edge detection settings
+- FreeStyle settings are located in the new *View Layers* tab.
+- One view layer can only have one view map. A view map holds the edge detection settings
   (Crease Angle, Culling toggle, Face Smoothness toggle, Material Boundaries toggle,
   Sphere Radius and Kr Derivative Epsilon advanced options).
 - A view map can have multiple line sets.
@@ -68,7 +68,7 @@ The Big Picture
 Known Limitations
 =================
 
-- Highly memory demanding: All mesh objects in a render layer are loaded at once.
+- Highly memory demanding: All mesh objects in a view layer are loaded at once.
 - Only faced mesh objects are supported. The following kinds of meshes are ignored:
 
   - Mesh faces with completely transparent materials.

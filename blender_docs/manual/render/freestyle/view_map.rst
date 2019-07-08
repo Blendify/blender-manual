@@ -7,13 +7,13 @@ View Maps
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> Render Layer --> Freestyle`
+   :Panel:     :menuselection:`Properties editor --> View Layer --> Freestyle`
 
 .. figure:: /images/render_freestyle_view-map_freestyle-panel.png
 
    Freestyle panel.
 
-There is only one view map per render layer. It controls the edge detection parameters.
+There is only one view map per view layer. It controls the edge detection parameters.
 
 Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:
@@ -31,12 +31,12 @@ View Map Cache
    when the camera-space mesh geometry is static, as well as for repeated still renders
    with updates of line stylization options.
 
-   Although the ''View map cache'' checkbox is a render layer option,
-   the cache memory is shared by all render layers and scenes.
-   This means that if Freestyle is used for two or more render layers
+   Although the ''View map cache'' checkbox is a view layer option,
+   the cache memory is shared by all view layers and scenes.
+   This means that if Freestyle is used for two or more view layers
    (possibly in different scenes through the compositor),
-   then the cached view map for one render layer is replaced by a new view map
-   for another render layer and hence no performance gain is expected.
+   then the cached view map for one view layer is replaced by a new view map
+   for another view layer and hence no performance gain is expected.
 Face Smoothness
    When enabled, *Smooth Shading* will be taken into account for edges calculation.
 Crease Angle
