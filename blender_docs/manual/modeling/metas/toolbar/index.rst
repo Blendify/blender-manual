@@ -10,4 +10,4 @@ Metaball edit mode tools:
 
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
 
-There are no Meta-specific editing tools currently.
+There are no meta-specific editing tools currently.

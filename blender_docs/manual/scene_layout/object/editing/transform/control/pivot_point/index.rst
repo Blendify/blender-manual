@@ -10,7 +10,7 @@
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Header:    Pivot Point
+   :Header:    :menuselection:`Pivot Point`
 
 .. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_index_modes.png
    :align: right

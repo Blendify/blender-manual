@@ -7,7 +7,7 @@ Drawing Planes
    :class: refbox
 
    :Mode:      Draw Mode and Sculpt Mode
-   :Header:    Drawing Planes
+   :Header:    :menuselection:`Drawing Planes`
 
 Drawing Planes selector helps to select
 the plane in which the newly created strokes are drawn.

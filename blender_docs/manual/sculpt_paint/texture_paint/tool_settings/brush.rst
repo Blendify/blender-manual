@@ -8,7 +8,6 @@ Brush
 
    Brush settings.
 
-
 Color
    The color of the brush. See :ref:`ui-color-picker`.
 

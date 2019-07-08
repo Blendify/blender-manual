@@ -28,8 +28,8 @@ Strength
    Brush strength can be affected by enabling the pressure sensitivity icon,
    if a supported tablet is being used.
 
-Use Fallof
-   When enabled, use Strength fallof for the brush. 
+Use Falloff
+   When enabled, use Strength falloff for the brush.
    Brush Strength decays with the distance from the center of the brush.
 
 Sculpt strokes
@@ -43,20 +43,21 @@ Sculpt strokes
    Affect Position
       Toggles the brush effect over the position of the stroke points.
 
-   Affect Strenght
-      Toggles the brush effect over the strenght (alpha) of the stroke points.
-    
+   Affect Strength
+      Toggles the brush effect over the strength (alpha) of the stroke points.
+
    Affect Thickness
       Toggles the brush effect over the thickness of the stroke points.
 
    Affect Pressure
-      Toggles the brush effect over the preassures values of the stroke points.
+      Toggles the brush effect over the pressure values of the stroke points.
 
    Affect UV
       Toggles the brush effect over the UV rotation of the stroke points.
 
 Direction
-   The influence direction of the brush. This can be Add or Subtract.   
+   The influence direction of the brush. This can be Add or Subtract.
+
 
 Display
 =======
@@ -67,4 +68,4 @@ Show Brush
    Color
       Set the color of the brush ring. Depending on the current mode there will
       be options to set a single Color or a Color for Adding/Subtracting.
-   
+

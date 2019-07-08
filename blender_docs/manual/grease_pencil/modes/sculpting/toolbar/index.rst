@@ -1,10 +1,10 @@
 .. _gpencil_sculpt-toolbar-index:
 
-****************
+***************
 Sculpting Tools
-****************
+***************
 
-For *Grease Pencil* Sculpt modes each brush type is exposed as a tool, 
+For *Grease Pencil* Sculpt modes each brush type is exposed as a tool,
 the brush can be changed from the tool setting.
 See :doc:`Brush </grease_pencil/modes/sculpting/tools/brush>` for more information.
 
@@ -62,5 +62,5 @@ Pinch/Inflate
    The inverse setting is Inflate, in which points are pushed away from the center of the brush.
 
 Clone
-   Adds copies of the strokes in the clipboard in the center of the brush. 
+   Adds copies of the strokes in the clipboard in the center of the brush.
    You have to copy the selected strokes you want into the clipboard with :kbd:`Ctrl-C` before using the tool.

@@ -3,7 +3,7 @@
 Smooth Modifier
 ***************
 
-The *Smooth* Modifier changes the value of one or more stroke/points properties like: 
+The *Smooth* Modifier changes the value of one or more stroke/points properties like:
 location, strength, thickness or UV texture position
 trying to maintain similar values that make the line fluid and smoother.
 

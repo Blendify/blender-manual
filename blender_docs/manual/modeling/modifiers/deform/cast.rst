@@ -7,7 +7,7 @@ Cast Modifier
 The *Cast* modifier shifts the shape of a mesh, curve,
 surface or lattice, towards any of a few predefined shapes (sphere, cylinder, cuboid).
 
-It is equivalent to the :ref:`To Sphere <tool-transform-to_sphere>` tool in *Edit* mode,
+It is equivalent to the :ref:`To Sphere <tool-transform-to_sphere>` tool in Edit Mode,
 and what other programs call "Spherify" or "Spherize", but, as written above,
 it is not limited to casting to a sphere.
 

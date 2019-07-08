@@ -19,13 +19,13 @@ Active Element
 
    Active Element panel.
 
-When in *Edit* mode, the *Active Element* panel appears.
+When in Edit Mode, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
 .. note::
 
    In addition to having several meta objects in a same family,
-   you can also have several meta primitives in a single object (just add some more while in *Edit* mode).
+   you can also have several meta primitives in a single object (just add some more while in Edit Mode).
    Each will be an element, with its own shape, editing rings (in the viewport), and settings...
 
 
@@ -33,14 +33,14 @@ Type
 ----
 
 The *Type* menu lets you change the shape of the meta object.
-See :doc:`Structure</modeling/metas/structure>` for more details.
+See :doc:`Structure </modeling/metas/structure>` for more details.
 
 
 Stiffness
 ---------
 
 Together with *Threshold*, *Stiffness* controls the influencing range.
-While the threshold is common to all metas in the same :ref:`family<meta-ball-object-families>`,
+While the threshold is common to all metas in the same :ref:`family <meta-ball-object-families>`,
 the stiffness is specific to each meta.
 
 Scaling the inner green circle also changes the *Stiffness* value.
@@ -57,7 +57,7 @@ they most likely will not need to. *Stiffness* is materialized by the *green rin
 
 The range is from (0.0 to 10.0). But to be visible,
 the *Stiffness* must be slightly larger than the *Threshold* value.
-You can also visually adjust the *Stiffness* ring by selecting and :ref:`scaling<bpy.ops.transform.resize>` it.
+You can also visually adjust the *Stiffness* ring by selecting and :ref:`scaling <bpy.ops.transform.resize>` it.
 
 .. _fig-meta-edit-stiffness:
 
@@ -108,18 +108,18 @@ If you move the plane away from the sphere, the plane's mesh will restore itself
 Hiding Elements
 ---------------
 
-As in :ref:`object-show-hide` in *Object* mode, you can hide the selected meta(s),
+As in :ref:`object-show-hide` in Object Mode, you can hide the selected meta(s),
 and then reveal what was hidden. This is very handy for cleaning your views up a bit...
 
 .. note::
 
-   Hiding a meta does not *only* hide it, it also disables it from the meta computation,
+   Hiding a meta does not *only* hide it, but also disables it from the meta computation,
    which will affect the final geometry...
 
 .. note::
 
-   The two red and green rings always remain visible in *Edit* mode,
-   as well as the select circle in *Object* Mode.
+   The two red and green rings always remain visible in Edit Mode,
+   as well as the select circle in Object Mode.
 
 
 Deleting Elements
@@ -136,7 +136,7 @@ You can only delete the active element, no fancy options here.
 Conversion
 ==========
 
-To convert the meta to a real mesh, use :ref:`object-convert-to` in *Object* mode.
+To convert the meta to a real mesh, use :ref:`object-convert-to` in Object Mode.
 
 
 .. _meta-ball-object-families:
@@ -147,16 +147,16 @@ Object Families
 A "family" is a way to regroup several meta objects,
 producing something very similar to having several metas inside the same object.
 
-It is defined by the left part of an object's name (the one before the first dot). Remember,
-an object's name is the one in the *Object Name* field, in most panels,
-**not** the *Metaball Name* field, which is the meta data-block's name... For example,
-the *family* part of "MetaPlane.001" is ``MetaPlane``.
+It is defined by the left part of an object's name (the one before the first dot).
+Remember, an object's name is the one in the *Object Name* field, in most panels,
+**not** the *Metaball Name* field, which is the meta data-block's name...
+For example, the *family* part of "MetaPlane.001" is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 
 .. figure:: /images/modeling_metas_editing_family.png
    :width: 450px
 
-   Meta ball family.
+   Metaball family.
 
 Families of metas are controlled by a *base* meta object which is identified by
 an object name **without** a dot in it. For example,
@@ -212,10 +212,10 @@ However, if we transform the children, the polygonalization remains unchanged.
    This discussion of "polygonization" does *not* mean that the various meshes do not deform
    towards or away from each other (meta objects always influence one another in the usual way,
    within a same family).
-   
+
    Rather, it means that the underlying mesh structure changes only when the *base* object transforms.
    For example, if you scale the *base*, the children's mesh structure changes.
-   
+
    In Fig. :ref:`fig-meta-ball-scale`, the *base* has been scaled down,
    which has the effect of scaling the mesh structure of each of the children. As you can see,
    the children's mesh resolution has increased, while the *base* decreased.

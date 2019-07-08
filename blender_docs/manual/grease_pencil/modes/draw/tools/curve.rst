@@ -93,7 +93,7 @@ Creating Curves
 #. After releasing you can tweak the curve using two cyan Bézier like manipulators.
 #. Then confirm (:kbd:`Return`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
 
-While dragging you can use :kbd:`Shift` to use only one manipulator to tweak the curve (like the Arc tool),
+While dragging you can hold :kbd:`Shift` to use only one manipulator to tweak the curve (like the Arc tool),
 use :kbd:`Alt` to create the arc from a center point or :kbd:`M` to flip.
 
 :kbd:`Plus` and :kbd:`Minus` or using the mouse :kbd:`Wheel` will increase or decrease

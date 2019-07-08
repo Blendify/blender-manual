@@ -33,8 +33,8 @@ to one or more objects, and different materials can be assigned to different str
 In *Grease Pencil* the :doc:`brush </grease_pencil/modes/draw/brushes/index>`
 settings together with the material used will define the look and feel of the final strokes.
 
-*Grease Pencil* Materials slots in the :ref:`List view <ui-list-view>` also have some extra controls that help to work
-with materials while drawing or editing lines.
+*Grease Pencil* Materials slots in the :ref:`List view <ui-list-view>` also have some extra controls
+that help to work with materials while drawing or editing lines.
 
 
 Common Settings

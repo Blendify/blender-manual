@@ -7,7 +7,7 @@ Stroke Placement
    :class: refbox
 
    :Mode:      Draw Mode
-   :Header:    Stroke Placement
+   :Header:    :menuselection:`Stroke Placement`
 
 Stroke Placement selector helps to select the location
 in which the newly created strokes are drawn.

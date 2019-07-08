@@ -66,7 +66,7 @@ Size
 Spatial Size
    The width of the ocean surface area being simulated, in meters.
    This also determines the size of the generated mesh, or the displaced area.
-   Of course, you can scale the object with the *Ocean* modifier in *Object* mode
+   Of course, you can scale the object with the *Ocean* modifier in Object Mode
    to tweak the apparent size in your scene.
 
 

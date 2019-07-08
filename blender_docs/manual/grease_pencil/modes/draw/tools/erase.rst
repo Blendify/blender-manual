@@ -24,7 +24,7 @@ On the topbar select the brush to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   Erase tool uses *Erase Brushes* types (soft, point and stroke).   
+   Erase tool uses *Erase Brushes* types (soft, point and stroke).
 
 For more information about erase brushes see: :doc:`Erase Brush </grease_pencil/modes/draw/brushes/erase_brush>`
 
@@ -45,7 +45,7 @@ Radius
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
       Occlude Eraser (Overlapping squares icon)
-         Erase only strokes visible and not occluded by geometry.         
+         Erase only strokes visible and not occluded by geometry.
 
 Strength
    Control how much will affect the eraser the stroke transparency (alpha).

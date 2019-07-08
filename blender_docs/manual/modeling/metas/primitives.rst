@@ -6,7 +6,7 @@ Primitives
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Object and Edit
+   :Mode:      Object Mode and Edit Mode
    :Panel:     :menuselection:`Tool Shelf --> Create --> Add Primitive/Metaball`
    :Menu:      :menuselection:`Add --> Meta`
    :Hotkey:    :kbd:`Shift-A`
@@ -37,7 +37,7 @@ Primitive
 
    .. seealso::
 
-      A more detailed explanation of each primitive in the :doc:`Structure</modeling/metas/structure>` page.
+      A more detailed explanation of each primitive in the :doc:`Structure </modeling/metas/structure>` page.
 
 Radius, Align to View, Location, Rotation
-   See :ref:`Common Object Options<object-common-options>`.
+   See :ref:`Common Object Options <object-common-options>`.

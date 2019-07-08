@@ -23,7 +23,7 @@ Because of its mathematical nature, CSG uses little memory, but requires lots of
 
 .. seealso::
 
-   The Wikipedia page about `mataballs <https://en.wikipedia.org/wiki/Metaballs>`__.
+   The Wikipedia page about `metaballs <https://en.wikipedia.org/wiki/Metaballs>`__.
 
 
 Underlying Structure
@@ -38,9 +38,9 @@ Underlying Structure
 
 Blender has five types of metas, each determined by its underlying (or directing) structure.
 
-In *Edit* mode, you can change this structure,
+In Edit Mode, you can change this structure,
 either using the relevant buttons in the *Active Element* panel,
-or the selector in the *Transform* panel in the sidebar region.
+or the selector in the *Transform* panel in the Sidebar region.
 Depending on the structure, you might have additional parameters,
 located in both *Transform* panel and *Active Element* panel.
 

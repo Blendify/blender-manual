@@ -14,7 +14,7 @@ the :doc:`Edit Mode </grease_pencil/modes/edit/introduction>` or
 Draw Mode
 =========
 
-.. figure:: /images/grease-pencil_modes_draw_introduction_mode-selector.png   
+.. figure:: /images/grease-pencil_modes_draw_introduction_mode-selector.png
 
    3D View Mode selector: Draw Mode.
 
