@@ -36,6 +36,8 @@ Duplicate
    (i.e. unlinked to the result of the spin extrusion).
 Angle
    Specifies the angle "swept" by this tool, in degrees (e.g. set it to 180 for half a turn).
+Flip Normals
+   Reverses the :term:`normal's <normal>` direction for any resulting geometry.
 Center
    Specifies the center of the spin. By default it uses the cursor position.
 Axis

@@ -1,4 +1,5 @@
 .. _bpy.ops.view3d.edit_mesh_extrude:
+.. _bpy.ops.mesh.extrude_region:
 .. (todo rewrite) Extrude Edges and Vertices Only needs a rewrite.
 
 *******
@@ -30,6 +31,9 @@ The extrusion can be limited to a single axis by specifying an axis;
 see :doc:`/scene_layout/object/editing/transform/control/precision/axis_locking`.
 
 The extrude tools differentiate in how the new geometry is connected in itself.
+
+Flip Normals
+   Reverses the :term:`normal's <normal>` direction for any resulting geometry.
 
 
 .. _tool-mesh-extrude_region:
