@@ -15,9 +15,7 @@ Blender is a cross-platform application, running on Linux, macOS, and Windows sy
 Blender also has relatively small memory and drive requirements compared to other 3D creation suites.
 Its interface uses OpenGL to provide a consistent experience across all supported hardware and platforms.
 
-.. figure:: /images/getting-started_about_introduction_bigbuckbunny.jpg
-
-   Blender 2.5 with a Big Buck Bunny scene open.
+.. figure:: /images/getting-started_about_introduction_screenshot.jpg
 
 
 Who uses Blender?
