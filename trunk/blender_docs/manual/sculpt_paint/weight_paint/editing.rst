@@ -136,7 +136,8 @@ Examples:
    Invert options.
 
 Subset
-   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` about how subsets are defined.
+   Restrict the tool to a subset.
+   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` about how subsets are defined.
 Add Weights
    Add vertices that have no weight before inverting (these weights will all be set to 1.0).
 Remove Weights
@@ -169,7 +170,8 @@ so that unreferenced Weights are shown in Black.
    Clean options.
 
 Subset
-   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
+   Restrict the tool to a subset.
+   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Limit
    This is the minimum weight value that will be kept in the Group. Weights
    below this value will be removed from the group.
@@ -215,7 +217,8 @@ with this tool you can raise or lower the overall "heat" of the weight group.
    Levels options.
 
 Subset
-   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
+   Restrict the tool to a subset.
+   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Offset
    A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
@@ -377,7 +380,8 @@ The tool removes lowest weights first until the limit is reached.
    The tool can only work reasonably when more than one weight group is selected.
 
 Subset
-   Restrict the tool to a subset. See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
+   Restrict the tool to a subset.
+   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Limit
    Maximum number of weights allowed on each vertex.
 

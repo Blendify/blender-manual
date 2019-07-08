@@ -40,7 +40,7 @@ and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
 Common Brush Options
----------------------
+--------------------
 
 You can configure the brush main settings exposed on the Topbar for convenience.
 For complete draw brushes configuration and settings see:
@@ -75,17 +75,18 @@ Thickness Profile
 
 
 Creating Boxes
----------------
+--------------
 
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.
 #. Release on the desired end point.
 #. After releasing you can move the start and end point by clicking and dragging on the yellow manipulators.
-#. Then confirm (:kbd:`Enter`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
+#. Then confirm (:kbd:`Return`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
 
 While dragging you can use :kbd:`Shift` to make a perfect square
 or use :kbd:`Alt` to create the box from a center point.
 
-:kbd:`+` and :kbd:`-` or using the mouse :kbd:`Wheel` will increase or decrease the amount of points in the final box.
+:kbd:`Plus` and :kbd:`Minus` or using the mouse :kbd:`Wheel`
+will increase or decrease the amount of points in the final box.
 
 
 .. list-table::

@@ -42,7 +42,7 @@ and :doc:`Material </grease_pencil/materials/introduction>`
 
 
 Common Brush Options
----------------------
+--------------------
 
 You can also configure the brush main settings exposed on the Topbar for convenience.
 For complete draw brushes configuration and settings see:

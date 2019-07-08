@@ -40,7 +40,7 @@ and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
 Common Brush Options
----------------------
+--------------------
 
 You can configure the brush main settings exposed on the Topbar for convenience.
 For complete draw brushes configuration and settings see:
@@ -86,17 +86,18 @@ Thickness Profile
 
 
 Creating Lines
----------------
+--------------
 
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.
 #. Release on the desired end point.
 #. After releasing you can move the start and end point by clicking and dragging on the yellow manipulators.
-#. Then confirm (:kbd:`Enter`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
+#. Then confirm (:kbd:`Return`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
 
 While dragging you can use :kbd:`Shift` to snapping the line to horizontal, vertical or 45° angle
 or use :kbd:`Alt` to create the line from a center point.
 
-:kbd:`+` and :kbd:`-` or using the mouse :kbd:`Wheel` will increase or decrease the amount of points in the final line.
+:kbd:`Plus` and :kbd:`Minus` or using the mouse :kbd:`Wheel`
+will increase or decrease the amount of points in the final line.
 
 
 .. list-table::
@@ -118,7 +119,7 @@ or use :kbd:`Alt` to create the line from a center point.
 
 
 Extruding
-----------
+---------
 
 before confirming you can use :kbd:`E` to extrude the end point of the line
 to generate multiple connected lines.
