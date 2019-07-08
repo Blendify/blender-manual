@@ -1,7 +1,7 @@
 
-****************
-Hiding & Masking
-****************
+************
+Introduction
+************
 
 Selection Masking
 =================
@@ -60,6 +60,8 @@ All unselected vertices are protected from unintentional changes.
 
    This option can also be toggled with :kbd:`V`.
 
+
+.. _bpy.types.Mesh.use_paint_mask:
 
 Face Selection Masking
 ----------------------

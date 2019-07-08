@@ -107,4 +107,4 @@ Mask
    .. tip::
 
       Use the face selection mask to isolate faces.
-      See :doc:`Face Selection Masking </sculpt_paint/weight_paint/hide_mask>` details.
+      See :ref:`Face Selection Masking <bpy.types.Mesh.use_paint_mask>` for details.
