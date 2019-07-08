@@ -10,7 +10,6 @@
    :maxdepth: 2
 
    introduction.rst
-   toolbar/index.rst
    tools.rst
+   tool_settings/index.rst
    editing.rst
-   options.rst

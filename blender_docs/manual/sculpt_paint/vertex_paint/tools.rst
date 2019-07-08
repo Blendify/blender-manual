@@ -1,68 +1,28 @@
 
-*****
-Tools
-*****
+******************
+Vertex Paint Tools
+******************
 
-The *Tool Shelf* contains most of the options for vertex painting.
-The following sections describe the controls in each of the available panels.
+Draw
+   Paints a specified color over the object.
 
-.. figure:: /images/sculpt-paint_vertex-paint_tools_tab.png
-   :align: right
+Blur
+   Smooths out the colors of adjacent vertices. In this mode the Color
+   Value is ignored. The strength defines how much the colors are blurred.
 
-   Vertex Painting options.
+Average
+   Smooths color by painting the average resulting color from all colors under the brush.
 
+Smear
+   Smudges colors by grabbing the colors under the brush and "dragging" them.
+   This can be imagined as a finger painting tool.
 
-Brush
-=====
+:ref:`Annotate <tool-annotate>`
+   Draw free-hand annotation.
 
-Brush
-   The :doc:`brush presets </sculpt_paint/brush/brush>` data-block menu.
-Color
-   The color of the brush. See :ref:`ui-color-picker`.
-
-   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
-   Hold :kbd:`Ctrl` while painting to temporally paint with the secondary color.
-
-   Flip (cycle icon) :kbd:`X`
-      Swaps the primary and secondary colors.
-
-   .. note::
-
-      Note that Vertex Paint works in sRGB :term:`space <Color Space>`, and
-      the RGB representation of the same colors will be different between the paint
-      tools and the materials that are in linear space.
-
-Radius
-   Set the radius of the brush.
-Strength
-   Set the strength of the brush's effect.
-Blend
-   See :term:`Color Blend Modes`.
-
-Options
-   Accumulate
-      This will allow a stroke to accumulate on itself, just like an airbrush would do.
-   Affect Alpha
-      When this is disabled, it locks (prevents changes) the alpha channel while painting.
-   Front Faces Only
-      Only paint on the front side of faces.
-   2D Falloff
-      This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
-
-
-Texture
-=======
-
-See :doc:`/sculpt_paint/brush/texture`.
-
-
-Stroke & Curve
-==============
-
-See :doc:`/sculpt_paint/brush/stroke`.
-
-
-Symmetry
-========
-
-See :doc:`/sculpt_paint/brush/symmetry`.
+   Annotate Line
+      Draw straight line annotation.
+   Annotate Polygon
+      Draw a polygon annotation.
+   Annotate Eraser
+      Erase previous drawn annotations.

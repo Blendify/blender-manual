@@ -3,8 +3,6 @@
 Weight Paint Tools
 ******************
 
-Weight paint tools:
-
 Draw
    Paints a specified weight over the object.
 
