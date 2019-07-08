@@ -25,10 +25,9 @@ Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
 Selection Masking
 =================
 
-If you have a complex mesh,
-it is sometimes not easy to paint on all vertices in Weight Paint Mode.
+If you have a complex mesh, it is sometimes not easy to paint on all vertices.
 Suppose you only want to paint on a small area of the Mesh and keep the rest untouched.
-This is where *selection masking* comes into play. When this mode is enabled,
+This is where "selection masking" comes into play. When this mode is enabled,
 a brush will only paint on the selected vertices or faces.
 The option is available from the header of the 3D View
 (see icons surrounded by the yellow frame):
@@ -38,11 +37,10 @@ The option is available from the header of the 3D View
    You can choose between *Face Selection masking* (left button)
    and *Vertex selection masking* (right button).
 
-*Select* mode has some advantages over the default *Weight Paint Mode*:
+Selection masking has some advantages over the default paint mode:
 
 - The original mesh edges are shown, even when modifiers are active.
 - You can select faces to restrict painting to the vertices of the selected faces.
-- Selecting tools include:
 
 
 Details About Selecting
@@ -58,26 +56,23 @@ The following standard selection operations are supported:
 - :kbd:`Ctrl-L` -- Select linked.
 - :kbd:`Ctrl-I` -- Invert selection *Inverse*.
 
-.. tip:: Selecting Deform Groups
-
-   When you are doing weight painting for deform bones (with an Armature),
-   you can select a deform group by selecting the corresponding bone.
-   However, this Vertex Group selection mode is disabled when Selection Masking is active!
-
 
 Vertex Selection Masking
 ------------------------
 
-.. figure:: /images/sculpt-paint_weight-paint_hide-mask_vertex-select.png
+.. admonition:: Reference
+   :class: refbox
 
-   Vertex Selection masking.
+   :Mode:      Vertex and Weight Paint Modes
+   :Header:    :menuselection:`Vertex Selection`
+   :Hotkey:    :kbd:`V`
 
 In this mode you can select one or more vertices and then paint only on the selection.
 All unselected vertices are protected from unintentional changes.
 
-.. note::
+.. figure:: /images/sculpt-paint_weight-paint_hide-mask_vertex-select.png
 
-   This option can also be toggled with :kbd:`V`.
+   Vertex Selection masking.
 
 
 .. _bpy.types.Mesh.use_paint_mask:
@@ -85,12 +80,18 @@ All unselected vertices are protected from unintentional changes.
 Face Selection Masking
 ----------------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Texture, Vertex, and Weight Paint Modes
+   :Header:    :menuselection:`Paint Mask`
+
+The *Face Selection masking* allows you to select faces and limit the paint
+tool to those faces, very similar to Vertex selection masking.
+
 .. figure:: /images/sculpt-paint_weight-paint_hide-mask_face-select.png
 
    Face Selection masking.
-
-The *Face Selection masking* allows you to select faces and limit the weight paint
-tool to those faces, very similar to Vertex selection masking.
 
 
 Hide/Unhide Faces
@@ -132,5 +133,4 @@ The rest of the 3D View gets hidden.
 
 You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
 
-All weight paint tools that use the view respect this clipping, including box select,
-weight gradient and of course brush strokes.
+All paint tools that use the view respect this clipping, including box select, and of course brush strokes.
