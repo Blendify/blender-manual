@@ -26,7 +26,7 @@ allows you to select a module from the list of loaded style modules.
 .. figure:: /images/render_freestyle_python_scripting-mode.png
 
    A screen capture of a style module (cartoon.py) loaded in the Text Editor (left),
-   as well as Freestyle options in the Python Scripting mode in the Render Layers buttons (right).
+   as well as Freestyle options in the Python Scripting mode in the View Layers buttons (right).
 
 Freestyle for Blender comes with a number of Python style modules that can serve as a starting
 point of your own style module writing. See also the section of the Freestyle Python API in
