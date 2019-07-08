@@ -3,6 +3,25 @@
 Introduction
 ************
 
+.. figure:: /images/sculpt-paint_sculpting_introduction_brush-circle.png
+   :align: center
+
+   Brush cursor.
+
+
+Brush Control
+=============
+
+- Set brush size :kbd:`F`
+- Set brush strength :kbd:`Shift-F`
+- Rotate brush texture :kbd:`Ctrl-F`
+
+You can then either adjust the value interactively or by typing in numbers.
+After pressing the hotkey move the mouse to increase/reduce the value
+(additionally with precision and/or snapping activated).
+Finally confirm (:kbd:`LMB`, :kbd:`Return`) or cancel (:kbd:`RMB`, :kbd:`Esc`).
+
+
 Selection Masking
 =================
 
