@@ -8,10 +8,13 @@ the free and open source 3D creation suite.
 
 .. warning::
 
+
    The manual is being updated in preparation for 2.80 release. This is work in progress.
    Various sections of this manual have not been updated, or they are updated only partially.
 
+
 .. see T64071 for why we don't use ':download:'
+
 .. only:: builder_html
 
    This site can be used offline:

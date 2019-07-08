@@ -36,9 +36,9 @@ Paint Modes
 ===========
 
 - :doc:`Sculpt Mode </sculpt_paint/sculpting/index>`
-- :ref:`Texture Paint Mode </sculpt_paint/texture_paint/index>`
-- :ref:`Vertex Paint Mode </sculpt_paint/vertex_paint/index>`
-- :ref:`Weight Paint Mode </sculpt_paint/weight_paint/index>`
+- :doc:`Texture Paint Mode </sculpt_paint/texture_paint/index>`
+- :doc:`Vertex Paint Mode </sculpt_paint/vertex_paint/index>`
+- :doc:`Weight Paint Mode </sculpt_paint/weight_paint/index>`
 
 
 Grease Pencil
