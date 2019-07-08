@@ -5,7 +5,7 @@ Adaptive Sculpting
 
 In order for sculpting to give accurate and predictable results, Blender needs geometry to work with.
 One way to accomplish this is starting off with a highly subdivided mesh.
-The other way involves using either of two adaptive sculpting methods to add geomtry dynamically.
+The other way involves using either of two adaptive sculpting methods to add geometry dynamically.
 
 
 Dynamic Topology

@@ -10,7 +10,7 @@ These options are located in the :menuselection:`Object --> Instancing` panel.
 .. note::
 
    There are other ways to indirectly instantiate objects,
-   e.g. from a :doc:`particle system</physics/particles/emitter/render>`...
+   e.g. from a :doc:`particle system </physics/particles/emitter/render>`...
 
 Vertices
    This creates an instance of all children of this object on each vertex

@@ -34,7 +34,7 @@ Leak Size
 
 Thickness
    The thickness radius of the boundary stroke in pixels.
-   
+
 Simplify
    Number of simplify steps to apply to the boundary line.
    Higher values reduce the final filled area accuracy.

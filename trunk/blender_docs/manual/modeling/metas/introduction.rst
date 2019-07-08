@@ -31,16 +31,16 @@ then convert it to a mesh for further modeling or sculpting. Meta objects are al
 
 .. warning::
 
-   Names of *Meta* objects are very important, as they define :ref:`families<meta-ball-object-families>`,
+   Names of *Meta* objects are very important, as they define :ref:`families <meta-ball-object-families>`,
    and only objects within a same family interact with each other.
-   Unlike other object types, even edition (tranformations) in *Object* mode will affect the generated geometries
+   Unlike other object types, even edition (transformations) in Object Mode will affect the generated geometry
    within the edited families.
 
 
 Visualization
 =============
 
-In *Object* mode, the calculated mesh is shown, along with a black "selection ring".
+In Object Mode, the calculated mesh is shown, along with a black "selection ring".
 
 .. _fig-meta-ball-example:
 
@@ -49,9 +49,9 @@ In *Object* mode, the calculated mesh is shown, along with a black "selection ri
 
    Meta Ball in Edit mode.
 
-In *Edit* mode (Fig. :ref:`fig-meta-ball-example`), a meta is displayed as a mesh
+In Edit Mode (Fig. :ref:`fig-meta-ball-example`), a meta is displayed as a mesh
 (either shaded or as black wireframe, but without any vertex of course),
 with two colored circles: a red one for selection (pink when selected),
 and a green one for a direct control of the meta's stiffness (light green when active).
-Note that except for the :ref:`scale transformation<bpy.ops.transform.resize>`,
+Note that except for the :ref:`scale transformation <bpy.ops.transform.resize>`,
 having the green circle highlighted is equivalent to having the red one.

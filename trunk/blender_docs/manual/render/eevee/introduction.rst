@@ -11,7 +11,6 @@ Eevee can be used interactively in the 3D Viewport but also produce high quality
 
    Eevee in the 3D Viewport -- "Tiger" by Daniel Bystedt.
 
-
 Eevee materials are created using the same shader nodes as Cycles, making it easy to render existing scenes.
 For Cycles users, this makes Eevee work great to preview material in realtime.
 

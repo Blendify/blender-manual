@@ -40,9 +40,9 @@ Blend
          you need to place at the target weight. Note that for strength = 1.0
          the target weight is painted immediately and for Weight = 0.0 the brush just does nothing.
       Add
-         In this Blending mode the specified weight value is *added* to the
-         vertex weights. The strength determines which fraction of the weight
-         gets added per stroke. However, the brush will not paint weight values above 1.0.
+         In this Blending mode the specified weight value is *added* to the vertex weights.
+         The strength determines which fraction of the weight gets added per stroke.
+         However, the brush will not paint weight values above 1.0.
       Subtract
          In this Blending mode the specified weight value is *subtracted* from the vertex weights.
          The strength determines which fraction of the weight gets removed per stroke.

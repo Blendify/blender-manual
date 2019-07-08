@@ -7,7 +7,7 @@ Guides
    :class: refbox
 
    :Mode:      Draw Mode
-   :Header:    Guides
+   :Header:    :menuselection:`Guides`
 
 Guides are drawing aids that make it easier the creation of different types of strokes.
 The Guides can be activated with the button next to the selector (grid icon).
@@ -19,7 +19,7 @@ Guide Types
 .. figure:: /images/grease-pencil_modes_draw_guides-selector.png
    :align: right
 
-   Guide selector activated in 3D View header.
+   Guide selector activated in the 3D View header.
 
 Circular
    Constrains the drawing of new strokes to make rings from the selected reference point.

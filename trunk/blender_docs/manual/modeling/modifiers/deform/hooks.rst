@@ -46,7 +46,7 @@ Uniform Falloff
 
    This is especially useful for lattices, where it is common to use non-uniform scaling.
 
-The following settings are only available in *Edit* mode:
+The following settings are only available in Edit Mode:
 
 Reset
    Recalculate and clear the offset transform of the hook.

@@ -32,6 +32,7 @@ Strength
 Blend
    See :term:`Color Blend Modes`.
 
+
 Options
 =======
 

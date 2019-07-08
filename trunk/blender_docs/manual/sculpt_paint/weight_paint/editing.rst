@@ -16,6 +16,7 @@ Editing Weights
 
 Blender provides a set of helper tools for Weight Painting.
 
+
 .. _bpy.ops.object.vertex_group_levels:
 
 .. rubric:: The Subset Option
@@ -173,8 +174,8 @@ Subset
    Restrict the tool to a subset.
    See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
 Limit
-   This is the minimum weight value that will be kept in the Group. Weights
-   below this value will be removed from the group.
+   This is the minimum weight value that will be kept in the Group.
+   Weights below this value will be removed from the group.
 Keep Single
    Ensure that the Clean tool will not create completely unreferenced vertices
    (vertices which are not assigned to any Vertex Group), so each vertex will
@@ -345,7 +346,7 @@ You first select all source objects, and finally the target object
 (the target object must be the active object).
 
 It is important that the source objects and the target object are at the same location.
-If they are placed side-by-side, then the weight transfer will not work, (See the *Vertex Mapping* option.)
+If they are placed side-by-side, then the weight transfer will not work. (See the *Vertex Mapping* option.)
 You can place the objects on different layers,
 but you have to ensure that all objects are visible when you call the tool.
 

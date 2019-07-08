@@ -9,9 +9,9 @@ Properties
    :Mode:      Object and Edit Mode
    :Panel:     :menuselection:`Properties editor --> Metaball`
 
-All *Meta* objects of a same :ref:`family<meta-ball-object-families>` in a scene interact with each other.
+All *Meta* objects of a same :ref:`family <meta-ball-object-families>` in a scene interact with each other.
 The settings in the *Metaball* section apply to all meta objects of the active family.
-In *Edit* mode, the *Active Element* panel appears for :ref:`editing<meta-ball-editing>` individual meta elements.
+In Edit Mode, the *Active Element* panel appears for :ref:`editing <meta-ball-editing>` individual meta elements.
 
 .. list-table::
 
@@ -64,7 +64,7 @@ It controls the *field level* at which the surface is computed.
 The setting is global to a group of *Meta* objects.
 As the threshold increases, so does the influence that each meta has on each other.
 
-There are :ref:`two types of influences<meta-ball-editing-negative-influence>`: *positive* or *negative*.
+There are two types of :ref:`influence <meta-ball-editing-negative-influence>`: *positive* or *negative*.
 
 
 Update

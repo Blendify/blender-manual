@@ -21,7 +21,7 @@ It allows you to control how the images of :doc:`Scene Strips </sequencer/sequen
 are displayed in the preview.
 
 Preview Shading
-   Method for rendering in the viewport.
+   Method for rendering the viewport.
    See the 3D Viewport's :ref:`view3d-viewport-shading` options.
 Override Scene Settings
    Use the Workbench render settings from the sequencer scene, instead of each individual scene used in the strip.

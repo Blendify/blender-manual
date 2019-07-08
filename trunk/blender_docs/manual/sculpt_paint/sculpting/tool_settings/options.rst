@@ -27,6 +27,7 @@ Show Mask
 
    See the :ref:`Display <sculpt-paint-brush-display>` options.
 
+
 Unified Brush
 =============
 

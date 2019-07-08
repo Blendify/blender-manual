@@ -6,7 +6,7 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst   
+   introduction.rst
    toolbar/index.rst
    tools/index.rst
    brushes/index.rst
