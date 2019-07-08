@@ -3,4 +3,7 @@
   Tools Settings
 #################
 
-Brush
+.. toctree::
+   :maxdepth: 1
+
+   brush.rst

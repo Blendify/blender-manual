@@ -4,6 +4,10 @@
 Sculpting Tools
 ****************
 
+For *Grease Pencil* Sculpt modes each brush type is exposed as a tool, 
+the brush can be changed from the tool setting.
+See :doc:`Brush </grease_pencil/modes/sculpting/tools/brush>` for more information.
+
 Grease Pencil sculpt tools:
 
 .. figure:: /images/grease-pencil_modes_sculpting_toolbar_brushes.png
@@ -53,9 +57,9 @@ Push
 Twist
    Twist the points in counter-clockwise (CCW) or Clockwise (CW) rotation.
 
-Pinch
+Pinch/Inflate
    Pulls points towards the center of the brush.
-   The inverse setting is Magnify, in which points are pushed away from the center of the brush.
+   The inverse setting is Inflate, in which points are pushed away from the center of the brush.
 
 Clone
    Adds copies of the strokes in the clipboard in the center of the brush. 
