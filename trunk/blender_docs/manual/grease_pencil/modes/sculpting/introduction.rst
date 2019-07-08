@@ -17,8 +17,7 @@ Sculpt Mode manipulates the drawing in the brush region of influence.
 Sculpt Mode
 ===========
 
-.. figure:: /images/grease-pencil_modes_sculpting_introduction_mode-selector.png
-   :align: right
+.. figure:: /images/grease-pencil_modes_sculpting_introduction_mode-selector.png   
 
    3D View Mode selector: Sculpt Mode.
 
@@ -27,6 +26,26 @@ Once Sculpt Mode is activated, the Tool Shelf of the 3D View will change to
 Sculpt Mode specific panels.
 A red circle will appear and follow the location of the cursor in the 3D View.
 
+
+Sculpting Options
+==================
+
+.. figure:: /images/grease-pencil_modes_sculpting_introduction_sculpting-options.png
+
+   General drawing options.
+
+Selection masking
+   *Sculpt Mode* in *Grease Pencil* allows to select strokes to restrict the effect 
+   of the sculpting to only certain areas of your drawing.
+   You can use the selection tools in the Toolbar for quick selections.
+
+   You can restrict sculpting only on the selected strokes with the selection mask button (stroke mask icon).
+
+Multiframe editing
+   Sometimes you may need to modify several frames at the same time with the sculpting tools.
+
+   You can activate multiframe edition with the Multiframe button next to the modes selector (faded lines icon).
+   See :doc:`Multiframe </grease_pencil/multiframe>` for more information.
 
 Keyboard Shortcuts
 ==================

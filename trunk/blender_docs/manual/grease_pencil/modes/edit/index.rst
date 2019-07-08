@@ -10,4 +10,3 @@
    toolbar/index.rst
    tools/index.rst
    stroke_menu.rst
-   multiframe_editing.rst
