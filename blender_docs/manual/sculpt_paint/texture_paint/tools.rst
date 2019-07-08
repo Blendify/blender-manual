@@ -93,12 +93,12 @@ Fill
       For projective texturing it will bypass some options for projective painting to paint the model.
       This means that occluded, backfacing and normal culled faces will always get filled,
       regardless of whether the options are activated
-      in the :doc:`External </sculpt_paint/texture_paint/properties/options>` panel.
+      in the :doc:`External </sculpt_paint/texture_paint/tool_settings/options>` panel.
 
 Mask
    The mask feature maps an image to the mesh and uses the image intensity to
    mask out certain parts of the mesh out during painting.
-   The mask options can be found in the :doc:`Mask panel </sculpt_paint/texture_paint/properties/mask>`.
+   The mask options can be found in the :doc:`Mask panel </sculpt_paint/texture_paint/tool_settings/mask>`.
    It's only available for 3D projective painting.
 
    Mask Value
