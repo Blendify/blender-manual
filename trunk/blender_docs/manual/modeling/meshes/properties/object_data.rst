@@ -39,6 +39,21 @@ Color data can be applied directly to an object's vertices rather than using a t
 Colors can are painted onto vertices in :doc:`Vertex Paint </sculpt_paint/vertex_paint/index>` mode.
 
 
+.. _bpy.types.FaceMaps:
+.. _bpy.ops.object.face_map:
+
+Face Maps
+=========
+
+Face Maps create custom gizmos to deform meshes by assigning faces to *Face Maps*.
+Face Maps can be used to rig quickly within object mode and without making complicated rigging setups.
+Face Maps are currently not fully implemented in Blender and require add-ons to take full advantage of this feature.
+
+.. seealso::
+
+   `Auto Face Map Widgets add-on <https://developer.blender.org/diffusion/BAC/browse/master/object_facemap_auto/>`__
+
+
 Normals
 =======
 
