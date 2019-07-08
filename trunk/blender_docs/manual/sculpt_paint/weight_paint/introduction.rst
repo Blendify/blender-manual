@@ -43,7 +43,7 @@ In addition to the above described color code, Blender has a special visual nota
 Thus you can see the referenced areas (displayed as cold/hot colors) and
 the unreferenced areas (in black) at the same time.
 This is most practicable when you look for weighting errors.
-See :doc:`/sculpt_paint/weight_paint/options`.
+See :doc:`/sculpt_paint/weight_paint/tool_settings/options`.
 
 .. figure:: /images/sculpt-paint_weight-paint_introduction_color-code-black.png
 
