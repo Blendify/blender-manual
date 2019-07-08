@@ -3,7 +3,6 @@
 Editing Vertex Colors
 *********************
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -35,7 +34,3 @@ Hue Saturation Value
    Adjust vertex color HSV values.
 Bright/Contrast
    Adjust vertex color brightness/contrast.
-
-.. seealso::
-
-   :doc:`/sculpt_paint/weight_paint/hide_mask`

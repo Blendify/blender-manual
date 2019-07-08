@@ -12,4 +12,3 @@
    tool_settings/index.rst
    usage.rst
    editing.rst
-   hide_mask.rst
