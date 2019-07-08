@@ -52,6 +52,12 @@ automatically added to the vertex group.
 If you have a symmetrical mesh and a symmetrical armature you can use the option *X Mirror*.
 Then the mirrored groups with the mirrored weights are automatically created.
 
+.. tip:: Selecting Deform Groups
+
+   When you are doing weight painting for deform bones (with an Armature),
+   you can select a deform group by selecting the corresponding bone.
+   However, this Vertex Group selection mode is disabled when Selection Masking is active!
+
 
 Vertex Groups for Particles
 ===========================
