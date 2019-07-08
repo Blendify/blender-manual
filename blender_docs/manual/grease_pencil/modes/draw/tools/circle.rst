@@ -78,12 +78,13 @@ Creating Circles
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.
 #. Release on the desired end point.
 #. After releasing you can move the start and end point by clicking and dragging on the yellow manipulators.
-#. Then confirm (:kbd:`Enter`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
+#. Then confirm (:kbd:`Return`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
 
 While dragging you can use :kbd:`Shift` to make a perfect circle
 or use :kbd:`Alt` to create the circle from a center point.
 
-:kbd:`+` and :kbd:`-` or using the mouse :kbd:`Wheel` will increase or decrease the amount of points in the final circle.
+:kbd:`Plus` and :kbd:`Minus` or using the mouse :kbd:`Wheel`
+will increase or decrease the amount of points in the final circle.
 
 .. list-table::
 

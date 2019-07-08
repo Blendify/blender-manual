@@ -206,12 +206,13 @@ Keep Hierarchy
 
 .. tip::
 
-   Usually, to get a new hierarchy as close as possible from the instancing one, you'll want to enable both of these options.
+   Usually, to get a new hierarchy as close as possible from the instancing one,
+   you'll want to enable both of these options.
 
 .. note::
 
    Preserving relationships in recursive instancing cases (instancers instancing other instancer objects, etc.)
    is only supported to some extent currently.
-   
+
    Simple cases (like an empty instancing a collection containing instances of some other collections)
    will usually work, but more intricate cases will fail to fully reproduce the whole instancing hierarchy.

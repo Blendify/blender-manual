@@ -40,7 +40,7 @@ and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
 Common Brush Options
----------------------
+--------------------
 
 You can configure the brush main settings exposed on the Topbar for convenience.
 For complete draw brushes configuration and settings see:
@@ -91,12 +91,13 @@ Creating Arcs
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.
 #. Release on the desired end point.
 #. After releasing you can tweak the arc using a single cyan manipulator (hand icon).
-#. Then confirm (:kbd:`Enter`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
+#. Then confirm (:kbd:`Return`/:kbd:`MMB`) or cancel (:kbd:`Esc`/:kbd:`RMB`).
 
 While dragging you can use :kbd:`Shift` to make a perfect arc,
 use :kbd:`Alt` to create the arc from a center point or :kbd:`M` to flip.
 
-:kbd:`+` and :kbd:`-` or using the mouse :kbd:`Wheel` will increase or decrease the amount of points in the final arc.
+:kbd:`Plus` and :kbd:`Minus` or using the mouse :kbd:`Wheel`
+will increase or decrease the amount of points in the final arc.
 
 
 .. list-table::
@@ -118,7 +119,7 @@ use :kbd:`Alt` to create the arc from a center point or :kbd:`M` to flip.
 
 
 Extruding
-----------
+---------
 
 before confirming you can use :kbd:`E` to extrude the end point of the arc
 to generate multiple connected arcs.

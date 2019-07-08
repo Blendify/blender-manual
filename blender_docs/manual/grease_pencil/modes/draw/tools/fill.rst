@@ -23,7 +23,7 @@ On the Topbar select the brush and material to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   Fill tool uses *Fill Brushes* types.   
+   Fill tool uses *Fill Brushes* types.
 
 Material
    Data-block selector for the material.
@@ -40,17 +40,18 @@ and :doc:`Material </grease_pencil/materials/introduction>`
 
 
 Common Brush Options
----------------------
+--------------------
 
 You can also configure the brush main settings exposed on the topbar for convenience.
-For complete fill brushes configuration and settings see: :doc:`Fill Brush </grease_pencil/modes/draw/brushes/fill_brush>`.
+For complete fill brushes configuration and settings
+see: :doc:`Fill Brush </grease_pencil/modes/draw/brushes/fill_brush>`.
 
 Leak Size
    Size in pixel to consider the leak closed.
 
 Thickness
    The thickness radius of the boundary stroke in pixels.
-   
+
 Simplify
    Number of simplify steps to apply to the boundary line.
    Higher values reduce the final filled area accuracy.
@@ -121,7 +122,7 @@ the *Clean Up* tool in the :doc:`Stroke Menu </grease_pencil/modes/edit/stroke_m
 
 
 Switch to Draw Tool
---------------------
+-------------------
 
 Use :kbd:`Ctrl-LMB` to change temporary to the active draw tool.
 For example to manually cover small areas difficult to reach for the fill tool.

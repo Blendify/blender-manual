@@ -115,7 +115,8 @@ Geometry Mapping
 ----------------
 
 Geometry mapping is how a given destination mesh relates to a source mesh.
-In this process a destination vertex/edge/... gets a part of the source mesh assigned with functions as its data source.
+In this process a destination vertex/edge/...
+gets a part of the source mesh assigned with functions as its data source.
 It is crucial to understand this topic well to get good results with this modifier.
 
 Topology

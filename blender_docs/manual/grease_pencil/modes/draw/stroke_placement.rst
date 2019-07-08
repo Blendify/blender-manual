@@ -52,7 +52,7 @@ Stroke
 
 
 Examples
-=========
+========
 
 .. list-table:: Stroke using different Stroke Placements.
 
