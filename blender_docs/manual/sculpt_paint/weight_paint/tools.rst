@@ -7,14 +7,15 @@ Weight Paint Tools
 Weight paint tools:
 
 Draw
-   TODO.
+   Paints a specified weight over the object.
 Blur
    Smooths out the weighting of adjacent vertices. In this mode the Weight
    Value is ignored. The strength defines how much the smoothing is applied.
 Average
-   TODO.
+   Smooths weights by painting the average resulting weight from all weights under the brush.
 Smear
-   TODO.
+   Smudges weights by grabbing the weights under the brush and "dragging" them.
+   This can be imagined as a finger painting tool.
 Gradient
    Applies a linear/radial weight gradient;
    this is useful at times when painting gradual changes in weight becomes difficult.
@@ -31,5 +32,8 @@ Gradient
    Type
       - Linear: :kbd:`Alt-LMB` and drag.
       - Radial: :kbd:`Ctrl-Alt-LMB` and drag.
-Sample Wights
-   TODO.
+Sample
+   Weights
+      Sets the brush *Weight* as the weight selected under the cursor.
+   Vertex Group
+      Displays a list of possible vertex groups to select that are under the cursor.
