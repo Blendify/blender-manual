@@ -1,8 +1,8 @@
 .. _gpencil_sculpt-toolbar-index:
 
-*******
-Toolbar
-*******
+****************
+Sculpting Tools
+****************
 
 Grease Pencil sculpt tools:
 
@@ -58,4 +58,5 @@ Pinch
    The inverse setting is Magnify, in which points are pushed away from the center of the brush.
 
 Clone
-   TODO2.8.
+   Adds copies of the strokes in the clipboard in the center of the brush. 
+   You have to copy the selected strokes you want into the clipboard with :kbd:`Ctrl-C` before using the tool.

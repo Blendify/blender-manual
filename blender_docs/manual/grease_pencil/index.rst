@@ -12,6 +12,7 @@
    structure.rst
    primitives.rst
    selecting.rst
+   multiframe.rst
    properties/index.rst
    modifiers/index.rst
    visual_effects/index.rst

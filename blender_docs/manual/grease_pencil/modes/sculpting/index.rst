@@ -8,6 +8,4 @@
 
    introduction.rst
    toolbar/index.rst
-   tools/index.rst
-   selecting.rst
-   multiframe_sculpting.rst
+   tools/index.rst   

@@ -1,8 +1,8 @@
 .. _gpencil_draw-toolbar-index:
 
-*******
-Toolbar
-*******
+*************
+Drawing Tools
+*************
 
 .. figure:: /images/grease-pencil_modes_draw_toolbar_tools.png
    :align: right
