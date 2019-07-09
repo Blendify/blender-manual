@@ -43,14 +43,14 @@ Navigation
 
 As with most editors, you can:
 
-Pan
-   Pan the view vertically (values) or horizontally (time) with click and drag (:kbd:`MMB`).
-Zoom
-   Zoom in and out with the mouse wheel (:kbd:`Wheel`).
-Scale View
-   Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
-View All (Frame)
-   Fit the curve in the available space (:kbd:`Home`).
+Pan :kbd:`MMB`
+   Pan the view vertically (values) or horizontally (time) with click and drag :kbd:`MMB`.
+Zoom :kbd:`Wheel`
+   Zoom in and out with the mouse wheel.
+Scale View :kbd:`Ctrl-MMB`
+   Scale the view vertically or horizontally.
+View All (Frame) :kbd:`Home`
+   Fit the curve in the available space.
 
 In addition, you can also use the scrollbars to pan and zoom the view.
 
@@ -93,8 +93,7 @@ Filter (funnel icon)
       Object data-blocks appear in alphabetical order, so that it is easier to find where they occur
       (as well as helping to keep the animation of related objects together).
 
-      This option may affect the playback speed for busy scenes.
-
+      This option may affect the playback speed for heavy scenes.
 
 
 Curve Controls
@@ -128,12 +127,8 @@ Proportional Editing :kbd:`O`
    See :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 
-
 Sidebar Region
 ==============
-
-The *Sidebar region* can be displayed with :kbd:`N` and has several tabs.
-
 
 Drivers Tab
 -----------

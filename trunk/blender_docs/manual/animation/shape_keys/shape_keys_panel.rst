@@ -15,7 +15,7 @@ Shape Keys Panel
    :Mode:      All modes
    :Panel:     :menuselection:`Object Data --> Shape Keys`
 
-The Shape Keys Panel is used for authoring :doc:`Shape Keys </animation/shape_keys/introduction>`.
+The Shape Keys panel is used for authoring shape keys.
 
 
 Settings
@@ -25,20 +25,20 @@ Active Shape Key Index
    A :ref:`List View <ui-list-view>`.
 
    Value (number)
-      In Relative mode: Value is the current influence of the Shape Key used for blending between
-      the shape (value=1.0) and its Reference Key (value=0.0). The reference key is usually the Basis shape.
+      In Relative mode: Value is the current influence of the shape key used for blending between
+      the shape (value=1.0) and its reference key (value=0.0). The reference key is usually the Basis shape.
       The weight of the blend can be extrapolated above 1.0 and below 0.0.
 
       In Absolute mode: Value is the *Evaluation Time* at which the shape will have maximum influence.
 
    Mute (check mark)
       If unchecked, the shape key will not be taken into consideration when
-      mixing the shape key stack into the result visible in the 3D View.
+      mixing the shape key stack into the result visible in the 3D Viewport.
 
    Specials
       New Shape From Mix
          Add a new shape key with the current deformed shape of the object.
-         This differs from the `+` button of the list, as that one always copies
+         This differs from normal *Add*, as this one always copies
          the Basis shape independently of the current mix.
       Mirror Shape Key
          If your mesh is symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
@@ -67,7 +67,7 @@ Relative
    See :ref:`animation-shapekeys-relative-vs-absolute`.
 
 Shape Key Lock (pin icon)
-   Show the active shape in the 3D View without blending.
+   Show the active shape in the 3D Viewport without blending.
    *Shape Key Lock* gets automatically enabled while the object is in *Edit Mode*.
 Shape Key Edit Mode (edit mode icon)
    If enabled, when entering *Edit Mode* the active shape key will **not** take maximum influence as is default.
@@ -88,7 +88,7 @@ the current weight or influence of that shape in the current *Mix*.
 
 Clear Shape Keys ``X``
    Set all influence values, or weights, to zero.
-   Useful to quickly guarantee that the result shown in the 3D View is not affected by shapes.
+   Useful to quickly guarantee that the result shown in the 3D Viewport is not affected by shapes.
 
 .. _animation-shapekey-relative-value:
 
@@ -101,8 +101,8 @@ Range
    Blender can extrapolate results when the *Value* goes lower than 0.0 or above 1.0.
 Vertex Group
    Limit the active shape key deformation to a vertex group.
-   Useful to break down a complex shape into components by assigning temporary
-   vertex groups to the complex shape and copying the result into new simpler shapes.
+   Useful to break down a complex shape into components by assigning temporary vertex groups
+   to the complex shape and copying the result into new simpler shapes.
 Relative To
    Select the shape key to deform from. This is called the *Reference Key* for that shape.
 

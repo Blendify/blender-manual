@@ -76,15 +76,15 @@ Driver Variables
 
    * - .. figure:: /images/animation_drivers_drivers-panel_single-property.png
 
-          Single property
+          Single property.
 
      - .. figure:: /images/animation_drivers_drivers-panel_transform-channel2.png
 
-          Transform channel
+          Transform channel.
 
      - .. figure:: /images/animation_drivers_drivers-panel_distance.png
 
-          Distance
+          Distance.
 
 Variables are references to properties, transformation channels, or the result of a comparison
 between transformations of two objects.
@@ -194,7 +194,6 @@ Functions
 Simple expressions are evaluated even when Python script execution is disabled.
 
 When an expression outside of this subset is used, Blender displays a "Slow Python expression" warning.
-
 
 .. seealso::
 
