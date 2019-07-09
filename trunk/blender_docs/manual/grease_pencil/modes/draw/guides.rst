@@ -47,7 +47,8 @@ Use Snapping
       Guide spacing.
 
 Reference Point
-   Determines the origin point to use for the creation of circular and radial lines.
+   Determines the origin point to use for the creation of the lines.
+   Applies only for *Circular* and *Radial* guides.
 
    Cursor
       Use cursor as reference point.

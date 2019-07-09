@@ -1,10 +1,14 @@
 .. _gpencil_weight_paint-toolbar-index:
 
-*******
-Toolbar
-*******
+******************
+Weight Paint Tools
+******************
+
+For *Grease Pencil* Weight paint modes each brush type is exposed as a tool,
+the brush can be changed from the tool setting.
+See :doc:`Brush </grease_pencil/modes/weight_paint/tools/brush>` for more information.
 
 Grease Pencil weight paint tools:
 
-:ref:`Weight <tool-grease-pencil-weight-paint-weight>`
-   TODO2.8.
+Draw
+   Paints a specified weight over the strokes.

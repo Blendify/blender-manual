@@ -3,7 +3,8 @@
 Subdivide Modifier
 ******************
 
-The *Subdivide* modifier subdivide the strokes by adding points to the lines.
+The *Subdivide* modifier subdivide the strokes by 
+inserting points between other points to the lines.
 
 
 Options
