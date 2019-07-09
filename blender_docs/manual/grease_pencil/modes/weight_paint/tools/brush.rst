@@ -18,8 +18,5 @@ Strength
 Use Falloff
    When enabled, use Strength falloff for the brush.
    Brush Strength decays with the distance from the center of the brush.
-Weight :kbd:`W`
-   The weight (color) to be used by the brush.   
-
-   Use :kbd:`Ctrl-LMB` to sample the weight value of clicked vertex.
-   :kbd:`Shift-LMB` lets you select the group from which to sample from.
+Weight
+   The weight (color) to be used by the brush.
