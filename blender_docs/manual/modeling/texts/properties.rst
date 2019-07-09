@@ -1,5 +1,3 @@
-.. TODO2.8: Move/split? Move text style toggle to editing.
-
 .. TODO(campbell): Link to curve docs for all shared properties instead of documenting twice.
 
 **********
@@ -15,25 +13,11 @@ Shape
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Text --> Shape`
 
-As you can see in the *Shape* panel, texts have most of the same options as
-:doc:`Curves </modeling/curves/properties/data>`.
+Most of the settings in the *Shape* panel are shared with those of :doc:`Curves</modeling/curves/properties/data>`
+data-blocks, please refer to those for details.
 
-Resolution
-   Preview U
-      The surface resolution in the U direction to use in the viewport.
-   Render U
-      The surface resolution in the U direction, set to zero to use the *Preview* resolution.
 Fast Editing
-   Does not fill polygons while editing text.
-Fill Mode
-   Determines the way a Curve is filled in when it is extruded and/or beveled.
-
-   Front
-      Fills in the front side of the surface.
-   Back
-      Fills in the back side of the surface.
-Fill Deformed
-   Fills the curves after applying all modification that might deform the curve (i.e. shape keys and modifiers).
+   Does not fill the letters in *Edit* mode, only show their outline.
 
 
 Texture Space
@@ -41,7 +25,7 @@ Texture Space
 
 Each Object can have an automatically generated UV map, these maps can be adjusted here.
 
-See :ref:`Generated UV Properties <properties-texture-space>` for more information.
+See :ref:`Generated UV Properties<properties-texture-space>` for more information.
 
 
 Geometry
@@ -54,20 +38,27 @@ Geometry
    :Panel:     :menuselection:`Properties --> Font --> Geometry`
 
 Offset
-   Alters the space between letters.
-Extrude
-   Will extrude the text along both the positive and negative local Z axes.
-Taper Object
-   Used to select a curve object that can be used to cause the characters to get thinner towards one end.
-   You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating
-   the Control Points of the *Taper Object*. The *Taper Object* can only be a curve.
-   Editing the Handles and Control Points of the *Taper Object* will cause the original object to change shape.
+   Offset the control points of the curves defining the letters, which will make them thinner or thicker.
+   Use with care, it can quickly lead to artifacts...
 
+Extrusion, Taper & Bevel
+------------------------
 
-Bevel
------
+The remaining settings of that panel, which are used to give volume to the letters,
+are also shared with the :doc:`Curves</modeling/curves/properties/geometry>` data-blocks,
+please refer to those for details.
 
-See :ref:`Curve Bevel <modeling-curve-bevel>` for more details.
+.. note::
+
+   How the Taper object effect works depends on how the curves defining the letters are built.
+   The results can often look quiet random...
+
+.. note::
+
+   :ref:`Bevel<modeling-curve-bevel>` is applied to the curves defining the letters,
+   which means that usually it will follow their outlines
+   (there will be two parallel beveled curves, and not a single one, as one might expect).
+
 
 .. _modeling-text-character:
 
@@ -82,18 +73,17 @@ Font
 
 Bold
    Toggled with the *Bold* button before typing.
-   Text can also be set to Bold by selecting it then using the *Bold* button in the Tool Shelf.
+   Text can also be set to **bold** by selecting it then using the *Bold* entry in the *Text* menu of the *3D View*.
 Italics
    Toggled with the *Italic* button before typing.
-   Text can also be set to Italic by selecting it then using the *Italic* button in the Tool Shelf.
+   Text can also be set to *italic* by selecting it then using the *Italic* entry in the *Text* menu of the *3D View*.
 Underline
-   Enables underlining, as controlled by the Underline settings above.
+   Enables underlining, as controlled by the :ref:`underline settings<modeling-text-character-underline>` below.
 Small Caps
-   Enable the *Small Caps* option to type characters as small caps.
+   Enable this option to type characters as small caps.
 
-   The size of the *Small Caps* can be changed with the *Small Caps Scale* setting.
-   Note that the *Small Caps Scale* is applied the same to all *Small Caps* formatted characters.
-
+   The size of the *Small Caps* can be changed with the
+   :ref:`Small Caps Scale setting<modeling-text-character-underline>`.
 
 
 Transform
@@ -104,7 +94,7 @@ Size
    Note however, that chars with different fonts (different styles, see below) might have different visible sizes.
 Shear
    Controls the inclination of the whole text.
-   Different to as it may seem, this is not similar to italics style.
+   As similar as it may seem, this is not the same thing as italics style.
 
    .. figure:: /images/modeling_texts_properties_shear-example.png
       :width: 340px
@@ -112,9 +102,8 @@ Shear
       Shear example.
 
 Object Font
-   Allows individual objects to be used to render fonts.
-   This allows you to create/model your own complex font inside Blender!
-   This field is used to select the objects prefix name to be used
+   Allows individual objects to be used to render fonts, you can create/model your own complex font inside Blender!
+   This field is used to select the objects prefix name (object "family") to be used
    to locate the individual characters used for typing.
    This is quite a complex process, so here are detailed steps to follow:
 
@@ -142,122 +131,24 @@ Text on Curve
 
    .. tip::
 
-      You can also use the :doc:`Curve Modifier </modeling/modifiers/deform/curve>`
-      which offers more control.
+      You should rather use the :doc:`Curve modifier</modeling/modifiers/deform/curve>`,
+      which offers more control, and is the standard way to achieve such effects in modern Blender.
+
+.. _modeling-text-character-underline:
 
 Underline
    Toggled with the *Underline* button before typing.
-   Text can also be set to Underlined by selecting it then using the *Underline* button in the Tool Shelf.
+   Text can also be set to Underlined by selecting it
+   then using the *Underline* entry in the *Text* menu of the *3D View*.
 Underline Position
    This allows you to shift vertically the position of the underline.
 Underline Thickness
    This controls the thickness of the underline.
 Small Caps Scale
-   Type small capital text.
+   The scaling applied to capitals letters to turn them into small caps.
 
 
-Paragraph
-=========
+Paragraph & Text Boxes
+======================
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All Modes
-   :Panel:     :menuselection:`Properties editor --> Font --> Paragraph`
-
-The *Paragraph* Panel has settings for the alignment and spacing of text.
-
-
-Alignment
----------
-
-Horizontal Alignment
-   Left
-      Aligns text to left of frames when using them,
-      else uses the origin of the *Text* object as the starting point of the text (which grows to the right).
-   Center
-      Centers text in the frames when using them,
-      else uses the origin of the *Text* object as the mid-point of the text
-      (which grows equally to the left and right).
-   Right
-      Aligns text to right of frames when using them,
-      else uses the origin of the *Text* object as the ending point of the text (which grows to the left).
-   Justify
-      Only flushes a line when it is terminated by a word-wrap (**not** by :kbd:`Return`),
-      it uses *white-space* instead of *character spacing* (kerning) to fill lines.
-   Flush
-      Always flushes the line, even when it is still being entered;
-      it uses character spacing (kerning) to fill lines.
-
-   .. note:: Both *Justify* and *Flush* only work within frames.
-
-Vertical Alignment
-   Top Base-Line
-      Aligns the text base-line to top of frames when using them,
-      else uses the origin of the *Text* object as the starting point of the text (which grows to the bottom).
-   Top
-      Aligns top of text to the origin of the *Text* object (which grows to the bottom).
-      It behaves as *Top Base-Line* when using frames. *Top* only works without frames.
-   Center
-      Centers text in the frames when using them,
-      else uses the origin of the *Text* object as the mid-point of the text
-      (which grows equally to the top and bottom).
-   Bottom
-      Aligns text to bottom of frames when using them,
-      else uses the origin of the *Text* object as the ending point of the text (which grows to the top).
-
-
-Spacing
--------
-
-Character Spacing
-   A factor by which space between each character is scaled in width.
-Word Spacing
-   A factor by which white-space between words is scaled in width.
-   You can also control it by pressing :kbd:`Alt-Left` or :kbd:`Alt-Right`
-   to decrease/increase spacing by steps of 0.1.
-Line Spacing
-   A factor by which the vertical space between lines is scaled.
-
-Offset X/Y
-   These settings control the X and Y offset of the text, regarding its relative positioning. Note that with
-   `Text Boxes`_, it applies to all frames' content.
-
-
-.. _bpy.types.TextBox:
-
-Text Boxes
-==========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      All Modes
-   :Panel:     :menuselection:`Properties editor --> Font --> Text Boxes`
-
-Text "Boxes" allow you to distribute the text among rectangular areas within a single text object.
-An arbitrary number of freely positionable and re-sizable text frames are allowed per text object.
-
-Text flows continuously from the lowest-numbered frame to the highest-numbered frame with text
-inside each frame word-wrapped.
-Text flows between frames when a lower-numbered frame cannot fit any more text.
-If the last frame is reached, text overflows out of it.
-
-Add Textbox
-   Inserts a new frame, just after the current one (in text flow order).
-   The new frame will have the same size and position as the selected one.
-Delete (X icon)
-   Delete the current frame.
-
-Overflow
-   TODO2.8.
-
-Size X/Y
-   Specifies the width and height of the text box,
-   if set to **zero** no word-wrap happens.
-Offset X/Y
-   Controls the *X* and *Y* offset of the frame.
-
-.. figure:: /images/modeling_texts_properties_frame-example4.png
-
-   Multiple columns, text flowing between boxes.
+Those panels control the general :doc:`layout of the text</modeling/texts/layout>` in the object.
