@@ -143,11 +143,6 @@ table {caption-side: bottom}
 
 /* End TABLE & FIGURE. */
 
-/* proper seal navigation buttons; jumping on resize */
-.rst-footer-buttons::before , .rst-footer-buttons::after{
-	width: 100%;
-}
-
 /* Video center. */
 iframe {
 	display: block;
