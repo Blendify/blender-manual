@@ -20,19 +20,17 @@ In this example, the Y rotation of Object 2 will be driven by the X position of 
 
 Starting from a simple setup with two objects:
 
-#. Add a Driver to the *Rotation Y* property of the second object by right-clicking it or with :kbd:`Ctrl-D`.
+#. Add a Driver to the *Rotation Y* property of the second object by :kbd:`RMB`-clicking it or with :kbd:`Ctrl-D`.
 
    .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
-#. Open the *Drivers Editor* (:kbd:`Shift-F6`).
-#. In the channels region, select the *Y Euler Rotation* property.
-#. Press :kbd:`N` to open the Sidebar region and select the *Drivers* tab.
+#. Open the *Drivers Editor* and select the *Y Euler Rotation* property in the channels region.
+#. Open the Sidebar region and select the *Drivers* tab.
 #. Configure the driver to be the *Averaged Value* of a *Transform Channel* of the first object.
 
    .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
 #. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
-
 
 
 Scripted Expression - Orbit a Point
@@ -41,29 +39,26 @@ Scripted Expression - Orbit a Point
 Orbit an object's position around a point with a custom *Scripted Expression*.
 The object's position will change when scrubbing the timeline.
 
-Using trigonometry, circular motion can be defined in 2D using the sin and cos functions.
+Using trigonometry, circular motion can be defined in 2D using the sinus and cosine functions.
 (See `Unit Circle <https://en.wikipedia.org/wiki/Unit_circle>`__).
 
 In this example, the current frame is used as the variable that induces the motion.
 ``frame`` is a :ref:`Simple Expression <drivers-simple-expressions>` that corresponds to
 ``bpy.context.scene.frame_current``.
 
-
 .. figure:: /images/animation_drivers_workflow-examples_object-rotation.png
-
 
 #. Add a driver to the X Location property.
 
    #. Set the *Driver Type* to *Scripted Expression*.
-   #. Add the expression ``0 + (sin(frame / 8) * 4)``
+   #. Add the expression ``0 + (sin(frame / 8) * 4)``, where:
 
-      * ``frame/8`` : is the current frame of the animation, divided by 8 to slow the orbit down.
-      * ``(sin( )*4)`` : multiplies the result of ``sin(frame/8)`` by 4 for a bigger circle.
-      * ``0 +`` : is used to control the offset to the orbit center point.
+      - ``frame/8`` : is the current frame of the animation, divided by 8 to slow the orbit down.
+      - ``(sin( )*4)`` : multiplies the result of ``sin(frame/8)`` by 4 for a bigger circle.
+      - ``0 +`` : is used to control the offset to the orbit center point.
 
-#. Add a driver to the Y Location property with the expression ``0 + (cos(frame / 8) * 4)``
+#. Add a driver to the Y Location property with the expression ``0 + (cos(frame / 8) * 4)``.
 #. Scrub the timeline to see the effect. Experiment with the variables to control the size and center of the orbit.
-
 
 
 Custom Function - Square Value
@@ -103,12 +98,11 @@ and then added to the ``bpy.app.driver_namespace``.
       bpy.app.driver_namespace['square'] = square
 
 
-#. Add a driver with a *Scripted Expression* such as ``square(frame)``
+#. Add a driver with a *Scripted Expression* such as ``square(frame)``.
 #. Observe the effect when scrubbing the timeline.
 
 There are more custom function examples available in Blender's Text Editor
 :menuselection:`Templates > Python > Driver Functions`.
-
 
 
 Shape Key Driver
@@ -126,7 +120,7 @@ This example is a shape key driver. The driver was added to the shape key Value.
 This example uses the Armature Bone "b" 's Z Rotation to control the Value of a Shape Key.
 The bone rotation mode is set to XYZ Euler.
 
-The Driver F-Curve is mapped like so:
+The Driver F-curve is mapped like so:
 
 - Bone Z Rotation 0.0 (0.0): Shape Key value 0.0
 - Bone Z Rotation -2.09 (-120.0): Shape Key value 1.0
