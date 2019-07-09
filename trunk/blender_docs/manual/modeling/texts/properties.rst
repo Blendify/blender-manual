@@ -62,8 +62,6 @@ Taper Object
    You can also alter the proportions of the Taper throughout the tapered object by moving/scaling/rotating
    the Control Points of the *Taper Object*. The *Taper Object* can only be a curve.
    Editing the Handles and Control Points of the *Taper Object* will cause the original object to change shape.
-Map Taper
-   Map taper to the beveled section of the curve.
 
 
 Bevel
