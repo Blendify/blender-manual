@@ -8,4 +8,4 @@
 
    introduction.rst
    toolbar/index.rst
-   tools/index.rst
+   brush.rst
