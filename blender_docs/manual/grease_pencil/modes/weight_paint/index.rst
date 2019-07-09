@@ -8,17 +8,5 @@
 
    introduction.rst
    toolbar/index.rst
-   tools/index.rst
-
-
-Weight Menu
-===========
-
-.. toctree::
-   :maxdepth: 2
-
-   normalize_all.rst
-   normalize.rst
-   invert.rst
-   smooth.rst
-   generate_weight.rst
+   tools/brush.rst
+   weights_menu.rst 

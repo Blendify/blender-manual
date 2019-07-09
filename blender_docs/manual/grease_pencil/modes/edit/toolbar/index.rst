@@ -37,4 +37,3 @@ Shear :kbd:`Shift-Ctrl-Alt-S`
 
 To Sphere :kbd:`Shift-Alt-S`
    Move selected points outward in spherical shape around selected strokes center.
-
