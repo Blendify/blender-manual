@@ -1,8 +1,8 @@
 .. _gpencil_edit-toolbar-index:
 
-*******
-Toolbar
-*******
+**************
+Editing Tools
+**************
 
 Grease Pencil edit tools:
 
@@ -23,14 +23,18 @@ Grease Pencil edit tools:
 Cursor
    Change the location of the 3D Cursor.
 
-:ref:`Extrude <tool-grease-pencil-edit-extrude>`
-   TODO2.8.
+Extrude :kbd:`E`
+   Extrusion tools duplicate points, while keeping the new geometry connected with the original points.
 
-:ref:`Radius <tool-grease-pencil-edit-radius>`
-   TODO2.8.
+Radius :kbd:`Alt-S`
+   Expand or contract the thickness radius of the selected points.
 
-:ref:`Bend <tool-grease-pencil-edit-bend>`
-   TODO2.8.
+Bend :kbd:`Shift-W`
+   Bend selected points between the 3D cursor and the mouse/pen.
 
-:ref:`Shear <tool-grease-pencil-edit-shear>`
-   TODO2.8.
+Shear :kbd:`Shift-Ctrl-Alt-S`
+   Shear selected points along the horizontal or vertical screen axis.
+
+To Sphere :kbd:`Shift-Alt-S`
+   Move selected points outward in spherical shape around selected strokes center.
+
