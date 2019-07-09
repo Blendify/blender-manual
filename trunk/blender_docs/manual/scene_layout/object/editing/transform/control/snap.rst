@@ -85,7 +85,7 @@ Snap Element
 
    :Mode:      Object, Edit, and Pose Mode
    :Header:    :menuselection:`Snap Element`
-   :Hotkey:    :kbd:`Shift-Ctrl-Tab`
+   :Hotkey:    :kbd:`Ctrl-Shift-Tab`
 
 .. figure:: /images/scene-layout_object_editing_transform_control_snap_element-menu.png
    :align: right
@@ -112,6 +112,10 @@ Volume
       In this context the grid does not mean the visual grid cue displayed.
       Snapping will use the resolution of the displayed grid,
       but all transformations are relative to the initial position (before the snap operation).
+
+.. tip::
+
+   Multiple snapping modes can be enabled at once by :kbd:`Shift-LMB` the different snapping elements.
 
 
 Snap Target
