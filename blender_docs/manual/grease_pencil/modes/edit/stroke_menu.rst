@@ -112,8 +112,8 @@ The new points stay connecting by an edit line to the original points.
 
 .. note::
 
-   If you extrude intermediate points in the strokes, a new stroke will be created.
-   Since *Grease Pencil* strokes can only have one start an end point.
+   Since *Grease Pencil* strokes can only have one start an end point,
+   a new stroke will be created when extrude intermediate points in the strokes.
 
 
 Duplicating
@@ -260,6 +260,9 @@ Adaptive
    Factor
       Controls the amount of recursively simplifications applied by the algorithm.
 
+Separating
+==========
+
 Trim 
 -----
 
@@ -282,9 +285,6 @@ Trims selected stroke to first loop or intersection.
           :width: 320px
 
           Result of trim operation.
-
-Separating
-==========
 
 Separate
 --------
@@ -548,7 +548,7 @@ Boundary strokes
    :Menu:      :menuselection:`Stroke --> Clean Up --> Boundary Strokes, Boundary Strokes All Frames`
 
 Removes boundary strokes used by the Fill Tool.
-See :doc:`Fill Tool </grease_pencil/modes/draw/tools/fill>` for more information.
+See :doc:`Fill Tool </grease_pencil/modes/draw/tool_settings/fill>` for more information.
 
 Mode
    Active Frame Only
