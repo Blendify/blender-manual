@@ -1,7 +1,7 @@
 
-#################
+##################
   Tools Settings
-#################
+##################
 
 .. toctree::
    :maxdepth: 2
@@ -16,8 +16,9 @@
    box.rst
    circle.rst
 
+
 Brushes
-========
+=======
 
 .. toctree::
    :maxdepth: 2
@@ -25,4 +26,3 @@ Brushes
    brushes/draw_brush.rst
    brushes/fill_brush.rst
    brushes/erase_brush.rst
-

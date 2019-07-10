@@ -23,12 +23,12 @@ The vertices of and object are stored as an array of coordinates.
 
 .. tip::
 
-   Do not mistake the :doc:`Object Origin </scene_layout/object/origin>` for a vertex.
+   Do not mistake the :doc:`object origin </scene_layout/object/origin>` for a vertex.
    It may look similar, but it is bigger and cannot be selected.
 
    .. figure:: /images/modeling_meshes_structure_cube-example.png
 
-      The vertex is labeled as "A"; the object's Origin Point is labeled as "B".
+      The vertex is labeled as "A"; the object's origin dot is labeled as "B".
 
 
 Edges

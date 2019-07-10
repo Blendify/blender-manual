@@ -16,17 +16,17 @@ The Erase tool erase already drawn strokes.
 Usage
 =====
 
+Selecting a Brush
+-----------------
 
-Selecting Brush
----------------
-
-On the topbar select the brush to use with the tool.
+In the Topbar select the brush to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.
    Erase tool uses *Erase Brushes* types (soft, point and stroke).
 
-For more information about erase brushes see: :doc:`Erase Brush </grease_pencil/modes/draw/brushes/erase_brush>`
+For more information about erase brushes see:
+:doc:`Erase Brush </grease_pencil/modes/draw/tool_settings/brushes/erase_brush>`
 
 
 Soft Erasing
@@ -34,7 +34,7 @@ Soft Erasing
 
 - Select an erase brush of type Soft/Hard.
 
-- Adjust brush settings
+- Adjust brush settings.
 
 Radius
    The radius of the brush in pixels.
@@ -44,7 +44,7 @@ Radius
 
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
-      Occlude Eraser (Overlapping squares icon)
+      Occlude Eraser (overlapping squares icon)
          Erase only strokes visible and not occluded by geometry.
 
 Strength
@@ -62,7 +62,7 @@ Affect Stroke Strength
 Affect Stroke Thickness
    Amount of deletion of stroke thickness while erasing.
 
-- Click and hold :kbd:`LMB` or use the pen tip to delete strokes on the viewport.
+- Click and hold :kbd:`LMB` or use the :kbd:`Pen` tip to delete strokes on the viewport.
 
 .. list-table::
 
@@ -87,17 +87,17 @@ Point Erasing
 
 - Select an erase brush of type Point.
 
-- Adjust brush settings
+- Adjust brush settings.
 
 Radius
    Radius of the brush in pixels.
 
    Use Pressure (pressure sensitivity icon)
       Uses stylus pressure to control how strong the effect is.
-   Occlude Eraser (Overlapping squares icon)
+   Occlude Eraser (overlapping squares icon)
       Erase only strokes visible and not occluded by geometry.
 
-- Click and hold :kbd:`LMB` or use the pen tip to delete strokes on the viewport.
+- Click and hold :kbd:`LMB` or use the :kbd:`Pen` tip to delete strokes on the viewport.
 
 .. list-table::
 
@@ -122,17 +122,17 @@ Stroke Erasing
 
 - Select an erase brush of type Stroke.
 
-- Adjust brush settings
+- Adjust brush settings.
 
 Radius
    Radius of the brush in pixels.
 
    Use Pressure (pressure sensitivity icon)
       Uses stylus pressure to control how strong the effect is.
-   Occlude Eraser (Overlapping squares icon)
+   Occlude Eraser (overlapping squares icon)
       Erase only strokes visible and not occluded by geometry.
 
-- Click and hold :kbd:`LMB` or use the pen tip to delete strokes on the viewport.
+- Click and hold :kbd:`LMB` or use the :kbd:`Pen` tip to delete strokes on the viewport.
 
 .. list-table::
 

@@ -1,3 +1,4 @@
+
 ***********
 Text Layout
 ***********
@@ -5,8 +6,8 @@ Text Layout
 Text in Blender can be laid out in some relatively advanced ways,
 defining columns or blocks of text, using different alignments, and so on.
 
-Those features are similar in concept to what you can find in DTP software
-(like `scribus <https://www.scribus.net/>`__), although at a very basic level currently.
+Those features are similar in concept to what you can find in :abbr:`DTP (DeskTop Publishing)` software
+(like `Scribus <https://www.scribus.net/>`__), although at a very basic level currently.
 
 
 Paragraph
@@ -36,7 +37,7 @@ Horizontal Alignment
       Aligns text to the right of the frames when using them,
       else uses the origin of the *Text* object as the ending point of the text (which grows to the left).
    Justify
-      Only flushes a line when it is terminated by a word-wrap (**not** by a new-line),
+      Only flushes a line when it is terminated by a word-wrap (**not** by a newline),
       and uses *white-space* instead of *character spacing* (kerning) to fill lines.
    Flush
       Always flushes the line, even when it is still being typed-in.
@@ -50,6 +51,7 @@ Vertical Alignment
       - With no text box, aligns the actual base-line of the text to the origin of the object, and grows to the bottom.
 
       .. note::
+
          That difference of reference point in the first line depending on usage of boxes or not is indeed confusing...
 
    Top
@@ -73,7 +75,7 @@ Spacing
 Character Spacing
    A factor by which space between each character (kerning) is scaled in width.
 
-   In *Edit* mode in the *3D View*, you can also control individual kerning
+   In Edit Mode in the *3D View*, you can also control individual kerning
    at text cursor position by pressing :kbd:`Alt-Left` / :kbd:`Alt-Right` to decrease/increase it.
 Word Spacing
    A factor by which white-space between words is scaled in width.
@@ -81,7 +83,7 @@ Line Spacing
    A factor by which the vertical space between lines is scaled.
 
 Offset X/Y
-   These settings control the X and Y offset of the text position withing the object.
+   These settings control the X and Y offset of the text position within the object.
    This applies relatively to the object's origin, either to the whole text or, when using text boxes, to each frame.
 
 
@@ -108,7 +110,7 @@ Add Textbox
    Inserts a new frame, just after the current one (in text flow order).
    The new frame will have the same size and position as the selected one.
 
-Delete (X icon)
+Delete ``X``
    Delete the current frame.
 
 Overflow
@@ -124,12 +126,13 @@ Overflow
       Hide the end of the text that does not fit into the available space.
 
       .. note::
-         It will only truncate in *Object* mode, in *Edit* one the whole text remains visible (and overflows as needed).
+
+         It will only truncate in *Object Mode*, in *Edit Mode* the whole text remains visible (and overflows as needed).
 
 Size X/Y
    Specifies the width and height of the text box, if set to **zero** no word-wrap happens
    (it is ignored, and the whole text box system is disabled if all are set to a null size).
-   
+
 Offset X/Y
    Controls the *X* and *Y* offset of the frame, i.e. its position.
 

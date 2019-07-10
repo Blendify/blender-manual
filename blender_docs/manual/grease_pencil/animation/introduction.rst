@@ -10,7 +10,7 @@ The main goal of *Grease Pencil* is to offer a 2D animation tools full immersed 
 
 .. figure:: /images/grease-pencil_animation_introduction_example.png
 
-   Sample animation showing *Grease Pencil* Object keyframes in the Dope sheet with onion skinning enabled.
+   Sample animation showing *Grease Pencil* Object keyframes in the Dope Sheet with onion skinning enabled.
 
 In Blender, *Grease Pencil* Objects can be animated in many ways:
 
@@ -18,7 +18,7 @@ Moving as a whole object
    Changing their position, orientation or size in time;
 
 Drawing frame by frame
-   Drawing one frame at a time (traditional animation)
+   Drawing one frame at a time (traditional animation).
 
 Deforming them
    Animating their points;
@@ -27,20 +27,21 @@ Inherited animation
    Causing the object to move based on the movement of another object
    (e.g. its parent, hook, armature, etc.). Useful for cut-out animation for example.
 
-For a complete overview of animation in Blender please refer to the 
-:doc:`Animation & Rigging </animation/index>` chapter.
+For a complete overview of animation in Blender please refer to
+the :doc:`Animation & Rigging </animation/index>` chapter.
+
 
 2D Traditional Animation
-=========================
+========================
 
 Keyframes
 ---------
 
-Traditional animation in *Grease Pencil* is achieved with the use of 
-:doc:`keyframes </animation/keyframes/introduction>` 
+Traditional animation in *Grease Pencil* is achieved with the use of
+:doc:`keyframes </animation/keyframes/introduction>`
 that hold the strokes information in a particular frame.
 
-Every time you create a stroke in *Grease Pencil* Object Draw Mode 
+Every time you create a stroke in *Grease Pencil* Object Draw Mode
 a new keyframe is added at the current frame on the active channel.
 
 .. note::
@@ -54,8 +55,9 @@ section for more information.
 There are also several tools on the Stroke Menu to work with Keyframes and strokes.
 See :doc:`Animation tools </grease_pencil/animation/tools>` for more information.
 
+
 Onion Skinning
----------------
+--------------
 
 One key element in traditional animation is the use of onion skinning.
 *Grease Pencil* offer a lot of flexibility and options for this tool.
@@ -98,28 +100,29 @@ Multiframe
    See :doc:`Multiframe </grease_pencil/multiframe>` for more information.
 
 Interpolate
-   When you are animating simple shapes with strokes that have the same amount of points, you can use the
-   interpolate tool to automatically add new breakdowns keyframes.
+   When you are animating simple shapes with strokes that have the same amount of points,
+   you can use the Interpolate tool to automatically add new breakdowns keyframes.
    See :doc:`Interpolation </grease_pencil/animation/interpolation>` for more information.
    
 
+
 Examples
-=========
+========
 
 Traditional Animation
-----------------------
+---------------------
 
-This example shows you how to animate a bouncing ball 
-with traditional 2D animation technique and *Grease Pencil*.
+This example shows you how to animate a bouncing ball
+with a traditional 2D animation technique and *Grease Pencil*.
 
 First, go to menu :menuselection:`File --> New --> 2D Animation` to start with a new 2D animation template.
-The template is ready to quick start your animation with a Grease Pencil object already created, onion skinning activated
-and using the camera view.
+The template is ready to quick start your animation with a Grease Pencil object already created,
+onion skinning activated and using the camera view.
 
-#.   Set the range of the animation in the timeline from 1 to 24.
-#.   On the 3D view draw a ball on the upper left corner with the Draw Tool (extreme).
+#.   Set the range of the animation in the Timeline from 1 to 24.
+#.   On the 3D View draw a ball on the upper left corner with the Draw Tool (extreme).
 #.   Move to frame 12 and draw a squashed ball in the bottom center (breakdown).
-#.   Move to frame 24 and draw a ball in the top right corner of the 3D view (extreme).
+#.   Move to frame 24 and draw a ball in the top right corner of the 3D View (extreme).
 #.   Keep drawing all the inbetweens frames you want using the onion skinning ghost as reference.
 
 To test the animation, press :kbd:`Spacebar` to play.

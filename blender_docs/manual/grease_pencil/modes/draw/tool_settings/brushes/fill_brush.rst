@@ -11,7 +11,7 @@ you can create many brushes, each with unique settings
 to obtain different result when filling areas.
 
 
-Common options
+Common Options
 ==============
 
 .. figure:: /images/grease-pencil_modes_draw_brushes_fill-brush-data-block.png

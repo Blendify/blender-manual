@@ -14,7 +14,7 @@ Brush
 Radius
    The radius defines the area of influence of the brush.
 Strength
-   This is the amount of paint to be applied per brush stroke.   
+   This is the amount of paint to be applied per brush stroke.
 Use Falloff
    When enabled, use Strength falloff for the brush.
    Brush Strength decays with the distance from the center of the brush.

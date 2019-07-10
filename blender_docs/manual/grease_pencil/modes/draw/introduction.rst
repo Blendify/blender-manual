@@ -24,18 +24,18 @@ and a circle with the same color as the active material will appear and
 follow the location of the cursor in the 3D View.
 
 To create new strokes you have to select one of the drawing tools in the Toolbar.
-The most common one is the :doc:`Draw tool </grease_pencil/modes/draw/tools/draw>`
+The most common one is the :doc:`Draw tool </grease_pencil/modes/draw/tools>`
 for free-hand drawings but there are many other tools for drawing, filling areas and erasing strokes.
 There are also some tools to create primitives shapes like lines, arcs, curves, boxes and circles.
 
-See :doc:`Toolbar </grease_pencil/modes/draw/toolbar/index>` for more details.
+See :doc:`Toolbar </grease_pencil/modes/draw/tools>` for more details.
 
 When drawing, the final appearance of the strokes is the result of the combination of the brush
 and material selected for the tool.
 
 .. TODO 2.8: Sample comparison between brushes and the same brushes with material applied.
 
-See :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
+See :doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`
 and :doc:`Materials </grease_pencil/materials/introduction>`
 for more information about setting up drawing brushes and materials.
 
@@ -75,6 +75,8 @@ Different Guides types can be activated to assist you when drawing new strokes.
 
 See :doc:`Guides </grease_pencil/modes/draw/guides>` for more information.
 
+
+.. TODO2.8 fix broken link additive drawing
 
 Drawing Options
 ===============

@@ -1,8 +1,8 @@
 .. _gpencil_edit-toolbar-index:
 
-**************
+*************
 Editing Tools
-**************
+*************
 
 Grease Pencil edit tools:
 

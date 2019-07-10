@@ -27,7 +27,7 @@ Selecting & Editing
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D View, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see :ref:`modeling-text-character`) -- note however, that most Blender hotkeys you know
-in *Edit* mode do not exist for texts. The second place is the *Properties* editor, especially the *Font* tab.
+in Edit Mode do not exist for texts. The second place is the Properties editor, especially the *Font* tab.
 
 
 Selecting & Cursor
@@ -38,19 +38,19 @@ Selecting & Cursor
 
    Text in Edit mode.
 
-In *Edit* mode, your text has a white cursor, and as in any text editor,
+In Edit Mode, your text has a white cursor, and as in any text editor,
 it determines where new chars will be inserted.
 
-Next/Previous Character
-   You can move the cursor with the arrow keys :kbd:`Left` or :kbd:`Right`.
-Next/Previous Word
-   To move the cursor on a word's boundary, use :kbd:`Ctrl-Left` or :kbd:`Ctrl-Right`.
-Line Begin/End
-   :kbd:`Home` and :kbd:`End` move the cursor to the beginning and end of a line respectively.
-Next/Previous Line
-   To jump between lines, use :kbd:`Up` or :kbd:`Down`.
-Next/Previous Page
-   To jump back/forward ten lines at a time, use :kbd:`PageUp` or :kbd:`PageDown`.
+Next/Previous Character :kbd:`Left`/ :kbd:`Right`
+   You can move the cursor with the arrow keys.
+Next/Previous Word :kbd:`Ctrl-Left`/ :kbd:`Ctrl-Right`
+   To move the cursor on a word's boundary.
+Line Begin/End :kbd:`Home`/ :kbd:`End`
+    Move the cursor to the beginning and end of a line respectively.
+Next/Previous Line :kbd:`Up`/ :kbd:`Down`
+   To jump between lines.
+Next/Previous Page :kbd:`PageUp`/ :kbd:`PageDown`
+   To jump back/forward ten lines at a time.
 
 Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic style...
@@ -68,17 +68,17 @@ Basic
 Editing *Text* is similar to using a standard text editor but is not as
 full-featured and has some differences:
 
-Exit *Edit* mode
+Exit Edit Mode
    :kbd:`Tab` does not insert a tab character in the text,
-   but rather enters and exits *Edit* mode, as with other object types.
-Copy
-   To copy text to the buffer, use :kbd:`Ctrl-C` or the matching entry in the *Edit* menu.
-Cut and Copy
-   To cut and copy text to the buffer, use :kbd:`Ctrl-X` or the matching entry in the *Edit* menu
-Paste
-   To paste text from the buffer, use :kbd:`Ctrl-V` or the matching entry in the *Edit* menu
-Delete all text
-   To completely erase or delete all text, use :kbd:`Ctrl-Backspace`.
+   but rather enters and exits Edit Mode, as with other object types.
+Copy :kbd:`Ctrl-C`
+   To copy text to the buffer, use the shortcut or the matching entry in the *Edit* menu.
+Cut and Copy :kbd:`Ctrl-X`
+   To cut and copy text to the buffer, use the shortcut or the matching entry in the *Edit* menu.
+Paste :kbd:`Ctrl-V`
+   To paste text from the buffer, use the shortcut or the matching entry in the *Edit* menu.
+Delete all text :kbd:`Ctrl-Backspace`
+   Completely erase or delete all text.
 
 The text buffer is in sync with the desktop clipboard.
 But if it is used within Blender the text formatting will be copied as well.
@@ -142,7 +142,7 @@ You can insert text in two ways: from the internal text buffer
 (as described above), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
-This will bring up a :doc:`File Browser</editors/file_browser>` for navigating to a valid UTF-8 file.
+This will bring up a :doc:`File Browser </editors/file_browser>` for navigating to a valid UTF-8 file.
 As usual, be careful that the file does not have too many characters,
 as interactive response will slow down.
 
@@ -160,8 +160,8 @@ Font Style
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit
-   :menu:      :menuselection:`3D View --> Font`
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`3D View --> Font`
    :Panel:     :menuselection:`Properties --> Text --> Font`
 
 To apply the *Bold* / *Italics* / *Underline* / *Small Caps* attribute to a set of characters,
@@ -186,7 +186,7 @@ Select one for each font style.
 
 To load a different *Font*, click one of the *Load* buttons
 in the *Font* panel and navigate to a font file.
-The :doc:`File Browser</editors/file_browser>` will give all valid fonts a capital "F" icon.
+The :doc:`File Browser </editors/file_browser>` will give all valid fonts a capital "F" icon.
 
 If you select a font that is unsupported by Blender, you will get the error ``Not a valid font``.
 
@@ -212,7 +212,7 @@ found in the *Font* panel.
 
 .. seealso::
 
-   The :ref:`Font panel<modeling-text-character>` description.
+   The :ref:`Font panel <modeling-text-character>` description.
 
 
 Converting Text Objects
@@ -231,13 +231,13 @@ It is also possible to paste from the clipboard or a file from the *Edit* menu, 
 Converting to a Mesh or Curve
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In *Object* mode, it is possible to convert a text object to a mesh or curve one, see :ref:`object-convert-to`.
+In Object Mode, it is possible to convert a text object to a mesh or curve one, see :ref:`object-convert-to`.
 
 .. tip::
 
    The topology of the result is usually a bit messy,
    so it may be useful to use a *Limited Dissolve* deletion,
-   or apply a :doc:`Remesh modifier</modeling/modifiers/generate/remesh>` at a low threshold, to clean up your mesh.
+   or apply a :doc:`Remesh modifier </modeling/modifiers/generate/remesh>` at a low threshold, to clean up your mesh.
 
 
 Assigning Materials
@@ -249,8 +249,8 @@ Assigning Materials
    :Mode:      Edit
    :Panel:     :menuselection:`Properties editor --> Materials`
 
-Each character can have a different *Material index* in order to have different
-materials on different characters.
+Each character can have a different *Material index* in order to have different materials
+on different characters.
 
 You can assign indices either as you type, or after by selecting blocks of text and
 clicking on the *Assign* button in the *Materials* panel.
