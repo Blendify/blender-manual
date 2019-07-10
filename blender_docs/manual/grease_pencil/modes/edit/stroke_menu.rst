@@ -54,7 +54,7 @@ Tools
    :Panel:     :menuselection:`Tool Shelf --> Tools --> Stroke Tools`
 
 The *Bend*, *Shear*, *To Sphere*, *Extrude* and *Shrink fatten* transform tools are described
-in the :doc:`Editing tool </grease_pencil/modes/edit/toolbar/index>` section.
+in the :doc:`Editing tool </grease_pencil/modes/edit/tools>` section.
 
 
 Mirror
@@ -109,6 +109,11 @@ Extrude points
 
 Extrudes points by duplicating the selected points, which then can be moved.
 The new points stay connecting by an edit line to the original points.
+
+.. note::
+
+   If you extrude intermediate points in the strokes, a new stroke will be created.
+   Since *Grease Pencil* strokes can only have one start an end point.
 
 
 Duplicating
@@ -266,7 +271,17 @@ Trim
    
 Trims selected stroke to first loop or intersection.
 
-.. TODO: Image sample before and after trim operation
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_trim-1.png
+          :width: 320px
+
+          Original stroke.
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_trim-2.png
+          :width: 320px
+
+          Result of trim operation.
 
 Separating
 ==========
@@ -384,6 +399,7 @@ Flip Direction
 Reverse the direction of the points in the selected strokes
 (i.e. the start point will become the end one, and vice versa).
 
+
 Layer and Materials
 ===================
 
@@ -474,7 +490,7 @@ Toggle Caps
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Toggle Caps`   
 
-Toggle the style of the caps in the strokes end.
+Toggle ending cap styles of the stroke.
 
 Default
    Sets stroke start and end points to rounded (default).
@@ -488,7 +504,23 @@ Start
 End
    Toggle stroke end point cap to flat or rounded.
 
-.. TODO: Image showing different stroke caps.
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_cap-1.png
+          :width: 200px
+
+          Stroke ending with rounded caps.
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_cap-2.png
+          :width: 200px
+
+          Stroke ending with flat caps.
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_cap-3.png
+          :width: 200px
+
+          Stroke ending with combined caps.
+
 
 Cleaning Up
 ============
@@ -536,7 +568,7 @@ Reproject Strokes
 
 Sometimes you drew your strokes unintentionally in different locations in the 3D space 
 but they look right from a certain plane or from the camera view. 
-You can use Reproject Strokes to flatten all the strokes from a selected viewpoint.
+You can use Reproject Strokes to flatten all the selected strokes from a certain viewpoint.
 
 Front
    Reproject selected strokes into the front plane (X-Z).
@@ -551,7 +583,27 @@ Surface
 Cursor
    Reproject selected strokes into 3D cursor rotation.
 
-.. TODO: Sample image of drawing before and after stroke reprojection.
+.. list-table::
+
+   * - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-1.png
+          :width: 200px
+
+          Original drawing from the front view.          
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-2.png
+          :width: 200px
+          
+          Original drawing in the 3D view.
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-3.png
+          :width: 200px
+
+          Strokes reprojected into the front plane to fix strokes misalignment.
+
+     - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-1.png
+          :width: 200px
+
+          Drawing after reprojection operation from the front view.
 
 Deleting
 =========

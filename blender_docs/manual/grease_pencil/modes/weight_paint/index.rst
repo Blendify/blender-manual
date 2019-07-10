@@ -7,6 +7,6 @@
    :maxdepth: 2
 
    introduction.rst
-   toolbar/index.rst
-   tools/brush.rst
-   weights_menu.rst 
+   tools.rst
+   tool_settings/brush.rst
+   weights_menu.rst
