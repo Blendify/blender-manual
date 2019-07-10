@@ -100,7 +100,8 @@ Multiframe
 Interpolate
    When you are animating simple shapes with strokes that have the same amount of points, you can use the
    interpolate tool to automatically add new breakdowns keyframes.
-   See :ref:`Interpolation <animation_interpolation>` for more information.
+   See :doc:`Interpolation </grease_pencil/animation/interpolation>` for more information.
+   
 
 Examples
 =========
