@@ -280,8 +280,9 @@ a.external {color:#656AE0;}
 }
 .descr {
 	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
-	margin: 15px; padding: 0px;
-	transition: width 0.7s ease-out; -webkit-transition: width 0.7s ease-out;
+	margin: 10px 15px;
+	border-radius: 3px;
+	user-select: none;
 }
 .descr div.figure{margin-bottom: 18px}
 .descr dl {margin-bottom: 10px}
@@ -291,18 +292,22 @@ a.external {color:#656AE0;}
 	margin-bottom: 10px;
 }
 .descr dl dt a em, .descr dl dt a span{
+	padding: 0px 15px;
 	font-weight: normal;
 	font-style: normal;
 }
 .descr dl dd{
+	padding: 0px 15px;
 	font-style: normal;
-	margin: 0px; padding: 0px;
+	margin: 0px;
 }
-.descr .figure img{
-	box-shadow: 2px 2px 3px rgba(0,0,0,0.5);
-	transition: box-shadow 0.33s;
+.descr {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+	transition: box-shadow 0.3s ease-in-out;
 }
-.descr .figure img:hover{box-shadow: none}
+.descr:hover {
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
 
 /* End section description. */
 
