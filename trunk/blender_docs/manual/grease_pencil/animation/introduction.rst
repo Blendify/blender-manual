@@ -65,7 +65,7 @@ See :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` for more in
 Animation Options
 =================
 
-In draw Mode there are two option related to animation workflow that you can use.
+In *Draw Mode* there are two option related to animation workflow that you can use.
 
 .. figure:: /images/grease-pencil_animation_introduction_drawing-options.png
 
@@ -82,6 +82,25 @@ Add Weight Data
 
 Additive Drawing
    When creating new frames, the strokes from the previous/active frame are include as basis for the new one.
+
+
+In *Edit Mode* there are two option related to animation workflow that you can use.
+
+.. figure:: /images/grease-pencil_animation_introduction_edit-options.png
+
+   Multiframe edition.
+
+Multiframe
+   Sometimes you may need to modify several frames at the same time with the edit tools,
+   for example to repositioning drawings in the animation.
+
+   You can activate multiframe edition with the Multiframe button next to the modes selector (faded lines icon).
+   See :doc:`Multiframe </grease_pencil/multiframe>` for more information.
+
+Interpolate
+   When you are animating simple shapes with strokes that have the same amount of points, you can use the
+   interpolate tool to automatically add new breakdowns keyframes.
+   See :ref:`Interpolation <animation_interpolation>` for more information.
 
 Examples
 =========

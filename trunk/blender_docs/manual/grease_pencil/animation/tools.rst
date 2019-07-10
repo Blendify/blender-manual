@@ -4,7 +4,7 @@ Animation Tools
 ***************
 
 Insert Blank Keyframe
-----------------------
+======================
 
 .. admonition:: Reference
    :class: refbox
@@ -20,7 +20,7 @@ All Layers
    When enabled, Blank keyframe will be created on all layers, not only the active one.
 
 Delete Frame(s)
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -31,7 +31,7 @@ Delete Frame(s)
 Deletes the last keyframe in the Dope sheet or the current keyframe if you are on one.
 
 Duplicate 
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -48,6 +48,8 @@ Mode
    All
       Duplicate all the layers.
 
+.. _animation_interpolation:
+
 Interpolation
 =============
 
@@ -58,7 +60,7 @@ Interpolate
    :class: refbox
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Duplicate Active Frame, Duplicate All Layers`
+   :Menu:      :menuselection:`Stroke --> Animation --> Interpolate --> Interpolate`
    :Hotkey:    :kbd:`Ctrl-Alt-E`
 
 Interpolate strokes between previous and next keyframes adding a new keyframe.
@@ -72,7 +74,7 @@ Sequence
    :class: refbox
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Duplicate Active Frame, Duplicate All Layers`
+   :Menu:      :menuselection:`Stroke --> Animation --> Interpolate --> Sequence`
    :Hotkey:    :kbd:`Shift-Ctrl-E`
 
 Interpolate strokes between previous and next keyframes adding multiple keyframes.
