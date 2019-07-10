@@ -84,4 +84,4 @@ Symmetrize
 to generate cleaner topology and define sharp features.
 *Topology Rake* can have a severe performance impact so it works best on low-poly meshes.
 
-.. figure:: /images/sculpt-paint_sculpting_adaptive_topology-rake.png
+.. figure:: /images/sculpt-paint_sculpting_adaptive_topology-rake.jpg
