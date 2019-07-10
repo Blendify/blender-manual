@@ -27,16 +27,16 @@ And moreover, it can use any objects existing in the current blend-file as lette
 with various advanced layout options, like justifying and frames.
 By default, letters are just flat filled surfaces, exactly like any closed 2D curve.
 But, just like *Curves*, you can extrude them,
-and apply :doc:`modifiers</modeling/modifiers/introduction>` to them
-(to make them :doc:`follow a curve</modeling/modifiers/deform/curve>` e.g.).
+and apply :doc:`modifiers </modeling/modifiers/introduction>` to them
+(e.g. to make them :doc:`follow a curve </modeling/modifiers/deform/curve>`).
 
 .. tip::
 
    You can convert a *Text* object, either to a curve, or directly to a mesh,
-   using :ref:`object-convert-to` in *Object* mode.
+   using :ref:`object-convert-to` in Object Mode.
 
 .. note::
 
-   A maximum of 50000 characters is allowed per text object. However,
+   A maximum of 50,000 characters is allowed per text object. However,
    be forewarned that the more characters a single text object has,
    the slower the object will respond interactively.

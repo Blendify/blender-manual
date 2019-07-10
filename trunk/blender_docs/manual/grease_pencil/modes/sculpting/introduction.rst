@@ -35,7 +35,7 @@ Sculpting Options
    General drawing options.
 
 Selection Mask (stroke mask icon)
-   *Sculpt Mode* in *Grease Pencil* allows to select strokes to restrict the effect 
+   *Sculpt Mode* in *Grease Pencil* allows to select strokes to restrict the effect
    of the sculpting tools to only certain areas of your drawing.
 
    You can use the selection tools in the Toolbar for quick selections.

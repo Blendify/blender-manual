@@ -16,8 +16,8 @@ The Circle tool create oval shapes.
 Usage
 =====
 
-Selecting Brush and Material
-----------------------------
+Selecting a Brush and Material
+------------------------------
 
 In the Topbar select the brush and material to use with the tool.
 
@@ -34,7 +34,8 @@ Material
       The final appearance of the strokes is a combination of the brush and material used,
       binding the material to the brush gives more control and avoids a lack of coordination between the two.
 
-For more information about brushes and materials see: :doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
+For more information about brushes and materials see:
+:doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`
 and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
@@ -43,7 +44,7 @@ Common Brush Options
 
 You can configure the brush main settings exposed on the topbar for convenience.
 For complete draw brushes configuration and settings see:
-:doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`.
+:doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`.
 
 Radius
    The radius of the brush in pixels.
@@ -71,6 +72,7 @@ Thickness Profile
 
    Use Curve
       When enabled, the stroke use a curve profile to control the thickness along the line.
+
 
 Creating Circles
 ----------------

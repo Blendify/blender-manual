@@ -16,7 +16,6 @@ The Draw tool allows you to draw free-hand strokes.
 Usage
 =====
 
-
 Selecting a Brush and Material
 ------------------------------
 
@@ -37,8 +36,8 @@ Material
 
 
 For more information about brushes and materials see:
-:doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`
-and :doc:`Material </grease_pencil/materials/introduction>`
+:doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`
+and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
 Common Brush Options
@@ -46,7 +45,7 @@ Common Brush Options
 
 You can also configure the brush main settings exposed on the Topbar for convenience.
 For complete draw brushes configuration and settings see:
-:doc:`Draw Brush </grease_pencil/modes/draw/brushes/draw_brush>`.
+:doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`.
 
 Radius
    The radius of the brush in pixels.
@@ -114,6 +113,6 @@ Switching to the Erase Tool
 ---------------------------
 
 :kbd:`Ctrl-LMB` changes temporally to the active erase tool.
-see :doc:`Erase Tool </grease_pencil/modes/draw/tools/erase>` for more information.
+see :doc:`Erase Tool </grease_pencil/modes/draw/tool_settings/erase>` for more information.
 
 You can also use :kbd:`B` to delete all the points in the selected drawing area.

@@ -53,7 +53,7 @@ Input Samples
    Controls how often the input device is read to generate points on the stroke.
    Higher values give more precision (more points) but produce an irregular stroke,
    while lower values give less precision (fewer points) but produce a soften stroke.
-   (0 disabled extra input device samples).
+   (0 disabled extra input device samples.)
 
    You have to set up this value according to your input device to obtain
    the right balance between accuracy and softness for your strokes.

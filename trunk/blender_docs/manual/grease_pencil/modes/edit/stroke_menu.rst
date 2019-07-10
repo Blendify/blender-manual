@@ -7,7 +7,7 @@ Stroke Menu
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Strokes`   
+   :Menu:      :menuselection:`Strokes`
 
 This page covers many of the tools in the :menuselection:`Strokes` menu.
 These are tools that work primarily on strokes, however,
@@ -37,17 +37,19 @@ When in *Edit Mode*,
 :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`
 is also available for transformation actions.
 
+
 Transform Snapping
--------------------
+------------------
 
 Basic move, rotate and scale transformations for selected points/strokes.
 See :doc:`Move, Rotate, Scale Basics </modeling/meshes/editing/basics/move_rotate_scale>` for more information.
+
 
 Tools
 -----
 
 .. admonition:: Reference
-   :class: refbox       
+   :class: refbox
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Strokes --> Transform`
@@ -67,7 +69,7 @@ Mirror
    :Hotkey:    :kbd:`Ctrl-M`
 
 The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`.   
+:doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`.
 
 
 Snap
@@ -84,27 +86,27 @@ Snap
 also works with *Grease Pencil* components.
 
 
-Animation 
+Animation
 =========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode, Draw Mode
-   :Menu:      :menuselection:`Strokes --> Animation`, :menuselection:`Strokes --> Interpolation` 
+   :Menu:      :menuselection:`Strokes --> Animation`, :menuselection:`Strokes --> Interpolation`
 
 The animations and stroke interpolation tools are described
 in the :doc:`Animation </grease_pencil/animation/introduction>` section.
 
 
-Extrude points
+Extrude Points
 ==============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Stroke Tools --> Extrude`   
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Stroke Tools --> Extrude`
    :Hotkey:    :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be moved.
@@ -117,7 +119,7 @@ The new points stay connecting by an edit line to the original points.
 
 
 Duplicating
-============
+===========
 
 Duplicate
 ---------
@@ -130,11 +132,12 @@ Duplicate
    :Hotkey:    :kbd:`Shift-D`
 
 Duplicates the selected elements, without creating any connections
-with the rest of the strokes (unlike extrude, for example), 
+with the rest of the strokes (unlike extrude, for example),
 and places the duplicate at the location of the original.
 
-Copy 
------
+
+Copy
+----
 
 .. admonition:: Reference
    :class: refbox
@@ -144,6 +147,7 @@ Copy
    :Hotkey:    :kbd:`Ctrl-C`
 
 Copy the selected points/strokes to the clipboard.
+
 
 Paste
 -----
@@ -164,7 +168,7 @@ Type
 
 
 Subdividing and Smoothing
-==========================
+=========================
 
 Smooth
 ------
@@ -173,7 +177,7 @@ Smooth
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Smooth`   
+   :Menu:      :menuselection:`Stroke --> Smooth`
 
 Softens strokes by reducing the differences in the locations of the points along the line
 trying to maintain similar values that make the line fluid and smoother.
@@ -197,7 +201,7 @@ Strength
    When enabled, the operator affect the points strength (alpha).
 
 UVs
-   When enabled, the operator affect the UV rotation on the points.   
+   When enabled, the operator affect the UV rotation on the points.
 
 
 Subdivide
@@ -208,7 +212,7 @@ Subdivide
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Subdivide`
-   
+
 Subdivides the strokes by inserting points between the selected points.
 
 Number of Cuts
@@ -244,34 +248,35 @@ Simplify
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Simplify`
-   
-Reduce the amount of points in the strokes by 
+
+Reduce the amount of points in the strokes.
 
 Fixed
    Deletes alternated points in the strokes, except the start and end points.
 
    Steps
-     Number of times to repeat the procedure.
+      Number of times to repeat the procedure.
 
 Adaptive
-   Uses the RDP algorithm (Ramer-Douglas-Peucker algorithm) for points deletion. 
-   The algorithm try to obtain a similar line shape with fewer points.
+   Uses the RDP algorithm (Ramer-Douglas-Peucker algorithm) for points deletion.
+   The algorithm tries to obtain a similar line shape with fewer points.
 
    Factor
       Controls the amount of recursively simplifications applied by the algorithm.
 
+
 Separating
 ==========
 
-Trim 
------
+Trim
+----
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Trim`
-   
+
 Trims selected stroke to first loop or intersection.
 
 .. list-table::
@@ -286,6 +291,7 @@ Trims selected stroke to first loop or intersection.
 
           Result of trim operation.
 
+
 Separate
 --------
 
@@ -296,21 +302,22 @@ Separate
    :Menu:      :menuselection:`Stroke --> Separate`
    :Hotkey:    :kbd:`P`
 
-Separate the selected elements into a new *Grease Pencil* Object 
+Separate the selected elements into a new *Grease Pencil* object.
 
 Selected Points
-   Separate the selected points into a new *Grease Pencil* Object.
+   Separate the selected points into a new *Grease Pencil* object.
 
 Selected Strokes
-   Separate the selected strokes into a new *Grease Pencil* Object.
+   Separate the selected strokes into a new *Grease Pencil* object.
    If one point of a stroke is selected, the entire stroke will be separated.
 
 Active Layer
-   Separate all the strokes in the active layer into a new *Grease Pencil* Object.
+   Separate all the strokes in the active layer into a new *Grease Pencil* object.
    See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 
+
 Split
-------
+-----
 
 .. admonition:: Reference
    :class: refbox
@@ -319,8 +326,9 @@ Split
    :Menu:      :menuselection:`Stroke --> Split`
    :Hotkey:    :kbd:`V`
 
-Splits (disconnects) the selected points from the rest of the stroke. 
+Splits (disconnects) the selected points from the rest of the stroke.
 The separated points are left exactly at the same position as the original but belong to a new stroke.
+
 
 Merging
 =======
@@ -332,10 +340,11 @@ Merge
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Merge`   
+   :Menu:      :menuselection:`Stroke --> Merge`
 
 Combine all selected points into a unique stroke.
 All the selected points will be connected by new edit lines when needed to create the new stroke.
+
 
 Join
 ----
@@ -345,7 +354,7 @@ Join
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Join --> Join, Join and copy`
-   :Hotkey:    :kbd:`Ctrl-J`, :kbd:`Shift-Ctrl-J` 
+   :Hotkey:    :kbd:`Ctrl-J`, :kbd:`Shift-Ctrl-J`
 
 Join two or more strokes into a single one.
 
@@ -353,7 +362,7 @@ Type
    Join :kbd:`Ctrl-J`
       Join selected strokes by connecting points.
 
-   Join and copy :kbd:`Shift-Ctrl-J` 
+   Join and copy :kbd:`Shift-Ctrl-J`
       Join selected strokes by connecting points in a new stroke.
 
 Leave Gaps
@@ -383,18 +392,18 @@ Type
       Close or Open selected strokes as required.
 
 Create geometry
-    When enabled, points are added for closing the strokes. 
-    If disabled,  the operator act the same as Toggle Cyclic.
+   When enabled, points are added for closing the strokes.
+   If disabled,  the operator act the same as *Toggle Cyclic*.
 
 
 Flip Direction
-===============
+==============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Flip Direction`   
+   :Menu:      :menuselection:`Stroke --> Flip Direction`
 
 Reverse the direction of the points in the selected strokes
 (i.e. the start point will become the end one, and vice versa).
@@ -403,43 +412,45 @@ Reverse the direction of the points in the selected strokes
 Layer and Materials
 ===================
 
-Move to layer
+Move to Layer
 -------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Move to layer` 
+   :Menu:      :menuselection:`Stroke --> Move to Layer`
    :Hotkey:    :kbd:`M`
 
 
-Pop-up menu to move the stroke to a different layer.
-You can choose the layer to move the selected strokes 
+A pop-up menu to move the stroke to a different layer.
+You can choose the layer to move the selected strokes
 from a list of layers of the current *Grease Pencil* Object.
 You can also add a new layer to move the selected stroke.
 
+
 Assign Material
-----------------
+---------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Assign Material` 
+   :Menu:      :menuselection:`Stroke --> Assign Material`
 
 Changes the material linked to the selected stroke.
-You can choose the name of the material to be used by the selected stroke 
+You can choose the name of the material to be used by the selected stroke
 from a list of material of the current *Grease Pencil* Object.
 
-Arrange strokes
-================
+
+Arrange Strokes
+===============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Arrange Strokes`   
+   :Menu:      :menuselection:`Stroke --> Arrange Strokes`
 
 Change the drawing order of the strokes in the 2D layer.
 
@@ -465,7 +476,7 @@ Toggle Cyclic
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Toggle Cyclic`
 
-Toggles between an open stroke and closed stroke (Cyclic)
+Toggles between an open stroke and closed stroke (cyclic).
 
 Type
    Close all
@@ -478,17 +489,18 @@ Type
       Close or Open selected strokes as required.
 
    Create geometry
-      When enabled, points are added for closing the strokes like when using Close operator. 
+      When enabled, points are added for closing the strokes like when using Close operator.
       If disabled, the stroke is close without actual geometry.
 
+
 Toggle Caps
-============
+===========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Toggle Caps`   
+   :Menu:      :menuselection:`Stroke --> Toggle Caps`
 
 Toggle ending cap styles of the stroke.
 
@@ -523,9 +535,10 @@ End
 
 
 Cleaning Up
-============
+===========
 
 These tools are to help cleanup degenerate geometry on the strokes.
+
 
 Loose Points
 ------------
@@ -538,7 +551,8 @@ Loose Points
 
 Removes disconnected points.
 
-Boundary strokes
+
+Boundary Strokes
 ----------------
 
 .. admonition:: Reference
@@ -558,7 +572,7 @@ Mode
 
 
 Reproject Strokes
-------------------
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -566,16 +580,16 @@ Reproject Strokes
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Clean Up --> Reproject Strokes`
 
-Sometimes you drew your strokes unintentionally in different locations in the 3D space 
-but they look right from a certain plane or from the camera view. 
+Sometimes you may have drawn strokes unintentionally in different locations in the 3D space
+but they look right from a certain plane or from the camera view.
 You can use Reproject Strokes to flatten all the selected strokes from a certain viewpoint.
 
 Front
-   Reproject selected strokes into the front plane (X-Z).
+   Reproject selected strokes into the front plane (XZ).
 Side
-   Reproject selected strokes into the side plane (Y-Z).
+   Reproject selected strokes into the side plane (YZ).
 Top
-   Reproject selected strokes into the top plane (X-Y).
+   Reproject selected strokes into the top plane (XY).
 View
    Reproject selected strokes into the current view.
 Surface
@@ -588,11 +602,11 @@ Cursor
    * - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-1.png
           :width: 200px
 
-          Original drawing from the front view.          
+          Original drawing from the front view.
 
      - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-2.png
           :width: 200px
-          
+
           Original drawing in the 3D view.
 
      - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-3.png
@@ -605,8 +619,9 @@ Cursor
 
           Drawing after reprojection operation from the front view.
 
+
 Deleting
-=========
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -619,7 +634,7 @@ Options for the Erase pop-up menu:
 
 Points
    Deletes the selected points.
-   When only one point remains, there is no more visible stroke, 
+   When only one point remains, there is no more visible stroke,
    and when all points are deleted, the stroke itself is deleted.
 
 Strokes
@@ -640,5 +655,5 @@ Dissolve Unselect :kbd:`Ctrl-X`
    Deletes all the points that are not selected in the stroke without splitting the stroke.
    The remaining points in the strokes stay connected.
 
-Delete All Active Frames 
+Delete All Active Frames
    Deletes all the strokes at the current frame in all layers/channels.

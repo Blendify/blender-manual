@@ -35,7 +35,6 @@ Brush
 Types
 =====
 
-
 Soft/Hard
 ---------
 
@@ -50,7 +49,7 @@ Radius
 
       Use Pressure (pressure sensitivity icon)
          Uses stylus pressure to control how strong the effect is.
-      Occlude Eraser (Overlapping squares icon)
+      Occlude Eraser (overlapping squares icon)
          Erase only strokes visible and not occluded by geometry.
 
 Strength
@@ -79,7 +78,7 @@ Radius
 
    Use Pressure (pressure sensitivity icon)
       Uses stylus pressure to control how strong the effect is.
-   Occlude Eraser (Overlapping squares icon)
+   Occlude Eraser (overlapping squares icon)
       Erase only strokes visible and not occluded by geometry.
 
 
@@ -93,8 +92,9 @@ Radius
 
    Use Pressure (pressure sensitivity icon)
       Uses stylus pressure to control how strong the effect is.
-   Occlude Eraser (Overlapping squares icon)
+   Occlude Eraser (overlapping squares icon)
       Erase only strokes visible and not occluded by geometry.
+
 
 Display
 =======

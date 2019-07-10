@@ -16,8 +16,8 @@ The Fill tool is used to automatically fill closed strokes areas.
 Usage
 =====
 
-Selecting Brush and Material
-----------------------------
+Selecting a Brush and Material
+------------------------------
 
 On the Topbar select the brush and material to use with the tool.
 
@@ -34,9 +34,9 @@ Material
       The final appearance of the strokes is a combination of a brush and a material used,
       stick the material to the brush gives more control and avoid lack of coordination between the two.
 
-
-For more information about brushes and materials see: :doc:`Fill Brush </grease_pencil/modes/draw/brushes/fill_brush>`
-and :doc:`Material </grease_pencil/materials/introduction>`
+For more information about brushes and materials see:
+:doc:`Fill Brush </grease_pencil/modes/draw/tool_settings/brushes/fill_brush>`
+and :doc:`Material </grease_pencil/materials/introduction>`.
 
 
 Common Brush Options
@@ -44,7 +44,7 @@ Common Brush Options
 
 You can also configure the brush main settings exposed on the topbar for convenience.
 For complete fill brushes configuration and settings
-see: :doc:`Fill Brush </grease_pencil/modes/draw/brushes/fill_brush>`.
+see: :doc:`Fill Brush </grease_pencil/modes/draw/tool_settings/brushes/fill_brush>`.
 
 Leak Size
    Size in pixel to consider the leak closed.
@@ -126,7 +126,7 @@ Switch to Draw Tool
 
 Use :kbd:`Ctrl-LMB` to change temporary to the active draw tool.
 For example to manually cover small areas difficult to reach for the fill tool.
-see :doc:`Draw Tool </grease_pencil/modes/draw/tools/draw>` for more information.
+see :doc:`Draw Tool </grease_pencil/modes/draw/tool_settings/draw>` for more information.
 
 
 Fill Options

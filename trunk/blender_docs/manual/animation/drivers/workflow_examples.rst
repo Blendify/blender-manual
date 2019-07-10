@@ -20,7 +20,7 @@ In this example, the Y rotation of Object 2 will be driven by the X position of 
 
 Starting from a simple setup with two objects:
 
-#. Add a Driver to the *Rotation Y* property of the second object by :kbd:`RMB`-clicking it or with :kbd:`Ctrl-D`.
+#. Add a Driver to the *Rotation Y* property of the second object via the context menu or with :kbd:`Ctrl-D`.
 
    .. figure:: /images/animation_drivers_workflow-examples_transform-driver-1.png
 
@@ -69,9 +69,7 @@ Adding the function to the *Driver Namespace* allows it to be used from driver e
 
 The *Driver Namespace* has a list of built-in functions for use in driver expressions,
 as well as constants such as π and e.
-These can be inspected via the Python Console:
-
-.. code-block:: python
+These can be inspected via the Python Console::
 
    >>> bpy.app.driver_namespace[' <tab>
                                  acos']
@@ -84,9 +82,7 @@ These can be inspected via the Python Console:
 To add a new function to the *Driver Namespace*, the function itself needs to be implemented
 and then added to the ``bpy.app.driver_namespace``.
 
-#. Add the following to the Text Editor inside Blender and press *Run Script*.
-
-   .. code-block:: python
+#. Add the following to the Text Editor inside Blender and press *Run Script*. ::
 
       import bpy
 
@@ -96,7 +92,6 @@ and then added to the ``bpy.app.driver_namespace``.
 
       # Add function to driver_namespace
       bpy.app.driver_namespace['square'] = square
-
 
 #. Add a driver with a *Scripted Expression* such as ``square(frame)``.
 #. Observe the effect when scrubbing the timeline.

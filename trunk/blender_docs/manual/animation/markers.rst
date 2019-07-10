@@ -229,7 +229,8 @@ Show Pose Markers
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Action Editor and Shape Keys Editor
+   :Mode:      todo <2,8
+   :Editor:    Action Editor and Shape Keys Editor
    :Menu:      :menuselection:`Marker --> Show Pose Markers`
 
 Pose markers are only shown and editable in Action editor or Shape Keys editor by enabling

@@ -104,19 +104,19 @@ Face Strength
 Another way to affect normals is to set a *Face Strength* on the faces of the model.
 The Face Strength can be either *Weak*, *Medium*, or *Strong*.
 The idea is that the :doc:`/modeling/modifiers/modify/weighted_normal` can
-be set to pay attention to the Face Strength as follows: 
+be set to pay attention to the Face Strength as follows:
 when combining the normals that meet at a vertex, only the faces
 with the strongest Face Strength will contribute to the final value.
 
 For example, if three faces meet at a vertex and have the face weights weak, medium, and strong,
 then only the normal associated with the strong face will be used to set the final result.
 
-***********
-Operations
-***********
+
+Tools
+=====
 
 Flip Direction
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -133,7 +133,7 @@ as only selected ones are flipped.
 .. _bpy.ops.mesh.normals_make_consistent:
 
 Recalculate Normals
-===================
+-------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -153,7 +153,7 @@ For example, with a *Grid* primitive, recalculating normals does not have a mean
 .. _bpy.ops.mesh.set_normals_from_faces:
 
 Set From Faces
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -167,7 +167,7 @@ Set the custom normals at corners to be the same as the face normal that the cor
 .. _bpy.ops.transform.rotate_normal:
 
 Rotate
-======
+------
 
 .. admonition:: Reference
    :class: refbox
@@ -184,7 +184,7 @@ followed by :kbd:`N`.
 .. _bpy.ops.mesh.point_normals:
 
 Point to Target
-===============
+---------------
 
 .. admonition:: Reference
    :class: refbox
@@ -221,7 +221,7 @@ Reset :kbd:`R`
 .. _bpy.ops.mesh.merge_normals:
 
 Merge
-=====
+-----
 
 .. admonition:: Reference
    :class: refbox
@@ -235,7 +235,7 @@ Merge all of the normals at selected vertices, making one average normal for all
 .. _bpy.ops.mesh.split_normals:
 
 Split
-=====
+-----
 
 .. admonition:: Reference
    :class: refbox
@@ -250,7 +250,7 @@ pointing in the same direction as those faces.
 .. _bpy.ops.mesh.average_normals:
 
 Average
-=======
+-------
 
 .. admonition:: Reference
    :class: refbox
@@ -262,7 +262,7 @@ Average all of the normals in each fan of faces between sharp edges at a vertex.
 
 
 Copy Vectors
-============
+------------
 
 .. admonition:: Reference
    :class: refbox
@@ -274,7 +274,7 @@ If a single normal is selected, copy it to an internal vector buffer.
 
 
 Paste Vectors
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -288,7 +288,7 @@ Replace the selected normals with the one in the internal vector buffer.
 .. _bpy.ops.mesh.smoothen_normals:
 
 Smoothen Vectors
-================
+----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -300,7 +300,7 @@ Adjust the normals to bring them closer to their adjacent vertex normals.
 
 
 Reset Vectors
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -312,7 +312,7 @@ Put normals back the to default calculation of the normals.
 
 
 Select by Face Strength
-=======================
+-----------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -321,10 +321,11 @@ Select by Face Strength
    :Menu:      :menuselection:`Mesh --> Normals --> Select by Face Strength`
 
 Use the submenu to pick one of *Weak*, *Medium*, or *Strong*.
-Then this command selects those faces that have the chosen face strength.
+Then this tool selects those faces that have the chosen face strength.
+
 
 Set Face Strength
-==================
+-----------------
 
 .. admonition:: Reference
    :class: refbox
@@ -333,5 +334,5 @@ Set Face Strength
    :Menu:      :menuselection:`Mesh --> Normals --> Set Face Strength`
 
 Use the submenu to pick one of *Weak*, *Medium*, or *Strong*.
-Then this command changes the Face Strength of currently selected faces to the chosen face strength.
+Then this tool changes the Face Strength of currently selected faces to the chosen face strength.
 
