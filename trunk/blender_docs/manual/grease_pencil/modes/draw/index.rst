@@ -7,9 +7,8 @@
    :maxdepth: 2
 
    introduction.rst
-   toolbar/index.rst
-   tools/index.rst
-   brushes/index.rst
+   tools.rst
+   tool_settings/index.rst
    stroke_placement.rst
    drawing_planes.rst
    guides.rst
