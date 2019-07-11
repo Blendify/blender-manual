@@ -30,7 +30,7 @@ Camera
 
    It is useful to support switching views within a single scene.
 Show Grease Pencil
-   Shows :doc:`Annotations </grease_pencil/introduction>`
+   Shows :doc:`Grease Pencil </grease_pencil/introduction>`
    in non render preview i.e. *Solid* mode.
 Transparent
    Creates a transparent background.

@@ -67,7 +67,7 @@ Blender as a couple additional Workspaces to choose from when adding a new Works
 
 .. rubric:: 2D Animation
 
-:2D Animation: General workspace to work with the Grease Pencil.
+:2D Animation: General workspace to work with Grease Pencil.
 :2D Full Canvas: Similar to "2D Animation" but contains a larger canvas.
 
 
