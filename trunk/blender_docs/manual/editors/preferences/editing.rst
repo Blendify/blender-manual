@@ -86,12 +86,16 @@ Annotations
 ===========
 
 Default Color
-   The default color for new Grease Pencil layers.
+   The default color for new Annotate layers.
 Eraser Radius
-   The size of the eraser used with the Grease pencil.
+   The size of the eraser used with the Annotate Tool.
 Simplify Stroke
    This turns on the post-processing step of simplifying the stroke to remove
    about half of current points in it. It is only relevant when not drawing straight lines.
+
+.. seealso::
+
+   :doc:`Read more about Annotations </interface/annotate_tool>`.
 
 
 .. _prefs-system-weight:
@@ -118,7 +122,7 @@ Euclidean Distance
 
 .. seealso::
 
-   :doc:`Read more about Annotations </grease_pencil/index>`.
+   :doc:`Read more about Grease Pencil </grease_pencil/index>`.
 
 
 Miscellaneous
