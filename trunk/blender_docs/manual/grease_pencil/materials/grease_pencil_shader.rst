@@ -79,6 +79,16 @@ Style
          Color
             Color to mix.
 
+Alignment
+   Defines how to align *Dots* and *Boxes* with drawing path and object rotation.
+
+   Path
+      Aligns to drawing path and object rotation.
+   Object
+      Aligns to objects rotation; ignoring drawing path.
+   Fixed
+      Aligns to the 3D Viewport; ignoring drawing path and object rotation.
+
 .. list-table:: Samples of different material strokes mode types and styles.
 
    * - .. figure:: /images/grease-pencil_shader_stroke-solid-line.png
