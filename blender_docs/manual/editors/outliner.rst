@@ -6,31 +6,24 @@ Outliner
 ********
 
 .. figure:: /images/editors_outliner_interface.png
+   :align: right
 
    The Outliner editor.
 
-The *Outliner* is a list that organizes data in the blend-file.
-i.e. the scene data and also the Preferences.
-
-
-.. rubric:: Usage
+The *Outliner* is a list that organizes data in the blend-file,
+i.e. the scene data, Video Sequencer data, or anything that gets stored in a blend-file.
+The *Outliner* can be used to:
 
 - View the data in the scene.
 - Select and deselect objects in the scene.
 - Hide or show an object in the scene.
-- Enable or disable selection (to make an object "unselectable" in the 3D View).
+- Enable or disable selection (to make an object "unselectable" in the 3D Viewport).
 - Enable or disable the rendering of an object.
 - Delete objects from the scene.
 - Unlink data (equivalent to pressing the *X* button next to the name of a data-block).
-- Easily select which render layer to render.
-- Easily select which render pass to render (for example, you can choose to render just the *Specular* pass).
 
 .. (TODO) create new objects by drag & drop from the outliner
    drag & drop objects to groups
-
-
-Tree View
-=========
 
 Each row in the *Outliner* shows a data-block. You can click the plus sign to
 the left of a name to expand the current data-block and see what other data-blocks it contains.
@@ -41,7 +34,7 @@ To select the data-block in the scene, you have to activate it.
 
 
 Selecting and Activating
-------------------------
+========================
 
 Single selection does not require any pre-selection: just work directly with :kbd:`LMB`
 (and/or :kbd:`RMB` -- contextual menu, see below) *inside* the name/icon area.
@@ -50,21 +43,13 @@ When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 
 
-Activating a Data-Block
-^^^^^^^^^^^^^^^^^^^^^^^
-
-To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
-Activating the data-block will automatically switch to the relevant mode.
-For example, activating the mesh data of the cube will select the cube
-and enter *Edit Mode* while activating the object data of
-the cube will select the cube and enter *Object Mode* (see right).
-
-If the data-block type supports multi-editing,
-you can use :kbd:`Shift` to add/remove objects from the edit mode.
-
-
 Selecting a Group of Data-Blocks
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
+
+.. figure:: /images/editors_outliner_column-icons.png
+   :align: right
+
+   Selection of a data-block.
 
 Useful when you want to select/deselect a whole bunch of data-blocks.
 For this you must prepare the selection using, to your liking:
@@ -77,19 +62,77 @@ all *outside* the name/icon area. Those pre-selected have their line in a lighte
 You then can (de)select them with an :kbd:`RMB`-click *on* the name/icon area,
 which brings on a context menu (see below). :kbd:`A` to select/deselect all open items.
 
-.. figure:: /images/editors_outliner_column-icons.png
 
-   Selection of a data-block.
+Activating a Data-Block
+-----------------------
+
+To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
+Activating the data-block will automatically switch to the relevant mode.
+For example, activating the mesh data of the cube will select the cube
+and enter *Edit Mode* while activating the object data of
+the cube will select the cube and enter *Object Mode* (see right).
+
+If the data-block type supports multi-editing,
+you can use :kbd:`Shift` to add/remove objects from the edit mode.
+
+
+.. _editors-outliner-collections:
+
+Collections
+===========
+
+Collections are a way Blender uses to organize scenes.
+Collections contain objects and everything thing else in a scene.
+They can be include collections themselves and are fully recursive.
+
+.. seealso::
+
+   Read more about :doc:`Collections </scene_layout/collections/index.rst>`
+
+New
+   Creates a new collection.
+Duplicate Collections
+   Recursively duplicates the collection including all child collections, objects, and objects data.
+Duplicate Linked
+   Duplicate entire hierarchy keeping content linked with original.
+Delete Hierarchy
+   Deletes the collection and all of its child objects.
+Instance to Scene
+   Creates a new :doc:`collection instance </scene_layout/object/properties/instancing/collection>`.
+Visibility
+   Isolate
+      Hides all collections except the selected collection and any parent collections (if any exist).
+   Show/Hide
+      Shows/Hides the selected collection from the :doc:`View Layer </scene_layout/view_layers/index>`.
+   Show/Hide Inside
+      Shows/Hides all items that are a member of the selected collection, include child collections,
+      from the :doc:`View Layer </scene_layout/view_layers/index>`.
+   Enable/Disable in Viewports
+      Enables/disables drawing in the :doc:`View Layer </scene_layout/view_layers/index>`.
+   Enable/Disable in Renders
+      Enables/disables visibility of the collection in renders.
+View Layer
+   Disable/Enable in View Layer
+      Disables/Enables the collection from the view layer.
 
 
 Context Menu
-^^^^^^^^^^^^
+============
 
 Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
 Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
 
+Copy/Paste
+   Copy/pastes selected data-blocks.
+Delete
+   Deletes the selected data-block.
 Select, Select Hierarchy, Deselect
    Add object to current selection without making it the active one.
+
+
+ID Data Menu
+------------
+
 Unlink
    To unlink a data-block from its "owner" (e.g. a material from its mesh).
 Make Local
@@ -98,11 +141,11 @@ Make Single User
    This feature is not yet implemented.
 Delete
    Deletes the selected data-block.
-Delete Hierarchy
-   Deletes the object and all of its child objects.
 Remap Users
    Remap Users of a data-block to another one (of same type of course) -- means you can e.g.
    replace all usages of a material or texture by another one.
+Copy/Paste
+   Copy/pastes selected data-blocks.
 Add Fake User, Clear Fake User
    Adds a "dummy" (fake) user so that the selected data-block always gets saved even if it has no users.
    The fake user can be removed with *Clear Fake User*.
@@ -113,16 +156,16 @@ Select Linked
 
 
 View Menu
-"""""""""
+---------
 
 The view menu is part of the context menu and supported in all the Outliner elements.
 
 Show Active
    Centers the Tree View to selected object :kbd:`Period`.
-Show/Hide One Level
-   Expand one level down in the tree :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to collapse.
 Show Hierarchy
    To collapse all levels of the tree :kbd:`Home`.
+Show/Hide One Level
+   Expand one level down in the tree :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to collapse.
 
 
 .. note::
@@ -131,7 +174,7 @@ Show Hierarchy
 
 
 Restriction Columns
--------------------
+===================
 
 The following toggles, in the right side of the *Outliner* editor,
 are available for collections, objects, bones, modifiers and constraints.
@@ -252,11 +295,11 @@ Filter ID Type (Orphan Data, Blender File)
    Restrict the type of the data-blocks shown in the Outliner.
 Keying Sets (Data API)
    Add/Remove selected data to the active :doc:`Keying Set </animation/keyframes/keying_sets>`.
+Drivers
+   Add/Remove :doc:`Drivers </animation/drivers/index>` to the selected item.
 Purge (Orphan Data)
    Remove all unused data-blocks from the file (cannot be undone).
 
-
-.. (TODO) Edit menu for data-blocks mode
 
 Example
 =======
