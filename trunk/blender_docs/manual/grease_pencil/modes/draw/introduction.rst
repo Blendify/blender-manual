@@ -101,5 +101,3 @@ Add Weight Data
 
 Additive Drawing
    When creating new frames, the strokes from the previous/active frame are include as basis for the new one.
-
-   See :doc:`Additive Drawing </grease_pencil/animation/additive_drawing>` for more information.
