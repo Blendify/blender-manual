@@ -31,3 +31,7 @@ You can edit the current *view layer* collections in the :doc:`Outliner </editor
    View layer and collections in the Outliner.
 
 There you can enable and disable collections, hide them temporarily, globally, among other options.
+
+.. seealso::
+
+   Read more about :ref:`Collections in the Outliner <editors-outliner-collections>`.
