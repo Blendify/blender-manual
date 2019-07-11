@@ -109,7 +109,7 @@ Colorizing a BW Image
    Using Set Alpha to colorize an image.
 
 In the example above, notice how the blue tinge of the render input colors the swirl.
-You can use the Set Alpha node's color button with this kind of node map to add a consistent color to a BW image.
+You can use the Set Alpha node's color field with this kind of node map to add a consistent color to a BW image.
 
 In the example map to the right,
 use the *Alpha* value of the Set Alpha node to give a desired degree of colorization.

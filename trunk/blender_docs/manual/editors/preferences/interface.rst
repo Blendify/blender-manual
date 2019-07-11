@@ -71,7 +71,7 @@ Navigation Controls
       If you're familiar with navigation key shortcuts, this can be disabled.
 
 Color Picker Type
-   Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color button.
+   Choose which type of :term:`color space` you prefer. It will show when clicking :kbd:`LMB` on any color field.
 
    See the different color picker types at the :doc:`Color picker </interface/controls/templates/color_picker>` page.
 Header Position

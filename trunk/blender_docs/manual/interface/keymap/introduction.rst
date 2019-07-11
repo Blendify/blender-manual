@@ -71,8 +71,8 @@ Properties
 
 - :kbd:`Ctrl-C` -- Copy the (single) value of the button.
 - :kbd:`Ctrl-V` -- Paste the (single) value of the button.
-- :kbd:`Ctrl-Alt-C` -- Copy the entire vector or color of the button.
-- :kbd:`Ctrl-Alt-V` -- Paste the entire vector or color of the button.
+- :kbd:`Ctrl-Alt-C` -- Copy the entire vector or color of the field.
+- :kbd:`Ctrl-Alt-V` -- Paste the entire vector or color of the field.
 - :kbd:`RMB` -- Open the context menu.
 - :kbd:`Backspace` -- Clear the value (sets to zero or clears a text field).
 - :kbd:`Minus` -- Negate number values (multiply by -1.0).

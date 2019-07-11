@@ -92,7 +92,7 @@ Base Color
 ^^^^^^^^^^
 
 The glTF base color is determined by looking for a Base Color input on a Principled BSDF node.
-If the input is unconnected, the input's default color (the color button next to the unconnected socket)
+If the input is unconnected, the input's default color (the color field next to the unconnected socket)
 is used as the Base Color for the glTF material.
 
 If an Image Texture node is found to be connected to the Base Color input,
