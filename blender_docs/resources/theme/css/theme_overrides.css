@@ -281,10 +281,17 @@ a.external {color:#656AE0;}
 .descr {
 	flex: 2 0 33.3%; -webkit-flex: 2 0 33.3%;
 	margin: 10px 15px;
-	border-radius: 3px;
+	border-radius: .3em;
 	user-select: none;
 }
-.descr div.figure{margin-bottom: 18px}
+.descr div.figure {
+	margin-bottom: 0px;
+	display: block;
+}
+.descr img {
+	border-top-left-radius: .3em;
+	border-top-right-radius: .3em;
+}
 .descr dl {margin-bottom: 10px}
 .descr dl dt > a {
 	display: block;
@@ -292,23 +299,19 @@ a.external {color:#656AE0;}
 	margin-bottom: 10px;
 }
 .descr dl dt a em, .descr dl dt a span{
-	padding: 0px 15px;
 	font-weight: normal;
 	font-style: normal;
 }
+.descr dl dt{padding: 18px 15px 0px!important}
 .descr dl dd{
 	padding: 0px 15px;
 	font-style: normal;
 	margin: 0px;
 }
 .descr {
-	box-shadow: 0 1px 2px rgba(0,0,0,0.15);
-	transition: box-shadow 0.3s ease-in-out;
+	box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,
+					rgba(211,216,223,0.33) 0px 15px 20px -1px;
 }
-.descr:hover {
-	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
 /* End section description. */
 
 /* Start custom toctree. */
