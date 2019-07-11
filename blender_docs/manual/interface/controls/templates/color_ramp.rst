@@ -83,7 +83,7 @@ Position
    This slider controls the positioning of the selected color stop in the range.
 Color
    Opens a color picker for the user to specify color and Alpha for the selected color stop.
-   When a color is using Alpha, the Color button is then divided in two, with the left side
+   When a color is using Alpha, the color field is then divided in two, with the left side
    showing the base color and the right side showing the color with the alpha value.
 
 

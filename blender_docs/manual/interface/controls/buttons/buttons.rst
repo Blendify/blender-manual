@@ -52,11 +52,11 @@ Color Fields
    :align: right
    :figwidth: 129px
 
-   Color buttons. With and without alpha.
+   Color fields. With and without alpha.
 
 The color field stores a color value shown in its background.
 Clicking :kbd:`LMB` on color fields opens the :doc:`/interface/controls/templates/color_picker`.
-Color buttons with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
+Color fields with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
 on the right the color with an alpha channel shown over a checker pattern.
 Colors can be copied to other color fields by dragged and dropped to another color field.
 
