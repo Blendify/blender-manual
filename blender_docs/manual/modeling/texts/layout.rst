@@ -22,6 +22,11 @@ Paragraph
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
 
+.. figure:: /images/modeling_texts_properties_paragraph-settings.png
+
+   The Paragraph panel.
+
+
 Alignment
 ---------
 
@@ -105,6 +110,11 @@ The text flows continuously from the lowest-numbered frame to the highest-number
 inside each frame word-wrapped.
 It flows between frames when a lower-numbered frame cannot fit any more text.
 If the last frame is reached, text overflows out of it (by default, see options below).
+
+
+.. figure:: /images/modeling_texts_properties_frame-upperpanel-area.png
+
+   Text Boxes panel.
 
 Add Textbox
    Inserts a new frame, just after the current one (in text flow order).
