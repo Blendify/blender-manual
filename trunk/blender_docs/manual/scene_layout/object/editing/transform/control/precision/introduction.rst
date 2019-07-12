@@ -29,6 +29,18 @@ the object with high precision along with the snapping constraint.
    The snapping behaviors described on this page **only** apply
    when :ref:`Increment Snap <transform-snap-element>` is selected.
 
+.. tip::
+
+   It is possible to enable both snapping and precision mode,
+   simply hold :kbd:`Ctrl` and :kbd:`Shift`. This has the following effects:
+
+   Move
+      Changes in 0.1 unit increments, regardless of zoom level.
+   Rotation
+      Changes in 1 unit increments.
+   Scale
+      Changes in 0.01 unit increments.
+
 
 Usage
 =====
@@ -116,27 +128,3 @@ rely on fixed increments. Rather, large movements of the mouse across
 the screen only result in small transformations of the selection.
 
 In rotation mode the selected element will be rotate in 0.01 degree increments.
-
-
-Precision Snapping
-==================
-
-Move
-----
-
-For move operations at the default zoom level, holding :kbd:`Shift-Ctrl` will cause your selection
-to move by increments of 1/10 units. Holding :kbd:`Shift-Ctrl` at
-any zoom level will cause the transformation increments to always be 1/10 of the increment
-if you were only holding :kbd:`Ctrl`.
-
-
-Rotation
---------
-
-Holding :kbd:`Shift-Ctrl` will cause rotations of 1 degree.
-
-
-Scale Transformations
----------------------
-
-Holding :kbd:`Shift-Ctrl` will cause size changes in 0.01 unit increments.
