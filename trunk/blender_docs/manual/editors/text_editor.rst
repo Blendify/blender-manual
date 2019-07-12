@@ -45,10 +45,7 @@ Run Script / Script Node Update
 Register
    Registers the current text data-block as a module on loading (the text name must end with ``.py``).
    Read more about the registration of Python modules in
-   `API documentation <https://docs.blender.org/api/2.79/info_overview.html#registration>`__.
-Label
-   This Label shows, if the text is saved internal or external and
-   if there are unsaved changes to an external file.
+   `API documentation <https://docs.blender.org/api/2.80/info_overview.html#registration>`__.
 
 
 Menus
@@ -128,6 +125,15 @@ as described in the :doc:`/advanced/scripting/index` section.
 The *Text Editor* has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion...
 You can access them through the Template menu in the header.
+
+
+Footer
+======
+
+The Text editor is special in the fact that it contains a footer UI region.
+This footer displays if the text is saved internal or external and
+if there are unsaved changes to an external file.
+For external files, this region also displays the file path to the text file.
 
 
 Main View

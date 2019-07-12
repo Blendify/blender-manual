@@ -107,7 +107,7 @@ and can be used to control the visibility of collections in the viewport.
 Collections can be hidden in the viewport by clicking on the eye icon.
 
 If a collection contains objects, there is a circle to the left of the collection name.
-If a collection is empty, there is now circle to the left of the collection name.
+If a collection is empty, there is no circle to the left of the collection name.
 
 By clicking directly on the collection names, it "isolates" the
 collection by hiding all other collections,
