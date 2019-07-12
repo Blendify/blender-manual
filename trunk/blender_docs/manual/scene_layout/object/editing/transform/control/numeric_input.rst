@@ -74,7 +74,7 @@ and :kbd:`Ctrl-=` or :kbd:`Ctrl-NumpadAsterix` to switch back to simple mode.
 It features:
 
 - Units (``cm``, ``"``, ``deg``, etc.).
-- Basic operations from python/BKE_unit (``+``, ``*``, ``**``, etc.), and math constants
+- Basic operations from Python/BKE_unit (``+``, ``*``, ``**``, etc.), and math constants
   and functions (``pi``, ``sin``, etc.).
 
 You can still use the negate and inverse shortcuts (:kbd:`Minus`, :kbd:`/`),

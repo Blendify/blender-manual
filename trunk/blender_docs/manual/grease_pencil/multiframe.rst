@@ -17,13 +17,13 @@ Extremely useful to avoid making repetitive task one frame at a time when animat
 Usage
 =====
 
-#.   Select the desired keyframes to edit or sculpt at the same time.
-#.   Activate Multiframe tool in the 3D View’s header with the toggle button (fade lines icon).
-#.   Once activated you can:
+#. Select the desired keyframes to edit or sculpt at the same time.
+#. Activate Multiframe tool in the 3D View’s header with the toggle button (fade lines icon).
+#. Once activated you can:
 
-      -   Select the points in all the selected keyframes and make your editions.
-      -   Start sculpting. The sculpt brushes will affects all the strokes in the selected keyframes.
-      -   Start weight painting. The weight paint brush will affects all the strokes in the selected keyframes.
+   - Select the points in all the selected keyframes and make your editions.
+   - Start sculpting. The sculpt brushes will affects all the strokes in the selected keyframes.
+   - Start weight painting. The weight paint brush will affects all the strokes in the selected keyframes.
 
 Use Falloff
    When enabled, the effects on the strokes start to falloff from the current frame

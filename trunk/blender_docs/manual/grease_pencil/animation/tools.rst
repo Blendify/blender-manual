@@ -33,7 +33,7 @@ Deletes the last keyframe in the Dope Sheet or the current keyframe if you are o
 
 
 Duplicate
-==========
+=========
 
 .. admonition:: Reference
    :class: refbox

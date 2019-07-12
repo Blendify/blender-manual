@@ -58,8 +58,8 @@ Object Mode List
      - :doc:`Edit Mode </modeling/index>`
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *Object Data* data-block editing
-       (e.g. vertices/edges/faces for meshes, control points for curves/surfaces, 
-       strokes/points for Grease Pencil etc.).
+       (e.g. vertices/edges/faces for meshes, control points for curves/surfaces,
+       strokes/points for Grease Pencil, etc.).
    * - .. figure:: /images/editors_3dview_modes_icons-sculpt-mode.png
      - :doc:`Sculpt Mode </sculpt_paint/sculpting/index>`
      - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
