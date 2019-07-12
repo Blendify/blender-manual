@@ -32,6 +32,10 @@ but changes in the external source file will not be reflected in the referencing
 In the :doc:`File Browser </editors/file_browser>`
 navigate to the external source blend-file and select the data-block you want to reuse.
 
+.. tip::
+
+   Blend-files can also be linked/appended by dragging and dropping blend-files into the Blender window.
+
 
 Options
 -------

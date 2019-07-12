@@ -5,6 +5,11 @@ Blend Files
 
 Saving and opening blend-file are usually done using the :doc:`File Browser </editors/file_browser>`.
 
+.. tip::
+
+   Blend-files can also be opened by dragging and dropping blend-files into the Blender window.
+   This method also allows to :doc:`link/append </files/linked_libraries> the file.
+
 .. note:: Unsaved Changes
 
    By default, when exiting Blender or loading a new blend-file, if you have unsaved changes,
