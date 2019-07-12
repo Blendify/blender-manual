@@ -140,4 +140,4 @@ As can be seen in the *Axis locking modes* image,
 the direction of the transform also takes into account the selection.
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
-:doc:`numeric transformation </scene_layout/object/editing/transform/control/precision/numeric_input>` values.
+:doc:`numeric transformation </scene_layout/object/editing/transform/control/numeric_input>` values.

@@ -20,7 +20,7 @@ Transform Orientations
 You will see an effect on
 the :doc:`Object Gizmo </scene_layout/object/editing/transform/control/gizmos>`
 (the widget in the center of the selection), as well as on transformation constraints,
-:doc:`Axis Locking </scene_layout/object/editing/transform/control/precision/axis_locking>`.
+:doc:`Axis Locking </scene_layout/object/editing/transform/control/axis_locking>`.
 
 For example, when you press :kbd:`X`, during the execution of the operation,
 it will constrain the transformation to the *Global* X axis.

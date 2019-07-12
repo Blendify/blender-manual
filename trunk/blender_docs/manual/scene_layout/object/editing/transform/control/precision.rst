@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+*********
+Precision
+*********
 
 .. admonition:: Reference
    :class: refbox
@@ -64,7 +64,7 @@ then holding the shortcut key for precision control.
 .. tip:: Combining with Other Controls
 
    All of the precision controls detailed on the page can be combined with
-   the :doc:`Axis Locking </scene_layout/object/editing/transform/control/precision/axis_locking>`
+   the :doc:`Axis Locking </scene_layout/object/editing/transform/control/axis_locking>`
    controls and used with the different
    :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_point/index>`.
 
