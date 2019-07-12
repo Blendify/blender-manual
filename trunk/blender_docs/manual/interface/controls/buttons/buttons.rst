@@ -102,6 +102,11 @@ Camera Depth
 Direction Buttons
 =================
 
+.. figure:: /images/interface_controls_buttons_buttons_direction.png
+   :align: right
+
+   Direction buttons.
+
 Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
 lets the user change the direction by rotating the sphere.
 
