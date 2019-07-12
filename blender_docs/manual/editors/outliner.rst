@@ -37,7 +37,7 @@ Selecting and Activating
 ========================
 
 Single selection does not require any pre-selection: just work directly with :kbd:`LMB`
-(and/or :kbd:`RMB` -- contextual menu, see below) *inside* the name/icon area.
+(and/or the `context menu`_, see below) *inside* the name/icon area.
 
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
@@ -87,12 +87,12 @@ They can be include collections themselves and are fully recursive.
 
 .. seealso::
 
-   Read more about :doc:`Collections </scene_layout/collections/index.rst>`
+   Read more about :doc:`Collections </scene_layout/collections/index>`
 
 New
    Creates a new collection.
 Duplicate Collections
-   Recursively duplicates the collection including all child collections, objects, and objects data.
+   Recursively duplicates the collection including all child collections, objects, and object data.
 Duplicate Linked
    Duplicate entire hierarchy keeping content linked with original.
 Delete Hierarchy
@@ -142,8 +142,8 @@ Make Single User
 Delete
    Deletes the selected data-block.
 Remap Users
-   Remap Users of a data-block to another one (of same type of course) -- means you can e.g.
-   replace all usages of a material or texture by another one.
+   Remap Users of a data-block to another one (of same type of course).
+   This  means you can e.g. replace all usages of a material or texture by another one.
 Copy/Paste
    Copy/pastes selected data-blocks.
 Add Fake User, Clear Fake User

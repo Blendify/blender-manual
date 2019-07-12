@@ -229,7 +229,7 @@ Show Pose Markers
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      todo <2,8
+   :Mode:      todo <2.8
    :Editor:    Action Editor and Shape Keys Editor
    :Menu:      :menuselection:`Marker --> Show Pose Markers`
 
