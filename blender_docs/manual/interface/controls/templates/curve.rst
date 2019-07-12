@@ -52,6 +52,8 @@ Tools
       Breaks the tangent at the curve handle, making it an angle.
    Auto Handle
       Automatic type of curve point's handle.
+   Auto Clamped Handle
+      Todo <2.79.
    Extend Horizontal
       Causes the curve to stay horizontal before the first point and after the last point.
 
