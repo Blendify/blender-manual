@@ -31,7 +31,7 @@ Color values
 
    For operations that are capable of using Alpha, another slider "A" is added.
 Eyedropper
-   The :doc:`/interface/controls/buttons/eye_dropper` (pipette icon) can be used
+   The :ref:`ui-eye-dropper` (pipette icon) can be used
    to sample a color value from inside the Blender window.
 
 .. note::

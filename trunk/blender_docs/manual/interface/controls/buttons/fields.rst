@@ -1,7 +1,25 @@
 
-********************
+******
+Fields
+******
+
+Text & Search Fields
+====================
+
+Text fields show a rounded rectangular border, and optionally an icon and/or text inside the border.
+Text fields store text strings, and provide the means to edit text
+by :doc:`standard text editing shortcuts </interface/keymap/introduction>`.
+
+For text fields with an icon and pop-ups, see :ref:`ui-data-id`.
+
+.. figure:: /images/interface_controls_buttons_buttons_text-search.png
+   :align: center
+
+   Search field.
+
+
 Numeric Input Fields
-********************
+====================
 
 .. figure:: /images/interface_controls_buttons_number_number-button.png
    :align: right
@@ -39,7 +57,7 @@ Keyboard Input
 
 
 Multi-Value Editing
-===================
+-------------------
 
 .. figure:: /images/interface_controls_buttons_number_multi-value-edit.png
    :align: right
@@ -53,7 +71,7 @@ adjust value with mouse, or release the :kbd:`LMB` and type in a value.
 
 
 Value Limits
-============
+------------
 
 Most numerical values are restricted by "soft limit" and "hard limit" value ranges.
 Changing value by dragging with mouse is restricted to "soft limit" value range.
@@ -61,7 +79,7 @@ Input via keyboard can allow use of wider value range, but never wider than "har
 
 
 Expressions
-===========
+-----------
 
 .. Do not use mathjax here
 
@@ -77,7 +95,7 @@ may be used.
 
 
 Expressions as Drivers
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 You may want your expression to be re-evaluated after it is entered.
 Blender supports this using :doc:`Drivers </animation/drivers/index>` (a feature of the animation system).
@@ -93,7 +111,7 @@ This is simply a convenient shortcut to add drivers which can also be added via 
 
 
 Units
-=====
+-----
 
 As well as expressions, you can specify numbers and units.
 If no unit is given, then a default unit is applied.
@@ -118,3 +136,19 @@ Examples of valid usage of length units include:
    - Decimal separator is optional.
    - You can mix units, e.g. metric and imperial even though you can only show one at a time.
    - Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
+
+
+Color Fields
+============
+
+.. figure:: /images/interface_controls_buttons_buttons_color.png
+   :align: right
+   :figwidth: 129px
+
+   Color fields. With and without alpha.
+
+The color field stores a color value shown in its background.
+Clicking :kbd:`LMB` on color fields opens the :doc:`/interface/controls/templates/color_picker`.
+Color fields with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
+on the right the color with an alpha channel shown over a checker pattern.
+Colors can be copied to other color fields by dragged and dropped to another color field.

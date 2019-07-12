@@ -52,10 +52,8 @@ Buttons and Controls
    :maxdepth: 1
 
    controls/buttons/buttons.rst
+   controls/buttons/fields.rst
    controls/buttons/menus.rst
-   controls/buttons/toggle_radio.rst
-   controls/buttons/number.rst
-   controls/buttons/eye_dropper.rst
 
 
 Extended Controls
