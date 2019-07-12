@@ -21,9 +21,6 @@ The magnitude of the transformation can be viewed in the 3D View header.
 Releasing :kbd:`Ctrl` or :kbd:`Shift` during the transformation will cause
 the movement to revert back to its normal mode of operation.
 
-Holding both :kbd:`Shift-Ctrl` enables precise snap. This option will move
-the object with high precision along with the snapping constraint.
-
 .. note::
 
    The snapping behaviors described on this page **only** apply
@@ -80,25 +77,23 @@ Move
 
 .. figure:: /images/scene-layout_object_editing_transform_control_precision_introduction_blender-units.png
    :align: right
+   :width: 200px
+   :figwidth: 200px
 
    One unit (default zoom level).
 
-For move operations at the default zoom level,
-holding :kbd:`Ctrl` will cause your selection to move by increments of 1 unit
-(i.e. between the two light gray lines). Zooming in enough to see the next set of gray lines
-will now cause :kbd:`Ctrl` movements to occur by 1/10 of a unit.
-Zooming in further until the next set of gray lines becomes visible
-will cause movement to happen by 1/100 of a unit and so on until the zoom limit is reached.
+Snapping while moving objects changes the object location in 1 unit increments.
+While in an :doc:`aligned view </editors/3dview/navigate/align>`,
+The increment amount is changed based on the :ref:`zoom level <editors_3dview_navigation_zoom>`.
+For example, at a base zoom level objects are moved in increments of 1 unit (i.e. between the two light gray lines).
+Zooming in enough to see the next set of gray lines will snap in increments of 1/10 of a unit.
+Zooming in further until will snap in increments of 1/100 of a unit and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and
 cause movement to happen by increments of 10, 100 units, etc.
 
 .. container:: lead
 
    .. clear
-
-.. seealso::
-
-   Read more about :doc:`zooming </editors/3dview/navigate/navigation>`.
 
 
 Rotation
