@@ -3,7 +3,7 @@
 Buttons
 *******
 
-.. _ui-operation-buttons:
+.. _ui-operator-buttons:
 
 Operator Buttons
 ================
@@ -30,35 +30,71 @@ pressing down :kbd:`LMB` on the button will reveal a pop-up
    .. clear
 
 
-Text & Search Fields
-====================
+Checkboxes & Toggle Buttons
+===========================
 
-Text fields show a rounded rectangular border, and optionally an icon and/or text inside the border.
-Text fields store text strings, and provide the means to edit text
-by :doc:`standard text editing shortcuts </interface/keymap/introduction>`.
-
-For text fields with an icon and pop-ups, see :ref:`ui-data-id`.
-
-.. figure:: /images/interface_controls_buttons_buttons_text-search.png
-   :align: center
-
-   Search field.
-
-
-Color Fields
-============
-
-.. figure:: /images/interface_controls_buttons_buttons_color.png
+.. figure:: /images/interface_controls_buttons_toggle-radio_checkbox.png
    :align: right
-   :figwidth: 129px
+   :figwidth: 155px
 
-   Color fields. With and without alpha.
+   Checkboxes and Toggle buttons.
 
-The color field stores a color value shown in its background.
-Clicking :kbd:`LMB` on color fields opens the :doc:`/interface/controls/templates/color_picker`.
-Color fields with an alpha channel are divided in half: on the left the color is shown without an alpha channel and
-on the right the color with an alpha channel shown over a checker pattern.
-Colors can be copied to other color fields by dragged and dropped to another color field.
+These controls are used to activate or deactivate options.
+Use :kbd:`LMB` to change their state. A tick is shown on checkboxes when
+the option is activated. Active status on toggle buttons is indicated
+either by color on the icon background, or a change in icon graphics.
+
+
+Dragging
+--------
+
+To change many values at once on or off, you can press down
+:kbd:`LMB` and drag over multiple buttons. This works for check
+boxes, toggles and to select a radio button value.
+
+
+Radio Buttons
+=============
+
+.. figure:: /images/interface_controls_buttons_toggle-radio_radio.png
+   :align: right
+
+   Radio buttons.
+
+Radio buttons are used to choose one option from a selection of options.
+Active button is indicated by color on the icon background.
+
+
+Cycling
+-------
+
+Use :kbd:`Ctrl-Wheel`, while hovering with the mouse over radio
+buttons, to cycle between the options.
+
+
+.. _ui-eye-dropper:
+
+Eyedropper
+==========
+
+The eyedropper (pipette icon) allows you to sample from anywhere in the Blender window.
+The eyedropper can be used to select different kinds of data:
+
+Color
+   This is the most common usage, the eyedropper is used to sample a pixels color from anywhere within Blender.
+Color Ramp
+   Dragging the cursor over the window to sample a line which is converted into a color ramp.
+Objects/Object-Data
+   This is used with object buttons (such as parent, constraints or modifiers) to
+   select an object from the 3D View.
+Camera Depth
+   Number buttons effecting distance can also use the eyedropper.
+
+   This is used to set the camera's depth of field so the depth chosen is in focus.
+
+- :kbd:`E` will activate the eyedropper while hovering over a button.
+- :kbd:`LMB` dragging will mix the colors you drag over, which can help when sampling noisy imagery.
+- :kbd:`Spacebar` resets and starts mixing the colors again.
 
 
 .. _ui-direction-button:
