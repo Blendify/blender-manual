@@ -107,6 +107,8 @@ For those without a middle mouse button,
 you can hold :kbd:`Shift-Alt` while dragging with :kbd:`LMB`.
 
 
+.. _editors_3dview_navigation_zoom:
+
 Zooming
 =======
 
