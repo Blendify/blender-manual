@@ -17,6 +17,27 @@ For example, it is possible to pan and zoom in the Image editor.
    page of the manual to learn how to use them with Blender.
 
 
+Navigation Gizmo
+================
+
+The navigation gizmo can be found in the top right of the editor.
+The four buttons (listed from left to right) do the following:
+
+- :doc:`Toggles the Projection </editors/3dview/navigate/projections>`
+- :doc:`Toggles the Camera View </editors/3dview/navigate/camera_view>`
+- `Pans the 3D Viewport <Panning>`_
+- `Zooms the 3D Viewport <Zooming>`_
+
+The `Orbit`_ gizmo on the far right can be used to rotate around 3D Viewport.
+Hovering over the gizmo and dragging with :kbd:`LMB` will orbit the view.
+Clicking any of the axis labels will :doc:`Align </editors/3dview/navigate/align>` to that view.
+Clicking the same axis again switches to the opposite side of that same axis,
+
+.. figure:: /images/editors_3dview_navigation_gizmo.png
+   :align: center
+
+   Navigation Gizmo.
+
 Orbit
 =====
 
