@@ -73,7 +73,7 @@ Sliders
 
    The Action editor showing sliders.
 
-On channels headers you can have another column with number buttons or sliders,
+On channels headers you can have another column with number fields or sliders,
 allowing you to change the value on the current keyframes, or to add new keyframes.
 See :ref:`graph-view-menu` for how to show these sliders.
 

@@ -83,7 +83,7 @@ Properties
 
 - :kbd:`Alt` -- Hold while editing values to apply the change to all selected items (objects, bones, sequence-strips).
 
-  This can be used for number buttons and toggles.
+  This can be used for number fields and toggles.
 
 
 Animation

@@ -18,17 +18,17 @@ For text fields with an icon and pop-ups, see :ref:`ui-data-id`.
    Search field.
 
 
-Numeric Input Fields
-====================
+Number Fields
+=============
 
 .. figure:: /images/interface_controls_buttons_number_number-button.png
    :align: right
 
-   Numeric input fields.
+   Number fields.
 
-Numeric input fields store values and units.
+Number fields store values and units.
 
-First type of numeric input field shows triangles pointing left (◂) and right (▸)
+First type of number field shows triangles pointing left (◂) and right (▸)
 on the sides of the field when mouse pointer is on top of the field.
 Second field type sliders have a colored bar in the background
 to illustrate value over a range, e.g. percentage values.
@@ -48,12 +48,12 @@ Dragging
 Keyboard Input
    Press :kbd:`LMB` or :kbd:`Return` to enter value by typing it with keyboard.
 
-   When entering values by keyboard, numeric fields work like text fields:
+   When entering values by keyboard, number fields work like text fields:
 
    - Press :kbd:`Return` or :kbd:`LMB` outside the field to apply the change.
    - Press :kbd:`Esc` or :kbd:`RMB` to cancel.
    - Press :kbd:`Tab` to jump to the next field or :kbd:`Ctrl-Tab` to go to the previous field.
-   - Press :kbd:`Minus` while hovering over a numeric field to negate the value.
+   - Press :kbd:`Minus` while hovering over a number field to negate the value.
 
 
 Multi-Value Editing
@@ -64,7 +64,7 @@ Multi-Value Editing
 
    Multi-value editing.
 
-You can edit multiple numeric fields at once by pressing down
+You can edit multiple number fields at once by pressing down
 :kbd:`LMB` on the first field, and then drag vertically over
 the fields you want to edit. Finally you can either drag left or right to
 adjust value with mouse, or release the :kbd:`LMB` and type in a value.
@@ -83,7 +83,7 @@ Expressions
 
 .. Do not use mathjax here
 
-You can enter mathematical expressions into any numerical input field.
+You can enter mathematical expressions into any number field.
 For example, enter ``3*2`` or ``10/5+4`` instead of ``6``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.

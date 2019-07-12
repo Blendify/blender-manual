@@ -55,8 +55,8 @@ NURBS Control Points Settings
 We saw in a :ref:`previous page <modeling-surfaces-weight>` that NURBS control points have a weight,
 which is the influence of this point on the surface.
 You set it either using the big *Set Weight* button in the *Curve Tools* panel
-(after having defined the weight in the number button to the right),
-or by directly typing a value in the :kbd:`W` number button of the *Transform* panel.
+(after having defined the weight in the number field to the right),
+or by directly typing a value in the :kbd:`W` number field of the *Transform* panel.
 
 
 Adding or Extruding

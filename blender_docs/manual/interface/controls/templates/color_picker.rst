@@ -19,7 +19,7 @@ Color slider
    It can also be controlled with the :kbd:`Wheel`.
 
 Color space
-   Selects the :term:`Color Space` for the number buttons below.
+   Selects the :term:`Color Space` for the number fields below.
 
    RGB, HSV/HSL, Hex
 Color values

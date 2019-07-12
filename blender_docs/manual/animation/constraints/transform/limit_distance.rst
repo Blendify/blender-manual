@@ -29,7 +29,7 @@ Options
 Target
    :ref:`ui-data-id` used to select the constraint's target, and is not functional (red state) when it has none.
 Distance
-   This number button sets the limit distance, i.e. the radius of the constraining sphere.
+   This number field sets the limit distance, i.e. the radius of the constraining sphere.
 Reset Distance
    When clicked, this small button will reset the *Distance* value,
    so that it corresponds to the actual distance between the owner and its target

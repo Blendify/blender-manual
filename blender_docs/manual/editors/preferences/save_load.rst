@@ -36,8 +36,8 @@ Save Versions
    using extensions: ``.blend1``, ``.blend2``, etc.,
    with the number increasing to the number of versions you specify.
 
-   Older files will be named with a higher number. e.g.
-   With the default setting of 2, you will have three versions of your file:
+   Older files will be named with a higher number.
+   E.g. with the default setting of 2, you will have three versions of your file:
 
    :``*.blend``: last saved.
    :``*.blend1``: second last saved.

@@ -61,7 +61,7 @@ Map From
 
    Location, Rotation, and Scale
 From
-   Independently for each axis (X, Y, and Z) the min and max number buttons control
+   Independently for each axis (X, Y, and Z) the min and max number fields control
    the lower and upper bounds of the input value range.
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.
@@ -81,7 +81,7 @@ Map To
 
    Location, Rotation, and Scale
 To
-   The *min* and *max* number buttons control the lower and upper bounds of the output value range,
+   The *min* and *max* number fields control the lower and upper bounds of the output value range,
    independently for each mapped axis.
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.

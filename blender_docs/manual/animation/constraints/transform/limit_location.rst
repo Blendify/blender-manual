@@ -39,7 +39,7 @@ Options
 Minimum X, Minimum Y, Minimum Z
    These buttons enable the lower boundary for the location of the owner's origin along,
    respectively, the X, Y and Z axes of the chosen *Space*.
-   The number button below them controls the value of their limit.
+   The number field below them controls the value of their limit.
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.
 

@@ -35,7 +35,7 @@ The movement of the owner along the target curve/path may be controlled in two d
 
 - The most simple is to define the number of frames of the movement,
   in the :ref:`Path Animation panel <curve-path-animation>` of the Curve tab,
-  via the number button Frames, and its start frame via the constraint's Offset option
+  via the *Frames* number field, and its start frame via the constraint's Offset option
   (by default, start frame: 1 [= offset of 0], duration: 100).
 - The second way, much more precise and powerful,
   is to define an *Evaluation Time* interpolation curve for the *Target* path

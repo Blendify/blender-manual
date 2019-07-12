@@ -99,7 +99,7 @@ Nabla
 
 Almost all procedural textures in Blender use derivatives for calculating normals for texture mapping
 (except *Blend* and *Magic*). This is important for Normal and Displacement Maps.
-The strength of the effect is controlled with the *Nabla* Number Button.
+The strength of the effect is controlled with the *Nabla* number field.
 
 
 Hints

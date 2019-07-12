@@ -107,7 +107,7 @@ Options
 Segments
 --------
 
-The *Segments* number button allows you to set the number of segments, which the given bone is subdivided into.
+The *Segments* number field allows you to set the number of segments, which the given bone is subdivided into.
 Segments are small, rigid linked child bones that interpolate between the root and the tip.
 The higher this setting, the smoother "bends" the bone, but the heavier the pose calculations.
 
@@ -143,7 +143,7 @@ Easing
 ------
 
 Ease In, Out
-   The *Ease In/Out* number buttons, change the "length" of the :ref:`"auto" <curve-handle-type-auto>` Bézier handle
+   The *Ease In/Out* number fields, change the "length" of the :ref:`"auto" <curve-handle-type-auto>` Bézier handle
    to control the "root handle" and "tip handle" of the bone, respectively.
 
    These values are proportional to the default length,

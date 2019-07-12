@@ -100,7 +100,7 @@ Auto Smooth
    when shading of these parts of the mesh is set to smooth. This is an easier way to combine smooth and sharp edges.
 
    Angle
-      Angle number button.
+      Angle number field.
 
 .. figure:: /images/modeling_meshes_editing_normals_example-auto-smooth.png
    :width: 250px

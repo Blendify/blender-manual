@@ -165,7 +165,7 @@ Continuous operations without changing the selection will repeat the operation c
    Screw Tools :ref:`ui-undo-redo-adjust-last-operation` Panel (Edit Mode).
 
 Center
-   These number buttons specify the center of the spin. When the tool is called for the first time,
+   These number fields specify the center of the spin. When the tool is called for the first time,
    it will copy the XYZ location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
    You can specify the cursor coordinates using the Transform Panel in 3D View,
@@ -174,15 +174,15 @@ Center
    specify another place for the spin center during the interactive session.
    (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
 Steps
-   This number button specifies how many extrusion(s) will be done for each 360 degree turn.
+   This number field specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
    the maximum is 256 (See Fig. :ref:`fig-mesh-screw-interactive-panel`).
 Turns
-   This number button specifies how many turns will be executed.
+   This number field specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
    The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`.)
 Axis
-   These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
+   These three number fields vary from (-1.0 to 1.0) and are clamped above those limits.
    These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and
    coordinates, Blender will give the proper Axis vector a value of 1, giving the angular vector of the profile
