@@ -503,3 +503,7 @@ a.external {color:#656AE0;}
 }
 .refbox dl dt {font-weight: normal}
 /* End Sphinx 2.0 fixes */
+
+.hlist {
+	width: 100%
+}
