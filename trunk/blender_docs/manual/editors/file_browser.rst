@@ -162,7 +162,7 @@ Recent
    Contains recently accessed folders.
    The ``X`` button to the right allows you to fully erase this list.
 
-   You can control how many folders appear in this list with the *Recent Files* number button
+   You can control how many folders appear in this list with the *Recent Files* number field
    of the :ref:`Save & Load <prefs-save-load>` tab in the Preferences.
 
 

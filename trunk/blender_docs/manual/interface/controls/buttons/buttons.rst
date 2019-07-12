@@ -88,7 +88,7 @@ Objects/Object-Data
    This is used with object buttons (such as parent, constraints or modifiers) to
    select an object from the 3D View.
 Camera Depth
-   Number buttons effecting distance can also use the eyedropper.
+   Number fields effecting distance can also use the eyedropper.
 
    This is used to set the camera's depth of field so the depth chosen is in focus.
 

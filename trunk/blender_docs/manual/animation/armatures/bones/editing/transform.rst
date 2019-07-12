@@ -54,7 +54,7 @@ of the parent's tip and of the children's roots.
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter,
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
-and entering new values for the *Tail* and *Head* number buttons.
+and entering new values for the *Tail* and *Head* number fields.
 
 .. TODO2.8 Maybe update the images (color & style)
 

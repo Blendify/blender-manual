@@ -143,7 +143,7 @@ Delete
    Deletes the selected data-block.
 Remap Users
    Remap Users of a data-block to another one (of same type of course).
-   This  means you can e.g. replace all usages of a material or texture by another one.
+   This means you can e.g. replace all usages of a material or texture by another one.
 Copy/Paste
    Copy/pastes selected data-blocks.
 Add Fake User, Clear Fake User

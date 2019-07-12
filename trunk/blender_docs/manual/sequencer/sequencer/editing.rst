@@ -193,7 +193,7 @@ Like *Cut*, it cuts a strip in two distinct strips;
 however you will not be able to drag the endpoints to show the frames past the cut of each resulting strip.
 
 Although you can adjust the :ref:`Hold Offset <sequencer-duration-hard>`
-number buttons in the *Strip Info* panel.
+number fields in the *Strip Info* panel.
 
 .. hint::
 

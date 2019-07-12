@@ -40,7 +40,7 @@ Options
 Limit X, Y, Z
    These buttons enable the rotation limit around respectively the X, Y and Z axes of the owner,
    in the chosen *Space*.
-   The *Min* and *Max* numeric fields to their right control the value of
+   The *Min* and *Max* number fields to their right control the value of
    their lower and upper boundaries, respectively.
 
    Note that:

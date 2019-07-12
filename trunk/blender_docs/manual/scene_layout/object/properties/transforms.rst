@@ -79,11 +79,11 @@ Transform Properties Locking
 
 When the toggle is locked, the corresponding transformation value can not be changed in any interactive operation.
 However, the value can still be changed using non-interactive operations,
-like editing the corresponding number button or using Python.
+like editing the corresponding number field or using Python.
 
 For example, if you locked the *Location X* property then you cannot use the 3D gizmo to
 move the object along the global X axis.
-However, you can still move it using the *Location X* number button.
+However, you can still move it using the *Location X* number field.
 Consider the locking feature as a rigid constraint only changeable from the panel.
 
 To lock a property, click the padlock icon next to the button.
