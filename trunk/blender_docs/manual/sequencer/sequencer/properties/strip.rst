@@ -106,35 +106,32 @@ Time Panel
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Sidebar region --> Strip --> Info`
+   :Panel:     :menuselection:`Sidebar region --> Strip --> Time`
 
-The Info panel is used to control source and timeline position of the strip.
-
-
-Panel Header
-------------
+The Time panel is used to control source and timeline position of the strip.
 
 Lock (padlock icon)
-   Prevents the strip from being moved.
+   Prevents the strip from being moved (found in the panel header).
 
 Channel
    Changes the channel number, or row, of the strip.
 Start
    Changes the starting frame number of the strip, which is the same as selecting and moving the strip.
-End
-   Changes the ending frame number of the strip, which is the same as selecting and moving the strip right handle.
 Duration
-   Specify the number of frames to use for the strip.
-Strip offset (soft)
+   Changes the length, in frames of the strip. This works by changing the end frame,
+   which is the same as selecting and moving the strip's right handle.
+End
+   Specifies the ending time and ending frame number for the strip.
+Strip Offset Start/End
    Can be used to either extend the strip beyond the end frame by repeating the last frame.
    Or it can be used to shorten the strip, as if you were cropping the end frame.
    This is the same has adjusting the strip handles.
 
 .. _sequencer-duration-hard:
 
-Hold offset (hard)
+Hold Offset Start/End
    Offset of the uncut strip content.
-Playhead position
+Playhead
    Position of the Playhead relative to the start of the active strip.
 
 
