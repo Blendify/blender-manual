@@ -8,9 +8,11 @@ Transform controls can be used to modify and control the effects of the availabl
 .. toctree::
    :maxdepth: 2
 
-   precision/index.rst
    gizmos.rst
-   proportional_edit.rst
-   orientations.rst
+   numeric_input.rst
+   axis_locking.rst
+   precision.rst
    snap.rst
+   orientations.rst
    pivot_point/index.rst
+   proportional_edit.rst

@@ -57,7 +57,7 @@ Next/previous Component :kbd:`Tab`, :kbd:`Ctrl-Tab`
 
 Non-number Inputs
    You can also combine numeric input with
-   :doc:`Axis Locking </scene_layout/object/editing/transform/control/precision/axis_locking>`
+   :doc:`Axis Locking </scene_layout/object/editing/transform/control/axis_locking>`
    to limit movement to a particular axis or tool specific shortcuts.
 
 

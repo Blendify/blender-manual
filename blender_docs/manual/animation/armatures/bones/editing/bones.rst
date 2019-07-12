@@ -59,7 +59,7 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
 You also can use the rotating/scaling extrusions,
 as with meshes, by pressing respectively :kbd:`E R` and :kbd:`E S` --
-as well as :doc:`locked </scene_layout/object/editing/transform/control/precision/axis_locking>`
+as well as :doc:`locked </scene_layout/object/editing/transform/control/axis_locking>`
 extrusion along a global or local axis.
 
 .. TODO2.8 Maybe update the images (color & style)
