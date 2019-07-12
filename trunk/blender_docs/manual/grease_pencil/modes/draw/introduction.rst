@@ -76,8 +76,6 @@ Different Guides types can be activated to assist you when drawing new strokes.
 See :doc:`Guides </grease_pencil/modes/draw/guides>` for more information.
 
 
-.. TODO2.8 fix broken link additive drawing
-
 Drawing Options
 ===============
 

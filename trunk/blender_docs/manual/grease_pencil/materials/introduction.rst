@@ -30,7 +30,7 @@ to interactively preview how the material looks in the scene.
 *Grease Pencil* Materials are data-blocks that can be :doc:`assigned </render/materials/assignment>`
 to one or more objects, and different materials can be assigned to different strokes.
 
-In *Grease Pencil* the :doc:`brush </grease_pencil/modes/draw/brushes/index>`
+In *Grease Pencil* the :doc:`brush </grease_pencil/modes/draw/tool_settings/index>`
 settings together with the material used will define the look and feel of the final strokes.
 
 *Grease Pencil* Materials slots in the :ref:`List view <ui-list-view>` also have some extra controls

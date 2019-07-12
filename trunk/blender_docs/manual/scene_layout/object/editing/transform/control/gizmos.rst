@@ -62,7 +62,7 @@ Extended
 --------
 
 The operations work in same way as described in
-:doc:`precision control </scene_layout/object/editing/transform/control/precision/index>` except:
+:doc:`precision control </scene_layout/object/editing/transform/control/precision>` except:
 
 Holding down :kbd:`Shift` *after* you :kbd:`LMB`
 the gizmo handle will constrain the action to smaller increments.
