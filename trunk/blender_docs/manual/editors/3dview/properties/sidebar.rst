@@ -102,7 +102,20 @@ Rotation Mode
 Collections
 -----------
 
-This panel shows a list of collections. The visibility of the collection can be changed.
+The *Collections* panel shows a list of collections
+and can be used to control the visibility of collections in the viewport.
+Collections can be hidden in the viewport by clicking on the eye icon.
+
+If a collection contains objects, there is a circle to the left of the collection name.
+If a collection is empty, there is now circle to the left of the collection name.
+
+By clicking directly on the collection names, it "isolates" the
+collection by hiding all other collections,
+and showing the direct parents and all the children of the selected collection.
+
+.. seealso::
+
+   Read more about :doc:`Collections </scene_layout/collections/index>`
 
 
 Annotations
