@@ -42,13 +42,10 @@ Stiffness
    .. _fig-meta-edit-stiffness:
 
    .. figure:: /images/modeling_metas_editing_stiffness.png
+      :align: center
       :width: 450px
 
-      Stiffness.
-
-   In Fig. :ref:`fig-meta-edit-stiffness`, the left meta ball,
-   has a smaller *Stiffness* value than the right one.
-   As you can see, the radius (green ring) is different for each of them.
+      The left meta ball, has a smaller *Stiffness* value than the right one.
 
 .. _meta-ball-editing-negative-influence:
 
@@ -120,6 +117,7 @@ For example, the *family* part of "MetaPlane.001" is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 
 .. figure:: /images/modeling_metas_editing_family.png
+   :align: center
    :width: 450px
 
    Metaball family.
@@ -153,6 +151,7 @@ they form a unified mesh which can always be selected by selecting the mesh of a
 .. _fig-meta-ball-base:
 
 .. figure:: /images/modeling_metas_editing_base-example.png
+   :align: center
    :width: 450px
 
    Meta ball base.
@@ -163,6 +162,7 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
 .. _fig-meta-ball-scale:
 
 .. figure:: /images/modeling_metas_editing_base-example-scale.png
+   :align: center
    :width: 450px
 
    Scaling the "base".
