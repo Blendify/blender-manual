@@ -38,15 +38,15 @@ Scrolling is done by moving the mouse below or above the scrolling indicator.
 Header Menus
 ============
 
+.. figure:: /images/interface_controls_buttons_menus_menu-button.png
+   :align: right
+
+   View menu in the Header of the Image editor.
+
 Most :ref:`headers <ui-region-header>` exhibit a set of menus, located immediately next
 to the first *Editor Type* selector.
 Header menus are used to configure the editor and access tools.
 All Menu entries show the relevant shortcut keys, if any.
-
-.. figure:: /images/interface_controls_buttons_menus_menu-button.png
-   :align: center
-
-   View menu in the Header of 3D Viewport.
 
 
 Collapsing Menus
@@ -72,8 +72,7 @@ Select Menus
 
 .. figure:: /images/interface_controls_buttons_menus_select-menu.png
    :align: right
-   :width: 200px
-   :figwidth: 200px
+   :figwidth: 150px
 
    The 3D Viewport Mode Select menu.
 
@@ -94,8 +93,6 @@ Popover Menus
 
 .. figure:: /images/interface_controls_buttons_menus_popup-menu.png
    :align: right
-   :width: 200px
-   :figwidth: 200px
 
    The Transform Orientations pop-up menu.
 
@@ -176,6 +173,7 @@ Pie Menus
 A pie menu is a menu whose items are spread radially around the mouse.
 
 .. figure:: /images/interface_controls_buttons_menus_pie-menu.png
+   :align: center
 
    The 3D Viewport Mode Pie menu.
 
