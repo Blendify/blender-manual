@@ -14,6 +14,7 @@
    modes.rst
    navigate/index.rst
    3d_cursor.rst
+   selecting.rst
    controls/index.rst
    toolbar/index.rst
    properties/index.rst

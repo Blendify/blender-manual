@@ -28,7 +28,7 @@ Hiding is shared between Edit Mode and Sculpt Mode
 
 Hide Bounding Box :kbd:`H`
    To hide a part of a mesh inside the selection.
-   This works similar to :ref:`Box Select <bpy.ops.view3d.select_border>` tool.
+   This works similar to :ref:`Box Select <tool-select-box>` tool.
 Hide Bounding Box :kbd:`Shift-H`
    To reveal a hidden part of a mesh inside the selection.
 Show All :kbd:`Alt-H`
