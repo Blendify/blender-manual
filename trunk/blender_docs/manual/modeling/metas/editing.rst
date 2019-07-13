@@ -1,9 +1,13 @@
-
 .. _meta-ball-editing:
 
 *******
 Editing
 *******
+
+In addition to having several meta objects in a same family,
+you can also have several meta primitives in a single object (just add some more while in Edit Mode).
+Each will be an element, with its own shape, editing rings (in the viewport), and settings.
+
 
 Active Element
 ==============
@@ -11,115 +15,77 @@ Active Element
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Object or Edit Modes
-   :Panel:     :menuselection:`Properties editor --> Active Element`
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Properties editor Metaball --> Active Element`
 
 .. figure:: /images/modeling_metas_properties_active-element-panel.png
    :align: right
 
    Active Element panel.
 
-When in Edit Mode, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
-.. note::
-
-   In addition to having several meta objects in a same family,
-   you can also have several meta primitives in a single object (just add some more while in Edit Mode).
-   Each will be an element, with its own shape, editing rings (in the viewport), and settings...
-
-
 Type
-----
-
-The *Type* menu lets you change the shape of the meta object.
-See :doc:`Structure </modeling/metas/structure>` for more details.
-
+   Changes the :doc:`primitive shape </modeling/metas/primitives>` of the meta object.
 
 Stiffness
----------
+   Controls the influence range for individual meta elements, unlike *Influence Threshold*
+   which controls the influence for the intire :ref:`meta family <meta-ball-object-families>`.
+   This essentially defines how sensitive a meta is to being affected by other metas.
+   With a low stiffness, the meta will begin to deform from further away.
+   A higher value means the meta needs to be close to another one to begin merging.
+   The *Stiffness* is visualized by the *green ring* and can be selected and :ref:`scaled <bpy.ops.transform.resize>`
+   to also changes the *Stiffness* value.
 
-Together with *Threshold*, *Stiffness* controls the influencing range.
-While the threshold is common to all metas in the same :ref:`family <meta-ball-object-families>`,
-the stiffness is specific to each meta.
+   To be visible, the *Stiffness* must be slightly larger than the *Threshold* value.
 
-Scaling the inner green circle also changes the *Stiffness* value.
+   .. _fig-meta-edit-stiffness:
 
-Stiffness defines how much the meta object is filled.
-This essentially defines how sensitive a meta is to being affected by other metas.
-With a low stiffness, the meta will begin to deform from further away.
-A higher value means the meta needs to be close to another one to begin merging.
+   .. figure:: /images/modeling_metas_editing_stiffness.png
+      :width: 450px
 
-When a *Meta* object comes within "range" of another meta,
-the two will begin to interact with each other. They do not necessarily need to intersect,
-and depending on the *Threshold* and *Stiffness* settings,
-they most likely will not need to. *Stiffness* is materialized by the *green ring*.
+      Stiffness.
 
-The range is from (0.0 to 10.0). But to be visible,
-the *Stiffness* must be slightly larger than the *Threshold* value.
-You can also visually adjust the *Stiffness* ring by selecting and :ref:`scaling <bpy.ops.transform.resize>` it.
-
-.. _fig-meta-edit-stiffness:
-
-.. figure:: /images/modeling_metas_editing_stiffness.png
-   :width: 450px
-
-   Stiffness.
-
-In Fig. :ref:`fig-meta-edit-stiffness`, the left meta ball,
-has a smaller *Stiffness* value than the right one.
-As you can see, the radius (green ring) is different for each of them.
-
+   In Fig. :ref:`fig-meta-edit-stiffness`, the left meta ball,
+   has a smaller *Stiffness* value than the right one.
+   As you can see, the radius (green ring) is different for each of them.
 
 .. _meta-ball-editing-negative-influence:
 
-Negative Influence
-------------------
+Negative
+   Controls the whether the influence is *positive* or *negative*.
 
-.. _fig-meta-intro-positive:
+   A *positive* influence is defined as an attraction,
+   meaning that the meshes will stretch towards each other as the *rings of influence* intersect.
+   The opposite effect would be a *negative* influence where the objects repel each other.
 
-.. figure:: /images/modeling_metas_editing_family.png
-   :width: 450px
+   .. note::
 
-   Positive influence of three meta balls.
+      If a metaball has Negative influence the meta is not visible in the 3D Viepor,
+      only the surrounding circles appear.
 
-A *positive* influence is defined as an attraction,
-meaning that the meshes will stretch towards each other as the *rings of influence* intersect.
-Fig. :ref:`fig-meta-intro-positive` shows three meta balls' *rings of influence*
-intersecting with a *positive* influence.
+   .. list-table::
 
-.. _fig-meta-ball-negative:
+      * - .. figure:: /images/modeling_metas_editing_family.png
 
-.. figure:: /images/modeling_metas_editing_negative-influence.png
-   :width: 450px
+             Positive influence of three meta balls.
 
-   Negative influence of a meta ball.
+        - .. figure:: /images/modeling_metas_editing_negative-influence.png
 
-The opposite effect of a *positive* influence would be a *negative* influence:
-the objects repel each other. Fig. :ref:`fig-meta-ball-negative`
-shows a meta ball and a meta plane where the first is negative and the second, positive.
-Notice how the negative meta is not visible: only the surrounding circles appear.
-This is how Blender indicates that the object is negative.
+             Negative influence of a meta ball;
+             the first is negative and the second positive.
 
-Moving the sphere to the plane causes the plane's mesh to "cave in" or collapse inward.
-If you move the plane away from the sphere, the plane's mesh will restore itself.
+Hide
+   As in :ref:`object-show-hide` in Object Mode, you can hide the selected meta(s),
+   and then reveal what was hidden. This is very handy for cleaning your views up a bit.
 
+   .. note::
 
-Hiding Elements
----------------
+      - Hiding a meta does not *only* hide it, but also disables it from the meta computation,
+        which will affect the final geometry.
 
-As in :ref:`object-show-hide` in Object Mode, you can hide the selected meta(s),
-and then reveal what was hidden. This is very handy for cleaning your views up a bit...
-
-.. note::
-
-   Hiding a meta does not *only* hide it, but also disables it from the meta computation,
-   which will affect the final geometry...
-
-.. note::
-
-   The two red and green rings always remain visible in Edit Mode,
-   as well as the select circle in Object Mode.
+      - The two red and green rings always remain visible in Edit Mode,
+        as well as the select circle in Object Mode.
 
 
 Deleting Elements
@@ -161,8 +127,7 @@ Each meta object in the same "family" is associated with one another as discusse
 Families of metas are controlled by a *base* meta object which is identified by
 an object name **without** a dot in it. For example,
 if we have three metas called ``MetaThing``, ``MetaThing.001``,
-``MetaThing.round``,
-the *base* meta object would be ``MetaThing``.
+``MetaThing.round``, the *base* meta object would be ``MetaThing``.
 
 The *base* meta object determines the basis, the resolution, the threshold,
 *and* the transformations. It also has the material and texture area.
@@ -180,17 +145,17 @@ In a way, the *base* meta is the "owner" of the other metas in the family
 Examples
 ========
 
+Fig. :ref:`fig-meta-ball-base` shows the *base* meta labeled "B".
+The other two *Meta* objects are *children*. Children's selection rings are always black,
+while the group's mesh is orange. Because the metas are grouped,
+they form a unified mesh which can always be selected by selecting the mesh of any meta in the group.
+
 .. _fig-meta-ball-base:
 
 .. figure:: /images/modeling_metas_editing_base-example.png
    :width: 450px
 
    Meta ball base.
-
-Fig. :ref:`fig-meta-ball-base` shows the *base* meta labeled "B".
-The other two *Meta* objects are *children*. Children's selection rings are always black,
-while the group's mesh is orange. Because the metas are grouped,
-they form a unified mesh which can always be selected by selecting the mesh of any meta in the group.
 
 For example, in Fig. :ref:`fig-meta-ball-base`, only the lower sphere (the parent) has been selected,
 and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
