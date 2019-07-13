@@ -20,7 +20,7 @@ Studio
    Studio lights can follow the camera or be fixed. When fixed the angle of the lights can be adjusted.
 
    World Space Lighting
-      TODO2.8.
+      Uses world space lighting so lights do not follow the view camera.
    Rotation
       The rotation of the studio lights on the Z axis.
 
