@@ -100,9 +100,16 @@ Radius/Size
 
    .. from the center to what? compare plane to circle (3 vertices)
 
-Align to View
-   By default objects are aligned to the global space axes.
-   This option rotates the new object so that it is aligned to the view space.
+Align
+   Rotates the new object so that it is aligned in one of the following manners:
+
+   World
+      Aligns the object to the global space axes, i.e. the object's front faces the negative y axis (default).
+   View
+      Aligns the object to the view space axes, i.e. the object's front faces the observer.
+   3D Cursor
+      Aligns the object to match the rotation of the :doc:`3D Cursor </editors/3dview/3d_cursor>`.
+
 Location
    Objects are placed, by default, at the position of the 3D Cursor.
    These values let you place the object in an other position.
