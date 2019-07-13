@@ -8,22 +8,26 @@ Buttons
 Operator Buttons
 ================
 
+.. figure:: /images/interface_controls_buttons_buttons_operation.png
+   :align: right
+
+   Operator button.
+
+Operator buttons perform an action when clicked with :kbd:`LMB`.
+Button may show an icon, text, or both.
+
+.. container:: lead
+
+   .. clear
+
 .. figure:: /images/interface_controls_buttons_buttons_popup.png
    :align: right
 
    Button with pop-up menu indicator.
 
-Operator buttons perform an action when clicked with :kbd:`LMB`.
-Button may show an icon, text, or both.
-
 Button that shows a small triangle on the button corner indicates that
 pressing down :kbd:`LMB` on the button will reveal a pop-up
 :doc:`menu </interface/controls/buttons/menus>`.
-
-.. figure:: /images/interface_controls_buttons_buttons_operation.png
-   :align: center
-
-   Operator button.
 
 .. container:: lead
 
