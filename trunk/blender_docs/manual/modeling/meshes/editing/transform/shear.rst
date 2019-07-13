@@ -25,6 +25,30 @@ Everything that is "below" the horizontal axis will move in the opposite directi
    Shear Offset Factor.
 
 
+Tool Settings
+=============
+
+Offset
+   How far items are shifted from their original location.
+Shear Axis
+   The shear tool shears items along a 2D plane.
+   The *Shear Axis* controls whether the items are sheared along the X or Y axes of this imaginary plane.
+   The orientation of this plane is controlled by the following two axis controls.
+Axis
+   Defines one axis of the imaginary shearing plane.
+Axis Ortho
+   Defines the other axis of the imaginary shearing plane.
+Orientation
+   See :doc:`Transform Orientations </scene_layout/object/editing/transform/control/orientations>`
+Proportional Editing
+   See :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`
+
+.. warning::
+
+   The *Axis* and *Axis Ortho* cannot be the same axis,
+   else the imaginary plane is dimensionless and the objects will disappear into a point.
+
+
 Usage
 =====
 
