@@ -80,8 +80,7 @@ extrusion along a global or local axis.
 
 Bones have an extra "mirror extruding" tool, called by pressing :kbd:`Shift-E`.
 By default, it behaves exactly like the standard extrusion.
-But once you have enabled the *X-Axis Mirror* editing option
-(see `X-Axis Mirror`_),
+But once you have enabled the `X-Axis Mirror`_ editing option,
 each extruded tip will produce *two new bones*, having the same name except for the "_L"/ "_R" suffix
 (for left/right, see the :ref:`next page <armature-editing-naming-conventions>`).
 The "_L" bone behaves like the single one produced by the default extrusion --
@@ -511,7 +510,7 @@ X-Axis Mirror
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode
+   :Mode:      Edit and Pose Mode
    :Panel:     :menuselection:`Sidebar region --> Tool --> Options --> X-Axis Mirror`
 
 This option enables automatic mirroring of editing actions along the X axis.
@@ -524,9 +523,12 @@ through a symmetry along the armature local X axis.
 As most rigs have at least one axis of symmetry (animals, humans, ...),
 it is an easy way to spare you half of the editing work!
 
+Relative Mirror
+   Accounts for any relative transformations when using *X-Axis Mirror*.
+
 .. seealso::
 
-   :ref:`naming bones <armature-editing-naming-bones>`.
+   :ref:`Naming bones <armature-editing-naming-bones>`.
 
 
 Separate Bones
