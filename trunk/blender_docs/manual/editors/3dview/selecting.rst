@@ -1,22 +1,14 @@
-.. _tool-select-tweak:
+.. _bpy.ops.view3d.select:
 
-****************
-Cursor Selection
-****************
+*********
+Selecting
+*********
 
-.. admonition:: Reference
-   :class: refbox
+This page discusses specific selecting tools for the 3D Viewport.
+The 3D Viewport also uses the general select tools used which are described
+:doc:`here </interface/selecting>`
 
-   :Mode:      Object Mode
-   :Hotkey:    :kbd:`LMB`
 
-Clicking on an object selects it,
-using modifier keys you can perform other operations.
-
-Extend/Toggle :kbd:`Shift`
-   To add to the selection or de-select when the object is already active.
-
-   This can also be used to activate an object that is already selected.
 Center Point :kbd:`Ctrl`
    Selects the object by its center point rather than its contents.
 Menu :kbd:`Alt`

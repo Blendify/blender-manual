@@ -213,7 +213,7 @@ Select
 (De)select All :kbd:`A`
    Toggles selecting all files.
 Dragging
-   Dragging with :kbd:`LMB` starts a :ref:`box selection <bpy.ops.view3d.select_border>`.
+   Dragging with :kbd:`LMB` starts a :ref:`box selection <tool-select-box>`.
 
 
 Arrow Keys

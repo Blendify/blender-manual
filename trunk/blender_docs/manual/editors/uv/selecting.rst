@@ -13,11 +13,11 @@ Menu
 Box Select
    Click and drag to box select UV coordinates.
    Alternatively, use :kbd:`B` to start box selection.
-   See :ref:`bpy.ops.view3d.select_border`.
+   See :ref:`tool-select-box`.
 Box Select Pinned
    Use the box lasso to select only pinned UV coordinates :kbd:`Ctrl-B`.
 Circle Select
-   See :ref:`bpy.ops.view3d.select_circle`.
+   See :ref:`tool-select-circle`.
 Select/Deselect All
    Selects or de-selects all UV coordinates :kbd:`A`.
 Inverse

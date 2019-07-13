@@ -81,3 +81,4 @@ Tools
    tool_system.rst
    undo_redo.rst
    annotate_tool.rst
+   selecting.rst
