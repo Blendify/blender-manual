@@ -54,6 +54,7 @@ Buttons and Controls
    controls/buttons/buttons.rst
    controls/buttons/fields.rst
    controls/buttons/menus.rst
+   controls/buttons/decorators.rst
 
 
 Extended Controls
