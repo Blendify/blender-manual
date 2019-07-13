@@ -30,7 +30,7 @@ Rotate
 Scale
    Scale tool.
 
-   Scale Cage
+   :ref:`Scale Cage <tool-scale-cage>`
       Change the scale of an object by controlling its cage.
 
 Transform
