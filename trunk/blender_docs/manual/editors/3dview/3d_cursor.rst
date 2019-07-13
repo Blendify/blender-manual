@@ -24,7 +24,9 @@ Direct Placement with the Mouse
 Enable the cursor tool. Using :kbd:`RMB` in the 3D View will place the 3D cursor
 directly under your mouse pointer.
 
-For accuracy you should use two perpendicular orthogonal 3D Views,
+The view space is used to control the rotation of the 3D Cursor.
+
+For accuracy you should use two perpendicular orthogonal 3D views,
 i.e. any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpad3`.
 That way you can control the positioning along two axes in one view and
 determine depth in the second view.
