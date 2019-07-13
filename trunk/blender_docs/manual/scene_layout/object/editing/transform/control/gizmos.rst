@@ -42,6 +42,20 @@ Each gizmo can be used separately or in combination with the others.
           Combination.
 
 
+Tool Settings
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Tool Settings --> Orientation`
+
+Orientation
+   Rotates the gizmo so that it is aligned to one of the
+   :doc:`Transformation Orientations </scene_layout/object/editing/transform/control/orientations>`.
+
+
 Gizmo Controls
 ==============
 
