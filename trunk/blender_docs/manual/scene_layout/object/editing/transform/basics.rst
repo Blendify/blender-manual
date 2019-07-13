@@ -102,6 +102,31 @@ The amount of scaling will be displayed in the header of the 3D Viewport.
    Scale values.
 
 
+.. _tool-scale-cage:
+
+Scale Cage
+----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object and Edit Modes
+   :Menu:      :menuselection:`Toolbar --> Scale --> Scale Cage`
+
+The *Scale Cage* tool is a bounding box around the object(s) which scales objects from a particular point or axis.
+The tool works by selecting a scale point and dragging inwards or outwards to adjust the scale accordingly.
+The origin for the scale will be from the point on the cube directly opposite from the point selected.
+Selecting points on the faces of the cube scales along one axis,
+selecting points on the edges of the cube scales along two axes,
+and selecting points on the vertices of the cube scales along all three axes.
+
+.. figure:: /images/scene-layout_object_editing_transform_basics_scale_cage.png
+   :align: center
+
+   Scale Cage tool.
+
+
+
 Common Options
 ==============
 
