@@ -47,7 +47,7 @@ Active Shape Key Index
       Mirror Shape Key (Topology)
          Same as *Mirror Shape Key* though it detects the mirrored vertices based on the topology of the mesh.
          The mesh vertices do not have to be perfectly symmetrical for this action to work.
-      Transfer Mix
+      Join as Shapes (Transfer Mix)
          Transfer the current resulting shape from a different object.
 
          Select the object to copy, then the object to copy into.
