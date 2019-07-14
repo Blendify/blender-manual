@@ -98,7 +98,7 @@ On these channels lay the keyframes, which can show different information:
 Selecting Keyframes
 -------------------
 
-Selection tools are available in the Select menu in the header, and the main shortcuts listed below:
+Selection tools are available in the Select menu in the header, and the main shortcuts are listed below:
 
 Selecting
    Click on a key to select it. Hold :kbd:`Shift` to extend the current selection
