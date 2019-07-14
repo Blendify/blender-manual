@@ -15,7 +15,7 @@ Main Region
 ===========
 
 The main view allows you to view and edit Driver F-curves.
-An F-Curve has several key parts:
+An F-curve has several key parts:
 
 Axes
    The curve defines the relationship between two properties:

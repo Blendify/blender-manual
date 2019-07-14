@@ -150,7 +150,7 @@ Action Extents
    To fix this, simply reduce the *End Frame* one.
 
    Note: If you select values that are above or below the actual keyframe count of the Action,
-   then the F-Curve Extrapolation will be applied.
+   then the F-curve Extrapolation will be applied.
    Which can be changed in the Graph Editor, under :menuselection:`Channel --> Extrapolation Mode`.
 Sync Length
    Causes the "Start" and "End" Frames, above, to be reset to the first and last keyframed frames of the Action.

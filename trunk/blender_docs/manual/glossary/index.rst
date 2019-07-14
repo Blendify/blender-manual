@@ -75,7 +75,7 @@ This page lists definitions for terms used in Blender and this manual.
       An :term:`Object` consisting of :term:`bones <bone>`. Used to :term:`rig` characters, props, etc.
 
    Axis
-      A reference line which defines coordinates along one cardinal direction in n-D space.
+      A reference line which defines coordinates along one cardinal direction in n-dimensional space.
 
    Axis Angle
       Rotation method where X, Y, and Z correspond to the axis definition,

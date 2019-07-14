@@ -22,7 +22,7 @@ Adding a Modifier
 
    Modifiers panel.
 
-The F-Curve modifier panel is located in the Sidebar region.
+The F-curve modifier panel is located in the Sidebar region.
 Select a curve by selecting one of its curve points, or by selecting the channel list.
 Click on the *Add Modifier* menu to select a modifier.
 

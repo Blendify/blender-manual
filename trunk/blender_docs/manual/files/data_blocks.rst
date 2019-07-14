@@ -178,7 +178,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - :doc:`Action </animation/actions>`
      - |tick|
      - |none|
-     - | Stores animation F-Curves.
+     - | Stores animation F-curves.
        | Used as data-block animation data,
        | and the Non-Linear Animation editor.
    * - :doc:`Armature </animation/armatures/introduction>`

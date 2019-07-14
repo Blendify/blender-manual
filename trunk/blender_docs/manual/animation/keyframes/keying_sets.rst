@@ -61,11 +61,11 @@ Keyframing Settings (General Override)
    Note that the same settings in *Preferences* override these settings if enabled.
 
    Only Needed
-      Only insert keyframes where they are needed in the relevant F-Curves.
+      Only insert keyframes where they are needed in the relevant F-curves.
    Visual Keying
       Insert keyframes based on the visual transformation.
    XYZ to RGB
-      For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
+      For new F-curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Active Keying Set Panel
@@ -111,11 +111,11 @@ Keyframing Settings (Active Set Override)
    These options control individual properties in the Keying Set.
 
    Only Needed
-      Only insert keyframes where they are needed in the relevant F-Curves.
+      Only insert keyframes where they are needed in the relevant F-curves.
    Visual Keying
       Insert keyframes based on the visual transformation.
    XYZ to RGB
-      For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
+      For new F-curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Adding Properties
