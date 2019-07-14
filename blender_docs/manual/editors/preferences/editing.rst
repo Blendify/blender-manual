@@ -47,7 +47,7 @@ Align To
    View
       New object align with view coordinates.
    3D Cursor
-      New objects align to the 3D cursors orientation.
+      New objects align to the 3D cursor's orientation.
 Enter Edit Mode
    If selected, Edit Mode is automatically activated when you create a new object.
 
