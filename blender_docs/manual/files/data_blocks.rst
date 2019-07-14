@@ -240,7 +240,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - :doc:`Line Style </render/freestyle/introduction>`
      - |tick|
      - |none|
-     - | Used by the FreeStyle renderer.
+     - | Used by the Freestyle renderer.
    * - :doc:`Lattice </animation/lattice>`
      - |tick|
      - |none|
