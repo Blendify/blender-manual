@@ -5,9 +5,8 @@ Selecting
 *********
 
 This page discusses specific selecting tools for the 3D Viewport.
-The 3D Viewport also uses the general select tools used which are described
-:doc:`here </interface/selecting>`
-
+The 3D Viewport also uses the general select tools used which are described the
+:doc:`interface section </interface/selecting>`.
 
 Center Point :kbd:`Ctrl`
    Selects the object by its center point rather than its contents.

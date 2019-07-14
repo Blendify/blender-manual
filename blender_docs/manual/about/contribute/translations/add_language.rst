@@ -17,7 +17,7 @@ in particular :doc:`/about/contribute/install/index` and :doc:`/about/contribute
 This will give you a foundation environment for:
 
 - Creating a new set of translation language from English source.
-- Perform 'make' command to turn translated texts in 'po' files into html files for testing locally.
+- Perform ``make`` command to turn translated texts in po files into html files for testing locally.
 - Update changes in English texts which have been added by other contributors.
 
 Below examples show the process to create a new set of files for French, language code ``fr``, on Linux platform.

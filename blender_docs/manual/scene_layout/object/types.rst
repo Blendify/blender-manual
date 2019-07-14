@@ -98,15 +98,13 @@ Type
 Radius/Size
    Sets the starting size.
 
-   .. from the center to what? compare plane to circle (3 vertices)
-
 Align
    Rotates the new object so that it is aligned in one of the following manners:
 
    World
-      Aligns the object to the global space axes, i.e. the object's front faces the negative y axis (default).
+      Aligns the object to the global space axes, i.e. the object's front faces the negative Y axis (default).
    View
-      Aligns the object to the view space axes, i.e. the object's front faces the observer.
+      Aligns the object to the view space axes, i.e. the object's front faces the viewport's point of view.
    3D Cursor
       Aligns the object to match the rotation of the :doc:`3D Cursor </editors/3dview/3d_cursor>`.
 

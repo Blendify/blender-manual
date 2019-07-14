@@ -41,7 +41,7 @@ Header Menus
 .. figure:: /images/interface_controls_buttons_menus_menu-button.png
    :align: right
 
-   View menu in the Header of the Image editor.
+   Image menu in the Header of the Image editor.
 
 Most :ref:`headers <ui-region-header>` exhibit a set of menus, located immediately next
 to the first *Editor Type* selector.

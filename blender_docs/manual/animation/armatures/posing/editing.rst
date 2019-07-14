@@ -150,7 +150,7 @@ Push Pose from Breakdown
    :class: refbox
 
    :Mode:      Pose Mode
-   :Tool:     :menuselection:`Toolbar --> In-Betweens Tools --> Push`
+   :Tool:      :menuselection:`Toolbar --> In-Betweens Tools --> Push`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown`
    :Hotkey:    :kbd:`Ctrl-E`
 
@@ -177,7 +177,7 @@ Relax Pose to Breakdown
    :class: refbox
 
    :Mode:      Pose Mode
-   :Tool:     :menuselection:`Toolbar --> In-Betweens Tools --> Relax`
+   :Tool:      :menuselection:`Toolbar --> In-Betweens Tools --> Relax`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Breakdown`
    :Hotkey:    :kbd:`Alt-E`
 

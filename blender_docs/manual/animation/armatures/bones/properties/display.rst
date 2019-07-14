@@ -76,10 +76,4 @@ To assign a custom shape to a bone, you have to:
      just right-click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
 
 So to summarize all this, you should use meshes as shape objects,
-<<<<<<< .mine
 with their center at their lower -Y end, and an overall Y length of 1.0 unit.
-||||||| .r5363
-with their center at their lower -Y end, and an overall Y length of 1.0 units.
-=======
-with their origin at their lower -Y end, and an overall Y length of 1.0 units.
->>>>>>> .r5372

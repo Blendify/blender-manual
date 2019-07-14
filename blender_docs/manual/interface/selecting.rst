@@ -4,8 +4,8 @@ Selecting
 *********
 
 By default Blender uses the :kbd:`LMB` to select items in the Blender window.
-Alternatively, the :kbd:`RMB` can be used instead by changing the
-:doc:`Preferences </editors/preferences/keymap>`
+Alternatively, the :kbd:`RMB` can be used instead by changing
+the :doc:`Preferences </editors/preferences/keymap>`.
 Blender has several selecting tools that can be used across the different editors.
 
 
@@ -29,8 +29,8 @@ using modifier keys you can perform other operations.
 .. _tool-select-box:
 .. _bpy.ops.*.select_box:
 
-Select Boxed
-------------
+Select Box
+----------
 
 .. admonition:: Reference
    :class: refbox
@@ -160,7 +160,7 @@ Subtract
    Removes newly selected items from the existing selection.
    Items can be removed from the selection by :kbd:`Shift-LMB` already selected items.
 Invert
-   Selects non selected items and deselects existing selection.
+   Selects non-selected items and deselects existing selection.
    The selection can also be inverted by :kbd:`Ctrl-I`.
 Intersect
    Selects items that intersect with existing selection.
