@@ -16,7 +16,7 @@ Active Element
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Properties editor Metaball --> Active Element`
+   :Panel:     :menuselection:`Properties editor --> Metaball --> Active Element`
 
 .. figure:: /images/modeling_metas_properties_active-element-panel.png
    :align: right
@@ -30,7 +30,7 @@ Type
 
 Stiffness
    Controls the influence range for individual meta elements, unlike *Influence Threshold*
-   which controls the influence for the intire :ref:`meta family <meta-ball-object-families>`.
+   which controls the influence for the entire :ref:`meta family <meta-ball-object-families>`.
    This essentially defines how sensitive a meta is to being affected by other metas.
    With a low stiffness, the meta will begin to deform from further away.
    A higher value means the meta needs to be close to another one to begin merging.
@@ -64,8 +64,8 @@ Negative
 
    .. note::
 
-      If a metaball has Negative influence the meta is not visible in the 3D Viepor,
-      only the surrounding circles appear.
+      If a metaball has *Negative* influence the meta is not visible in the 3D Viewport,
+      only the surrounding circles are shown.
 
    .. list-table::
 

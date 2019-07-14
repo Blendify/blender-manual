@@ -52,8 +52,8 @@ Tool Settings
    :Menu:      :menuselection:`Tool Settings --> Orientation`
 
 Orientation
-   Rotates the gizmo so that it is aligned to one of the
-   :doc:`Transformation Orientations </scene_layout/object/editing/transform/control/orientations>`.
+   Rotates the gizmo so that it is aligned to one of
+   the :doc:`Transformation Orientations </scene_layout/object/editing/transform/control/orientations>`.
 
 
 Gizmo Controls

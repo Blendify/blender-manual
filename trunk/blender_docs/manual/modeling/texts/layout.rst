@@ -21,7 +21,6 @@ Paragraph
 
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
-
 .. figure:: /images/modeling_texts_properties_paragraph-settings.png
 
    The Paragraph panel.
