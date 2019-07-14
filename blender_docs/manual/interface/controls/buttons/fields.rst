@@ -28,9 +28,9 @@ Number Fields
 
 Number fields store values and units.
 
-First type of number field shows triangles pointing left (◂) and right (▸)
-on the sides of the field when mouse pointer is on top of the field.
-Second field type sliders have a colored bar in the background
+First type of number field shows triangles pointing left (<) and right (>)
+on the sides of the field when mouse pointer is over the field.
+Sliders the second number field type have a colored bar in the background
 to illustrate value over a range, e.g. percentage values.
 
 The value can be edited in several ways:
@@ -42,7 +42,7 @@ Incremental Steps
 Dragging
    To change the value with mouse, hold down :kbd:`LMB` and drag to left or right.
 
-      Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
+   Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
 
 Keyboard Input
    Press :kbd:`LMB` or :kbd:`Return` to enter value by typing it with keyboard.

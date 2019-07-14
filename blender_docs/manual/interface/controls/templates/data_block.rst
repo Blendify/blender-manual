@@ -52,11 +52,16 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 Preview
 =======
 
-In the Tool Shelf is a version of the data-block menu with a bigger preview.
-
 .. figure:: /images/interface_controls_templates_data-block_preview.png
+   :align: right
 
    The Data-Block menu with preview.
+
+In the Tool Settings is a version of the data-block menu with a bigger preview.
+
+.. container:: lead
+
+   .. clear
 
 
 .. rename to selector?
