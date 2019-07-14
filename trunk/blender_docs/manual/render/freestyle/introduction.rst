@@ -3,10 +3,10 @@
 Introduction
 ************
 
-What is FreeStyle?
+What is Freestyle?
 ==================
 
-FreeStyle is an edge- and line-based non-photorealistic (NPR) rendering engine.
+Freestyle is an edge- and line-based non-photorealistic (NPR) rendering engine.
 It relies on mesh data and Z-depth information to draw lines on selected edge types.
 Various line styles can be added to produce artistic ("hand drawn", "painted", etc.)
 or technical (hard line) looks.
@@ -49,20 +49,20 @@ More artwork can be found at `Release Note Artwork Showcase
 The Big Picture
 ===============
 
-- Activate FreeStyle by :menuselection:`Properties Editor --> Render tab --> FreeStyle` panel's checkbox.
-- FreeStyle settings are located in the new *View Layers* tab.
+- Activate Freestyle by :menuselection:`Properties Editor --> Render tab --> Freestyle` panel's checkbox.
+- Freestyle settings are located in the new *View Layers* tab.
 - One view layer can only have one view map. A view map holds the edge detection settings
   (Crease Angle, Culling toggle, Face Smoothness toggle, Material Boundaries toggle,
   Sphere Radius and Kr Derivative Epsilon advanced options).
 - A view map can have multiple line sets.
 - A line set controls which line types and selections will be rendered, from lines based on your scene.
 - Each line set uses one line style (which can be shared between multiple line sets).
-- A line style tells FreeStyle how to render the linked line sets in terms of color, alpha,
+- A line style tells Freestyle how to render the linked line sets in terms of color, alpha,
   thickness and other aspects.
 
 .. figure:: /images/render_freestyle_introduction_view-map-processes.png
 
-   Block diagram of FreeStyle view map and processes.
+   Block diagram of Freestyle view map and processes.
 
 
 Known Limitations
@@ -76,6 +76,6 @@ Known Limitations
 
 - Transparent faces are treated as opaque faces.
 - No edges at face intersections are detected yet.
-- Layer masks do not work with FreeStyle.
-- FreeStyle rendering results do not have any Z depth information.
+- Layer masks do not work with Freestyle.
+- Freestyle rendering results do not have any Z depth information.
 - Panoramic cameras are not supported.

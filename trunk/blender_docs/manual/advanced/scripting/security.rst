@@ -42,7 +42,7 @@ interaction (therefore will run even when auto execution is off),
 but you should be aware that this is the case since it is not necessarily obvious.
 
 - Running a script in the Text editor.
-- Rendering with FreeStyle, because FreeStyle uses scripts to control line styles.
+- Rendering with Freestyle, because Freestyle uses scripts to control line styles.
 
 
 Controlling Script Execution
