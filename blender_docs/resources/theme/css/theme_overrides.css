@@ -308,10 +308,15 @@ a.external {color:#656AE0;}
 	padding: 0px 15px;
 	font-style: normal;
 	margin: 0px;
+  color: #808080;
+  font-size: 90%;
 }
 .descr {
 	box-shadow: rgba(0,0,0,0.05) 0px 1px 4px 0px,
 					rgba(211,216,223,0.33) 0px 15px 20px -1px;
+}
+#getting-started .descr {
+  box-shadow: none;
 }
 /* End section description. */
 
