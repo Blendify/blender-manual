@@ -15,9 +15,10 @@ dashed pattern, etc.
 Chaining
 --------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-chaining.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-chaining.png
 
-   Chaining.
+      Chaining.
 
 By default all retrieved lines from the line set are chained together.
 There are two basic chaining methods:
@@ -40,9 +41,10 @@ which can be useful for line styles which depend on accurate representation of t
 Splitting
 ---------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-splitting.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-splitting.png
 
-   Splitting.
+      Splitting.
 
 You can split up chains of Freestyle lines by checking one of the following:
 
@@ -63,9 +65,10 @@ Split Dash, Gap
 Sorting
 -------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-sorting.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-sorting.png
 
-   Sorting.
+      Sorting.
 
 You can sort the order of your strokes, allowing the lines to stack in the order given.
 
@@ -101,9 +104,10 @@ Sort Order
 Selection
 ---------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-selection.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-selection.png
 
-   Selection.
+      Selection.
 
 You can also choose to only render selected chains.
 
@@ -116,9 +120,10 @@ Chain Count
 Caps
 ^^^^
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps.png
 
-   Line tip caps.
+      Line tip caps.
 
 You can choose between three types of line caps:
 
@@ -138,9 +143,10 @@ Square
 Dashed Line
 -----------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-dashed-line.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-dashed-line.png
 
-   Dashes Line UI.
+      Dashed Line.
 
 By enabling the *Dashed Line* checkbox,
 you can specify three pairs of dash and gap lengths.
@@ -157,11 +163,12 @@ as well as color, alpha and thickness modifiers.
 Color
 =====
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_color.png
-
-   Line Style Color UI.
-
 In this tab you control the color of your strokes.
+
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_color.png
+
+      Line Style Color.
 
 Base Color
    The base color for this line style.
@@ -170,11 +177,12 @@ Base Color
 Alpha
 =====
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_alpha.png
-
-   Line Style Alpha UI.
-
 In this tab you control the alpha (transparency) of your strokes.
+
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_alpha.png
+
+      Line Style Alpha.
 
 Base Transparency
    The base alpha for this line style.
@@ -185,7 +193,10 @@ Thickness
 
 In this tab you control the thickness of your strokes.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_thickness.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_thickness.png
+
+      Thickness.
 
 Base Thickness
    The base thickness for this line style.
@@ -212,20 +223,22 @@ Strokes of other edge types are always drawn using the *Center* option.
 Geometry
 ========
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_geometry.png
-
-   Line Style Geometry Overall UI.
-
 In this tab you control the geometry of your strokes.
 It contains only the option to add modifiers.
+
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_geometry.png
+
+      Line Style Geometry.
 
 
 Texture
 =======
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
 
-   Line Style Texture.
+      Line Style Texture.
 
 Use Nodes/Textures
    In Cycles textures are defined by means of

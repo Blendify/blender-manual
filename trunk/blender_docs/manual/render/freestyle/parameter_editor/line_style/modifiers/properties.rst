@@ -83,7 +83,10 @@ Calligraphy
 The *Calligraphy* modifier (thickness only) mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-calligraphy.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-calligraphy.png
+
+      Calligraphy modifier.
 
 Orientation
    The angle (orientation) of the virtual drawing tool, from the vertical axis of the picture.
@@ -107,9 +110,10 @@ A modifier based on the Crease Angle (angle between two adjacent faces).
 If a stroke segment does not lie on a crease (i.e. the edge does not have the *Crease Angle nature*),
 its properties are not touched by the modifier.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-crease-angle.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-crease-angle.png
 
-   Alpha Modifier.
+      Crease Angle Modifier.
 
 Min Angle and Max Angle
    The range of input values to the mapping.
@@ -129,13 +133,6 @@ Min Angle and Max Angle
 Curvature 3D
 ------------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-curvature-3d-example.png
-   :width: 430px
-
-   Curvature 3D modifier demo by T.K.
-   `File:Render_freestyle_modifier_curvature_3d.blend
-   <https://wiki.blender.org/wiki/File:Render_freestyle_modifier_curvature_3d.blend>`__.
-
 A modifier based on radial curvatures of the underlying 3D surface.
 The `curvature <https://en.wikipedia.org/wiki/Curvature>`__ of a 2D curve
 at a point is a measure of how quickly the curve turns at the point.
@@ -148,15 +145,23 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-curvature-3d.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-curvature-3d.png
 
-   Alpha Modifier.
+      Alpha Modifier.
 
 Min Curvature and Max Curvature
    The limits of the mapping.
    If the current point of the stroke is at *Min Curvature* or less from the target,
    it will take the start point of the mapping, and conversely,
    if it is at *Max Curvature* or more from the target, it will take the end-point value of the mapping.
+
+.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-curvature-3d-example.png
+   :width: 430px
+
+   Curvature 3D modifier demo by T.K.
+   `File:Render_freestyle_modifier_curvature_3d.blend
+   <https://wiki.blender.org/wiki/File:Render_freestyle_modifier_curvature_3d.blend>`__.
 
 
 .. _bpy.types.LineStyle*Modifier_DistanceFromCamera:
@@ -168,9 +173,10 @@ Distance from Camera/Object
 The *Distance from Camera* or *Distance from Object* modifier alters the base property with a new one
 from a given range using the distance to the active *camera* or to a given *object* as the parameter.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png
 
-   Distance from Object: Alpha Modifier.
+      Distance from Object: Alpha Modifier.
 
 Target
    The object to measure distance from (Distance from Object only).
@@ -190,9 +196,10 @@ Fill Range by Selection
 Material
 --------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-material.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-material.png
 
-   Color Modifier.
+      Color Modifier.
 
 The *Material* modifier alters the base property with a new one taken from a given range mapped on
 the current material under the stroke.
@@ -221,9 +228,10 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute the property along the stroke.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-noise.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-noise.png
 
-   Thickness Modifier.
+      Thickness Modifier.
 
 Amplitude
    The maximum value of the noise. A higher amplitude means a less transparent (more solid) stroke.

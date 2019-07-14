@@ -13,7 +13,7 @@ SVG exporting for Freestyle is available through an add-on.
 This add-on can be enabled via :menuselection:`Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the Properties editor.
 The exported ``.svg`` file is written to the default output path
-:menuselection:`Properties editor --> Render --> Output`.
+:menuselection:`Properties --> Output --> Output`.
 
 
 Options
@@ -24,10 +24,11 @@ Options
 
    :Panel:     :menuselection:`Properties editor --> Render --> Freestyle SVG Export`
 
-.. figure:: /images/render_freestyle_export-svg_panel.png
-   :align: right
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_export-svg_panel.png
+      :align: right
 
-   Freestyle SVG Export panel.
+      Freestyle SVG Export panel.
 
 Mode
    Option between Frame and Animation. Frame will render a single frame,
@@ -60,7 +61,7 @@ Exportable Properties
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> View Layers --> Freestyle Line Style SVG Export`
+   :Panel:     :menuselection:`Properties --> View Layers --> Freestyle Line Style SVG Export`
 
 Because the representation of Freestyle strokes and SVG path objects is fundamentally different, a one-on-one
 translation between Freestyle and SVG is not possible. The main shortcoming of SVG compared to Freestyle is that

@@ -7,7 +7,7 @@ View Maps
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> View Layer --> Freestyle`
+   :Panel:     :menuselection:`Properties --> View Layer --> Freestyle`
 
 .. figure:: /images/render_freestyle_view-map_freestyle-panel.png
 
@@ -19,9 +19,9 @@ Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:
 
    Parameter Editor Mode
-      The user-friendly :doc:`parameter editor </render/freestyle/parameter_editor/index>`.
+      Lines are rendered via the :doc:`parameter editor </render/freestyle/parameter_editor/index>`, easy but limited.
    Python Scripting Mode
-      Powerful but complex :doc:`Python scripting </render/freestyle/python>`.
+      Lines are rendered via :doc:`Python scripting </render/freestyle/python>`, powerful but complex.
 
 View Map Cache
    An option to reuse a previously computed view map for subsequent rendering.
@@ -38,7 +38,7 @@ View Map Cache
    then the cached view map for one view layer is replaced by a new view map
    for another view layer and hence no performance gain is expected.
 Face Smoothness
-   When enabled, *Smooth Shading* will be taken into account for edges calculation.
+   Takes *Smooth Shading* into account for edges calculation.
 Crease Angle
    If two adjacent faces form an angle less than the defined *Crease Angle*,
    the edge between them will be rendered when using *Crease* edge type selection in a line set.
@@ -47,23 +47,16 @@ Culling
    Ignore the edges that are out of view.
    (Saves some processing time and memory, but may reduce the quality of the result in some cases.)
 
-
 Advanced Options
-================
+   Sphere Radius
+      Affects the calculation of curvatures for *Ridge*, *Valley*
+      and *Suggestive Contour* edge type selection in a line set.
+      The curvature at each vertex is computed by averaging the shape
+      of the surface within the specified radius.
+      Increasing the value reduces noise and detail.
 
-.. figure:: /images/render_freestyle_view-map_freestyle-panel-advanced.png
-
-   Advanced Options enabled.
-
-
-*Sphere Radius* affects the calculation of curvatures for *Ridge*,
-*Valley* and *Suggestive Contour* edge type selection in a line set.
-The curvature at each vertex is computed by averaging the shape of
-the surface within the specified radius. Increasing the value reduces
-noise and detail.
-
-Kr Derivative Epsilon
-   Controls the threshold on the minimum rate of change of curvature used to filter the output
-   of the *Suggestive Contour* edge type selection. Increasing the value reduces the amount of
-   rendered lines, starting from smoother areas of the object (further information in
-   `this pdf <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
+   Kr Derivative Epsilon
+      Controls the threshold on the minimum rate of change of curvature used to filter the output
+      of the *Suggestive Contour* edge type selection. Increasing the value reduces the amount of
+      rendered lines, starting from smoother areas of the object (further information in
+      `this pdf <https://wiki.blender.org/wiki/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).

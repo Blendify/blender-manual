@@ -14,16 +14,14 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
 
-   Freestyle Line Set panel.
+      Freestyle Line Set panel.
 
-
-Selection By
-============
 
 Visibility
-----------
+==========
 
 There are three choices for selecting edges by visibility.
 
@@ -50,7 +48,7 @@ QI Range
 
 
 Edge Types
-----------
+==========
 
 Edge types are basic algorithms for the selection of lines from geometry.
 When using the parameter editor you have to choose at least one edge type in order to get a render output,
@@ -110,11 +108,12 @@ Ridge & Valley
 
 
 Edge Marks
-^^^^^^^^^^
+----------
 
-.. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks.png
 
-   Edge Mark setting in the Line Sets tab.
+      Edge Mark setting in the Line Sets tab.
 
 In Edit Mode you can mark "Freestyle Edges" in the same manner
 you can mark "Seams" for UV unwrapping or "Sharp" for edge split.
@@ -131,9 +130,7 @@ The examples below explain the use of edge marks.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks-mark-freestyle-edge.png
 
-   Marking Freestyle Edges in Edit Mode.
-
-   The edge marks are highlighted in green.
+   Marking Freestyle Edges in Edit Mode; the edge marks are highlighted in green.
 
 .. list-table::
 
@@ -160,17 +157,18 @@ What are edge marks not good for?
 
 
 Face Marks
-----------
+==========
 
-.. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks.png
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks.png
 
-   Face Mark options.
+      Face Mark options.
 
 To set a face mark:
 
 #. Select a mesh object and enter *Edit Mode*.
 #. Select the faces you want to be marked.
-#. Press :kbd:`Ctrl-F` and select *Mark Freestyle Face*.
+#. Press :kbd:`Ctrl-F` and select :menuselection:`Face Data --> Mark Freestyle Face`.
 
 Face marks are useful for removing lines from certain areas of a mesh.
 
@@ -220,20 +218,21 @@ The image below shows the resulting combinations.
           Exclusive, Both Faces.
 
 
-Group
------
+Collection
+==========
 
-You can include or exclude objects for line calculation, based on their belonging to a group.
+Include or exclude objects for line calculation,
+based on their belonging to a :doc:`Collection </scene_layout/collections/index>`.
 
-Group
-   The name of the object group to use.
+Collection
+   The name of the object collection to use.
 
 Inclusive/Exclusive
    Whether to include or exclude lines from those objects in this line set.
 
 
 Image Border
-------------
+============
 
 If enabled,
 Freestyle only takes geometry within the image border into consideration for line calculation.
