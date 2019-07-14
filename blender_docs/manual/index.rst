@@ -17,13 +17,23 @@ the free and open source 3D creation suite.
 Getting Started
 ===============
 
-.. hlist::
-   :columns: 2
+.. container:: tocdescr
 
-   - :doc:`/getting_started/about/index`
-   - :doc:`/getting_started/installing/index`
-   - :doc:`/getting_started/configuration/index`
-   - :doc:`/getting_started/help`
+   .. container:: descr
+
+      :doc:`/getting_started/about/index`
+
+   .. container:: descr
+
+      :doc:`/getting_started/installing/index`
+
+   .. container:: descr
+
+      :doc:`/getting_started/configuration/index`
+
+   .. container:: descr
+
+      :doc:`/getting_started/help`
 
 
 Sections
@@ -63,7 +73,7 @@ Sections
             :target: modeling/index.html
 
          :doc:`/modeling/index`
-            Geometry types, modeling tools, and modifiers.
+            Meshes, curves, metaballs, text, modeling tools, and modifiers.
 
       .. container:: descr
 
@@ -95,7 +105,7 @@ Sections
             :target: physics/index.html
 
          :doc:`/physics/index`
-            Physics simulations, particle systems and Dynamic Paint.
+            Physics simulations, particle systems and dynamic paint.
 
       .. container:: descr
 
@@ -111,7 +121,7 @@ Sections
             :target: compositing/index.html
 
          :doc:`/compositing/index`
-            Post-processing with the Compositor.
+            Post-processing with the compositing nodes.
 
       .. container:: descr
 
@@ -127,7 +137,7 @@ Sections
             :target: sequencer/index.html
 
          :doc:`/sequencer/index`
-            Video Sequence editor.
+            Video editing with the sequencer.
 
       .. container:: descr
 
