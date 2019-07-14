@@ -28,7 +28,7 @@ Insert Keyframe
 
    :Hotkey:    :kbd:`Ctrl-LMB`, :kbd:`Shift-Ctrl-LMB`
 
-:kbd:`Ctrl-LMB` inserts a keyframe to the active F-Curve at the mouse position.
+:kbd:`Ctrl-LMB` inserts a keyframe to the active F-curve at the mouse position.
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
 All previously selected keyframes are kept selected by using :kbd:`Shift-Ctrl-LMB`.
 

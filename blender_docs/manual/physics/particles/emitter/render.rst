@@ -56,7 +56,7 @@ The *Path* visualization needs a :doc:`Hair </physics/particles/hair/index>` par
 :doc:`Keyed </physics/particles/emitter/physics/keyed>` particles.
 
 B-Spline
-   Interpolate hair using B-Splines.
+   Interpolate hair using B-splines.
    This may be an option for you if you want to use low *Render* values.
    You loose a bit of control but gain smoother paths.
 Steps

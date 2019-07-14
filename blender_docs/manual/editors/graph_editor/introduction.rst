@@ -14,8 +14,8 @@ The Graph Editor allows users to adjust animation curves over time for any anima
 Main Region
 ===========
 
-The curve view allows you to view and edit F-Curves.
-An F-Curve has several key parts:
+The curve view allows you to view and edit F-curves.
+An F-curve has several key parts:
 
 Curve
    The curve defines the value (Y axis) of the property over time (X axis).
@@ -111,7 +111,7 @@ Show Group Colors
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
 Use High Quality Display
-   Display F-Curves using anti-aliasing and other fancy effects (disable for a better performance).
+   Display F-curves using anti-aliasing and other fancy effects (disable for a better performance).
 Show Handles :kbd:`Ctrl-H`
    Toggles the display of a curve's handles in the curve view.
 Only Selected Curve Keyframes

@@ -68,7 +68,7 @@ No Z-buffer
    whenever a node that is not image based is connected to the Z input.
 Z Scale
    Only active when *No Z-buffer* is enabled. When *No Z-buffer* is used,
-   the input is used directly to control the blur radius (similar to *f-Stop* when using the Z-buffer).
+   the input is used directly to control the blur radius (similar to *F-Stop* when using the Z-buffer).
    This parameter can be used to scale the range of the Z input.
 
 
@@ -173,7 +173,7 @@ Aliasing at Low f-Stop Values
      so that adjacent pixels are blurred together.
    - Use the blur node with a setting of 2 for X and Y.
    - Set DoF Distance off by a little, so that the object in focus is blurred by the tiniest bit.
-   - Use a higher f-Stop, which will start the blur,
+   - Use a higher f-stop, which will start the blur,
      and then use the Z socket to a Map Value to a Blur node to enhance the blur effect.
    - Rearrange the objects in your scene to use a lower-contrast background.
 

@@ -6,7 +6,7 @@ S-Curves
 The curve type used for creating mask splines is almost a Bézier curve, but with some differences.
 Smooth edges of the mask are defined by feathering.
 The curve needed to support feathering in a way that stuck to the curve as you edited it,
-for ease of editing an animation. These are called S-Curves.
+for ease of editing an animation. These are called S-curves.
 
 Besides the handles, every control point also has points that define the feather between
 the current point and the next point on the spline.

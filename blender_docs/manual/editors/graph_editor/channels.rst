@@ -40,7 +40,7 @@ Lock (padlock icon) :kbd:`Tab`
    .. note::
 
       In the Dope Sheet this is also working inside the NLA,
-      but that it does not prevent edition of the underlying F-Curve.
+      but that it does not prevent edition of the underlying F-curve.
 
 
 Selecting
@@ -83,7 +83,7 @@ Menu
 
 Delete Channels :kbd:`X`
    Deletes the whole channel from the current action
-   (i.e. unlink the underlying F-Curve data-block from this action data-block).
+   (i.e. unlink the underlying F-curve data-block from this action data-block).
 
    .. warning::
 
@@ -108,4 +108,4 @@ Move...
    This allows you to move top-level channels up/down :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`,
    or directly to the top/bottom :kbd:`Shift-Ctrl-PageUp`, :kbd:`Shift-Ctrl-PageDown`.
 Revive Disabled F-Curves
-   Clears "disabled" tag from all F-Curves to get broken F-Curves working again.
+   Clears "disabled" tag from all F-curves to get broken F-curves working again.

@@ -123,4 +123,4 @@ Bone
 
       Use B-Bone Shape
          When the bone is a :doc:`/animation/armatures/bones/properties/bendy_bones`,
-         click on this button to make the point follow the curvature of the B-Spline between head and tail.
+         click on this button to make the point follow the curvature of the B-spline between head and tail.

@@ -21,6 +21,7 @@ Controls
 Tabs
    Click on the tabs titles to switch between the workspaces.
    To cycle between workspaces use :kbd:`Ctrl-PageUp` and :kbd:`Ctrl-PageDown`.
+   Double click to rename the workspace.
 Add ``+``
    Click on the *Add* button to add a new workspace.
 Context menu :kbd:`RMB`
@@ -91,4 +92,3 @@ use the file's screen layouts and overriding the current layout.
 See :ref:`Load UI <file-load-ui>`.
 
 A custom set of workspaces can be saved as a part of the :doc:`/getting_started/configuration/defaults`.
-

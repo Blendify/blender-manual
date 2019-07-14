@@ -42,8 +42,7 @@ Incremental Steps
 Dragging
    To change the value with mouse, hold down :kbd:`LMB` and drag to left or right.
 
-   .. TODO, this is not currently working: Hold :kbd:`Ctrl` to snap to the discrete steps
-      while dragging or :kbd:`Shift` for precision input.
+      Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
 
 Keyboard Input
    Press :kbd:`LMB` or :kbd:`Return` to enter value by typing it with keyboard.

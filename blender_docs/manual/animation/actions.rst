@@ -22,7 +22,7 @@ if all objects have *X location* and *Y location* properties beneath them.
 
 .. figure:: /images/animation_actions_keyframes.png
 
-   Graph Editor. Each Channel has an F-Curve represented by the lines between the keyframes.
+   Graph Editor. Each channel has an F-curve represented by the lines between the keyframes.
 
 Actions
    Record and contain animation data.
