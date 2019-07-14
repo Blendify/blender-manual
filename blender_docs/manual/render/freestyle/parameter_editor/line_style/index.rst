@@ -1,8 +1,8 @@
 .. _bpy.types.FreestyleLineStyle:
 
-##########################
-  Line Style & Modifiers
-##########################
+##############
+  Line Style
+##############
 
 .. toctree::
    :maxdepth: 2
