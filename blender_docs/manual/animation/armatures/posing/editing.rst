@@ -138,30 +138,42 @@ like :ref:`auto-bones naming <armature-editing-naming-bones>`,
 that we already described in the armature editing pages. See the links above...
 
 
-Push Pose
----------
+Push Pose from Breakdown
+------------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Pose Mode
    :Tool:     :menuselection:`Toolbar --> In-Betweens Tools --> Push`
-   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown/Rest Pose`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown`
    :Hotkey:    :kbd:`Ctrl-E`
 
-*Push Pose* exaggerates the current pose by making it closer to the next keyframed position.
-You can also exaggerates the pose from the rest pose.
+*Push Pose* interpolates the current pose by making it closer to the next keyframed position.
 
 
-Relax Pose
-----------
+Push Pose from Rest
+-------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Rest`
+
+Similar to *Push Pose from Breakdown* but interpolates the pose to the rest position instead.
+Only one keyframe is needed for this tool unlike two for the other.
+
+
+Relax Pose to Breakdown
+-----------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Pose Mode
    :Tool:     :menuselection:`Toolbar --> In-Betweens Tools --> Relax`
-   :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Breakdown/Rest Pose`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Breakdown`
    :Hotkey:    :kbd:`Alt-E`
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
@@ -169,7 +181,18 @@ When you edit such a bone (and hence take it "away" from its "keyed position"),
 using this tool will progressively "bring it back" to its "keyed position",
 with smaller and smaller steps as it comes near it.
 
-This can also be used to progressively "bring it back" to its "rest pose".
+
+Relax Pose to Rest
+------------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Pose Mode
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Rest`
+
+Similar to *Relax Pose to Breakdown* but works to bring the pose back to the rest position instead.
+Only one keyframe is needed for this tool unlike two for the other.
 
 
 Breakdowner
