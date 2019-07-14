@@ -174,7 +174,7 @@ Bone Parent
 
 Bone parenting allows you to make a certain bone in an armature the Parent Object of another object.
 This means that when transforming an armature the Child Object will only move
-if the specific bone it is the Child Object of moves.
+if the specific bone is the Child Object of moves.
 
 .. _fig-view3d-parent-bone-parent:
 
