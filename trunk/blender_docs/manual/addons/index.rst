@@ -22,4 +22,4 @@ Render
    :name: addons-render
    :glob:
 
-   io_*
+   render_*
