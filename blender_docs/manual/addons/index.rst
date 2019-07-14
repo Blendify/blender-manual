@@ -3,12 +3,23 @@
 Add-ons
 *******
 
-Import Export
+Import-Export
 =============
 
 .. toctree::
    :maxdepth: 1
    :name: addons-io
+   :glob:
+
+   io_*
+
+
+Render
+======
+
+.. toctree::
+   :maxdepth: 1
+   :name: addons-render
    :glob:
 
    io_*
