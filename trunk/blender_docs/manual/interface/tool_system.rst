@@ -22,18 +22,18 @@ Some tools define gizmos (*Shear* and *Spin* for example) to help control the to
 Toolbar
 =======
 
+.. figure:: /images/interface_tool_system_buttons-popup.png
+   :align: right
+
+   Button with pop-up menu indicator.
+
 The Toolbar shows buttons for each tool.
+For tool buttons which have an small triangle in bottom right corner will reveal a pop-up menu
+when you :kbd:`LMB` drag so that you can select other tools of the same group.
 
-For tools which have an arrow :kbd:`LMB` drag opens up the sub-menu so you can select other tools.
+Hovering your cursor over a tool for a short time shows it's name, keep it longer to show the full tooltip.
 
-When the Toolbar is set to a narrow width, text isn't displayed.
-
-Holding your cursor over a tool for a short time shows it's name, keep hovering to show the full tooltip.
-
-.. tip::
-
-   - Expand the Toolbar to show icons on two columns instead of one.
-   - Expand the Toolbar even more to show icons with titles.
+Expand the Toolbar to show icons on two columns instead of one or even more to show icons with titles.
 
 
 Properties
@@ -55,7 +55,7 @@ Then you can be used as a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:
 
 :kbd:`Spacebar-T` for Transform, :kbd:`Spacebar-D` for Annotate, :kbd:`Spacebar-M` for measure, etc.
 
-*The accelerator keys are displayed in the pop-up.*
+*The accelerator keys are displayed in the tooltip.*
 
 
 Cycling Tools
