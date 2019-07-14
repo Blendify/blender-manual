@@ -145,11 +145,12 @@ Push Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Toolbar region --> In-Betweens Tools --> Push`
-   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown`
+   :Tool:     :menuselection:`Toolbar --> In-Betweens Tools --> Push`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose from Breakdown/Rest Pose`
    :Hotkey:    :kbd:`Ctrl-E`
 
-Push pose exaggerates the current pose.
+*Push Pose* exaggerates the current pose by making it closer to the next keyframed position.
+You can also exaggerates the pose from the rest pose.
 
 
 Relax Pose
@@ -159,14 +160,16 @@ Relax Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Panel:     :menuselection:`Toolbar region --> In-Betweens Tools --> Relax`
-   :Menu:      :menuselection:`Pose --> In-Betweens --> Push Pose to Breakdown`
+   :Tool:     :menuselection:`Toolbar --> In-Betweens Tools --> Relax`
+   :Menu:      :menuselection:`Pose --> In-Betweens --> Relax Pose to Breakdown/Rest Pose`
    :Hotkey:    :kbd:`Alt-E`
 
 Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones.
 When you edit such a bone (and hence take it "away" from its "keyed position"),
 using this tool will progressively "bring it back" to its "keyed position",
 with smaller and smaller steps as it comes near it.
+
+This can also be used to progressively "bring it back" to its "rest pose".
 
 
 Breakdowner
