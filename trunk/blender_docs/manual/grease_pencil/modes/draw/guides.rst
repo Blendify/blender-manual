@@ -63,7 +63,7 @@ Reference Point
       Use an object as reference point.
 
       Object
-         An :ref:`Object Selector <ui-eye-dropper>` to select the object (usually an empty),
+         An :ref:`Object Selector <ui-eyedropper>` to select the object (usually an empty),
          which location will be used as reference point.
 
 

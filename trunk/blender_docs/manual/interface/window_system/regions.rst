@@ -74,7 +74,7 @@ Maximize Area
 Toolbar
 =======
 
-The *Toolbar* (on the left side of editor area) contains a set of interactive tools.
+The *Toolbar* (on the left side of the editor area) contains a set of interactive tools.
 :kbd:`T` toggles the visibility of Toolbar.
 
 This is further documented here: :ref:`Toolbar <ui-region-toolbar>`.
@@ -93,10 +93,17 @@ This is further documented here: :ref:`Adjust Last Operation <ui-undo-redo-adjus
 Sidebar
 =======
 
-The *Sidebar* (on the right side of editor area)
+The *Sidebar* (on the right side of the editor area)
 contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Sidebar.
+
+
+Footer
+======
+
+Some editors show a bar (on top/bottom of the editor area)
+that displays information about for example the active tool.
 
 
 Arranging

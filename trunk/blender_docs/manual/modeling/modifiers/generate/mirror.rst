@@ -34,7 +34,7 @@ Flip
    (i.e. when it is enabled, the "positive" side will be kept, instead of the "negative" one).
 
 Mirror Object
-   An :ref:`Object Selector <ui-eye-dropper>` to select an object (usually an empty),
+   An :ref:`Object Selector <ui-eyedropper>` to select an object (usually an empty),
    which position and rotation will be used to define mirror planes
    (instead of using the ones from the modified object).
 
