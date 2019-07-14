@@ -29,8 +29,6 @@ Getting Started
 Sections
 ========
 
-.. The image ratio is: width: 350px; height: 350/4 + (2x5) ~= 98px
-
 .. only:: builder_html and (not singlehtml)
 
    .. container:: tocdescr
@@ -133,32 +131,20 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/index_data.jpg
-            :target: files/index.html
-
          :doc:`/files/index`
             Data-block management and the structure of blend-files.
 
       .. container:: descr
-
-         .. figure:: /images/index_addons.jpg
-            :target: addons/index.html
 
          :doc:`/addons/index`
             Additional functionality available as add-ons.
 
       .. container:: descr
 
-         .. figure:: /images/index_advanced.jpg
-            :target: advanced/index.html
-
          :doc:`/advanced/index`
             Python scripting, how to write add-ons and a reference for command-line arguments.
 
       .. container:: descr
-
-         .. figure:: /images/index_troubleshooting.jpg
-            :target: troubleshooting/index.html
 
          :doc:`/troubleshooting/index`
             Solving crashes, graphics issues and Python errors, recovering data and reporting bugs.

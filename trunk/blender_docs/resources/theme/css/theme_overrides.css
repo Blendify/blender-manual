@@ -299,8 +299,9 @@ a.external {color:#656AE0;}
 	margin-bottom: 10px;
 }
 .descr dl dt a em, .descr dl dt a span{
-	font-weight: normal;
+	font-weight: bold;
 	font-style: normal;
+	font-size: 1.3em;
 }
 .descr dl dt{padding: 18px 15px 0px!important}
 .descr dl dd{
