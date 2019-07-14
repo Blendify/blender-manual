@@ -14,13 +14,10 @@ with buttons, controls and widgets placed within them.
    :align: center
 
    The regions of the 3D Viewport showing the Sidebar and
-   the :ref:`ui-undo-redo-adjust-last-operation` panel after adding a Cube.
+   the Adjust Last Operation panel after adding a Cube.
 
-   :ref:`Header <ui-region-header>` (green),
-   :ref:`Main <ui-region-window>` region (yellow),
-   :ref:`Toolbar <ui-region-toolbar>` (blue),
-   :ref:`Sidebar <ui-region-sidebar>` (red) and
-   :ref:`ui-undo-redo-adjust-last-operation` panel (pink).
+   Header (green), Main region (yellow), Toolbar (blue),
+   Sidebar (red) and Adjust Last Operation panel (pink).
 
 
 .. _ui-region-window:

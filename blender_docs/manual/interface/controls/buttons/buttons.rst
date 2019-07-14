@@ -20,19 +20,6 @@ Button may show an icon, text, or both.
 
    .. clear
 
-.. figure:: /images/interface_controls_buttons_buttons_popup.png
-   :align: right
-
-   Button with pop-up menu indicator.
-
-Button that shows a small triangle on the button corner indicates that
-pressing down :kbd:`LMB` on the button will reveal a pop-up
-:doc:`menu </interface/controls/buttons/menus>`.
-
-.. container:: lead
-
-   .. clear
-
 
 Checkboxes & Toggle Buttons
 ===========================
