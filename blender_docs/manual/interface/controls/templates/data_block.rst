@@ -90,7 +90,7 @@ Name
 List
    Lets you select the data-block directly.
 Eyedropper
-   In some Data IDs there is an :ref:`ui-eye-dropper`
+   In some Data IDs there is an :ref:`ui-eyedropper`
    available through the pipette icon on the right side.
 Remove ``X``
    Click the ``X`` button on the right to remove the reference.

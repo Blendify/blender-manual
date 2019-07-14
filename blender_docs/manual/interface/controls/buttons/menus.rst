@@ -34,6 +34,7 @@ Scrolling is done by moving the mouse below or above the scrolling indicator.
 
 
 .. _ui-header-menu:
+.. _bpy.types.UIPopupMenu:
 
 Header Menus
 ============
@@ -43,10 +44,9 @@ Header Menus
 
    Image menu in the Header of the Image editor.
 
-Most :ref:`headers <ui-region-header>` exhibit a set of menus, located immediately next
-to the first *Editor Type* selector.
+Most :ref:`headers <ui-region-header>` exhibit a set of menus, located at the start of the header.
 Header menus are used to configure the editor and access tools.
-All Menu entries show the relevant shortcut keys, if any.
+All menu entries show the relevant shortcut keys, if any.
 
 
 Collapsing Menus
@@ -86,7 +86,7 @@ The selected option is then shown as active on the menu button.
    .. clear
 
 
-.. _bpy.types.UIPopupMenu:
+.. _bpy.types.UIPopover:
 
 Popover Menus
 =============
