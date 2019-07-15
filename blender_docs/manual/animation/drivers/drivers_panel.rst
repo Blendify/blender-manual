@@ -37,11 +37,16 @@ Type
 
 There are two categories of drivers:
 
-- **built-in functions** (average, sum, minimum and maximum)
-  The driven property will have the value of the average, sum, lowest or highest (respectively)
-  of the referenced *Driver Variables*' values.
+- **built-in functions** (average, sum, min and max)
+
+   The driven property will have the value of the average, sum, lowest or highest (respectively)
+   of the values of the referenced *Driver Variables*.
+   If there is only one driver variable, these functions will yield the same result.
+
+
 - **custom** (scripted expression).
-  A mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
+
+   A mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
 
 
 Driver Value
