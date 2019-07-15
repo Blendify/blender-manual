@@ -1,8 +1,8 @@
 .. _bpy.types.FreestyleSettings:
 
-*********
-View Maps
-*********
+*********************
+View Layer Properties
+*********************
 
 .. admonition:: Reference
    :class: refbox
