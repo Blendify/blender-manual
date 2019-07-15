@@ -1,18 +1,17 @@
 
-***
-SVG
-***
+*****************************
+Scalable Vector Graphics (SVG)
+*****************************
 
-:Name: Scalable Vector Graphics (SVG) 1.1 format
-:Location: :menuselection:`File --> Import --> Scalable Vector Graphics (.svg)`
-:Version: 1.0.0
-:Blender: 2.57
-:Category: Import-Export
-:Author(s): Sergey Sharybin, JM Soler
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import --> Scalable Vector Graphics (.svg)`
 
 .. note::
 
-   Currently the script allows only importing and is limited to path geometry only. More features will come soon.
+   Currently the script allows only importing and is limited to path geometry only.
 
 
 Properties

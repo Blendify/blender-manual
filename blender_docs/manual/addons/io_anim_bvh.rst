@@ -1,14 +1,13 @@
 
-*******************
-Biovision Hierarchy
-*******************
+******************************
+BioVision Motion Capture (BVH)
+******************************
 
-:Name: BioVision Motion Capture (BVH) format
-:Location: :menuselection:`File --> Import/Export --> Motion Capture (.bvh)`
-:Version: 1.0.0
-:Blender: 2.74
-:Category: Import-Export
-:Author: Campbell Barton
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> Motion Capture (.bvh)`
 
 
 Usage

@@ -3,12 +3,11 @@
 UV Layout
 *********
 
-:Name: UV Layout
-:Location: :menuselection:`UV Editor --> UVs --> Export UV Layout`
-:Version: 1.1.1
-:Blender: 2.75
-:Category: Import-Export
-:Author(s): Campbell Barton, Matt Ebb
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`UV Editor --> UVs --> Export UV Layout`
 
 
 Usage

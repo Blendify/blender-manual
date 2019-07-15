@@ -1,14 +1,14 @@
 
-***
-OBJ
-***
+*************
+Wavefront OBJ
+*************
 
-:Name: Wavefront OBJ format
-:Location: :menuselection:`File --> Import/Export --> Wavefront (.obj)`
-:Version: 2.3.6
-:Blender: 2.78
-:Category: Import-Export
-:Author: Campbell Barton, Bastien Montagne
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> Wavefront (.obj)`
+
 
 OBJ is a widely used de facto standard in the 3D industry.
 The OBJ format is a popular plain text format, however, it has only basic geometry and material support.

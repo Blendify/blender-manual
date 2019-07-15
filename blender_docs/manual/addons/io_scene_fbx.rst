@@ -1,14 +1,13 @@
 
-************
-Autodesk FBX
-************
+***
+FBX
+***
 
-:Name: FBX format
-:Location: :menuselection:`File --> Import/Export --> FBX (.fbx)`
-:Version: 3.9.1
-:Blender: 2.79
-:Category: Import-Export
-:Authors: Campbell Barton, Bastien Montagne, Jens Restemeier
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> FBX (.fbx)`
 
 
 Usage

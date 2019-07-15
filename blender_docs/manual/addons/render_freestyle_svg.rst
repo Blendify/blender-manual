@@ -3,6 +3,13 @@
 Freestyle SVG Exporter
 **********************
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Render
+   :Panel:     :menuselection:`Properties --> Render --> Freestyle SVG Export`
+
+
 SVG exporting for Freestyle is available through an add-on.
 
 .. figure:: /images/render_freestyle_export-svg_suzanne.svg
@@ -18,11 +25,6 @@ The exported ``.svg`` file is written to the default output path
 
 Options
 =======
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Properties editor --> Render --> Freestyle SVG Export`
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_export-svg_panel.png
