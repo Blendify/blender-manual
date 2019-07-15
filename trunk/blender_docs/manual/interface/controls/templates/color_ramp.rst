@@ -24,7 +24,7 @@ Add ``+``
    they will be placed in the middle of both stops.
 Delete ``-``
    Deletes the selected color stop from the list.
-Submenu ``v``
+Specials ``v``
    Contains more operators for the color ramp.
 
    Flip Color Ramp
@@ -34,8 +34,8 @@ Submenu ``v``
       This is mostly useful when used with Constant interpolation mode.
    Distribute Stops Evenly
       Space between all neighboring stops becomes equal.
-   Eyedropper
-      Pick a color from the interface to be used in the color ramp.
+   Eyedropper (pipette icon) :kbd:`E`
+      A :ref:`ui-eyedropper` to sample a color or gradient from the interface to be used in the color ramp.
    Reset Color Ramp
       Resets the color ramp to its default state.
 Color Mode
