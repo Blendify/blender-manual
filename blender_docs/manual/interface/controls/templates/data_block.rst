@@ -29,13 +29,18 @@ User count
    Displays the number of :term:`data users <Data User>` of the data.
    Clicking on user count button will make it a single-user copy,
    with it linked only to the active object/object's data.
-Fake User ``F``
+Fake User (shield icon)
    Keeps the data-block saved in the blend-file, even if it has no :term:`Real User`.
-New/Add ``+``
+   When activated an "F" will be shown before the name in the list.
+Make Local (chain icon)
+   Todo <2.79.
+New/Add (files icon)
    Creates a new data-block or duplicates the current data-block and applies it.
-Open file
+Open file (folder icon)
    Opens the :doc:`File Browser </editors/file_browser>`.
 Unpack file
+   .. TODO2.8. confirm removal
+
    :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
 Unlink data-block ``X``
    Clears the link. :kbd:`Shift-LMB` to set the users to zero
