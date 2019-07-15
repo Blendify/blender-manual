@@ -1,10 +1,7 @@
 
-****
-Tabs
-****
-
+******
 Stroke
-======
+******
 
 Strokes are the final rendered lines. Yet you can tweak them, for example,
 by removing the ones longer/shorter than some threshold,
@@ -13,7 +10,7 @@ dashed pattern, etc.
 
 
 Chaining
---------
+========
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-chaining.png
@@ -39,7 +36,7 @@ which can be useful for line styles which depend on accurate representation of t
 
 
 Splitting
----------
+=========
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-splitting.png
@@ -63,7 +60,7 @@ Split Dash, Gap
 
 
 Sorting
--------
+=======
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-sorting.png
@@ -102,7 +99,7 @@ Sort Order
 
 
 Selection
----------
+=========
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-selection.png
@@ -118,7 +115,7 @@ Chain Count
 
 
 Caps
-^^^^
+====
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps.png
@@ -141,7 +138,7 @@ Square
 
 
 Dashed Line
------------
+===========
 
 .. TODO2.8.
    .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-dashed-line.png
@@ -158,92 +155,3 @@ then the corresponding dash is ignored even if it has a non-zero value.
 
 Dashes are treated as separate strokes, meaning that you can apply line caps,
 as well as color, alpha and thickness modifiers.
-
-
-Color
-=====
-
-In this tab you control the color of your strokes.
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_color.png
-
-      Line Style Color.
-
-Base Color
-   The base color for this line style.
-
-
-Alpha
-=====
-
-In this tab you control the alpha (transparency) of your strokes.
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_alpha.png
-
-      Line Style Alpha.
-
-Base Transparency
-   The base alpha for this line style.
-
-
-Thickness
-=========
-
-In this tab you control the thickness of your strokes.
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_thickness.png
-
-      Thickness.
-
-Base Thickness
-   The base thickness for this line style.
-
-Thickness Position
-   Control the position of stroke thickness from the original (backbone) stroke geometry. There are four choices:
-
-   Center
-      The thickness is evenly split to the left and right side of the stroke geometry.
-   Inside
-      The strokes are drawn within object boundary.
-   Outside
-      The strokes are drawn outside the object boundary.
-   Relative
-      This allows you to specify the relative position by a number between 0.0 (inside) and 1.0 (outside),
-      in the *Thickness Ratio* number field just below.
-
-The thickness position options are applied only to strokes of edge types
-*Silhouette* and *Border*,
-since these are the only edge types defined in terms of the object boundary.
-Strokes of other edge types are always drawn using the *Center* option.
-
-
-Geometry
-========
-
-In this tab you control the geometry of your strokes.
-It contains only the option to add modifiers.
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_geometry.png
-
-      Line Style Geometry.
-
-
-Texture
-=======
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
-
-      Line Style Texture.
-
-Use Nodes/Textures
-   In Cycles textures are defined by means of
-   shader :doc:`nodes </render/freestyle/parameter_editor/line_style/nodes/index>`.
-Spacing Along Stroke
-   Allows to set the "pace" of textures mapped along the length of strokes.
-Go to LineStyle Textures
-   The "Go to LineStyle Textures" button is a shortcut to texture settings in the other tab.

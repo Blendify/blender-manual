@@ -50,18 +50,6 @@ Invert
    Inverts the *Mapping*.
 
 
-Thickness
-^^^^^^^^^
-
-Min Thickness and Max Thickness
-   The minimum and maximum assigned thickness.
-Mapping
-   Either a linear progression (from *Min Thickness* to *Max Thickness*),
-   or a custom mapping curve (on the same range).
-Invert
-   Inverts the *Mapping*.
-
-
 Types
 =====
 

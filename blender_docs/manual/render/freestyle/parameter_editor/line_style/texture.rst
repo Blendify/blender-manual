@@ -1,7 +1,27 @@
 
-********************
+*******
+Texture
+*******
+
+.. TODO2.8.
+   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
+
+      Line Style Texture.
+
+Use Nodes
+   In Cycles textures are defined by means of shader :doc:`Nodes`_.
+Spacing Along Stroke
+   Allows to set the "pace" of textures mapped along the length of strokes.
+Go to Linestyle Textures
+   A shortcut to the line style texture properties in the other *Textures* tab of the properties editor.
+   Make sure to first enable *Use Nodes*.
+
+
+Nodes
+=====
+
 UV Along Stroke Node
-********************
+--------------------
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_uv-along-stroke_node.png
    :align: right
@@ -19,13 +39,13 @@ making it possible to mimic pencil, paintbrush, and other art medium marks.
 
 
 Inputs
-======
+^^^^^^
 
 This node has no inputs.
 
 
 Properties
-==========
+^^^^^^^^^^
 
 Use Tips
    Allows to use lower quarters of a texture image for the head and tail tips of a stroke,
@@ -33,16 +53,57 @@ Use Tips
 
 
 Outputs
-=======
+^^^^^^^
 
 UV
    UV maps defined along strokes.
 
 
+Line Style Output Node
+----------------------
+
+.. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_output_node.png
+   :align: right
+
+   Line Style Output Node.
+
+The *Line Style Output* node specifies how to mix the texture information
+into the base color of line styles.
+
+
+Inputs
+^^^^^^
+
+Color
+   Color input for the texture.
+Color Factor
+   Standard mix factor of the *Color* value.
+Alpha
+   Alpha input for the texture.
+Alpha Factor
+   Standard mix factor of the *Alpha* value.
+
+
+Properties
+^^^^^^^^^^
+
+Mix
+   The Blend types could be selected in the select menu.
+   See :term:`Color Blend Modes` for details on each blending mode.
+Clamp
+   Limit the highest color value to not exceed 1.
+
+
+Outputs
+^^^^^^^
+
+This node has no outputs.
+
+
 Example
 =======
 
-The following screen capture shows a typical shader node tree that maps a floral texture image along strokes.
+The image below shows a typical shader node tree that maps a floral texture image along strokes.
 The UV Along Stroke input node retrieves UV maps defined by Freestyle along generated strokes, and
 feeds them to the Vector input channel of the Image Texture node.
 A texture image is selected in the Image Texture node,
