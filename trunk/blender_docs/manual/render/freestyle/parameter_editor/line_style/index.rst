@@ -8,6 +8,11 @@
    :maxdepth: 2
 
    introduction.rst
-   tabs.rst
-   nodes/index.rst
+   strokes.rst
+   color.rst
+   alpha.rst
+   thickness.rst
+   geometry.rst
+   texture.rst
+
    modifiers/index.rst
