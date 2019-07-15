@@ -9,9 +9,9 @@
    :maxdepth: 2
 
    introduction.rst
-   core.rst
-   view_map.rst
-   line.rst
+   render.rst
+   view_layer.rst
+   material.rst
 
 
 Control Modes

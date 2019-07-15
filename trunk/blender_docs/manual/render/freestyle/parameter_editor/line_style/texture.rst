@@ -9,7 +9,7 @@ Texture
       Line Style Texture.
 
 Use Nodes
-   In Cycles textures are defined by means of shader :doc:`Nodes`_.
+   In Cycles textures are defined by means of shader `Nodes`_.
 Spacing Along Stroke
    Allows to set the "pace" of textures mapped along the length of strokes.
 Go to Linestyle Textures
