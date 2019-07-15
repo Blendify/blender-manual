@@ -1,7 +1,7 @@
 
-****
-Line
-****
+*******************
+Material Properties
+*******************
 
 .. admonition:: Reference
    :class: refbox

@@ -1,7 +1,7 @@
 
-************
-Core Options
-************
+*****************
+Render Properties
+*****************
 
 .. admonition:: Reference
    :class: refbox
