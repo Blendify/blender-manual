@@ -1,14 +1,13 @@
 
-***
-PLY
-***
+************
+Stanford PLY
+************
 
-:Name: Stanford PLY format
-:Location: :menuselection:`File --> Import/Export --> Stanford (.ply)`
-:Version: 1.0.0
-:Blender: 2.74
-:Category: Import-Export
-:Authors: Bruce Merry, Campbell Barton
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> Stanford (.ply)`
 
 .. warning::
 

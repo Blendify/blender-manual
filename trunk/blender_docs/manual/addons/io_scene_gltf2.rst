@@ -3,13 +3,11 @@
 glTF 2.0
 ********
 
-:Name: glTF 2.0 format
-:Location: :menuselection:`File --> Import/Export --> glTF 2.0 (.glb, .gltf)`
-:Version: 0.9.x
-:Blender: 2.80
-:Category: Import-Export
-:Authors: Julien Duroure, Norbert Nopper, Urs Hanselmann, Moritz Becher, Benjamin Schmithüsen, Jim Eckerlein,
-          Khronos Group, Mozilla, and many external contributors.
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> glTF 2.0 (.glb, .gltf)`
 
 
 Usage

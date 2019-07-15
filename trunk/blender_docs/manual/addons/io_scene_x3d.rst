@@ -1,14 +1,13 @@
 
-*****
-Web3D
-*****
+***************
+Web3D X3D/VRML2
+***************
 
-:Name: Web3D X3D/VRML2 format
-:Location: :menuselection:`File --> Import/Export --> X3D Extensible 3D (.x3d/.wrl)`
-:Version: 1.2.0
-:Blender: 2.76
-:Category: Import-Export
-:Authors:  Campbell Barton, Bart, Bastien Montagne, Seva Alekseyev
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> X3D Extensible 3D (.x3d/.wrl)`
 
 
 Usage

@@ -3,12 +3,12 @@
 STL
 ***
 
-:Name: STL format
-:Location: :menuselection:`File --> Import/Export --> Stl (.stl)`
-:Version: 1.1.2
-:Blender: 2.74
-:Category: Import-Export
-:Author: Guillaume Bouchard (Guillaum)
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Import-Export
+   :Menu:      :menuselection:`File --> Import/Export --> Stl (.stl)`
+
 
 This format is useful if you intend to import/export the files for CAD software.
 It is also commonly used for loading into 3D printing software.
