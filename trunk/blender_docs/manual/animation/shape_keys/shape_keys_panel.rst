@@ -38,7 +38,7 @@ Active Shape Key Index
    Specials
       New Shape From Mix
          Add a new shape key with the current deformed shape of the object.
-         This differs from normal *Add*, as this one always copies
+         This differs from the ``+`` button of the list, as that one always copies
          the Basis shape independently of the current mix.
       Mirror Shape Key
          If your mesh is symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
