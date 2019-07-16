@@ -8,6 +8,14 @@
    :maxdepth: 2
 
    introduction.rst
+
+
+Properties
+==========
+
+.. toctree::
+   :maxdepth: 1
+
    strokes.rst
    color.rst
    alpha.rst
@@ -15,4 +23,14 @@
    geometry.rst
    texture.rst
 
-   modifiers/index.rst
+
+Modifiers
+=========
+
+.. toctree::
+   :maxdepth: 1
+
+   Color <modifiers/color/index.rst>
+   Alpha <modifiers/alpha/index.rst>
+   Thickness <modifiers/thickness/index.rst>
+   Geometry <modifiers/geometry/index.rst>

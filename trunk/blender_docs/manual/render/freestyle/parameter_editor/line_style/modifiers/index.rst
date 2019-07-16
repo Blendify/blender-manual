@@ -1,10 +1,40 @@
+:orphan:
 
-#############
-  Modifiers
-#############
+########################
+  Line Style Modifiers
+########################
+
+Color
+=====
 
 .. toctree::
-   :maxdepth: 2
+   :glob:
 
-   properties.rst
-   geometry.rst
+   color/*
+
+
+Alpha
+=====
+
+.. toctree::
+   :glob:
+
+   alpha/*
+
+
+Thickness
+=========
+
+.. toctree::
+   :glob:
+
+   thickness/*
+
+
+Geometry
+========
+
+.. toctree::
+   :glob:
+
+   geometry/*

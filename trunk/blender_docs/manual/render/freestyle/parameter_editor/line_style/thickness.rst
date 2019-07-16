@@ -30,3 +30,30 @@ The thickness position options are applied only to strokes of edge types
 *Silhouette* and *Border*,
 since these are the only edge types defined in terms of the object boundary.
 Strokes of other edge types are always drawn using the *Center* option.
+
+
+Modifiers
+=========
+
+Common Options
+--------------
+
+Mix
+   The modifier output can be mixed with the base property using the usual methods
+   (see for example the :doc:`Mix compositing node </compositing/types/color/mix>`).
+Influence
+   How much the result of this modifier affects the current property.
+
+
+Types
+-----
+
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/along_stroke`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/calligraphy`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/crease_angle`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/curvature_3d`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/distance_from_camera`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/distance_from_object`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/material`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/noise`
+- :doc:`/render/freestyle/parameter_editor/line_style/modifiers/thickness/tangent`
