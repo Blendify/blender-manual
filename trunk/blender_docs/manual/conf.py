@@ -50,8 +50,7 @@ extensions = [
     'youtube',
     'vimeo',
     'sphinx.ext.mathjax',
-    # Errors at the moment, disable - ideasman42.
-    # 'sphinx.ext.intersphinx',
+    'sphinx.ext.intersphinx',
     '404'
 ]
 
