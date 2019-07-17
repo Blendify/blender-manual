@@ -1,11 +1,15 @@
-.. highlight:: sh
 
 **************
 Patch & Commit
 **************
 
+
+.. _contribute-patch_submit:
+
 Submit Patches
 ==============
+
+.. highlight:: sh
 
 The first few times you make changes to the manual,
 you will need to submit them as patches for an administrator to review.
