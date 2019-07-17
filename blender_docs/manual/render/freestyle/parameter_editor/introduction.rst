@@ -4,12 +4,7 @@ Introduction
 ************
 
 The Freestyle *Parameter Editor Mode* is a user-friendly interface
-to define and control line sets and line styles.
+to define and control Line Sets and line styles.
 
-A view map (hence a view layer) can have multiple line sets,
+A view map (hence a view layer) can have multiple Line Sets,
 and each line set is linked to one line style.
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_introduction_mode.png
-
-      Parameter Editor Mode.

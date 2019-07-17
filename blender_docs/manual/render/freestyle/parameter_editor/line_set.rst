@@ -8,16 +8,15 @@ Line Set
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Properties editor --> View Layer --> Freestyle Line Set`
+   :Panel:     :menuselection:`Properties --> View Layer --> Freestyle Line Set`
 
 A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
+.. figure:: /images/render_freestyle_parameter-editor_line-set_panel.png
 
-      Freestyle Line Set panel.
+   Freestyle Line Set panel.
 
 
 Visibility
@@ -31,9 +30,11 @@ Hidden
    Lines occluded by at least one surface are rendered.
 
    .. figure:: /images/render_freestyle_parameter-editor_line-set_visibility-hidden-edges.png
+      :align: center
+      :width: 60%
 
       Proof of concept of visible and hidden edges by LightBWK
-      (`Sample blend-file <https://wiki.blender.org/wiki/File:HiddenCreaseEdgeMark.zip>`__)
+      (`blend-file <https://wiki.blender.org/wiki/File:HiddenCreaseEdgeMark.zip>`__)
 
 QI Range
    QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
@@ -42,9 +43,11 @@ QI Range
       Min/max number of occluding surfaces for a line to be rendered.
 
    .. figure:: /images/render_freestyle_parameter-editor_line-set_visibility-qi-range.png
+      :align: center
+      :width: 60%
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-      (`Sample blend-file <https://wiki.blender.org/wiki/File:QI-Range.zip>`__)
+      (`blend-file <https://wiki.blender.org/wiki/File:QI-Range.zip>`__)
 
 
 Edge Types
@@ -56,10 +59,12 @@ but several edge types can be combined in one line set.
 Edge types can also be excluded from calculation by pressing the *X* next to them.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-basic.png
+   :align: center
+   :width: 60%
 
    Examples of some basic edge types:
    Silhouette (green), Crease (black), Border (blue) and Edge Marks (red)
-   (`File:EdgeType.zip <https://wiki.blender.org/wiki/File:EdgeType.zip>`__ by LightBWK).
+   (`blend-file <https://wiki.blender.org/wiki/File:EdgeType.zip>`__ by LightBWK).
 
 Silhouette
    Draws silhouettes around your closed objects by rendering lines where the surface normal transitions between
@@ -70,10 +75,11 @@ Crease
    Shows only edges whose adjacent faces form an angle sharper than the defined view map's *Crease Angle*.
 
    .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-crease.png
-      :width: 600px
+      :align: center
+      :width: 60%
 
       Crease Angle proof of concept for 121° by LightBWK
-      (`the blend-file <https://wiki.blender.org/wiki/File:CreaseAngle.zip>`__).
+      (`blend-file <https://wiki.blender.org/wiki/File:CreaseAngle.zip>`__).
 
 Border
    Border shows open mesh edges, i.e. edges that belong to only one face. An open cylinder has open edges at
@@ -89,7 +95,8 @@ External Contour
    Draws lines around all objects, separating them from the scene background, but not each other.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-types-contour.png
-   :width: 600px
+   :align: center
+   :width: 60%
 
    Left pair: Contour; Right pair: External Contour.
 
@@ -110,11 +117,6 @@ Ridge & Valley
 Edge Marks
 ----------
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks.png
-
-      Edge Mark setting in the Line Sets tab.
-
 In Edit Mode you can mark "Freestyle Edges" in the same manner
 you can mark "Seams" for UV unwrapping or "Sharp" for edge split.
 These marked edges are available to render when you select *Edge Mark*.
@@ -129,8 +131,13 @@ Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-set_edge-marks-mark-freestyle-edge.png
+   :align: center
+   :width: 60%
 
    Marking Freestyle Edges in Edit Mode; the edge marks are highlighted in green.
+
+With *Edge Marks* enabled, the previously-marked lines are always rendered.
+You can see the black contour lines and the blue lines that are made with edge marks.
 
 .. list-table::
 
@@ -142,8 +149,6 @@ The examples below explain the use of edge marks.
 
           Render with Edge Marks enabled.
 
-With edge marks enabled, the previously-marked lines are always rendered.
-You can see the black contour lines and the blue lines that are made with edge marks.
 
 What are edge marks good for?
 
@@ -159,18 +164,13 @@ What are edge marks not good for?
 Face Marks
 ==========
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks.png
-
-      Face Mark options.
+Face marks are useful for removing lines from certain areas of a mesh.
 
 To set a face mark:
 
 #. Select a mesh object and enter *Edit Mode*.
 #. Select the faces you want to be marked.
 #. Press :kbd:`Ctrl-F` and select :menuselection:`Face Data --> Mark Freestyle Face`.
-
-Face marks are useful for removing lines from certain areas of a mesh.
 
 In this example, two faces of the default cube are marked like the image on the left.
 On the right is a render without face marks activated.
@@ -195,8 +195,6 @@ One Face
 Both Faces
    (De)select all edges which have both of their neighbor faces marked.
 
-The image below shows the resulting combinations.
-
 .. list-table::
 
    * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-3.png
@@ -206,8 +204,6 @@ The image below shows the resulting combinations.
      - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-4.png
 
           Inclusive, Both Faces.
-
-.. list-table::
 
    * - .. figure:: /images/render_freestyle_parameter-editor_line-set_face-marks-example-5.png
 
@@ -234,7 +230,6 @@ Inclusive/Exclusive
 Image Border
 ============
 
-If enabled,
-Freestyle only takes geometry within the image border into consideration for line calculation.
+Causes Freestyle to only take geometry within the image border into consideration for line calculation.
 This reduces render times but increases continuity problems when geometry is moved out of and
 into camera view.
