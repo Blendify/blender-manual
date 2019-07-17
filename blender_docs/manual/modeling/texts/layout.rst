@@ -52,11 +52,13 @@ Horizontal Alignment
 Vertical Alignment
    Top Base-Line
       - With text boxes, aligns the 'top' base-line of the text to the top of the frames.
-      - With no text box, aligns the actual base-line of the text to the origin of the object, and grows to the bottom.
+      - With no text box, aligns the actual base-line of the text to the origin of the object,
+        and grows to the bottom.
 
       .. note::
 
-         That difference of reference point in the first line depending on usage of boxes or not is indeed confusing...
+         That difference of reference point in the first line
+         depending on usage of boxes or not is indeed confusing.
 
    Top
       - With text boxes, aligns the top of the text to the top of the frames.
@@ -136,7 +138,8 @@ Overflow
 
       .. note::
 
-         It will only truncate in *Object Mode*, in *Edit Mode* the whole text remains visible (and overflows as needed).
+         It will only truncate in *Object Mode*,
+         in *Edit Mode* the whole text remains visible (and overflows as needed).
 
 Size X/Y
    Specifies the width and height of the text box, if set to **zero** no word-wrap happens

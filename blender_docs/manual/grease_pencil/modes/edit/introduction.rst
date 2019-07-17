@@ -18,7 +18,7 @@ The stroke editing tools are found in various places, and available through shor
 
 
 Toolbar
---------
+-------
 
 When you select a stroke and :kbd:`Tab` into edit mode,
 the :doc:`Toolbar </grease_pencil/modes/edit/tools>` changes from *Object Tools* to *Stroke editing Tools*.
