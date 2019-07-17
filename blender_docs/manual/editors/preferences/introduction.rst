@@ -36,22 +36,21 @@ Auto-Save Preferences
    this allows changes to the key-map and quick-menu to be stored and used between sessions.
 
    When disabled, a *Save Preferences* button is shown to manually perform the operation.
-Revert to Saved
+Revert to Saved Preferences
    Undoes any unsaved modifications, loading the previously saved state.
-Load Factory Settings
+Load Factory Preferences
    Completely undo all the modifications made to the preferences,
    resetting to the state used before making customizations.
 
    .. note::
 
-      After running *Load Factory Settings*, auto-save will be disabled for the currents session.
+      After running *Load Factory Preferences*, auto-save will be disabled for the currents session.
 
       This allows you to switch back to the factory settings for testing
       or following tutorials for example, without the risk of accidentally auto-saving
       over the preferences you have manually configured.
 
-      If you wish to save these as your preferences,
-      un-check the *Skip Auto-Save* button which will be displayed factory settings have been loaded.
+      If you wish to save these as your preferences, run *Save Preferences* manually.
 
    .. note::
 
