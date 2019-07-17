@@ -8,14 +8,14 @@ by removing the ones longer/shorter than some threshold,
 chaining lines into a single stroke or breaking a stroke into several ones based on angles,
 dashed pattern, etc.
 
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke.png
+   :align: center
+
+   Line Style: Strokes
+
 
 Chaining
 ========
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-chaining.png
-
-      Chaining.
 
 By default all retrieved lines from the line set are chained together.
 There are two basic chaining methods:
@@ -38,11 +38,6 @@ which can be useful for line styles which depend on accurate representation of t
 Splitting
 =========
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-splitting.png
-
-      Splitting.
-
 You can split up chains of Freestyle lines by checking one of the following:
 
 Min, Max 2D Angle
@@ -61,11 +56,6 @@ Split Dash, Gap
 
 Sorting
 =======
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-sorting.png
-
-      Sorting.
 
 You can sort the order of your strokes, allowing the lines to stack in the order given.
 
@@ -101,11 +91,6 @@ Sort Order
 Selection
 =========
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-selection.png
-
-      Selection.
-
 You can also choose to only render selected chains.
 
 Minimal, Maximal 2D Length
@@ -116,11 +101,6 @@ Chain Count
 
 Caps
 ====
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps.png
-
-      Line tip caps.
 
 You can choose between three types of line caps:
 
@@ -133,17 +113,13 @@ Square
    (hence, like the circle, the drawn end of the line is slightly extended compared to its computed value).
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-caps-example.png
+   :align: center
 
    Line caps example.
 
 
 Dashed Line
 ===========
-
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke-dashed-line.png
-
-      Dashed Line.
 
 By enabling the *Dashed Line* checkbox,
 you can specify three pairs of dash and gap lengths.
