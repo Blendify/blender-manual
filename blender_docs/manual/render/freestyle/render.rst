@@ -8,7 +8,6 @@ Render Properties
 
    :Panel:     :menuselection:`Properties --> Render --> Freestyle`
 
-
 Freestyle can be activated with the checkbox in the header of the Freestyle panel in the *Render* tab.
 
 .. figure:: /images/render_freestyle_core_freestyle-panel.png
@@ -16,7 +15,6 @@ Freestyle can be activated with the checkbox in the header of the Freestyle pane
    :width: 50%
 
    Freestyle Render Properties.
-
 
 Line Thickness Mode
    There are two different modes for defining the base line thickness:
@@ -29,4 +27,4 @@ Line Thickness Mode
       and 2.0 with 960px.
 
 Line Thickness
-   Line thickness to use for rendering (Only for *Absolute* line thickness).
+   Line thickness to use for rendering (only for *Absolute* line thickness).

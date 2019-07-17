@@ -9,7 +9,6 @@ When adding multiple Drivers or for more advanced configurations,
 it is useful to have open the :doc:`Drivers Editor </editors/drivers_editor>`.
 
 
-
 Transform Driver
 ================
 
@@ -29,7 +28,6 @@ Starting from a simple setup with two objects:
    .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
 #. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
-
 
 
 Scripted Expression - Orbit a Point
@@ -61,7 +59,6 @@ In this example, the current frame is used as the variable that induces the moti
    Experiment with the variables to control the size and center of the orbit.
 
 
-
 Custom Function - Square Value
 ==============================
 
@@ -69,7 +66,7 @@ Create a custom function to get the square of a value (i.e. *value*\ :sup:`2`).
 Adding the function to the *Driver Namespace* allows it to be used from driver expressions.
 
 The *Driver Namespace* has a list of built-in functions for use in driver expressions,
-as well as constants such as π and e.
+as well as constants such as pi and e.
 These can be inspected via the Python Console::
 
    >>> bpy.app.driver_namespace[' <tab>
@@ -109,8 +106,7 @@ Improved Mesh Deformation
 -------------------------
 
 Fix intersection problems that happen when using armatures and weight painting, specially at joints.
-Shape Keys can also be used to tweak and refine a rig
-, for example to suggest muscle formations.
+Shape keys can also be used to tweak and refine a rig, for example to suggest muscle formations.
 In this example, a shape key is used to improve the deformation at the elbow of a rudimentary arm.
 
 .. figure:: /images/animation_drivers_workflow-examples_shape-key_improved_deformation.png
@@ -118,32 +114,37 @@ In this example, a shape key is used to improve the deformation at the elbow of 
    Left: Skeletal mesh deformation without correction.
    Right: Corrective shape key applied
 
+
 Setup
-   #. Add a mesh (in this example, a cylinder with loop cuts).
-   #. Add an armature with a chain of bones.
-   #. Skin the mesh to the armature using weight painting.
+^^^^^
 
-      (Note: to parent the mesh to the armature: select the mesh first,
-      then the armature and use :kbd:`Ctrl-P` to parent with auto weights)
+#. Add a mesh (in this example, a cylinder with loop cuts).
+#. Add an armature with a chain of bones.
+#. Skin the mesh to the armature using weight painting.
 
+   (Note: to parent the mesh to the armature: select the mesh first,
+   then the armature and use :kbd:`Ctrl-P` to parent with auto weights.)
 
 Experiment with posing the armature and observe the deformation at the joint.
 To fix intersection problems or angles that look unsatisfactory,
 you can associate a :doc:`Shape Key </animation/shape_keys/index>` with a pose.
 
+
 Shape Key
-   #. Pose the armature such that the problems are visible.
-      Be sure to cover the extreme poses that you want to support for the rig.
-   #. With the mesh selected, add a new *Shape Key* in addition to the *Basis* key.
-      :menuselection:`Properties > Mesh tab > Shape Keys`
-   #. In order to author the shape key on top of the armature deformation,
-      enable both *Edit Mode Display* and *Cage Editing* in the armature modifier.
-      :menuselection:`Properties > Modifiers tab > Armature Modifier > Header`
-   #. Enter Edit Mode and select the new shape key in the properties panel.
-      Adjust the vertices as desired.
-      Select the *Basis* key to toggle between the original mesh and your edits.
-      (Note: be careful to apply edits only to your shape and not to the
-      original mesh or other existing keys).
+^^^^^^^^^
+
+#. Pose the armature such that the problems are visible.
+   Be sure to cover the extreme poses that you want to support for the rig.
+#. With the mesh selected, add a new *Shape Key* in addition to the *Basis* key.
+   :menuselection:`Properties --> Mesh tab --> Shape Keys`
+#. In order to author the shape key on top of the armature deformation,
+   enable both *Edit Mode Display* and *Cage Editing* in the armature modifier.
+   :menuselection:`Properties --> Modifiers tab --> Armature Modifier --> Header`
+#. Enter Edit Mode and select the new shape key in the properties panel.
+   Adjust the vertices as desired.
+   Select the *Basis* key to toggle between the original mesh and your edits.
+   (Note: be careful to apply edits only to your shape and
+   not to the original mesh or other existing keys.)
 
 
 Once you are satisfied with how the deformation looks for the problematic pose,
@@ -151,70 +152,70 @@ you'll need to configure a driver to activate the shape smoothly when entering t
 
 
 Driver
-   #. Add a driver to the *Value* of the shape key you've created.
-   #. Open the Drivers Editor and select the driver.
+^^^^^^
 
-   Method 1 - Direct mapping to a bone rotation value
-      A simple way to configure the driver is with a direct correspondence of
-      the value of a bone's rotation channel to the shape key activation *Value*.
-      This method has the disadvantage of relying on a single channel of a bone's
-      rotation which might be insufficient to precisely express the condition
-      under which the shape key should be activated.
+#. Add a driver to the *Value* of the shape key you've created.
+#. Open the Drivers Editor and select the driver.
 
-      #. In the Drivers tab, select the *Averaged Value* of the rotation of the
-         bone you're posing.
 
-         Understand the rotation axis that you're interested in by enabling axes
-         display in the armature or by observing the bone's transform values
-         in the Properties.
+.. rubric:: Method 1 -- Direct mapping to a bone rotation value
 
-         Select the rotation channel and set it to local, meaning, the bone's
-         rotation value relative to its parent bone.
+A simple way to configure the driver is with a direct correspondence of
+the value of a bone's rotation channel to the shape key activation *Value*.
+This method has the disadvantage of relying on a single channel of a bone's
+rotation which might be insufficient to precisely express the condition under which
+the shape key should be activated.
 
-         .. figure:: /images/animation_drivers_workflow-examples_shape-key_method1.png
+#. In the Drivers tab, select the *Averaged Value* of the rotation of the bone you're posing.
 
-      #. Manually set points in the driver curve by selecting a handle and
-         dragging it or inserting values in the *F-Curve* tab.
-         The Y-Axis represents the shape key *Value*, which should go from 0.0 to 1.0.
-         The X-Axis is usually the frame, but for this driver it represents the
-         rotation value in radians.
-         You can have more than two points in the curve and tweak the transitions
-         with the handles in the curve view (:kbd:`G` to Grab).
+   Understand the rotation axis that you're interested in by enabling axes display
+   in the armature or by observing the bone's transform values in the Properties.
 
-      #. To verify that the driver behaves correctly, deselect the option to
-         only show drivers for selected objects. This way, you can pose the
-         armature and keep an eye on the driver.
+   Select the rotation channel and set it to local, meaning, the bone's
+   rotation value relative to its parent bone.
 
-   Method 2 - Rotational difference to a target bone
-      This method requires an additional *target* or *corrective* bone, but it
-      better expresses the spatial condition in 3D space of the bone that is
-      causing the problem.
+   .. figure:: /images/animation_drivers_workflow-examples_shape-key_method1.png
 
-      #. In armature Edit Mode, add a new bone extruded from Bone 1,
-         in the position at which Bone 2 should have the shape key active.
-         This type of bones usually follow a naming convention such as *TAR-*
-         (target) or *COR-* (corrective).
+#. Manually set points in the driver curve by selecting a handle and
+   dragging it or inserting values in the *F-Curve* tab.
+   The Y Axis represents the shape key *Value*, which should go from 0.0 to 1.0.
+   The X Axis is usually the frame, but for this driver it represents the rotation value in radians.
+   You can have more than two points in the curve and tweak the transitions
+   with the handles in the curve view (:kbd:`G` to move).
 
-      #. In the Drivers tab, select the *Averaged Value* of the rotational difference
-         between the bone you're rotating and the target bone.
-         A rotational difference is the minimum angle between two objects in
-         World Space. It is therefore important that the bones have the same root,
-         so that the only thing affecting the angle between the bones is the
-         rotation of one of them.
-         When the deformation bone (Bone 2) reaches the target rotation (TAR-Bone 2)
-         the rotational difference will be 0º.
+#. To verify that the driver behaves correctly, deselect the option to
+   only show drivers for selected objects. This way, you can pose the armature
+   and keep an eye on the driver.
 
-         .. figure:: /images/animation_drivers_workflow-examples_shape-key_method2.png
 
-      #. Manually adjust the driver curve handles so that the shape key *Value*
-         (Y-axis) is 1.0 when the rotational difference (X-axis) is 0º.
-         The *Value* should be 0.0 when the arm is extended, at which point the 
-         rotational difference should be around 90º or more (in radians).
+.. rubric:: Method 2 -- Rotational difference to a target bone
 
-      #. See the steps in Method 1 on how to adjust the curve handles and
-         confirm that the functionality is working. Pose the armature to
-         verify that the ranges are correct.
+This method requires an additional *target* or *corrective* bone, but it better expresses
+the spatial condition in 3D space of the bone that is causing the problem.
 
+#. In armature Edit Mode, add a new bone extruded from Bone 1,
+   in the position at which Bone 2 should have the shape key active.
+   This type of bones usually follow a naming convention such as
+   "TAR-" (target) or "COR-" (corrective).
+
+#. In the Drivers tab, select the *Averaged Value* of the rotational difference
+   between the bone you're rotating and the target bone.
+   A rotational difference is the minimum angle between two objects in world space.
+   It is therefore important that the bones have the same root,
+   so that the only thing affecting the angle between the bones is the rotation of one of them.
+   When the deformation bone (Bone 2) reaches the target rotation (TAR-Bone 2)
+   the rotational difference will be 0?.
+
+   .. figure:: /images/animation_drivers_workflow-examples_shape-key_method2.png
+
+#. Manually adjust the driver curve handles so that the shape key *Value*
+   (Y axis) is 1.0 when the rotational difference (X axis) is 0?.
+   The *Value* should be 0.0 when the arm is extended, at which point
+   the rotational difference should be around 90? or more (in radians).
+
+#. See the steps in Method 1 on how to adjust the curve handles and
+   confirm that the functionality is working. Pose the armature to
+   verify that the ranges are correct.
 
 
 Chained Relative Shape Keys

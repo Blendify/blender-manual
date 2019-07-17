@@ -40,12 +40,12 @@ Above the curve graph is a row of controls. These are:
 Zoom In (plus magnifying glass icon)
    Zoom into the center of the graph to show more details and provide more accurate control.
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
-Zoom Out(minus magnifying glass icon)
+Zoom Out (minus magnifying glass icon)
    Zoom out of the graph to show fewer details and view the graph as a whole.
    You cannot zoom out further than the clipping region (see *Clipping* below).
 
 Specials ``v``
-   A :ref:`Specials <ui-specials-menu>` menu with tools to operate on control point or to set properties.
+   A :ref:`Specials <ui-specials-menu>` menu with tools to operate on control points or to set properties.
 
    Reset View
       Resets the view of the curve.

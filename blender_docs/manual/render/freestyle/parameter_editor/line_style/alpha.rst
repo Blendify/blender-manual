@@ -39,6 +39,7 @@ Mapping
 Invert
    Inverts the *Mapping*.
 
+
 Types
 -----
 

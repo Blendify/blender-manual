@@ -44,7 +44,7 @@ Load Factory Preferences
 
    .. note::
 
-      After running *Load Factory Preferences*, auto-save will be disabled for the currents session.
+      After running *Load Factory Preferences*, auto-save will be disabled for the current session.
 
       This allows you to switch back to the factory settings for testing
       or following tutorials for example, without the risk of accidentally auto-saving

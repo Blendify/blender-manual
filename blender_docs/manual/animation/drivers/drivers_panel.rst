@@ -37,14 +37,13 @@ Type
 
 There are two categories of drivers:
 
-- **built-in functions** (average, sum, min and max)
+#. **Built-in functions** (``average``, ``sum``, ``min`` and ``max``)
 
    The driven property will have the value of the average, sum, lowest or highest (respectively)
    of the values of the referenced *Driver Variables*.
    If there is only one driver variable, these functions will yield the same result.
 
-
-- **custom** (scripted expression).
+#. **Custom** (scripted expression).
 
    A mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
 
@@ -71,7 +70,7 @@ Show in Drivers Editor
 ----------------------
 
 Opens the fully featured :doc:`Drivers Editor </editors/drivers_editor>`.
-This button only shows in the popover version of the Drivers Panel.
+This button only shows in the popover version of the Drivers panel.
 
 
 Driver Variables
