@@ -8,11 +8,6 @@
 Material
 ********
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-material.png
-
-      Color Modifier.
-
 The *Material* modifier alters the base property with a new one taken from a given range mapped on
 the current material under the stroke.
 
@@ -27,7 +22,8 @@ If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-material-example.png
-   :width: 430px
+   :width: 50%
+   :align: center
 
    Material modifiers demo by T.K.
-   `File:Lilies_Color_Material.zip <https://wiki.blender.org/wiki/File:Lilies_Color_Material.zip>`__.
+   (`blend-file <https://wiki.blender.org/wiki/File:Lilies_Color_Material.zip>`__).

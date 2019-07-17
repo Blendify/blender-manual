@@ -4,8 +4,6 @@
 Polygonization
 **************
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_polygonization.png
-
 The *Polygonization* modifier simplifies strokes as much as possible
 (in other words, it transforms smooth strokes into jagged polylines).
 

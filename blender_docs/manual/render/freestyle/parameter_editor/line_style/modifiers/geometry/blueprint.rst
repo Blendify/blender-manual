@@ -9,8 +9,6 @@ elliptical, or square contours. A blueprint here refers to those lines drawn at 
 of free-hand drawing to capture the silhouette of objects with a simple shape such as circles,
 ellipses and squares.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_blueprint.png
-
 Shape
    Which base shapes to use for this blueprint: *Circles*, *Ellipses* or *Squares*.
 Rounds

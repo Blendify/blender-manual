@@ -10,11 +10,6 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute the property along the stroke.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-noise.png
-
-      Thickness Modifier.
-
 Amplitude
    The maximum value of the noise. A higher amplitude means a less transparent (more solid) stroke.
 Period
@@ -30,6 +25,7 @@ Asymmetric
    can be created by assigning different values to either side of the backbone.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-noise-example.png
-   :width: 430px
+   :align: center
+   :width: 50%
 
    Effect generated with a noise thickness modifier using asymmetric thickness.

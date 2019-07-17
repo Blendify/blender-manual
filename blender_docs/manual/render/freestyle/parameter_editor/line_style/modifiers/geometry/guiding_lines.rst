@@ -6,8 +6,6 @@ Guiding Lines
 
 The *Guiding Lines* modifier replaces a stroke by a straight line connecting both of its ends.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_guiding-lines.png
-
 Offset
    Offset the start and end points along the original stroke, before generating the new straight one.
 
@@ -17,7 +15,8 @@ Therefore, it is recommended to use this modifier together with one of the split
 (by 2D angle or by 2D length) from the *Strokes* panel.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_guiding-lines-example.png
-   :width: 430px
+   :width: 50%
+   :align: center
 
    Guiding Lines modifier Demo by T.K.
-   `File:Toycar_Guiding_Line.zip <https://wiki.blender.org/wiki/File:Toycar_Guiding_Line.zip>`__.
+   (`blend-file <https://wiki.blender.org/wiki/File:Toycar_Guiding_Line.zip>`__).

@@ -4,8 +4,6 @@
 Perlin Noise 2D
 ***************
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_perlin-noise-2d.png
-
 The *Perlin Noise 2D* modifier adds one-dimensional Perlin noise to the stroke. The modifier generates
 noisy displacements using 2D coordinates of stroke vertices as the input of the noise generator.
 

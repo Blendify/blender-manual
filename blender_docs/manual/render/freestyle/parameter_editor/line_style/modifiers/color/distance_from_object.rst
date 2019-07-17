@@ -11,11 +11,6 @@ Distance from Object
 The *Distance from Object* modifier alters the base property with a new one
 from a given range using the distance to the active *camera* or to a given *object* as the parameter.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png
-
-      Distance from Object: Alpha Modifier.
-
 Target
    The object to measure distance from.
 Range Min and Range Max

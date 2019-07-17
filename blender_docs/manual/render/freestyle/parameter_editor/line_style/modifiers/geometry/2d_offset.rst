@@ -8,8 +8,6 @@
 The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbone geometry.
 It has two sets of independent options/effects:
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-offset.png
-
 Start and End
    These two options add the given amount of offset to the start (or end) point of the stroke,
    along the (2D) normal at those points. The effect is blended over the whole stroke, if you for example,

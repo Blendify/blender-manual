@@ -20,11 +20,6 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-curvature-3d.png
-
-      Alpha Modifier.
-
 Min Curvature and Max Curvature
    The limits of the mapping.
    If the current point of the stroke is at *Min Curvature* or less from the target,
@@ -32,8 +27,8 @@ Min Curvature and Max Curvature
    if it is at *Max Curvature* or more from the target, it will take the end-point value of the mapping.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_color-curvature-3d-example.png
-   :width: 430px
+   :align: center
+   :width: 50%
 
    Curvature 3D modifier demo by T.K.
-   `File:Render_freestyle_modifier_curvature_3d.blend
-   <https://wiki.blender.org/wiki/File:Render_freestyle_modifier_curvature_3d.blend>`__.
+   (`blend-file <https://wiki.blender.org/wiki/File:Render_freestyle_modifier_curvature_3d.blend>`__).

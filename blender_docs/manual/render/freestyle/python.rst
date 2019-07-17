@@ -23,11 +23,11 @@ External style module files first need to be loaded in the Text Editor.
 Then the select menu within an entry of the style module stack
 allows you to select a module from the list of loaded style modules.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_python_scripting-mode.png
+.. figure:: /images/render_freestyle_python_scripting-mode.png
 
-      A screen capture of a style module ``cartoon.py`` loaded in the Text Editor (left),
-      as well as Freestyle options in the Python Scripting mode in the View Layers buttons (right).
+   A screen capture of a style module ``cartoon.py`` loaded in the Text Editor (left),
+   as well as Freestyle options in the Python Scripting mode in the View Layers buttons (right).
+
 
 Freestyle for Blender comes with a number of Python style modules that can serve as a starting
 point of your own style module writing. See also the section of the Freestyle Python API in
@@ -36,18 +36,14 @@ the Blender Python API reference manual for the full detail of style module cons
 .. list-table::
 
    * - .. figure:: /images/render_freestyle_python_scripting-mode-example-1.jpg
-          :width: 320px
 
-          By T.K. using the Python Scripting mode.
-
-          (`File:Turning_Pages.zip <https://wiki.blender.org/wiki/File:Turning_Pages.zip>`__, CC0)
+          By T.K. using the Python Scripting mode
+          (`blend-file <https://wiki.blender.org/wiki/File:Turning_Pages.zip>`__, CC0).
 
      - .. figure:: /images/render_freestyle_python_scripting-mode-example-2.png
-          :width: 320px
 
-          By T.K. using the Python Scripting mode.
-
-          (`File:Lily_Broken_Topology.zip <https://wiki.blender.org/wiki/File:Lily_Broken_Topology.zip>`__, CC0)
+          By T.K. using the Python Scripting mode
+          (`blend-file <https://wiki.blender.org/wiki/File:Lily_Broken_Topology.zip>`__, CC0).
 
 
 Writing Style Modules

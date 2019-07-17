@@ -7,11 +7,6 @@ Calligraphy
 The *Calligraphy* modifier mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-calligraphy.png
-
-      Calligraphy modifier.
-
 Orientation
    The angle (orientation) of the virtual drawing tool, from the vertical axis of the picture.
    For example, an angle of 0.0 mimics a pen aligned with the vertical axis.
@@ -19,7 +14,8 @@ Orientation
    the thinnest will be the horizontal ones i.e. stroke's direction is perpendicular to the angle.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_thickness-calligraphy-example.png
-   :width: 430px
+   :width: 50%
+   :align: center
 
    Calligraphy modifier demo by T.K.
-   `File:Toycar_Calligraphy.zip <https://wiki.blender.org/wiki/File:Toycar_Calligraphy.zip>`__.
+   (`blend-file <https://wiki.blender.org/wiki/File:Toycar_Calligraphy.zip>`__).
