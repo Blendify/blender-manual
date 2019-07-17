@@ -111,26 +111,26 @@ Some examples are given below:
 
 :|atilde|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
 :|aacute|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`'`
-:|agrave|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\\`
+:|agrave|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`Backslash`
 :|acircumflex|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`^`
 :|aring|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`O`
 :|ash|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`E`
-:|aordinal|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`-`
+:|aordinal|: :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`Minus`
 :|euml|: :kbd:`E`, :kbd:`Alt-Backspace`, :kbd:`"`
-:|ccedilla|: :kbd:`C`, :kbd:`Alt-Backspace`, :kbd:`,`
+:|ccedilla|: :kbd:`C`, :kbd:`Alt-Backspace`, :kbd:`Comma`
 :|cent|: :kbd:`C`, :kbd:`Alt-Backspace`, :kbd:`|`
-:|oslash|: :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
+:|oslash|: :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`Slash`
 
 :|section|: :kbd:`S`, :kbd:`Alt-Backspace`, :kbd:`S`
-:|dagger|: :kbd:`|`, :kbd:`Alt-Backspace`, :kbd:`-`
+:|dagger|: :kbd:`|`, :kbd:`Alt-Backspace`, :kbd:`Minus`
 :|doubledagger|: :kbd:`|`, :kbd:`Alt-Backspace`, :kbd:`=`
 :|copyright|: :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`C`
 :|registered|: :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`R`
 :|trademark|: :kbd:`T`, :kbd:`Alt-Backspace`, :kbd:`M`
 
 :|half|: :kbd:`1`, :kbd:`Alt-Backspace`, :kbd:`2`
-:|division|: :kbd:`-`, :kbd:`Alt-Backspace`, :kbd:`:`
-:|plusminus|: :kbd:`-`, :kbd:`Alt-Backspace`, :kbd:`+`
+:|division|: :kbd:`Minus`, :kbd:`Alt-Backspace`, :kbd:`:`
+:|plusminus|: :kbd:`Minus`, :kbd:`Alt-Backspace`, :kbd:`Plus`
 
 
 .. _bpy.ops.font.text_paste_from_file:
