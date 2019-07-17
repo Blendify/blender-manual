@@ -3,12 +3,14 @@
 Thickness
 *********
 
-Control the thickness of the freestyle strokes.
+Controls the thickness of the freestyle strokes.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_thickness.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_thickness.png
+   :align: center
+   :width: 50%
 
-      Thickness.
+   Line Style: Thickness.
+
 
 Base Thickness
    The base thickness for this line style.

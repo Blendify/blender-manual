@@ -8,12 +8,15 @@ Render Properties
 
    :Panel:     :menuselection:`Properties --> Render --> Freestyle`
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_core_freestyle-panel.png
-
-      Freestyle core options.
 
 Freestyle can be activated with the checkbox in the header of the Freestyle panel in the *Render* tab.
+
+.. figure:: /images/render_freestyle_core_freestyle-panel.png
+   :align: center
+   :width: 50%
+
+   Freestyle Render Properties.
+
 
 Line Thickness Mode
    There are two different modes for defining the base line thickness:

@@ -10,6 +10,7 @@ dashed pattern, etc.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_stroke.png
    :align: center
+   :width: 50%
 
    Line Style: Strokes
 

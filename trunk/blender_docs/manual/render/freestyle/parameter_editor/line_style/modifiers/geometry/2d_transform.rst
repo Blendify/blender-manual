@@ -9,8 +9,6 @@ the stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-transform.png
-
 Stroke Center
    The median point of the stroke.
 Stroke Start
@@ -35,7 +33,8 @@ Rotation Angle
    The rotation angle.
 
 .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_2d-transform-example.png
-   :width: 430px
+   :width: 50%
+   :align: center
 
    2D Transform modifier
-   `File:Toycar_Three_Contours.zip <https://wiki.blender.org/wiki/File:Toycar_Three_Contours.zip>`__.
+   (`blend-file <https://wiki.blender.org/wiki/File:Toycar_Three_Contours.zip>`__).

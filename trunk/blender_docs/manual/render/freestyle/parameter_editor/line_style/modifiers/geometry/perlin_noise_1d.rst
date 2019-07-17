@@ -12,8 +12,6 @@ the noise function to generate noisy displacements.
 This means that this modifier will give an identical result for two strokes
 with the same length and sampling interval.
 
-.. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_geometry_perlin-noise-1d.png
-
 Frequency
    How dense the noise is (kind of a scale factor along the stroke).
 Amplitude

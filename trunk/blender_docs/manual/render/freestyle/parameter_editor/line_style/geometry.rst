@@ -12,11 +12,11 @@ displace or deform them in various ways.
 
 As with other modifier stacks in Blender, they are applied from top to bottom.
 
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_geometry.png
+   :align: center
+   :width: 50%
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_geometry.png
-
-      Line Style Geometry.
+   Line Style: Geometry.
 
 
 Modifiers

@@ -11,11 +11,6 @@ Distance from Camera
 The *Distance from Camera* modifier alters the base property with a new one
 from a given range using the distance to the active *camera*.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_modifiers_properties_alpha-distance-from-object.png
-
-      Distance from Object: Alpha Modifier.
-
 Range Min and Range Max
    The limits of the mapping from "distance to camera" to "property in mapping".
    If the current point of the stroke is at *Range Min* or less from the active camera or the object,

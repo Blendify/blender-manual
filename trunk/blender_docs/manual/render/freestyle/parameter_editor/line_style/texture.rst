@@ -3,10 +3,13 @@
 Texture
 *******
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
+Assigns a texture to the Freestyle stroke.
 
-      Line Style Texture.
+.. figure:: /images/render_freestyle_parameter-editor_line-style_tabs_texture.png
+   :align: center
+   :width: 50%
+
+   Line Style: Texture.
 
 Use Nodes
    In Cycles textures are defined by means of shader `Nodes`_.
@@ -91,7 +94,7 @@ Mix
    The Blend types could be selected in the select menu.
    See :term:`Color Blend Modes` for details on each blending mode.
 Clamp
-   Limit the highest color value to not exceed 1.
+   Limit the highest color value to not exceed 1.0.
 
 
 Outputs
@@ -113,10 +116,10 @@ Since the Alpha Factor is set to one, the texture image replaces the base alpha 
 On the other hand, the Mix blend mode is selected in the Line Style Output node with the Color Factor set to zero,
 so that the gradient line color specified in the active line style is applied along strokes.
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_uv-along-stroke_example.png
+.. figure:: /images/render_freestyle_parameter-editor_line-style_nodes_uv-along-stroke_example.png
 
-      `.blend <https://wiki.blender.org/wiki/File:Blender_272_textured_strokes_in_cycles.blend>`__.
+   Example of Line Style Nodes
+   (`blend-file <https://wiki.blender.org/wiki/File:Blender_272_textured_strokes_in_cycles.blend>`__).
 
 It is noted that the texture image ``FS_floral_brush.png``
 shown in the screen capture is an example of Freestyle brush images with tips.
