@@ -48,7 +48,7 @@ In this guide, we will use TortoiseSVN though any Subversion client will do.
 Setting up the Build Environment
 ================================
 
-- Open a Command Prompt.
+- Open a Command Prompt. (Run as Administrator)
 - Enter the ``blender_docs`` folder which was just added by the SVN checkout::
 
      cd C:\blender_docs
