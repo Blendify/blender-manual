@@ -95,6 +95,17 @@ Generated PO File
 The modified ``.po`` files can be edited and committed back to svn.
 
 
+Committ Translation Files
+=========================
+
+**For Windows users**
+
+Create .patch file:
+
+#. Enter to C:\blender_docs\locale\fr
+#. Right click => TortoiseSVN => Create patch...
+#.  :ref:`Submit Patches <submit-patches>`
+
 Maintenance
 ===========
 
