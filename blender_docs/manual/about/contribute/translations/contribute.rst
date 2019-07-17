@@ -102,7 +102,7 @@ Committ Translation Files
 
 Create .patch file:
 
-#. Enter to C:\blender_docs\locale\fr
+#. Enter to : ``C:\blender_docs\locale\fr``
 #. Right click => TortoiseSVN => Create patch...
 #.  :ref:`Submit Patches <submit-patches>`
 
