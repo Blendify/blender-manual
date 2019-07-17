@@ -9,14 +9,13 @@ Wavefront OBJ
    :Category:  Import-Export
    :Menu:      :menuselection:`File --> Import/Export --> Wavefront (.obj)`
 
-
 OBJ is a widely used de facto standard in the 3D industry.
 The OBJ format is a popular plain text format, however, it has only basic geometry and material support.
 
 - Mesh: vertices, faces, edges, normals, UV's
 - Separation by groups/objects
 - Materials/textures
-- NURBS curves and surfaces.
+- NURBS curves and surfaces
 
 .. note::
 
@@ -28,6 +27,7 @@ The OBJ format is a popular plain text format, however, it has only basic geomet
    - Importing very large OBJ-files (over a few 100mb), can use a lot of RAM.
    - OBJ's export using Unix line endings ``\n`` even on windows,
      if you open the files in a text editor it must recognize ``\n`` line endings.
+
 
 Usage
 =====
@@ -84,7 +84,7 @@ Animation
    Exports a numbered OBJ for each frame from the start to the end frame.
    Please be aware that this can take quite a long time.
 Apply Modifiers
-   Export mesh objects as seen in the 3D View with all modifiers applied.
+   Export mesh objects as seen in the 3D Viewport with all modifiers applied.
    Mostly you will want this unless you are exporting a subdivision surface cage.
 Edges
    Export loose edges as two-sided faces. Mostly there is no need for this

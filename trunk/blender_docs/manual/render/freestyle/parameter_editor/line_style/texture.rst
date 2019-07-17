@@ -16,7 +16,7 @@ Use Nodes
 Spacing Along Stroke
    Allows to set the "pace" of textures mapped along the length of strokes.
 Go to Linestyle Textures
-   A shortcut to the line style texture properties in the other *Textures* tab of the properties editor.
+   A shortcut to the line style texture properties in the other *Textures* tab of the Properties editor.
    Make sure to first enable *Use Nodes*.
 
 

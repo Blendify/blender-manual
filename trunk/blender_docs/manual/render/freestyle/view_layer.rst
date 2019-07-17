@@ -9,7 +9,6 @@ View Layer Properties
 
    :Panel:     :menuselection:`Properties --> View Layer --> Freestyle`
 
-
 There is only one view map per view layer. It controls the edge detection parameters.
 
 .. figure:: /images/render_freestyle_view-map_freestyle-panel.png
@@ -17,7 +16,6 @@ There is only one view map per view layer. It controls the edge detection parame
    :width: 50%
 
    View Layer: Freestyle panel.
-
 
 Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:

@@ -9,7 +9,6 @@ Freestyle SVG Exporter
    :Category:  Render
    :Panel:     :menuselection:`Properties --> Render --> Freestyle SVG Export`
 
-
 SVG exporting for Freestyle is available through an add-on.
 
 .. figure:: /images/render_freestyle_export-svg_suzanne.svg
@@ -107,7 +106,7 @@ This problem is extra apparent in animations.
 .. figure:: /images/render_freestyle_export-svg_pallet.svg
    :align: center
 
-   An example of a .svg result produced by the Freestyle SVG Exporter.
+   An example of a SVG result produced by the Freestyle SVG Exporter.
    Model by `Julien Deswaef <https://github.com/xuv>`__.
 
 Fills support holes and layering. When using layers, the exporter tries to render objects with the same material as

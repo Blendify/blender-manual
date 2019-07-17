@@ -28,7 +28,7 @@ The exporter can bake mesh modifiers and animation into the FBX so the final res
      because there is no real way to know which stack to use as 'active' action for a given object, mesh or bone.
      This may be enhanced to be smarter in the future, but it's not really considered urgent,
      so for now you'll have to link actions to objects manually.
-   - Armatures' instances **are not supported**.
+   - Armature instances **are not supported**.
 
 .. note::
 
@@ -165,8 +165,8 @@ Batch Mode
       If you do not have a full Python installation, this button will not be shown.
 
 
-Geometries
-^^^^^^^^^^
+Geometry
+^^^^^^^^
 
 Apply Modifiers
    When enabled, the mesh will be from the output of the modifiers applied to the mesh.

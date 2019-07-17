@@ -11,7 +11,7 @@ or via a simplified *Edit Driver* popover invoked from the property context menu
 
 
 Add Driver
-----------
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +28,7 @@ and displays the *Edit Driver* popover.
 
 
 Edit Driver
------------
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -43,7 +43,7 @@ component, so this reduced interface is sufficient.
 
 
 Open Drivers Editor
--------------------
+===================
 
 .. admonition:: Reference
    :class: refbox
@@ -55,7 +55,7 @@ selects the driver associated with the property.
 
 
 Copy & Paste
-------------
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -68,7 +68,7 @@ When adding drivers with the same settings, this can save time modifying setting
 
 
 Expression
-----------
+==========
 
 This is a quick way to add drivers with a scripted expression.
 First click the property you want to add a driver to, then add a hash ``#`` and a scripted expression.
@@ -82,7 +82,7 @@ Some examples:
 
 
 Removing Drivers
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -91,5 +91,5 @@ Removing Drivers
    :Menu:      :menuselection:`Context menu --> Delete Single Driver`
    :Hotkey:    :kbd:`Ctrl-Alt-D`
 
-Removes driver(s) associated with the property, either for the single selected
-property or sub-channel or all components of a vector.
+Removes driver(s) associated with the property, either for the single selected property
+or sub-channel or all components of a vector.
