@@ -48,10 +48,10 @@ The Big Picture
 - One view layer can only have one view map. A view map holds the edge detection settings
   (Crease Angle, Culling toggle, Face Smoothness toggle, Material Boundaries toggle,
   Sphere Radius, and Kr Derivative Epsilon advanced options).
-- A view map can have multiple line sets.
+- A view map can have multiple Line Sets.
 - A line set controls which line types and selections will be rendered, from lines based on your scene.
-- Each line set uses one line style (which can be shared between multiple line sets).
-- A line style tells Freestyle how to render the linked line sets in terms of color, alpha,
+- Each line set uses one line style (which can be shared between multiple Line Sets).
+- A line style tells Freestyle how to render the linked Line Sets in terms of color, alpha,
   thickness and other aspects.
 
 .. figure:: /images/render_freestyle_introduction_view-map-processes.png
