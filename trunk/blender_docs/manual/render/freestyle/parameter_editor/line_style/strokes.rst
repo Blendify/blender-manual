@@ -1,7 +1,7 @@
 
-******
-Stroke
-******
+*******
+Strokes
+*******
 
 Strokes are the final rendered lines. Yet you can tweak them, for example,
 by removing the ones longer/shorter than some threshold,
