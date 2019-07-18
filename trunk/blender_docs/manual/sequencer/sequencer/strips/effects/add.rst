@@ -4,13 +4,6 @@
 Add Effect
 **********
 
-.. _fig-sequencer-strips-effects-add:
-
-.. figure:: /images/sequencer_sequencer_strips_effects_add_example.png
-   :width: 620px
-
-   Add Effect.
-
 The Add Effect adds the colors of two strips together.
 Use this effect with a base image strip, and a modifier strip.
 The modifier strip is either a solid color or a black-and-white mask,
@@ -34,3 +27,13 @@ Options
 =======
 
 This strip has no options.
+
+
+Example
+=======
+
+.. _fig-sequencer-strips-effects-add:
+
+.. figure:: /images/sequencer_sequencer_strips_effects_add_example.png
+
+   Add Effect.

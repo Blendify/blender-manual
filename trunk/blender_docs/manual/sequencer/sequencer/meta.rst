@@ -20,6 +20,7 @@ UnMeta Strip :kbd:`Alt-G`
    This can be used if you choose to delete a Meta strip and want to keep the strips inside.
 
 .. figure:: /images/sequencer_sequencer_meta_example.png
+   :align: center
 
    Example of Meta strips.
 

@@ -76,14 +76,6 @@ if two strips were rendered or shot under different lighting conditions but are 
 Chroma Vectorscope
 ==================
 
-.. figure:: /images/sequencer_preview_display-mode_example.jpg
-
-   Example image.
-
-.. figure:: /images/sequencer_preview_display-mode_vectorscope.png
-
-   Example of a Chroma Vectorscope Preview.
-
 Use this mode judge the quality of the color-distribution and saturation, you can also view a U/V scatter-plot.
 
 The picture is converted to YUV-format. The U and V values represent the angle of the color.
@@ -114,17 +106,17 @@ This mode is good for:
   you can see in the U/V plot if you distort the color.
 - If you do color-matching on a by hand basis you can match the angle you see of different channels monitors.
 
-
-Histogram
-=========
-
 .. figure:: /images/sequencer_preview_display-mode_example.jpg
 
    Example image.
 
-.. figure:: /images/sequencer_preview_display-mode_histogram.png
+.. figure:: /images/sequencer_preview_display-mode_vectorscope.png
 
-   Example of Histogram Preview.
+   Example of a Chroma Vectorscope Preview.
+
+
+Histogram
+=========
 
 This mode displays a graph showing the distribution of color information in the pixels of
 the currently displayed image. The X axis represents values of pixel, from 0 to 1 (or 0 to 255),
@@ -133,3 +125,11 @@ image would have most of its information toward the left side of the graph.
 
 Use this mode to balance out the tonal range in an image.
 A well balanced image should have nice and smooth distribution of color values.
+
+.. figure:: /images/sequencer_preview_display-mode_example.jpg
+
+   Example image.
+
+.. figure:: /images/sequencer_preview_display-mode_histogram.png
+
+   Example of Histogram Preview.
