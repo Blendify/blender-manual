@@ -6,7 +6,7 @@
 .. figure:: /images/grease-pencil_properties_layers_panel.png
    :align: right
 
-   *Grease Pencil* Layers panel.
+   Grease Pencil Layers panel.
 
 
 Layers List
@@ -20,7 +20,7 @@ When you draw, the new strokes are added to the active layer.
 
 By default the view order of the layers in the viewport is top to bottom.
 
-Every layer correspond to a channel in the Dope Sheet editor (Grease Pencil mode).
+Every layer correspond to a channel in the Dope Sheet editor (in Grease Pencil mode).
 See :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` for more information.
 
 Layers can also be used together with Modifiers to only affects part of your drawing.
@@ -61,8 +61,7 @@ Viewport/Render Visibility (eye icon)
    Toggle layer visibility in the viewport and in render.
 
 Onion Skinning (onion skin icon)
-   Toggle the use the layer for Onion Skinning.
-   You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
+   Toggle the use the layer for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 
 Below the layers list there are additional common settings:
 
@@ -74,7 +73,7 @@ Opacity
 
 Show only on keyframed
    Makes the layer visible in the viewport only if it has a keyframe in the actual frame.
-   This helps for example when you are in the inking process using the Fill Tool and want to only see
+   This helps for example when you are in the inking process using the *Fill* tool and want to only see
    the strokes that are in the actual frame to avoid fill in unwanted regions.
 
 
@@ -104,17 +103,17 @@ Merge Down
    Merge the selected layer with the layer below, the new layer keeps the name of the lower layer.
 
 Copy Layer to Object
-   Makes a copy of the layer and move it to the selected *Grease Pencil* Object.
+   Makes a copy of the layer and move it to the selected *Grease Pencil* object.
 
 
 Lock and Visibility General Controls
 ------------------------------------
 
 Lock (padlock icon)
-   Toggle whether the active layer is the only that can be edited.
+   Toggle whether the active layer is the only one that can be edited.
 
 Visibility (screen icon)
-   Toggle whether the active layer is the only that can be edited and visible.
+   Toggle whether the active layer is the only one that can be edited and is visible.
 
 
 
@@ -128,22 +127,20 @@ Adjustments
 
 Tint Color/Factor
    Color that tint any material colors used in the layer.
-   Factor control the amount of tint color to apply.
+   The *Factor* controls the amount of tint color to apply.
 
 Stroke Thickness
-   Thickness value that override strokes thickness in the layer.
+   Thickness value that override the strokes thickness in the layer.
 
 Pass Index
-   Layer index number. Can be used with some Modifiers to restrict changes to only certain areas.
+   The layer index number can be used with some modifiers to restrict changes to only certain areas.
 
    See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more information.
 
 View Layer
    Defines the View Layer to use for the *Grease Pencil* layer.
    If empty, the layer will be included in all View Layers.
-   This is useful to separate drawings parts for compositing.
-
-   See :doc:`Compositing </compositing/introduction>` for more information.
+   This is useful to separate drawings parts for :doc:`compositing </compositing/introduction>`.
 
 Disallow Locked Materials Editing
    Avoids editing locked materials in the layer. When disabled,
@@ -154,8 +151,8 @@ Relations
 =========
 
 Parent/Type
-   Select a parent Object and type to manipulate the layer.
-   The layer will inherit the transformations of the parent, specially useful when rigging for cut-out animation.
+   Select a Parent object and Type to manipulate the layer.
+   The layer will inherit the transformations of the parent, especially useful when rigging for cut-out animation.
 
 
 Layer Display

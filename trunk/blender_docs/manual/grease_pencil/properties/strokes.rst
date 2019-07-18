@@ -16,11 +16,11 @@ Stroke Depth Order
 
 2D Layers
    The Strokes drawing order respect the order of the 2D layers list (top to bottom)
-   and ignore the real position of the strokes in the 3D space.
+   and ignores the real position of the strokes in 3D space.
    See :doc:`2D Layers </grease_pencil/properties/layers>` for more information.
 
 3D Location
-   The strokes drawing order is based on the stroke location in the 3D space.
+   The strokes drawing order is based on the stroke location in 3D space.
 
 .. list-table::
 
@@ -47,7 +47,7 @@ Screen Space
    Stroke thickness remains the same regardless of the screen zoom factor.
 
 Thickness Scale
-   Sets a thickness scale factor for all the strokes.
+   Sets a thickness scale factor for all strokes.
 
 
 Further Options

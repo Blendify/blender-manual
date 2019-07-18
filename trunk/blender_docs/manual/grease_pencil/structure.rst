@@ -3,7 +3,7 @@
 Structure
 *********
 
-Grease Pencil Object has three main basic components: *points*, *edit lines* and *strokes*.
+Grease Pencil object has three main basic components: *points*, *edit lines* and *strokes*.
 
 .. figure:: /images/grease-pencil_structure_example.png
 
@@ -13,24 +13,24 @@ Grease Pencil Object has three main basic components: *points*, *edit lines* and
 Points
 ======
 
-The main element used in editing Grease Pencil Object are points.
+The main element used in editing Grease Pencil objects are points.
 Points represent a single point in 3D space.
 
-Each point store all the properties that define the final appearance of the strokes
-as its location, thickness, alpha, UV rotation for textures and weight.
+Each point stores all the properties that define the final appearance of the strokes
+as its location, thickness, alpha, weight and UV rotation for textures.
 
 
 Edit Lines
 ==========
 
 Points are always connected by a straight line,
-the line you see when you are editing in Edit Mode or when you look at a stroke in wireframe view.
-They are invisible on the rendered image and used to construct the final stroke.
+which you see when you are editing in Edit Mode or when you look at a stroke in wireframe view.
+They are invisible on the rendered image and are used to construct the final stroke.
 
 
 Strokes
 =======
 
-The stroke is the rendered image of the points and edit line,
+The stroke is the rendered image of the points and edit lines,
 using a particular :doc:`Grease Pencil material </grease_pencil/materials/introduction>`.
-(*Grease Pencil* Materials are linked at stroke level.)
+(Grease Pencil materials are linked at stroke level.)

@@ -37,7 +37,7 @@ Orbit an object's position around a point with a custom *Scripted Expression*.
 The object's position will change when scrubbing the timeline.
 
 Using trigonometry, circular motion can be defined in 2D using the sinus and cosine functions.
-(See `Unit Circle <https://en.wikipedia.org/wiki/Unit_circle>`__).
+(See `Unit Circle <https://en.wikipedia.org/wiki/Unit_circle>`__.)
 
 In this example, the current frame is used as the variable that induces the motion.
 ``frame`` is a :ref:`Simple Expression <drivers-simple-expressions>` that corresponds to
@@ -95,7 +95,7 @@ and then added to the ``bpy.app.driver_namespace``.
 #. Observe the effect when scrubbing the timeline.
 
 There are more custom function examples available in Blender's Text Editor
-:menuselection:`Templates > Python > Driver Functions`.
+:menuselection:`Templates --> Python --> Driver Functions`.
 
 
 

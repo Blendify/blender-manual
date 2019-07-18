@@ -24,7 +24,7 @@ Points
 Strokes
    To select all the points in the selected stroke.
 
-Points in between
+Points in Between
    To select all points that are between other strokes.
 
 .. figure:: /images/grease-pencil_selecting_example.png
@@ -35,9 +35,9 @@ Points in between
 Select Menu
 ===========
 
-   Box/Circle/All/None/Invert Select
+Box/Circle/All/None/Invert Select
    All these options have the same meaning and behavior as in
-   :doc:`Object Mode </scene_layout/object/selecting>`
+   :doc:`Object Mode </scene_layout/object/selecting>`.
 
 
 Select Linked
@@ -79,7 +79,7 @@ Select Grouped
    :Hotkey:    :kbd:`Shift-G`
 
 Layer
-   Selects all the points/strokes in the same Layer.
+   Selects all the points/strokes on the same layer.
 Material
    Selects all the points/strokes that share the same material.
 
@@ -93,8 +93,8 @@ Select First/Last
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Select --> First/Last`
 
-These operators will toggle the selection of the first or last point(s) of the stroke(s)
-in the object. This is useful to quickly find the start of a stroke.
+These operators will toggle the selection of the first or last point(s) of the stroke(s) in the object.
+This is useful to quickly find the start of a stroke.
 
 
 Select More/Less
@@ -107,7 +107,8 @@ Select More/Less
    :Menu:      :menuselection:`Select --> More/Less`
    :Hotkey:    :kbd:`Ctrl-NumpadPlus`, :kbd:`Ctrl-NumpadMinus`
 
-Their purpose, based on the currently selected points, is to reduce or enlarge this selection.
+The purpose of these tools is to reduce or enlarge the current selection within a stroke
+(i.e. they will never "go outside" of a stroke or "jump" to another stroke in the same object).
 
 More
    For each selected point, select *all* its linked points (i.e. one or two...).
@@ -115,10 +116,8 @@ Less
    For each selected point, if *all* points linked to this point are selected, keep this one selected.
    Otherwise, de-select it.
 
-This implies two points:
+.. hint::
 
-#. When *all* points of a stroke are selected, nothing will happen
+   When *all* points of a stroke are selected, nothing will happen
    (as for *Less*, all linked points are always selected, and of course, *More* cannot add any).
    Conversely, the same goes when no points are selected.
-#. Second, these tools will never "go outside" of a stroke
-   (they will never "jump" to another stroke in the same object).

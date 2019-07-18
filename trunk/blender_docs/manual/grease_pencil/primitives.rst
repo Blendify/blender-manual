@@ -21,13 +21,13 @@ In Object Mode, the *Add Grease Pencil* menu, provides three different Grease Pe
 Blank
 =====
 
-Add a Grease Pencil object without any stroke.
+Adds a Grease Pencil object without any stroke.
 
 
 Stroke
 ======
 
-Adds a Grease Pencil object with a simple stroke as reference.
+Adds a Grease Pencil object with a simple stroke as a reference.
 
 
 Monkey
