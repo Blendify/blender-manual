@@ -37,13 +37,13 @@ Type
 
 There are two categories of drivers:
 
-#. **Built-in functions** (``average``, ``sum``, ``min`` and ``max``)
+#. **Built-in functions** (*Average*, *Sum*, *Min* and *Max*)
 
    The driven property will have the value of the average, sum, lowest or highest (respectively)
    of the values of the referenced *Driver Variables*.
    If there is only one driver variable, these functions will yield the same result.
 
-#. **Custom** (scripted expression).
+#. **Custom** (*Scripted Expression*).
 
    A mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
 
@@ -98,10 +98,8 @@ expression, in order for dependencies to be correctly tracked.
 
 Add Input Variable
    Adds a new Driver Variable.
-Copy/Paste
-   Copies of the current variable stack so it can be pasted onto another driver's variable stack.
 Name
-   Name to use in scripted expressions/functions.
+   Name to use in scripted expressions.
    The name must start with a letter and no spaces or dots are allowed.
 
 Variable Type
