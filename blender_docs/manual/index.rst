@@ -134,9 +134,9 @@ Sections
       .. container:: descr
 
          .. figure:: /images/index_sequencer.jpg
-            :target: sequencer/index.html
+            :target: video_editing/index.html
 
-         :doc:`/sequencer/index`
+         :doc:`/video_editing/index`
             Video editing with the sequencer.
 
       .. container:: descr
@@ -187,7 +187,7 @@ Sections
       render/index.rst
       compositing/index.rst
       movie_clip/index.rst
-      sequencer/index.rst
+      video_editing/index.rst
       files/index.rst
       addons/index.rst
       advanced/index.rst

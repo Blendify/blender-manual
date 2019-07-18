@@ -11,7 +11,7 @@ For some effects, like the Cross transition effect,
 you will need to :kbd:`Shift-LMB` a second overlapping strip (it depends on the effect you want).
 From Add menu pick the effect you want.
 When you do, the Effect strip will be shown above the source strips. If it is an independent effect,
-like the :doc:`Color Generator </sequencer/sequencer/strips/effects/color>`,
+like the :doc:`Color Generator </video_editing/sequencer/strips/effects/color>`,
 it will be placed at the position of the frame indicator.
 
 .. note::
@@ -20,7 +20,7 @@ it will be placed at the position of the frame indicator.
    their frame location and duration depends on their source strips. Thus,
    you may not be able to move it; you have to move the source strips in order to affect the effect strip.
 
-With some effects, like the :doc:`Alpha Over </sequencer/sequencer/strips/effects/alpha_over_under_overdrop>`,
+With some effects, like the :doc:`Alpha Over </video_editing/sequencer/strips/effects/alpha_over_under_overdrop>`,
 the order in which you select the strips is important.
 You can also use one effect strip as the input or source strip with another strip,
 thus layering effects on top of one another.

@@ -31,7 +31,7 @@ See :doc:`User Interface </interface/index>` for documentation on the general in
    shader_editor/index.rst
    Compositor <../compositing/index.rst>
    texture_node/index.rst
-   Video Sequencer <../sequencer/index.rst>
+   Video Sequencer </video_editing/index.rst>
    clip/index.rst
 
 

@@ -21,7 +21,7 @@ Use Sequence
    Expand the scenes sequence strips, allowing one scene to reuse another scene's edit
    (instead of taking the render output from the scene).
 
-   This is similar to how :doc:`Meta Strips </sequencer/sequencer/meta>` work,
+   This is similar to how :doc:`Meta Strips </video_editing/sequencer/meta>` work,
    with the added advantage of supporting multiple instances of the same data.
 Volume
    Volume of the audio taken from the chosen scene.

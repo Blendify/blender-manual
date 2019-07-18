@@ -225,7 +225,7 @@ View Layer
    Shows all the collections and objects in the current view layer.
 Sequence
    Lists :doc:`data-block </files/data_blocks>`
-   that are used by the :doc:`Sequencer </sequencer/index>`.
+   that are used by the :doc:`Sequencer </video_editing/index>`.
 Blender File
    Lists all data in the current blend-file.
 Data API

@@ -17,7 +17,7 @@ A list of metadata of the displayed image.
 Scene Preview/Render
 ====================
 
-It allows you to control how the images of :doc:`Scene Strips </sequencer/sequencer/strips/scene>`
+It allows you to control how the images of :doc:`Scene Strips </video_editing/sequencer/strips/scene>`
 are displayed in the preview.
 
 Preview Shading
