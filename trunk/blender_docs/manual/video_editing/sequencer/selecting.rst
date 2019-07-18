@@ -8,7 +8,7 @@ The *entire* strip could be selected by clicking :kbd:`LMB` in the middle of the
 
 
 Select Menu
------------
+===========
 
 The Select Menu helps you select strips in different ways.
 
@@ -35,7 +35,7 @@ Channel
    Select strips in the same channel laying left or right to active strip.
 Linked
    All :kbd:`Ctrl-L` / Less :kbd:`Ctrl-NumpadMinus` / More :kbd:`Ctrl-NumpadPlus`
-      Selects strips, that are placed next to each other without any gaps
+      Selects strips, that are placed next to each other without any gaps.
 Select Grouped :kbd:`Shift-G`
    Selects strips according to their relation with other strips.
 

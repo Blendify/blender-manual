@@ -13,7 +13,7 @@ e.g. in the Audio-Video Interleaved format (``*.avi`` file).
 
 .. note:: Clips can be Huge
 
-   A three minute quicktime ``.mov`` file can be 140Megs.
+   A three minute Quicktime ``.mov`` file can be 140Megs.
    Loading it, even over a high-speed LAN can take some time.
    Do not assume your computer or Blender has locked up if nothing happens for awhile.
 
@@ -48,7 +48,7 @@ All
 .. tip:: Dealing with Different Sizes
 
    Dealing with different sized images and different sized outputs is tricky.
-   If you have a mis-match between the size of the input image and the render output size,
+   If you have a mismatch between the size of the input image and the render output size,
    the VSE will try to auto-scale the image to fit it entirely in the output.
    This may result in clipping. If you do not want that, use *Crop* and/or *Offset* in the Input
    panel to move and select a region of the image within the output. When you use *Crop* or *Offset*,

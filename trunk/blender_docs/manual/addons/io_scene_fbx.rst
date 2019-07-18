@@ -165,8 +165,8 @@ Batch Mode
       If you do not have a full Python installation, this button will not be shown.
 
 
-Geometry
-^^^^^^^^
+Geometries
+^^^^^^^^^^
 
 Apply Modifiers
    When enabled, the mesh will be from the output of the modifiers applied to the mesh.

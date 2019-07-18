@@ -21,7 +21,7 @@ The position of the mouse relative to the selection influences where the strips 
 If it is closer to the start of the selection, then the start frame of the selection gets snapped,
 else the end frame will get snapped.
 
-To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
+To "ripple edit" (make room for strips you drag) hold :kbd:`Alt` when placing a strip.
 
 You can also lock the direction to time with :kbd:`X` or to change the strip's channel with :kbd:`Y`.
 
