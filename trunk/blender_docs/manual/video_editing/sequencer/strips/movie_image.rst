@@ -26,9 +26,9 @@ In the strip itself, you can see strip name, path to source file, and strip leng
 
 .. _bpy.types.ImageSequence:
 
-************
-Image Strips
-************
+*********************
+Image/Sequence Strips
+*********************
 
 Single Image
 ============
