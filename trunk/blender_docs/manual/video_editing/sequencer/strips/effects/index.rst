@@ -8,6 +8,14 @@
    :maxdepth: 2
 
    introduction.rst
+
+
+Types
+=====
+
+.. toctree::
+   :maxdepth: 1
+
    add.rst
    adjustment.rst
    alpha_over_under_overdrop.rst

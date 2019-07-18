@@ -4,7 +4,7 @@
 ##########
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    introduction.rst
 
@@ -13,7 +13,7 @@ Types
 =====
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    scene.rst
    clip_mask.rst
