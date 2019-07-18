@@ -204,14 +204,14 @@ the spatial condition in 3D space of the bone that is causing the problem.
    It is therefore important that the bones have the same root,
    so that the only thing affecting the angle between the bones is the rotation of one of them.
    When the deformation bone (Bone 2) reaches the target rotation (TAR-Bone 2)
-   the rotational difference will be 0?.
+   the rotational difference will be 0°.
 
    .. figure:: /images/animation_drivers_workflow-examples_shape-key_method2.png
 
 #. Manually adjust the driver curve handles so that the shape key *Value*
-   (Y axis) is 1.0 when the rotational difference (X axis) is 0?.
+   (Y axis) is 1.0 when the rotational difference (X axis) is 0°.
    The *Value* should be 0.0 when the arm is extended, at which point
-   the rotational difference should be around 90? or more (in radians).
+   the rotational difference should be around 90° or more (in radians).
 
 #. See the steps in Method 1 on how to adjust the curve handles and
    confirm that the functionality is working. Pose the armature to

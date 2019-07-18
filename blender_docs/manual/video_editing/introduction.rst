@@ -37,5 +37,6 @@ Sequencer/Preview
 It is possible to create multiple instances of any view type in single workspace.
 
 .. note::
+
    By default the Sequencer is enabled, however, it can be disabled
    in the :ref:`render-output-postprocess`.

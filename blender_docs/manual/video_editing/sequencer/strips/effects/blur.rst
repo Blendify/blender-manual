@@ -16,6 +16,7 @@ Size X
 Size Y
    Distance of the blur effect on the Y axis.
 
+
 Example
 =======
 

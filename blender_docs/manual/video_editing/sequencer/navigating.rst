@@ -18,7 +18,7 @@ View Menu
 As usual, the View Menu controls the editor's view settings.
 
 Sidebar :kbd:`N`
-   Show or hide the :ref:`sidebar panel <ui-panels>`
+   Show or hide the :ref:`sidebar panel <ui-panels>`.
 Preview as Backdrop
    Displays the current frame in the background of the main view like in the Compositor.
 Frame Selected :kbd:`NumpadPeriod`
@@ -56,11 +56,11 @@ Range
 .. _bpy.ops.sequencer.refresh_all:
 
 Refresh All
-   To force Blender to re-read in files, and to force a re-render of the 3D View,
+   To force Blender to re-read in files, and to force a re-render of the 3D Viewport,
    click the *Refresh Sequencer* button.
    Blender will update and synchronize all cached images and compute the current frame.
 
-   Certain operations, like moving an object in 3D View, may not force the *Sequencer*
+   Certain operations, like moving an object in 3D Viewport, may not force the *Sequencer*
    to call for a refresh of the rendered image (since the movement may not affect the rendered image).
    If an image or video, used as a strip, is changed by some application outside of Blender,
    Blender has no real way of being notified from your operating system.
@@ -97,6 +97,7 @@ within an animation. Like with most animation editors, markers are shown at the 
    Markers in animation editor.
 
 For descriptions of the different marker tools see :ref:`Editing Markers <animation-markers-editing>`.
+
 
 Main View
 =========
