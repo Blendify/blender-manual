@@ -1,26 +1,23 @@
-
-*****************
-Clip & Mask Strip
-*****************
-
 .. _bpy.types.MovieClipSequence:
 
-Clip
-====
+***********
+Clip Strips
+***********
 
 Clip can be modified within the :doc:`Movie Clip Editor </movie_clip/masking/index>`.
 
 
 Options
--------
+=======
 
 This strip has no options.
 
 
 .. _bpy.types.MaskSequence:
 
-Mask
-====
+***********
+Mask Strips
+***********
 
 The Mask strip generates a mask image from the selected mask data-block generated
 in the :doc:`Movie Clip Editor </movie_clip/masking/index>`.
@@ -31,7 +28,7 @@ scaling along with different proxy levels.
 
 
 Options
--------
+=======
 
 Mask
    :ref:`Data-block menu <ui-data-block>` to select a mask.
