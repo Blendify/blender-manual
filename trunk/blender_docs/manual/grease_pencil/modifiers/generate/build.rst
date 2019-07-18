@@ -3,8 +3,8 @@
 Build Modifier
 **************
 
-The *Build* modifier make strokes appear/disappear in a frame range to
-create the illusion of animating lines being drawn/erased.
+The *Build* modifier make strokes appear or disappear in a frame range to
+create the effect of animating lines being drawn or erased.
 
 
 Options
@@ -27,9 +27,9 @@ Mode
 
       Time Alignment
          Align Start
-            All stroke start at the same time (i.e. short strokes finish earlier).
+            All stroke start at the same time (i.e. shorter strokes finish earlier).
          Align End
-            All stroke end at the same time (i.e. short strokes start later).
+            All stroke end at the same time (i.e. shorter strokes start later).
 
 
 Transition
@@ -68,5 +68,4 @@ Restrict Frame range
 Influence Filter
 ----------------
 
-Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+See :ref:`grease-pencil-modifier-influence-filters`.

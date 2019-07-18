@@ -32,12 +32,12 @@ Offset
 
    X, Y, Z
 Object Offset
-   Use the location or rotation of another Object to determine the distance
-   and rotational change between arrayed items.
+   Use the location or rotation of another *Object* to determine the distance
+   and rotational change between the arrayed items.
 
 .. note::
 
-   The *Depth Order* used in the *Grease Pencil* Object has influence in
+   The *Depth Order* is used in the *Grease Pencil* object has an influence on
    the strokes visualization when using the array modifier.
    See :doc:`Depth Order </grease_pencil/properties/strokes>` for more information.
 
@@ -59,7 +59,7 @@ Rotation
 
    X, Y, Z
 Random factor
-   Toggle button and random value to apply for rotation.
+   Toggle button and random value to apply to the rotation.
 
 
 Scale
@@ -70,7 +70,7 @@ Scale
 
    X, Y, Z
 Random factor
-   Toggle button and random value to apply for scale.
+   Toggle button and random value to apply to the scale.
 
 
 Material
@@ -86,8 +86,4 @@ Keep original stroke on top
 Influence Filters
 -----------------
 
-Material
-   Restricts the effect only to material that share the same pass index.
-
-Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+See :ref:`grease-pencil-modifier-influence-filters`.

@@ -6,7 +6,7 @@ Armature Modifier
 The *Armature* Modifier is used for building skeletal systems for animating
 the poses of characters and anything else which needs to be posed.
 
-By adding an armature system to an object,
+By adding an armature to an object,
 this object can be deformed accurately so that geometry does not have to be animated by hand.
 
 .. seealso::
@@ -51,6 +51,6 @@ Vertex Group
    Only meaningful when having at least two of these modifiers on the same object,
    with *Multi Modifier* activated.
 
-   Invert
+   Invert ``<->``
       Inverts the influence set by the vertex group defined in previous setting
       (i.e. reverses the weight values of this group).
