@@ -8,16 +8,11 @@
    :maxdepth: 1
 
    add.rst
-   adjustment.rst
-   alpha_over_under_overdrop.rst
-   blur.rst
-   color.rst
-   cross.rst
-   glow.rst
-   multicam.rst
-   multiply.rst
-   speed_control.rst
    subtract.rst
-   text.rst
+   multiply.rst
+   alpha_over_under_overdrop.rst
+   multicam.rst
    transform.rst
-   wipe.rst
+   speed_control.rst
+   glow.rst
+   blur.rst
