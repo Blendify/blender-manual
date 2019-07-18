@@ -5,15 +5,6 @@
 #################
 
 .. toctree::
-   :maxdepth: 2
-
-   introduction.rst
-
-
-Types
-=====
-
-.. toctree::
    :maxdepth: 1
 
    add.rst
