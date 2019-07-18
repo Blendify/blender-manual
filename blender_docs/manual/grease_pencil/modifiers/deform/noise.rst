@@ -5,7 +5,7 @@ Noise Modifier
 
 The *Noise* Modifier changes the value of one or more stroke/points properties like:
 location, strength, thickness or UV texture position
-trying to add varied values that make the line unstable and noisy.
+by adding varied values that make the line unstable and noisy.
 
 Random values can be used for the noise factor for more vivid effects.
 
@@ -49,11 +49,4 @@ Affect
 Influence Filters
 -----------------
 
-Vertex Group
-   Restricts the effect only to a vertex group.
-
-Material
-   Restricts the effect only to material that share the same pass index.
-
-Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+See :ref:`grease-pencil-modifier-influence-filters`.

@@ -3,7 +3,7 @@
 Hue/Saturation Modifier
 ***********************
 
-The *Hue/Saturation* Modifier applies a color transformation in the HSV object output color.
+The *Hue/Saturation* Modifier applies a color transformation to the object output color.
 
 
 Options
@@ -18,24 +18,15 @@ Color
    Defines the object output color in the HSV :term:`color space`.
 
 Create Materials
-   When Applied, The modifier will create new material that keep the color transformation.
+   When applied, the modifier will create a new material that will keep the color transformation.
 
 Mode
-   Both
-      Color transformation affect stroke and fill color.
+   The color transformation will be applied on the stroke and/or the fill color.
 
-   Stroke
-      Color transformation affect only stroke color.
-
-   Fill
-      Color transformation affect only fill color.
+   Both, Stroke, Fill
 
 
 Influence Filters
 -----------------
 
-Material
-   Restricts the effect only to material that share the same pass index.
-
-Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+See :ref:`grease-pencil-modifier-influence-filters`.

@@ -8,7 +8,7 @@ Introduction
 
    :Panel:     :menuselection:`Properties --> Visual Effects`
 
-*Grease Pencil* has a special set of viewport real-time Visual Effects that can be apply to the object.
+*Grease Pencil* has a special set of viewport real-time visual effects that can be apply to the object.
 
 These effects treat the object as if it was just an image, for that reason they
 have effect on the whole object and cannot limit their influence
@@ -23,10 +23,8 @@ so keep in mind that they may vary with viewport or camera changes.
 
 .. note::
 
-   Visual Effects are mainly for quick viewport visualization and are not so reliable for final production renders.
-   If you want more precision with effects it is recommended to use the compositor.
-
-   See :doc:`Compositor </compositing/introduction>` for more information.
+   Visual effects are mainly for quick viewport visualization and are not so reliable for final production renders.
+   If you want more precision with effects it is recommended to use the :doc:`compositor </compositing/introduction>`.
 
 
 Interface
@@ -36,7 +34,7 @@ Interface
 
    Panel layout (Blur Effect as an example).
 
-The Visual Effects panels and UI are similar to Modifiers.
-Each effect’s interface shares the same basic components similar to modifiers for meshes.
+The visual effects panels and interface are similar to modifiers.
+Each effect shares the same basic interface components similar to modifiers for meshes.
 
 See :ref:`Modifiers Interface <bpy.types.Modifier.show>` for more information.

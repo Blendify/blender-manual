@@ -33,8 +33,4 @@ Mirror Object
 Influence Filters
 -----------------
 
-Material
-   Restricts the effect only to material that share the same pass index.
-
-Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+See :ref:`grease-pencil-modifier-influence-filters`.

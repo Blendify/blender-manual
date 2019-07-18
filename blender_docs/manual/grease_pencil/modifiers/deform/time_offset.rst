@@ -53,5 +53,4 @@ Keep Loop
 Influence Filters
 -----------------
 
-Layer
-   Restricts the effect only to one layer or to any layers that share the same pass index.
+See :ref:`grease-pencil-modifier-influence-filters`.

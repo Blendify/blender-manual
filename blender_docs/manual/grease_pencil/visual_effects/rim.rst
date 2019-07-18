@@ -20,7 +20,7 @@ Options
    Rim Visual Effect.
 
 Offset
-   Control the color mask displacement in pixels for X and Z axis.
+   Control the color mask displacement in pixels on the X and Z axis.
 
    X, Z
 

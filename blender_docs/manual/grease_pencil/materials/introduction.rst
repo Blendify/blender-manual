@@ -54,8 +54,7 @@ Viewport/Render Visibility (eye icon)
    Toggle material visibility in the viewport and in render.
 
 Onion Skinning (onion skin icon)
-   Toggle the use of the material for Onion Skinning.
-   You can see all the settings in the :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` section.
+   Toggle the use of the material for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 
 
 Specials
@@ -78,10 +77,10 @@ Lock and Visibility General Controls
 ------------------------------------
 
 Lock (padlock icon)
-   Toggle whether the active material is the only that can be edited.
+   Toggle whether the active material is the only one that can be edited.
 
 Visibility (screen icon)
-   Toggle whether the active material is the only that can be edited and visible.
+   Toggle whether the active material is the only one that can be edited and is visible.
 
 
 Grease Pencil Shader

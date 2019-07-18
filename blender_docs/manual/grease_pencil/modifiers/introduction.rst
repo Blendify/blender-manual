@@ -49,10 +49,15 @@ See :ref:`Modifiers Interface <bpy.types.Modifier.show>` for more information.
    Grease Pencil strokes, unlike meshes, still can not be edited directly in the place.
 
 
+..  _grease-pencil-modifier-influence-filters:
+
 Influence Filters
 -----------------
 
 Most of *Grease Pencil* modifiers share some special properties that restrict the effect only to certain items.
+
+Vertex Group
+   Restricts the effect only to a Vertex group.
 
 Material
    Restricts the effect only to material that share the same pass index.
@@ -60,4 +65,4 @@ Material
 Layer
    Restricts the effect only to one layer or to any layers that share the same pass index.
 
-The Invert toggle allows you to reverse the filters behavior.
+The Invert toggle ``<->`` allows you to reverse the filters behavior.

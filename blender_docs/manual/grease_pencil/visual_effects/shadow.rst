@@ -32,7 +32,7 @@ Scale
 
 Rotation
    Sets the shadow rotation around the *Grease Pencil* object center
-   or other object if *Use Object As Pivot* is enabled.
+   or another object when *Use Object As Pivot* is enabled.
 
 Blur
    Control the blur scale in pixels on the X and Z axis.
