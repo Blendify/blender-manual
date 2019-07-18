@@ -50,7 +50,7 @@ For some effects, like the Cross transition effect,
 you will need to :kbd:`Shift-LMB` a second overlapping strip (it depends on the effect you want).
 From Add menu pick the effect you want.
 When you do, the Effect strip will be shown above the source strips. If it is an independent effect,
-like the :doc:`Color Generator </video_editing/sequencer/strips/effects/color>`,
+like the :doc:`Color Generator </video_editing/sequencer/strips/color>`,
 it will be placed at the position of the frame indicator.
 
 .. note::
