@@ -19,4 +19,8 @@ Types
    clip_mask.rst
    movie_image.rst
    sound.rst
+   color.rst
+   text.rst
+   adjustment.rst
    effects/index.rst
+   transitions/index.rst
