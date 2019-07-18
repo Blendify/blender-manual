@@ -17,7 +17,7 @@ More detailed editing of the strokes is done
 in :doc:`Edit Mode </grease_pencil/modes/edit/introduction>`, and
 :doc:`Sculpt Mode </grease_pencil/modes/sculpting/introduction>`.
 
-.. note::
+.. tip::
 
    To obtain best results with Grease Pencil is highly recommended to
    use a :ref:`Graphics Tablet <hardware-tablet>`.

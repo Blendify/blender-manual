@@ -55,7 +55,7 @@ the location and orientation in the 3D space for the new strokes.
 Stroke Placement
 ----------------
 
-Stroke Placement selector define the new strokes location in the 3D space.
+Stroke Placement selector define the new strokes location in 3D space.
 
 See :doc:`Stroke Placement </grease_pencil/modes/draw/stroke_placement>` for more information.
 

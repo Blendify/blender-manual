@@ -21,14 +21,14 @@ Options
 
 Mode
    Keyframes
-      Shows Keyframes in the range determined by Before/After settings.
+      Shows Keyframes in the range determined by the *Before*/*After* settings.
    Frames
-      Shows Frames in the range determined by Before/After settings.
+      Shows Frames in the range determined by the *Before*/*After* settings.
    Selected
       Shows only on the manually selected keyframes in the Dope Sheet.
 
 Opacity
-   Control the opacity of the ghosts frames.
+   Control the opacity of the ghost frames.
 
 Filter By Type
    Filters what type of frames to show in the Onion Skinning range.
@@ -36,21 +36,21 @@ Filter By Type
 .. _Keyframes-range:
 
 Keyframes Before/After
-   Sets how many frames or keyframes, depending on the mode, to show before and after the current frame.
+   Sets how many frames or keyframes, depending on the *Mode*, to show before and after the current frame.
 
 
 Custom Colors
 =============
 
 Before/After
-   Color to use before and after the current frame in ghosts frames.
+   Color to use before and after the current frame on ghost frames.
 
 
 Display
 =======
 
 View in render
-   Show the onion skinning in final render image.
+   Show the onion skinning in final render image e.g. for a motion blur effect.
 
 Fade
    Opacity of the ghosts frames decrease the further away from the current frame.
@@ -62,4 +62,4 @@ Loop
 
 .. figure:: /images/grease-pencil_properties_onion-skinning_example.png
 
-   An example of *Grease Pencil* Onion Skinning activated.
+   An example of Onion Skinning activated.

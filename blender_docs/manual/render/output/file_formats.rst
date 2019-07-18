@@ -150,7 +150,7 @@ Tips
 
    - Restart the rendering from the place (the frame) where any problem occurred.
    - Try out different video encoding options in seconds,
-     rather than minutes or hours as encoding is usually much faster than rendering the 3d scene.
+     rather than minutes or hours as encoding is usually much faster than rendering the 3D scene.
    - Enjoy the rest of the features of the VSE, such as adding
      :doc:`Image Strips </video_editing/sequencer/strips/movie_image>`
      from previous renders, audio, video clips, etc.
