@@ -74,7 +74,7 @@ Show Offsets
 Show Marker Lines
    Show or hide dashed line on marker position across the timeline.
 Cache
-   Show :doc:`Cache </sequencer/sequencer/properties/proxy_cache>`
+   Show :doc:`Cache </video_editing/sequencer/properties/proxy_cache>`
       Show all enabled types.
       Final Images, Raw Images, Preprocessed Images, Composite Images
 Waveform Displaying
