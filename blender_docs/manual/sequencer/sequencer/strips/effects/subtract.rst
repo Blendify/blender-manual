@@ -4,11 +4,6 @@
 Subtract Effect
 ***************
 
-.. figure:: /images/sequencer_sequencer_strips_effects_subtract_example.png
-   :width: 620px
-
-   Subtract Effect.
-
 This effect takes away one strip's color from the second.
 
 Make a negative of an image using this effect,
@@ -21,3 +16,11 @@ Options
 =======
 
 This strip has no options.
+
+
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_subtract_example.png
+
+   Subtract Effect.

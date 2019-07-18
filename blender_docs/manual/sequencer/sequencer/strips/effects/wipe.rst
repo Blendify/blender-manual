@@ -4,11 +4,6 @@
 Wipe
 ****
 
-.. figure:: /images/sequencer_sequencer_strips_effects_wipe_example.png
-   :width: 620px
-
-   Wipe Effect.
-
 The wipe effect is a type of transition strip. It can be used to transition from one strip to the next.
 The wipe will have no effect if created from a single strip instead of two strips.
 The duration of the wipe is the intersection of the two source strips and cannot be adjusted.
@@ -49,3 +44,11 @@ Default Fade
       Allows you to manually :doc:`keyframe </animation/keyframes/index>` a custom fade.
       This can be used with different :ref:`easings <editors-graph-fcurves-settings-easing>`
       to fine-tune the fade in/out.
+
+
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_wipe_example.png
+
+   Wipe Effect.

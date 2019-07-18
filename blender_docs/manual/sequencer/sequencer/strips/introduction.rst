@@ -3,12 +3,12 @@
 Introduction
 ************
 
+A strip is a container which carries frames provided by one or more sources (input).
+It is defined by a *Start Frame* and a *Length*, and is displayed as a colored horizontal rectangle.
+
 .. figure:: /images/sequencer_sequencer_strips_introduction_strip-graphic.svg
 
    Strip schematic.
-
-A strip is a container which carries frames provided by one or more sources (input).
-It is defined by a *Start Frame* and a *Length*, and is displayed as a colored horizontal rectangle.
 
 
 Add

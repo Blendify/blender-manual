@@ -5,11 +5,6 @@
 Cross & Gamma Cross
 *******************
 
-.. figure:: /images/sequencer_sequencer_strips_effects_cross_example.png
-   :width: 620px
-
-   Cross Effect.
-
 This effect fades from one strip to another, based on how many frames the two strips overlap.
 This is a very useful strip that blends the whole image from one to the other.
 
@@ -27,3 +22,11 @@ Default Fade
       Allows you to manually :doc:`keyframe </animation/keyframes/index>` a custom fade.
       This can be used with different :ref:`easings <editors-graph-fcurves-settings-easing>`
       to fine-tune the fade in/out.
+
+
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_cross_example.png
+
+   Cross Effect.

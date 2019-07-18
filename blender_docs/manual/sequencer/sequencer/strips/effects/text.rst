@@ -4,11 +4,6 @@
 Text Effect
 ***********
 
-.. figure:: /images/sequencer_sequencer_strips_effects_text_example.png
-   :width: 620px
-
-   Text Effect.
-
 The text effect strip allows you to directly display text in the Sequence editor.
 The strip will display the text inserted in its text field on the final sequence.
 
@@ -36,3 +31,11 @@ Wrap Width
 Export Subtitles
    Exporting subtitles in ``.srt`` format is also supported.
    The exported subtitles contain all text strips in the sequence editing.
+
+
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_text_example.png
+
+   Text Effect.

@@ -4,11 +4,6 @@
 Transform
 *********
 
-.. figure:: /images/sequencer_sequencer_strips_effects_transform_example.png
-   :width: 620px
-
-   Transform Effect.
-
 Transform is a swiss-army knife of image manipulation.
 It moves, rotates, and scales the images within a strip.
 
@@ -33,3 +28,11 @@ Scale
    Scale the image on the X and Y axis.
 Rotation
    Rotates the input two-dimensionally along the Z axis.
+
+
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_transform_example.png
+
+   Transform Effect.

@@ -4,11 +4,6 @@
 Multiply
 ********
 
-.. figure:: /images/sequencer_sequencer_strips_effects_multiply_example.png
-   :width: 620px
-
-   Multiply Effect.
-
 The *Multiply* effect multiplies two colors.
 Blender uses values between (0.0 to 1.0) for the colors.
 This operation does not have to be normalized, the multiplication of two terms
@@ -54,3 +49,11 @@ Options
 =======
 
 This strip has no options.
+
+
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_multiply_example.png
+
+   Multiply Effect.
