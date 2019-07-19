@@ -1,10 +1,10 @@
 .. _bpy.types.TextSequence:
 
 ***********
-Text Effect
+Text Strips
 ***********
 
-The text effect strip allows you to directly display text in the Sequence editor.
+The Text strip allows you to directly display text in the Sequence editor.
 The strip will display the text inserted in its text field on the final sequence.
 
 

@@ -1,8 +1,8 @@
 .. _bpy.types.ColorSequence:
 
-*****
-Color
-*****
+************
+Color Strips
+************
 
 This effect generates solid color frames.
 By default, when it is created, the color strip is 25 frames long, but
