@@ -13,7 +13,8 @@ Types
 =====
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
+   :titlesonly:
 
    scene.rst
    clip_mask.rst
