@@ -11,6 +11,7 @@
    subtract.rst
    multiply.rst
    alpha_over_under_overdrop.rst
+   color_mix.rst
    multicam.rst
    transform.rst
    speed_control.rst
