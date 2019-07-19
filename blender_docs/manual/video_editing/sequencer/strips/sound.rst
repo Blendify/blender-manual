@@ -45,6 +45,10 @@ This makes Blender an audio mixer.
 By adding audio tracks and using the curves to adjust each tracks' sound level,
 you have an automated dynamic multi-track audio mixer!
 
+.. seealso::
+
+   Sounds can be crossfaded by adding a :ref:`Sound Crossfade <bpy.ops.sequencer.crossfade_sounds>` effect.
+
 
 Output
 ======

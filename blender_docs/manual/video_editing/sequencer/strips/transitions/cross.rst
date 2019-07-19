@@ -4,7 +4,9 @@
 Sound Crossfade
 ***************
 
-TODO2.8.
+The *Sound Crossfade* transition works by animating the *Volume*
+of two overlapping sound strips to evenly fade between them.
+Because this simply animates a value it does not create a strip like other effects or transitions.
 
 
 .. _bpy.types.CrossSequence:
@@ -13,8 +15,10 @@ TODO2.8.
 Cross
 *****
 
-This effect fades from one strip to another, based on how many frames the two strips overlap.
-This is a very useful strip that blends the whole image from one to the other.
+The *Cross* transition fades from one strip to another, also known as a crossfade.
+Strips can be overlapping or have a gap between them,
+however, when strips contain a gap the last and first frame of each strip
+is extend which can cause a pause if any of the strips are a sequence.
 
 
 Options
@@ -43,8 +47,9 @@ Example
 Gamma Cross
 ***********
 
-Gamma Cross uses color correction in doing the fade,
-resulting in a smooth transition that is easier on the eye.
+The *Gamma Cross* transition is similar to the `Cross`_ transition,
+however, the *Gamma Cross* transition uses color correction while transitioning between the two strips,
+resulting in a smoother transition that is easier on the eyes.
 
 
 Options
