@@ -37,6 +37,14 @@ will only show the background, and an *Opacity* of 1.0 will completely override 
    enable *Premultiply*.
 
 
+Example
+=======
+
+.. figure:: /images/sequencer_sequencer_strips_effects_alpha-over-under-overdrop_example.png
+
+   Alpha Over Effect.
+
+
 .. _bpy.types.AlphaUnderSequence:
 
 Alpha Under
@@ -51,25 +59,17 @@ and an *Opacity* of 1.0 will give the same results as with *Alpha Over*.
 
 .. _bpy.types.OverDropSequence:
 
-Alpha Over Drop
-===============
+Over Drop
+=========
 
-*Alpha Over Drop* is between the two others: as with *Alpha Under*,
+*Over Drop* is between the two others: as with *Alpha Under*,
 the first selected strip will be the foreground, but as with *Alpha Over*,
 the *Opacity* controls the transparency of this foreground.
 
-The Alpha Over Drop effect is much like the Cross,
+The *Over Drop* effect is much like the Cross,
 but puts preference to the top or second image,
 giving more of a gradual overlay effect than a blend like the Cross does. Of course,
 all of the Alpha effects respect the alpha (transparency) channel, whereas Cross does not.
 
 The degree of Alpha applied, and thus color mixing, can be controlled by an F-curve.
 Creating a Sine wave could have the effect of the foreground fading in and out.
-
-
-Example
-=======
-
-.. figure:: /images/sequencer_sequencer_strips_effects_alpha-over-under-overdrop_example.png
-
-   Alpha Over Effect.
