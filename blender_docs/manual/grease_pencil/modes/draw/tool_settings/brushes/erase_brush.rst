@@ -3,8 +3,8 @@
 Erase Brush
 ***********
 
-Erase brushes are the special types of brushes that use *Grease Pencil* for erase tools.
-The brush can be changed from the tool setting.
+Erase brushes are the special types of brushes that uses *Grease Pencil* for *Erase* tools.
+The brush can be changed in the Tool Settings.
 
 Soft and hard eraser brushes are settings variations of the same *Erase Brush*.
 you can create many brushes, each with unique settings
@@ -63,9 +63,9 @@ Strength
          Uses stylus pressure to control how strong the effect is.
 
 Affect Stroke Strength
-   Amount of deletion of stroke strength (alpha) while erasing.
+   The amount of deletion of the stroke strength (alpha) while erasing.
 Affect Stroke Thickness
-   Amount of deletion of stroke thickness while erasing.
+   The amount of deletion of the stroke thickness while erasing.
 
 
 Point
@@ -104,7 +104,7 @@ Icon
 Custom Icon
    Allows definition of a custom brush icon.
 
-   Image path
+   Image Path
       Defines the path to the image to use as custom icon.
 
 Show Brush

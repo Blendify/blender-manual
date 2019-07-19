@@ -7,28 +7,28 @@ Interpolate Panel
 =================
 
 When you are animating simple shapes you can use the interpolate tools
-to automatically add new breakdowns keyframes.
+to automatically add new breakdown keyframes.
 
 .. figure:: /images/grease-pencil_animation_interpolation-panel.png
 
    Interpolate panel.
 
 Interpolate
-   Interpolates strokes between previous and next keyframes adding a new keyframe.
-   When you are on a frame between two keyframes and click interpolate button
-   a new breakdown keyframe will be added and you will define
+   Interpolates strokes between the previous and next keyframe by adding a *single* keyframe.
+   When you are on a frame between two keyframes and click the Interpolate button
+   a new breakdown keyframe will be added. This way you define
    the final interpolation for the new stroke.
 
 Sequence
-   Interpolate strokes between previous and next keyframes adding multiple keyframes.
+   Interpolate strokes between the previous and next keyframe by adding *multiple* keyframes.
    When you are on a frame between two keyframes and click the sequence button
-   a breakdown keyframe will be added on every frame between previous and next keyframes.
+   a breakdown keyframe will be added on every frame between the previous and next keyframe.
 
    Type
       Interpolation method to use for the sequence.
 
 Interpolate All Layers
-   When enabled, interpolated keyframe will be created on all layers, not only the active one.
+   When enabled, interpolated keyframes will be created on all layers, not only the active one.
 
 Interpolate Selected Strokes
    When enabled, only selected strokes will be interpolated.
@@ -41,6 +41,6 @@ Selection Mask
 
 .. note::
 
-   Interpolate and Sequence Tools work better when the strokes in the previous and next keyframes
+   The *Interpolate* and *Sequence* tools work better when the strokes in the previous and next keyframes
    have the same amount of points. For example when there are duplicated strokes on different keyframes
    only with different location, rotation or scale.

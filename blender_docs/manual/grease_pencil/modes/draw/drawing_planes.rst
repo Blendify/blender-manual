@@ -9,7 +9,7 @@ Drawing Planes
    :Mode:      Draw Mode and Sculpt Mode
    :Header:    :menuselection:`Drawing Planes`
 
-Drawing Planes selector helps to select
+The Drawing Planes selector helps to select
 the plane in which the newly created strokes are drawn.
 
 To see which plane you are using when drawing strokes,
@@ -39,7 +39,7 @@ Top
    Strokes are drawn on the plane determined by the XY axes (top view).
 
 View
-   Strokes are drawn with the current 3D view orientation.
+   Strokes are drawn with the current 3D Viewport orientation.
 
 Cursor
    Strokes are drawn with the current 3D cursor orientation.

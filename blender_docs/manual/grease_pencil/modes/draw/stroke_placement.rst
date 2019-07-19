@@ -9,7 +9,7 @@ Stroke Placement
    :Mode:      Draw Mode
    :Header:    :menuselection:`Stroke Placement`
 
-Stroke Placement selector helps to select the location
+The Stroke Placement selector helps to select the location
 in which the newly created strokes are drawn.
 
 .. note::
@@ -32,13 +32,13 @@ Origin
    Strokes are placed at 3D cursor.
 
 Surface
-   Strokes stick on mesh surfaces.
+   Strokes will stick on mesh surfaces.
 
    Offset
       Distance from the mesh surface to place the new strokes.
 
 Stroke
-   Strokes stick on other strokes.
+   Strokes will stick on other strokes.
 
    Target
       All points

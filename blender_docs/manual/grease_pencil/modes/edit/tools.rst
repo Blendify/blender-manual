@@ -36,4 +36,4 @@ Shear :kbd:`Shift-Ctrl-Alt-S`
    Shear selected points along the horizontal or vertical screen axis.
 
 To Sphere :kbd:`Shift-Alt-S`
-   Move selected points outward in spherical shape around selected strokes center.
+   Move selected points outward in a spherical shape around the selected strokes' center.
