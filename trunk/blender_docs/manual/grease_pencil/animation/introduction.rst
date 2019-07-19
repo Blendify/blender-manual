@@ -39,7 +39,7 @@ Keyframes
 
 Traditional animation in *Grease Pencil* is achieved with the use of
 :doc:`keyframes </animation/keyframes/introduction>`
-that hold the strokes information in a particular frame.
+that hold the strokes information at a particular frame.
 
 Every time you create a stroke in *Grease Pencil* Object Draw Mode
 a new keyframe is added at the current frame on the active channel.
@@ -52,7 +52,7 @@ a new keyframe is added at the current frame on the active channel.
 See *Grease Pencil* mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>`
 section for more information.
 
-There are also several tools on the Stroke Menu to work with Keyframes and strokes.
+There are also several tools on the Stroke menu to work with keyframes and strokes.
 See :doc:`Animation tools </grease_pencil/animation/tools>` for more information.
 
 
@@ -67,41 +67,41 @@ See :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>` for more in
 Animation Options
 =================
 
-In *Draw Mode* there are two option related to animation workflow that you can use.
+In *Draw Mode* there are two option related to the animation workflow that you can use.
 
 .. figure:: /images/grease-pencil_animation_introduction_drawing-options.png
 
    General drawing/animation options.
 
 Add Weight Data
-   When enabled, new strokes weight data is added according to the current vertex group and weight.
-   If there is no vertex group selected, weight data is not added.
+   When enabled, new strokes weight data is added according to the current vertex group and weights.
+   If there is no vertex group selected, no weight data is added.
 
-   Useful for example in cut-out animation for adding new drawing
-   on the same vertex group without the need to make it afterwards.
+   This is useful for example in cut-out animation for adding new drawing
+   on the same vertex group without the need to creating it afterwards.
 
    See :doc:`Weight Paint Mode </grease_pencil/modes/weight_paint/introduction>` for more information.
 
 Additive Drawing
-   When creating new frames, the strokes from the previous/active frame are include as basis for the new one.
+   When creating new frames, the strokes from the previous/active frame are include as a basis for the new one.
 
 
-In *Edit Mode* there are two option related to animation workflow that you can use.
+In *Edit Mode* there are two option related to the animation workflow that you can use.
 
 .. figure:: /images/grease-pencil_animation_introduction_edit-options.png
 
    Multiframe edition.
 
 Multiframe
-   Sometimes you may need to modify several frames at the same time with the edit tools,
-   for example to repositioning drawings in the animation.
+   Sometimes you may need to modify several frames at the same time with edit tools,
+   for example to repositioning drawings in an animation.
 
    You can activate multiframe edition with the Multiframe button next to the modes selector (faded lines icon).
    See :doc:`Multiframe </grease_pencil/multiframe>` for more information.
 
 Interpolate
    When you are animating simple shapes with strokes that have the same amount of points,
-   you can use the Interpolate tool to automatically add new breakdowns keyframes.
+   you can use the Interpolate tool to automatically add new breakdown keyframes.
    See :doc:`Interpolation </grease_pencil/animation/interpolation>` for more information.
    
 
@@ -117,12 +117,12 @@ with a traditional 2D animation technique and *Grease Pencil*.
 
 First, go to menu :menuselection:`File --> New --> 2D Animation` to start with a new 2D animation template.
 The template is ready to quick start your animation with a Grease Pencil object already created,
-onion skinning activated and using the camera view.
+onion skinning activated and in camera view.
 
-#.   Set the range of the animation in the Timeline from 1 to 24.
-#.   On the 3D View draw a ball on the upper left corner with the Draw Tool (extreme).
-#.   Move to frame 12 and draw a squashed ball in the bottom center (breakdown).
-#.   Move to frame 24 and draw a ball in the top right corner of the 3D View (extreme).
-#.   Keep drawing all the inbetweens frames you want using the onion skinning ghost as reference.
+#. Set the range of the animation in the Timeline from 1 to 24.
+#. In the 3D View draw a ball on the upper left corner with the Draw Tool (extreme).
+#. Move to frame 12 and draw a squashed ball in the bottom center (breakdown).
+#. Move to frame 24 and draw a ball in the top right corner of the 3D View (extreme).
+#. Keep drawing all the inbetweens frames you want using the onion skinning ghost as a reference.
 
 To test the animation, press :kbd:`Spacebar` to play.

@@ -3,8 +3,8 @@
 Draw Brush
 **********
 
-Draw brushes are the special type of brushes that use *Grease Pencil* for drawing tools.
-The brush can be changed from the tool setting.
+Draw brushes are the special type of brushes that uses *Grease Pencil* for drawing tools.
+The brush can be changed in the Tool Settings.
 
 The different draw brushes (pencil, Ink, marker, etc.) are settings variations of the same *Draw Brush*.
 you can create many brushes, each with unique settings
@@ -51,8 +51,8 @@ Strength
 
 Input Samples
    Controls how often the input device is read to generate points on the stroke.
-   Higher values give more precision (more points) but produce an irregular stroke,
-   while lower values give less precision (fewer points) but produce a soften stroke.
+   Higher values give a higher precision (more points) but produce an irregular stroke,
+   while lower values give a lower precision (fewer points) but produce a soften stroke.
    (0 disabled extra input device samples.)
 
    You have to set up this value according to your input device to obtain
@@ -82,8 +82,8 @@ Post-Processing
 ---------------
 
 Post-processing methods that are executed on the strokes
-when you finished drawing, right after releasing the :kbd:`LMB` or pen tip.
-You can toggle the use of post-processing using the checkbox on the section panel header.
+when you finished drawing, right after releasing the :kbd:`LMB` or :kbd:`Pen` tip.
+You can toggle the use of post-processing using the checkbox in the section panel header.
 
 Smooth
    Strength of smoothing process on the points location along the stroke.
@@ -112,34 +112,34 @@ Trim Strokes End
 Stabilizer
 ----------
 
-Stabilizer helps to reduce jitter on the strokes while drawing
-delaying and correcting points location on the stroke.
-You can toggle the use of stabilizer using the checkbox on the section panel header.
+Stabilizer helps to reduce jitter of the strokes while drawing by
+delaying and correcting the location of points.
+You can toggle the use of stabilizer using the checkbox in the section panel header.
 
 Radius
-   Minimum distance from last point before stroke continues.
+   Minimum distance from the last point before the stroke continues.
 Factor
-   Smooth factor. Higher values gives smoother strokes but the drawing
-   sensation feels like you are pulling the stroke.
+   A smooth factor, where higher values result in smoother strokes but the drawing sensation
+   feels like as if you were pulling the stroke.
 
 
 Randomize
 ---------
 
-Adds randomness to points position along the stroke.
-You can toggle the use of randomize using the checkbox on the section panel header.
+Adds randomness to the points' position along the stroke.
+You can toggle the use of Randomize using the checkbox in the section panel header.
 
 Pressure
-   Amount of randomness to apply using the pressure of the input device.
+   The amount of randomness to apply using the pressure of the input device.
 Strength
-   Amount of randomness to apply to stroke strength value (alpha).
+   The amount of randomness to apply to the stroke strength value (alpha).
 UV
-   Amount of randomness to apply to UV rotation.
+   The amount of randomness to apply to the UV rotation.
 Jitter
-   Amount of jittering to add to the stroke.
+   The amount of jittering to add to the stroke.
 
    Use Pressure (pressure sensitivity icon)
-      Uses stylus pressure to control how strong the effect is.
+      Uses the stylus pressure to control how strong the effect is.
 
 
 Curves
@@ -164,7 +164,7 @@ Icon
 Custom Icon
    Allows definition of a custom brush icon.
 
-   Image path
+   Image Path
       Defines the path to the image to use as custom icon.
 
 Show Brush

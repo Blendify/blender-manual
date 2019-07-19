@@ -12,9 +12,9 @@ Insert Blank Keyframe
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Keyframe`
 
-Add a new blank keyframe in the active layer at the current frame.
-If there is already a Keyframe at the current frame,
-the new blank keyframe will be added on the next frame.
+Add a new blank keyframe to the active layer at the current frame.
+If there is already a keyframe at the current frame,
+a new blank keyframe will be added on the next frame.
 
 All Layers
    When enabled, Blank keyframe will be created on all layers, not only the active one.
@@ -41,7 +41,7 @@ Duplicate
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
    :Menu:      :menuselection:`Stroke --> Animation --> Duplicate Active Frame, Duplicate All Layers`
 
-Duplicate the strokes on the last keyframe in the current frame.
+Duplicates the strokes on the last keyframe by copying them to the current frame.
 
 Mode
    Active
@@ -66,9 +66,10 @@ Interpolate
    :Menu:      :menuselection:`Stroke --> Animation --> Interpolate --> Interpolate`
    :Hotkey:    :kbd:`Ctrl-Alt-E`
 
-Interpolate strokes between previous and next keyframes adding a new keyframe.
+Interpolates strokes between the previous and next keyframe by adding a *single* keyframe.
 When you are on a frame between two keyframes and press :kbd:`Ctrl-Alt-E` a new breakdown keyframe
-will be added and you will define the final interpolation for the new stroke.
+will be added. This way you define the final interpolation for the new stroke.
+
 
 
 Sequence
@@ -81,11 +82,11 @@ Sequence
    :Menu:      :menuselection:`Stroke --> Animation --> Interpolate --> Sequence`
    :Hotkey:    :kbd:`Shift-Ctrl-E`
 
-Interpolate strokes between previous and next keyframes adding multiple keyframes.
-A breakdown keyframe will be added on every frame between previous and next keyframes.
+Interpolate strokes between the previous and next keyframe by adding *multiple* keyframes.
+A breakdown keyframe will be added on every frame between the previous and next keyframe.
 
 .. note::
 
-   Interpolate and Sequence Tools work better when the strokes in the previous and next keyframes
-   have the same amount of points. For example when are duplicated strokes on different keyframes
+   The *Interpolate* and *Sequence* tools work better when the strokes in the previous and next keyframes
+   have the same amount of points. For example when there are duplicated strokes on different keyframes
    only with different location, rotation or scale.

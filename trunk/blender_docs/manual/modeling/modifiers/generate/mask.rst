@@ -21,9 +21,9 @@ Mode
       .. list-table::
          The Mask modifier, Vertex Group mode.
 
-         *  -  .. figure:: /images/modeling_modifiers_generate_mask_vertex-group.png
+         *  - .. figure:: /images/modeling_modifiers_generate_mask_vertex-group.png
 
-            -   .. figure:: /images/modeling_modifiers_generate_mask_panel-vertex-group.png
+            - .. figure:: /images/modeling_modifiers_generate_mask_panel-vertex-group.png
 
    Armature
       When in Pose Mode,
@@ -33,9 +33,9 @@ Mode
       .. list-table::
          The Mask modifier, Armature mode.
 
-         *  -  .. figure:: /images/modeling_modifiers_generate_mask_armature.png
+         *  - .. figure:: /images/modeling_modifiers_generate_mask_armature.png
 
-            -   .. figure:: /images/modeling_modifiers_generate_mask_panel-armature.png
+            - .. figure:: /images/modeling_modifiers_generate_mask_panel-armature.png
 
 Inverse
    Normally, vertices belonging to the selected Vertex Group (or group associated with the active pose bone)

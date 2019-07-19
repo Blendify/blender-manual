@@ -83,11 +83,11 @@ Alignment
    Defines how to align the *Dots* and *Boxes* along the drawing path and with the object's rotation.
 
    Path
-      Aligns to the drawing path and the object rotation.
+      Aligns to the drawing path and the objectt's rotation.
    Object
-      Aligns to the object's rotation; ignoring drawing path.
+      Aligns to the object's rotation; ignoring the drawing path.
    Fixed
-      Aligns to the screen space; ignoring drawing path and object rotation.
+      Aligns to the screen space; ignoring the drawing path and the object's rotation.
 
 .. list-table:: Samples of different material strokes mode types and styles.
 

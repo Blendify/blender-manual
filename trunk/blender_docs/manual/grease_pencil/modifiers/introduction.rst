@@ -57,7 +57,7 @@ Influence Filters
 Most of *Grease Pencil* modifiers share some special properties that restrict the effect only to certain items.
 
 Vertex Group
-   Restricts the effect only to a Vertex group.
+   Restricts the effect only to a vertex group.
 
 Material
    Restricts the effect only to material that share the same pass index.

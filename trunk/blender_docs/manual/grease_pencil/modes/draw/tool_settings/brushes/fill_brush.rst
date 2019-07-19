@@ -3,8 +3,8 @@
 Fill Brush
 **********
 
-Fill brushes are the special type of brushes that use *Grease Pencil* for fill tools.
-The brush can be changed from the tool setting.
+Fill brushes are the special type of brushes that uses *Grease Pencil* for the *Fill* tools.
+The brush can be changed in the Tool Settings.
 
 The different fill brushes are settings variations of the same *Fill Brush*.
 you can create many brushes, each with unique settings
@@ -30,14 +30,14 @@ Brush
    In order to save in a blend-user a custom brush, tick Fake User.
 
 Leak Size
-   Size in pixel to consider the leak closed.
+   Size in pixel to consider the leak as closed.
 
 Thickness
    The thickness radius of the boundary stroke in pixels.
 
 Simplify
    Number of simplify steps to apply to the boundary line.
-   Higher values reduce the final filled area accuracy.
+   Higher values reduce the final filled area's accuracy.
 
 Boundary
    Sets the type of fill boundary limits calculation to perform.
@@ -61,7 +61,7 @@ Icon
 Custom Icon
    Allows definition of a custom brush icon.
 
-   Image path
+   Image Path
       Defines the path to the image to use as custom icon.
 
 Show Brush

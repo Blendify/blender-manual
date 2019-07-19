@@ -44,6 +44,10 @@ Bone Envelopes
    Enable/Disable bone :ref:`envelopes <armature-bones-envelope>` defining the deformation
    (i.e. bones deform points in their neighborhood).
 
+
+Influence Filter
+----------------
+
 Vertex Group
    The name of a vertex group of the object, the weights of which will be used to determine the influence of this
    Armature Modifier's result when mixing it with the results from other *Armature* ones.

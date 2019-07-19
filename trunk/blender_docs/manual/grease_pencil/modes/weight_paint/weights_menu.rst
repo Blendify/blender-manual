@@ -9,7 +9,7 @@ Weights Menu
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights`
 
-This page covers many of the tools in the :menuselection:`Weights` menu.
+This page covers many of the tools in the *Weights* menu.
 
 
 Normalize All
@@ -21,8 +21,8 @@ Normalize All
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Normalize All`
 
-For each point, this tool makes sure that the sum of the weights across all Vertex Groups is equal to 1.
-This tool normalizes all of the vertex groups, except for locked groups, which keep their weight values untouched.
+For each point, this tool makes sure that the sum of the weights across all vertex groups is equal to 1.
+It normalizes all of the vertex groups, except for locked groups, which keep their weight values untouched.
 
 Lock Active
    Keep the values of the active group while normalizing all the others.
@@ -37,7 +37,7 @@ Normalize
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Normalize`
 
-This tool only works on the active Vertex Group.
+This tool only works on the active vertex group.
 All points keep their relative weights, but the entire set of weights is scaled up
 such that the highest weight value is 1.0.
 
@@ -51,7 +51,7 @@ Invert
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Weights --> Invert`
 
-Replaces each Weight of the selected weight group by × -1.0 weight.
+Replaces each weight of the selected vertex group by × -1.0 weight.
 
 Examples:
 
@@ -65,7 +65,7 @@ Subset
 Add Weights
    Add vertices that have no weight before inverting (these weights will all be set to 1.0).
 Remove Weights
-   Remove vertices from the Vertex Group if they are 0.0 after inverting.
+   Remove vertices from the vertex group if they are 0.0 after inverting.
 
 
 Smooth
@@ -92,11 +92,11 @@ Generate Weights
 Generate automatic weight for armatures (requires the Armature modifier).
 
 With Empty Group
-   When parenting it will create empty vertex groups on the child objects (if they do not already exist)
+   When parenting it will create an empty vertex groups on the child objects (if they do not exist already)
    for and named after each deforming bone in the armature.
 
 With Automatic Weights
-   works similar to With Empty Groups, but it will not leave the vertex groups empty.
+   Works similar to *With Empty Groups*, but it will not leave the vertex groups empty.
    It calculates how much influence a particular bone would have on points based on the distance
    from those points to a particular bone (“bone heat” algorithm).
    This influence will be assigned as weights in the vertex groups.
