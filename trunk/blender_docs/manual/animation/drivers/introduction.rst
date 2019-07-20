@@ -43,7 +43,7 @@ property as is outputted by the driver, unchanged. If the driver output value is
 the property will be 2.0.
 
 The driver function can be defined artistically with Bézier curve handles or
-mathematically with a polynomial expression such as :math:`y = a + bx^2`.
+mathematically with a polynomial expression such as :math:`y = a + bx`.
 Furthermore, the function can also be procedurally modulated with noise or cyclic repetitions.
 See :doc:`Modifiers </editors/graph_editor/fcurves/modifiers>` for more details.
 

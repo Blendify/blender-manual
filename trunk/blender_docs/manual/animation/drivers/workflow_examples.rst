@@ -219,106 +219,69 @@ Driver
 Chained Relative Shape Keys
 ---------------------------
 
-Setup a chain of multiple relative shape keys that partially overlap given a certain input.
-
-In this example, different shapes overlap in effect and in the input that drives them.
-It is important to remember that
-:ref:`relative shape keys mix additively <animation-shapekeys-relative-vs-absolute>`.
-
-While relative shape keys lack the convenience of the single *Evaluation Time* of
-absolute shape keys, they allow for more complex relationships between your shape keys.
-The following images illustrate combining shape keys, bones, and
-drivers to make multiple chained relative shape keys sharing a single root.
-
+Activate different shape keys in succession.
+In this example, moving a single bone will activate first *Key 1* and then *Key 2*.
+See also :ref:`relative shape keys mix additively <animation-shapekeys-relative-vs-absolute>`.
 
 Shape Keys
-^^^^^^^^^^
+   Add two shape keys to a mesh, besides the *Basis*.
+
 
 .. list-table::
 
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-base.png
-          :width: 320px
+   * - .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys_basis.png
+          :width: 200px
 
-          Basis shape key.
+          Basis
 
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-1.png
-          :width: 320px
+     - .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys_key1.png
+          :width: 200px
 
-          Key1 shape key.
+          Key 1: top faces moved up by 1m
 
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2a.png
-          :width: 320px
+     - .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys_key2.png
+          :width: 200px
 
-          Key2A shape key.
-
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-shape-2b.png
-          :width: 320px
-
-          Key2B shape key.
-
-The images above show a single mesh with shape keys.
-
-*Key1* has the base fully extended as well as the top of both stacks.
-*Key2A* and *Key2B* are both relative to *Key1* and extend one stack without affecting the base.
+          Key 2: inner top moved up by 1m
 
 
 Drivers
-^^^^^^^
+   Add an armature with a single bone to control the shape keys.
+   The goal is to activate the keys in succession as this bone moves up.
 
-.. list-table::
+   .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys_result.png
 
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key1.png
-          :width: 320px
 
-          Key1 must handle conflicting values from the two bones.
+   As shown in the picture above, when the bone is halfway up, both *Key 1* and *Key 2* have an influence.
+   It is a matter of preference if *Key 1* should be at its maximum *Value* before *Key 2* starts to become active,
+   or how much they should overlap. This example shows a seamless blend.
 
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2a.png
-          :width: 320px
+   For a seamless blend where there is overlap, *Key 1* should have a *Value* of 0.0 when the bone
+   is at the bottom and increase linearly to 1.0 until the bone is past the midpoint height.
+   *Key 2* should have a value of 0.0 before the midpoint height and then increase at the same
+   rate than *Key 1* until reaching *Value* 1.0 when the bone is at maximum height.
 
-          Key2A has different generator coefficients so it is activated in a different range of the bone's position.
+   #. Add a driver to the *Value* of *Key 1* and *Key 2*.
+      In the *Drivers* tab, configure both drivers to be the *Averaged Value* of
+      a variable with the bone's Z location.
+   #. Determine the range of the bone's motion in the World Z axis by moving it up so that it is
+      aligned with the top of the mesh when both keys are active. Here we will use [0.0 , 2.5].
+   #. Configure the driver functions so that the *Value* of the shape keys (Y Axis) is as
+      desired for the bone's height (X Axis).
 
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-key2b.png
-          :width: 320px
+      The driver functions should be linear, therefore, they can be defined analytically
+      with a function of type :math:`y = a + bx`,
+      where :math:`a` is an offset in :math:`y` and :math:`b` is the slope.
 
-          Key2B is the same as Key2A, but is controlled by the second bone.
+         #. In the *Modifiers* tab, add a *Generator* of type *Extended Polynomial* for both drivers.
+         #. Play with the values of :math:`a` and :math:`b` so that the curves go from [0.0 , 1.0]
+            in the Y axis and from [0.0 , 2.5] in the X Axis.
+            The curves should overlap in the mid area of the X axis and they should have the same slope (:math:`b`).
 
-The *Value* of *Key1* is bound to the position of two different bones by a driver with two variables.
-Each variable uses the world Z coordinate of a bone and
-uses the maximum value to determine how much the base should be extended.
-The generator polynomial is crafted such that the top of
-the dominant stack should line up with the bone for that stack.
+            Possible values are *Key 1*: :math:`y = 0.0 + 0.6x` and *Key 2*: :math:`y = -0.5 + 0.6x`.
 
-The *Value* of *Key2A* is bound to the position of "Bone.L".
-Its generator parameters are crafted such that when *Key1*'s *Value* reaches 1,
-the *Value* of *Key2A* starts increasing beyond zero. In this way,
-the top of the left stack will move with bone.L (mostly).
+            .. figure:: /images/animation_drivers_workflow-examples_chained-shape-keys_driver-setup.png
 
-The *Value* of *Key2B* is bound to the position of "Bone.R".
-Its generator parameters are similar to *Key2A* so that
-the top of the right stack will move with bone.R (mostly).
 
-.. TODO2.8 Replace screenshots (ui appearance changes):
-
-.. list-table::
-
-   * - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-retracted.png
-          :width: 320px
-
-          When both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
-
-     - .. figure:: /images/animation_drivers_workflow-examples_for-multiple-shape-keys-extended.png
-          :width: 320px
-
-          Extended.
-
-Since it is quite easy for bone.L and bone.R to be in positions that
-indicate conflicting values for *Key1* there will be times
-when the bones do not line up with the tops of their respective stacks.
-If the driver for *Key1* was to use Average or Minimum instead of Maximum to
-determine the value of the shape key then "conflicts" between bone.L
-and bone.R would be resolved differently. You will choose according to
-the needs of your animation.
-
-The following video shows a timelapse of this example and the end result at 3:58.
-
-.. vimeo:: 173408647
+            Note that the functions go outside the range [0.0 , 1.0] for the shape keys' *Value*,
+            but that has no effect because *Value* is clamped in a *Range* in the *Shape Keys* panel.

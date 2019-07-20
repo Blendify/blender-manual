@@ -98,6 +98,9 @@ expression, in order for dependencies to be correctly tracked.
 
 Add Input Variable
    Adds a new Driver Variable.
+Copy/Paste
+   Copies of the current variable stack so it can be pasted onto another driver's variable stack.
+
 Name
    Name to use in scripted expressions.
    The name must start with a letter and no spaces or dots are allowed.
