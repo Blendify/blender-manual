@@ -55,7 +55,7 @@ Empty
    that are simple visual transform nodes that do not render.
    They are useful for controlling the position or movement of other objects.
 Image
-   :doc:`Images </modeling/empties>` are Empty objects that display images
+   Images are :doc:`empty </modeling/empties>` objects that display images
    in the 3D Viewport. These images can be used to support modeling and animating.
 
 Light
