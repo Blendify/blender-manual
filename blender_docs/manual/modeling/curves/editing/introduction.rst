@@ -296,6 +296,26 @@ Dissolve Vertices :kbd:`Ctrl-X`
 Control Points
 ==============
 
+
+.. _modeling-curve-radius:
+
+Radius
+------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit mode
+   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Radius`
+   :Hotkey:    :kbd:`Alt-S`
+
+Radius :kbd:`Alt-S`
+   Lets you define the radius of the selected control points.
+   The radius will be interpolated from point to point (you can check it with the normals).
+
+
+.. _modeling-curve-tilt:
+
 Tilt
 ----
 
