@@ -62,6 +62,8 @@ In this example, the current frame is used as the variable that induces the moti
 
 
 
+.. _driver-namespace:
+
 Custom Function - Square Value
 ==============================
 
@@ -101,6 +103,8 @@ There are more custom function examples available in Blender's Text Editor
 :menuselection:`Templates --> Python --> Driver Functions`.
 
 
+
+.. _shapekey-driver-example:
 
 Shape Key Drivers
 =================
