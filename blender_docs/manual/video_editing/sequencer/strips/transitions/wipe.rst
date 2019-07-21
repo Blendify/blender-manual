@@ -4,7 +4,7 @@
 Wipe
 ****
 
-The wipe effect is a type of transition strip. It can be used to transition from one strip to the next.
+The *Wipe* transition strip can be used to transition from one strip to the next.
 The wipe will have no effect if created from a single strip instead of two strips.
 The duration of the wipe is the intersection of the two source strips and cannot be adjusted.
 To adjust the start and end of the wipe you must adjust the temporal bounds of the source strips
