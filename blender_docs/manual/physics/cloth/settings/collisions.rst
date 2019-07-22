@@ -29,10 +29,9 @@ Collision Settings
 
    :Panel:     :menuselection:`Physics --> Cloth --> Collision`
 
-.. TODO2.8:
-   .. figure:: /images/physics_cloth_settings_collisions_panel.png
+.. figure:: /images/physics_cloth_settings_collisions_panel.png
 
-      Cloth Collisions panel.
+   Cloth Collisions panel.
 
 Now you must tell the *Cloth* object that you want it to participate in collisions.
 For the cloth object, locate the *Cloth Collision* panel.
