@@ -1,29 +1,34 @@
 .. _bpy.ops.curve.draw:
 
-**********
-Draw Curve
-**********
+*********
+Draw Tool
+*********
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Create --> Draw Curve`
-   :Menu:      :menuselection:`Add --> Draw Curve`
-   :Hotkey:    :kbd:`Shift-LMB`
+   :Tool:     :menuselection:`Toolbar --> Draw`
 
 The Curve draw tool allows you to free-hand draw curves.
 
 
+.. _bpy.types.CurvePaintSettings:
+
 Stroke Options
 ==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Sidebar --> Tool --> Curve Stroke`
+   :Menu:      :menuselection:`Tool Settings --> Curve Stroke`
 
 .. figure:: /images/modeling_curves_editing_draw_curve-stroke-panel.png
    :align: right
 
    Curve Stroke panel.
-
-These options can be found in :menuselection:`Tool Shelf --> Options --> Curve Stroke`.
 
 Type
    Type of curve to use for drawing.
