@@ -8,5 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   control_points.rst
+   segments.rst
    attributes.rst
    draw.rst
