@@ -11,9 +11,7 @@ Dimensions
    By default, new curves are set to be 3D, which means that control points can be placed anywhere in 3D space.
    Curves can also be set to 2D which constrain the control points to the curve's local XY axis.
 
-   2D, 3D
-
-Resolution
+Resolution Preview/Render U
    The *resolution* property defines the number of points that are computed between every pair of control points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.
    The *Preview U* setting determines the resolution in the 3D View while the *Render U* setting
@@ -23,16 +21,14 @@ Resolution
    .. list-table::
 
       * - .. figure:: /images/modeling_curves_properties_data_shape-resolution-3.png
-             :width: 320px
 
              Curves with a resolution of 3.
 
         - .. figure:: /images/modeling_curves_properties_data_shape-resolution-12.png
-             :width: 320px
 
              Curves with a resolution of 12.
 
-Twisting
+Twist Method
    A 3D curve has control points that are not located on the curve's local XY plane.
    This gives the curve a twist which can affect the curve normals.
    You can alter how the twist of the curve is calculated by choosing from
@@ -41,45 +37,40 @@ Twisting
    .. list-table::
 
       * - .. figure:: /images/modeling_curves_properties_data_shape-resolution-12.png
-             :width: 320px
 
              Curves with a twist of Minimum.
 
         - .. figure:: /images/modeling_curves_properties_data_shape-twisting.png
-             :width: 320px
 
              Curves with a twist of Tangent.
 
-Fill
+Fill Mode
    Fill determines the way a curve is displayed when it is beveled (see below for details on Beveling).
    When set to *Half* (the default) the curve is displayed as half a cylinder.
-
-   Fill Deformed
-      Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
 
    .. list-table::
 
       * - .. figure:: /images/modeling_curves_properties_data_shape-fill-half.png
-             :width: 320px
 
              Curves with a fill of Half.
 
         - .. figure:: /images/modeling_curves_properties_data_shape-fill-full.png
-             :width: 320px
 
              Curves with a fill of Full.
 
+Fill Deformed
+   Fills the curve after applying all modification that might deform the curve (i.e. shape keys and modifiers).
+
 .. _curve-shape-path-curve-deform:
 
-Path/Curve-Deform
-   These options are utilized when using a curve as a path or when using the :doc:`/modeling/modifiers/deform/curve`.
-   They control how objects use the curve.
-
-   Radius
-      Causes the deformed object to be scaled by the set curve radius.
-   Stretch
-      The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
-      To get the expected result, use this together with the *Bounds Clamp* option.
-   Bounds Clamp
-      When this option is enabled, the object and mesh offset along the deformation axis is ignored.
-      This can be useful with the *Stretch* option or when using a negative axis.
+Radius
+   Causes the deformed object to be scaled by the set curve radius.
+   Utilized when using a curve as a path or when using the :doc:`/modeling/modifiers/deform/curve`.
+Stretch
+   The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
+   To get the expected result, use this together with the *Bounds Clamp* option.
+   Utilized when using the :doc:`/modeling/modifiers/deform/curve`.
+Bounds Clamp
+   When this option is enabled, the object and mesh offset along the deformation axis is ignored.
+   This can be useful with the *Stretch* option or when using a negative axis.
+   Utilized when using the :doc:`/modeling/modifiers/deform/curve`.
