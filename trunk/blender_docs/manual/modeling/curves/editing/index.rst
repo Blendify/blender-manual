@@ -10,4 +10,4 @@
    curve.rst
    control_points.rst
    segments.rst
-   draw.rst
+   other.rst
