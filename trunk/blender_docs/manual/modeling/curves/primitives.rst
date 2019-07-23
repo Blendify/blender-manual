@@ -51,12 +51,6 @@ Adds a :term:`NURBS` open 3D curve made of five aligned control points,
 with *Endpoint* knots and the *Curve Path* setting enabled.
 
 
-Draw Curve
-==========
-
-A free-hand :doc:`draw tool </modeling/curves/editing/draw>` for curve creation by dragging the mouse.
-
-
 Common Options
 ==============
 
