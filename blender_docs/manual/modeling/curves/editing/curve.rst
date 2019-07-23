@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+*****
+Curve
+*****
 
 This page covers the basics of curve editing.
 
