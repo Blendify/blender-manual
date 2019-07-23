@@ -41,7 +41,7 @@ This example shows you how setup a *Path Animation*.
    in the *Path Animation* panel.
 #. Select the monkey and :doc:`Clear Origin </scene_layout/object/editing/transform/clear_apply>` to reset its offset.
 #. You can change the orientation of the monkey by changing the
-   :doc:`Tracking Axes </scene_layout/object/properties/relations/extras>
+   :doc:`Tracking Axis </scene_layout/object/properties/relations/extras>`.
 
 .. list-table::
 

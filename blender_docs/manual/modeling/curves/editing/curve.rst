@@ -72,12 +72,11 @@ in the :doc:`Transformations </modeling/meshes/editing/transform/index>` section
 The two other tools, *Tilt* and *Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/properties/geometry>`.
 
+
 .. _modeling-curve-radius:
 
 Radius
 ------
-
-
 
 .. admonition:: Reference
    :class: refbox

@@ -3,79 +3,78 @@
 Active Spline
 *************
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Properties --> Curve --> Active Spline`
+
 .. figure:: /images/modeling_curves_properties_data_active-spline-panel-curves.png
 
    Curves Active Spline panel.
 
-The *Active Spline* panel becomes available during *Edit Mode*.
-
-Cyclic
+Cyclic U
    Closes the curve.
-Resolution
+Resolution U
    Alters the smoothness of each segment by changing the number of subdivisions.
 
 .. _bpy.types.Spline.tilt_interpolation:
 
-Interpolation
-   Tilt
-      Alters how the tilt of a segment is calculated.
-   Radius
-      Alters how the radius of a beveled curve is calculated.
-      The effects are easier to see after Shrinking/Fattening a control point :kbd:`Alt-S`.
-   Smooth
-      Smooths the normals of the curve.
+Tilt Interpolation
+   Alters how the tilt of a segment is calculated.
+Radius
+   Alters how the radius of a beveled curve is calculated.
+   The effects are easier to see after :ref:`increasing the radius <modeling-curve-radius>`.
+Smooth
+   Smooths the normals of the curve.
 
 
 NURBS Curves
 ============
 
+One of the characteristics of a NURBS object is the *knot vector*.
+This is a sequence of numbers used to determine the influence of the control points on the curve.
+While you cannot edit the knot vectors directly,
+you can influence them through the *Endpoint* and *Bézier* options in the Active Spline panel.
+Note that, the *Endpoint* and *Bézier* settings only apply to open NURBS curves.
+
 .. figure:: /images/modeling_curves_properties_data_active-spline-panel-nurbs.png
+   :align: center
 
    NURBS Active Spline panel.
 
 .. _modeling-curve-knot:
 
-Knots
-   One of the characteristics of a NURBS object is the *knot vector*.
-   This is a sequence of numbers used to determine the influence of the control points on the curve.
-   While you cannot edit the knot vectors directly,
-   you can influence them through the *Endpoint* and *Bézier* options in the Active Spline panel.
-   Note that, the *Endpoint* and *Bézier* settings only apply to open NURBS curves.
+Cyclic
+   Makes the NURBS curve cyclic.
 
-   Cyclic
-      Makes the NURBS curve cyclic.
+   .. list-table::
 
-      .. list-table::
+      * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
 
-         * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
-                :width: 320px
+             Default NURBS curve.
 
-                Default NURBS curve.
+        - .. figure:: /images/modeling_curves_properties_data_nurbs-cyclic.png
 
-           - .. figure:: /images/modeling_curves_properties_data_nurbs-cyclic.png
-                :width: 320px
+             A NURBS curve with Cyclic applied.
 
-                A NURBS curve with Cyclic applied.
+Bézier
+   Makes the NURBS curve act like a Bézier curve.
+   The NURBS control points act like *Free* handles of Bézier curve.
+   Depending on the *Order*, 3 or 4 control points form one curve segment.
+   Cyclic and Endpoint must be disabled for this option to work.
+Endpoint
+   Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
-   Bézier
-      Makes the NURBS curve act like a Bézier curve.
-      The NURBS control points act like *Free* handles of Bézier curve.
-      Depending on the *Order*, 3 or 4 control points form one curve segment.
-      Cyclic and Endpoint must be disabled for this option to work.
-   Endpoint
-      Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
+   .. list-table::
 
-      .. list-table::
+      * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
 
-         * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
-                :width: 320px
+             Default NURBS curve.
 
-                Default NURBS curve.
+        - .. figure:: /images/modeling_curves_properties_data_nurbs-endpoint.png
 
-           - .. figure:: /images/modeling_curves_properties_data_nurbs-endpoint.png
-                :width: 320px
-
-                A NURBS curve with Endpoint enabled.
+             A NURBS curve with Endpoint enabled.
 
 .. _modeling-curve-order:
 
@@ -88,11 +87,9 @@ Order
    .. list-table::
 
       * - .. figure:: /images/modeling_curves_properties_data_nurbs-default.png
-             :width: 320px
 
              NURBS curves with orders of 4.
 
         - .. figure:: /images/modeling_curves_properties_data_nurbs-order.png
-             :width: 320px
 
              NURBS curves with orders of 2.
