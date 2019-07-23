@@ -23,6 +23,9 @@ Space
    the global origin (global).
 
    Global, Local
+
+.. _curves-weight:
+
 Weight
    This sets the "goal weight" of selected control points,
    which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
