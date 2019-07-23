@@ -77,16 +77,25 @@ The two other tools, *Tilt* and *Radius* are related to
 Radius
 ------
 
+
+
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Radius`
+   :Mode:      Edit Mode
+   :Tool:      :menuselection:`Tool Shelf --> Radius`
+   :Panel:     :menuselection:`Sidebar --> Transform --> Radius`
+   :Menu:      :menuselection:`Curve --> Transform --> Radius`
    :Hotkey:    :kbd:`Alt-S`
 
-Radius :kbd:`Alt-S`
-   Lets you define the radius of the selected control points.
-   The radius will be interpolated from point to point (you can check it with the normals).
+The Radius allows you to directly control the width of the extrusion along the "spinal" curve.
+The radius will be interpolated from point to point (you can check it with the normals).
+The *Radius* of the points is set using the *Radius* transform tool. Or in the Siderbar *Transform* panel.
+
+.. figure:: /images/modeling_curves_properties_introduction_extrude-radius.png
+   :width: 320px
+
+   One control point radius set to zero.
 
 
 Mirror
@@ -309,7 +318,9 @@ Set Goal Weight
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Specials --> Set Goal Weight`
 
-This sets the Soft Body Goal Weight of selected control points.
+This sets the "goal weight" of selected control points,
+which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
+forcing the curve to "stick" to their original positions, based on the weight.
 The precise value can be adjusted in the :ref:`ui-undo-redo-adjust-last-operation` Panel.
 To adjust the *Mean Weight* (average) of selected control points use
 :menuselection:`Sidebar region --> Transform --> Mean Weight`.
