@@ -4,11 +4,12 @@
 Path Animation
 **************
 
+The *Path Animation* settings can be used to determine how child objects move along a certain path.
+
 .. figure:: /images/modeling_curves_properties_data_path-animation-panel.png
+   :align: center
 
    Path Animation panel.
-
-The *Path Animation* settings can be used to determine how child objects move along a certain path.
 
 Frames
    The number of frames that are needed to traverse the path,
@@ -38,18 +39,16 @@ This example shows you how setup a *Path Animation*.
    (so that the curve is the active object), press :kbd:`Ctrl-P` and select *Follow Path*.
    It will automatically animate *Evaluation Time* and activate *Follow* option
    in the *Path Animation* panel.
-#. Select the monkey and *Clear Origin* :kbd:`Alt-O` to reset its offset.
-#. You can change the orientation of the monkey by changing the *Tracking Axes*
-   under *Relations Extras* (with the monkey selected).
+#. Select the monkey and :doc:`Clear Origin </scene_layout/object/editing/transform/clear_apply>` to reset its offset.
+#. You can change the orientation of the monkey by changing the
+   :doc:`Tracking Axes </scene_layout/object/properties/relations/extras>
 
 .. list-table::
 
    * - .. figure:: /images/modeling_curves_properties_data_path-animation-example-1.png
-          :width: 320px
 
           Monkey parented to the Bézier Circle.
 
      - .. figure:: /images/modeling_curves_properties_data_path-animation-example-2.png
-          :width: 320px
 
           The final result.
