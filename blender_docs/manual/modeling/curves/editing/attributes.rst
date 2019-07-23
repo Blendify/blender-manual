@@ -1,14 +1,10 @@
-.. (todo add) generalize from extrude
 
-************
-Introduction
-************
-
+**********
 Attributes
-==========
+**********
 
 Weight
-------
+======
 
 This sets the "goal weight" of selected control points,
 which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
@@ -16,7 +12,7 @@ forcing the curve to "stick" to their original positions, based on the weight.
 
 
 Radius
-------
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -37,7 +33,7 @@ The *Radius* of the points is set using the *Radius* transform tool. Or in the S
 
 
 Tilt
-----
+====
 
 .. admonition:: Reference
    :class: refbox
@@ -58,7 +54,7 @@ twist around each control point -- so it is only relevant with 3D curves!
 
 
 Clear Tilt
-^^^^^^^^^^
+----------
 
 .. admonition:: Reference
    :class: refbox
