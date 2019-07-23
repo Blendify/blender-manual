@@ -4,11 +4,6 @@
 Toolbar
 *******
 
-.. toctree::
-   :hidden:
-
-   draw.rst
-
 Curve Edit mode tools:
 
 :ref:`Select <tool-select-tweak>`

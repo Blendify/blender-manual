@@ -1,8 +1,15 @@
+
+*****
+Other
+*****
+
+This page describes other curve editing tools that are not accessible via the edit menus.
+
+
 .. _bpy.ops.curve.draw:
 
-*********
-Draw Tool
-*********
+Draw Curve
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -13,10 +20,24 @@ Draw Tool
 The Curve draw tool allows you to free-hand draw curves.
 
 
+Error
+   Error distance in object units. This can be seen similar to a subdivision rate for the curve.
+   Lower values give a result that is closer to the drawing stroke while higher values give more smoothed results.
+Fit Method
+   Refit
+      Incrementally re-fits the curve (gives best results).
+   Split
+      Splits the curve until the tolerance is met (gives a better drawing performance).
+Corner Angle
+   Any angles above this are considered corners.
+Cyclic
+   Toggles whether or not the curve is :term:`Cyclic`.
+
+
 .. _bpy.types.CurvePaintSettings:
 
 Stroke Options
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -82,25 +103,29 @@ Projection Depth
             Draws aligned to the viewport.
 
 
-Draw Options
-============
+.. _modeling-curve-weight:
 
-.. figure:: /images/modeling_curves_editing_draw_draw-curve-panel.png
-   :align: right
+Set Goal Weight
+===============
 
-   Draw Curve panel.
+.. admonition:: Reference
+   :class: refbox
 
-These options can be found in the :ref:`Adjust Last Operation Panel <ui-undo-redo-adjust-last-operation>`.
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Specials --> Set Goal Weight`
 
-Error
-   Error distance in object units. This can be seen similar to a subdivision rate for the curve.
-   Lower values give a result that is closer to the drawing stroke while higher values give more smoothed results.
-Fit Method
-   Refit
-      Incrementally re-fits the curve (gives best results).
-   Split
-      Splits the curve until the tolerance is met (gives a better drawing performance).
-Corner Angle
-   Any angles above this are considered corners.
-Cyclic
-   Toggles whether or not the curve is :term:`Cyclic`.
+Sets the curve's :ref:`Weight <>` for the selected control point to the specified value.
+If more than one control point is selected this will set the *Mean Weight*.
+
+
+Add Vertex
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Hotkey:    :kbd:`Ctrl-LMB`
+
+Interactively places new points with :kbd:`Ctrl-LMB` at the cursor position.
+With the selection it deals in same manner as the *Extrude Curve and Move* tool.

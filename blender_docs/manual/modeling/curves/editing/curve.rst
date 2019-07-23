@@ -56,6 +56,13 @@ Space
    the global origin (global).
 
    Global, Local
+Weight
+   This sets the "goal weight" of selected control points,
+   which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
+   forcing the curve to "stick" to their original positions, based on the weight.
+   The precise value can be adjusted in the :ref:`ui-undo-redo-adjust-last-operation` Panel.
+   To adjust the *Mean Weight* (average) of selected control points use
+   :menuselection:`Sidebar region --> Transform --> Mean Weight`.
 
 
 Tools
@@ -304,35 +311,3 @@ Dissolve Vertices :kbd:`Ctrl-X`
           :width: 320px
 
           Dissolve vertices.
-
-
-.. _modeling-curve-weight:
-
-Set Goal Weight
-===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Specials --> Set Goal Weight`
-
-This sets the "goal weight" of selected control points,
-which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
-forcing the curve to "stick" to their original positions, based on the weight.
-The precise value can be adjusted in the :ref:`ui-undo-redo-adjust-last-operation` Panel.
-To adjust the *Mean Weight* (average) of selected control points use
-:menuselection:`Sidebar region --> Transform --> Mean Weight`.
-
-
-Duplicate or Extrude to Cursor
-==============================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Ctrl-LMB`
-
-Interactively places new points with :kbd:`Ctrl-LMB` at the cursor position.
-With the selection it deals in same manner as the *Extrude Curve and Move* tool.
