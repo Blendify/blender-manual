@@ -9,42 +9,25 @@ This page covers the basics of curve editing.
 Transform
 =========
 
-A Bézier curve can be edited by transforming the locations of both control points and handles.
-NURBS curve on the other hand have only control points.
-
-
-Move, Rotation, Scale
----------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
-   :Menu:      :menuselection:`Curve --> Transform --> Move, Rotate, Scale, ...`
-   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
-
-Like other elements in Blender, curve control points and handles can be
-moved :kbd:`G`, rotated :kbd:`R` or scaled :kbd:`S` as described in
-the :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>` section.
-When in *Edit Mode*,
-:doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`
-is also available for transformation actions.
-
-
-Tools
------
-
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Transform`
 
-The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
-in the :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
-The two other tools, *Tilt* and *Radius* are related to
-:doc:`Curve Extrusion </modeling/curves/properties/geometry>`.
+A Bézier curve can be edited by transforming the locations of both control points and handles.
+NURBS curve on the other hand have only control points.
+
+Move, Rotate, Scale
+   Like other elements in Blender, curve control points and handles can be
+   moved, rotated, or scaled as described in
+   :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>`.
+To Sphere, Shear, Warp, Bend, Push/Pull, Warp, Randomize
+   The transform tools are described in the
+   :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
+Move/Scale Texture Space
+   Like other objects, curves have textures spaces which can be
+   :ref:`edited <properties-texture-space-editing>`.
 
 
 .. _modeling-curve-radius:
@@ -260,21 +243,17 @@ Dissolve Vertices :kbd:`Ctrl-X`
 .. list-table::
 
    * - .. figure:: /images/modeling_curves_editing_introduction_make-segment.png
-          :width: 320px
 
           Before deleting.
 
      - .. figure:: /images/modeling_curves_editing_introduction_delete-vertices.png
-          :width: 320px
 
           Deleting vertices.
 
    * - .. figure:: /images/modeling_curves_editing_introduction_delete-segment.png
-          :width: 320px
 
           Deleting segment.
 
      - .. figure:: /images/modeling_curves_editing_introduction_dissolve-vertices.png
-          :width: 320px
 
           Dissolve vertices.
