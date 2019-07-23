@@ -58,22 +58,43 @@ Additionally, you can close a curve by toggling cyclic.
 
 .. _modeling-curve-tilt:
 
-Tilt / Clear Tilt
-=================
+Tilt
+====
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform --> Tilt`
-   :Menu:      :menuselection:`Curve --> Control Points --> Tilt/Clear Tilt`
-   :Hotkey:    :kbd:`Ctrl-T`, :kbd:`Alt-T`
+   :Tool:      :menuselection:`Tool Shelf --> Tilt`
+   :Panel:     :menuselection:`Sidebar --> Transform --> Tilt`
+   :Menu:      :menuselection:`Control Points --> Tilt`
+   :Hotkey:    :kbd:`Ctrl-T`
 
-Tilt :kbd:`Ctrl-T`
-   Lets you define the tilt of the selected control points.
-   The tilt will be interpolated from point to point (you can check it with the normals).
-Clear Tilt :kbd:`Alt-T`
-   Brings the tilt of those selected control points back to 0.
+This setting controls how the normals (visualized as arrows)
+twist around each control point -- so it is only relevant with 3D curves!
+The tilt will be interpolated from point to point (you can check it with the normals).
+
+.. figure:: /images/modeling_curves_properties_introduction_extrude-mean-tilt.png
+   :width: 320px
+
+   30 degree Mean Tilt of all control points.
+
+
+Clear Tilt
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Control Points --> Clear Tilt`
+   :Hotkey:    :kbd:`Alt-T`
+
+You can also reset the tilt to its default value (i.e. perpendicular to the original curve plane).
+With NURBS, the tilt is always smoothly interpolated. However, with Bézier,
+you can choose the :ref:`interpolation algorithm <bpy.types.Spline.tilt_interpolation>`.
+
+
 
 
 Set Handle Type
