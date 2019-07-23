@@ -13,7 +13,8 @@ Shape
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties --> Text --> Shape`
 
-Most of the settings in the *Shape* panel are shared with those of :doc:`Curves </modeling/curves/properties/data>`
+Most of the settings in the *Shape* panel are shared with those of
+:doc:`Curves </modeling/curves/properties/shape>`
 data-blocks, please refer to those for details.
 
 Fast Editing

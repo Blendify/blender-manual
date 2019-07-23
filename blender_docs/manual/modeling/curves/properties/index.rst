@@ -7,5 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
-   data.rst
+   shape.rst
    geometry.rst
+   path_animation.rst
+   active_spline.rst
