@@ -56,10 +56,10 @@ Distance Metric
       Calculates the distance between two points by determining
       the greatest of their differences along any coordinate dimension.
       For more information see `Chebyshev distance <https://en.wikipedia.org/wiki/Chebyshev_distance>`__ on Wikipedia.
-   Minkowsky
+   Minkowski
       A generalized algorithm that can represent all other
       distance metrics by configuring the *Exponent* input.
-      This exponent represents *p* in the Minkowsky distance function:
+      This exponent represents *p* in the Minkowski distance function:
 
       :math:`(\sum_{i=1}^{n}{|X_{i} - Y_{i}|^{p}})^{1/p}`
 
@@ -68,36 +68,36 @@ Distance Metric
       1.0 are the same as using the *Manhattan* distance metric.
       Values of 2.0 give the same results as the *Distance* distance metric.
       Finally, an exponent of 10.0 is the same as the *Chebychev* distance metric.
-      So all distance metrics are basically the same -- a variation of *Minkowsky*.
+      So all distance metrics are basically the same -- a variation of *Minkowski*.
 
       .. list-table::
 
-         * - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky0-5.jpg
+         * - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowski0-5.jpg
                 :width: 200px
 
-                Minkovsky Exponent: 0.5 (Minkovsky 1/2).
+                Minkowski Exponent: 0.5 (Minkowski 1/2).
 
-           - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky1.jpg
+           - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowski1.jpg
                 :width: 200px
 
-                Minkovsky Exponent: 1.0 (Manhattan).
+                Minkowski Exponent: 1.0 (Manhattan).
 
-           - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky2.jpg
+           - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowski2.jpg
                 :width: 200px
 
-                Minkovsky Exponent: 2.0 (Distance).
+                Minkowski Exponent: 2.0 (Distance).
 
-         * - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky4.jpg
+         * - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowski4.jpg
                 :width: 200px
 
-                Minkovsky Exponent: 4.0.
+                Minkowski Exponent: 4.0.
 
-           - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowsky10.jpg
+           - .. figure:: /images/render_materials_legacy-textures_types_voronoi_minkowski10.jpg
                 :width: 200px
 
-                Minkovsky Exponent: 10.0 (Chebychev).
+                Minkowski Exponent: 10.0 (Chebychev).
 
-           -
+           - ..
 
 Feature Output
    Determines which points are used to calculate the distance.
@@ -114,7 +114,7 @@ Outputs
 Color
    Texture color output.
 Factor
-   A greyscale representation of the *Color* output.
+   A grayscale representation of the *Color* output.
 
 
 Examples

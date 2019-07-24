@@ -23,8 +23,8 @@ Move, Rotate, Scale
    moved, rotated, or scaled as described in
    :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>`.
 To Sphere, Shear, Warp, Bend, Push/Pull, Warp, Randomize
-   The transform tools are described in the
-   :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
+   The transform tools are described in
+   the :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
 Move/Scale Texture Space
    Like other objects, curves have textures spaces which can be
    :ref:`edited <properties-texture-space-editing>`.
@@ -46,7 +46,7 @@ Radius
 
 The Radius allows you to directly control the width of the extrusion along the "spinal" curve.
 The radius will be interpolated from point to point (you can check it with the normals).
-The *Radius* of the points is set using the *Radius* transform tool. Or in the Siderbar *Transform* panel.
+The *Radius* of the points is set using the *Radius* transform tool. Or in the Sidebar *Transform* panel.
 
 .. figure:: /images/modeling_curves_properties_introduction_extrude-radius.png
    :width: 320px
@@ -83,6 +83,7 @@ also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).
 Snapping works with 2D curves but points will be constrained to the local XY axes.
+
 
 Spin
 ====

@@ -44,7 +44,6 @@ Standard
 .. figure:: /images/animation_markers_standard.png
    :align: right
 
-
 Most of the editors visualize markers as small white triangles in a separate
 row at their bottom, empty if unselected or filled if selected.
 

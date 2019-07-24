@@ -83,7 +83,7 @@ Alignment
    Defines how to align the *Dots* and *Boxes* along the drawing path and with the object's rotation.
 
    Path
-      Aligns to the drawing path and the objectt's rotation.
+      Aligns to the drawing path and the object's rotation.
    Object
       Aligns to the object's rotation; ignoring the drawing path.
    Fixed

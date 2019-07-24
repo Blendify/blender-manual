@@ -62,7 +62,7 @@ Inverse :kbd:`Ctrl-I`
 ----
 
 `(De)select First/Last`_
-   Toggle the selection of the first or last control point(s)
+   Toggle the selection of the first or last control point(s).
 
 `Select Next/Previous`_
    Selects the next or previous control points.

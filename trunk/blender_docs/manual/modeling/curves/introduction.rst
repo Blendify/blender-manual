@@ -26,19 +26,19 @@ less data and so can produce results using less memory and storage space at mode
 However, this procedural approach to surfaces can increase demands at render time.
 
 Certain modeling techniques, such as
-:doc:`extruding a profile along a path</modeling/curves/properties/geometry>`,
+:doc:`extruding a profile along a path </modeling/curves/properties/geometry>`,
 are possible only using curves. On the other hand, when using curves,
 vertex-level control is more difficult and if fine control is necessary,
-:doc:`mesh editing</modeling/meshes/editing/introduction>` may be a better modeling option.
+:doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.
 
 Bézier curves are the most commonly used curves for designing letters or logos.
 
 They are also widely used in animation, both as for objects to move along (see constraints below)
-and as :doc:`F-Curves</editors/graph_editor/fcurves/introduction>`
+and as :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
 to change the properties of objects as a function of time.
 
 .. seealso:: Modifiers & Constraints
 
-   - :doc:`Curve Modifier</modeling/modifiers/deform/curve>`
-   - :doc:`Follow Path Constraint</animation/constraints/relationship/follow_path>`
-   - :doc:`Clamp To Constraint</animation/constraints/tracking/clamp_to>`
+   - :doc:`Curve Modifier </modeling/modifiers/deform/curve>`
+   - :doc:`Follow Path Constraint </animation/constraints/relationship/follow_path>`
+   - :doc:`Clamp To Constraint </animation/constraints/tracking/clamp_to>`

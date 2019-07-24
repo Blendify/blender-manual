@@ -59,14 +59,14 @@ Distance
    The distance another object must get to the cloth for
    the simulation to repel the cloth out of the way.
    Smaller values might give errors but gives some speed-up while
-   larger will give un realistic results if too large and can be slow.
+   larger will give unrealistic results if too large and can be slow.
    It is best to find a good in between value.
 Impulse Clamping
    Prevents explosions in tight and complicated collision situations
    by restricting the amount of movement after a collision.
-Collison Collection
+Collision Collection
    Only objects that are a part of this :doc:`Collection </scene_layout/collections/index>`
-   can collide with the cloth. Note that these objects must also have Collison physics enabled.
+   can collide with the cloth. Note that these objects must also have Collision physics enabled.
 
 
 Self-Collisions
@@ -87,13 +87,13 @@ Friction
 Distance
    As cloth at this distance begins to repel away from itself.
    Smaller values might give errors but gives some speed-up while
-   larger will give un realistic results if too large and can be slow.
+   larger will give unrealistic results if too large and can be slow.
    It is best to find a good in between value.
 Impulse Clamping
    Prevents explosions in tight and complicated collision situations
    by restricting the amount of movement after a collision.
 Vertex Group
-   Only Vevtices that are a part of this
+   Only vertices that are a part of this
    :doc:`Vertex Group </modeling/meshes/properties/vertex_groups/index>` can collide with each other.
 
 .. seealso::

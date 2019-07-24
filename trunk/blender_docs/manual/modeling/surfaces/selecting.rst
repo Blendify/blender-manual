@@ -3,7 +3,7 @@
 Selecting
 *********
 
-This page discusses specific selecting tools for surface objects in Edit mode.
+This page discusses specific selecting tools for surface objects in Edit Mode.
 The Surface Edit more also uses the general select tools used which are described
 in the :doc:`interface section </interface/selecting>`.
 
@@ -17,7 +17,7 @@ add to current selection with :kbd:`Shift-LMB` clicks, :kbd:`B` order-select, an
 Select Menu
 ===========
 
-The *Select* menu (3D View headers) is even simpler than for curves...
+The *Select* menu (in the 3D Viewport header) is even simpler than for curves...
 
 All these options have the same meaning and behavior as in
 :doc:`Object Mode </scene_layout/object/selecting>`
