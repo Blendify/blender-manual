@@ -15,10 +15,9 @@ Draw Curve
    :class: refbox
 
    :Mode:      Edit Mode
-   :Tool:     :menuselection:`Toolbar --> Draw`
+   :Tool:      :menuselection:`Toolbar --> Draw`
 
 The Curve draw tool allows you to free-hand draw curves.
-
 
 Error
    Error distance in object units. This can be seen similar to a subdivision rate for the curve.
@@ -75,7 +74,7 @@ Type
 
 Pressure Radius
    Min
-      Minimum radius when the minimum pressure is applied (also the minimum when tapering)
+      Minimum radius when the minimum pressure is applied (also the minimum when tapering).
    Max
       Radius to use when the maximum pressure is applied (or when a tablet is not used).
 

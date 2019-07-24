@@ -4,8 +4,8 @@
 Color Mix
 *********
 
-The *Color Mix* effect strip mixes two strips by working on the
-individual and corresponding pixels of the two input strips.
+The *Color Mix* effect strip mixes two strips by working on
+the individual and corresponding pixels of the two input strips.
 
 This effect can do the exact same operation as the Add, Subtract,
 or Multiply effect strips but also other color blending modes.

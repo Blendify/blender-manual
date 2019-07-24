@@ -147,8 +147,8 @@ Shape Key
    #. Enter Edit Mode and select the new shape key in the properties panel.
       Adjust the vertices as desired.
       Select the *Basis* key to toggle between the original mesh and your edits.
-      (Note: be careful to apply edits only to your shape and not to the
-      original mesh or other existing keys.)
+      (Note: be careful to apply edits only to your shape and not to
+      the original mesh or other existing keys.)
 
 
 Once you are satisfied with how the deformation looks for the problematic pose,
@@ -166,8 +166,8 @@ Driver
       rotation which might be insufficient to precisely express the condition
       under which the shape key should be activated.
 
-      #. In the Drivers tab, select the *Averaged Value* of the rotation of the
-         bone you're posing.
+      #. In the Drivers tab, select the *Averaged Value* of the rotation of
+         the bone you're posing.
 
          Understand the rotation axis that you're interested in by enabling axes display
          in the armature or by observing the bone's transform values in the Properties.
@@ -179,10 +179,10 @@ Driver
 
       #. Manually set points in the driver curve by selecting a handle and
          dragging it or inserting values in the *F-Curve* tab.
-         The Y Axis represents the shape key *Value*, which should go from 0.0 to 1.0.
-         The X Axis is usually the frame, but for this driver it represents the rotation value in radians.
+         The Y axis represents the shape key *Value*, which should go from 0.0 to 1.0.
+         The X axis is usually the frame, but for this driver it represents the rotation value in radians.
          You can have more than two points in the curve and tweak the transitions
-         with the handles in the curve view (:kbd:`G` to grab).
+         with the handles in the curve view (:kbd:`G` to move).
 
       #. To verify that the driver behaves correctly, deselect the option to
          only show drivers for selected objects. This way, you can pose the armature
@@ -270,8 +270,8 @@ Drivers
       a variable with the bone's Z location.
    #. Determine the range of the bone's motion in the World Z axis by moving it up so that it is
       aligned with the top of the mesh when both keys are active. Here we will use [0.0 , 2.5].
-   #. Configure the driver functions so that the *Value* of the shape keys (Y Axis) is as
-      desired for the bone's height (X Axis).
+   #. Configure the driver functions so that the *Value* of the shape keys (Y axis) is as
+      desired for the bone's height (X axis).
 
       The driver functions should be linear, therefore, they can be defined analytically
       with a function of type :math:`y = a + bx`,
@@ -279,7 +279,7 @@ Drivers
 
          #. In the *Modifiers* tab, add a *Generator* of type *Extended Polynomial* for both drivers.
          #. Play with the values of :math:`a` and :math:`b` so that the curves go from [0.0 , 1.0]
-            in the Y axis and from [0.0 , 2.5] in the X Axis.
+            in the Y axis and from [0.0 , 2.5] in the X axis.
             The curves should overlap in the mid area of the X axis and they should have the same slope (:math:`b`).
 
             Possible values are *Key 1*: :math:`y = 0.0 + 0.6x` and *Key 2*: :math:`y = -0.5 + 0.6x`.

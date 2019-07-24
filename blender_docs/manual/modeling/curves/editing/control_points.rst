@@ -95,8 +95,6 @@ With NURBS, the tilt is always smoothly interpolated. However, with Bézier,
 you can choose the :ref:`interpolation algorithm <bpy.types.Spline.tilt_interpolation>`.
 
 
-
-
 Set Handle Type
 ===============
 
@@ -161,6 +159,7 @@ Smooth Curve Radius
 ===================
 
 Todo.
+
 
 Smooth Curve Weight
 ===================
