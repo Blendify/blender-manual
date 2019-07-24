@@ -3,9 +3,6 @@
 Multiframe
 **********
 
-Overview
-========
-
 Multiframe allows you to edit, sculpt or weight painting on several frames at the same time.
 Extremely useful to avoid making a repetitive task one frame at a time when animating.
 

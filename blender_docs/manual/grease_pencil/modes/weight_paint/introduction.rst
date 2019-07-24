@@ -3,9 +3,6 @@
 Introduction
 ************
 
-Overview
-========
-
 Assigning weight to the points is primarily used for rigging strokes in cut-out animation,
 where the vertex groups are used to define the relative bone influences on the strokes.
 See :doc:`Using Vertex Group </sculpt_paint/weight_paint/usage>` for more information.
