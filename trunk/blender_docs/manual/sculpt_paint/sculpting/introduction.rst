@@ -3,9 +3,6 @@
 Introduction
 ************
 
-Overview
-========
-
 *Sculpt Mode* is similar to *Edit Mode* in that it is used to alter the shape of a model,
 but Sculpt Mode uses a very different workflow:
 instead of dealing with individual elements (vertices, edges, and faces),

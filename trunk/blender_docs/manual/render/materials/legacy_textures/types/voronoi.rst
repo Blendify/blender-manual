@@ -4,7 +4,7 @@
 Voronoi
 *******
 
-The voronoi texture is used to generate very convincing Metal,
+The Voronoi texture is used to generate very convincing Metal,
 especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
 
 .. figure:: /images/render_materials_legacy-textures_types_voronoi_panel.png

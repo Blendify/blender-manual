@@ -3,9 +3,6 @@
 Introduction
 ************
 
-Overview
-========
-
 *Sculpt Mode* is similar to *Edit Mode* in that it is used to alter the shape of a drawing,
 but Sculpt Mode uses a very different workflow:
 Instead of dealing with individual elements (points and edit lines),
