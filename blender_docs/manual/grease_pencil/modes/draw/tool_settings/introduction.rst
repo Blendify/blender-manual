@@ -8,7 +8,7 @@ Introduction
 Common Options
 ==============
 
-In the Topbar you can select the brush and material to use with the tool.
+In the Tool Settings you can select the brush and material to use with the tool.
 
 Brush
    The :ref:`ui-data-block` to select a preset brush type or a custom brush.

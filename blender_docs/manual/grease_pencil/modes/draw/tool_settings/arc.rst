@@ -19,7 +19,7 @@ Usage
 Selecting a Brush and Material
 ------------------------------
 
-In the Topbar select the brush and material to use with the tool.
+In the Tool Settings select the brush and material to use with the tool.
 The Arc tool uses *Draw Brush* types.
 See :ref:`grease-pencil-draw-common-options` for more information.
 
@@ -27,7 +27,7 @@ See :ref:`grease-pencil-draw-common-options` for more information.
 Common Brush Options
 --------------------
 
-You can configure the brush main settings exposed on the Topbar for convenience.
+You can configure the brush main settings exposed on the Tool Settings for convenience.
 For the draw brushes configuration and settings see:
 :doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`.
 

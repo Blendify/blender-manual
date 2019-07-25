@@ -196,7 +196,7 @@ Set Spline Type
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Set Spline type`
+   :Menu:      :menuselection:`Curve --> Set Spline Type`
 
 *Set Spline Type* converts splines in a curve object between Bézier, NURBS, and Poly curves.
 Note, this is not a "smart" conversion, i.e. Blender does not try to keep the same shape,
