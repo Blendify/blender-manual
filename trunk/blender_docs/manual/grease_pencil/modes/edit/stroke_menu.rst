@@ -27,7 +27,7 @@ Translation, Rotation, Scale
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Transform`
+   :Panel:     :menuselection:`Toolbar --> Tools --> Transform`
    :Menu:      :menuselection:`Stroke --> Transform --> Move, Rotate, Scale, ...`
    :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
@@ -54,7 +54,7 @@ Tools
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Strokes --> Transform`
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Stroke Tools`
+   :Panel:     :menuselection:`Toolbar --> Tools --> Stroke Tools`
 
 The *Bend*, *Shear*, *To Sphere*, *Extrude* and *Shrink fatten* transform tools are described
 in the :doc:`Editing tool </grease_pencil/modes/edit/tools>` section.
@@ -107,7 +107,7 @@ Extrude Points
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Stroke Tools --> Extrude`
+   :Panel:     :menuselection:`Toolbar --> Tools --> Stroke Tools --> Extrude`
    :Hotkey:    :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be moved.
