@@ -74,7 +74,7 @@ The tilt will be interpolated from point to point (you can check it with the nor
 
 .. figure:: /images/modeling_curves_properties_introduction_extrude-mean-tilt.png
    :align: center
-   :width: 320px
+   :width: 50%
 
    30 degree Mean Tilt of all control points.
 
@@ -129,8 +129,11 @@ Recalc Normals
    :Menu:      :menuselection:`Curve --> Control Points --> Recalc Normals`
    :Hotkey:    :kbd:`Shift-N`
 
+The *Recalc Normals* operator rotates the selected control point's handle to be tangential to the curve.
+This can be used to make curves smoother and more consistent looking.
 
-Todo.
+Length
+   Recalculates the length of the handles so they are all the same length.
 
 
 .. _bpy.ops.curve.smooth:
