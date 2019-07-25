@@ -94,9 +94,8 @@ Spin
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Spin`
 
-The *Spin* operator only works for one dimensional
-:doc:`surface </modeling/surfaces/index>` objects.
-Its use for curves is currently not possible,
+The *Spin* operator only works for one dimensional :doc:`surface </modeling/surfaces/index>` objects.
+Its use for curves is currently not possible, 
 the full feature is documented in :ref:`Surface editing <bpy.ops.curve.spin>`.
 
 
@@ -197,7 +196,7 @@ Set Spline Type
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:     :menuselection:`Curve --> Set Spline type`
+   :Menu:      :menuselection:`Curve --> Set Spline type`
 
 *Set Spline Type* converts splines in a curve object between Bézier, NURBS, and Poly curves.
 Note, this is not a "smart" conversion, i.e. Blender does not try to keep the same shape,
