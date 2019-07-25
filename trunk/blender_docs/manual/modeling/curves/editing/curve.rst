@@ -129,7 +129,10 @@ Split
    :Menu:      :menuselection:`Curve --> Split`
    :Hotkey:    :kbd:`Y`
 
-TODO.
+The *Split* operator splits a selected segment of a curve from the rest of the curve.
+This curve can then be moved or altered without affecting the other curve.
+If a single control point is selected the *Split* operator will create a new singular loose control point;
+leaving the previously selected control point attached to the rest of the curve.
 
 
 .. _bpy.ops.curve.separate:
