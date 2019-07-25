@@ -20,53 +20,16 @@ Selecting a Brush and Material
 ------------------------------
 
 In the Topbar select the brush and material to use with the tool.
-
-Brush
-   The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   Fill tool uses *Fill Brushes* types.
-
-Material
-   Data-block selector for the material.
-
-   Pin Material (pin icon)
-      Pin the material to the brush.
-
-      The final appearance of the strokes is a combination of a brush and a material used,
-      stick the material to the brush gives more control and avoid lack of coordination between the two.
-
-For more information about brushes and materials see:
-:doc:`Fill Brush </grease_pencil/modes/draw/tool_settings/brushes/fill_brush>`
-and :doc:`Material </grease_pencil/materials/introduction>`.
+The Fill tool uses *Fill Brush* types.
+See :ref:`grease-pencil-draw-common-options` for more information.
 
 
 Common Brush Options
 --------------------
 
-You can also configure the brush main settings exposed on the topbar for convenience.
-For complete fill brushes configuration and settings
+You can also configure the brush main settings exposed on the Topbar for convenience.
+For the fill brushes configuration and settings
 see: :doc:`Fill Brush </grease_pencil/modes/draw/tool_settings/brushes/fill_brush>`.
-
-Leak Size
-   Size in pixel to consider the leak closed.
-
-Thickness
-   The thickness radius of the boundary stroke in pixels.
-
-Simplify
-   Number of simplify steps to apply to the boundary line.
-   Higher values reduce the final filled area accuracy.
-
-Boundary
-   Sets the type of fill boundary limits calculation to perform.
-
-   Default
-      Use the thickness of the strokes and the editing lines together.
-   Stroke
-      Use only the thickness of the strokes (ignore edit lines).
-   Line
-      Use only the edit lines (ignore strokes).
-   Show lines (grid icon)
-      Toggle show help lines to see the fill boundary.
 
 
 Filling Areas
