@@ -63,7 +63,7 @@ Show Header
 Show Menus
    Toggles where the :ref:`Menus <ui-header-menu>` are collapsed or not.
 Flip to Bottom/Top
-   Toggles whether headers appear on the top or the bottom of the editor.
+   Toggles whether the header or Tool Settings appear on the top or bottom of the editor.
 Maximize Area
    See :ref:`bpy.ops.screen.screen_full_area`.
 
@@ -75,6 +75,13 @@ The *Toolbar* (on the left side of the editor area) contains a set of interactiv
 :kbd:`T` toggles the visibility of Toolbar.
 
 This is further documented here: :ref:`Toolbar <ui-region-toolbar>`.
+
+
+Tool Settings
+=============
+
+The *Tool Settings* (at the top/bottom of the editor area) contains as its name suggests the settings of the active tool.
+It's visibility can be toggled with the header's context menu just as its position with the *Flip to Bottom/Top* operator.
 
 
 Adjust Last Operation
