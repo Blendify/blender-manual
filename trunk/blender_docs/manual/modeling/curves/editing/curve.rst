@@ -245,7 +245,16 @@ Decimate Curve
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Clean Up --> Decimate Curve`
 
-TODO.
+The *Decimate Curve* operator reduces the number of control points
+while trying to maintain the curves original shape.
+This operator works similar to its :ref:`mesh counterpart <bpy.ops.mesh.decimate>`.
+
+Ratio
+   The percentage of control points to remove.
+
+.. note::
+
+   This tool can only decimate Bézier curves.
 
 
 .. _bpy.ops.curve.delete:

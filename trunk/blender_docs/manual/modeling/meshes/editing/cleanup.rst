@@ -6,6 +6,8 @@ Clean up
 These tools are to help cleanup degenerate geometry and fill in missing areas of a mesh.
 
 
+.. _bpy.ops.mesh.decimate:
+
 Decimate Geometry
 =================
 
@@ -15,7 +17,8 @@ Decimate Geometry
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Clean up --> Decimate Geometry`
 
-The Decimate Geometry tool allows you to reduce the vertex/face count of a mesh with minimal shape changes.
+The Decimate Geometry tool allows you to reduce
+the vertex/face count of a mesh with minimal shape changes.
 
 Ratio
    Ratio of triangles to reduce to.
