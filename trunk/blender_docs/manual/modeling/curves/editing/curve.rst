@@ -84,8 +84,6 @@ except for within itself (other components of the active curve).
 Snapping works with 2D curves but points will be constrained to the local XY axes.
 
 
-.. _bpy.ops.curve.spin:
-
 Spin
 ====
 
@@ -95,7 +93,10 @@ Spin
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Spin`
 
-TODO.
+The *Spin* operator only works for one dimensional
+:doc:`surface </modeling/surfaces/index>` objects.
+Its use for curves is currently not possible,
+the full feature is documented in :ref:`Surface editing <bpy.ops.curve.spin>`.
 
 
 .. _bpy.ops.curve.duplicate_move:

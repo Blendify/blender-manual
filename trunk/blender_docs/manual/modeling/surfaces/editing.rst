@@ -319,6 +319,8 @@ If you apply it to a 1D surface (a "surface curve"),
 this tool works exactly as with :ref:`curves <modeling-curves-subdivision>`.
 
 
+.. _bpy.ops.curve.spin:
+
 Spin
 ====
 
