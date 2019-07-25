@@ -3,6 +3,7 @@
 Control Points
 **************
 
+.. _bpy.ops.curve.extrude_move:
 .. _modeling-curves-extrude:
 
 Extrude Curve and Move
@@ -12,7 +13,6 @@ Extrude Curve and Move
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Extrude`
    :Menu:      :menuselection:`Curve --> Extrude Curve and Move`
    :Hotkey:    :kbd:`E`
 
@@ -24,6 +24,7 @@ else a new unconnected point is created.
 .. (todo) looks like a bug, internal parameter?
 
 
+.. _bpy.ops.curve.make_segment:
 .. _modeling-curves-make-segment:
 
 Make Segment
@@ -43,19 +44,17 @@ If the points belong to different curves, these are joined by a segment to becom
 .. list-table::
 
    * - .. figure:: /images/modeling_curves_editing_introduction_two-curves.png
-          :width: 320px
 
           Two curves before.
 
      - .. figure:: /images/modeling_curves_editing_introduction_make-segment.png
-          :width: 320px
 
           Curve after joining.
 
 Note that you can only join curves of the same type (i.e. Bézier with Bézier, NURBS with NURBS)
 Additionally, you can close a curve by toggling cyclic.
 
-
+.. _bpy.ops.transform.tilt:
 .. _modeling-curve-tilt:
 
 Tilt
@@ -65,8 +64,7 @@ Tilt
    :class: refbox
 
    :Mode:      Edit Mode
-   :Tool:      :menuselection:`Tool Shelf --> Tilt`
-   :Panel:     :menuselection:`Sidebar --> Transform --> Tilt`
+   :Tool:      :menuselection:`Toolbar --> Tilt`
    :Menu:      :menuselection:`Control Points --> Tilt`
    :Hotkey:    :kbd:`Ctrl-T`
 
@@ -75,10 +73,13 @@ twist around each control point -- so it is only relevant with 3D curves!
 The tilt will be interpolated from point to point (you can check it with the normals).
 
 .. figure:: /images/modeling_curves_properties_introduction_extrude-mean-tilt.png
+   :align: center
    :width: 320px
 
    30 degree Mean Tilt of all control points.
 
+
+.. _bpy.ops.curve.tilt_clear:
 
 Clear Tilt
 ==========
@@ -95,6 +96,8 @@ With NURBS, the tilt is always smoothly interpolated. However, with Bézier,
 you can choose the :ref:`interpolation algorithm <bpy.types.Spline.tilt_interpolation>`.
 
 
+.. _bpy.ops.curve.handle_type_set:
+
 Set Handle Type
 ===============
 
@@ -102,7 +105,6 @@ Set Handle Type
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Handles:`
    :Menu:      :menuselection:`Curve --> Control Points --> Set Handle Type`
    :Hotkey:    :kbd:`V`
 
@@ -111,15 +113,27 @@ can be used to alter features of the curve.
 For example, switching to *Vector handles* can be used to create curves with sharp corners.
 Read the :ref:`Bézier curves <curve-bezier-handle-type>` page for more details.
 
-Toggle Free/Align :kbd:`V T`
-   Additionally, this shortcut can be used to toggle between Free and Aligned handle types.
+Toggle Free/Align
+   Additionally, this operator can be used to toggle between Free and Aligned handle types.
 
+
+.. _bpy.ops.curve.normals_make_consistent:
 
 Recalc Normals
 ==============
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Control Points --> Recalc Normals`
+   :Hotkey:    :kbd:`Shift-N`
+
+
 Todo.
 
+
+.. _bpy.ops.curve.smooth:
 
 Smooth
 ======
@@ -128,8 +142,7 @@ Smooth
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Smooth`
-   :Menu:      :menuselection:`Specials --> Smooth`
+   :Menu:      :menuselection:`Curve --> Control Points --> Smooth`
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
 operation reduces the distance between the selected control point/s and
@@ -149,20 +162,44 @@ Does not effect control point tangents.
    Only three control points in the center smoothed over 20 times.
 
 
+.. _bpy.ops.curve.smooth_tilt:
+
 Smooth Curve Tilt
 =================
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Tilt`
+
 Todo.
 
+
+.. _bpy.ops.curve.smooth_radius:
 
 Smooth Curve Radius
 ===================
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Radius`
+
 Todo.
 
 
+.. _bpy.ops.curve.smooth_weight:
+
 Smooth Curve Weight
 ===================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Weight`
 
 Todo.
 
@@ -187,14 +224,15 @@ Make Vertex Parent
    :class: refbox
 
    :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Control Points --> Make Vertex Parent`
    :Hotkey:    :kbd:`Ctrl-P`
 
 You can make other selected objects :ref:`children <object-parenting>`
-of one or three control points :kbd:`Ctrl-P`, as with mesh objects.
+of one or three control points, as with mesh objects.
 
 To select a mesh (that is in view) while editing a curve, :kbd:`Ctrl-P` click on it.
 Select either one or three control points,
-then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
+then :kbd:`Ctrl-LMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
 Selecting three control points will make the child follow
 the median point between the three vertices. An alternative would be to use
 a :doc:`Child of Constraint </animation/constraints/relationship/child_of>`.

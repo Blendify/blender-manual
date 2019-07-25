@@ -102,6 +102,7 @@ Projection Depth
             Draws aligned to the viewport.
 
 
+.. _bpy.ops.curve.spline_weight_set:
 .. _modeling-curve-weight:
 
 Set Goal Weight
@@ -117,6 +118,8 @@ Sets the curve's :ref:`Weight <curves-weight>` for the selected control point to
 If more than one control point is selected this will set the *Mean Weight*.
 
 
+.. _bpy.ops.curve.vertex_add:
+
 Add Vertex
 ==========
 
@@ -124,7 +127,7 @@ Add Vertex
    :class: refbox
 
    :Mode:      Edit Mode
-   :Hotkey:    :kbd:`Ctrl-LMB`
+   :Hotkey:    :kbd:`Ctrl-RMB`
 
-Interactively places new points with :kbd:`Ctrl-LMB` at the cursor position.
+Interactively places new points with :kbd:`Ctrl-RMB` at the cursor position.
 With the selection it deals in same manner as the *Extrude Curve and Move* tool.
