@@ -30,15 +30,6 @@ There are also some tools to create primitives shapes like lines, arcs, curves, 
 
 See :doc:`Toolbar </grease_pencil/modes/draw/tools>` for more details.
 
-When drawing, the final appearance of the strokes is the result of the combination of the brush
-and material selected for the tool.
-
-.. TODO 2.8: Sample comparison between brushes and the same brushes with material applied.
-
-See :doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`
-and :doc:`Materials </grease_pencil/materials/introduction>`
-for more information about setting up drawing brushes and materials.
-
 
 Strokes Location and Orientation Controls
 =========================================

@@ -6,6 +6,8 @@
 .. toctree::
    :maxdepth: 2
 
+   introduction.rst
+
    draw.rst
    fill.rst
    erase.rst
@@ -16,6 +18,8 @@
    box.rst
    circle.rst
 
+
+.. _grease-pencil-draw-brushes:
 
 Brushes
 =======

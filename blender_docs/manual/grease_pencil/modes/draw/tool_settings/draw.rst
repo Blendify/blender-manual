@@ -20,52 +20,16 @@ Selecting a Brush and Material
 ------------------------------
 
 In the Topbar select the brush and material to use with the tool.
-
-Brush
-   The :ref:`ui-data-block` to select a preset brush type or a custom brush.
-   Draw tool uses *Draw Brushes* types.
-
-Material
-   Data-block selector for the material.
-
-   Pin Material (pin icon)
-      Pin the material to the brush.
-
-      The final appearance of the strokes is a combination of a brush and a material used,
-      stick the material to the brush gives more control and avoid lack of coordination between the two.
-
-
-For more information about brushes and materials see:
-:doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`
-and :doc:`Material </grease_pencil/materials/introduction>`.
+The Draw tool uses *Draw Brush* types.
+See :ref:`grease-pencil-draw-common-options` for more information.
 
 
 Common Brush Options
 --------------------
 
 You can also configure the brush main settings exposed on the Topbar for convenience.
-For complete draw brushes configuration and settings see:
+For the draw brushes configuration and settings see:
 :doc:`Draw Brush </grease_pencil/modes/draw/tool_settings/brushes/draw_brush>`.
-
-Radius
-   The radius of the brush in pixels.
-
-   :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen.
-   Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
-
-      Use Pressure (pressure sensitivity icon)
-         Uses stylus pressure to control how strong the effect is.
-
-Strength
-   Control the stroke transparency (alpha).
-   From totally transparent (0.0) to fully opaque (1.0).
-
-   You can change the brush strength interactively by pressing :kbd:`Shift-F`
-   in the 3D View and then moving the mouse/pen and then :kbd:`LMB`.
-   You can enter the size numerically also while in :kbd:`Shift-F` sizing.
-
-      Use Pressure (pressure sensitivity icon)
-         Uses stylus pressure to control how strong the effect is.
 
 
 Free-hand Drawing
