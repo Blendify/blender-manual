@@ -48,7 +48,8 @@ The radius will be interpolated from point to point (you can check it with the n
 The *Radius* of the points is set using the *Radius* transform tool. Or in the Sidebar *Transform* panel.
 
 .. figure:: /images/modeling_curves_properties_introduction_extrude-radius.png
-   :width: 320px
+   :align: center
+   :width: 50%
 
    One control point radius set to zero.
 
