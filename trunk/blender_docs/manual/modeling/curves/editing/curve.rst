@@ -194,15 +194,7 @@ Set Spline Type
    :Mode:      Edit Mode
    :Menu:     :menuselection:`Curve --> Set Spline type`
 
-.. figure:: /images/modeling_curves_editing_introduction_set-spline-type.png
-   :align: right
-
-   Set Spline Type button.
-
-You can convert splines in a curve object between Bézier, NURBS, and Poly curves.
-Press :kbd:`T` to bring up the Tool Shelf. Clicking on the *Set Spline Type*
-button will allow you to select the Spline type (Poly, Bézier or NURBS).
-
+*Set Spline Type* converts splines in a curve object between Bézier, NURBS, and Poly curves.
 Note, this is not a "smart" conversion, i.e. Blender does not try to keep the same shape,
 nor the same number of control points. For example, when converting a NURBS to a Bézier,
 each group of three NURBS control points become a unique Bézier one (center point and two handles).
