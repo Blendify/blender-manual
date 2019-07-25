@@ -3,6 +3,7 @@
 Segments
 ********
 
+.. _bpy.ops.curve.subdivide:
 .. _modeling-curves-subdivision:
 
 Subdivide
@@ -12,7 +13,6 @@ Subdivide
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Modeling: Subdivide`
    :Menu:      :menuselection:`Curve --> Segments --> Subdivide`
 
 Curve subdivision simply subdivides all selected segments by adding one or
@@ -22,6 +22,7 @@ Number of Cuts
    The number of subdivisions to perform.
 
 
+.. _bpy.ops.curve.switch_direction:
 .. _curve-switch-direction:
 
 Switch Direction
@@ -31,9 +32,7 @@ Switch Direction
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Switch Direction`
    :Menu:      :menuselection:`Curve --> Segments --> Switch Direction`,
-               :menuselection:`Specials --> Switch Direction`
 
 This tool will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).

@@ -39,8 +39,7 @@ Radius
    :class: refbox
 
    :Mode:      Edit Mode
-   :Tool:      :menuselection:`Tool Shelf --> Radius`
-   :Panel:     :menuselection:`Sidebar --> Transform --> Radius`
+   :Tool:      :menuselection:`Toolbar --> Radius`
    :Menu:      :menuselection:`Curve --> Transform --> Radius`
    :Hotkey:    :kbd:`Alt-S`
 
@@ -85,11 +84,21 @@ except for within itself (other components of the active curve).
 Snapping works with 2D curves but points will be constrained to the local XY axes.
 
 
+.. _bpy.ops.curve.spin:
+
 Spin
 ====
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Spin`
+
 TODO.
 
+
+.. _bpy.ops.curve.duplicate_move:
 
 Add Duplicate
 =============
@@ -98,7 +107,6 @@ Add Duplicate
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Duplicate`
    :Menu:      :menuselection:`Curve --> Add Duplicate`
    :Hotkey:    :kbd:`Shift-D`
 
@@ -108,11 +116,22 @@ If only a handle is selected, the full point will be duplicated too.
 The copy is selected and placed in select mode, so you can move it to another place.
 
 
+.. _bpy.ops.curve.split:
+
 Split
 =====
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Split`
+   :Hotkey:    :kbd:`Y`
+
 TODO.
 
+
+.. _bpy.ops.curve.separate:
 
 Separate
 ========
@@ -130,6 +149,7 @@ Note, if there is only one curve in a Curve object,
 *Separate* will create a new Curve object with no control points.
 
 
+.. _bpy.ops.curve.cyclic_toggle:
 .. _modeling-curves-toggle-cyclic:
 
 Toggle Cyclic
@@ -139,7 +159,6 @@ Toggle Cyclic
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Toggle Cyclic`
    :Menu:      :menuselection:`Curve --> Toggle Cyclic`
    :Hotkey:    :kbd:`Alt-C`
 
@@ -163,6 +182,7 @@ Remember that when a 2D curve is closed, it creates a renderable flat face.
    Open and Closed curves.
 
 
+.. _bpy.ops.curve.spline_type_set:
 .. _curve-convert-type:
 
 Set Spline Type
@@ -172,7 +192,7 @@ Set Spline Type
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Set Spline type`
+   :Menu:     :menuselection:`Curve --> Set Spline type`
 
 .. figure:: /images/modeling_curves_editing_introduction_set-spline-type.png
    :align: right
@@ -192,10 +212,19 @@ each group of three NURBS control points become a unique Bézier one (center poi
    :ref:`object-convert-to`/from Mesh.
 
 
+.. _bpy.ops.curve.reveal:
+.. _bpy.ops.curve.hide:
 .. _curves-show-hide:
 
 Show/Hide
 =========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Show/Hide`
+   :Hotkey:    :kbd:`Alt-H`, :kbd:`H`, :kbd:`Shift-H`
 
 When in *Edit Mode*, you can hide and reveal elements from the display.
 You can only show or hide control points, as segments are always shown,
@@ -209,11 +238,22 @@ See also the :doc:`/modeling/curves/curve_display` panel.
 Cleanup
 =======
 
+.. _bpy.ops.curve.decimate:
+
 Decimate Curve
 --------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Clean Up --> Decimate Curve`
+
 TODO.
 
+
+.. _bpy.ops.curve.delete:
+.. _bpy.ops.curve.dissolve_verts:
 
 Delete
 ======
@@ -222,7 +262,6 @@ Delete
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tool Shelf --> Tools --> Curve Tools --> Curves: Delete`
    :Menu:      :menuselection:`Curve --> Delete...`
    :Hotkey:    :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
 
