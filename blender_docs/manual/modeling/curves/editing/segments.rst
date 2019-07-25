@@ -32,7 +32,7 @@ Switch Direction
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Curve --> Segments --> Switch Direction`,
+   :Menu:      :menuselection:`Curve --> Segments --> Switch Direction`
 
 This tool will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).

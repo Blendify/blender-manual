@@ -19,7 +19,7 @@ Draw Mode
    3D View Mode selector: Draw Mode.
 
 Draw Mode is selected with the *Mode* menu in the 3D Viewport header.
-Once Draw Mode is activated, the Tool Shelf of the 3D Viewport will change to Draw Mode specific panels.
+Once Draw Mode is activated, the Toolbar of the 3D Viewport will change to Draw Mode specific panels.
 Also a circle with the same color as the active material will appear and
 follow the location of the cursor in the 3D View.
 
