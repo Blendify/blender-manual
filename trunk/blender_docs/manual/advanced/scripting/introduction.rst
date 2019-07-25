@@ -60,8 +60,9 @@ to start learning how to write scripts for Blender:
 - `CG Cookie: Blender 2.8 Python Scripting Superpowers for Non-Programmers
   <https://cgcookie.com/articles/blender-2-8-python-scripting-superpowers-for-non-programmers>`__
 - `Olav3D Tutorials: 3D Programming for Beginners Using Python
-   <https://www.youtube.com/watch?v=rHzf3Dku_cE`__
+  <https://www.youtube.com/watch?v=rHzf3Dku_cE>`__
 - `Blender Artists: Python Support Forum <https://blenderartists.org/c/coding/python-support>`__
+
 
 Extending Blender
 =================

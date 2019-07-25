@@ -60,6 +60,8 @@ Show Header
    Toggles the visibility of the header.
    If a header is hidden it can be made visible again by dragging
    the small arrow that appears towards the top/bottom right of the editor.
+Show Tool Settings
+   Toggles the visibility of the `Tool Settings`_.
 Show Menus
    Toggles where the :ref:`Menus <ui-header-menu>` are collapsed or not.
 Flip to Bottom/Top
