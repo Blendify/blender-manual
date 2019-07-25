@@ -42,7 +42,7 @@ Properties
 Tools can have their own settings, these are available multiple place:
 
 - The :menuselection:`Sidebar --> Tools --> Active Tool` panel.
-- The *Active Tool* tab in the properties space.
+- The *Active Tool* tab in the Properties editor.
 - The *Tool Settings* region.
 
 
