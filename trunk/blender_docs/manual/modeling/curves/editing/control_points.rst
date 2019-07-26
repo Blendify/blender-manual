@@ -176,7 +176,8 @@ Smooth Curve Tilt
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Tilt`
 
-Todo.
+The *Smooth Curve Tilt* operator interpolates the *Tilt* value for the selected control points.
+This will reduce sharp changes in the curve's *Tilt* and give a smooth transition between points.
 
 
 .. _bpy.ops.curve.smooth_radius:
@@ -190,7 +191,9 @@ Smooth Curve Radius
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Radius`
 
-Todo.
+The *Smooth Curve Radius* operator interpolates the *Radius* value for the selected control points.
+This will reduce sharp changes in the curve's *Radius* and give a smooth transition between points.
+
 
 
 .. _bpy.ops.curve.smooth_weight:
@@ -204,7 +207,8 @@ Smooth Curve Weight
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth Curve Weight`
 
-Todo.
+The *Smooth Curve Weight* operator interpolates the *Weight* value for the selected control points.
+This will reduce sharp changes in the curve's *Weight* and give a smooth transition between points.
 
 
 Hooks
