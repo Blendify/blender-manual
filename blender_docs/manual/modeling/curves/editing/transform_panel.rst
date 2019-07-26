@@ -27,13 +27,16 @@ Space
 .. _curves-weight:
 
 Weight
-   This sets the "goal weight" of selected control points,
+   Controls the "goal weight" of selected control points,
    which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
    forcing the curve to "stick" to their original positions, based on the weight.
    The precise value can be adjusted in the :ref:`ui-undo-redo-adjust-last-operation` Panel.
    To adjust the *Mean Weight* (average) of selected control points use
    :menuselection:`Sidebar region --> Transform --> Mean Weight`.
 Radius
-   TODO.
+   Controls the width of the extrusion/bevel along the "spinal" curve.
+   The radius will be interpolated from point to point (you can check it with the normals).
 Tilt
-   TODO.
+   Controls how the normals (visualized as arrows)
+   twist around each control point -- so it is only relevant with 3D curves!
+   The tilt will be interpolated from point to point (you can check it with the normals).
