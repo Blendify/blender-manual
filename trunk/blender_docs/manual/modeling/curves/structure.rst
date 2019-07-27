@@ -3,6 +3,10 @@
 Structure
 *********
 
+Control Points
+==============
+
+
 Splines
 =======
 
@@ -15,7 +19,16 @@ Spline Types
 Poly
 ----
 
-Todo.
+Poly splines are the most simple spline type as they do not
+interpolate the shape of the curve between control points.
+
+Poly Curves are used when :doc:`converting meshes to curves <bpy.ops.object.convert>`.
+Because they do not interpolate the shape,
+Poly splines are able to give an accurate representation of the original mesh object.
+
+This is the primary use case of splines, most of the time `Bézier`_ or `NURBS`_
+splines are used instead; both of which interpolate the shape and give smooth results.
+
 
 .. _curve-bezier:
 
@@ -72,7 +85,7 @@ Free (black handles)
 .. _curve-nurbs:
 
 NURBS
-=====
+-----
 
 N.U.R.B.S. is the abbreviation of Non-Uniform Rational B-Splines.
 One of the major differences between Bézier objects and NURBS objects is that Bézier curves
