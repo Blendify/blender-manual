@@ -19,6 +19,7 @@ The arrows visualize the normals of the curve, which indicate i.e.
 the direction and the tilt.
 
 .. figure:: /images/modeling_curves_structure_control-points-handles.png
+   :align: center
 
    Bézier Curve in Edit Mode.
 
