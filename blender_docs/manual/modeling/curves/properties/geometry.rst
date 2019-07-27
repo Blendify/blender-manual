@@ -12,7 +12,7 @@ Offset
    Moves the extrusion parallel to the curve normals.
 
    .. figure:: /images/modeling_curves_properties_geometry_extrude-offset.png
-      :width: 320px
+      :width: 50%
 
       Bézier Circle -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 

@@ -6,6 +6,11 @@ Path Animation
 
 The *Path Animation* settings can be used to determine how child objects move along a certain path.
 
+.. note::
+
+   This feature is deprecated, but still available.
+   A more future-proof method is the :doc:`/animation/constraints/relationship/follow_path`.
+
 .. figure:: /images/modeling_curves_properties_data_path-animation-panel.png
    :align: center
 
