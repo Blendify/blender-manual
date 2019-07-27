@@ -44,6 +44,10 @@ Twist Method
 
              Curves with a twist of Tangent.
 
+Smooth
+   Interactively removes twists from the curve. This is useful if a curve has noticeable "kinks"
+   from over twisting; which can be possible when converting meshes to curves.
+
 Fill Mode
    Fill determines the way a curve is displayed when it is beveled (see below for details on Beveling).
    When set to *Half* (the default) the curve is displayed as half a cylinder.
