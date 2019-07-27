@@ -1,3 +1,4 @@
+.. |gizmo-icon| image:: /images/scene-layout_object_editing_transform_control_gizmos_header.png
 
 *********************
 Transformation Gizmos
@@ -7,10 +8,7 @@ Transformation Gizmos
    :class: refbox
 
    :Mode:      Object and Edit Modes
-   :Tool:      :menuselection:`Toolbar --> Move, Rotate, Scale, Transform`
-
-.. figure:: /images/scene-layout_object_editing_transform_control_gizmos_header.png
-   :align: right
+   :Header:    |gizmo-icon| :menuselection:`Viewport Gizmos --> Object Gizmos`
 
 The Transformation gizmo allow mouse controlled translation, rotation and scaling in the 3D View.
 There is a separate gizmos for each operation.
