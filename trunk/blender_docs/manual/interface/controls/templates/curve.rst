@@ -49,27 +49,50 @@ Specials ``v``
 
    Reset View
       Resets the view of the curve.
-   Vector Handle
-      Vector type of curve point's handle.
-      Breaks the tangent at the curve handle, making it an angle.
-   Auto Handle
-      Automatic type of curve point's handle.
-   Auto Clamped Handle
-      Todo <2.79.
-   Extend Horizontal
-      Causes the curve to stay horizontal before the first point and after the last point.
 
-      .. figure:: /images/interface_controls_templates_curve_extend-horizontal.png
+   Handle Options
+      Controls how the control points affect the curve shape.
 
-         Extend Horizontal.
+      Vector Handle
+         Vector handles create straight lines;
+         breaking the tangent at the curve handle, making it an angle.
+      Auto Handle
+         Automatic handles that create smooth curves.
+      Auto Clamped Handle
+         Automatic handles that create smooth curves, which prevents overshoot.
 
-   Extend Extrapolated
-      Causes the curve to extrapolate before the first point and after the last point,
-      based on the shape of the curve.
+      .. list-table::
 
-      .. figure:: /images/interface_controls_templates_curve_extend-extrapolate.png
+         * - .. figure:: /images/interface_controls_templates_curve_handle-vector.png
 
-         Extend Extrapolated.
+                Vector Handles.
+
+           - .. figure:: /images/interface_controls_templates_curve_handle-auto.png
+
+                Auto Handles.
+
+           - .. figure:: /images/interface_controls_templates_curve_handle-auto-clamped.png
+
+                Auto Clamped Handles.
+
+   Extend Options
+      Controls how the curve is extended before the first control point and after the last control point.
+
+      Extend Horizontal
+         Causes the curve to stay horizontal before the first point and after the last point.
+      Extend Extrapolated
+         Causes the curve to extrapolate before the first point and after the last point,
+         based on the shape of the curve.
+
+      .. list-table::
+
+         * - .. figure:: /images/interface_controls_templates_curve_extend-horizontal.png
+
+                Extend Horizontal.
+
+           - .. figure:: /images/interface_controls_templates_curve_extend-extrapolate.png
+
+                Extend Extrapolated.
 
    Reset Curve
       Resets the curve in default (removes all points added to the curve).
