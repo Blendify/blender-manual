@@ -42,9 +42,9 @@ Smooth
 Poly
 ====
 
-.. figure:: /images/modeling_curves_properties_data_active-spline-panel-curves.png
+.. figure:: /images/modeling_curves_properties_data_active-spline-panel-poly.png
 
-   Active Spline: Poly Spline.
+   Active Spline panel: Poly Spline.
 
 Cyclic U
    See :ref:`Common Options <spline-common-options>`.
@@ -58,9 +58,10 @@ Smooth
 Bézier
 ======
 
-.. figure:: /images/modeling_curves_properties_data_active-spline-panel-curves.png
+.. figure:: /images/modeling_curves_properties_data_active-spline-panel-bezier.png
+   :align: center
 
-   Active Spline: Bézier Spline.
+   Active Spline panel: Bézier Spline.
 
 Cyclic U
    See :ref:`Common Options <spline-common-options>`.

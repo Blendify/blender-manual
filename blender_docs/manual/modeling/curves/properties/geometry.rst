@@ -4,8 +4,9 @@ Geometry
 ********
 
 .. figure:: /images/modeling_curves_properties_geometry_panel.png
+   :align: center
 
-   Curves Geometry panel.
+   Geometry panel.
 
 
 Offset
