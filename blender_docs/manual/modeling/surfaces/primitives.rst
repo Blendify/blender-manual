@@ -1,3 +1,4 @@
+.. _bpy.ops.surface.primitive*add:
 
 **********
 Primitives
@@ -7,31 +8,63 @@ Primitives
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Create --> Add Primitive/Surface`
-   :Menu:      :menuselection:`Add --> Surface`
+   :Menu:      :menuselection:`Add --> Curve`
    :Hotkey:    :kbd:`Shift-A`
 
-To help get started in creating surfaces there are four preset :term:`NURBS` surfaces,
-found in the :menuselection:`Add --> Surface --> NURBS Surface`, :menuselection:`NURBS Tube`,
-:menuselection:`NURBS Sphere` and :menuselection:`NURBS Torus`.
+.. seealso::
 
-.. figure:: /images/modeling_surfaces_primitives_surface.png
+   When adding curves there are some common options like other :ref:`Objects <object-common-options>`.
 
-   NURBS surface primitives.
+In Object/Edit Mode, the *Add Surface* menu, provides six different surface primitives:
+
+.. list-table::
+
+   * - .. figure:: /images/modeling_surfaces_primitives_surface.png
+
+          NURBS surface primitives.
+
+     - .. figure:: /images/modeling_surfaces_primitives_curve.png
+
+          NURBS curve primitives.
 
 
-There are also two preset NURBS surface curves (with only one control point on each V row):
-*NURBS Curve* and *NURBS Circle*.
+NURBS Curve
+===========
 
-.. figure:: /images/modeling_surfaces_primitives_curve.png
+*NURBS Curve* only have one control point on each V row.
 
-   NURBS curve primitives.
+TODO.
+
+
+NURBS Circle
+============
+
+*NURBS Circle* only have one control point on each V row.
+
+TODO.
 
 Note how a circle :term:`NURBS` surface is never filled, unlike its "real" curve counterpart...
 
 
-Common Options
+NURBS Surface
+=============
+
+TODO.
+
+
+NURBS Cylinder
 ==============
 
-Radius, Align to View, Location, Rotation
-   See :ref:`Common Object Options <object-common-options>`.
+TODO.
+
+
+NURBS Sphere
+============
+
+TODO.
+
+
+NURBS Torus
+===========
+
+TODO.
