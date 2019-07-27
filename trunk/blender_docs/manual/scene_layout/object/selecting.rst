@@ -17,7 +17,7 @@ Blender distinguishes between two different states of selection:
 
 .. figure:: /images/scene-layout_object_selecting_color.png
 
-   Unselected object in black, selected object in orange, and active object in yellow.
+   Active object in yellow, selected object in orange, and unselected object in black.
 
 In *Object Mode* the last (de)selected item is called the "Active Object"
 and is outlined in yellow (the others are orange).
