@@ -15,7 +15,7 @@ Primitives
 
    When adding curves there are some common options like other :ref:`Objects <object-common-options>`.
 
-In Object Mode, the *Add Curve* menu, provides five different curve primitives:
+In Object/Edit Mode, the *Add Curve* menu, provides five different curve primitives:
 
 
 Bézier Curve
