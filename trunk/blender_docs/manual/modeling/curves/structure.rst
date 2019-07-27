@@ -3,10 +3,24 @@
 Structure
 *********
 
+Splines
+=======
+
+Todo.
+
+
+Spline Types
+============
+
+Poly
+----
+
+Todo.
+
 .. _curve-bezier:
 
-Bézier Curves
-=============
+Bézier
+------
 
 The main elements used in editing Bézier curves are the control points and handles.
 A segment (the actual curve) is found between two control points.
@@ -27,7 +41,7 @@ the direction and the tilt.
 .. _curve-bezier-handle-type:
 
 Handle Types
-------------
+^^^^^^^^^^^^
 
 There are four Bézier curve handle types.
 They can be accessed by pressing :kbd:`V` and selecting from the list that appears,
