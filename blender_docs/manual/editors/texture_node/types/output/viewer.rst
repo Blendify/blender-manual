@@ -21,7 +21,7 @@ Color
 Properties
 ==========
 
-This node has no inputs.
+This node has no properties.
 
 
 Outputs
