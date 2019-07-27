@@ -10,12 +10,7 @@
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Header:    :menuselection:`Pivot Point`
-
-.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_index_modes.png
-   :align: right
-
-   Pivot Point modes.
+   :Header:    |pivot-icon| :menuselection:`Pivot Point`
 
 When rotating or scaling an object or group of vertices/edges/faces,
 you may want to shift the :term:`pivot point` to make it easier to manipulate an object.
@@ -42,10 +37,11 @@ Only Origins
    :class: refbox
 
    :Mode:      Object Mode and Pose Mode
+   :Header:    :menuselection:`Pivot Point --> Only Origins`
 
-|pivot-icon|
+.. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_popover.png
 
-*Only Origins* is located inside the Pivot Point control of the 3D View.
+*Only Origins* is located inside the Pivot Point popover of the 3D View.
 When this option is enabled, the transformation will change the positions
 of the object's origins, but will not affect the object itself.
 
