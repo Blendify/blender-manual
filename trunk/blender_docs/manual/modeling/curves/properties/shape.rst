@@ -4,8 +4,9 @@ Shape
 *****
 
 .. figure:: /images/modeling_curves_properties_data_curves-shape-panel.png
+   :align: center
 
-   Curves Shape panel.
+   Shape panel.
 
 Dimensions
    By default, new curves are set to be 3D, which means that control points can be placed anywhere in 3D space.
