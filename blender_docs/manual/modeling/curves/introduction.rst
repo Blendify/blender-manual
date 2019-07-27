@@ -12,6 +12,7 @@ Both Bézier curves and NURBS curves and surfaces are defined in terms of a set 
 (or "control vertices") which define a "control polygon".
 
 .. figure:: /images/modeling_curves_introduction_logo.png
+   :align: center
 
    Blender logo made from Bézier curves.
 
