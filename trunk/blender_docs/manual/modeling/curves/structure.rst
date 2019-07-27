@@ -3,14 +3,32 @@
 Structure
 *********
 
-Control Points
-==============
-
-
 Splines
 =======
 
-Todo.
+Splines are a substructure of curves and are the individual elements that make curve objects.
+A curve object can be composed of several different splines,
+just like mesh objects can have different discontinuous meshes under the same object.
+A spline defines the shape of the curve and can be transformed by alerting its `Control Points`_.
+Splines come in three distinct types, which are described in `Spline Types`_.
+Each spline type has a slightly different algorithm for computing how bends in the spline are represented.
+
+Splines have there own separate properties than curves and can be altered
+by selecting the spline in Edit Mode and using the
+:doc:`Active Spline </modeling/curves/properties/active_spline>` panel.
+
+
+Control Points
+--------------
+
+Similar to meshes splines have control points or vertices.
+Control points connect to other control points to form splines.
+Control points can be :doc:`selected </modeling/curves/selecting>`
+and transformed to alter the resulting shape of the spline.
+
+.. seealso::
+
+   :doc:`Curve Editing </modeling/curves/editing/index>`
 
 
 Spline Types
@@ -22,7 +40,7 @@ Poly
 Poly splines are the most simple spline type as they do not
 interpolate the shape of the curve between control points.
 
-Poly Curves are used when :doc:`converting meshes to curves <bpy.ops.object.convert>`.
+Poly Curves are used when :ref:`converting meshes to curves <bpy.ops.object.convert>`.
 Because they do not interpolate the shape,
 Poly splines are able to give an accurate representation of the original mesh object.
 
