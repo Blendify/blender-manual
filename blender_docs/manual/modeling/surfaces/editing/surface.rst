@@ -1,6 +1,6 @@
 
 *******
-Editing
+Surface
 *******
 
 Surface editing has even fewer tools and options than its curve counterpart,
@@ -59,85 +59,6 @@ You set it either using the big *Set Weight* button in the *Curve Tools* panel
 or by directly typing a value in the :kbd:`W` number field of the *Transform* panel.
 
 
-Adding or Extruding
-===================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Extrude`
-   :Menu:      :menuselection:`Surface --> Extrude`
-   :Hotkey:    :kbd:`E`, :kbd:`Ctrl-LMB`
-
-Unlike meshes or curves, you cannot generally directly add new control points to a surface
-(with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U or V row at once.
-The only exception is when working on a NURBS surface curve, i.e.
-a surface with only one control point on each U or V row. In this special case,
-all works exactly as with :ref:`curves <modeling-curves-extrude>`.
-
-Most of the time, only extrusion is available. As usual, once the tool is activated
-the extrusion happens immediately and you are placed into *select mode*,
-ready to drag the new extruded surface to its destination.
-
-There are two things very important to understand:
-
-#. Surfaces are *2D* objects. So you cannot extrude anything *inside* a surface
-   (e.g. "inner" row); it would not make any sense!
-#. The control "grid" *must* remain "squarish",
-   which means that you can only extrude a whole row, not parts of rows here and there...
-
-To summarize, the *Extrude* tool will only work, when one and only one whole border
-row is selected, otherwise nothing happens.
-
-As for curves, you cannot create a new surface in your object out of nowhere,
-by just :kbd:`Ctrl-LMB` -- clicking with nothing selected.
-However, unlike for curves, there is no "cut" option allowing you to separate a surface into several parts,
-so you only can create a new surface by copying (`Duplication`_) an existing one
-:kbd:`Shift-D`, or adding a new one with the *Add* menu.
-
-
-Examples
---------
-
-Images Fig. :ref:`fig-surface-edit-select-point` to Fig. :ref:`fig-surface-edit-extruding`
-show a typical extrusion along the side of a surface.
-
-In Fig. :ref:`fig-surface-edit-select-point` and :ref:`fig-surface-edit-select-row`,
-a border row of control points were highlighted by selecting a single control point,
-and then using the handy row select tool :kbd:`Shift-R`
-to select the rest of the control points.
-
-.. list-table::
-
-   * - .. _fig-surface-edit-select-point:
-
-       .. figure:: /images/modeling_surfaces_editing_selecting-point.png
-
-          Selecting control point.
-
-     - .. _fig-surface-edit-select-row:
-
-       .. figure:: /images/modeling_surfaces_editing_selecting-row.png
-
-          :kbd:`Shift-R`
-
-The edge is then extruded using :kbd:`E` as shown in Fig. :ref:`fig-surface-edit-extruding`.
-Notice how the mesh has bunched up next to the highlighted edge.
-That is because the *new* extruded surface section is bunched up there as well.
-
-.. _fig-surface-edit-extruding:
-
-.. figure:: /images/modeling_surfaces_editing_extruding.png
-
-   Extruding.
-
-By moving the new section away from the area, the surface begins to "unbunch".
-
-You can continue this process of extruding or adding new surface sections
-until you have reached the final shape for your model.
-
-
 Opening or Closing a Surface
 ============================
 
@@ -161,8 +82,10 @@ The corresponding surface's outer edges will join together to form a "closed" su
 
    Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded.
    When you close a surface in one or two directions, you might get an entirely black object! In this case,
-   just `Switch Direction`_ of your surface...
+   just :ref:`Switch Direction <modeling_surfaces_editing_segments_switch-direction>` of the surface.
 
+
+.. _modeling_surface_editing_duplicating:
 
 Duplication
 ===========
@@ -299,26 +222,6 @@ Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curv
           Joining complete.
 
 
-Subdivision
-===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Subdivide`
-   :Menu:      :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
-
-Surface subdivision is most simple:
-using either the *Subdivide* entry in the *Specials* menu
-:kbd:`W`, or the *Subdivide* button of the *Curve Tools1* panel,
-you will subdivide once all *completely* selected grids by subdividing each "quad" into four
-smaller ones.
-
-If you apply it to a 1D surface (a "surface curve"),
-this tool works exactly as with :ref:`curves <modeling-curves-subdivision>`.
-
-
 .. _bpy.ops.curve.spin:
 
 Spin
@@ -339,57 +242,3 @@ so-called "surface curves", by "extruding" this "cross section" in a square patt
 automatically adjusting the weights of control points to get a perfect circular extrusion
 (this also implies closing the surface along the V axis), following exactly the same principle
 as for the *NURBS Tube* or *NURBS Donut* primitives.
-
-
-Switch Direction
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Switch Direction`
-   :Menu:      :menuselection:`Surface --> Segments --> Switch Direction`,
-               :menuselection:`Specials --> Switch Direction`
-
-This tool will "reverse" the direction of any curve with at least one selected element
-(i.e. the start point will become the end one, and *vice versa*).
-Mainly useful when using a curve as path, or the bevel and taper options...
-
-
-Other Specials Options
-======================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Menu:      Specials
-   :Hotkey:    :kbd:`W`
-
-The *Specials* menu contains exactly the same additional options as for
-curves, except for *Set Radius* and *Smooth Radius*.
-
-
-Conversion
-----------
-
-As there are only NURBS surfaces, there is no "internal" conversion here.
-
-However, there is an "external" conversion available, from surface to mesh,
-that only works in *Object Mode*.
-It transforms a *Surface* object into a *Mesh* one,
-using the surface resolutions in both directions to create faces, edges and vertices.
-
-
-Misc Editing
-------------
-
-You have some of the same options as with meshes, or in *Object Mode*.
-You can :ref:`separate <object-separate>` a given surface :kbd:`P`,
-make other selected objects :ref:`children <object-parenting>`
-of one or three control points :kbd:`Ctrl-P`,
-or :doc:`add hooks </modeling/modifiers/deform/hooks>` to control some points with other objects.
-
-The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh objects </modeling/meshes/editing/transform/mirror>`.
