@@ -188,15 +188,15 @@ if "%1" == "update_po" (
 	REM Check if locale exists
 	:CHECK_LOCALE
 	IF NOT EXIST %cd%/locale GOTO MISSING_LOCALE
-	cd locale
 
 	REM Update the locale dir:
+	cd locale
 	svn cleanup .
 	svn up .
 	cd ../
 
+	REM Remove POT files:
 	IF EXIST %BUILDDIR%/locale (
-		REM Remove POT files:
 		RMDIR /s /q %BUILDDIR%\locale
 	)
 
