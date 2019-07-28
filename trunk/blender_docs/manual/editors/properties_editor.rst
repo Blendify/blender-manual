@@ -69,13 +69,13 @@ but its icon will change based of the actual type of the active object.
 
 - :doc:`Mesh </modeling/meshes/properties/object_data>`
 - :doc:`Curve </modeling/curves/properties/index>`
-- :doc:`Surface </modeling/surfaces/properties>`
+- :doc:`Surface </modeling/surfaces/properties/index>`
 - :doc:`Text </modeling/texts/properties>`
 - :doc:`Metaball </modeling/metas/properties>`
 - :doc:`Grease Pencil </grease_pencil/properties/index>`
 
 
-.. rubric::  Rigging and Deformation Objects:
+.. rubric:: Rigging and Deformation Objects:
 
 - :doc:`Armature </animation/armatures/properties/index>`
 
@@ -85,7 +85,7 @@ but its icon will change based of the actual type of the active object.
 - :doc:`Lattice </animation/lattice>`
 
 
-.. rubric::  Other Types of Objects:
+.. rubric:: Other Types of Objects:
 
 - :doc:`Empty </modeling/empties>`
 - :doc:`Speaker </render/output/audio/speaker>`
