@@ -1,37 +1,10 @@
 
-**********
-Properties
-**********
-
-.. figure:: /images/modeling_surfaces_properties_nurbs.png
-
-   Surface Properties.
-
-The panels of the *Curve and Surface* tab are the same as for
-:doc:`curves </modeling/curves/introduction>`, just with fewer options...
-
-
-Shape
-=====
-
-.. figure:: /images/modeling_surfaces_properties_resolution-panel.png
-
-   Shape panel.
-
-You can adjust the resolution separately for both preview and render,
-to not slow things down in the viewport, but still get good render results.
-
-Preview
-   U, V
-Render
-   U, V
-
-
+*************
 Active Spline
-=============
+*************
 
 Closed and Open Surfaces
-------------------------
+========================
 
 Like curves, surfaces can be closed (cyclical) or open, independently in both directions,
 allowing you to easily create a tube, donut or sphere shape,
@@ -40,7 +13,7 @@ This makes working with surfaces quite easy.
 
 
 Bézier, Endpoint
-----------------
+================
 
 Just like :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
@@ -63,7 +36,7 @@ To cause the surface to extend to all edges you would set the V's axis to
 
 
 Order
------
+=====
 
 One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
@@ -87,7 +60,7 @@ and higher than 6 or the number of control points on the relevant axis.
 
 
 Resolution
-----------
+==========
 
 Just like :ref:`NURBS curves <curve-nurbs>`, *Resolution* controls the detail of the surface.
 The higher the *Resolution* the more detailed and smoother the surface is.
@@ -118,6 +91,6 @@ Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface res
 
 
 Smooth
-------
+======
 
 Use :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.

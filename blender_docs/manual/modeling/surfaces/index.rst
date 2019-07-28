@@ -14,4 +14,4 @@
    primitives.rst
    selecting.rst
    editing.rst
-   properties.rst
+   properties/index.rst
