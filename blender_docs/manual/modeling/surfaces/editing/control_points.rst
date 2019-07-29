@@ -90,3 +90,64 @@ By moving the new section away from the area, the surface begins to "unbunch".
 
 You can continue this process of extruding or adding new surface sections
 until you have reached the final shape for your model.
+
+
+Make Segment
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Make Segment`
+   :Hotkey:    :kbd:`F`
+
+Just like :ref:`curves <modeling-curves-make-segment>`,
+merging two surfaces requires that a single edge, a border row of control points,
+from two separate surfaces is selected. This means that the surfaces must be part of the same object. For example,
+you cannot join two surfaces while in *Object Mode* -- but you can of course, as with any objects of the same type,
+join two or more *Surface* objects
+into one object :kbd:`Ctrl-J` -- they just will not be "linked" or merged in a single one...
+Yes, it's a bit confusing!
+
+This tool is equivalent to creating edges or faces for meshes
+(hence its shortcut), and so it only works in *Edit Mode*.
+The selection must contain only border rows of the same resolution
+(with the same number of control points),
+else Blender will try to do its best to guess what to merge with what, or the merge will fail
+(either silently, or stating that ``Resolution does not match`` if rows with
+different number of points are selected, or that there is ``Too few selections to merge``
+if you only selected points in one surface...).
+To select control points of different surfaces,
+in the same object, you must use either box select or circle select.
+Holding down :kbd:`Ctrl` while :kbd:`LMB` will not work.
+
+So to avoid problems, you should always only select border rows with the same number of
+points... Note that you can join a border U row of one surface with a border V row of another
+one, Blender will automatically "invert" the axis of one surface for them to match correctly.
+
+NURBS surface curves are often used to create objects like hulls,
+as they define cross sections all along the object,
+and you just have to "skin" them as described above to get a nice, smooth and harmonious shape.
+
+
+Examples
+--------
+
+Fig. :ref:`fig-surface-edit-join-ready` is an example of two NURBS surface curves, **not** NURBS curves,
+in *Edit Mode*, ready to be joined.
+Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curves.
+
+.. list-table::
+
+   * - .. _fig-surface-edit-join-ready:
+
+       .. figure:: /images/modeling_surfaces_editing_joining-ready.png
+
+          Joining ready.
+
+     - .. _fig-surface-edit-join-complete:
+
+       .. figure:: /images/modeling_surfaces_editing_joining-complete.png
+
+          Joining complete.
