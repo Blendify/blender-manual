@@ -11,6 +11,7 @@ Shape
 .. _bpy.types.Curve.resolution_v:
 
 Resolution Preview U/V
+   Resolution to use in the 3D Viewport.
 Render U/V
    Just like :ref:`NURBS curves <curve-nurbs>`, *Resolution* controls the detail of the surface.
    The higher the *Resolution* the more detailed and smoother the surface is.
@@ -24,22 +25,19 @@ Render U/V
 
       * - .. figure:: /images/modeling_surfaces_properties_resolution-1x1-wire.png
 
-        - .. figure:: /images/modeling_surfaces_properties_resolution-3x3-wire.png
-
-      * - .. _fig-surface-intro-resolution1:
-
-          .. figure:: /images/modeling_surfaces_properties_resolution-1x1.png
-
              Resolution 1×1.
 
-        - .. _fig-surface-intro-resolution2:
-
-          .. figure:: /images/modeling_surfaces_properties_resolution-3x3.png
+        - .. figure:: /images/modeling_surfaces_properties_resolution-3x3-wire.png
 
              Resolution 3×3.
 
-   Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 1 for both U and V.
-   Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 3 for both U and V.
+      * - .. figure:: /images/modeling_surfaces_properties_resolution-1x1.png
+
+             Resolution of 1 for both U and V.
+
+        - .. figure:: /images/modeling_surfaces_properties_resolution-3x3.png
+
+             Resolution of 3 for both U and V.
 
 .. seealso::
 
