@@ -76,7 +76,6 @@ Spin
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Spin`
    :Menu:      :menuselection:`Surface --> Spin`
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
@@ -98,8 +97,7 @@ Add Duplicate
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Duplicate`
-   :Menu:      :menuselection:`Surface --> Duplicate`
+   :Menu:      :menuselection:`Surface --> Add Duplicate`
    :Hotkey:    :kbd:`Shift-D`
 
 Similar as with meshes and curves, this tool duplicates the selection.
@@ -129,7 +127,6 @@ Toggle Cyclic
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Toggle Cyclic`
    :Menu:      :menuselection:`Surface --> Toggle Cyclic`
    :Hotkey:    :kbd:`Alt-C`
 
@@ -138,7 +135,7 @@ surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
 
 To toggle the cyclic property of a surface along one axis,
-use :kbd:`Alt-C` and choose either *cyclic U* or *cyclic V* from the pop-up menu.
+use *Toggle Cyclic* and choose either *Cyclic U* or *Cyclic V* from the pop-up menu.
 The corresponding surface's outer edges will join together to form a "closed" surface.
 
 .. note:: Inner and Outer
@@ -155,8 +152,7 @@ Delete
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Delete`
-   :Menu:      :menuselection:`Surface --> Delete...`
+   :Menu:      :menuselection:`Surface --> Delete`
    :Hotkey:    :kbd:`X`, :kbd:`Delete`
 
 The *Erase* pop-up menu of surfaces offers you two options:

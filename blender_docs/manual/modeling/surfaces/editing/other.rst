@@ -3,17 +3,6 @@
 Other
 *****
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Menu:      Specials
-   :Hotkey:    :kbd:`W`
-
-The *Specials* menu contains exactly the same additional options as for
-curves, except for *Set Radius* and *Smooth Radius*.
-
-
 Conversion
 ==========
 

@@ -13,19 +13,18 @@ You set it either using the big *Set Weight* button in the *Curve Tools* panel
 or by directly typing a value in the :kbd:`W` number field of the *Transform* panel.
 
 
-Adding or Extruding
-===================
+Extrude Curve and Move
+======================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Extrude`
-   :Menu:      :menuselection:`Surface --> Extrude`
-   :Hotkey:    :kbd:`E`, :kbd:`Ctrl-LMB`
+   :Menu:      :menuselection:`Surface --> Extrude Curve and Move`
+   :Hotkey:    :kbd:`E`
 
-Unlike meshes or curves, you cannot generally directly add new control points to a surface
-(with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U or V row at once.
+Unlike meshes or curves, you cannot generally directly add new control points to a surface,
+as you can only extend a surface by adding a whole U or V row at once.
 The only exception is when working on a NURBS surface curve, i.e.
 a surface with only one control point on each U or V row. In this special case,
 all works exactly as with :ref:`curves <modeling-curves-extrude>`.
@@ -44,11 +43,12 @@ There are two things very important to understand:
 To summarize, the *Extrude* tool will only work, when one and only one whole border
 row is selected, otherwise nothing happens.
 
-As for curves, you cannot create a new surface in your object out of nowhere,
-by just :kbd:`Ctrl-LMB` -- clicking with nothing selected.
-However, unlike for curves, there is no "cut" option allowing you to separate a surface into several parts,
-so you only can create a new surface by :ref:`Duplicating <modeling_surface_editing_duplicating>`
-an existing one, or adding a new one with the *Add* menu.
+.. note::
+
+   As for curves, you cannot create a new surface in your object out of nowhere.
+   However, unlike for curves, there is no "cut" option allowing you to separate a surface into several parts,
+   so you only can create a new surface by :ref:`Duplicating <modeling_surface_editing_duplicating>`
+   an existing one, or adding a new one with the *Add* menu.
 
 
 Examples
@@ -59,8 +59,7 @@ show a typical extrusion along the side of a surface.
 
 In Fig. :ref:`fig-surface-edit-select-point` and :ref:`fig-surface-edit-select-row`,
 a border row of control points were highlighted by selecting a single control point,
-and then using the handy row select tool :kbd:`Shift-R`
-to select the rest of the control points.
+and then using :ref:`bpy.ops.curve.select_row` to select the rest of the control points.
 
 .. list-table::
 
@@ -74,9 +73,9 @@ to select the rest of the control points.
 
        .. figure:: /images/modeling_surfaces_editing_selecting-row.png
 
-          :kbd:`Shift-R`
+          Select Control Point Row.
 
-The edge is then extruded using :kbd:`E` as shown in Fig. :ref:`fig-surface-edit-extruding`.
+The edge is then extruded as shown in Fig. :ref:`fig-surface-edit-extruding`.
 Notice how the mesh has bunched up next to the highlighted edge.
 That is because the *new* extruded surface section is bunched up there as well.
 
@@ -104,23 +103,19 @@ Make Segment
 
 Just like :ref:`curves <modeling-curves-make-segment>`,
 merging two surfaces requires that a single edge, a border row of control points,
-from two separate surfaces is selected. This means that the surfaces must be part of the same object. For example,
-you cannot join two surfaces while in *Object Mode* -- but you can of course, as with any objects of the same type,
-join two or more *Surface* objects
-into one object :kbd:`Ctrl-J` -- they just will not be "linked" or merged in a single one...
-Yes, it's a bit confusing!
+from two separate surfaces is selected. This means that the surfaces must be part of the same object.
+For example, you cannot join two surfaces while in *Object Mode* -- but you can of course,
+as with any objects of the same type, :ref:`join <bpy.ops.object.join>`
+two or more *Surface* objects -- they just will not be "linked" or merged in a single one.
 
-This tool is equivalent to creating edges or faces for meshes
-(hence its shortcut), and so it only works in *Edit Mode*.
+This tool is equivalent to creating edges or faces for meshes (hence its shortcut).
 The selection must contain only border rows of the same resolution
 (with the same number of control points),
-else Blender will try to do its best to guess what to merge with what, or the merge will fail
-(either silently, or stating that ``Resolution does not match`` if rows with
-different number of points are selected, or that there is ``Too few selections to merge``
-if you only selected points in one surface...).
-To select control points of different surfaces,
-in the same object, you must use either box select or circle select.
-Holding down :kbd:`Ctrl` while :kbd:`LMB` will not work.
+else Blender will try to do its best to guess what to merge with what,
+or the merge will fail (either silently, or stating that ``Resolution does not match``
+if rows with different number of points are selected, or that there is ``Too few selections to merge``
+if you only selected points in one surface...). To select control points of different surfaces,
+in the same object, you must use either box select or circle select; :kbd:`Ctrl-LMB` will not work.
 
 So to avoid problems, you should always only select border rows with the same number of
 points... Note that you can join a border U row of one surface with a border V row of another
@@ -134,8 +129,8 @@ and you just have to "skin" them as described above to get a nice, smooth and ha
 Examples
 --------
 
-Fig. :ref:`fig-surface-edit-join-ready` is an example of two NURBS surface curves, **not** NURBS curves,
-in *Edit Mode*, ready to be joined.
+Fig. :ref:`fig-surface-edit-join-ready` is an example of two NURBS surface curves,
+**not** NURBS curves, in *Edit Mode*, ready to be joined.
 Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curves.
 
 .. list-table::
