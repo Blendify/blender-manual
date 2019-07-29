@@ -181,11 +181,11 @@ All
 Example
 -------
 
+In the image below (left), a row of control points has been selected by initially
+selecting the one control point and using :ref:`bpy.ops.curve.select_row` to select the remaining
+control points. Then, using `Delete`_ *Vertices*,
+the selected row of control points is erased, resulting in the image below (right).
+
 .. figure:: /images/modeling_surfaces_editing_deleting.png
 
    Before and after.
-
-In Fig. *Before and after (left)* a row of control points has been selected by initially
-selecting the one control point and using :kbd:`Shift-R` to select the remaining
-control points. Then, using the *Delete Menu* :kbd:`X`,
-the *selected* row of control points is erased, resulting in Fig. *Before and after (right)*.
