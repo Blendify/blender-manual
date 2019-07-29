@@ -3,9 +3,6 @@
 Other
 *****
 
-Other Specials Options
-======================
-
 .. admonition:: Reference
    :class: refbox
 
@@ -18,7 +15,7 @@ curves, except for *Set Radius* and *Smooth Radius*.
 
 
 Conversion
-----------
+==========
 
 As there are only NURBS surfaces, there is no "internal" conversion here.
 
@@ -29,7 +26,7 @@ using the surface resolutions in both directions to create faces, edges and vert
 
 
 Misc Editing
-------------
+============
 
 You have some of the same options as with meshes, or in *Object Mode*.
 You can :ref:`separate <object-separate>` a given surface :kbd:`P`,

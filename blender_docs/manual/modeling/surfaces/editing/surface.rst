@@ -9,44 +9,33 @@ So this page covers (or tries to cover) all the subjects,
 from the basics of surface editing to more advanced topics, like retopology.
 
 
-Translation, Rotation, Scale
-============================
+Transform
+=========
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Transform`
-   :Menu:      :menuselection:`Surface --> Transform --> Move, Rotate, Scale`
-   :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
+   :Menu:      :menuselection:`Surface --> Transform`
 
-Once you have a selection of one or more control points,
-you can move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
-as described in the :doc:`Manipulation in 3D Space </scene_layout/object/editing/transform/introduction>` section.
+A surface can be edited by transforming the locations of the control points
 
-You also have in *Edit Mode* an extra option when using these basic manipulations:
-the :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
+Move, Rotate, Scale
+   Like other elements in Blender, control points can be
+   moved, rotated, or scaled as described in
+   :doc:`Basic Transformations </scene_layout/object/editing/transform/introduction>`.
+To Sphere, Shear, Warp, Bend, Push/Pull, Warp, Randomize
+   These transform tools are described in
+   the :doc:`Transformations </modeling/meshes/editing/transform/index>` sections.
+Move/Scale Texture Space
+   Like other objects, surfaces have textures spaces which can be
+   :ref:`edited <properties-texture-space-editing>`.
 
 
 Transform Panel
 ---------------
 
 See :ref:`modeling-curves-transform-panel`.
-
-
-Advanced Transform Tools
-========================
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface Tools --> Deform: Randomize`
-   :Menu:      :menuselection:`Surface --> Transform`
-
-The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described
-in the :doc:`Mesh Transformation </modeling/meshes/editing/transform/index>` section.
-Surfaces have no specific transform tools.
 
 
 NURBS Control Points Settings
