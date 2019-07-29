@@ -59,38 +59,9 @@ it **cannot** be lower than 2,
 and higher than 6 or the number of control points on the relevant axis.
 
 
-Resolution
-==========
-
-Just like :ref:`NURBS curves <curve-nurbs>`, *Resolution* controls the detail of the surface.
-The higher the *Resolution* the more detailed and smoother the surface is.
-The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
-one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
-(the *Resolution* U and V fields, in the *Curve Tools* panel)...
-
-.. list-table::
-
-   * - .. figure:: /images/modeling_surfaces_properties_resolution-1x1-wire.png
-
-     - .. figure:: /images/modeling_surfaces_properties_resolution-3x3-wire.png
-
-   * - .. _fig-surface-intro-resolution1:
-
-       .. figure:: /images/modeling_surfaces_properties_resolution-1x1.png
-
-          Resolution 1×1.
-
-     - .. _fig-surface-intro-resolution2:
-
-       .. figure:: /images/modeling_surfaces_properties_resolution-3x3.png
-
-          Resolution 3×3.
-
-Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 1 for both U and V.
-Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 3 for both U and V.
-
-
+Resolution U/V
+   Alters the :ref:`resolution <bpy.types.Curve.resolution_v>`
+   of each segment by changing the number of subdivisions.
+   This can be set per interpolation axis.
 Smooth
-======
-
-Use :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>`.
+   Use :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>` for any 3D geometry.

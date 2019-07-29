@@ -12,6 +12,8 @@ Dimensions
    By default, new curves are set to be 3D, which means that control points can be placed anywhere in 3D space.
    Curves can also be set to 2D which constrain the control points to the curve's local XY axis.
 
+.. _bpy.types.Curve.resolution_u:
+
 Resolution Preview/Render U
    The *resolution* property defines the number of points that are computed between every pair of control points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.

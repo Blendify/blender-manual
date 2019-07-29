@@ -34,9 +34,10 @@ Cyclic U
              A NURBS curve with Cyclic applied.
 
 Resolution U
-   Alters the smoothness of each segment by changing the number of subdivisions.
+   Alters the :ref:`resolution <bpy.types.Curve.resolution_u>`
+   of each segment by changing the number of subdivisions.
 Smooth
-   Smooths the normals of the curve.
+   Use :ref:`Smooth Shading <modeling-meshes-editing-normals-shading>` for any 3D geometry.
 
 
 Poly
