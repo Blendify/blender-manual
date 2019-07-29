@@ -67,36 +67,32 @@ also works with control points, except for within itself (other components of th
 Snapping works with 2D surfaces but points will be constrained to the local XY axes.
 
 
-Opening or Closing a Surface
-============================
+.. _bpy.ops.curve.spin:
+
+Spin
+====
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Toggle Cyclic`
-   :Menu:      :menuselection:`Surface --> Toggle Cyclic`
-   :Hotkey:    :kbd:`Alt-C`
+   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Spin`
+   :Menu:      :menuselection:`Surface --> Spin`
 
-As in :ref:`curves <modeling-curves-toggle-cyclic>`,
-surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
-you can control this property independently along the U and V axes.
+This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
+but with less control and options (in fact, there is none!).
 
-To toggle the cyclic property of a surface along one axis,
-use :kbd:`Alt-C` and choose either *cyclic U* or *cyclic V* from the pop-up menu.
-The corresponding surface's outer edges will join together to form a "closed" surface.
-
-.. note:: Inner and Outer
-
-   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded.
-   When you close a surface in one or two directions, you might get an entirely black object! In this case,
-   just :ref:`Switch Direction <modeling_surfaces_editing_segments_switch-direction>` of the surface.
+It only works on selected "surfaces" made of *one U row* (and not with one V row),
+so-called "surface curves", by "extruding" this "cross section" in a square pattern,
+automatically adjusting the weights of control points to get a perfect circular extrusion
+(this also implies closing the surface along the V axis), following exactly the same principle
+as for the *NURBS Tube* or *NURBS Donut* primitives.
 
 
 .. _modeling_surface_editing_duplicating:
 
-Duplication
-===========
+Add Duplicate
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -126,8 +122,34 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
    at once will not work; you will have to do it one after the other...
 
 
-Deleting Elements
-=================
+Toggle Cyclic
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Toggle Cyclic`
+   :Menu:      :menuselection:`Surface --> Toggle Cyclic`
+   :Hotkey:    :kbd:`Alt-C`
+
+As in :ref:`curves <modeling-curves-toggle-cyclic>`,
+surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
+you can control this property independently along the U and V axes.
+
+To toggle the cyclic property of a surface along one axis,
+use :kbd:`Alt-C` and choose either *cyclic U* or *cyclic V* from the pop-up menu.
+The corresponding surface's outer edges will join together to form a "closed" surface.
+
+.. note:: Inner and Outer
+
+   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded.
+   When you close a surface in one or two directions, you might get an entirely black object! In this case,
+   just :ref:`Switch Direction <modeling_surfaces_editing_segments_switch-direction>` of the surface.
+
+
+Delete
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -169,8 +191,8 @@ control points. Then, using the *Delete Menu* :kbd:`X`,
 the *selected* row of control points is erased, resulting in Fig. *Before and after (right)*.
 
 
-Joining or Merging Surfaces
-===========================
+Make Segment
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -228,25 +250,3 @@ Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curv
        .. figure:: /images/modeling_surfaces_editing_joining-complete.png
 
           Joining complete.
-
-
-.. _bpy.ops.curve.spin:
-
-Spin
-====
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Spin`
-   :Menu:      :menuselection:`Surface --> Spin`
-
-This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
-but with less control and options (in fact, there is none!).
-
-It only works on selected "surfaces" made of *one U row* (and not with one V row),
-so-called "surface curves", by "extruding" this "cross section" in a square pattern,
-automatically adjusting the weights of control points to get a perfect circular extrusion
-(this also implies closing the surface along the V axis), following exactly the same principle
-as for the *NURBS Tube* or *NURBS Donut* primitives.
