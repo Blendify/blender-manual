@@ -10,16 +10,13 @@ Subdivision
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Modeling: Subdivide`
-   :Menu:      :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   :Menu:      :menuselection:`Surface --> Segments --> Subdivide`
 
-Surface subdivision is most simple:
-using either the *Subdivide* entry in the *Specials* menu
-:kbd:`W`, or the *Subdivide* button of the *Curve Tools1* panel,
-you will subdivide once all *completely* selected grids by subdividing each "quad" into four
-smaller ones.
+The *Subdivision* operator simply subdivides all selected segments
+by adding one or more control points between the selected segments.
+Selected grids will be split into four smaller ones.
 
-If you apply it to a 1D surface (a "surface curve"),
+If used on a 1D surface (a "surface curve"),
 this tool works exactly as with :ref:`curves <modeling-curves-subdivision>`.
 
 
@@ -32,7 +29,6 @@ Switch Direction
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Surface tools --> Curve: Switch Direction`
    :Menu:      :menuselection:`Surface --> Segments --> Switch Direction`
 
 This tool will "reverse" the direction of any curve with at least one selected element
