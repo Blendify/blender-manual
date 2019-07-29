@@ -148,6 +148,8 @@ Threshold
    Precision (ToDo 2.76)
 
 
+.. _bpy.ops.curve.select_row:
+
 Select Control Point Row
 ========================
 
