@@ -38,14 +38,33 @@ Transform Panel
 See :ref:`modeling-curves-transform-panel`.
 
 
-NURBS Control Points Settings
-=============================
+Mirror
+======
 
-We saw in a :ref:`previous page <modeling-surfaces-weight>` that NURBS control points have a weight,
-which is the influence of this point on the surface.
-You set it either using the big *Set Weight* button in the *Curve Tools* panel
-(after having defined the weight in the number field to the right),
-or by directly typing a value in the :kbd:`W` number field of the *Transform* panel.
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Mirror`
+   :Hotkey:    :kbd:`Ctrl-M`
+
+The *Mirror* tool is also available, behaving exactly as with
+:doc:`mesh vertices </modeling/meshes/editing/transform/mirror>`.
+
+
+Snap
+====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Snap`
+   :Hotkey:    :kbd:`Shift-S`
+
+:doc:`Mesh snapping </scene_layout/object/editing/transform/control/snap>`
+also works with control points, except for within itself (other components of the active spline).
+Snapping works with 2D surfaces but points will be constrained to the local XY axes.
 
 
 Opening or Closing a Surface

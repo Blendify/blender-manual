@@ -33,6 +33,3 @@ You can :ref:`separate <object-separate>` a given surface :kbd:`P`,
 make other selected objects :ref:`children <object-parenting>`
 of one or three control points :kbd:`Ctrl-P`,
 or :doc:`add hooks </modeling/modifiers/deform/hooks>` to control some points with other objects.
-
-The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh objects </modeling/meshes/editing/transform/mirror>`.
