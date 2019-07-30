@@ -105,9 +105,24 @@ Free (black handles)
 NURBS
 -----
 
-N.U.R.B.S. is the abbreviation of Non-Uniform Rational B-Splines.
+N.U.R.B.S. is the abbreviation for Non-Uniform Rational B-Splines.
 One of the major differences between Bézier objects and NURBS objects is that Bézier curves
 are approximations. For example, a Bézier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.
 NURBS theory can be a *very* complicated topic. For an introduction,
 please consult the `Wikipedia page <https://en.wikipedia.org/wiki/NURBS>`__.
+
+.. _curves_structure_nurbs_weight:
+
+NURBS spline control points are different than other spline types because they have a special weight property.
+This weight property controls how much influence the control point has on the surface.
+This weight should not be confused with the :ref:`Goal Weight <curves-weight>`,
+which is used only for softbody simulations.
+The NURBS control point weight can be adjusted in the *W* number field of the
+:doc:`Transform panel </modeling/curves/editing/transform_panel>`.
+
+.. note::
+
+   If all the control points have the same *Weight* then each effectively cancels each other out.
+   It is the difference in the weights that cause the curve to move
+   towards or away from a control point.
