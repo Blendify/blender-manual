@@ -95,7 +95,7 @@ Spin
    :Menu:      :menuselection:`Curve --> Spin`
 
 The *Spin* operator only works for one dimensional :doc:`surface </modeling/surfaces/index>` objects.
-Its use for curves is currently not possible, 
+Its use for curves is currently not possible,
 the full feature is documented in :ref:`Surface editing <bpy.ops.curve.spin>`.
 
 
@@ -270,7 +270,7 @@ Delete
    :Menu:      :menuselection:`Curve --> Delete...`
    :Hotkey:    :kbd:`X`, :kbd:`Delete`; :kbd:`Ctrl-X`
 
-Options for the *Erase* pop-up menu:
+Options for the *Delete* pop-up menu:
 
 Vertices
    This will delete the selected control points, *without* breaking the curve

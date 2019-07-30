@@ -155,23 +155,27 @@ Delete
    :Menu:      :menuselection:`Surface --> Delete`
    :Hotkey:    :kbd:`X`, :kbd:`Delete`
 
-The *Erase* pop-up menu of surfaces offers you two options:
+The selection must abide by the following rules:
 
-Selected
+- Whole rows, and only whole rows must be selected.
+- Only rows along the same axis must be selected (i.e. you cannot delete both U and V rows at the same time).
+
+Also remember that NURBS order cannot be higher than its number of control points in a given axis,
+so it might decrease when you delete some control points...
+Of course, when only one row remains, the surface becomes a "surface curve"; when only one point remains,
+there is no more visible surface; and when all points are deleted, the surface itself is deleted.
+
+Vertices
    This will delete the selected rows, *without* breaking the surface
    (i.e. the adjacent rows will be directly linked, joined, once the intermediary ones are deleted).
-   The selection must abide by the following rules:
-
-   - Whole rows, and only whole rows must be selected.
-   - Only rows along the same axis must be selected (i.e. you cannot delete both U and V rows at the same time).
-
-   Also remember that NURBS order cannot be higher than its number of control points in a given axis,
-   so it might decrease when you delete some control points...
-   Of course, when only one row remains, the surface becomes a "surface curve"; when only one point remains,
-   there is no more visible surface; and when all points are deleted, the surface itself is deleted.
-
-All
-   As with meshes or curves, this deletes everything in the object!
+   Remember that NURBS order cannot be higher than its number of control points,
+   so it might decrease when you delete some control point.
+   Of course, when only one point remains, there is no more visible curve,
+   and when all points are deleted, the curve itself is deleted.
+Segment
+   Deletes the segment that connects the selected control points and disconnecting them.
+Dissolve Vertices :kbd:`Ctrl-X`
+   This feature only works for :doc:`Curves </modeling/curves/index>`.
 
 
 Example
