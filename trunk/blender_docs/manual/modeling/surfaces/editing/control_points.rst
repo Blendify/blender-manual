@@ -136,3 +136,51 @@ Fig. :ref:`fig-surface-edit-join-complete` is the result of joining the two curv
        .. figure:: /images/modeling_surfaces_editing_joining-complete.png
 
           Joining complete.
+
+
+Smooth
+======
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Control Points --> Smooth`
+
+Iteratively smooths the selected control points
+by reducing the distance between neighboring control points.
+
+
+Hooks
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Control Points --> Hooks`
+   :Hotkey:    :kbd:`Ctrl-H`
+
+:doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
+
+
+Make Vertex Parent
+==================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Control Points --> Make Vertex Parent`
+   :Hotkey:    :kbd:`Ctrl-P`
+
+You can make other selected objects :ref:`children <object-parenting>`
+of one or three control points, as with mesh objects.
+
+To select a mesh (that is in view) while editing a surface, :kbd:`Ctrl-P` click on it.
+Select either one or three control points,
+then :kbd:`Ctrl-LMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
+Selecting three control points will make the child follow
+the median point between the three vertices. An alternative would be to use
+a :doc:`Child of Constraint </animation/constraints/relationship/child_of>`.
+See also the :doc:`Curve Modifier </modeling/modifiers/deform/curve>`.

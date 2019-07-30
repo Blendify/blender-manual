@@ -147,10 +147,9 @@ Smooth
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Curve --> Control Points --> Smooth`
 
-Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
-operation reduces the distance between the selected control point/s and
-their neighbors, while keeping the neighbors anchored.
-Does not effect control point tangents.
+For Bézier curves, this smoothing operation reduces the distance between
+the selected control point(s) and their neighbors,
+while keeping the neighbors anchored. Does not effect control point tangents.
 
 .. figure:: /images/modeling_curves_editing_introduction_smoothing-1.png
 
