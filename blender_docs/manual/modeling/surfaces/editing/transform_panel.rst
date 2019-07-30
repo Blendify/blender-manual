@@ -1,4 +1,3 @@
-.. _modeling-curves-transform-panel:
 
 ***************
 Transform Panel
@@ -11,13 +10,12 @@ Transform Panel
    :Panel:     :menuselection:`Sidebar --> Transform`
 
 When nothing is selected, the panel is empty.
-When more than one vertex is selected, the median values are edited
+When more than one control point is selected, the median values are edited
 and "Median" is added in front of the labels.
 
-Control Point, Vertex
+Control Point, Median
    The first controls (X, Y, Z) show the coordinates of the selected point or handle (vertex).
-   In case of a NURBS curve, there is a fourth component available (W),
-   which defines the :ref:`weight <curves_structure_nurbs_weight>`
+   The last control (W), defines the :ref:`weight <modeling-surfaces-weight>`
    of the selected control point or the median weight.
 Space
    The Space radio buttons let you choose if those coordinates are relative
@@ -25,16 +23,16 @@ Space
 
    Global, Local
 
-.. _curves-weight:
+.. _surface-goal-weight:
 
 Weight
    Controls the "goal weight" of selected control points,
-   which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
-   forcing the curve to "stick" to their original positions, based on the weight.
+   which is used when a surface has :doc:`Soft Body </physics/soft_body/index>` physics,
+   forcing the surface to "stick" to their original positions, based on the weight.
 Radius
-   Controls the width of the extrusion/bevel along the "spinal" curve.
+   Controls the width of the extrusion/bevel along the segments.
    The radius will be interpolated from point to point (you can check it with the normals).
 Tilt
    Controls how the normals (visualized as arrows)
-   twist around each control point -- so it is only relevant with 3D curves!
+   twist around each control point -- so it is only relevant with 3D surfaces!
    The tilt will be interpolated from point to point (you can check it with the normals).

@@ -56,8 +56,12 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 Weight
 ======
 
-Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>`! *Weight* specifies
-how much each control point "pulls" on the curve.
+Similar to :ref:`NURBS Splines <curve-nurbs>` NURBS Surface control points have a weight property.
+This weight property controls how much influence the control point has on the surface.
+This weight should not be confused with the :ref:`Goal Weight <surface-goal-weight>`,
+which is used only for softbody simulations.
+The NURBS control point weight can be adjusted in the *W* number field of the
+:doc:`Transform panel </modeling/curves/editing/transform_panel>`.
 
 In Fig. :ref:`fig-surface-intro-weight` a single control point, labeled "C",
 has had its *Weight* set to 5.0 while all others are at their default of 1.0.
@@ -69,20 +73,18 @@ As you can see, that control point *pulls* the surface towards it.
 
    One control point with a weight of 5.
 
-If all the control points have the same *Weight* then each effectively cancels each other out.
-It is the difference in the weights that cause the surface to move
-towards or away from a control point.
+.. note::
 
-The *Weight* of any particular control point is visible
-in the :doc:`/scene_layout/object/properties/transforms`
-:kbd:`N`, in the *W* field (and not the *Weight* field...).
+   If all the control points have the same *Weight* then each effectively cancels each other out.
+   It is the difference in the weights that cause the surface to move
+   towards or away from a control point.
 
 
 Preset Weights
 --------------
 
 NURBS can create pure shapes such as circles, cylinders, and spheres
-(note that a Bézier circle is not a pure circle). To create pure circles, globes,
+(note that a Bézier circle is not a pure circle). To create pure circles, spheres,
 or cylinders, you must set to specific values the weights of the control points.
 Some of which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
