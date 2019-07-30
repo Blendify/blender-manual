@@ -18,7 +18,7 @@ Transform
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Surface --> Transform`
 
-A surface can be edited by transforming the locations of the control points
+A surface can be edited by transforming the locations of the control points.
 
 Move, Rotate, Scale
    Like other elements in Blender, control points can be
@@ -171,7 +171,6 @@ The corresponding surface's outer edges will join together to form a "closed" su
    just :ref:`Switch Direction <modeling_surfaces_editing_segments_switch-direction>` of the surface.
 
 
-
 Set Spline Type
 ===============
 
@@ -252,8 +251,8 @@ Dissolve Vertices :kbd:`Ctrl-X`
 Example
 -------
 
-In the image below (left), a row of control points has been selected by initially
-selecting the one control point and using :ref:`bpy.ops.curve.select_row` to select the remaining
+In the image below (left), a row of control points has been selected by initially selecting
+the one control point and using :ref:`bpy.ops.curve.select_row` to select the remaining
 control points. Then, using `Delete`_ *Vertices*,
 the selected row of control points is erased, resulting in the image below (right).
 
