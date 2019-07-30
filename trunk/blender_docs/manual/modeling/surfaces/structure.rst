@@ -59,9 +59,9 @@ Weight
 Similar to :ref:`NURBS Splines <curve-nurbs>` NURBS Surface control points have a weight property.
 This weight property controls how much influence the control point has on the surface.
 This weight should not be confused with the :ref:`Goal Weight <surface-goal-weight>`,
-which is used only for softbody simulations.
-The NURBS control point weight can be adjusted in the *W* number field of the
-:doc:`Transform panel </modeling/curves/editing/transform_panel>`.
+which is used only for soft body simulations.
+The NURBS control point weight can be adjusted in the *W* number field of
+the :doc:`Transform panel </modeling/curves/editing/transform_panel>`.
 
 In Fig. :ref:`fig-surface-intro-weight` a single control point, labeled "C",
 has had its *Weight* set to 5.0 while all others are at their default of 1.0.
