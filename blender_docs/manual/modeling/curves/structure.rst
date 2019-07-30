@@ -9,13 +9,13 @@ Splines
 Splines are a substructure of curves and are the individual elements that make curve objects.
 A curve object can be composed of several different splines,
 just like mesh objects can have different discontinuous meshes under the same object.
-A spline defines the shape of the curve and can be transformed by alerting its `Control Points`_.
+A spline defines the shape of the curve and can be transformed by altering its `Control Points`_.
 Splines come in three distinct types, which are described in `Spline Types`_.
 Each spline type has a slightly different algorithm for computing how bends in the spline are represented.
 
 Splines have there own separate properties than curves and can be altered
-by selecting the spline in Edit Mode and using the
-:doc:`Active Spline </modeling/curves/properties/active_spline>` panel.
+by selecting the spline in Edit Mode and using
+the :doc:`Active Spline </modeling/curves/properties/active_spline>` panel.
 
 
 Control Points
@@ -117,9 +117,9 @@ please consult the `Wikipedia page <https://en.wikipedia.org/wiki/NURBS>`__.
 NURBS spline control points are different than other spline types because they have a special weight property.
 This weight property controls how much influence the control point has on the surface.
 This weight should not be confused with the :ref:`Goal Weight <curves-weight>`,
-which is used only for softbody simulations.
-The NURBS control point weight can be adjusted in the *W* number field of the
-:doc:`Transform panel </modeling/curves/editing/transform_panel>`.
+which is used only for soft body simulations.
+The NURBS control point weight can be adjusted in the *W* number field of
+the :doc:`Transform panel </modeling/curves/editing/transform_panel>`.
 
 .. note::
 

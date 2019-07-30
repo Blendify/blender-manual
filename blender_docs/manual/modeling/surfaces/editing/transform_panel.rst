@@ -18,8 +18,8 @@ Control Point, Median
    The last control (W), defines the :ref:`weight <modeling-surfaces-weight>`
    of the selected control point or the median weight.
 Space
-   The Space radio buttons let you choose if those coordinates are relative
-   to the object origin (local) or the global origin (global).
+   The Space radio buttons let you choose if those coordinates are relative to
+   the object origin (local) or the global origin (global).
 
    Global, Local
 
