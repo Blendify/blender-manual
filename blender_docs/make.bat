@@ -34,7 +34,7 @@ if "%1" == "help" (
 	echo.- gettext              to make PO message catalogs
 	echo.- epub                 to make an epub
 	echo.- epub3                to make an epub3
-  echo.- readme               to make a 'readme.html' file
+   echo.- readme               to make a 'readme.html' file
 	echo.- clean                to delete all old build files
 	echo.
 	echo.Translations
