@@ -6,7 +6,7 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 set BUILDDIR=build
-set ALLSPHINXOPTS=-j %Number_Of_Processors% -d %BUILDDIR%/doctrees %SPHINXOPTS% manual
+set ALLSPHINXOPTS=-j %Number_Of_Processors% %SPHINXOPTS% manual
 set I18NSPHINXOPTS=%SPHINXOPTS%
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
@@ -201,7 +201,7 @@ if "%1" == "update_po" (
 	)
 
 	REM Create POT files:
-	%SPHINXBUILD% -t builder_html -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
+	%SPHINXBUILD% -t builder_html -b gettext %ALLSPHINXOPTS% %BUILDDIR%/locale
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
