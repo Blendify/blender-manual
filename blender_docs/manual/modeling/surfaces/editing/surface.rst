@@ -32,12 +32,6 @@ Move/Scale Texture Space
    :ref:`edited <properties-texture-space-editing>`.
 
 
-Transform Panel
----------------
-
-See :ref:`modeling-curves-transform-panel`.
-
-
 Mirror
 ======
 
@@ -143,6 +137,31 @@ The corresponding surface's outer edges will join together to form a "closed" su
    Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded.
    When you close a surface in one or two directions, you might get an entirely black object! In this case,
    just :ref:`Switch Direction <modeling_surfaces_editing_segments_switch-direction>` of the surface.
+
+
+
+Set Spline Type
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Set Spline Type`
+
+This feature only works for :doc:`Curves </modeling/curves/index>`.
+
+
+Cleanup
+=======
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Cleanup`
+
+This feature only works for :doc:`Curves </modeling/curves/index>`.
 
 
 Delete

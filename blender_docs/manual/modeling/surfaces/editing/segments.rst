@@ -19,6 +19,9 @@ Selected grids will be split into four smaller ones.
 If used on a 1D surface (a "surface curve"),
 this tool works exactly as with :ref:`curves <modeling-curves-subdivision>`.
 
+Number of Cuts
+   The number of subdivisions to perform.
+
 
 .. _modeling_surfaces_editing_segments_switch-direction:
 
