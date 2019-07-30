@@ -32,9 +32,6 @@ Weight
    which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
    forcing the curve to "stick" to their original positions, based on the weight.
 Radius
-   Controls the width of the extrusion/bevel along the "spinal" curve.
-   The radius will be interpolated from point to point (you can check it with the normals).
+   Surface objects do not have a *Radius* property, this value has no effect.
 Tilt
-   Controls how the normals (visualized as arrows)
-   twist around each control point -- so it is only relevant with 3D curves!
-   The tilt will be interpolated from point to point (you can check it with the normals).
+   Surface objects do not have a *Radius* property, this value has no effect.
