@@ -114,6 +114,38 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
    at once will not work; you will have to do it one after the other...
 
 
+Split
+=====
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Split`
+   :Hotkey:    :kbd:`Y`
+
+The *Split* operator splits a selected segment of a surface from the rest of the surface.
+This segment can then be moved or altered without affecting the other surface.
+If a single control point is selected the *Split* operator will create a new singular loose control point;
+leaving the previously selected control point attached to the rest of the surface.
+
+
+Separate
+========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Surface --> Separate`
+   :Hotkey:    :kbd:`P`
+
+Surface objects that are made of multiple distinct parts can be separated into their own
+objects by selecting the desired segments and using *Separate*.
+Note, if there is only one surface in a surface object,
+*Separate* will create a new surface object with no control points.
+
+
 Toggle Cyclic
 =============
 
@@ -150,6 +182,26 @@ Set Spline Type
    :Menu:      :menuselection:`Surface --> Set Spline Type`
 
 This feature only works for :doc:`Curves </modeling/curves/index>`.
+
+
+Show/Hide
+=========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Curve --> Show/Hide`
+   :Hotkey:    :kbd:`Alt-H`, :kbd:`H`, :kbd:`Shift-H`
+
+When in *Edit Mode*, you can hide and reveal elements from the display.
+You can only show or hide control points, as segments are always shown,
+unless all control points of the connected surface are hidden,
+in which case the surface is fully hidden.
+
+.. seealso::
+
+   See :ref:`object-show-hide` in *Object Mode*.
 
 
 Cleanup
