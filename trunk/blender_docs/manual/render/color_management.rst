@@ -96,9 +96,9 @@ Settings
 
    :Panel:     :menuselection:`Properties editor --> Render --> Color Management`
 
-.. TODO2.8 figure:: /images/render_post-process_color-management_panel.png
+.. figure:: /images/render_post-process_color-management_panel.png
 
-.. TODO2.8 Render settings for color management.
+            Render settings for color management.
 
 
 Display
@@ -179,10 +179,6 @@ Color Space
    Some images such as normal, bump or stencil maps do not strictly contain 'colors',
    and on such values, no color space conversion should ever be applied.
    For such images, the color space should be set to *None*.
-
-.. TODO2.8 .. figure:: /images/render_color-management_image-settings.png
-
-.. TODO2.8    Image settings for color management.
 
 By default only renders are displayed and saved with the render view transformations applied.
 These are the Render Result and Viewer image data-blocks,

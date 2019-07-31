@@ -38,7 +38,8 @@ Midlevel
 Scale
    Increase or decrease the amount of displacement.
 Normal
-   (Todo)
+   Standard normal input.
+
 
 
 Properties

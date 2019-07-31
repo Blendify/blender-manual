@@ -4,12 +4,6 @@
 Numeric Input
 *************
 
-.. TODO2.8:
-
-   .. figure:: /images/scene-layout_object_editing_transform_control_precision_numeric-input_footer.png
-
-      Numeric input displayed in the 3D View footer.
-
 Using the mouse for transformations is convenient, but if you require more precise control,
 you can also enter numeric values. After pressing the shortcut type a number
 to indicate the magnitude of the transformation. Then confirm or cancel.
@@ -23,7 +17,12 @@ Scale :kbd:`S`
    Scaling works in almost identical fashion to translation.
    The primary difference is that by default, scaling applies equally to all three axes.
 
-You can see the numbers you enter in the 3D View's footer.
+You can see the numbers you enter in the 3D Viewport header.
+
+.. figure:: /images/scene-layout_object_editing_transform_control_precision_numeric-input_footer.png
+   :align: center
+
+   Numeric input displayed in the header.
 
 .. tip::
 

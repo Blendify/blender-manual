@@ -41,19 +41,15 @@ This bone will be the child of "its" tip owner, and connected to it. As usual,
 once extrusion is done, only the new bones' tips are selected, and in select mode,
 so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. _fig-rig-bones-extrusion:
 
 .. list-table:: Extrusion example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_extrusion-1.png
-          :width: 320px
 
           An armature with three selected tips.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_extrusion-2.png
-          :width: 320px
 
           The three extruded bones.
 
@@ -62,19 +58,15 @@ as with meshes, by pressing respectively :kbd:`E R` and :kbd:`E S` --
 as well as :doc:`locked </scene_layout/object/editing/transform/control/axis_locking>`
 extrusion along a global or local axis.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. _fig-rig-bone-mirror:
 
 .. list-table:: Mirror extrusion example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_mirror-extrusion-1.png
-          :width: 320px
 
           A single selected bone's tip.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_mirror-extrusion-2.png
-          :width: 320px
 
           The two mirror-extruded bones.
 
@@ -213,12 +205,10 @@ If you have one root and one tip selected, the new bone:
 .. list-table:: Fill between a tip and a root.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-1.png
-          :width: 320px
 
           Active tip on the left.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-2.png
-          :width: 320px
 
           Active tip on the right.
 
@@ -233,12 +223,10 @@ If you have two tips selected, the new bone:
 .. list-table:: Fill between tips.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-3.png
-          :width: 320px
 
           3D cursor on the left.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-4.png
-          :width: 320px
 
           3D cursor on the right.
 
@@ -259,12 +247,10 @@ that the new bone's root moves to the tip of the parent bone.
 .. list-table:: Fill between roots.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-5.png
-          :width: 320px
 
           Before UI update (3D cursor on the left).
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-6.png
-          :width: 320px
 
           After UI update, correct visualization.
 
@@ -276,12 +262,10 @@ joint to the 3D cursor position, and it will not parent it to any bone in the ar
 .. list-table:: Fill with only one bone joint selected.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-7.png
-          :width: 320px
 
           Fill with only one tip selected.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_fill-joints-8.png
-          :width: 320px
 
           Fill with only one root selected.
 
@@ -318,19 +302,15 @@ that if a bone is parented **and** connected to an unselected bone,
 its copy will be parented, but **not** connected to the unselected bone
 (see Fig. :ref:`fig-rig-bone-duplication`).
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. _fig-rig-bone-duplication:
 
 .. list-table:: Duplication example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_duplication-1.png
-          :width: 320px
 
           An armature with three selected bones and a selected single root.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_duplication-2.png
-          :width: 320px
 
           The three duplicated bones. Note that the selected chain is preserved in the copy,
           and that Bone.006 is parented but not connected to Bone.001, as indicated by the black dashed line.
@@ -367,17 +347,13 @@ If you delete a bone in a chain, its child(ren)
 will be automatically re-parented to its own parent, but **not** connected,
 to avoid deforming the whole armature.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. list-table:: Deletion example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_deletion-1.png
-          :width: 320px
 
           An armature with two selected bones, just before deletion.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_deletion-2.png
-          :width: 320px
 
           The two bones have been deleted. Note that Bone.002,
           previously connected to the deleted Bone.001, is now parented but not connected to Bone.
@@ -393,7 +369,7 @@ Dissolve
    :Menu:      none
    :Hotkey:    :kbd:`Ctrl-X`
 
-ToDo 2.76.
+Todo 2.76.
 
 
 Merge Bones
@@ -422,30 +398,24 @@ the bones are not visually connected. This will be done as soon as you edit one 
 differently depending in which chain is the edited bone
 (compare the bottom two images of the example to understand this better).
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. _fig-rig-bone-merge:
 
 .. list-table:: Merge example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_merge-1.png
-          :width: 320px
 
           An armature with a selected chain, and a single selected bone, just before merging.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_merge-2.png
-          :width: 320px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
           whereas Bone.005 was not modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_merge-3.png
-          :width: 320px
 
           Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_merge-4.png
-          :width: 320px
 
           The tip of Bone.006 has been moved, and hence the root of Bone.003 was moved to the tip of Bone.006.
 
@@ -470,17 +440,13 @@ Number of Cuts
    Specifies the number of cuts. As in mesh editing,
    if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. list-table:: Subdivision example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_bones_subdivision-1.png
-          :width: 320px
 
           An armature with one selected bone, just before multi-subdivision.
 
      - .. figure:: /images/animation_armatures_bones_editing_bones_subdivision-2.png
-          :width: 320px
 
           The selected bone has been "cut" two times, giving three sub-bones.
 
