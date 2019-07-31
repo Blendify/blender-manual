@@ -78,32 +78,26 @@ View
    .. list-table:: Cube with the rotation gizmo active in multiple transform orientations.
 
       * - .. figure:: /images/scene-layout_object_editing_transform_control_orientations_manipulator-global-1.png
-            :width: 240px
 
             Default cube with Global transform orientation selected.
 
       - .. figure:: /images/scene-layout_object_editing_transform_control_orientations_manipulator-global-2.png
-            :width: 240px
 
             Rotated cube with Global orientation, gizmo has not changed.
 
       - .. figure:: /images/scene-layout_object_editing_transform_control_orientations_manipulator-local.png
-            :width: 240px
 
             Local orientation, gizmo matches to the object's rotation.
 
       * - .. figure:: /images/scene-layout_object_editing_transform_control_orientations_manipulator-normal.png
-            :width: 240px
 
             Normal orientation, in Edit Mode.
 
       - .. figure:: /images/scene-layout_object_editing_transform_control_orientations_manipulator-gimbal.png
-            :width: 240px
 
             Gimbal transform orientation.
 
       - .. figure:: /images/scene-layout_object_editing_transform_control_orientations_manipulator-view.png
-            :width: 240px
 
             View transform orientation.
 

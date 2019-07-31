@@ -25,11 +25,10 @@ The exported ``.svg`` file is written to the default output path
 Options
 =======
 
-.. TODO2.8.
-   .. figure:: /images/render_freestyle_export-svg_panel.png
-      :align: right
+.. figure:: /images/render_freestyle_export-svg_panel.png
+   :align: right
 
-      Freestyle SVG Export panel.
+   Freestyle SVG Export panel.
 
 Mode
    Option between Frame and Animation. Frame will render a single frame,

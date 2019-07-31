@@ -64,26 +64,21 @@ another for Pose Mode -- adding together their values to get the final transform
 Example
 =======
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. list-table::
 
    * - .. _fig-rig-bone-intro-bbone:
 
        .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-1.png
-          :width: 320px
 
           Bones with just one segment in Edit Mode.
 
      - .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-2.png
-          :width: 320px
 
           The Bézier curve superposed to the chain, with its handles placed at bones' joints.
 
    * - .. _fig-rig-bone-intro-same:
 
        .. figure:: /images/animation_armatures_bones_properties_bendy-bones_b-bones-3.png
-          :width: 320px
 
           The same armature in Object Mode.
 
@@ -149,8 +144,6 @@ Ease In, Out
    These values are proportional to the default length,
    which of course automatically varies depending on bone length,
    angle with the reference handle, and so on.
-
-.. TODO2.8 Maybe update the images (color & style)
 
 .. list-table:: Ease In/Out settings example, with a materialized Bézier curve.
 

@@ -126,22 +126,17 @@ However, if you disable one bone's *Inherit Scale* or *Inherit Rotation*
 property in this "family", this will break the scaling propagation,
 i.e. this bone *and all its descendants* will no longer be affected when you scale one of its ancestors.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. list-table:: Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
    * - .. figure:: /images/animation_armatures_bones_properties_relations_inherit-rot-disabled.png
-          :width: 200px
 
           The yellow outlined Inherit Rotation disabled bone in the armature.
 
      - .. figure:: /images/animation_armatures_bones_properties_relations_inherit-rot-disabled-descendant.png
-          :width: 200px
 
           Rotation of a bone with an Inherit Rotation disabled bone among its descendants.
 
      - .. figure:: /images/animation_armatures_bones_properties_relations_inherit-rot-disabled-scale.png
-          :width: 200px
 
           Scaling of a bone with an Inherit Rotation disabled bone among its descendants.
 
@@ -156,16 +151,6 @@ behave when transformed. There are many different situations which may not be in
 however, this should give a good idea of the problem:
 
 - Non-related selected bones are transformed independently, as usual.
-
-.. TODO2.8 Maybe update the images (color & style)
-
-.. _fig-rig-pose-edit-scale:
-
-.. figure:: /images/animation_armatures_bones_properties_relations_scale-related.png
-   :width: 320px
-
-   Scaling bones, some of them related.
-
 - When several bones of the same "family" are selected,
   *only* the "most parent" ones are really transformed --
   the descendants are just handled through the parent relationship process, as if they were not selected
@@ -173,6 +158,15 @@ however, this should give a good idea of the problem:
   outlined in yellow, was only scaled down through the parent relationship,
   exactly as the unselected ones, even though it is selected and active.
   Otherwise, it should have been twice smaller!)
+
+  .. _fig-rig-pose-edit-scale:
+
+  .. figure:: /images/animation_armatures_bones_properties_relations_scale-related.png
+     :align: center
+     :width: 320px
+
+     Scaling bones, some of them related.
+
 - When connected and unconnected bones are selected,
   and you start a move operation, only the unconnected bones are affected.
 - When a child connected hinge bone is in the selection,

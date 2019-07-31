@@ -56,27 +56,21 @@ You can also alter the bone radius by selecting the tail or head of the bone you
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* number fields.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. list-table:: Bone Scale and Scale Radius comparison.
 
    * - .. figure:: /images/animation_armatures_bones_selecting_single-bone.png
-          :width: 320px
 
           A single selected bone in Octahedron visualization.
 
      - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-radius-2.png
-          :width: 320px
 
           After normal scale.
 
    * - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-radius-3.png
-          :width: 320px
 
           A single selected bone in Envelope visualization.
 
      - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-radius-4.png
-          :width: 320px
 
           After Scaled Radius. Its length remains the same, but its joints' radius are bigger.
 
@@ -105,34 +99,27 @@ then enter a new value into it.
 Altering the Bone Envelope volume does not alter the size of the bone just the range
 within which it can influence vertices of child objects.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. list-table:: Envelope scaling example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-radius-3.png
-          :width: 320px
 
           A single bone selected in Envelope visualization.
 
      - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-radius-5.png
-          :width: 320px
 
           Its envelope distance scaled.
 
 .. list-table:: "Bone size" scaling example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-size-1.png
-          :width: 200px
 
           A single "default size" bone selected in B-Bone visualization.
 
      - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-size-2.png
-          :width: 200px
 
           Its envelope distance scaled.
 
      - .. figure:: /images/animation_armatures_bones_editing_transform_scaling-bone-size-3.png
-          :width: 200px
 
           The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up.
 
@@ -223,19 +210,15 @@ Switching the direction of a bone will generally break the chain(s) it belongs t
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
 but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
 
-.. TODO2.8 Maybe update the images (color & style)
-
 .. _fig-rig-properties-switch:
 
 .. list-table:: Switching example.
 
    * - .. figure:: /images/animation_armatures_bones_editing_transform_switch-direction-1.png
-          :width: 320px
 
           An armature with one selected bone, and one selected chain of three bones, just before switching.
 
      - .. figure:: /images/animation_armatures_bones_editing_transform_switch-direction-2.png
-          :width: 320px
 
           The selected bones have been switched. Bone.005 is no more connected nor parented to anything.
           The chain of switched bones still exists, but reversed (now Bone.002 is its root, and Bone is its tip).
