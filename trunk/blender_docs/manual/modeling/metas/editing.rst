@@ -56,7 +56,7 @@ Radius
 .. _meta-ball-editing-negative-influence:
 
 Negative
-   Controls the whether the influence is *positive* or *negative*.
+   Controls whether the influence is *positive* or *negative*.
 
    A *positive* influence is defined as an attraction,
    meaning that the meshes will stretch towards each other as the *rings of influence* intersect.
@@ -71,11 +71,11 @@ Negative
 
       * - .. figure:: /images/modeling_metas_editing_family.png
 
-             Positive influence of three meta balls.
+             Positive influence of three metaballs.
 
         - .. figure:: /images/modeling_metas_editing_negative-influence.png
 
-             Negative influence of a meta ball;
+             Negative influence of a metaball;
              the first is negative and the second positive.
 
 Hide
