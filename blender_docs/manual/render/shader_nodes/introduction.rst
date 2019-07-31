@@ -37,18 +37,17 @@ for direct lighting or global illumination.
    :doc:`Shaders </render/shader_nodes/shader/index>`
 
 
-.. TODO2.8:
-
 Textures
 ========
 
-Each texture type corresponds to a node,
-with a texture coordinate and various parameters as input, and a color or value as output.
+Blender has vearius built in procedural texture nodes,
+with texture coordinates and various parameters as input, and a color or value as output.
 No texture data-blocks are needed; instead node groups can be used for reusing texture setups.
 
-For UV mapping and texture painting in the viewport, the Image texture node must be used.
-When setting such a node as active, it will be displayed in Textured display mode,
-and can be painted on in texture paint mode.
+For UV mapping and texture painting in the 3D Viewport, the Image texture node must be used.
+When setting such a node as active, it will be displayed in the 3D Viewport
+while using :doc:`Texture color </render/workbench/color>` mode.
+This method can us to for seeing painted textures while texture painting.
 
 The default texture coordinates for all nodes are Generated coordinates,
 with the exception of Image textures that use UV coordinates by default.
