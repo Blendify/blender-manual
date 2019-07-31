@@ -17,7 +17,7 @@ Effectively, drivers are composed by:
 As an example, the rotation of Object 1 can be controlled by the scale of Object 2.
 It is then said that the scale of Object 2 *drives* the rotation of Object 1.
 
-Not only drivers can use the value of most properties as a direct mapping to other properties,
+Not only can drivers use the value of most properties as a direct mapping to other properties,
 they can also evaluate that value as part of a mathematical expression or Python script
 and further modulate it with a function and a modifier stack.
 
