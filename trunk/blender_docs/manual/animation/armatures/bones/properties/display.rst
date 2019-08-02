@@ -9,9 +9,10 @@ Viewport Display Panel
    :Mode:      Object and Pose Mode
    :Panel:     :menuselection:`Bone --> Viewport Display`
 
-.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_display_custom-shape-field.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_bones_properties_display_custom-shape-field.png
 
-.. TODO2.8    The Display panel.
+      The Display panel.
 
 Display panel lets you customize the look of your bones taking the shape of another existing object.
 

@@ -11,12 +11,21 @@ File Formats
 Image Output
 ============
 
-TODO2.8 (could have more details).
+When rendering a single frame, the output should be a single image format and not a video.
+Several :doc:`image formats </files/media/image_formats>` are available, PNG being the default.
 
-Rendering to images is useful for animation since rendering can be canceled and
-resumed by frame range.
+Images can also be used also for rendering animations which has a couple advantages.
+For example, when rendering animations to image file formats the render job can be canceled
+and resumed at the last rendered frame by changing the frame range.
+This is useful if the animation takes a long time to render
+and the computers resources are needed for something else.
 
-Playing back images as an animation is supported, see: :ref:`Animation Player <render-output-animation_player>`.
+Images can then be encoded to a video by adding the rendered image sequence into
+the :doc:`Video Sequencer </video_editing/sequencer/index>` and choosing an appropriate `Video Output`_.
+
+.. tip::
+
+   Rendered image sequences can be played back in the :ref:`Animation Player <render-output-animation_player>`.
 
 
 Video Output

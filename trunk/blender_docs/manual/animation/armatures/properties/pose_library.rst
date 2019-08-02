@@ -10,10 +10,11 @@ Pose Library Panel
    :Mode:      All Modes
    :Panel:     :menuselection:`Properties editor --> Object --> Pose Library`
 
-.. TODO2.8 .. figure:: /images/animation_armatures_properties_pose-library_panel.png
-.. TODO2.8    :align: right
+.. TODO2.8
+   .. figure:: /images/animation_armatures_properties_pose-library_panel.png
+      :align: right
 
-.. TODO2.8    The Pose Library panel.
+      The Pose Library panel.
 
 The *Pose Library* panel is used to save, apply, and manage armature poses.
 *Pose Libraries* are saved to :doc:`Actions </animation/actions>`.

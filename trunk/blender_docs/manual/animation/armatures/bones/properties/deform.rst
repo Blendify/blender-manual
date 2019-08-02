@@ -9,9 +9,10 @@ Deform
    :Mode:      All Modes
    :Panel:     :menuselection:`Bone --> Deform`
 
-.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_deform_panel.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_bones_properties_deform_panel.png
 
-.. TODO2.8    The Deform panel.
+      The Deform panel.
 
 In this panel you can set deformation options for each bone.
 

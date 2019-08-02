@@ -26,11 +26,11 @@ Frames outside of scene frame range are darkened.
 Header
 ======
 
-Show
-   Only selected (mouse cursor icon)
+Show Selected (mouse cursor icon)
+   Displays the graph for only selected trackers.
 
-Hidden (ghost icon)
-   TODO2.8
+Display Hidden (ghost icon)
+   Displays channels from objects that are hidden.
 Filter
    Display options, defines what curves are visible.
 
