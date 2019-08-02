@@ -4,10 +4,11 @@
 Editing
 *******
 
-.. TODO2.8 .. figure:: /images/animation_armatures_posing_editing_tools.png
-.. TODO2.8    :align: right
+.. TODO2.8
+   .. figure:: /images/animation_armatures_posing_editing_tools.png
+      :align: right
 
-.. TODO2.8    Pose Tools.
+      Pose Tools.
 
 In *Pose Mode*, bones behave like objects. So the transform actions
 (move/rotate/scale, etc.) are very similar to the same ones in Object Mode

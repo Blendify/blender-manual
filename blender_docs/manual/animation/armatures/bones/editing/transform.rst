@@ -6,11 +6,12 @@ Transform
 Transform
 =========
 
-.. TODO2.8 .. figure:: /images/animation_armatures_bones_editing_transform_panel.png
-.. TODO2.8   :align: right
-.. TODO2.8   :figwidth: 165px
+.. TODO2.8
+  .. figure:: /images/animation_armatures_bones_editing_transform_panel.png
+              :align: right
+              :figwidth: 165px
 
-.. TODO2.8   The Transform panel for armatures in Edit Mode.
+              The Transform panel for armatures in Edit Mode.
 
 We will not detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
 as they are common to most object editing, and already described in

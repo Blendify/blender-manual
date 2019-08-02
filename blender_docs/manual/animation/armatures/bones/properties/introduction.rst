@@ -14,12 +14,13 @@ properties are shown in the *Bone* tab of the Properties editor.
 This shows different panels used to control features of each selected bone;
 the panels change depending on which mode you are working in.
 
-.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_introduction_properties-editor.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_bones_properties_introduction_properties-editor.png
 
-.. TODO2.8    The Bone tab.
+      The Bone tab.
 
 
-.. TODO2.8 Move pose related to new pose > properties folder,
+.. todo Move pose related to new pose > properties folder,
    check other: pose library; edit text above accordingly.
 
 Transform
@@ -31,15 +32,16 @@ Transform
    :Mode:      Edit Mode and Pose Mode
    :Panel:     :menuselection:`Bone --> Transform`
 
-.. TODO2.8 .. list-table::
+.. TODO2.8
+   .. list-table::
 
-.. TODO2.8    * - .. figure:: /images/animation_armatures_bones_properties_introduction_transform-panel-edit.png
+      * - .. figure:: /images/animation_armatures_bones_properties_introduction_transform-panel-edit.png
 
-.. TODO2.8           The Transform panel (Edit Mode).
+             The Transform panel (Edit Mode).
 
-.. TODO2.8      - .. figure:: /images/animation_armatures_bones_properties_introduction_transform-panel-pose.png
+        - .. figure:: /images/animation_armatures_bones_properties_introduction_transform-panel-pose.png
 
-.. TODO2.8           The Transform panel (Pose Mode).
+             The Transform panel (Pose Mode).
 
 When in *Edit Mode* you can use this panel to control position and roll of individual bones.
 Whereas in *Pose Mode* you can only set location for the main bone, and you can now set rotation and scale.
@@ -57,9 +59,10 @@ Inverse Kinematics
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Bone --> Inverse Kinematics`
 
-.. TODO2.8 .. figure:: /images/animation_armatures_bones_properties_introduction_inverse-kinematics-panel.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_bones_properties_introduction_inverse-kinematics-panel.png
 
-.. TODO2.8    The Inverse Kinematics panel.
+      The Inverse Kinematics panel.
 
 This panel controls the way a bone or set of bones behave when linked in
 an :doc:`inverse kinematic </animation/armatures/posing/bone_constraints/inverse_kinematics/introduction>` chain.

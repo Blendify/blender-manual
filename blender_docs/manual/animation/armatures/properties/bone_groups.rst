@@ -10,9 +10,10 @@ Bone Groups
    :Panel:     :menuselection:`Properties editor --> Armature --> Bone Groups`
    :Menu:      :menuselection:`Pose --> Bone Groups --> ...`
 
-.. TODO2.8 .. figure:: /images/animation_armatures_properties_bone-groups_panel.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_properties_bone-groups_panel.png
 
-.. TODO2.8    The Bone Groups panel.
+      The Bone Groups panel.
 
 This panel allows the creation, deletion and editing of Bone Groups.
 Bone Groups can be used for selection or to assign a color theme to a set of bones.
@@ -25,9 +26,10 @@ Active Bone Group
 Color Set
 =========
 
-.. TODO2.8 .. figure:: /images/animation_armatures_properties_bone-groups_color-list.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_properties_bone-groups_color-list.png
 
-.. TODO2.8    The Bone Color Set selector and the color fields.
+      The Bone Color Set selector and the color fields.
 
 You can assign a "color theme" to a group (each bone will have these colors).
 Remember you have to enable the *Colors* checkbox (*Display* panel) to see these colors.

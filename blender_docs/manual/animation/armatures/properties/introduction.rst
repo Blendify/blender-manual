@@ -11,9 +11,10 @@ Introduction
 
 The *Armature* tab in Properties editor contains various panels gathering the armature settings.
 
-.. TODO2.8 .. figure:: /images/animation_armatures_properties_introduction_properties-editor.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_properties_introduction_properties-editor.png
 
-.. TODO2.8    The Armature tab in the Properties editor.
+      The Armature tab in the Properties editor.
 
 
 Motion Paths
@@ -38,9 +39,10 @@ Inverse Kinematics
    :Mode:      All Modes
    :Panel:     :menuselection:`Armature --> Inverse Kinematics`
 
-.. TODO2.8 .. figure:: /images/animation_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
+.. TODO2.8
+   .. figure:: /images/animation_armatures_posing_bone-constraints_inverse-kinematics_introduction_panel.png
 
-.. TODO2.8    The Inverse Kinematics panel.
+      The Inverse Kinematics panel.
 
 Defines the type of :doc:`IK solver </animation/armatures/posing/bone_constraints/inverse_kinematics/introduction>`
 used in your animation.
