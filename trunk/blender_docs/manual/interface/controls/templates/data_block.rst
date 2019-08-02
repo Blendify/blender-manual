@@ -38,9 +38,7 @@ New/Add (files icon)
    Creates a new data-block or duplicates the current data-block and applies it.
 Open file (folder icon)
    Opens the :doc:`File Browser </editors/file_browser>`.
-Unpack file
-   .. TODO2.8. confirm removal
-
+Unpack file (bin icon)
    :ref:`Unpack <pack-unpack-data>` the file packed into the current blend-file to external ones.
 Unlink data-block ``X``
    Clears the link. :kbd:`Shift-LMB` to set the users to zero
