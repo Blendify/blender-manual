@@ -156,8 +156,8 @@ Bevel Mapping Start/End
 Examples
 ========
 
-.. TODO2.8 Add some "simple" extrusion examples.
-   TODO2.8 Add some "bevel" extrusion with *Radius* examples.
+.. TODO Add some "simple" extrusion examples.
+        Add some "bevel" extrusion with *Radius* examples.
 
 
 Open 2D Curve

@@ -273,4 +273,5 @@ to easily distinguish them from other informative markers
 These markers can be moved to change the frame at which
 the active camera is changed to the object the marker is bound to.
 
-.. TODO2.8 .. figure:: /images/animation_markers_camera-switch.png
+.. TODO2.8
+	.. figure:: /images/animation_markers_camera-switch.png

@@ -18,9 +18,10 @@ when the selected inactive object is a mesh.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_relationship_shrinkwrap_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_relationship_shrinkwrap_panel.png
 
-.. TODO2.8    Shrinkwrap panel.
+      Shrinkwrap panel.
 
 Target
    :ref:`ui-data-id` used to select the constraint's target, which *must* be a mesh object,

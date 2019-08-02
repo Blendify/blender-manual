@@ -33,9 +33,10 @@ connected bones and a curve to constrain these bones to:
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_tracking_spline-ik_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_tracking_spline-ik_panel.png
 
-.. TODO2.8    Spline IK panel.
+      Spline IK panel.
 
 Target
    :ref:`ui-data-id` used to select the target curve.

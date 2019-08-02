@@ -18,9 +18,10 @@ It cannot be used for uneven floors or walls.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_relationship_floor_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_relationship_floor_panel.png
 
-.. TODO2.8    Floor panel.
+      Floor panel.
 
 Targets
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.

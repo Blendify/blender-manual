@@ -44,9 +44,10 @@ This constraint also works very well for 2D billboarding.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_tracking_locked-track_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_tracking_locked-track_panel.png
 
-.. TODO2.8    Locked track panel.
+      Locked track panel.
 
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.

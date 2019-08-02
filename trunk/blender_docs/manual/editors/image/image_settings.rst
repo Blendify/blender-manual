@@ -56,10 +56,11 @@ Unpack
 Image Panel
 ===========
 
-.. TODO2.8 figure:: /images/editors_uv-image_image_image-settings_movie-image-panel.png
-   :align: right
+.. TODO2.8
+   .. figure:: /images/editors_uv-image_image_image-settings_movie-image-panel.png
+      :align: right
 
-.. TODO2.8   Image panel.
+      Image panel.
 
 Image
    Data-block menu.
@@ -126,15 +127,16 @@ Generated
 
 Image generated in Blender.
 
-.. TODO2.8 .. list-table::
+.. TODO2.8
+   .. list-table::
 
-.. TODO2.8   * - .. figure:: /images/editors_image_image-settings_generated-image-panel.png
+      * - .. figure:: /images/editors_image_image-settings_generated-image-panel.png
 
-.. TODO2.8          Image panel for Generated source.
+             Image panel for Generated source.
 
-.. TODO2.8     - .. figure:: /images/editors_image_image-settings_generated-new-image.png
+        - .. figure:: /images/editors_image_image-settings_generated-new-image.png
 
-.. TODO2.8          The New Image pop-up menu.
+             The New Image pop-up menu.
 
 Width, Height
    The size of image in pixels.

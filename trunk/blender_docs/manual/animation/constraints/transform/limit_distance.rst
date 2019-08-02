@@ -22,9 +22,10 @@ correspond to the distance between the owner and this target.
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_transform_limit-distance_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_transform_limit-distance_panel.png
 
-.. TODO2.8    Limit Distance panel.
+      Limit Distance panel.
 
 Target
    :ref:`ui-data-id` used to select the constraint's target, and is not functional (red state) when it has none.

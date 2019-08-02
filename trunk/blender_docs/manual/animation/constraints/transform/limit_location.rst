@@ -32,9 +32,10 @@ using the *Transformation Properties* axis locking feature is probably easier!
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_transform_limit-location_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_transform_limit-location_panel.png
 
-.. TODO2.8    Limit Location panel.
+      Limit Location panel.
 
 Minimum X, Minimum Y, Minimum Z
    These buttons enable the lower boundary for the location of the owner's origin along,
