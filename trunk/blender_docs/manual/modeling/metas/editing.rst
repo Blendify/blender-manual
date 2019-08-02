@@ -71,11 +71,11 @@ Negative
 
       * - .. figure:: /images/modeling_metas_editing_family.png
 
-             Positive influence of three metaballs.
+             Positive influence of three meta balls.
 
         - .. figure:: /images/modeling_metas_editing_negative-influence.png
 
-             Negative influence of a metaball;
+             Negative influence of a meta ball;
              the first is negative and the second positive.
 
 Hide

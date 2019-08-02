@@ -40,7 +40,7 @@ for direct lighting or global illumination.
 Textures
 ========
 
-Blender has vearius built in procedural texture nodes,
+Blender has various built in procedural texture nodes,
 with texture coordinates and various parameters as input, and a color or value as output.
 No texture data-blocks are needed; instead node groups can be used for reusing texture setups.
 

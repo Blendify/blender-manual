@@ -98,7 +98,7 @@ Settings
 
 .. figure:: /images/render_post-process_color-management_panel.png
 
-            Render settings for color management.
+   Render settings for color management.
 
 
 Display
