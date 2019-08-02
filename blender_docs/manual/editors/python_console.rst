@@ -89,21 +89,21 @@ bpy.context
 Try It Out!
 ^^^^^^^^^^^
 
-bpy.context.mode
+``bpy.context.mode``
    Will print the current 3D View mode (Object, Edit, Sculpt, etc.).
 
-bpy.context.object or bpy.context.active_object
-   Will give access to the active object in the 3D View.
+``bpy.context.object`` or ``bpy.context.active_object``
+   Will give you access to the active object in the 3D View.
 
-Change X location to a value of 1::
+Change the X location to a value of 1::
 
    bpy.context.object.location.x = 1
 
-Move object from previous X location by 0.5 unit::
+Move the object from previous X location by 0.5 unit::
 
    bpy.context.object.location.x += 0.5
 
-Change X, Y, Z location::
+Change the X, Y, Z location::
 
    bpy.context.object.location = (1, 2, 3)
 
@@ -111,7 +111,7 @@ Change only the X, Y components::
 
    bpy.context.object.location.xy = (1, 2)
 
-Data type of object's location::
+The data type of object's location::
 
    type(bpy.context.object.location)
 

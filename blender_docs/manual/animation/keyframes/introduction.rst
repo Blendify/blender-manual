@@ -91,4 +91,4 @@ Horizontal green lines mark the use of non-Bézier :ref:`Interpolation <editors-
 The line is dimmed in summary rows if not all grouped channels have the same interpolation.
 
 Display of this information can be disabled via the *Show Handles and Interpolation*
-option of the Dope Sheet`s :ref:`View Menu <dope-sheet-view-menu>`.
+option of the Dope Sheet's :ref:`View Menu <dope-sheet-view-menu>`.
