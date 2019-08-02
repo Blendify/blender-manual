@@ -26,10 +26,11 @@ Make Regular
 Properties
 ==========
 
-.. TODO2.8 .. figure:: /images/animation_lattice_panel.png
-.. TODO2.8    :align: right
+.. TODO2.8
+	.. figure:: /images/animation_lattice_panel.png
+      :align: right
 
-.. TODO2.8    Lattice properties.
+      Lattice properties.
 
 Lattice
    A :ref:`ui-data-block`.

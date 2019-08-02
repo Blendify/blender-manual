@@ -16,9 +16,10 @@ The *Copy Location* constraint forces its owner to have the same location as its
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_transform_copy-location_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_transform_copy-location_panel.png
 
-.. TODO2.8    Copy Location panel.
+      Copy Location panel.
 
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.

@@ -28,9 +28,10 @@ compared to the traditional method:
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_relationship_child-of_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_relationship_child-of_panel.png
 
-.. TODO2.8    Child Of panel.
+      Child Of panel.
 
 Target
    The target object that this object will act as a child of.

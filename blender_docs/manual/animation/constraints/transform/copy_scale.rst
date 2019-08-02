@@ -18,9 +18,10 @@ The *Copy Scale* constraint forces its owner to have the same scale as its targe
 Options
 =======
 
-.. TODO2.8 .. figure:: /images/animation_constraints_transform_copy-scale_panel.png
+.. TODO2.8
+	.. figure:: /images/animation_constraints_transform_copy-scale_panel.png
 
-.. TODO2.8    Copy Scale panel.
+      Copy Scale panel.
 
 Target
    :ref:`ui-data-id` used to select the constraints target,
