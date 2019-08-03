@@ -1,4 +1,4 @@
-.. TODO2.8 Move target: move to ui data id if proof.
+.. TODO Move target: move to ui data id if proof.
 
 ******
 Common

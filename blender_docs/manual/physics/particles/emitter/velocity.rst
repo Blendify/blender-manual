@@ -13,7 +13,6 @@ based on the type of the particle system.
 If the particle system type is Emitter or Hair,
 then the following parameters give the particle an initial velocity.
 
-
 Normal
    The emitter's surface normals (i.e. let the surface normal give the particle a starting speed).
 Tangent

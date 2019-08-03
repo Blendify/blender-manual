@@ -33,76 +33,33 @@ We do not show every possible combination,
 only the settings for a *Hair* particle system.
 
 
-Options
-=======
+Common Options
+==============
 
 Child Type
-----------
-
-None
-^^^^
-
-No Children are generated.
-
-
-Simple
-^^^^^^
-
-Children are emitted from the parent position.
-
-Size
-   Only for *Emitter*. A multiplier for children size.
-Random
-   Random variation to the size of child particles.
-
-
-Interpolated
-^^^^^^^^^^^^
-
-Children are emitted between the *Parent* particles on the faces of a mesh.
-They interpolate between adjacent parents. This is especially useful for fur,
-because you can achieve an even distribution.
-Some of the children can become virtual parents, which are influencing other particles nearby.
-
-Seed
-   Offset the random number table for child particles, to get a different result.
-Virtual
-   Relative amount of virtual parents.
-Long Hair
-   Calculate children that suit long hair well.
-
-
-Common Options
-^^^^^^^^^^^^^^
-
-Display
+   None
+      No children are generated.
+   Simple
+      Children are emitted from the parent position.
+   Interpolated
+      Children are emitted between the *Parent* particles on the faces of a mesh.
+      They interpolate between adjacent parents. This is especially useful for fur,
+      because you can achieve an even distribution.
+      Some of the children can become virtual parents, which are influencing other particles nearby.
+Display Amount
    The number of children in the 3D View.
-Render
+Render Amount
    The number of children to be rendered.
-
-
-Effects
--------
-
-.. figure:: /images/physics_particles_emitter_children_round-clump.png
-
-   From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
-
 Length
    Length of child paths.
 Threshold
    Amount of particles left untouched by child path length.
-Size
-   The radius in which the children are distributed around their parents.
-   This is 3D, so children may be emitted higher or lower than their parents.
-Roundness
-   The roundness of the children around their parents. Either in a sphere (1.0) or in-plane (0.0).
 Seed
    Offset in the random number table for child particles, to get a different randomized result.
 
 
 Clumping
-^^^^^^^^
+--------
 
 .. admonition:: Reference
    :class: refbox
@@ -116,15 +73,23 @@ Clump
    The children may meet at their tip (1.0) or start together at their root (-1.0).
 Shape
    Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
-Use Clump Noise
-   Creates random clumps around the parent hair.
+Twist
+   Todo.
+Use Twist Curve
+   Todo.
 
-   Clump Noise Size
-      The size of the clumps.
+
+Clump Noise
+^^^^^^^^^^^
+
+Creates random clumps around the parent hair.
+
+Clump Noise Size
+   The size of the clumps.
 
 
 Roughness
-^^^^^^^^^
+---------
 
 .. admonition:: Reference
    :class: refbox
@@ -145,7 +110,7 @@ Random, Size, Threshold
 
 
 Kink
-^^^^
+----
 
 .. admonition:: Reference
    :class: refbox
@@ -199,3 +164,41 @@ Frequency
    The frequency of the offset (1/total length). The higher the frequency the more rotations are done.
 Shape
    Where the rotation starts (offset of rotation).
+
+
+Simple
+======
+
+Size
+   Only for *Emitter*. A multiplier for children size.
+Random Size
+   Random variation to the size of child particles.
+
+Radius
+   The radius in which the children are distributed around their parents.
+   This is 3D, so children may be emitted higher or lower than their parents.
+Roundness
+   The roundness of the children around their parents. Either in a sphere (1.0) or in-plane (0.0).
+
+
+Interpolated
+============
+
+Virtual Parents
+   Relative amount of virtual parents.
+Long Hair
+   Calculate children that suit long hair well.
+
+
+Parting
+-------
+
+TODO.
+
+
+Example
+=======
+
+.. figure:: /images/physics_particles_emitter_children_round-clump.png
+
+   From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.

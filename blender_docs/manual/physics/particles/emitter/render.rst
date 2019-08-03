@@ -14,14 +14,20 @@ The Render Panel controls how particles appear when they are rendered.
 
    Cycles supports only Object and Collection render types.
 
-Show Emitter
-   When disabled, the emitter is no longer rendered. Activate the button *Emitter* to also render the mesh.
-
 
 Common Settings
 ===============
 
-TODO2.8.
+Scale
+   Todo.
+Scale Randomness
+   Todo.
+Material
+   Set which of the object's materials is used to shade the particles.
+Coordinates System
+   Use a different object's coordinates to determine the birth of particles.
+Show Emitter
+   When disabled, the emitter is no longer rendered. Activate the button *Emitter* to also render the mesh.
 
 
 Render As
@@ -67,15 +73,6 @@ Steps
    But how low you can go with this value depends on the waviness of the hair (the value is a power of 2).
    This means 0 steps give 1 subdivision,
    1 give 2 subdivisions, 2 --> 4, 3 --> 8, 4 --> 16, ... *n* --> *n*\ :sup:`2`.
-
-
-Common Settings
-===============
-
-Material
-   Set which of the object's materials is used to shade the particles.
-Coordinates System
-   Use a different object's coordinates to determine the birth of particles.
 
 
 Timing

@@ -36,7 +36,7 @@ allowing them to affect other dynamic systems, or even, each other.
 
 Self Effect
    Causes the particle force fields to have an effect on other particles within the same system.
-Amount
+Effector Amount
    Set how many of the particles act as force fields. 0 means all of them are effectors.
 
 You can give particle systems up to two force fields. By default they do not have any.
