@@ -24,7 +24,7 @@ The *Emitter* particle system uses a unified system for caching and baking (toge
 
 
 Hints
------
+=====
 
 - The simulation is only calculated for positive frames
   in between the *Start* and *End* frames of the *Cache* panel, whether you bake or not.

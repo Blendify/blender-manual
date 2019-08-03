@@ -12,14 +12,10 @@ Hair Dynamics
 Hair particles can have dynamic properties using physics.
 To enable hair physics, click the checkbox beside *Hair Dynamics*.
 
-
-Options
-=======
-
 Quality Steps
    Quality of the simulation in steps per frame (higher is better quality but slower).
 
-Goal Strength
+Pin Goal Strength
    Spring stiffness of the vertex target position.
 
 .. warning::
@@ -29,7 +25,7 @@ Goal Strength
 
 
 Structure
----------
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -49,7 +45,7 @@ Damping
 
 
 Volume
-------
+======
 
 .. admonition:: Reference
    :class: refbox
@@ -64,12 +60,10 @@ Air Drag
    Controls how thick the air is around the hair causing the hair to flow slower.
 Internal Friction
    Amount of friction between individual hairs.
+Voxel Grid Cell Size
+   Size of the voxel grid cells for interaction effects.
 
 Density Target
    Maximum density if the hair.
-
-   Strength
-      The influence that the *Density Target* has on the simulation.
-
-Voxel Grid Cell Size
-   Size of the voxel grid cells for interaction effects.
+Density Strength
+   The influence that the *Density Target* has on the simulation.

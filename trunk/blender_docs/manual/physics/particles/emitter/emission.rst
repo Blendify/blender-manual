@@ -6,7 +6,7 @@ Emission
 .. admonition:: Reference
    :class: refbox
 
-   :Panel:     :menuselection:`Particle System`
+   :Panel:     :menuselection:`Particle System --> Emission`
 
 The *Emitter* system works just like its name says: it emits/produces particles for a certain amount of time.
 In such a system, particles are emitted from the selected object from the *Start*
@@ -15,16 +15,6 @@ These particles are rendered default as :ref:`Halos <particle-halo>`,
 but you may also render these kind of particles as objects
 (depending on the particle system's render settings,
 see :doc:`Visualization </physics/particles/emitter/render>`).
-
-
-Settings
-========
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Panel:     :menuselection:`Particle System --> Emission`
-
 
 .. TODO2.8:
    .. figure:: /images/physics_particles_emitter_emission_settings.png
@@ -55,64 +45,33 @@ Lifetime Randomness
 
 
 Source
-------
+======
 
 .. admonition:: Reference
    :class: refbox
 
    :Panel:     :menuselection:`Particle System --> Emission --> Source`
 
-*Emit From* parameters define how and where the particles are emitted,
-giving precise control over their distribution. You may use vertex groups to confine the emission,
-that is done in the *Vertex Groups* panel.
+Emit From
+   Defines how and where the particles are emitted,
+   giving precise control over their distribution.
 
-Vertices
-   Emits particles from the vertices of a mesh.
-Faces
-   Emits particles from the surface of a mesh's faces.
-Volume
-   Emits particles from the volume of an enclosed mesh.
+   .. tip::
 
+      You may use vertex groups to confine the emission, that is done in the *Vertex Groups* panel.
 
-Distribution Settings
-^^^^^^^^^^^^^^^^^^^^^
+   Vertices
+      Emits particles from the vertices of a mesh.
+   Faces
+      Emits particles from the surface of a mesh's faces.
+   Volume
+      Emits particles from the volume of an enclosed mesh.
 
-These settings control how the emissions of particles are distributed throughout the emission
-locations.
+      .. tip::
 
-Random
-   The emitter element indices are gone through in a random order instead of linearly (one after the other).
-
-For Faces and Volume, additional options appear:
-
-Even Distribution
-   Particle distribution is made even based on surface area of the elements,
-   i.e. small elements emit less particles than large elements, so that the particle density is even.
-Jittered
-   Particles are placed at jittered intervals on the emitter elements.
-
-   Particles/Face
-      Number of emissions per face (0 = automatic).
-   Jittering Amount
-      Amount of jitter applied to the sampling.
-Random
-   Particles are emitted from random locations in the emitter's elements.
-Grid
-   Particles are set in a 3D grid and particles near/in the elements are kept.
-
-   Invert Grid
-      Invert what is considered the object and what is not.
-   Hexagonal
-      Uses a hexagonal-shaped grid instead of a rectangular one.
-   Resolution
-      Resolution of the grid.
-   Random
-      Add a random offset to grid locations.
-
-.. tip:: Your mesh must be :term:`manifold` to emit particles from the volume.
-
-   Some modifiers like the Edge Split Modifier break up the surface,
-   in which case volume emission will not work correctly!
+         Your mesh must be :term:`manifold` to emit particles from the volume.
+         Some modifiers like the Edge Split Modifier break up the surface,
+         in which case volume emission will not work correctly!
 
 Use Modifier Stack
    Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the Particle Modifier
@@ -123,3 +82,37 @@ Use Modifier Stack
 
       Note that particles may differ in the final render if these modifiers
       generate different geometry between the viewport and render.
+
+Distribution
+   These settings control how the emissions of particles are distributed
+   throughout the emission locations when emitting from either *Faces* or *Volume*.
+
+   Jittered
+      Particles are placed at jittered intervals on the emitter elements.
+
+      Particles/Face
+         Number of emissions per face (0 = automatic).
+      Jittering Amount
+         Amount of jitter applied to the sampling.
+   Random
+      Particles are emitted from random locations in the emitter's elements.
+   Grid
+      Particles are set in a 3D grid and particles near/in the elements are kept.
+
+      Invert Grid
+         Invert what is considered the object and what is not.
+      Hexagonal
+         Uses a hexagonal-shaped grid instead of a rectangular one.
+      Resolution
+         Resolution of the grid.
+      Random
+         Add a random offset to grid locations.
+
+Random Order
+   The emitter element indices are gone through
+   in a random order instead of linearly (one after the other).
+
+   Not available for *Grid* distribution.
+Even Distribution
+   Particle distribution is made even based on surface area of the elements,
+   i.e. small elements emit less particles than large elements, so that the particle density is even.

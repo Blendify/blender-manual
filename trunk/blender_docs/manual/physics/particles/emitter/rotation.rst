@@ -18,13 +18,6 @@ These parameters specify how the individual particles are rotated during their t
 To visualize the rotation of a particle you should choose visualization type *Axis*
 in the Visualization panel and increase the *Display Size*.
 
-
-Options
-=======
-
-Initial Rotation
-----------------
-
 Orientation Axis
    Sets the initial rotation of the particle by aligning the X axis in the direction of:
 
@@ -60,7 +53,7 @@ Dynamic
 
 
 Angular Velocity
-----------------
+================
 
 .. admonition:: Reference
    :class: refbox

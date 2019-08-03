@@ -31,13 +31,13 @@ Display As
       This is useful if you want to see the orientation and rotation of particles in the viewport.
       Increase the *Display Size* until you can clearly distinguish the axis.
 
-Particles visualized like Point, Circle, Cross and Axis do not have any special options,
-but can be very useful when you have multiple particle systems at play,
-if you do not want to confuse particles of one system from another
-(e.g. in simulations using *Boids* physics).
+   .. note::
 
-Amount
-   Specifies the percentage of all particles to show in the viewport (all particles are still rendered).
+      Particles visualized like Point, Circle, Cross and Axis do not have any special options,
+      but can be very useful when you have multiple particle systems at play,
+      if you do not want to confuse particles of one system from another
+      (e.g. in simulations using *Boids* physics).
+
 Color
    The Color Menu allows you to display particle's color according to certain particle properties.
 
@@ -52,5 +52,7 @@ Color
       Increasing *Max* allows for a wider range of particle velocities.
    Acceleration
       Color particles according to their acceleration.
+Amount
+   Specifies the percentage of all particles to show in the viewport (all particles are still rendered).
 Show Emitter
    Make instancer visible in viewport.
