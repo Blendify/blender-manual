@@ -17,8 +17,8 @@ state of the object.
    Colors are themeable and might appear different. The colors described here
    are from the default Dark Theme.
 
-:Orange: Object is active.
-:Yellow: Object is selected, but not active.
+:Yellow: Object is active.
+:Orange: Object is selected, but not active.
 :White: Object is not linked and not selected.
 :Turquoise: Object is linked.
 :Light Turquoise: Object is selected, linked, but not active.
