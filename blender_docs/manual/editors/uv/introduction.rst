@@ -138,12 +138,6 @@ Sidebar Region
 Image Tab
 ^^^^^^^^^
 
-.. TODO2.8:
-   .. figure:: /images/editors_uv_introduction_uv-vertex.png
-      :align: right
-
-      Image tab.
-
 UV Vertex
    Transform Properties :doc:`Selecting UVs </modeling/meshes/editing/uv/layout>`.
 
