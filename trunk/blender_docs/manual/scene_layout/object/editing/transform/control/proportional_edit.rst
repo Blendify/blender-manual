@@ -114,7 +114,7 @@ Connected Only
 .. _3dview-transform-control-proportional-edit-falloff:
 
 Falloff
-   While editing, you can change the curve profile used by either using
+   While editing, you can change the curve profile used by either
    using the header icon *Falloff* menu, or by pressing :kbd:`Shift-O` to toggle between the various options.
 
 .. list-table::
