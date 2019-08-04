@@ -7,19 +7,18 @@ Edge Tools
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges`
+   :Menu:      :menuselection:`Edge`
    :Hotkey:    :kbd:`Ctrl-E`
 
 
-Make Edge/Face
+New Edge/Face from Vertices
 ==============
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Mesh Tools --> Add: Make Edge/Face`
-   :Menu:      :menuselection:`Mesh --> Edges --> Make Edge/Face`
+   :Menu:      :menuselection:`Vertex --> New Edge/Face from Vertices`
    :Hotkey:    :kbd:`F`
 
 It will create an edge or some faces, depending on your selection.
@@ -42,7 +41,7 @@ Mark Seam and Clear Seam
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam`
+   :Menu:      :menuselection:`Edge --> Mark Seam/Clear Seam`
 
 Seams are a way to create separations, "islands", in UV maps.
 See the :ref:`UV Mapping section <editors-uv-index>` for more details.
@@ -58,7 +57,7 @@ Mark Sharp and Clear Sharp
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Mark Sharp/Clear Sharp`
+   :Menu:      :menuselection:`Edge --> Mark Sharp/Clear Sharp`
 
 The *Sharp* flag is used by the :ref:`split normals <auto-smooth>`
 and the :doc:`Edge Split </modeling/modifiers/generate/edge_split>` modifier,
@@ -76,7 +75,7 @@ Adjust Bevel Weight
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Edge Bevel Weight`
+   :Menu:      :menuselection:`Edge --> Edge Bevel Weight`
                :menuselection:`Sidebar region --> Transform --> Edge Bevel Weight`
 
 This edge property, a value between (0.0 to 1.0),
@@ -104,7 +103,7 @@ Edge Crease
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Edge Crease`
+   :Menu:      :menuselection:`Edge --> Edge Crease`
                :menuselection:`Sidebar region --> Transform --> Edge Crease`
    :Hotkey:    :kbd:`Shift-E`
 
@@ -129,8 +128,7 @@ Edge Slide
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Mesh Tools --> Deform: Slide Edge`
-   :Menu:      :menuselection:`Mesh --> Edges --> Slide Edge`
+   :Menu:      :menuselection:`Edge --> Edge Slide`
 
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
 of edges (i.e. the selection *must* define a valid loop, see below).
@@ -238,7 +236,7 @@ Rotate Edge
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
+   :Menu:      :menuselection:`Edge --> Rotate Edge CW / Rotate Edge CCW`
 
 Rotating an edge clockwise (CW) or counter-clockwise (CCW) spins an edge between two faces around their vertices.
 This is very useful for restructuring a mesh's topology.
@@ -275,7 +273,7 @@ Edge Split
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Edge Split`
+   :Menu:      :menuselection:`Edge --> Edge Split`
 
 *Edge Split* is similar to the *Rip* tool. When two or more touching interior edges,
 or a border edge is selected when using *Edge Split*,
@@ -304,7 +302,7 @@ Bridge Edge Loops
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Edges --> Bridge Edge Loops`
+   :Menu:      :menuselection:`Edge --> Bridge Edge Loops`
 
 *Bridge Edge Loops* connects multiple edge loops with faces.
 

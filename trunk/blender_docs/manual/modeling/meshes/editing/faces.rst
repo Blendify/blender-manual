@@ -7,36 +7,10 @@ Face Tools
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces`
+   :Menu:      :menuselection:`Face`
    :Hotkey:    :kbd:`Ctrl-F`
 
 These are tools that manipulate faces.
-
-
-Make Edge/Face
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Make Edge/Face`
-   :Hotkey:    :kbd:`F`
-
-This will create an edge or some faces, depending on your selection.
-Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/make_face_edge>`.
-
-.. list-table::
-
-   * - .. figure:: /images/modeling_meshes_editing_faces_closed-perimeter.png
-          :width: 320px
-
-          A closed perimeter of edges.
-
-     - .. figure:: /images/modeling_meshes_editing_faces_closed-perimeter-filled.png
-          :width: 320px
-
-          Filled using fill.
 
 
 .. _modeling-meshes-editing-fill:
@@ -48,7 +22,7 @@ Fill
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Fill`
+   :Menu:      :menuselection:`Face --> Fill`
    :Hotkey:    :kbd:`Alt-F`
 
 The *Fill* option will create *triangular* faces from any group of selected edges
@@ -84,8 +58,8 @@ Beautify Faces
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Beautify Faces`
-   :Hotkey:    :kbd:`Shift-Alt-F`
+   :Menu:      :menuselection:`Face --> Beautify Faces`
+   :Hotkey:    None
 
 *Beautify Faces* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
@@ -115,7 +89,7 @@ Grid Fill
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Grid Fill`
+   :Menu:      :menuselection:`Face --> Grid Fill`
 
 *Grid Fill* uses a pair of connected edge loops or a single, closed edge loop to fill in a grid
 that follows the surrounding geometry.
@@ -155,7 +129,7 @@ Solidify
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Solidify`
+   :Menu:      :menuselection:`Face --> Solidify Faces`
 
 This takes a selection of faces and solidifies them by extruding them
 uniformly to give volume to a :term:`non-manifold` surface.
@@ -195,7 +169,7 @@ Intersect (Knife)
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Intersect (Knife)`
+   :Menu:      :menuselection:`Face --> Intersect (Knife)`
 
 The Intersect tool lets you cut intersections into geometry.
 It is a bit like Boolean Tool, but, does not calculate interior/exterior.
@@ -252,7 +226,7 @@ Wireframe
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Wire frame`
+   :Menu:      :menuselection:`Face --> Wire frame`
 
 The Wireframe tool makes a wireframe from faces by turning edges into wireframe tubes,
 similar to the :doc:`/modeling/modifiers/generate/wireframe`.
@@ -265,8 +239,8 @@ Poke Faces
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Poke Faces`
-   :Hotkey:    :kbd:`Alt-P`
+   :Menu:      :menuselection:`Faces --> Poke Face`
+   :Hotkey:    None
 
 Splits each selected faces into a triangle fan,
 create a new center vertex and create triangles between original face edges
@@ -296,7 +270,7 @@ Triangulate Faces
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Triangulate Faces`
+   :Menu:      :menuselection:`Face --> Triangulate Faces`
    :Hotkey:    :kbd:`Ctrl-T`
 
 This tool converts each selected faces (whether it be quads or n-gons) to triangular faces.
@@ -312,7 +286,7 @@ Triangles to Quads
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Triangles to Quads`
+   :Menu:      :menuselection:`Face --> Triangles to Quads`
    :Hotkey:    :kbd:`Alt-J`
 
 This tool converts the selected triangles into quads by taking adjacent triangles and
@@ -374,7 +348,7 @@ Weld Edges into Faces
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Weld Edges into Faces`
+   :Menu:      :menuselection:`Face --> Weld Edges into Faces`
 
 A tool to split selected faces by loose wire edges.
 This can be used in a similar way to the Knife tool, but the edges are manually setup first.
@@ -387,7 +361,7 @@ Rotate Edges
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Rotate Edge CW`
+   :Menu:      :menuselection:`Face --> Rotate Edge CW`
 
 This tool functions the same edge rotation in edge mode.
 It works on the shared edge between two faces and rotates that edge if the edge was selected.
