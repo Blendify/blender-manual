@@ -8,18 +8,9 @@ Collections
 There can be many objects in a scene: A typical stage scene consists of furniture, props,
 lights, and backdrops.
 Blender helps you keep everything organized by allowing you to group like objects together.
-
-.. _fig-view3d-collection-objects:
-
-.. figure:: /images/scene-layout_collections_collections_cubes.png
-
-   Objects grouped together in a Collection.
-
-Group objects together without any kind of transformation relationship.
-Use collections to just logically organize your scene,
+Objects can be grouped together without any kind of transformation relationship (unlike parenting).
+Collections are used to just logically organize your scene,
 or to facilitate one-step appending or linking between files or across scenes.
-Objects that are part of a collection always shows as light green when selected.
-See Fig. :ref:`fig-view3d-collection-objects`.
 
 
 Collections Menu
