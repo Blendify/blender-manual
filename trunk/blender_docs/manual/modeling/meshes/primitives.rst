@@ -8,7 +8,6 @@ Primitives
    :class: refbox
 
    :Mode:      Object Mode and Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Create --> Add Primitive/Mesh`
    :Menu:      :menuselection:`Add --> Mesh`
    :Hotkey:    :kbd:`Shift-A`
 

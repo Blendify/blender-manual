@@ -44,8 +44,8 @@ Reverse
 
 .. hint:: Enabling the Display Indices Option
 
-   Type ``bpy.app.debug = True`` into the Python Console and a checkbox will appear
-   in the Sidebar region under :menuselection:`Mesh Display --> Edge Info --> Indices`.
+   Enable the *Developer Extras* Option in :menuselection:`Preferences --> Interface --> Display` panel,
+   a checkbox will appear in :menuselection:`Display & Shading Menu --> Viewport Overlay --> Developer --> Indices`.
 
 
 .. _object-separate:
