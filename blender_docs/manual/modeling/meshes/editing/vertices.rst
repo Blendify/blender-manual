@@ -65,19 +65,17 @@ UVs
    if existing, will be corrected to avoid image distortion.
 
 
-AutoMerge Editing
------------------
+Auto Merge
+----------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> AutoMerge Editing`
+   :Menu:      :menuselection:`Sidebar --> Options --> Tool --> Auto Merge`
 
-The *Mesh* menu as a related toggle option: *AutoMerge Editing*.
-When enabled,
-as soon as a vertex moves closer to another one than the *Limit* setting
-(:menuselection:`Mesh Tools panel --> Double Threshold`), they are automatically merged.
+When the *Auto Merge* option is enabled, as soon as a vertex moves closer to another one 
+than the *Threshold* setting, they are automatically merged.
 This option affects interactive operations only
 (tweaks made in the :ref:`ui-undo-redo-adjust-last-operation` panel are considered interactive too).
 If the exact spot where a vertex is moved contains more than one vertex,
@@ -172,8 +170,8 @@ If your selection includes some edges or vertices that are not "between" two fac
 it will also fail with message *"No proper selection or faces include"*.
 
 
-Rip Region Fill
----------------
+Rip Vertices and Fill
+---------------------
 
 .. admonition:: Reference
    :class: refbox

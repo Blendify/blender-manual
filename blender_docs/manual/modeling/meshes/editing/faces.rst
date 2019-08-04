@@ -198,7 +198,7 @@ Intersect (Boolean)
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Intersect (Boolean)`
+   :Menu:      :menuselection:`Face --> Intersect (Boolean)`
 
 Performs boolean operations with the selection on the unselected geometry.
 While the :doc:`/modeling/modifiers/generate/booleans` is useful for non-destructive edits,
