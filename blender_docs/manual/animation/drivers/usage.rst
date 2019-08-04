@@ -67,6 +67,19 @@ Drivers can be copied and pasted via the context menu.
 When adding drivers with the same settings, this can save time modifying settings.
 
 
+Copy As New Driver
+==================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Context menu --> Copy As New Driver`
+
+A driver that sets the property value to the value of a different property can be
+quickly created by using the *Copy As New Driver* context menu option of the input
+property, and then pasting the result on the output property via *Paste Driver*.
+
+
 Expression
 ==========
 

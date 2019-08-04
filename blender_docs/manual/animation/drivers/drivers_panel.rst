@@ -124,8 +124,12 @@ Variable Type
          The RNA name of the property, based on a subset of Python attribute access syntax.
          For example: ``location.x`` or ``location[0]`` for the raw X location value.
 
-         The most convenient way to set the path is to paste the result of *Copy Data Path*
-         from the context menu of the desired property.
+      .. tip::
+
+         The easiest way to create a variable of this type is to use the *Copy As New Driver*
+         context menu option of the input property. After that you can apply the new driver to
+         a different property using *Paste Driver*, or add just the new variable to an existing
+         driver via *Paste Driver Variables*.
 
    Transform Channel
       Retrieves the value of a Transform channel from an object or bone.

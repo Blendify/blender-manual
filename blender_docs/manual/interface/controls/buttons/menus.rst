@@ -124,6 +124,10 @@ Unset
 Copy Data Path
    Copies the Python property Data path, relative to the data-block.
    Useful for Python scripting.
+Copy As New Driver
+   Creates a new driver using this property as input, and copies it to the clipboard.
+   Use Paste Driver to add the driver to a different property, or Paste Driver Variables
+   to extend an existing driver with a new input variable.
 Copy To Selected
    Copies the property value to the selected object's corresponding property.
    A use case is if the Properties editor context is pinned.
