@@ -6,8 +6,7 @@ Introduction
 Blender provides a variety of tools for editing meshes.
 These are tools used to add, duplicate, move and delete elements.
 
-These are available through the *Mesh Tools* panel in the Toolbar,
-the Mesh menu in the 3D View header, and context menus in the 3D View,
+These are available through the Menus in the 3D View header, and context menus in the 3D View,
 as well as individual shortcut keys.
 
 .. note::
@@ -32,18 +31,10 @@ Accessing Mesh Tools
 The mesh tools are found in various places, and available through shortcuts as well.
 
 
-Mesh Tools Shelf
-----------------
-
-When you select a mesh and :kbd:`Tab` into edit mode,
-the *Toolbar* changes from *Object Tools* to *Mesh Tools*.
-These are only some of the mesh editing tools.
-
-
 Menus
 -----
 
-The *Mesh* menu is located in the header.
+These menus are located in the header.
 Some of the menus can be accessed with shortcuts:
 
 - :kbd:`Ctrl-F` brings up the Face tool menu

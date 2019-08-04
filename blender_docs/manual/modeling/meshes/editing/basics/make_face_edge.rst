@@ -7,7 +7,7 @@ Make Edge/Face
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Faces --> Make Face/Edge`
+   :Menu:      :menuselection:`Vertex --> New Edge/Face from Vertices`
    :Hotkey:    :kbd:`F`
 
 This is a context-sensitive tool which creates geometry by filling in the selection.

@@ -20,9 +20,8 @@ Data
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Edit --> Data`
-   :Menu:      :menuselection:`Object --> Transfer Mesh Data`
-   :Hotkey:    :kbd:`Shift-Ctrl-T`
+   :Menu:      :menuselection:`Object --> Relations --> Transfer Mesh Data`
+   :Hotkey:    None
 
 Transfers data layer(s) from active to selected meshes.
 
@@ -180,8 +179,7 @@ Data Layout
    :class: refbox
 
    :Mode:      Object Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Edit --> Data Layout`
-   :Menu:      :menuselection:`Object --> Transfer Mesh Data Layout`
+   :Menu:      :menuselection:`Object --> Relations --> Transfer Mesh Data Layout`
 
 Transfers layout of data layer(s) from active to selected meshes.
 

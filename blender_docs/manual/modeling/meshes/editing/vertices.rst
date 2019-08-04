@@ -7,10 +7,10 @@ Vertex Tools
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices`
+   :Menu:      :menuselection:`Vertex`
    :Hotkey:    :kbd:`Ctrl-V`
 
-This page covers many of the tools in the :menuselection:`Mesh --> Vertices` menu.
+This page covers many of the tools in the :menuselection:`Vertex` menu.
 These are tools that work primarily on vertex selections, however,
 some also work with edge or face selections.
 
@@ -27,9 +27,8 @@ Merging Vertices
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Mesh Tools --> Remove: Merge`
-   :Menu:      :menuselection:`Mesh --> Vertices --> Merge...`,
-               :menuselection:`Specials --> Merge`
+   :Menu:      :menuselection:`Vertex --> Merge...`,
+               :menuselection:`Context Menu --> Merge`
    :Hotkey:    :kbd:`Alt-M`
 
 This tool allows you to merge all selected vertices to a unique one, dissolving all others.
@@ -92,9 +91,8 @@ Merge by Distance
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Mesh Tools --> Remove: Merge by Distance`
-   :Menu:      :menuselection:`Mesh --> Vertices --> Merge by Distance`,
-               :menuselection:`Specials --> Merge by Distance`
+   :Menu:      :menuselection:`Vertex --> Merge by Distance`,
+               :menuselection:`Context Menu --> Merge by Distance`
 
 Merge by Distance is a useful tool to simplify a mesh by merging the selected vertices that
 are closer than a specified distance to each other.
@@ -119,7 +117,7 @@ Rip Region
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Rip`
+   :Menu:      :menuselection:`Vertex --> Rip Vertices`
    :Hotkey:    :kbd:`V`
 
 Rip creates a "hole" into a mesh by making a copy of selected vertices and edges,
@@ -181,7 +179,7 @@ Rip Region Fill
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Rip Fill`
+   :Menu:      :menuselection:`Vertex --> Rip Vertices and Fill`
    :Hotkey:    :kbd:`Alt-V`
 
 Rip fill works the same as the Rip tool above, but instead of leaving a hole,
@@ -207,7 +205,7 @@ Split
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Split`
+   :Menu:      :menuselection:`Mesh --> Split`
    :Hotkey:    :kbd:`Y`
 
 Splits (disconnects) the selection from the rest of the mesh.
@@ -226,7 +224,7 @@ Rip Edge
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Extend Vertices`
+   :Menu:      :menuselection:`Vertex --> Rip Vertices and Extend`
    :Hotkey:    :kbd:`Alt-D`
 
 This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
@@ -243,7 +241,7 @@ Separate
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Separate`
+   :Menu:      :menuselection:`Mesh --> Separate`
    :Hotkey:    :kbd:`P`
 
 The Separate tool will `Split`_ mesh elements in another mesh object.
@@ -267,8 +265,7 @@ Vertex Slide
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Mesh Tools --> Deform: Vertex`
-   :Menu:      :menuselection:`Mesh --> Vertices --> Vertex Slide`
+   :Menu:      :menuselection:`Vertex --> Slide  Vertices`
    :Hotkey:    :kbd:`Shift-V`
 
 Vertex Slide will transform a vertex along one of its adjacent edges.
@@ -311,9 +308,8 @@ Smooth Vertex
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Mesh Tools --> Deform: Smooth Vertex`
-   :Menu:      :menuselection:`Mesh --> Vertices --> Smooth Vertex`,
-               :menuselection:`Specials --> Smooth`
+   :Menu:      :menuselection:`Vertex --> Smooth Vertices`,
+               :menuselection:`Context Menu --> Smooth`
 
 This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>`.
 
@@ -325,7 +321,7 @@ Convex Hull
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Convex Hull`
+   :Menu:      :menuselection:`Mesh --> Convex Hull`
 
 The Convex Hull operator takes a point cloud as input and outputs a convex hull surrounding those vertices.
 If the input contains edges or faces that lie on the convex hull, they can be used in the output as well.
@@ -363,7 +359,7 @@ Make Vertex Parent
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Make Vertex Parent`
+   :Menu:      :menuselection:`Vertex --> Make Vertex Parent`
    :Hotkey:    :kbd:`Ctrl-P`
 
 This will parent the other selected object(s) to the vertices/edges/faces selected,
@@ -377,7 +373,7 @@ Add Hook
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Vertices --> Add Hook`
+   :Menu:      :menuselection:`Vertex --> Hooks`
    :Hotkey:    :kbd:`Ctrl-H`
 
 Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
@@ -422,8 +418,8 @@ Blend From Shape, Propagate Shapes
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`(Vertex) Specials --> Blend From Shape` and
-               :menuselection:`Mesh --> Vertices --> Shape Propagate`
+   :Menu:      :menuselection:`Vertex --> Blend From Shape` and
+               :menuselection:`Vertex --> Shape Propagate`
 
 These are options regarding :doc:`shape keys </animation/shape_keys/index>`.
 

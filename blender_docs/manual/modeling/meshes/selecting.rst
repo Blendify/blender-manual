@@ -231,7 +231,7 @@ Select Loops
 ------------------------
 
 Select Linked
-   `Linked <Select Linked>`_
+   `Select Linked`_
       Selects all components that are connected to the current selection (see `Select Linked`_).
    `Shortest Path`_
       Path between two selected elements.
@@ -418,7 +418,7 @@ Edge Loops
    :class: refbox
 
    :Mode:      Edit Mode --> Vertex or Edge select mode
-   :Menu:      :menuselection:`Select --> Edge Loop`
+   :Menu:      :menuselection:`Select -->Select Loops --> Edge Loops`
    :Hotkey:    :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
@@ -502,7 +502,7 @@ Edge Ring
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> Edge Ring`
+   :Menu:      :menuselection:`Select --> Select Loops --> Edge Rings`
    :Hotkey:    :kbd:`Ctrl-Alt-LMB`
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
@@ -510,8 +510,7 @@ while selecting an edge (or two vertices) selects a sequence of edges that are n
 but on opposite sides to each other continuing along a :doc:`face loop </modeling/meshes/structure>`.
 
 As with edge loops, you can also select edge rings based on current selection,
-using either :menuselection:`Select --> Edge Ring`,
-or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
+using either :menuselection:`Select --> Select Loops --> Edge Rings`.
 
 .. note:: *Vertex* mode
 
@@ -547,7 +546,7 @@ Shortest Path
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Select --> Shortest Path`
+   :Menu:      :menuselection:`Select --> Select Linked --> Shortest Path`
    :Hotkey:    :kbd:`Ctrl-LMB`
 
 .. figure:: /images/modeling_meshes_selecting_shortest-path.png
@@ -583,7 +582,7 @@ Loop Inner-Region
    :class: refbox
 
    :Mode:      Edit Mode --> Edge select mode
-   :Menu:      :menuselection:`Select --> Select Loop Inner-Region`
+   :Menu:      :menuselection:`Select --> Select Loops --> Select Loop Inner-Region`
 
 *Select Loop Inner-Region* selects all faces that are inside a closed loop of edges.
 While it is possible to use this operator in *Vertex* and *Face* selection modes, results may be unexpected.
@@ -610,7 +609,7 @@ Boundary Loop
    :class: refbox
 
    :Mode:      Edit Mode --> Edge select mode
-   :Menu:      :menuselection:`Select --> Select Boundary Loop`
+   :Menu:      :menuselection:`Select --> Select Loops --> Select Boundary Loop`
 
 *Select Boundary Loop* does the opposite of *Select Loop Inner-Region*,
 based on all regions currently selected, it selects only the edges at the border(contour) of these islands.
