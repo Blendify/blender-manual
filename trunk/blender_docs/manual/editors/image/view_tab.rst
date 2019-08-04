@@ -11,13 +11,10 @@ Display
 
 You can set the editors display options in this panel.
 
-.. TODO2.8
-   .. figure:: /images/editors_uv_display-panel_panel.png
-      :align: right
+.. figure:: /images/editors_image_display-panel_panel.png
+   :align: right
 
-      Display panel.
-
-      With both an image and UVs selected.
+   Display panel.
 
 Aspect Ratio
    Display Aspect for this image. Does not affect rendering.
