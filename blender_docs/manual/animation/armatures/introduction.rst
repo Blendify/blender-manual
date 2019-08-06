@@ -26,7 +26,7 @@ Open a default scene, then:
 #. Delete all objects in the scene.
 #. Make sure the cursor is in the world origin with :kbd:`Shift-C`.
 #. Press :kbd:`Numpad1` to see the world in Front view.
-#. Add a *Single Bone* (:menuselection:`Add --> Armature --> Single Bone`).
+#. Add a *Single Bone* (:menuselection:`Add --> Armature`).
 #. Press :kbd:`NumpadDelete` to see the armature at maximum zoom.
 
 .. figure:: /images/animation_armatures_introduction_default.png
