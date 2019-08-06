@@ -74,7 +74,7 @@ Auto Merge
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Sidebar --> Options --> Tool --> Auto Merge`
 
-When the *Auto Merge* option is enabled, as soon as a vertex moves closer to another one 
+When the *Auto Merge* option is enabled, as soon as a vertex moves closer to another one
 than the *Threshold* setting, they are automatically merged.
 This option affects interactive operations only
 (tweaks made in the :ref:`ui-undo-redo-adjust-last-operation` panel are considered interactive too).

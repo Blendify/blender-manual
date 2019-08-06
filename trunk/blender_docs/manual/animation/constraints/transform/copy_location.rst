@@ -17,7 +17,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_transform_copy-location_panel.png
+   .. figure:: /images/animation_constraints_transform_copy-location_panel.png
 
       Copy Location panel.
 

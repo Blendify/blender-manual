@@ -418,7 +418,7 @@ Edge Loops
    :class: refbox
 
    :Mode:      Edit Mode --> Vertex or Edge select mode
-   :Menu:      :menuselection:`Select -->Select Loops --> Edge Loops`
+   :Menu:      :menuselection:`Select --> Select Loops --> Edge Loops`
    :Hotkey:    :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in

@@ -12,7 +12,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_transform_maintain-volume_panel.png
+   .. figure:: /images/animation_constraints_transform_maintain-volume_panel.png
 
       Maintain Volume Constraint.
 

@@ -41,7 +41,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_transform_limit-scale_panel.png
+   .. figure:: /images/animation_constraints_transform_limit-scale_panel.png
 
       Limit Scale panel.
 

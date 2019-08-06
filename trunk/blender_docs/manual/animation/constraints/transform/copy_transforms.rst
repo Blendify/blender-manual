@@ -11,7 +11,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_transform_copy-transforms_panel.png
+   .. figure:: /images/animation_constraints_transform_copy-transforms_panel.png
 
       Copy Transforms panel.
 

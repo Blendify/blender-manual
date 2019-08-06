@@ -13,7 +13,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_relationship_pivot_panel.png
+   .. figure:: /images/animation_constraints_relationship_pivot_panel.png
 
       Pivot panel.
 

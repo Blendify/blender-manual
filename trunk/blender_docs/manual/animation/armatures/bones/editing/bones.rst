@@ -366,7 +366,6 @@ Dissolve
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      none
    :Hotkey:    :kbd:`Ctrl-X`
 
 Todo 2.76.

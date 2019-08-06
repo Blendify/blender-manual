@@ -19,7 +19,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_relationship_shrinkwrap_panel.png
+   .. figure:: /images/animation_constraints_relationship_shrinkwrap_panel.png
 
       Shrinkwrap panel.
 

@@ -34,7 +34,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_transform_limit-rotation_panel.png
+   .. figure:: /images/animation_constraints_transform_limit-rotation_panel.png
 
       Limit Rotation panel.
 

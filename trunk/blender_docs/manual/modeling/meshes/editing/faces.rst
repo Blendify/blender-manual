@@ -59,7 +59,6 @@ Beautify Faces
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Face --> Beautify Faces`
-   :Hotkey:    None
 
 *Beautify Faces* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
@@ -240,7 +239,6 @@ Poke Faces
 
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Faces --> Poke Face`
-   :Hotkey:    None
 
 Splits each selected faces into a triangle fan,
 create a new center vertex and create triangles between original face edges
