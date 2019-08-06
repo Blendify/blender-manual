@@ -25,7 +25,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_tracking_ik-solver_panel.png
+   .. figure:: /images/animation_constraints_tracking_ik-solver_panel.png
 
       Inverse Kinematics panel.
 

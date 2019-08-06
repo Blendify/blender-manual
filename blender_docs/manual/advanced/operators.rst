@@ -12,7 +12,6 @@ Debug Menu
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      None
    :Hotkey:    :kbd:`Ctrl-Alt-D`
 
 This operator brings up a menu to set Blender into a certain debug mode.
@@ -39,7 +38,6 @@ Redraw Timer
    :class: refbox
 
    :Mode:      All Modes
-   :Menu:      None
    :Hotkey:    :kbd:`Ctrl-Alt-T`
 
 This operator brings up a menu with a list of tests to benchmark UI render times along with undo/redo functions.
@@ -54,8 +52,6 @@ Memory Statistics
    :class: refbox
 
    :Mode:      ``--debug-memory``
-   :Menu:      None
-   :Hotkey:    None
 
 This operator which can be found by searching "Memory Statistics" from
 the :doc:`Operator Search </interface/controls/templates/operator_search>`
@@ -75,8 +71,6 @@ Dependency Relations
    :class: refbox
 
    :Mode:      ``--debug-depsgraph``
-   :Menu:      None
-   :Hotkey:    None
 
 This operator which can be found by searching "Dependency Relations" from
 the :doc:`Operator Search </interface/controls/templates/operator_search>`

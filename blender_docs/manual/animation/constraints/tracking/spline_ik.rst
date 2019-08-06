@@ -34,7 +34,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_tracking_spline-ik_panel.png
+   .. figure:: /images/animation_constraints_tracking_spline-ik_panel.png
 
       Spline IK panel.
 

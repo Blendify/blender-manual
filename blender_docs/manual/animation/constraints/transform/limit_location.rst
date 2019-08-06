@@ -33,7 +33,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_transform_limit-location_panel.png
+   .. figure:: /images/animation_constraints_transform_limit-location_panel.png
 
       Limit Location panel.
 

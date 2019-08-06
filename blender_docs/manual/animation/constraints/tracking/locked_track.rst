@@ -45,7 +45,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_tracking_locked-track_panel.png
+   .. figure:: /images/animation_constraints_tracking_locked-track_panel.png
 
       Locked track panel.
 

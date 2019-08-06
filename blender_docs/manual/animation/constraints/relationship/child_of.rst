@@ -29,7 +29,7 @@ Options
 =======
 
 .. TODO2.8
-	.. figure:: /images/animation_constraints_relationship_child-of_panel.png
+   .. figure:: /images/animation_constraints_relationship_child-of_panel.png
 
       Child Of panel.
 

@@ -27,7 +27,7 @@ Properties
 ==========
 
 .. TODO2.8
-	.. figure:: /images/animation_lattice_panel.png
+   .. figure:: /images/animation_lattice_panel.png
       :align: right
 
       Lattice properties.

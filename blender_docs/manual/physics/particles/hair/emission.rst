@@ -25,4 +25,4 @@ Hair Length
 
 .. seealso::
 
-   :doc:`Emitter Paticles Emission Panel </physics/particles/emitter/emission>`
+   Emitter :doc:`Particles Emission panel </physics/particles/emitter/emission>`

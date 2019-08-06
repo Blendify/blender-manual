@@ -21,7 +21,6 @@ Data
 
    :Mode:      Object Mode
    :Menu:      :menuselection:`Object --> Relations --> Transfer Mesh Data`
-   :Hotkey:    None
 
 Transfers data layer(s) from active to selected meshes.
 

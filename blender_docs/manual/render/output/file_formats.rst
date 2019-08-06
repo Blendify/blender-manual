@@ -14,7 +14,7 @@ Image Output
 When rendering a single frame, the output should be a single image format and not a video.
 Several :doc:`image formats </files/media/image_formats>` are available, PNG being the default.
 
-Images can also be used also for rendering animations which has a couple advantages.
+Images can also be used for rendering animations which has a couple advantages.
 For example, when rendering animations to image file formats the render job can be canceled
 and resumed at the last rendered frame by changing the frame range.
 This is useful if the animation takes a long time to render
