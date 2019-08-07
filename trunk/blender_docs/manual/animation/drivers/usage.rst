@@ -4,7 +4,7 @@ Usage
 *****
 
 Drivers can be added to properties via their context menu, a shortcut, copy-pasted,
-or by typing directly into the property's value.
+or by typing an expression directly into the property's value.
 
 After adding drivers, they are usually modified in the :doc:`Drivers editor </editors/drivers_editor>`,
 or via a simplified *Edit Driver* popover invoked from the property context menu.
@@ -19,9 +19,9 @@ Add Driver
    :Menu:      :menuselection:`Context menu --> Add Driver`
    :Hotkey:    :kbd:`Ctrl-D`
 
-The common way to add a driver to a property is to :kbd:`RMB` click a property,
-then add a driver via the context menu.
-Drivers can also be added by pressing :kbd:`Ctrl-D` with the mouse over the property set.
+The usual way to add a driver to a property is to :kbd:`RMB` click a property,
+then choose *Add Driver* in the context menu.
+Drivers can also be added by pressing :kbd:`Ctrl-D` with the mouse over the property.
 
 This operation adds a driver with a single variable (which needs to be filled in),
 and displays the *Edit Driver* popover.
@@ -67,6 +67,8 @@ Drivers can be copied and pasted via the context menu.
 When adding drivers with the same settings, this can save time modifying settings.
 
 
+.. _drivers-copy-as-new:
+
 Copy As New Driver
 ==================
 
@@ -77,14 +79,17 @@ Copy As New Driver
 
 A driver that sets the property value to the value of a different property can be
 quickly created by using the *Copy As New Driver* context menu option of the input
-property, and then pasting the result on the output property via *Paste Driver*.
+property, and then pasting the result onto the output property via *Paste Driver*.
+
+It is also possible to add the new driver variable to an existing driver using
+the :ref:`Paste Driver Variables <drivers-variables>` button in the editor panel.
 
 
 Expression
 ==========
 
 This is a quick way to add drivers with a scripted expression.
-First click the property you want to add a driver to, then add a hash ``#`` and a scripted expression.
+First click the property you want to add a driver to, then type a hash ``#`` and a scripted expression.
 
 Some examples:
 
@@ -105,4 +110,4 @@ Removing Drivers
    :Hotkey:    :kbd:`Ctrl-Alt-D`
 
 Removes driver(s) associated with the property, either for the single selected property
-or sub-channel or all components of a vector.
+or sub-channel, or all components of a vector.

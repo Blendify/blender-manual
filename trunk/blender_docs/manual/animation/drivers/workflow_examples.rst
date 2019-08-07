@@ -102,6 +102,8 @@ and then added to the ``bpy.app.driver_namespace``.
 There are more custom function examples available in Blender's Text Editor
 :menuselection:`Templates --> Python --> Driver Functions`.
 
+Since :ref:`Simple Expressions <drivers-simple-expressions>` cannot access
+custom functions, using them only makes sense for complex computations.
 
 
 .. _shapekey-driver-example:
@@ -112,7 +114,7 @@ Shape Key Drivers
 Improved Mesh Deformation
 -------------------------
 
-Fix intersection problems that happen when using armatures and weight painting, specially at joints.
+Fix intersection problems that happen when using armatures and weight painting, especially at joints.
 Shape keys can also be used to tweak and refine a rig, for example to suggest muscle formations.
 In this example, a shape key is used to improve the deformation at the elbow of a rudimentary arm.
 

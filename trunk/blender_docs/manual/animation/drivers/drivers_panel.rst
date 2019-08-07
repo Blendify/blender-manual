@@ -25,7 +25,7 @@ Drivers Panel
 This panel is visible in Sidebar of the :doc:`Drivers Editor </editors/drivers_editor>`
 or as a popover when adding a driver to a property.
 
-It shows first the property that is being driven and next a series of settings
+It shows the property that is being driven, followed by a series of settings
 that determine how the driver works.
 
 
@@ -45,7 +45,7 @@ There are two categories of drivers:
 
 - **Custom** (*Scripted Expression*).
 
-   A mathematical or Python expression that can make use of the *Driver Variables*. See `Expressions`_.
+   An arbitrary Python expression that can refer to the *Driver Variables* by name. See `Expressions`_.
 
 
 Driver Value
@@ -70,8 +70,9 @@ Show in Drivers Editor
 ----------------------
 
 Opens the fully featured :doc:`Drivers Editor </editors/drivers_editor>`.
-This button only shows in the popover version of the Drivers panel.
+This button only appears in the popover version of the Drivers panel.
 
+.. _drivers-variables:
 
 Driver Variables
 ================
@@ -79,13 +80,19 @@ Driver Variables
 Variables are references to properties, transformation channels, or the result of a comparison
 between transformations of two objects.
 
-Drivers should access object data via *Driver Variables*, rather than direct references in a Python
+Drivers should access object data via *Driver Variables*, rather than direct references in the Python
 expression, in order for dependencies to be correctly tracked.
+
+.. figure:: /images/animation_drivers_drivers-panel_add-variable.png
+   :align: right
+
+   Add, Copy, Paste buttons.
 
 Add Input Variable
    Adds a new Driver Variable.
-Copy/Paste
-   Copies of the current variable stack so it can be pasted onto another driver's variable stack.
+
+Copy/Paste Variables
+   Copies the current variable list so it can be pasted into another driver's variable list.
 
 .. list-table::
 
@@ -102,8 +109,8 @@ Copy/Paste
           Distance.
 
 Name
-   Name to use in scripted expressions.
-   The name must start with a letter and no spaces or dots are allowed.
+   Name for use in scripted expressions.
+   The name must start with a letter, and only contain letters, digits, or ``_``.
 
 Variable Type
    The type of variable to use.
@@ -122,14 +129,15 @@ Variable Type
          The ID of the ID-block type. For example: "Material.001".
       RNA Path
          The RNA name of the property, based on a subset of Python attribute access syntax.
-         For example: ``location.x`` or ``location[0]`` for the raw X location value.
+         For example: ``location.x`` or ``location[0]`` for the raw X location value, or
+         ``["prop_name"]`` for a custom property.
 
       .. tip::
 
-         The easiest way to create a variable of this type is to use the *Copy As New Driver*
-         context menu option of the input property. After that you can apply the new driver to
-         a different property using *Paste Driver*, or add just the new variable to an existing
-         driver via *Paste Driver Variables*.
+         The easiest way to create a variable of this type is to use the
+         :ref:`Copy As New Driver <drivers-copy-as-new>`
+         context menu option of the input property, and paste the result
+         into the driver via :ref:`Paste Driver Variables <drivers-variables>`.
 
    Transform Channel
       Retrieves the value of a Transform channel from an object or bone.
@@ -161,13 +169,15 @@ Expressions
 ===========
 
 Expression
-   A text field where to type *Driver Variables* by their name, real numbers, math operators, math functions,
-   Python properties and driver functions.
+   A text field where you can enter an arbitrary Python expression that refers to
+   *Driver Variables* by their names.
 
-   For a full list of available expressions and how to add custom functions to the set, see
-   :ref:`the driver namespace example<driver-namespace>`.
+   The expression has access to a set of standard constants and math functions provided
+   in the *Driver Namespace*. For an example of adding a custom function to the namespace,
+   see the :ref:`driver namespace example <driver-namespace>`.
 
-   For performance optimization it is best to use the `Simple Expressions`_ subset as much as possible.
+   For performance reasons it is best to use the `Simple Expressions`_ subset as much as possible.
+
 Use Self
    If this option is enabled, the variable ``self`` can be used for drivers to reference their own data.
    Useful for objects and bones to avoid having creating a *Driver Variable* pointing to itself.
@@ -175,6 +185,7 @@ Use Self
    Example: ``self.location.x`` applied to the Y rotation property of the same object
    will make the object tumble when moving.
 
+   Note that dependencies for properties accessed via ``self`` may not be fully tracked.
 
 .. _drivers-simple-expressions:
 
@@ -205,7 +216,9 @@ Functions
 
 Simple expressions are evaluated even when Python script execution is disabled.
 
-When an expression outside of this subset is used, Blender displays a "Slow Python expression" warning.
+When an expression outside of this subset is used, Blender displays a "Slow Python expression"
+warning. However, as long as the majority of drivers use simple expressions, using a complex
+expression in select few is OK.
 
 .. seealso::
 
