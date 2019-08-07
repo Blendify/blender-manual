@@ -1,3 +1,4 @@
+.. _bpy.ops.wm.search_menu:
 
 ***************
 Operator Search
