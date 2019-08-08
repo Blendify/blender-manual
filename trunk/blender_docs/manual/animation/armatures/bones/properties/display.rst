@@ -41,7 +41,7 @@ Bone Size
    Option not to use bones length, so that changes in Edit Mode don't resize the custom shape.
 Scale
    Additional scaling factor to apply to the custom shape.
-At
+Custom Shape Transform
    Bone that defines the display transform of the custom shape.
 
 
