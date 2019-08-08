@@ -1,3 +1,4 @@
+.. _bpy.types.GPencilLayer:
 
 *********
 2D Layers
@@ -32,9 +33,10 @@ See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more informatio
    you can activate *Fade Layers* in overlays to control the opacity of the non active layers.
    See :doc:`Overlays </editors/3dview/controls/overlays>` for more information.
 
-
-Common Settings
----------------
+.. _bpy.types.GPencilLayer.mask_layer:
+.. _bpy.types.GPencilLayer.lock:
+.. _bpy.types.GPencilLayer.hide:
+.. _bpy.types.GPencilLayer.use_onion_skinning:
 
 Next to the layer name there are four icons buttons that control common properties of the layer:
 
@@ -42,17 +44,15 @@ Mask (mask icon)
    When the mask is enabled, all the layers below the current one function as a single mask.
    This mask hide any pixel in the current layer outside the mask created by the underlying layers.
 
-.. list-table::
+   .. list-table::
 
-   * - .. figure:: /images/grease-pencil_properties_layers_mask-off.png
-          :width: 320px
+      * - .. figure:: /images/grease-pencil_properties_layers_mask-off.png
 
-          Red stroke on top layer without mask.
+             Red stroke on top layer without mask.
 
-     - .. figure:: /images/grease-pencil_properties_layers_mask-on.png
-          :width: 320px
+        - .. figure:: /images/grease-pencil_properties_layers_mask-on.png
 
-          Red stroke on top layer with mask activated.
+             Red stroke on top layer with mask activated.
 
 Lock (padlock icon)
    Toggle layer from being editable.
@@ -63,6 +63,11 @@ Viewport/Render Visibility (eye icon)
 Onion Skinning (onion skin icon)
    Toggle the use the layer for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 
+
+.. _bpy.types.GPencilLayer.blend_mode:
+.. _bpy.types.GPencilLayer.opacity:
+.. _bpy.types.GPencilLayer.use_solo_mode:
+
 Below the layers list there are additional common settings:
 
 Blend
@@ -71,7 +76,7 @@ Blend
 Opacity
    Used to set the opacity of the layer.
 
-Show only on keyframed
+Show Only On Keyframed
    Makes the layer visible in the viewport only if it has a keyframe in the actual frame.
    This helps for example when you are in the inking process using the *Fill* tool and want to only see
    the strokes that are in the actual frame to avoid fill in unwanted regions.
@@ -160,4 +165,3 @@ Layer Display
 
 Custom channel color
    Sets the color to use in the channel region of the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>`.
-

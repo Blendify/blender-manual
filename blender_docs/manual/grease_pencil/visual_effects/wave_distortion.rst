@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxWave:
 
 *****************************
 Wave Distortion Visual Effect

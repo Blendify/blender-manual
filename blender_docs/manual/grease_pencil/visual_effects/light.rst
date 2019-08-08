@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxLight:
 
 *******************
 Light Visual Effect

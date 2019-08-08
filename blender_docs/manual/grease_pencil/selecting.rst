@@ -1,3 +1,5 @@
+.. _bpy.types.ToolSettings.gpencil_selectmode:
+.. _bpy.ops.gpencil.select:
 
 *********
 Selecting

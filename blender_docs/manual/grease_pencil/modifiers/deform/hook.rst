@@ -1,3 +1,4 @@
+.. _bpy.types.HookGpencilModifier:
 
 *************
 Hook Modifier

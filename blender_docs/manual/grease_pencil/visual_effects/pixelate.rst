@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxPixelate:
 
 **********************
 Pixelate Visual Effect

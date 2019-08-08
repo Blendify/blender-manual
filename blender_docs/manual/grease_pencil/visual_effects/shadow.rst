@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxShadow:
 
 ********************
 Shadow Visual Effect

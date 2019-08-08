@@ -33,6 +33,8 @@ Color
    The *Color* group of modifiers change the object color output.
 
 
+.. _bpy.ops.object.gpencil_modifier_apply:
+
 Interface
 =========
 

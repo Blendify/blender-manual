@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxGlow:
 
 ******************
 Glow Visual Effect
