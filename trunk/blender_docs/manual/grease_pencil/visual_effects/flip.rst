@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxFlip:
 
 ******************
 Flip Visual Effect

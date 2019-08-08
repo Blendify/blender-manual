@@ -1,3 +1,4 @@
+.. _bpy.types.TimeGpencilModifier:
 
 ********************
 Time Offset Modifier

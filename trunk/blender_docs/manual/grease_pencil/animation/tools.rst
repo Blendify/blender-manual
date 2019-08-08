@@ -3,6 +3,8 @@
 Animation Tools
 ***************
 
+.. _bpy.ops.gpencil.blank_frame_add:
+
 Insert Blank Keyframe
 =====================
 
@@ -20,6 +22,8 @@ All Layers
    When enabled, Blank keyframe will be created on all layers, not only the active one.
 
 
+.. _bpy.ops.gpencil.active_frames_delete_all:
+
 Delete Frame(s)
 ===============
 
@@ -31,6 +35,8 @@ Delete Frame(s)
 
 Deletes the last keyframe in the Dope Sheet or the current keyframe if you are on one.
 
+
+.. _bpy.ops.gpencil.frame_duplicate:
 
 Duplicate
 =========
@@ -51,10 +57,10 @@ Mode
       Duplicate all the layers.
 
 
-.. _animation_interpolation:
-
 Interpolation
 =============
+
+.. _bpy.ops.gpencil.interpolate:
 
 Interpolate
 -----------
@@ -71,6 +77,7 @@ When you are on a frame between two keyframes and press :kbd:`Ctrl-Alt-E` a new 
 will be added. This way you define the final interpolation for the new stroke.
 
 
+.. _bpy.ops.gpencil.interpolate_sequence:
 
 Sequence
 --------

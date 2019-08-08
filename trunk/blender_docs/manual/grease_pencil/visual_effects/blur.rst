@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFxBlur:
 
 ******************
 Blur Visual Effect

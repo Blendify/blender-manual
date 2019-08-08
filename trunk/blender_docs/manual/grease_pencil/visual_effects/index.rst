@@ -1,3 +1,4 @@
+.. _bpy.types.ShaderFx:
 
 ################################
   Grease Pencil Visual Effects

@@ -1,3 +1,5 @@
+.. _bpy.types.GreasePencil.use_multiedit:
+.. _bpy.types.GPencilSculptSettings.use_multiframe_falloff:
 
 **********
 Multiframe
