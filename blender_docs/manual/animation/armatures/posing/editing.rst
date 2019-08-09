@@ -230,9 +230,9 @@ Copy/Paste Pose
    :class: refbox
 
    :Mode:      Pose Mode
-   :Menu:      :menuselection:`Pose --> Copy Current Pose`,
+   :Menu:      :menuselection:`Pose --> Copy Pose`,
                :menuselection:`Pose --> Paste Pose`,
-               :menuselection:`Pose --> Paste X-Flipped Pose`
+               :menuselection:`Pose --> Paste Pose Flipped`
    :Hotkey:    :kbd:`Ctrl-C`
                :kbd:`Ctrl-V`
                :kbd:`Shift-Ctrl-V`
@@ -240,11 +240,11 @@ Copy/Paste Pose
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
 by using hotkeys.
 
-Copy Current Pose
+Copy Pose
    Copy the current pose of selected bones into the pose buffer.
 Paste Pose
    Paste the buffered pose to the currently posed armature.
-Paste X-Flipped Pose
+Paste Pose Flipped
    Paste the *X axis mirrored* buffered pose to the currently posed armature.
 
 Here are important points:
