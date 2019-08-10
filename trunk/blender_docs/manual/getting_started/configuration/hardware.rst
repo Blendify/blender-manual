@@ -89,7 +89,7 @@ Graphic Tablet
 --------------
 
 Graphics tablets can be used to provide a more traditional method of controlling the mouse cursor using a pen.
-This can help to provide a more familiar experience for artists
+This can help provide a more familiar experience for artists
 who are used to painting and drawing with similar tools,
 as well as provide additional controls such as pressure sensitivity.
 

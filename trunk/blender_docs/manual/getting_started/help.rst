@@ -74,7 +74,7 @@ The same links can also be found in the :ref:`splash`.
 :doc:`Manual </index>`
    This is a link to the Official Blender Manual (which you are now reading).
 `Tutorials <https://www.blender.org/support/tutorials>`__
-   Multiple tutorial to help you learn to use Blender.
+   Multiple tutorials to help you learn to use Blender.
 `Support <https://www.blender.org/support>`__
    Links to various sites, providing both community and professional support.
 
