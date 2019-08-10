@@ -71,10 +71,10 @@ to parent the base object to the circle.
 Now, the circle is the parent of the monkey; if you move the circle, the monkey will follow it.
 
 With only the circle selected, enable *Instancing Verts*;
-A monkey head should be placed at every vertex of the circle.
+a monkey head should be placed at every vertex of the circle.
 
 The original monkey head at the center and the parent mesh are still shown in the 3D View but
-neither will be rendered. If the placement and rotation of your monkey head is odd,
+neither will be rendered. If the placement and rotation of your monkey head are odd,
 you might need to clear its rotation :kbd:`Alt-R`, scale :kbd:`Alt-S`,
 location :kbd:`Alt-G`, and origin :kbd:`Alt-O`.
 

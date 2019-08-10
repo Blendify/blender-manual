@@ -25,7 +25,7 @@ you are automatically placed in move mode. See the examples below.
 
 This copy is a new object, which shares some data-blocks with the original object
 (by default, all the materials, textures, and F-curves), but which has copied others,
-like the mesh, for example.This is why this form of duplication is sometimes called "shallow link",
+like the mesh, for example. This is why this form of duplication is sometimes called "shallow link",
 because not all data-blocks are shared; some of them are "hard copied"!
 
 .. tip::
@@ -103,7 +103,7 @@ Though both these cubes are separate objects with unique names:
 ``Cube`` and ``Cube.001``, the single mesh named ``Cube``, is shared by both.
 
 - As a mesh is edited in *Edit Mode* in one object, the same occurs in
-  the other   cube as well. The mesh data are links, not copies.
+  the other cube as well. The mesh data are links, not copies.
 - In contrast, if one of these two cubes is rotated or rescaled in Object Mode,
   the other remains unchanged. The transform properties are copied, not linked.
 - As in the previous example, the newly created cube has inherited

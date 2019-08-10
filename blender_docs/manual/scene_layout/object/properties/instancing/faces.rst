@@ -13,7 +13,7 @@ Faces
 One of the best ways to explain this is through an example illustration.
 
 Scale
-   Scales each instances according to the size of its corresponding face.
+   Scales each instance according to the size of its corresponding face.
 
    Inherit Scale
       Scale the instance faces objects.
@@ -22,7 +22,7 @@ Scale
 This tool creates the parent object (instancer) with faces where the objects were,
 then it uses *Instancing Faces* to put instances at the location of every created face.
 
-You can to go back from *Instancing Faces* to multiple linked objects using
+You can go back from *Instancing Faces* to multiple linked objects using
 :menuselection:`Object --> Apply --> Make Instances Real`, :kbd:`Shift-Ctrl-A`.
 
 .. seealso:: Example blend-file
@@ -35,7 +35,7 @@ Basic Usage
 ===========
 
 In this example we will use a UV sphere with an extruded "north pole" as our base object and
-cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
+a cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
@@ -52,7 +52,7 @@ first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
           Instancing Faces applied to the cube.
 
 Next, in the :menuselection:`Properties --> Object --> Instancing`,
-select *Faces*. The sphere is instanced one for each face of the cube.
+select *Faces*. The sphere is instanced, one for each face of the cube.
 
 .. note:: Inherited properties
 

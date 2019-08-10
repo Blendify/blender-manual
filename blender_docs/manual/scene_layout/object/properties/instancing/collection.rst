@@ -18,7 +18,7 @@ Basic Usage
 
 Create a Collection:
    - Create a new collection (this can be done via the Outliner).
-   - Link the objects that needs to be instanced as part of the newly created collection.
+   - Link the objects that need to be instanced as part of the newly created collection.
 Create a new Collection Instance:
    - :menuselection:`Add --> Collection Instance`
 
@@ -40,7 +40,7 @@ until you create an object controlling where the collection instance appears.
 Making an Instanced Collection Real
 ===================================
 
-Say you want to make further edits on an instanced collections.
+Say you want to make further edits on an instanced collection.
 Simply select your *Instance Collection* and press :kbd:`Shift-Ctrl-A` to convert the collection
 into regular objects that can be transformed and animated normally.
 
