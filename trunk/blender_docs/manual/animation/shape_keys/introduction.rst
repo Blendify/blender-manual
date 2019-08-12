@@ -77,7 +77,7 @@ Relative
    Each shape is defined relative to the Basis or to another specified shape key.
 
    The resulting effect visible in the 3D Viewport, also called *Mix*,
-   is the cumulative effect of each shape with their current value.
+   is the cumulative effect of each shape with its current value.
    Starting with the Basis shape, the result is obtained by **adding**
    each shape's weighted **relative** offset to its reference key.
 
