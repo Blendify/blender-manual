@@ -21,6 +21,6 @@ forms the background and the highest the foreground.
    to show a composite of all strips above channel 0.
 
 This region is where strips can be :doc:`selected </video_editing/sequencer/selecting>`,
-:doc:`modified </video_editing/sequencer/selecting>` by moving, cutting, or extending strips.
+:doc:`modified </video_editing/sequencer/editing>` by moving, cutting, or extending strips.
 There are also several built-in :doc:`effects </video_editing/sequencer/strips/effects/index>`
 that can be combined with other strips to change their appearance.
