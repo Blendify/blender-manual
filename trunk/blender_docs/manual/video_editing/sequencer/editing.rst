@@ -99,10 +99,10 @@ Snap Strips
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Strip --> Snap Strips`
+   :Menu:      :menuselection:`Strip --> Transform --> Snap Strips to Playhead`
    :Hotkey:    :kbd:`Shift-S`
 
-Position your cursor (vertical green line) to the time you want.
+Position your cursor (vertical Blue line) to the time you want.
 Snap to current frame to start a strip exactly at the beginning of the frame.
 If your Time display is in seconds,
 you can get to fractional parts of a second by zooming the display;
@@ -115,7 +115,7 @@ Clear Strips Offsets
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Strip --> Clear Strips Offset`
+   :Menu:      :menuselection:`Strip --> Transform --> Clear Strips Offset`
    :Hotkey:    :kbd:`Alt-O`
 
 To reset the (soft) start/end frame handles.
@@ -127,7 +127,7 @@ Duplicate Strips
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Strip --> Duplicate`
+   :Menu:      :menuselection:`Strip --> Duplicate Strips`
    :Hotkey:    :kbd:`Shift-D`
 
 Duplicate a strip to make an unlinked copy;
@@ -141,7 +141,7 @@ Delete Strips
    :class: refbox
 
    :Menu:      :menuselection:`Strip --> Delete`
-   :Hotkey:    :kbd:`Delete`
+   :Hotkey:    :kbd:`Delete` / :kbd:`X`
 
 Delete the selected strip(s).
 
@@ -152,7 +152,7 @@ Separate Images
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Strip --> Movie Strip --> Separate Images`
+   :Menu:      :menuselection:`Strip --> Separate Images`
    :Hotkey:    :kbd:`Y`
 
 For images sequence only -- Converts the strip into multiple strips, one strip for each frame.
@@ -229,7 +229,7 @@ Reassign Inputs
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      :menuselection:`Strip --> Effect Strip --> Reassign Inputs`
+   :Menu:      None
    :Hotkey:    :kbd:`R`
 
 This tool can be used to assign (reconnect) effect strips in a different way.
