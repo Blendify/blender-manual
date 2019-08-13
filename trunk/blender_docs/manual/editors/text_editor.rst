@@ -45,7 +45,7 @@ Run Script / Script Node Update
 Register
    Registers the current text data-block as a module on loading (the text name must end with ``.py``).
    Read more about the registration of Python modules in
-   `API documentation <https://docs.blender.org/api/2.80/info_overview.html#registration>`__.
+   `API documentation <https://docs.blender.org/api/current/info_overview.html#registration>`__.
 
 
 Menus
