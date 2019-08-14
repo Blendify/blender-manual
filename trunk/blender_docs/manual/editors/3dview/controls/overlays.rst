@@ -220,9 +220,6 @@ Face Marks
 Sculpt Mode
 ===========
 
-Show Diffuse Color
-   Show diffuse color of object and overlay sculpt mask on top of it.
-
 Mask
    Show mask as overlay on object. The opacity of the overlay can be controlled.
 
