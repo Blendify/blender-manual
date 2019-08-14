@@ -386,13 +386,17 @@ Property Name
 Property Value
    This does two things: first it sets the current value of the custom property, and
    second, it defines the data type of the property.
-   Custom properties can be of the following types: Integers, Floats, Strings or Booleans.
+
+   Custom properties can be of the following types: Integers, Floats, Strings, Booleans,
+   or short vectors of Integers or Floats.
+
    See the table below for a list of examples for each:
 
    :Integers: 1, 2, 3, 4,
    :Floats: 3.141, 5.0, 6.125,
    :Strings: any text,
    :Booleans: ``True``, ``False``
+   :Vectors: ``[1, 2, 3]``, ``[1.0, 2.0, 3.0]``
 
    .. note::
 
@@ -413,6 +417,12 @@ Min
    The minimum value the custom property can take.
 Max
    The maximum value the custom property can take.
+
+.. figure:: /images/files_data-blocks_edit_color.png
+   :align: right
+
+   Custom Property settings for a color with alpha.
+
 Use Soft Limits
    Enables limits that the *Property Value* slider can be adjusted to
    without having to input the value numerically.
@@ -423,6 +433,9 @@ Use Soft Limits
       The maximum value for the soft limit.
 Tooltip
    Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
+Subtype
+   For vector properties, specifies the kind of data the property contains,
+   which affects how it appears in the UI. Most useful for color properties.
 
 
 Python Access
