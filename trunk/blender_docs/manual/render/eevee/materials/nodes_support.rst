@@ -68,9 +68,8 @@ Subsurface Scattering
    Texture Blur is not accurate for any value other than 0.0 and 1.0.
 
 Transparent BSDF
-   Only monochromatic transparency is supported. The color input will be converted to float and used as alpha value.
    Transparency will only have an effect if the Material blend mode is not Opaque.
-   Using an Add Shader node with a Transparent BSDF node will not result in an additive blending behavior.
+   Colored and additive transparency are only compatible with "Alpha Blend" mode.
 
 Translucent BSDF
    Does not diffuse the light inside the object. It only lights the object with reversed normals.
@@ -90,9 +89,6 @@ Volume Scatter
 Principled Volume
    Same as Volume Scatter. Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
 
-Holdout
-   Not supported.
-
 Anisotropic BSDF
    Not supported.
 
@@ -107,9 +103,6 @@ Velvet BSDF
 
 Principled Hair BSDF
    Not supported.
-
-Add Shader
-   Using an Add Shader node with a Transparent BSDF node will not result in an additive blending behavior.
 
 
 Input Nodes
