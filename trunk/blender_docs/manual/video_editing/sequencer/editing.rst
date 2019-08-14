@@ -229,7 +229,7 @@ Reassign Inputs
 .. admonition:: Reference
    :class: refbox
 
-   :Menu:      None
+   :Menu:      :menuselection:`Strip --> Effect Strip --> Reassign Inputs`
    :Hotkey:    :kbd:`R`
 
 This tool can be used to assign (reconnect) effect strips in a different way.
