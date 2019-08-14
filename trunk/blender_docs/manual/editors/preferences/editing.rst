@@ -89,9 +89,6 @@ Default Color
    The default color for new Annotate layers.
 Eraser Radius
    The size of the eraser used with the Annotate Tool.
-Simplify Stroke
-   This turns on the post-processing step of simplifying the stroke to remove
-   about half of current points in it. It is only relevant when not drawing straight lines.
 
 .. seealso::
 
