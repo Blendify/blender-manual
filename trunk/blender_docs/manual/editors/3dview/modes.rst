@@ -98,7 +98,7 @@ because they are dealed with in their own sections.
 Multi-Object Modes
 ==================
 
-Edit and Pose mode support multiple objects at once.
+Edit and Pose modes support multiple objects at once.
 
 This is convenient if you want to perform the same edits on multiple objects
 or want to animate multiple characters at once.
