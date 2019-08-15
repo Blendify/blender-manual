@@ -8,23 +8,12 @@ Brush
 
    Brush settings.
 
-Color
-   The color of the brush. See :ref:`ui-color-picker`.
-
-   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
-   Hold :kbd:`Ctrl` while painting to temporally paint with the secondary color.
-
-   Flip (cycle icon) :kbd:`X`
-      Swaps the primary and secondary colors.
 
 Radius
    The radius of the brush in pixels.
 
 Strength
    How powerful the brush is when applied.
-
-   Space Attenuation (padlock icon)
-      Attenuate the brush strength according to spacing.
 
 Pressure Sensitivity (hand and bulged in blue line icon)
    The toggle to the right of the following three settings will
@@ -45,12 +34,38 @@ Blend
       you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button.
       Transparent (no alpha) areas will then show a checkered background.
 
+
+Color Picker
+============
+
+Color
+   The color of the brush. See :ref:`ui-color-picker`.
+
+   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
+   Hold :kbd:`Ctrl` while painting to temporally paint with the secondary color.
+
+   Flip (cycle icon) :kbd:`X`
+      Swaps the primary and secondary colors.
+
+
+Color Palette
+=============
+
+Todo.
+
+
+Options
+=======
+
 Accumulate
    This will allow a stroke to accumulate on itself, just like an airbrush would do.
+Adjust Strength for Spacing
+   Attenuate the brush strength according to spacing.
+Affect Alpha
+   When this is disabled, it locks (prevents changes to) the alpha channel while painting (3D only).
 
-Alpha (3D only)
-   When this is disabled, it locks (prevents changes to) the alpha channel while painting.
 
+.. move? this is not part of the brush panel
 
 Tilling
 =======
