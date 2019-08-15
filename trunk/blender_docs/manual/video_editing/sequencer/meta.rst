@@ -15,7 +15,7 @@ Make Meta Strip :kbd:`Ctrl-G`
    To create a Meta strip, select all the strips you want to group, and :kbd:`Ctrl-G` to group them.
    The Meta strips will span from the beginning of the first strip to the end of the last one,
    and condenses all channels into a single strip.
-UnMeta Strip :kbd:`Alt-G`
+UnMeta Strip :kbd:`Ctrl-Alt-G`
    Separating (ungrouping) the Meta strip restores the strips to their relative positions and channels.
    This can be used if you choose to delete a Meta strip and want to keep the strips inside.
 
