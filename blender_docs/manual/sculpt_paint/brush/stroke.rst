@@ -47,8 +47,8 @@ Stroke Method :kbd:`E`
 
       Paint Curves
          Stroke Curves are reusable and can be stored and selected by using the :ref:`ui-data-block` menu.
-      Add Points :kbd:`Ctrl-LMB`
-         You can define additional curve control points by using :kbd:`Ctrl-LMB`.
+      Add Points
+         You can define additional curve control points by using :kbd:`Ctrl-RMB`.
          The handles can define by dragging the mouse before releasing the mouse button.
       Transforming Points
          The control points and handles can be dragged around with :kbd:`LMB`.
