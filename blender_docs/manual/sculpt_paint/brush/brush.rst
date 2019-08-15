@@ -26,9 +26,6 @@ Brushes
 
 The size of the brush can be changed by the :kbd:`[` and :kbd:`]` shortcuts.
 
-Direction
-   The influence direction of the brush. This can be *Add* or *Subtract*.
-
 Autosmooth
    Amount of smoothing to apply to each stroke.
 
@@ -50,15 +47,6 @@ Radius Unit
       Measure brush size relative to the screen.
    Scene
       Measure brush size relative to the scene.
-
-Sculpt Plane
-   Set the orientation of the brush effect.
-
-   - Area Plane
-   - View Plane
-   - X Plane
-   - Y Plane
-   - Z Plane
 
 Original Normal
    Keep using the normal of the initial location where the stroke originated.
