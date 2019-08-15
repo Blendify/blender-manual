@@ -51,7 +51,20 @@ Color
 Color Palette
 =============
 
-Todo.
+Color Palettes are a way of storing a brush's color so that it can be used at a later time.
+This is useful when working with several colors at once.
+
+Palette
+   A :ref:`ui-data-block` to select a palette.
+
+New ``+``
+   Adds the current brush's primary *Color* to the palette.
+Delete ``-``
+   Removes the currently selected color from the palette.
+
+Color List
+   Each color that belongs to the pallet is presented in a list.
+   Clicking on a color will change the brush's primary *Color* to that color.
 
 
 Options
