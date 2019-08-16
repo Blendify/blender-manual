@@ -75,7 +75,7 @@ Translucent BSDF
    Does not diffuse the light inside the object. It only lights the object with reversed normals.
 
 Principled BSDF
-   Cumulate limitations from Diffuse BSDF, Glossy BSDF, Refraction BSDF and Subsurface Scattering.
+   Cumulative limitations from Diffuse BSDF, Glossy BSDF, Refraction BSDF and Subsurface Scattering.
    Anisotropy is not supported. Transmission Roughness is not supported. The Sheen layer is a crude approximation.
 
 Volume Absorption
@@ -88,6 +88,10 @@ Volume Scatter
 
 Principled Volume
    Same as Volume Scatter. Also see :ref:`Volume Limitation <eevee-limitations-volumetrics>`.
+
+Holdout
+   Partially supported, using :ref:`Blend Modes <bpy.types.Material.blend_method>`
+   other than *Alpha* may give incorrect results.
 
 Anisotropic BSDF
    Not supported.
