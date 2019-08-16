@@ -26,7 +26,10 @@ Supported Level
 
    - Official: Add-ons that are written by Blender developers.
    - Community: Add-ons that are written by people in the Blender community.
-Categories
+
+Enabled Add-ons Only
+   Shows only enabled add-ons for the current *Category*.
+Category
    Add-ons are divided into categories by what areas of Blender they affect.
 
 
