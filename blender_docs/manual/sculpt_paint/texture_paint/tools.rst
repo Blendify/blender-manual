@@ -6,21 +6,6 @@ Texture Paint Tools
 Draw
    The normal brush, paints a swath of color.
 
-   Use Gradient
-      A gradient can be used as a color source.
-
-      Gradient Colors
-         The :ref:`ui-color-ramp-widget` to define the gradient colors.
-      Mode
-         Pressure
-            Will choose a color from the color ramp according to the stylus pressure.
-         Clamp
-            Will alter the color along the stroke and as specified by *Gradient spacing*.
-            With Clamp it uses the last color of the color ramp after the specified gradient.
-         Repeat
-            Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
-            repeats the pattern.
-
 Soften
    Uses a "blur effect" to soften or sharpen the image.
 
@@ -76,17 +61,8 @@ Fill
       A low *Threshold* only fills very similar in color pixels.
       A higher *Threshold* fills pixels within a broader range of color.
 
-   Use Gradient
-      Allows the use of a gradient to fill the image.
-
-      To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
-      the gradient line, or radius if a radial gradient is used (depending on the *Gradient Fill Mode*).
-
-      Gradient Colors
-         The :ref:`ui-color-ramp-widget` to define the gradient colors.
-
-      Gradient Fill Mode
-         Linear, Radial
+   Gradient Fill Mode
+      Linear, Radial
 
    .. note:: Overrides
 
