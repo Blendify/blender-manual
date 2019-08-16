@@ -14,7 +14,7 @@ Orbit & Pan
 ===========
 
 Orbit Method
-   Choose you're preferred method of interactively rotating the 3D View.
+   Choose you're preferred method of interactively rotating the 3D Viewport.
 
    Turntable
       Rotates the view keeping the horizon horizontal.
@@ -26,6 +26,15 @@ Orbit Method
       However, you gain the sense of "Up" and "Down" which can help if you are feeling disoriented.
    Trackball
       Is less restrictive, allowing any orientation.
+
+Orbit Sensitivity
+   Adjusts the reactivity/speed of orbiting in the 3D Viewport.
+   This setting works differently depending on what *Orbit Method* is used:
+
+   - Turntable: *Orbit Sensitivity* control the amount
+     of rotation per-pixel to control how fast the 3D Viewport rotates.
+   - Trackball: *Orbit Sensitivity* as a simple factor for how fast the 3D Viewport rotates.
+
 
 Orbit Around Selection
    The selection center becomes the rotation center of the viewport.
