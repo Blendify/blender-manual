@@ -15,6 +15,8 @@ Backface Culling
 Backface Culling hides the back side of faces in the final render.
 
 
+.. _bpy.types.Material.blend_method:
+
 Blend Mode
 ==========
 
