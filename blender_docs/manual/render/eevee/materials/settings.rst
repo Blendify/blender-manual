@@ -25,20 +25,12 @@ Depending on this the final color will be different.
 
 .. note::
 
-   Additive, Multiplicative and Alpha Blending are considered "Transparent" blend modes.
-   This has implications regarding screen space effects.
+   Alpha Blending is considered a "Transparent" blend modes
+   and has implications regarding screen space effects.
 
 Opaque
    The previous color will be overwritten by the surface color.
    The alpha component is ignored. This is the fastest option.
-
-Additive
-   The surface color will be added to the previous color.
-   The alpha value will be used to mix surface color with the neutral color black (0.0, 0.0, 0.0).
-
-Multiplicative
-   The previous color will be multiplied by the surface color.
-   The alpha value will be used to mix surface color with the neutral color white (1.0, 1.0, 1.0).
 
 Alpha Clip
    The previous color will be overwritten by the surface color,
@@ -67,18 +59,12 @@ Only per-object sorting is available and is automatically done on all transparen
    This per-object sorting has already a cost and having thousands of
    these objects in a scene will greatly degrade performance.
 
-Additive and Multiplicative blending are, individually, order independent.
-This means all the triangles of a surface rendered with one of these blending mode
-will always output the expected result if they do not intersect with other transparent surfaces.
-This will work even if the triangles of that surface intersect each others.
-
-However this does not work with Alpha Blending, where even triangle order is important.
-In this case you can disable the *Show Backside* option.
-
 Show Backside
    If enabled all transparent fragments will be rendered.
    If disabled, only the front-most surface fragments will be rendered.
    Disable this option to ensure correct appearance of transparency from any point of view.
+   Then using *Alpha Blending* this option should be disabled because with *Alpha Blending*,
+   the order in which triangle are sorted is important.
 
 
 Transparent Shadow
