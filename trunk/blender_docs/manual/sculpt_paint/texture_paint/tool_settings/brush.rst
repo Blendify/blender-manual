@@ -39,13 +39,33 @@ Color Picker
 ============
 
 Color
-   The color of the brush. See :ref:`ui-color-picker`.
+-----
 
-   Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
-   Hold :kbd:`Ctrl` while painting to temporally paint with the secondary color.
+The color of the brush. See :ref:`ui-color-picker`.
 
-   Flip (cycle icon) :kbd:`X`
-      Swaps the primary and secondary colors.
+Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
+Hold :kbd:`Ctrl` while painting to temporally paint with the secondary color.
+
+Flip (cycle icon) :kbd:`X`
+   Swaps the primary and secondary colors.
+
+
+Gradient
+--------
+
+A gradient can be used as a color source.
+
+Gradient Colors
+   The :ref:`ui-color-ramp-widget` to define the gradient colors.
+Mode
+   Pressure
+      Will choose a color from the color ramp according to the stylus pressure.
+   Clamp
+      Will alter the color along the stroke and as specified by *Gradient spacing*.
+      With Clamp it uses the last color of the color ramp after the specified gradient.
+   Repeat
+      Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
+      repeats the pattern.
 
 
 Color Palette
