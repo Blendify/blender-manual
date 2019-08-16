@@ -20,11 +20,18 @@ Brushes
    Add Brush
       When you add a brush, the new brush is a clone of the current one.
 
-.. note::
+   Brush Specials
+      Enabled Modes
+         Todo.
+      Tool Selection
+         Todo.
 
-   In order to save in a blend-user a custom brush, tick Fake User.
+   .. note::
 
-The size of the brush can be changed by the :kbd:`[` and :kbd:`]` shortcuts.
+      In order to save in a blend-user a custom brush, enable Fake User.
+
+Radius
+   The size of the brush can be changed by the :kbd:`[` and :kbd:`]` shortcuts.
 
 Autosmooth
    Amount of smoothing to apply to each stroke.

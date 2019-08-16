@@ -94,7 +94,6 @@ Simplify
    This brush collapses short edges (as defined by the detail size) whether or
    not the *Collapse Short Edges* option is enabled.
    This brush has no effect if dynamic topology is not enabled.
-   It can be found in the :menuselection:`Brush --> Sculpt Tool` menu.
 
 Mask :kbd:`M`
    Lets you select mesh parts to be unaffected by other brushes by painting vertex colors.

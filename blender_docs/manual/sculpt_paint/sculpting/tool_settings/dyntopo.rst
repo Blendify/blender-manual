@@ -78,7 +78,7 @@ Symmetrize
    :class: refbox
 
    :Mode:      Sculpt Mode
-   :Panel:     :menuselection:`Sidebar --> Tool --> Brush --> Topology Rake`
+   :Panel:     :menuselection:`Tool Settings --> Brush --> Topology Rake`
 
 *Topology Rake* automatically aligns mesh edges to the brush direction
 to generate cleaner topology and define sharp features.

@@ -8,8 +8,6 @@ Symmetry
 
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Toolbar --> Tool --> Symmetry`
-   :Panel:     :menuselection:`Properties --> Tool --> Symmetry`
-   :Menu:      :menuselection:`Sculpt --> Symmetry`
 
 Mirror
    See :doc:`/sculpt_paint/brush/symmetry`.

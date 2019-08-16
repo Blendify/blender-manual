@@ -8,7 +8,6 @@ Brush
 
    :Mode:      Sculpt Mode
    :Panel:     :menuselection:`Toolbar --> Tools --> Brush`
-   :Menu:      :menuselection:`Brush --> Sculpt Tool`
 
 Brush Type
    TODO.

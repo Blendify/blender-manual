@@ -17,9 +17,6 @@ Use Deform Only
    Limits the activated modifiers on the active object to Deform Modifiers, and Multiresolution.
    Constructive modifiers (like Subdivision Surface, Mirror and other) get deactivated,
    because they could give inaccurate results.
-Show Mask
-   The option to hide mask in the viewport.
-   Brushes themselves are still affected by the mask, but the viewport will not display the mask.
 
 .. seealso::
 
