@@ -1,3 +1,4 @@
+.. _bpy.ops.uv.select:
 
 *********
 Selecting
@@ -34,6 +35,8 @@ Select Split :kbd:`Y`
    Cuts apart the selected UVs from the map. Only those UVs which belong to
    fully selected faces remain selected. As the name implies, this is particularly useful to
    unlink faces and move them elsewhere. The hotkey is analogous to the mesh Split tool.
+Select Overlap
+   Selects any UVs that are extended over other UVs while also selecting any underlying UVs.
 
 
 Header
