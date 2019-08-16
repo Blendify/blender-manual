@@ -101,10 +101,9 @@ Format
       Indents the selection :kbd:`Tab`.
    Unindent
       Un-indents the selection :kbd:`Shift-Tab`.
-   Comment
-      Turns the selected lines into a Python comment.
-   Uncomment
-      Uncomments the selected lines.
+   Toggle Comments :kbd:`Ctrl-/`.
+      Toggles whether the selected line(s) are a Python comment.
+      If no lines are selected the current line is toggled.
    Convert Whitespace
       Converts between tab or space indentation.
 Template
