@@ -22,6 +22,12 @@ The OBJ format is a popular plain text format, however, it has only basic geomet
    There is no support for mesh vertex colors, armatures, animation,
    lights, cameras, empty objects, parenting, or transformations.
 
+.. note::
+
+   Blender now only supports complex node-based shading. OBJ having a fixed pipeline-like support of materials,
+   this add-on uses the :doc:`generic wrapper </addons/io_node_shaders_info>`
+   featured by Blender to convert between both.
+
 .. warning::
 
    - Importing very large OBJ-files (over a few 100mb), can use a lot of RAM.
