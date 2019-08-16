@@ -7,7 +7,7 @@ Hiding & Masking
    :class: refbox
 
    :Mode:      Sculpt Mode
-   :Menu:      :menuselection:`Hide/Mask`
+   :Menu:      :menuselection:`Sculpt`
 
 While sculpting, areas might be hidden behind parts of the mesh or they might be too close to other parts.
 To work through these, it is useful to isolate parts of a mesh to sculpt on.
@@ -26,13 +26,13 @@ The hidden faces cannot be sculpted on.
 Hiding is shared between Edit Mode and Sculpt Mode
 (i.e. hiding/unhiding in one mode affects the other mode too).
 
+Show All :kbd:`Alt-H`
+   Reveal all hidden parts.
 Hide Bounding Box :kbd:`H`
    To hide a part of a mesh inside the selection.
    This works similar to :ref:`Box Select <tool-select-box>` tool.
-Hide Bounding Box :kbd:`Shift-H`
+Show Bounding Box :kbd:`Shift-H`
    To reveal a hidden part of a mesh inside the selection.
-Show All :kbd:`Alt-H`
-   Reveal all hidden parts.
 Hide Masked
    Hides all masked vertices.
 
@@ -86,7 +86,6 @@ Displaying
 
    :Mode:      Sculpt Mode
    :Popover:   :menuselection:`Viewport Overlays -- Sculpt --> Mask`
-   :Menu:      :menuselection:`Tool Settings --> Sculpt --> Mask`
 
 The mask display can be toggled as a :doc:`viewport overlay </editors/3dview/controls/overlays>`.
 In the overlay popover, the opacity of the mask overlay can be adjusted to make it more or less visible on the mesh.
