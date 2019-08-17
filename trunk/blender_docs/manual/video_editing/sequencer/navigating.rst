@@ -33,13 +33,13 @@ Navigation
    Go to Playhead :kbd:`Numpad0`
       Scrolls the timeline so the current frame is in the center.
    Jump to Previous Strip :kbd:`PageDown`
-      Current frame will jump to end of strip.
-   Jump to Next Strip :kbd:`PageUp`
       Current frame will jump to beginning of strip.
+   Jump to Next Strip :kbd:`PageUp`
+      Current frame will jump to end of strip.
    Jump to Previous Strip (Center) :kbd:`Alt-PageDown`
-      Jump to next center of the strip.
-   Jump to Next Strip (Center) :kbd:`Alt-PageUp`
       Jump to previous center of the strip.
+   Jump to Next Strip (Center) :kbd:`Alt-PageUp`
+      Jump to next center of the strip.
 Range
    Set Preview Range :kbd:`P`
       Interactively define frame range used for playback.
