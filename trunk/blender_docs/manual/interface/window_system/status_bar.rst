@@ -28,8 +28,10 @@ Running Tasks
    Hovering over them shows a time estimate.
 Report Message
    Label for an operator to display results or warnings. It disappears after a short time.
-   By clicking with :kbd:`LMB` on the icon on the left side,
-   the full report is copied into a new text data-block, which you can open in the Text Editor.
+   Clicking on the icon on the left side of the report message will open the
+   :doc:`Info Editor </editors/info_editor>` which shows the full message.
+   The full report is then also copied into a new text data-block, which you can open in the
+   :doc:`Text Editor </editors/text_editor>`.
 
 
 Resource Information
