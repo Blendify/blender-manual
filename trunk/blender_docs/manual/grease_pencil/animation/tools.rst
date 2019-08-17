@@ -5,14 +5,14 @@ Animation Tools
 
 .. _bpy.ops.gpencil.blank_frame_add:
 
-Insert Blank Keyframe
-=====================
+Insert Blank Frame
+==================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Keyframe`
+   :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Frame`
 
 Add a new blank keyframe to the active layer at the current frame.
 If there is already a keyframe at the current frame,
@@ -20,20 +20,6 @@ a new blank keyframe will be added on the next frame.
 
 All Layers
    When enabled, Blank keyframe will be created on all layers, not only the active one.
-
-
-.. _bpy.ops.gpencil.active_frames_delete_all:
-
-Delete Frame(s)
-===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Delete Frame(s)`
-
-Deletes the last keyframe in the Dope Sheet or the current keyframe if you are on one.
 
 
 .. _bpy.ops.gpencil.frame_duplicate:
@@ -56,6 +42,22 @@ Mode
    All
       Duplicate all the layers.
 
+
+.. _bpy.ops.gpencil.active_frames_delete_all:
+
+Delete Frame(s)
+===============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Draw Mode, Edit Mode, Sculpt Mode
+   :Menu:      :menuselection:`Stroke --> Animation --> Delete Frame(s)`
+
+Deletes the last keyframe in the Dope Sheet or the current keyframe if you are on one.
+
+
+.. _grease-pencil-animation-tools-interpolation:
 
 Interpolation
 =============

@@ -94,10 +94,23 @@ Animation
    :class: refbox
 
    :Mode:      Edit Mode, Draw Mode
-   :Menu:      :menuselection:`Strokes --> Animation`, :menuselection:`Strokes --> Interpolation`
+   :Menu:      :menuselection:`Strokes --> Animation`
 
-The animations and stroke interpolation tools are described
-in the :doc:`Animation </grease_pencil/animation/introduction>` section.
+The stroke animation tools are described
+in the :doc:`Animation </grease_pencil/animation/tools>` section.
+
+
+Interpolation
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode, Draw Mode
+   :Menu:      :menuselection:`Strokes --> Interpolation`
+
+The stroke animation tools are described
+in the :ref:`Animation <grease-pencil-animation-tools-interpolation>` section.
 
 
 Extrude Points
