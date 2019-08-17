@@ -541,16 +541,37 @@ Cleaning Up
 These tools help to cleanup degenerate geometry on the strokes.
 
 
-Loose Points
-------------
+Delete Loose Points
+-------------------
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Clean Up --> Loose Points`
+   :Menu:      :menuselection:`Stroke --> Clean Up --> Delete Loose Points`
 
 Removes disconnected points.
+
+
+.. _bpy.ops.gpencil.stroke_merge_by_distance:
+
+Merge by Distance
+-----------------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Stroke --> Clean Up --> Merge by Distance`
+
+*Merge by Distance* is a useful tool to simplify a stroke by merging
+the selected points that are closer than a specified distance to each other.
+
+Merge Distance
+   Sets the distance threshold for merging points.
+Unselected
+   Allows points in selection to be merged with unselected points.
+   When disabled, selected points will only be merged with other selected ones.
 
 
 Boundary Strokes
