@@ -563,7 +563,7 @@ Delete Loose Points
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Stroke --> Clean Up --> Delete Loose Points`
 
-Removes disconnected points.
+Removes unconnected points.
 
 
 .. _bpy.ops.gpencil.stroke_merge_by_distance:

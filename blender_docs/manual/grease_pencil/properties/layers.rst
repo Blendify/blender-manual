@@ -63,7 +63,6 @@ Viewport/Render Visibility (eye icon)
 Onion Skinning (onion skin icon)
    Toggle the use the layer for :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
 
-
 .. _bpy.types.GPencilLayer.blend_mode:
 .. _bpy.types.GPencilLayer.opacity:
 .. _bpy.types.GPencilLayer.use_solo_mode:

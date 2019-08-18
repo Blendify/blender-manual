@@ -435,7 +435,7 @@ Tooltip
    Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
 Subtype
    For vector properties, specifies the kind of data the property contains,
-   which affects how it appears in the UI. Most useful for color properties.
+   which affects how it appears in the :abbr:`UI (User Interface)`. Most useful for color properties.
 
 
 Python Access

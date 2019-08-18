@@ -39,13 +39,13 @@ There are two categories of drivers:
 
 - **Built-in functions** (*Average*, *Sum*, *Min* and *Max*)
 
-   The driven property will have the value of the average, sum, lowest or highest (respectively)
-   of the values of the referenced *Driver Variables*.
-   If there is only one driver variable, these functions will yield the same result.
+  The driven property will have the value of the average, sum, lowest or highest (respectively)
+  of the values of the referenced *Driver Variables*.
+  If there is only one driver variable, these functions will yield the same result.
 
 - **Custom** (*Scripted Expression*).
 
-   An arbitrary Python expression that can refer to the *Driver Variables* by name. See `Expressions`_.
+  An arbitrary Python expression that can refer to the *Driver Variables* by name. See `Expressions`_.
 
 
 Driver Value
@@ -72,6 +72,7 @@ Show in Drivers Editor
 Opens the fully featured :doc:`Drivers Editor </editors/drivers_editor>`.
 This button only appears in the popover version of the Drivers panel.
 
+
 .. _drivers-variables:
 
 Driver Variables
@@ -80,8 +81,8 @@ Driver Variables
 Variables are references to properties, transformation channels, or the result of a comparison
 between transformations of two objects.
 
-Drivers should access object data via *Driver Variables*, rather than direct references in the Python
-expression, in order for dependencies to be correctly tracked.
+Drivers should access object data via *Driver Variables*, rather than direct references in the Python expression,
+in order for dependencies to be correctly tracked.
 
 .. figure:: /images/animation_drivers_drivers-panel_add-variable.png
    :align: right
@@ -110,7 +111,7 @@ Copy/Paste Variables
 
 Name
    Name for use in scripted expressions.
-   The name must start with a letter, and only contain letters, digits, or ``_``.
+   The name must start with a letter, and only contain letters, digits, or underscores.
 
 Variable Type
    The type of variable to use.
@@ -134,8 +135,8 @@ Variable Type
 
       .. tip::
 
-         The easiest way to create a variable of this type is to use the
-         :ref:`Copy As New Driver <drivers-copy-as-new>`
+         The easiest way to create a variable of this type is to use
+         the :ref:`Copy As New Driver <drivers-copy-as-new>`
          context menu option of the input property, and paste the result
          into the driver via :ref:`Paste Driver Variables <drivers-variables>`.
 
