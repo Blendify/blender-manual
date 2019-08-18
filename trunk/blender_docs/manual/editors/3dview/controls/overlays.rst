@@ -146,11 +146,15 @@ Vertex Groups Weights
    Display weights in Edit Mode.
 
    Zero Weights
-      Display unweighted vertices:
+      To display unreferenced and zero weighted areas in black.
+      This helps to identify areas with very low weights that have been painted onto.
 
-      :None:
-      :Active: Show vertices with no weights in the active group.
-      :All: Show vertices with no weights in any group.
+      None
+         Vertices are displayed in the usual way.
+      Active
+         Show in black vertices with no weights in the active group.
+      All
+         The vertex is shown in black if it has zero weight in all groups.
 
 
 Mesh Analysis
@@ -239,12 +243,16 @@ Weight Paint
 Opacity
    The opacity of the overlay.
 Zero Weights
-   Zero Weights
-      Display unweighted vertices.
+   To display unreferenced and zero weighted areas in black.
+   This helps to identify areas with very low weights that have been painted onto.
 
-      - None
-      - Active: Show vertices with no weights in the active group.
-      - All: Show vertices with no weights in any group.
+   None
+      Vertices are displayed in the usual way.
+   Active
+      Show in black vertices with no weights in the active group.
+   All
+      The vertex is shown in black if it has zero weight in all groups.
+
 Show Weight Contours
    Show contour lines formed by points with the same interpolated weight.
 Show Wire
