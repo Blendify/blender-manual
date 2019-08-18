@@ -22,11 +22,8 @@ They are ideal for simulating flocks, swarms, herds and schools of various kind 
 insects and fishes or predators vs. preys simulations.
 They can react on the presence of other objects and on the members of their own system.
 Boids can handle only a certain amount of information,
-therefore the sequence of the Behavior settings is very important.
+therefore the sequence of the *Boid Brain* rules is very important.
 In certain situations only the first three parameter are evaluated.
-
-To view the panel to the right, add a *Particle System* of type
-*Emitter* and look in the middle area of the *Particle System* tab.
 
 
 Movement
@@ -37,11 +34,8 @@ Movement
 
    :Panel:     :menuselection:`Particle System --> Physics --> Movement`
 
-Boids try to avoid objects with activated Deflection.
-They try to reach objects with positive Force fields,
-and fly from objects with negative Force fields.
-The objects have to share one common layer to have an effect.
-It is not necessary to render this common layer, so you may use invisible influences.
+Boids try to avoid objects with activated Collision.
+They try to reach goal objects, and fly from "predators" according to the *Boid Brain* settings.
 
 Boids can different physics depending on whether they are in the air,
 or on land (on collision object).
@@ -156,16 +150,12 @@ It works best for convex surfaces (some work needed for concave surfaces).
 Force Fields
 ------------
 
-For boid physics, spherical force fields define the way the objects having the field are seen by others.
-So a negative force field (on an object or a particle system)
-will be a predator to all other boids particle systems,
-and a positive field will be a goal to all other boids particle systems.
+As other physics types, Boids is also influenced by external force fields.
 
-These effectors could be predators (negative Strength)
-that boids try to avoid, or targets (positive Strength)
-that boids try to reach according to the (respectively) Avoid and Goal rules' weights.
-Force's effective Strength is multiplied by the actual relevant weight
-(e.g. if either Strength or Goal is null, then a flock of boids will not track a positive force field).
+In addition, special *Boid* force fields can be used with the Boids physics.
+These effectors could be predators (positive Strength) that boids try to avoid,
+or targets (negative Strength) that boids try to reach
+according to the (respectively) *Avoid* and *Goal* rules of the *Boid Brain*.
 
 
 Boid Brain
@@ -191,13 +181,17 @@ The rules are by default parsed from top-list to bottom-list
 and the order can be modified using the little arrows buttons on the right side.
 
 Goal
-   Seek goal (objects with a force field and positive Strength).
+   Seek goal.
 
+   Object
+      Specifies the goal object. If not specified, Boid force fields with negative Strength are used as goals.
    Predict
       Predict target's movements.
 Avoid
-   Avoid "predators" (objects with force field and negative Strength).
+   Avoid "predators".
 
+   Object
+      Specifies the object to avoid. If not specified, Boid force fields with positive Strength are used as predators.
    Predict
       Predict target's movements.
    Fear Factor
@@ -261,8 +255,5 @@ Fuzzy
 Please note that a given boid will try as much as it can to comply to each of the rules he is
 given, but it is more than likely that some rule will take precedence on other in some cases.
 For example, in order to avoid a predator, a boid could probably "forget" about Collision,
-Crowd and Center rules, meaning that "while panicked" it could well run into obstacles,
+Separate and Flock rules, meaning that "while panicked" it could well run into obstacles,
 e.g. even if instructed not to, most of the time.
-
-As a final note, the collision algorithm is still not perfect and in research progress,
-so you can expect wrong behaviors at some occasion. It is worked on.
