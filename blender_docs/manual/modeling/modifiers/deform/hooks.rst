@@ -7,12 +7,15 @@ Hook Modifier
 The *Hook* modifier is used to deform a *Mesh*, *Curve* or *Lattice* using another object
 (usually an *Empty* or a *Bone* but it can be any object).
 
-As the hook moves, it pulls vertices or control points from the geometry with it.
+As an object specified as hook moves, it pulls vertices or control points from the geometry with it.
 You can think of it as animated
 :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 
 While hooks do not give you the fine control over vertices movement that shape keys do,
 they have the advantage that you can select vertices directly for manipulation.
+
+To assign selected vertices (in Edit Mode) you can use the *Assign* button on the modifier panel
+or use the :ref:`Add Hook <bpy.ops.object.hook_add_selob>` menu.
 
 
 Options
