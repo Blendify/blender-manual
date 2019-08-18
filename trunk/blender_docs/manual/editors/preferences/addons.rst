@@ -48,7 +48,7 @@ The add-on functionality should be immediately available.
 .. note::
 
    Add-ons that activate or change multiple hotkeys have a special system of activation.
-   or example, with the "UI: Pie Menu Official" add-on
+   For example, with the "UI: Pie Menu Official" add-on
    for each menu there's a selection box to activate the menu and its hotkey.
 
 .. tip::
@@ -62,9 +62,9 @@ The add-on functionality should be immediately available.
 -----------------
 
 There are hundreds of add-ons that are not distributed with Blender and are developed by others.
-To add them to the list of other add-ons they must be installed into Blender.
+To add them to the list of other add-ons, they must be installed into Blender.
 
-To install these use the *Install...* button and
+To install these, use the *Install...* button and
 use the File Browser to select the ``.zip`` or ``.py`` add-on file.
 
 Now the add-on will be installed, however not automatically enabled.

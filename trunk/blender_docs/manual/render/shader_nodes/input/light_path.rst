@@ -54,9 +54,9 @@ Ray Depth
       :ref:`does not count as a normal "bounce" <render-cycles-light-paths-transparency>`.
 
 Diffuse Depth :guilabel:`Cycles Only`
-   Number of times of times the ray has gone through diffuse reflection or transmission.
+   Number of times the ray has gone through diffuse reflection or transmission.
 Glossy Depth :guilabel:`Cycles Only`
-   Number of times of times the ray has gone through glossy reflection or transmission.
+   Number of times the ray has gone through glossy reflection or transmission.
 Transparent Depth :guilabel:`Cycles Only`
    Returns the number of transparent surfaces passed through.
 Transmission Depth :guilabel:`Cycles Only`

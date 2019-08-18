@@ -42,7 +42,7 @@ All :kbd:`A`
 None :kbd:`Alt-A`
    Select none.
 Inverse :kbd:`Ctrl-I`
-   Selects all the geometry that are not selected, and deselect currently selected components.
+   Selects all the geometry that is not selected, and deselect currently selected components.
 
 ------------------------
 
@@ -56,11 +56,11 @@ Inverse :kbd:`Ctrl-I`
 `Select All by Type`_
    Select objects based on their type.
 `Select Active Camera`_
-   Select the viewports active camera.
+   Select the viewport's active camera.
 `Mirror Selection`_
    Select mirrored objects based on their name.
 `Select Random`_
-   Selects a random objects, based on a percentage value.
+   Selects a random object, based on a percentage value.
 
 ------------------------
 
