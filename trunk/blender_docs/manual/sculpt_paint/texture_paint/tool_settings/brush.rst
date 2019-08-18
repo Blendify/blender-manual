@@ -83,7 +83,7 @@ Delete ``-``
    Removes the currently selected color from the palette.
 
 Color List
-   Each color that belongs to the pallet is presented in a list.
+   Each color that belongs to the palette is presented in a list.
    Clicking on a color will change the brush's primary *Color* to that color.
 
 

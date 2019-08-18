@@ -33,5 +33,5 @@ from the :doc:`Command Line </advanced/command_line/arguments>`.
 .. tip::
 
    To keep all configuration files and installed add-ons in the executable folder,
-   create a folder named ``config`` in the the :ref:`LOCAL directory <blender-directory-layout>`
+   create a folder named ``config`` in the :ref:`LOCAL directory <blender-directory-layout>`
    of the unzipped folder.

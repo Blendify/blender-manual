@@ -103,8 +103,8 @@ Mirror Weights
    With this option checked, every selected vertex receives
    the weight information of its symmetrical counterpart.
    If both vertices are selected, it will be a weight information exchange;
-   if only one is selected, information from the unselected will be copied into the selected one,
-   that loses its own information. Information on weight is passed for the active group only,
+   if only one is selected, information from the selected will overwrite the unselected one.
+   Information on weight is passed for the active group only,
    unless *All Groups* is checked, in which case it is passed for all groups.
 Flip Group Names
    Works with selected vertices that belong to vertex groups with "symmetrical names"
@@ -120,18 +120,17 @@ Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
    See :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
 
-
 .. tip:: Mirror to Opposite Bone
 
    If you want to create a mirrored weight group for the opposite bone
    (of a symmetric character), then you can do this:
 
-   #. Delete the target Vertex Group (where the mirrored weights will be placed).
-   #. Create a copy of the source bone Vertex Group
+   #. Delete the target vertex group (where the mirrored weights will be placed).
+   #. Create a copy of the source bone vertex group
       (the group containing the weights which you want to copy).
-   #. Rename the new Vertex Group to the name of the target Vertex Group
+   #. Rename the new vertex group to the name of the target vertex group
       (the group you deleted above).
-   #. Select the Target Vertex Group and call the Mirror tool
+   #. Select the target vertex group and call the Mirror tool
       (use only the Mirror weights option and optionally *Topology Mirror* if your mesh is not symmetric).
 
 

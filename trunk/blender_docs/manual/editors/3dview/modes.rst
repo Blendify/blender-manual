@@ -95,10 +95,10 @@ because they are dealed with in their own sections.
 
 .. _3dview-multi-object-mode:
 
-Multi-Object Modes
-==================
+Multi-Object Editing
+====================
 
-Edit and Pose modes support multiple objects at once.
+Edit and Pose Modes support editing of multiple objects at once.
 
 This is convenient if you want to perform the same edits on multiple objects
 or want to animate multiple characters at once.

@@ -36,9 +36,9 @@ Sequence Render Animation
 .. _bpy.ops.sequencer.export_subtitles:
 
 Export Subtitles
-   Exports :doc:`Text Strips </video_editing/sequencer/strips/text>`,
+   Exports :doc:`Text strips </video_editing/sequencer/strips/text>`,
    which can act as subtitles, to a `SubRip <https://en.wikipedia.org/wiki/SubRip>`__ file (``.srt``).
-   The exported file contains all text strips in the video sequence.
+   The exported file contains all Text strips in the video sequence.
 
 
 Display Mode

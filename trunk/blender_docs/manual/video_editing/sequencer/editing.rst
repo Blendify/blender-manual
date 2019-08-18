@@ -102,7 +102,7 @@ Snap Strips
    :Menu:      :menuselection:`Strip --> Transform --> Snap Strips to Playhead`
    :Hotkey:    :kbd:`Shift-S`
 
-Position your cursor (vertical Blue line) to the time you want.
+Position your cursor (vertical blue line) to the time you want.
 Snap to current frame to start a strip exactly at the beginning of the frame.
 If your Time display is in seconds,
 you can get to fractional parts of a second by zooming the display;

@@ -27,9 +27,9 @@ The *Outliner* can be used to:
 
 Each row in the *Outliner* shows a data-block. You can :kbd:`LMB` click the disclosure triangle to
 the left of a name to expand the current data-block and see what other data-blocks it contains.
-Holding :kbd:`Shift` when clicking on the disclosure triangle will expand child data-blocks
-recursively. :kbd:`LMB` Clicking and dragging along disclosure triangles will expand or collapse multiple
-data-blocks.
+Holding :kbd:`Shift` when clicking on the disclosure triangle will expand child data-blocks recursively.
+:kbd:`LMB` Clicking and dragging along disclosure triangles will expand or collapse multiple data-blocks.
+
 
 Selecting and Activating
 ========================
@@ -39,40 +39,41 @@ Selecting and Activating
 
    Selected data-blocks with the Cube active.
 
-Selection is done with :kbd:`LMB` (and/or the `context menu`_, see below) on the row
-of a data-block outside the the name/icon area. Single selections will also activate the
-data-block. The rows of selected data-blocks are highlighted blue, with the active data-block
-highlighted in a lighter blue.
+Selection is done with :kbd:`LMB` (and/or the `context menu`_, see below) on the row of
+a data-block outside the name/icon area. Single selections will also activate the data-block.
+The rows of selected data-blocks are highlighted blue, with the active data-block highlighted in a lighter blue.
 
 Clicking in empty space below the list of data-blocks will deselect all.
 
 .. note::
-   By default, selecting data-blocks in the outliner will select the respective objects,
-   bones, and sequences in the 3D view and Sequencer. Selections in the 3D view and Sequencer
-   will be synced to each Outliner. To disable selection syncing, turn off the toggle in the
-   `filter`_ popover.
+
+   By default, selecting data-blocks in the Outliner will select the respective objects,
+   bones, and sequences in the 3D View and Sequencer.
+   Selections in the 3D View and Sequencer will be synced to each Outliner.
+   To disable selection syncing, turn off the toggle in the `filter`_ popover.
 
 Children of a data-block can also be selected by clicking the icon that is displayed to
 the right of the parent data-block's name.
 
+
 Selecting Multiple Data-Blocks
 ------------------------------
 
-Extend the selection one data-block at a time using :kbd:`Ctrl-LMB`. Each data-block added
-to the selection this way will be made the active data-block.
+Extend the selection one data-block at a time using :kbd:`Ctrl-LMB`.
+Each data-block added to the selection this way will be made the active data-block.
 
-Select a range of elements from the active element using :kbd:`Shift-LMB`. To select a
-range without deselecting the previous selection, use :kbd:`Ctrl-Shift-LMB`.
+Select a range of elements from the active element using :kbd:`Shift-LMB`.
+To select a range without deselecting the previous selection, use :kbd:`Ctrl-Shift-LMB`.
 
-A click and drag from any location in the Outliner other than a name or icon will begin
-a box selection. Use :kbd:`Shift` to add and :kbd:`Ctrl` to subtract from existing
-selections with box select. Box select can also be started with :kbd:`B`.
+A click and drag from any location in the Outliner other than a name or icon will begin a box selection.
+Use :kbd:`Shift` to add and :kbd:`Ctrl` to subtract from existing selections with box select.
+Box select can also be started with :kbd:`B`.
 
 To select all items use :kbd:`A`; :kbd:`Alt-A` will deselect all items.
 
-The keyboard arrow keys can be used to navigate and select in the Outliner. Keyboard
-selection and navigation starts from the active data-block, but does not change the
-active data-block.
+The keyboard arrow keys can be used to navigate and select in the Outliner.
+Keyboard selection and navigation starts from the active data-block,
+but does not change the active data-block.
 
 .. list-table::
    :widths: 10 90
@@ -82,17 +83,17 @@ active data-block.
    * - :kbd:`Down`
      - Select the next element in the list.
    * - :kbd:`Shift-Up`
-     - Select the previous element without deselecting
+     - Select the previous element without deselecting.
    * - :kbd:`Shift-Down`
-     - Select the next element without deselecting
+     - Select the next element without deselecting.
    * - :kbd:`Left`
-     - Close the data-block
+     - Close the data-block.
    * - :kbd:`Right`
-     - Open the data-block to view children
+     - Open the data-block to view children.
    * - :kbd:`Shift-Left`
-     - Close this and all child data-blocks
+     - Close this and all child data-blocks.
    * - :kbd:`Shift-Right`
-     - Open this and all child data-blocks
+     - Open this and all child data-blocks.
 
 
 Toggling Interaction Modes
@@ -114,16 +115,17 @@ Relations Management
 
    Linking objects to a collection.
 
-Data-blocks can be dragged and dropped to manage data relations in the Outliner. To
-begin a drag and drop, :kbd:`LMB` click and drag from the name or icon of a data-block.
+Data-blocks can be dragged and dropped to manage data relations in the Outliner.
+To begin a drag and drop, :kbd:`LMB` click and drag from the name or icon of a data-block.
 
-Objects can be moved to collections by dropping on the name or contents
-of a collection. To link an object to a collection, hold :kbd:`Ctrl` while dropping.
+Objects can be moved to collections by dropping on the name or contents of a collection.
+To link an object to a collection, hold :kbd:`Ctrl` while dropping.
 
-To set parent-child relations between objects, drop an object onto another object while
-holding :kbd:`Shift`.
+To set parent-child relations between objects, drop an object onto another object
+while holding :kbd:`Shift`.
 
-.. Note::
+.. note::
+
    Drag and drop will attempt to operate on the entire selection. Selected data-blocks
    that are incompatible with the operation will remain unmodified.
 
@@ -310,7 +312,7 @@ Sort Alphabetically
    Sort the entries alphabetically.
 
 Sync Selection
-   Sync outliner selection to and from the :doc:`3D View </editors/3dview/index>` and
+   Sync Outliner selection to and from the :doc:`3D View </editors/3dview/index>` and
    :doc:`Sequencer </video_editing/index>` editors. Disable to manage collections, object
    relations, and scene data without changing the selection state. Selection syncing is
    only available in Scenes, View Layer, and Sequence display modes.
@@ -319,7 +321,7 @@ Collections
    List the objects and collections under
    the :doc:`collection hierarchy </scene_layout/collections/index>` of the scene.
    Objects may appear in more than one collection.
-ObjectsSequencer
+Objects Sequencer
    List of all the objects, respecting the other filter options.
    Disabled only if you need an overview of the collections without the objects.
 Object State
@@ -329,7 +331,7 @@ Object State
       List only the objects visible in the viewports.
       The global and temporary visibility settings are taken into consideration.
    Invisible
-      List only the objects not visible in the viewports
+      List only the objects not visible in the viewports.
    Selected
       Lists the object(s) that are currently selected in the 3D View.
       See :doc:`selecting in the 3D View </scene_layout/object/selecting>` for more information.
