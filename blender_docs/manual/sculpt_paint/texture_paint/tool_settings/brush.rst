@@ -61,8 +61,8 @@ Mode
    Pressure
       Will choose a color from the color ramp according to the stylus pressure.
    Clamp
-      Will alter the color along the stroke and as specified by *Gradient spacing*.
-      With Clamp it uses the last color of the color ramp after the specified gradient.
+      Will alter the color along the stroke and as specified by *Gradient Spacing* option.
+      With *Clamp* it uses the last color of the color ramp after the specified gradient.
    Repeat
       Similar to *Clamp*. After the last color it resets the color to the first color in the color ramp and
       repeats the pattern.
