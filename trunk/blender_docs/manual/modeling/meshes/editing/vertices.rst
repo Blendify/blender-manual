@@ -364,6 +364,8 @@ This will parent the other selected object(s) to the vertices/edges/faces select
 as described :doc:`here </scene_layout/object/properties/relations/parents>`.
 
 
+.. _bpy.ops.object.hook_add_selob:
+
 Add Hook
 ========
 
