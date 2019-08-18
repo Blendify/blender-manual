@@ -21,69 +21,135 @@ The *Outliner* can be used to:
 - Enable or disable the rendering of an object.
 - Delete objects from the scene.
 - Unlink data (equivalent to pressing the *X* button next to the name of a data-block).
+- Manage collections in the scene.
 
 .. (TODO) create new objects by drag & drop from the outliner
-   drag & drop objects to groups
 
-Each row in the *Outliner* shows a data-block. You can click the plus sign to
+Each row in the *Outliner* shows a data-block. You can :kbd:`LMB` click the disclosure triangle to
 the left of a name to expand the current data-block and see what other data-blocks it contains.
-
-You can select data-blocks in the *Outliner*,
-but this will not necessarily select the data-block in the scene.
-To select the data-block in the scene, you have to activate it.
-
+Holding :kbd:`Shift` when clicking on the disclosure triangle will expand child data-blocks
+recursively. :kbd:`LMB` Clicking and dragging along disclosure triangles will expand or collapse multiple
+data-blocks.
 
 Selecting and Activating
 ========================
 
-Single selection does not require any pre-selection: just work directly with :kbd:`LMB`
-(and/or the `context menu`_, see below) *inside* the name/icon area.
-
-When you select an object in the list this way,
-it is selected and becomes the active object in all other 3D Views.
-
-
-Selecting a Group of Data-Blocks
---------------------------------
-
-.. figure:: /images/editors_outliner_column-icons.png
+.. figure:: /images/editors_outliner_selection.png
    :align: right
 
-   Selection of a data-block.
+   Selected data-blocks with the Cube active.
 
-Useful when you want to select/deselect a whole bunch of data-blocks.
-For this you must prepare the selection using, to your liking:
+Selection is done with :kbd:`LMB` (and/or the `context menu`_, see below) on the row
+of a data-block outside the the name/icon area. Single selections will also activate the
+data-block. The rows of selected data-blocks are highlighted blue, with the active data-block
+highlighted in a lighter blue.
 
-- :kbd:`RMB` or :kbd:`LMB`,
-- :kbd:`Shift-RMB` or :kbd:`Shift-LMB`,
-- :kbd:`RMB` and drag or :kbd:`LMB` and drag,
+Clicking in empty space below the list of data-blocks will deselect all.
 
-all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
-You then can (de)select them with an :kbd:`RMB`-click *on* the name/icon area,
-which brings on a context menu (see below). :kbd:`A` to select/deselect all open items.
+.. note::
+   By default, selecting data-blocks in the outliner will select the respective objects,
+   bones, and sequences in the 3D view and Sequencer. Selections in the 3D view and Sequencer
+   will be synced to each Outliner. To disable selection syncing, turn off the toggle in the
+   `filter`_ popover.
+
+Children of a data-block can also be selected by clicking the icon that is displayed to
+the right of the parent data-block's name.
+
+Selecting Multiple Data-Blocks
+------------------------------
+
+Extend the selection one data-block at a time using :kbd:`Ctrl-LMB`. Each data-block added
+to the selection this way will be made the active data-block.
+
+Select a range of elements from the active element using :kbd:`Shift-LMB`. To select a
+range without deselecting the previous selection, use :kbd:`Ctrl-Shift-LMB`.
+
+A click and drag from any location in the Outliner other than a name or icon will begin
+a box selection. Use :kbd:`Shift` to add and :kbd:`Ctrl` to subtract from existing
+selections with box select. Box select can also be started with :kbd:`B`.
+
+To select all items use :kbd:`A`; :kbd:`Alt-A` will deselect all items.
+
+The keyboard arrow keys can be used to navigate and select in the Outliner. Keyboard
+selection and navigation starts from the active data-block, but does not change the
+active data-block.
+
+.. list-table::
+   :widths: 10 90
+
+   * - :kbd:`Up`
+     - Select the previous element in the list.
+   * - :kbd:`Down`
+     - Select the next element in the list.
+   * - :kbd:`Shift-Up`
+     - Select the previous element without deselecting
+   * - :kbd:`Shift-Down`
+     - Select the next element without deselecting
+   * - :kbd:`Left`
+     - Close the data-block
+   * - :kbd:`Right`
+     - Open the data-block to view children
+   * - :kbd:`Shift-Left`
+     - Close this and all child data-blocks
+   * - :kbd:`Shift-Right`
+     - Open this and all child data-blocks
 
 
-Activating a Data-Block
------------------------
+Toggling Interaction Modes
+==========================
 
-To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
-Activating the data-block will automatically switch to the relevant mode.
-For example, activating the mesh data of the cube will select the cube
-and enter *Edit Mode* while activating the object data of
-the cube will select the cube and enter *Object Mode* (see right).
+Selecting some data-blocks with :kbd:`LMB` will toggle into the relevant interaction
+mode. For example, selecting the mesh data of the cube will select the cube and
+enter *Edit Mode*. Selecting the data-block again will toggle back into *Object Mode*
 
 If the data-block type supports multi-editing,
 you can use :kbd:`Shift` to add/remove objects from the edit mode.
 
 
+Relations Management
+====================
+
+.. figure:: /images/editors_outliner_relations.png
+   :align: right
+
+   Linking objects to a collection.
+
+Data-blocks can be dragged and dropped to manage data relations in the Outliner. To
+begin a drag and drop, :kbd:`LMB` click and drag from the name or icon of a data-block.
+
+Objects can be moved to collections by dropping on the name or contents
+of a collection. To link an object to a collection, hold :kbd:`Ctrl` while dropping.
+
+To set parent-child relations between objects, drop an object onto another object while
+holding :kbd:`Shift`.
+
+.. Note::
+   Drag and drop will attempt to operate on the entire selection. Selected data-blocks
+   that are incompatible with the operation will remain unmodified.
+
+
+Context Menu
+============
+
+Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
+Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
+
+Copy/Paste
+   Copy/pastes selected data-blocks.
+Delete
+   Deletes the selected data-block.
+Select, Select Hierarchy, Deselect
+   Add object to current selection without making it the active one.
+
+
 .. _editors-outliner-collections:
 
 Collections
-===========
+-----------
 
 Collections are a way Blender uses to organize scenes.
 Collections contain objects and everything thing else in a scene.
-They can be include collections themselves and are fully recursive.
+They can include collections themselves and are fully recursive.
 
 .. seealso::
 
@@ -116,19 +182,6 @@ View Layer
       Disables/Enables the collection from the view layer.
 
 
-Context Menu
-============
-
-Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
-Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
-
-Copy/Paste
-   Copy/pastes selected data-blocks.
-Delete
-   Deletes the selected data-block.
-Select, Select Hierarchy, Deselect
-   Add object to current selection without making it the active one.
-
 
 ID Data Menu
 ------------
@@ -149,7 +202,7 @@ Copy/Paste
 Add Fake User, Clear Fake User
    Adds a "dummy" (fake) user so that the selected data-block always gets saved even if it has no users.
    The fake user can be removed with *Clear Fake User*.
-Rename :kbd:`Ctrl-LMB`
+Rename :kbd:`F2`
    Renames the selected data-block.
 Select Linked
    Selects the linked data, see :ref:`bpy.ops.object.select_linked` for more information.
@@ -180,7 +233,7 @@ The following toggles, in the right side of the *Outliner* editor,
 are available for collections, objects, bones, modifiers and constraints.
 
 By default only the temporary viewport visibility is enabled.
-The other options can be enabled in the *Restriction Toggles* option in the Outliner filter.
+The other options can be enabled in the *Restriction Toggles* option in the Outliner `filter`_.
 
 - Holding :kbd:`Shift` sets or unsets the value to all its child collections or objects.
 - Holding :kbd:`Ctrl` isolates the object or collection, so they are the only ones with its value set.
@@ -256,11 +309,17 @@ Restriction Toggles
 Sort Alphabetically
    Sort the entries alphabetically.
 
+Sync Selection
+   Sync outliner selection to and from the :doc:`3D View </editors/3dview/index>` and
+   :doc:`Sequencer </video_editing/index>` editors. Disable to manage collections, object
+   relations, and scene data without changing the selection state. Selection syncing is
+   only available in Scenes, View Layer, and Sequence display modes.
+
 Collections
    List the objects and collections under
    the :doc:`collection hierarchy </scene_layout/collections/index>` of the scene.
    Objects may appear in more than one collection.
-Objects
+ObjectsSequencer
    List of all the objects, respecting the other filter options.
    Disabled only if you need an overview of the collections without the objects.
 Object State
@@ -268,7 +327,9 @@ Object State
       The default option, no restrictions.
    Visible
       List only the objects visible in the viewports.
-      The global and temporary visibility settings are taken into considerations.
+      The global and temporary visibility settings are taken into consideration.
+   Invisible
+      List only the objects not visible in the viewports
    Selected
       Lists the object(s) that are currently selected in the 3D View.
       See :doc:`selecting in the 3D View </scene_layout/object/selecting>` for more information.
