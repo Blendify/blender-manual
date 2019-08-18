@@ -95,31 +95,7 @@ Mirror Vertex Group
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Mesh --> Mirror --> Mirror Vertex Group`
+   :Menu:      :menuselection:`Mesh --> Weights --> Mirror`
 
-This tool works only with a perfectly symmetrical mesh (along the local X axis).
-Those vertices that have no corresponding vertex on the other side will not be affected.
-
-Mirror Weights
-   With this option checked, every selected vertex receives
-   the group/weight information of its symmetrical counterpart.
-   If both vertices are selected, it will be a group/weight information exchange;
-   if only one is selected, information from the unselected will be copied into the selected one,
-   that loses its own information. Information on group/weight is passed for the active group only,
-   unless *All Groups* is checked, in which case it is passed for all groups.
-Flip Groups Names
-   Works with selected vertices that belong to vertex groups with "symmetrical names"
-   (with components like "L", "R", "right", "left").
-   All selected vertices that belong to the active group, or to the symmetrical of the active group,
-   will have their assignation to that group replaced by an assignation to the symmetrical one;
-   however, its weight will be preserved.
-All Groups
-   If *All Groups* is checked, all assignations to these kind of groups
-   will be replaced by the symmetrical counterpart, also keeping the old weights.
-Topology Mirror
-   Mirror for meshes which are not fully symmetric.
-   See :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
-
-Usually only one of those operations (*Mirror Weights* or *Flip Groups Names*)
-will be performed, though you can activate both at the same time,
-if you know what you are doing (these two operations could even cancel each other).
+Mirrors the vertex group weights.
+See :ref:`Mirror Vertex Group <bpy.ops.object.vertex_group_mirror>` for more information.
