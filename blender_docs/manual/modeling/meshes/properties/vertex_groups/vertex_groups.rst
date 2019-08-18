@@ -17,6 +17,16 @@ Vertex Groups Panel
 Vertex Groups are maintained within the *Object Data* Properties Editor,
 and there in the *Vertex Groups* panel.
 
+.. _bpy.ops.object.vertex_group_add:
+.. _bpy.ops.object.vertex_group_sort:
+.. _bpy.ops.object.vertex_group_copy:
+.. _bpy.ops.object.vertex_group_copy_to_linked:
+.. _bpy.ops.object.vertex_group_copy_to_selected:
+.. _bpy.ops.object.vertex_group_remove_from:
+.. _bpy.ops.object.vertex_group_remove:
+.. _bpy.ops.object.vertex_group_lock:
+.. _bpy.ops.object.vertex_group_move:
+
 Active Vertex Group
    A :ref:`List view <ui-list-view>`.
 
@@ -29,8 +39,11 @@ Active Vertex Group
       Deletes the active vertex group.
 
    Specials
-      Sort Vertex Groups
+      Sort by Name
          Sorts Vertex Groups alphabetically.
+      Sort by Bone Hierarchy
+         (Todo)
+
       Copy Vertex Group
          Add a Copy of the active Vertex Group as a new Group.
          The new group will be named like the original group with "_copy" appended at the end of its name.
@@ -41,14 +54,17 @@ Active Vertex Group
       Copy Vertex Group to Selected
          Copy all Vertex Groups to other Selected Objects provided they have matching indices
          (typically this is true for copies of the mesh which are only deformed and not otherwise edited).
+
       Mirror Vertex Group
-         Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices,
-         flipping when both sides are selected; otherwise copy from unselected.
+         Mirrors weights and/or flips group names.
+         See :ref:`Mirror Vertex Group <bpy.ops.object.vertex_group_mirror>` for more information.
       Mirror Vertex Group (Topology)
-         The :ref:`modeling_meshes_editing_topology-mirror` option is enabled.
+         Performs the *Mirror Vertex Group* with the *Topology Mirror* option enabled.
+
       Remove from All Groups
-         (not available for locked groups) Unassigns the selected Vertices from all groups.
+         Unassigns the selected vertices from all (even locked) groups.
          After this operation has been performed, the vertices will no longer be contained in any vertex group.
+         (Not available for locked groups.)
       Clear Active Group
          Remove all assigned vertices from the active Group. The group is made empty.
          Note that the vertices may still be assigned to other Vertex Groups of the Object.

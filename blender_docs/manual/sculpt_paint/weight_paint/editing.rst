@@ -17,7 +17,7 @@ Editing Weights
 Blender provides a set of helper tools for Weight Painting.
 
 
-.. _bpy.ops.object.vertex_group_levels:
+.. _sculpt-paint_weight-paint_editing_subset:
 
 .. rubric:: The Subset Option
 
@@ -34,6 +34,8 @@ All tools also work with Vertex Selection Masking and Face Selection Masking.
 In these modes the tools operate only on selected vertices or faces.
 
 
+.. _bpy.ops.paint.weight_from_bones:
+
 Assign from Bone Envelopes
 ==========================
 
@@ -46,6 +48,8 @@ Assign Automatic from Bone
 Apply from the selected bone(s) to the vertex group the same "auto-weighting"
 methods as available in the Parent armature menu.
 
+
+.. _bpy.ops.object.vertex_group_normalize_all:
 
 Normalize All
 =============
@@ -63,6 +67,8 @@ Lock Active
    Keep the values of the active group while normalizing all the others.
 
 
+.. _bpy.ops.object.vertex_group_normalize:
+
 Normalize
 =========
 
@@ -74,13 +80,15 @@ but the entire set of weights is scaled up such that the highest weight value is
    Normalize example.
 
 
+.. _bpy.ops.object.vertex_group_mirror:
+
 Mirror
 ======
 
-This tool mirrors the weights from one side of the mesh to the opposite side
-(only mirroring along X axis is supported). But note, the weights are not
-transferred to the corresponding opposite bone weight group.
-The mirror only takes place within the selected Vertex Group.
+The *Mirror Vertex Group* tool mirrors the weights from one side of a perfectly symmetrical mesh
+to the opposite side. Only mirroring along local X axis is supported.
+Those vertices that have no corresponding vertex on the other side will not be affected.
+But note, the weights are not transferred to the corresponding opposite bone weight group.
 
 .. figure:: /images/sculpt-paint_weight-paint_weight-tools_mirror-example.png
 
@@ -92,29 +100,42 @@ The mirror only takes place within the selected Vertex Group.
    Mirror options.
 
 Mirror Weights
-   Mirrors the weights of the active group to the other side.
-   Note, this only affects the active weight group.
+   With this option checked, every selected vertex receives
+   the weight information of its symmetrical counterpart.
+   If both vertices are selected, it will be a weight information exchange;
+   if only one is selected, information from the unselected will be copied into the selected one,
+   that loses its own information. Information on weight is passed for the active group only,
+   unless *All Groups* is checked, in which case it is passed for all groups.
 Flip Group Names
-   Exchange the names of left and right side. This option only renames the groups.
+   Works with selected vertices that belong to vertex groups with "symmetrical names"
+   (with components like "L", "R", "right", "left").
+   All selected vertices that belong to the active group, or to the symmetrical of the active group,
+   will have their assignation to that group replaced by an assignation to the symmetrical one;
+   however, its weight will be preserved.
+   If *All Groups* is checked, all assignations to these kind of groups
+   will be replaced by the symmetrical counterpart, also keeping the old weights.
 All Groups
-   Operate on all selected bones.
+   Operate on all vertex groups, instead of the active one.
 Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
    See :ref:`here <modeling_meshes_editing_topology-mirror>` for more information.
 
-   .. tip:: Mirror to Opposite Bone
 
-      If you want to create a mirrored weight group for the opposite bone
-      (of a symmetric character), then you can do this:
+.. tip:: Mirror to Opposite Bone
 
-      #. Delete the target Vertex Group (where the mirrored weights will be placed).
-      #. Create a copy of the source bone Vertex Group
-         (the group containing the weights which you want to copy).
-      #. Rename the new Vertex Group to the name of the target Vertex Group
-         (the group you deleted above).
-      #. Select the Target Vertex Group and call the Mirror tool
-         (use only the Mirror weights option and optionally *Topology Mirror* if your mesh is not symmetric).
+   If you want to create a mirrored weight group for the opposite bone
+   (of a symmetric character), then you can do this:
 
+   #. Delete the target Vertex Group (where the mirrored weights will be placed).
+   #. Create a copy of the source bone Vertex Group
+      (the group containing the weights which you want to copy).
+   #. Rename the new Vertex Group to the name of the target Vertex Group
+      (the group you deleted above).
+   #. Select the Target Vertex Group and call the Mirror tool
+      (use only the Mirror weights option and optionally *Topology Mirror* if your mesh is not symmetric).
+
+
+.. _bpy.ops.object.vertex_group_invert:
 
 Invert
 ======
@@ -138,7 +159,7 @@ Examples:
 
 Subset
    Restrict the tool to a subset.
-   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` about how subsets are defined.
+   See above :ref:`The Subset Option <sculpt-paint_weight-paint_editing_subset>` about how subsets are defined.
 Add Weights
    Add vertices that have no weight before inverting (these weights will all be set to 1.0).
 Remove Weights
@@ -148,6 +169,8 @@ Remove Weights
 
    Locked vertex Groups are not affected.
 
+
+.. _bpy.ops.object.vertex_group_clean:
 
 Clean
 =====
@@ -172,7 +195,7 @@ so that unreferenced Weights are shown in Black.
 
 Subset
    Restrict the tool to a subset.
-   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
+   See above :ref:`The Subset Option <sculpt-paint_weight-paint_editing_subset>` for how subsets are defined.
 Limit
    This is the minimum weight value that will be kept in the Group.
    Weights below this value will be removed from the group.
@@ -181,6 +204,8 @@ Keep Single
    (vertices which are not assigned to any Vertex Group), so each vertex will
    keep at least one weight, even if it is below the limit value!
 
+
+.. _bpy.ops.object.vertex_group_quantize:
 
 Quantize
 ========
@@ -197,6 +222,8 @@ Steps
    The number of steps between 0 and 1 to quantize the weights into.
    For example 5 would allow the following weights ``[0.0, 0.2, 0.4, 0.6, 0.8, 1.0]``.
 
+
+.. _bpy.ops.object.vertex_group_levels:
 
 Levels
 ======
@@ -219,7 +246,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 
 Subset
    Restrict the tool to a subset.
-   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
+   See above :ref:`The Subset Option <sculpt-paint_weight-paint_editing_subset>` for how subsets are defined.
 Offset
    A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
@@ -232,6 +259,8 @@ Gain
    (0.0 - 1.0). So you will never get negative weights or overheated areas
    (weight > 1.0) with this tool.
 
+
+.. _bpy.ops.object.vertex_group_smooth:
 
 Smooth
 ======
@@ -370,6 +399,8 @@ even if the :ref:`ui-undo-redo-adjust-last-operation` panel is still available.
 Unless you really want to reset your changes to the initial call of the tool.
 
 
+.. _bpy.ops.object.vertex_group_limit_total:
+
 Limit Total
 ===========
 
@@ -382,10 +413,12 @@ The tool removes lowest weights first until the limit is reached.
 
 Subset
    Restrict the tool to a subset.
-   See above :ref:`The Subset Option <bpy.ops.object.vertex_group_levels>` for how subsets are defined.
+   See above :ref:`The Subset Option <sculpt-paint_weight-paint_editing_subset>` for how subsets are defined.
 Limit
    Maximum number of weights allowed on each vertex.
 
+
+.. _bpy.ops.object.vertex_group_fix:
 
 Fix Deforms
 ===========
