@@ -321,7 +321,7 @@ Collections
    List the objects and collections under
    the :doc:`collection hierarchy </scene_layout/collections/index>` of the scene.
    Objects may appear in more than one collection.
-Objects Sequencer
+Objects
    List of all the objects, respecting the other filter options.
    Disabled only if you need an overview of the collections without the objects.
 Object State
