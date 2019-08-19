@@ -61,7 +61,7 @@ Fill
       A low *Threshold* only fills very similar in color pixels.
       A higher *Threshold* fills pixels within a broader range of color.
 
-   *Gradient* option of the Color Picker allows the use of a gradient to fill the image.
+   The *Gradient* type of the Color Picker allows the use of a gradient to fill the image.
 
    To apply the gradient with the *Fill* brush click :kbd:`LMB` and drag to define
    the gradient line, or radius if a radial gradient is used (depending on the *Gradient Fill Mode*).

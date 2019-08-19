@@ -89,7 +89,7 @@ Modifying your Image Texture
 .. seealso::
 
    - :doc:`Render Bake </render/cycles/baking>`
-   - :doc:`Texture Paint </sculpt_paint/texture_paint/introduction>`.
+   - :doc:`Texture Paint </sculpt_paint/texture_paint/introduction>`
 
 The advantage to saving as a separate file is that you can easily switch textures just by
 copying other image files over it, and you can use external editing programs to work on it.
