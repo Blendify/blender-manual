@@ -143,5 +143,5 @@ Platform Specific Keys
 macOS
 -----
 
-The :kbd:`Cmd` key is assigned instead of :kbd:`Ctrl` on macOS
+The :kbd:`Cmd` key can be used instead of :kbd:`Ctrl` on macOS
 for all but a few exceptions which conflict with the operating system.
