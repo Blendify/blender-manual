@@ -82,7 +82,7 @@ Subframes
    Subframes to simulate for improved stability and finer granularity in simulations.
    Use higher values for faster-moving particles.
 
-.. Fluid only?
+The following options are only available for Fluid type physics:
 
 Adaptive Subframes
    When this checkbox without a label is enabled Blender will automatically set the number of subframes.
@@ -91,7 +91,7 @@ Adaptive Subframes
       A tolerance value that allows the number of subframes to vary.
       It sets the relative distance a particle can move before requiring more subframes.
 
-   .. The number of steps per frame will be at least Subframes + 1.
+      The number of steps per frame will be at least Subframes + 1.
       More subframes may be simulated if the fluid becomes turbulent, according to the Threshold.
 
 

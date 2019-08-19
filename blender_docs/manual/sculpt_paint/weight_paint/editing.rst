@@ -103,7 +103,7 @@ Mirror Weights
    With this option checked, every selected vertex receives
    the weight information of its symmetrical counterpart.
    If both vertices are selected, it will be a weight information exchange;
-   if only one is selected, information from the selected will overwrite the unselected one.
+   if only one is selected, information from the unselected will overwrite the selected one.
    Information on weight is passed for the active group only,
    unless *All Groups* is checked, in which case it is passed for all groups.
 Flip Group Names
