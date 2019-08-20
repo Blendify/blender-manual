@@ -57,7 +57,11 @@ can display it in a list with useful information.
 
 To give an example, here is the simplest possible add-on::
 
-   bl_info = {"name": "My Test Add-on", "category": "Object"}
+   bl_info = {
+       "name": "My Test Add-on",
+       "blender": (2, 80, 0),
+       "category": "Object",
+   }
    def register():
        print("Hello World")
    def unregister():
@@ -66,6 +70,8 @@ To give an example, here is the simplest possible add-on::
 ``bl_info``
    is a dictionary containing add-on metadata such as the title,
    version and author to be displayed in the Preferences add-on list.
+   It also specifies the minimum Blender version required to run the script;
+   older versions won't display the addon in the list.
 ``register``
    is a function which only runs when enabling the add-on,
    this means the module can be loaded without activating the add-on.
@@ -127,6 +133,7 @@ This add-on takes the body of the script above, and adds it to an operator's ``e
 
    bl_info = {
        "name": "Move X Axis",
+       "blender": (2, 80, 0),
        "category": "Object",
    }
 
@@ -305,6 +312,7 @@ The first step is to convert the script as-is into an add-on::
 
    bl_info = {
        "name": "Cursor Array",
+       "blender": (2, 80, 0),
        "category": "Object",
    }
 
@@ -469,6 +477,7 @@ Bringing It All Together
 
    bl_info = {
        "name": "Cursor Array",
+       "blender": (2, 80, 0),
        "category": "Object",
    }
 
