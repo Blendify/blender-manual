@@ -27,7 +27,6 @@ For more practical examples, see
 :ref:`how to combine shape keys and drivers <shapekey-driver-example>`.
 
 
-
 Absolute Shape Keys
 ===================
 

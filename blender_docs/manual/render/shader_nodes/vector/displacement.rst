@@ -41,7 +41,6 @@ Normal
    Standard normal input.
 
 
-
 Properties
 ==========
 

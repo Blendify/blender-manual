@@ -234,7 +234,6 @@ Create Snapshot (framed F-curve icon)
    Creates a picture with the current shape of the curves.
 
 
-
 Sidebar Region
 ==============
 

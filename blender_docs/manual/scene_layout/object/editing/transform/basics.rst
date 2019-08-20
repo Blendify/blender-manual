@@ -126,7 +126,6 @@ and selecting points on the vertices of the cube scales along all three axes.
    Scale Cage tool.
 
 
-
 Common Options
 ==============
 

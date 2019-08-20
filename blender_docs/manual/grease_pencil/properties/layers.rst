@@ -120,7 +120,6 @@ Visibility (screen icon)
    Toggle whether the active layer is the only one that can be edited and is visible.
 
 
-
 Adjustments
 ===========
 

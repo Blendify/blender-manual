@@ -9,7 +9,6 @@ When adding multiple Drivers or for more advanced configurations,
 it is useful to have open the :doc:`Drivers Editor </editors/drivers_editor>`.
 
 
-
 Transform Driver
 ================
 
@@ -29,7 +28,6 @@ Starting from a simple setup with two objects:
    .. figure:: /images/animation_drivers_workflow-examples_transform-driver-2.png
 
 #. Experiment with moving the first object and notice how it affects the Y rotation of the second object.
-
 
 
 Scripted Expression - Orbit a Point
@@ -59,7 +57,6 @@ In this example, the current frame is used as the variable that induces the moti
 #. Add a driver to the Y Location property with the expression ``0 + (cos(frame / 8) * 4)``.
 #. Scrub the timeline to see the effect.
    Experiment with the variables to control the size and center of the orbit.
-
 
 
 .. _driver-namespace:
@@ -219,7 +216,6 @@ Driver
       #. See the steps in Method 1 on how to adjust the curve handles and
          confirm that the functionality is working. Pose the armature to
          verify that the ranges are correct.
-
 
 
 Chained Relative Shape Keys
