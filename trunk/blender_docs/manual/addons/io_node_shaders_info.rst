@@ -40,7 +40,7 @@ Principled BSDF
 
    Currently handled parameters:
 
-   - Base color 
+   - Base color
    - Specular intensity
    - Specular tint*(no texture support)*
    - Roughness

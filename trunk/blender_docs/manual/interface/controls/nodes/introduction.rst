@@ -34,7 +34,6 @@ In the list below it shows a list of different types of node trees and where eac
        in the :doc:`UV editor </editors/texture_node/introduction>` docs.
 
 
-
 Editor Interface
 ================
 

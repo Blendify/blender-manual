@@ -194,7 +194,6 @@ The *Smooth Curve Radius* operator interpolates the *Radius* value for the selec
 This will reduce sharp changes in the curve's *Radius* and give a smooth transition between points.
 
 
-
 .. _bpy.ops.curve.smooth_weight:
 
 Smooth Curve Weight

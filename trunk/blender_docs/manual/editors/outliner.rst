@@ -184,7 +184,6 @@ View Layer
       Disables/Enables the collection from the view layer.
 
 
-
 ID Data Menu
 ------------
 

@@ -103,7 +103,6 @@ Interpolate
    When you are animating simple shapes with strokes that have the same amount of points,
    you can use the Interpolate tool to automatically add new breakdown keyframes.
    See :doc:`Interpolation </grease_pencil/animation/interpolation>` for more information.
-   
 
 
 Examples

@@ -36,7 +36,6 @@ Simulation
       render with 25 frames per second, you will have to set *Speed* to 1.3.
 
 
-
 Soft Body Cache
 ===============
 

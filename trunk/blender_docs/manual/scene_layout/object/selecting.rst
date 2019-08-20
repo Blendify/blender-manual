@@ -259,7 +259,6 @@ Light Type
    Select matching light types.
 
 
-
 .. _bpy.ops.object.select_linked:
 
 Select Linked

@@ -68,7 +68,6 @@ If you picked the wrong effect from the menu,
 you can always exchange it using :ref:`sequencer-edit-change`.
 
 
-
 Visualization
 =============
 

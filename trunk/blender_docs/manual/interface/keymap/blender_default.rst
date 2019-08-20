@@ -147,7 +147,6 @@ Search
    This option is good for someone who is new to Blender and is unfamiliar with the menus and shortcuts.
 
 
-
 3D View
 -------
 
