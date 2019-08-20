@@ -249,10 +249,11 @@ Version/Revision Milestones
    Other improvements were made to Grease Pencil and Alembic. Support was also added for application templates.
 
 
-.. rubric:: Blender 2.8
+.. rubric:: Blender 2.8 -- Revamped UI
 
-Blender 2.8 is the next phase in Blender's development, seeking to bring an improved viewport
-and a better workflow, allowing artists to use Blender faster and easier. Currently, Blender 2.8
-is in its beta phase of development, and will probably be released in 2019. You can find out more
-information by visiting the 2.8 webpage on `blender.org <https://www.blender.org/2.8/>`__ or you can
-download test builds that can be found on `Blender's test build website <https://builder.blender.org/download/>`__.
+`2.80 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.80>`__ -- July 2019:
+   A totally redesigned UI for easier navigation; improved viewport, gizmos, and tools.
+   Eevee: A new physically based realtime render engine.
+   New Grease pencil: A full 2D drawing and animation system.
+   Collections: A powerful way to organize objects, replacing the old layers.
+   Other improvements: Cycles, Modeling, Animation, Import/Export, Dependency Graph.
