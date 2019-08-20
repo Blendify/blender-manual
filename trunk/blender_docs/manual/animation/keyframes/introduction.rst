@@ -87,7 +87,8 @@ out of the available choices the icon that is furthest down the list is used.
 This means that if a grouped row uses a circle icon,
 it is guaranteed that none of the grouped channels have a non-auto key.
 
-Horizontal green lines mark the use of non-Bézier :ref:`Interpolation <editors-graph-fcurves-settings-interpolation>`.
+Horizontal green lines mark the use of non-Bézier
+:ref:`Interpolation <editors-graph-fcurves-settings-interpolation>`.
 The line is dimmed in summary rows if not all grouped channels have the same interpolation.
 
 Display of this information can be disabled via the *Show Handles and Interpolation*

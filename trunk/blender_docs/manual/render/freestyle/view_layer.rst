@@ -21,7 +21,8 @@ Control Mode
    Which detected edges are actually rendered, and how, can be controlled either through:
 
    Parameter Editor Mode
-      Lines are rendered via the :doc:`parameter editor </render/freestyle/parameter_editor/index>`, easy but limited.
+      Lines are rendered via the :doc:`parameter editor </render/freestyle/parameter_editor/index>`,
+      easy but limited.
    Python Scripting Mode
       Lines are rendered via :doc:`Python scripting </render/freestyle/python>`, powerful but complex.
 

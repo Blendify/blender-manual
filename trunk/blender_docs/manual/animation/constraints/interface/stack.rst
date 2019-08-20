@@ -12,7 +12,8 @@ Changing the order of the constraints can change the behavior of the entire stac
 
 .. figure:: /images/animation_constraints_interface_stack_example.png
 
-   The constraints in this example stack are evaluated from top to bottom starting with the "Copy Location" constraint
+   The constraints in this example stack are evaluated from top to bottom starting with the
+   "Copy Location" constraint
    and ending with the final "Damped Track" constraint.
 
 To change the order of a constraint use the up/down arrows

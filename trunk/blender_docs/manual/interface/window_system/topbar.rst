@@ -173,7 +173,8 @@ View Animation :kbd:`Ctrl-F11`
    .. seealso::
 
       - :ref:`Animation player <render-output-animation_player>` for details.
-      - :ref:`Animation player <prefs-file_paths-animation_player>` preferences to select different animation players.
+      - :ref:`Animation player <prefs-file_paths-animation_player>` preferences to select
+        different animation players.
 Display Mode
    Full Screen
       Images are rendered in a maximized Image editor.

@@ -8,7 +8,8 @@ The *Ocean* modifier is a tool to simulate and generate a deforming ocean surfac
 and associated texture, used to render the simulation data.
 It is intended to simulate deep ocean waves and foam.
 
-It is a port from the open source `Houdini Ocean Toolkit <https://code.google.com/archive/p/houdini-ocean-toolkit/>`__.
+It is a port from the open source `Houdini Ocean Toolkit
+<https://code.google.com/archive/p/houdini-ocean-toolkit/>`__.
 
 
 Options

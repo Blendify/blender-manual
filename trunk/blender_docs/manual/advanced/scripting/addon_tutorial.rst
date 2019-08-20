@@ -33,7 +33,8 @@ Suggested reading before starting this tutorial.
   to help become familiar with Blender/Python basics.
 
 To best troubleshoot any error message Python prints while writing scripts, you run Blender from a terminal.
-See `Use The Terminal <https://docs.blender.org/api/blender_python_api_current/info_tips_and_tricks.html#use-the-terminal>`__.
+See `Use The Terminal
+<https://docs.blender.org/api/blender_python_api_current/info_tips_and_tricks.html#use-the-terminal>`__.
 
 
 Documentation Links

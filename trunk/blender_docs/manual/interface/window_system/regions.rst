@@ -82,8 +82,10 @@ This is further documented here: :ref:`Toolbar <ui-region-toolbar>`.
 Tool Settings
 =============
 
-The *Tool Settings* (at the top/bottom of the editor area) contains as its name suggests the settings of the active tool.
-It's visibility can be toggled with the header's context menu just as its position with the *Flip to Bottom/Top* operator.
+The *Tool Settings* (at the top/bottom of the editor area)
+contains as its name suggests the settings of the active tool.
+It's visibility can be toggled with the header's context menu just as its position with the
+*Flip to Bottom/Top* operator.
 
 
 Adjust Last Operation

@@ -61,7 +61,8 @@ based on the last performed operation; dependent on mode and context.
 Alternatively, you can create a pop-up with :kbd:`F9` does the same thing.
 
 For example, if your last operation was a rotation in *Object Mode*,
-Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last-object-mode` left),
+Blender will show you the last value changed for the angle
+(see Fig. :ref:`fig-interface-redo-last-object-mode` left),
 where you can change your action back completely by typing :kbd:`Numpad0`.
 There are other useful options, based on the operator,
 and you cannot only Undo actions, but change them completely using the available options.

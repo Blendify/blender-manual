@@ -56,7 +56,8 @@ Further Options
 Force Fill Update
    Toggle the use of recalculation for filled strokes.
    When using modifiers the filled strokes must be calculated with every deformation to keep its accuracy.
-   Keep in mind this extra calculations will have an impact on the performance (less :abbr:`FPS (Frames per Second)`).
+   Keep in mind this extra calculations will have an impact on the performance
+   (less :abbr:`FPS (Frames per Second)`).
 
 Adaptive UVs
    UVs in textured strokes are calculated automatically depending on the stroke size.

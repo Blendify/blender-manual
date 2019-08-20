@@ -258,4 +258,5 @@ are not supported by the FBX format, others may be added later.
   You can however use the OBJ exporter to write a sequence of files.
 - Constraints -- The result of using constraints is exported as a keyframe animation
   however the constraints themselves are not saved in the FBX.
-- Instanced objects -- At the moment instanced objects are only written in static scenes (when animation is disabled).
+- Instanced objects -- At the moment instanced objects are only written in static scenes
+  (when animation is disabled).

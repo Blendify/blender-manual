@@ -155,7 +155,8 @@ Relations
 
 Parent/Type
    Select a Parent object and Type to manipulate the layer.
-   The layer will inherit the transformations of the parent, this is especially useful when rigging for cut-out animation.
+   The layer will inherit the transformations of the parent,
+   this is especially useful when rigging for cut-out animation.
 
 
 Layer Display
