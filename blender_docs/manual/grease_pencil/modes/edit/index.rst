@@ -8,4 +8,6 @@
 
    introduction.rst
    tools.rst
+   grease_pencil.rst
    stroke_menu.rst
+   point.rst
