@@ -81,7 +81,8 @@ Properties
   For pop-up option menus buttons, this cycles the value.
 - :kbd:`Return` -- Activates menus or toggles the value.
 
-- :kbd:`Alt` -- Hold while editing values to apply the change to all selected items (objects, bones, sequence-strips).
+- :kbd:`Alt` -- Hold while editing values to apply the change to all selected items
+  (objects, bones, sequence-strips).
 
   This can be used for number fields and toggles.
 

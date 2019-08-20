@@ -234,7 +234,8 @@ Export
 ^^^^^^
 
 A Blender profile for lights has been added through the ``<extra>`` tag.
-The entire Light struct from Blender will be exported through this profile, with the exception of light curve falloff.
+The entire Light struct from Blender will be exported through this profile,
+with the exception of light curve falloff.
 
 
 Material & Effect

@@ -47,7 +47,8 @@ Distance Metric
    Distance
       Calculates the distance between points using the Euclidean distance
       formula which happens to be the Pythagorean formula.
-      For more information see `Euclidean distance <https://en.wikipedia.org/wiki/Euclidean_distance>`__ on Wikipedia.
+      For more information see `Euclidean distance
+      <https://en.wikipedia.org/wiki/Euclidean_distance>`__ on Wikipedia.
    Manhattan
       Calculates the distance between points based on a grid, disallowing vertical lines.
       This is accomplished by calculating the sum of the absolute differences of the coordinates of the two points.
@@ -55,7 +56,8 @@ Distance Metric
    Chebychev
       Calculates the distance between two points by determining
       the greatest of their differences along any coordinate dimension.
-      For more information see `Chebyshev distance <https://en.wikipedia.org/wiki/Chebyshev_distance>`__ on Wikipedia.
+      For more information see `Chebyshev distance
+      <https://en.wikipedia.org/wiki/Chebyshev_distance>`__ on Wikipedia.
    Minkowski
       A generalized algorithm that can represent all other
       distance metrics by configuring the *Exponent* input.

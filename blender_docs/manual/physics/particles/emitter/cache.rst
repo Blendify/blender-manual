@@ -30,7 +30,8 @@ Hints
   in between the *Start* and *End* frames of the *Cache* panel, whether you bake or not.
   So if you want a simulation that is longer than the default frame range, you have to change the *End* frame.
 - When an animation is played, each physics system writes each frame to the cache.
-  Note that for the cache to fill up, one has to start the playback before or on the frame that the simulation starts.
+  Note that for the cache to fill up,
+  one has to start the playback before or on the frame that the simulation starts.
 - The cache is cleared automatically on changes. But not on all changes,
   so it may be necessary to free it manually, e.g. if you change a force field.
 - The system is protected against changes after baking.

@@ -43,7 +43,8 @@ Vertex Group
    Vertices with full weight are not affected at all,
    while vertices with less weight have a higher chance of being affected.
 
-   Vertices with null weight will be treated like those which do not belong to the group at all, and explode normally.
+   Vertices with null weight will be treated like those which do not belong to the group at all,
+   and explode normally.
 
    Protect
       Clean vertex group edges. Depending on the weights assigned to that vertex group,

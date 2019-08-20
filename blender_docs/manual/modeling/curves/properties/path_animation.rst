@@ -44,7 +44,8 @@ This example shows you how setup a *Path Animation*.
    (so that the curve is the active object), press :kbd:`Ctrl-P` and select *Follow Path*.
    It will automatically animate *Evaluation Time* and activate *Follow* option
    in the *Path Animation* panel.
-#. Select the monkey and :doc:`Clear Origin </scene_layout/object/editing/transform/clear_apply>` to reset its offset.
+#. Select the monkey and
+   :doc:`Clear Origin </scene_layout/object/editing/transform/clear_apply>` to reset its offset.
 #. You can change the orientation of the monkey by changing
    the :doc:`Tracking Axis </scene_layout/object/properties/relations/extras>`.
 

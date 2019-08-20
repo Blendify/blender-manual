@@ -191,7 +191,8 @@ Avoid
    Avoid "predators".
 
    Object
-      Specifies the object to avoid. If not specified, Boid force fields with positive Strength are used as predators.
+      Specifies the object to avoid.
+      If not specified, Boid force fields with positive Strength are used as predators.
    Predict
       Predict target's movements.
    Fear Factor

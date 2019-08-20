@@ -84,7 +84,8 @@ Recursion
    .. hint::
 
       Showing several levels of directories at once can be handy to e.g. see your whole collection of textures,
-      even if you have arranged them in a nice set of directories to avoid having hundreds of files in a single place.
+      even if you have arranged them in a nice set of directories to avoid having hundreds of
+      files in a single place.
 
       In the *Append/Link* case, showing the content of the whole blend-file will allow you
       to link different types of data-blocks in a single operation.

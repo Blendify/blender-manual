@@ -186,7 +186,8 @@ Axis
    These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and
    coordinates, Blender will give the proper Axis vector a value of 1, giving the angular vector of the profile
-   a starting direction and giving the extrusions a starting direction based on the current view. Blender will let you
+   a starting direction and giving the extrusions a starting direction based on the current view.
+   Blender will let you
    adjust the axis angular vectors and you can tweak your object such that you can revert the direction of the screw
    operation (by reverting the angular vector of the height),
    meaning you can revert the clockwise and counterclockwise direction of some operations,

@@ -51,7 +51,8 @@ Principled BSDF
 
 Normal Map
    If linked to the Normal input of the Principled BSDF node,
-   the :doc:`Normal Map </render/shader_nodes/vector/normal_map>` node is also supported (including its texture obviously).
+   the :doc:`Normal Map </render/shader_nodes/vector/normal_map>` node is also supported
+   (including its texture obviously).
 
 Textures
    Only :doc:`Image </render/shader_nodes/textures/image>` textures using a UV mapping are supported.
