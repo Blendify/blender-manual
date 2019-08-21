@@ -6,7 +6,7 @@ Installing on Windows
 Check the :doc:`Downloading Blender </getting_started/installing/index>`
 page to find the minimum requirements and where to get Blender (if you have not done so yet).
 
-Download the zip-file or msi-file for your architecture (64-bit is preferable if your machine supports it).
+Download the zip-file or msi-file.
 
 
 Install from MSI
@@ -30,7 +30,7 @@ as they are not actually installed on the system.
 However, if you want a particular version to be registered with your computer the simply run ``blender -r``
 from the :doc:`Command Line </advanced/command_line/arguments>`.
 
-.. tip::
+.. tip:: How to make a portable installation.
 
    To keep all configuration files and installed add-ons in the executable folder,
    create a folder named ``config`` in the :ref:`LOCAL directory <blender-directory-layout>`
