@@ -118,12 +118,12 @@ You can do this by running::
 
 This will only give a quick summary however, you can get more information by running::
 
-   python tools/report_translation_progress.py locale/fr/
+   python tools_report/report_translation_progress.py locale/fr/
 
 You should get a list of all the files with information about the number of empty and fuzzy strings.
 For more options see::
 
-   python tools/report_translation_progress.py --help
+   python tools_report/report_translation_progress.py --help
 
 .. seealso::
 
