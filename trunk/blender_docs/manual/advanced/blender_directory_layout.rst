@@ -22,19 +22,13 @@ For system installations both **SYSTEM** and **USER** directories are needed.
 For locally extracted Blender distributions, the user configuration and run-time data are
 kept in the same subdirectory, allowing multiple Blender versions to run without conflict,
 ignoring the **USER** and **SYSTEM** files.
+This requires you to create a folder named ``config`` in the **LOCAL** directory.
 
 
 Platform Dependent Paths
 ========================
 
 Here are the default locations for each system:
-
-.. note::
-
-   The path |INSTALLDIR| is relative to the Blender executable and
-   is used for self-contained bundles distributed by official blender.org builds.
-
-.. |INSTALLDIR| replace:: ./|BLENDER_VERSION|/
 
 
 Linux
@@ -46,6 +40,13 @@ Linux
    .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/
 :SYSTEM:
    .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
+
+.. note::
+
+   The path |INSTALLDIR| is relative to the Blender executable and
+   is used for self-contained bundles distributed by official blender.org builds.
+
+.. |INSTALLDIR| replace:: ./|BLENDER_VERSION|/
 
 .. note::
 
