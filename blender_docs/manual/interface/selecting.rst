@@ -119,7 +119,7 @@ Select Lasso
 Lasso select is used by drawing a dotted line around item to be selected.
 To use this hold :kbd:`Ctrl-RMB` and simply draw around the items you want to select.
 
-Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-LMB`.
+Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-RMB`.
 
 .. list-table:: An example of using the *Lasso Select tool* in *Vertex Select Mode*.
 
