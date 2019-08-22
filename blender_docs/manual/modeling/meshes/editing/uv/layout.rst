@@ -58,6 +58,12 @@ UV Options
 
 Live Unwrap
    Continuously unwraps the selected UV islands while transforming pinned vertices.
+
+.. Todo. There are two different Live Unwrap, one in Edit Mode and other in UV Editor.
+
+   If *Live Unwrap* is checked, every time an edge has its seam property changed,
+   UV unwrap is automatically re-calculated.
+
 Snap to Pixels
    Disabled
       UVs will not be snapped.

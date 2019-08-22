@@ -556,6 +556,22 @@ Shortest Path
 Selects all geometry along the shortest path from
 the active vertex/edge/face to the one which was selected.
 
+Edge Tag (in Edge select mode only)
+   This select button indicates what should be done when selecting a vertex path with :kbd:`Ctrl-LMB`:
+
+      Select
+         Just selects all the edges in the path.
+      Tag Seam
+         Marks all edges in the path as seams for UV unwrapping.
+      Tag Sharp
+         Marks all edges in the path as sharp for the Edge Split Modifier.
+      Tag Crease
+         Marks all edges in the path as creases for the Subdivision Surface Modifier, with weight 1.0.
+      Tag Bevel
+         Gives bevel weight 1.0 (for the Bevel Modifier) to all edges in the path.
+      Tag Freestyle Edge Mark
+         Marks all edges in the path Freestyle feature edges.
+
 Face Stepping
    Supports diagonal paths for vertices and faces, and
    selects edge rings with edges.
