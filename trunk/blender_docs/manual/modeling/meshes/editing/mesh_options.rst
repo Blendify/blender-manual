@@ -70,26 +70,24 @@ then delete the default cube and add a Monkey object to the 3D View.
    even though they are not perfectly positioned.
 
 
-Further Options
-===============
+Auto Merge
+==========
 
-Edge Select Mode
-   This select button indicates what should be done when selecting a vertex path with :kbd:`Ctrl-RMB`:
+.. admonition:: Reference
+   :class: refbox
 
-      Select
-         Just selects all the edges in the path.
-      Seam
-         Marks all edges in the path as seams for UV unwrapping.
-      Sharp
-         Marks all edges in the path as sharp for the Edge Split Modifier.
-      Crease
-         Marks all edges in the path as creases for the Subdivision Surface Modifier, with weight 1.0.
-      Bevel
-         Gives bevel weight 1.0 (for the Bevel Modifier) to all edges in the path.
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Sidebar --> Tool --> Options --> Auto Merge`
 
-Live Unwrap
-   If *Live Unwrap* is checked, every time an edge has its seam property changed,
-   UV unwrap is automatically re-calculated.
-Double Threshold
-   Defines the maximum distance between vertices that are merged by
-   the *AutoMerge Editing* tool.
+When the *Auto Merge* option is enabled, as soon as a vertex moves closer to another one
+than the *Threshold* setting, they are automatically merged.
+This option affects interactive operations only
+(tweaks made in the :ref:`ui-undo-redo-adjust-last-operation` panel are considered interactive too).
+If the exact spot where a vertex is moved contains more than one vertex,
+then the merge will be performed between the moved vertex and one of those.
+
+Auto Merge
+   Enables the Auto Merge feature.
+
+   Double Threshold
+      Defines the maximum distance between vertices that are merged by the *Auto Merge*.

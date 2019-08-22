@@ -32,4 +32,4 @@ After downloading Blender for macOS, uncompress the file and drag ``Blender.app`
    To keep all configuration files and installed add-ons inside the Blender application bundle,
    create a folder named ``config`` in the :ref:`LOCAL directory <blender-directory-layout>`.
 
-   .. parsed-literal:: ./Blender.app/Contents/Resources/|BLENDER_VERSION|/
+   .. parsed-literal:: ./Blender.app/Contents/Resources/|BLENDER_VERSION|/config/
