@@ -39,7 +39,7 @@ hold :kbd:`Ctrl` while dragging from an output socket.
 This works for single as well as for multiple outgoing links.
 
 Nodes that have no connections can be inserted on a link.
-Just move the node over the link and release when the link turns orange.
+Just move the node over the link and release when the link is highlighted.
 
 Make Links :kbd:`F`
    Select multiple nodes with open sockets, then use the Make Links to create links between them.
