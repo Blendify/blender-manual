@@ -67,8 +67,6 @@ Refresh All
 
 Show Seconds :kbd:`Ctrl-T`
    Display time instead of frame number, in the Frame Number Indicator.
-Show Frame Number Indicator
-   Toggles units of measure across bottom of time cursor between seconds or frames.
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
