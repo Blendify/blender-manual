@@ -35,7 +35,7 @@ Mix
    See :term:`Color Blend Modes` for details on each blending mode.
 
    Add, Subtract, Multiply, Screen, Divide, Difference,
-   Darken, Lighten, Overlay, Dodge, Burn,
+   Darken, Lighten, Overlay, Dodge, Color Burn,
    Hue, Saturation, Value, Color, Soft Light, Linear Light
 
 Use Alpha

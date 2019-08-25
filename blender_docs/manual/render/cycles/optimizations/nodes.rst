@@ -30,7 +30,7 @@ For example, it can (the list is not exhaustive):
   and replace with the appropriate input link or constant result.
 - Eliminate Mix RGB Mix (without Clamp) and Mix Shader nodes when
   Factor is known to be 0 or 1 by replacing with the appropriate input value or link.
-- Eliminate no-op Mix RGB (except Burn, Dodge, Lighten, or enabled Clamp),
+- Eliminate no-op Mix RGB (except Color Burn, Dodge, Lighten, or enabled Clamp),
   Invert, RGB Curves and Vector Curves nodes with known zero Factor.
 - Eliminate Emission and Background shader nodes that do not emit any light,
   and Add Shader nodes with one or both input arguments missing.
