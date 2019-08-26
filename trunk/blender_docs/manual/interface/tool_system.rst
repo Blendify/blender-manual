@@ -1,4 +1,5 @@
 .. _ui-tool_system:
+.. _bpy.ops.wm.tool:
 
 ***********
 Tool System

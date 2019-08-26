@@ -1,3 +1,4 @@
+.. _bpy.types.ToolSettings.gpencil_stroke_placement:
 
 ****************
 Stroke Placement

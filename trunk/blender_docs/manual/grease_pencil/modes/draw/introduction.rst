@@ -67,6 +67,10 @@ Different Guides types can be activated to assist you when drawing new strokes.
 See :doc:`Guides </grease_pencil/modes/draw/guides>` for more information.
 
 
+.. _bpy.types.ToolSettings.use_gpencil_draw_onback:
+.. _bpy.types.ToolSettings.use_gpencil_weight_data_add:
+.. _bpy.types.ToolSettings.use_gpencil_draw_additive:
+
 Drawing Options
 ===============
 

@@ -103,6 +103,8 @@ The stroke animation tools are described
 in the :ref:`Animation <grease-pencil-animation-tools-interpolation>` section.
 
 
+.. _bpy.ops.gpencil.duplicate_move:
+
 Duplicate
 =========
 
@@ -118,6 +120,8 @@ with the rest of the strokes (unlike *Extrude*, for example),
 and places the duplicate at the location of the original elements.
 
 
+.. _bpy.ops.gpencil.stroke_split:
+
 Split
 =====
 
@@ -132,6 +136,8 @@ Splits (disconnects) the selected points from the rest of the stroke.
 The separated points are left exactly at the same position as the original points but they belong to a new stroke.
 
 
+.. _bpy.ops.gpencil.copy:
+
 Copy
 ====
 
@@ -144,6 +150,8 @@ Copy
 
 Copy the selected points/strokes to the clipboard.
 
+
+.. _bpy.ops.gpencil.paste:
 
 Paste / Paste & Merge
 =====================
@@ -162,6 +170,8 @@ Type
    Merge
       Paste the points/strokes copied from the clipboard into the active layer.
 
+
+.. _bpy.ops.gpencil.stroke_separate:
 
 Separate Strokes
 ================
@@ -192,6 +202,8 @@ Clean Up
 
 These tools help to cleanup degenerate geometry on the strokes.
 
+
+.. _bpy.ops.gpencil.frame_clean_loose:
 
 Delete Loose Points
 -------------------
@@ -226,6 +238,8 @@ Unselected
    When disabled, selected points will only be merged with other selected ones.
 
 
+.. _bpy.ops.gpencil.frame_clean_fill:
+
 Boundary Strokes
 ----------------
 
@@ -244,6 +258,8 @@ Mode
    All frames
       Removes boundary strokes from all frames.
 
+
+.. _bpy.ops.gpencil.reproject:
 
 Reproject Strokes
 -----------------
@@ -293,6 +309,10 @@ Cursor
 
           Drawing after reprojection operation from the front view.
 
+
+.. _bpy.ops.gpencil.delete:
+.. _bpy.ops.gpencil.dissolve:
+.. _bpy.ops.gpencil.active_frames_delete_all:
 
 Delete
 ======

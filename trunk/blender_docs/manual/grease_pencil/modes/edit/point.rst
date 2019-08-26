@@ -3,6 +3,8 @@
 Point Menu
 **********
 
+.. _bpy.ops.gpencil.extrude_move:
+
 Extrude Points
 ==============
 
@@ -22,6 +24,8 @@ The new points stay connected with the original points of the edit line.
    Since *Grease Pencil* strokes can only have one start an end point,
    a new stroke will be created when extrude intermediate points in the strokes.
 
+
+.. _bpy.ops.gpencil.stroke_smooth:
 
 Smooth Points
 =============
@@ -56,6 +60,8 @@ Strength
 UVs
    When enabled, the operator affect the UV rotation on the points.
 
+
+.. _bpy.ops.gpencil.stroke_merge:
 
 Merge Points
 ============
