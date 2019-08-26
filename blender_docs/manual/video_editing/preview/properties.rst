@@ -49,6 +49,11 @@ Proxy Render Size
    Using a smaller preview size will increase speed.
 
 
+.. _bpy.types.SequenceEditor.show_overlay:
+.. _bpy.ops.sequencer.view_ghost_border:
+.. _bpy.types.SequenceEditor.overlay:
+.. _bpy.types.SequenceEditor.use_overlay_lock:
+
 Frame Overlay
 =============
 

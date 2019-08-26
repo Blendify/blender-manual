@@ -64,16 +64,13 @@ Refresh All
    to call for a refresh of the rendered image (since the movement may not affect the rendered image).
    If an image or video, used as a strip, is changed by some application outside of Blender,
    Blender has no real way of being notified from your operating system.
-
-Show Seconds :kbd:`Ctrl-T`
-   Display time instead of frame number, in the Frame Number Indicator.
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
    Show or hide dashed line on marker position across the timeline.
 Cache
    Show :doc:`Cache </video_editing/sequencer/properties/proxy_cache>`
-      Show all enabled types.
+      Show all enabled types;
       Final Images, Raw Images, Preprocessed Images, Composite Images
 Waveform Displaying
    Global option to either display the waveform, or the strip info,
@@ -82,6 +79,10 @@ Sequence Render Image
    Render image at playhead position.
 Sequence Render Animation
    Render timeline from Preview Start to Preview End Frame to a Video file or series of images.
+Export Subtitles
+   Exports :doc:`Text strips </video_editing/sequencer/strips/text>`,
+   which can act as subtitles, to a `SubRip <https://en.wikipedia.org/wiki/SubRip>`__ file (``.srt``).
+   The exported file contains all Text strips in the video sequence.
 
 
 Markers Menu
