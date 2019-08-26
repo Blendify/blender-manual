@@ -17,7 +17,7 @@ Translation, Rotation, Scale
 
    :Mode:      Edit Mode
    :Panel:     :menuselection:`Toolbar --> Tools --> Transform`
-   :Menu:      :menuselection:`Stroke --> Transform --> Move, Rotate, Scale, ...`
+   :Menu:      :menuselection:`Grease Pencil --> Transform --> Move, Rotate, Scale, ...`
    :Hotkey:    :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 Like other elements in Blender, points and strokes can be
@@ -42,11 +42,11 @@ Tools
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Strokes --> Transform`
-   :Panel:     :menuselection:`Toolbar --> Tools --> Stroke Tools`
+   :Menu:      :menuselection:`Grease Pencil --> Transform`
+   :Panel:     :menuselection:`Toolbar --> Bend/Shear`
 
-The *Bend*, *Shear*, *To Sphere*, *Extrude* and *Shrink fatten* transform tools are described
-in the :doc:`Editing tool </grease_pencil/modes/edit/tools>` section.
+The *Bend*, *Shear*, *To Sphere*, *Extrude* and *Shrink Fatten* transform tools are described
+in the :doc:`Editing tools </grease_pencil/modes/edit/tools>` section.
 
 
 Mirror
@@ -55,7 +55,8 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode
+   :Mode:      Edit Mode\
+   :Menu:      :menuselection:`Grease Pencil --> Mirror`
    :Hotkey:    :kbd:`Ctrl-M`
 
 The *Mirror* tool is also available, behaving exactly the same as with
@@ -69,7 +70,7 @@ Snap
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Strokes --> Snap`
+   :Menu:      :menuselection:`Grease Pencil --> Snap`
    :Hotkey:    :kbd:`Shift-S`
 
 :doc:`Mesh snapping </scene_layout/object/editing/transform/control/snap>`
@@ -83,7 +84,7 @@ Animation
    :class: refbox
 
    :Mode:      Edit Mode, Draw Mode
-   :Menu:      :menuselection:`Strokes --> Animation`
+   :Menu:      :menuselection:`Grease Pencil --> Animation`
 
 The stroke animation tools are described
 in the :doc:`Animation </grease_pencil/animation/tools>` section.
@@ -96,7 +97,7 @@ Interpolation
    :class: refbox
 
    :Mode:      Edit Mode, Draw Mode
-   :Menu:      :menuselection:`Strokes --> Interpolation`
+   :Menu:      :menuselection:`Grease Pencil --> Interpolation`
 
 The stroke animation tools are described
 in the :ref:`Animation <grease-pencil-animation-tools-interpolation>` section.
@@ -109,7 +110,7 @@ Duplicate
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Duplicate`
+   :Menu:      :menuselection:`Grease Pencil --> Duplicate`
    :Hotkey:    :kbd:`Shift-D`
 
 Duplicates the selected elements, without creating any connections
@@ -124,7 +125,7 @@ Split
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Split`
+   :Menu:      :menuselection:`Grease Pencil --> Split`
    :Hotkey:    :kbd:`V`
 
 Splits (disconnects) the selected points from the rest of the stroke.
@@ -138,7 +139,7 @@ Copy
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Copy`
+   :Menu:      :menuselection:`Grease Pencil --> Copy`
    :Hotkey:    :kbd:`Ctrl-C`
 
 Copy the selected points/strokes to the clipboard.
@@ -151,7 +152,7 @@ Paste / Paste & Merge
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Paste`, :menuselection:`Stroke --> Paste & Merge`
+   :Menu:      :menuselection:`Grease Pencil --> Paste`, :menuselection:`Grease Pencil --> Paste & Merge`
    :Hotkey:    :kbd:`Ctrl-V`
 
 Type
@@ -169,7 +170,7 @@ Separate Strokes
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Separate`
+   :Menu:      :menuselection:`Grease Pencil --> Separate Strokes`
    :Hotkey:    :kbd:`P`
 
 Separate the selected elements into a new *Grease Pencil* object.
@@ -199,7 +200,7 @@ Delete Loose Points
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Clean Up --> Delete Loose Points`
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Delete Loose Points`
 
 Removes unconnected points.
 
@@ -213,7 +214,7 @@ Merge by Distance
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Clean Up --> Merge by Distance`
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Merge by Distance`
 
 *Merge by Distance* is a useful tool to simplify a stroke by merging
 the selected points that are closer than a specified distance to each other.
@@ -232,7 +233,7 @@ Boundary Strokes
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Clean Up --> Boundary Strokes, Boundary Strokes All Frames`
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Boundary Strokes, Boundary Strokes All Frames`
 
 Removes boundary strokes used by the *Fill* tool.
 See :doc:`Fill tool </grease_pencil/modes/draw/tool_settings/fill>` for more information.
@@ -251,7 +252,7 @@ Reproject Strokes
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Clean Up --> Reproject Strokes`
+   :Menu:      :menuselection:`Grease Pencil --> Clean Up --> Reproject Strokes`
 
 Sometimes you may have drawn strokes unintentionally in different locations in the 3D space
 but they look right from a certain plane or from the camera view.
@@ -300,7 +301,7 @@ Delete
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Delete`
+   :Menu:      :menuselection:`Grease Pencil --> Delete`
    :Hotkey:    :kbd:`X`, :kbd:`Delete`, :kbd:`Ctrl-X`
 
 Options for the Erase pop-up menu:

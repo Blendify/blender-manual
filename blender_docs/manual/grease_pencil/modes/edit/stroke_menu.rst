@@ -100,7 +100,7 @@ Join
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Join --> Join, Join and copy`
+   :Menu:      :menuselection:`Stroke --> Join --> Join, Join and Copy`
    :Hotkey:    :kbd:`Ctrl-J`, :kbd:`Shift-Ctrl-J`
 
 Join two or more strokes into a single one.
@@ -109,7 +109,7 @@ Type
    Join :kbd:`Ctrl-J`
       Join selected strokes by connecting points.
 
-   Join and copy :kbd:`Shift-Ctrl-J`
+   Join and Copy :kbd:`Shift-Ctrl-J`
       Join selected strokes by connecting points in a new stroke.
 
 Leave Gaps
