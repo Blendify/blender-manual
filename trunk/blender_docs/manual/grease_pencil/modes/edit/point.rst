@@ -10,7 +10,8 @@ Extrude Points
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Stroke Tools --> Extrude`
+   :Menu:      :menuselection:`Point --> Extrude Points`
+   :Panel:     :menuselection:`Toolbar --> Extrude`
    :Hotkey:    :kbd:`E`
 
 Extrudes points by duplicating the selected points, which then can be moved.
@@ -29,7 +30,7 @@ Smooth Points
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Smooth`
+   :Menu:      :menuselection:`Point --> Smooth Points`
 
 Softens strokes by reducing the differences in the locations of the points along the line,
 while trying to maintain similar values that make the line fluid and smoother.
@@ -63,7 +64,7 @@ Merge Points
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Stroke --> Merge Points`
+   :Menu:      :menuselection:`Point --> Merge Points`
 
 Combine all selected points into a unique stroke.
 All the selected points will be connected by new edit lines when needed to create the new stroke.
