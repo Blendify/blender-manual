@@ -1,3 +1,4 @@
+.. _bpy.types.GPencilSculptSettings.lock_axis:
 
 **************
 Drawing Planes

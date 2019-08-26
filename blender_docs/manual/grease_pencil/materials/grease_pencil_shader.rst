@@ -26,6 +26,13 @@ determined by closed lines (by connecting the lines start and end points).
 Properties
 ==========
 
+.. _bpy.types.MaterialGPencilStyle.show_stroke:
+.. _bpy.types.MaterialGPencilStyle.mode:
+.. _bpy.types.MaterialGPencilStyle.stroke_style:
+.. _bpy.types.MaterialGPencilStyle.color:
+.. _bpy.types.MaterialGPencilStyle.use_overlap_strokes:
+.. _bpy.types.MaterialGPencilStyle.alignment_mode:
+
 Stroke
 ------
 
@@ -111,6 +118,16 @@ Alignment
 
           Mode Type: Dot, Style: Texture.
 
+
+.. _bpy.types.MaterialGPencilStyle.show_fill:
+.. _bpy.types.MaterialGPencilStyle.fill_style:
+.. _bpy.types.MaterialGPencilStyle.fill_color:
+.. _bpy.types.MaterialGPencilStyle.mix_color:
+.. _bpy.types.MaterialGPencilStyle.mix_factor:
+.. _bpy.types.MaterialGPencilStyle.flip:
+.. _bpy.types.MaterialGPencilStyle.pattern:
+.. _bpy.types.MaterialGPencilStyle.texture:
+.. _bpy.types.MaterialGPencilStyle.use_fill_texture_mix:
 
 Fill
 ----

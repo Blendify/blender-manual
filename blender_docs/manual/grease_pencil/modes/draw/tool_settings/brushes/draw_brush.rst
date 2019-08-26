@@ -108,6 +108,8 @@ Trim Strokes End
 
 
 .. _grease-pencil-draw-brushes-stabilizer:
+.. _bpy.types.BrushGpencilSettings.use_settings_stabilizer:
+.. _bpy.types.Brush.smooth_stroke:
 
 Stabilizer
 ----------
@@ -122,6 +124,12 @@ Factor
    A smooth factor, where higher values result in smoother strokes but the drawing sensation
    feels like as if you were pulling the stroke.
 
+
+.. _bpy.types.BrushGpencilSettings.use_settings_random:
+.. _bpy.types.BrushGpencilSettings.random:
+.. _bpy.types.BrushGpencilSettings.uv_random:
+.. _bpy.types.BrushGpencilSettings.pen_jitter:
+.. _bpy.types.BrushGpencilSettings.use_jitter_pressure:
 
 Randomize
 ---------

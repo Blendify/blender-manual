@@ -8,6 +8,8 @@ These are tools that work primarily on strokes, however,
 some also work with point selections.
 
 
+.. _bpy.ops.gpencil.stroke_subdivide:
+
 Subdivide
 =========
 
@@ -44,6 +46,10 @@ UVs
    When enabled, the operator affect the UV rotation on the points.
 
 
+.. _bpy.ops.gpencil.stroke_simplify_fixed:
+.. _bpy.ops.gpencil.stroke_simplify:
+.. _bpy.ops.gpencil.stroke_sample:
+
 Simplify
 ========
 
@@ -69,6 +75,8 @@ Adaptive
       Controls the amount of recursively simplifications applied by the algorithm.
 
 
+.. _bpy.ops.gpencil.stroke_trim:
+
 Trim
 ====
 
@@ -93,6 +101,8 @@ Trims selected stroke to first loop or intersection.
           Result of trim operation.
 
 
+.. _bpy.ops.gpencil.stroke_join:
+
 Join
 ====
 
@@ -116,6 +126,8 @@ Leave Gaps
    When enabled, do not use geometry to connect the strokes.
 
 
+.. _bpy.ops.gpencil.move_to_layer:
+
 Move to Layer
 =============
 
@@ -133,6 +145,8 @@ from a list of layers of the current *Grease Pencil* Object.
 You can also add a new layer to move the selected stroke to.
 
 
+.. _bpy.ops.gpencil.stroke_change_color:
+
 Assign Material
 ===============
 
@@ -146,6 +160,8 @@ Changes the material linked to the selected stroke.
 You can choose the name of the material to be used by the selected stroke
 from a list of material of the current *Grease Pencil* Object.
 
+
+.. _bpy.ops.gpencil.stroke_arrange:
 
 Arrange Strokes
 ===============
@@ -170,6 +186,8 @@ Bring to Front
 Send to Back
    Moves to the bottom the selected points/strokes.
 
+
+.. _bpy.ops.gpencil.stroke_cyclical_set:
 
 Close
 =====
@@ -198,6 +216,8 @@ Create geometry
    If disabled,  the operator act the same as *Toggle Cyclic*.
 
 
+.. _bpy.ops.gpencil.stroke_cyclical_set:
+
 Toggle Cyclic
 =============
 
@@ -223,6 +243,8 @@ Type
       When enabled, points are added for closing the strokes like when using the *Close* tool.
       If disabled, the stroke is close without any actual geometry.
 
+
+.. _bpy.ops.gpencil.stroke_caps_set:
 
 Toggle Caps
 ===========
@@ -264,6 +286,8 @@ End
 
           Stroke ending with combined caps.
 
+
+.. _bpy.ops.gpencil.stroke_flip:
 
 Switch Direction
 ================

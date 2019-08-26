@@ -1,3 +1,4 @@
+.. _bpy.types.GPencilSculptGuide:
 
 ******
 Guides
@@ -12,6 +13,8 @@ Guides
 Guides are drawing aids that make it easier to create different types of strokes.
 The Guides can be activated with the button next to the selector (grid icon).
 
+
+.. _bpy.types.GPencilSculptGuide.type:
 
 Guide Types
 ===========
@@ -36,6 +39,9 @@ Parallel
 Grid
    Constrains the drawing of new strokes to form parallel horizontal or vertical lines.
 
+
+.. _bpy.types.GPencilSculptGuide.use_snapping:
+.. _bpy.types.GPencilSculptGuide.reference_point:
 
 Common Options
 --------------
