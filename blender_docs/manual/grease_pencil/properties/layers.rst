@@ -40,6 +40,8 @@ See :doc:`Modifiers </grease_pencil/modifiers/introduction>` for more informatio
 
 Next to the layer name there are four icons buttons that control common properties of the layer:
 
+.. _bpy.types.GPencilLayer.use_solo_mode:
+
 Mask (mask icon)
    When the mask is enabled, all the layers below the current one function as a single mask.
    This mask hide any pixel in the current layer outside the mask created by the underlying layers.
@@ -65,7 +67,6 @@ Onion Skinning (onion skin icon)
 
 .. _bpy.types.GPencilLayer.blend_mode:
 .. _bpy.types.GPencilLayer.opacity:
-.. _bpy.types.GPencilLayer.use_solo_mode:
 
 Below the layers list there are additional common settings:
 
@@ -74,11 +75,6 @@ Blend
 
 Opacity
    Used to set the opacity of the layer.
-
-Show Only On Keyframed
-   Makes the layer visible in the viewport only if it has a keyframe in the actual frame.
-   This helps for example when you are in the inking process using the *Fill* tool and want to only see
-   the strokes that are in the actual frame to avoid fill in unwanted regions.
 
 
 Specials
@@ -159,8 +155,13 @@ Parent/Type
    this is especially useful when rigging for cut-out animation.
 
 
-Layer Display
-=============
+Display
+=======
 
-Custom channel color
+Custom Channel Color
    Sets the color to use in the channel region of the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>`.
+
+Show Only On Keyframed
+   Makes the layer visible in the viewport only if it has a keyframe in the actual frame.
+   This helps for example when you are in the inking process using the *Fill* tool and want to only see
+   the strokes that are in the actual frame to avoid fill in unwanted regions.
