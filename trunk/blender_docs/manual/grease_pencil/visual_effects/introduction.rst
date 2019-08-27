@@ -24,8 +24,8 @@ so keep in mind that they may vary with viewport or camera changes.
 .. note::
 
    Visual Effects are mainly for quick viewport visualization and are not so reliable for final production renders.
-   If you want more precision with effects it is recommended to use the
-   :doc:`compositor </compositing/introduction>`.
+   If you want more precision with effects it is recommended to
+   use the :doc:`compositor </compositing/introduction>`.
 
 
 Interface

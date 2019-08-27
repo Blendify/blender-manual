@@ -30,7 +30,7 @@ as they are not actually installed on the system.
 However, if you want a particular version to be registered with your computer the simply run ``blender -r``
 from the :doc:`Command Line </advanced/command_line/arguments>`.
 
-.. tip:: How to make a portable installation.
+.. tip:: How to Make a Portable Installation
 
    To keep all configuration files and installed add-ons in the executable folder,
    create a folder named ``config`` in the :ref:`LOCAL directory <blender-directory-layout>`

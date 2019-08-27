@@ -141,7 +141,7 @@ Move to Layer
 
 A pop-up menu to move the stroke to a different layer.
 You can choose the layer to move the selected strokes to
-from a list of layers of the current *Grease Pencil* Object.
+from a list of layers of the current *Grease Pencil* object.
 You can also add a new layer to move the selected stroke to.
 
 
@@ -158,7 +158,7 @@ Assign Material
 
 Changes the material linked to the selected stroke.
 You can choose the name of the material to be used by the selected stroke
-from a list of material of the current *Grease Pencil* Object.
+from a list of materials of the current *Grease Pencil* object.
 
 
 .. _bpy.ops.gpencil.stroke_arrange:
@@ -213,7 +213,7 @@ Type
 
 Create geometry
    When enabled, points are added for closing the strokes.
-   If disabled,  the operator act the same as *Toggle Cyclic*.
+   If disabled, the operator act the same as *Toggle Cyclic*.
 
 
 .. _bpy.ops.gpencil.stroke_cyclical_set:

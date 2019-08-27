@@ -237,7 +237,7 @@ Version/Revision Milestones
    Pixar OpenSubdiv support, Viewport and File Browser performance boost,
    node auto-offset, and a text effect strip for the Sequencer.
 `2.77 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.77>`__ -- March 2016:
-   OpenVDB support for caching of smoke/volumetric simulations, improved Cycles Subsurface Scattering,
+   OpenVDB support for caching of smoke/volumetric simulations, improved Cycles subsurface scattering,
    Grease Pencil stroke sculpting and improved workflow,
    and reworked library handling to manage missing and deleted data-blocks.
 `2.78 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.78>`__ -- September 2016:
@@ -253,7 +253,7 @@ Version/Revision Milestones
 
 `2.80 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.80>`__ -- July 2019:
    A totally redesigned UI for easier navigation; improved viewport, gizmos, and tools.
-   Eevee: A new physically based realtime render engine.
-   New Grease pencil: A full 2D drawing and animation system.
-   Collections: A powerful way to organize objects, replacing the old layers.
+   With Eevee a new physically based realtime render engine was created.
+   The Grease Pencil got a big overhaul and is now a full 2D drawing and animation system.
+   Replacing the old layers, collections are a powerful way to organize objects.
    Other improvements: Cycles, Modeling, Animation, Import/Export, Dependency Graph.
