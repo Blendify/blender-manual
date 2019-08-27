@@ -27,8 +27,6 @@ Overlays
          Display black edges.
       White
          Display white edges.
-   Edges
-      Display edges in vertex select mode.
    Faces
       Display faces over the image.
    Smooth
