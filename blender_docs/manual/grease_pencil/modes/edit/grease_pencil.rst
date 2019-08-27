@@ -55,7 +55,7 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode\
+   :Mode:      Edit Mode
    :Menu:      :menuselection:`Grease Pencil --> Mirror`
    :Hotkey:    :kbd:`Ctrl-M`
 
@@ -297,7 +297,7 @@ Cursor
      - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-2.png
           :width: 200px
 
-          Original drawing in the 3D view.
+          Original drawing in the 3D Viewport.
 
      - .. figure:: /images/grease-pencil_modes_edit_stroke_menu_reproject-strokes-3.png
           :width: 200px

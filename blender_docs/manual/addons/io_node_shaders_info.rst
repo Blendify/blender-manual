@@ -42,7 +42,7 @@ Principled BSDF
 
    - Base color
    - Specular intensity
-   - Specular tint*(no texture support)*
+   - Specular tint *(no texture support)*
    - Roughness
    - Metallic
    - IOR
