@@ -35,7 +35,7 @@ Move to Previous Word :kbd:`Ctrl-Left-Arrow`
    If the cursor is in the middle of a word, the cursor is moved to the beginning of the current word.
 Move to Next Word :kbd:`Ctrl-Right-Arrow`
    Moves the cursor to the end of the of the next word.
-   If the cursor is in the middle of a word, the cursor is moved to the end of the current word.subsection name
+   If the cursor is in the middle of a word, the cursor is moved to the end of the current word.
 Move to Line Begin :kbd:`Home`
    Moves the cursor to the start of the current line.
 Move to Line End :kbd:`End`
