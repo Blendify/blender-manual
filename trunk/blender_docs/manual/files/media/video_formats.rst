@@ -89,6 +89,8 @@ FFmpeg Containers
 `Flash <https://en.wikipedia.org/wiki/Flash_Video>`__: ``.flv``
    A container file format used to deliver video over the Internet using Adobe Flash Player.
    This container enforces the video codec, you can only define quality parameters.
+`WebM <https://en.wikipedia.org/wiki/WebM>`__: ``.webm``
+   A free open-standard container format, designed to be used for internet streaming.
 
 
 .. _files-video-codecs:
@@ -135,7 +137,7 @@ No Video
    A free open-standard lossy codec designed together with the :ref:`Ogg container <files-video-containers>`.
 `WEBM / VP9 <https://en.wikipedia.org/wiki/VP9>`__:
    A free open-standard lossy video compression format.
-   One of the most recent codec, it is widely used for internet streaming.
+   One of the most recent codecs, it is widely used for internet streaming.
 
 
 .. _files-audio-codecs:
@@ -157,6 +159,9 @@ No Audio
    A lossy audio compression format.
 `MP3 <https://en.wikipedia.org/wiki/MP3>`__
    A lossy audio compression format, widely used as final audio format.
+`Opus <https://en.wikipedia.org/wiki/Opus_(audio_format)>`__
+   A lossy audio compression format, designed to encode speech or general audio
+   and is intended to replace the *Vorbis* codec.
 `PCM <https://en.wikipedia.org/wiki/PCM>`__
    Pulse Code Modulation, a method used to digitally represent sampled analog signals.
    It is the standard form for digital audio in computers and various Blu-ray,
