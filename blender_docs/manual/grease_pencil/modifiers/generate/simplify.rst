@@ -34,6 +34,14 @@ Mode
       Factor
          Controls the amount of recursively simplifications applied by the algorithm.
 
+   Sample
+      Recreates the stroke geometry with a predefined length between points.
+
+      Length
+         The distance between points on the recreated stroke.
+         Smaller values will require more points to recreate the stroke,
+         while larger values will result in fewer points needed to recreate the curve.
+
 
 Influence Filters
 -----------------
