@@ -62,4 +62,7 @@ Outline
 Specular Highlighting
    Render specular highlights.
 
-   .. note:: Only available when Lighting is set to *Studio* lighting.
+   .. note:: 
+   
+      Only available when Lighting is set to *Studio* lighting or when a MatCap
+      has been selected that contains a specular pass.

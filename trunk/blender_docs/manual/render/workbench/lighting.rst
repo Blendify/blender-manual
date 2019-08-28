@@ -31,4 +31,4 @@ MatCap
 
    Custom MatCaps can be :ref:`loaded in the preferences <prefs-lights-matcaps>`.
 
-   Note, the MatCaps can be flipped horizontally.
+   MatCaps can be flipped horizontally by ticking the Flip MatCap button.
