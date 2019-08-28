@@ -42,6 +42,12 @@ Mode
          Smaller values will require more points to recreate the stroke,
          while larger values will result in fewer points needed to recreate the curve.
 
+   Merge
+      Simplifies the strokes by merging points that are closer than a specified distance to each other.
+
+      Merge Distance
+         Sets the distance threshold for merging points.
+
 
 Influence Filters
 -----------------
