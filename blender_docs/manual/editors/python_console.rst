@@ -19,6 +19,75 @@ The Python Console can be used to test small bits of python which can then be pa
    Python Console.
 
 
+Interface
+=========
+
+Header Menus
+------------
+
+View Menu
+^^^^^^^^^
+
+Zoom In / Zoom Out
+   Increases/Decreases the font size of the console text.
+Move to Previous Word :kbd:`Ctrl-Left-Arrow`
+   Moves the cursor to the beginning of the of the previous word.
+   If the cursor is in the middle of a word, the cursor is moved to the beginning of the current word.
+Move to Next Word :kbd:`Ctrl-Right-Arrow`
+   Moves the cursor to the end of the of the next word.
+   If the cursor is in the middle of a word, the cursor is moved to the end of the current word.subsection name
+Move to Line Begin :kbd:`Home`
+   Moves the cursor to the start of the current line.
+Move to Line End :kbd:`End`
+   Moves the cursor to the end of the current line.
+
+
+Console Menu
+^^^^^^^^^^^^
+
+Clear All
+   Refreshes the console giving the view a fresh start.
+   Note that command history is not cleared.
+Clear Line :kbd:`Shift-Return`.
+   Removes everything from the promt line.
+Delete Previous Word :kbd:`Ctrl-Backspace`
+   Deletes everything between the cursor and the beginning of the previous word (separated by periods).
+   If the cursor is in the middle of a word, deletes everything to the beginning of the current word.
+Delete Next Word :kbd:`Ctrl-Delete`
+   Deletes everything between the cursor and the end of the next word.
+   If the cursor is in the middle of a word, deletes everything to the end of the current word.
+Copy as Script :kbd:`Shift-Ctrl-C`
+   Copies the full history buffer to the clipboard,
+   this can be pasted into a text file to be used as a python script.
+Copy :kbd:`Ctrl-C`
+   Copy the selection.
+Paste :kbd:`Ctrl-V`
+   Paste into the command line.
+Indent :kbd:`Tab`
+   Inserts a tab character at the cursor.
+Unindent :kbd:`Shift-Tab`
+   Un-indents the selection.
+Backward in History :kbd:`Up`
+   Changes the current command to previous command as they appear in the command history.
+Forward in History :kbd:`Down`
+   Changes the current command to next command as they appear in the command history.
+Autocomplete :kbd:`Ctrl-Spacebar`
+   See `Auto Completion`_ for more information.
+
+
+Main View
+---------
+
+.. rubric:: Key Bindings
+
+- :kbd:`Left` / :kbd:`Right` -- Cursor motion.
+- :kbd:`Ctrl-Left` / :kbd:`Ctrl-Right` -- Cursor motion, by word.
+- :kbd:`Backspace` / :kbd:`Delete` -- Erase characters.
+- :kbd:`Ctrl-Backspace` / :kbd:`Ctrl-Delete` -- Erase words.
+- :kbd:`Return` -- Execute command.
+- :kbd:`Shift-Return` -- Add to command history without executing.
+
+
 Usage
 =====
 
@@ -30,23 +99,6 @@ Some variables and modules are available for convenience:
 - ``C``: Quick access to ``bpy.context``.
 - ``D``: Quick access to ``bpy.data``.
 - ``bpy``: Top level Blender Python API module.
-
-
-Key Bindings
-------------
-
-- :kbd:`Up` / :kbd:`Down` -- Cycle command history.
-- :kbd:`Left` / :kbd:`Right` -- Cursor motion.
-- :kbd:`Ctrl-Left` / :kbd:`Ctrl-Right` -- Cursor motion, by word.
-- :kbd:`Backspace` / :kbd:`Delete` -- Erase characters.
-- :kbd:`Tab` -- Indent.
-- :kbd:`Shift-Tab` -- Unindent.
-- :kbd:`Ctrl-Backspace` / :kbd:`Ctrl-Delete` -- Erase words.
-- :kbd:`Ctrl-Spacebar` -- Auto complete.
-- :kbd:`Return` -- Execute command.
-- :kbd:`Shift-Return` -- Add to command history without executing.
-- :kbd:`Ctrl-C` -- Copy the selection.
-- :kbd:`Ctrl-V` -- Paste into the command line.
 
 
 First Look at the Console Environment

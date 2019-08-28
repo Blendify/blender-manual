@@ -171,7 +171,7 @@ Format Menu
 -----------
 
 Indent :kbd:`Tab`
-   Inserts a Tab character at the cursor.
+   Inserts a tab character at the cursor.
 Unindent :kbd:`Shift-Tab`.
    Un-indents the selection.
 Toggle Comments :kbd:`Ctrl-/`.
