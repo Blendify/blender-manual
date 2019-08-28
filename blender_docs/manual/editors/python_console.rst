@@ -8,23 +8,45 @@ Python Console
 
 The Python Console is a quick way to execute commands,
 with access to the entire Python API, command history and auto-complete.
+The command prompt is typical for Python 3.x,
+the interpreter is loaded and is ready to accept commands at the prompt ``>>>``.
 
-Its a good way to explore possibilities, which can then be pasted into larger scripts.
-
-
-Introduction
-============
-
-Accessing Built-in Python Console
----------------------------------
-
-By pressing :kbd:`Shift-F4` in any Blender Editor type (3D View, Timeline, etc.)
-you can change it to a Console Editor.
+The Python Console is a good way to explore the possibilities of Blender Built in python.
+The Python Console can be used to test small bits of python which can then be pasted into larger scripts.
 
 .. figure:: /images/editors_python-console_default.png
 
-The command prompt is typical for Python 3.x,
-the interpreter is loaded and is ready to accept commands at the prompt ``>>>``.
+   Python Console.
+
+
+Usage
+=====
+
+Aliases
+-------
+
+Some variables and modules are available for convenience:
+
+- ``C``: Quick access to ``bpy.context``.
+- ``D``: Quick access to ``bpy.data``.
+- ``bpy``: Top level Blender Python API module.
+
+
+Key Bindings
+------------
+
+- :kbd:`Up` / :kbd:`Down` -- Cycle command history.
+- :kbd:`Left` / :kbd:`Right` -- Cursor motion.
+- :kbd:`Ctrl-Left` / :kbd:`Ctrl-Right` -- Cursor motion, by word.
+- :kbd:`Backspace` / :kbd:`Delete` -- Erase characters.
+- :kbd:`Tab` -- Indent.
+- :kbd:`Shift-Tab` -- Unindent.
+- :kbd:`Ctrl-Backspace` / :kbd:`Ctrl-Delete` -- Erase words.
+- :kbd:`Ctrl-Spacebar` -- Auto complete.
+- :kbd:`Return` -- Execute command.
+- :kbd:`Shift-Return` -- Add to command history without executing.
+- :kbd:`Ctrl-C` -- Copy the selection.
+- :kbd:`Ctrl-V` -- Paste into the command line.
 
 
 First Look at the Console Environment
@@ -35,6 +57,8 @@ at the prompt and execute it.
 
 .. figure:: /images/editors_python-console_dir.png
 
+
+.. _bpy.ops.console.autocomplete:
 
 Auto Completion
 ---------------
@@ -85,9 +109,6 @@ bpy.context
 
 .. figure:: /images/editors_python-console_bpy-context.png
 
-
-Try It Out!
-^^^^^^^^^^^
 
 ``bpy.context.mode``
    Will print the current 3D View mode (Object, Edit, Sculpt, etc.).
@@ -146,10 +167,6 @@ objects, meshes, materials, textures, scenes, screens, sounds, scripts, etc.
 
 That is a lot of data.
 
-
-Try It Out!
-^^^^^^^^^^^
-
 .. figure:: /images/editors_python-console_bpy-data.png
 
 
@@ -159,35 +176,5 @@ bpy.ops
 The tool system is built around the concept of operators.
 Operators are typically executed from buttons or menus but can be called directly from Python too.
 
-See the `bpy.ops <https://www.blender.org/api/blender_python_api_current/bpy.ops.html>`__ API documentation
-for a list of all operators.
-
-
-Usage
-=====
-
-Aliases
--------
-
-Some variables and modules are available for convenience:
-
-- ``C``: Quick access to ``bpy.context``.
-- ``D``: Quick access to ``bpy.data``.
-- ``bpy``: Top level Blender Python API module.
-
-
-Key Bindings
-------------
-
-- :kbd:`Up` / :kbd:`Down` -- Cycle command history.
-- :kbd:`Left` / :kbd:`Right` -- Cursor motion.
-- :kbd:`Ctrl-Left` / :kbd:`Ctrl-Right` -- Cursor motion, by word.
-- :kbd:`Backspace` / :kbd:`Delete` -- Erase characters.
-- :kbd:`Tab` -- Indent.
-- :kbd:`Shift-Tab` -- Unindent.
-- :kbd:`Ctrl-Backspace` / :kbd:`Ctrl-Delete` -- Erase words.
-- :kbd:`Ctrl-Spacebar` -- Auto complete.
-- :kbd:`Return` -- Execute command.
-- :kbd:`Shift-Return` -- Add to command history without executing.
-- :kbd:`Ctrl-C` -- Copy the selection.
-- :kbd:`Ctrl-V` -- Paste into the command line.
+See the `bpy.ops <https://www.blender.org/api/current/bpy.ops.html>`__
+API documentation for a list of all operators.
