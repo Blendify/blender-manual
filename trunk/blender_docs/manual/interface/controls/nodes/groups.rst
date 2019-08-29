@@ -132,7 +132,7 @@ If you have multiple inputs or outputs, they can be re-ordered by selecting the 
 and then moving it up or down with the arrow buttons on the right side of the panel.
 The larger plus sign buttons below the list will add an unconnected socket of the same type
 as the selected socket or a value socket if there is no selection.
-The small circled plus sign at the bottom of the list has filtering functions to facilitate finding nodes
+The triangle at the bottom of the list has filtering functions to facilitate finding nodes
 if the group has a large number of sockets.
 
 
