@@ -62,7 +62,7 @@ Vertex Group
    Restricts the effect only to a vertex group.
 
 Material
-   Restricts the effect only to material that share the same pass index.
+   Restricts the effect only to material that share the same Material or Pass Index.
 
 Layer
    Restricts the effect only to one layer or to any layers that share the same pass index.
