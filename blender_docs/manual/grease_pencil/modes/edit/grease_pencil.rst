@@ -160,15 +160,16 @@ Paste / Paste & Merge
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Grease Pencil --> Paste`, :menuselection:`Grease Pencil --> Paste & Merge`
+   :Menu:      :menuselection:`Grease Pencil --> Paste`, :menuselection:`Grease Pencil --> Paste by Layer`
    :Hotkey:    :kbd:`Ctrl-V`
 
 Type
-   Copy
-      Paste the points/strokes copied from the clipboard.
+   Paste to Active
+      Pastes the points/strokes copied from the clipboard into the active layer.
+      This is the default behavior and the mode used when using :menuselection:`Grease Pencil --> Paste`
 
-   Merge
-      Paste the points/strokes copied from the clipboard into the active layer.
+   Paste by Layer
+      Pastes the points/strokes copied from the clipboard into the layer they were copied from.
 
 
 .. _bpy.ops.gpencil.stroke_separate:
