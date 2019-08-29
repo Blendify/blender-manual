@@ -230,6 +230,8 @@ Merge by Distance
 
 *Merge by Distance* is a useful tool to simplify a stroke by merging
 the selected points that are closer than a specified distance to each other.
+Note, unless using *Unselected*, selected points must be contiguous,
+else they will not be merged.
 
 Merge Distance
    Sets the distance threshold for merging points.
