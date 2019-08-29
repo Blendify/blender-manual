@@ -32,6 +32,7 @@ Properties
 .. _bpy.types.MaterialGPencilStyle.color:
 .. _bpy.types.MaterialGPencilStyle.use_overlap_strokes:
 .. _bpy.types.MaterialGPencilStyle.alignment_mode:
+.. _bpy.types.MaterialGPencilStyle.use_overlap_strokes:
 
 Stroke
 ------
@@ -117,6 +118,9 @@ Alignment
           :width: 130px
 
           Mode Type: Dot, Style: Texture.
+
+Self Overlap
+   Disables stencil and overlap self intersections with alpha materials.
 
 
 .. _bpy.types.MaterialGPencilStyle.show_fill:
