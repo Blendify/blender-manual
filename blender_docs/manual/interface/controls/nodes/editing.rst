@@ -97,6 +97,24 @@ move the mouse away to see the duplicate of the selected node appearing under th
    When in doubt, select a node and move it slightly to see if something is hidden underneath.
 
 
+Copy/Paste
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      All Modes
+   :Menu:      :menuselection:`Node --> Copy`, :menuselection:`Node --> Paste`
+   :Hotkey:    :kbd:`Ctrl-C`, :kbd:`Ctrl-V`
+
+Not only the selected nodes but also the connections between them are copied to the clipboard.
+
+.. note::
+
+   The pasted node will be placed in the *same* position as when it was copied.
+   Use the same cautions as when duplicating.
+
+
 Delete
 ======
 
@@ -152,12 +170,3 @@ Read Render Layers :kbd:`Ctrl-R`
    This can be used to save RAM while rendering because the render layers do not have to be saved in RAM.
    This can also be used to recover some information from a failed render.
    For this to work, :ref:`Save Buffers <render_properties_save-buffers>` must be enabled.
-
-
-Additional Tools
-================
-
-Copy Nodes
-   This button allows you copy selected nodes to the clipboard.
-Paste Nodes
-   This button allows you paste nodes from the clipboard to the active node tree.
