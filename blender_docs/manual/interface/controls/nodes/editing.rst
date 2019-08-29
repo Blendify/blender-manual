@@ -136,7 +136,7 @@ Toggle Hidden Node Sockets :kbd:`Ctrl-H`
 Toggle Node Options
    Shows/Hides all node properties.
 Collapse and Hide Unused Sockets
-   Applies both the *Toggle Hidden Node Sockets* and *Toggle Node Options* operations.
+   Applies both the *Toggle Hidden Node Sockets* and *Hide* operations.
 
 
 .. _bpy.ops.node.read_viewlayers:
