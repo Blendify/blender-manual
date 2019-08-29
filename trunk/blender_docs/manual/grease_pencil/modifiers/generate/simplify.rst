@@ -45,7 +45,7 @@ Mode
    Merge
       Simplifies the strokes by merging points that are closer than a specified distance to each other.
 
-      Merge Distance
+      Distance
          Sets the distance threshold for merging points.
 
 
