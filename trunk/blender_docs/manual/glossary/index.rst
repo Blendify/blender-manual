@@ -274,7 +274,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Euler
    Euler Rotation
-      Rotation method where rotations applied on each X, Y, Z axis component.
+      Rotation method where rotations are applied to each of the X, Y, Z axes in a specific order.
 
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.
@@ -634,6 +634,10 @@ This page lists definitions for terms used in Blender and this manual.
       Rotation method where rotations are defined by four values (X, Y, Z, and W).
       X, Y, and Z also define an :term:`axis`, and W an angle,
       but it is quite different from :term:`Axis Angle`.
+
+      Quaternion values can be interpreted geometrically as defining a point on a unit
+      sphere in 4D space. Moving along any *great circle* of the sphere represents rotating
+      around a fixed axis, with one full circle matching two full rotations.
 
    Radiosity
       A global lighting method

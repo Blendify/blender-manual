@@ -154,6 +154,9 @@ Variable Type
          The *Average Scale* option retrieves the combined scale value,
          computed as the cubic root of the total change in volume.
          Unlike *X/Y/Z Scale*, this value can be negative if the object is flipped by negative scaling.
+      Mode (Rotation)
+         For rotation channels, allows overriding the :term:`Euler` order used to decompose
+         rotation into separate channels. Defaults to using the order of the target.
       Space
          World Space, Transform Space, Local Space.
 
