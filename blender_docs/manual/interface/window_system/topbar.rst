@@ -112,8 +112,8 @@ External Data
 .. _startup-file:
 
 Defaults
-   This menu manages the startup file, used to store the default scene,
-   Workspace and interface displayed at startup and when opening creating a new file.
+   This menu manages the startup file which is used to store the default scene,
+   workspace, and interface displayed when creating a new file.
 
    Initially this contains the :doc:`startup scene </editors/3dview/startup_scene>` included with Blender.
    This can be replaced by your own customized setup.

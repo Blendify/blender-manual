@@ -55,12 +55,12 @@ Panels may also include sub-panels.
 Collapsing and Expanding
 ------------------------
 
-Panels can be expanded to show, and collapsed to hide its contents,
-shown by a triangle on the panel header. Collapsed panel is indicated
-by down-arrow (▼) and expanded panel by right-arrow (►).
+A panel can either be expanded to show its contents, or collapsed to hide its contents.
+An expanded panel is indicated by a down-arrow (▼) in the panel header, while a
+collapsed panel is shown with a right-arrow (►).
 
 - A click with the :kbd:`LMB` on the panel header expands or collapses it.
-- Pressing :kbd:`A` expand/collapses the panel under the mouse pointer.
+- Pressing :kbd:`A` expands/collapses the panel under the mouse pointer.
 - A :kbd:`Ctrl-LMB` click on the header of a specific panel will collapse
   all other panels and make this the only expanded one.
 - Dragging with :kbd:`LMB` over the headers will expand or collapse many at once.
@@ -71,7 +71,7 @@ Position
 
 You can change the position of a panel within its region by clicking
 and dragging it with the :kbd:`LMB` on the grip widget (\:\:\:\:)
-located in Panel Header on the right side.
+located in the Panel Header on the right side.
 
 
 Pinning
@@ -82,7 +82,7 @@ This has been solved by making panels pinnable.
 
 A pinned panel remains visible regardless of which tab has been selected.
 You can pin a panel by clicking on the pin icon in its header.
-Panels that do not have a pin icon can also be pined by :kbd:`RMB` and selecting *Pin*,
+Panels that do not have a pin icon can also be pinned by :kbd:`RMB` and selecting *Pin*,
 alternatively you use :kbd:`Shift-LMB` on the panel to also pin it.
 
 

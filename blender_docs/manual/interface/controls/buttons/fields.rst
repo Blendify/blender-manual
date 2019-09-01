@@ -28,10 +28,10 @@ Number Fields
 
 Number fields store values and units.
 
-First type of number field shows triangles pointing left (<) and right (>)
+The first type of number field shows triangles pointing left (<) and right (>)
 on the sides of the field when mouse pointer is over the field.
-Sliders the second number field type have a colored bar in the background
-to illustrate value over a range, e.g. percentage values.
+Sliders, a second type of number field, have a colored bar in the background
+to display values over a range, e.g. percentage values.
 
 The value can be edited in several ways:
 
@@ -40,7 +40,7 @@ Incremental Steps
    (only available on first field type).
    You can also use :kbd:`Ctrl-Wheel` while hovering over the field to edit the value.
 Dragging
-   To change the value with mouse, hold down :kbd:`LMB` and drag to left or right.
+   To change the value with the mouse, hold down :kbd:`LMB` and drag to left or right.
 
    Hold :kbd:`Ctrl` to snap to the discrete steps while dragging or :kbd:`Shift` for precision input.
 
@@ -66,15 +66,15 @@ Multi-Value Editing
 You can edit multiple number fields at once by pressing down
 :kbd:`LMB` on the first field, and then drag vertically over
 the fields you want to edit. Finally you can either drag left or right to
-adjust value with mouse, or release the :kbd:`LMB` and type in a value.
+adjust value with the mouse, or release the :kbd:`LMB` and type in a value.
 
 
 Value Limits
 ------------
 
 Most numerical values are restricted by "soft limit" and "hard limit" value ranges.
-Changing value by dragging with mouse is restricted to "soft limit" value range.
-Input via keyboard can allow use of wider value range, but never wider than "hard limit".
+Changing values by dragging with the mouse is restricted to the "soft limit" value range.
+Input via keyboard will allow the use of wider value ranges, but never wider than the "hard limit".
 
 
 Expressions

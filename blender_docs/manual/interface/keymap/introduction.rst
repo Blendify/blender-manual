@@ -117,7 +117,7 @@ Python Scripting
 Dragging
 ========
 
-- :kbd:`Ctrl` -- While dragging snap the discrete steps.
+- :kbd:`Ctrl` -- While dragging, snap to discrete steps.
 - :kbd:`Shift` -- Gives precision control over the value.
 - :kbd:`Shift-Ctrl` -- Precise snap will move the object with high precision
   along with the snapping constraint.

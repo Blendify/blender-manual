@@ -23,13 +23,13 @@ Append and Link
 
 *Link* creates a reference to the data in the source file such that
 changes made there will be reflected in the referencing file the next time it is reloaded.
-But linked data is not editable (to some extend, see :ref:`object-proxy`).
+But linked data is not editable (to some extent, see :ref:`object-proxy`).
 
-Whereas *Append* makes a full copy of the data into your blend, without keeping any reference to original one.
+*Append* makes a full copy of the data into your blend-file, without keeping any reference to original one.
 You can make further edits to your local copy of the data,
 but changes in the external source file will not be reflected in the referencing file.
 
-In the :doc:`File Browser </editors/file_browser>`
+In the :doc:`File Browser </editors/file_browser>`,
 navigate to the external source blend-file and select the data-block you want to reuse.
 
 .. tip::
@@ -84,17 +84,17 @@ in your current blend-file without having to re-open it.
 
 Relocating allows you to reload the library from a new file path.
 This can be used to either fix a broken linked library
-(e.g. because library file was moved or rename after linking from it),
+(e.g. because the library file was moved or rename after linking from it),
 or to switch between different variations of a same set of data, in different library files.
 
 
 Broken Library
 --------------
 
-While loading a blend-file, if Blender cannot find any more a library,
+While loading a blend-file, if Blender cannot find a library,
 it will create placeholder data-blocks to replace missing linked ones.
 
-That way, references to those missing data are not lost, and by relocating the missing library,
+That way, references to the missing data is not lost, and by relocating the missing library,
 the lost data can be automatically restored.
 
 
@@ -132,7 +132,7 @@ Those changes remain local, they are not sent back to the external library.
 Proxy Armatures
 ---------------
 
-On rigged models, proxy objects allow to also edit and animate their poses.
+On rigged models, proxy objects allow you to edit and animate their poses.
 
 It is also possible, in the source (library) blend-file, to protect some bone layers from being editable in proxies.
 This helps keeping complex rigs usage sensible, by only exposing some 'public' bone layers as editable by users.
@@ -159,15 +159,15 @@ Make Local
    :Editor:    Outliner
    :Menu:      :menuselection:`Context menu --> ID Data --> Make Local`
 
-Makes the selected or all external objects local in the current blend-file.
-Link to original library file will be full lost.
-But it will make those data-blocks fully editable, just like ones directly created in that blend-file.
+Makes the selected or all external objects local to the current blend-file.
+Links to the original library file will be lost,
+but it will make those data-blocks fully editable, just like the ones directly created in that blend-file.
 
 
 Options
 -------
 
-The operation available from the *Outliner*'s context menu has no option, and only affects select data-block.
+The operation available from the *Outliner*'s context menu has no options, and only affects the selected data-block.
 
 The operation available from the *3D View* only directly affects selected objects,
 but it can also make local the objects' dependencies:

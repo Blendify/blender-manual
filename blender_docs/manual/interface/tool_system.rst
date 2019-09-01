@@ -32,7 +32,7 @@ The Toolbar shows buttons for each tool.
 For tool buttons which have an small triangle in bottom right corner will reveal a pop-up menu
 when you :kbd:`LMB` drag so that you can select other tools of the same group.
 
-Hovering your cursor over a tool for a short time shows it's name, keep it longer to show the full tooltip.
+Hovering your cursor over a tool for a short time shows its name, keep it longer to show the full tooltip.
 
 Expand the Toolbar to show icons on two columns instead of one or even more to show icons with titles.
 
@@ -40,7 +40,7 @@ Expand the Toolbar to show icons on two columns instead of one or even more to s
 Properties
 ==========
 
-Tools can have their own settings, these are available multiple place:
+Tools can have their own settings, which are available from multiple places:
 
 - The :menuselection:`Sidebar --> Tools --> Active Tool` panel.
 - The *Active Tool* tab in the Properties editor.
@@ -50,9 +50,9 @@ Tools can have their own settings, these are available multiple place:
 Switching Tools
 ===============
 
-Keyboard tool switching is not enabled by default,
-set the key-map preference :ref:`keymap-blender_default-spacebar_action` to *Tools*.
-Then you can be used as a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:`Shift`).
+Keyboard tool switching is not enabled by default. To enable it,
+set the Keymap preferences :ref:`keymap-blender_default-spacebar_action` to *Tools*,
+and then you'll be able use :kbd:`Spacebar` like a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:`Shift`).
 
 :kbd:`Spacebar-T` for Transform, :kbd:`Spacebar-D` for Annotate, :kbd:`Spacebar-M` for measure, etc.
 
@@ -62,5 +62,5 @@ Then you can be used as a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:
 Cycling Tools
 -------------
 
-If you bind a key to a tool which is part of a group, you can enable the *Cycle* option in the keymap editor,
-successive presses cycles through tools in that group.
+If you bind a key to a tool which is part of a group, you can enable the *Cycle* option in the keymap editor.
+Successive presses will cycle through the tools in that group.
