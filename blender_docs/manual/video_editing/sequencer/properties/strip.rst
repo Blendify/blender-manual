@@ -37,6 +37,10 @@ Opacity
 Transform
 ---------
 
+Mirror X
+   Mirrors the image along the X axis (left to right).
+Mirror Y
+   Mirrors the image along the Y axis (top to bottom).
 Image Offset
    Used to move the frames along the X and Y axis.
    Additionally it disables the auto-scaling of the image.
@@ -53,15 +57,8 @@ Strobe
    the strip will only display frames 1, 11, 21, 31, 41... of the source.
    *Strobe* is a float value -- this way you can get a strobe effect synced exactly to a beat,
    for example, by using non-integer values.
-Reverse
-   Plays the strip in reverse (time).
-Deinterlace
-   Removes fields in a video file. For example,
-   if it is an analog video and it has even or odd interlacing fields.
-X Flip
-   Mirrors the image along the X axis (left to right).
-Y Flip
-   Mirrors the image along the Y axis (top to bottom).
+Playback Direction
+   Options for choosing to play strip forwards or backwards.
 
 
 Color
@@ -80,8 +77,6 @@ Sound
 
 Volume
    The volume of the sound. This value, even if animated will be reflected in the waveform.
-Mute (speaker icon)
-   The strip will not produce any sound output.
 Pitch
    Coefficient of playback speed.
    This value will affect length of the strip, that will not be represented in the timeline.
@@ -154,7 +149,7 @@ File
    For image strips showing an image sequence, this will be different for each frame.
 Change Data/Files
    Same as the *Path* and *File* fields, but this time combined to open the File Browser in order to
-   find the file(s) you search. Same as :menuselection:`Strip --> Inputs --> Paths/files`.
+   find the file(s) you search. Same as :menuselection:`Strip --> Inputs --> Change Paths/Files`.
 
 MPEG Preseek
    Movie strip only -- Use Preseek field to tell Blender to look backward and compose an image
@@ -167,6 +162,9 @@ Alpha mode
    :term:`Straight Alpha` or :term:`Premultiplied Alpha`
 Stream index
    Movie strip only -- For files with several movie streams, use the stream with the given index.
+Deinterlace
+   Removes fields in a video file. For example,
+   if it is an analog video and it has even or odd interlacing fields.
 Resolution
    Resolution of the active strip image output.
 
