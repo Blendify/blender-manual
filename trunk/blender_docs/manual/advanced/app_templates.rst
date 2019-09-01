@@ -57,7 +57,7 @@ Python Scripts
    - Defining new menus, key-maps & tools.
    - Defining a custom add-on path for template specific add-ons.
 
-Templates also have their own user configuration so saving startup while using a template
+Templates also have their own user configuration, so saving a startup file while using a template
 won't overwrite your default startup file.
 
 
@@ -109,7 +109,7 @@ Each of the following files can be used for application templates but are option
    *(As noted previously, this is only used for a subset of preferences).*
 
 ``splash.png``, ``splash_2x.png``
-   Splash screen do override Blender's default artwork (not including header text).
+   Splash screen to override Blender's default artwork (not including header text).
 
    Must be ``501x250`` and ``1002x500`` (used for HiDPI monitors).
 ``__init__.py``

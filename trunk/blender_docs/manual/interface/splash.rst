@@ -5,7 +5,7 @@ Splash Screen
 *************
 
 When starting Blender, the splash screen appears in the center of the window.
-It contains options create new projects or open recently opened blend-files.
+It contains options to create new projects or open recently opened blend-files.
 A more detailed description can be found below.
 
 .. figure:: /images/interface_splash_current.png
@@ -25,7 +25,7 @@ Information Region
    Title
       Besides the Blender icon and text, it shows the Blender version. e.g. the current version is |BLENDER_VERSION|.
    Date
-      At the top-right corner, you can see the date on that Blender version was compiled.
+      At the top-right corner, you can see the date of when Blender was compiled.
    Hash
       The Git Hash. This can be useful to give to support personnel, when diagnosing a problem.
    Branch
@@ -42,10 +42,10 @@ Interactive Region
    Recover Last Session
       Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
    Links
-      Links official web pages, the same could be found in the *Help* Menu
-      of the :doc:`Topbar </interface/window_system/topbar>`. See :ref:`help-menu`.
+      Links to the official web site. The same links can be found in the :ref:`help-menu`
+      of the :doc:`Topbar </interface/window_system/topbar>`.
 
 .. note::
 
-   When starting Blender for the first time the Interactive Region
+   When starting Blender for the first time, the Interactive Region
    contains a :ref:`Quick Set Up Process <splash-quick-start>`.

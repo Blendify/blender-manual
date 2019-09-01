@@ -49,6 +49,6 @@ Objects
    Displays the number of selected objects.
 Memory
    The "Mem" label shows the calculated memory consumption by Blender.
-   This can help to identify, when you are reaching the limits of your hardware.
+   This can help identify when you are reaching the limits of your hardware.
 Blender version
    This label displays the Blender version.

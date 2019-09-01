@@ -131,7 +131,7 @@ Toggle Maximize Area
 
 The maximized area fill the whole application window. You can maximize an area
 with :menuselection:`View --> Area --> Toggle Maximize Area` menu entry or
-keyboard shortcut :kbd:`Ctrl-Spacebar`. To return to normal size
+keyboard shortcut :kbd:`Ctrl-Spacebar`. To return to normal size,
 use keyboard shortcut or the *Back to Previous* button on the Topbar.
 
 .. note::
