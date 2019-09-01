@@ -46,7 +46,7 @@ Register
 .. _editors-text-run-script:
 
 Run Script / Script Node Update
-   Executes the text as a Python script :kbd:`Alt-P`. See `Script and Templates`_.
+   Executes the text as a Python script :kbd:`Alt-P`. See `Template Menu`_.
 
 
 View Menu
