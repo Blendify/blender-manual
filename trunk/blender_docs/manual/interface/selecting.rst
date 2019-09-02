@@ -43,7 +43,7 @@ With *Select Box* you draw a rectangle while holding down :kbd:`LMB`.
 Any item that lies even partially within this rectangle becomes selected.
 If any item that was last active appears in the selection it will become active.
 
-For deselecting items, use :kbd:`MMB`.
+For deselecting items, use :kbd:`MMB`, or :kbd:`Shift-LMB`.
 
 .. list-table:: Box Select example.
 
@@ -81,11 +81,12 @@ Select Circle
    :Menu:      :menuselection:`Select --> Circle Select`
    :Hotkey:    :kbd:`C`
 
-*Select Circle* :kbd:`C` is used by moving with dotted circle through item with :kbd:`LMB`.
-You can select any item by touching of the circle area.
-It is possible to dynamically change the diameter of circle by scrolling :kbd:`Wheel`
-or with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` as seen in pictures below.
-Deselection is under the same principle -- :kbd:`MMB`.
+*Circle Select* :kbd:`C` allows you to select multiple items within a circular area.
+Move your mouse over any items within the circular area (shown with a dotted
+circle) while holding :kbd:`LMB` to select those items. Alternatively, use
+:kbd:`MMB` to deselect them. When you're done selecting, press :kbd:`RMB` or
+:kbd:`Esc`. To change the diameter of the circle, scroll with the :kbd:`Wheel`
+or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` keys.
 
 .. list-table:: Circle Select example.
 
@@ -116,10 +117,12 @@ Select Lasso
 
    :Hotkey:    :kbd:`Ctrl-RMB`
 
-Lasso select is used by drawing a dotted line around item to be selected.
-To use this hold :kbd:`Ctrl-RMB` and simply draw around the items you want to select.
+*Lasso Select* is used to create a free-form selection. Simply hold
+:kbd:`Ctrl-RMB` while drawing a dotted line around the items you want to
+select. The shape you draw will be automatically closed by connecting a line
+from the current position back to the starting point.
 
-Lasso select adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-RMB`.
+*Lasso Select* adds to the previous selection. For deselection, use :kbd:`Shift-Ctrl-RMB`.
 
 .. list-table:: An example of using the *Lasso Select tool* in *Vertex Select Mode*.
 

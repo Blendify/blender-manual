@@ -5,7 +5,7 @@
 Tool System
 ***********
 
-Tools are accessed from the :ref:`Toolbar <ui-region-toolbar>`,
+Tools are accessed from the :ref:`Toolbar <ui-region-toolbar>`.
 
 This is a general introduction to tools, individual tools have their own documentation.
 
@@ -29,12 +29,13 @@ Toolbar
    Button with pop-up menu indicator.
 
 The Toolbar shows buttons for each tool.
-For tool buttons which have an small triangle in bottom right corner will reveal a pop-up menu
+For tool buttons which have a small triangle in their bottom right corner, a pop-up menu will be revealed
 when you :kbd:`LMB` drag so that you can select other tools of the same group.
 
-Hovering your cursor over a tool for a short time shows its name, keep it longer to show the full tooltip.
+Hovering your cursor over a tool for a short time will show its name, while hovering longer will show the full tooltip.
 
-Expand the Toolbar to show icons on two columns instead of one or even more to show icons with titles.
+Resizing the toolbar horizontally will display the icons with two columns. Expanding it further will
+display the icon and its text.
 
 
 Properties

@@ -19,7 +19,7 @@ Controls
 ========
 
 Add ``+``
-   Clicking on this button will add a stop to your custom weight paint map.
+   Clicking on this button will add a stop to your color ramp.
    The stops are added from the last selected stop to the next one, from left to right and
    they will be placed in the middle of both stops.
 Delete ``-``
@@ -28,14 +28,14 @@ Specials ``v``
    Contains more operators for the color ramp.
 
    Flip Color Ramp
-      Flips the gradient, inverting the values of the custom weight paint range.
+      Flips the gradient, inverting the values of the color ramp.
    Distribute Stops from Left
       Distribute the stops so that every step has the same space to the right.
       This is mostly useful when used with Constant interpolation mode.
    Distribute Stops Evenly
       Space between all neighboring stops becomes equal.
    Eyedropper (pipette icon) :kbd:`E`
-      A :ref:`ui-eyedropper` to sample a color or gradient from the interface to be used in the color ramp.
+      An :ref:`ui-eyedropper` to sample a color or gradient from the interface to be used in the color ramp.
    Reset Color Ramp
       Resets the color ramp to its default state.
 Color Mode

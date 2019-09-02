@@ -16,7 +16,7 @@ List Views
 
 This control is useful to manage lists of items.
 They can be found, for example, in the object data properties.
-In addition to the main list, there is Filtering panel on bottom
+In addition to the main list, there is a Filtering panel on the bottom
 (hidden by default) and modification buttons on the right.
 
 Select

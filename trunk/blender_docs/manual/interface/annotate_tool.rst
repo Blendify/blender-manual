@@ -5,7 +5,7 @@ Annotate Tool
 *************
 
 The annotation tool is available in multiple editors.
-With it notes can be added to e.g. 3D objects or node setups.
+It can be used to add notes to e.g. 3D objects or node setups.
 
 The annotation tool can be activated in the Toolbar on the left side.
 It has a couple of sub-tools listed below.
@@ -39,7 +39,7 @@ Thickness
    Adjusts the thickness of existing and new strokes.
 
 Onion Skin
-   Shows a preview of strokes made in frames close by the current frame.
+   Shows a ghosted image of strokes made in frames before and after the current frame.
    Onion skinning only works in the 3D Viewport and Sequencer.
    See the Grease Pencil documentation for an explanation of
    :doc:`Onion Skinning </grease_pencil/properties/onion_skinning>`.
