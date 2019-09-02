@@ -95,7 +95,7 @@ Specials ``v``
                 Extend Extrapolated.
 
    Reset Curve
-      Resets the curve in default (removes all points added to the curve).
+      Resets the curve to default (removes all points added to the curve).
 Clipping (dot icon)
    Use Clipping
       Forces curve points to stay between specified values.

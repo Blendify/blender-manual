@@ -49,7 +49,7 @@ Sometimes there is a :ref:`list <ui-list-view>` of applied data-blocks
 
 .. seealso::
 
-   Data-blocks are discussed farther in the :doc:`Data System chapter </files/data_blocks>`.
+   Data-blocks are discussed further in the :doc:`Data System chapter </files/data_blocks>`.
 
 
 Preview
@@ -86,13 +86,13 @@ type to have same ID (same name). If Data ID is already in use,
 Blender will automatically append a number to the end to prevent ID collision
 (for example "Cube.001").
 
-Menus showing Data IDs can show following elements:
+Menus showing Data IDs can show the following elements:
 
 Type
    The icon on the left specifies the accepted data-block type.
 Name
    The text field functions as a search field by matching elements in the list.
-   Press of :kbd:`Tab` for auto-complete names to the level a match is found.
+   Press :kbd:`Tab` to auto-complete names up to the level a match is found.
    If more than one match exists, you have to continue typing.
    If you type an invalid name, the value will remain unchanged.
 List
@@ -130,5 +130,5 @@ Bone
       while a value of one will point at the Tail/Tip of a Bone.
 
       Use B-Bone Shape
-         When the bone is a :doc:`/animation/armatures/bones/properties/bendy_bones`,
+         When the bone is a :doc:`bendy bone </animation/armatures/bones/properties/bendy_bones>`,
          click on this button to make the point follow the curvature of the B-spline between head and tail.

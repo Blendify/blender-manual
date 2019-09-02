@@ -58,7 +58,7 @@ Adjust Last Operation
 After an operation is complete you can tweak the parameters of the operation afterwards.
 In editors that support it, there is a "head-up display" panel in the bottom left
 based on the last performed operation; dependent on mode and context.
-Alternatively, you can create a pop-up with :kbd:`F9` does the same thing.
+Alternatively, you can create a pop-up with :kbd:`F9` which does the same thing.
 
 For example, if your last operation was a rotation in *Object Mode*,
 Blender will show you the last value changed for the angle
@@ -69,7 +69,7 @@ and you cannot only Undo actions, but change them completely using the available
 
 If you are in *Edit Mode*,
 Blender will also change its contents based on your last action taken.
-In the second example (at the right), the last operation was a Move in object mode;
+In the second example (on the right), the last operation was a Move in object mode;
 but a *Scale* on a Face in Edit mode, and, as you can see,
 the contents of *Adjust Last Operation* are different, because of the mode (Edit mode)
 (See Fig. :ref:`fig-interface-redo-last-edit-mode` right).
@@ -119,7 +119,7 @@ Undo History
 
 There is also an Undo History of the last actions taken, recorded by Blender.
 
-First positions correspond to most recent actions.
+The top of the list corresponds to the most recent actions.
 A small icon of an eye next to one of the entries indicates the current status.
 Rolling back actions using the *Undo History* feature will take you back to
 the action you choose. Much like how you can alternate between going backward in
