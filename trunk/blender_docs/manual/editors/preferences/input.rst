@@ -33,6 +33,21 @@ Emulate 3 Button Mouse
    can be expressed with the combinations shown in the table. For example:
 
    :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag for example.
+
+
+   .. warning::
+
+      This option prevents certain features from being accessed,
+      since :kbd:`Alt-LMB` is used for some operations.
+
+      - Modifying multiple items values at once (objects, bones... etc).
+      - De-selecting edge/face rings in edit-mode.
+      - Detaching node links.
+      - Moving the compositor background image.
+
+      Some touch pads support 3 finger tap for middle mouse,
+      which may be an alternative to using this option.
+
 Continuous Grab
    This feature is used to prevent the problem where an action such as moving objects or panning a view,
    is limited by your screen bounds.
