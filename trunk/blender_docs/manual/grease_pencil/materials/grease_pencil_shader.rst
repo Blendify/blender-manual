@@ -32,7 +32,6 @@ Properties
 .. _bpy.types.MaterialGPencilStyle.color:
 .. _bpy.types.MaterialGPencilStyle.use_overlap_strokes:
 .. _bpy.types.MaterialGPencilStyle.alignment_mode:
-.. _bpy.types.MaterialGPencilStyle.use_overlap_strokes:
 
 Stroke
 ------
