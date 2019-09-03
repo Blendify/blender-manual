@@ -18,6 +18,10 @@ Options
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 
+Order
+   Allows specifying which :term:`Euler` order to use during the copy operation.
+   Defaults to the order of the owner.
+
 X, Y, Z
    These buttons control which axes are constrained.
 

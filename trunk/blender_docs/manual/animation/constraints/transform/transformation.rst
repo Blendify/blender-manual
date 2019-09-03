@@ -61,6 +61,12 @@ Map From
    The radio buttons allow you to select which type of property to use.
 
    Location, Rotation, and Scale
+Mode (Rotation)
+   Allows specifying the type of rotation input to use, including different :term:`Euler` orders,
+   :term:`Quaternion`, and other :ref:`Rotation Channel Modes <drivers-variables-rotation-modes>`.
+
+   In the *Quaternion* mode the channels are converted to angles in the same way as the swing
+   rotation angles of the :ref:`Swing and X/Y/Z Twist <drivers-variables-rotation-modes>` modes.
 From
    Independently for each axis (X, Y, and Z) the min and max number fields control
    the lower and upper bounds of the input value range.
@@ -81,6 +87,9 @@ Map To
    The three radio buttons allow you to select which type of property to control.
 
    Location, Rotation, and Scale
+Order (Rotation)
+   For rotation, allows specifying which :term:`Euler` order to use during evaluation
+   of the constraint. Defaults to the order of the owner.
 To
    The *min* and *max* number fields control the lower and upper bounds of the output value range,
    independently for each mapped axis.

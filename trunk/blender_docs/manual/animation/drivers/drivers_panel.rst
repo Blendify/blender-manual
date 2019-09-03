@@ -155,8 +155,9 @@ Variable Type
          computed as the cubic root of the total change in volume.
          Unlike *X/Y/Z Scale*, this value can be negative if the object is flipped by negative scaling.
       Mode (Rotation)
-         For rotation channels, allows overriding the :term:`Euler` order used to decompose
-         rotation into separate channels. Defaults to using the order of the target.
+         For rotation channels, specifies the type of rotation data to use, including
+         different explicit :term:`Euler` orders. Defaults to using the Euler order of
+         the target. See `Rotation Channel Modes`_.
       Space
          World Space, Transform Space, Local Space.
 
@@ -168,6 +169,53 @@ Variable Type
 Value
    Shows the value of the variable.
 
+
+.. _drivers-variables-rotation-modes:
+
+Rotation Channel Modes
+----------------------
+
+Rotation Transform Channels support a number of operation modes, including:
+
+Auto Euler
+   Uses the :term:`Euler` order of the target to decompose rotation into channels.
+
+XYZ Euler, ...
+   Explicitly specifies the :term:`Euler` rotation order to use.
+
+Quaternion
+   Provides the :term:`Quaternion` representation of the rotation.
+
+Swing and X/Y/Z Twist
+   Decomposes the rotation into two parts: a swing rotation that aims the specified
+   axis in its correct direction, followed by a twist rotation around that axis.
+   This is often necessary for driving corrective :doc:`Shape Keys </animation/shape_keys/index>`
+   and bones for organic joint rotation.
+
+   The swing rotation is of the same kind that is produced by the
+   :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`.
+
+   The channels values for *Swing and Y Twist* are:
+
+   .. figure:: /images/animation_drivers_drivers-panel_angle-curve.png
+      :align: right
+
+      Falloff curves for weighted angles.
+
+   Y Rotation
+      True angle of the twist rotation.
+   W Rotation
+      True angle of the swing rotation, independent of its direction.
+   X Rotation, Z Rotation
+      Weighted angles that represent the amount of swing around the *X*/*Z* axis.
+
+      The magnitude of the angle equals *W Rotation* when the rotation is purely around
+      that axis, and fades out to zero as the direction changes toward the other axis,
+      following the falloff curves from the graph on the right.
+
+   Mathematically, the swing angles are computed from quaternion components, using
+   :math:`2 \arccos(w)` for *W* and :math:`2 \arcsin(x)` for the others. The component
+   of the swing rotation that corresponds to the twist axis is always 0.
 
 Expressions
 ===========
