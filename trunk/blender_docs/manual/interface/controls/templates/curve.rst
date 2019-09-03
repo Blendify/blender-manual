@@ -44,7 +44,7 @@ Zoom Out (minus magnifying glass icon)
    Zoom out of the graph to show fewer details and view the graph as a whole.
    You cannot zoom out further than the clipping region (see *Clipping* below).
 
-Specials ``v``
+Tools ``v``
    A :ref:`Specials <ui-specials-menu>` menu with tools to operate on control points or to set properties.
 
    Reset View
@@ -96,7 +96,7 @@ Specials ``v``
 
    Reset Curve
       Resets the curve to default (removes all points added to the curve).
-Clipping (dot icon)
+Clipping Options (dot icon)
    Use Clipping
       Forces curve points to stay between specified values.
    Min X/Y and Max X/Y
