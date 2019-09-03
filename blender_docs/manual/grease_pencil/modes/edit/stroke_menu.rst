@@ -194,8 +194,6 @@ Send to Back
    Moves to the bottom the selected points/strokes.
 
 
-.. _bpy.ops.gpencil.stroke_cyclical_set:
-
 Close
 =====
 
