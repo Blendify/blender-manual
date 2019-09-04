@@ -188,12 +188,15 @@ Quaternion
 
 Swing and X/Y/Z Twist
    Decomposes the rotation into two parts: a swing rotation that aims the specified
-   axis in its correct direction, followed by a twist rotation around that axis.
+   axis in its final direction, followed by a twist rotation around that axis.
    This is often necessary for driving corrective :doc:`Shape Keys </animation/shape_keys/index>`
    and bones for organic joint rotation.
 
-   The swing rotation is of the same kind that is produced by the
-   :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`.
+   This decomposition is often produced in rigs by using a helper bone with a
+   :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`
+   to extract the swing part, and it's child with
+   :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`
+   to extract the twist component.
 
    The channels values for *Swing and Y Twist* are:
 
@@ -214,8 +217,9 @@ Swing and X/Y/Z Twist
       following the falloff curves from the graph on the right.
 
    Mathematically, the swing angles are computed from quaternion components, using
-   :math:`2 \arccos(w)` for *W* and :math:`2 \arcsin(x)` for the others. The component
-   of the swing rotation that corresponds to the twist axis is always 0.
+   :math:`2 \arccos(w)` for *W* and :math:`2 \arcsin(x)` etc for the others. The
+   component of the swing rotation that corresponds to the twist axis is always 0,
+   and is replaced by the twist angle.
 
 Expressions
 ===========
