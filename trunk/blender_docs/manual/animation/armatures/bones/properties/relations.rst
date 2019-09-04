@@ -114,14 +114,35 @@ using the Relations panel in the *Bones* tab:
 
       Relations panel in Pose Mode.
 
+Local Location
+   When disabled, the location transform property is evaluated in the parent bone's local space,
+   rather than using the bone's own *rest pose* local space orientation.
 Inherit Rotation
    When disabled, this will "break" the rotation relationship to the bone's parent.
    This means that the child will keep its rotation in the armature object space when its parent is rotated.
 Inherit Scale
-   When disabled, this will "break" the scale relationship to the bone's parent.
-Local Location
-   When disabled, the location transform property is evaluated in the parent bone's local space,
-   rather than using the bone's own *rest pose* local space orientation.
+   Specifies which effects of parent scaling the bone inherits:
+
+   Full
+      The bone inherits all effects of parent scaling and shear.
+   Fix Shear
+      Corrects the transformation inherited from the parent to remove shear caused by non-uniform
+      parent scaling and rotation. The process preserves the bone direction, length and volume, and
+      minimally affects roll on average.
+
+      If the inherited scale is non-uniform, this does not prevent shear from reappearing due to
+      local rotation of the child bone, or of its children.
+   Average
+      Inherits a uniform scaling factor that represents the total change in the volume of the parent.
+
+      This effectively keeps the uniform part of the scaling of the parent, while removing squash
+      and stretch effects. Uniform scaling never causes shear.
+   None
+      Ignores all scaling and shear of the parent.
+   None (Legacy)
+      Ignores all scaling, provided the parent is not sheared. If it is, there are no guarantees.
+
+      This choice replicates the behavior of the old Inherit Scale checkbox, and may be removed in a future release.
 
 These inheriting behaviors propagate along the bones' hierarchy.
 So when you scale down a bone, all its descendants are by default scaled down accordingly.
