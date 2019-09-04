@@ -44,7 +44,7 @@ Zoom Out (minus magnifying glass icon)
    Zoom out of the graph to show fewer details and view the graph as a whole.
    You cannot zoom out further than the clipping region (see *Clipping* below).
 
-Tools ``v``
+Specials ``v``
    A :ref:`Specials <ui-specials-menu>` menu with tools to operate on control points or to set properties.
 
    Reset View
