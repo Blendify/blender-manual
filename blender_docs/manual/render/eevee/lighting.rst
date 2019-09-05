@@ -49,25 +49,13 @@ Shadows
 Common Parameters
 -----------------
 
-Clip
-   Distance from the light object at which the shadow map starts and ends.
+Clip Start
+   Distance from the light object at which the shadow map starts.
    Any object before this distance will not appear to cast shadows.
-   *Clip End* will only appear for sun lights.
-
-Soft
-   Size of the filter applied to the shadow map.
-   This filter size is independent of the shadow map resolution.
-   Higher filter size can have a big impact on performance.
-   There is a maximum cap to filter size (in pixels) that depends on shadow resolution.
+   *Clip Start* will only appear for point, spot and area lights.
 
 Bias
    Bias applied to the depth test to reduce self shadowing artifacts.
-
-Exponent
-   Exponent applied to ESM to reduce light leaking.
-
-Bleed Bias
-   Bias applied to VSM to reduce light leaking.
 
 
 Contact Shadows
@@ -85,10 +73,6 @@ namely, unknown object thickness and effect disappearing at screen edges.
 
 Distance
    World space distance in which to search for screen space occluder.
-
-Softness
-   Controls how soft the contact shadows will be.
-   Contact shadow blurring does not match a light's physical size.
 
 Bias
    Bias applied to the ray tracing to reduce self-shadowing artifacts.
