@@ -21,11 +21,6 @@ Jitter Threshold
    in a random pattern in order to hide the visible pattern.
    This affects the performance if the scattering radius is large.
 
-Separate Albedo
-   Output the albedo of a BSSRDF in a separate buffer in order to not blur it.
-   The *Texture Blur* parameter requires this option to be enabled to work correctly.
-   This option increases video memory usage but does not have a big impact on performance.
-
 .. note::
 
    :ref:`Subsurface Translucency <bpy.types.Material.use_sss_translucency>`

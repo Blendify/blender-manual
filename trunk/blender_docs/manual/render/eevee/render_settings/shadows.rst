@@ -14,24 +14,6 @@ Eevee also filters the shadow maps in order to smooth out the pixelated appearan
 
    :Panel:     :menuselection:`Render --> Shadows`
 
-Method
-   Select the shadow map type. It changes how shadows are stored and filtered.
-
-   :abbr:`ESM (Exponential Shadow Mapping)`
-      They are fast to filter but light leaking may occur near an occluder.
-      This can be minimized by increasing the *Exponent* parameter.
-      Another issue is the artifacts present at depth discontinuity.
-      Unfortunately, there is no workaround for this issue and the only way
-      to minimize it is to reduce the *Soft* parameter.
-
-   :abbr:`VSM (Variance Shadow Mapping)`
-      Filters nicely and gives smooth shadow map appearance across the whole shadow range.
-      However grainy artifacts will be visible when using a low bit depth.
-      It is also prone to light leaking when two occluders overlap.
-      In this case the shadows can be overdarkened to reduce the leak,
-      by using the *Bleed Bias* parameter.
-      VSM uses twice as much memory as ESM, and is slower.
-
 Cube Size
    Size of the shadow cubemaps used to shadow Point, Area and Spot lights.
    Higher shadow map size will give higher precision and sharper shadows.
