@@ -125,7 +125,7 @@ if *Right* is selected the :kbd:`LMB` will place the 3D Cursor.
 Select All Toggles
 ------------------
 
-Causes selection to de-select all when any selection exists.
+Causes selection to deselect all when any selection exists.
 
 
 .. _keymap-blender_default-spacebar_action:

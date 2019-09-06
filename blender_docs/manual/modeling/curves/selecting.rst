@@ -108,7 +108,7 @@ It works by changing the current selection so that only every Nth
 control points will remain selected, starting from the active one.
 
 Deselected
-   The number of de-selected elements in each pattern repetition.
+   The number of deselected elements in each pattern repetition.
 Selected
    The number of selected elements in each pattern repetition.
 Offset
@@ -205,7 +205,7 @@ More
    For each selected control point, select *all* its linked points (i.e. one or two...).
 Less
    For each selected control point, if *all* points linked to this point are selected, keep this one selected.
-   Otherwise, de-select it.
+   Otherwise, deselect it.
 
 This implies two points:
 

@@ -34,18 +34,17 @@ Emulate 3 Button Mouse
 
    :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag for example.
 
-
    .. warning::
 
       This option prevents certain features from being accessed,
       since :kbd:`Alt-LMB` is used for some operations.
 
       - Modifying multiple items values at once (objects, bones... etc).
-      - De-selecting edge/face rings in edit-mode.
+      - Deselecting edge/face rings in Edit Mode.
       - Detaching node links.
       - Moving the compositor background image.
 
-      Some touch pads support 3 finger tap for middle mouse,
+      Some touchpads support three-finger tap for middle mouse,
       which may be an alternative to using this option.
 
 Continuous Grab
@@ -63,6 +62,7 @@ Continuous Grab
 
       This is detected for each action,
       so the presence of a tablet will not disable *Continuous Grab* for mouse cursor input.
+
 Release Confirms
    Dragging :kbd:`LMB` on an object will move it.
    To confirm this (and other) transform, an :kbd:`LMB` is necessary by default.

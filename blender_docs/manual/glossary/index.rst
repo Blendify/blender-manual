@@ -277,7 +277,7 @@ This page lists definitions for terms used in Blender and this manual.
       Rotation method where rotations are applied to each of the X, Y, Z axes in a specific order.
 
       Euler orders in Blender are most intuitive when read backwards: *XYZ Euler* is similar to rotating
-      around *Local Z* using the *Rotate* tool in *3D View*, followed by *Local Y* and then *Local X*.
+      around *Local Z* using the *Rotate* tool in the 3D Viewport, followed by *Local Y* and then *Local X*.
 
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.

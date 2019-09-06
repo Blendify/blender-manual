@@ -32,10 +32,11 @@ The Toolbar shows buttons for each tool.
 For tool buttons which have a small triangle in their bottom right corner, a pop-up menu will be revealed
 when you :kbd:`LMB` drag so that you can select other tools of the same group.
 
-Hovering your cursor over a tool for a short time will show its name, while hovering longer will show the full tooltip.
+Hovering your cursor over a tool for a short time will show its name,
+while hovering longer will show the full tooltip.
 
-Resizing the toolbar horizontally will display the icons with two columns. Expanding it further will
-display the icon and its text.
+Resizing the toolbar horizontally will display the icons with two columns.
+Expanding it further will display the icon and its text.
 
 
 Properties
