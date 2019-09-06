@@ -272,10 +272,10 @@ In case of islands of selected elements, this tool will affect
 only the island of the active element (if there is one), or the island of the first element
 in the order of internal storage (if there is no active element).
 
-Nth Selection
-   Skip every Nth element leaving it selected.
-Skip
-   Number of consecutive elements to skip (keep selected) at once.
+Deselected
+   The number of de-selected elements in each pattern repetition.
+Selected
+   The number of selected elements in each pattern repetition.
 Offset
    Offset from the starting point.
 
@@ -417,7 +417,7 @@ Edge Loops
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode --> Vertex or Edge select mode
+   :Mode:      Edit Mode (Vertex or Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Edge Loops`
    :Hotkey:    :kbd:`Alt-LMB`, or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
@@ -452,7 +452,7 @@ Face Loops
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode --> Face or Vertex select modes
+   :Mode:      Edit Mode (Face or Vertex select modes)
    :Hotkey:    :kbd:`Alt-LMB` or :kbd:`Shift-Alt-LMB` for modifying existing selection.
 
 In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
@@ -487,7 +487,7 @@ Edge Boundary
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode --> Vertex or Edge select modes
+   :Mode:      Edit Mode (Vertex or Edge select modes)
    :Hotkey:    :kbd:`Alt-LMB`
 
 Loop selection on edge boundaries.
@@ -580,13 +580,14 @@ Topological Distance
    not the length of the edges to calculate the distances.
 Fill Region :kbd:`Shift-Ctrl-LMB`
    Selects all elements in the shortest paths from the active selection to the clicked area.
-Checker Select Options
+Checker Deselect Options
    Allows to quickly select alternate elements in a path.
+   See also `Checker Deselect`_ tool.
 
-   Nth Selection
-      Skip every Nth element, leave unselected.
-   Skip
-      Number of consecutive elements to skip at once.
+   Deselected
+      The number of de-selected elements in the repetitive sequence.
+   Selected
+      The number of selected elements in the repetitive sequence.
    Offset
       Offset from the starting point.
 
@@ -597,7 +598,7 @@ Loop Inner-Region
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode --> Edge select mode
+   :Mode:      Edit Mode (Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Select Loop Inner-Region`
 
 *Select Loop Inner-Region* selects all faces that are inside a closed loop of edges.
@@ -624,7 +625,7 @@ Boundary Loop
 .. admonition:: Reference
    :class: refbox
 
-   :Mode:      Edit Mode --> Edge select mode
+   :Mode:      Edit Mode (Edge select mode)
    :Menu:      :menuselection:`Select --> Select Loops --> Select Boundary Loop`
 
 *Select Boundary Loop* does the opposite of *Select Loop Inner-Region*,
