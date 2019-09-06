@@ -186,7 +186,7 @@ Inverse :kbd:`Ctrl-I`
 Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 :ref:`Checker Deselect <modeling-selecting-checker_deselect>`
-   De-select alternate elements relative to the active item.
+   Deselect alternate elements relative to the active item.
 
 ------------------------
 
@@ -273,7 +273,7 @@ only the island of the active element (if there is one), or the island of the fi
 in the order of internal storage (if there is no active element).
 
 Deselected
-   The number of de-selected elements in each pattern repetition.
+   The number of deselected elements in each pattern repetition.
 Selected
    The number of selected elements in each pattern repetition.
 Offset
@@ -585,7 +585,7 @@ Checker Deselect Options
    See also `Checker Deselect`_ tool.
 
    Deselected
-      The number of de-selected elements in the repetitive sequence.
+      The number of deselected elements in the repetitive sequence.
    Selected
       The number of selected elements in the repetitive sequence.
    Offset

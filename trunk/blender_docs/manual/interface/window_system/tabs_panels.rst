@@ -56,8 +56,8 @@ Collapsing and Expanding
 ------------------------
 
 A panel can either be expanded to show its contents, or collapsed to hide its contents.
-An expanded panel is indicated by a down-arrow (▼) in the panel header, while a
-collapsed panel is shown with a right-arrow (►).
+An expanded panel is indicated by a down-arrow (▼) in the panel header,
+while a collapsed panel is shown with a right-arrow (►).
 
 - A click with the :kbd:`LMB` on the panel header expands or collapses it.
 - Pressing :kbd:`A` expands/collapses the panel under the mouse pointer.

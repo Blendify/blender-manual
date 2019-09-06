@@ -25,7 +25,7 @@ There is at most one active object at any time.
 
 Many actions in Blender use the active object as a reference (for example linking operations).
 If you already have a selection and need to make a different object the active one,
-simply re-select it with :kbd:`Shift-LMB`.
+simply reselect it with :kbd:`Shift-LMB`.
 
 All other selected objects are just selected. You can select any number of objects.
 In order to change a property or to perform an operation on all selected objects (bones, and sequencer strips)

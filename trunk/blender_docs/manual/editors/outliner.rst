@@ -134,7 +134,7 @@ Context Menu
 ============
 
 Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
-Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
+Depending on the type of the preselected data-block(s), you will have all or part of the following options:
 
 Copy/Paste
    Copy/pastes selected data-blocks.

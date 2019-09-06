@@ -65,8 +65,8 @@ Mode (Rotation)
    Allows specifying the type of rotation input to use, including different :term:`Euler` orders,
    :term:`Quaternion`, and other :ref:`Rotation Channel Modes <drivers-variables-rotation-modes>`.
 
-   In the *Quaternion* mode the channels are converted to weighted angles in the same way as the
-   swing angles of the :ref:`Swing and X/Y/Z Twist <drivers-variables-rotation-modes>` modes.
+   In the *Quaternion* mode the channels are converted to weighted angles in the same way as
+   the swing angles of the :ref:`Swing and X/Y/Z Twist <drivers-variables-rotation-modes>` modes.
 From
    Independently for each axis (X, Y, and Z) the min and max number fields control
    the lower and upper bounds of the input value range.

@@ -31,10 +31,10 @@ View Menu
 Zoom In / Zoom Out
    Increases/Decreases the font size of the console text.
 Move to Previous Word :kbd:`Ctrl-Left-Arrow`
-   Moves the cursor to the beginning of the of the previous word.
+   Moves the cursor to the beginning of the previous word.
    If the cursor is in the middle of a word, the cursor is moved to the beginning of the current word.
 Move to Next Word :kbd:`Ctrl-Right-Arrow`
-   Moves the cursor to the end of the of the next word.
+   Moves the cursor to the end of the next word.
    If the cursor is in the middle of a word, the cursor is moved to the end of the current word.
 Move to Line Begin :kbd:`Home`
    Moves the cursor to the start of the current line.
@@ -49,7 +49,7 @@ Clear All
    Refreshes the console giving the view a fresh start.
    Note that command history is not cleared.
 Clear Line :kbd:`Shift-Return`.
-   Removes everything from the promt line.
+   Removes everything from the prompt line.
 Delete Previous Word :kbd:`Ctrl-Backspace`
    Deletes everything between the cursor and the beginning of the previous word (separated by periods).
    If the cursor is in the middle of a word, deletes everything to the beginning of the current word.
@@ -66,7 +66,7 @@ Paste :kbd:`Ctrl-V`
 Indent :kbd:`Tab`
    Inserts a tab character at the cursor.
 Unindent :kbd:`Shift-Tab`
-   Un-indents the selection.
+   Unindents the selection.
 Backward in History :kbd:`Up`
    Changes the current command to previous command as they appear in the command history.
 Forward in History :kbd:`Down`

@@ -192,8 +192,8 @@ Swing and X/Y/Z Twist
    This is often necessary for driving corrective :doc:`Shape Keys </animation/shape_keys/index>`
    and bones for organic joint rotation.
 
-   This decomposition is often produced in rigs by using a helper bone with a
-   :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`
+   This decomposition is often produced in rigs by using a helper bone with
+   a :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`
    to extract the swing part, and it's child with
    :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`
    to extract the twist component.
@@ -210,16 +210,17 @@ Swing and X/Y/Z Twist
    W Rotation
       True angle of the swing rotation, independent of its direction.
    X Rotation, Z Rotation
-      Weighted angles that represent the amount of swing around the *X*/*Z* axis.
+      Weighted angles that represent the amount of swing around the X/Z axis.
 
       The magnitude of the angle equals *W Rotation* when the rotation is purely around
       that axis, and fades out to zero as the direction changes toward the other axis,
       following the falloff curves from the graph on the right.
 
-   Mathematically, the swing angles are computed from quaternion components, using
-   :math:`2 \arccos(w)` for *W* and :math:`2 \arcsin(x)` etc for the others. The
-   component of the swing rotation that corresponds to the twist axis is always 0,
+   Mathematically, the swing angles are computed from quaternion components,
+   using :math:`2 \arccos(w)` for *W* and :math:`2 \arcsin(x)` etc. for the others.
+   The component of the swing rotation that corresponds to the twist axis is always 0,
    and is replaced by the twist angle.
+
 
 Expressions
 ===========
@@ -242,6 +243,7 @@ Use Self
    will make the object tumble when moving.
 
    Note that dependencies for properties accessed via ``self`` may not be fully tracked.
+
 
 .. _drivers-simple-expressions:
 

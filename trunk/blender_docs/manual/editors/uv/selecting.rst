@@ -20,7 +20,7 @@ Box Select Pinned
 Circle Select
    See :ref:`tool-select-circle`.
 Select/Deselect All
-   Selects or de-selects all UV coordinates :kbd:`A`.
+   Selects or deselects all UV coordinates :kbd:`A`.
 Inverse
    Inverts the current selection :kbd:`Ctrl-I`.
 Select Pinned

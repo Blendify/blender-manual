@@ -49,7 +49,7 @@ Details About Selecting
 The following standard selection operations are supported:
 
 - :kbd:`RMB` -- Single faces. Use :kbd:`Shift-RMB` to select multiple.
-- :kbd:`A` -- All faces, also to de-select.
+- :kbd:`A` -- All faces, also to deselect.
 - :kbd:`B` -- Box selection.
 - :kbd:`C` -- Circle select with brush.
 - :kbd:`L` -- Pick linked (under the mouse cursor).

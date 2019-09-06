@@ -57,16 +57,16 @@ MatCaps
 This panel manages :term:`MatCap` image files
 which can used to light the view when :ref:`MatCap <render-workbench-matcap>` shading is enabled.
 
-Two kinds of images are supported for MatCaps. Regular image files and 
-multilayered OpenEXR files. When using multilayered OpenEXR files, the layer
-named "diffuse" will be used as a diffuse pass, the layer named "specular" will
-be used as a specular pass. Regular images will be handled as "diffuse" and will
-not support specular highlighting.
+Two kinds of images are supported for MatCaps. Regular image files and
+multilayered OpenEXR files. When using multilayered OpenEXR files,
+the layer named "diffuse" will be used as a diffuse pass, the layer named "specular"
+will be used as a specular pass. Regular images will be handled as "diffuse" and
+will not support specular highlighting.
 
-The diffuse pass is multiplied with the base color of the objects and the
-specular pass is added on top. Matcaps, that only have a diffuse pass tend to look
-very metallic, with a separate specular pass it is possible to simulate more varities
-of materials.
+The diffuse pass is multiplied with the base color of the objects and the specular pass is added on top.
+Matcaps, that only have a diffuse pass tend to look very metallic,
+with a separate specular pass it is possible to simulate more varities of materials.
+
 
 LookDev HDRIs
 =============

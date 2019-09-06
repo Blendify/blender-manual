@@ -116,7 +116,7 @@ More
    For each selected point, select *all* its linked points (i.e. one or two...).
 Less
    For each selected point, if *all* points linked to this point are selected, keep this one selected.
-   Otherwise, de-select it.
+   Otherwise, deselect it.
 
 .. hint::
 

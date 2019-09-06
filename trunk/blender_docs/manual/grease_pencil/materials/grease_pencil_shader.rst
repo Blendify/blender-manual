@@ -119,7 +119,7 @@ Alignment
           Mode Type: Dot, Style: Texture.
 
 Self Overlap
-   Disables stencil and overlap self intersections with alpha materials.
+   Disables stencil and overlap self-intersections with alpha materials.
 
 
 .. _bpy.types.MaterialGPencilStyle.show_fill:

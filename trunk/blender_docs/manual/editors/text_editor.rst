@@ -76,10 +76,10 @@ Navigation
    Next Line :kbd:`Down-Arrow`
       Moves the cursor to the same position in the line below the current line.
    Previous Word :kbd:`Ctrl-Left-Arrow`
-      Moves the cursor to the beginning of the of the previous word.
+      Moves the cursor to the beginning of the previous word.
       If the cursor is in the middle of a word, the cursor is moved to the beginning of the current word.
    Next Word :kbd:`Ctrl-Right-Arrow`
-      Moves the cursor to the end of the of the next word.
+      Moves the cursor to the end of the next word.
       If the cursor is in the middle of a word, the cursor is moved to the end of the current word.
 
 
@@ -173,7 +173,7 @@ Format Menu
 Indent :kbd:`Tab`
    Inserts a tab character at the cursor.
 Unindent :kbd:`Shift-Tab`.
-   Un-indents the selection.
+   Unindents the selection.
 Toggle Comments :kbd:`Ctrl-/`.
    Toggles whether the selected line(s) are a Python comment.
    If no lines are selected the current line is toggled.

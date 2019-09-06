@@ -56,7 +56,7 @@ A Meta strip can be moved and duplicated like a normal strip.
    * - .. figure:: /images/editors_nla_strips_meta1.png
           :width: 320px
 
-          Shift-select two or more strips.
+          Select two or more strips.
 
      - .. figure:: /images/editors_nla_strips_meta2.png
           :width: 320px

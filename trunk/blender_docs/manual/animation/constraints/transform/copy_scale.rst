@@ -55,6 +55,7 @@ Space
    The use of the *Additive* option is also not recommended.
 
 .. tip::
+
    To copy scale from one axis of the target to all axes of the owner,
    disable other axes, enable *Make Uniform*, and set *Power* to 3.
 

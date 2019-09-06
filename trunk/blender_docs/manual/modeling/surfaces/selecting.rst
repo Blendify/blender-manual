@@ -11,7 +11,7 @@ Surface selection in *Edit Mode* is very similar to
 :doc:`NURBS curve selection </modeling/curves/selecting>`.
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting>`,
 so you can select a simple control point with an :kbd:`LMB`\ -click,
-add to current selection with :kbd:`Shift-LMB` clicks, :kbd:`B` order-select, and so on.
+add to current selection with :kbd:`Shift-LMB` clicks, Border Select, and so on.
 
 
 Select Menu
@@ -21,8 +21,8 @@ The *Select* menu (in the 3D Viewport header) is even simpler than for curves...
 
 All these options have the same meaning and behavior as in
 :doc:`Object Mode </scene_layout/object/selecting>`
-(and the specificities of *Box Select* in *Edit Mode* have already been discussed
-:doc:`here </modeling/meshes/selecting>`).
+(and the specificities of *Box Select* in *Edit Mode* have already been discussed in
+:doc:`the mesh section </modeling/meshes/selecting>`).
 
 All :kbd:`A`
    Select all.
@@ -98,7 +98,7 @@ It works by changing the current selection so that only every Nth
 control points will remain selected, starting from the active one.
 
 Deselected
-   The number of de-selected elements in each pattern repetition.
+   The number of deselected elements in each pattern repetition.
 Selected
    The number of selected elements in each pattern repetition.
 Offset

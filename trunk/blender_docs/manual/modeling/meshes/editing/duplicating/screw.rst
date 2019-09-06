@@ -226,7 +226,7 @@ The Spring Example
    (See the Fig. :ref:`fig-mesh-screw-circle`.)
 #. You will have to scale the circle using the shortcut :kbd:`S Period 5`, then :kbd:`Return`.
 #. Now enter *Edit Mode* using shortcut :kbd:`Tab`.
-#. De-select all vertices using the shortcut :kbd:`A`.
+#. Deselect all vertices using the shortcut :kbd:`A`.
 
 The following steps explain how to create a height vector:
 
@@ -245,7 +245,7 @@ The following steps explain how to create a height vector:
 #. :kbd:`RMB` click on the other vertex,
    and again, set its XYZ coordinates to (-2, 0, 1).
    This will create a straight vertical line with 2 units of Height.
-#. De-select and select everything again with the shortcut :kbd:`A`.
+#. Deselect and select everything again with the shortcut :kbd:`A`.
    (See Fig. :ref:`fig-mesh-screw-profile`.)
 #. Again, place the cursor at the center. (Repeat step 2.)
 #. At this point, you can save this blend-file to recycle
@@ -348,7 +348,7 @@ will assembly perfectly with each other.
    All of the things will be placed exactly the way you saved before.
    Choose the last saved blend-file; in the last exercise,
    you gave it the name "screw spring example.blend".
-#. Press the shortcut :kbd:`A` to de-select all vertices.
+#. Press the shortcut :kbd:`A` to deselect all vertices.
 #. Press the shortcut :kbd:`B`, and Blender will change the cursor; you are now in box selection mode.
 #. Open a box that selects all of the circle vertices except
    the two vertices you used to create the height of the extrusions in the last example.
@@ -362,7 +362,7 @@ will assembly perfectly with each other.
    click with :kbd:`LMB` on *File* --
    it is in the header of the Info editor (at the top left side), and choose *Save as*.
    You can name it e.g. "screw hardware example.blend".
-#. Press the shortcut :kbd:`A` twice to de-select and select all vertices again.
+#. Press the shortcut :kbd:`A` twice to deselect and select all vertices again.
 #. Now press Screw.
 #. Change Steps and Turns as you like.
    Fig. :ref:`fig-mesh-screw-generated-mesh` shows you an example of the results.
@@ -429,7 +429,7 @@ To make this new example as short as possible, it will recycle the last example 
    Choose the last saved blend-file; from the last exercise, which is named "screw hardware example.blend".
 #. Move the upper vertex and move a bit to the left, but no more than you have moved the last vertex.
    (See Fig. :ref:`fig-mesh-screw-start`.)
-#. Press the shortcut :kbd:`A` twice to de-select and select all.
+#. Press the shortcut :kbd:`A` twice to deselect and select all.
 #. Press the shortcut :kbd:`Shift-S` and select *Cursor to Center*
 #. Press Screw.
 
