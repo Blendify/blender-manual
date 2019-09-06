@@ -84,7 +84,7 @@ Snap Element
    :class: refbox
 
    :Mode:      Object, Edit, and Pose Mode
-   :Header:    :menuselection:`Snap Element`
+   :Header:    :menuselection:`Snapping --> Snap to`
    :Hotkey:    :kbd:`Shift-Ctrl-Tab`
 
 .. figure:: /images/scene-layout_object_editing_transform_control_snap_element-menu.png
@@ -94,24 +94,32 @@ Snap Element
 
 Increment
    Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level.
-Vertex
-   Snap to vertices of mesh objects.
-Edge
-   Snap to edges of mesh objects.
-Face
-   Snap to the surfaces of faces in mesh objects. Useful for retopologizing.
-Volume
-   Snaps to regions within the volume of the first Object found below the mouse cursor.
-   Unlike the other options, this one controls the depth
-   (i.e. Z coordinates in current view space) of the transformed element.
-   By toggling the button that appears to the right of the snap target menu (see below),
-   target objects will be considered as a whole when determining the volume center.
 
    .. note::
 
       In this context the grid does not mean the visual grid cue displayed.
       Snapping will use the resolution of the displayed grid,
       but all transformations are relative to the initial position (before the snap operation).
+
+Vertex
+   Snap to vertices of mesh objects.
+Edge
+   Snap to edges of mesh objects.
+Face
+   Snaps to the surfaces of faces in mesh objects;
+   This is useful for retopologizing.
+Volume
+   Snaps to regions within the volume of the first Object found below the mouse cursor.
+   Unlike the other options, this one controls the depth
+   (i.e. Z coordinates in current view space) of the transformed element.
+   By toggling the button that appears to the right of the snap target menu (see below),
+   target objects will be considered as a whole when determining the volume center.
+Edge Center
+   Snaps to the middle of an edge.
+   This snap element only pertains to mesh objects.
+Edge Perpendicular
+   Snaps to the nearest vertex in an edge that makes a perpendicular angle.
+   This snap element only pertains to mesh objects.
 
 .. tip::
 
@@ -120,6 +128,13 @@ Volume
 
 Snap Target
 -----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Object, Edit, and Pose Mode
+   :Header:    :menuselection:`Snapping --> Snap with`
+   :Hotkey:    :kbd:`Shift-Ctrl-Tab`
 
 Snap target options become active when either *Vertex*, *Edge*,
 *Face*, or *Volume* is selected as the snap element.
