@@ -52,7 +52,8 @@ The *Cursor to Selected* option is also affected by the current :ref:`pivot-poin
   the center of the bounding box surrounding the objects' origins.
 - When the *Median Point* pivot point is selected,
   *Cursor to Selected* will snap the 3D cursor to
-  the `median <https://en.wikipedia.org/wiki/Median>`__ of the object origins.
+  the :doc:`median </scene_layout/object/editing/transform/control/pivot_point/median_point>` of the object
+  origins.
 
 
 .. _transform-snap:
