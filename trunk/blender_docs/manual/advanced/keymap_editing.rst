@@ -46,10 +46,10 @@ Click/Tweak
 Unlike click/drag, this only works for the mouse buttons,
 but has the advantage that tweak events can be directional.
 
-To use this, events in this key-map must use *Click* instead of *Press*,
+To use this, events in this keymap must use *Click* instead of *Press*,
 then you can bind *Tweak* actions to the mouse buttons.
 
-This is used in the default key-map in the 3D Viewport,
+This is used in the default keymap in the 3D Viewport,
 :kbd:`Alt-MMB` dragging in different directions rotates the view.
 
 

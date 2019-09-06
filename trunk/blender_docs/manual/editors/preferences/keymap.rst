@@ -4,34 +4,34 @@
 Keymap
 ******
 
-The key-map editor lets you adjust your key-map via:
+The keymap editor lets you adjust your keymap via:
 
-:Presets: Predefined key-maps which come with Blender and can be added to.
-:Preferences: Key-maps may define their own preferences to change the functionality or add additional key bindings.
-:Key Map Items: You may add/remove/edit individual key-map entries.
+:Presets: Predefined keymaps which come with Blender and can be added to.
+:Preferences: Keymaps may define their own preferences to change the functionality or add additional key bindings.
+:Key Map Items: You may add/remove/edit individual keymap entries.
 
 .. figure:: /images/editors_preferences_section_keymap.png
 
-   Blender Preferences Key-map section.
+   Blender Preferences Keymap section.
 
 
 Preset Management
 =================
 
 Keymap Presets
-   Select the key-map from a list of predefined key-maps.
+   Select the keymap from a list of predefined keymaps.
 Import
-   Importing opens a File Browser to select a ``.py`` file to add to the list of key-map presets.
+   Importing opens a File Browser to select a ``.py`` file to add to the list of keymap presets.
 Export
-   Saves the current key-map configuration as a preset others may use.
+   Saves the current keymap configuration as a preset others may use.
 
    All Keymaps
-      When disabled, only the key-maps and categories that have been modified by the user will be exported.
-      In addition, add-ons may register key-maps to their respective functions,
-      however, these key-maps are not exported unless changed by the user.
-      This exported file may be thought of as a *"key-map delta"* instead of a full key-map export.
+      When disabled, only the keymaps and categories that have been modified by the user will be exported.
+      In addition, add-ons may register keymaps to their respective functions,
+      however, these keymaps are not exported unless changed by the user.
+      This exported file may be thought of as a *"keymap delta"* instead of a full keymap export.
 
-      When enabled, the entire key-map is written.
+      When enabled, the entire keymap is written.
 
 
 Filtering
@@ -39,13 +39,13 @@ Filtering
 
 Filter Type
    Name
-      Search the key-map item by the operator name it runs.
+      Search the keymap item by the operator name it runs.
    Key Binding
-      Search the key-map item by the key used to activate it.
+      Search the keymap item by the key used to activate it.
 
       .. hint::
 
-         You could for example search with ``Ctrl Shift C`` for key-map items that use all these keys.
+         You could for example search with ``Ctrl Shift C`` for keymap items that use all these keys.
 Search
    The text to search (leave blank to disable).
 
@@ -53,31 +53,31 @@ Search
 Preferences
 ===========
 
-Key-maps may define their own preferences, these are predefined adjustments to the key-map you can make
-without having to manually adjust individual key-map items which can cause problems with newer `Blender Versions`_.
+Keymaps may define their own preferences, these are predefined adjustments to the keymap you can make
+without having to manually adjust individual keymap items which can cause problems with newer `Blender Versions`_.
 
-See the :ref:`default key-map preferences <keymap-blender_default-prefs>`
-for options available in the default key-map.
+See the :ref:`default keymap preferences <keymap-blender_default-prefs>`
+for options available in the default keymap.
 
 
 Editor
 ======
 
-The Key-map editor lets you change the default Hotkeys. You can change key-maps for each of Blender's editors.
+The Keymap editor lets you change the default hotkeys. You can change keymaps for each of Blender's editors.
 
 .. figure:: /images/editors_preferences_keymap_keymap-editor.png
 
-   Key-map editor.
+   Keymap editor.
 
 
 .. rubric:: Usage
 
-#. Select the key-map you want to change and click on the white arrows to open up the key-map tree.
+#. Select the keymap you want to change and click on the white arrows to open up the keymap tree.
 #. Select which Input will control the function.
 #. Change hotkeys as you want. Just click on the shortcut input and enter the new shortcut.
 
 Active
-   Un-check to disable this key-map item.
+   Un-check to disable this keymap item.
 Map Type
    Keyboard
       Single hotkey or key-combination.
@@ -100,9 +100,9 @@ Operator ID Name
       See :mod:`blender_api:bpy.ops` for a list of operators (remove the ``bpy.`` prefix for the identifier).
 Event
    Type
-      The key or button that activates this key-map item (depending on the map-type).
+      The key or button that activates this keymap item (depending on the map type).
    Value
-      The action (such as press, release, click, drag, etc.), (depending on the map-type).
+      The action (such as press, release, click, drag, etc.), (depending on the map type).
    Modifier
       Additional keys to hold (such as :kbd:`Ctrl`, :kbd:`Shift`, :kbd:`Alt`).
 Operator Properties
@@ -110,18 +110,18 @@ Operator Properties
 
 .. seealso::
 
-   :ref:`keymap-customize` for more information on key-map editing.
+   :ref:`keymap-customize` for more information on keymap editing.
 
 
 Restoring
 ---------
 
-If you want to restore the default settings for a key-map,
-just click on the *Restore* button at the top right of this key-map.
+If you want to restore the default settings for a keymap,
+just click on the *Restore* button at the top right of this keymap.
 
 .. tip::
 
-   Instead of deleting the default key-map to create your custom one,
+   Instead of deleting the default keymap to create your custom one,
    you can just add a new *Preset* for both the mouse and keyboard.
 
 
@@ -131,8 +131,8 @@ Known Limitations
 Blender Versions
 ----------------
 
-A problem with modifying your own key-map is newer Blender versions key change the way tools are accessed,
-breaking your customized key-map.
+A problem with modifying your own keymap is newer Blender versions key change the way tools are accessed,
+breaking your customized keymap.
 
-While the key-map can be manually updated, the more customizations you make, the higher the chance of conflicts
+While the keymap can be manually updated, the more customizations you make, the higher the chance of conflicts
 in newer Blender versions is.

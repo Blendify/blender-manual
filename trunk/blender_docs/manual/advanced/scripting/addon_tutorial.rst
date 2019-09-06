@@ -370,7 +370,7 @@ int, float, vector, color, boolean and string.
 
 These properties are handled differently to typical Python class attributes
 because Blender needs to display them in the interface,
-store their settings in key-maps and keep settings for reuse.
+store their settings in keymaps and keep settings for reuse.
 
 While this is handled in a fairly Pythonic way, be mindful that you are in fact defining tool settings that
 are loaded into Blender and accessed by other parts of Blender, outside of Python.
@@ -425,10 +425,10 @@ For docs on extending menus, see: :class:`blender_api:bpy.types.Menu`.
 Keymap
 ^^^^^^
 
-In Blender, add-ons have their own keymaps so as not to interfere with Blender's built-in key-maps.
+In Blender, add-ons have their own keymaps so as not to interfere with Blender's built-in keymaps.
 
 In the example below, a new object mode :class:`blender_api:bpy.types.KeyMap` is added,
-then a :class:`blender_api:bpy.types.KeyMapItem` is added to the key-map which references
+then a :class:`blender_api:bpy.types.KeyMapItem` is added to the keymap which references
 our newly added operator, using :kbd:`Shift-Ctrl-T` as the key shortcut to activate it. ::
 
    # store keymaps here to access after registration
