@@ -107,10 +107,10 @@ This only works if you already have more than one control point selected.
 It works by changing the current selection so that only every Nth
 control points will remain selected, starting from the active one.
 
-Nth Selection
-   Skip every Nth element leaving it selected.
-Skip
-   Number of consecutive elements to skip (keep selected) at once.
+Deselected
+   The number of de-selected elements in each pattern repetition.
+Selected
+   The number of selected elements in each pattern repetition.
 Offset
    Offset from the starting point.
 
