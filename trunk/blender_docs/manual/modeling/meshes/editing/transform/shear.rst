@@ -30,10 +30,6 @@ Tool Settings
 
 Offset
    How far items are shifted from their original location.
-Shear Axis
-   The shear tool shears items along a 2D plane.
-   The *Shear Axis* controls whether the items are sheared along the X or Y axes of this imaginary plane.
-   The orientation of this plane is controlled by the following two axis controls.
 Axis
    Defines one axis of the imaginary shearing plane.
 Axis Ortho
