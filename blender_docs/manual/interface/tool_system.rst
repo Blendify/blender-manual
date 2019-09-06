@@ -13,7 +13,7 @@ There can only be one active tool which is stored for each space & mode.
 
 Tools may set their own keys which override other keys
 although typically they use the :kbd:`LMB`, sometimes with modifier keys.
-*Key-maps can be edited from the preferences.*
+*Keymaps can be edited from the preferences.*
 
 Some tools define gizmos (*Shear* and *Spin* for example) to help control the tool.
 

@@ -330,7 +330,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - |none|
      - | The overarching manager for all of Blender's UI.
-       | Includes Workspaces, notification system, operators, and key-maps.
+       | Includes Workspaces, notification system, operators, and keymaps.
    * - :doc:`World </render/lights/world>`
      - |tick|
      - |none|

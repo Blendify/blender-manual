@@ -25,7 +25,7 @@ Motivation
 ----------
 
 In some cases it's not enough to write a single script or add-on,
-and expect someone to replace their preferences and startup file, install scripts and change their key-map.
+and expect someone to replace their preferences and startup file, install scripts and change their keymap.
 
 The goal of application templates is to support switching to a customized configuration
 without disrupting your existing settings and installation.
@@ -54,7 +54,7 @@ Python Scripts
    typical operations include:
 
    - Modifying and replacing parts of the user interface.
-   - Defining new menus, key-maps & tools.
+   - Defining new menus, keymaps & tools.
    - Defining a custom add-on path for template specific add-ons.
 
 Templates also have their own user configuration, so saving a startup file while using a template
