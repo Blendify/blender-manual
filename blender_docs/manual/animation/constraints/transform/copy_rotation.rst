@@ -28,9 +28,23 @@ X, Y, Z
    Invert
       The *Invert* buttons invert their respective rotation values.
 
-Offset
-   When enabled, this control allows the owner to be rotated (using its current transform properties),
-   relative to its target's orientation.
+Mix
+   Specifies how the new rotation is combined with existing rotation.
+
+   Replace
+      The new axis values replace existing values.
+   Add
+      The new axis values are added to the existing values.
+   Before Original
+      The new rotation is added before the existing rotation, as if it was applied to
+      a parent of the constraint owner.
+   After Original
+      The new rotation is added after the existing rotation, as if it was applied to
+      a child of the constraint owner.
+   Offset (Legacy)
+      This replicates the behavior of the original Offset checkbox. It was intended
+      to be similar to the *Before Original* behavior, but does not work correctly
+      with multiple axis rotations, and is thus deprecated.
 
 Space
    Standard conversion between spaces.

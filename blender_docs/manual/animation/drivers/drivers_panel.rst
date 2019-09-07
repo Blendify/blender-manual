@@ -194,7 +194,7 @@ Swing and X/Y/Z Twist
 
    This decomposition is often produced in rigs by using a helper bone with
    a :doc:`Damped Track Constraint </animation/constraints/tracking/damped_track>`
-   to extract the swing part, and it's child with
+   to extract the swing part, and its child with
    :doc:`Copy Transforms </animation/constraints/transform/copy_transforms>`
    to extract the twist component.
 
