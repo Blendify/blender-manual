@@ -64,6 +64,7 @@ Map From
 Mode (Rotation)
    Allows specifying the type of rotation input to use, including different :term:`Euler` orders,
    :term:`Quaternion`, and other :ref:`Rotation Channel Modes <drivers-variables-rotation-modes>`.
+   Defaults to using the :term:`Euler` order of the constraint owner.
 
    In the *Quaternion* mode the channels are converted to weighted angles in the same way as
    the swing angles of the :ref:`Swing and X/Y/Z Twist <drivers-variables-rotation-modes>` modes.
@@ -89,24 +90,35 @@ Map To
    Location, Rotation, and Scale
 Order (Rotation)
    For rotation, allows specifying which :term:`Euler` order to use during evaluation
-   of the constraint. Defaults to the order of the owner.
+   of the constraint. Defaults to using the order of the constraint owner.
 To
    The *min* and *max* number fields control the lower and upper bounds of the output value range,
    independently for each mapped axis.
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.
+Mix
+   Specifies how the result of the constraint is combined with existing transformation.
+   The set of available choices varies based on the type of transformation.
 
+   Replace
+      The result of the constraint replaces existing transformation.
+   Multiply (Scale)
+      The new values are multiplied with the existing axis values.
+   Add (Location, Rotation)
+      The new values are added to the existing axis values.
+   Before Original (Rotation)
+      The new rotation is added before the existing rotation, as if it was applied to
+      a parent of the constraint owner.
+   After Original (Rotation)
+      The new rotation is added after the existing rotation, as if it was applied to
+      a child of the constraint owner.
 Space
    Standard conversion between spaces.
 
 .. note::
 
-   - When mapping transform properties to location (i.e. *Location*, *Destination* button is enabled),
-     the owner's existing location is added to the result of evaluating this constraint
-     (exactly like when the *Offset* button of
-     the :doc:`Copy Location constraint </animation/constraints/transform/copy_location>` is enabled...).
-   - Conversely, when mapping transform properties to rotation or scale,
-     the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
+   - For historical reasons, the *Mix* mode defaults to *Add* for location and rotation,
+     and *Replace* for scale.
    - When using the rotation transform properties of the target as input,
      whatever the real values are, the constraint will always "take them back" into the (-180 to 180) range.
      E.g. if the target has a rotation of 420 degrees around its X axis,
