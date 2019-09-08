@@ -12,16 +12,16 @@ See :doc:`Pivot Points </scene_layout/object/editing/transform/control/pivot_poi
 The color of the origin changes based on the :doc:`selection </scene_layout/object/selecting>`
 state of the object.
 
-.. note::
-
-   Colors are themeable and might appear different. The colors described here
-   are from the default Dark Theme.
-
 :Yellow: Object is active.
 :Orange: Object is selected, but not active.
 :White: Object is not linked and not selected.
 :Turquoise: Object is linked.
 :Light Turquoise: Object is selected, linked, but not active.
+
+.. note::
+
+   Colors are themeable and might appear different.
+   The colors described here are from the default Dark Theme.
 
 
 .. _bpy.ops.object.origin_set:
@@ -51,3 +51,9 @@ Type
       (assuming the mesh has a uniform density).
 Center
    Median Point Center, Bounding Box Center
+
+.. tip::
+
+   To transform an object's origin directly, enable
+   :ref:`Origins <bpy.types.ToolSettings.use_transform_data_origin>`
+   in the Pivot Point Popover.
