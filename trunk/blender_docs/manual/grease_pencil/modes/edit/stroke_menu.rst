@@ -167,6 +167,18 @@ Changes the material linked to the selected stroke.
 You can choose the name of the material to be used by the selected stroke
 from a list of materials of the current *Grease Pencil* object.
 
+.. _bpy.ops.gpencil.set_active_material:
+
+Set as Active Material
+=======================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Mode:      Edit Mode
+   :Menu:      :menuselection:`Stroke --> Set as Active Material`
+
+Sets the active object material based on the selected stroke material.
 
 .. _bpy.ops.gpencil.stroke_arrange:
 
@@ -181,14 +193,14 @@ Arrange Strokes
 
 Change the drawing order of the strokes in the 2D layer.
 
+Bring to Front
+   Moves to the top the selected points/strokes.
+
 Bring Forward
    Moves the selected points/strokes upper the next one in the drawing order.
 
 Send Backward
    Moves the selected points/strokes below the previous one in the drawing order.
-
-Bring to Front
-   Moves to the top the selected points/strokes.
 
 Send to Back
    Moves to the bottom the selected points/strokes.

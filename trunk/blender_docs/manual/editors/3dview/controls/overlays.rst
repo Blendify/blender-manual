@@ -284,10 +284,11 @@ Onion Skin
 Canvas
    Display a grid over Grease Pencil drawing plane. The opacity of the grid can be controlled with a slider.
 Fade 3D Objects
-   Cover all viewport with a full color layer to improve visibility while drawing over complex scenes.
-   The opacity of the color layer can be adjusted.
+   Cover all viewport except the active Grease Pencil object with a full color layer to improve visibility while drawing over complex scenes.
+   Include or not other Grease Pencil objects can be toggle and the opacity factor can be controlled with the slider.
 Fade Layers
-   Decreases the opacity of all the layers in the object other than the active one.
+   Decreases the opacity of all the layers in the object other than the active one.   
+   The opacity factor can be controlled with the slider.
 Edit Lines
    Show edit lines when editing strokes.
 Show Edit Lines only in multiframe

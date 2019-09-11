@@ -103,6 +103,9 @@ Subdivision Steps
    Randomness
       Amount of randomness to apply on the points location after subdivision.
 
+Simplify
+   Reduces final points numbers in the stroke with an adaptive algorithm.
+
 Trim Strokes End
    Automatically trim intersection strokes ends.
 
