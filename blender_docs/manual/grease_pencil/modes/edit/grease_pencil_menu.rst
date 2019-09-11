@@ -153,8 +153,8 @@ Copy the selected points/strokes to the clipboard.
 
 .. _bpy.ops.gpencil.paste:
 
-Paste / Paste & Merge
-=====================
+Paste / Paste by Layer
+=======================
 
 .. admonition:: Reference
    :class: refbox

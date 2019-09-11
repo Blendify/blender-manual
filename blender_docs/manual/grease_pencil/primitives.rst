@@ -38,5 +38,5 @@ It creates a 2D monkey head. The Monkey's name is "Suzanne" and is Blender's mas
 
 .. note:: Materials and 2D Layers
 
-   Adding primitives also adds a set of preset materials and 2D layers
+   Adding Stroke or Monkey primitives also adds a set of preset materials and 2D layers
    to help start drawing with the new object.

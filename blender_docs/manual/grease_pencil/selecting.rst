@@ -24,7 +24,7 @@ Points
    To select individual points.
 
 Strokes
-   To select all the points in the selected stroke.
+   To select an entire stroke.
 
 Points in Between
    To select all points that are between other strokes.

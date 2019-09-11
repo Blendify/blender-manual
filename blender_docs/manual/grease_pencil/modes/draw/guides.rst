@@ -39,6 +39,12 @@ Parallel
 Grid
    Constrains the drawing of new strokes to form parallel horizontal or vertical lines.
 
+Isometric
+   Constrains the drawing of new strokes to vertical or isometric lines.
+
+   Angle
+      Angle direction of the isometric lines.
+
 
 .. _bpy.types.GPencilSculptGuide.use_snapping:
 .. _bpy.types.GPencilSculptGuide.reference_point:
