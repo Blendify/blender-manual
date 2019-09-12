@@ -18,14 +18,14 @@ View Global/Local
 
    :Mode:      All modes
    :Menu:      :menuselection:`View --> Local View --> Toggle Local View`
-   :Hotkey:    :kbd:`Slash`
+   :Hotkey:    :kbd:`NumpadSlash`, :kbd:`Slash`
 
 Global view shows all of the 3D objects in the scene. Local view isolates the selected object or
 objects, so that they are the only ones visible in the viewport. This is useful for working on
 objects that are obscured by other ones, or to speed up the viewport performance in heavy scenes.
 
 You can toggle between *Global* and *Local View* by selecting the option
-from the *View Menu* or using the shortcut :kbd:`Slash`.
+from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 
 .. list-table::
 
@@ -56,7 +56,7 @@ from the *View Menu* or using the shortcut :kbd:`Slash`.
 
 .. tip::
 
-   Accidentally pressing :kbd:`Slash` can happen rather often if you are new to Blender,
+   Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you are new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 
 
