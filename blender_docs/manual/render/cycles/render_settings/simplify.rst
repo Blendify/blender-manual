@@ -58,3 +58,30 @@ Use Camera Cull
 Use Distance Cull
    Automatically culls objects based on their distance from the active camera.
    This is set via the *Distance* property.
+
+.. _bpy.types.RenderSettings_simplify_gpencil:
+.. _bpy.types.RenderSettings_simplify_gpencil_onplay:
+.. _bpy.types.RenderSettings_simplify_gpencil_view_modifier:
+.. _bpy.types.RenderSettings_simplify_gpencil_shader_fx:
+.. _bpy.types.RenderSettings_simplify_gpencil_blend:
+.. _bpy.types.RenderSettings_simplify_gpencil_tint:
+.. _bpy.types.RenderSettings_simplify_gpencil_view_fill:
+.. _bpy.types.RenderSettings_simplify_gpencil_remove_lines:
+
+Grease Pencil
+==============
+
+Playback Only
+   Activates the simplification proccess only during animation playback.
+Modifiers
+   Disable Grease pencil modifiers.
+ShaderFX   
+   Disable Grease Pencil Visual Effects.
+Layer Blending
+   Disable the blending modes used in layers.
+Layer Tinting
+   Disable Layers tint overrides, only base material colors are displayed.
+Disable Fill
+   Disable the fill component in Grease Pencil materials.
+Lines
+   The strokes of materials that use a fill component are not displayed.
