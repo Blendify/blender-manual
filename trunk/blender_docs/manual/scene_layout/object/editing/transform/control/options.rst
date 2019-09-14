@@ -34,3 +34,6 @@ Locations
    .. figure:: /images/scene-layout_object_editing_transform_control_pivot-point_index_scale.png
 
       Scaling example.
+
+Parents
+   Transforms only objects that are :doc:`Parents </scene_layout/object/properties/relations/parents>`
