@@ -5,18 +5,21 @@ Animation Tools
 
 .. _bpy.ops.gpencil.blank_frame_add:
 
-Insert Blank Frame
-==================
+Insert Blank Keyframe
+=====================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Frame`
+   :Menu:      :menuselection:`Stroke --> Animation --> Insert Blank Frame (Active Layer)`
+               :menuselection:`Stroke --> Animation --> Insert Blank Frame (All Layers)`
+   :Hotkey:    :kbd:`Shift-I`
 
-Add a new blank keyframe to the active layer at the current frame.
-If there is already a keyframe at the current frame,
-a new blank keyframe will be added on the next frame.
+Active Layer
+   Add a new blank keyframe to the active layer at the current frame.
+   If there is already a keyframe at the current frame,
+   a new blank keyframe will be added on the next frame.
 
 All Layers
    When enabled, Blank keyframe will be created on all layers, not only the active one.
@@ -24,14 +27,15 @@ All Layers
 
 .. _bpy.ops.gpencil.frame_duplicate:
 
-Duplicate
-=========
+Duplicate Active Keyframe
+=========================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Duplicate Active Frame, Duplicate All Layers`
+   :Menu:      :menuselection:`Stroke --> Animation --> Duplicate Active Keyframe (Active Layer)`
+               :menuselection:`Stroke --> Animation --> Duplicate Active Keyframe (All Layers)`
 
 Duplicates the strokes on the last keyframe by copying them to the current frame.
 
@@ -45,14 +49,16 @@ Mode
 
 .. _bpy.ops.gpencil.active_frames_delete_all:
 
-Delete Frame(s)
-===============
+Delete Active Keyframe
+======================
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Draw Mode, Edit Mode, Sculpt Mode
-   :Menu:      :menuselection:`Stroke --> Animation --> Delete Frame(s)`
+   :Menu:      :menuselection:`Stroke --> Animation --> Delete Active Keyframe (Active Layer)`
+               :menuselection:`Stroke --> Animation --> Delete Active Keyframes (All Layers)`
+   :Hotkey:    :kbd:`Shift-X`
 
 Deletes the last keyframe in the Dope Sheet or the current keyframe if you are on one.
 
