@@ -9,3 +9,4 @@
    save_load.rst
    packed_data.rst
    previews.rst
+   rename.rst
