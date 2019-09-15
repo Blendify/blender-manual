@@ -8,7 +8,7 @@ Dope Sheet View
    Dope Sheet View.
 
 The Dope Sheet View is used to visualize motion tracking data,
-it implemented as separate view of the Movie Clip editor just like the Graph View.
+it is implemented as separate view of the Movie Clip editor just like the Graph View.
 
 It displays channels for selected tracks and each channel visualizes tracked
 segments of tracks as dark bars and keyframed positions of tracks as small diamonds.
