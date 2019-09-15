@@ -17,7 +17,7 @@ include:
 - Rotating
 - Scaling
 
-These three transforms are the three big ones however, more advanced transformations can be found
+These three transforms are the three big ones. However, more advanced transformations can be found
 in the :doc:`Advanced Transformations </scene_layout/object/editing/transform/index>` section.
 
 For making other changes to the geometry of editable objects, you should use *Edit Mode*.
