@@ -7,6 +7,7 @@
    :maxdepth: 1
 
    blackbody.rst
+   clamp.rst
    color_ramp.rst
    combine_separate.rst
    map_range.rst
