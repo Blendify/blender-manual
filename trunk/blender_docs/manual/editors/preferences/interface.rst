@@ -119,7 +119,7 @@ Interface Font
    Replacement for the default user interface font.
 Mono-space Font
    Replacement for the default mono-space interface font
-   *(use in the Text editor and Python Console)*.
+   *(used in the Text editor and Python Console)*.
 
 
 Menus

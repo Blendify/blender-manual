@@ -78,7 +78,7 @@ Drag Threshold
    This affects :ref:`Pie Menu on Drag <keymap-pref-py_menu_on_drag>` keymap preference.
 Motion Threshold
    The number of pixels the cursor must be moved before the movement is registered.
-   This is helpful for tablet pens that are a lot more difficult to keep still
+   This is helpful for tablet pens that are a lot more difficult to keep still,
    then this could help to reduce stuttering of the cursor position.
 
    .. note::

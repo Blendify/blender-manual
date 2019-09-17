@@ -21,11 +21,11 @@ Blend Mode
 ==========
 
 After calculating the color of a surface, the blend mode defines how it is added to the color buffer.
-Depending on this the final color will be different.
+Depending on this, the final color will be different.
 
 .. note::
 
-   Alpha Blending is considered a "Transparent" blend modes
+   Alpha Blending is considered a "Transparent" blend mode
    and has implications regarding screen space effects.
 
 Opaque
@@ -60,11 +60,11 @@ Only per-object sorting is available and is automatically done on all transparen
    these objects in a scene will greatly degrade performance.
 
 Show Backside
-   If enabled all transparent fragments will be rendered.
+   If enabled, all transparent fragments will be rendered.
    If disabled, only the front-most surface fragments will be rendered.
    Disable this option to ensure correct appearance of transparency from any point of view.
    Then using *Alpha Blending* this option should be disabled because with *Alpha Blending*,
-   the order in which triangle are sorted is important.
+   the order in which triangles are sorted is important.
 
 
 Transparent Shadow
