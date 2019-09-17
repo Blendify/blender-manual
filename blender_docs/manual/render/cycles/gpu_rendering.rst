@@ -38,7 +38,7 @@ AMD OpenCL
 
 :abbr:`OpenCL (Open Computing Language)`
 is supported for GPU rendering with *AMD* graphics cards.
-Blender Supports graphics cards with :abbr:`GCN (Graphics Core Next)` generation 2 and above.
+Blender supports graphics cards with :abbr:`GCN (Graphics Core Next)` generation 2 and above.
 To make sure your GPU is supported,
 see the `list of GCN generations <https://en.wikipedia.org/wiki/Graphics_Core_Next#Iterations>`__
 with the GCN generation and supported graphics cards.

@@ -17,7 +17,7 @@ View Menu
 ---------
 
 Realtime Updates
-   When transforming NLA-strips the changes to the animation is propagated to other views.
+   When transforming NLA-strips, the changes to the animation are propagated to other views.
 Show Control F-Curves
    Overlays a graph of the NLA-strip's influence on top of the strip.
 Show Local Markers
@@ -102,7 +102,7 @@ Apply Scale
    Apply the scale of the selected NLA-strips to their referenced Actions.
 
 Clear Scale
-   Reset the scaling of the selected NLA-strips
+   Reset the scaling of the selected NLA-strips.
 Sync Action Length
    Synchronize the length of the action to the length used in the NLA-strip.
 Make Single User
