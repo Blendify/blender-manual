@@ -22,11 +22,13 @@ Min
 Max
    The maximum value.
 
+
 Outputs
 =======
 
 Result
    The input value after clamping.
+
 
 Examples
 ========

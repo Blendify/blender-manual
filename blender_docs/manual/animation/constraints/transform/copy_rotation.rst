@@ -29,7 +29,7 @@ X, Y, Z
       The *Invert* buttons invert their respective rotation values.
 
 Mix
-   Specifies how the new rotation is combined with existing rotation.
+   Specifies how the new rotation is combined with the existing rotation.
 
    Replace
       The new axis values replace existing values.

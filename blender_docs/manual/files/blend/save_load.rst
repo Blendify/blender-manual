@@ -183,7 +183,7 @@ This choice helps when you need to reorganize folders or move your files.
 With a relative path, you can move the blend-file to a new location provided
 the externally linked files are moved along with it.
 For example, you could send someone a folder that contains a blend-file
-and a sub-folder of external images that it references.
+and a subfolder of external images that it references.
 
 When relative paths are supported, the File Browser provides a *Relative Path* checkbox,
 when entering the path into a text field, use a double slash prefix (``//``) to make it so.

@@ -9,6 +9,7 @@ Transform Options
    :Mode:      Object Mode and Pose Mode
    :Header:    :menuselection:`Sidebar --> Tool --> --> Options --> Transform`
 
+
 .. _bpy.types.ToolSettings.use_transform_data_origin:
 .. _bpy.types.ToolSettings.use_transform_pivot_point_align:
 
@@ -18,7 +19,7 @@ Affect Only
 Origins
    Directly transforms the object's :doc:`origin </scene_layout/object/origin>`.
    This only works for objects with data which can be transformed;
-   i.e. it will not work on Text objects.
+   i.e. it will not work on text objects.
 Locations
    Changes the position of the object's origin relative to another point during transformation.
    In other words, the pivot point and the origin cannot share the same location.

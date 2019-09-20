@@ -97,11 +97,11 @@ To
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.
 Mix
-   Specifies how the result of the constraint is combined with existing transformation.
+   Specifies how the result of the constraint is combined with the existing transformation.
    The set of available choices varies based on the type of transformation.
 
    Replace
-      The result of the constraint replaces existing transformation.
+      The result of the constraint replaces the existing transformation.
    Multiply (Scale)
       The new values are multiplied with the existing axis values.
    Add (Location, Rotation)

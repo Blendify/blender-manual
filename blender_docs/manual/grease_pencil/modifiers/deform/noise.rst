@@ -29,7 +29,7 @@ Factor
       Number of frames before using a new random value.
 
    Seed
-      Seed used by the pseudo-random number generator.
+      :term:`Seed` used by the pseudo-random number generator.
 
 Full Stroke
    When enabled, the effect is applied to the stroke as a whole instead of points individually.

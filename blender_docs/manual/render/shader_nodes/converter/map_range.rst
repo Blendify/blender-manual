@@ -26,17 +26,20 @@ To Min
 To Max
    The higher bound of the target range.
 
+
 Properties
 ==========
 
 Clamp
    If enabled, the output is clamped to the target range.
 
+
 Outputs
 =======
 
 Result
    The input value after remapping.
+
 
 Examples
 ========

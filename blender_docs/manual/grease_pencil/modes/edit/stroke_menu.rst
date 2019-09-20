@@ -167,10 +167,11 @@ Changes the material linked to the selected stroke.
 You can choose the name of the material to be used by the selected stroke
 from a list of materials of the current *Grease Pencil* object.
 
+
 .. _bpy.ops.gpencil.set_active_material:
 
 Set as Active Material
-=======================
+======================
 
 .. admonition:: Reference
    :class: refbox
@@ -179,6 +180,7 @@ Set as Active Material
    :Menu:      :menuselection:`Stroke --> Set as Active Material`
 
 Sets the active object material based on the selected stroke material.
+
 
 .. _bpy.ops.gpencil.stroke_arrange:
 
