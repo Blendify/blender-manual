@@ -137,10 +137,10 @@ Operator Search
    Execute an operator based on its name.
 Rename Active Item
    Rename the active object or node;
-   see :ref:`here <tools_rename-active>` for more information.
+   see :ref:`Rename tool <tools_rename-active>` for more information.
 Batch Rename
    Renames multiple data types at once;
-   see :ref:`here <bpy.ops.wm.batch_rename>` for more information.
+   see :ref:`Batch Rename tool <bpy.ops.wm.batch_rename>` for more information.
 Lock Object Modes
    Restrict select to the current mode.
 Preferences

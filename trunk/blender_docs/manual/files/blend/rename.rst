@@ -16,7 +16,7 @@ Rename Active Item
 
 The *Rename Active Item* operator renames the active :doc:`Object </scene_layout/object/index>`
 or :doc:`Node </interface/controls/nodes/index>`.
-When the operator is executed, a popup menu appears.
+When the operator is executed, a pop-up menu appears.
 The text field shows the name of the current item and can be overwritten to rename the item.
 :kbd:`Return` confirms the name while :kbd:`Esc` cancels the operator.
 
@@ -32,7 +32,7 @@ Batch Rename
    :Menu:      :menuselection:`Edit --> Batch Rename`
    :Hotkey:    :kbd:`Alt-F2`
 
-The *Batch Rename* operator can rename many datablock names at once.
+The *Batch Rename* operator can rename many data-block names at once.
 When the operator is executed, a popup menu appears with some options and operations to modify the name.
 
 Data Type
@@ -96,9 +96,9 @@ character types from either the beginning or the end of the name.
 Spaces
    Strips any space characters from the name, e.g. ``Living Room   `` becomes ``Living Room``.
 Digits
-   Strips any numerical characters from the name, e.g. ``cube.001` becomes ``cube.``.
+   Strips any numerical characters from the name, e.g. ``cube.001`` becomes ``cube.``.
 Punctuation
-   Strips any punctuation characters (``,.?!:; ect...``) from the name, e.g. ``cube.` becomes ``cube``.
+   Strips any punctuation characters (``,.?!:; etc...``) from the name, e.g. ``cube.`` becomes ``cube``.
 
 .. tip::
 
@@ -113,11 +113,11 @@ End
 Change Case
 ^^^^^^^^^^^
 
-*Change Case* modifies the casing of names to be on of the following:
+*Change Case* modifies the case of names to be on of the following:
 
 Upper Case
-   Changes all text to be in upper case, e.g. ``cube.001` becomes ``CUBE.001``.
+   Changes all text to be in upper case, e.g. ``cube.001`` becomes ``CUBE.001``.
 Lower Case
-   Changes all text to be in lower case, e.g. ``CUBE.001` becomes ``cube.001``.
+   Changes all text to be in lower case, e.g. ``CUBE.001`` becomes ``cube.001``.
 Title Caps
-   Changes all text to be in title case, e.g. ``living room` becomes ``Living Room``.
+   Changes all text to be in title case, e.g. ``living room`` becomes ``Living Room``.

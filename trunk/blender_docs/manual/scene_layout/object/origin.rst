@@ -35,7 +35,7 @@ Set Origin
    :Mode:      Object and Edit Modes
    :Menu:      :menuselection:`Object --> Set Origin`
 
-The Object Origin and Geometry can be moved relative to each other and to the 3D Cursor.
+The object origin and geometry can be moved relative to each other and to the 3D cursor.
 
 Type
    Geometry to Origin
@@ -56,4 +56,4 @@ Center
 
    To transform an object's origin directly, enable
    :ref:`Origins <bpy.types.ToolSettings.use_transform_data_origin>`
-   in the Pivot Point Popover.
+   in the *Pivot Point* popover.

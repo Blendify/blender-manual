@@ -154,7 +154,7 @@ Copy the selected points/strokes to the clipboard.
 .. _bpy.ops.gpencil.paste:
 
 Paste / Paste by Layer
-=======================
+======================
 
 .. admonition:: Reference
    :class: refbox
@@ -315,7 +315,6 @@ Cursor
 
 .. _bpy.ops.gpencil.delete:
 .. _bpy.ops.gpencil.dissolve:
-.. _bpy.ops.gpencil.active_frames_delete_all:
 
 Delete
 ======

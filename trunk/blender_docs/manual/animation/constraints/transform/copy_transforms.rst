@@ -18,7 +18,7 @@ Options
 Target
    :ref:`ui-data-id` used to select the constraints target, and is not functional (red state) when it has none.
 Mix
-   Specifies how the copied transformation is combined with existing transformation.
+   Specifies how the copied transformation is combined with the existing transformation.
 
    Replace
       The new transformation replaces the existing transformation.
