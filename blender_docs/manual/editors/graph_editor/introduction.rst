@@ -88,7 +88,7 @@ For *Actions* the X axis represents time,
 the Y axis represents the value to set the property.
 
 Depending on the selected curves, the values have different meaning:
-For example rotation properties are shown in degrees.
+for example rotation properties are shown in degrees.
 
 
 Header
@@ -206,7 +206,7 @@ F-curve Controls
 
 .. figure:: /images/editors_graph-editor_introduction_header-edit.png
 
-   Curve controls.
+   F-curve controls.
 
 Proportional Editing :kbd:`O`
    See :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
