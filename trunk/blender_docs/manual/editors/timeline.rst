@@ -36,7 +36,7 @@ The main *Timeline* region displays the animation frames over time.
 
 .. figure:: /images/editors_timeline_main.png
 
-Here you can see the *Keyframes* (diamond shapes), *Playhead* (blue handle), *Scrollbar* (along the bottom),
+Here you can see the *Keyframes* (diamond shapes), *Playhead* (blue handle), *Scrollbar* (along the bottom).
 
 
 Adjusting the View

@@ -3,7 +3,7 @@
 Grease Pencil
 *************
 
-This Mode allows you adjust the timing of the :doc:`Grease Pencil objects's </grease_pencil/index>`
+This Mode allows you adjust the timing of the :doc:`Grease Pencil object's </grease_pencil/index>`
 animation frames. It is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 

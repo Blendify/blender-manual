@@ -101,10 +101,10 @@ Selecting Keyframes
 Selection tools are available in the Select menu in the header, and the main shortcuts are listed below:
 
 Selecting
-   Click on a key to select it. Hold :kbd:`Shift` to extend the current selection
+   Click on a key to select it. Hold :kbd:`Shift` to extend the current selection.
 Box Selecting
    Click and drag to box select multiple keyframes at once.
-   You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection
+   You can hold :kbd:`Shift` to extend or :kbd:`Ctrl` to subtract from the current selection.
 
 Select/Deselect All
    - To select all keys, press :kbd:`A`.
@@ -123,13 +123,13 @@ Manipulating Keyframes
 Keyframe tools are available in the Key menu in the header, and the main shortcuts listed below:
 
 Moving Keyframes
-   To move a single keyframe, click and drag on a key
-   To move multiple keyframes, make sure several keys are selected and press :kbd:`G`
+   To move a single keyframe, click and drag on a key.
+   To move multiple keyframes, make sure several keys are selected and press :kbd:`G`.
 Scaling Keyframes
-   To scale (stretch) selected keys, press :kbd:`S`
+   To scale (stretch) selected keys, press :kbd:`S`.
 Extending Keyframes
    To extend the time between two keys, select all with :kbd:`A`,
-   place the Playhead between two keyframes and press :kbd:`E`
+   place the Playhead between two keyframes and press :kbd:`E`.
 
 See the Key menu for a full list of selection tools.
 
