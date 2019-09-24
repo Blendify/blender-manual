@@ -9,102 +9,96 @@ Vector Math Node
 
    Vector Math Node.
 
-The *Vector Math* node performs the selected math operation on vectors.
-Select the math function by clicking the up-down selector where the "Add" selection is shown.
-
+The *Vector Math* node performs the selected math operation on the input vectors.
 
 Inputs
 ======
 
-Vector
-   Input vector 1 (upper). The value can be provided by another node or set manually.
-Vector
-   Input vector 2 (lower). The value can be provided by another node or set manually.
+The inputs of the node are dynamic. Some inputs are only available in certain operations.
+For instance, the *Scale* input is only available in the *Scale* operator.
 
+Vector
+   Input vector A.
+Vector
+   Input vector B.
+Scale
+   Input Scale.
 
 Properties
 ==========
 
 Operation
-   Select the math function for conversion.
+   The vector math operator to be applied on the input vectors. 
 
    Add
-      Adding input 1 and 2.
-
-      .. hint::
-
-         .. math::
-
-            Vector &= input_1 + input_2
-
-            Value &= \frac{abs(Vector_x) + abs(Vector_y) + abs(Vector_z)}
-            {3.0}
+      The sum of A and B.
 
    Subtract
-      Subtracting input 1 and 2.
+      The difference between A and B.
 
-      .. hint::
+   Multiply
+      The entrywise product of A and B.
+      ``(A.x * B.x, A.y * B.y, A.z * B.z)``  
+   
+   Divide
+      The entrywise division of A by B. Division by zero returns zero.
+      ``(A.x / B.x, A.y / B.y, A.z / B.z)``
+   
+   Cross Product
+      The cross product of A and B.
 
-         .. math::
+   Project
+      The projection of A onto B.
 
-            Vector &= input_1 - input_2
-
-            Value &= \frac{abs(Vector_x) + abs(Vector_y) + abs(Vector_z)}
-            {3.0}
-
-   Average
-      Averaging input 1 and 2.
-
-      .. hint::
-
-         .. math::
-
-            Vector &= \frac{input_1+input_2}
-            {|input_1+input_2|}
-
-            Value &= |input_1+input_2|
+   Reflect
+      The reflection of A around the normal B. B needn't be normalized.
 
    Dot Product
-      Algebraic operation that takes two equal-length sequences of vectors 1 and 2 and returns a single number.
-      The Result is a scalar.
-
-      .. hint::
-
-         .. math::
-
-            Value = input_1 . input_2
-
-   Cross Product
-      Geometric binary operation on two vectors 1 and 2 in three-dimensional space.
-      It results in a vector which is perpendicular to both and therefore normal to the plane containing them.
-      The Result is a vector.
-
-      .. hint::
-
-         .. math::
-
-            Vector &= \frac{input_1 \times input_2}
-            {|input_1 \times input_2|}
-
-            Value &= |input_1 \times input_2|
-
+      The dot product of A and B.
+   
+   Distance
+      The distance between A and B.
+   
+   Length
+      The length of A.
+   
+   Scale
+      The result of multiplying A by the scalar input *Scale*.
+      
    Normalize
-      Normalizing input 1.
+      The result of normalizing A.
 
-      .. hint::
+   Snap
+      The result of rounding A to the largest integer multiple of B less than or equal A.
 
-         .. math::
+   Floor
+      The entrywise floor of A.
 
-            Vector &= \frac{input_1}
-            {|input_1|}
+   Ceil
+      The entrywise ceiling of A.
 
-            Value &= |input_1|
+   Modulo
+      The entrywise modulo of A by B.
 
+   Fraction
+      The fractional part of A.
+
+   Absolute
+      The entrywise absolute value of A.
+
+   Minimum
+      The entrywise minimum from A and B.
+
+   Maximum
+      The entrywise maximum from A and B.
 
 Outputs
 =======
 
+The output of the node is dynamic. It is either a vector or a scalar depending on the operator.
+For instance, the *Length* operator have a scalar output while the *Add* operator have a vector output.
+
 Vector
-   Output vector, converted by the node.
+   Output vector.
 Value
-   Output value, converted by the node.
+   Output value.
