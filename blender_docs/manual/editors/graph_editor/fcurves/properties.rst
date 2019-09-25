@@ -36,31 +36,34 @@ Auto Handle Smoothing
    .. figure:: /images/editors_graph-editor_fcurves_properties_auto_smoothing.png
       :align: center
 
-      Handle smoothing mode comparison. Red: *None*, Green: *Continuous Acceleration*.
+      Handle smoothing mode comparison. Yellow: *None*, Cyan: *Continuous Acceleration*.
 
       From left to right, 4 *Auto Clamped* keys, 1 *Vector*, and the rest are *Automatic*.
 
    None
       Only directly adjacent key values are considered when computing the handles.
+      Vector handles are pointed directly at the adjacent keyframes.
 
       This older method is very simple and predictable, but it can only produce
-      good smooth curves in the most trivial cases. Note the kinks in the red curve
-      around the keys on the slopes.
+      truly smooth curves in the most trivial cases. Note the kinks in the yellow curve
+      around the keys located between the extremes, and near the Vector handles.
 
    Continuous Acceleration
-      A system of equations is solved for each continuous stretch of curve without manual handles in order to
-      avoid or minimize jumps in acceleration at every keyframe.
+      A system of equations is solved for each continuous stretch of curve without manual handles
+      in order to avoid or minimize jumps in acceleration at every keyframe. Vector handles are
+      integrated into the curves as smooth transitions to imaginary straight lines beyond the
+      keyframe.
 
       This automatically produces significantly more smooth curves, but necessarily means
       that any changes in the key values may affect interpolation over a significant stretch
       of the curve, although the amount of change decays exponentially with distance.
       This change propagation is completely stopped by any key with *Free*, *Aligned*,
-      *Vector*, or extreme *Auto Clamped* handles.
+      or *Vector* handles, as well as *Auto Clamped* extremes.
 
       This mode also tends to produce more overshoot and oscillation with fully *Automatic*
       handles in some cases (see the right end of the curves), so it is recommended to use
       *Auto Clamped* by default, and only switch to *Automatic* handles in places where this
-      is desired behavior.
+      is desired behavior. This effect can also be reduced by adding in-between keys.
 
    Considering the upsides and downsides of each mode, *Contiuous Acceleration* should be
    better suited for limited animation, which uses a small number of interpolated keys with
