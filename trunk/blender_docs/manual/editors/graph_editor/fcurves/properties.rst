@@ -33,15 +33,39 @@ Color Mode
 Auto Handle Smoothing
    Selects the method used to compute automatic Bézier handles (*Automatic*, *Auto Clamped*, *Vector*).
 
+   .. figure:: /images/editors_graph-editor_fcurves_properties_auto_smoothing.png
+      :align: center
+
+      Handle smoothing mode comparison. Red: *None*, Green: *Continuous Acceleration*.
+
+      From left to right, 4 *Auto Clamped* keys, 1 *Vector*, and the rest are *Automatic*.
+
    None
       Only directly adjacent key values are considered when computing the handles.
 
-      This legacy method is very simple and predictable, but it can only produce
-      good smooth curves in the most trivial cases.
+      This older method is very simple and predictable, but it can only produce
+      good smooth curves in the most trivial cases. Note the kinks in the red curve
+      around the keys on the slopes.
 
    Continuous Acceleration
       A system of equations is solved for each continuous stretch of curve without manual handles in order to
       avoid or minimize jumps in acceleration at every keyframe.
+
+      This automatically produces significantly more smooth curves, but necessarily means
+      that any changes in the key values may affect interpolation over a significant stretch
+      of the curve, although the amount of change decays exponentially with distance.
+      This change propagation is completely stopped by any key with *Free*, *Aligned*,
+      *Vector*, or extreme *Auto Clamped* handles.
+
+      This mode also tends to produce more overshoot and oscillation with fully *Automatic*
+      handles in some cases (see the right end of the curves), so it is recommended to use
+      *Auto Clamped* by default, and only switch to *Automatic* handles in places where this
+      is desired behavior.
+
+   Considering the upsides and downsides of each mode, *Contiuous Acceleration* should be
+   better suited for limited animation, which uses a small number of interpolated keys with
+   minimal manual polish. In case of highly polished high key rate animation, the benefits
+   of smoothing may not outweight the workflow disruption from further change propagation.
 
 
 Active Keyframe Panel
