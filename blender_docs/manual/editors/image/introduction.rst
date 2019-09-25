@@ -14,7 +14,7 @@ Toolbar
 =======
 
 Sample Tool
-   Used to sample a pixels color from anywhere within Blender.
+   Used to sample a pixel's color from anywhere within Blender.
 
    Sample Size
       The dimensions of the square used to sample underlying pixels.
@@ -98,6 +98,6 @@ Sidebar Region
 Tool
    Displays the settings of the active tool.
 Image
-   Tools for working with images see :doc:`/editors/image/image_settings`.
+   Tools for working with images, see :doc:`/editors/image/image_settings`.
 View Tab
-   Controls display options see :doc:`/editors/image/view_tab`.
+   Controls display options, see :doc:`/editors/image/view_tab`.

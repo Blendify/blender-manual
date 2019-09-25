@@ -14,7 +14,7 @@ These are stored inside an Action data-block. It lets you edit the :ref:`value <
 of shape keys over time.
 
 This mode of the *Dope Sheet* uses a similar interface as the :doc:`/editors/dope_sheet/action` Mode
-with the distinction of the absence header filter controls and tools for channels.
+with the distinction of the absence of header filter controls and tools for channels.
 
 
 .. _dope-sheet-mask:
