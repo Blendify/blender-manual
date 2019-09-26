@@ -247,12 +247,21 @@ There is another curve option quite useful for Bézier-interpolated curves.
 You can set the type of handle to use for the curve points :kbd:`V`.
 
 Automatic
-   Keyframes are automatically interpolated.
+   Handle positions are automatically chosen to produce smooth curves.
 
    .. figure:: /images/editors_graph-editor_fcurves_introduction_auto.png
       :width: 400px
 
       Auto handles.
+
+Auto Clamped
+   Automatic handles clamped to prevent overshoots and changes in the
+   curve direction between keyframes (S shapes).
+
+   .. figure:: /images/editors_graph-editor_fcurves_introduction_autoclamped.png
+      :width: 400px
+
+      Auto clamped handles.
 
 Vector
    Creates linear interpolation between keyframes.
@@ -264,7 +273,7 @@ Vector
       Vector handles.
 
 Aligned
-   Handle maintain rotation when moved, and curve tangent is maintained.
+   The two handles of the curve point are locked together to always point in exactly opposite directions.
 
    .. figure:: /images/editors_graph-editor_fcurves_introduction_aligned.png
       :width: 400px
@@ -272,17 +281,9 @@ Aligned
       Aligned handles.
 
 Free
-   Breaks handles tangents.
+   The handles can be moved completely independently.
 
    .. figure:: /images/editors_graph-editor_fcurves_introduction_free.png
       :width: 400px
 
       Free handles.
-
-Auto Clamped
-   Auto handles clamped to not overshoot.
-
-   .. figure:: /images/editors_graph-editor_fcurves_introduction_autoclamped.png
-      :width: 400px
-
-      Auto clamped handles.

@@ -30,6 +30,9 @@ Color Mode
       For property sets like location XYZ, automatically set the set of colors to red, green, blue.
    User Defined
       Define a custom color for the active F-curve.
+
+.. _graph_editor-auto-handle-smoothing:
+
 Auto Handle Smoothing
    Selects the method used to compute automatic Bézier handles (*Automatic*, *Auto Clamped*, *Vector*).
 
@@ -49,26 +52,25 @@ Auto Handle Smoothing
       around the keys located between the extremes, and near the Vector handles.
 
    Continuous Acceleration
-      A system of equations is solved for each continuous stretch of curve without manual handles
-      in order to avoid or minimize jumps in acceleration at every keyframe. Vector handles are
-      integrated into the curves as smooth transitions to imaginary straight lines beyond the
-      keyframe.
+      A system of equations is solved in order to avoid or minimize jumps in acceleration
+      at every keyframe. Vector handles are integrated into the curves as smooth transitions
+      to imaginary straight lines beyond the keyframe.
 
-      This automatically produces significantly more smooth curves, but necessarily means
-      that any changes in the key values may affect interpolation over a significant stretch
-      of the curve, although the amount of change decays exponentially with distance.
-      This change propagation is completely stopped by any key with *Free*, *Aligned*,
-      or *Vector* handles, as well as *Auto Clamped* extremes.
+      This produces much smoother curves out of the box, but necessarily means that
+      any changes in the key values may affect interpolation over a significant stretch
+      of the curve; although the amount of change decays exponentially with distance.
+      This change propagation is stopped by any key with *Free*, *Aligned*, or *Vector*
+      handles, as well as by extremes with *Auto Clamped* handles.
 
-      This mode also tends to produce more overshoot and oscillation with fully *Automatic*
-      handles in some cases (see the right end of the curves), so it is recommended to use
+      This mode also tends to overshoot and oscillate more with fully *Automatic* handles
+      in some cases (see the right end of the image above), so it is recommended to use
       *Auto Clamped* by default, and only switch to *Automatic* handles in places where this
       is desired behavior. This effect can also be reduced by adding in-between keys.
 
    Considering the upsides and downsides of each mode, *Contiuous Acceleration* should be
    better suited for limited animation, which uses a small number of interpolated keys with
-   minimal manual polish. In case of highly polished high key rate animation, the benefits
-   of smoothing may not outweight the workflow disruption from further change propagation.
+   minimal manual polish. In case of highly polished high key rate animation, the benefits of
+   smoothing may not outweight the workflow disruption from more extensive change propagation.
 
 
 Active Keyframe Panel
