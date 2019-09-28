@@ -4,15 +4,7 @@
 Mapping Node
 ************
 
-The *Mapping Node* is used to transform an image or procedural texture.
-For example, you can use it to move, rotate, or scale textures.
-If you have ever done any UV editing in the past, then you will likely know
-that these can also be accomplished by modifying an object's UVs
-in the :doc:`UV editor </editors/uv/index>`. However,
-it is sometimes useful to have easy access to these functions through
-nodes rather than having to modify the UVs. One example of this might be
-when you have several textures, each of which needs to be transformed
-individually e.g. decals on an object.
+The *Mapping* node transforms the input vector by applying translation, rotation, and scaling.
 
 .. figure:: /images/render_shader-nodes_vector_mapping_node.png
 
@@ -22,50 +14,75 @@ individually e.g. decals on an object.
 Inputs
 ======
 
-Vector
-   Vector to be transformed, usually this is input from
-   a :doc:`Texture Coordinate node </render/shader_nodes/input/texture_coordinate>`.
+The inputs of the node are dynamic. In particular, the *Location* input is only available in the *Texture* and *Point* vector types.
 
+Vector
+   The vector to be transformed.
+
+Location
+   The amount of translation along each axis.
+
+Rotation
+   The amount of rotation along each axis. XYZ order.
+
+Scale
+   The amount of scaling along each axis.
 
 Properties
 ==========
 
 Vector type
-   Allows the user to choose which vector type to use.
-
-   Texture
-      This is the most common option that you will use and will be sufficient for most cases.
+   The node applies the transformation differently depending on the semantic type of the input vector.
+   
    Point
-      This works similar to *Texture* but the way the math works
-      the *Scale* values are divided rather than multiplied.
+      For this vector type, the node performs a straightforward transformation.
+
+      Transforming a texture coordinates is analogous to transforming a UV map.
+      For instance, translating the texture coordinates along the **positive** x-axis would result
+      in the evaluated texture to move in the **negative** x-axis, much like if one translated a UV map.
+      Similarly, scaling the texture coordinates **up** would result in the evaluated texture to scale **down**.
+      So transforming the texture coordinates would appear to have the opposite effect on the evaluated texture.
+
+      The order of transformation is: Scale -> Rotate -> Translate, which means:
+
+         - Translation moves the input along the local rotation axis.
+         - Rotation rotates the input around the origin of the space.
+         - Scaling scales the input along the global axis.
+   
+   Texture
+      For this vector type, the node performs an inverse transformation.
+
+      Inverse transforming a texture coordinates would, as opposed to the *Point* type, transform the evaluated texture itself.
+      For instance, translating the texture coordinates along the positive x-axis would result in the evaluated texture to move
+      in the positive x-axis, as one would expected. Similarly, scaling the texture coordinates up would result in the evaluated
+      texture to scale up, as one would expect.
+
+      The order of transformation is: Translate -> Rotate -> Scale, which means:
+      
+         - Translation moves the input along the global axis.
+         - Rotation rotates the input around the translation vector.
+         - Scaling scales the input along the local rotation axis.
+
    Vector
-      Behaves the same as *Point* mode but changes in *Location*
-      are ignored -- that is, the texture does not move.
+      For this vector type, a *Point* transformation is performed, but with zero translation.
+
    Normal
-      Transforms a normal vector with unit length.
-
-Location
-   Vector translation.
-Rotation
-   Rotation of the vector along the XYZ axes.
-Scale
-   Scale of the vector, in *Point* and *Vector* modes, a value of 2.0 will halve the texture size,
-   while in *Texture* mode the size is double.
-
-Min/Max
-   Normalizes the *Location*, *Rotation*,
-   and *Scale* values to fit within the specified XYZ values.
-
+      For this vector type, the node performs the inverse transpose of the transformation and normalize the result.
+      Such transformation ensures correct normals after non-uniform scaling.
+      So this type should be used when transforming normals.
 
 Outputs
 =======
 
 Vector
-   Transformed vector, usually gets connected to some sort of
-   :doc:`Texture node </render/shader_nodes/textures/index>`.
+   The input vector after transformation.
 
 
 Examples
 ========
 
-Todo <2.8 add.
+.. figure:: /images/render_shader-nodes_vector_mapping_example.png
+
+   Mapping node example.
+
+
