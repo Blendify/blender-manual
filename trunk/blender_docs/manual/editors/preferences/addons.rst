@@ -104,9 +104,9 @@ Here you can also find a button to report a bug specific of this add-on.
 Add-on Preferences
 ------------------
 
-Some add-ons may have there own preferences which can be found
+Some add-ons may have their own preferences which can be found
 in the *Preferences* section of the add-on information box.
 
 Some add-ons use this section for example to enable/disable
 certain functions of the add-on. Sometimes these might even all default to off.
-So it is important to check if the add-on enabled has any particular preferences.
+So it is important to check if the enabled add-on has any particular preferences.
