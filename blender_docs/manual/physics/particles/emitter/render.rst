@@ -45,7 +45,7 @@ This is useful if you are using the particles to duplicate objects.
 Halo
 ----
 
-Halo are rendered as glowing dots or a little clouds of light.
+Halo are rendered as glowing dots or a little cloud of light.
 Although they are not really lights because they do not cast light into the scene like a light object.
 They are called *Halos* because you can see them, but they do not have any substance.
 

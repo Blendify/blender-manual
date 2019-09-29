@@ -72,4 +72,4 @@ LookDev HDRIs
 =============
 
 This panel manages :term:`HDRI` image files
-which can used to light the view when :ref:`LookDev <3dview-lookdev>` shading is enabled.
+which can be used to light the view when :ref:`LookDev <3dview-lookdev>` shading is enabled.
