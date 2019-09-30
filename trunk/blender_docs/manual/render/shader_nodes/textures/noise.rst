@@ -9,43 +9,57 @@ Noise Texture Node
 
    Noise Texture Node.
 
-The *Noise Texture* is used to add procedural Perlin noise texture,
-similar to the *Clouds* texture in *Blender Internal*.
-
+The *Noise Texture* node evaluates a fractal Perlin noise at the input texture coordinates.
+The noise can be evaluated in 1D, 2D, 3D, and 4D dimensions.
 
 Inputs
 ======
 
+The inputs are dynamic. In particular, the *Vector* input is only available in the 2D, 3D, and 4D dimensions,
+while the *W* input is only available in the 1D and 4D dimensions.
+
 Vector
-   Texture coordinate to sample texture at;
-   defaults to Generated texture coordinates if the socket is left unconnected.
+   Texture coordinate to evaluate the noise at;
+   defaults to *Generated* texture coordinates if the socket is left unconnected.
+W  
+   Texture coordinate to evaluate the noise at.
 Scale
-   Overall texture scale.
+   Scale of the base noise octave.
 Detail
-   Amount of noise detail.
+   Number of noise octaves.
+   The fractional part of the input is multiplied by the magnitude of the last octave.
+   Higher number of octaves corresponds to a higher render time.
 Distortion
    Amount of distortion.
-
 
 Properties
 ==========
 
-This node has no properties.
+Dimensions
+   The dimensions of the space to evaluate the noise in.
 
+   1D
+      Evaluate the noise in 1D space at the input *W*.
+   2D
+      Evaluate the noise in 2D space at the input *Vector*. The z component is ignored.
+   3D
+      Evaluate the noise in 3D space at the input *Vector*.
+   4D
+      Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
+
+Higher dimensions corresponds to higher render time, so lower dimensions should be used unless higher dimensions are necessary. 
 
 Outputs
 =======
 
-Color
-   Texture color output.
 Factor
-   Texture intensity output.
-
+   Value of fractal noise.  
+Color
+   Color with different fractal noises in each component.
 
 Examples
 ========
 
 .. figure:: /images/render_shader-nodes_textures_noise_example.jpg
-   :width: 200px
 
    Noise Texture with high detail.
