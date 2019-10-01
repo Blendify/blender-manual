@@ -72,7 +72,7 @@ UV
 Emit
    Bakes Emission, or the Glow color of a material.
 Environment
-   Bakes the environment as seen from the center of the object.
+   Bakes the environment (i.e. the world surface shader defined for the scene) onto the selected object(s) as seen by rays cast from the world origin (0, 0, 0).
 Diffuse, Glossy, Transmission, Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
