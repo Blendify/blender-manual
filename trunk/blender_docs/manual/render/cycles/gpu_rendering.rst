@@ -10,7 +10,7 @@ On the other hand, they also have some limitations in rendering complex scenes, 
 and issues with interactivity when using the same graphics card for display and rendering.
 
 To enable GPU rendering, go into the :menuselection:`Preferences --> System --> Cycles Render Devices`,
-and select either *CUDA* or *OpenCL*. Next, you must configure each scene to use GPU rendering in
+and select either *CUDA*, *Optix* or *OpenCL*. Next, you must configure each scene to use GPU rendering in
 :menuselection:`Properties --> Render --> Device`.
 
 
@@ -20,21 +20,25 @@ Supported Hardware
 Blender supports two different technologies to render on the GPU depending on the particular GPU manufacture.
 
 
-NVIDIA CUDA
------------
+NVIDIA
+------
 
-NVIDIA :abbr:`CUDA (Compute Unified Device Architecture)`
-is supported for GPU rendering with *NVIDIA* graphics cards.
-Blender supports graphics cards with compute capability 3.0 and higher.
+:abbr:`CUDA (Compute Unified Device Architecture)` and Optix
+are supported for GPU rendering with *NVIDIA* graphics cards.
+
+CUDA requires graphics cards with compute capability 3.0 and higher.
 To make sure your GPU is supported,
 see the `list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__
 with the compute capabilities and supported graphics cards.
+CUDA GPU rendering is supported on Windows, macOS, and Linux.
 
-NVIDIA CUDA GPU rendering is supported on Windows, macOS, and Linux.
+For RTX graphics cards with hardware raytracing support, Optix can be used for better performance.
+Optix support is still experimental and does not yet support all features, see below for details.
 
+Optix requires Geforce or Quadro RTX graphics card with recent NVIDIA drivers, and is supported on Windows and Linux.
 
-AMD OpenCL
-----------
+AMD
+---
 
 :abbr:`OpenCL (Open Computing Language)`
 is supported for GPU rendering with *AMD* graphics cards.
@@ -49,10 +53,17 @@ AMD OpenCL GPU rendering is supported on Windows and Linux, but not on macOS.
 Supported Features and Limitations
 ==================================
 
-GPU rendering supports all the same features as CPU rendering, except two:
+CUDA and OpenCL rendering supports all the same features as CPU rendering, except two:
 
 - Open Shading Language.
 - Advanced volume light sampling to reduce noise.
+
+Optix support is experimental and does not yet support the following features:
+
+- Baking
+- Brachend Path Tracing
+- Ambient Occlusion and Bevel shader nodes
+- Combined CPU + GPU rendering
 
 
 Frequently Asked Questions
