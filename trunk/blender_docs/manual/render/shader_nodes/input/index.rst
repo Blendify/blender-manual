@@ -22,5 +22,6 @@
    texture_coordinate.rst
    uv_map.rst
    value.rst
+   vertex_color.rst
    volume_info.rst
    wireframe.rst
