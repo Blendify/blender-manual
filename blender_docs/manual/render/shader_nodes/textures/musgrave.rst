@@ -9,48 +9,56 @@ Musgrave Texture Node
 
    Musgrave Texture Node.
 
-The *Musgrave Texture* is used to add an advanced procedural noise texture.
-
-Musgrave is a type of *Fractal Noise*.
-Simple *Perlin Noise* is generated multiple times with different scaling,
-and the results are combined in different ways depending on the Musgrave type.
-This results in a detailed texture with self-similar appearance at different scales, like fractals.
-
+The *Musgrave Texture* node evaluates a fractal Perlin noise at the input texture coordinates.
+Unlike the *Noise Texture*, which is also a fractal Perlin noise,
+the *Musgrave Texture* allows greater control over how octaves are combined.
 
 Inputs
 ======
 
-Vector
-   Texture coordinate to sample texture at;
-   defaults to *Generated* texture coordinates if the socket is left unconnected.
-Scale
-   Overall texture scale.
-Detail
-   Controls how many instances of base noise textures are combined.
-   Each extra instance is scaled and adds smaller details.
-Dimension
-   Controls the intensity of the different instances of base noise.
-   Setting it to zero will use the same intensity for all noise instances.
-   Larger values will reduce the intensity of finer (larger-scaled) instances,
-   making smaller details less visible.
-Lacunarity
-   Controls the scale of the different instances of the base noise.
-   This is a factor for scaling each further instance, relative to the previous one,
-   i.e. the scales grow exponentially. When setting it to 1 all instances have the same scale.
-Offset
-   This value is added to each noise instance, determines the level where least fine noise will appear.
-   It only has an effect for *Hybrid Multifractal*, *Ridged Multifractal* and *Hetero Terrain*.
-Gain
-   An extra multiplier to change the intensity of finer noise instances.
-   It only has an effect for *Hybrid Multifractal* and *Ridged Multifractal*.
+The inputs are dynamic, they become available if needed depending on the node properties.
 
+Vector
+   Texture coordinate to evaluate the noise at;
+   defaults to *Generated* texture coordinates if the socket is left unconnected.
+W  
+   Texture coordinate to evaluate the noise at.
+Scale
+   Scale of the base noise octave.
+Detail
+   Number of noise octaves.
+   The fractional part of the input is multiplied by the magnitude of the highest octave.
+   Higher number of octaves corresponds to a higher render time.
+Dimension
+   The difference between the magnitude of each two consecutive octaves.
+   Larger values corresponds to smaller magnitudes for higher octaves.
+Lacunarity
+   The difference between the scale of each two consecutive octaves.
+   Larger values corresponds to larger scale for higher octaves.
+Offset
+   An added offset to each octave, determines the level where the highest octave will appear.
+Gain
+   An extra multiplier to tune the magnitude of octaves.
 
 Properties
 ==========
 
+Dimensions
+   The dimensions of the space to evaluate the noise in.
+
+   1D
+      Evaluate the noise in 1D space at the input *W*.
+   2D
+      Evaluate the noise in 2D space at the input *Vector*. The z component is ignored.
+   3D
+      Evaluate the noise in 3D space at the input *Vector*.
+   4D
+      Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
+
+Higher dimensions corresponds to higher render time, so lower dimensions should be used unless higher dimensions are necessary. 
+
 Type
-   Specifies different methods to combine the multiple noise instances.
-   Originally, the algorithms for generating procedural terrain.
+   Type of the Musgrave texture.
 
    fBM (fractal Brownian Motion)
       Produces an unnatural homogeneous and isotropic result.
@@ -67,21 +75,11 @@ Type
    Hetero Terrain (Heterogeneous Terrain)
       Similar to *Hybrid Multifractal* creates a heterogeneous terrain, but with the likeness of river channels.
 
-
 Outputs
 =======
 
-Color
-   Texture color output.
-   It is grayscale, all three RGB components are equal to the value of the *Factor* output.
 Factor
-   Texture intensity output.
-
-.. tip::
-
-   The *Musgrave Texture* often needs some adjustments (e.g. by multiplication and addition)
-   in order to avoid clipping and to see more detail.
-
+   Texture value.
 
 Examples
 ========
