@@ -33,6 +33,8 @@ Outputs
 
 Location
    Location of the object in world space.
+Color
+   Object color, same as *Color* in the :menuselection:`Properties Editor --> Object --> Viewport Display`.
 Object Index
    Object pass index, same as *Pass Index*
    in the :menuselection:`Properties Editor --> Object --> Relations`.
