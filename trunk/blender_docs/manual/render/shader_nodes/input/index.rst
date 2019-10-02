@@ -22,4 +22,5 @@
    texture_coordinate.rst
    uv_map.rst
    value.rst
+   volume_info.rst
    wireframe.rst
