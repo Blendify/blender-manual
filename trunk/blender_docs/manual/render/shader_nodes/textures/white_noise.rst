@@ -16,8 +16,7 @@ The output number ranges between zero and one.
 Inputs
 ======
 
-The inputs are dynamic. In particular, the *Vector* input is only available in 2D, 3D, and 4D dimensions,
-while the *W* input is only available in 1D and 4D dimensions.
+The inputs are dynamic, they become available if needed depending on the node properties.
 
 Vector
    Vector used as seed in 2D, 3D, and 4D dimensions.

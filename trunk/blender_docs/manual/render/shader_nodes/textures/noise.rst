@@ -10,13 +10,11 @@ Noise Texture Node
    Noise Texture Node.
 
 The *Noise Texture* node evaluates a fractal Perlin noise at the input texture coordinates.
-The noise can be evaluated in 1D, 2D, 3D, and 4D dimensions.
 
 Inputs
 ======
 
-The inputs are dynamic. In particular, the *Vector* input is only available in the 2D, 3D, and 4D dimensions,
-while the *W* input is only available in the 1D and 4D dimensions.
+The inputs are dynamic, they become available if needed depending on the node properties.
 
 Vector
    Texture coordinate to evaluate the noise at;
@@ -27,7 +25,7 @@ Scale
    Scale of the base noise octave.
 Detail
    Number of noise octaves.
-   The fractional part of the input is multiplied by the magnitude of the last octave.
+   The fractional part of the input is multiplied by the magnitude of the highest octave.
    Higher number of octaves corresponds to a higher render time.
 Distortion
    Amount of distortion.
