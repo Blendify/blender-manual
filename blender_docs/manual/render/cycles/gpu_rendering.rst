@@ -64,6 +64,7 @@ Optix support is experimental and does not yet support the following features:
 - Brachend Path Tracing
 - Ambient Occlusion and Bevel shader nodes
 - Combined CPU + GPU rendering
+- Using CPU memory for bigger scenes
 
 
 Frequently Asked Questions
