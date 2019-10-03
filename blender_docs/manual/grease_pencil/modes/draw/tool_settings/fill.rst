@@ -81,7 +81,7 @@ To create a Boundary Strokes use :kbd:`Alt-LMB` and draw a line to close the des
           Use Fill Tool to leak material on the new closed area.
 
 When you are satisfied with the fill result you can delete the Boundary strokes using
-the *Clean Up* tool in the :doc:`Grease Pencil Menu </grease_pencil/modes/edit/grease_pencil>` in Edit Mode.
+the *Clean Up* tool in the :doc:`Grease Pencil Menu </grease_pencil/modes/edit/grease_pencil_menu>` in Edit Mode.
 
 
 Switch to Draw Tool
