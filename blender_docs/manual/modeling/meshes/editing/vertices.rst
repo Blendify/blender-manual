@@ -82,7 +82,7 @@ An alternative way to simplify a mesh is to use the :doc:`Decimate Modifier </mo
 Merge Distance
    Sets the distance threshold for merging vertices.
 Unselected
-   Allows vertices in selection to be merged with unselected vertices.
+   Allows vertices in the selection to be merged with unselected vertices.
    When disabled, selected vertices will only be merged with other selected ones.
 
 
@@ -101,8 +101,8 @@ Rip Region
    :Menu:      :menuselection:`Vertex --> Rip Vertices`
    :Hotkey:    :kbd:`V`
 
-Rip creates a "hole" into a mesh by making a copy of selected vertices and edges,
-still linked to the neighbor non-selected vertices,
+Rip creates a "hole" in the mesh by making a copy of selected vertices and edges,
+still linked to the neighboring non-selected vertices,
 so that the new edges are borders of the faces on one side, and the old ones,
 borders of the faces of the other side of the rip.
 
@@ -150,7 +150,7 @@ Rip will only work when edges and/or vertices are selected.
 Using the tool when a face is selected (explicitly or implicitly), will return an error
 message *"Cannot perform ripping with faces selected this way"*.
 If your selection includes some edges or vertices that are not "between" two faces :term:`manifold`,
-it will also fail with message *"No proper selection or faces include"*.
+it will also fail with the message *"No proper selection or faces include"*.
 
 
 Rip Vertices and Fill
@@ -210,7 +210,7 @@ Rip Edge
 
 This tool takes any number of selected vertices and duplicate-drags them along the closest edge to the mouse,
 When extending an edge loop, it extends the vertices at the endpoints of the loop.
-Which is similar behavior like *Extrude* tool, but it creates an n-gon.
+The behavior is similar to the *Extrude* tool, but it creates an n-gon.
 
 It helps to easily add details to existing edges.
 
@@ -225,7 +225,7 @@ Separate
    :Menu:      :menuselection:`Mesh --> Separate`
    :Hotkey:    :kbd:`P`
 
-The Separate tool will `Split`_ mesh elements in another mesh object.
+The Separate tool will `Split`_ mesh elements into another mesh object.
 
 Selection
    Separates the selected elements.
@@ -292,7 +292,7 @@ Smooth Vertex
    :Menu:      :menuselection:`Vertex --> Smooth Vertices`,
                :menuselection:`Context Menu --> Smooth`
 
-This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>`.
+This will apply the :doc:`Smooth Tool </modeling/meshes/editing/transform/smooth>` once.
 
 
 Convex Hull

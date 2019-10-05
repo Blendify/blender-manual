@@ -9,10 +9,10 @@ Mesh edit mode tools:
 
 .. note::
 
-   Some :ref:`Object Mode <object-toolbar-index>` are also present.
+   Some :ref:`Object Mode Tools <object-toolbar-index>` are also present.
 
 :ref:`Select <tool-select-tweak>`
-   Select or moved.
+   Select or move.
 
    :ref:`Select Box <tool-select-box>`
       Select geometry by dragging a box.
@@ -29,7 +29,7 @@ Mesh edit mode tools:
    :ref:`Extrude Individual <tool-mesh-extrude_individual>`
       Extrude each individual element along their local normal.
    :ref:`Extrude To Cursor <tool-mesh-extrude_cursor>`
-      Extrude selected vertices, edges or face towards the mouse cursor.
+      Extrude selected vertices, edges or faces towards the mouse cursor.
 
 :ref:`Inset Faces <tool-mesh-inset_faces>`
    Inset selected faces.

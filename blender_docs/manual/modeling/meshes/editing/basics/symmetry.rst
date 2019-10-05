@@ -29,7 +29,7 @@ Threshold
 Factor
    Support for blending mirrored locations from one side to the other (0.5 is an equal mix of both).
 Center
-   Snap vertices in the center axis to zero.
+   Snap vertices along the center axis to zero.
 
 .. list-table::
 
