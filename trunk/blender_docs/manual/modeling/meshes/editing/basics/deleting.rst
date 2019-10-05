@@ -32,7 +32,7 @@ Faces
 Only Edges & Faces
    Limits the operation to only selected edges and adjacent faces.
 Only Faces
-   Removes faces, but edges within face selection are retained.
+   Removes faces, but edges within the face selection are retained.
 
 
 Dissolve
@@ -56,8 +56,8 @@ Dissolve Vertices
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Delete --> Dissolve Vertices`
 
-Remove the vertex merging all surrounding faces.
-In the case two edges, merging them into a single edge.
+Remove the vertex, merging all surrounding faces.
+In the case of two edges, merging them into a single edge.
 
 Face Split
    When dissolving vertices into surrounding faces, you can often end up with very large, uneven n-gons.

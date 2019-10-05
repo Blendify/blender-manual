@@ -17,7 +17,7 @@ Duplicate or Extrude to Cursor
    :Mode:      Edit Mode
    :Hotkey:    :kbd:`Ctrl-RMB`
 
-Interactively places new vertices with :kbd:`Ctrl-RMB` at the cursor position.
+Interactively places new vertices with :kbd:`Ctrl-RMB` at the mouse cursor position.
 
 
 Creating Vertices

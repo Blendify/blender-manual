@@ -192,7 +192,7 @@ Select Random
 
 Select Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle value,
-   Where an increasing angle selects sharper edges.
+   where an increasing angle selects sharper edges.
 
 ------------------------
 
@@ -202,7 +202,7 @@ Select Sharp Edges
 ------------------------
 
 `Select All by Trait`_
-   Select geometry by querying it's characteristics.
+   Select geometry by querying its characteristics.
 
 ------------------------
 
@@ -576,7 +576,7 @@ Face Stepping
    Supports diagonal paths for vertices and faces, and
    selects edge rings with edges.
 Topological Distance
-   Which only takes into account the number of edges of the path and
+   Only takes into account the number of edges of the path and
    not the length of the edges to calculate the distances.
 Fill Region :kbd:`Shift-Ctrl-LMB`
    Selects all elements in the shortest paths from the active selection to the clicked area.
