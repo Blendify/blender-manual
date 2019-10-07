@@ -15,9 +15,9 @@ Stored Views
 Installation
 ============
 
-This addon is bundled with Blender
-Open Blender and go to User Preferences then the Addons Tab.
-Click 3D View then Stored Views to Enable the script. 
+- This addon is bundled with Blender
+- Open Blender and go to User Preferences then the Addons Tab.
+- Click 3D View then Stored Views to Enable the script. 
 
 
 Description

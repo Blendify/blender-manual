@@ -9,15 +9,15 @@ Measureit
    :Category:  3D View
    :Description: Tools for measuring objects in the 3d view
    :Location: Sidebar --> View Tab
-   :File: Measureit folder
+   :File: measureit folder
    :Author: Antonio Vazquez (antonioya)
 
 Installation
 ============
 
-This addon is bundled with Blender
-Open Blender and go to User Preferences then the Addons Tab.
-Click 3D View then Measureit to Enable the script. 
+- This addon is bundled with Blender
+- Open Blender and go to User Preferences then the Addons Tab.
+- Click 3D View then Measuteit to Enable the script. 
 
 
 Description

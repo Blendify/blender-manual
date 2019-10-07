@@ -15,9 +15,9 @@ Math Vis Console
 Installation
 ============
 
-This addon is bundled with Blender
-Open Blender and go to User Preferences then the Addons Tab.
-Click 3D View then Math Vis (Console) to Enable the script. 
+- This addon is bundled with Blender
+- Open Blender and go to User Preferences then the Addons Tab.
+- Click 3D View then Math Vis (Console) to Enable the script. 
 
 
 Description

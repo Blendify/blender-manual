@@ -1,10 +1,8 @@
 
 3D View
-=============
+=======
 
-##################
-Work In Progress
-##################
+- These addons relate to drawing in the 3d viewport or manipulating the 3d view.
 
 .. toctree::
    :maxdepth: 1
