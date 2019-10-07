@@ -10,7 +10,7 @@ Discombobulator
    :Description: Add Greeble type effect to a mesh.
    :Location: 3D View --> Add --> Mesh
    :File: add_mesh_discombobulator folder
-   :Author: Aaron Keith
+   :Author: Evan J. Rosky (syrux)
 
 Installation
 ============
