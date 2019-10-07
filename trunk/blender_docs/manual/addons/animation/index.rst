@@ -1,12 +1,12 @@
 
-Add Mesh
+Animation
 =============
 
 ##################
 Work In Progress
 ##################
 
-- These addons relate to Mesh object creation.
+- These addons relate to helper tools for the animation process and animation.
 
 .. toctree::
    :maxdepth: 1
