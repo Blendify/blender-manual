@@ -9,7 +9,7 @@ Mesh edit mode tools:
 
 .. note::
 
-   Some :ref:`Object Mode Tools <object-toolbar-index>` are also present.
+   Some :ref:`Object Mode tools <object-toolbar-index>` are also present.
 
 :ref:`Select <tool-select-tweak>`
    Select or move.

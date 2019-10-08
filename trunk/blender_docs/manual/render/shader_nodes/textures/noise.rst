@@ -11,6 +11,7 @@ Noise Texture Node
 
 The *Noise Texture* node evaluates a fractal Perlin noise at the input texture coordinates.
 
+
 Inputs
 ======
 
@@ -19,7 +20,7 @@ The inputs are dynamic, they become available if needed depending on the node pr
 Vector
    Texture coordinate to evaluate the noise at;
    defaults to *Generated* texture coordinates if the socket is left unconnected.
-W  
+W
    Texture coordinate to evaluate the noise at.
 Scale
    Scale of the base noise octave.
@@ -30,6 +31,7 @@ Detail
 Distortion
    Amount of distortion.
 
+
 Properties
 ==========
 
@@ -39,21 +41,24 @@ Dimensions
    1D
       Evaluate the noise in 1D space at the input *W*.
    2D
-      Evaluate the noise in 2D space at the input *Vector*. The z component is ignored.
+      Evaluate the noise in 2D space at the input *Vector*. The Z component is ignored.
    3D
       Evaluate the noise in 3D space at the input *Vector*.
    4D
       Evaluate the noise in 4D space at the input *Vector* and the input *W* as the fourth dimension.
 
-Higher dimensions corresponds to higher render time, so lower dimensions should be used unless higher dimensions are necessary. 
+Higher dimensions corresponds to higher render time, so lower dimensions should be used
+unless higher dimensions are necessary.
+
 
 Outputs
 =======
 
 Factor
-   Value of fractal noise.  
+   Value of fractal noise.
 Color
-   Color with different fractal noises in each component.
+   Color with different fractal noise in each component.
+
 
 Examples
 ========

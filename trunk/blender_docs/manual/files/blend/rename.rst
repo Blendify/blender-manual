@@ -94,11 +94,11 @@ Strip Characters
 character types from either the beginning or the end of the name.
 
 Spaces
-   Strips any space characters from the name, e.g. ``Living Room   `` becomes ``Living Room``.
+   Strips any space characters from the name, e.g. "Living Room   " becomes "Living Room".
 Digits
-   Strips any numerical characters from the name, e.g. ``cube.001`` becomes ``cube.``.
+   Strips any numerical characters from the name, e.g. "cube.001" becomes "cube.".
 Punctuation
-   Strips any punctuation characters (``,.?!:; etc...``) from the name, e.g. ``cube.`` becomes ``cube``.
+   Strips any punctuation characters (``,.?!:; etc...``) from the name, e.g. "cube?" becomes "cube".
 
 .. tip::
 
@@ -116,8 +116,8 @@ Change Case
 *Change Case* modifies the case of names to be on of the following:
 
 Upper Case
-   Changes all text to be in upper case, e.g. ``cube.001`` becomes ``CUBE.001``.
+   Changes all text to be in upper case, e.g. "cube.001" becomes "CUBE.001".
 Lower Case
-   Changes all text to be in lower case, e.g. ``CUBE.001`` becomes ``cube.001``.
+   Changes all text to be in lower case, e.g. "CUBE.001" becomes "cube.001".
 Title Caps
-   Changes all text to be in title case, e.g. ``living room`` becomes ``Living Room``.
+   Changes all text to be in title case, e.g. "living room" becomes "Living Room".

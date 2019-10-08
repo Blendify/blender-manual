@@ -201,12 +201,12 @@ Normalize
       This is useful to prevent curves from jumping after tweaking it.
 
 
-F-curve Controls
+F-Curve Controls
 ----------------
 
 .. figure:: /images/editors_graph-editor_introduction_header-edit.png
 
-   F-curve controls.
+   F-Curve controls.
 
 Proportional Editing :kbd:`O`
    See :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.

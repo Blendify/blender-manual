@@ -11,15 +11,18 @@ Volume Info Node
 
 The *Volume Info* node provides information about *Smoke Domains*.
 
+
 Inputs
 ======
 
 This node has no inputs.
 
+
 Properties
 ==========
 
 This node has no properties.
+
 
 Outputs
 =======
@@ -31,8 +34,9 @@ Density
 Flame
    Fire density.
 Temperature
-   Temperature of fire.
-   Values in the range `[0, 1]` linearly maps to temperatures in the range `[0, 1000]` in Kelvin.
+   Temperature of the fire.
+   Values in the range [0, 1] linearly maps to temperatures in the range [0, 1000] in Kelvin.
+
 
 Example
 =======
@@ -45,5 +49,4 @@ Example
 
    Computing the color of fire using the *Blackbody* node.
    Since the *Blackbody* node expects its input in Kelvin,
-   the temprature output has to be remapped first.
-
+   the temperature output has to be remapped first.

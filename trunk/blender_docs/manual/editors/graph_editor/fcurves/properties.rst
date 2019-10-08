@@ -41,7 +41,7 @@ Auto Handle Smoothing
 
       Handle smoothing mode comparison. Yellow: *None*, Cyan: *Continuous Acceleration*.
 
-      From left to right, 4 *Auto Clamped* keys, 1 *Vector*, and the rest are *Automatic*.
+      From left to right, four *Auto Clamped* keys, one *Vector*, and the rest are *Automatic*.
 
    None
       Only directly adjacent key values are considered when computing the handles.
@@ -67,10 +67,10 @@ Auto Handle Smoothing
       *Auto Clamped* by default, and only switch to *Automatic* handles in places where this
       is desired behavior. This effect can also be reduced by adding in-between keys.
 
-   Considering the upsides and downsides of each mode, *Contiuous Acceleration* should be
+   Considering the upsides and downsides of each mode, *Continuous Acceleration* should be
    better suited for limited animation, which uses a small number of interpolated keys with
    minimal manual polish. In case of highly polished high key rate animation, the benefits of
-   smoothing may not outweight the workflow disruption from more extensive change propagation.
+   smoothing may not outweigh the workflow disruption from more extensive change propagation.
 
 
 Active Keyframe Panel

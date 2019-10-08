@@ -1,14 +1,15 @@
 .. _troubleshooting-gpu-index:
 
 #####################
-  Graphics Hardware 
+  Graphics Hardware
 #####################
 
-
 .. include:: common/introduction.rst
+   :start-line: 1
+
 
 Windows
--------
+=======
 
 .. toctree::
    :maxdepth: 1
@@ -20,7 +21,7 @@ Windows
 
 
 Linux
------
+=====
 
 .. toctree::
    :maxdepth: 1
@@ -32,7 +33,7 @@ Linux
 
 
 macOS
------
+=====
 
 .. toctree::
    :maxdepth: 1
@@ -41,4 +42,3 @@ macOS
    apple/amd.rst
    apple/intel.rst
    apple/unknown.rst
-
