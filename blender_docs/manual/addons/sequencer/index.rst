@@ -1,7 +1,8 @@
 
-Sequencer
-=============
+#############
+  Sequencer
+#############
 
-##################
-Work In Progress
-##################
+.. important::
+
+   Work In Progress

@@ -1,30 +1,27 @@
 
-**********************
+***************
 Edit Mesh Tools
-**********************
+***************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Mesh
-   :Description: Mesh modelling toolkit. Several tools to aid modelling.
-   :Location: View3D > Sidebar > Edit Tab / Edit Mode Context Menu
+   :Description: Mesh modeling toolkit. Several tools to aid modeling.
+   :Location: :menuselection:`3D View --> Sidebar --> Edit tab / Edit Mode context menu`
    :File: mesh_tools folder
    :Author: Multiple Authors, Meta-Androcto
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Mesh then Edit Mesh Tools to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Mesh then Edit Mesh Tools to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

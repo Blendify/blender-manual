@@ -41,7 +41,7 @@ Vector type
 
       Transforming a texture coordinates is analogous to transforming a UV map.
       For instance, translating the texture coordinates along the **positive** X axis would result
-      in the evaluated texture to move in the **negative** U axis, much like if one translated a UV map.
+      in the evaluated texture to move in the **negative** X axis, much like if one translated a UV map.
       Similarly, scaling the texture coordinates **up** would result in the evaluated texture to scale **down**.
       So transforming the texture coordinates would appear to have the opposite effect on the evaluated texture.
 

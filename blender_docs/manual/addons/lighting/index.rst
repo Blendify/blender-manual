@@ -1,12 +1,13 @@
 
-Lighting
-=============
+############
+  Lighting
+############
 
-##################
-Work In Progress
-##################
+.. important::
 
-- These addons relate to lighting and lighting sets.
+   Work In Progress
+
+These add-ons relate to lighting and lighting sets.
 
 .. toctree::
    :maxdepth: 1

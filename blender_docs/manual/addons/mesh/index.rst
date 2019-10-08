@@ -1,12 +1,13 @@
 
-Mesh
-=============
+########
+  Mesh
+########
 
-##################
-Work In Progress
-##################
+.. important::
 
-- These addons relate to edit mesh mode and related tools.
+   Work In Progress
+
+These add-ons relate to edit mesh mode and related tools.
 
 .. toctree::
    :maxdepth: 1

@@ -1,7 +1,8 @@
 
-Rigging
-=============
+###########
+  Rigging
+###########
 
-##################
-Work In Progress
-##################
+.. important::
+
+   Work In Progress

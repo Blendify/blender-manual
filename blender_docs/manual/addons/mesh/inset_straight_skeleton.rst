@@ -12,12 +12,13 @@ Inset Straight Skeleton
    :File: mesh_inset folder
    :Author: Howard Trickey
 
+
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Mesh then Inset Straight Skeleton to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Mesh then Inset Straight Skeleton to enable the script.
 
 
 Description

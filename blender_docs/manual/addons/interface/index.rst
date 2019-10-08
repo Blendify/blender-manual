@@ -1,12 +1,13 @@
 
-Interface
-=============
+#############
+  Interface
+#############
 
-##################
-Work In Progress
-##################
+.. important::
 
-- These addons add custom elements and menu's to the user interface.
+   Work In Progress
+
+These add-ons add custom elements and menu's to the user interface.
 
 .. toctree::
    :maxdepth: 1

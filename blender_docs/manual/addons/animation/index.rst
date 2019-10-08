@@ -1,12 +1,13 @@
 
-Animation
-=============
+#############
+  Animation
+#############
 
-##################
-Work In Progress
-##################
+.. important::
 
-- These addons relate to helper tools for the animation process and animation.
+   Work In Progress
+
+These add-ons relate to helper tools for the animation process and animation.
 
 .. toctree::
    :maxdepth: 1

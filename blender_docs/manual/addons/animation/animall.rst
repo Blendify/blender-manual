@@ -1,30 +1,27 @@
 
-**********************
+*******
 Animall
-**********************
+*******
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Animation
    :Description: Allows animation of mesh, lattice, curve and surface data.
-   :Location: Sidebar --> Animation Tab
+   :Location: :menuselection:`Sidebar --> Animation tab`
    :File: animation_animall.py
    :Author: Daniel Salazar (zanqdo)
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Animation then AnimAll to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Animation then AnimAll to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

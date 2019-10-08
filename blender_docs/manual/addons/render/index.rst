@@ -1,6 +1,7 @@
 
-Render
-=============
+##########
+  Render
+##########
 
 .. toctree::
    :maxdepth: 1
