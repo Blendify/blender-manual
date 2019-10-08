@@ -1,30 +1,27 @@
 
-**********************
+***********
 Dynamic Sky
-**********************
+***********
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Lighting
-   :Description: Creates Dynamic Sky for Cycles/Eevee.
-   :Location: View3D --> Sidebar --> Create Tab
+   :Description: Creates a Dynamic Sky for Cycles/Eevee.
+   :Location: :menuselection:`3D View --> Sidebar --> Create tab`
    :File: lighting_dynamic_sky.py
    :Author: Pratik Solanki
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Lighting then Dynamic Sky to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Lighting then Dynamic Sky to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

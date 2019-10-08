@@ -1,30 +1,27 @@
 
-**********************
-Tri-lighting
-**********************
+************
+Tri-Lighting
+************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Lighting
-   :Description: Add 3 Point Lighting to Selected / Active Object.
-   :Location: View3D --> Add --> Lights
+   :Description: Add three point lighting to the selected or active object.
+   :Location: :menuselection:`3D View --> Add --> Lights`
    :File: lighting_tri_lights.py
    :Author: Daniel Schalla
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Lighting then Tri-lighting to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Lighting then Tri-lighting to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

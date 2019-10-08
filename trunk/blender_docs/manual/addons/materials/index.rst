@@ -1,12 +1,13 @@
 
-Materials
-=============
+#############
+  Materials
+#############
 
-##################
-Work In Progress
-##################
+.. important::
 
-- These addons relate to materials libraries and materials helpers.
+   Work In Progress
+
+These add-ons relate to materials libraries and materials helpers.
 
 .. toctree::
    :maxdepth: 1

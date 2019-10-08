@@ -8,23 +8,20 @@ Dependency Graph Debug
 
    :Category:  Development
    :Description: Various dependency graph debugging tools.
-   :Location: Properties --> View Layers
+   :Location: :menuselection:`Properties --> View Layers`
    :File: depsgraph_debug.py
    :Author: Sergey Sharybin
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Development then Dependency Graph Debug to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Development then Dependency Graph Debug to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

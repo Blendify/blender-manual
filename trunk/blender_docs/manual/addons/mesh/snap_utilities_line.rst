@@ -1,30 +1,27 @@
 
-**********************
-Snap_Utilities_Line
-**********************
+*******************
+Snap Utilities Line
+*******************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Mesh
    :Description: Extends Blender Snap controls.
-   :Location: View3D --> TOOLS --> Line Tool
+   :Location: :menuselection:`3D View --> Tools --> Line Tool`
    :File: mesh_snap_utilities_line folder
    :Author: Germano Cavalcante
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Mesh then Snap_Utilities_Line to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Mesh then Snap Utilities Line to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

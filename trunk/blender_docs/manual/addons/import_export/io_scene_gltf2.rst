@@ -374,11 +374,12 @@ that object with the name "My Animation".
    Will be exported as an animation called "My Animation" with ConeAction
    playing on the Cone and CubeAction playing on the Cube.
 
-NLA Strip animations will be exported if the Animation → NLA Strips option is
-selected (on by default). All glTF animations are imported as NLA Strip
-animations.
+NLA Strip animations will be exported if the :menuselection:`Animation --> NLA Strips` option is
+selected (on by default). All glTF animations are imported as NLA Strip animations.
 
-If option is disabled, Blender NLA strip actions will be ignored. Only active action of each objects will be taken into account, and merged into a single glTF animation.
+If option is disabled, Blender NLA strip actions will be ignored.
+Only active action of each objects will be taken into account, and merged into a single glTF animation.
+
 
 Custom Properties
 -----------------

@@ -1,30 +1,27 @@
 
-**********************
+*****************
 Assign Shape Keys
-**********************
+*****************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Add Curve
-   :Description: Assigns one or more bezier curves as a shapekey for another bezier curve.
-   :Location: Sidebar --> Edit Tab
+   :Description: Assigns one or more Bézier curves as a shape key for another Bézier curve.
+   :Location: :menuselection:`Sidebar --> Edit tab`
    :File: curve_assign_shapekey.py
    :Author: Shrinivas Kulkarni
+
 
 Installation
 ============
 
-- This addon is bundled with Blender
-- Open Blender and go to User Preferences then the Addons Tab.
-- Click Add Curve then Assign Shape Keys to Enable the script. 
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Curve then Assign Shape Keys to enable the script.
 
 
 Description
 ===========
 
 - To Do
-
-
-
-

@@ -1,7 +1,8 @@
 
-Paint
-=============
+#########
+  Paint
+#########
 
-##################
-Work In Progress
-##################
+.. important::
+
+   Work In Progress

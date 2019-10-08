@@ -1,12 +1,13 @@
 
-Add Curve
-=============
+#############
+  Add Curve
+#############
 
-##################
-Work In Progress
-##################
+.. important::
 
-- These addons relate to curve object creation and curve based tools.
+   Work In Progress
+
+These add-ons relate to curve object creation and curve based tools.
 
 .. toctree::
    :maxdepth: 1
