@@ -104,7 +104,7 @@ Rip Region
 Rip creates a "hole" in the mesh by making a copy of selected vertices and edges,
 still linked to the neighboring non-selected vertices,
 so that the new edges are borders of the faces on one side, and the old ones,
-borders of the faces of the other side of the rip.
+borders of the faces on the other side of the rip.
 
 
 Examples

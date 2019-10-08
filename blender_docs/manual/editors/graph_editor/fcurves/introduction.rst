@@ -255,8 +255,8 @@ Automatic
       Auto handles.
 
 Auto Clamped
-   Automatic handles clamped to prevent overshoots and changes in the
-   curve direction between keyframes (S shapes).
+   Automatic handles clamped to prevent overshoots and
+   changes in the curve direction between keyframes (S-shapes).
 
    .. figure:: /images/editors_graph-editor_fcurves_introduction_autoclamped.png
       :width: 400px

@@ -11,6 +11,7 @@ Vector Math Node
 
 The *Vector Math* node performs the selected math operation on the input vectors.
 
+
 Inputs
 ======
 
@@ -24,11 +25,12 @@ Vector
 Scale
    Input Scale.
 
+
 Properties
 ==========
 
 Operation
-   The vector math operator to be applied on the input vectors. 
+   The vector math operator to be applied on the input vectors.
 
    Add
       The sum of A and B.
@@ -38,12 +40,12 @@ Operation
 
    Multiply
       The entrywise product of A and B.
-      ``(A.x * B.x, A.y * B.y, A.z * B.z)``  
-   
+      :math:`(A.x * B.x, A.y * B.y, A.z * B.z)`
+
    Divide
       The entrywise division of A by B. Division by zero returns zero.
-      ``(A.x / B.x, A.y / B.y, A.z / B.z)``
-   
+      :math:`(A.x / B.x, A.y / B.y, A.z / B.z)`
+
    Cross Product
       The cross product of A and B.
 
@@ -51,20 +53,20 @@ Operation
       The projection of A onto B.
 
    Reflect
-      The reflection of A around the normal B. B needn't be normalized.
+      The reflection of A around the normal B. B need not be normalized.
 
    Dot Product
       The dot product of A and B.
-   
+
    Distance
       The distance between A and B.
-   
+
    Length
       The length of A.
-   
+
    Scale
       The result of multiplying A by the scalar input *Scale*.
-      
+
    Normalize
       The result of normalizing A.
 
@@ -91,6 +93,7 @@ Operation
 
    Maximum
       The entrywise maximum from A and B.
+
 
 Outputs
 =======

@@ -4,14 +4,15 @@
 White Noise Texture Node
 ************************
 
-The *White Noise Texture* node returns a random number based on an input seed.
-The seed can be a number, a 2D vector, a 3D vector, or a 4D vector; depending on the *Dimenstions* property.
+The *White Noise Texture* node returns a random number based on an input :term:`seed`.
+The seed can be a number, a 2D vector, a 3D vector, or a 4D vector; depending on the *Dimensions* property.
 The output number ranges between zero and one.
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_node.png
    :align: right
 
    White Noise Texture Node.
+
 
 Inputs
 ======
@@ -23,6 +24,7 @@ Vector
 W
    Value used as seed in 1D and 4D dimensions.
 
+
 Properties
 ==========
 
@@ -32,11 +34,12 @@ Dimensions
    1D
       The *W* input is used as seed.
    2D
-      The x and y components of the *Vector* input are used as seed.
+      The X and Y components of the *Vector* input are used as seed.
    3D
       The *Vector* input is used as seed.
    4D
       Both the *Vector* input and the *W* input are used as seed.
+
 
 Outputs
 =======
@@ -44,12 +47,13 @@ Outputs
 Value
    Output random value.
 
+
 Notes
 =====
 
 The slightest difference in seed values would result in completely different outputs.
 Consequently, bad precision may have significant impact on the output.
-This issue mostly affects Cycles but not EEVEE.
+This issue mostly affects Cycles but not Eevee.
 Usually, we can mitigate this issue by:
 
 - Eliminating the problematic seed value. If the problematic seed value is constant,
@@ -61,25 +65,24 @@ Usually, we can mitigate this issue by:
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_issue.png
 
-   Precision issue due to signed zeros on the z-axis.
+   Precision issue due to signed zeros on the Z axis.
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_solution1.png
 
-   Migitating the issue by elimnating the z-axis.
+   Mitigating the issue by eliminating the Z axis.
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_solution2.png
 
-   Migitating the issue by adding an arbitrary value.
+   Mitigating the issue by adding an arbitrary value.
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_solution3.png
 
-   Migitating the issue by taking the absolute value.
+   Mitigating the issue by taking the absolute value.
+
 
 Examples
 ========
 
 .. figure:: /images/render_shader-nodes_textures_white-noise_solution1.png
 
-   Genegerating cell noise using the *Snap* vector operation and the *White Noise* node.
-
-
+   Generating cell noise using the *Snap* vector operation and the *White Noise* node.

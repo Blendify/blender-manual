@@ -14,8 +14,8 @@ as well as individual shortcut keys.
    All the "transform precision/snap" keys :kbd:`Ctrl` and/or :kbd:`Shift`
    also work for all these advanced operations, however most of them do not have
    :doc:`axis locking </scene_layout/object/editing/transform/control/axis_locking>` possibilities,
-   and some of them do not take into account the
-   :doc:`pivot point </scene_layout/object/editing/transform/control/pivot_point/index>` and/or
+   and some of them do not take into account
+   the :doc:`pivot point </scene_layout/object/editing/transform/control/pivot_point/index>` and/or
    :doc:`transform orientation </scene_layout/object/editing/transform/control/orientations>`
    either.
 
