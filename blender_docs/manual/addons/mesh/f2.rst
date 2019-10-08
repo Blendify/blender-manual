@@ -1,0 +1,31 @@
+
+**********************
+F2
+**********************
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Mesh
+   :Description: Extends the 'Make Edge/Face' functionality.
+   :Location: Mesh Edit mode --> F
+   :File: mesh_f2.py
+   :Author: Bart Crouch, Alexander Nedovizin, Paul Kotelevets (concept design), Adrian Rutkowski
+			  
+
+Installation
+============
+
+- This addon is bundled with Blender
+- Open Blender and go to User Preferences then the Addons Tab.
+- Click Mesh then F2 to Enable the script. 
+
+
+Description
+===========
+
+- To Do
+
+
+
+
