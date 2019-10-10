@@ -1,7 +1,7 @@
 
-#######
- Paint
-#######
+#########
+  Paint
+#########
 
 .. important::
 
@@ -13,4 +13,3 @@ These add-ons relate to the Paint modes and related tools.
    :maxdepth: 1
 
    paint_palettes.rst
-

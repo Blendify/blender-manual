@@ -1,14 +1,14 @@
 
-***************
- Node Wrangler
-***************
+*************
+Node Wrangler
+*************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Node
    :Description: Various tools to enhance and speed up node-based workflow.
-   :Location: :menuselection:`Node Editor Toolbar` or See Hotkey List
+   :Location: :menuselection:`node editor --> Toolbar` or see the hotkey list
    :File: node_wrangler.py
    :Author: Bartek Skorupa, Greg Zaal, Sebastian Koenig, Christian Brinkmann, Florian Meyer
 
@@ -25,6 +25,7 @@ Description
 ===========
 
 - To Do
+
 
 Hot Key List
 ============

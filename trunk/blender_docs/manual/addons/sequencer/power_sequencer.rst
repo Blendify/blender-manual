@@ -1,14 +1,14 @@
 
-*****************
- Power Sequencer
-*****************
+***************
+Power Sequencer
+***************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Sequencer
    :Description: Video editing tools for content creators.
-   :Location: :menuselection:`Video Sequencer`
+   :Location: Video Sequencer
    :File: power_sequencer folder
    :Author: Nathan Lovato
 

@@ -1,14 +1,14 @@
 
-*************
- Skinify Rig
-*************
+***********
+Skinify Rig
+***********
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Object
    :Description: Creates a mesh object from selected bones.
-   :Location: :menuselection:`Pose Mode --> Sidebar --> Create Tab`
+   :Location: :menuselection:`3D View Pose Mode --> Sidebar --> Create tab`
    :File: object_skinify.py
    :Author: Albert Makac (karab44)
 

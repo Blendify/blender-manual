@@ -1,7 +1,7 @@
 
-*****************
- Scatter Objects
-*****************
+***************
+Scatter Objects
+***************
 
 .. admonition:: Reference
    :class: refbox

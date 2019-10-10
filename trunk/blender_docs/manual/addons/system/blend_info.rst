@@ -1,13 +1,13 @@
 
-************************
- Scene Information
-************************
+*****************
+Scene Information
+*****************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  System
-   :Description: Show information about the .blend
+   :Description: Show information about the blend-file.
    :Location: :menuselection:`Properties --> Scene --> Blend Info Panel`
    :File: system_scene_information.py
    :Author: uselessdreamer

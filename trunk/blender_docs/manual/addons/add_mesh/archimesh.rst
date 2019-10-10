@@ -7,7 +7,7 @@ Archimesh
    :class: refbox
 
    :Category:  Add Mesh
-   :Description: Generate rooms, doors, Windows and architecture objects
+   :Description: Generate rooms, doors, windows and architecture objects.
    :Location: :menuselection:`Sidebar --> Create tab`
    :File: archimesh folder
    :Author: Antonio Vazquez (antonioya)

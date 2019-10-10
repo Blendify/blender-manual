@@ -1,13 +1,13 @@
 
-*********
- POV-3.7
-*********
+***********
+POV-Ray 3.7
+***********
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Render
-   :Description: POV-Ray 3.7 integration for blender.
+   :Description: POV-Ray 3.7 integration for Blender.
    :Location: :menuselection:`Render --> Engine --> POV-Ray 3.7`
    :File: render_povray folder
    :Author: Campbell Barton, Maurice Raybaud, Leonid Desyatkov, Bastien Montagne, Constantin Rahn, Silvio Falcinelli

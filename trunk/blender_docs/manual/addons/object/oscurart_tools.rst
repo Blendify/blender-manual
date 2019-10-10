@@ -1,14 +1,14 @@
 
-*****************
- Oscurart Tools
-*****************
+**************
+Oscurart Tools
+**************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Object
    :Description: Tools for objects, render, shapes, and files.
-   :Location: :menuselection:`3D View > Context Menu > Object/Edit Modes`
+   :Location: :menuselection:`3D View Object/Edit Modes --> context menu`
    :File: oscurart_tools folder
    :Author: Oscurart
 

@@ -1,14 +1,15 @@
 
-************************
- Manage UI translations
-************************
+**********************
+Manage UI Translations
+**********************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  System
-   :Description: Allows managing UI translations directly from Blender (update main .po files, update scripts' translations, etc..
-   :Location: :menuselection:`Main \"File\" menu, text editor, any UI control`
+   :Description: Allows managing UI translations directly from within Blender
+                 (update main po-files, update scripts' translations, etc.).
+   :Location: :menuselection:`Topbar --> File menu`, Text editor, any UI control
    :File: ui_translate folder
    :Author: Bastien Montagne
 

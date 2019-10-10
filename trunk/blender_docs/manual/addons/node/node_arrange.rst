@@ -1,14 +1,14 @@
 
-**************
- Node Arrange
-**************
+************
+Node Arrange
+************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Node
    :Description: Node Tree Arrangement Tools.
-   :Location: :menuselection:`Node Editor --> Properties --> Trees`
+   :Location: :menuselection:`node editor --> Sidebar --> Trees`
    :File: node_arrange.py
    :Author: JuhaW
 

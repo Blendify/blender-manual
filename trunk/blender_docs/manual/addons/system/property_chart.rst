@@ -1,14 +1,14 @@
 
-****************
- Property Chart
-****************
+**************
+Property Chart
+**************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  System
-   :Description: Edit arbitrary selected properties for objects/sequence strips of the same type
-   :Location: :menuselection:`3D View --> Sidebar --> Item Tab`
+   :Description: Edit arbitrary selected properties for objects/sequence strips of the same type.
+   :Location: :menuselection:`3D View --> Sidebar --> Item tab`
    :File: system_property_chart.py
    :Author: Campbell Barton (ideasman42)
 

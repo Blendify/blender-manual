@@ -1,16 +1,15 @@
 
-####
- UV
-####
+######
+  UV
+######
 
 .. important::
 
    Work In Progress
 
-These addons relate to the uv editor and uv editing.
+These add-ons relate to the UV editor and UV editing.
 
 .. toctree::
    :maxdepth: 1
 
    magic_uv.rst
-

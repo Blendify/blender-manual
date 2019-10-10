@@ -1,6 +1,6 @@
 
 ******************
-tinyCAD Mesh tools
+tinyCAD Mesh Tools
 ******************
 
 .. admonition:: Reference
@@ -8,7 +8,7 @@ tinyCAD Mesh tools
 
    :Category:  Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.
-   :Location: :menuselection:`View3D > EditMode Context Menu`
+   :Location: :menuselection:`3D View Edit Mode --> context menu`
    :File: tiny_cad folder
    :Author: zeffii (Dealga McArdle)
 
