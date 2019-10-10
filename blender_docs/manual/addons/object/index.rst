@@ -7,7 +7,7 @@
 
    Work In Progress
 
-These add-ons relate to the Node Editors and related tools.
+These add-ons relate to Object mode and related tools.
 
 .. toctree::
    :maxdepth: 1
