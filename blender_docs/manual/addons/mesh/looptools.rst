@@ -8,7 +8,7 @@ Loop Tools
 
    :Category:  Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.
-   :Location: :menuselection:`3D View --> Sidebar --> Edit Tab / Edit Mode Context Menu`
+   :Location: :menuselection:`3D View --> Sidebar --> Edit tab`, :menuselection:`3D View Edit Mode --> context menu`
    :File: mesh_looptools.py
    :Author: Bart Crouch
 

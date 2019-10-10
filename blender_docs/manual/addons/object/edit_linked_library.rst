@@ -1,14 +1,14 @@
 
-*********************
- Edit Linked Library
-*********************
+*******************
+Edit Linked Library
+*******************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Object
-   :Description: Allows editing of objects linked from a .blend library.
-   :Location: :menuselection:`File --> External Data / 3D View --> Sidebar --> Item Tab`
+   :Description: Allows editing of objects linked from a blend-file library.
+   :Location: :menuselection:`File --> External Data`, :menuselection:`3D View --> Sidebar --> Item tab`
    :File: object_edit_linked.py
    :Author: Jason van Gumster (Fweeb), Bassam Kurdali, Pablo Vazquez, Rainer Trummer
 

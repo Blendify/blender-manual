@@ -1,16 +1,17 @@
 
-**********
- Magic UV
-**********
+********
+Magic UV
+********
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  UV
-   :Description: UV Toolset. See Add-ons Preferences for details.
-   :Location: :menuselection:`UV Editor, UV and Edit mode menus`
+   :Description: UV toolset. See add-ons preferences for details.
+   :Location: :menuselection:`UV Editor --> UV and Edit mode menus`
    :File: magic_uv folder
-   :Author: Nutti, Mifth, Jace Priester, kgeogeo, mem, imdjs, Keith (Wahooney) Boshoff, McBuff, MaxRobinot, Alexander Milovsky
+   :Author: Nutti, Mifth, Jace Priester, kgeogeo, mem, imdjs, Keith (Wahooney) Boshoff, McBuff,
+            MaxRobinot, Alexander Milovsky
 
 
 Installation

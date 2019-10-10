@@ -7,7 +7,7 @@ BTracer
    :class: refbox
 
    :Category:  Add Curve
-   :Description: Tools for converting/animating objects/particles into curves
+   :Description: Tools for converting/animating objects/particles into curves.
    :Location: :menuselection:`Sidebar --> Create tab`
    :File: btrace folder
    :Author: liero, crazycourier, Atom, MacKracken, meta-androcto

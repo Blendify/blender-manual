@@ -8,7 +8,7 @@ Edit Mesh Tools
 
    :Category:  Mesh
    :Description: Mesh modeling toolkit. Several tools to aid modeling.
-   :Location: :menuselection:`3D View --> Sidebar --> Edit tab / Edit Mode context menu`
+   :Location: :menuselection:`3D View --> Sidebar --> Edit tab`, :menuselection:`3D View Edit Mode --> context menu`
    :File: mesh_tools folder
    :Author: Multiple Authors, Meta-Androcto
 

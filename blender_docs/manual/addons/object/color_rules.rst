@@ -1,13 +1,13 @@
 
-********************
- Object Color Rules
-********************
+******************
+Object Color Rules
+******************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Object
-   :Description: Rules for assigning object color (for object & wireframe colors).
+   :Description: Rules for assigning object color (for object and wireframe colors).
    :Location: :menuselection:`Properties --> Object Buttons`
    :File: object_color_rules.py
    :Author: Campbell Barton

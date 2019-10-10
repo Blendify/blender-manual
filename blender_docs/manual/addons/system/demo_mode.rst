@@ -1,14 +1,14 @@
 
-***********
- Demo Mode
-***********
+*********
+Demo Mode
+*********
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  System
-   :Description: Demo mode lets you select multiple blend files and loop over them.
-   :Location: :menuselection:`File --> Demo Menu`
+   :Description: Demo Mode lets you select multiple blend-files and loop over them.
+   :Location: :menuselection:`File --> Demo menu`
    :File: system_demo_mode folder
    :Author: Campbell Barton
 

@@ -1,14 +1,14 @@
 
-**********************
- Copy Render Settings
-**********************
+********************
+Copy Render Settings
+********************
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Render
    :Description: Allows to copy a selection of render settings from current scene to others.
-   :Location: :menuselection:`Render buttons (Properties window)`
+   :Location: :menuselection:`Properties editor --> Render tab`
    :File: render_copy_settings folder
    :Author: Bastien Montagne
 

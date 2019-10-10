@@ -1,14 +1,14 @@
 
-***********
- Bool Tool
-***********
+*********
+Bool Tool
+*********
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Object
-   :Description: Boolean Modifier Tools.
-   :Location: :menuselection:`3D View --> Sidebar --> Edit Tab` and Hotkey: `Ctrl Shift B`
+   :Description: Boolean modifier tools.
+   :Location: :menuselection:`3D View --> Sidebar --> Edit tab`, :kbd:`Shift-Ctrl-B`
    :File: object_boolean_tools.py
    :Author: Vitor Balbio, Mikhail Rachinskiy, TynkaTopi, Meta-Androcto, Simon Appelt
 

@@ -1,7 +1,7 @@
 
-**************************
- Refine tracking solution
-**************************
+************************
+Refine Tracking Solution
+************************
 
 .. admonition:: Reference
    :class: refbox

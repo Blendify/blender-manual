@@ -1,13 +1,13 @@
 
-########
- System
-########
+##########
+  System
+##########
 
 .. important::
 
    Work In Progress
 
-These addons relate to showing information about objects and scenes.
+These add-ons relate to showing information about objects and scenes.
 
 .. toctree::
    :maxdepth: 1

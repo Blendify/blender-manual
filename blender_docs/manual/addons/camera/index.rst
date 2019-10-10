@@ -13,4 +13,3 @@ These add-ons relate to Camera objects and tools.
    :maxdepth: 1
 
    camera_rigs.rst
-

@@ -1,14 +1,14 @@
 
-********
- Carver
-********
+******
+Carver
+******
 
 .. admonition:: Reference
    :class: refbox
 
    :Category:  Object
    :Description: Multiple tools to carve or to create objects.
-   :Location: :menuselection:`3D View --> Ctrl/Shift/x`
+   :Location: 3D View :kbd:`Shift-Ctrl-X`
    :File: object_carver folder
    :Author: Pixivore, Cedric LEPILLER, Ted Milker, Clarkx
 
