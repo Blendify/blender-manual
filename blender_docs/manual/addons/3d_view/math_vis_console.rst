@@ -12,6 +12,7 @@ Math Vis Console
    :File: space_view3d_math_vis.py
    :Author: Campbell Barton
    :Maintainer: Campbell Barton
+   :License: GPL
 
 
 Activation

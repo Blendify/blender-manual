@@ -11,6 +11,8 @@ Assign Shape Keys
    :Location: :menuselection:`Sidebar --> Edit tab`
    :File: curve_assign_shapekey.py
    :Author: Shrinivas Kulkarni
+   :Maintainer: Shrinivas Kulkarni
+   :License: GPL
 
 
 Activation

@@ -11,7 +11,9 @@ Stored Views
    :Location: :menuselection:`3D View  --> Sidebar --> View tab`
    :File: space_view3d_stored_views.py
    :Author: nfloyd, Francesco Siddi
-
+   :Maintainer: Brendon Murphy (meta-androcto)
+   :Contributors: ramboblender
+   :License: GPL
 
 Activation
 ==========
