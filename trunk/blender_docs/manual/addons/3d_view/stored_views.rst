@@ -13,38 +13,45 @@ Stored Views
    :Author: nfloyd, Francesco Siddi
 
 
-Installation
-============
+Activation
+==========
 
-- This add-on is bundled with Blender.
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click 3D View then Stored Views to enable the script.
+- This add-on is bundled with Blender.
 
 
-Description
-===========
+Introduction
+============
 
-Stored Views has three modes of operation, depending on which the following are saved or restored.
-Save stored views to your blend-file to easily have access to saved views later.
+- Stored Views has three modes of operation, depending on which the following are saved or restored.
+- Save stored views to your blend-file to easily have access to saved views later.
 
-View
+Interface
+=========
+
+.. figure:: /images/addons_3dview_stored_views.jpg
+   :align: right
+   :figwidth: 220px
+
+View:
    Save multiple view locations for easy navigation between views.
-POV
+POV:
    Save Point of View --> Perspective and Local modes.
 
-Camera to View
+Camera to View:
    Move Camera to current view.
-New Camera to View
+New Camera to View:
    Create a new Camera to current view.
 Save Current
-   Todo.
+   Save the View or PoV.
 
-Camera Selector
+Camera Selector:
   Tools for Camera selection and management.
 
-   Camera
-     Make the Camera active.
-   Preview Camera
-      Todo.
-   Add Camera Marker
-      Add a Camera Marker to help animating between Cameras.
+Camera:
+  Make the Camera active.
+Preview Camera:
+   Make Camera active, selected and Camera to View in 1 button.
+Add Camera Marker:
+   Add a Camera Marker to help animating between Cameras.
