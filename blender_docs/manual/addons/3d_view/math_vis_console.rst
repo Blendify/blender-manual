@@ -11,18 +11,19 @@ Math Vis Console
    :Location: :menuselection:`Properties --> Scene --> Python Console Menu`
    :File: space_view3d_math_vis.py
    :Author: Campbell Barton
+   :Maintainer: Campbell Barton
 
 
-Installation
-============
+Activation
+==========
 
-- This add-on is bundled with Blender.
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click 3D View then Math Vis (Console) to enable the script.
+- This add-on is bundled with Blender.
 
 
-Description
-===========
+Introduction
+============
 
 Sometimes when writing Python scripts you stumble on complicated
 matrix transformations, ray intersections, rotation conversions, mesh modifications, etc.
@@ -43,6 +44,9 @@ The following types are supported:
 
 Usage
 =====
+.. figure:: /images/addons_3dview_math_vis.jpg
+   :align: center
+   :figwidth: 680px
 
 Create a Python Console editor.
 In the Python Console define a mathutils variable::
