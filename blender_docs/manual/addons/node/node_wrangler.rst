@@ -27,7 +27,7 @@ Description
 - To Do
 
 
-Hot Key List
-============
+Hotkey List
+===========
 
 - To Do
