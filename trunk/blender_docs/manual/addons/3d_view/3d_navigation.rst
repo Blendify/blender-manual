@@ -12,6 +12,7 @@
    :File: space_view3d_3d_navigation.py
    :Author: Demohero, uriel, meta-androcto
    :Maintainer: Brendon Murphy (meta-androcto)
+   :License: GPL
 
 Activation
 ==========

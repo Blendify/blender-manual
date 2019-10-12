@@ -12,7 +12,7 @@ Measureit
    :File: measureit folder
    :Author: Antonio Vazquez (antonioya)
    :Maintainer: Antonio Vazquez (antonioya)
-
+   :License: GPL
 
 Activation
 ==========
