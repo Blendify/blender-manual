@@ -15,6 +15,7 @@ Stored Views
    :Contributors: ramboblender
    :License: GPL
 
+
 Activation
 ==========
 
@@ -26,8 +27,9 @@ Activation
 Introduction
 ============
 
-- Stored Views has three modes of operation, depending on which the following are saved or restored.
-- Save stored views to your blend-file to easily have access to saved views later.
+Stored Views has three modes of operation, depending on which the following are saved or restored.
+Save stored views to your blend-file to easily have access to saved views later.
+
 
 Interface
 =========
@@ -36,24 +38,24 @@ Interface
    :align: right
    :figwidth: 220px
 
-View:
+View
    Save multiple view locations for easy navigation between views.
-POV:
+POV
    Save Point of View --> Perspective and Local modes.
 
-Camera to View:
+Camera to View
    Move Camera to current view.
-New Camera to View:
+New Camera to View
    Create a new Camera to current view.
-Save Current:
+Save Current
    Save the View or :abbr:`POV (Point Of View)`.
 
 Camera Selector:
   Tools for Camera selection and management.
 
 Camera:
-  Make the Camera active.
-Preview Camera:
-   Make Camera active, selected and Camera to View in 1 button.
-Add Camera Marker:
+   Make the Camera active.
+Preview Camera
+   Make Camera active, selected and Camera to View in one button.
+Add Camera Marker
    Add a Camera Marker to help animating between Cameras.

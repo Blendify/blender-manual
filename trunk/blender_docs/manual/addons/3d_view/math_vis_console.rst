@@ -45,6 +45,7 @@ The following types are supported:
 
 Usage
 =====
+
 .. figure:: /images/addons_3dview_math_vis.jpg
    :align: center
    :figwidth: 680px
