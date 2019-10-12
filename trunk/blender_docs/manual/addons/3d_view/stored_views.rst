@@ -43,8 +43,8 @@ Camera to View:
    Move Camera to current view.
 New Camera to View:
    Create a new Camera to current view.
-Save Current
-   Save the View or PoV.
+Save Current:
+   Save the View or :abbr:`POV (Point Of View)`.
 
 Camera Selector:
   Tools for Camera selection and management.
