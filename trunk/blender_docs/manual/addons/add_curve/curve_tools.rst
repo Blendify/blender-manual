@@ -20,12 +20,12 @@ Curve Tools
    :License: GPL
 
 
-Installation
-============
+Activation
+==========
 
-- This add-on is bundled with Blender.
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Curve Tools to enable the script.
+- This add-on is bundled with Blender.
 
 
 Description
