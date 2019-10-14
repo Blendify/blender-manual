@@ -11,17 +11,23 @@ BlenderKit
    :Location: :menuselection:`3D View --> Sidebar --> Blenderkit`
    :File: blenderkit folder
    :Author: Vilem Duha, Petr Dlouhy
+   :Maintainer: Vilem Duha
+   :License: GPL
 
 
-Installation
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Mesh then BlenderKit Asset Library to enable the script.
+- This add-on is bundled with Blender.
+
+
+Introduction
 ============
 
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Mesh then BlenderKit to enable the script.
+Online Blenderkit Library, materials, models, brushes and more.
 
+An extended version is available from the authors site.
 
-Description
-===========
-
-- To Do
+Documentation can be found here: https://www.blenderkit.com/
