@@ -50,10 +50,10 @@ New Camera to View
 Save Current
    Save the View or :abbr:`POV (Point Of View)`.
 
-Camera Selector:
-  Tools for Camera selection and management.
+Camera Selector
+   Tools for Camera selection and management.
 
-Camera:
+Camera
    Make the Camera active.
 Preview Camera
    Make Camera active, selected and Camera to View in one button.

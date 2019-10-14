@@ -26,7 +26,7 @@ Activation
 Introduction
 ============
 
-This addon creates bolts and nuts.
+This add-on creates bolts and nuts.
 
 
 Usage

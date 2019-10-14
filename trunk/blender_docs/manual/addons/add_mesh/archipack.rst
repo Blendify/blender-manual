@@ -13,7 +13,7 @@ Archipack
    :Author: s-leger
    :Maintainer: s-leger
    :License: GPL
-   
+
 
 Activation
 ==========
@@ -26,8 +26,7 @@ Activation
 Introduction
 ============
 
-This addon features architectural objects and tools.
+This add-on features architectural objects and tools.
 
-An extended version is available from the authors github.
-
-Documentation can be found here: https://github.com/s-leger/archipack/wiki
+An extended version is available from the authors Github
+as well as the `documentation <https://github.com/s-leger/archipack/wiki>`__.

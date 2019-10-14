@@ -33,30 +33,37 @@ Btrace provides several ways to trace objects and particles and animate the resu
 
 Information
 ===========
-The five main tools (Object Trace, Object Connect, Mesh Follow, Particle Trace, Particle Connect) all share common settings for the most part.
-Each tool creates a curve as the end result. The settings for the curve created can be setup under the Curves Settings button.
 
-The tools have access to a few other features. All of them have access to the grow curve animation tool which animates the curve radius. As well as the Color Blender tool.
+The five main tools (Object Trace, Object Connect, Mesh Follow, Particle Trace, Particle Connect)
+all share common settings for the most part. Each tool creates a curve as the end result.
+The settings for the curve created can be setup under the *Curves Settings* button.
 
-Object Trace:
-  Creates a curve by joining points of a mesh in a continuous manner or by all edges. Options to modulate the curves radius or add distortion to mesh before converting.
+The tools have access to a few other features. All of them have access to
+the grow curve animation tool which animates the curve radius.
+As well as the Color Blender tool.
 
-Objects Connect:
-  Join selected objects with a curve and add hooks to each node.
+Object Trace
+   Creates a curve by joining points of a mesh in a continuous manner
+   or by all edges. Options to modulate the curves radius or add distortion to
+   mesh before converting.
 
-Particle Trace:
-  Creates a curve from each particle of a system. Keeping particle amount under 250 will make this run faster.
+Objects Connect
+   Join selected objects with a curve and add hooks to each node.
 
-Particle Connect:
-  Connects each particle of a system with a continuous curve.
+Particle Trace
+   Creates a curve from each particle of a system. Keeping particle amount under 250 will make this run faster.
 
-Mesh Follow:
-  Creates curve from animated mesh object. Following the path of either the verts, edges or faces, and also the option to follow the object's center point.
+Particle Connect
+   Connects each particle of a system with a continuous curve.
 
-Grow Curve Animation:
-  Animate the radius of a curve over time. Can be run alone on a curve object, or run with the tools above.
+Mesh Follow
+   Creates curve from animated mesh object. Following the path of
+   either the vertices, edges or faces, and also the option to follow the object's origin.
 
-F-Curve Noise:
-  Quick link to add a F-Curve modifier to an object.
+Grow Curve Animation
+   Animate the radius of a curve over time. Can be run alone on a curve object, or run with the tools above.
+
+F-Curve Noise
+   Quick link to add an F-curve modifier to an object.
 
 Each script has a number of different options which can be used to create some very interesting effects.

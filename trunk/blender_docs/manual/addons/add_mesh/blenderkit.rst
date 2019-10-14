@@ -28,6 +28,5 @@ Introduction
 
 Online Blenderkit Library, materials, models, brushes and more.
 
-An extended version is available from the authors site.
-
-Documentation can be found here: https://www.blenderkit.com/
+An extended version is available from the `authors site <https://www.blenderkit.com/>`__
+as well as the documentation.
