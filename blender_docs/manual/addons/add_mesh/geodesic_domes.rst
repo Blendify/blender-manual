@@ -33,110 +33,114 @@ Original introduction from Andy Houston (Blender 2.4 series)
 - A function that turns the current shape into its geometric dual (sort of).
 - Grid, Cylinder, Parabola, Torus and Ball primitives.
 - Hubs and Struts. Fill out those edges and vertices with your custom, decorative meshes.
-- Superformula deforming. Create rounded triangles, wobbly shapes etc.
+- Superformula deforming. Create rounded triangles, wobbly shapes, etc.
 
 Introduction by Brendon Murphy (Blender 2.6/7 series)
 
-- This Script can be used to create Geodesic Objects, not limited to Domes or Spheres.
+- This script can be used to create geodesic objects, not limited to domes or spheres.
 - Each mesh type created has it's own set of editable parameters.
-- By editing the paramerers, you can create many simple or complex mesh shapes.
-- Create an equal side Pyramid, a Soccer Ball, a Wine Glass & more.
-- Limited only by your imagination. ( & some cool math limitations )
-- Create complex mesh deformations with the Superformular parameters.
-- In the next section we will cover the menu types & how to use the parameters to "Design" your mesh.
+- By editing the parameters, you can create many simple or complex mesh shapes.
+- Create an equal side pyramid, a soccer ball, a wine glass and more.
+- Limited only by your imagination (and some cool math limitations).
+- Create complex mesh deformations with the superformular parameters.
+- In the next section we will cover the menu types and how to use the parameters to "design" your mesh.
 
 
 Instructions
 ============
 
-   Main:
-    - The "Main" menu is where you will do most of your work.
-    - The Geodesic Default Triangle will show in the 3d view & the Object Creation parameters can be accessed here.
-    - Please note: I find it's easier to Use the Object Creation Parameters first befor moving on to Faces, Struts & Hubs, these will be explained in the sections below.
+Main
+   - The *Main* menu is where you will do most of your work.
+   - The geodesic default triangle will be shown in the 3D View and the Object Creation parameters can be accessed here.
+   - Please note: I find it's easier to use the Object Creation parameters first before moving on to
+     Faces, Struts and Hubs, these will be explained in the sections below.
 
-For now, let's look at the Object Types & their Parameters
+For now, let's look at the Object Types and their parameters:
 
-   Objects Menu:
-    - There are 6 Object types you can create by default.
-    - Using the Parameters You can build upon these objects to create more object types.
-    - Object Types have unique parameter sets & share the Superformular Parameters.(described Later)
+Objects Menu
+   - There are six Object types you can create by default.
+   - Using the parameters you can build upon these objects to create more object types.
+   - Object Types have unique parameter sets and share the Superformular parameters (described below).
 
 
-Geodesic Object Class Types:
-============================
+Geodesic Object Class Types
+===========================
 
-Geodesic:
-    - Please note: the Frequency parameters have a high impact on object creation.
-    - To create a Geodesic Dome you must increase the Frequency or the default Triangle
+Geodesic
+   - Please note, the *Frequency* parameters have a high impact on object creation.
+   - To create a Geodesic Dome you must increase the *Frequency* or the default Triangle.
 
 Subdivide Basic/Triacon
-    Class 1 is the "equilateral triangle"
-    Class 2 is the "cube"
+   Class 1 is the "equilateral triangle".
+   Class 2 is the "cube".
 
 Hedron
-    Choose between Tetrahedron, Octahedron, Icosahedron
+   Choose between Tetrahedron, Octahedron, Icosahedron.
 
 Point
-    Point (Vert), Edge or Face pointing upwards
+   Point (vertex), edge or face pointing upwards.
 
 Shape
-    Choose between tri hex star face types
+   Choose between tri, hex or star face types.
 
 Round (may not work for all object types)
-    Choose between spherical or flat
+   Choose between spherical or flat.
 
-Geodesic Object Parameters:
+
+Geodesic Object Parameters
+--------------------------
 
 Frequency
-    Subdivide base triangles
+   Subdivide base triangles.
 
 Radius
-    Overall radius
+   Overall radius.
 
 Eccentricity
-    Scaling in x/y dimension
+   Scaling on the X/Y axis.
 
 Squish
-    Scaling in z dimension
+   Scaling on the Z axis.
 
-Square (x/y)
-    Superelipse action in x/y
+Square (X/Y)
+   Superellipse action in X/Y.
 
-Square (z")
-    Superelipse action in z
+Square (Z)
+   Superellipse action in Z.
 
-Rotate (x/y)
-    Rotate superelipse action in x/y
+Rotate (X/Y)
+   Rotate superellipse action in X/Y.
 
-Rotate (z)
-    Rotate superelipse action in z
+Rotate (Z)
+   Rotate superellipse action in Z.
 
-Duel
-    Faces become verts, verts become faces, edges flip
+Dual
+   Faces become vertices, vertices become faces, edges flip.
 
 
-Geodesic Object Types:
-============================
+Geodesic Object Types
+=====================
 
-- There are 6 Object types you can create.
-- Each Object has it's own set of parameters.
-- As you can see most menu items are Self Explained.
-- Tooltips will give you furthur information on individual parameters.
+- There are six Object types you can create.
+- Each type has it's own set of parameters.
+- As you can see most menu items are self explanatory.
+- The tooltips will give you further information on individual parameters.
 
 Gap
-    Shrink faces in direction
-    Add or remove rows of faces based on height (z) or (x/y)
+   Shrink faces in direction.
+   Add or remove rows of faces based on height (Z) or (X/Y).
 
 Phase
-    Rotate around pivot
-    Useful for rotating deformation or use with Gap
+   Rotate around pivot
+   Useful for rotating deformation or use with *Gap*.
 
 
 Import Your Mesh
 ================
 
-- You can Import your own mesh into geodesic domes for use within the script.
-- This is limited to the Faces, Struts & Hubs menu's
+You can import your own mesh into Geodesic Domes for use within the script.
+This is limited to the Faces, Struts and Hubs menu's.
+
 
 Faces
 =====

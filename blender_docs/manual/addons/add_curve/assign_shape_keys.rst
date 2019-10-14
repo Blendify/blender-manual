@@ -33,7 +33,7 @@ Useful for morphing curves and curve based text objects.
 Usage
 =====
 
-#. Select the target and shape key Bezier curve objects.
+#. Select the target and shape key Bézier curve objects.
 #. Make sure the target is the active object; you can do this by
    :kbd:`Shift-RMB`-clicking the target curve after the other selections are made.
 #. Go to the *Assign Shape Keys* tab and click *Assign Shape Keys* button.
@@ -42,9 +42,9 @@ Usage
 If the *Remove Original Objects* option is checked, the selected curve objects will be deleted
 and only the target is kept.
 
-There are a number of option to align the closed (cyclic spline) target and shape-key curves.
+There are a number of options to align the closed (cyclic spline) target and the shape-key curves.
 Also it's possible to match individual parts from a multi-part (multi-spline) of target
-and shape key curves (e.g. a text object converted to curve) based on various criteria.
+and shape key curves (e.g. a text object converted into a curve) based on various criteria.
 
 For smoother transition, you can subdivide the segments of one of the curves in the selection group.
 

@@ -26,7 +26,7 @@ Activation
 Introduction
 ============
 
-This addon creates a greeble object based on selected faces.
+This add-on creates a greeble object based on selected faces.
 
 
 Usage

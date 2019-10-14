@@ -26,31 +26,20 @@ Activation
 Introduction
 ============
 
-This tool is specially designed to generate architecture elements.
+This tool is specially designed to generate architecture elements, like:
 
-Rooms
-
-Doors
-
-Windows
-
-Kitchen cbinets
-
-Shelves
-
-Columns Stairs
-
-Tile roofs
-
-Books
-
-Lamps
-
-Venetian blinds
-
-Roller curtain
-
-Japanese curtains
+- Rooms
+- Doors
+- Windows
+- Kitchen cabinets
+- Shelves
+- Columns stairs
+- Tile roofs
+- Books
+- Lamps
+- Venetian blinds
+- Roller curtain
+- Japanese curtains
 
 
 Usage
