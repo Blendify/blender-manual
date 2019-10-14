@@ -11,7 +11,8 @@ Simplify Curves
    :Location: :menuselection:`3D View --> Dope Sheet and Graph editors`
    :File: curve_simplify.py
    :Author: testscreenings, Michael Soluyanov
-
+   :Maintainer: To Do
+   :License: GPL
 
 Installation
 ============
