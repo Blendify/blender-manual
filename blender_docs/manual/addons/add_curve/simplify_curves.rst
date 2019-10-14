@@ -16,12 +16,23 @@ Simplify Curves
 Installation
 ============
 
-- This add-on is bundled with Blender.
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Simplify Curves to enable the script.
+- This add-on is bundled with Blender.
 
 
-Description
-===========
+Introduction
+============
 
-- To Do
+The simplify curves Operator works on one selected curve object. It generates a new curve based on the original one.
+The higher the distance error threshold is set the more controlpoints are removed. 
+
+The simplify fcurves Operator works the same way, but on selected fcurves.
+
+Merge by distance operator will help tidy up imported curves in edit mode.
+
+
+Usage
+=====
+
+To Do

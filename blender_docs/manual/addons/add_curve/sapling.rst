@@ -11,6 +11,8 @@ Sapling Tree Gen
    :Location: :menuselection:`3D View --> Add --> Curve`
    :File: add_curve_sapling folder
    :Author: Andrew Hale (TrumanBlending), Aaron butcher, CansecoGPC
+   :Maintainer: To Do
+   :License: GPL
 
 
 Activation
