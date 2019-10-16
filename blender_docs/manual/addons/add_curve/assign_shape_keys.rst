@@ -3,16 +3,14 @@
 Assign Shape Keys
 *****************
 
-.. admonition:: Reference
-   :class: refbox
 
-   :Category:  Add Curve
-   :Description: Assigns one or more Bézier curves as a shape key for another Bézier curve.
-   :Location: :menuselection:`Sidebar --> Edit tab`
-   :File: curve_assign_shapekey.py
-   :Author: Shrinivas Kulkarni
-   :Maintainer: Shrinivas Kulkarni
-   :License: GPL
+Introduction
+============
+
+This add-on lets you assign one or more Bézier curve(s) as shape keys to other curve.
+Useful for morphing curves and curve based text objects.
+
+.. youtube:: 1pDd_GgsfSM
 
 
 Activation
@@ -20,14 +18,6 @@ Activation
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Assign Shape Keys to enable the script.
-- This add-on is bundled with Blender.
-
-
-Introduction
-============
-
-This add-on lets you assign one or more Bézier curve(s) as shape keys to other curve.
-Useful for morphing curves and curve based text objects.
 
 
 Usage
@@ -58,3 +48,17 @@ the selected curves are indicated by a marking point. Now if you select any vert
 the marker moves to this selected vertex, indicating the new starting vertex.
 You need to confirm the new positions by pressing :kbd:`Enter`.
 Pressing :kbd:`Esc`, reverts the positions to the earlier order.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Curve
+   :Description: Assigns one or more Bézier curves as a shape key for another Bézier curve.
+   :Location: :menuselection:`Sidebar --> Edit tab`
+   :File: curve_assign_shapekey.py
+   :Author: Shrinivas Kulkarni
+   :Maintainer: Shrinivas Kulkarni
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
