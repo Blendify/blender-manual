@@ -3,7 +3,6 @@
 Stored Views
 ************
 
-
 Introduction
 ============
 
@@ -33,36 +32,37 @@ POV
    Save Point of View --> Perspective and Local modes.
 
 Camera to View
-   Move selected Camera to current view.
+   Move the selected camera to current view.
 New Camera to View
-   Create a new Camera to current view.
+   Create a new camera to current view.
 Save Current
    Save the View or :abbr:`POV (Point Of View)`.
 
 Camera Selector
-   Tools for Camera selection and management.
+   Tools for camera selection and management.
 
 Camera
-   Make the Camera active.
+   Make the camera active.
 Preview Camera
-   Make Camera active, selected and Camera to View in one button.
+   Make the camera active, selected and *Camera to View* in one button.
 Add Camera Marker
-   Add a Camera Marker to help animating between Cameras.
+   Add a camera marker to help animating between cameras.
 
 
 Instructions
 ============
 
-- First Activate the user interface and storage by pressing :menuselection:`Initialize`.
-- With the :menuselection:`View` button active, Zoom, move or rotate the camera into a position you like.
-  (useful setting up camera locations and modelling specific areas of a mesh)
-- Or with the :menuselection:`POV` button active, change the user perspective or local views.
-- Press the :menuselection:`Save Current` to create a list of each srtored view or point of view.
+- First Activate the user interface and storage by pressing *Initialize*.
+- With the *View* button active, Zoom, move or rotate the camera into a position you like.
+  (Useful setting up camera locations and modeling specific areas of a mesh.)
+- Or with the *POV* button active, change the user perspective or local views.
+- Press the *Save Current* to create a list of each stored view or point of view.
 - You can move selected camera or create a new camera to the stored view.
-  (useful for setting up camera shots to different veiws)
-- The camera selector works in a similar way. Each camera is listed and you can make a camera active by pressing the camera icon.
+  (Useful for setting up camera shots to different views.)
+- The camera selector works in a similar way. Each camera is listed and
+  you can make a camera active by pressing the camera icon.
 - You can view each camera pressing the screen icon and also add camera markers using the arrow icon.
-  (Useful for setting up camera switching during animations)
+  (Useful for setting up camera switching during animations.)
 
 
 As all stored definitions are saved in the blend-file, you can save the file and

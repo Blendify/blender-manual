@@ -3,7 +3,6 @@
 Curve Tools
 ***********
 
-
 Introduction
 ============
 
@@ -21,7 +20,7 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D View --> Sidebar --> Edit tab`
+Located in the :menuselection:`3D View --> Sidebar --> Edit tab`.
 
 This add-on is split into sub panels with each panel having it's own specific set of tools.
 
@@ -102,25 +101,25 @@ Remove Doubles
    Remove doubled points.
 Discretize Curve
    Disconnect the selected points.
-Array Selected spline
-   Create an array of the selected curves in edit mode.
+Array Selected Spline
+   Create an array of the selected curves in Edit Mode.
 
 
 Curves Utils
 ------------
 
 Show Point Resolution
-   Display the resolution in the ui with colored overlay.
+   Display the resolution in the interface with a colored overlay.
 Show and Arrange Sequence
    Display and arrange the sequence.
 Remove Splines
-   Remove selected splines based on threshold.
+   Remove selected splines based on a threshold.
 Join Splines
-   Join selected splines based on threshold.
+   Join selected splines based on a threshold.
 Pathfinder
-  Tools for Paths.
+   Tools for paths.
 
-  
+
 .. admonition:: Reference
    :class: refbox
 

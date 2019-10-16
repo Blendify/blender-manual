@@ -3,7 +3,6 @@
 Ivy Gen
 *******
 
-
 Introduction
 ============
 
@@ -32,12 +31,12 @@ Interface
    :figwidth: 220px
 
 
-Located in the :menuselection:`3D View --> Sidebar --> Create tab`
+Located in the :menuselection:`3D View --> Sidebar --> Create tab`.
 
-Located in the :menuselection:`3D View --> Operator`
+Located in the :menuselection:`3D View --> Operator`.
 
-The Update Ivy operator is separate from the main menu and appears in the 3d view.
-You can adjust settings in the panel and press the :menuselection:`Update` button to update parameters.
+The Update Ivy operator is separate from the main menu and appears in the 3D View.
+You can adjust settings in the panel and press the *Update* button to update parameters.
 
 
 Instructions
@@ -52,7 +51,7 @@ Instructions
 The *Add Default Ivy* operator will use the default parameters during creation.
 This will generate your initial Ivy Curve and Leaves.
 From here you can access the *Ivy* menu in the Sidebar.
-I suggest to make small changes and then press *Update Ivy* in the 3d View operator.
+I suggest to make small changes and then press *Update Ivy* in the 3D View operator.
 
 
 .. admonition:: Reference

@@ -3,7 +3,6 @@
 BTracer
 *******
 
-
 Introduction
 ============
 
@@ -21,7 +20,7 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D View --> Sidebar --> Edit tab`
+Located in the :menuselection:`3D View --> Sidebar --> Edit tab`.
 
 The default setting in the interface is Choose Tool, here you pick what trace methods and functions.
 
@@ -42,9 +41,8 @@ the grow curve animation tool which animates the curve radius.
 As well as the Color Blender tool.
 
 Object Trace
-   Creates a curve by joining points of a mesh in a continuous manner
-   or by all edges. Options to modulate the curves radius or add distortion to
-   mesh before converting.
+   Creates a curve by joining points of a mesh in a continuous manner or by all edges.
+   Options to modulate the curves radius or add distortion to mesh before converting.
 
 Objects Connect
    Join selected objects with a curve and add hooks to each node.
@@ -66,7 +64,7 @@ F-Curve Noise
    Quick link to add an F-curve modifier to an object.
 
 Color Blender
-   Assign colors, create color palette, randomize colors.
+   Assign colors, create color palettes and randomize colors.
 
 Each script has a number of different options which can be used to create some very interesting effects.
 

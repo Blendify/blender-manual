@@ -3,11 +3,10 @@
 3D Navigation
 *************
 
-
 Introduction
 ============
 
-This custom menu is in part a virtual numpad emulator and an user perspective navigation tool.
+This custom menu is in part a virtual numpad emulator and a user perspective navigation tool.
 
 
 Activation
@@ -21,9 +20,7 @@ Interface
 =========
 
 Located in the :menuselection:`3D View --> Sidebar --> View tab`
-This addon is split over two panels.
-
-The :menuselection:`3D Nav` and :menuselection:`Pan Orbit Zoom Roll` panels are described below.
+This add-on is split over two panels.
 
 
 3D Nav

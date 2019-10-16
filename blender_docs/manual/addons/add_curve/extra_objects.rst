@@ -3,7 +3,6 @@
 Add Curve Extra Objects
 ***********************
 
-
 Introduction
 ============
 
@@ -24,15 +23,15 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D View --> Sidebar --> Create tab`
+Located in the :menuselection:`3D View --> Sidebar --> Create tab`.
 
-Located in the :menuselection:`3D View --> Add --> Curve Menu`
+Located in the :menuselection:`3D View --> Add --> Curve menu`.
 
 
 Information
 ===========
 
-Included Curve Object Addons:
+Included curve object add-ons:
 
 Curve Profiles (Curveaceous Galore) by Jimmy Hazevoet, testscreenings
    Arc, Arrow, Cogwheel, Cycloid, Flower, Helix, Noise, Nsided, Profile, Rectangle, Splat and Star types.
