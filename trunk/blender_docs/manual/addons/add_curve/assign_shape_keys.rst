@@ -3,7 +3,6 @@
 Assign Shape Keys
 *****************
 
-
 Introduction
 ============
 
@@ -23,13 +22,13 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D View --> Sidebar --> Edit tab`
+Located in the :menuselection:`3D View --> Sidebar --> Edit tab`.
 
 .. figure:: /images/addons_add_curve_shapekey_ui.jpg
    :align: right
    :figwidth: 220px
 
-   
+
 Usage
 =====
 

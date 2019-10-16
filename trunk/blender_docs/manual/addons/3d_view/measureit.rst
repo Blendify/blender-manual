@@ -3,7 +3,6 @@
 Measureit
 *********
 
-
 Introduction
 ============
 
@@ -27,18 +26,20 @@ Interface
    :align: center
    :figwidth: 640px
 
+
 Overview
 --------
 
 Located in the :menuselection:`3D View --> Sidebar --> View tab`
-The :menuselection:`Measureit Tools` panel is described below.
+The Measureit Tools panel is described below.
 
-- To view the measures you need to Press the :menuselection:`Show` button.
-- Many measure styles appear greyed out in the menu, these are active in edit modes.
-- Sub panel :menuselection:`Mesh Debug` has extra display options.
-- Sub panel :menuselection:`Items` appears after adding a Measure. This contains the color settings for each measure.
-- Sub panel :menuselection:`Configuration` contains the font settings.
-- Sub panel :menuselection:`Render` contains the render settings.
+To view the measures you need to press the *Show* button.
+Many measure styles appear grayed out in the menu, these are active in Edit Mode.
+
+- The Mesh Debug sub panel has extra display options.
+- The Items sub panel appears after adding a measure. This contains the color settings for each measure.
+- The Configuration sub panel contains the font settings.
+- The Render sub panel contains the render settings.
 
 
 Usage
@@ -68,4 +69,3 @@ the next time you use it, the measures will be ready.
    :License: GPL
    :Support Level: Community
    :Note: This add-on is bundled with Blender.
-   

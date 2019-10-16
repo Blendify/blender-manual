@@ -36,7 +36,7 @@ A.N.T. Landscape interface:
 Landscape Tools in the Sidebar:
    - Mesh Displace: Displace selected mesh vertices along normal or X, Y, Z direction.
    - Weight From Slope: Generates a weighted vertex group slope map based on the Z normal value.
-   - Landscape Eroder:  Apply various kinds of erosion to an A.N.T. Landscape grid,
+   - Landscape Eroder: Apply various kinds of erosion to an A.N.T. Landscape grid,
      also available in :menuselection:`Weight Paint mode --> Weights menu`.
 
 

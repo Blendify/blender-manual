@@ -3,7 +3,6 @@
 Math Vis Console
 ****************
 
-
 Introduction
 ============
 

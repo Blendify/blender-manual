@@ -12,7 +12,7 @@ Detail can be added to the shape of a surface with displacement shaders.
 
 To create displacement, connect a :doc:`Displacement </render/shader_nodes/vector/displacement>`
 or :doc:`Vector Displacement </render/shader_nodes/vector/vector_displacement>` node
-to the displacement output of the Material Output node. Procedural, painted or baked textures can
+to the displacement input of the Material Output node. Procedural, painted or baked textures can
 then be connected to these nodes.
 
 .. figure:: /images/render_materials_components_displacement_node-setup.png

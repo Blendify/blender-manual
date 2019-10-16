@@ -43,7 +43,7 @@ Bevel Resolution
    The lower this value, the smaller the number of vertices but
    the resulting geometry will be coarser.
 Curve Resolution
-   Changes the smoothness of the curve along its length. This is only relevant if Handle Type is set to Auto.
+   Changes the smoothness of the curve along its length. This is only relevant if *Handle Type* is set to Auto.
 Handle Type
    Determines the method of interpolation of the curve between Bézier points.
    Vector type results in fewer vertices but straight segments.
