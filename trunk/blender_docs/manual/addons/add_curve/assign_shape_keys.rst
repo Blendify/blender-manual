@@ -20,6 +20,16 @@ Activation
 - Click Add Curve then Assign Shape Keys to enable the script.
 
 
+Interface
+=========
+
+Located in the :menuselection:`3D View --> Sidebar --> Edit tab`
+
+.. figure:: /images/addons_add_curve_shapekey_ui.jpg
+   :align: right
+   :figwidth: 220px
+
+   
 Usage
 =====
 

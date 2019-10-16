@@ -3,32 +3,31 @@
 BTracer
 *******
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Category:  Add Curve
-   :Description: Tools for converting/animating objects/particles into curves.
-   :Location: :menuselection:`Sidebar --> Create tab`
-   :File: btrace folder
-   :Author: liero, crazycourier
-   :Contributors: Atom, MacKracken, meta-androcto
-   :Maintainer: Brendon Murphy (meta-androcto)
-   :License: GPL
-
-
-Activation
-==========
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Curve then BTracer to enable the script.
-
 
 Introduction
 ============
 
 The purpose of this script is to add tools that are similar to C4D Tracer.
 Btrace provides several ways to trace objects and particles and animate the resulting curve.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Curve then BTracer to enable the script.
+
+
+Interface
+=========
+
+Located in the :menuselection:`3D View --> Sidebar --> Edit tab`
+
+The default setting in the interface is Choose Tool, here you pick what trace methods and functions.
+
+.. figure:: /images/addons_add_curve_btrace_ui.jpg
+   :align: right
+   :figwidth: 220px
 
 
 Information
@@ -66,4 +65,22 @@ Grow Curve Animation
 F-Curve Noise
    Quick link to add an F-curve modifier to an object.
 
+Color Blender
+   Assign colors, create color palette, randomize colors.
+
 Each script has a number of different options which can be used to create some very interesting effects.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Curve
+   :Description: Tools for converting/animating objects/particles into curves.
+   :Location: :menuselection:`Sidebar --> Create tab`
+   :File: btrace folder
+   :Author: liero, crazycourier
+   :Contributors: Atom, MacKracken, meta-androcto
+   :Maintainer: Brendon Murphy (meta-androcto)
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
