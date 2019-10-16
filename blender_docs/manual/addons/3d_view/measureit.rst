@@ -3,25 +3,6 @@
 Measureit
 *********
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Category:  3D View
-   :Description: Tools for measuring objects in the 3D View.
-   :Location: :menuselection:`3D View --> Sidebar --> View tab`
-   :File: measureit folder
-   :Author: Antonio Vazquez (antonioya)
-   :Maintainer: Antonio Vazquez (antonioya)
-   :License: GPL
-
-
-Activation
-==========
-
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click 3D View then Measuteit to enable the script.
-- This add-on is bundled with Blender.
-
 
 Introduction
 ============
@@ -32,12 +13,36 @@ These tools are extremely useful for any job that requires exact measurements,
 including architectural projects, technical design and 3D printing.
 
 
-Usage
-=====
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click 3D View then Measuteit to enable the script.
+
+
+Interface
+=========
 
 .. figure:: /images/addons_3dview_measureit.jpg
    :align: center
    :figwidth: 640px
+
+Overview
+--------
+
+Located in the :menuselection:`3D View --> Sidebar --> View tab`
+The :menuselection:`Measureit Tools` panel is described below.
+
+- To view the measures you need to Press the :menuselection:`Show` button.
+- Many measure styles appear greyed out in the menu, these are active in edit modes.
+- Sub panel :menuselection:`Mesh Debug` has extra display options.
+- Sub panel :menuselection:`Items` appears after adding a Measure. This contains the color settings for each measure.
+- Sub panel :menuselection:`Configuration` contains the font settings.
+- Sub panel :menuselection:`Render` contains the render settings.
+
+
+Usage
+=====
 
 - Mesh vertex to vertex measure: Length between vertices in the same mesh.
 - Mesh vertex labeling: Add a label to any mesh vertex.
@@ -49,3 +54,18 @@ Usage
 
 As all measure definitions are saved in the blend-file, you can save the file and
 the next time you use it, the measures will be ready.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  3D View
+   :Description: Tools for measuring objects in the 3D View.
+   :Location: :menuselection:`3D View --> Sidebar --> View tab`
+   :File: measureit folder
+   :Author: Antonio Vazquez (antonioya)
+   :Maintainer: Antonio Vazquez (antonioya)
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
+   
