@@ -3,16 +3,11 @@
 3D Navigation
 *************
 
-.. admonition:: Reference
-   :class: refbox
 
-   :Category:  3D View
-   :Description: Navigate the 3D View and Camera from the Sidebar.
-   :Location: :menuselection:`3D View --> Sidebar --> View tab`
-   :File: space_view3d_3d_navigation.py
-   :Author: Demohero, uriel, meta-androcto
-   :Maintainer: Brendon Murphy (meta-androcto)
-   :License: GPL
+Introduction
+============
+
+This custom menu is in part a virtual numpad emulator and an user perspective navigation tool.
 
 
 Activation
@@ -20,25 +15,21 @@ Activation
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click 3D View then 3D Navigation to enable the script.
-- This add-on is bundled with Blender.
 
 
 Interface
 =========
 
-Interface/Menu Overview
------------------------
+Located in the :menuselection:`3D View --> Sidebar --> View tab`
+This addon is split over two panels.
 
-This custom menu is in part a virtual numpad emulator.
-It appears in the Sidebar and shows a simple clear layout.
-A use of the add-on is when working with laptops or keyboards without a numpad.
-The add-on has two panels that are described below.
+The :menuselection:`3D Nav` and :menuselection:`Pan Orbit Zoom Roll` panels are described below.
 
 
 3D Nav
 ------
 
-This panel provides common viewport navigation tools in the Sidebar.
+This panel provides some common navigation tools and emulates the numpad hot keys.
 
 .. figure:: /images/addons_3dview_3dnav_panel1.jpg
    :align: right
@@ -79,8 +70,8 @@ Cursor
 Pan Orbit Zoom Roll
 -------------------
 
-This panel provides "Screen View Perspective Navigate" in the Sidebar.
-Incremental viewport navigation from your perspective.
+This panel provides incremental "User Screen View Perspective" navigation in the Sidebar.
+
 
 .. figure:: /images/addons_3dview_3dnav_panel2.jpg
    :align: right
@@ -103,3 +94,16 @@ Zoom In/Out
 
 Roll Left/Right
    Roll the view left/right.
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  3D View
+   :Description: Navigate the 3D View and Camera from the Sidebar.
+   :Location: :menuselection:`3D View --> Sidebar --> View tab`
+   :File: space_view3d_3d_navigation.py
+   :Author: Demohero, uriel, meta-androcto
+   :Maintainer: Brendon Murphy (meta-androcto)
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
