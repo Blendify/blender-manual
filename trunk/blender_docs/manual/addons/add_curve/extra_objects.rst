@@ -3,16 +3,15 @@
 Add Curve Extra Objects
 ***********************
 
-.. admonition:: Reference
-   :class: refbox
 
-   :Category:  Add Curve
-   :Description: Add multiple extra curve object types.
-   :Location: :menuselection:`3D View --> Add --> Curve`
-   :File: add_curve_extra_objects folder
-   :Author: Multiple Authors
-   :Maintainer: Vladimir Spivak (cwolf3d)
-   :License: GPL
+Introduction
+============
+
+This add-on groups many curve object creation add-ons into a single one.
+
+.. figure:: /images/addons_curve_extra_objects_torus.jpg
+   :align: center
+   :figwidth: 640px
 
 
 Activation
@@ -20,13 +19,14 @@ Activation
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Extra Objects to enable the script.
-- This add-on is bundled with Blender.
 
 
-Introduction
-============
+Interface
+=========
 
-This add-on groups many curve object creation add-ons into a single one.
+Located in the :menuselection:`3D View --> Sidebar --> Create tab`
+
+Located in the :menuselection:`3D View --> Add --> Curve Menu`
 
 
 Information
@@ -55,3 +55,16 @@ Bevel/Taper Curve, by Cmomoney
    Adds bevel and/or taper curve to active curve.
 Surface Objects, by Folkert de Vries
    Adds a NURBS surface Plane, Cone, Star, Wedge.
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Curve
+   :Description: Add multiple extra curve object types.
+   :Location: :menuselection:`3D View --> Add --> Curve`
+   :File: add_curve_extra_objects folder
+   :Author: Multiple Authors
+   :Maintainer: Vladimir Spivak (cwolf3d)
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
