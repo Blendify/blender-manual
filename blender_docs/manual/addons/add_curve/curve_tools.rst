@@ -132,3 +132,5 @@ Pathfinder
    :Contributors: guy lateur, Alexander Meißner (Lichtso), Dealga McArdle (zeffii), Marvin K. Breuer (MKB)
    :Maintainer: Vladimir Spivak (cwolf3d)
    :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
