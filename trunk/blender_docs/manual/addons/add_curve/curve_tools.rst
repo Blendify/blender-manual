@@ -3,21 +3,12 @@
 Curve Tools
 ***********
 
-.. important::
 
-   Work In Progress
+Introduction
+============
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Category:  Add Curve
-   :Description: Adds functionality for Bézier/NURBS curve/surface modeling.
-   :Location: :menuselection:`Sidebar --> Edit tab`
-   :File: curve_tools folder
-   :Authors: MacKracken, cwolf3d, Alexander Meißner (Lichtso)
-   :Contributors: guy lateur, Alexander Meißner (Lichtso), Dealga McArdle (zeffii), Marvin K. Breuer (MKB)
-   :Maintainer: Vladimir Spivak (cwolf3d)
-   :License: GPL
+This add-on provides an extensive set of tools for the manipulating
+and editing of curves. Several :abbr:`CAD (Computer-Aided Design)` style curve tools are included.
 
 
 Activation
@@ -25,20 +16,18 @@ Activation
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Curve Tools to enable the script.
-- This add-on is bundled with Blender.
 
 
-Description
-===========
+Interface
+=========
 
-This add-on provides an extensive set of tools for the manipulating
-and editing of curves. Several :abbr:`CAD (Computer-Aided Design)` style curve tools are included.
-
-
-Information
-===========
+Located in the :menuselection:`3D View --> Sidebar --> Edit tab`
 
 This add-on is split into sub panels with each panel having it's own specific set of tools.
+
+.. figure:: /images/addons_add_curve_curve_tools_ui.jpg
+   :align: right
+   :figwidth: 220px
 
 
 One Curve
@@ -60,7 +49,7 @@ Curve
 -----
 
 Intersect curves
-   To Do.
+   Create an intersection between flat curves on the same plane.
 
 
 Two Curves Loft
@@ -106,27 +95,40 @@ Offset Curve
 Boolean Two Selected Spline
    Boolean selected curves on a 2D plane.
 Multi Subdivide
-   To do.
+   Subdivide with level of details.
 Split by Selected Points
-   To do.
+   Cuts the selected points creating openings.
 Remove Doubles
-   To do.
+   Remove doubled points.
 Discretize Curve
-   To do.
+   Disconnect the selected points.
 Array Selected spline
-   To do.
+   Create an array of the selected curves in edit mode.
 
 
 Curves Utils
 ------------
 
 Show Point Resolution
-   To do.
+   Display the resolution in the ui with colored overlay.
 Show and Arrange Sequence
-   To do.
+   Display and arrange the sequence.
 Remove Splines
-   To do.
+   Remove selected splines based on threshold.
 Join Splines
-   To do.
+   Join selected splines based on threshold.
 Pathfinder
-  To do.
+  Tools for Paths.
+
+  
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Curve
+   :Description: Adds functionality for Bézier/NURBS curve/surface modeling.
+   :Location: :menuselection:`Sidebar --> Edit tab`
+   :File: curve_tools folder
+   :Authors: MacKracken, cwolf3d, Alexander Meißner (Lichtso)
+   :Contributors: guy lateur, Alexander Meißner (Lichtso), Dealga McArdle (zeffii), Marvin K. Breuer (MKB)
+   :Maintainer: Vladimir Spivak (cwolf3d)
+   :License: GPL
