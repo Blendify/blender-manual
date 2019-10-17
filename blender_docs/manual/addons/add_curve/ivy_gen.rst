@@ -11,7 +11,7 @@ his original `IvyGen program <http://graphics.uni-konstanz.de/~luft/ivy_generato
 
 Original Blender port by testscreenings, further advances by PKHG and TrumanBlending.
 
-.. figure:: /images/addons_curve_ivygen.jpg
+.. figure:: /images/addons_add_curve_ivygen.jpg
    :align: center
    :figwidth: 640px
 

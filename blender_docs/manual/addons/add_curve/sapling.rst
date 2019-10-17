@@ -3,31 +3,29 @@
 Sapling Tree Gen
 ****************
 
-.. admonition:: Reference
-   :class: refbox
 
-   :Category:  Add Curve
-   :Description: Adds a parametric tree.
-   :Location: :menuselection:`3D View --> Add --> Curve --> Sapling Tree Gen`
-   :File: add_curve_sapling folder
-   :Author: Andrew Hale (TrumanBlending), Aaron Butcher, CansecoGPC
-   :Maintainer: To Do
-   :License: GPL
+Introduction
+============
 
+This add-on creates trees. There are many preset tree types to choose from or create your own.
+The method is presented by Jason Weber & Joseph Penn in their paper Creation and Rendering of Realistic Trees
 
 Activation
 ==========
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Sapling Tree Gen to enable the script.
-- This add-on is bundled with Blender.
 
+Interface
+=========
 
-Introduction
-============
+.. figure:: /images/addons_add_curve_sapling.jpg
+   :align: center
+   :figwidth: 640px
 
-This add-on creates trees. There are many preset tree types to choose from or create your own.
+Located in the :menuselection:`3D View --> Add --> Curve` menu.
 
+Once the tree is created there's 8 settings to build your tree
 
 Instructions
 ============
@@ -91,3 +89,17 @@ Limit Import
    If selected, only two levels of branches and no leaves will be generated.
 Branch splitting
    There are many variables to explore with branch splitting.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Curve
+   :Description: Adds a parametric tree.
+   :Location: :menuselection:`3D View --> Add --> Curve --> Sapling Tree Gen`
+   :File: add_curve_sapling folder
+   :Author: Andrew Hale (TrumanBlending), Aaron Butcher, CansecoGPC
+   :Maintainer: To Do
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
