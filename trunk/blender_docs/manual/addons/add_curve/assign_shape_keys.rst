@@ -55,7 +55,7 @@ In Edit Mode the *Assign Shape Keys* panel shows a single button -- *Mark Starti
 When clicked, all the starting vertices of the closed splines (disconnected parts) of
 the selected curves are indicated by a marking point. Now if you select any vertex,
 the marker moves to this selected vertex, indicating the new starting vertex.
-You need to confirm the new positions by pressing :kbd:`Enter`.
+You need to confirm the new positions by pressing :kbd:`Return`.
 Pressing :kbd:`Esc`, reverts the positions to the earlier order.
 
 

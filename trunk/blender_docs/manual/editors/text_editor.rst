@@ -71,14 +71,14 @@ Navigation
       Moves the cursor to the start of the current line.
    Line End :kbd:`End`
       Moves the cursor to the end of the current line.
-   Previous Line :kbd:`Up-Arrow`
+   Previous Line :kbd:`Up`
       Moves the cursor to the same position in the line above the current line.
-   Next Line :kbd:`Down-Arrow`
+   Next Line :kbd:`Down`
       Moves the cursor to the same position in the line below the current line.
-   Previous Word :kbd:`Ctrl-Left-Arrow`
+   Previous Word :kbd:`Ctrl-Left`
       Moves the cursor to the beginning of the previous word.
       If the cursor is in the middle of a word, the cursor is moved to the beginning of the current word.
-   Next Word :kbd:`Ctrl-Right-Arrow`
+   Next Word :kbd:`Ctrl-Right`
       Moves the cursor to the end of the next word.
       If the cursor is in the middle of a word, the cursor is moved to the end of the current word.
 
@@ -145,7 +145,7 @@ All :kbd:`Ctrl-A`
    Selects the entire text file.
 Line :kbd:`Shift-Ctrl-A`
    Selects the entire current line.
-Word :kbd:`LMB-LMB`
+Word double-click :kbd:`LMB`
    Selects the entire current word.
 Top :kbd:`Shift-Ctrl-Home`
    Selects everything above the cursor.
@@ -155,14 +155,14 @@ Line Begin :kbd:`Shift-Home`
    Selects everything between the beginning of the current line and the cursor.
 Line End :kbd:`Shift-End`
    Selects everything between the cursor and the end of the current line.
-Previous Line :kbd:`Shift-Up-Arrow`
+Previous Line :kbd:`Shift-Up`
    Selects everything between the cursor and the position of the cursor one line above.
-Next Line :kbd:`Shift-Down-Arrow`
+Next Line :kbd:`Shift-Down`
    Selects everything between the cursor and the position of the cursor one line below.
-Previous Word :kbd:`Shift-Ctrl-Left-Arrow`
+Previous Word :kbd:`Shift-Ctrl-Left`
    Selects everything between the cursor and the beginning of the previous word.
    If the cursor is in the middle of a word, select everything to the beginning of the current word.
-Next Word :kbd:`Shift-Ctrl-Right-Arrow`
+Next Word :kbd:`Shift-Ctrl-Right`
    Selects everything between the cursor and the end of the next word.
    If the cursor is in the middle of a word, select everything to the end of the current word.
 
