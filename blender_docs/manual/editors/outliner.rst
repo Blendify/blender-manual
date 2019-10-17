@@ -63,7 +63,7 @@ Extend the selection one data-block at a time using :kbd:`Ctrl-LMB`.
 Each data-block added to the selection this way will be made the active data-block.
 
 Select a range of elements from the active element using :kbd:`Shift-LMB`.
-To select a range without deselecting the previous selection, use :kbd:`Ctrl-Shift-LMB`.
+To select a range without deselecting the previous selection, use :kbd:`Shift-Ctrl-LMB`.
 
 A click and drag from any location in the Outliner other than a name or icon will begin a box selection.
 Use :kbd:`Shift` to add and :kbd:`Ctrl` to subtract from existing selections with box select.

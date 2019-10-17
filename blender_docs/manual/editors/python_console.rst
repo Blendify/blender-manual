@@ -30,10 +30,10 @@ View Menu
 
 Zoom In / Zoom Out
    Increases/Decreases the font size of the console text.
-Move to Previous Word :kbd:`Ctrl-Left-Arrow`
+Move to Previous Word :kbd:`Ctrl-Left`
    Moves the cursor to the beginning of the previous word.
    If the cursor is in the middle of a word, the cursor is moved to the beginning of the current word.
-Move to Next Word :kbd:`Ctrl-Right-Arrow`
+Move to Next Word :kbd:`Ctrl-Right`
    Moves the cursor to the end of the next word.
    If the cursor is in the middle of a word, the cursor is moved to the end of the current word.
 Move to Line Begin :kbd:`Home`

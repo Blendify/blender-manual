@@ -46,7 +46,7 @@ Instructions
 #. Enter Edit Mode and select a vertex that you want the ivy to spawn from.
 #. Snap the cursor to the selected vertex.
 #. Enter Object Mode and with the object selected:
-   Since version 1.1.4 :menuselection:`Sidebar --> Create --> Ivy Generator panel` adjust settings and choose *Add New Ivy*.
+   :menuselection:`Sidebar --> Create --> Ivy Generator panel` adjust settings and choose *Add New Ivy*.
 
 The *Add Default Ivy* operator will use the default parameters during creation.
 This will generate your initial Ivy Curve and Leaves.
