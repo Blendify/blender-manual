@@ -25,10 +25,14 @@ Interface
 
 Located in the :menuselection:`3D View --> Add --> Curve` menu.
 
-Once the tree is created there's 8 settings to build your tree
 
 Instructions
 ============
+
+Once the tree is created there's 8 settings to build your tree.
+
+When creating your tree it's often best to use the settings in order until your familiar with them.
+
 
 Geometry
 --------
@@ -49,22 +53,19 @@ Handle Type
 Shape
    Governs the distribution of branches in order to effect the overall shape of the tree.
 Custom Shape
-   Todo.
+   Customize the branch shape along the branch length.
 Secondary Splits
-   Todo.
+   Change the style of secondary branches.
 Branch Distribution
-   Todo.
+   Adjust branch distribution towards the top or bottom of the tree.
 Branch Rings
-   Todo.
+   Grow the Branches in Rings.
 Random Seed
    Sets the basis on which all random values for the tree are generated.
    This can be changed to allow different trees with the same basic parameters to be generated.
 
 
 Tree Scale
-----------
-
-Scale
    The underlying size of the tree in Blender units.
 Scale Variation
    The maximum amount that the scale of the tree can vary (up or down) from the value of *Scale*.
@@ -73,9 +74,6 @@ Radius Scale
 Radius Variation
    The maximum amount that the radius scale of the tree can vary (up or down) from the value of *Radius Scale*.
 
-
-Further Options
----------------
 
 Preset Name
    The name of the preset to be exported. This will export all current properties of the tree to
@@ -89,6 +87,83 @@ Limit Import
    If selected, only two levels of branches and no leaves will be generated.
 Branch splitting
    There are many variables to explore with branch splitting.
+
+
+Branch Radius
+-------------
+
+This sub menu contains the settings for the branch radius.
+
+You can adjust the bevel and taper of the branches here.
+
+
+Branch Splitting
+----------------
+
+This sub menu contains the settings for branch splitting.
+
+You can adjust how the branches form and split here.
+
+Settings include levels, height and angle of the split.
+
+
+Branch Growth
+-------------
+
+This sub menu contains the settings for branch growth.
+
+You can adjust how the branches grow here.
+
+Settings include length, angle and curvature.
+
+
+Pruning
+-------
+
+This sub menu contains the settings for pruning the branches.
+
+#. Press the *Prune* checkbox and you will see the prune object next to the tree.
+#. Change the settings to adjust the prune objects shape to form your tree.
+
+
+Leaves
+------
+
+This sub menu contains the settings for leaves.
+
+#. Press the *Show Leaves* checkbox and you will see leaves on the tree.
+#. Press the *Make mesh* checkbox iif you want to convert the curve to a mesh.
+
+Settings include shape, object type, rotations and scale.
+
+
+Armature
+--------
+
+This sub menu contains the settings to add an armature to your tree.
+
+It's not reccommended to use this function on highly complex trees as it may take time to compute, possibly stalling Blender.
+
+#. Turn of leaves and prune if you have them on.
+#. Press the *Use Armature* checkbox to add the armature to the tree.
+#. Adjust the armature levels and bone length to your liking.
+#. Do not pose the bones until you have finished the tree.
+#. you are now ready to use the next sub menu *Animation*.
+
+
+Animation
+---------
+
+This sub menu contains the settings to animate your tree.
+
+It's reccommended to finalize all your settings now.
+
+#. You will need to have an armature already created above.
+#. Press the *Armature Animation* checkbox to add the animation to the tree.
+#. Press the *Leaf Animation* checkbox to add the animation to the leaves if you have them.
+#. Press the *Fast Preview* checkbox to hide the leaves and bevel for fast animation playback in the viewport.
+
+Settings include speed, wind strength and leaf animation.
 
 
 .. admonition:: Reference

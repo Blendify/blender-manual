@@ -85,6 +85,10 @@ Convert Selected Faces to Bézier
 Convert Bézier to Surface
    Convert the selected curve to a NURBS surface.
 
+.. figure:: /images/addons_add_curve_curve_tools_utils.jpg
+   :align: right
+   :figwidth: 220px
+
 
 Extended
 --------
