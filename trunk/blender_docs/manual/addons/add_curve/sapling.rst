@@ -142,7 +142,7 @@ Armature
 
 This sub menu contains the settings to add an armature to your tree.
 
-It's not reccommended to use this function on highly complex trees as it may take time to compute, possibly stalling Blender.
+It's not reccommended to use this function on highly complex trees as it may take time to compute.
 
 #. Turn of leaves and prune if you have them on.
 #. Press the *Use Armature* checkbox to add the armature to the tree.
