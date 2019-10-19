@@ -46,7 +46,7 @@ UV Sculpt Tools
 
          Laplacian, HC
    Pinch :kbd:`P`
-      The Pinch brush moves UVs toward brush center.
+      The Pinch brush moves UVs toward the brush's center.
       The pinch brush can be inverted by pressing :kbd:`Ctrl-LMB`.
 Show Brush
    Hides the sculpt cursor.

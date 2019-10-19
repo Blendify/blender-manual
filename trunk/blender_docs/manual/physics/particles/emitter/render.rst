@@ -167,6 +167,6 @@ Parents Particles
 
 Unborn
    Render particles before they are born.
-Died
+Dead
    Render particles after they have died.
    This is very useful if particles die in a collision *Die on hit*, so you can cover objects with particles.

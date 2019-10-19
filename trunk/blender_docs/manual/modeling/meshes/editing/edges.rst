@@ -310,7 +310,7 @@ Connect Loops
    Open Loop
       Loops connected with open ends.
    Closed Loop
-      Tries to connect to a circular loop (where start and end are merged).
+      Tries to connect to a circular loop (where the start and end are merged).
    Loop pairs
       Connects each even count of loops individually.
 Merge

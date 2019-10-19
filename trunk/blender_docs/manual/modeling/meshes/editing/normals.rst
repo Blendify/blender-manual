@@ -127,7 +127,7 @@ Flip Direction
 This will reverse the normals direction of all selected faces.
 Note that this allows you to precisely control the direction
 (**not** the orientation, which is always perpendicular to the face) of your normals,
-as only selected ones are flipped.
+as only the selected faces are flipped.
 
 
 .. _bpy.ops.mesh.normals_make_consistent:
@@ -177,7 +177,7 @@ Rotate
    :Hotkey:    :kbd:`R N`
 
 This is an interactive tool. As you move the mouse around, the selected normals are rotated.
-You can also invoke the Rotate Normals tool by typing the Rotate transform key, :kbd:`R`
+You can also invoke the Rotate Normals tool by pressing the Rotate transform key :kbd:`R`,
 followed by :kbd:`N`.
 
 
@@ -208,11 +208,11 @@ Mode
    The tool operation can be modified; if one of the following keys has been previously pressed:
 
    Align :kbd:`A`
-      Then all normals will point in the same direction: from the center of selected points to the target.
+      All normals will point in the same direction: from the center of selected points to the target.
    Spherize :kbd:`S`
-      Then each normal will be an interpolation between its original value and the direction to the target.
+      Each normal will be an interpolation between its original value and the direction to the target.
    Invert :kbd:`I`
-      Then the normal directions are reversed from what was specified above.
+      The normal directions are reversed from what was specified above.
 
 Reset :kbd:`R`
    Will reset the custom normals back to what they were when the operation started.

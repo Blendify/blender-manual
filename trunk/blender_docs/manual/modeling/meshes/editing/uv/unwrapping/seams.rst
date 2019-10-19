@@ -14,7 +14,7 @@ Introduction
 For many cases, using the Unwrap calculations of Cube, Cylinder, Sphere,
 or best fit will produce a good UV layout. However, for more complex meshes,
 especially those with lots of indentations, you may want to define a *seam* to limit and
-guide any of the unwrapping processes discussed above.
+guide any of the unwrapping processes.
 
 Just like in sewing, a seam is where the ends of the image/cloth are sewn together.
 In unwrapping, the mesh is unwrapped at the seams.
@@ -64,8 +64,7 @@ Marking Seams
 
    Seamed Suzanne.
 
-To add an edge to a seam, simply select the edge and :kbd:`Ctrl-E` *Mark Seam*.
-To take an edge out of a seam, select it, :kbd:`Ctrl-E` and *Clear Seam*.
+To add an edge to a seam, simply select the edge and press :kbd:`Ctrl-E` to *Mark Seam*, or to remove it, use :kbd:`Ctrl-E` to *Clear Seam*.
 
 In the example to the right, the back-most edge of the cylinder was selected as the seam
 (to hide the seam), and the default unwrap calculation was used.
