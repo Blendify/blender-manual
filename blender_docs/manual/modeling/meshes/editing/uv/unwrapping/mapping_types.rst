@@ -71,7 +71,7 @@ They can be selected in the tool setting in the tool panel in the 3D View.
 Angle Based
    This method gives a good 2D representation of a mesh.
 Conformal
-   Uses LSCM (Least Squared Conformal Mapping). This usually gives a less accurate UV mapping than Angle Based,
+   Uses LSCM (Least Squares Conformal Mapping). This usually gives a less accurate UV mapping than Angle Based,
    but works better for simpler objects.
 
 Fill Holes
@@ -252,7 +252,7 @@ Cylinder and Sphere Projection
    Using an equirectangular image with a Sphere Projection.
 
 Cylindrical and Spherical mappings have the same options. The difference is that
-a cylindrical mapping projects the UVs on a plan toward the cylinder shape,
+a cylindrical mapping projects the UVs on a plane toward the cylinder shape,
 while a spherical map takes into account the sphere's curvature,
 and each latitude line becomes evenly spaced.
 Useful for spherical shapes, like eyes, planets, etc.
@@ -317,7 +317,7 @@ Orthographic
 Project from View (Bounds)
 ==========================
 
-With Bounds will do the same as `Project from View`_
+Similar to `Project from View`_,
 but with *Scale to Bounds* and *Correct Aspect* activated.
 
 

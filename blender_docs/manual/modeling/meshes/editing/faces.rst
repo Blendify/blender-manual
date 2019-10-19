@@ -241,7 +241,7 @@ Poke Faces
    :Menu:      :menuselection:`Faces --> Poke Face`
 
 Splits each selected faces into a triangle fan,
-create a new center vertex and create triangles between original face edges
+creating a new center vertex and triangles between the original face edges
 and new center vertex. The *Offset* can be used to make spikes or depressions.
 
 Poke Offset
@@ -271,7 +271,7 @@ Triangulate Faces
    :Menu:      :menuselection:`Face --> Triangulate Faces`
    :Hotkey:    :kbd:`Ctrl-T`
 
-This tool converts each selected faces (whether it be quads or n-gons) to triangular faces.
+This tool converts each of the selected faces (whether it be quads or n-gons) to triangular faces.
 See the :doc:`/modeling/modifiers/generate/triangulate`.
 
 
@@ -324,18 +324,18 @@ Max Angle
    Larger values are required for triangles with a shared edge that is small,
    relative to the size of the other edges of the triangles.
 Compare UVs
-   When enabled, it will prevent union of triangles that are not also adjacent in the active UV map.
+   When enabled, it will prevent the union of triangles that are not also adjacent in the active UV map.
 Compare Vertex Color
-   When enabled, it will prevent union of triangles that have no matching vertex color.
+   When enabled, it will prevent the union of triangles that have no matching vertex color.
 Compare Sharp
-   When enabled, it will prevent union of triangles that share an edge marked as sharp.
+   When enabled, it will prevent the union of triangles that share an edge marked as sharp.
 Compare Materials
-   When enabled, it will prevent union of triangles that do not have the same material assigned.
+   When enabled, it will prevent the union of triangles that do not have the same material assigned.
 
 .. hint::
 
-   When isolated groups of faces are selected these can be combined
-   with :ref:`Create Face <modeling-mesh-make-face-edge-dissolve>` or :ref:`modeling-mesh-deleting-dissolve-faces`,
+   When isolated groups of faces are selected, they can be combined
+   with :ref:`Create Face <modeling-mesh-make-face-edge-dissolve>` or :ref:`modeling-mesh-deleting-dissolve-faces`;
    this is not limited to quads.
 
 

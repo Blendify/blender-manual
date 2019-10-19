@@ -378,6 +378,7 @@ The Pivot Point can be changed to:
 - Bounding Box Center
 - Median Point
 - 2D Cursor Location
+- Individual Origins
 
 
 3D View

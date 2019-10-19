@@ -100,8 +100,8 @@ Affect Alpha
 
 .. move? this is not part of the brush panel
 
-Tilling
-=======
+Tiling
+======
 
 .. admonition:: Reference
    :class: refbox
