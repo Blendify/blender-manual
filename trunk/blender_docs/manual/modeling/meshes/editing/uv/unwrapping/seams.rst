@@ -64,7 +64,8 @@ Marking Seams
 
    Seamed Suzanne.
 
-To add an edge to a seam, simply select the edge and press :kbd:`Ctrl-E` to *Mark Seam*, or to remove it, use :kbd:`Ctrl-E` to *Clear Seam*.
+To add an edge to a seam, simply select the edge and press :kbd:`Ctrl-E` to *Mark Seam*,
+or to remove it, use :kbd:`Ctrl-E` to *Clear Seam*.
 
 In the example to the right, the back-most edge of the cylinder was selected as the seam
 (to hide the seam), and the default unwrap calculation was used.

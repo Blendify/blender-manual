@@ -13,7 +13,7 @@ A spline defines the shape of the curve and can be transformed by altering its `
 Splines come in three distinct types, which are described in `Spline Types`_.
 Each spline type has a slightly different algorithm for computing how bends in the spline are represented.
 
-Splines have there own separate properties than curves and can be altered
+Splines have their own separate properties than curves and can be altered
 by selecting the spline in Edit Mode and using
 the :doc:`Active Spline </modeling/curves/properties/active_spline>` panel.
 
