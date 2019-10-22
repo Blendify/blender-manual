@@ -67,7 +67,8 @@ This method of parenting is certainly easier to setup, but it can often lead to 
 objects in ways you would want. Overlaps can occur when it comes to determining which bones should
 influence certain vertices when calculating influences for more complex armatures and child objects.
 Symptoms of this confusion are that when transforming the armature in *Pose Mode*,
-parts of the child objects do not deform as you expect;If Blender does not give you the results you require,
+parts of the child objects do not deform as you expect;
+If Blender does not give you the results you require,
 you will have to manually alter the weights of vertices in relation to the vertex groups they belong to and
 have influence in.
 

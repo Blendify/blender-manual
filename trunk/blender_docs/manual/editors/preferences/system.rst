@@ -56,7 +56,7 @@ Global Undo
 Sequencer Cache Limit
    Upper limit of the Sequencer's memory cache (in megabytes).
    For an optimal Clip editor and Sequencer performance, high values are recommended.
-Console Scrollback Lines
+Console Scroll-back Lines
    The number of lines, buffered in memory of the console window.
    Useful for debugging purposes and command-line rendering.
 Texture Time Out
