@@ -22,7 +22,7 @@ The *Active Spline* panel is used in Edit Mode to control properties of the curr
 
 Cyclic U/V
    Like curves, surfaces can be closed (cyclical) or open, independently in both directions,
-   allowing you to easily create a tube, donut or sphere shape,
+   allowing you to easily create a tube, torus or sphere shape,
    and they can be viewed as "solids" in *Edit Mode*.
    This can be set per interpolation axis.
 Bézier U
