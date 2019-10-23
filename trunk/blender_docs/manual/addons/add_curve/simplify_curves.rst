@@ -3,20 +3,20 @@
 Simplify Curves
 ***************
 
-
 Introduction
 ============
 
-The Simplify Curves operator works on one selected curve object. It generates a new curve based on the original one.
+The Simplify Curves operator works on a single selected curve object.
+It generates a new curve based on the original one.
 The higher the *Distance Error* threshold is set the more control points are removed.
 
 The Simplify F-Curves operator works the same way, but on selected F-curves.
 
-Merge by Distance operator glues nearby points on a single Bezier curve.
-In fact it is an analogue of the usual Remove Doubles on a mesh, but it is for a curve.
+Merge by Distance operator glues nearby points on a single Bézier curve.
+In fact it is an analogue of the usual *Remove Doubles* on a mesh, but for curves.
 Unlike the mesh one, it does not connect the points from different parts of the curves,
 even if they are on the ends of the two curves.
-To glue such points, you must first connect them with :kbd:`F` key.
+To glue such points, you must first connect them with *Make Segment*.
 
 
 Activation
@@ -29,11 +29,11 @@ Activation
 Interface
 =========
 
-The *Merge By Distance* and *Curve Simplify* buttons are located in the
-:menuselection:`3D View --> Curve Context Menu` in curve Edit Mode.
+The *Merge By Distance* and *Curve Simplify* buttons are located in
+the :menuselection:`3D View --> Curve Context Menu` in curve Edit Mode.
 
-The *Simplify F-Curves* buttons are located in the
-:menuselection:`Dope Sheet --> Action --> Graph Editors --> Channel Menu`.
+The *Simplify F-Curves* buttons are located in
+the :menuselection:`Dope Sheet --> Action --> Graph Editors --> Channel Menu`.
 
 
 

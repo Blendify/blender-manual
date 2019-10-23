@@ -39,11 +39,11 @@ Operation
       The difference between A and B.
 
    Multiply
-      The entry-wise product of A and B.
+      The entrywise product of A and B.
       :math:`(A.x * B.x, A.y * B.y, A.z * B.z)`
 
    Divide
-      The entry-wise division of A by B. Division by zero returns zero.
+      The entrywise division of A by B. Division by zero returns zero.
       :math:`(A.x / B.x, A.y / B.y, A.z / B.z)`
 
    Cross Product
@@ -74,25 +74,25 @@ Operation
       The result of rounding A to the largest integer multiple of B less than or equal A.
 
    Floor
-      The entry-wise floor of A.
+      The entrywise floor of A.
 
    Ceil
-      The entry-wise ceiling of A.
+      The entrywise ceiling of A.
 
    Modulo
-      The entry-wise modulo of A by B.
+      The entrywise modulo of A by B.
 
    Fraction
       The fractional part of A.
 
    Absolute
-      The entry-wise absolute value of A.
+      The entrywise absolute value of A.
 
    Minimum
-      The entry-wise minimum from A and B.
+      The entrywise minimum from A and B.
 
    Maximum
-      The entry-wise maximum from A and B.
+      The entrywise maximum from A and B.
 
 
 Outputs

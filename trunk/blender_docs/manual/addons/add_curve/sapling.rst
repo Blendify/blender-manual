@@ -3,18 +3,19 @@
 Sapling Tree Gen
 ****************
 
-
 Introduction
 ============
 
 This add-on creates trees. There are many preset tree types to choose from or create your own.
-The method is presented by Jason Weber & Joseph Penn in their paper Creation and Rendering of Realistic Trees
+The method is presented by Jason Weber & Joseph Penn in their paper "Creation and Rendering of Realistic Trees".
+
 
 Activation
 ==========
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Curve then Sapling Tree Gen to enable the script.
+
 
 Interface
 =========
@@ -29,7 +30,7 @@ Located in the :menuselection:`3D View --> Add --> Curve` menu.
 Instructions
 ============
 
-Once the tree is created there's 8 settings to build your tree.
+Once the tree is created there are eight settings to build your tree.
 
 When creating your tree it's often best to use the settings in order until your familiar with them.
 
@@ -132,7 +133,7 @@ Leaves
 This sub menu contains the settings for leaves.
 
 #. Press the *Show Leaves* checkbox and you will see leaves on the tree.
-#. Press the *Make mesh* checkbox iif you want to convert the curve to a mesh.
+#. Press the *Make mesh* checkbox if you want to convert the curve to a mesh.
 
 Settings include shape, object type, rotations and scale.
 
@@ -142,7 +143,7 @@ Armature
 
 This sub menu contains the settings to add an armature to your tree.
 
-It's not reccommended to use this function on highly complex trees as it may take time to compute.
+It's not recommended to use this function on highly complex trees as it may take time to compute.
 
 #. Turn of leaves and prune if you have them on.
 #. Press the *Use Armature* checkbox to add the armature to the tree.
@@ -156,7 +157,7 @@ Animation
 
 This sub menu contains the settings to animate your tree.
 
-It's reccommended to finalize all your settings now.
+It's recommended to finalize all your settings now.
 
 #. You will need to have an armature already created above.
 #. Press the *Armature Animation* checkbox to add the animation to the tree.
