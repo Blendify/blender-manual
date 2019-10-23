@@ -12,6 +12,7 @@ dict_custom = {
     "decrementing",
     "desaturate",
     "enqueue",
+    "entrywise",
     "equiangular",
     "instantiation",
     "iterable",

@@ -56,7 +56,7 @@ Instructions
 - With the *View* button active, Zoom, move or rotate the camera into a position you like.
   (Useful setting up camera locations and modeling specific areas of a mesh.)
 - Or with the *POV* button active, change the user perspective or local views.
-- Press the *Save Current* to create a list of each stored view or point of view.
+- Press *Save Current* to create a list of each stored view or point of view.
 - You can move selected camera or create a new camera to the stored view.
   (Useful for setting up camera shots to different views.)
 - The camera selector works in a similar way. Each camera is listed and
