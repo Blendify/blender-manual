@@ -6,12 +6,12 @@ Refine Tracking Solution
 Introduction
 ============
 
-When solving for camera motion, narrowing down solve error by hand may be a really frustrating task.
+When solving for camera motion, narrowing down the solve error by hand can be a really frustrating task.
 Setting the track weight according to the reprojection error solve this issue for camera motion tracking.
 This add-on automatically sets the weight of all tracks according to the error in a single click.
 
 Basically this allow you to choose the wanted solution error and get it within a single click,
-even with poor tracks (stemming from the automatic detected feature).
+even with poor tracks (stemming from for example the automatic detected feature).
 
 It is perfectly suited for automatically tracked movies, with many tracks (motion flow like solving).
 Even a bad track may have a good influence with the correct weight.

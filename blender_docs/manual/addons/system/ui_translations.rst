@@ -3,6 +3,25 @@
 Manage UI Translations
 **********************
 
+Introduction
+============
+
+- To Do
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click System then Manage UI translations to enable the script.
+
+
+Description
+===========
+
+See `Blender translation howto <https://wiki.blender.org/wiki/Dev:Doc/How_to/Translate_Blender>`__ in the Wiki.
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -12,17 +31,4 @@ Manage UI Translations
    :Location: :menuselection:`Topbar --> File menu`, Text editor, any UI control
    :File: ui_translate folder
    :Author: Bastien Montagne
-
-
-Installation
-============
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click System then Manage UI translations to enable the script.
-
-
-Description
-===========
-
-- To Do
+   :Note: This add-on is bundled with Blender.

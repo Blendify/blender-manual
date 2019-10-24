@@ -33,7 +33,7 @@ The *Merge By Distance* and *Curve Simplify* buttons are located in
 the :menuselection:`3D View --> Curve Context Menu` in curve Edit Mode.
 
 The *Simplify F-Curves* buttons are located in
-the :menuselection:`Dope Sheet --> Action --> Graph Editors --> Channel Menu`.
+the :menuselection:`Dope Sheet --> Action --> Graph Editors --> Channel menu`.
 
 
 
