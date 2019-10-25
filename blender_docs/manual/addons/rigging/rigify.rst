@@ -222,7 +222,7 @@ Torso Bones
 
 Start by identifying on your character basic torso zones to follow as guide for bones placement.
 
-Head, Chest and Pelvis are rigid zones, so they require less bones.
+Head, chest and pelvis are rigid zones, so they require less bones.
 Having a good edge loop placement around zone boundaries on your model
 will help in having correct deformation after armature binding.
 
@@ -566,7 +566,7 @@ Limbs
 ``limbs.super_finger``
    Will create a bendy and stretchy chain or automatic bendy and stretchy finger depending on a master control bone.
 
-   Requirement: a chain of at least two connected bones.
+   Requirement: A chain of at least two connected bones.
 
    Bend Rotation Axis (X, Y, Z, -X, -Y, -Z)
       Defines the automatic rotation axis to be linked to the scale of the master bone.
@@ -633,7 +633,7 @@ Limbs
 ``limbs.super_palm``
    Will create a palm system based on the distance between palm bones.
 
-   Requirement: at least two bones child of the same parent.
+   Requirement: At least two bones child of the same parent.
    The property has to be set on the inner palm bones (think it as index's metacarpus),
    the rig control will appear on the last palm bone (think it as pinky's metacarpus).
 
@@ -755,14 +755,14 @@ Using Rig Types (Advanced)
 Layers, Bone Groups & Selection Sets
 ------------------------------------
 
-Armature Layers are usually used to isolate bones.
+Armature layers are usually used to isolate bones.
 Rigify can take advantage of armature layer to generate extra features and the user interface for the final rig.
 Blender 2.79 can handle 32 separate layers for each armature.
 The armature layers are visualized under the armature tab. They are split in two separate groups of 16:
 The top row contains layers from 1 to 8 and from 9 to 16.
 The bottom row layers form 17 to 24 and form 25 to 32.
 
-Rigify Layers are displayed in a vertical layout inside their own separate panel named Rigify Layer Names.
+Rigify layers are displayed in a vertical layout inside their own separate panel named Rigify Layer Names.
 
 - The first column shows the layer number.
 - The second column is a display toggle.
