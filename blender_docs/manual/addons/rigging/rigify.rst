@@ -319,8 +319,8 @@ If you need to generate more than one rig in the scene or update a specific one
 
 .. tip:: Rig Updating
 
-   To make the rig overwriting work as expected, you need to have **'both** the rig and
-   the meta-rig visible' before generating again.
+   To make the rig overwriting work as expected, you need to have **both** the rig and
+   the meta-rig visible before generating again.
 
 .. warning::
 
