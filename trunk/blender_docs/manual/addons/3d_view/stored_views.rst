@@ -20,7 +20,7 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`3D View --> Sidebar --> View tab`
+Located in the :menuselection:`3D View --> Sidebar --> View tab`.
 
 .. figure:: /images/addons_3dview_stored_views.jpg
    :align: right

@@ -252,7 +252,7 @@ Render Properties
 Radiosity
 ^^^^^^^^^
 
-In POV-Ray, ''Radiosity'' is diffuse interreflection which has nothing to do with vertex color based radiosity.
+In POV-Ray, "Radiosity" is diffuse interreflection which has nothing to do with vertex color based radiosity.
 In fact, it is more similar to final gathering of irradiance samples and provides a noise free indirect light.
 
 Some presets to radiosity are included, their names and settings are those of
