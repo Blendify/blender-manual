@@ -29,7 +29,7 @@ Description
 ===========
 
 Render Settings
-   This lists all render settings. The check box to the right controls whether that setting will be copied or not.
+   This lists all render settings. The checkbox to the right controls whether that setting will be copied or not.
    So if you want to copy a specific setting, hover your mouse over its control,
    note its Python name (e.g. ``resolution_x`` for the X resolution, etc.),
    and enable the corresponding item in this list.

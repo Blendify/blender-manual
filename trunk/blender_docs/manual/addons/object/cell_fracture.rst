@@ -3,6 +3,30 @@
 Cell Fracture
 *************
 
+Introduction
+============
+
+Todo.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Object then Cell Fracture to enable the script.
+
+
+Usage
+=====
+
+- In Object Mode select the object you want to Fracture.
+- Use the Operator Search menu: "Cell fracture selected mesh" (search "cell" will find the list item).
+- This will pop up the add-ons menu's.
+- Then choose your settings (you can try small settings first, large settings may be slow).
+- If you use defaults and the next layer checkbox is active the fractured object will appear on
+  the next layer to the active objects layer.
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -11,17 +35,5 @@ Cell Fracture
    :Location: :menuselection:`3D View --> Object menu --> Quick Effects`
    :File: object_fracture_cell folder
    :Author: ideasman42, phymec, Sergey Sharybin
-
-
-Installation
-============
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Object then Cell Fracture to enable the script.
-
-
-Description
-===========
-
-- To Do
+   :License: GPL
+   :Note: This add-on is bundled with Blender.

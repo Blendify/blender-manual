@@ -28,7 +28,7 @@ Description
 Provides access to commonly used settings and tools for painting/sculpting.
 
 
-.. rubric:: Features of note:
+.. rubric:: Features of Note:
 
 - Pop-ups to pick colors and edit curves.
 - A brush menu that supports user created brushes.
