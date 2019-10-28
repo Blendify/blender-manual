@@ -3,6 +3,34 @@
 Skinify Rig
 ***********
 
+Introduction
+============
+
+This add-on creates a mesh object "Skinify Guy" covering an armature with a mesh.
+
+- It works with Rigify:
+- It works with BVH imports:
+- It works with manuelbastionilab add-on:
+
+
+Activation
+==========
+
+- This add-on is bundled with Blender.
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Object then Scatter Objects to enable the script.
+
+
+Usage
+=====
+
+Select your armature in Pose Mode and skin the selected or all bones with a per-bone mesh or whole cover.
+If bones in your rig give unwanted results, often scaling and re-positioning the bones in Edit Mode can help.
+If your doing this to create your own "Skinify Guy" you can also delete bones.
+It will work with custom shapes but results may vary.
+More to come...
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -11,17 +39,5 @@ Skinify Rig
    :Location: :menuselection:`3D View Pose Mode --> Sidebar --> Create tab`
    :File: object_skinify.py
    :Author: Albert Makac (karab44)
-
-
-Installation
-============
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Object then Scatter Objects to enable the script.
-
-
-Description
-===========
-
-- To Do
+   :License: GPL 2+
+   :Note: This add-on is bundled with Blender.
