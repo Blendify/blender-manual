@@ -136,3 +136,11 @@ Particle Systems
 
 Alembic has no support for Particle Systems, in the same way that it does not support armatures.
 Hair is exported as animated zero-width curves. Particles are exported as animated points.
+
+
+Custom Split Normals of Meshes
+==============================
+
+Blender supports the export of :ref:`custom normals <modeling_meshes_normals_custom>` to Alembic
+files. This can be controlled on a mesh-by-mesh basis by enabling :ref:`Auto Smooth <auto-smooth>`
+checkbox. Custom Split Normals are exported only when this checkbox is enabled.
