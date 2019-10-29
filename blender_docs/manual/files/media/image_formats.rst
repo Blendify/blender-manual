@@ -206,7 +206,7 @@ OpenEXR
 for HDR image files, especially because of its flexible and expandable structure.
 
 An OpenEXR file can store multiple layers and passes.
-This means OpenEXR images can be loaded into a compositor keeping render layers and passes intact.
+This means OpenEXR images can be loaded into a Compositor keeping render layers and passes intact.
 
 
 Output Options

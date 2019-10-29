@@ -166,7 +166,7 @@ Upon loading the data from these baked files, when a frame of the bake sequence 
 it is cached in memory. This means that accessing loaded frames subsequent times is fast,
 not incurring the overhead of drive access.
 
-Since these baked files are plain ``OpenEXR``\ 's,
+Since these baked files are plain ``OpenEXR``'s,
 they can also be opened and rendered in any other application or renderer that supports them.
 
 

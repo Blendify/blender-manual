@@ -37,7 +37,7 @@ View Map Cache
    Although the ''View map cache'' checkbox is a view layer option,
    the cache memory is shared by all view layers and scenes.
    This means that if Freestyle is used for two or more view layers
-   (possibly in different scenes through the compositor),
+   (possibly in different scenes through the Compositor),
    then the cached view map for one view layer is replaced by a new view map
    for another view layer and hence no performance gain is expected.
 Face Smoothness

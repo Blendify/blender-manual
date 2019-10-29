@@ -9,7 +9,7 @@ Track Position Node
 
    Track Position Node.
 
-The *Track Position node* is used to return information about a tracking marker to the compositor.
+The *Track Position node* is used to return information about a tracking marker to the Compositor.
 
 
 Inputs

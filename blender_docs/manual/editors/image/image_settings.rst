@@ -107,7 +107,7 @@ Frame
    Start
       Global starting frame of the sequence, when the playback should start.
       This is a global setting which means it affects all clip users such as the Movie Clip editor itself,
-      motion tracking constraints and compositor nodes.
+      motion tracking constraints and Compositor nodes.
    Offset
       Offsets the first frame of the clip. It adds an extra offset to the frame number when
       converting a scene frame to the frame number in the file name.

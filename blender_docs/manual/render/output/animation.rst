@@ -57,7 +57,7 @@ and click *Animation* to render your scene out to a set of images,
 where each image is a frame in the sequence.
 
 Blender creates a file for each frame of the animation.
-You can then use Blender's compositor to perform any frame manipulation (post-processing).
+You can then use Blender's Compositor to perform any frame manipulation (post-processing).
 You can then use Blender's VSE to load that final image sequence,
 add an audio track to the animation, and render out to an MPEG format to complete your movie.
 The Frame Sequence approach is a little more complicated and takes more drive space,
@@ -111,7 +111,7 @@ Frame Sequence Workflow
       The :doc:`VSE </video_editing/index>` does not support multi-layer EXR files.
       To render to a video format you will have to skip the next three steps and
       instead use an :doc:`Image Input node </compositing/types/input/image>`
-      in the :doc:`compositor </compositing/types/input/image>`.
+      in the :doc:`Compositor </compositing/types/input/image>`.
 
 #. Choose *Add Image* from the add menu. Select all the frames from your output folder that you want to include
    in your animation (press :kbd:`A` to Select All easily). They will be added as a strip to the Sequence editor.

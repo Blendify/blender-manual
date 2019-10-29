@@ -42,7 +42,7 @@ Emulate 3 Button Mouse
       - Modifying multiple items values at once (objects, bones... etc).
       - Deselecting edge/face rings in Edit Mode.
       - Detaching node links.
-      - Moving the compositor background image.
+      - Moving the Compositor background image.
 
       Some touchpads support three-finger tap for middle mouse,
       which may be an alternative to using this option.

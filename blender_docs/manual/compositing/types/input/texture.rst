@@ -9,7 +9,7 @@ Texture Node
 
    Texture Node.
 
-The Texture node makes 3D textures available to the compositor.
+The Texture node makes 3D textures available to the Compositor.
 
 
 Inputs

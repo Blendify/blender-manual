@@ -3,7 +3,7 @@
 Introduction
 ************
 
-The NLA editor, short for Non-Linear Animation, can manipulate and repurpose :doc:`/animation/actions`,
+The NLA editor, short for NonLinear Animation, can manipulate and repurpose :doc:`/animation/actions`,
 without the tedium of handling keyframes. It is often used to make broad,
 significant changes to a scene's animation, with relative ease.
 It can also repurpose, chain together a sequence of motions, and "layered" actions, which make it easier to organize,

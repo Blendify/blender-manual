@@ -146,4 +146,4 @@ Pass Index
 
 Index number for the *Material Index* :doc:`render pass </render/layers/passes>`.
 This can be used to give a mask to a material which then can be read with
-the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the Compositor.

@@ -320,7 +320,7 @@ Views Format
 Compositor
 ==========
 
-The compositor works smoothly with multi-view images.
+The Compositor works smoothly with multi-view images.
 The compositing of a view is completed before the remaining views start to be composited.
 The pipeline is the same as the single-view workflow, with the difference that you can use Images,
 Movies or Image Sequences in any of the supported multi-view formats.

@@ -26,7 +26,7 @@ Editing of mask splines happens in a way similar to editing Bézier curves or pa
 .. tip::
 
    To get interactive feedback on the resulting mask,
-   a Mask node can be connected directly to a Viewer node in the compositor,
+   a Mask node can be connected directly to a Viewer node in the Compositor,
    which will then keep updating the compositing result while editing.
 
 

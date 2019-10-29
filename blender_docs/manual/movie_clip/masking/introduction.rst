@@ -11,7 +11,7 @@ Masks have many purposes. They can be used in a motion tracking workflow to mask
 or influence a particular object in the footage.
 They can be used for manual rotoscoping to pull a particular object out of the footage,
 or as a rough matte for green-screen keying. Masks are independent from a particular image of movie clip,
-and so they can just as well be used for creating motion graphics or other effects in the compositor.
+and so they can just as well be used for creating motion graphics or other effects in the Compositor.
 
 .. figure:: /images/compositing_types_input_mask_example.png
 
