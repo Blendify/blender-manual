@@ -99,10 +99,10 @@ UV
    Default render UV coordinates.
 Object Index
    Creates a mask of the object that can be later read by
-   the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+   the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the Compositor.
 Material Index
    Creates a mask of the material that can be later read by
-   the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+   the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the Compositor.
 Denoising Data
    Passes needed by the denoiser, for performing animation denoising in a second pass
    after rendering the entire animation. For still image denoising as part of
@@ -121,7 +121,7 @@ Cryptomatte
 -----------
 
 Cryptomatte is a standard to efficiently create mattes for compositing.
-Cycles outputs the required render passes, which can then be used in the Blender compositor
+Cycles outputs the required render passes, which can then be used in the Blender Compositor
 or another compositor with Cryptomatte support to create masks for specified objects.
 
 Unlike the Material and Object Index passes, the objects to isolate are selected in compositing,

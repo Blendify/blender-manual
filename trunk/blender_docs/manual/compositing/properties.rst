@@ -57,7 +57,7 @@ Performance
 
    Performance settings.
 
-This panel help you to tweak the performance of the compositor.
+This panel help you to tweak the performance of the Compositor.
 
 Render
    Sets the quality when doing the final render.

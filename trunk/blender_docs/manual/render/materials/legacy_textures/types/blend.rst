@@ -31,7 +31,7 @@ Progression
 Quadratic
    A quadratic progression.
 Easing
-   A flowing, non-linear progression.
+   A flowing, nonlinear progression.
 Diagonal
    A diagonal progression.
 Spherical

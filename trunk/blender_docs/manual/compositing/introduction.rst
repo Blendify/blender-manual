@@ -74,7 +74,7 @@ It is recommended to pay attention to image resolution and color depth when mixi
 matching images. Aliasing (rough edges), color *flatness*,
 or distorted images can all be traced to mixing inappropriate resolutions and color depths.
 
-The compositor can mix images with any size,
+The Compositor can mix images with any size,
 and will only perform operations on pixels where images have an overlap.
 When nodes receive inputs with differently sized Images, these rules apply:
 

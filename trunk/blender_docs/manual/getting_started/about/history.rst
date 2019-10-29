@@ -223,7 +223,7 @@ Version/Revision Milestones
    many improvements to the GE, and over 400 bug fixes.
 `2.72 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.72>`__ -- October 2014:
    Cycles gets volume and SSS support on the GPU, pie menus are added and tooltips greatly improved,
-   the Intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
+   the Intersection modeling tool is added, new sun beam node for the Compositor, Freestyle now works with
    Cycles, texture painting workflow is improved, and more than 220 bug fixes.
 `2.73 <https://wiki.blender.org/wiki/Reference/Release_Notes/2.73>`__ -- January 2015:
    Cycles gets improved volumetric support, major upgrade to Grease Pencil,

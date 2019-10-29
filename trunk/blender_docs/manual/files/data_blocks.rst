@@ -180,7 +180,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |none|
      - | Stores animation F-curves.
        | Used as data-block animation data,
-       | and the Non-Linear Animation editor.
+       | and the Nonlinear Animation editor.
    * - :doc:`Armature </animation/armatures/introduction>`
      - |tick|
      - |none|

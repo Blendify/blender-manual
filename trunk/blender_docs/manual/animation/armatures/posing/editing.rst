@@ -210,7 +210,7 @@ Breakdowner
    :Mode:      Pose Mode
    :Panel:     :menuselection:`Toolbar region --> In-Betweens Tools --> Breakdowner`
    :Menu:      :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`
-   :Hotkey:    :kbd:`LMB`\ -drag
+   :Hotkey:    :kbd:`LMB`-drag
 
 Creates a suitable breakdown pose on the current frame.
 

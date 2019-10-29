@@ -474,9 +474,9 @@ This page lists definitions for terms used in Blender and this manual.
       A general term used to describe a 3D mouse, or any input devices which supports
       more degrees of freedom than a conventional 2D input device, see: :ref:`hardware-ndof`.
 
-   Non-linear Animation
+   Nonlinear Animation
       Animation technique that allows the animator to edit motions as a whole,
-      not just the individual keys. Non-linear animation allows you to combine,
+      not just the individual keys. Nonlinear animation allows you to combine,
       mix, and blend different motions to create entirely new animations.
 
    Non-manifold
