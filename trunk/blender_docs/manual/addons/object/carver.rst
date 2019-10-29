@@ -95,7 +95,7 @@ Step Angle :kbd:`Ctrl`
 
 Tool Type :kbd:`W`, :kbd:`X`
    To change the tool type.
-Instantiate :kbd:`l`
+Instantiate :kbd:`L`
    For instances when you duplicate the object (with holding :kbd:`Alt`).
 Thickness :kbd:`D`
    To change the thickness of the pattern. Then move your mouse on the horizontal axis.
