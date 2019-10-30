@@ -6,7 +6,7 @@ Material Utilities
 Introduction
 ============
 
-The documentation can be found in author's
+The documentation can be found in the author's
 `Github repository <https://github.com/ChrisHinde/MaterialUtilities/blob/master/README.md>`__.
 
 
