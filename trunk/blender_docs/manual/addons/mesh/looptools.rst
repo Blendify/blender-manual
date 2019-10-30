@@ -138,33 +138,6 @@ Influence
    100% influence means the tool will have the maximum effect.
 
 
-Curve
------
-
-There are two valid input methods for the curve tool. The first is to select two or more vertices on the same loop.
-You can do this for multiple loops simultaneously to save time.
-The second method is to select one or more entire loops. If a full loop is selected,
-the curve tool won't operate on that loop, but on all loops perpendicular to it and
-use the vertices on the selected loop(s) as control points.
-
-Interpolation
-   Cubic gives a smooth curve, calculated using a natural cubic spline algorithm.
-   Linear calculates straight lines through the control points.
-Restriction
-   This restricts the movement of the vertices to only one direction. Indent only allows movement toward the mesh,
-   while extrude only allows movement away from the mesh (in the direction of the normal).
-Boundaries
-   If enabled, the curve won't stretch beyond the input vertices.
-   This limits the tool to only a subsection of the mesh.
-Regular
-   This will evenly distribute the vertices along the curve. Sometimes this can create weird results,
-   as an even distribution isn't always possible (since the selected input vertices aren't moved).
-   If that's the case, simply untoggle this button.
-Influence
-   The force of the tool. Zero percent influence means no changes will be made to the mesh.
-   100% influence means the tool will have the maximum effect.
-
-
 Flatten
 -------
 
@@ -215,12 +188,15 @@ Interpolation
    Determines how the final position of the vertices is calculated.
    Cubic uses a natural cubic spline to project the vertices on, linear projects the vertices on straight lines.
 
-   A word of caution: when you use the relax tool on a closed loop (a loop where all vertices are connected to
-   two other vertices in the same loop) you can better use cubic interpolation instead of the linear.
+   A word of caution: when you use the relax tool on a closed loop
+   (a loop where all vertices are connected to two other vertices in the same loop)
+   you can better use cubic interpolation instead of the linear.
    If you use linear interpolation, the volume of the loop will quickly diminish.
 Input
-   When set to selection the tool will only operate on the selected vertices.
-   Setting it to Parallel (all), will also include the vertices of all parallel loops.
+   Selection
+      When set to *Selection* the tool will only operate on the selected vertices.
+   Parallel (all)
+      Setting it to *Parallel (all)*, will also include the vertices of all parallel loops.
 Iterations
    The number of times the tool is run. A higher number gives a smoother result.
 Regular
@@ -236,8 +212,10 @@ Interpolation
    Cubic distributes the vertices along a natural cubic spline through,
    while linear projects the vertices on the already existing edges.
 Input
-   When set to selection the tool will only operate on the selected vertices.
-   Setting it to Parallel (all), will also include the vertices of all parallel loops.
+   Selection
+      When set to *Selection* the tool will only operate on the selected vertices.
+   Parallel (all)
+      Setting it to *Parallel (all)*, will also include the vertices of all parallel loops.
 Influence
    The force of the tool. Zero percent influence means no changes will be made to the mesh.
    100% influence means the tool will have the maximum effect.

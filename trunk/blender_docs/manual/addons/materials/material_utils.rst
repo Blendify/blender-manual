@@ -3,6 +3,20 @@
 Material Utilities
 ******************
 
+Introduction
+============
+
+The documentation can be found in author's
+`Github repository <https://github.com/ChrisHinde/MaterialUtilities/blob/master/README.md>`__.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Material then Material Utilities to enable the script.
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -11,17 +25,5 @@ Material Utilities
    :Location: 3D View :kbd:`Shift-Q`
    :File: materials_utils folder
    :Author: MichaleW, ChrisHinde
-
-
-Installation
-============
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Material then Material Utilities to enable the script.
-
-
-Description
-===========
-
-- To Do
+   :License: GPL 3+
+   :Note: This add-on is bundled with Blender.
