@@ -73,7 +73,7 @@ Merge with Automatic Type Detection
    :class: refbox
 
    :Hotkey:    :kbd:`Ctrl-0`, :kbd:`Ctrl-Plus`, :kbd:`Ctrl-Minus`, :kbd:`Ctrl-Asterix`, :kbd:`Ctrl-Slash`,
-               :kbd:`Ctrl-Shift-Comma`, :kbd:`Ctrl-Shift-Period`
+               :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
 
 Selected nodes‘ outputs will be merged using Mix, Math, Mix Shader or Add Shader nodes,
 depending on types of selected nodes.
@@ -88,9 +88,9 @@ Divide :kbd:`Ctrl-/`
    Divide blend type or math operation.
 Mix :kbd:`Ctrl-0`
    Mix blend type or when shaders are selected a Mix Shader node will be used.
-Greater than :kbd:`Ctrl-Shift-Comma`
+Greater than :kbd:`Shift-Ctrl-Comma`
    Greater than math operation.
-Less than :kbd:`Ctrl-Shift-Period`
+Less than :kbd:`Shift-Ctrl-Period`
    Less than math operation.
 
 
@@ -148,7 +148,7 @@ Batch Change Blend Type / Math Operation
    :class: refbox
 
    :Hotkey:    :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Alt-Plus`, :kbd:`Alt-Minus`, :kbd:`Alt-Asterix`,
-               :kbd:`Alt-Slash`, :kbd:`Alt-Shift-Comma`,  :kbd:`Alt-Shift-Period`
+               :kbd:`Alt-Slash`, :kbd:`Shift-Alt-Comma`,  :kbd:`Shift-Alt-Period`
 
 Select mix nodes or math nodes and change their blend type or math operation at the same time.
 Use keys specified above. They will change blend type or operation accordingly to:
@@ -168,10 +168,10 @@ Change Factor of selected Mix nodes or Mix Shader nodes.
 
 - Use :kbd:`Alt-Right` to increase it by 0.1.
 - Use :kbd:`Alt-Left` to decrease it by 0.1.
-- Use :kbd:`Alt-Shift-Right` to increase it by 0.01.
-- Use :kbd:`Alt-Shift-Left` to decrease it by 0.01.
-- Use :kbd:`Ctrl-Alt-Shift-Left` to set factor to 0.0. Additional shortcut is :kbd:`Ctrl-Alt-Shift-0`.
-- Use :kbd:`Ctrl-Alt-Shift-Right` to set factor to 1.0. Additional shortcut is :kbd:`Ctrl-Alt-Shift-1`.
+- Use :kbd:`Shift-Alt-Right` to increase it by 0.01.
+- Use :kbd:`Shift-Alt-Left` to decrease it by 0.01.
+- Use :kbd:`Shift-Ctrl-Alt-Left` to set factor to 0.0. Additional shortcut is :kbd:`Shift-Ctrl-Alt-0`.
+- Use :kbd:`Shift-Ctrl-Alt-Right` to set factor to 1.0. Additional shortcut is :kbd:`Shift-Ctrl-Alt-1`.
 
 
 Delete Unused Nodes
@@ -243,9 +243,9 @@ Shader Viewer
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-Shift-LMB`
+   :Hotkey:    :kbd:`Shift-Ctrl-LMB`
 
-Viewer Node for shaders. :kbd:`Ctrl-Shift-LMB` and the output of the node will be linked to
+Viewer Node for shaders. :kbd:`Shift-Ctrl-LMB` and the output of the node will be linked to
 newly created Emission Shader and Material Output. This is an easy way of previewing textures.
 
 
@@ -448,7 +448,7 @@ Simply allows you to select more than one image and adds a node for each.
 
    :Category:  Node
    :Description: Various tools to enhance and speed up node-based workflow.
-   :Location: :menuselection:`node editor --> Toolbar` or see the hotkey list
+   :Location: :menuselection:`node editor --> Sidebar` or see the hotkeys of individual tools.
    :File: node_wrangler.py
    :Author: Bartek Skorupa, Greg Zaal, Sebastian Koenig, Christian Brinkmann, Florian Meyer
    :License: GPL
