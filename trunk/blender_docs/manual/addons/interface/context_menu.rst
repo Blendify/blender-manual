@@ -23,7 +23,7 @@ Activation
 Usage
 =====
 
-This script switches out the Operator search menu, with a custom menu.
+This script switches out the Operator Search menu, with a custom menu.
 You can still use the :kbd:`Spacebar` to search by pressing outside the 3D View
 when the script is active, or just press *Search* in the script.
 

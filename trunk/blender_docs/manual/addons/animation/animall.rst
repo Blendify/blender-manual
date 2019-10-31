@@ -3,6 +3,25 @@
 Animall
 *******
 
+Introduction
+============
+
+Todo.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Animation then AnimAll to enable the script.
+
+
+Description
+===========
+
+.. youtube:: xlJ71XChDuY
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -11,17 +30,5 @@ Animall
    :Location: :menuselection:`Sidebar --> Animation tab`
    :File: animation_animall.py
    :Author: Daniel Salazar (zanqdo)
-
-
-Installation
-============
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Animation then AnimAll to enable the script.
-
-
-Description
-===========
-
-- To Do
+   :License: GPL
+   :Note: This add-on is bundled with Blender.
