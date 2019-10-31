@@ -12,7 +12,7 @@ This version uses a blend-file as database so all external render engines,
 all node materials and textures are supported. It also makes use of Blender compression.
 
 Please see `author's site <https://sites.google.com/site/aleonserra/home/scripts/matlib-vx-5-6>`__
- for the full docs.
+for the full docs.
 
 
 Activation

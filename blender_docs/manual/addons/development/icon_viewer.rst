@@ -3,6 +3,27 @@
 Icon Viewer
 ***********
 
+Introduction
+============
+
+An add-on that will help you to find an icon for your script and copy its name to the clipboard.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Development then Icon Viewer to enable the script.
+
+
+Interface
+=========
+
+Located in the :menuselection:`Text Editor --> Sidebar --> Icon Viewer`.
+
+Located in the :menuselection:`Python Console --> Header --> Icon Viewer`.
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -11,17 +32,4 @@ Icon Viewer
    :Location: :menuselection:`Text Editor --> Dev Tab --> Icon Viewer`
    :File: development_icon_get.py
    :Author: roaoao
-
-
-Installation
-============
-
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Development then Icon Viewer to enable the script.
-
-
-Description
-===========
-
-- To Do
+   :Note: This add-on is bundled with Blender.

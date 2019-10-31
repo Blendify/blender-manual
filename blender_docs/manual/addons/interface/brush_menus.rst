@@ -41,4 +41,3 @@ this add-on by going to the Add-ons tab in Preferences and expanding the add-on.
 
 .. figure:: /images/addons_interface_brush_menus.jpg
    :align: center
-   :width: 640px
