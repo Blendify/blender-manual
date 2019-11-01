@@ -6,7 +6,7 @@ Viewport Overlays
 Using the Viewport Overlays pop-over settings for the overlays can be configured.
 There is a switch to turn off all overlays for the 3D View.
 
-The options that are visible in the pop-over depends on the mode that the 3D View is in.
+The options that are visible in the pop-over depend on the mode that the 3D View is in.
 
 
 Object Mode
@@ -69,9 +69,9 @@ Wireframe
 
 Face Orientation
    Show the face orientation overlay. In the face orientation overlay
-   all faces where the face normal point towards the camera are colored blue.
-   All faces where the face normal point away from the camera are colored red.
-   With this overlay it is easy to detect the orientation of the face normals.
+   all faces where the face normal points towards the camera are colored blue.
+   All faces where the face normal points away from the camera are colored red.
+   With this overlay, it is easy to detect the orientation of the face normals.
 
 
 Motion Tracking
@@ -172,9 +172,9 @@ Numerical measures of the selected elements on screen as part of the text info o
 The :ref:`data-scenes-props-units` can be set in the Scene properties.
 
 Edge Length
-   Shows the length of selected edges.
+   Show the length of selected edges.
 Edge Angle
-   Shows the angle of selected edges between two faces.
+   Show the angle of selected edges between two faces.
 Face Area
    Show the area of selected faces.
 Face Angle
@@ -288,7 +288,7 @@ Fade 3D Objects
    while drawing over complex scenes. Include or not other Grease Pencil objects can be toggle
    and the opacity factor can be controlled with the slider.
 Fade Layers
-   Decreases the opacity of all the layers in the object other than the active one.
+   Decrease the opacity of all the layers in the object other than the active one.
    The opacity factor can be controlled with the slider.
 Edit Lines
    Show edit lines when editing strokes.

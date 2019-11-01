@@ -11,7 +11,7 @@ with access to the entire Python API, command history and auto-complete.
 The command prompt is typical for Python 3.x,
 the interpreter is loaded and is ready to accept commands at the prompt ``>>>``.
 
-The Python Console is a good way to explore the possibilities of Blender Built in python.
+The Python Console is a good way to explore the possibilities of Blender built-in python.
 The Python Console can be used to test small bits of python which can then be pasted into larger scripts.
 
 .. figure:: /images/editors_python-console_default.png

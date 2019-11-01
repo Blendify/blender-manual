@@ -120,7 +120,7 @@ End
 Strip Offset Start/End
    Can be used to either extend the strip beyond the end frame by repeating the last frame.
    Or it can be used to shorten the strip, as if you were cropping the end frame.
-   This is the same has adjusting the strip handles.
+   This is the same as adjusting the strip handles.
 
 .. _sequencer-duration-hard:
 
