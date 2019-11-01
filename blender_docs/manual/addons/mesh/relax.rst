@@ -20,7 +20,7 @@ Usage
 =====
 
 Go into Edit Mode and select the vertices you want to relax.
-To execute the script either :menuselection:`Specials --> Relax`
+To execute the script either :menuselection:`Context Menu --> Relax`
 or use :menuselection:`Mesh --> Vertices --> Relax` instead.
 
 

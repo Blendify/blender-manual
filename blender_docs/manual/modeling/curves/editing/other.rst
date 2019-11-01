@@ -112,7 +112,7 @@ Set Goal Weight
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Specials --> Set Goal Weight`
+   :Menu:      :menuselection:`Context Menu --> Set Goal Weight`
 
 Sets the curve's :ref:`Weight <curves-weight>` for the selected control point to the specified value.
 If more than one control point is selected this will set the *Mean Weight*.

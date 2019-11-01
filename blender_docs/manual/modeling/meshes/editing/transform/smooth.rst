@@ -61,7 +61,7 @@ Laplacian Smooth
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Specials --> Laplacian Smooth`
+   :Menu:      :menuselection:`Context Menu --> Laplacian Smooth`
 
 See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>` for details.
 

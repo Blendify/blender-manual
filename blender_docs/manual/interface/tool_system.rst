@@ -23,6 +23,11 @@ Some tools define gizmos (*Shear* and *Spin* for example) to help control the to
 Toolbar
 =======
 
+.. admonition:: Reference
+   :class: refbox
+
+   :Hotkey:    :kbd:`T`
+
 .. figure:: /images/interface_tool_system_buttons-popup.png
    :align: right
 
@@ -35,8 +40,44 @@ when you :kbd:`LMB` drag so that you can select other tools of the same group.
 Hovering your cursor over a tool for a short time will show its name,
 while hovering longer will show the full tooltip.
 
-Resizing the toolbar horizontally will display the icons with two columns.
+Resizing the Toolbar horizontally will display the icons with two columns.
 Expanding it further will display the icon and its text.
+
+The accelerator keys are displayed in the tooltip.
+
+
+Pop-Up Toolbar
+==============
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Hotkey:    :kbd:`Spacebar`
+
+Keyboard tool switching is not enabled by default. To enable it,
+set the Keymap preferences :ref:`keymap-blender_default-spacebar_action` to *Tools*,
+and then you'll be able use :kbd:`Spacebar` like a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:`Shift`).
+
+:kbd:`Spacebar T` for Transform, :kbd:`Spacebar D` for Annotate, :kbd:`Spacebar M` for measure, etc.
+
+
+Quick Access Menu
+=================
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Hotkey:    :kbd:`Q`
+
+The Quick Access menu gather your favorite tools.
+Any tool or menu can be added to this pop-up menu via the context menu of buttons and menus.
+
+
+Cycling Tools
+=============
+
+If you bind a key to a tool which is part of a group, you can enable the *Cycle* option in the keymap editor.
+Successive presses will cycle through the tools in that group.
 
 
 Properties
@@ -47,22 +88,3 @@ Tools can have their own settings, which are available from multiple places:
 - The :menuselection:`Sidebar --> Tools --> Active Tool` panel.
 - The *Active Tool* tab in the Properties editor.
 - The *Tool Settings* region.
-
-
-Switching Tools
-===============
-
-Keyboard tool switching is not enabled by default. To enable it,
-set the Keymap preferences :ref:`keymap-blender_default-spacebar_action` to *Tools*,
-and then you'll be able use :kbd:`Spacebar` like a modifier key (similar to pressing :kbd:`Ctrl` or :kbd:`Shift`).
-
-:kbd:`Spacebar-T` for Transform, :kbd:`Spacebar-D` for Annotate, :kbd:`Spacebar-M` for measure, etc.
-
-*The accelerator keys are displayed in the tooltip.*
-
-
-Cycling Tools
--------------
-
-If you bind a key to a tool which is part of a group, you can enable the *Cycle* option in the keymap editor.
-Successive presses will cycle through the tools in that group.

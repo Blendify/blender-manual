@@ -94,7 +94,6 @@ All
    To clear everything at once.
 Reset Unkeyed
    Clears the transforms to their keyframe state.
-   This operator is also available in the :menuselection:`Specials --> Clear User Transform` menu.
 
    Only Selected
       Operate on just the selected or all bones.

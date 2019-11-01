@@ -354,8 +354,8 @@ will assembly perfectly with each other.
    the two vertices you used to create the height of the extrusions in the last example.
 #. Use the shortcut :kbd:`X` to delete them.
 #. Press the shortcut :kbd:`A` to select the remaining vertices.
-#. Press the shortcut :kbd:`W`, and select :menuselection:`Specials --> Subdivide`.
-#. Now, click with the :kbd:`RMB` on the middle vertex.
+#. Select :menuselection:`Context Menu --> Subdivide`.
+#. Now, click with the :kbd:`LMB` on the middle vertex.
 #. Move this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
    See Fig. :ref:`fig-mesh-screw-spindle`.
 #. At this point, you can save this blend-file to recycle the generated Screw for another exercise;

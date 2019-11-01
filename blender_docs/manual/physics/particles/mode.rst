@@ -291,8 +291,7 @@ If you want to create an X axis symmetrical haircut you have to do following ste
 
 It may happen that after mirroring two particles occupy nearly the same place.
 Since this would be a waste of memory and render time,
-you can use *Merge by Distance* either from the *Specials* :kbd:`W`
-or the *Particle* menu.
+you can use *Merge by Distance* from the *Particle* menu.
 
 
 Unify Length

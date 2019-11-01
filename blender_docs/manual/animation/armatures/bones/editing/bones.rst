@@ -426,7 +426,7 @@ Subdivide
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Armature --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   :Menu:      :menuselection:`Armature --> Subdivide`
 
 You can subdivide bones, to get two or more bones where there was just one bone.
 The tool will subdivide all selected bones, preserving the existing relationships:
