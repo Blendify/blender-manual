@@ -30,7 +30,7 @@ More options become available when a text file is created or opened.
 Editor type
    The standard editor selection button.
 Menus
-   Editors menus.
+   Editor's menus.
 Text
    A :ref:`data-block menu <ui-data-block>` to select a text or to create a new one.
    After that the header will change.

@@ -14,7 +14,7 @@ Reflection Planes only work on specular surfaces that have their roughness aroun
 
 If Screen Space Reflection is enabled, Reflection Planes will serve as support buffers.
 This accelerates the tracing process and completes the missing data from the view space.
-This also make reflection more correct for the affected surface that have medium roughness and
+This also make reflection more correct for the affected surfaces that have medium roughness and
 disturbed normals (i.e. normal maps).
 
 .. note::
