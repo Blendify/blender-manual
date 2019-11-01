@@ -109,7 +109,9 @@ Context Menu
 
 Context menus are pop-ups opened with the :kbd:`RMB`.
 Context menu contents depend on the location of the mouse pointer.
-However, common options include:
+
+When invoked in an editor the menu contains a list of operators sensitive to the editor's mode.
+Or when invoked over buttons and menus common options include:
 
 .. for the property associated with the control.
 
@@ -156,8 +158,6 @@ Edit Translation
 
    :doc:`/interface/keymap/introduction`.
 
-   .. move paragraph there?
-
 
 .. _ui-specials-menu:
 
@@ -165,8 +165,7 @@ Specials Menu
 =============
 
 The Specials pop-up menu contains a context-sensitive list of operators.
-It is opened by a button with a down arrow on dark background |specials-button| or
-:kbd:`W` in most editors giving quick access to tools sensitive to the editor's mode.
+It is opened by a button with a down arrow on dark background |specials-button|.
 
 
 .. _bpy.types.UIPieMenu:

@@ -17,7 +17,7 @@ In the UI there's a variety of tools in each category, most tools have a small b
 some usage information to help users understand each tools basic requirements.
 'Most significant hotkeys is in edit mode double :kbd:`RMB`-click brings up the Vertex/Edge/Face menus
 depending on vertex/edge/face selection mode.
-Menu Integration is main tools into the Edit Mode specials, selection tools into the Edit Mode select menu.
+Menu Integration is main tools into the Edit Mode context menu, selection tools into the Edit Mode select menu.
 
 - Face Inset Fillet: based completely on add-on by zmj100
 - Vertex Align: by zmj100

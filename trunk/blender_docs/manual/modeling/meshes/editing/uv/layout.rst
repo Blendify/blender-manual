@@ -270,7 +270,6 @@ Weld
    :Mode:      View mode
    :Panel:     :menuselection:`Toolbar --> Tools --> UV Tools --> Weld`
    :Menu:      :menuselection:`UVs --> Weld/Align --> Weld`,
-               :menuselection:`Specials --> Weld`
    :Hotkey:    :kbd:`W`
 
 The *Weld* tool will move selected UVs to their average position.
@@ -287,7 +286,6 @@ Merge UVs by Distance
    :Mode:      View mode
    :Panel:     :menuselection:`Toolbar --> Tools --> UV Tools --> Merge UVs by Distance`
    :Menu:      :menuselection:`UVs --> Weld/Align --> Merge UVs by Distance`,
-               :menuselection:`Specials --> Merge UVs by Distance`
 
 The *Merge UVs by Distance* tool will merge selected UVs within the specified *Margin*.
 
@@ -303,7 +301,6 @@ Straighten/Align
    :Mode:      View mode
    :Panel:     :menuselection:`Toolbar --> Tools --> UV Tools --> UV Align --> Straighten/Align`
    :Menu:      :menuselection:`UVs --> Weld/Align --> Straighten/Align`,
-               :menuselection:`Specials --> Straighten/Align`
    :Hotkey:    :kbd:`W`
 
 Straighten

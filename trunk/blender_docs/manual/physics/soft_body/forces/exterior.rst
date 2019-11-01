@@ -117,8 +117,8 @@ you can define a *Goal* weight per vertex. To make this look more natural,
 spring forces can be defined to control how far vertices can move from their original position.
 
 Often :ref:`painting-weight-index` is used to adjust the weight comfortably.
-For non-mesh objects the *Weight* parameter of their vertices/control points
-is used instead; *Specials* menu :kbd:`W` in *Edit Mode* or use the *Transform* panel in the Sidebar region.
+For non-mesh objects the *Weight* parameter of their vertices/control points is used instead;
+Use the Context menu in Edit Mode or the *Transform* panel in the Sidebar region.
 The weight of *Hair* particles can also be painted in :doc:`Particle Edit Mode </physics/particles/mode>`.
 
 

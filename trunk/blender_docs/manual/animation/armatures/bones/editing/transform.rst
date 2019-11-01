@@ -201,7 +201,7 @@ Switch Direction
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Armature --> Switch Direction`, :menuselection:`Specials --> Switch Direction`
+   :Menu:      :menuselection:`Armature --> Switch Direction`
    :Hotkey:    :kbd:`Alt-F`
 
 This tool allows you to switch the direction of the selected bones
