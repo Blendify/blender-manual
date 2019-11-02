@@ -33,6 +33,12 @@ Activation
 - Click Add Mesh then Archimesh to enable the script.
 
 
+Interface
+=========
+
+Located in the :menuselection:`3D View --> Sidebar --> Create` tab.
+
+
 .. admonition:: Reference
    :class: refbox
 

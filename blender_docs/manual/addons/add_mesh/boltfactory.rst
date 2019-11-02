@@ -3,6 +3,36 @@
 Bolt Factory
 ************
 
+
+Introduction
+============
+
+This add-on creates bolts and nuts with options for bolt/nut, bit type and head type.
+
+.. figure:: /images/addons_add_mesh_boltfactory.jpg
+   :align: center
+   :figwidth: 640px
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Mesh then BoltFactory to enable the script.
+
+
+Interface
+=========
+
+Located in the :menuselection:`3D View --> Add --> Mesh` menu.
+
+
+Usage
+=====
+
+To Do
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -13,23 +43,5 @@ Bolt Factory
    :Author: Aaron Keith
    :Maintainer: To Do
    :License: GPL
-
-
-Activation
-==========
-
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Mesh then BoltFactory to enable the script.
-- This add-on is bundled with Blender.
-
-
-Introduction
-============
-
-This add-on creates bolts and nuts.
-
-
-Usage
-=====
-
-To Do
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
