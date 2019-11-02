@@ -24,6 +24,7 @@ Interface
    :figwidth: 220px
 
 Located in the :menuselection:`3D View --> Add --> Mesh` menu.
+
 Located in the :menuselection:`3D View --> Sidebar --> Create` tab.
 
 

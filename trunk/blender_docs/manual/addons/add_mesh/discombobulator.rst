@@ -3,6 +3,90 @@
 Discombobulator
 ***************
 
+
+Introduction
+============
+
+This add-on creates a greeble object based on selected faces.
+It quickly creates science fiction style panels across your mesh.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Mesh then Discombobulator to enable the script.
+
+
+Interface
+=========
+
+.. figure:: /images/addons_add_mesh_discombobulator_ui.jpg
+   :align: right
+   :figwidth: 310px
+
+Located in the :menuselection:`3D View --> Add --> Mesh` menu.
+
+Discombobulator works in mesh Object mode and mesh Edit mode.
+
+
+Instructions
+============
+
+#. Select the quad faces you want to add greebles to.
+#. :menuselection:`3D View --> Add --> Mesh --> Discombobulator`.
+#. Now you will see the interface but nothing happens to the mesh.
+#. It's useful at this point to read the :menuselection:`Usage Information` at the top of the panel.
+#. With the default settings press OK and you will see a new mesh object created that has raised areas.
+#. Lets look at the settings below.
+
+
+Make Protrusions
+----------------
+
+This checkbox turns on the functions for protrusions. If you turn it off, nothing will hapen when you run the script.
+You may want to turn Protrusions off if you are using only the Doodads function described further below.
+
+Min/Max Height
+   Adjust the height of the protrusions, you can use negative and positive values.
+   The negative values will create the protrusions on the oposite side of the selected face/s.
+
+Min/Max Taper
+   Adjust the taper of the protrusions. This will affect the pointiness of the protrusions.
+
+1 2 3 4 Checkboxes
+   These provide options for the subdivision of the faces or the amount of protrusions per face.
+   Based on random, if you have all selected, each face will have either 1, 2, 3 or 4 protrusions.
+   Use only 1 or any combination and the faces will only have your selected value/s.
+
+Repeat Protrusions
+   This button creates extra levels of protrusions built on top of the first set of protrusions.
+   It's important not to set this too high as it may take time to compute.
+   Note also that repeating protrusions is based off face normals and will create protrusions on all faces created in the previous iteration.
+      
+
+Doodads Settings
+----------------
+
+This checkbox allows you to use your own mesh object and have it applied on top of the protrusions.
+
+- Doodads can be a little tricky to set up.
+
+#. Select the object/s you want to use as a doodad.
+#. Run Discombobulater and press :menuselection:`Pick Doodad`
+#. Select your mesh to scatter doodades on and run Discombobulator
+
+
+Materials Settings
+------------------
+
+These settings allow you to add materials to the sides and tops of the protrusions.
+
+#. It's best to set up your materials first. add 2 different materials to your mesh. (2 materials slots)
+#. Number 0 will be the first slot in your materials, number 1 will be the second slot.
+#. Run Discombobulator and you can pick the material for the top or sides.
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -13,23 +97,5 @@ Discombobulator
    :Author: Evan J. Rosky (syrux)
    :Maintainer: To Do
    :License: GPL
-
-
-Activation
-==========
-
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Mesh then Discombobulator to enable the script.
-- This add-on is bundled with Blender.
-
-
-Introduction
-============
-
-This add-on creates a greeble object based on selected faces.
-
-
-Usage
-=====
-
-To Do
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
