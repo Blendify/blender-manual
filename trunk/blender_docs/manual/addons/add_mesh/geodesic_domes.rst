@@ -3,25 +3,6 @@
 Geodesic Domes
 **************
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Category:  Add Mesh
-   :Description: Create Geodesic object types.
-   :Location: :menuselection:`3D View --> Add --> Mesh`
-   :File: add_mesh_geodesic_domes folder
-   :Author: Andy Housten
-   :Maintainer: To Do
-   :License: GPL
-
-
-Activation
-==========
-
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Mesh then Geodesic Domes to enable the script.
-- This add-on is bundled with Blender.
-
 
 Introduction
 ============
@@ -44,6 +25,14 @@ Introduction by Brendon Murphy (Blender 2.6/7 series)
 - Limited only by your imagination (and some cool math limitations).
 - Create complex mesh deformations with the superformular parameters.
 - In the next section we will cover the menu types and how to use the parameters to "design" your mesh.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Mesh then Geodesic Domes to enable the script.
+- This add-on is bundled with Blender.
 
 
 Instructions
@@ -145,22 +134,36 @@ This is limited to the Faces, Struts and Hubs menu's.
 Faces
 =====
 
-To Do
+This Section adds extrusions and edits face structures on a mesh.
 
 
 Struts
 ======
 
-To Do
+This section allows you to extrude an object along the edges of a mesh.
 
 
 Hubs
 ====
 
-To Do
+This section allows you to place an object at the vert on a mesh.
 
 
 Superformular Menu
 ==================
 
-To Do
+The super formular settings add a variety of settings such as pinching, twisting, inflate and more complex edit types.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Mesh
+   :Description: Create Geodesic object types.
+   :Location: :menuselection:`3D View --> Add --> Mesh`
+   :File: add_mesh_geodesic_domes folder
+   :Author: Andy Housten
+   :Maintainer: To Do
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
