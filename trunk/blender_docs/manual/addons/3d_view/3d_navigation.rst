@@ -30,7 +30,7 @@ This panel provides some common navigation tools and emulates the numpad hot key
 
 .. figure:: /images/addons_3dview_3dnav_panel1.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 View Global/Local
     Switch Global/Local view.
@@ -72,7 +72,7 @@ This panel provides incremental "User Screen View Perspective" navigation in the
 
 .. figure:: /images/addons_3dview_3dnav_panel2.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 Up
    Move towards the top of your screen.

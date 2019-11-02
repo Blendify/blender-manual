@@ -11,8 +11,8 @@ with access to the entire Python API, command history and auto-complete.
 The command prompt is typical for Python 3.x,
 the interpreter is loaded and is ready to accept commands at the prompt ``>>>``.
 
-The Python Console is a good way to explore the possibilities of Blender built-in python.
-The Python Console can be used to test small bits of python which can then be pasted into larger scripts.
+The Python Console is a good way to explore the possibilities of Blender built-in Python.
+The Python Console can be used to test small bits of Python code which can then be pasted into larger scripts.
 
 .. figure:: /images/editors_python-console_default.png
 
@@ -58,7 +58,7 @@ Delete Next Word :kbd:`Ctrl-Delete`
    If the cursor is in the middle of a word, deletes everything to the end of the current word.
 Copy as Script :kbd:`Shift-Ctrl-C`
    Copies the full history buffer to the clipboard,
-   this can be pasted into a text file to be used as a python script.
+   this can be pasted into a text file to be used as a Python script.
 Copy :kbd:`Ctrl-C`
    Copy the selection.
 Paste :kbd:`Ctrl-V`

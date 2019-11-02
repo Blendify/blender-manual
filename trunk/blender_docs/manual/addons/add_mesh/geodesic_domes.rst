@@ -32,7 +32,6 @@ Activation
 
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Add Mesh then Geodesic Domes to enable the script.
-- This add-on is bundled with Blender.
 
 
 Instructions
@@ -146,13 +145,14 @@ This section allows you to extrude an object along the edges of a mesh.
 Hubs
 ====
 
-This section allows you to place an object at the vert on a mesh.
+This section allows you to place an object at the vertex on a mesh.
 
 
 Superformular Menu
 ==================
 
-The super formular settings add a variety of settings such as pinching, twisting, inflate and more complex edit types.
+The super formular settings add a variety of settings such as pinching, twisting, inflate and
+more complex edit types.
 
 
 .. admonition:: Reference

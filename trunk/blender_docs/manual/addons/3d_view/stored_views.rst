@@ -24,7 +24,7 @@ Located in the :menuselection:`3D View --> Sidebar --> View tab`.
 
 .. figure:: /images/addons_3dview_stored_views.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 View
    Save multiple view locations for easy navigation between views.

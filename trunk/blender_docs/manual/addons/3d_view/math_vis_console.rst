@@ -39,7 +39,7 @@ Usage
 
 .. figure:: /images/addons_3dview_math_vis.jpg
    :align: center
-   :figwidth: 680px
+   :width: 680px
 
 Create a Python Console editor.
 In the Python Console define a mathutils variable::

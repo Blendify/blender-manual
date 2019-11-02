@@ -26,7 +26,7 @@ Located in the :menuselection:`3D View --> Sidebar --> Edit tab`.
 
 .. figure:: /images/addons_add_curve_shapekey_ui.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 
 Usage

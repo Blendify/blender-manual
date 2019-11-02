@@ -13,7 +13,7 @@ Original Blender port by testscreenings, further advances by PKHG and TrumanBlen
 
 .. figure:: /images/addons_add_curve_ivygen.jpg
    :align: center
-   :figwidth: 640px
+   :width: 640px
 
 
 Activation
@@ -28,7 +28,7 @@ Interface
 
 .. figure:: /images/addons_add_curve_ivygen_ui.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 
 Located in the :menuselection:`3D View --> Sidebar --> Create tab`.
