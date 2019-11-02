@@ -24,7 +24,7 @@ Interface
 
 .. figure:: /images/addons_3dview_measureit.jpg
    :align: center
-   :figwidth: 640px
+   :width: 640px
 
 
 Overview

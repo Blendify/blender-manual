@@ -22,7 +22,7 @@ Interface
 
 .. figure:: /images/addons_add_curve_sapling.jpg
    :align: center
-   :figwidth: 640px
+   :width: 640px
 
 Located in the :menuselection:`3D View --> Add --> Curve` menu.
 

@@ -22,9 +22,10 @@ This tool is specially designed to generate architecture elements, like:
 - Roller curtain
 - Japanese curtains
 
-The original video documentation can be found here: `Video Playlist <https://www.youtube.com/playlist?list=PLQAfj95MdhTJ7zifNb5ab-n-TI0GmKwWQ>`__
+The original video documentation can be found here:
+`Video Playlist <https://www.youtube.com/playlist?list=PLQAfj95MdhTJ7zifNb5ab-n-TI0GmKwWQ>`__.
+Note that the videos were created for Blender 2.7 series but are still a valid resource.
 
-- Note that the video's were created for Blender 2.7 series but are still a valid resource.
 
 Activation
 ==========

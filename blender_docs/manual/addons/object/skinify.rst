@@ -16,7 +16,6 @@ This add-on creates a mesh object "Skinify Guy" covering an armature with a mesh
 Activation
 ==========
 
-- This add-on is bundled with Blender.
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Object then Scatter Objects to enable the script.
 

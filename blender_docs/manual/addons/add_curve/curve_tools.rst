@@ -26,7 +26,7 @@ This add-on is split into sub panels with each panel having it's own specific se
 
 .. figure:: /images/addons_add_curve_curve_tools_ui.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 
 One Curve
@@ -87,7 +87,7 @@ Convert Bézier to Surface
 
 .. figure:: /images/addons_add_curve_curve_tools_utils.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 
 Extended

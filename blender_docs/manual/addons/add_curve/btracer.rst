@@ -26,7 +26,7 @@ The default setting in the interface is Choose Tool, here you pick what trace me
 
 .. figure:: /images/addons_add_curve_btrace_ui.jpg
    :align: right
-   :figwidth: 220px
+   :width: 220px
 
 
 Information

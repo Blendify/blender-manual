@@ -31,25 +31,25 @@ Included mesh object add-ons:
 Parent to Empty by Liero.
    Parent the selected mesh to an empty object type.
 3D Function Surface by Buerbaum Martin (Pontiac), Elod Csirmaz.
-   Create objects with xyz math functions. Includes several presets by elfnor.
+   Create objects with XYZ math functions. Includes several presets by elfnor.
 Beam Builder by revolt_randy, Jambay.
-   Create 5 types of beams.
+   Create five types of beams.
 Gears by Michel J. Anders (varkenvarken).
    Create gear and worm type mesh.
 Gemstones by Pontiac, Fourmadmen, Dreampainter, Dominic Kroper, (dommetysk).
-   Create 3 types of diamond shapes.
+   Create three types of diamond shapes.
 Honeycomb by Kayo Phoenix.
-   Create a honecomb patterned mesh.
+   Create a honeycomb patterned mesh.
 Menger Sponge by sugiany.
-   Create iterated menger sponges.
+   Create iterated Menger sponges.
 Pipe Joints by Buerbaum Martin (Pontiac).
    Create angled and crossed pipes.
 Step Pyramid by Phil Cote (cotejrp1).
    Create a step pyramid with variable settings.
 Round Cube by Alain Ducharme (phymec).
    Create a quad mesh sphere with several presets.
-Soild Mesh by DreamPainter.
-   Create hedron based objects.
+Regular Solid by DreamPainter.
+   Create polyhedron based objects.
 Star by Fourmadmen.
    Create a simple star shape.
 Supertoroid by DreamPainter.
@@ -57,7 +57,7 @@ Supertoroid by DreamPainter.
 Teapot by Anthony D'Agostino.
    Traditional style mesh teapot and a secondary spoon object.
 Torus Knot by Anthony D'Agostino.
-   A simple mesh torus knot with 3 types.
+   A simple mesh torus knot with three types.
 Triangles by Sjaak-de-Draak
    Create math based triangles.
 Twisted Torus by Paulo_Gomes.
@@ -65,8 +65,8 @@ Twisted Torus by Paulo_Gomes.
 Add Vertex by meta-androcto, Pablo Vazquez, Liero, Richard Wilks.
    Add a single vertex object or object origin as a fast start to mesh editing.
 Wall Factory by dudecon, jambay
-   Add Castle type walls with settings for openings.
-   
+   Add castle type walls with settings for openings.
+
 
 .. admonition:: Reference
    :class: refbox

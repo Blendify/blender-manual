@@ -10,7 +10,7 @@ This add-on groups many curve object creation add-ons into a single one.
 
 .. figure:: /images/addons_curve_extra_objects_torus.jpg
    :align: center
-   :figwidth: 640px
+   :width: 640px
 
 
 Activation
