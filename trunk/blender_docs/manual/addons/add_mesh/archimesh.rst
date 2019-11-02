@@ -3,25 +3,6 @@
 Archimesh
 *********
 
-.. admonition:: Reference
-   :class: refbox
-
-   :Category:  Add Mesh
-   :Description: Generate rooms, doors, windows and architecture objects.
-   :Location: :menuselection:`Sidebar --> Create tab`
-   :File: archimesh folder
-   :Author: Antonio Vazquez (antonioya)
-   :Maintainer: Antonio Vazquez (antonioya)
-   :License: GPL
-
-
-Activation
-==========
-
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Mesh then Archimesh to enable the script.
-- This add-on is bundled with Blender.
-
 
 Introduction
 ============
@@ -41,8 +22,26 @@ This tool is specially designed to generate architecture elements, like:
 - Roller curtain
 - Japanese curtains
 
+The original video documentation can be found here: `Video Playlist <https://www.youtube.com/playlist?list=PLQAfj95MdhTJ7zifNb5ab-n-TI0GmKwWQ>`__
 
-Usage
-=====
+- Note that the video's were created for Blender 2.7 series but are still a valid resource.
 
-To Do
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Add Mesh then Archimesh to enable the script.
+
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Category:  Add Mesh
+   :Description: Generate rooms, doors, windows and architecture objects.
+   :Location: :menuselection:`Sidebar --> Create tab`
+   :File: archimesh folder
+   :Author: Antonio Vazquez (antonioya)
+   :Maintainer: Antonio Vazquez (antonioya)
+   :License: GPL
+   :Support Level: Community
+   :Note: This add-on is bundled with Blender.
