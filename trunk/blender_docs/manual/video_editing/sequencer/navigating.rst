@@ -64,6 +64,8 @@ Refresh All
    to call for a refresh of the rendered image (since the movement may not affect the rendered image).
    If an image or video, used as a strip, is changed by some application outside of Blender,
    Blender has no real way of being notified from your operating system.
+Show Seconds :kbd:`Ctrl-T`
+   Shows seconds instead of frames on time axis.
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Marker Lines
