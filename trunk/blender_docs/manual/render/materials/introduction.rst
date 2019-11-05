@@ -26,8 +26,8 @@ or in the :doc:`Shader Editor </editors/shader_editor/index>`.
 These provide a different view of the same shader nodes and material settings.
 
 The defaults Shading workspace has a shader editor and a 3D Viewport that can be set to
-LookDev or Rendered shading, to interactively preview how the material interacts with objects
-and lights in the scene.
+Material Preview or Rendered shading, to interactively preview how the material interacts
+with objects and lights in the scene.
 
 Materials are data-blocks that can be :doc:`assigned </render/materials/assignment>`
 to one or more objects, and different materials can be assigned to different parts of meshes.
