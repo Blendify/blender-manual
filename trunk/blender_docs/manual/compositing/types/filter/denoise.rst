@@ -41,3 +41,12 @@ Outputs
 
 Image
    Denoised image output.
+
+Examples
+========
+
+.. figure:: /images/compositing_types_filter_denoise_example.jpg
+
+Render before and after denoising, with a very low number of samples as input.
+As more samples are used, the denoiser will be able to better preserve detail.
+
