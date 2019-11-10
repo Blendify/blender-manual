@@ -57,13 +57,19 @@ Voxel Size
    These voxels are assembled around the mesh and are used to determine the new geometry.
    For example a value of 0.5m will create topographical patches that are about 0.5m (assuming *Preserve Volume* is enabled).
    Lower values preserve finer details but will result in a mesh with a much more dense topology.
+
+
 Adaptivity
 
 Fix Poles
+
 Smooth Normals
    Applies the :ref:`Smooth Normals <bpy.ops.object.shade_smooth>` operator to the resulting mesh.
+
 Preserve Volume
+
 Preserve Paint Mask
+
 Voxel Remesh
    Todo.
 
@@ -75,12 +81,19 @@ Quadriflow Remesh
    TODO.
 
 Use Paint Symmetry
+
 Preserve Sharp
+
 Preserve Mesh Boundary
+
 Use Mesh Curvature
+
 Preserve Paint Mask
+
 Smooth Normals
    Applies the :ref:`Smooth Normals <bpy.ops.object.shade_smooth>` operator to the resulting mesh.
+   
 Modes
+
 Number of Faces
    Todo
