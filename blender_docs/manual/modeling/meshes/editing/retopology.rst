@@ -1,3 +1,4 @@
+.. _modeling-meshes-editing-retopology:
 
 **********
 Retopology
@@ -55,7 +56,8 @@ Voxel Size
    The resolution or the amount of detail the remeshed mesh will have.
    The value is used to define the the size, in object space, of the :term:`Voxel`.
    These voxels are assembled around the mesh and are used to determine the new geometry.
-   For example a value of 0.5m will create topographical patches that are about 0.5m (assuming *Preserve Volume* is enabled).
+   For example a value of 0.5m will create topographical patches that are about 0.5m
+   (assuming *Preserve Volume* is enabled).
    Lower values preserve finer details but will result in a mesh with a much more dense topology.
 
 
@@ -92,7 +94,7 @@ Preserve Paint Mask
 
 Smooth Normals
    Applies the :ref:`Smooth Normals <bpy.ops.object.shade_smooth>` operator to the resulting mesh.
-   
+
 Modes
 
 Number of Faces
