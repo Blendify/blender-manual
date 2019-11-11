@@ -118,9 +118,10 @@ def compile_valid_kbd():
         r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?(OSKey(?:\-|\Z))?(Cmd(?:\-|\Z))?",
 
         # Alphanumeric
+        # Note, shifted keys such as '!?:<>"' should not be included.
         r"((?:",
         r"[A-Z0-9]|",
-        r"(?:[\[\]<>/~!?'\"=:;\|\^]|\\\\)|",
+        r"(?:[\[\]/~'=;]|\\\\)|",
 
         # Named
         '|'.join((
