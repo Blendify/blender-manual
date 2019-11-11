@@ -72,7 +72,7 @@ Merge with Automatic Type Detection
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-0`, :kbd:`Ctrl-Plus`, :kbd:`Ctrl-Minus`, :kbd:`Ctrl-Asterix`, :kbd:`Ctrl-Slash`,
+   :Hotkey:    :kbd:`Ctrl-0`, :kbd:`Ctrl-Plus`, :kbd:`Ctrl-Minus`, :kbd:`Ctrl-NumpadAsterix`, :kbd:`Ctrl-Slash`,
                :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
 
 Selected nodes‘ outputs will be merged using Mix, Math, Mix Shader or Add Shader nodes,
@@ -80,7 +80,7 @@ depending on types of selected nodes.
 
 Add :kbd:`Ctrl-Plus`
    Sets blend type or math operation to Add. When shaders are selected an Add Shader will be used.
-Multiply :kbd:`Ctrl-Asterix`
+Multiply :kbd:`Ctrl-NumpadAsterix`
    Multiply blend type or math operation.
 Subtract :kbd:`Ctrl-Minus`
    Subtract blend type or math operation.
@@ -100,7 +100,7 @@ Merge Using Mix Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-Alt-Plus`, :kbd:`Ctrl-Alt-Minus`, :kbd:`Ctrl-Alt-Asterix`, :kbd:`Ctrl-Alt-Slash`
+   :Hotkey:    :kbd:`Ctrl-Alt-Plus`, :kbd:`Ctrl-Alt-Minus`, :kbd:`Ctrl-Alt-NumpadAsterix`, :kbd:`Ctrl-Alt-Slash`
 
 Using :kbd:`Ctrl-Alt` with proper keys will force to use Mix node for merging
 no matter what types of nodes are selected.
@@ -134,10 +134,10 @@ Merge Using Math Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Ctrl-Shift-Plus`, :kbd:`Ctrl-Shift-Minus`, :kbd:`Ctrl-Shift-Asterix`, :kbd:`Ctrl-Shift-Slash`,
-               :kbd:`Ctrl-Shift-Comma`, :kbd:`Ctrl-Shift-Period`
+   :Hotkey:    :kbd:`Shift-Ctrl-Plus`, :kbd:`Shift-Ctrl-Minus`, :kbd:`Shift-Ctrl-NumpadAsterix`, :kbd:`Shift-Ctrl-Slash`,
+               :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
 
-Using :kbd:`Ctrl-Shift` with proper keys will force to use Math node for merging
+Using :kbd:`Shift-Ctrl` with proper keys will force to use Math node for merging
 no matter what types of nodes are selected.
 
 
@@ -147,7 +147,7 @@ Batch Change Blend Type / Math Operation
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Alt-Plus`, :kbd:`Alt-Minus`, :kbd:`Alt-Asterix`,
+   :Hotkey:    :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Alt-Plus`, :kbd:`Alt-Minus`, :kbd:`Alt-NumpadAsterix`,
                :kbd:`Alt-Slash`, :kbd:`Shift-Alt-Comma`,  :kbd:`Shift-Alt-Period`
 
 Select mix nodes or math nodes and change their blend type or math operation at the same time.
