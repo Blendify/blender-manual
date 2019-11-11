@@ -134,8 +134,8 @@ Merge Using Math Node
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Shift-Ctrl-Plus`, :kbd:`Shift-Ctrl-Minus`, :kbd:`Shift-Ctrl-NumpadAsterix`, :kbd:`Shift-Ctrl-Slash`,
-               :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
+   :Hotkey:    :kbd:`Shift-Ctrl-Plus`, :kbd:`Shift-Ctrl-Minus`, :kbd:`Shift-Ctrl-NumpadAsterix`,
+               :kbd:`Shift-Ctrl-Slash`, :kbd:`Shift-Ctrl-Comma`, :kbd:`Shift-Ctrl-Period`
 
 Using :kbd:`Shift-Ctrl` with proper keys will force to use Math node for merging
 no matter what types of nodes are selected.
@@ -147,8 +147,8 @@ Batch Change Blend Type / Math Operation
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Alt-Plus`, :kbd:`Alt-Minus`, :kbd:`Alt-NumpadAsterix`,
-               :kbd:`Alt-Slash`, :kbd:`Shift-Alt-Comma`,  :kbd:`Shift-Alt-Period`
+   :Hotkey:    :kbd:`Alt-Up`, :kbd:`Alt-Down`, :kbd:`Alt-0`, :kbd:`Alt-Plus`, :kbd:`Alt-Minus`,
+               :kbd:`Alt-NumpadAsterix`, :kbd:`Alt-Slash`, :kbd:`Shift-Alt-Comma`, :kbd:`Shift-Alt-Period`
 
 Select mix nodes or math nodes and change their blend type or math operation at the same time.
 Use keys specified above. They will change blend type or operation accordingly to:
@@ -363,7 +363,7 @@ Link Active to Selected
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`\\`,  :kbd:`K`,  :kbd:`Shift-K`,  :kbd:`"`,  :kbd:`Shift-"`,  :kbd:`;`,  :kbd:`Shift-;`
+   :Hotkey:    :kbd:`\\`, :kbd:`K`, :kbd:`Shift-K`, :kbd:`"`, :kbd:`Shift-"`, :kbd:`;`, :kbd:`Shift-;`
 
 Link active node to selected nodes basing on various criteria.
 

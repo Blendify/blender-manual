@@ -264,14 +264,15 @@ In this menu you can quickly access some common tools such as:
 
 
 Fades
-========
+=====
 
 .. admonition:: Reference
    :class: refbox
 
    :Menu:      :menuselection:`Add --> Fades`
 
-This menu section contains operators to add and remove fades to strips. In case of visual strips, operators will animate opacity, or volume in case of audio strips.
+This menu section contains operators to add and remove fades to strips.
+In case of visual strips, operators will animate opacity, or volume in case of audio strips.
 
 Clear Fades
    Removes fade animation from selected sequences.
@@ -285,4 +286,3 @@ From Playhead
    Fade from the time cursor to the end of overlapping sequences.
 To Playhead
    Fade from the start of sequences under the time cursor to the current frame.
-
