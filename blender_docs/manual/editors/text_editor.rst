@@ -128,8 +128,8 @@ Move Line(s) Down :kbd:`Shift-Ctrl-Down`
 Find & Replace :kbd:`Ctrl-F`
    Shows the *Find & Replace* panel in the Sidebar.
 Find Next :kbd:`Ctrl-G`
-   Finds the next instance of the search result and selects it.
-Jump to
+   Finds the next instance of the selected text.
+Jump to :kbd:`Ctrl-J`
    Shows a pop-up, which lets you select a line number where to move the cursor to.
 Text Auto Complete :kbd:`Ctrl-Spacebar`
    Shows a selectable list of words already used in the text.
@@ -193,8 +193,7 @@ Python, OpenShading Language
 Footer
 ======
 
-The Text editor is special in the fact that it contains a footer UI region.
-This footer displays if the text is saved internal or external and
+The text editor footer displays if the text is saved internal or external and
 if there are unsaved changes to an external file.
 For external files, this region also displays the file path to the text file.
 
@@ -203,7 +202,9 @@ Main View
 =========
 
 Typing on the keyboard produces text in the text buffer.
+
 As usual, pressing, dragging and releasing :kbd:`LMB` selects text.
+Pressing :kbd:`RMB` opens the context menu.
 
 .. tip:: Usages for the Text editor
 
