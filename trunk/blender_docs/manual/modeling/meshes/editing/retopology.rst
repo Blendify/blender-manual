@@ -17,7 +17,6 @@ Using the Poly Build Tool
 Todo.
 
 
-
 .. _bpy.types.Mesh.remesh:
 .. _bpy.ops.object.voxel_remesh:
 .. _bpy.ops.object.quadriflow_remesh:
