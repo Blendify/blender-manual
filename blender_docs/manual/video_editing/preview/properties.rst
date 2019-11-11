@@ -49,7 +49,9 @@ Proxy Render Size
    Using a smaller preview size will increase speed.
 
 Prefetch frames
-   Automatically fill the cache with frames after the current frame in the background. Use this feature to achieve more consistent playback speed. This feature currently doesn't support rendering scene strips.
+   Automatically fill the cache with frames after the current frame in the background.
+   Use this feature to achieve more consistent playback speed.
+   This feature currently doesn't support rendering scene strips.
 
 .. _bpy.types.SequenceEditor.show_overlay:
 .. _bpy.ops.sequencer.view_ghost_border:
