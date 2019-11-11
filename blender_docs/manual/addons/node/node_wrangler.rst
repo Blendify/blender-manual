@@ -363,14 +363,14 @@ Link Active to Selected
 .. admonition:: Reference
    :class: refbox
 
-   :Hotkey:    :kbd:`\\`, :kbd:`K`, :kbd:`Shift-K`, :kbd:`"`, :kbd:`Shift-"`, :kbd:`;`, :kbd:`Shift-;`
+   :Hotkey:    :kbd:`\\`, :kbd:`K`, :kbd:`Shift-K`, :kbd:`'`, :kbd:`Shift-'`, :kbd:`;`, :kbd:`Shift-;`
 
 Link active node to selected nodes basing on various criteria.
 
 - :kbd:`\\` -- Call main *Link Active to Selected* menu.
 - :kbd:`K` -- Link active to all selected. Use :kbd:`Shift-K` to force to replace existing links.
-- :kbd:`"` -- Link only to selected nodes that have the same name/label as active node
-  (:kbd:`Shift-"` to replace existing links).
+- :kbd:`Shift-'` -- Link only to selected nodes that have the same name/label as active node
+  (:kbd:`Shift-'` to replace existing links).
 - :kbd:`;` -- Link selected when name of output matches the name or label of selected node.
   Handy for replacing sources. For example Render Layer to image (multi-layer EXR).
 
