@@ -66,6 +66,8 @@ Image
       Invert Channel
          Red, Green, Blue, Alpha
 
+   Resize
+      Adjust the image size in pixels.
    Pack
       Packs the image into the blend-file.
       See :ref:`pack-unpack-data`.
