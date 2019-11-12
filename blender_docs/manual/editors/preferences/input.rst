@@ -44,14 +44,14 @@ Emulate 3 Button Mouse
       - Detaching node links.
       - Moving the Compositor background image.
 
-      Some touch-pads support three-finger tap for middle mouse,
+      Some touchpads support three-finger tap for middle mouse,
       which may be an alternative to using this option.
 
    Modifier *(unsupported on Microsoft Windows)*
       :kbd:`Alt`
-         Use the Alt key to emulate the middle mouse button.
+         Use the :kbd:`Alt` key to emulate the middle mouse button.
       :kbd:`OSKey`
-         Use the OS-Key to emulate the middle mouse button.
+         Use the :kbd:`OS-Key` to emulate the middle mouse button.
 
          This has the advantage that it doesn't conflict with existing :kbd:`Alt-MMB` shortcuts,
          noted above.

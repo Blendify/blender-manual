@@ -113,7 +113,7 @@ Some examples are given below:
 
    - |atilde|: ``A``, :kbd:`Alt-Backspace`, ``~``
    - |aacute|: ``A``, :kbd:`Alt-Backspace`, ``'``
-   - |agrave|: ``A``, :kbd:`Alt-Backspace`, ``\\``
+   - |agrave|: ``A``, :kbd:`Alt-Backspace`, ``\``
    - |acircumflex|: ``A``, :kbd:`Alt-Backspace`, ``^``
    - |aring|: ``A``, :kbd:`Alt-Backspace`, ``O``
    - |ash|: ``A``, :kbd:`Alt-Backspace`, ``E``

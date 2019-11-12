@@ -60,6 +60,6 @@ Mask Display
 
       Mode
          Alpha Channel
-            Which displays rasterized mask as a grayscale image.
+            Which displays the rasterized mask as a grayscale image.
          Combined
-            Which multiples image/clip with the mask.
+            Which multiplies the image/clip with the mask.

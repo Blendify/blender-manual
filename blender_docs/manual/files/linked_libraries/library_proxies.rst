@@ -10,10 +10,10 @@ Proxies are the historical way in Blender to allow some local editing of linked 
 This is mostly aimed at character animation.
 
 One of their most important restrictions is that you can only have one proxy
-of any linked object in a given .blend file.
+of any linked object in a given blend-file.
 
 A new system, more powerful and flexible, is currently being implemented:
-:doc:`Library Overrides</files/linked_libraries/library_overrides>`.
+:doc:`Library Overrides </files/linked_libraries/library_overrides>`.
 
 
 Proxy Objects
@@ -54,5 +54,3 @@ This helps keeping complex rigs usage sensible, by only exposing some 'public' b
 
 Set the *Protected Layers* in the source file using the *Skeleton* panel of the *Armatures* properties.
 See :ref:`Armature Layers <armature-layers>`.
-
-

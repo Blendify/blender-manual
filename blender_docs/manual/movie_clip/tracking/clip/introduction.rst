@@ -16,7 +16,6 @@ It should be mentioned that the camera solver consists of three quite separate s
 Header
 ======
 
-
 Marker Display
 --------------
 
