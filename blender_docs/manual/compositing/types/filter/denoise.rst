@@ -13,8 +13,9 @@ The Denoise node is used to denoise renders from :doc:`Cycles </render/cycles/in
 and other ray tracing renderers. This helps to significantly reduce render time by
 rendering with fewer samples.
 
-It is uses `OpenImageDenoise <https://openimagedenoise.github.io/>`__, which
-transforms noisy images into clean images with machine learning.
+It is uses `Open Image Denoise <https://openimagedenoise.github.io/>`__,
+which transforms noisy images into clean images with machine learning.
+
 
 Inputs
 ======
@@ -30,11 +31,13 @@ Albedo
    For Cycles, it is recommended to use the Denoising Albedo render pass,
    which is available when enabling the Denoising Data passes.
 
+
 Properties
 ==========
 
 HDR
-   Preserve colors outside the 0..1 range.
+   Preserve colors outside the 0 to 1 range.
+
 
 Outputs
 =======
@@ -42,11 +45,11 @@ Outputs
 Image
    Denoised image output.
 
+
 Examples
 ========
 
 .. figure:: /images/compositing_types_filter_denoise_example.jpg
 
-Render before and after denoising, with a very low number of samples as input.
-As more samples are used, the denoiser will be able to better preserve detail.
-
+   Render before and after denoising, with a very low number of samples as input.
+   As more samples are used, the denoiser will be able to better preserve detail.
