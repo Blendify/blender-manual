@@ -82,7 +82,7 @@ Map Type
    Keyboard
       Single hotkey or key-combination.
    Mouse
-      Actions from mouse buttons, tablet or touchpad input.
+      Actions from mouse buttons, tablet or touch-pad input.
    NDOF
       Movement from a 3D mouse (:term:`NDOF`) device.
    Tweak
