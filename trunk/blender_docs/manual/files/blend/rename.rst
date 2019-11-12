@@ -17,7 +17,7 @@ Rename Active Item
 The *Rename Active Item* operator renames the active
 :doc:`Bone </animation/armatures/bones/index>`,
 :doc:`Node </interface/controls/nodes/index>`,
-:doc:`Object </scene_layout/object/index>` &
+:doc:`Object </scene_layout/object/index>` and
 :doc:`Sequence Strip </video_editing/sequencer/strips/index>`.
 
 When the operator is executed, a pop-up dialog appears.
@@ -38,7 +38,7 @@ Batch Rename
 
 The *Batch Rename* operator can rename many data-block names at once.
 
-This uses a pop-up dialog with operations and their options to modify the name.
+This uses a pop-up dialog with operations and their options to change the name.
 
 These actions are applied in order, from first to last.
 
@@ -58,7 +58,7 @@ Data Source
 Operations
 ----------
 
-The *Batch Rename* has several sub Operations that to modify the data names.
+The *Batch Rename* has several sub Operations to change the data names.
 The default operation is *Find/Replace* however, other operations can be added
 to modify the data names farther.
 
@@ -109,7 +109,7 @@ Spaces
 Digits
    Strips any numerical characters from the name, e.g. ``cube.001`` becomes ``cube.``.
 Punctuation
-   Strips any punctuation characters (``,.?!:;`` etc...) from the name, e.g. ``cube?`` becomes ``cube``.
+   Strips any punctuation characters (``,.?!:;`` etc.) from the name, e.g. ``cube?`` becomes ``cube``.
 
 .. tip::
 

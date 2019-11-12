@@ -1,9 +1,7 @@
-.. _bpy.types.Library:
-.. _files-linked_libraries:
 
-****************
-Linked Libraries
-****************
+************
+Introduction
+************
 
 These functions help you reuse materials, objects and other :doc:`data-blocks </files/data_blocks>`
 loaded from another blend-file.
@@ -84,7 +82,7 @@ in your current blend-file without having to re-open it.
 
 Relocating allows you to reload the library from a new file path.
 This can be used to either fix a broken linked library
-(e.g. because the library file was moved or rename after linking from it),
+(e.g. because the library file was moved or renamed after linking from it),
 or to switch between different variations of a same set of data, in different library files.
 
 
