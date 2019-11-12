@@ -9,8 +9,8 @@ There are several modes to choose from.
 
 .. note::
 
-   The Material Preview option is not available when the render engine of the
-   scene is set to Workbench.
+   The Material Preview option is not available when the render engine of
+   the scene is set to Workbench.
 
 
 Wireframe
@@ -75,7 +75,7 @@ Background
 Material Preview
 ================
 
-Render the 3D viewport with :doc:`Eevee </render/eevee/index>` and a HDRI environment.
+Render the 3D Viewport with :doc:`Eevee </render/eevee/index>` and a HDRI environment.
 This mode is particularly suited for previewing materials and texture painting.
 You can select different lighting conditions to test your materials.
 
@@ -102,7 +102,7 @@ Lighting
 Rendered
 ========
 
-Render the 3D viewport with the scene *Render Engine*, for interactive rendering.
+Render the 3D Viewport with the scene *Render Engine*, for interactive rendering.
 By default the scene lights are used for lighting.
 A HDRI environment can be used as well, with the same options as Material Preview mode.
 

@@ -174,7 +174,7 @@ Indent :kbd:`Tab`
    Inserts a tab character at the cursor.
 Unindent :kbd:`Shift-Tab`.
    Unindents the selection.
-Toggle Comments :kbd:`Ctrl-/`.
+Toggle Comments :kbd:`Ctrl-Slash`.
    Toggles whether the selected line(s) are a Python comment.
    If no lines are selected the current line is toggled.
 Convert Whitespace
@@ -190,14 +190,6 @@ which are useful for writing tools, like a class/function/variable browser, comp
 Python, OpenShading Language
 
 
-Footer
-======
-
-The text editor footer displays if the text is saved internal or external and
-if there are unsaved changes to an external file.
-For external files, this region also displays the file path to the text file.
-
-
 Main View
 =========
 
@@ -211,6 +203,14 @@ Pressing :kbd:`RMB` opens the context menu.
    The Text editor is handy also when you want to share your blend-files with others.
    The Text editor can be used to write in a ``README`` text explaining the contents of your blend-file.
    Be sure to keep it visible when saving!
+
+
+Footer
+======
+
+The Text editor footer displays if the text is saved internal or external and
+if there are unsaved changes to an external file.
+For external files, this region also displays the file path to the text file.
 
 
 Usage

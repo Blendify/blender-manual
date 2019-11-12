@@ -41,7 +41,7 @@ Usage
 If the *Remove Shape Key Objects* option is checked, the selected curve objects will be deleted
 and only the target is kept.
 
-There are a number of options to align the closed (cyclic spline) target and the shape-key curves.
+There are some options to align the closed (cyclic spline) target and the shape-key curves.
 Also it's possible to match individual parts from a multi-part (multi-spline) of target
 and shape key curves (e.g. a text object converted into a curve) based on various criteria.
 

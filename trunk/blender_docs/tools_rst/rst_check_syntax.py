@@ -115,17 +115,17 @@ def compile_valid_kbd():
 
     pattern_str = ''.join((
         # Modifier
-        r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?(OSKey(?:\-|\Z))?(Cmd(?:\-|\Z))?",
+        r"^(Shift(?:\-|\Z))?(Ctrl(?:\-|\Z))?(Alt(?:\-|\Z))?((?:Cmd|OSKey)(?:\-|\Z))?",
 
         # Alphanumeric
         # Note, shifted keys such as '!?:<>"' should not be included.
         r"((?:",
         r"[A-Z0-9]|",
-        r"(?:[\[\]/~'=;]|\\\\)|",
+        r"[=\[\];']|",
 
         # Named
         '|'.join((
-            "Comma", "Period", "Slash", "Backslash", "Plus", "Minus", "AccentGrave",
+            "Comma", "Period", "Slash", "Backslash", "Minus", "AccentGrave",
             # Editing
             "Tab", "Backspace", "Delete", "Return", "Spacebar",
             # Navigation
