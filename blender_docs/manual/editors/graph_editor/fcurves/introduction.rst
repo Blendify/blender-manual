@@ -226,8 +226,7 @@ Constant
       Constant extrapolation.
 
 Linear
-   Curves ends are straight lines (linear), as defined by their first two keyframes
-   (respectively their last two keyframes).
+   Curves ends are straight lines (linear), as defined by the slope of their first and last keyframes.
 
    .. figure:: /images/editors_graph-editor_fcurves_introduction_extrapolate2.png
       :width: 300px
