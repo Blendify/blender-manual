@@ -242,8 +242,17 @@ are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/modifi
 Handle Types
 ------------
 
-There is another curve option quite useful for Bézier-interpolated curves.
-You can set the type of handle to use for the curve points :kbd:`V`.
+When using Bézier-interpolated curves it is possible to control the slope of the curve at the
+control points. This is done via the curve point *handles*; you can set the type of handle to use
+for the curve points by pressing :kbd:`V` or choosing Key, Handle Type in the graph editor menu.
+Each curve point can have a different handle type, even within the same curve.
+
+There are two automatic modes, '*Automatic*' and '*Auto Clamped*', where Blender automatically
+determines the curve's slope at each control point. The neighbouring control points have the most
+influence of the slope, and points further away have a smaller influence.
+
+By using the other, non-automatic modes, you have full control over the slope.
+
 
 Automatic
    Handle positions are automatically chosen to produce smooth curves.
