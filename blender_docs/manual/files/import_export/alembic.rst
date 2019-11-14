@@ -141,6 +141,24 @@ Hair is exported as animated zero-width curves. Particles are exported as animat
 Custom Split Normals of Meshes
 ==============================
 
-Blender supports the export of :ref:`custom normals <modeling_meshes_normals_custom>` to Alembic
-files. This can be controlled on a mesh-by-mesh basis by enabling :ref:`Auto Smooth <auto-smooth>`
-checkbox. Custom Split Normals are exported only when this checkbox is enabled.
+Blender supports the import and export of :ref:`custom normals <modeling_meshes_normals_custom>` to
+Alembic files. As a basic rule of thumb, a completely smooth mesh will be exported without normals
+and thus produce the smallest Alembic file. This is reflected in the importer; an Alembic mesh
+without normals is loaded as a smooth mesh.
+
+On export, for every mesh:
+
+- If it has *Custom Loop Normals* → loop normals are exported.
+- If one or more polys are marked flat → loop normals are exported.
+- Otherwise, no normals are exported.
+
+On import, when the Alembic mesh contains:
+
+- loop normals (kFacevaryingScope) → use as custom loop normals, and enble Auto Smooth to have
+  Blender actually use them.
+- vertex normals (kVertexScope or kVaryingScope) → convert to loop normals, and handle as above.
+- no normals → mark mesh as smooth.
+- unsupported normal types (kConstantScope, kUniformScope, kUnknownScope) → handle as 'no normals'.
+
+When an imported mesh does not contain normals, the final look can be controlled by enabling the
+:ref:`Auto Smooth <auto-smooth>` checkbox and altering the threshold angle.
