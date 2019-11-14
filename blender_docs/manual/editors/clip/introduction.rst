@@ -14,6 +14,9 @@ The empty editor looks like the image below.
 Header
 ======
 
+Menus
+-----
+
 View
    Tools for controlling how the content is displayed in the editor.
 Select
@@ -28,8 +31,12 @@ Clip
    Proxy
       TODO.
 
-:ref:`Data-block Menu <ui-data-block>`
-   Used for add a movie file.
+
+Controls
+--------
+
+Clip
+   A :ref:`data-block menu <ui-data-block>` used for add a movie file.
    Both movie files and image sequences can be used in the Clip editor.
    When a movie clip is loaded into the Clip editor, extra panels are displayed in the interface.
 
