@@ -39,12 +39,21 @@ Header
 
    The Movie Clip Editor header in Mask mode.
 
+
+Menus
+-----
+
 Add
    Use to add primitive shapes.
 Mask
    TODO
-:ref:`Data-Block Menu <ui-data-block>`
-   Once set to Mask mode, a Mask data-block can be added.
+
+
+Controls
+--------
+
+Mask
+   Once set to Mask mode, a mask data-block can be added with a :ref:`data-block menu <ui-data-block>`.
    Any image, movie clip, render or compositing result can be used as a backdrop to display masks over.
 
    New ``+`` :kbd:`Alt-N`

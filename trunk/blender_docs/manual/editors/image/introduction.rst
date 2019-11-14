@@ -27,6 +27,9 @@ Annotate
 Header
 ======
 
+Menus
+-----
+
 View
    Tools for controlling how the content is displayed in the editor.
    See :doc:`/editors/image/navigating`.
@@ -78,8 +81,12 @@ Image
 
       Rendered images are not automatically saved, they have to be saved to disk manually.
 
-:ref:`Data-Block Menu <ui-data-block>`
-   Used for selecting images.
+
+Controls
+--------
+
+Image
+   A :ref:`data-block menu <ui-data-block>` used for selecting images.
    When an image has been loaded or created in the Image editor,
    the Image panel appears in the *Sidebar region*.
    See :doc:`/editors/image/image_settings`.
@@ -96,7 +103,7 @@ Modes
 
 
 Multi-Layer
------------
+^^^^^^^^^^^
 
 When a rendered image is displayed in the Image Editor,
 several new menu items become available.
@@ -116,7 +123,7 @@ Render Pass
 
 
 Display Channels
-----------------
+^^^^^^^^^^^^^^^^
 
 In the dropdown menu on the right, the displayed channels can be selected.
 
