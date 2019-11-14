@@ -138,6 +138,15 @@ Alembic has no support for Particle Systems, in the same way that it does not su
 Hair is exported as animated zero-width curves. Particles are exported as animated points.
 
 
+Importing Alembic Files
+=======================
+
+When importing an Alembic file, :doc:`Mesh Sequence Cache modifiers </modeling/modifiers/modify/mesh_sequence_cache>`
+are automatically added to time-varying meshes. For time-varying object transforms (so animation of
+rotation, location, or scale), the
+:ref:`Transform Cache Constraint <bpy.types.TransformCacheConstraint>` is used.
+
+
 Custom Split Normals of Meshes
 ==============================
 
