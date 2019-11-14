@@ -162,3 +162,17 @@ On import, when the Alembic mesh contains:
 
 When an imported mesh does not contain normals, the final look can be controlled by enabling the
 :ref:`Auto Smooth <auto-smooth>` checkbox and altering the threshold angle.
+
+
+Handling Time
+=============
+
+Unlike Blender and many other applications and file formats, Alembic files don't have any concept of
+frames. Alembic works purely with time, and values that are sampled over time. For example, there is
+no way to distinguish 30 FPS with 2 samples per frame, and 60 FPS with 1 sample per frame. This has
+caused numerous developers to just `hard-code 24 FPS <https://developer.blender.org/T55288#754358>`__
+when reading Alembic files.
+
+Blender uies the current scene frame rate to convert a frame number (in Blender) to a time in
+seconds (in Alembic). As a result, you can import an Alembic file that was produced at 120 FPS into
+a Blender scene that is 30 FPS and still not see any time stretching.
