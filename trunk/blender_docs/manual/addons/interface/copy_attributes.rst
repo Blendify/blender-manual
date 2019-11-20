@@ -6,7 +6,7 @@ Copy Attributes Menu
 Introduction
 ============
 
-Todo.
+This addon extends the :kbd:`Ctrl-C` hotkey to include many extra copy types.
 
 
 Activation
@@ -145,5 +145,7 @@ Constraints on the selected bones may prevent this from working (or drivers for 
    :Location: 3D Viewport :kbd:`Ctrl-C`
    :File: space_view3d_copy_attributes.py
    :Author: Bassam Kurdali, Fabian Fricke, Adam Wiseman
+   :Maintainer: to do
    :License: GPL
+   :Support Level: Community
    :Note: This add-on is bundled with Blender.
