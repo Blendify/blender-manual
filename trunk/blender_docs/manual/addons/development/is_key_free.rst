@@ -24,12 +24,12 @@ Search
    selected modifier shortcuts will be displayed. Click the Search icon to list the associated keys.
 
 Quick Type
-   Alternatively, a list with available shortcuts is available for quick access of keys from
+   Alternatively, a list with free shortcuts is available for quick access of keys from
    the *Quick Type* selector.
 
 List All Shortcuts
-   Print a list of all used shortcuts to the text editor.
-   
+   Print a list of all used shortcuts to the Text editor.
+
 
 .. admonition:: Reference
    :class: refbox
@@ -39,7 +39,7 @@ List All Shortcuts
    :Location: :menuselection:`Text Editor --> Sidebar --> Dev tab`
    :File: development_iskeyfree.py
    :Author: Antonio Vazquez (antonioya)
-   :Maintainer:
+   :Maintainer: todo
    :License: GPL
    :Support Level: Community
    :Note: This add-on is bundled with Blender.

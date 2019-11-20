@@ -31,9 +31,9 @@ Located in the :menuselection:`Python Console --> Header --> Icon Viewer`.
 Instructions
 ============
 
-#. Search Function --> Search by name to filter the icons display.
+#. Use the search field to filter the icons displayed by name.
 #. Click on an icon in the display and it's name will be copied to the clipboard.
-#. Paste the text into the text editor of choice to use in your addon.
+#. Paste the name into the text editor of choice to write your add-on.
 
 
 .. admonition:: Reference
@@ -44,7 +44,7 @@ Instructions
    :Location: :menuselection:`Text Editor --> Dev Tab --> Icon Viewer`
    :File: development_icon_get.py
    :Author: roaoao
-   :Maintainer:
+   :Maintainer: todo
    :License: GPL
    :Support Level: Community
    :Note: This add-on is bundled with Blender.
