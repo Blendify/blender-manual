@@ -56,5 +56,7 @@ Known Limitations
    :Location: :menuselection:`Properties --> Modifiers`
    :File: space_view3d_modifier_tools folder
    :Author: meta-androcto, saidenka
+   :Maintainer: meta-androcto
    :License: GPL
+   :Support Level: Community
    :Note: This add-on is bundled with Blender.
