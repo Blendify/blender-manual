@@ -45,6 +45,7 @@ DXF to Meshes
 
 Missing DXF Types
 ^^^^^^^^^^^^^^^^^
+
 - Hatches
 - Leader
 
@@ -172,10 +173,10 @@ Rules of thumb for choosing an SRID
 
    Open the DXF with a text editor (it has many thousands of lines) and
    make an educated guess looking at some coordinates.
-   DXF works with "group codes", a name AutoDesk invented for "key" as in key/value pairs.
+   DXF works with "group codes", a name Autodesk invented for "key" as in key/value pairs.
    X has group code 10, Y has 20, Z has 30. If you find a pattern like:
 
-   .. code-block::
+   .. code-block:: none
 
       10, newline, whitespace, whitespace, NUMBER, newline,
       20, newline, whitespace, whitespace, NUMBER, newline,
