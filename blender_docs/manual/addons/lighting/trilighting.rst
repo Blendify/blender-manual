@@ -6,14 +6,14 @@ Tri-Lighting
 Introduction
 ============
 
-This addon creates a simple 3 point studio style lighting set up. 
+This add-on creates a simple three point studio style lighting set up.
 
 
 Activation
 ==========
 
 - Open Blender and go to Preferences then the Add-ons tab.
-- Click Add Curve then Assign Shape Keys to enable the script.
+- Click Lighting then Tri-Lighting to enable the script.
 
 
 Interface
@@ -31,9 +31,10 @@ Usage
 
 #. Select the object to point the lights at.
 #. :menuselection:`3D View --> Add --> Light menu --> 3 Point Lights`
-#. Adjust settings in the Tri-Lighting Creator operator panel.
-#. The created lights are pointed at and locked to the active object using a :menuselection:`Properties editor --> Object Constraint --> Track To`
-#. In the :menuselection:`Properties editor --> Object Data` (The *Light* icon) you can furthur edit the properties of your lights.
+#. Adjust settings in the Tri-Lighting Creator :ref:`ui-undo-redo-adjust-last-operation` panel.
+#. The created lights are pointed at and locked to the active object
+   using a :menuselection:`Properties editor --> Object Constraint --> Track To`.
+#. In the :menuselection:`Properties editor --> Light tab` you can further edit the properties of your lights.
 
 .. admonition:: Reference
    :class: refbox
