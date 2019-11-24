@@ -8,16 +8,11 @@ Introduction
 
 .. figure:: /images/addons_interface_dynamic_menu.jpg
    :align: right
-   :width: 220px
 
-
-Originally designed as as a replacement for the legacy 2.49 spacebar menu for the Blender 2.5 series.
-
-This addon has evolved again to adjust to the new Blender 2.8 tools and interface.
-
-Access Search, Tools, Animation, Quick Favorites, Modifiers, Collections and more.
-
-Menu's are reworked and updated to better reflect built in 2.8 series tools.
+Dynamic Context Menu provides access to many of the menus found in the 3D View header.
+It also packs a few features of its own, such as the Cursor menu.
+It is context sensitive for the 3D View's modes and object sensitive based on object selected in Edit Mode.
+This add-on pairs well with the :doc:`/addons/interface/brush_menus`.
 
 
 Activation
@@ -26,19 +21,16 @@ Activation
 - Open Blender and go to Preferences then the Add-ons tab.
 - Click Interface then Dynamic Context Menu to enable the script.
 
-Note: If you have trouble accessing the add-on in the ui: in :menuselection:`Preferences > Keymaps > Spacebar Action`,
-you may need to set it to :menuselection:`Tools` and save your preferences.
+.. note::
 
+   If you have trouble accessing the add-on in the interface:
+   in :menuselection:`Preferences --> Keymaps --> Spacebar Action`, you may need to
+   set it to *Tools* and save your preferences.
 
-Information
-===========
+.. container:: lead
 
-Dynamic Context Menu provides access to many of the menus found in the 3d view header.
-It also packs a few features of its own, such as the Cursor menu.
-It is context sensitive for Object, Edit, Sculpt, Pose, Weight/Texture/Vertex Paint modes and
-object sensitive based on object selected in Edit Mode. This addon pairs well with the Dynamic brush menus.
-
-
+   .. clear
+   
 .. admonition:: Reference
    :class: refbox
 

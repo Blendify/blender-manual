@@ -33,7 +33,7 @@ Instructions
 
 #. Use the search field to filter the icons displayed by name.
 #. Click on an icon in the display and it's name will be copied to the clipboard.
-#. Paste the name into the text editor of choice to write your add-on.
+#. Paste the name into the text editor of choice to use it in your add-on.
 
 
 .. admonition:: Reference

@@ -8,11 +8,12 @@ Introduction
 
 Individual menu Activation. 13 individual menus to choose from.
 Based on Pie menus from sebastian_k, pitiwazou, italic, saidenka, meta-androcto.
-Since there are multiple hotkey changes each menu can be deactivated in the add-on's preferences.
+Since there are many hotkey changes each menu can be deactivated in the add-on's preferences.
 
 .. figure:: /images/addons_interface_piemenu.jpg
    :align: right
    :width: 220px
+
 
 Activation
 ==========
@@ -50,7 +51,7 @@ Origin :kbd:`Ctrl-Alt-X`
 
 Save Open :kbd:`Ctrl-S`
    Save, Open, Import files menus.
- 
+
 Sculpt :kbd:`W`
    Easy open your Brushes with this pie menu.
 

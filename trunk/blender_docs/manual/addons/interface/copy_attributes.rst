@@ -6,7 +6,7 @@ Copy Attributes Menu
 Introduction
 ============
 
-This addon extends the :kbd:`Ctrl-C` hotkey to include many extra copy types.
+This add-on extends the *Copy Objects* :kbd:`Ctrl-C` hotkey to include many extra copy types.
 
 
 Activation
@@ -22,7 +22,7 @@ Description
 Object Mode
 -----------
 
-Select More than one object, press :kbd:`Ctrl-C` to copy attributes from active to selected,
+Select more than one object, press :kbd:`Ctrl-C` to copy attributes from active to selected,
 you'll see the following menu:
 
 Each item on the menu will copy some attributes from the *active* (last selected object) to
