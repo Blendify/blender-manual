@@ -108,8 +108,8 @@ Default
    of selected atoms push the *Default* button.
 
 
-Separating Atoms
-----------------
+Separate Atoms
+--------------
 
 When structures are imported via the PDB or XYZ importer the atoms are put into
 a so-called dupliverts structure, somewhat into 'groups' of elements (e.g. all hydrogen atoms).
@@ -118,10 +118,10 @@ by modifying the properties (position) of the vertices. However,
 they are always a part of the structure and are not independent objects.
 Sometimes one would like to mark single atoms or replace the atoms by something different:
 For example: Imagine you have a NaCl(001) surface where you would like to replace
-an atom by an atomic defect in form of a ball with different color.
+an atom by an atomic defect in form of a ball with a different color.
 
 To separate single atoms, one needs to select the atom (vertices) first in Edit Mode.
-In the *Atomic Blender Utilities* panel, the *Object* selector and the *Separate Atoms* button appear at the bottom.
+In the *Atomic Blender Utilities* panel, the *Object* selector and the *Separate* button appear at the bottom.
 If the selector remains on *Unchanged* the type of object (NURBS, mesh, meta) and its properties will not be changed.
 If desired also an other type of object can chosen, which then replaces the standard type of object.
 
