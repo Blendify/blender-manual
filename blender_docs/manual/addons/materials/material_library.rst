@@ -11,8 +11,10 @@ You can save, load and categorize materials that can be shared across all your p
 This version uses a blend-file as database so all external render engines,
 all node materials and textures are supported. It also makes use of Blender compression.
 
-Please see `author's site <https://sites.google.com/site/aleonserra/home/scripts/matlib-vx-5-6>`__
-for the older original docs.
+.. seealso::
+
+   Please see `author's site <https://sites.google.com/site/aleonserra/home/scripts/matlib-vx-5-6>`__
+   for the older original docs.
 
 
 Activation
