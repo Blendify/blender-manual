@@ -116,7 +116,11 @@ that precedes the camera name alphabetically, the UI can't load.
 E.g. The Default camera name for the Dolly is "Dolly Camera". If you parent an object called "E" it will work.
 But an object called "A" will fail.
 
+.. seealso::
 
+   The `Authors's github <https://github.com/waylow/add_camera_rigs>`__.
+ 
+ 
 .. admonition:: Reference
    :class: refbox
 
