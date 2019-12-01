@@ -3,6 +3,32 @@
 Node Arrange
 ************
 
+
+Introduction
+============
+
+This add-on allows you to neatly arrange your nodes.
+
+
+Activation
+==========
+
+- Open Blender and go to Preferences then the Add-ons tab.
+- Click Node then Node Arrange to enable the script.
+
+
+Interface
+=========
+
+Located in the :menuselection:`Node Editors --> Sidebar --> Arrange tab`.
+
+
+Usage
+=====
+
+Todo.
+
+
 .. admonition:: Reference
    :class: refbox
 
@@ -13,12 +39,7 @@ Node Arrange
    :Author: JuhaW
 
 
-Installation
-============
 
-- This add-on is bundled with Blender.
-- Open Blender and go to Preferences then the Add-ons tab.
-- Click Node then Node Arrange to enable the script.
 
 
 Description
