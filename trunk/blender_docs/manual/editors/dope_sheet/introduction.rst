@@ -203,13 +203,13 @@ There are some options that are exclusive to the Dope Sheet editor:
 Sync Markers
    Sync Markers with keyframe edits.
 Show Pose Markers
-   Available in :doc:`Action </editors/dope_sheet/action>` and :doc:`Shape Key </editors/dope_sheet/shape_key>`
-   modes. Shows pose markers owned by the active action instead of the scene ones.
+   Available in :doc:`Action </editors/dope_sheet/action>` and :doc:`Shape Key </editors/dope_sheet/shape_key>` modes.
+   Shows pose markers owned by the active action instead of the scene ones.
 Make Markers Local
-   Available in :doc:`Action </editors/dope_sheet/action>` and :doc:`Shape Key </editors/dope_sheet/shape_key>`
-   modes. Converts selected scene markers in pose markers, assigning them to the active action.
+   Available in :doc:`Action </editors/dope_sheet/action>` and :doc:`Shape Key </editors/dope_sheet/shape_key>` modes.
+   Converts selected scene markers in pose markers, assigning them to the active action.
 
-For more informations and the descriptions of the other marker tools 
+For more information and the description of the other marker tools
 see :ref:`Editing Markers <animation-markers-editing>`.
 
 

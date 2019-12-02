@@ -10,8 +10,10 @@ Use to align the location, rotation or scale of selected objects to the active o
 
 .. seealso::
 
-   Please see `Original Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Align_Tools/>`__
+   Please see the
+   `old Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Align_Tools/>`__
    for the archived original docs.
+
 
 Activation
 ==========

@@ -77,8 +77,7 @@ Pose Markers
    :align: right
 
 Pose markers show a diamond-shaped icon in the Dope Sheet.
-In the NLA editor pose markers are shown as a red dashed line inside the relative
-action strip.
+In the NLA editor pose markers are shown as a red dashed line inside the relative action strip.
 
 .. container:: lead
 

@@ -41,8 +41,8 @@ Assign Material ``+``
 
 Select By Material (magnifying glass icon)
    In Edit or Object Mode you can select based on material. 
-   Faces with chosen material will become selected. all objects with
-   a chosen material will be selected in Object Mode.
+   Faces with chosen material will become selected.
+   All objects with a chosen material will be selected in Object Mode.
 
 Copy Material to Selected (ID icon)
    Copy the material from the active object to selected objects.

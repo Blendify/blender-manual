@@ -225,7 +225,8 @@ Influence
    For an illustrated explanation of all the tool settings visit
    the `script homepage <http://sites.google.com/site/bartiuscrouch/looptools>`__.
 
-   Please see `Original Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Modeling/LoopTools/>`__
+   Please see the
+   `old Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Modeling/LoopTools/>`__
    for the archived original docs.
 
 

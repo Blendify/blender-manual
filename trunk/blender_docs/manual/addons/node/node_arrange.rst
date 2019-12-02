@@ -3,7 +3,6 @@
 Node Arrange
 ************
 
-
 Introduction
 ============
 
@@ -20,7 +19,7 @@ Activation
 Interface
 =========
 
-Located in the :menuselection:`Node Editors --> Sidebar --> Arrange tab`.
+Located in the :menuselection:`node editors --> Sidebar --> Arrange tab`.
 
 
 Usage
