@@ -118,9 +118,9 @@ But an object called "A" will fail.
 
 .. seealso::
 
-   The `Authors's github <https://github.com/waylow/add_camera_rigs>`__.
- 
- 
+   The `Authors's Github repository <https://github.com/waylow/add_camera_rigs>`__.
+
+
 .. admonition:: Reference
    :class: refbox
 

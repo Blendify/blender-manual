@@ -11,6 +11,7 @@ Introduction
 
 Dynamic Context Menu provides access to many of the menus found in the 3D View header.
 It also packs a few features of its own, such as the Cursor menu.
+Access Operator Search, Tools, Animation, Quick Favorites, Modifiers, Collections and more.
 It is context sensitive for the 3D View's modes and object sensitive based on object selected in Edit Mode.
 This add-on pairs well with the :doc:`/addons/interface/brush_menus`.
 
@@ -24,13 +25,13 @@ Activation
 .. note::
 
    If you have trouble accessing the add-on in the interface:
-   in :menuselection:`Preferences --> Keymaps --> Spacebar Action`, you may need to
-   set it to *Tools* and save your preferences.
+   You may need to set the :menuselection:`Preferences --> Keymaps --> Spacebar Action` to *Tools*
+   and save your preferences.
 
 .. container:: lead
 
    .. clear
-   
+
 .. admonition:: Reference
    :class: refbox
 

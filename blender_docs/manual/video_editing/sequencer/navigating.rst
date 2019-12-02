@@ -69,7 +69,7 @@ Show Seconds :kbd:`Ctrl-T`
 Show Offsets
    Shows overflow bars of "extra" content from either cutting or sliding strips.
 Show Markers
-   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden 
+   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
 Cache
    Show :doc:`Cache </video_editing/sequencer/properties/proxy_cache>`

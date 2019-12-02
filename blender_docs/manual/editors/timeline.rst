@@ -234,7 +234,7 @@ Lock Time to Other Windows
    with the other editors (Graph, Dope Sheet, NLA) when this option is set.
    That way you always have these editors showing an identical part of the time you work on.
 Show Markers
-   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden 
+   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
 Only Keyframes from Selected Channels
    For *Armatures*, this will display the object keyframes,

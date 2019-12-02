@@ -21,7 +21,7 @@ Realtime Updates
 Show Control F-Curves
    Overlays a graph of the NLA-strip's influence on top of the strip.
 Show Markers
-   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden 
+   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
 Show Local Markers
    Shows action-local markers on the strip, this is useful when synchronizing time across strips.

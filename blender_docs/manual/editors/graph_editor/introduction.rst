@@ -111,7 +111,7 @@ Show Group Colors
 AutoMerge Keyframes
    Automatically merge nearby keyframes.
 Show Markers
-   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden 
+   Shows the markers region. When disabled, the `Markers Menu`_ is also hidden
    and markers operators are not available in this editor.
 Use High Quality Display
    Display F-curves using anti-aliasing and other fancy effects (disable for a better performance).

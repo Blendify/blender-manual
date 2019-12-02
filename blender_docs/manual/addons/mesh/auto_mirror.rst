@@ -10,8 +10,10 @@ Todo.
 
 .. seealso::
 
-   Please see `Original Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Modeling/AutoMirror/>`__
+   Please see the
+   `old Wiki <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/Modeling/AutoMirror/>`__
    for the archived original docs.
+
 
 Activation
 ==========

@@ -3,7 +3,6 @@
 Bsurfaces GPL Edition
 *********************
 
-
 Introduction
 ============
 

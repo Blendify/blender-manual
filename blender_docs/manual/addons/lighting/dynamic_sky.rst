@@ -10,7 +10,7 @@ Introduction
    :align: center
    :width: 650px
 
-Dynamic Sky is an add-on to create procedural sun and sky with lots of additional options to tweak.
+Dynamic Sky is an add-on to create a procedural sun and sky with lots of additional options to tweak.
 With this single add-on you can create interior, exterior or any type of natural lighting with just a few clicks.
 
 The Authors documentation can be found on
