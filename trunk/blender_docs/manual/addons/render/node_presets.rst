@@ -6,8 +6,9 @@ Node Presets
 Introduction
 ============
 
-This add-on allows you to set a file path to a directory with .blend file(s) containing node groups.
-All the node groups will then be available from a new menu in the :menuselection:`Node Editors --> Add --> Template menu`
+This add-on allows you to set a file path to a directory with ``.blend`` file(s) containing node groups.
+All the node groups will then be available from a new menu in the
+:menuselection:`Node Editors --> Add --> Template` menu.
 
 
 Activation
@@ -20,12 +21,12 @@ Activation
 Usage
 =====
 
-After activating the addon, expand the addons panel to expose the preferences. Here you can set the path to your directory. 
+After activating the addon, expand the addons panel to expose the preferences.
+Here you can set the path to your directory.
 
 The directory or folder can have multiple .blend files and all node groups they contain will be available.
 
 All node editors are supported, you can add compositing, texture and material node groups.
-
 
 .. admonition:: Reference
    :class: refbox
