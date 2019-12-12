@@ -37,8 +37,8 @@ To Do
 
    :Category:  Lighting
    :Description: Add three point lighting to the selected or active object.
-   :Location: :menuselection:`3D View --> Add --> Lights`
-   :File: lighting_tri_lights.py
+   :Location: :menuselection:`Properties Editor --> World --> Sun Position panel`
+   :File: sun_position folder
    :Author: Michael Martin
    :Maintainer: Pioverfour
    :License: GPL
