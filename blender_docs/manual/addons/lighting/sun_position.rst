@@ -6,12 +6,13 @@ Sun Position
 Introduction
 ============
 
-This add-on allows the user to enter in real world co-ordinates and create a sun to match the time and date they use.
+This add-on allows you to enter in real world coordinates and create a sun to match the time and date they use.
 
-The old documentation can be found on
-the `Wiki Archive <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Sun_Position/>`__.
+The old documentation can be found on the
+`Wiki Archive <https://archive.blender.org/wiki/index.php/Extensions:2.6/Py/Scripts/3D_interaction/Sun_Position/>`__.
 
 Please note that the World Map is currently not in use.
+
 
 Activation
 ==========
@@ -24,7 +25,7 @@ Interface
 =========
 
 
-Located in the :menuselection:`Properties Editor --> World --> Sun Position panel`.
+Located in the :menuselection:`Properties editor --> World --> Sun Position panel`.
 
 
 Usage
@@ -36,8 +37,8 @@ To Do
    :class: refbox
 
    :Category:  Lighting
-   :Description: Add three point lighting to the selected or active object.
-   :Location: :menuselection:`Properties Editor --> World --> Sun Position panel`
+   :Description: Show sun position with objects and/or sky texture.
+   :Location: :menuselection:`Properties editor --> World --> Sun Position panel`
    :File: sun_position folder
    :Author: Michael Martin
    :Maintainer: Pioverfour
