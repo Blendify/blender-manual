@@ -6,7 +6,7 @@ Collection Manager
 Introduction
 ============
 
-This addon add new functionality for the management of collections via the 3d viewport.
+This add-on add new functionality for the management of collections via the 3D Viewport.
 
 
 Activation
@@ -26,7 +26,7 @@ to do
    :class: refbox
 
    :Category:  Interface
-   :Description: collection management system.
+   :Description: Collection management system.
    :Location: 3D Viewport
    :File: collection_manager folder
    :Author: imaginer (Ryan Inch)

@@ -6,7 +6,7 @@ Import Palettes
 Introduction
 ============
 
-This add-on imports color palettes from krita and photoshop.
+This add-on imports color palettes from Krita and Photoshop.
 
 Todo.
 
