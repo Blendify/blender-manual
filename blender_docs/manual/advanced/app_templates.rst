@@ -147,17 +147,17 @@ This has the following benefits:
 - You may enable add-ons associated with your template.
 
 
-On activation a ``register`` function is called, ``unregister`` is called when the template changes.
+On activation a ``register`` function is called, ``unregister`` is called when another template is selected.
 
-These only run once, so changes to defaults should be made via handler.
+As these only run once, any changes to defaults must be made via handler.
 
 Two handlers you're likely to use are:
 
 - ``bpy.app.handlers.load_factory_preferences_post``
 - ``bpy.app.handlers.load_factory_startup_post``
 
-These allow you to define your own "factory-settings", which the user may change.
-Just as Blender has it's own defaults when fairst launched.
+These allow you to define your own "factory-settings", which the user may change,
+just as Blender has it's own defaults when first launched.
 
 This is an example ``__init__.py`` file which defines defaults for an app-template to use.
 
