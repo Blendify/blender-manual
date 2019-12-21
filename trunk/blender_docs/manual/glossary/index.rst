@@ -753,13 +753,13 @@ This page lists definitions for terms used in Blender and this manual.
    Swing
    Swing and Twist
       Refers to decomposition of an arbitrary rotation into a sequence of two single axis rotations:
-      a *swing* rotation that aims a chosen axis in its final direction using the shortest possible
-      rotation path, followed by a *twist* rotation around that axis.
+      a *swing* rotation that aims a chosen axis in its final direction using the shortest possible rotation path,
+      followed by a *twist* rotation around that axis.
 
       This decomposition is available through :ref:`Driver Variables <drivers-variables-rotation-modes>`
       and inputs of the :doc:`Transformation constraint </animation/constraints/transform/transformation>`.
-      The :doc:`Damped Track constraint </animation/constraints/tracking/damped_track>` produces a pure
-      *swing* rotation.
+      The :doc:`Damped Track constraint </animation/constraints/tracking/damped_track>` produces
+      a pure *swing* rotation.
 
       In the :term:`Quaternion` representation the *swing* rotation always has 0 as the X/Y/Z component
       corresponding to the selected axis, while *twist* always has 0 as the other two components.

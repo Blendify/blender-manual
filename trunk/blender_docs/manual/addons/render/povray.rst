@@ -620,7 +620,7 @@ unless you declare it. Here is an example:
        pigment{
            brick color rgb< 0.99, 0.99, 0.99>  // color mortar
            color rgb< 0.75, 0.5, 0.30>*0.75  // color brick
-           brick_size <0.25, 0.0525, 0.125> // format in x ,y and z- direction
+           brick_size <0.25, 0.0525, 0.125> // format in X, Y and Z-direction
            mortar 0.01                      // size of the mortar
            scale 3
        } // end of pigment

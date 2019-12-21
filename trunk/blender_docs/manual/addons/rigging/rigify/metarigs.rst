@@ -1,6 +1,7 @@
-*****************
-Creating Metarigs
-*****************
+
+******************
+Creating Meta-rigs
+******************
 
 #. Add a single bone from the :menuselection:`Add --> Armature` menu.
 #. Go in armature Edit Mode and build the meta rig by samples or Rigify-types.
@@ -31,8 +32,8 @@ All the mechanics, deformation bones and widget are created on a single click
    deforming bones with a single click.
 
 
-Creating a new Metarig
-======================
+Creating a new Meta-rig
+=======================
 
 Add a new Armature Object
 -------------------------
@@ -65,7 +66,7 @@ Building a meta-rig from scratch in Edit Mode can be done in two ways:
 
 
 Adding Samples (Basic)
-""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^
 
 Adding samples in Edit Mode is a good way to start building a meta-rig.
 This way you can become familiar with the available building blocks and how they are meant to be used.
@@ -77,10 +78,11 @@ To add a rig sample:
 #. Click on the *Add sample* button.
 #. Edit the bone positions to match your character.
 
-For the list of available samples, see the :doc:`Rig Types <rig_types/index>` page.
+For the list of available samples, see the :doc:`Rig Types </addons/rigging/rigify/rig_types/index>` page.
+
 
 Using Rig Types (Advanced)
-""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 #. Create your bone chains in Edit Mode.
 #. Assign the correct rig type to the first bone of each chain in Pose Mode.

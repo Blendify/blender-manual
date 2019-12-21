@@ -69,12 +69,12 @@ Main
 Manual Orientation
    TODO.
 Forward / Up Axis
-   Since many applications use a different axis for 'Up', these are axis conversion for these settings,
-   Forward and Up axes -- By mapping these to different axes you can convert rotations
+   Since many applications use a different axis for pointing upwards, these are axis conversion for these settings,
+   Forward and up axes -- By mapping these to different axes you can convert rotations
    between applications default up and forward axes.
 
-   Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
-   For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
+   Blender uses Y forward, Z up (since the front view looks along the +Y direction).
+   For example, its common for applications to use Y as the up axis, in that case -Z forward, Y up is needed.
 Apply Transform
    TODO.
 Import Normals
@@ -126,12 +126,12 @@ Apply Scale
 Apply Scalings
    TODO.
 Forward / Up Axis
-   Since many applications use a different axis for 'Up', these are axis conversions for Forward and
-   Up axes -- By mapping these to different axes you can convert rotations between applications
+   Since many applications use a different axis for pointing upwards, these are axis conversions for these settings,
+   Forward and up axes -- By mapping these to different axes you can convert rotations between applications
    default up and forward axes.
 
-   Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
-   For example, its common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
+   Blender uses Y forward, Z up (since the front view looks along the +Y direction).
+   For example, its common for applications to use Y as the up axis, in that case -Z forward, Y up is needed.
 Empty/Camera/Light/Armature/Mesh/Other
    Enable/Disable exporting of respective object types.
 Apply Transform

@@ -1,7 +1,7 @@
 
-******
-Rigify
-******
+##########
+  Rigify
+##########
 
 Introduction
 ============
@@ -43,7 +43,8 @@ Customization
 Development
 ===========
 
-   Developer documentation is available on the `Blender Wiki <https://wiki.blender.org/wiki/Process/Addons/Rigify>`__.
+   Developer documentation is available on the
+   `Blender Wiki <https://wiki.blender.org/wiki/Process/Addons/Rigify>`__.
 
 
 .. admonition:: Reference

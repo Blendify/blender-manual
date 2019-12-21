@@ -130,22 +130,20 @@ Each of the following files can be used for application templates but are option
 Template Scripts
 ================
 
-While app-templates can use Python scripts,
+While app templates can use Python scripts,
 they simply have access to the same API's available for add-ons and any other scripts.
 
-As noted above, you may optionally have an ``__init__.py`` in your app-template.
+As noted above, you may optionally have an ``__init__.py`` in your app template.
 
-This has the following benefits:
+This has the following advantages:
 
-- Changes can be made to the startup or preferences,
-  without having to distribute a ``.blend`` file
+- Changes can be made to the startup or preferences, without having to distribute a blend-file.
 - Changes can be made dynamically.
 
-  You could for example - configure the template to check the number of processors, operating system and memory,
+  You could for example -- configure the template to check the number of processors, operating system and memory,
   then set values based on this.
 
 - You may enable add-ons associated with your template.
-
 
 On activation a ``register`` function is called, ``unregister`` is called when another template is selected.
 
@@ -156,10 +154,10 @@ Two handlers you're likely to use are:
 - ``bpy.app.handlers.load_factory_preferences_post``
 - ``bpy.app.handlers.load_factory_startup_post``
 
-These allow you to define your own "factory-settings", which the user may change,
+These allow you to define your own "factory settings", which the user may change,
 just as Blender has it's own defaults when first launched.
 
-This is an example ``__init__.py`` file which defines defaults for an app-template to use.
+This is an example ``__init__.py`` file which defines defaults for an app template to use.
 
 .. code-block:: python
 
