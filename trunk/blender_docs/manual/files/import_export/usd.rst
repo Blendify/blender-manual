@@ -101,7 +101,7 @@ Single-sided and Double-sided Meshes
    If there is no material it defaults to double-sided.
 
 Mesh Normals
-   The mesh subdivision scheme in USD is 'Catmull Clark' by default,
+   The mesh subdivision scheme in USD is 'Catmull-Clark' by default,
    but Blender uses 'None' instead, indicating that a polygonal mesh is exported.
    This is necessary for USD to understand the custom normals;
    otherwise the mesh is always rendered smooth.

@@ -25,7 +25,7 @@ Common
 ------
 
 Forward / Up Axis
-   Since many applications use a different axis for  pointing upwards, these are axis conversion for these settings,
+   Since many applications use a different axis for pointing upwards, these are axis conversion for these settings,
    Forward and up axes -- By mapping these to different axes you can convert rotations
    between applications default up and forward axes.
 
