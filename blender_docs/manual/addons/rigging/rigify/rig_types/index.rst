@@ -1,9 +1,9 @@
-*********
-Rig Types
-*********
 
+#############
+  Rig Types
+#############
 
-Rig types are components used by Rigify to process specific parts of the metarig when generating the armature.
+Rig types are components used by Rigify to process specific parts of the meta-rig when generating the armature.
 They represent common character features, like the spine, limbs, fingers etc.
 
 .. note::
@@ -12,7 +12,6 @@ They represent common character features, like the spine, limbs, fingers etc.
    Scroll down the Properties editor to find Rigify Type panel.
 
 This documents rig types that are bundled with Rigify.
-
 
 .. toctree::
    :maxdepth: 2

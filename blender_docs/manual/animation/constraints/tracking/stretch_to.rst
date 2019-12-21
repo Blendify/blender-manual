@@ -62,7 +62,7 @@ Rotation
       the :doc:`Track To constraint </animation/constraints/tracking/track_to>`:
       the owner is rotated around two local axes in the specified order.
    Swing
-      The constraint uses a single :term:`Swing` rotation, equivalent to the
-      :doc:`Damped Track constraint </animation/constraints/tracking/damped_track>`.
+      The constraint uses a single :term:`Swing` rotation, equivalent to
+      the :doc:`Damped Track constraint </animation/constraints/tracking/damped_track>`.
 
 .. vimeo:: 171283118

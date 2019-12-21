@@ -1,3 +1,4 @@
+
 **********************
 Generated Rig Features
 **********************
@@ -9,9 +10,10 @@ This is the character rig you have generated from the human meta-rig and will co
 Limbs
 =====
 
-Each limb will have a gear widget at its base. This is the utility bone that contains all the sub-rig properties.
-The rig features will be displayed anyway when the affected bone is selected but
-if you are looking in the Graph editor for those properties' animated values, this is most likely the bone to look at.
+Each limb will have a gear widget at its base. This is the utility bone that
+contains all the sub-rig properties. The rig features will be displayed anyway
+when the affected bone is selected but if you are looking in the Graph editor for
+those properties' animated values, this is most likely the bone to look at.
 Rigify's super limb will list the following features:
 
 IK/FK Snapping

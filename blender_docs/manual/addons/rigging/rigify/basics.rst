@@ -1,3 +1,4 @@
+
 ***********
 Basic Usage
 ***********
@@ -110,7 +111,7 @@ Rigify Human Alignment Tips
   The face master bone is placed in the same position of the head bone.
   To select it easily, hide all other bone layers.
 
-  For more tips, see the :doc:`Positioning Guide <bone_positioning>`.
+  For more tips, see the :doc:`Positioning Guide </addons/rigging/rigify/bone_positioning>`.
 
 
 Pose Mode Matching (Basic)
@@ -150,7 +151,7 @@ Generating the Rig
 With the bones in the correct positions, jump back in Object Mode, go to the Armature tab,
 scroll down to the bottom and click on the *Generate* button to finalize the rig creation.
 The generation process will take from few seconds to one minute depending on
-rig complexity and hardware specs of your machine.
+rig complexity and hardware specifications of your machine.
 If the generated rig needs tweaking you can modify the meta-rig accordingly and
 then click again on the generate button. If the rig already exists,
 Rigify will simply overwrite it retaining all your modifiers and constraints and -- where possible --

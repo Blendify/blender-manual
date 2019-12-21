@@ -1,9 +1,10 @@
+
 **********************
 Bone Positioning Guide
 **********************
 
 Face Bones
-^^^^^^^^^^
+==========
 
 Start by identifying basic face landmarks to follow as guide for bones placement.
 
@@ -58,7 +59,7 @@ Before generating the rig ensure the face master bone is facing upward.
 
 
 Torso Bones
-^^^^^^^^^^^
+===========
 
 Start by identifying on your character basic torso zones to follow as guide for bones placement.
 
@@ -81,7 +82,7 @@ Even if the pelvis bones will not appear in the final rig as controls, they will
 
 
 Limbs Bones
-^^^^^^^^^^^
+===========
 
 While placing the arm bones try to start having a straight line that goes from
 the shoulder to the hand in both front and top view. After this is done just add a slight bend to the elbow.
@@ -106,7 +107,7 @@ align the bone at the point where the heel just touches the ground floor.
 
 
 Fingers Bones
-^^^^^^^^^^^^^
+=============
 
 Start by placing, finger by finger, all the knocks in place.
 

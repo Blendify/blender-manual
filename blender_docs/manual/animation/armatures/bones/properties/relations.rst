@@ -140,7 +140,7 @@ Inherit Scale
 
       This mode never causes shear and is natural for connected chains like limbs and tentacles.
    Average
-      Inherits a uniform scaling factor that represents the total change in the volume of the parent.
+      Inherits a uniform scaling factor that is the total change in the volume of the parent.
 
       This effectively keeps the uniform part of the scaling of the parent, while removing squash
       and stretch effects. Uniform scaling never causes shear.

@@ -71,12 +71,12 @@ Split by Object & Split by Group
 Clamp Size
    OBJ-files often vary greatly in scale, this setting clamps the imported file to a fixed size.
 Forward / Up Axis
-   Since many applications use a different axis for 'Up', these are axis conversion for these settings,
-   Forward and Up axes -- By mapping these to different axes you can convert rotations
+   Since many applications use a different axis for pointing upwards, these are axis conversion for these settings,
+   Forward and up axes -- By mapping these to different axes you can convert rotations
    between applications default up and forward axes.
 
-   Blender uses Y Forward, Z Up (since the front view looks along the +Y direction).
-   For example, it is common for applications to use Y as the up axis, in that case -Z Forward, Y Up is needed.
+   Blender uses Y forward, Z up (since the front view looks along the +Y direction).
+   For example, it is common for applications to use Y as the up axis, in that case -Z forward, Y up is needed.
 Image Search
    This enables a recursive file search if an image file can't be found.
 
