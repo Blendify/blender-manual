@@ -87,10 +87,9 @@ all changes will also affect the shape of all instanced objects.
 You can also select the parent mesh to modify the arrangement of the instances;
 adding vertices will also add more base objects.
 
-Note that the base objects will inherit changes made to the parent mesh in Object Mode, but
-not in Edit Mode. So scaling the circle up in Object Mode will enlarge the monkey head,
-while scaling the circle up in Edit Mode will only increase the distance between the base
-objects.
+Note that the base objects will inherit changes made to the parent mesh in Object Mode,
+but not in Edit Mode. So scaling the circle up in Object Mode will enlarge the monkey head,
+while scaling the circle up in Edit Mode will only increase the distance between the base objects.
 
 
 Orientation

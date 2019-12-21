@@ -27,4 +27,3 @@ Tail (boolean)
 
    Tail Position (integer)
       Defines the bone where the tail system starts. The next bone will always be the hips system.
-
