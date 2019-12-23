@@ -122,7 +122,7 @@ Creases
    Display edges marked with a crease
    for the :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subdivision_surface>`.
 Sharp
-   Display sharp edges, used with the edge split modifier.
+   Display sharp edges, used with the Edge Split modifier.
 Bevel
    Display weights created for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`.
 Seams

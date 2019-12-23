@@ -214,7 +214,7 @@ Emissive
 ^^^^^^^^
 
 An Image Texture node can be connected to an Emission shader node, and
-optionally combined with properties from a Principled BSDF node by way of an Add shader node.
+optionally combined with properties from a Principled BSDF node by way of an Add Shader node.
 
 If the glTF exporter finds an image connected to the Emission shader node,
 it will export that image as the glTF material's emissive texture.
