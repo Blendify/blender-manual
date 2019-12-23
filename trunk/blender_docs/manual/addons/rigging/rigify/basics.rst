@@ -143,7 +143,7 @@ To bind the geometry to the rig you can use your preferred tools. Just few thing
 - Usually armature deform with automatic weights do a really good job out of the box
   if you correctly place your bones (and there's enough topology to work with!).
 
-For more detailed information on armature layers, armature modifier and weight painting refer to the Blender manual.
+For more detailed information on armature layers, Armature modifier and weight painting refer to the Blender manual.
 
 
 Advanced Rig Generation

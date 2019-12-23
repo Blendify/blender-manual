@@ -784,7 +784,7 @@ The rainbow is a view dependent effect.
 Lathe
 ^^^^^
 
-This object behaves like the Blender screw modifier to create surfaces by revolving a spline
+This object behaves like the Blender Screw modifier to create surfaces by revolving a spline
 except instead of being tessellated beforehand, it follows the mathematical curvature of the spline
 so you won't see any polygons no matter how close you zoom.
 
