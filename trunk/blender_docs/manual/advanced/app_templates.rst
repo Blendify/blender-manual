@@ -192,7 +192,7 @@ This is an example ``__init__.py`` file which defines defaults for an app templa
            for poly in mesh.polygons:
                poly.use_smooth = True
 
-       # Use lookdev shading.
+       # Use material preview shading.
        for screen in bpy.data.screens:
            for area in screen.areas:
                for space in area.spaces:
