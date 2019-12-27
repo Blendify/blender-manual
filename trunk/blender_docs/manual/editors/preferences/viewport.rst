@@ -48,17 +48,18 @@ Quality
 
 .. TODO2.8: document what the difference exactly is between anti-aliasing & multisampling is.
 
-Viewport Anti-aliasing
+Viewport Anti-Aliasing
    Control the :term:`anti-aliasing` for higher quality rendering.
-Multisampling
-   This enables :term:`multisampling` for higher quality rendering, at the expense of some performance.
 Grease Pencil Multisampling
    Control the :term:`anti-aliasing` for higher quality Grease Pencil rendering.
+Overlay Smooth Wires
+   Display  overlays with smooth wire, without this wire will be rendered aliased.
+
+   Some users prefer to disable this and *Edit-Mode Smooth Wires* for increased visibility,
+   since edges do not blend into other shaded regions.
+
 Edit-Mode Smooth Wires
    Display smooth wire in Edit Mode, without this wire will be rendered aliased.
-
-   Some users prefer to disable this for increased visibility,
-   since edges don't blend into other shaded regions.
 
 
 Textures
