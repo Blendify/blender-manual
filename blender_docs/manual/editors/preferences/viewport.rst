@@ -24,7 +24,7 @@ Playback FPS
 
 Gizmo Size
    Diameter of the gizmo.
-Look Dev Sphere Size
+HDRI Preview Size
    Diameter of the HDRI sphere overlay.
 3D Viewport Axis
    Interactive Navigation

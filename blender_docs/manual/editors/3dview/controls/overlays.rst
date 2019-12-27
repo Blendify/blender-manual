@@ -33,6 +33,9 @@ Subdivision
 
 Text Info
    Show text overlay.
+HDRI Preview
+   Show two sphere, one glossy and one diffuse,
+   to preview HDRIs used in *Material Preview* and *Rendered* shading modes.
 3D Cursor
    Show the 3D Cursor overlay.
 Annotations
