@@ -68,8 +68,8 @@ Matcaps, that only have a diffuse pass tend to look very metallic,
 with a separate specular pass it is possible to simulate more varities of materials.
 
 
-LookDev HDRIs
-=============
+HDRIs
+=====
 
 This panel manages :term:`HDRI` image files
 which can be used to light the view when :ref:`Material Preview <3dview-material-preview>` or
