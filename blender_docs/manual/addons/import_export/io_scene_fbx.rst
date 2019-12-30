@@ -152,7 +152,7 @@ Batch Mode
       since it uses scene data and groups are not attached to any scenes.
       Also note, when Group/Scene is enabled you must include the armature objects
       in the group for animated actions to work.
-   Batch Own Dir
+   Batch Own Directory
       When enabled, each file is exported into its own directory,
       this is useful when using the *Copy Images* option. So each directory contains
       one model with all the images it uses. Note, this requires a full Python installation.

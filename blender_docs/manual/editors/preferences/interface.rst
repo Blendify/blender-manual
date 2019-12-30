@@ -94,10 +94,10 @@ Factor Display Type
 Temporary Windows
 -----------------
 
-When preforming certain operations, Blender will open a new window.
+When performing certain operations, Blender will open a new window.
 The behavior of these operations can be configured here.
 
-Render in
+Render In
    When rendering, the user interface can be do any of:
 
    Keep User Interface

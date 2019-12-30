@@ -6,16 +6,16 @@ Basic
 These rig types are used to generate simple single-bone features,
 and for custom rigging done directly in the meta-rig.
 
-The single-bone rig types must be applied separately to every bone even within
-a connected chain, and can have connected children controlled by a different
-rig type. This is unlike chain-based rig types that usually consume the whole
-connected chain.
+The single-bone rig types must be applied separately to every bone even within a connected chain,
+and can have connected children controlled by a different rig type.
+This is unlike chain-based rig types that usually consume the whole connected chain.
 
 
 ``basic.copy_chain``
 ====================
 
-Copies the bone chain keeping all the parent relations within the chain untouched. Useful as a utility rig type for custom rigs.
+Copies the bone chain keeping all the parent relations within the chain untouched.
+Useful as a utility rig type for custom rigs.
 
 Requirement: A chain of at least two connected bones.
 
@@ -72,10 +72,10 @@ Single-bone rig type that copies the bone without the ``ORG-`` name prefix.
 
 Normally all bones copied from the meta-rig are prefixed with ``ORG-`` and placed on an invisible layer.
 This precludes their use as controls or deforming bones, which makes it difficult to transfer complex
-fully custom rigging verbatim from the metarig.
+fully custom rigging verbatim from the meta-rig.
 
 This rig type does not add the automatic prefix, thus allowing an appropriate ``ORG-``, ``MCH-`` or ``DEF-``
-prefix to be manually included in the metarig bone name, or alternatively using no prefix to create
+prefix to be manually included in the meta-rig bone name, or alternatively using no prefix to create
 a control bone.
 
 Relink Constraints
@@ -98,7 +98,8 @@ Relink Constraints
 ``basic.super_copy``
 ====================
 
-Single-bone rig type that simply copies the bone. Useful as utility rig type for adding custom features or specific deform bones to your rigs.
+Single-bone rig type that simply copies the bone. Useful as utility rig type for
+adding custom features or specific deform bones to your rigs.
 
 Control (boolean)
    When enabled a control bone and widget will be created.

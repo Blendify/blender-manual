@@ -454,7 +454,7 @@ Export
 ------
 
 Format
-   See: `File Format Variations`_
+   See: `File Format Variations`_.
 Copyright
    Legal rights and conditions for the model.
 Remember Export Settings
@@ -500,18 +500,19 @@ Materials
 Images
    Todo.
 
+
 Compression
 """""""""""
 
 Compress meshes using Google Draco.
 
-Compression level
+Compression Level
    Higher compression results in slower encoding and decoding.
 Quantization Position
    Higher values result in better compression rates.
 Normal
    Higher values result in better compression rates.
-Texcoord
+Texture Coordinates
    Higher values result in better compression rates.
 Generic
    Higher values result in better compression rates.
@@ -522,6 +523,7 @@ Animation
 
 Use Current Frame
    Export the scene in the current animation frame.
+
 
 Animation
 """""""""
@@ -537,7 +539,7 @@ Always Sample Animations
    Apply sampling to all animations.
 NLA Strips
    Whether to export NLA strip animations.
-Export Deformation bones only
+Export Deformation Bones Only
    Todo.
 
 

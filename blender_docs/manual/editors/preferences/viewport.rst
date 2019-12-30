@@ -53,7 +53,7 @@ Viewport Anti-Aliasing
 Grease Pencil Multisampling
    Control the :term:`anti-aliasing` for higher quality Grease Pencil rendering.
 Overlay Smooth Wires
-   Display  overlays with smooth wire, without this wire will be rendered aliased.
+   Display overlays with smooth wire, without this wire will be rendered aliased.
 
    Some users prefer to disable this and *Edit-Mode Smooth Wires* for increased visibility,
    since edges do not blend into other shaded regions.
