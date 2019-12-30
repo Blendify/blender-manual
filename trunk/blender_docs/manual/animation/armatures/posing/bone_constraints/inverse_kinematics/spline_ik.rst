@@ -61,10 +61,10 @@ Applying Copy Rotation constraints on the bones also works.
 
    There are a couple of limitations to consider:
 
-   - Bones do not inherit a curve's :ref:`tilt <modeling-curve-tilt>` value to control their roll
+   - Bones do not inherit a curve's :ref:`tilt <modeling-curve-tilt>` value to control their roll.
 
    - There is no way of automatically creating a twisting effect
-     where dampened rotation is inherited up the chain.
+     where a dampened rotation is inherited up the chain.
      Consider using :doc:`Bendy Bones </animation/armatures/bones/properties/bendy_bones>` instead.
 
 

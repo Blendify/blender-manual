@@ -106,8 +106,8 @@ Notes
 =====
 
 - When the object or bone already has Action constraints, the next constraint using
-  a newly keyframed action should be added before all others in order to get the
-  same final combined transformation. This fact is not affected by the Mix mode.
+  a newly keyframed action should be added before all others in order to get
+  the same final combined transformation. This fact is not affected by the Mix mode.
 - Unlike usual, you can have a *Start* value higher than the *End* one,
   or a *Min* one higher than a *Max* one: this will reverse the mapping of the action
   (i.e. it will be "played" reversed...), unless you have both sets reversed, obviously!

@@ -44,7 +44,7 @@ Selection Only
    TODO.
 Hierarchy
    TODO.
-Named decorations
+Named Decorations
    TODO.
 H3D Extensions
    TODO.

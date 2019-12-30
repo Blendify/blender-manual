@@ -51,11 +51,13 @@ Aim bone
 Widgets
 =======
 
-When the rig(s) are built, the add-on will create a collection for all the custom bone shapes called (named ``WDGTS_camera``).
-When the custom shapes (widgets) are built they will use the prefix ``WDGTS_camera``.
-If you have more than one rig in the scene, it will use the same widgets in the same collection rather than duplicating them.
-The default collection name and the widget prefix can be set in the user preferences of the add-on.
-(This will not change the name of any existing widgets or collection, only ones that are created after you change the setting)
+When the rig(s) are built, the add-on will create a collection for all the custom bone shapes
+called (named ``WDGTS_camera``). When the custom shapes (widgets) are built
+they will use the prefix ``WDGTS_camera``. If you have more than one rig in the scene,
+it will use the same widgets in the same collection rather than duplicating them.
+The default collection name and the widget prefix can be set in the preferences of the add-on.
+(This will not change the name of any existing widgets or collection,
+only ones that are created after you change the setting.)
 
 .. figure:: /images/addons_camera_rigs_user_prefs.png
    :align: center
@@ -75,23 +77,22 @@ Add DOF Empty
    This is a workaround as it only possible to use objects as a target for the DOF and not bones.
 
 Focal Distance/F-Stop/Focal Length
-   These are custom properties on the camera bone that drive the equivalent setting on the actual camera.  This makes it animatable inside the armature object rather than
-   having to animate the armature and the camera.
+   These are custom properties on the camera bone that drive the equivalent setting on the actual camera.
+   This makes it animatable inside the armature object rather than having to animate the armature and the camera.
 
-Show in front
+Show in Front
    Will make the rig object visible through all other geometry.
    (Useful if you have a fly through scene or if other meshes are in the way.)
 
 Lock Camera Select
-   The *Lock Camera Select* is a toggle button to make the camera unselectable
-   (so you can't accidentally delete it).
+   The *Lock Camera Select* is a toggle button to make the camera unselectable (so you can't accidentally delete it).
 Tracking (Aim Lock)
    This slider controls the Track To constraint on the control bone.
    Turn it off and the bone will not point to the aim bone anymore.
 
 .. figure:: /images/addons_camera_rigs_crane_arm.png
- :align: center
- :width: 240px
+   :align: center
+   :width: 240px
 
 Crane Rig Height, Arm Length
    The *Arm Height* and *Arm Length* sliders at the bottom of the UI show the Y axis scale of the relevant bone.

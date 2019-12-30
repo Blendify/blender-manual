@@ -152,7 +152,7 @@ Geometry
 Apply Modifiers
    Export mesh objects as seen in the 3D Viewport with all modifiers applied.
    Mostly you will want this unless you are exporting a subdivision surface cage.
-SMooth Groups
+Smooth Groups
    Todo.
 Bitflag Groups
    Todo.

@@ -34,7 +34,7 @@ Selection Only
 
 
 Transform
-^^^^^^^^^^
+^^^^^^^^^
 
 Forward / Up
    Since many applications use a different axis for 'Up', these are axis conversion for these settings,

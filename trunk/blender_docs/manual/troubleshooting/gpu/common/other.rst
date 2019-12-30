@@ -52,7 +52,7 @@ Virtual Machines
 Running Blender inside a virtual machine is known to have problems
 when OpenGL drawing calls are forwarded to the host operating system.
 
-To resolve this, configure the system to use PCI pass-through.
+To resolve this, configure the system to use PCI passthrough.
 
 
 Information

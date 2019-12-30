@@ -1,3 +1,5 @@
+.. the title should be remeshing since retopology (feature based) is a subtype of remeshing.
+   remeshing vs. retopology by dev Pablo Dobarro bcon19: https://www.youtube.com/watch?v=lxkyA4Xslzs&t=9m34s
 
 **********
 Retopology
@@ -36,8 +38,8 @@ to generate better topology after blocking out the initial shape.
 
 .. note::
 
-   Remeshing only works on the original mesh data and ignores
-   generated geometry from modifiers, shape keys, rigging ect.
+   Remeshing only works on the original mesh data and
+   ignores generated geometry from modifiers, shape keys, rigging, etc.
 
 .. seealso::
 
