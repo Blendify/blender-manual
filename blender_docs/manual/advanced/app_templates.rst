@@ -25,7 +25,7 @@ Motivation
 ----------
 
 In some cases it's not enough to write a single script or add-on,
-and expect someone to replace their preferences and startup file, install scripts and change their keymap.
+and expect someone to replace his preferences and startup file, install scripts and change his keymap.
 
 The goal of application templates is to support switching to a customized configuration
 without disrupting your existing settings and installation.
