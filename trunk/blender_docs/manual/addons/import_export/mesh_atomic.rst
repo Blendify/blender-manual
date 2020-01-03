@@ -3,50 +3,223 @@
 Atomic Blender (PDB/XYZ)
 ************************
 
-.. admonition:: Reference
-   :class: refbox
+The *Atomic Blender (PDB/XYZ)* addon imports atomic structures (molecules,
+crystals, clusters, particles, surfaces, etc.), which are described in PDB
+(.pdb) and XYZ files (.xyz) (:ref:`see below <io-label>`). The add-on reads
+the coordinates of all atoms in the PDB/XYZ file and represents the atoms as
+balls in the Blender world. Also the sticks, which are described in PDB files
+only, can be shown if the sticks are listed in the PDB file. For the import,
+many options can be chosen, which allow representing the atoms and sticks in
+different ways. With help of several tools  in the *Atomic Blender Utilities*
+panel (:ref:`see below <panel-label>`), the atomic structures can be modified
+after the import. Note that the coordinates of selected atomic structures in
+the Blender 3D world can also be exported into PDB/XYZ files.
 
-   :Category:  Import-Export
-   :Menu:      :menuselection:`File --> Import --> PDB (.pdb)`
-               :menuselection:`File --> Import --> XYZ (.xyz)`
-   :Panel:     :menuselection:`3D View --> Sidebar --> Create --> Atomic Blender Utilities`
+*Atomic Blender (PDB/XYZ)* is interesting for scientists, who want to
+visualize their atomic structures described in PDB or XYZ files with Blender.
+Thanks to Blender, fancy graphics of molecules, crystal structures, surfaces,
+nanoparticles, clusters and complex atomic arrangements can be obtained. Such
+graphics meet the standards of top-level journals, which have an high impact
+factor. See `Examples`_ at the end of this page.
+
+.. seealso:: **Info about PDB and XYZ**
+
+   - Description of the PDB file format:
+     `link1 <https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)>`__ and
+     `link2 <https://www.rcsb.org/pdb/static.do?p=file_formats/pdb/index.html>`__,
+   - Description of the XYZ file format:
+     `link1 <https://en.wikipedia.org/wiki/XYZ_file_format>`__ and
+     `link2 <https://openbabel.org/docs/dev/FileFormats/XYZ_cartesian_coordinates_format.html>`__
+   - Some notes about PDB and XYZ files can also be found
+     `here <https://development.root-1.de/Atomic_Blender_PDB_XYZ.php>`__ and
+     `there <https://development.root-1.de/Atomic_Blender_PDB_XYZ_Remarks.php>`__.
+   - Many molecules can be downloaded from the `rcsb.org
+     <https://www.rcsb.org/>`__ site (go to 'Download').
+   - A list of software that deals with PDB in different ways can be found
+     `here <https://www.rcsb.org/pages/thirdparty/molecular_graphics>`__.
+     There also is
+     `Vesta <https://jp-minerals.org/vesta/en/>`__,
+     `ASE <https://wiki.fysik.dtu.dk/ase/>`__ and
+     all the
+     `quantum chemical calculators <https://en.wikipedia.org/wiki/List_of_quantum_chemistry_and_solid-state_physics_software>`__
+     used in research, which can create or even calculate atomic
+     structures and store them in PDB/XYZ files.
+
+.. seealso:: **Forum**
+
+   - Please, use this
+     `forum <https://blenderartists.org/t/atomic-blender-pdb-xyz-for-blender-2-8-and-higher/>`__
+     for comments and questions.
+   - There also is the possibility to ask questions on
+     `blender.stackexchange.com <https://blender.stackexchange.com/>`__. However,
+     note that some of us (like Blendphys) don't have the 50 credits, which
+     are needed to give answers on stackexchange.com.
+
+.. hint:: **Defects in an Atomic Structure.**
+
+   If you want to show defects like vacancies in an atomic structure, use an
+   'X' for the element name in the PDB or XYZ file. A defect is shown in the
+   form of a cube.
+
+.. _io-label:
+
+Import PDB/XYZ
+==============
+
+.. figure:: /images/addons_io_atomic_blender_import_PDB.png
+   :align: right
+   :width: 239px
+
+   The panel with the options for PDB import.
+
+Camera, lamp
+------------
+
+A camera and/or a light source are placed into the 3D world. Both are placed
+such that the entire atomic structure can be well seen by the camera with
+enough light from the light source.
+
+Object to origin (PDB)
+----------------------
+
+The atomic structure is placed into the origin (0.0, 0.0, 0.0)
+of the 3D world.
+
+Object to origin (XYZ)
+----------------------
+
+Either in only **the first** or in **all frames**, the atomic
+structure is put into the origin (0.0, 0.0, 0.0) of the 3D world.
 
 
-Atomic Blender Utilities
-========================
+Balls/atoms
+-----------
 
-The *Atomic Blender Utilities* panel make your life easier during manipulating atoms of imported structures.
+Type of ...
+   Choose either NURBS, Mesh or Meta balls for the atoms. For option *Mesh*
+   the *Azimuth* and *Zenith* values can be chosen. Meta balls can lead to
+   some fancy effects: for instance, if enough large, their shapes melt
+   together showing some kind of surface effect.
 
+.. figure:: /images/addons_io_atomic_blender_import_XYZ.png
+   :align: right
+   :width: 238px
+
+   The panel with the options for XYZ import.
+
+Scaling factors
+   The atom radii as well as the distances between the atoms can be scaled by
+   a simple factor.
+
+Type
+   The type of atom radius (atomic, van der Waals or as specified in the
+   custom data file [pre-defined]) can be chosen.
+
+
+Sticks/bonds (only PDB)
+-----------------------
+
+Use sticks
+   Use sticks or not
+
+Type
+
+   In general, the options *Sector* and *Radius* determine the precision and
+   dimension of the sticks, respectively.  Option 'Smooth' always means that a
+   'smooth' operator is applied on the sticks. Option *Color* means that the
+   stick is divided into two parts, showing the colors of the respective two
+   atoms which it connects.
+
+   'Type' specific options are:
+
+   Dupliverts
+       The sticks of one element are put into one dupliverts structure and the
+       sticks appear as cylinders. The dupliverts structure makes the
+       displaying and loading of many sticks relatively fast (:ref:`see below
+       <dupliverts-structure>` for more info). Options *Unit* is the length of
+       a unit (a small cylinder): several of such units are put together
+       forming actually the stick (cylinder). The longer the unit length is
+       the less is the number of such units and therefore the faster is the
+       displaying. However, if the unit length is too long the stick becomes
+       eventually longer than the bond length, which the stick shall actually
+       represent. This then creates some overlapping effects. Option *Bonds*
+       displays apart from single also double, tripple etc. bonds whereas
+       option *Distance* is the corresponding bond distance measured in stick
+       diameter.
+   Skin
+       The skin and subdivision modifiers are used to build the sticks. This
+       gives a nice network of sticks, which can be used to show, e.g., only
+       the bonds of the structure (delete the atoms before!). Options
+       *SubDivV* and *SubDivR* are parameters of the subdivision operator. If
+       option *Smooth* is activated, the initial square-like profile of the
+       sticks changes to a more circular one. Note that if this option is
+       chosen, there is only one object representing all sticks.
+   Normal
+       Normal cylinders are used. For each bond, one individual cylinder is
+       used. If option 'One object' is activated, about 'No.' sticks are
+       fusioned into one mesh object. This makes displaying the sticks very
+       fast. However, individual sticks do not exist anymore.
+
+
+Frames (only XYZ)
+-----------------
+
+Load all frames?
+   Load only the first or all frames.
+
+Skip frames
+   Skip and load only each n^th frame. This is quite useful for large data
+   where it might be sufficient to show only each 4th frame.
+
+Frames/key
+   Show n frames per key. Many frames in a key lead to a more fluid
+   presentation.
+
+.. warning::
+   Note that **the number of atoms in a frame has to be the same for all
+   frames**!
+
+.. _panel-label:
+
+The *Atomic Blender Utilities* Panel
+====================================
+
+The *Atomic Blender Utilities* panel makes your life easier during manipulating
+atoms of imported structures.
+
+.. figure:: /images/addons_io_atomic_blender_utilities_panel.png
+   :align: right
+   :width: 211px
+
+   The *Atomic Blender Utilities* panel.
 
 Custom Data File
 ----------------
 
-A separate custom data file containing all types of radii and colors of the atoms can be loaded.
-Such an option is useful when one wants to use predefined values for radii and colors.
-An example can be downloaded from here: `Custom data file <http://development.root-1.de/X-Download/atom_info.dat>`__.
+A separate custom data file containing all types of radii and colors of the
+atoms can be loaded. Such an option is useful when it is desired to use
+predefined values for radii and colors. An example can be downloaded from
+here: `Custom data file
+<https://development.root-1.de/X-Download/atom_info.dat>`__.
 
-The custom data file is an ASCII file, which can be duplicated and modified by the user.
-The radius and/or color of the atoms can be permanently changed as follows:
-Search the name of the atom and change the radius (``Radius used``).
-Do the same with the RGB values for the color.
-The value RGB(1.0, 1.0, 1.0) corresponds to white and RGB(0.0, 0.0, 0.0) is black.
+The custom data file is an ASCII file, which can be duplicated and modified by
+the user. The radius and/or color of the atoms can be permanently changed as
+follows: open the ASCII file with a standard text editor, search the name of
+the atom and change the radius (``Radius used``). Do the same with the RGB
+values for the color. The value RGB(1.0, 1.0, 1.0, 1.0) corresponds to white
+and RGB(0.0, 0.0, 0.0, 1.0) is black. Note that the last value of a color
+tuple is the alpha value of the color.
 
-The data file needs to be loaded first. The colors and radii are changed after executing *Apply*.
-Note that only selected atoms are changed.
+Inside Blender, the data file needs to be loaded first. The colors and radii
+are changed after executing *Apply*. Note that only selected atoms are
+changed.
 
 
 Measure Distances
 -----------------
 
-This is to measure the distance of two objects in Object Mode but also in Edit Mode. The unit is Ångström.
-
-
-All Changes Concern
--------------------
-
-This selector determines which objects are subject for changes defined by the options directly below.
-The changes are either applied on only selected objects or on all objects in the current scene and layer.
-
+This is to measure the distance of two objects in Object Mode but also in Edit
+Mode. The unit is Ångström.
 
 Change Atom Size
 ----------------
@@ -54,84 +227,132 @@ Change Atom Size
 Type of Radii
    Type
       With this selector the type of radii can be chosen.
-      Either one uses Predefined, Atomic or Van der Waals radii.
-      The default values for Predefined radii are the Atomic radii.
+      Either one uses *Predefined*, *Atomic* or *Van der Waals* radii.
+      The default values for Predefined radii are the *Atomic* radii.
    Charge
-      For option *Ionic radii*, the charge state can be chosen and
-      the radii of selected objects are instantaneously changed.
-      The best is to first select one type of atom (e.g. only all hydrogen ones) and then to apply the charge state.
+      For option *Ionic radii*, the charge state can be chosen and the radii
+      of selected objects are instantaneously changed. Select one type of atom
+      (e.g. only all hydrogen ones) and then apply the charge state. Changes
+      only apply if a charge state of an atom is available.
 
 Radii in pm
    All radii of a specific type of atom can be manipulated.
-   Type in the name of the atom (e.g. 'Hydrogen') and choose the radius in picometer.
+   Type in the name of the atom (e.g. 'Hydrogen') and choose the radius in
+   picometer.
 
 Radii by Scale
    This modifies the radii of all atoms with one scaling factor.
    Type in the scaling factor and increase or decrease the size of the radii by
-   pushing *Bigger* button or *Smaller* button, respectively.
+   using the *Bigger* or *Smaller* button, respectively.
 
 
 Change Stick Size
 -----------------
 
-The diameter of the sticks can be changed, too.
-The buttons *Bigger* and *Smaller* allow increasing or decreasing the diameter, respectively.
-The scale factor determines, how strong the change of diameter will be.
-By using the Outliner, one can apply these operators on only a selection of sticks
-(e.g. only the sticks of the hydrogen atoms).
+The diameter of the sticks are changed. The buttons *Bigger* and *Smaller*
+allow increasing or decreasing the diameter, respectively. The scale factor
+determines, how strong the change of diameter will be. By using the Outliner,
+one can apply these operators on only a selection of sticks (e.g. only the
+sticks of the hydrogen atoms). Note that changes only apply if the sticks are
+individual objects, e.g., single cylinders or if the sticks are described in
+dupliverts structures.
 
 
 Change Atom Shape
 -----------------
 
-It is possible to change the shape (sphere, cube, icosphere, etc.) and material of the atoms.
-First, select your atoms in the 3D Viewport or the Outliner.
+It is possible to change the shape (sphere, cube, icosphere, etc.) and
+material of the atoms. First, select your atoms in the 3D Viewport or the
+Outliner.
 
 Shape
    Choose the shape in the first selector.
 Material
-   Choose one of the materials in the second selector.
-   The materials are only examples, further refinements can be done in Materials tab of the Properties editor.
+   Choose one of the materials in the second selector. The materials are only
+   examples, further refinements can be done in the Materials tab of the
+   Properties editor.
 Special
-   Here, you can choose an object with a special shape, material, etc.
-   Such objects are quite nice to represent defects in atomic structures.
-   When choosing such a special object, you cannot anymore separately choose the shape and material from above.
-   In Objects and Materials tabs of the Properties editor further changes can be done.
+   Here, you can choose an object with a special shape, material, etc. Such
+   objects are quite nice to represent defects in atomic structures. When
+   choosing such a special object, you cannot anymore separately choose the
+   shape and material from above. In the Objects and Materials tabs of the
+   Properties editor further changes can be done.
 
 Replace
-   After all, push the *Replace* button.
-   The shape and/or material of all selected atoms are then changed.
-   This option works for objects and dupliverts object structures.
+   After all, push the *Replace* button. The shape and/or material of all
+   selected atoms are then changed. This option works for objects and
+   dupliverts object structures.
 
 Default
-   If you want to have the default values (NURBS spheres and specific element colors and sizes)
-   of selected atoms push the *Default* button.
+   If you want to have the default values (NURBS spheres and specific element
+   colors and sizes) of selected atoms push the *Default* button.
 
+.. _dupliverts-structure:
 
 Separate Atoms
 --------------
 
-When structures are imported via the PDB or XYZ importer the atoms are put into
-a so-called dupliverts structure, somewhat into 'groups' of elements (e.g. all hydrogen atoms).
-Single atoms can be deleted or displaced in Edit Mode of Blender
-by modifying the properties (position) of the vertices. However,
-they are always a part of the structure and are not independent objects.
-Sometimes one would like to mark single atoms or replace the atoms by something different:
-For example: Imagine you have a NaCl(001) surface where you would like to replace
-an atom by an atomic defect in form of a ball with a different color.
+When structures are imported via the PDB or XYZ importer, the atoms are put
+into a so-called dupliverts structure, somewhat into 'groups' of elements
+(e.g., all hydrogen atoms form one dupliverts structure). In the Edit Mode of
+Blender, single atoms can be deleted or displaced by modifying the position of
+the vertices. However, they are always a part of the structure and are not
+independent objects. Sometimes one would like to mark a single atom or replace
+an atom by something different: for instance, imagine you have a NaCl cube
+where you would like to replace an atom by an atomic defect in form of a ball
+with a different color.
 
-To separate single atoms, one needs to select the atom (vertices) first in Edit Mode.
-In the *Atomic Blender Utilities* panel, the *Object* selector and the *Separate* button appear at the bottom.
-If the selector remains on *Unchanged* the type of object (NURBS, mesh, meta) and its properties will not be changed.
-If desired also an other type of object can chosen, which then replaces the standard type of object.
+To separate single atoms, one needs to select the atom (vertices) first in the
+Edit Mode. In the *Atomic Blender Utilities Panel*, the *Object* selector and
+the *Separate* button appear at the bottom. If the selector remains on
+*Unchanged* the type of object (NURBS, mesh, meta) and its properties will not
+be changed upon separation. If desired also an other type of object can be
+chosen, which then replaces the standard type of object.
 
-After having chosen the type of object use bottom *Separate Atoms* to separate the selected atoms:
-the atoms are then single, new objects, which can be manipulated in any way.
-They appear in the Outliner and carry the suffix ``_sep``.
+After having chosen the type of object, use button *Separate Atoms* to
+separate the selected atoms: the atoms are then single, new objects, which can
+be manipulated in any way. They appear in the Outliner and carry the suffix
+``_sep``.
 
-.. hint:: Converting All Atoms of a Dupliverts Structure to Real Objects
+.. hint:: **Converting All Atoms of a Dupliverts Structure to Real Independent Objects**.
 
-   Do the following: Select the whole structure (molecules, surface, etc.) with the mouse.
-   Go to objects :menuselection:`Object --> Apply --> Make Instances Real`.
-   With this you produce real objects! In the Outliner delete the remaining dupliverts structures,
-   named like "Carbon", "Hydrogen", etc.
+   Do the following: Select the whole atomic structure with the mouse. Go to
+   objects :menuselection:`Object --> Apply --> Make Instances Real`. With
+   this you produce real independent objects! In the Outliner delete the
+   remaining dupliverts structures, named like "Carbon", "Hydrogen", etc.
+
+
+.. _examples:
+
+Examples
+========
+
+
+.. list-table::
+
+   * - .. figure:: /images/addons_io_atomic_blender_different_representations_molecules.jpeg
+
+          Figure 1: Different presentations of one and the same molecule.
+
+     - .. figure:: /images/addons_io_atomic_blender_DNA.jpeg
+
+          Figure 2: Part of a DNA molecule.
+
+   * - .. figure:: /images/addons_io_atomic_blender_JPCC_2014_hres.jpg
+
+          Figure 3: Functionalized [5]helicene molecules on the NaCl(001) surface
+          (Clemens Barth - `Link to publication <https://pubs.acs.org/doi/abs/10.1021/jp501738c>`__).
+
+     - .. figure:: /images/addons_io_atomic_blender_ESE_2017_hres.jpeg
+
+          Figure 4: Solar cell structure to underline the properties
+          of silicon nanocrystals deposited by pulsed spray system
+          (Mickael Lozac'h - `Link to publication <https://onlinelibrary.wiley.com/doi/abs/10.1002/ese3.174>`__).
+
+The following movie was created by Sébastien Coget (responsible researcher:
+Frank Palmino) at the `Femto-ST institute <https://www.femto-st.fr/en>`__ in
+Besançon (France). The movie demonstrates that with Blender, professional
+movies can be done for research. The movie was rendered with cycles.
+
+.. youtube:: 8WmCn5xGebs
+    :width: 600
