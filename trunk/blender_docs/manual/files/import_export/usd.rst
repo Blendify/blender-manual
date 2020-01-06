@@ -25,12 +25,6 @@ This means that the following meshes can be exported:
 - Arbitrarily animated meshes; here the topology does change.
   An example is the result of a fluid simulation, where splashes of fluid can break off the main body.
 
-.. note::
-
-   The USD exporter is still an experimental feature, and the structure of exported
-   USD files is subject to change. To enable the USD exporter, enable it in
-   the `Experimental Features <https://wiki.blender.org/wiki/Source/Interface/ExperimentalFeatures>`__.
-
 .. figure:: /images/universal_scene_description_example.png
 
    Shot from `Spring <https://cloud.blender.org/p/spring/>`__ exported to USD and opened in USDView.
@@ -84,9 +78,6 @@ Use Instancing
    in the exported file. When checked, duplicated objects are exported as
    a reference to the original object. If the original object is not part of the export,
    the first duplicate is exported as real object and used as reference.
-
-   Note that currently this is incompatible with exporting materials,
-   see `Limitations`_ below.
 
 Regardless of the options selected above, objects that are inside
 a :ref:`Holdout collection <editors-outliner-restriction-columns>` are always excluded from the export.
@@ -145,4 +136,5 @@ Particles
 Instancing/Referencing
    This is still an experimental feature that can be enabled when exporting to USD.
    When enabled, dupli-object meshes are written to USD as references to the original mesh.
-   This is still very limited in correctness, as there are issues referencing to materials from a referenced mesh.
+   The first copy of the mesh is written for real, and the following copies are referencing the first.
+   Which mesh is considered 'the first' is chosen more or less arbitrarily.
