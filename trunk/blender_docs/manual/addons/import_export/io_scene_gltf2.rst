@@ -214,7 +214,7 @@ Emissive
 ^^^^^^^^
 
 An Image Texture node can be connected to the Emission input on the Principled BSDF node
-to include an emissive map with the glTF material. Alternately, the Image Texture node
+to include an emissive map with the glTF material. Alternatively, the Image Texture node
 can be connected to an Emission shader node, and optionally combined with properties
 from a Principled BSDF node by way of an Add Shader node.
 
@@ -228,7 +228,7 @@ channels if they are not needed.
    the Principled BSDF node directly.
 
 
-Double Sided / Backface Culling
+Double-Sided / Backface Culling
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 For materials where only the front faces will be visible, turn on *Backface Culling* in
@@ -253,7 +253,7 @@ the material settings panel. Use this setting to define how alpha values from
 the Base Color channel are treated in glTF. Three settings are supported by glTF:
 
 Opaque
-   Alpha values are ignored (the default).
+   Alpha values are ignored.
 Alpha Blend
    Lower alpha values cause blending with background objects.
 Alpha Clip
@@ -455,11 +455,11 @@ Export
 Format
    See: `File Format Variations`_.
 Textures
-   Folder to place texture files in. Relative to the .gltf file.
+   Folder to place texture files in. Relative to the gltf-file.
 Copyright
    Legal rights and conditions for the model.
 Remember Export Settings
-   Store export settings in the Blender file,
+   Store export settings in the blend-file,
    so they will be recalled next time the file is opened.
 
 
@@ -499,8 +499,8 @@ Vertex Colors
 Materials
    Export materials.
 Images
-   Output format for images. PNG is lossless and generally preferred, but JPEG might be preferable
-   for web applications due to the smaller file size.
+   Output format for images. PNG is lossless and generally preferred, but JPEG might be preferable for
+   web applications due to the smaller file size.
 
 
 Compression
@@ -542,7 +542,7 @@ Always Sample Animations
 NLA Strips
    Whether to export NLA strip animations.
 Export Deformation Bones Only
-   Export Deformation bones only (and needed bones for hierarchy).
+   Export deformation bones only (and needed bones for hierarchy).
 
 
 Shape Keys
