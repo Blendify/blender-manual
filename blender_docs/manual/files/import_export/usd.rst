@@ -135,6 +135,6 @@ Particles
 
 Instancing/Referencing
    This is still an experimental feature that can be enabled when exporting to USD.
-   When enabled, dupli-object meshes are written to USD as references to the original mesh.
+   When enabled, instanced object meshes are written to USD as references to the original mesh.
    The first copy of the mesh is written for real, and the following copies are referencing the first.
    Which mesh is considered 'the first' is chosen more or less arbitrarily.
