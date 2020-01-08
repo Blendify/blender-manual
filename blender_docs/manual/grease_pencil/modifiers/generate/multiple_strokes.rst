@@ -10,7 +10,7 @@ The *Multiple Strokes* modifier generate multiple parallel strokes around the or
 Options
 =======
 
-.. figure:: /images/grease-pencil_modifiers_generate_multiple_strokes_panel.png
+.. figure:: /images/grease-pencil_modifiers_generate_multiple-strokes_panel.png
    :align: right
 
    The Multiple Strokes modifier.
