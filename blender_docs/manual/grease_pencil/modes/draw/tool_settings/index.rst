@@ -12,7 +12,9 @@
    fill.rst
    erase.rst
    cutter.rst
+   eyedropper.rst
    line.rst
+   polyline.rst
    arc.rst
    curve.rst
    box.rst
