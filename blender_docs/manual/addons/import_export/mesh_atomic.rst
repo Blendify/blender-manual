@@ -28,7 +28,7 @@ See `Examples`_ at the end of this page.
    - Description of the XYZ file format:
      `Wikipedia <https://en.wikipedia.org/wiki/XYZ_file_format>`__ and
      `Open Babel <https://openbabel.org/docs/dev/FileFormats/XYZ_cartesian_coordinates_format.html>`__.
-   - Some notes about PDB and XYZ files can also be found one of
+   - Some notes about PDB and XYZ files can also be found on one of
      the `developer's site <https://development.root-1.de/Atomic_Blender_PDB_XYZ.php>`__ and
      `remarks <https://development.root-1.de/Atomic_Blender_PDB_XYZ_Remarks.php>`__.
    - Many molecules can be downloaded from the `RCSB site <https://www.rcsb.org/>`__ (go to 'Download').
@@ -38,7 +38,7 @@ See `Examples`_ at the end of this page.
      `quantum chemical calculators <https://en.wikipedia.org/wiki/List_of_quantum_chemistry_and_solid-state_physics_software>`__
      used in research, which can create or even calculate atomic structures and store them in PDB/XYZ files.
 
-.. seealso:: Forums
+.. seealso:: Forum
 
    - Please, use
      the `Blender Artists forum <https://blenderartists.org/t/atomic-blender-pdb-xyz-for-blender-2-8-and-higher/>`__
@@ -276,7 +276,7 @@ for instance, imagine you have a NaCl cube where you would like to replace an at
 an atomic defect in form of a ball with a different color.
 
 To separate single atoms, one needs to select the atom (vertices) first in the Edit Mode.
-In the *Atomic Blender Utilities Panel*, the *Object* selector and the *Separate* button appear at the bottom.
+In the *Atomic Blender Utilities* panel, the *Object* selector and the *Separate* button appear at the bottom.
 If the selector remains on *Unchanged* the type of object (NURBS, mesh, meta) and
 its properties will not be changed upon separation. If desired also an other type of object can be chosen,
 which then replaces the standard type of object.
