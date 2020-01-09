@@ -1,38 +1,7 @@
-.. _bpy.types.MovieTrackingTrack:
 
-************
-Introduction
-************
-
-.. _movie-clip-tracking-properties-object:
-
-Objects Panel
-=============
-
-.. figure:: /images/movie-clip_tracking_clip_properties_introduction_objects-panel.png
-   :align: right
-   :width: 195px
-
-   Objects panel.
-
-This panel contains a :ref:`list view <ui-list-view>` with all objects which can be used for tracking,
-camera or object solving.
-By default there is only one object in this list which is used for camera solving.
-It cannot be deleted and other objects cannot be used for camera solving;
-all added objects are used for object tracking and solving only.
-These objects can be referenced from Follow Track and Object Solver constraints.
-Follow Track uses the camera object by default.
-
-If some tracks were added and tracked to the wrong object, they can be copied to another
-object using :menuselection:`Track --> Copy Tracks` and :menuselection:`Track --> Paste Tracks`.
-
-The usage for all kind of objects (used for camera and object tracking) is the same:
-track features, set camera data, solve motion. Camera data is sharing between all objects and
-refining of camera intrinsics happens when solving camera motion only.
-
-
-Track Panel
-===========
+*****
+Track
+*****
 
 .. figure:: /images/movie-clip_tracking_clip_properties_introduction_track-panel.png
    :align: right
@@ -53,7 +22,7 @@ Lock (padlock icon)
 
 
 Track Preview Widget
---------------------
+====================
 
 The widget in this panel is called "Track Preview" and it displays the content of the pattern area.
 This helps to check how accurately the feature is being tracked
@@ -72,7 +41,7 @@ preview widget (the area is highlighted with two horizontal lines).
 
 
 Further Options
----------------
+===============
 
 Channels
    Tracking happens in gray-scale space, so a high contrast between the feature and
@@ -116,28 +85,3 @@ Custom Color
    To select good points for tracking, use points in the middle of the footage timeline
    and track backwards and forwards from there.
    This will provide a greater chance of the marker and point staying in the camera shot.
-
-
-Plane Track Panel
-=================
-
-.. figure:: /images/movie-clip_tracking_clip_properties_introduction_plane-track-panel.png
-   :align: right
-   :width: 195px
-
-   Plane Track panel.
-
-Its properties are shown only when a plane track is selected.
-Firstly, the name of the selected plane track is shown. It can also be changed from here.
-
-Auto Keyframe
-   Toggles the auto-keyframing for corners of the plane track.
-   With this enabled, keyframes will automatically get inserted when any corner is moved.
-Image
-   Field to select an image which will be displayed inside the plane track.
-   This image is for preview purposes in the Movie Clip editor only.
-   To include it in your final render,
-   see :doc:`Plane Track Deform node </compositing/types/distort/plane_track_deform>`.
-Opacity
-   Used to set the opacity of this image. Again,
-   this is for display purposes only, and will not affect your final render.

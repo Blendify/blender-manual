@@ -3,9 +3,6 @@
 Marker
 ******
 
-Marker Panel
-============
-
 .. figure:: /images/movie-clip_tracking_clip_properties_marker_parameter.svg
    :width: 520px
    :align: center
