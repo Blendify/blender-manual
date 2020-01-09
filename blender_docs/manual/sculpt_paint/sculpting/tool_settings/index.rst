@@ -12,5 +12,6 @@
    /sculpt_paint/brush/falloff.rst
    /sculpt_paint/brush/display.rst
    dyntopo.rst
+   remesh.rst
    symmetry.rst
    options.rst
