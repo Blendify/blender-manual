@@ -44,12 +44,3 @@ Shows the brush shape in the viewport.
 Color
    Set the color of the brush ring. Depending on the current mode there will
    be options to set a single Color or a Color for Adding/Subtracting.
-
-
-.. _bpy.types.Brush.use_custom_icon:
-.. _bpy.types.Brush.icon_filepath:
-
-Custom Icon
-===========
-
-Allows definition of a custom brush icon.

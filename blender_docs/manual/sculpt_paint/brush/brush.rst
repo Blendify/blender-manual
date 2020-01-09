@@ -1,5 +1,7 @@
 .. _bpy.types.Brush:
 .. _bpy.ops.brush:
+.. _bpy.types.Brush.use_custom_icon:
+.. _bpy.types.Brush.icon_filepath:
 
 *****
 Brush
@@ -25,6 +27,12 @@ Brushes
          Todo.
       Tool Selection
          Todo.
+      Reset Brush
+         Todo.
+
+      Custom Icon
+         Allows definition of a custom brush icon.
+
 
    .. note::
 
