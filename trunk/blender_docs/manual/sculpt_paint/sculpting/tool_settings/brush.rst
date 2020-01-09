@@ -18,6 +18,10 @@ Radius
    Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
    Brush size can be affected by enabling the pressure sensitivity icon,
    if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
+
+   Use Unified Radius
+      Use the same brush *Radius* across all brushes.
+
 Strength
    Controls how much each application of the brush affects the model.
    For example, higher values cause the *Draw* brush to add depth to the model more quickly,
@@ -29,6 +33,9 @@ Strength
    You can enter the size numerically also while in :kbd:`Shift-F` sizing.
    Brush strength can be affected by enabling the pressure sensitivity icon,
    if a supported tablet is being used.
+
+   Use Unified Strength
+      Use the same brush *Strength* across all brushes.
 
    .. tip::
 

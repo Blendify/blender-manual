@@ -2,6 +2,7 @@
 .. _bpy.ops.brush:
 .. _bpy.types.Brush.use_custom_icon:
 .. _bpy.types.Brush.icon_filepath:
+.. _bpy.types.UnifiedPaintSettings:
 
 *****
 Brush
