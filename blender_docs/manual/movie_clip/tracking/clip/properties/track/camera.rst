@@ -1,15 +1,11 @@
 .. _bpy.types.MovieTrackingCamera:
 
-***********
-Camera Data
-***********
+******
+Camera
+******
 
 This panel contains all settings of the camera used for filming the movie
 which is currently being edited in the Clip editor.
-
-
-Camera
-======
 
 Camera Presets
    Predefined settings can be used here.
@@ -34,10 +30,6 @@ Lens
 Focal Length
    Is self-explanatory; it is the focal length with which the movie was shot.
    It can be set in millimeters or pixels.
-
-
-Lens Distortion
----------------
 
 Distortion Model
    Polynomial
