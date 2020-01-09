@@ -1,24 +1,30 @@
 
-*****
-Brush
-*****
+*******
+Brushes
+*******
 
 .. admonition:: Reference
    :class: refbox
 
    :Mode:      Sculpt Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Brush`
+   :Panel:     :menuselection:`Toolbar --> Tools --> Brushes`
 
 Brush Type
    TODO.
+
+
+Brush Settings
+==============
+
 Radius
    This option controls the radius of the brush, measured in pixels.
    :kbd:`F` allows you to change the brush size interactively by
    dragging the mouse and then :kbd:`LMB` (the texture of the brush should be visible inside the circle).
    Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
-   Brush size can be affected by enabling the pressure sensitivity icon,
-   if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
 
+   Size Pressure
+      Brush size can be affected by enabling the pressure sensitivity icon,
+      if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
    Use Unified Radius
       Use the same brush *Radius* across all brushes.
 
@@ -31,9 +37,10 @@ Strength
    You can change the brush strength interactively by pressing :kbd:`Shift-F`
    in the 3D View and then moving the brush and then :kbd:`LMB`.
    You can enter the size numerically also while in :kbd:`Shift-F` sizing.
-   Brush strength can be affected by enabling the pressure sensitivity icon,
-   if a supported tablet is being used.
 
+   Strength Pressure
+      Brush strength can be affected by enabling the pressure sensitivity icon,
+      if a supported tablet is being used.
    Use Unified Strength
       Use the same brush *Strength* across all brushes.
 
@@ -47,10 +54,13 @@ Strength
 Direction :kbd:`Ctrl`
    Brush direction toggle, *Add* raises geometry towards the brush,
    *Subtract* lowers geometry away from the brush. This setting can be toggled with :kbd:`Ctrl` while sculpting.
+Normal Radius
+   Todo.
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
 Topology
    See :ref:`Dyntopo <bpy.types.Brush.topology_rake_factor>`.
+
 Normal Weight :kbd:`Ctrl`
    Constrains brush movement along the surface normal.
    Especially useful with the *Grab* brush, can be temporarily enabled by holding :kbd:`Ctrl`.

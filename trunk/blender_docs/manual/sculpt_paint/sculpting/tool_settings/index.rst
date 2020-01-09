@@ -4,13 +4,9 @@
 #################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    brush.rst
-   Texture </sculpt_paint/brush/texture.rst>
-   /sculpt_paint/brush/stroke.rst
-   /sculpt_paint/brush/falloff.rst
-   /sculpt_paint/brush/display.rst
    dyntopo.rst
    remesh.rst
    symmetry.rst
