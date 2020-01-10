@@ -348,6 +348,8 @@ Data-Block
    Allows you to filter out certain data-blocks currently present in the scene.
 
 
+.. _bpy.ops.outliner.orphans_purge:
+
 Miscellaneous
 -------------
 
