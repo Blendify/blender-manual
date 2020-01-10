@@ -82,8 +82,8 @@ Selected Objects Only
    When enabled, exports only the selected objects. When disabled, all objects are exported.
 Renderable Objects Only
    This is useful to, for example, avoid exporting custom bone shapes.
-Visible Layers Only
-   Limits the export to scene layers that are currently visible.
+Visible Objects Only
+   Limits the export to scene collections that are currently visible.
 Flatten Hierarchy
    When disabled, parent/child relations between objects are exported too. Any parent object that
    is not exported itself, but with children that *are* exported, is replaced by an Empty.
