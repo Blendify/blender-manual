@@ -113,7 +113,7 @@ UVs
    Contains tools for :doc:`Unwrapping Meshes </modeling/meshes/editing/uv/unwrapping/index>`
    and :doc:`Editing UVs </modeling/meshes/editing/uv/layout>`.
 
-Pivot Point Selector
+Pivot
    Similar to working with Pivot Points in the 3D View.
 Sync Selection
    Keeps UV and Mesh component selections in sync.

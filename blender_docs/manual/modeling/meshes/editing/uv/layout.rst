@@ -353,31 +353,6 @@ Export UV Layout
 This is an :doc:`add-on </addons/import_export/io_mesh_uv_layout>` activated by default.
 
 
-Header
-======
-
-Pivot Point
------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      View mode
-   :Header:    :menuselection:`Pivot Point`
-
-The UV Editor has a 2D cursor. Its position can be changed by :kbd:`LMB`
-clicking in the UV editor. You can also manually adjust its position in the Sidebar region.
-The range by default is from 0 to 256 starting from the lower left corner.
-By enabling *Normalized* under *Coordinates*, the range changes from 0 to 1.
-
-The Pivot Point can be changed to:
-
-- Bounding Box Center
-- Median Point
-- 2D Cursor Location
-- Individual Origins
-
-
 3D View
 =======
 
