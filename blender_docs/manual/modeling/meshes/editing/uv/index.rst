@@ -8,7 +8,7 @@
 
    uv_texture_spaces.rst
    unwrapping/index.rst
-   layout.rst
+   editing.rst
    layout_workflow.rst
    uv_sculpt.rst
    applying_image.rst

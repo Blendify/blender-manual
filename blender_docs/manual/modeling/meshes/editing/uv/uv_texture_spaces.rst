@@ -30,11 +30,11 @@ Add ``+``
    .. TODO2.8 link to docs on UV mapping textures.
 
 
-.. _properties-texture-space:
 .. _bpy.types.*texspace:
 .. _bpy.types.Mesh.texture_mesh:
 .. _bpy.types.Curve.use_uv_as_generated:
 .. _bpy.ops.curve.match_texture_space:
+.. _properties-texture-space:
 
 Texture Space
 =============
