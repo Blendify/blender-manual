@@ -164,7 +164,7 @@ Share Tex Space
    It attempts to fit all of the objects' faces in the UV bounds without overlapping.
 New UV Map
    If mapping multiple meshes, this option creates a new UV map for each mesh.
-   See :doc:`Managing the Layout </editors/uv/layout_management>`.
+   See :ref:`uv-maps-panel`.
 New Image
    Assigns new images for every mesh, but only one if *Shared Tex Space* is enabled.
 

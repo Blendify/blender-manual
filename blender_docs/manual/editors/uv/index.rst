@@ -12,4 +12,3 @@
    display_panel.rst
    generated_uvs.rst
    selecting.rst
-   layout_management.rst
