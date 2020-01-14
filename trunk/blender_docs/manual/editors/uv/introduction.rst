@@ -111,7 +111,7 @@ Image
    This contains options for :doc:`/editors/image/index`.
 UVs
    Contains tools for :doc:`Unwrapping Meshes </modeling/meshes/editing/uv/unwrapping/index>`
-   and :doc:`Editing UVs </modeling/meshes/editing/uv/layout>`.
+   and :doc:`Editing UVs </modeling/meshes/editing/uv/editing>`.
 
 Pivot
    Similar to working with Pivot Points in the 3D View.
@@ -139,7 +139,7 @@ Image Tab
 ^^^^^^^^^
 
 UV Vertex
-   Transform Properties :doc:`Selecting UVs </modeling/meshes/editing/uv/layout>`.
+   Transform Properties :doc:`Selecting UVs </modeling/meshes/editing/uv/editing>`.
 
 
 Tool Tab
