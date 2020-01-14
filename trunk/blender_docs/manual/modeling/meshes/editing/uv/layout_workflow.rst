@@ -3,6 +3,31 @@
 Layout Workflow
 ***************
 
+Transferring UV Maps
+====================
+
+You can copy a UV map from one mesh to another Mesh provided both meshes have the same
+geometry/vertex order. This is useful for example when you want to recreate a UV map from
+an earlier version of your model with intact UVs. This works by:
+
+#. Select the target mesh (to which you want to copy the UV map).
+#. :kbd:`Shift` select the source mesh (that contains the intact UV map).
+#. :menuselection:`Object menu --> Make Links... --> Transfer UV Layouts` (Shortcut: :kbd:`Ctrl-L` ...).
+
+The target Mesh will now have a UV map that matches the original mesh.
+
+
+Multiple UV Maps
+================
+
+You are not limited to one UV map per mesh.
+You can have multiple UV maps for parts of the mesh by creating new UV maps.
+This can be done by clicking the *Add* button next to :ref:`UV maps list <uv-maps-panel>`
+and unwrapping a different part of the mesh. UV maps always include the whole mesh.
+
+.. TODO2.8 add: Continue image clipping.
+
+
 Optimizing the UV Layout
 ========================
 
