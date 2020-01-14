@@ -10,5 +10,4 @@
    introduction.rst
    navigating.rst
    display_panel.rst
-   generated_uvs.rst
    selecting.rst
