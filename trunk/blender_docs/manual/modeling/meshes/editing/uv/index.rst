@@ -9,6 +9,6 @@
    uv_texture_spaces.rst
    unwrapping/index.rst
    editing.rst
-   layout_workflow.rst
+   workflows/index.rst
    uv_sculpt.rst
    applying_image.rst
