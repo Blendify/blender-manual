@@ -278,7 +278,7 @@ Custom Profile :kbd:`Z`
       The *Support Loops* and *Steps* presets are built dynamically depending on the number of segments in the bevel.
       If the number of segments is changed, the preset will have to be re-applied.
    Reverse
-      The *Reverse* button flips the orientation of the profile for all beveled edges
+      The *Reverse* button flips the orientation of the profile for all beveled edges.
    Clipping
       The *Clipping* toggle allows control points to be moved beyond the initial boundary,
       allowing the bevel to add volume to the mesh rather than just removing it.
