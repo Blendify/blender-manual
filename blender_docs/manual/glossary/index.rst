@@ -454,9 +454,8 @@ This page lists definitions for terms used in Blender and this manual.
    Multiple Importance Sampling
       A process of estimating the direction of light rays to improve sampling quality.
 
-      See: :ref:`render-cycles-reducing-noise-mis`
-
-      See also `Importance sampling <https://en.wikipedia.org/wiki/Importance_sampling>`__ on Wikipedia.
+      See :ref:`render-cycles-reducing-noise-mis` and
+      also `Importance sampling <https://en.wikipedia.org/wiki/Importance_sampling>`__ on Wikipedia.
 
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.
