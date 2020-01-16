@@ -1,8 +1,8 @@
 .. _tool-grease-pencil-draw-polyline:
 
-**************
+*************
 Polyline Tool
-**************
+*************
 
 .. admonition:: Reference
    :class: refbox
@@ -51,7 +51,7 @@ Thickness Profile
 
 
 Creating Polylines
------------------- 
+------------------
 
 #. Click (:kbd:`LMB` or the :kbd:`Pen` tip) and drag the start point.
 #. Release on the desired end point.

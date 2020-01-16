@@ -1,8 +1,8 @@
 .. _tool-grease-pencil-draw-eyedropper:
 
-****************
+***************
 Eyedropper Tool
-****************
+***************
 
 .. admonition:: Reference
    :class: refbox

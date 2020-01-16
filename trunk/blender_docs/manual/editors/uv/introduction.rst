@@ -114,16 +114,16 @@ UVs
    and :doc:`Editing UVs </modeling/meshes/editing/uv/editing>`.
 
 Pivot
-   Similar to working with Pivot Points in the 3D View.
+   Similar to working with pivot points in the 3D View.
 Sync Selection
-   Keeps UV and Mesh component selections in sync.
+   Keeps UV and mesh part selections in sync.
 Selection Modes
    - Vertex
    - Edge
    - Face
    - Island
 Sticky Selection Mode
-   When Sync Selection is disabled, these options control how UVs are selected.
+   When *Sync Selection* is disabled, these options control how UVs are selected.
 Proportional Editing
    See :doc:`Proportional Editing </scene_layout/object/editing/transform/control/proportional_edit>`.
 UV Snapping

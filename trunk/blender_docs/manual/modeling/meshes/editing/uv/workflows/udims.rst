@@ -4,16 +4,15 @@ UDIMs
 *****
 
 Using UV maps can have one disadvantage, they consist of one texture for the entire mesh.
-Most of the time this is okay but it does have one disadvantage;
-the texture is one resolution for the entire mesh.
+Most of the time this is sufficient but the disadvantage is that the texture is one resolution for the entire mesh.
 This causes issues if you have a very large mesh with geometry of different importance.
-When using a singular texture, it might have not enough resolution to cover larger
-UV islands while being efficient for smaller, less important islands.
+When using a singular texture, it might have not enough resolution to cover larger UV islands
+while being efficient for smaller, less important islands.
 
 UDIM offers a solution to this by being able to spread UV islands across several different textures.
 UDIM which stands for U DIMension is based on a tile system
 where each tile is a different texture in the overall UDIM texture array.
-Basically each tile consists of its on UV space (0-1, 1-2, 2-3) and have its own image assigned to that tile.
+Basically each tile consists of its own UV space (0-1, 1-2, 2-3) and have its own image assigned to that tile.
 Tiles are managed in the `UDIM Tiles`_ panel where they can have a generated image assigned to them.
 Generally, you create several textures of different resolutions;
 for example, you may have a 4k resolution texture for the major details,
@@ -32,21 +31,22 @@ To start using a UDIM workflow, you should unwrap a mesh as you would for any ot
 After that you should decide how many textures you want to split your UV map into.
 This will be different for every mesh and workflow but a good minimum is 3: one 4k, one 2k, and one 1k image.
 Then create the desired textures to match how many textures you want.
-After this it is simply a process of moving UVs to the appropriate tile
-and scaling and managing them like any other UV map.
-See :doc:`</modeling/meshes/editing/uv/workflows/uv_management>` for information on laying out UVs.
 
-After UVs are correctly set up across the multiple UV islands it is time to add proper textures the UDIM array.
+After this it is the same process of moving UVs to the appropriate tile
+and scaling and managing them like any other UV map.
+See :doc:`/modeling/meshes/editing/uv/workflows/uv_management` for information on laying out UVs.
+
+When the UVs are correctly set up across the multiple UV islands it is time to add proper textures the UDIM array.
 Currently, existing textures cannot be be added to a tile,
 to fill a tile with an existing texture you first must:
 
-#. Create the desired tiles
-#. Save the image
-#. Replace the saved image file withe the desire texture by deleting the file
+#. Create the desired tiles.
+#. Save the image.
+#. Replace the saved image file with the desire texture by deleting the file
    and replacing it with a new image file, keeping the old file name.
    Or by opening the image in another application and modifying the contents of the image.
 
-Other then using a 3D party application to edit the UDIM texture it is possible to paint on UDIM textures.
+Other then using a third-party application to edit the UDIM texture it is possible to paint on UDIM textures.
 This works for either 2D Painting or :doc:`3D Painting </sculpt_paint/texture_paint/index>`
 
 
@@ -70,7 +70,7 @@ UDIM Tile List
    List all UDIM tiles associated with the main index (``1000`` tile).
    Double clicking on the tile name allows you to alter the tiles *Label*
 
-Add Tile (Plus Icon)
+Add Tile ``+``
    Adds new UDIM tiles to the group.
 
    Number
@@ -84,12 +84,12 @@ Add Tile (Plus Icon)
    Fill
       Occupy the UDIM tile with a generated image; see *Fill Tile* below.
 
-Remove Tile (Minus Icon)
+Remove Tile ``-``
    Deletes the selected UDIM tile from the group.
    If this tile is not saved and contains data, that data will be lost.
 
 Fill Tile
-   Occupy the UDIM tile with a :ref:`Generated image <image-generated>`.
+   Occupy the UDIM tile with a :ref:`Generated Image <image-generated>`.
 
    .. warning::
 

@@ -51,7 +51,7 @@ Clip Start/End
       but reduces the depth precision resulting in artifacts.
 
       In some cases, a very large range may cause operations that depend on the depth buffer to become unreliable
-      although this depends on the graphics card & drivers.
+      although this depends on the graphics card and drivers.
 
       See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
