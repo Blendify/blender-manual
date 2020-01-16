@@ -47,7 +47,7 @@ to fill a tile with an existing texture you first must:
    Or by opening the image in another application and modifying the contents of the image.
 
 Other then using a third-party application to edit the UDIM texture it is possible to paint on UDIM textures.
-This works for either 2D Painting or :doc:`3D Painting </sculpt_paint/texture_paint/index>`
+This works for either 2D Painting or :doc:`3D Painting </sculpt_paint/texture_paint/index>`.
 
 
 .. _bpy.ops.image.tile:
