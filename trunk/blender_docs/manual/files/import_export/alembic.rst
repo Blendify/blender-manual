@@ -108,7 +108,8 @@ Pack UV Islands
    See the :ref:`pack islands operator <editors-uv-editing-layout-pack_islands>`
    that works with the same principle for more information.
 Normals
-   When enabled, an object's :term:`normals <normal>` are exported.
+   When enabled, an object's :term:`normals <normal>` are exported. See
+   :ref:`Custom Split Normals of Meshes <custom-split-normals-of-meshes>` below for more information.
 Vertex Colors
    When enabled, exports vertex colors. At this moment, this only supports static vertex colors,
    and not dynamically animated vertex colors.
@@ -146,6 +147,8 @@ are automatically added to time-varying meshes. For time-varying object transfor
 (so animation of rotation, location, or scale)
 the :ref:`Transform Cache Constraint <bpy.types.TransformCacheConstraint>` is used.
 
+
+.. _custom-split-normals-of-meshes:
 
 Custom Split Normals of Meshes
 ==============================
