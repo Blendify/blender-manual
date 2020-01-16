@@ -130,7 +130,7 @@ def compile_valid_kbd():
             "Tab", "Backspace", "Delete", "Return", "Spacebar",
             # Navigation
             "Esc", "PageUp", "PageDown", "Home", "End",
-            "Up", "Down", "Left", "Right",
+            "Up", "Down", "Left", "Right", "Menu",
         )), '|',
         # Numpad
         r"(?:Numpad(?:[0-9]|Plus|Minus|Delete|Slash|Period|Asterix))|",

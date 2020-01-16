@@ -34,7 +34,6 @@ Brushes
       Custom Icon
          Allows definition of a custom brush icon.
 
-
    .. note::
 
       In order to save in a blend-user a custom brush, enable Fake User.

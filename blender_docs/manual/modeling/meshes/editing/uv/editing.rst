@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|im=old screenshot: Need to update}}.
 
-******
-Layout
-******
+*******
+Editing
+*******
 
 After unwrap, you will likely need to arrange the UV maps into something
 that can be logically textured or painted. Your goals for editing are:
@@ -77,8 +77,8 @@ Constraining to Image Bounds
 
 .. _bpy.ops.uv.pin:
 
-Pin and Unpin
-=============
+Pin & Unpin
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -358,8 +358,8 @@ This is an :doc:`add-on </addons/import_export/io_mesh_uv_layout>` activated by 
 
 .. _uv-image-rotate-reverse-uvs:
 
-Face Mirror and Rotate UVs
---------------------------
+Face Mirror & Rotate UVs
+------------------------
 
 .. admonition:: Reference
    :class: refbox

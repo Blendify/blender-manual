@@ -1,8 +1,8 @@
 .. _bpy.types.MultiplyGpencilModifier:
 
-*****************
+****************
 Multiple Strokes
-*****************
+****************
 
 The *Multiple Strokes* modifier generate multiple parallel strokes around the original ones.
 
@@ -29,7 +29,7 @@ Enable Fading
 
    Center
       Control the initial position for the fading.
-   
+
    Thickness
       Fade influence on strokes thickness.
 

@@ -59,9 +59,9 @@ Operation
       - `Compare <https://en.wikipedia.org/wiki/Comparison_function>`__
       - `Smooth Minimum <https://en.wikipedia.org/wiki/Smooth_maximum>`__
       - `Smooth Maximum <https://en.wikipedia.org/wiki/Smooth_maximum>`__
-      -
-      -
-      -
+      - ..
+      - ..
+      - ..
 
       - **Rounding**
       - `Round <https://en.wikipedia.org/wiki/Round_function>`__
@@ -73,21 +73,21 @@ Operation
       - `Snap <https://en.wikipedia.org/wiki/Rounding>`__
       - `Wrap <https://en.wikipedia.org/wiki/Rounding>`__
       - `Pingpong <https://en.wikipedia.org/wiki/Rounding>`__
-      -
-      -
+      - ..
+      - ..
 
       - **Conversion**
       - `To Radians <https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees>`__
       - `To Degrees <https://en.wikipedia.org/wiki/Radian#Conversion_between_radians_and_degrees>`__
-      -
-      -
-      -
-      -
-      -
-      -
-      -
-      -
-      -
+      - ..
+      - ..
+      - ..
+      - ..
+      - ..
+      - ..
+      - ..
+      - ..
+      - ..
 
 Clamp
    Limits the output to the range (0 to 1). See :term:`clamp`.

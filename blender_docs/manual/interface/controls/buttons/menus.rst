@@ -107,7 +107,7 @@ when mouse pointer leaves menu boundaries (including a margin).
 Context Menu
 ============
 
-Context menus are pop-ups opened with the :kbd:`Menu Key` for editors and :kbd:`RMB` for properties.
+Context menus are pop-ups opened with the :kbd:`Menu` key for editors and :kbd:`RMB` for properties.
 Context menu contents depend on the location of the mouse pointer.
 
 When invoked in an editor the menu contains a list of operators sensitive to the editor's mode.

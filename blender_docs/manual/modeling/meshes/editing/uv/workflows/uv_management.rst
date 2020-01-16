@@ -6,15 +6,15 @@ Layout Workflow
 Transferring UV Maps
 ====================
 
-You can copy a UV map from one mesh to another Mesh provided both meshes have the same
-geometry/vertex order. This is useful for example when you want to recreate a UV map from
-an earlier version of your model with intact UVs. This works by:
+You can copy a UV map from one mesh to another mesh provided both meshes have the same geometry/vertex order.
+This is useful for example when you want to recreate a UV map from an earlier version of your model with intact UVs.
+This works by:
 
 #. Select the target mesh (to which you want to copy the UV map).
 #. :kbd:`Shift` select the source mesh (that contains the intact UV map).
 #. :menuselection:`Object menu --> Make Links... --> Transfer UV Layouts` (Shortcut: :kbd:`Ctrl-L` ...).
 
-The target Mesh will now have a UV map that matches the original mesh.
+The target mesh will now have a UV map that matches the original mesh.
 
 
 Multiple UV Maps
@@ -41,9 +41,9 @@ Blender will add those new faces for you. In this fashion,
 you can use the UV texture image to guide additional geometry changes.
 
 When arranging, keep in mind that the entire view is your workspace,
-but only the UV coordinates within the grid are mapped to the image. So,
-you can put pieces off to the side while you arrange them. Also,
-each UV unwrap is its own linked set of coordinates.
+but only the UV coordinates within the grid are mapped to the image.
+So, you can put pieces off to the side while you arrange them.
+Also, each UV unwrap is its own linked set of coordinates.
 
 You can lay them on top of one another, and they will onion skin
 (the bottom one will show through the top one). To move only one though,
@@ -72,9 +72,9 @@ and the neck, it is stretched and folded under. Too much work to clean up.
 We can tell that the ear would unwrap nicely with just a straightforward projection from
 the side view, and the neck with a tubular unwrap.
 So, our general approach will be to unwrap different parts of the object (face, ears, and so on)
-using different unwrap calculations,
-selecting each calculation according to whatever works best for that piece. So let us begin:
-We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
+using different unwrap tool,
+selecting each tool according to which one works best for that part. So let us begin:
+We select only the "face" faces, unwrap them using the *Sphere* projection, and scale and
 rotate them somewhat to fit logically within the image area of the UV Editor.
 
 .. figure:: /images/modeling_meshes_editing_uv_layout-workflow_combining-uv-maps-3.png
@@ -89,18 +89,18 @@ To work on the ear, in the 3D View, we now select only the "ear" faces.
 You can use Vertex Groups to select the ear faces. Selecting sub-meshes is easy too,
 since they are not connected to the rest of the mesh.
 Simply selecting Linked vertices will select that entire submesh. Basically,
-since you are in Edit Mode, all of the selecting/deselecting features are available to you.
+since you are in Edit Mode, all the selecting/deselecting features are available to you.
 
-Now re-unwrap the ear using the *Project* calculation from side view,
+Now unwrap the ear again using the *Project* tool from side view,
 and scale and rotate them somewhat (discussed in the next section),
-and place them off to the side. You can do this repetitively, using different UV calculations;
-each re-calculation just puts those UVs for the selected faces somewhere else.
-Choose the calculation for each piece that gives you the best fit and
-most logical layout for subsequent painting of that piece.
+and place them off to the side. You can do this repetitively, using different unwrapping algorithms;
+each re-apply just puts those UVs for the selected faces somewhere else.
+Choose the tool for each part that gives you the best fit and
+most logical layout for subsequent painting of that part.
 
-When all of the pieces of the mesh have been unwrapped using the various calculations,
-you should end up with something that looks like to the Example to the right.
-All of the sections of the mesh have been mapped,
+When all parts of the mesh have been unwrapped using the various methods,
+you should end up with something that looks like the example to the right.
+All sections of the mesh have been mapped,
 and all those maps are laid out in the same UV texture map. Congratulations! From here,
 it is a simple matter of "stitching" (discussed in the next section)
 to construct the entire UV map as a single map.
@@ -112,7 +112,7 @@ to construct the entire UV map as a single map.
 When you have completed arranging and stitching, you will end up with a consolidated UV map,
 like that shown to the right, arranged such that a single image will cover, or paint,
 all of the mesh that needs detailed painting.
-All of the detailed instructions on how to do this are contained in the next section.
+All the detailed instructions on how to do this are contained in the next section.
 The point of this paragraph is to show you the ultimate goal.
 Note that the mesh shown is Mirrored along the Z axis,
 so the right side of the face is virtual; it is an exact copy of the right,
@@ -123,15 +123,15 @@ Unwrapping would produce a full set of UVs (for each side)
 and painting could thus be different for each side of the face, which is more realistic).
 
 
-Iteration and Refinement
-------------------------
+Iteration & Refinement
+----------------------
 
 At least for common people, we just do not "get it right the first time." It takes building on
-an idea and iterating our creative process until we reach that magical milestone called
-"Done." In software development, this is called the Spiral Methodology.
+an idea and iterating our creative process until we reach that magical milestone called "Done".
+In software development, this is called the Spiral Methodology.
 
 Applied to Computer Graphics, we cycle between modeling, texturing, animating,
-and then back to making some modifications to mesh, re-UV mapping, tweaking the animation,
+and then back to making some modifications to mesh, UV mapping, tweaking the animation,
 adding a bone or two, finding out we need a few more faces, so back to modeling, etc.
 We continue going round and round like this until we either run out of time, money,
 or patience, or, in some rare cases, are actually happy with our results.

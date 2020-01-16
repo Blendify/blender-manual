@@ -266,32 +266,34 @@ Custom Profile :kbd:`Z`
 
       The custom profile widget.
 
-   This widget allows the creation of a user-defined profile with more complexity than with the 
-   single profile parameter. The modal tool allows toggling the custom profile, but the shape of the 
-   profile is only editable in the options panel after the operation is confirmed.
+   This widget allows the creation of a user-defined profile with more complexity than
+   with the single profile parameter. The modal tool allows toggling the custom profile,
+   but the shape of the profile is only editable in the options panel after the operation is confirmed.
 
    The profile starts at the bottom right of the widget and ends at the top left, as if it
-   were between two edges meeting at a right angle. Control points are created in the widget and then
-   the path is sampled with the number of segments from the bevel modifier.
+   were between two edges meeting at a right angle. Control points are created in the widget and
+   then the path is sampled with the number of segments from the bevel modifier.
 
-   The *Reverse* button flips the orientation of the profile for all beveled edges, and the *Clipping* 
-   toggle allows control points to be moved beyond the initial boundary, allowing the bevel to add 
-   volume to the mesh rather than just removing it.
+   Presets
+      The *Support Loops* and *Steps* presets are built dynamically depending on the number of segments in the bevel.
+      If the number of segments is changed, the preset will have to be re-applied.
+   Reverse
+      The *Reverse* button flips the orientation of the profile for all beveled edges
+   Clipping
+      The *Clipping* toggle allows control points to be moved beyond the initial boundary,
+      allowing the bevel to add volume to the mesh rather than just removing it.
 
-   The "Support Loops" and "Steps" presets are built dynamically depending on the number of segments in
-   the bevel. If the number of segments is changed, the preset will have to be reapplied.
+   .. note::
 
-   The *Profile* slider is still useful when miters are enabled because it still controls the shape of 
-   the miter profiles.
+      The *Profile* slider is still useful when miters are enabled because it still controls the shape of the miter profiles.
 
-   **Sampling**
+   Sampling
 
-   Samples will first be added to each control point, then if there are enough samples, they
-   will be divided evenly between the edges. The *Sample Straight Edges* option toggles whether the
-   samples are added to edges with sharp control points on either side. If there aren't enough samples
-   to give each edge the same number of samples, they will just be added to the most curved edges, so 
-   it is recommended to use at least as many segments as there are control points.
-
+      Samples will first be added to each control point, then if there are enough samples,
+      they will be divided evenly between the edges. The *Sample Straight Edges* option toggles whether
+      the samples are added to edges with sharp control points on either side. If there aren't enough samples
+      to give each edge the same number of samples, they will just be added to the most curved edges,
+      so it is recommended to use at least as many segments as there are control points.
 
 
 Examples

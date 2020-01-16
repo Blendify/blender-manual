@@ -14,7 +14,7 @@ Grease Pencil draw tools:
    Some :ref:`Object Mode <object-toolbar-index>` are also present.
 
 :ref:`Draw <tool-grease-pencil-draw-draw>`
-   Draw free-hand strokes.   
+   Draw free-hand strokes.
 
 :ref:`Fill <tool-grease-pencil-draw-fill>`
    Automatic fill closed strokes areas.
@@ -26,7 +26,7 @@ Grease Pencil draw tools:
    Cut strokes in between others.
 
 :ref:`Eyedropper <tool-grease-pencil-draw-eyedropper>`
-   eyedropper to add materials.
+   Eyedropper to add materials.
 
 :ref:`Line <tool-grease-pencil-draw-line>`
    Draw straight lines.

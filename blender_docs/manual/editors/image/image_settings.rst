@@ -3,7 +3,6 @@
 Image Settings
 **************
 
-
 Image Panel
 ===========
 
@@ -104,7 +103,7 @@ Type
 32 bit Float
    Creates a 32 bit image. This is a larger file size,
    but holds much more color information than the standard 8 bit image.
-   For close ups and large gradients, it may be better to use a 32 bit image.
+   For close-ups and large gradients, it may be better to use a 32 bit image.
 Tiled
    Creates an image with support for :doc:`/modeling/meshes/editing/uv/workflows/udims`.
    This option creates the first ``1001`` tile; more tiles can be added later in the *UDIM Tiles* panel.
