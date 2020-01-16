@@ -214,6 +214,10 @@ Open the :menuselection:`Preferences --> Add-ons --> Install...` and select the 
 Now the add-on will be listed and you can enable it by pressing the checkbox,
 if you want it to be enabled on restart, press *Save as Default*.
 
+When the add-on is enabled, Blender executes the code and runs the ``register()``
+function. When the add-on is disabled, Blender runs the ``unregister()`` function.
+
+
 .. note::
 
    The destination of the add-on depends on your Blender configuration.
