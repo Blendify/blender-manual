@@ -77,8 +77,18 @@ The Quick Favorites menu gather your favorite tools.
 Any tool or menu can be added to this pop-up menu via the context menu of buttons and menus.
 
 
+Changing Tools
+==============
+
+Fallback Tool
+-------------
+
+The fallback tool is the default tool in the Toolbar as in the tool at the top of the list.
+To switch to this tool use :kbd:`Alt-W` to open a pie menu to choose what the default drag action does.
+
+
 Cycling Tools
-=============
+-------------
 
 If you bind a key to a tool which is part of a group, you can enable the *Cycle* option in the keymap editor.
 Successive presses will cycle through the tools in that group.
