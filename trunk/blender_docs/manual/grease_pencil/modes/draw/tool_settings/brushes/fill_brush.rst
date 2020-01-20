@@ -10,9 +10,11 @@ The different fill brushes are settings variations of the same *Fill Brush*.
 you can create many brushes, each with unique settings
 to obtain different result when filling areas.
 
+Tool Settings
+=============
 
-Common Options
-==============
+Brushes
+-------
 
 .. figure:: /images/grease-pencil_modes_draw_brushes_fill-brush-data-block.png
    :align: right
@@ -25,9 +27,19 @@ Brush
    Add Brush
       When you add a brush, the new brush is a clone of the current one.
 
+   Custom Icon
+      Allows definition of a custom brush icon.
+
+      Image Path
+         Defines the path to the image to use as custom icon.
+
 .. note::
 
    In order to save in a blend-user a custom brush, tick Fake User.
+
+
+Brush Settings
+--------------
 
 Leak Size
    Size in pixel to consider the leak as closed.
@@ -38,6 +50,10 @@ Thickness
 Simplify
    Number of simplify steps to apply to the boundary line.
    Higher values reduce the final filled area's accuracy.
+
+
+Advanced
+^^^^^^^^
 
 Boundary
    Sets the type of fill boundary limits calculation to perform.
@@ -51,21 +67,20 @@ Boundary
    Show lines (grid icon)
       Toggle show help lines to see the fill boundary.
 
+Resolution
+   Multiplier for fill resolution.
+   Higher values gives better fill boundary accuracy but slower time for calculations.
 
-Display
-=======
+Ignore Transparent strokes
+   When enabled, strokes with transparency does not take into account on fill boundary calculations.
 
-Icon
-   Sets a predefined icon to use.
+   Threshold
+      Threshold value to consider a material transparent.
 
-Custom Icon
-   Allows definition of a custom brush icon.
+Cursor
+------
 
-   Image Path
-      Defines the path to the image to use as custom icon.
+The cursor can be disabled by toggling the checkbox in the *Cursor* header.
 
-Show Brush
-   Shows the brush shape in the viewport.
-
-Color
+Cursor Color
    Set the color of the brush ring.
