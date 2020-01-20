@@ -67,7 +67,7 @@ Strength
 
 .. note::
 
-   All brushes use the :ref:`Airbrush Stroke Method <>`;
+   All brushes use the :doc:`Airbrush Stroke Method </sculpt_paint/brush/stroke>`;
    they continue to act as long as you keep :kbd:`LMB` pressed.
 
 
