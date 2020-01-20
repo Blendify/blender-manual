@@ -12,7 +12,7 @@ The following objects can be exported to USD:
 
 - Meshes (of different kinds, see below).
 - Cameras (perspective cameras only at the moment, not orthogonal ones).
-- Lamps (all types except area lamps).
+- Light (all types except area lights).
 - Hair (exported as curves, and limited to parent strands).
 
 When exporting an animation, the final, evaluated mesh is written to USD.
