@@ -29,7 +29,13 @@ Radius
       Use the same brush *Radius* across all brushes.
 
 Radius Unit
-   TODO.
+   Controls how the brush *Radius* is measured.
+
+   View
+      The *Radius* is measured based on how the cursor appears on the monitor i.e. "screen space".
+   Scene
+      The *Radius* is measured based on real world units.
+      The unit type and scaling can be configured in the :ref:`Scene Units <bpy.types.UnitSettings>`.
 
 Strength
    Controls how much each application of the brush affects the model.
