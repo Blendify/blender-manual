@@ -11,8 +11,11 @@ you can create many brushes, each with unique settings
 to obtain different artistic result while drawing.
 
 
-Common Options
-==============
+Tool Settings
+=============
+
+Brushes
+-------
 
 .. figure:: /images/grease-pencil_modes_draw_brushes_draw-brush-data-block.png
    :align: right
@@ -25,9 +28,19 @@ Brush
    Add Brush
       When you add a brush, the new brush is a clone of the current one.
 
+   Custom Icon
+      Allows definition of a custom brush icon.
+
+      Image Path
+         Defines the path to the image to use as custom icon.
+
 .. note::
 
    In order to save a custom brush, activate *Fake User*.
+
+
+Brush Settings
+==============
 
 Radius
    The radius of the brush in pixels.
@@ -35,8 +48,8 @@ Radius
    :kbd:`F` allows you to change the brush size interactively by dragging the mouse/pen or
    by typing a number then confirm.
 
-      Use Pressure (pressure sensitivity icon)
-         Uses stylus pressure to control how strong the effect is.
+   Use Pressure (pressure sensitivity icon)
+      Uses stylus pressure to control how strong the effect is.
 
 Strength
    Control the stroke transparency (alpha).
@@ -46,8 +59,12 @@ Strength
    in the 3D View and then moving the mouse/pen and then :kbd:`LMB`.
    You can also enter the size numerically.
 
-      Use Pressure (pressure sensitivity icon)
-         Uses stylus pressure to control how strong the effect is.
+   Use Pressure (pressure sensitivity icon)
+      Uses stylus pressure to control how strong the effect is.
+
+
+Advanced
+--------
 
 Input Samples
    Controls how often the input device is read to generate points on the stroke.
@@ -78,8 +95,11 @@ Border Opacity Factor
       X, Y
 
 
+Stroke
+------
+
 Post-Processing
----------------
+^^^^^^^^^^^^^^^
 
 Post-processing methods that are executed on the strokes
 when you finished drawing, right after releasing the :kbd:`LMB` or :kbd:`Pen` tip.
@@ -115,7 +135,7 @@ Trim Strokes End
 .. _bpy.types.Brush.smooth_stroke:
 
 Stabilizer
-----------
+^^^^^^^^^^
 
 Stabilizer helps to reduce jitter of the strokes while drawing by
 delaying and correcting the location of points.
@@ -135,7 +155,7 @@ Factor
 .. _bpy.types.BrushGpencilSettings.use_jitter_pressure:
 
 Randomize
----------
+^^^^^^^^^
 
 Adds randomness to the points' position along the stroke.
 You can toggle the use of Randomize using the checkbox in the section panel header.
@@ -154,7 +174,7 @@ Jitter
 
 
 Curves
-======
+------
 
 For more precise control on some strokes properties you can use
 a :doc:`curve widget </interface/controls/templates/curve>`.
@@ -167,18 +187,10 @@ Jitter
    Controls the jitter amount on the stroke.
 
 
-Display
-=======
+Cursor
+------
 
-Icon
-   Sets a predefined icon to use.
-Custom Icon
-   Allows definition of a custom brush icon.
+The cursor can be disabled by toggling the checkbox in the *Cursor* header.
 
-   Image Path
-      Defines the path to the image to use as custom icon.
-
-Show Brush
-   Shows the brush shape in the viewport.
-Show fill color while drawing
+Show Fill Color While Drawing
    Shows the brush linked material color in the viewport.
