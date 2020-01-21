@@ -8,6 +8,12 @@ The *Normal Edit* modifier affects (or generates) custom normals. It uses a few 
 to compute them (quite useful in game development and architecture areas), and mixes back those generated normals
 with existing ones.
 
+.. note::
+
+   This modifier requires custom normals to be enabled, which can be done by
+   enabling *Auto Smooth* in the :menuselection:`Properties --> Object Data --> Normals`.
+   See :doc:`Normals </modeling/meshes/editing/normals>`.
+
 
 Options
 =======
@@ -68,8 +74,6 @@ Usage
 
 This modifier can be used to quickly generate radial normals for low-poly tree foliage or
 "fix" shading of toon-like rendering by partially bending default normals...
-
-The only mandatory prerequisite to use it is to enable the *Auto Smooth* option in Mesh properties, *Normals* panel.
 
 .. tip::
 
