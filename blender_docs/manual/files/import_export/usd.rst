@@ -69,7 +69,7 @@ Materials
 
 Use Settings for
    Determines the whether to use *Viewport* or *Render* visibility of collection, modifiers,
-   or any other propriety that can be set for both the *Viewport* and *Render*.
+   or any other property that can be set for both the *Viewport* and *Render*.
 
 .. note::
 

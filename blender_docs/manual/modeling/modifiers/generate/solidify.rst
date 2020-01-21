@@ -9,6 +9,7 @@ The *Solidify* modifier takes the surface of any mesh and adds depth, thickness 
 
 Options
 =======
+
 .. list-table::
 
    * - .. figure:: /images/modeling_modifiers_generate_solidify_panel_simple.png
@@ -20,14 +21,14 @@ Options
           The Solidify modifier in complex mode.
 
 
-Mode independent Properties
+Mode Independent Properties
 ---------------------------
 
 Thickness
    The depth to be solidified.
 Offset
-   A value between (-1 to 1) to locate the solidified output inside or outside
-   the original mesh. The inside and outside is determined by the face normals.
+   A value between (-1 to 1) to locate the solidified output inside or outside the original mesh.
+   The inside and outside is determined by the face normals.
    Set to 0.0, the solidified output will be centered on the original mesh.
 Clamp
    A value between (0 to 2) to clamp offsets to avoid self-intersection.
@@ -49,7 +50,7 @@ Vertex Group
    Factor
       How much the vertex weights are taken into account.
 
-      - On 0.0 , vertices with zero weight will have no thickness at all. (creates duplicate vertices)
+      - On 0.0 , vertices with zero weight will have no thickness at all (creates duplicate vertices).
       - On 0.5 , vertices with zero weight will be half as thick as those with full weight.
       - On 1.0 , the weights are ignored and the *Thickness* value is used for every vertex.
 
@@ -58,7 +59,8 @@ Flip Normals
 Fill Rim
    Fills the gap between the inner and outer edges.
 Only Rim
-   In *Simple Mode*: Will not extrude surfaces parallel to the original one, but instead will only add the perpendicular rim.
+   In *Simple Mode*: Will not extrude surfaces parallel to the original one,
+   but instead will only add the perpendicular rim.
 
    In *Complex Mode*: Will only leave the generated perpendicular rim.
 
@@ -79,6 +81,7 @@ Material Index Offset
 
    Rim
       Similarly, you can give another material to the rim faces.
+
 
 Simple Mode
 -----------
@@ -110,22 +113,23 @@ High Quality Normals
 
 .. important::
 
-   If the normals of adjacent faces don't point into the same general direction, simple
-   mode will not be able to solidify the boundary between those. This happens if the normals
-   are not recalculated or for example on one sided surfaces like a mobius strip.
+   If the normals of adjacent faces don't point into the same general direction, simple mode
+   will not be able to solidify the boundary between those. This happens if the normals
+   are not recalculated or for example on one-sided surfaces like a Möbius strip.
+
 
 Complex Mode
 ------------
 
-This is a new solidify algorithm which can handle every geometric situation to guarantee manifold output geometry.
-This algorithm is able to solidify shapes like mobius strips, klein bottles, architectual wall layouts and many
-more which the standard implementation isn't able to do. If the special cases are not present it is recommended
-to choose *Simple Mode* because the extra logic makes this algorithm much slower.
+This is a new solidify algorithm which can handle every geometric situation to guarantee a manifold output geometry.
+This algorithm is able to solidify shapes like Möbius strips, Klein bottles, architectural wall layouts and many more
+which the standard implementation isn't able to do. If the special cases are not present it is recommended to
+choose *Simple Mode* because the extra logic makes this algorithm much slower.
 
 .. note::
 
-   There are no options for crease in the modifier tab because crease is handled in a dynamic way.
-   The modifier will transfer the creases of the orginal mesh in a smart way to the output mesh to
+   There are no options for crease in the Modifier tab because crease is handled in a dynamic way.
+   The modifier will transfer the creases of the original mesh in a smart way to the output mesh to
    work with the :doc:`Subdivision Surface </modeling/modifiers/generate/subdivision_surface>` modifier.
 
 Thickness Mode
@@ -136,38 +140,37 @@ Thickness Mode
       Different thickness options on a non-manifold mesh.
 
    Fixed
-      This is similar to *Simple Mode* without *Even Thickness*
+      This is similar to *Simple Mode* without *Even Thickness*.
       The new vertices are always in a fixed distance to the old ones.
    Even
-      This is similar to *Simple Mode* with *Even Thickness* and
-      *High Quality Normals*. It adjusts for sharp corners, but may not
-      always work when more than three faces come together.
+      This is similar to *Simple Mode* with *Even Thickness* and *High Quality Normals*.
+      It adjusts for sharp corners, but may not always work when more than three faces come together.
    Constraints
-      This is a more advanced model to try to always get the perfect thickness
-      everywhere. For up to three faces it is always guaranteed to find a perfect
-      solution.
+      This is a more advanced model to try to always get the perfect thickness everywhere.
+      For up to three faces it is always guaranteed to find a perfect solution.
 
 Boundary Shape
    Choose the kind of boundary that suits the model the most.
 
    .. figure:: /images/modeling_modifiers_generate_solidify_boundary_shape.png
 
-      Different boundary options with a matcap.
+      Different boundary options with a matCap.
 
    None
       No boundary fix is applied. Results are stable.
    Round
-      Adjusts the boundary for an opening to face inwards (like a hole in an egg)
+      Adjusts the boundary for an opening to face inwards (like a hole in an egg).
    Flat
-      Adjusts the boundary of a planar opening to be a flat (like a cut sphere)
+      Adjusts the boundary of a planar opening to be a flat (like a cut sphere).
 
 .. important::
 
    The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
    the thickness will vary on different sides of the object.
 
-   To fix this, either :ref:`apply <bpy.ops.object.transform_apply>`
-   or :ref:`clear <bpy.ops.object.*clear>` the scale.
+   To fix this, either :ref:`Apply <bpy.ops.object.transform_apply>`
+   or :ref:`Clear <bpy.ops.object.*clear>` the scale.
+
 
 Known Limitations
 =================
@@ -180,5 +183,7 @@ While *Even Thickness* and *High Quality Normals* should yield good results,
 the final wall thickness is not guaranteed and may vary depending on the mesh topology.
 Especially for vertices with more than three adjacent faces.
 
-In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell,
-something this modifier does not do since this would add a lot of complexity. The best option to preserve wall thickness is complex mode with constraints thickness mode, but it is also not guaranteed to work perfect in every case.
+In order to maintain a precise wall thickness in every case, we would need to add/remove faces on
+the offset shell, something this modifier does not do since this would add a lot of complexity.
+The best option to preserve wall thickness is complex mode with constraints thickness mode,
+but it is also not guaranteed to work perfect in every case.

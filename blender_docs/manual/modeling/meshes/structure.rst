@@ -151,7 +151,7 @@ Enabling Custom Split Normals
    :Mode:      Edit Mode
    :Menu:      :menuselection:`Mesh --> Normals --> Split`
 
-Enables Custom Split Normals.
+Enables custom split normals.
 
 Also, any of the custom normal editing tools (see below) will, as a convenience,
 enable custom normals if they are not already enabled.

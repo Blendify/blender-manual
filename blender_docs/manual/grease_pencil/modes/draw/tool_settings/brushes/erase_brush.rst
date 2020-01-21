@@ -7,8 +7,7 @@ Erase brushes are the special types of brushes that uses *Grease Pencil* for *Er
 The brush can be changed in the Tool Settings.
 
 Soft and hard eraser brushes are settings variations of the same *Erase Brush*.
-you can create many brushes, each with unique settings
-to obtain different effects while erasing.
+You can create many brushes, each with unique settings to get different effects while erasing.
 
 The *Erase Brush* has also other two special eraser types: point and stroke.
 

@@ -19,7 +19,7 @@ Their main purpose is to have a quick way to visualize certain effects on your d
 like blurring, pixelation, wave distortion, among others.
 
 The effects are extremely dependent on the zoom and orientation of the viewport or camera.
-so keep in mind that they may vary with viewport or camera changes.
+So keep in mind that they may vary with viewport or camera changes.
 
 .. note::
 

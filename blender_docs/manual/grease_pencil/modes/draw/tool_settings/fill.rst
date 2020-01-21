@@ -88,5 +88,5 @@ Switch to Draw Tool
 -------------------
 
 Use :kbd:`Ctrl-LMB` to change temporary to the active draw tool.
-For example to manually cover small areas difficult to reach for the fill tool.
-see :doc:`Draw Tool </grease_pencil/modes/draw/tool_settings/draw>` for more information.
+For example to manually cover small areas difficult to reach for the Fill tool.
+See :doc:`Draw Tool </grease_pencil/modes/draw/tool_settings/draw>` for more information.

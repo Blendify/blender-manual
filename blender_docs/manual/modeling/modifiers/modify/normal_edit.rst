@@ -11,8 +11,7 @@ with existing ones.
 .. note::
 
    This modifier requires custom normals to be enabled, which can be done by
-   enabling *Auto Smooth* in the :menuselection:`Properties --> Object Data --> Normals`.
-   See :doc:`Normals </modeling/meshes/editing/normals>`.
+   enabling :ref:`Auto Smooth <auto-smooth>` in the :menuselection:`Properties --> Object Data --> Normals`.
 
 
 Options
