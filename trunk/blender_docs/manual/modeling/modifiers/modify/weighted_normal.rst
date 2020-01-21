@@ -12,7 +12,7 @@ and custom normals.
 .. note::
 
    This modifier requires custom normals to be enabled, which can be done by
-   enabling Auto Smooth in the :menuselection:`Properties --> Object Data --> Normals`.
+   enabling *Auto Smooth* in the :menuselection:`Properties --> Object Data --> Normals`.
    See :doc:`Normals </modeling/meshes/editing/normals>`.
 
 
@@ -53,7 +53,7 @@ Vertex Group
    The "arrow" button to its right will invert the selection (only affect the vertices *not* in the vertex group).
 
 Keep Sharp
-   Try to preserve sharp edges,
+   Preserve :ref:`sharp edges <modeling_meshes_normals_sharp_edge>`,
    though smoothing will still happen if there are multiple faces between any two sharp edges.
 
 Face Influence
