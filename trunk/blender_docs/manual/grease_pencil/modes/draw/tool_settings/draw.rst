@@ -76,7 +76,7 @@ Straight Lines
 Switching to the Erase Tool
 ---------------------------
 
-:kbd:`Ctrl-LMB` changes temporally to the active erase tool.
-see :doc:`Erase Tool </grease_pencil/modes/draw/tool_settings/erase>` for more information.
+:kbd:`Ctrl-LMB` changes temporally to the active Erase tool.
+See :doc:`Erase Tool </grease_pencil/modes/draw/tool_settings/erase>` for more information.
 
 You can also use :kbd:`B` to delete all the points in the selected drawing area.

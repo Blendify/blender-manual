@@ -7,8 +7,8 @@ Fill brushes are the special type of brushes that uses *Grease Pencil* for the *
 The brush can be changed in the Tool Settings.
 
 The different fill brushes are settings variations of the same *Fill Brush*.
-you can create many brushes, each with unique settings
-to obtain different result when filling areas.
+You can create many brushes, each with unique settings to get different result when filling areas.
+
 
 Tool Settings
 =============
@@ -49,7 +49,7 @@ Thickness
 
 Simplify
    Number of simplify steps to apply to the boundary line.
-   Higher values reduce the final filled area's accuracy.
+   Higher values reduce the accuracy of the final filled area.
 
 
 Advanced

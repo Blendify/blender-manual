@@ -163,8 +163,8 @@ Shader AOV
 
 Shader AOVs (Arbitrary Output Variables) provide custom render passes for arbitrary shader node components.
 As an artist this can be a good way to debug or tweak very fine details of a scene in post processing.
-To use Shader AOVs create the pass in the *Shader AOV* panel then reference this pass with the
-:doc:`AOV Output </render/shader_nodes/output/aov>` Shading Node.
+To use Shader AOVs create the pass in the *Shader AOV* panel then reference this pass with
+the :doc:`AOV Output </render/shader_nodes/output/aov>` shading node.
 Shader AOVs can be added or removed in the *Shader AOV* panel.
 In this panel is a list of all AOV passes; each AOV in the list consists of a *Name* and *Data Type*.
 

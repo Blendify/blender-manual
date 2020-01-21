@@ -7,8 +7,7 @@ Draw brushes are the special type of brushes that uses *Grease Pencil* for drawi
 The brush can be changed in the Tool Settings.
 
 The different draw brushes (pencil, Ink, marker, etc.) are settings variations of the same *Draw Brush*.
-you can create many brushes, each with unique settings
-to obtain different artistic result while drawing.
+You can create many brushes, each with unique settings to get different artistic result while drawing.
 
 
 Tool Settings
@@ -157,7 +156,7 @@ Factor
 Randomize
 ^^^^^^^^^
 
-Adds randomness to the points' position along the stroke.
+Adds randomness to the position of the points along the stroke.
 You can toggle the use of Randomize using the checkbox in the section panel header.
 
 Pressure

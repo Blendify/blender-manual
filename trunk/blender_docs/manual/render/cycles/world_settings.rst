@@ -127,7 +127,7 @@ Multiple Importance Sample
 
 Map Resolution
    Sets the resolution of the importance map.
-   A higher resolution will better detect small features in the map and give more accurate sampling.
+   A higher resolution will better detect small features in the map and give more accurate sampling
    but conversely will take up more memory and render slightly slower.
    Higher values also may produce less noise when using high-res images.
 Max Bounces

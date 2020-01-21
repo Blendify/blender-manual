@@ -180,7 +180,7 @@ Absolute Grid Snap
    Available only for the increase option.
    Snap to grid, instead of snapping in increments relative to the current location.
 Backface Culling
-   Exclude back facing geometry from snapping
+   Exclude back facing geometry from snapping.
 Project Onto Self
    Available only in editing mode for Vertices, Edges, Faces and Volume.
    Snaps elements to its own mesh.

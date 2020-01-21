@@ -8,14 +8,13 @@ UV Sculpting
    :class: refbox
 
    :Mode:      Edit Mode
-   :Panel:     :menuselection:`Tools Shelf --> Grab`,
-   :Panel:     :menuselection:`Tools Shelf --> Relax`,
-   :Panel:     :menuselection:`Tools Shelf --> Pinch`
-   :Menu:      :menuselection:`Sidebar --> Tool --> Brushes`
-
+   :Panel:     :menuselection:`Toolbar --> Grab`,
+   :Panel:     :menuselection:`Toolbar --> Relax`,
+   :Panel:     :menuselection:`Toolbar --> Pinch`
+   :Panel:     :menuselection:`Sidebar --> Tool --> Brushes`
 
 The sculpting tools allow you to grab, pinch and smooth UVs, just like for meshes in Sculpt Mode.
-It can be activated with selecting either the *Grab*, *Relax*, or *Pinch* tool in the toolbar.
+It can be activated with selecting either the *Grab*, *Relax*, or *Pinch* tool in the Toolbar.
 
 
 Brushes
@@ -85,9 +84,9 @@ Options
    :class: refbox
 
    :Mode:      Edit Mode
-   :Menu:      :menuselection:`Sidebar --> Tool --> Options`
+   :Panel:     :menuselection:`Sidebar --> Tool --> Options`
 
-When UV sculpting is activated, the Toolbar shows the brush tool selection and options.
+When UV sculpting is activated, the Sidebar shows the brush tool selection and options.
 
 Lock Borders
    Locks the boundary of UV islands from being affected by the brush.
