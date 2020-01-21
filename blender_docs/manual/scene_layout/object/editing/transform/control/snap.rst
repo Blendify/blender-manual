@@ -165,6 +165,8 @@ Closest
           Median.
 
 
+.. _bpy.types.ToolSettings.use_snap_backface_culling:
+
 Additional Snap Options
 -----------------------
 
@@ -177,6 +179,8 @@ additional controls are available to alter snap behavior. These options vary bet
 Absolute Grid Snap
    Available only for the increase option.
    Snap to grid, instead of snapping in increments relative to the current location.
+Backface Culling
+   Exclude back facing geometry from snapping
 Project Onto Self
    Available only in editing mode for Vertices, Edges, Faces and Volume.
    Snaps elements to its own mesh.
