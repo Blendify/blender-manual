@@ -32,6 +32,8 @@ def html_page_context(app, pagename, templatename, context, doctree):
             logger = logging.getLogger(__name__)
             logger.error('context override')
 
+        gen_htaccess(context['language'], version_tag)
+
 
 def read_versions():
     current_dir = os.path.abspath(os.path.dirname(__file__))
@@ -45,6 +47,25 @@ def read_versions():
     except (IOError, OSError) as err:
         logger = logging.getLogger(__name__)
         logger.warning("{0}: cannot read: {1}".format(version_fn, err))
+        return None
+
+
+def gen_htaccess(lang, version):
+    text = "ErrorDocument 404 /manual/{0}/{1}/404.html\n".format(lang, version)
+    write_htaccess(text)
+
+
+def write_htaccess(text):
+    current_dir = os.path.abspath(os.path.dirname(__file__))
+    ht_fn = os.path.normpath(os.path.join(current_dir, "..", ".htaccess"))
+
+    try:
+        with open(ht_fn, "w", encoding="utf-8") as f:
+            f.write(text)
+
+    except (IOError, OSError) as err:
+        logger = logging.getLogger(__name__)
+        logger.warning("{0}: cannot write: {1}".format(ht_fn, err))
         return None
 
 
