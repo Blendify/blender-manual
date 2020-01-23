@@ -58,8 +58,8 @@ Display
       Use Alpha
          Use alpha blending instead of alpha-test
          *(blends with the background but can have depth sorting artifacts)*.
-      Transparency
-         Fade the images transparency
+      Opacity
+         Fade the image to make it transparent
          *(uses the Object Color's Alpha component)*.
       Offset X, Y
          Offset the image origin
