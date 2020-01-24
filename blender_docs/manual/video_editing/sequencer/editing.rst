@@ -117,7 +117,7 @@ Set Frame Range
 
    :Menu:      :menuselection:`Strip --> Transform --> Set Preview Range to Strips`
 
-Sets the frame range of preview to the range of the selected strip.
+Sets the frame range of preview to the range of the selected strips.
 
 
 Clear Strips Offsets
