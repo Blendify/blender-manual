@@ -3,10 +3,22 @@
 Brush Settings
 **************
 
-.. figure:: /images/sculpt-paint_vertex-paint_tools_tab.png
+.. figure:: /images/sculpt-paint_weight-paint_tools_brush-panel.png
    :align: right
+   :width: 200
 
-   Vertex Painting options.
+   Brush panel.
+
+Painting needs paint brushes and Blender provides a Brush Panel within the Toolbar
+when it operates in *Weight Paint Mode*.
+
+Weight :kbd:`W`
+   The weight (color) to be used by the brush.
+   However, the weight value is applied to the Vertex Group
+   in different ways depending on the selected Brush Blending mode (see below).
+
+   Use :kbd:`Ctrl-LMB` to sample the weight value of clicked vertex.
+   :kbd:`Shift-LMB` lets you select the group from which to sample from.
 
 Radius
    This option controls the radius of the brush, measured in pixels.
@@ -30,49 +42,24 @@ Strength
       Use the same brush *Strength* across all brushes.
 
 
-Color Picker
-============
-
-The color of the brush. See :ref:`ui-color-picker`.
-
-Press :kbd:`S` on any part of the image to sample that color and set it as the brush color.
-Hold :kbd:`Ctrl` while painting to temporally paint with the secondary color.
-
-Flip (cycle icon) :kbd:`X`
-   Swaps the primary and secondary colors.
-
-.. note::
-
-   Note that Vertex Paint works in sRGB :term:`space <Color Space>`, and
-   the RGB representation of the same colors will be different between the paint
-   tools and the materials that are in linear space.
-
-
 Advanced
 ========
 
-Affect Alpha
-   When this is disabled, it locks (prevents changes) the alpha channel while painting.
 Accumulate
    This will allow a stroke to accumulate on itself, just like an airbrush would do.
 Front Faces Only
    Only paint on the front side of faces.
+
 2D Falloff
-   This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
+   This turns the brush influence into a cylinder (the depth along the view is ignored)
+   instead of a sphere.
 
 .. toctree::
    :hidden:
 
-   Texture </sculpt_paint/brush/texture.rst>
    Stroke </sculpt_paint/brush/stroke.rst>
    Falloff </sculpt_paint/brush/falloff.rst>
    Cursor </sculpt_paint/brush/cursor.rst>
-
-
-Texture
-=======
-
-See the global brush settings for :doc:`Texture </sculpt_paint/brush/texture>` settings.
 
 
 Stroke
