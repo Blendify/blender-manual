@@ -4,11 +4,11 @@
 .. _bpy.types.Brush.icon_filepath:
 .. _bpy.types.UnifiedPaintSettings:
 
-*****
-Brush
-*****
+*******
+Brushes
+*******
 
-For painting modes each brush type is exposed as a tool,
+For painting/sculpting modes each brush type is exposed as a tool,
 the brush can be changed from the tool setting.
 
 .. figure:: /images/sculpt-paint_brush_brush_data-block-menu.png
