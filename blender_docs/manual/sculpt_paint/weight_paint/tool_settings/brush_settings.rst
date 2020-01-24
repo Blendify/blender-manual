@@ -50,10 +50,6 @@ Accumulate
 Front Faces Only
    Only paint on the front side of faces.
 
-2D Falloff
-   This turns the brush influence into a cylinder (the depth along the view is ignored)
-   instead of a sphere.
-
 .. toctree::
    :hidden:
 
