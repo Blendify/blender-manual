@@ -1,6 +1,8 @@
 {%- extends "!breadcrumbs.html" %}
 {%- block breadcrumbs_aside %}
-<li class="wy-breadcrumbs-aside">
-   <a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/{{ pagename }}{{ suffix }}" class="fa fa-edit"> {{ _('Edit Page') }}</a>
-</li>
+	{%- if pagename != "search" and pagename != "404" and hasdoc(pagename) %}
+		<li class="wy-breadcrumbs-aside">
+			<a href="https://developer.blender.org/diffusion/BM/browse/trunk/blender_docs/manual/{{ pagename }}{{ suffix }}" class="fa fa-edit"> {{ _('Edit Page') }}</a>
+		</li>
+	{%- endif %}
 {%- endblock %}
