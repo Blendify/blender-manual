@@ -53,7 +53,7 @@ Range
    Set End Frame :kbd:`Ctrl-End`
       Set End of animation range to current playhead position.
    Set Frame Range to Strips
-      Sets the frame range of preview and render animation to the frame range of the selected strip.
+      Sets the frame range of preview and render animation to the frame range of the selected strips.
 
 .. _bpy.ops.sequencer.refresh_all:
 
