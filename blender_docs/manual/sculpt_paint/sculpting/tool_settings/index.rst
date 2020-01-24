@@ -6,7 +6,8 @@
 .. toctree::
    :maxdepth: 2
 
-   brushes/index.rst
+   brushes.rst
+   brush_settings.rst
    dyntopo.rst
    remesh.rst
    symmetry.rst
