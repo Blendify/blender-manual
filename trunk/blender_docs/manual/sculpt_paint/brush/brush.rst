@@ -37,37 +37,3 @@ Brushes
    .. note::
 
       In order to save in a blend-user a custom brush, enable Fake User.
-
-Radius
-   The size of the brush can be changed by the :kbd:`[` and :kbd:`]` shortcuts.
-
-Autosmooth
-   Amount of smoothing to apply to each stroke.
-
-Inverse Autosmooth
-   Lighter pressure causes more smoothing to apply.
-
-Height
-   Simulated height of brush.
-
-
-Options
-=======
-
-Accumulate
-   Accumulate stroke daubs on top of each other.
-
-Radius Unit
-   View
-      Measure brush size relative to the screen.
-   Scene
-      Measure brush size relative to the scene.
-
-Original Normal
-   Keep using the normal of the initial location where the stroke originated.
-
-Front Faces Only
-   Brush only affects vertices that face the viewer.
-
-2D Falloff
-   Apply brush influence in 2D circle instead of a sphere.
