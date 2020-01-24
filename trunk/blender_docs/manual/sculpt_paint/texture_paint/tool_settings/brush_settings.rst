@@ -106,6 +106,16 @@ Affect Alpha
    When this is disabled, it locks (prevents changes to) the alpha channel while painting (3D only).
 
 
+.. toctree::
+   :hidden:
+
+   Texture </sculpt_paint/brush/texture.rst>
+   Texture Mask </sculpt_paint/brush/texture.rst>
+   Stroke </sculpt_paint/brush/stroke.rst>
+   Falloff </sculpt_paint/brush/falloff.rst>
+   Cursor </sculpt_paint/brush/cursor.rst>
+
+
 Texture
 =======
 
