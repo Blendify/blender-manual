@@ -49,5 +49,4 @@ Multiframe
 Keyboard Shortcuts
 ==================
 
-- Smooth stroke toggle :kbd:`Shift`
 - Invert stroke toggle :kbd:`Ctrl`

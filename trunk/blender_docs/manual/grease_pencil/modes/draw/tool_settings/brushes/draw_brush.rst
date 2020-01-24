@@ -133,12 +133,12 @@ Trim Strokes End
 .. _bpy.types.BrushGpencilSettings.use_settings_stabilizer:
 .. _bpy.types.Brush.smooth_stroke:
 
-Stabilizer
-^^^^^^^^^^
+Stabilize Stroke
+^^^^^^^^^^^^^^^^
 
-Stabilizer helps to reduce jitter of the strokes while drawing by
+*Stabilize Stroke* helps to reduce jitter of the strokes while drawing by
 delaying and correcting the location of points.
-You can toggle the use of stabilizer using the checkbox in the section panel header.
+You can toggle the use of *Stabilize Stroke* using the checkbox in the section panel header.
 
 Radius
    Minimum distance from the last point before the stroke continues.

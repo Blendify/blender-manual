@@ -49,22 +49,19 @@ Click and hold :kbd:`LMB` or use the pen tip to make free-hand drawing on the vi
           :width: 200px
 
 
-Stabilizer
-----------
+Stabilize Stroke
+----------------
 
-:kbd:`Shift-LMB` toggle the use of :ref:`Stabilizer <grease-pencil-draw-brushes-stabilizer>`
+:kbd:`Shift-LMB` toggle the use of :ref:`Stabilize Stroke <grease-pencil-draw-brushes-stabilizer>`
 on the brush to have more control while drawing and obtain smoother lines.
 
-.. list-table:: Drawing strokes using Stabilizer.
+.. list-table:: Drawing strokes using *Stabilize Stroke*.
 
    * - .. figure:: /images/grease-pencil_modes_draw_tools_draw-stabilizer-01.png
-          :width: 200px
 
      - .. figure:: /images/grease-pencil_modes_draw_tools_draw-stabilizer-02.png
-          :width: 200px
 
      - .. figure:: /images/grease-pencil_modes_draw_tools_draw-stabilizer-03.png
-          :width: 200px
 
 
 Straight Lines
