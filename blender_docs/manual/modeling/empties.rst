@@ -57,13 +57,13 @@ Display
 
       Use Alpha
          Use alpha blending instead of alpha-test
-         *(blends with the background but can have depth sorting artifacts)*.
+         (blends with the background but can have depth sorting artifacts).
       Opacity
          Fade the image to make it transparent
-         *(uses the Object Color's Alpha component)*.
+         (uses the object *Color*'s alpha component).
       Offset X, Y
          Offset the image origin
-         *(where 1.0 represents the width/height of the image)*.
+         (where 1.0 represents the width/height of the image).
 
          :X=0.5, Y=0.5: Object origin at image center.
          :X=0.0, Y=0.0: Object origin at image bottom, left.
@@ -76,7 +76,7 @@ Display
          .. tip::
 
             When using the image as a reference for modeling,
-            it can be useful to set the depth to *Front*, with a low *Transparency*.
+            it can be useful to set the depth to *Front*, with a low *Opacity*.
 
       Side
          :Both: Display both the front & back of the empty.

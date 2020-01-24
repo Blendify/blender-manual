@@ -825,7 +825,7 @@ This page lists definitions for terms used in Blender and this manual.
       and the rest of the functions are animated.
 
    Weight Painting
-      Assigning :term:`vertices` to a :term:`Vertex Group` with a weight of 0.0 - 1.0.
+      Assigning :term:`vertices` to a :term:`vertex group` with a weight of 0.0 - 1.0.
 
    White Point
       A reference value for white light defined by what happens when all the primaries,

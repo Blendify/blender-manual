@@ -39,9 +39,9 @@ Interpolation Type
    Stepped Linear
       Stepped linear interpolation between From Min and From Max values.
    Smooth Step
-      Smooth hermite edge interpolation between From Min and From Max values.
+      Smooth Hermite edge interpolation between From Min and From Max values.
    Smoother Step
-      Smoother hermite edge interpolation between From Min and From Max values.
+      Smoother Hermite edge interpolation between From Min and From Max values.
 
 Clamp
    If enabled, the output is clamped to the target range.

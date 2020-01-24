@@ -113,17 +113,17 @@ Auto Smooth
 Advanced Smooth Shading & Sharp Edges
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-By default in Blender, with basic normal computing behavior, a **sharp edge** is always defined
+By default in Blender, with basic normal computing behavior, a sharp edge is always defined
 as an edge being either non-manifold, or having at least one of its faces defined as flat.
 
-Enabling the *Auto Smooth* setting adds an extra parameter to define a **sharp edge**,
-the **Angle** threshold between two neighbor faces, above which the edge will always be considered as sharp.
+Enabling the *Auto Smooth* setting adds an extra parameter to define a sharp edge,
+the *Angle* threshold between two neighbor faces, above which the edge will always be considered as sharp.
 
 *Auto Smooth* also enables *Custom Split Normals* handling, which can be either defined (and edited)
 as a :doc:`mesh data layer </modeling/meshes/editing/normals>`, or generated on the fly by modifiers.
 In any case, when a mesh gets custom normals, they always supersede the default ones computed by *Auto Smooth*.
 
-**Sharp edges** may still be used by the custom normals modifiers to compute their normals,
+Sharp edges may still be used by the custom normals modifiers to compute their normals,
 depending on their settings.
 
 

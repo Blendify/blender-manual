@@ -61,6 +61,8 @@ Volumetrics
 - Volumetric lighting does not respect the lights shapes. They are treated as point lights.
 
 
+.. _eevee-limitations-dof:
+
 Depth of Field
 ==============
 
@@ -68,8 +70,6 @@ Depth of Field
 - The near and far defocus buffers are in fact one single continuous texture. This can make some bleeding
   appear on the left and right size of the image. This can be fixed by using the *overscan* feature.
 
-
-.. _eevee-limitations-dof:
 
 Screen Space Effects
 ====================

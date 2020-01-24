@@ -14,7 +14,7 @@ when it operates in *Weight Paint Mode*.
 
 Weight :kbd:`W`
    The weight (color) to be used by the brush.
-   However, the weight value is applied to the Vertex Group
+   However, the weight value is applied to the vertex group
    in different ways depending on the selected Brush Blending mode (see below).
 
    Use :kbd:`Ctrl-LMB` to sample the weight value of clicked vertex.

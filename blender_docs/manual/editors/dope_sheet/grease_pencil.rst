@@ -46,7 +46,7 @@ Header
 Layer Move
    Moves the selected layer/channel up or down in the evaluation stack.
 Layer Add/Remove
-   Adds/removes grease pencil layers/channels.
+   Adds/removes Grease Pencil layers/channels.
 Active Only
    Only show the Grease Pencil data-blocks attached to the current scene and the objects within it.
 
@@ -77,4 +77,4 @@ Interpolated keyframes (alias breakdowns) are visualized as smaller light blue p
 Sidebar
 =======
 
-The sidebar contains a copy of the Grease Pencil :doc:`Layer Properties </grease_pencil/properties/layers>`.
+The Sidebar contains a copy of the Grease Pencil :doc:`Layer Properties </grease_pencil/properties/layers>`.
