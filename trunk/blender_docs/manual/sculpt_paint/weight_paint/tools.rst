@@ -8,7 +8,7 @@ Draw
 
    Blend
       The brush :term:`Blend Modes` defines in which way the weight value is
-      applied to the Vertex Group while painting.
+      applied to the vertex group while painting.
 
       Mix
          In this Blending mode the Weight value defines the *target weight*

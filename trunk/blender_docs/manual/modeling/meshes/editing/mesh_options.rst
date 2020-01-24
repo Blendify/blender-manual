@@ -91,7 +91,8 @@ Auto Merge
    Enables the Auto Merge feature.
 
    Split Edges & Faces
-      Detects the intersection of each transformed edge, creating a new vertex in place and sectioning the edge and the face if any.
+      Detects the intersection of each transformed edge, creating a new vertex in place
+      and sectioning the edge and the face if any.
 
    Threshold
       Defines the maximum distance between vertices that are merged by the *Auto Merge*.

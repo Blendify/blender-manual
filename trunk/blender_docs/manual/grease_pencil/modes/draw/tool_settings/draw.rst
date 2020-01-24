@@ -53,7 +53,7 @@ Stabilize Stroke
 ----------------
 
 :kbd:`Shift-LMB` toggle the use of :ref:`Stabilize Stroke <grease-pencil-draw-brushes-stabilizer>`
-on the brush to have more control while drawing and obtain smoother lines.
+on the brush to have more control while drawing and get smoother lines.
 
 .. list-table:: Drawing strokes using *Stabilize Stroke*.
 

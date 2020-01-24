@@ -56,7 +56,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 
    When you are doing weight painting for deform bones (with an Armature),
    you can select a deform group by selecting the corresponding bone.
-   However, this Vertex Group selection mode is disabled when Selection Masking is active!
+   However, this vertex group selection mode is disabled when Selection Masking is active!
 
 
 Vertex Groups for Particles
