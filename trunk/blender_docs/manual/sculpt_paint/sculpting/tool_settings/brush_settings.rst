@@ -1,20 +1,7 @@
 
-*****
-Basic
-*****
-
-.. admonition:: Reference
-   :class: refbox
-
-   :Mode:      Sculpt Mode
-   :Panel:     :menuselection:`Toolbar --> Tools --> Brushes`
-
-Brush Type
-   TODO.
-
-
+**************
 Brush Settings
-==============
+**************
 
 Radius
    This option controls the radius of the brush, measured in pixels.
@@ -83,3 +70,64 @@ Plane Trim
    Ability to limit the distance that planar brushes act.
    If trim is enabled vertices that are further away from the offset plane than
    the trim distance are ignored during sculpting.
+
+
+Advanced
+========
+
+Sculpt Plane
+   Use this menu to set the plane in which the sculpting takes place.
+   In other words, the primary direction that the vertices will move.
+
+   Area Plane
+      The movement takes place in the direction of average normal for all active vertices within the brush area.
+      Essentially, this means that the direction is dependent on the surface beneath the brush.
+   View Plane
+      Sculpting in the plane of the current 3D View.
+   X, Y, Z Plane
+      The movement takes place in the positive direction of one of the global axes.
+
+Original Normal
+   When locked it keeps using the normal of the surface where stroke was initiated,
+   instead of the surface normal currently under the cursor.
+
+Accumulate
+   Causes stroke dabs to accumulate on top of each other.
+Front Faces Only
+   When enabled, the brush only affects vertices that are facing the viewer.
+
+2D Falloff
+   This turns the brush influence into a cylinder (the depth along the view is ignored) instead of a sphere.
+   It can be used along the outline of a mesh to adjust its silhouette.
+
+.. toctree::
+   :hidden:
+
+   Texture </sculpt_paint/brush/texture.rst>
+   Stroke </sculpt_paint/brush/stroke.rst>
+   Falloff </sculpt_paint/brush/falloff.rst>
+   Cursor </sculpt_paint/brush/cursor.rst>
+
+
+Texture
+=======
+
+See the global brush settings for :doc:`Texture </sculpt_paint/brush/texture>` settings.
+
+
+Stroke
+======
+
+See the global brush settings for :doc:`Stroke </sculpt_paint/brush/stroke>` settings.
+
+
+Falloff
+=======
+
+See the global brush settings for :doc:`Falloff </sculpt_paint/brush/falloff>` settings.
+
+
+Cursor
+======
+
+See the global brush settings for :doc:`Cursor </sculpt_paint/brush/cursor>` settings.
