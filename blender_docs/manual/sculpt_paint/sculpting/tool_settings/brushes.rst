@@ -1,7 +1,7 @@
 
-*****
-Basic
-*****
+*******
+Brushes
+*******
 
 .. admonition:: Reference
    :class: refbox
