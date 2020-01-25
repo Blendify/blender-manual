@@ -6,19 +6,19 @@
 Empties
 *******
 
-The "Empty" is a single coordinate point with no additional geometry.
-Because an Empty has no volume and surface, it cannot be rendered.
+The "empty" is a single coordinate point with no additional geometry.
+Because an empty has no volume and surface, it cannot be rendered.
 Still it can be used as a handle for many purposes.
 
 
 Selecting & Editing
 ===================
 
-An Empty can only be edited in *Object Mode*, which includes its transformation and parenting properties.
+An empty can only be edited in Object Mode, which includes its transformation and parenting properties.
 For other tools see the :doc:`Object section </scene_layout/object/index>`.
 
 Apply Scale :kbd:`Ctrl-A`
-   While Empties don't exactly have any object data attached to them which can be used for supporting
+   While empties don't exactly have any object data attached to them which can be used for supporting
    "true" apply scale (i.e. with non-uniform scaling), they do have *Display Size* which controls how
    large the empties are displayed (before scaling). This works by taking the scale factor on the most-scaled axis,
    and combines this with the existing empty *Display Size* to maintain the correct dimensions on that axis.
@@ -110,7 +110,7 @@ Empties can serve as transform handles. Some examples of ways to use them includ
 
 .. rubric:: Parent object for a group of objects
 
-An Empty can be parented to any number of other objects.
+An empty can be parented to any number of other objects.
 This gives the user the ability to control a group of objects easily, and without affecting a render.
 
 

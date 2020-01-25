@@ -3,7 +3,7 @@
 Fill Brush
 **********
 
-Fill brushes are the special type of brushes that uses *Grease Pencil* for the *Fill* tools.
+Fill brushes are the special type of brushes that uses Grease Pencil for the *Fill* tools.
 The brush can be changed in the Tool Settings.
 
 The different fill brushes are settings variations of the same *Fill Brush*.

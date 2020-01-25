@@ -3,7 +3,7 @@
 Draw Brush
 **********
 
-Draw brushes are the special type of brushes that uses *Grease Pencil* for drawing tools.
+Draw brushes are the special type of brushes that uses Grease Pencil for drawing tools.
 The brush can be changed in the Tool Settings.
 
 The different draw brushes (pencil, Ink, marker, etc.) are settings variations of the same *Draw Brush*.
