@@ -8,7 +8,7 @@ animation frames. It is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
 This mode can be accessed by changing the Dope Sheet editor's *Mode* selector (found in the header to the far left)
-to *Grease Pencil*.
+to Grease Pencil.
 
 To use this editor mode, make sure you have a :doc:`Grease Pencil object </grease_pencil/index>` selected.
 

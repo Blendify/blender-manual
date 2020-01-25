@@ -86,9 +86,8 @@ Visible Objects Only
    Limits the export to scene collections that are currently visible.
 Flatten Hierarchy
    When disabled, parent/child relations between objects are exported too. Any parent object that
-   is not exported itself, but with children that *are* exported, is replaced by an Empty.
-   When enabled, parent/child relations are not exported, and transformations are all written in
-   world coordinates.
+   is not exported itself, but with children that *are* exported, is replaced by an empty.
+   When enabled, parent/child relations are not exported, and transformations are all written in world coordinates.
 
 
 Object Options

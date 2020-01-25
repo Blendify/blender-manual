@@ -3,7 +3,7 @@
 Erase Brush
 ***********
 
-Erase brushes are the special types of brushes that uses *Grease Pencil* for *Erase* tools.
+Erase brushes are the special types of brushes that uses Grease Pencil for *Erase* tools.
 The brush can be changed in the Tool Settings.
 
 Soft and hard eraser brushes are settings variations of the same *Erase Brush*.

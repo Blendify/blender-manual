@@ -182,7 +182,7 @@ Tricks
 
 Sometimes it may be useful to have a different background that is directly visible versus one
 that is indirectly lighting the objects. A simple solution to this is to add a Mix node,
-with the Blend Factor set to Is Camera Ray. The first input color is then the indirect color,
+with the *Blend Factor* set to *Is Camera Ray*. The first input color is then the indirect color,
 and the second the directly visible color. This is useful when using a high-res image for
 the background and a low-res image for the actual lighting.
 
