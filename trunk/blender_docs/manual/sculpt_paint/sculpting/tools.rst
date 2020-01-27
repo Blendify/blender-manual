@@ -64,6 +64,18 @@ Scrape
    The *Scrape* brush works like the *Flatten* brush, but only brings vertices above the plane downwards.
    The inverse of the *Scrape* brush is to *Peak* by pushing vertices above the plane up away from the plane.
 
+Multiplane Scrape
+   Scrapes the mesh with two angled planes at the same time, producing a sharp edge between them.
+   This is useful for creating edges when sculpting hard surface objects.
+
+   Plane Angle
+      The angle between the two planes of the brush, pressing :kbd:`Ctrl` inverts the angle.
+
+   Dynamic Mode
+      When enabled, the base angle is sampled from the mesh surface.
+      The *Plane Angle* controls how much the angle will increase when applying pen pressure.
+      When pressing :kbd:`Ctrl`, it locks the plane angle to 0 degrees.
+
 Pinch/Magnify :kbd:`P`
    Pulls vertices towards the center of the brush.
    The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
