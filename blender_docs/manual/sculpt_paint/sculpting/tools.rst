@@ -76,6 +76,10 @@ Multiplane Scrape
       The *Plane Angle* controls how much the angle will increase when applying pen pressure.
       When pressing :kbd:`Ctrl`, it locks the plane angle to 0 degrees.
 
+   Show Cursor Preview
+      Displays a preview of the two scrape planes
+      and the angle they form instead of the cursor while performing the stroke.
+
 Pinch/Magnify :kbd:`P`
    Pulls vertices towards the center of the brush.
    The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
