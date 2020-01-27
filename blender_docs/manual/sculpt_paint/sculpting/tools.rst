@@ -58,11 +58,21 @@ Flatten :kbd:`Shift-T`
 
 Fill
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
-   The inverse of the *Fill* brush is to *Deepen* by pushing vertices below the plane downward.
+
+   Invert to Scrape
+      When enabled, holding :kbd:`Ctrl` while sculpting
+      changes the brush behavior to be the same as the *Scrape* brush.
+      When disabled, holding :kbd:`Ctrl` while sculpting,
+      will push vertices below the cursor downward.
 
 Scrape
    The *Scrape* brush works like the *Flatten* brush, but only brings vertices above the plane downwards.
-   The inverse of the *Scrape* brush is to *Peak* by pushing vertices above the plane up away from the plane.
+
+   Invert to Fill
+      When enabled, holding :kbd:`Ctrl` while sculpting
+      changes the brush behavior to be the same as the *Fill* brush.
+      When disabled, holding :kbd:`Ctrl` while sculpting,
+      will push vertices above the cursor up away from the cursor.
 
 Multiplane Scrape
    Scrapes the mesh with two angled planes at the same time, producing a sharp edge between them.
