@@ -95,6 +95,12 @@ Rotate
    Rotates vertices within the brush in the direction the cursor is moved. The initial drag direction
    is the zero angle and by rotating around the center you can create a vortex effect.
 
+Slide Relax
+   This brush slides the topology of the mesh in the direction of the stroke
+   without changing the geometrical shape of the mesh.
+   When pressing :kbd:`Shift`, the brush enters *Relax* mode
+   which tries to create an even distribution of quads without deforming the volume of the mesh.
+
 Simplify
    This brush collapses short edges (as defined by the detail size) whether or
    not the *Collapse Short Edges* option is enabled.
@@ -113,6 +119,14 @@ Mask :kbd:`M`
          Mask drawing.
       Smooth :kbd:`Shift`
          Pressing :kbd:`Shift` with the mask brush active will toggle the mask smoothing mode.
+
+Mesh Filter
+   Todo
+
+   Filter Type
+      Relax
+         Tries to create an even distribution of quads without deforming the volume of the mesh.
+         This works the same as the *Relax* mode of the *Slide Relax* brush.
 
 :ref:`Annotate <tool-annotate>`
    Draw free-hand annotation.
