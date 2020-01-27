@@ -10,6 +10,11 @@ Draw :kbd:`X`
    Moves vertices inward or outward,
    based the average normal of the vertices contained within the drawn brush stroke.
 
+Draw Sharp
+   Similar to the *Draw* brush however, it deforms the mesh from the original coordinates
+   and uses the *Sharper* :doc:`Falloff </sculpt_paint/brush/falloff>`.
+   This is useful for creating cloth wrinkles, stylized hair or hard surface edges.
+
 Clay :kbd:`C`
    Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
    It behaves like a combination of the *Flatten* and *Draw* brushes.
@@ -29,7 +34,7 @@ Layer :kbd:`L`
    Set Persistent Base
       This button resets the base so that you can add another layer.
 
-Inflate/Deflate :kbd:`I`
+Inflate :kbd:`I`
    Similar to *Draw*,
    except that vertices in *Inflate* mode are displaced in the direction of their own normals.
 
@@ -44,18 +49,18 @@ Smooth :kbd:`S`
    As the name suggests, eliminates irregularities in the area of the mesh within the brush's
    influence by smoothing the positions of the vertices.
 
-Flatten/Contrast :kbd:`Shift-T`
+Flatten :kbd:`Shift-T`
    The *Flatten* brush determines an "area plane"
    located by default at the average height above/below the vertices within the brush area.
    The vertices are then pulled towards this plane.
    The inverse of the *Flatten* brush is the *Contrast* brush
    which pushes vertices up or down away from the brush plane.
 
-Fill/Deepen
+Fill
    Works like the Flatten brush, but only brings vertices below the brush plane upwards.
    The inverse of the *Fill* brush is to *Deepen* by pushing vertices below the plane downward.
 
-Scrape/Peaks
+Scrape
    The *Scrape* brush works like the *Flatten* brush, but only brings vertices above the plane downwards.
    The inverse of the *Scrape* brush is to *Peak* by pushing vertices above the plane up away from the plane.
 
