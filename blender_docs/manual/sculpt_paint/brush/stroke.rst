@@ -85,7 +85,13 @@ Jitter
       Brush *Jitter* can be affected by enabling the pressure sensitivity icon,
       if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
 Jitter Unit
-   Todo.
+   Controls how the brush *Jitter* is measured.
+
+   View
+      The *Jitter* is measured based on how the cursor appears on the monitor i.e. "screen space".
+   Scene
+      The *Jitter* is measured based on real world units.
+      The unit type and scaling can be configured in the :ref:`Scene Units <bpy.types.UnitSettings>`.
 
 Input Samples
    Recent mouse locations (input samples) are averaged together to smooth brush strokes.
