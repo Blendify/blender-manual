@@ -27,6 +27,8 @@ Extend
    you can set values in the *Active Keyframe* of the Sidebar region.
 
 
+.. _bpy.ops.graph.snap:
+
 Snap
 ====
 
@@ -62,6 +64,8 @@ Flatten Handles
              After Flatten Handles.
 
 
+.. _bpy.ops.graph.mirror:
+
 Mirror
 ======
 
@@ -85,6 +89,8 @@ By Times over First Selected Marker
    Mirror horizontally over the first selected *Marker*.
 
 
+.. _bpy.ops.graph.keyframe_insert:
+
 Insert Keyframes
 ================
 
@@ -98,6 +104,14 @@ Insert Keyframes
 The newly added keyframes will be selected, making it easier to quickly tweak the newly added keyframes.
 All previously selected keyframes are kept selected by using :kbd:`Shift-Ctrl-LMB`.
 
+
+Add F-Curve Modifier
+====================
+
+Todo.
+
+
+.. _bpy.ops.graph.sound_bake:
 
 Bake Sound to F-Curves
 ======================
@@ -135,6 +149,63 @@ Square
       All values lower than this threshold result in 0.
 
 
+.. _bpy.ops.graph.frame_jump:
+
+Jump to Keyframe
+================
+
+Todo.
+
+
+.. _bpy.ops.graph.copy:
+.. _bpy.ops.graph.paste:
+
+Copy/Paste
+==========
+
+Todo.
+
+
+.. _bpy.ops.graph.duplicate_move:
+
+Duplicate
+=========
+
+Todo.
+
+
+.. _bpy.ops.graph.delete:
+
+Delete Keyframs
+===============
+
+Todo.
+
+
+.. _bpy.ops.graph.handle_type:
+
+Handle Type
+===========
+
+Todo.
+
+
+.. _bpy.ops.graph.interpolation_type:
+
+Interpolation Mode
+==================
+
+Todo.
+
+
+.. _bpy.ops.graph.easing_type:
+
+Easing Mode
+===========
+
+Todo.
+
+
 .. _bpy.ops.graph.decimate:
 
 Decimate
@@ -160,6 +231,8 @@ Mode
       The amount of change is controlled by the *Max Error Margin*
       which controls how much the new decimated curve is allowed to deviate from the original.
 
+
+.. _bpy.ops.graph.clean:
 
 Clean Keyframes
 ===============
@@ -205,6 +278,8 @@ it's not being used by any generative f-curve modifiers or drivers.
    (by selecting all bones and pressing :kbd:`I` for instance).
 
 
+.. _bpy.ops.graph.smooth:
+
 Smooth Keys
 ===========
 
@@ -230,6 +305,8 @@ seem to be never modified by this tool.
           F-Curve after smoothing.
 
 
+.. _bpy.ops.graph.sample:
+
 Sample Keyframes
 ================
 
@@ -252,6 +329,8 @@ Sampling a set of keyframes replaces interpolated values with a new keyframe for
           F-Curve after sampling.
 
 
+.. _bpy.ops.graph.bake:
+
 Bake Curve
 ==========
 
@@ -262,3 +341,11 @@ Bake Curve
    :Hotkey:    :kbd:`Alt-C`
 
 Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
+
+
+.. _bpy.ops.graph.euler_filter:
+
+Discontinuity (Euler) Filter
+============================
+
+Todo.
