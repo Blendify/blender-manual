@@ -135,6 +135,32 @@ Square
       All values lower than this threshold result in 0.
 
 
+.. _bpy.ops.graph.decimate:
+
+Decimate
+========
+
+.. admonition:: Reference
+   :class: refbox
+
+   :Menu:      :menuselection:`Key --> Decimate (Ratio)`
+   :Menu:      :menuselection:`Key --> Decimate (Allowed Change)`
+
+The *Decimate* operator simplifies a F-Curve by removing
+keyframes that influence the curve shape the least.
+
+Mode
+   Controls which method is used pick the number of keyframes to use.
+
+   Ratio
+      Deletes a defined percentage of keyframes,
+      the amount of keyframes to delete is define by the *Remove* property.
+   Error Margin
+      Deletes keyframes which only allowing the F-Curve to change by a defined amount.
+      The amount of change is controlled by the *Max Error Margin*
+      which controls how much the new decimated curve is allowed to deviate from the original.
+
+
 Clean Keyframes
 ===============
 
