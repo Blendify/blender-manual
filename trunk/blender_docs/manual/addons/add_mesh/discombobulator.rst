@@ -3,9 +3,6 @@
 Discombobulator
 ***************
 
-Introduction
-============
-
 This add-on creates a greeble object based on selected faces.
 It quickly creates science fiction style panels across your mesh.
 

@@ -3,9 +3,6 @@
 Assign Shape Keys
 *****************
 
-Introduction
-============
-
 This add-on lets you assign one or more Bézier curve(s) as shape keys to other curve.
 Useful for morphing curves and curve based text objects.
 

@@ -3,10 +3,6 @@
 Add Mesh Extra Objects
 **********************
 
-
-Introduction
-============
-
 This add-on groups many mesh object creation add-ons into a single one.
 
 

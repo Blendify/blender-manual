@@ -4,9 +4,6 @@
 POV-Ray 3.7
 ***********
 
-Introduction
-============
-
 POV-Ray is an SDL based (Scene Description Language) render engine with a long history
 that makes it very stable and feature rich.
 The latest version of POV-Ray 3.7 can be found at the `project site <http://www.povray.org/download/>`__.

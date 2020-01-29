@@ -6,9 +6,6 @@ Collection Manager
 .. figure:: /images/addons_interface_collection_manager.png
    :align: center
 
-Introduction
-============
-
 This add-on adds new functionality for the management of collections via the 3D Viewport.
 
 
@@ -33,6 +30,7 @@ Features:
 - Restriction Toggle state with advanced manipulation.
 - Filtering display of collections (filter by name, filter by selected objects).
 - Phantom Mode – All visibility changes made in this mode will be discarded when it’s disabled.
+
 
 Shortcuts: (3D View -> Object Mode only)
 ----------------------------------------
@@ -60,8 +58,10 @@ Shortcuts: (3D View -> Object Mode only)
   - :kbd:`LMB` - Enable the RTO for all collections. Click again to restore the previous state.
   - :kbd:`Shift-LMB` - Invert the RTO's state on all collections.
 
+
 Other Functions:
 ----------------
+
 - **View layer options (from left to right)**
 
   - Enable/Disable rendering of this view layer.
