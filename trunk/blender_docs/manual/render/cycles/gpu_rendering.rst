@@ -26,11 +26,21 @@ NVIDIA
 :abbr:`CUDA (Compute Unified Device Architecture)` and Optix
 are supported for GPU rendering with *NVIDIA* graphics cards.
 
+
+CUDA
+^^^^
+
 CUDA requires graphics cards with compute capability 3.0 and higher.
 To make sure your GPU is supported,
 see the `list of NVIDIA graphics cards <https://developer.nvidia.com/cuda-gpus>`__
 with the compute capabilities and supported graphics cards.
 CUDA GPU rendering is supported on Windows, macOS, and Linux.
+
+
+.. _render-cycles-gpu-optix:
+
+Optix
+^^^^^
 
 For RTX graphics cards with hardware ray tracing support (e.g. Turing), Optix can be used for better performance.
 Optix support is still experimental and does not yet support all features, see below for details.
@@ -62,7 +72,7 @@ CUDA and OpenCL rendering supports all the same features as CPU rendering, excep
 Optix support is experimental and does not yet support the following features:
 
 - Baking
-- Brachend Path Tracing
+- Branched Path Tracing
 - Ambient Occlusion and Bevel shader nodes
 - Combined CPU + GPU rendering
 - Using CPU memory for bigger scenes
