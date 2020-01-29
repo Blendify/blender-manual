@@ -3,9 +3,6 @@
 Curve Tools
 ***********
 
-Introduction
-============
-
 This add-on provides an extensive set of tools for the manipulating
 and editing of curves. Several :abbr:`CAD (Computer-Aided Design)` style curve tools are included.
 

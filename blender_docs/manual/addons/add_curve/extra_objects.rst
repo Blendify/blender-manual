@@ -3,9 +3,6 @@
 Add Curve Extra Objects
 ***********************
 
-Introduction
-============
-
 This add-on groups many curve object creation add-ons into a single one.
 
 .. figure:: /images/addons_curve_extra_objects_torus.jpg

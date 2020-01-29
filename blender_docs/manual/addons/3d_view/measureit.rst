@@ -3,9 +3,6 @@
 Measureit
 *********
 
-Introduction
-============
-
 MeasureIt is an add-on designed for displaying measures in the viewport,
 making the process of design objects with exact measures, easier.
 These tools are extremely useful for any job that requires exact measurements,

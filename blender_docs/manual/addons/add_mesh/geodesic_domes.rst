@@ -3,10 +3,6 @@
 Geodesic Domes
 **************
 
-
-Introduction
-============
-
 Original introduction from Andy Houston (Blender 2.4 series)
 
 - Geodesic spheres based on icosahedrons, octahedrons and tetrahedrons.
